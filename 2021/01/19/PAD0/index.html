@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
+  <link rel="mask-icon" href="/images/favicon.ico" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"yousazoe.top","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":"ture","show_result":false,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="本文将介绍Aseprite的编译安装方法。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Aseprite教学-Aseprite编译教程">
+<meta property="og:url" content="http://yousazoe.top/2021/01/19/PAD0/index.html">
+<meta property="og:site_name" content="Fl0w3r">
+<meta property="og:description" content="本文将介绍Aseprite的编译安装方法。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gmsw88l638j30q60a677k.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gmsw891ap7j30w0066jtl.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gmsw89jgzaj318v0u0dhr.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn03cgss93j30k008674l.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn03ciigs7j30k0089glu.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn03chm5h8j31hc0rtjs8.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn03cjhbh1j30dc07i0u9.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn03ch4ldhj30k00bjgms.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn03cj1xxuj30k00arq5x.jpg">
+<meta property="article:published_time" content="2021-01-19T04:07:42.000Z">
+<meta property="article:modified_time" content="2021-01-25T09:58:21.507Z">
+<meta property="article:author" content="Yousazoe">
+<meta property="article:tag" content="Aseprite">
+<meta property="article:tag" content="CMake">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gmsw88l638j30q60a677k.jpg">
+
+<link rel="canonical" href="http://yousazoe.top/2021/01/19/PAD0/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Aseprite教学-Aseprite编译教程 | Fl0w3r</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Fl0w3r</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">牵马观潮落，提剑纵天涯</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-address-card fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a>
+
+  </li>
+        <li class="menu-item menu-item-commonweal">
+
+    <a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>公益 404</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yousazoe.top/2021/01/19/PAD0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/cat.png">
+      <meta itemprop="name" content="Yousazoe">
+      <meta itemprop="description" content="藏剑若锋，养心若鱼">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fl0w3r">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Aseprite教学-Aseprite编译教程
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-01-19 12:07:42" itemprop="dateCreated datePublished" datetime="2021-01-19T12:07:42+08:00">2021-01-19</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-01-25 17:58:21" itemprop="dateModified" datetime="2021-01-25T17:58:21+08:00">2021-01-25</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%83%8F%E7%B4%A0%E7%BE%8E%E5%B7%A5-Pixel-Art-Designing/" itemprop="url" rel="index"><span itemprop="name">像素美工(Pixel Art Designing)</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%83%8F%E7%B4%A0%E7%BE%8E%E5%B7%A5-Pixel-Art-Designing/Aseprite%E6%95%99%E5%AD%A6-Aseprite-Tutorial/" itemprop="url" rel="index"><span itemprop="name">Aseprite教学(Aseprite Tutorial)</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>本文将介绍Aseprite的编译安装方法。</p>
+<a id="more"></a>
+
+
+
+<h3 id="官方说明文档"><a href="#官方说明文档" class="headerlink" title="官方说明文档"></a>官方说明文档</h3><h4 id="Platforms"><a href="#Platforms" class="headerlink" title="Platforms"></a>Platforms</h4><p>You should be able to compile Aseprite successfully on the following platforms:</p>
+<ul>
+<li>Windows 10 + <a target="_blank" rel="noopener" href="https://imgur.com/a/7zs51IT">Visual Studio Community 2019 + Windows 10.0.18362.0 SDK</a> (we don’t support <a target="_blank" rel="noopener" href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#mingw">MinGW</a>)</li>
+<li>macOS 10.15.3 Mojave + Xcode 11.2.1 + macOS 10.15 SDK (older version might work)</li>
+<li>Linux + gcc 9.2 or clang 9.0</li>
+</ul>
+<h4 id="Get-the-source-code"><a href="#Get-the-source-code" class="headerlink" title="Get the source code"></a>Get the source code</h4><p>You can get the source code downloading a <code>Aseprite-v1.x-Source.zip</code> file from the latest Aseprite release (<em>in that case please follow the compilation instructions inside the <code>.zip</code> file</em>):</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/aseprite/aseprite/releases">https://github.com/aseprite/aseprite/releases</a></p>
+<p>Or you can clone the repository and all its submodules using the following command:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone --recursive https:&#x2F;&#x2F;github.com&#x2F;aseprite&#x2F;aseprite.git</span><br></pre></td></tr></table></figure>
+<p>To update an existing clone you can use the following commands:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">git pull</span><br><span class="line">git submodule update --init --recursive</span><br></pre></td></tr></table></figure>
+<p>You can use <a target="_blank" rel="noopener" href="https://git-for-windows.github.io/">Git for Windows</a> to clone the repository on Windows.</p>
+<h4 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h4><p>To compile Aseprite you will need:</p>
+<ul>
+<li>The latest version of <a target="_blank" rel="noopener" href="https://cmake.org/">CMake</a> (3.14 or greater)</li>
+<li><a target="_blank" rel="noopener" href="https://ninja-build.org/">Ninja</a> build system</li>
+<li>And a compiled version of the <code>aseprite-m81</code> branch of the <a target="_blank" rel="noopener" href="https://github.com/aseprite/skia#readme">Skia library</a>. There are <a target="_blank" rel="noopener" href="https://github.com/aseprite/skia/releases">pre-built packages available</a>. You can get some extra information in the <a target="_blank" rel="noopener" href="https://github.com/aseprite/laf#dependencies"><em>laf</em> dependencies</a> page.</li>
+</ul>
+<h5 id="Windows-dependencies"><a href="#Windows-dependencies" class="headerlink" title="Windows dependencies"></a>Windows dependencies</h5><ul>
+<li>Windows 10 (we don’t support cross-compiling)</li>
+<li><a target="_blank" rel="noopener" href="https://visualstudio.microsoft.com/downloads/">Visual Studio Community 2019</a> (we don’t support <a target="_blank" rel="noopener" href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#mingw">MinGW</a>)</li>
+<li>The <a target="_blank" rel="noopener" href="https://imgur.com/a/7zs51IT">Desktop development with C++ item + Windows 10.0.18362.0 SDK</a> from the Visual Studio installer</li>
+</ul>
+<h5 id="macOS-dependencies"><a href="#macOS-dependencies" class="headerlink" title="macOS dependencies"></a>macOS dependencies</h5><p>On macOS you will need macOS 10.15 SDK and Xcode 11.2.1 (older versions might work).</p>
+<h5 id="Linux-dependencies"><a href="#Linux-dependencies" class="headerlink" title="Linux dependencies"></a>Linux dependencies</h5><p>You will need the following dependencies on Ubuntu/Debian:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install -y g++ cmake ninja-build libx11-dev libxcursor-dev libxi-dev libgl1-mesa-dev libfontconfig1-dev</span><br></pre></td></tr></table></figure>
+<p>On Fedora:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf install -y gcc-c++ cmake ninja-build libX11-devel libXcursor-devel libXi-devel mesa-libGL-devel fontconfig-devel</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="Compiling"><a href="#Compiling" class="headerlink" title="Compiling"></a>Compiling</h4><ol>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#get-the-source-code">Get Aseprite code</a>, put it in a folder like <code>C:\aseprite</code>, and create a <code>build</code> directory inside to leave all the files that are result of the compilation process (<code>.exe</code>, <code>.lib</code>, <code>.obj</code>, <code>.a</code>, <code>.o</code>, etc).</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd C:\aseprite</span><br><span class="line">mkdir build</span><br></pre></td></tr></table></figure>
+<p>In this way, if you want to start with a fresh copy of Aseprite source code, you can remove the <code>build</code> directory and start again.</p>
+</li>
+<li><p>Enter in the new directory and execute <code>cmake</code>:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd C:\aseprite\build</span><br><span class="line">cmake -G Ninja -DLAF_BACKEND&#x3D;skia ..</span><br></pre></td></tr></table></figure>
+<p>Here <code>cmake</code> needs different options depending on your platform. You must check the details for <a target="_blank" rel="noopener" href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#windows-details">Windows</a>, <a target="_blank" rel="noopener" href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#macos-details">macOS</a>, and <a target="_blank" rel="noopener" href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#linux-details">Linux</a>. Some <code>cmake</code> options can be modified using tools like <a target="_blank" rel="noopener" href="https://cmake.org/cmake/help/latest/manual/ccmake.1.html"><code>ccmake</code></a> or <a target="_blank" rel="noopener" href="https://cmake.org/cmake/help/latest/manual/cmake-gui.1.html"><code>cmake-gui</code></a>.</p>
+</li>
+<li><p>After you have executed and configured <code>cmake</code>, you have to compile the project:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd C:\aseprite\build</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure></li>
+<li><p>When <code>ninja</code> finishes the compilation, you can find the executable inside <code>C:\aseprite\build\bin\aseprite.exe</code>.</p>
+</li>
+</ol>
+<h5 id="Windows-details"><a href="#Windows-details" class="headerlink" title="Windows details"></a>Windows details</h5><p>Open a <a target="_blank" rel="noopener" href="https://docs.microsoft.com/en-us/dotnet/framework/tools/developer-command-prompt-for-vs">developer command prompt</a> or in the command line (<code>cmd.exe</code>) call:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">call &quot;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat&quot; -arch&#x3D;x64</span><br></pre></td></tr></table></figure>
+<p>And then</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo -DLAF_BACKEND&#x3D;skia -DSKIA_DIR&#x3D;C:\deps\skia -DSKIA_LIBRARY_DIR&#x3D;C:\deps\skia\out\Release-x64 -DSKIA_LIBRARY&#x3D;C:\deps\skia\out\Release-x64\skia.lib -G Ninja ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
+<p>In this case, <code>C:\deps\skia</code> is the directory where Skia was compiled or uncompressed.</p>
+<h6 id="MinGW"><a href="#MinGW" class="headerlink" title="MinGW"></a>MinGW</h6><p>We don’t support MinGW compiler and it might bring some problems into the compilation process. If you see that the detected C++ compiler by cmake is <code>C:\MinGW\bin\c++.exe</code> or something similar, you have to get rid of MinGW path (<code>C:\MinGW\bin</code>) from the <code>PATH</code> environment variable and run cmake again from scratch, so the Visual Studio C++ compiler (<code>cl.exe</code>) is used instead.</p>
+<p>You can define the <code>CMAKE_IGNORE_PATH</code> variable when running cmake for the first time in case that you don’t know or don’t want to modify the <code>PATH</code> variable, e.g.:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cmake -DCMAKE_IGNORE_PATH&#x3D;C:\MinGW\bin ...</span><br></pre></td></tr></table></figure>
+<p>More information in <a target="_blank" rel="noopener" href="https://github.com/aseprite/aseprite/issues/2449">issue #2449</a></p>
+<h5 id="macOS-details"><a href="#macOS-details" class="headerlink" title="macOS details"></a>macOS details</h5><p>Run <code>cmake</code> with the following parameters and then <code>ninja</code>:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake \</span><br><span class="line">  -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo \</span><br><span class="line">  -DCMAKE_OSX_ARCHITECTURES&#x3D;x86_64 \</span><br><span class="line">  -DCMAKE_OSX_DEPLOYMENT_TARGET&#x3D;10.9 \</span><br><span class="line">  -DCMAKE_OSX_SYSROOT&#x3D;&#x2F;Applications&#x2F;Xcode.app&#x2F;Contents&#x2F;Developer&#x2F;Platforms&#x2F;MacOSX.platform&#x2F;Developer&#x2F;SDKs&#x2F;MacOSX10.15.sdk \</span><br><span class="line">  -DLAF_BACKEND&#x3D;skia \</span><br><span class="line">  -DSKIA_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia \</span><br><span class="line">  -DSKIA_LIBRARY_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64 \</span><br><span class="line">  -DSKIA_LIBRARY&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64&#x2F;libskia.a \</span><br><span class="line">  -G Ninja \</span><br><span class="line">  ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
+<p>In this case, <code>$HOME/deps/skia</code> is the directory where Skia was compiled or downloaded. Make sure that <code>CMAKE_OSX_SYSROOT</code> is pointing to the correct SDK directory (in this case <code>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk</code>), but it could be different in your Mac.</p>
+<h5 id="Issues-with-Retina-displays"><a href="#Issues-with-Retina-displays" class="headerlink" title="Issues with Retina displays"></a>Issues with Retina displays</h5><p>If you have a Retina display, check the following issue:</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/aseprite/aseprite/issues/589">https://github.com/aseprite/aseprite/issues/589</a></p>
+<h5 id="Linux-details"><a href="#Linux-details" class="headerlink" title="Linux details"></a>Linux details</h5><p>Run <code>cmake</code> with the following parameters and then <code>ninja</code>:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake \</span><br><span class="line">  -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo \</span><br><span class="line">  -DLAF_BACKEND&#x3D;skia \</span><br><span class="line">  -DSKIA_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia \</span><br><span class="line">  -DSKIA_LIBRARY_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64 \</span><br><span class="line">  -DSKIA_LIBRARY&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64&#x2F;libskia.a \</span><br><span class="line">  -G Ninja \</span><br><span class="line">  ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
+<p>In this case, <code>$HOME/deps/skia</code> is the directory where Skia was compiled or uncompressed.</p>
+<h4 id="Using-shared-third-party-libraries"><a href="#Using-shared-third-party-libraries" class="headerlink" title="Using shared third party libraries"></a>Using shared third party libraries</h4><p>If you don’t want to use the embedded code of third party libraries (i.e. to use your installed versions), you can disable static linking configuring each <code>USE_SHARED_</code> option.</p>
+<p>After running <code>cmake -G</code>, you can edit <code>build/CMakeCache.txt</code> file, and enable the <code>USE_SHARED_</code> flag (set its value to <code>ON</code>) of the library that you want to be linked dynamically.</p>
+<h3 id="Brew安装"><a href="#Brew安装" class="headerlink" title="Brew安装"></a>Brew安装</h3><p>如果你的电脑没有安装brew，那么先打开MAC的终端，输入如下命令</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; &lt; /dev/null 2&gt; /dev/null ; brew install caskroom/cask/brew-cask 2&gt; /dev/null</span><br></pre></td></tr></table></figure>
+<p>安装过程会提示你输入密码，输入密码后继续</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gmsw88l638j30q60a677k.jpg"></p>
+<p>安装brew之后输入命令</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew cask install aseprite</span><br></pre></td></tr></table></figure>
+<p>安装成功，信息输出如下</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gmsw891ap7j30w0066jtl.jpg"></p>
+<p>之后你可以在MAC的启动台启动Aseprite进行像素绘画啦！</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gmsw89jgzaj318v0u0dhr.jpg"></p>
+<h3 id="汉化"><a href="#汉化" class="headerlink" title="汉化"></a>汉化</h3><p>在steam社区中有非常详细的指南，推荐参考</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn03cgss93j30k008674l.jpg"></p>
+<p>汉化和主题的所需文件都在这里：<a href="https://link.zhihu.com/?target=https://github.com/J-11/Aseprite-Simplified-Chinese/blob/master/README.md">https://github.com/J-11/Aseprite-Simplified-Chinese/blob/master/README.md</a></p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn03ciigs7j30k0089glu.jpg"></p>
+<p>顶部菜单栏“Edit”&gt;&gt;“Preferences”&gt;&gt;“Extensions”&gt;&gt;“Add Extensions”&gt;&gt;选择下载的文件导入即可，如果汉化后字体模糊，则需要使用字体主题包</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn03chm5h8j31hc0rtjs8.jpg"></p>
+<p>汉化成功！尽情享受！</p>
+<h3 id="题外话"><a href="#题外话" class="headerlink" title="题外话"></a>题外话</h3><p>结尾再给大家分享几张像素画，全文中的像素画作者皆为：来自日本的1041uuu（丰井佑太）</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn03cjhbh1j30dc07i0u9.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn03ch4ldhj30k00bjgms.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn03cj1xxuj30k00arq5x.jpg"></p>
+<p>推荐一个像素艺术网站：<a href="https://link.zhihu.com/?target=https://www.pixilart.com/">https://www.pixilart.com/</a></p>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
+<li><a target="_blank" rel="noopener" href="http://macappstore.org/aseprite/">Install Aseprite on Mac OSX</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.bestgcc.cn/20181204194300.html">Mac 编译安装 Aseprite</a></li>
+<li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/156775243">【Aseprite】像素绘制软件编译（白嫖）教程</a></li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Aseprite/" rel="tag"># Aseprite</a>
+              <a href="/tags/CMake/" rel="tag"># CMake</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/01/13/UNITY5/" rel="prev" title="C#中级编程">
+      <i class="fa fa-chevron-left"></i> C#中级编程
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/01/26/hello-world/" rel="next" title="Hello World">
+      Hello World <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%98%E6%96%B9%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3"><span class="nav-number">1.</span> <span class="nav-text">官方说明文档</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Platforms"><span class="nav-number">1.1.</span> <span class="nav-text">Platforms</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Get-the-source-code"><span class="nav-number">1.2.</span> <span class="nav-text">Get the source code</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Dependencies"><span class="nav-number">1.3.</span> <span class="nav-text">Dependencies</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Windows-dependencies"><span class="nav-number">1.3.1.</span> <span class="nav-text">Windows dependencies</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#macOS-dependencies"><span class="nav-number">1.3.2.</span> <span class="nav-text">macOS dependencies</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Linux-dependencies"><span class="nav-number">1.3.3.</span> <span class="nav-text">Linux dependencies</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Compiling"><span class="nav-number">1.4.</span> <span class="nav-text">Compiling</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Windows-details"><span class="nav-number">1.4.1.</span> <span class="nav-text">Windows details</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#MinGW"><span class="nav-number">1.4.1.1.</span> <span class="nav-text">MinGW</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#macOS-details"><span class="nav-number">1.4.2.</span> <span class="nav-text">macOS details</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Issues-with-Retina-displays"><span class="nav-number">1.4.3.</span> <span class="nav-text">Issues with Retina displays</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Linux-details"><span class="nav-number">1.4.4.</span> <span class="nav-text">Linux details</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Using-shared-third-party-libraries"><span class="nav-number">1.5.</span> <span class="nav-text">Using shared third party libraries</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Brew%E5%AE%89%E8%A3%85"><span class="nav-number">2.</span> <span class="nav-text">Brew安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B1%89%E5%8C%96"><span class="nav-number">3.</span> <span class="nav-text">汉化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%98%E5%A4%96%E8%AF%9D"><span class="nav-number">4.</span> <span class="nav-text">题外话</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E8%80%83"><span class="nav-number">5.</span> <span class="nav-text">参考</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Yousazoe"
+      src="/images/cat.png">
+  <p class="site-author-name" itemprop="name">Yousazoe</p>
+  <div class="site-description" itemprop="description">藏剑若锋，养心若鱼</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">76</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">29</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">44</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Yousazoe" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Yousazoe" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.weibo.com/6034231696/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" title="Weibo → https:&#x2F;&#x2F;www.weibo.com&#x2F;6034231696&#x2F;profile?rightmod&#x3D;1&amp;wvr&#x3D;6&amp;mod&#x3D;personinfo&amp;is_all&#x3D;1" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.notion.so/yousazoe/b7dd2d1a6319471786793971d6373153?v=d64a4d0f608c47f7b16ee1d56323b075" title="Notion → https:&#x2F;&#x2F;www.notion.so&#x2F;yousazoe&#x2F;b7dd2d1a6319471786793971d6373153?v&#x3D;d64a4d0f608c47f7b16ee1d56323b075" rel="noopener" target="_blank"><i class="fa fa-gamepad fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://steamcommunity.com/profiles/76561198856466228/" title="Steam → https:&#x2F;&#x2F;steamcommunity.com&#x2F;profiles&#x2F;76561198856466228&#x2F;" rel="noopener" target="_blank"><i class="fab fa-steam fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.chess.com/member/yousazoe" title="Chess → https:&#x2F;&#x2F;www.chess.com&#x2F;member&#x2F;yousazoe" rel="noopener" target="_blank"><i class="fa fa-chess-pawn fa-fw"></i></a>
+      </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yousazoe</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
