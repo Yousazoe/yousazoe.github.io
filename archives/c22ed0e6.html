@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
+  <link rel="mask-icon" href="/images/favicon.ico" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"yousazoe.top","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":"ture","show_result":false,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解俯视跑步循环、闪电效果、故障效果和关卡设计流程。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="像素宝典#2">
+<meta property="og:url" content="http://yousazoe.top/archives/c22ed0e6.html">
+<meta property="og:site_name" content="Fl0w3r">
+<meta property="og:description" content="这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解俯视跑步循环、闪电效果、故障效果和关卡设计流程。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth1mvn7j30u008c74z.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0081Kckwgy1gljtjoj81ag30e80e8e81.gif">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0081Kckwgy1gljtjpfq75g30e80e8e81.gif">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth22dutg30e80e80xa.gif">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth3spung30e80e8ael.gif">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth31xq5g30e80e8tem.gif">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth4c7j2g30e80e8ter.gif">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth2gk2ag30e80e8qeb.gif">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth5ccmdg30e80e87fd.gif">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth3l2xag30e80e8tea.gif">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth4yfjgg30e80e8grw.gif">
+<meta property="article:published_time" content="2020-12-11T04:42:38.000Z">
+<meta property="article:modified_time" content="2020-12-18T08:50:33.902Z">
+<meta property="article:author" content="Yousazoe">
+<meta property="article:tag" content="Reprint">
+<meta property="article:tag" content="Art">
+<meta property="article:tag" content="Pixel">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth1mvn7j30u008c74z.jpg">
+
+<link rel="canonical" href="http://yousazoe.top/archives/c22ed0e6.html">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>像素宝典#2 | Fl0w3r</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Fl0w3r</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">牵马观潮落，提剑纵天涯</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-address-card fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a>
+
+  </li>
+        <li class="menu-item menu-item-commonweal">
+
+    <a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>公益 404</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yousazoe.top/archives/c22ed0e6.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/cat.png">
+      <meta itemprop="name" content="Yousazoe">
+      <meta itemprop="description" content="藏剑若锋，养心若鱼">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fl0w3r">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          像素宝典#2
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-12-11 12:42:38" itemprop="dateCreated datePublished" datetime="2020-12-11T12:42:38+08:00">2020-12-11</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%83%8F%E7%B4%A0%E7%BE%8E%E5%B7%A5-Pixel-Art-Designing/" itemprop="url" rel="index"><span itemprop="name">像素美工(Pixel Art Designing)</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%83%8F%E7%B4%A0%E7%BE%8E%E5%B7%A5-Pixel-Art-Designing/%E5%83%8F%E7%B4%A0%E5%AE%9D%E5%85%B8-Pixel-Dictionary/" itemprop="url" rel="index"><span itemprop="name">像素宝典(Pixel Dictionary)</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解俯视跑步循环、闪电效果、故障效果和关卡设计流程。</p>
+<a id="more"></a>
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth1mvn7j30u008c74z.jpg"></p>
+<h3 id="像素画基础-1"><a href="#像素画基础-1" class="headerlink" title="像素画基础 1"></a>像素画基础 1</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljtjoj81ag30e80e8e81.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljtjpfq75g30e80e8e81.gif"></p>
+<p>降噪是大家选出的主题！（在 patreon 上有投票）我在此基础上拓展了一下，结果就稍微复杂了些，而且加了其他方面的讲解，所以这节就叫像素画基础1了。</p>
+<p>还有些图里装不下的 tips：</p>
+<ul>
+<li>颜色总数不要过多。（保持 32 种以下）。</li>
+<li>大块的区域考虑用平直的颜色，让眼睛从细节区域出来后休息一下。</li>
+<li>如果你在尝试往很小的区域塞大量细节，考虑一下修改画面，改为更简洁的设计。</li>
+<li>别加入很多的圆柱或者圆形的东西，这些类型在像素画里很难描绘出来。立方体这种容易些。</li>
+<li>用轮廓表现出你想要的东西，内部区域细节少些。</li>
+</ul>
+<p>重申一下，我并不是说这些都是正确的做法，这只是我的做法。</p>
+<p>关于抖动：我不反对它，只是过多的抖动并不适合我的风格。我有时候也用，或者是调色盘颜色受限的时候。我算是个“抖动好奇者”，可能有一天我会发现一种我喜欢抖动。</p>
+<h3 id="俯视角跑步循环"><a href="#俯视角跑步循环" class="headerlink" title="俯视角跑步循环"></a>俯视角跑步循环</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth22dutg30e80e80xa.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth3spung30e80e8ael.gif"></p>
+<p>这不是俯视角跑步循环的唯一做法。我选这种是因为我通常这样画，而且这是我能想到最简单的方式。</p>
+<p>我一般重点关注 3 帧的跳跃帧和 2 帧的恢复帧，之后再用其他动画，像头发的运动，衣服等等来把这些都连起来。</p>
+<p>也可以只用一帧跳跃和一帧恢复做个超简洁动画，不过看起来不太顺滑。</p>
+<p>实话讲这个侧视角我自己也不太满意，我以后会再研究一下。</p>
+<p>感谢大家支持。</p>
+<h3 id="闪电"><a href="#闪电" class="headerlink" title="闪电"></a>闪电</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth31xq5g30e80e8tem.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth4c7j2g30e80e8ter.gif"></p>
+<p>我个人做闪电类的东西遵守的法则就是让所有东西都闪烁，非常闪。而且会做成 24 帧，看起来就比较顺滑。</p>
+<p>闪电是很快的，所以第一帧就应该是最大，然后逐渐消散。</p>
+<p>一开始我会把闪电画得很尖锐，然后消散过程中逐渐变柔和。尽管实际生活中闪电几乎没有这么尖锐的，但我发现在动画里这么画效果很好。</p>
+<p>画闪电类的东西我一般会加点烟雾，你可以参考之前的烟雾教程。</p>
+<h3 id="故障效果"><a href="#故障效果" class="headerlink" title="故障效果"></a>故障效果</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth2gk2ag30e80e8qeb.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth5ccmdg30e80e87fd.gif"></p>
+<p>我总会参考身边真实的故障效果。像商场里坏掉的显示器，商店的广告牌里的诡异故障效果，或者是我自己的显卡崩了的时候。</p>
+<p>我会去注意这个故障效果实际上是做了什么，是把所有东西都往左移？绿色显示不出来？还是所有东西都变成了乱七八糟的噪点？</p>
+<p>我会分析这些真实的故障效果，并把它们变得更好看，更酷。对我来说，目的就是达到它看起来不是真的，但又不会太假。</p>
+<h3 id="关卡设计流程"><a href="#关卡设计流程" class="headerlink" title="关卡设计流程"></a>关卡设计流程</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth3l2xag30e80e8tea.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth4yfjgg30e80e8grw.gif"></p>
+<p>关卡设计不是我的特长，而且这方面各人有不同的理解，所以这里的都是我设计关卡时候的想法，不是法则。</p>
+<p>对于我来说乐趣的核心就是学习。这也是为什么每次我在关卡里加了东西，都会问自己：“这里我是要教什么？”以及“我需要玩家做什么？”。</p>
+<p>另外一个重要的点就是节奏。我会在一些困难的区域之后，加上一些安全区域或者是强力道具，让玩家能缓口气，试试新东西。这就是曲线的凹点，这能让玩家感觉下一阶段变得更难，而不需要我们真的设计的特别难来打击玩家。</p>
+<p>非常感谢 Matt Thorson 对这一节内容的支持。</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Reprint/" rel="tag"># Reprint</a>
+              <a href="/tags/Art/" rel="tag"># Art</a>
+              <a href="/tags/Pixel/" rel="tag"># Pixel</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/archives/5b27815c.html" rel="prev" title="像素宝典#1">
+      <i class="fa fa-chevron-left"></i> 像素宝典#1
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/archives/2a6e7125.html" rel="next" title="Pico-8 精彩代码--漩涡效果解析">
+      Pico-8 精彩代码--漩涡效果解析 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%83%8F%E7%B4%A0%E7%94%BB%E5%9F%BA%E7%A1%80-1"><span class="nav-number">1.</span> <span class="nav-text">像素画基础 1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AF%E8%A7%86%E8%A7%92%E8%B7%91%E6%AD%A5%E5%BE%AA%E7%8E%AF"><span class="nav-number">2.</span> <span class="nav-text">俯视角跑步循环</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%97%AA%E7%94%B5"><span class="nav-number">3.</span> <span class="nav-text">闪电</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%85%E9%9A%9C%E6%95%88%E6%9E%9C"><span class="nav-number">4.</span> <span class="nav-text">故障效果</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E5%8D%A1%E8%AE%BE%E8%AE%A1%E6%B5%81%E7%A8%8B"><span class="nav-number">5.</span> <span class="nav-text">关卡设计流程</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Yousazoe"
+      src="/images/cat.png">
+  <p class="site-author-name" itemprop="name">Yousazoe</p>
+  <div class="site-description" itemprop="description">藏剑若锋，养心若鱼</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">77</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">29</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">45</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Yousazoe" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Yousazoe" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.weibo.com/6034231696/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" title="Weibo → https:&#x2F;&#x2F;www.weibo.com&#x2F;6034231696&#x2F;profile?rightmod&#x3D;1&amp;wvr&#x3D;6&amp;mod&#x3D;personinfo&amp;is_all&#x3D;1" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.notion.so/yousazoe/b7dd2d1a6319471786793971d6373153?v=d64a4d0f608c47f7b16ee1d56323b075" title="Notion → https:&#x2F;&#x2F;www.notion.so&#x2F;yousazoe&#x2F;b7dd2d1a6319471786793971d6373153?v&#x3D;d64a4d0f608c47f7b16ee1d56323b075" rel="noopener" target="_blank"><i class="fa fa-gamepad fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://steamcommunity.com/profiles/76561198856466228/" title="Steam → https:&#x2F;&#x2F;steamcommunity.com&#x2F;profiles&#x2F;76561198856466228&#x2F;" rel="noopener" target="_blank"><i class="fab fa-steam fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.chess.com/member/yousazoe" title="Chess → https:&#x2F;&#x2F;www.chess.com&#x2F;member&#x2F;yousazoe" rel="noopener" target="_blank"><i class="fa fa-chess-pawn fa-fw"></i></a>
+      </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yousazoe</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
