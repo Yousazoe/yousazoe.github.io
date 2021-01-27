@@ -50,6 +50,77 @@
       </tags>
   </entry>
   <entry>
+    <title>博客使用插件总结</title>
+    <url>/archives/c12c9c40.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn1a1doklvj31hc0u0wg1.jpg"></p>
+<p>这几天将博客主题从 Fluid 换回了 NexT，在重新安装插件的时候顺便记录了本博客当前使用的插件，便于后续修改。</p>
+<a id="more"></a>
+
+
+
+
+
+
+
+
+
+<h3 id="一键部署"><a href="#一键部署" class="headerlink" title="一键部署"></a>一键部署</h3><h4 id="地址"><a href="#地址" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/hexojs/hexo-deployer-git">hexo-deployer-git</a></li>
+</ul>
+<h4 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<p>然后修改站点配置文件<code>_config.yml</code> 中的配置：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span></span><br><span class="line">      <span class="attr">github:</span> <span class="string">git@github.com:Yousazoe/yousazoe.github.io.git</span></span><br><span class="line">      <span class="attr">coding:</span> <span class="string">git@e.coding.net:yousazoe/yousazoe/yousazoe.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+<h3 id="永久链接"><a href="#永久链接" class="headerlink" title="永久链接"></a>永久链接</h3><h4 id="地址-1"><a href="#地址-1" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/rozbo/hexo-abbrlink">hexo-abbrlink</a></li>
+</ul>
+<h4 id="安装配置-1"><a href="#安装配置-1" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+<p>然后我们可以在站点配置文件<code>_config.yml</code> 中修改为：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## If your site is put in a subdirectory, set url as &#x27;http://example.com/child&#x27; and root as &#x27;/child/&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">http://yousazoe.top</span></span><br><span class="line"><span class="attr">root:</span> <span class="string">/</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">archives/:abbrlink.html</span></span><br><span class="line"><span class="attr">abbrlink:</span></span><br><span class="line">  <span class="attr">alg:</span> <span class="string">crc32</span>  <span class="comment"># 算法：crc16(default) and crc32</span></span><br><span class="line">  <span class="attr">rep:</span> <span class="string">hex</span>    <span class="comment"># 进制：dec(default) and hex</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+<h3 id="文章推荐"><a href="#文章推荐" class="headerlink" title="文章推荐"></a>文章推荐</h3><p>这个可以帮助我们根据标签推荐相关文章，原版插件的使用要求编辑主题文件的，但是 NexT 主题集成了这个插件的配置，因此配置起来非常方便。</p>
+<h4 id="地址-2"><a href="#地址-2" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/tea3/hexo-related-popular-posts">hexo-related-popular-posts</a></li>
+</ul>
+<h4 id="安装配置-2"><a href="#安装配置-2" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
+<p>我们只需要在主题配置文件<code>_config.yml</code> 中修改：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="comment">#PPMixingRate: 0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="comment">#isImage: false</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
+
+
+<h3 id="站点地图"><a href="#站点地图" class="headerlink" title="站点地图"></a>站点地图</h3><h4 id="通用站点地图"><a href="#通用站点地图" class="headerlink" title="通用站点地图"></a>通用站点地图</h4><ul>
+<li>地址：<a href="https://github.com/hexojs/hexo-generator-sitemap">hexo-generator-sitemap</a></li>
+</ul>
+<p>安装配置：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
+<p>然后我们需要在 Hexo 站点配置文件<code>_config.yml</code> 中加入 sitemap 插件：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 通用站点地图</span></span><br><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br></pre></td></tr></table></figure>
+<h4 id="百度站点地图"><a href="#百度站点地图" class="headerlink" title="百度站点地图"></a>百度站点地图</h4><ul>
+<li>地址：<a href="https://github.com/coneycode/hexo-generator-baidu-sitemap">Sitemap generator</a></li>
+</ul>
+<p>安装配置：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
+<p>具体配置类似通用站点地图，当然也可以看官方提供的教程，下面是一个简单的配置，我们在 Hexo 站点配置文件<code>_config.yml</code> 中添加：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 百度站点地图</span></span><br><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>博客搭建(Blog Building)</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hero-NexT主题配置</title>
     <url>/archives/3bcb4b40.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn18azz7w8j30ma09u40a.jpg"></p>
@@ -521,6 +592,288 @@
 <h4 id="海外厂商国内分公司"><a href="#海外厂商国内分公司" class="headerlink" title="海外厂商国内分公司"></a>海外厂商国内分公司</h4><p>承担总部赋予各种功能的中国分公司。<br>代表厂商有：<code>育碧</code> <code>EA</code> <code>暴雪</code> <code>光荣</code> <code>索尼</code>  </p>
 <h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>中国游戏行业是丰富、复杂的市场，但庞大的用户基数与持续需求，依然展露着中国市场的前景。不断进取的行业从业者，也将中国游戏往全球遍地开花</p>
 ]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>游戏分析方法</title>
+    <url>/archives/f40ec98b.html</url>
+    <content><![CDATA[<a id="more"></a>
+
+<p>本文围绕游戏分析方法展开：游戏分析方法是什么以及它的意义，也就是我们为什么要分析游戏方法、关于游戏产品特性、关于游戏类型和游戏类型趋势分析，游戏品类有什么变化和发展。</p>
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#101;&#101;&#110;&#x78;&#117;&#x40;&#116;&#101;&#110;&#x63;&#101;&#x6e;&#116;&#x2e;&#x63;&#111;&#109;">&#108;&#101;&#101;&#110;&#x78;&#117;&#x40;&#116;&#101;&#110;&#x63;&#101;&#x6e;&#116;&#x2e;&#x63;&#111;&#109;</a></strong> </li>
+</ul>
+<h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
+<blockquote>
+<p>eg. 产品类型，相较同类产品的突破</p>
+</blockquote>
+<h5 id="商业前景分析"><a href="#商业前景分析" class="headerlink" title="商业前景分析"></a>商业前景分析</h5><p>关注产品的商业潜力。</p>
+<blockquote>
+<p> eg. 目标用户数量，上线后预期市场表现</p>
+</blockquote>
+<h5 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h5><p>产品上线后调整的重要依据</p>
+<blockquote>
+<p>eg. 游戏上线后留存，游戏上线后收入</p>
+</blockquote>
+<h4 id="游戏特性分析对游戏从业人员和游戏项目意义重大"><a href="#游戏特性分析对游戏从业人员和游戏项目意义重大" class="headerlink" title="游戏特性分析对游戏从业人员和游戏项目意义重大"></a>游戏特性分析对游戏从业人员和游戏项目意义重大</h4><p>游戏特性分析是游戏从业人员熟悉和理解游戏的捷径。</p>
+<p>用户在熟悉和掌握游戏分析方法后，能够在遇到游戏产品时能够快速形成认知 。</p>
+<p>项目研发的各个环节彼此影响，只有完美结合，才能诞生顶级作品，<strong>对游戏的认知</strong>就是串联所有环节的一把<strong>钥匙。</strong></p>
+<p>游戏和程序部门对设计方案提出<strong>修改反馈</strong>。团队成员对游戏的认知越<strong>深刻全面</strong>，提出的修改反馈越<strong>及时准确</strong>，反之，则可能在资源和功能制作完成并进入**<em>整合阶段**</em>才会发现问题并提出修改反馈。</p>
+<h4 id="现代游戏特性分析需要分析方法的支持"><a href="#现代游戏特性分析需要分析方法的支持" class="headerlink" title="现代游戏特性分析需要分析方法的支持"></a>现代游戏特性分析需要分析方法的支持</h4><p>目前游戏产品的<strong>分析难度</strong>与<strong>复杂度</strong>逐渐变高，因此科学的分析方法的作用愈来愈大</p>
+<p>游戏特性分析与方法（简称游戏分析方法）的目的在于<strong>减少</strong>分析过程中的<strong>随意性</strong>和<strong>片面性</strong>，使得分析更加全面与深入</p>
+<p>现在的游戏通常较为复杂，呈现<strong>混合游戏类型</strong> </p>
+<blockquote>
+<p> eg. <code>荒野大镖客2</code>的内容和玩法极为丰富</p>
+</blockquote>
+<p>相同的游戏元素在不同的游戏类型中所占<strong>权重很大</strong></p>
+<blockquote>
+<p> eg. <code>突变元年</code> <code>伊甸之路</code></p>
+</blockquote>
+<h3 id="游戏产品特性分析方法"><a href="#游戏产品特性分析方法" class="headerlink" title="游戏产品特性分析方法"></a>游戏产品特性分析方法</h3><h4 id="游戏产品特性分析的基础：认真体验游，同时不断思考"><a href="#游戏产品特性分析的基础：认真体验游，同时不断思考" class="headerlink" title="游戏产品特性分析的基础：认真体验游，同时不断思考"></a>游戏产品特性分析的基础：认真体验游，同时不断思考</h4><p>想尽可能全面，准确，深入地对游戏进行分析，必须认真体验游戏，切忌只看视频和其他用户描述。</p>
+<p>在游戏分析过程中，用户逐渐熟悉和掌握游戏分析方法，甚至形成新的分析思路，从而在遇到游戏产品时能够<strong>快速形成认知</strong>。</p>
+<ul>
+<li>多玩同类游戏：在时间允许的情况下，尽可能多玩同类游戏</li>
+<li>随时记录：游戏时多做笔记，记录和跟踪你的游戏过程与思考</li>
+<li>归纳总结：体验游戏后有逻辑的归纳总结，包括自己对游戏的感想，关注点，同类游戏比较等等</li>
+</ul>
+<h4 id="分析游戏的第一步：通过多维度评估产品"><a href="#分析游戏的第一步：通过多维度评估产品" class="headerlink" title="分析游戏的第一步：通过多维度评估产品"></a>分析游戏的第一步：通过多维度评估产品</h4><p>下文列举了评估游戏的不同维度，这些维度代表了不同的切入角度和评判标准，通过这些维度评估，我们可以获得对一款游戏产品（以<code>皇室战争</code>为例）的全面理解：</p>
+<h5 id="玩法"><a href="#玩法" class="headerlink" title="玩法"></a>玩法</h5><ul>
+<li>创新性&emsp;在手游商创造性的体现出RTS玩法</li>
+<li>耐玩性&emsp;策略深度和变化性均较为出色</li>
+<li>契合度&emsp;玩法对题材的表达是否合适</li>
+</ul>
+<h5 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h5><ul>
+<li>辨识度&emsp;美术风格辨识度高</li>
+<li>美术质量&emsp;静态效果较好，动态效果尤为出色</li>
+<li>接受度&emsp;用户接受程度较高</li>
+</ul>
+<h5 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h5><ul>
+<li>操作方式&emsp;操作十分便捷</li>
+<li>信息呈现&emsp;信息呈现清晰，用户一目了然</li>
+</ul>
+<h5 id="题材"><a href="#题材" class="headerlink" title="题材"></a>题材</h5><ul>
+<li>新颖度&emsp;玩法新颖</li>
+<li>流行度 &emsp;有 <code>部落冲突</code> 的IP加成</li>
+</ul>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggyfvj8s6fj30xc0id15c.jpg"></p>
+<h4 id="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"><a href="#分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素" class="headerlink" title="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"></a>分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素</h4><h5 id="拆解产品主要元素"><a href="#拆解产品主要元素" class="headerlink" title="拆解产品主要元素"></a>拆解产品主要元素</h5><p>这款游戏最吸引人的地方在哪里？列出你认为最吸引人的3-4各方面，可以从玩法，美术，平台等方面考虑：</p>
+<ul>
+<li>卡组策略</li>
+<li>实时对抗</li>
+<li>移动平台</li>
+<li>临场指挥</li>
+</ul>
+<h5 id="归纳游戏产品类型"><a href="#归纳游戏产品类型" class="headerlink" title="归纳游戏产品类型"></a>归纳游戏产品类型</h5><p>根据游戏最主要的乐趣点进行类型界定：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">实时对抗 + 临场发挥 -&gt; RTS类型</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="分析游戏第三步：将产品与所属类型的特性进行比较"><a href="#分析游戏第三步：将产品与所属类型的特性进行比较" class="headerlink" title="分析游戏第三步：将产品与所属类型的特性进行比较"></a>分析游戏第三步：将产品与所属类型的特性进行比较</h4><p>将产品与其所属类型的特性进行比较，分析产品继承，强化，甚至创造了哪些该类型的优点，同时解决了哪些该类型的缺点：</p>
+<h5 id="皇室战争"><a href="#皇室战争" class="headerlink" title="皇室战争"></a>皇室战争</h5><ul>
+<li>继承了什么品类的特点？</li>
+<li>在品类基础上有什么突破？</li>
+<li>解决了品类什么痛点？</li>
+</ul>
+<h5 id="RTS类型"><a href="#RTS类型" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
+<li>实时指挥的游戏运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+<li>门槛高，兴奋点滞后</li>
+<li>游戏负担重</li>
+</ul>
+<h5 id="皇室战争继承了RTS丰富策略实时对抗的优点"><a href="#皇室战争继承了RTS丰富策略实时对抗的优点" class="headerlink" title="皇室战争继承了RTS丰富策略实时对抗的优点"></a>皇室战争继承了RTS丰富策略实时对抗的优点</h5><ul>
+<li>卡牌相克明显</li>
+<li>组卡衍生战术多样性 </li>
+</ul>
+<blockquote>
+<p>eg. 巨人流，狗球流，自闭流…每个牌组只有8张牌，配卡方式多变，产生各种不同的战术</p>
+</blockquote>
+<ul>
+<li>实时操作与对抗</li>
+</ul>
+<blockquote>
+<p>eg. 实时操作单位，选择和改变策略；配合清晰合理的单位AI，营造初双方即时对抗博弈的体验</p>
+</blockquote>
+<h5 id="皇室战争-解决了RTS门槛高的问题"><a href="#皇室战争-解决了RTS门槛高的问题" class="headerlink" title="皇室战争 解决了RTS门槛高的问题"></a>皇室战争 解决了RTS门槛高的问题</h5><ul>
+<li>游戏时间短</li>
+</ul>
+<blockquote>
+<p>eg. 单局3-6分钟</p>
+</blockquote>
+<ul>
+<li>瞬时思考维度少</li>
+</ul>
+<blockquote>
+<p>eg. 恒大资源供给，简化内政，集中于战斗</p>
+</blockquote>
+<ul>
+<li>操作模式简单</li>
+</ul>
+<blockquote>
+<p>eg. 瞬时操作少，操作方式简单；在合适的时机，位置使用合适的卡牌</p>
+</blockquote>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggygkr3u8aj30xc0i3naz.jpg"></p>
+<h4 id="【小练习】-比较王者荣耀与RTS特性"><a href="#【小练习】-比较王者荣耀与RTS特性" class="headerlink" title="【小练习】 比较王者荣耀与RTS特性"></a>【小练习】 比较王者荣耀与RTS特性</h4><p>MOBA属于RTS的衍生类型，比较 <code>王者荣耀</code> 与RTS特性，分析其继承，强化，甚至创造了哪些RTS的优点，同时解决了哪些RTS的缺点：</p>
+<h5 id="王者荣耀"><a href="#王者荣耀" class="headerlink" title="王者荣耀"></a>王者荣耀</h5><ul>
+<li>继承了什么品类的特点？</li>
+<li>在品类基础上有什么突破？</li>
+<li>解决了品类什么痛点？</li>
+</ul>
+<h5 id="RTS类型-1"><a href="#RTS类型-1" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
+<li>实时指挥的游戏运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+<li>门槛高，兴奋点滞后</li>
+<li>游戏负担重</li>
+</ul>
+<h5 id="王者荣耀继承了RTS丰富策略实时对抗的优点"><a href="#王者荣耀继承了RTS丰富策略实时对抗的优点" class="headerlink" title="王者荣耀继承了RTS丰富策略实时对抗的优点"></a>王者荣耀继承了RTS丰富策略实时对抗的优点</h5><ul>
+<li>实时对抗的反馈与紧张+一定的战场模拟</li>
+<li>一定的策略深度（经济，成长，侦查，配合）</li>
+</ul>
+<h3 id="游戏类型特点分析方法"><a href="#游戏类型特点分析方法" class="headerlink" title="游戏类型特点分析方法"></a>游戏类型特点分析方法</h3><h4 id="分析游戏类型特点：总结同类型产品的共同点"><a href="#分析游戏类型特点：总结同类型产品的共同点" class="headerlink" title="分析游戏类型特点：总结同类型产品的共同点"></a>分析游戏类型特点：总结同类型产品的共同点</h4><h5 id="RTS同类型游戏"><a href="#RTS同类型游戏" class="headerlink" title="RTS同类型游戏"></a>RTS同类型游戏</h5><blockquote>
+<ul>
+<li><code>魔兽争霸3</code></li>
+<li><code>三国志大战</code></li>
+<li><code>全面战争:战锤2</code></li>
+<li><code>皇室战争</code></li>
+</ul>
+</blockquote>
+<h5 id="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"><a href="#一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性" class="headerlink" title="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"></a>一个游戏类型总会有各种各样的差异化产品，需要寻找它们的<strong>共性</strong></h5><blockquote>
+<p><code>魔兽争霸3</code></p>
+<ul>
+<li>PC平台 键鼠操作</li>
+<li>实时的‘内政-&gt;侦查-&gt;战斗’模式；矿点，商店等特殊地点的争夺贯穿整个游戏</li>
+</ul>
+<p><code>三国志大战</code></p>
+<ul>
+<li>街机平台 实体卡牌 + 触摸操作</li>
+<li>实时的‘资源-&gt;兵力-&gt;战斗’模式；地图区域的控制争夺贯穿整个游戏</li>
+</ul>
+<p><code>全面战争：战锤2</code></p>
+<ul>
+<li>PC平台 键鼠操作</li>
+<li>专注于实时的指挥与战斗；关键地形的争夺贯穿游戏过程</li>
+</ul>
+<p><code>皇室战争</code></p>
+<ul>
+<li>移动平台 触摸屏操作</li>
+<li>实时的 资源-&gt;兵力-&gt;战斗 模式</li>
+</ul>
+</blockquote>
+<p>共性：<strong>实时的运行机制和操作模式</strong> + <strong>丰富的策略与战场空间争夺元素</strong></p>
+<img src="https://img.3dmgame.com/UploadFiles/200908/20090831180642574.jpg" style="zoom:150%;" />
+
+
+
+<h5 id="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"><a href="#分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）" class="headerlink" title="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"></a>分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）</h5><ul>
+<li>回合制策略 - <code>文明6</code></li>
+<li>实时射击 - <code>绝地求生</code></li>
+</ul>
+<h5 id="分析游戏类型特点：寻找现实与游戏之间的映射"><a href="#分析游戏类型特点：寻找现实与游戏之间的映射" class="headerlink" title="分析游戏类型特点：寻找现实与游戏之间的映射"></a>分析游戏类型特点：寻找现实与游戏之间的映射</h5><p>很多游戏都可以视为对现实的一种映射，我们需要寻找 <strong>现实 &lt;–&gt; 游戏 的映射</strong></p>
+<blockquote>
+<p>格斗游戏</p>
+<ul>
+<li><code>VR战士</code> <code>街霸5</code> -&gt; 真实世界对战格斗</li>
+</ul>
+<p>射击</p>
+<ul>
+<li><code>绝地求生</code> <code>使命召唤系列</code> -&gt; 现实射击</li>
+</ul>
+<p>回合制策略</p>
+<ul>
+<li><code>文明6</code> <code>群星</code> -&gt; 国家管理与战争</li>
+</ul>
+<p>RTS</p>
+<ul>
+<li><code>全面战争：战锤2</code> <code>皇室战争 </code>-&gt; 战场指挥体验</li>
+</ul>
+</blockquote>
+<h5 id="通过多种方法总结游戏类型的特点"><a href="#通过多种方法总结游戏类型的特点" class="headerlink" title="通过多种方法总结游戏类型的特点"></a>通过多种方法总结游戏类型的特点</h5><p>RTS产品共性（优点）</p>
+<ul>
+<li>实时的运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+</ul>
+<p>RTS产品与其他类型产品差异（缺点）</p>
+<ul>
+<li>战场策略的实时还原</li>
+<li>门槛高，兴奋点滞后</li>
+</ul>
+<p>RTS产品与现实间的映射</p>
+<ul>
+<li>战场指挥体验</li>
+</ul>
+<h3 id="游戏类型趋势分析方法"><a href="#游戏类型趋势分析方法" class="headerlink" title="游戏类型趋势分析方法"></a>游戏类型趋势分析方法</h3><h4 id="分析游戏类型趋势：挑选重点产品进行对比"><a href="#分析游戏类型趋势：挑选重点产品进行对比" class="headerlink" title="分析游戏类型趋势：挑选重点产品进行对比"></a>分析游戏类型趋势：挑选重点产品进行对比</h4><p>在产品特性分析的基础上，我们库乐队特定游戏类型的发展趋势进行分析研究</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">挑选代表产品 -&gt; 总结每个产品的特点 -&gt; 比较产品</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h4 id="比较产品，寻找类型发展趋势"><a href="#比较产品，寻找类型发展趋势" class="headerlink" title="比较产品，寻找类型发展趋势"></a>比较产品，寻找类型发展趋势</h4><blockquote>
+<p>时间轴</p>
+<ul>
+<li>2002 <code>魔兽争霸3</code> 内容非常全面 策略非常丰富 指挥体验完善 操作复杂 门槛高</li>
+<li>2005 强调战斗 策略丰富 指挥体验非常出色 门槛较高 新平台</li>
+<li>2006 <code>英雄连</code></li>
+<li>2009 <code>英雄联盟</code> 强调战斗和配合 策略丰富 操作方式简单 门槛低</li>
+<li>2010 <code>星际争霸2</code> 类似于WAR3的传统RTS</li>
+<li>2013 <code>横扫千星</code></li>
+<li>2015 <code>灰蛊</code> <code>王者荣耀</code> - 英雄联盟移动版</li>
+<li>2016 <code>奇点灰烬</code></li>
+<li>2017 强调战斗 战场策略丰富 指挥体验完善 操作较为复杂 门槛较高</li>
+</ul>
+</blockquote>
+<ul>
+<li>核心：实时的策略性，战场体验，指挥感仍是RTS的核心</li>
+<li>内容侧重：不追求内容面面俱到，而是集中于某些模块（例如战斗）</li>
+<li>门槛：门槛逐渐降低，游戏节奏逐渐加快</li>
+<li>平台：新平台出现扩大用户规模</li>
+<li>技术：新技术的应用改进RTS形态（例如新操作模式），使其满足新用户的需求</li>
+</ul>
+<p>###【课后作业】 分析特定产品</p>
+<p><strong>（1）Apex Legends</strong></p>
+<ul>
+<li>继承了什么大逃杀品类的特点</li>
+<li>在大逃杀品类基础上有什么突破</li>
+<li>解决了大逃杀品类的什么问题</li>
+</ul>
+<p><strong>（2）大逃杀类型特性</strong></p>
+<blockquote>
+<ul>
+<li><code>H1Z1</code></li>
+<li><code>绝地求生</code></li>
+<li><code>堡垒之夜</code></li>
+<li><code>黑色行动4</code></li>
+</ul>
+</blockquote>
+<p><strong>（3）只狼</strong></p>
+<ul>
+<li>继承了什么ACT品类的特点</li>
+<li>在ACT品类基础上有什么突破</li>
+<li>解决了ACT品类的什么问题</li>
+</ul>
+<p><strong>（4）ACT类型特性</strong></p>
+<blockquote>
+<ul>
+<li><code>鬼泣</code></li>
+<li><code>猎天使魔女</code></li>
+<li><code>黑暗之魂</code></li>
+<li><code>战神</code></li>
+</ul>
+</blockquote>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/dafortin">David Fortin</a>
+    </i>
+  </font>
+</div>]]></content>
       <categories>
         <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
       </categories>
@@ -2472,6 +2825,60 @@
       </tags>
   </entry>
   <entry>
+    <title>一个关于爱与生活的童话-Florence</title>
+    <url>/archives/9b487a14.html</url>
+    <content><![CDATA[<p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
+<a id="more"></a>
+
+<p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_3803bfdcbfa1ff4515505f920ed1c7993993b9f6.600x338.jpg?t=1589331032">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256774213/movie480.webm?t=1580836892" type="video/mp4">       </video></p>
+<h3 id="关于游戏"><a href="#关于游戏" class="headerlink" title="关于游戏"></a>关于游戏</h3><p>Florence 是一场持续约 30 分钟的心动体验。故事很简短，但意义很深远。</p>
+<p>25 岁的 Florence Yeoh 对生活感到困惑。她的生活是日复一日地工作、睡觉，以及在社交媒体上打发大量时间。直到有一天，她遇到了一位名叫 Krish 的大提琴手，他改变了她眼中的整个世界。</p>
+<p>透过一系列预先设定的游戏剧本，从调情到吵架，从互助成长到逐渐分歧，玩家将体验 Florence 与 Krish 这段感情的点点滴滴。 《Florence》的灵感来源于「Slice of Life」漫画小说和网路漫画，讲述了一个熟悉、青涩而又私密的爱情故事。</p>
+<h3 id="测评"><a href="#测评" class="headerlink" title="测评"></a>测评</h3><blockquote>
+<p>“Florence is a beautiful experience that isn’t afraid to tell an ordinary story. This isn’t an action-packed, heroic tale or a somber story filled with tragedy, but it still hits some of those notes in subdued ways. Florence is happy, distressing, and admirable in its reflection of young romance, and it left me with a sense of unexpected hopefulness.”<br><em>Game Informer</em></p>
+</blockquote>
+<br/>
+
+<blockquote>
+<p>“This short collection of small moments manages to cover a wide range of powerfully relatable emotional highs and lows, beautifully capturing what it’s like to fall in love for the first time.”<br><em>The Guardian</em></p>
+</blockquote>
+<br/>
+
+<blockquote>
+<p>“The breathtaking Florence captures falling in love better than almost any game.”<br><em>Polygon</em></p>
+</blockquote>
+<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="玩法层面"><a href="#玩法层面" class="headerlink" title="玩法层面"></a>玩法层面</h4><p>游戏总体上偏向于叙事类的互动故事，玩家更注重故事本身，所以在玩法方面基本上是被弱化甚至是可以忽略。但是作为游戏，《Florence》的交互设计做的非常优秀，在后面会提到，在此不再赘述。</p>
+<h4 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h4><p>美术风格上绘图保持着非常高的质量，在同类游戏中处于中等偏上的水平。在游玩游戏的过程中，每一张图都可以当作壁纸，仿佛是在艺术长廊中欣赏一件件精美的画作。而且勾勒人物的线条非常简洁凝练，相较于写实风格更偏向卡通，但却拿捏的恰到好处。虽然游戏除了背景音乐完全没有人物配音，但美术上呈现出艺术上的张力，也能让画中的人物富有生机与活力。</p>
+<h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>交互设计也是《Florence》的一大亮点。</p>
+<p>从游戏一开始的拖拽牙刷来刷牙，到吃饭时点击食物来食用以及后面等等，交互的风格让我想到了锈湖推出的《白门》。除开游戏类型的不同，两者的交互设计非常相似，甚至《白门》的主人公一开始的洗漱和之后的吃饭几乎一模一样。在我的印象中，类似于洗漱吃饭这样的行为交互设计一般是通过按键的方式实现的，例如在饭桌前提示按下某个之前操作方式提到的交互键位，触发「洗漱」、「吃饭」、「睡觉」等，之后可能会有一段动画。回到游戏本身，作为叙事类游戏，《Florence》必然面临着游戏性不足的问题，而这种细腻独特的交互方式成功地拉长了总体的游戏时间，丰富了游戏的体验，让玩家参与其中而只不是“看漫画”。同样的，许多游戏大作采用固定交互键的方式也是节约了玩家的时间和精力，因为这些游戏本身不需要交互来给游戏“拖时间”。</p>
+<p>在交互的过程中，玩家感受到的不是僵硬地拖延游戏时间，而是情感被不断地牵动。令人印象非常深刻的是女主与男主交谈的几个片段。这个情节谈话的方式是将拼图拖拽到指定区域并拼好。双方刚开始聊天时，拼图有足足八块 ，形状也是千奇百怪。随着交谈的深入，拼图的数量也开始减少，难度开始不断降低，六块、四块、三块，到后面双方聊到火热，拼图也只剩下两块，画面中两个人的距离也在不断靠近。在接吻前，两块的拖拽甚至变成了轴对称的，只需要拖拽一块到区域内就完成了。在整个过程中，玩家对这种不断增进的感情实际上是感同身受的，情感已经借由交互带入到故事中：从刚开始聊天的羞涩，不断从脑中寻找话题，到之后双方开始互敞心扉，最后不断靠近并热切地接吻，玩家的情感也融入到情景之中。拼图的形式贯穿了整个游戏，随着剧情的发展，双方的争吵再次以拼图的形式呈现：拼图镶嵌的「角」从圆滑的「圆角」变成了锐利的「尖角」；如果拼接的速度不够快还可能输给对方；而到了夜里睡觉的时候，拼图拼出双方背对背躺着，却只能拼出两大块各自的拼图，两者因为「角」相互排斥拼不到一起。和拼图的效果相似的设计还有转动时针来表现时间的流逝、同居时放置物品和分居时收拾曾经放置的物品，都能给玩家带来很大的触动。</p>
+<p>丰富多样的交互可能会带来操作上的困难，但在整个游玩过程中，不同的交互都有相应的提示。交互方面唯一的遗憾是《Florence》作为跨平台的游戏，交互由触屏变成了鼠标的拖动，PC端的体验可能较手机端稍逊色一些。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf7df4nwl8j30go09dmyk.jpg"></p>
+<h4 id="剧情题材"><a href="#剧情题材" class="headerlink" title="剧情题材"></a>剧情题材</h4><p>故事的本身可能是《Florence》争议比较大的方面。一个女孩在日复一日麻木的生活与工作中偶然遇到自己心动的男孩，双方坠入爱河开始甜蜜幸福的生活，一起去追逐梦想。随着时间的流逝，在生活中女孩和男孩相互的不理解变成了争吵，最后不欢而散。女孩最后坚持了自己的梦想，成为了一名画家，但她依旧忘不了那个当初送给她颜料盒的那个人。</p>
+<p>有一些人认为剧情的真实性不够：女孩一见钟情，有懵懂的欣赏，有心动的害羞，有投机的聊天，这些都是校园恋爱的元素，放在前面铺垫过日复一日重复麻木单调工作的女孩身上显然是不合适的，而且之后的画画成名给人很突兀的感觉，逻辑上很难自洽：</p>
+<blockquote>
+<p>女孩幼年热爱绘画，二十来年不练，分手之后努力画了几年突然就绘画艺术家作品大卖了，我觉得真的好假啊，这种女孩是天才，是玛丽苏，是任何小说电视剧里的女主角，唯独不是普通人。一个「恋爱后分手，分手后成名」的恋爱故事，越品越感觉像是一个泡泡一样的童话”</p>
+<p> <em>Topas今天退休了吗</em></p>
+</blockquote>
+<p>在我看来，《Florence》与其说是一个故事，不如说是一个关于爱情的童话：与其在其中寻找现实中爱情的影子，不如放松下来，把它当作一本童话书或者一个绘本，静静欣赏那种单纯的美好。彼此激励一起为对方对梦想加油、无论做什么都是快乐而且有活力的、哪怕有吵架不久后还是原谅对方继续甜蜜、即使 Florence 失去了 Krish，她依旧选择了去热爱生活，去追逐自己的梦想，最后获得了成功。抛开合理性，这个剧情本身就已经超出了简单的甜甜的恋爱，立意上升到一个更高的层次：恋爱让自己变得更好。经历过这些，她明白了一个问题：我是谁？人的一生都在了解自己，女主也不例外。所以这款游戏的名字叫做“Florence”，不仅仅是说她经历了一切，更意味着，她经历的这一切，让她找回了自己。这可能才是游戏想真正表达的。</p>
+<p><img src="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_9e029df44296f3d21a61e96d0a7bea4447be2c14.600x338.jpg?t=1589331032"></p>
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>希望通过恋爱，成为更好的自己。</p>
+<blockquote>
+<p>加速拨动的时钟 诉说我们之间的改变<br>争吵时 对话框的拼图角变得越来越尖锐<br>明明拼好了的拼图却发现无法组合在一起<br>拼到一起的照片碎片 却还是一直在分离<br>…….<br>不管你怎么念念不舍把碎片拖回来 不愿意点下一页<br>但想要离开的人终究会疏远 远去 成为人生中的一名过客</p>
+<p>曾经的你使我的生活有了色彩 让我对未来有了无限的憧憬</p>
+<p>可相片里躺在我身边的你 却依旧是我亲手擦去了你的存在</p>
+<p>感谢曾经所有美好的回忆 也感谢你把我放归与人海成就更好的自己</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>游戏追踪 (Game Tracker)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>2D Game</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>跨越时空抚慰伤痛-Father and Son</title>
     <url>/archives/84339f66.html</url>
     <content><![CDATA[<p>《父与子》由那不勒斯考古博物馆所发行，是一款以父子亲情为主题的冒险游戏，从那不勒斯国家考古博物馆，珍藏着人类最伟大的文物和珍宝，揭开这趟冒险之旅的序幕。</p>
@@ -3694,6 +4101,68 @@
       </tags>
   </entry>
   <entry>
+    <title>开始画像素画#5</title>
+    <url>/archives/9b57cb2b.html</url>
+    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解关于抗锯齿与色带。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxvnuszj30u008c74z.jpg"></p>
+<p>系列第 5 节。</p>
+<p>这节稍微复杂点，可能比其他的几篇更进阶点。</p>
+<p>如果不能一下看懂也没关系，很多都是我的个人观点，而且抗锯齿和色带问题在像素画社区里观点很多。</p>
+<p>开始我不会讲软件，而是重点讲解这些概念，在接下来部分我会推荐一些练习。</p>
+<h3 id="什么是锯齿，为什么大家不喜欢"><a href="#什么是锯齿，为什么大家不喜欢" class="headerlink" title="什么是锯齿，为什么大家不喜欢"></a>什么是锯齿，为什么大家不喜欢</h3><p>在像素画里的 anti-alias 的 alias 我们一般说的是锯齿，或者说台阶效果。一种在低分辨下很容易注意到的效果。这个效果本身没有好坏，有时甚至是某种故意追求的风格，但有时候也会让画面很难看懂。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxu5ffrj30dp07fjr5.jpg"></p>
+<p>上面的例子里能看到，第一个图有很多尖锐的边，尤其是火焰周围。有些区域甚至很难理解在发生什么。</p>
+<p>这是因为像素画是事物的低分辨率表现。如果你这样想，就可以区分出“有意的线”和实际像素。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxs0u51j30fi07kwe9.jpg"></p>
+<p>基本上整个像素画流程就包括了把线转化到低分辨率画布上，并<strong>决定哪些像素要填充</strong>。有些像素明显在线的范围内，所以要填充。有些明显在外面，就不用填充。问题是那些刚刚贴到线上或者一半在线上的，才是问题所在。抗锯齿就是用中间色来填充这些像素，来创造一种柔和过渡的错觉。</p>
+<h3 id="如何画抗锯齿"><a href="#如何画抗锯齿" class="headerlink" title="如何画抗锯齿"></a>如何画抗锯齿</h3><p>简单讲: 有时候画的线不能完全符合像素网格，就需要使用中间色来让它看起来好点。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxst7nsj306a09r741.jpg"></p>
+<p>这个问题没有单一的解决方法，你可以用多种方法表现“想要的线”，取决于你的分辨率，画风，以及可用的颜色有多少。</p>
+<p>使用中间混合颜色的像素，在远处看算是半个像素。你可以利用这个来把边角软化一点。</p>
+<p>一个画反锯齿的好方法是搜索任何比 <code>1-1</code> 长的台阶图案：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxyf0g9j30rp04j0qh.jpg"></p>
+<p>找到 <code>2</code> 个像素或者更长的台阶之后，可以开始柔化他们，通过在台阶末尾添加半色的像素。要添加的像素数量取决于台阶的长度，以及可用的颜色。有时候这样会让物体扩张太多，这样的话你可以用半色的像素替代一个（有时更多）原来图案里的像素。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxsa2xaj30rg04c0jq.jpg"></p>
+<p>改变颜色或者饱和度影响不大，只要你是正确的在插值颜色的亮度。这在使用非常小的调色盘时很有用。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxuo4saj30ak0aiq2p.jpg"></p>
+<p>在简单的斜坡上画这些就已经很复杂了，在真正的画上面复杂度更是几何级增加。小的画布上画抗锯齿会影响到其他东西，带来很多副作用。我们讲几个常见的。</p>
+<p><strong>太多抗锯齿</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxv3quwj30f00e7jr5.jpg"></p>
+<p>最常见的问题就是过度的做抗锯齿，导致所有东西都很模糊。通过使用更少的半色，更少的台阶，以及不要在 <code>45</code> 度的线（<code>1-1</code> 的台阶）或者直线上用抗锯齿，来避免这种情况。</p>
+<p><strong>抗锯齿太短</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxtkq1xj30oa0ae3yd.jpg"></p>
+<p>这是不太常见的情况，而且可能是有意为之，尤其是在受限的调色盘上，不过有时候抗锯齿的半色像素比台阶本身的长度短太多。记住一个长的台阶应该有个相对长的抗锯齿半色条纹。</p>
+<p><strong>半色亮度错误</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxwdze1j30gl0gn742.jpg"></p>
+<p>之前也提到了，半色可以用不同的颜色，只要亮度感觉是两种要混合颜色的桥梁就可以。这里出的问题就是没有考虑这一点，相对于背景把半色画的太暗，或者太亮。</p>
+<p>有时候，当背景比物体还亮，这可以用来模拟阴影，也算是有用。但记住这种情况下其实是在画明暗而不是画抗锯齿。</p>
+<p><strong>色带</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxx4ggpj30cu0bi0ni.jpg"></p>
+<p>色带问题是当我们画了几个颜色完全不同的色带时出现的。这通常是个问题，会让物体看起来很平，有时候模糊。</p>
+<p>在这个球体的例子里，我把色带压缩到很小的区域。我把这种方法称为色带压缩，之前的阴影教程了也提到了。</p>
+<p>斜坡上就没办法这么压缩了。所以我旋转了渐变的方向。这也可以画出不错的抗锯齿，原来的是方向画错了，导致的色带问题。要总是注意这点，水平的斜坡应该加水平的抗锯齿，垂直的斜坡加垂直的抗锯齿。</p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在我建议你去实际的试试我这里讲的东西。你可以先从简单的 <code>2-1</code> 黑色斜坡开始，再试试圆圈。保持低颜色数，画布不要超过 <code>48</code> 乘 <code>48</code>。</p>
+<p>在这之后，你可以试试更多颜色，真实的画些东西。还是从简单的开始，像是球体，苹果，之后再到复杂的形状，比如人。</p>
+<p>总是注意画面里画出的色带，或者可以改进的抗锯齿。记住每个像素都是个抉择，每个像素都应该让你的画更好，画的更可读。如果抗锯齿带来的效果弊大于利，就去掉它。</p>
+]]></content>
+      <categories>
+        <category>像素美工(Pixel Art Designing)</category>
+        <category>开始画像素画(Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开始画像素画#6</title>
     <url>/archives/25e9a91.html</url>
     <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解颜色理论基础。</p>
@@ -3851,65 +4320,297 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#5</title>
-    <url>/archives/9b57cb2b.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解关于抗锯齿与色带。</p>
+    <title>操作系统概述</title>
+    <url>/archives/2ba40472.html</url>
+    <content><![CDATA[<p>介绍操作系统的基本知识与课程相关。</p>
 <a id="more"></a>
 
 
 
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxvnuszj30u008c74z.jpg"></p>
-<p>系列第 5 节。</p>
-<p>这节稍微复杂点，可能比其他的几篇更进阶点。</p>
-<p>如果不能一下看懂也没关系，很多都是我的个人观点，而且抗锯齿和色带问题在像素画社区里观点很多。</p>
-<p>开始我不会讲软件，而是重点讲解这些概念，在接下来部分我会推荐一些练习。</p>
-<h3 id="什么是锯齿，为什么大家不喜欢"><a href="#什么是锯齿，为什么大家不喜欢" class="headerlink" title="什么是锯齿，为什么大家不喜欢"></a>什么是锯齿，为什么大家不喜欢</h3><p>在像素画里的 anti-alias 的 alias 我们一般说的是锯齿，或者说台阶效果。一种在低分辨下很容易注意到的效果。这个效果本身没有好坏，有时甚至是某种故意追求的风格，但有时候也会让画面很难看懂。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxu5ffrj30dp07fjr5.jpg"></p>
-<p>上面的例子里能看到，第一个图有很多尖锐的边，尤其是火焰周围。有些区域甚至很难理解在发生什么。</p>
-<p>这是因为像素画是事物的低分辨率表现。如果你这样想，就可以区分出“有意的线”和实际像素。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxs0u51j30fi07kwe9.jpg"></p>
-<p>基本上整个像素画流程就包括了把线转化到低分辨率画布上，并<strong>决定哪些像素要填充</strong>。有些像素明显在线的范围内，所以要填充。有些明显在外面，就不用填充。问题是那些刚刚贴到线上或者一半在线上的，才是问题所在。抗锯齿就是用中间色来填充这些像素，来创造一种柔和过渡的错觉。</p>
-<h3 id="如何画抗锯齿"><a href="#如何画抗锯齿" class="headerlink" title="如何画抗锯齿"></a>如何画抗锯齿</h3><p>简单讲: 有时候画的线不能完全符合像素网格，就需要使用中间色来让它看起来好点。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxst7nsj306a09r741.jpg"></p>
-<p>这个问题没有单一的解决方法，你可以用多种方法表现“想要的线”，取决于你的分辨率，画风，以及可用的颜色有多少。</p>
-<p>使用中间混合颜色的像素，在远处看算是半个像素。你可以利用这个来把边角软化一点。</p>
-<p>一个画反锯齿的好方法是搜索任何比 <code>1-1</code> 长的台阶图案：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxyf0g9j30rp04j0qh.jpg"></p>
-<p>找到 <code>2</code> 个像素或者更长的台阶之后，可以开始柔化他们，通过在台阶末尾添加半色的像素。要添加的像素数量取决于台阶的长度，以及可用的颜色。有时候这样会让物体扩张太多，这样的话你可以用半色的像素替代一个（有时更多）原来图案里的像素。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxsa2xaj30rg04c0jq.jpg"></p>
-<p>改变颜色或者饱和度影响不大，只要你是正确的在插值颜色的亮度。这在使用非常小的调色盘时很有用。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxuo4saj30ak0aiq2p.jpg"></p>
-<p>在简单的斜坡上画这些就已经很复杂了，在真正的画上面复杂度更是几何级增加。小的画布上画抗锯齿会影响到其他东西，带来很多副作用。我们讲几个常见的。</p>
-<p><strong>太多抗锯齿</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxv3quwj30f00e7jr5.jpg"></p>
-<p>最常见的问题就是过度的做抗锯齿，导致所有东西都很模糊。通过使用更少的半色，更少的台阶，以及不要在 <code>45</code> 度的线（<code>1-1</code> 的台阶）或者直线上用抗锯齿，来避免这种情况。</p>
-<p><strong>抗锯齿太短</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxtkq1xj30oa0ae3yd.jpg"></p>
-<p>这是不太常见的情况，而且可能是有意为之，尤其是在受限的调色盘上，不过有时候抗锯齿的半色像素比台阶本身的长度短太多。记住一个长的台阶应该有个相对长的抗锯齿半色条纹。</p>
-<p><strong>半色亮度错误</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxwdze1j30gl0gn742.jpg"></p>
-<p>之前也提到了，半色可以用不同的颜色，只要亮度感觉是两种要混合颜色的桥梁就可以。这里出的问题就是没有考虑这一点，相对于背景把半色画的太暗，或者太亮。</p>
-<p>有时候，当背景比物体还亮，这可以用来模拟阴影，也算是有用。但记住这种情况下其实是在画明暗而不是画抗锯齿。</p>
-<p><strong>色带</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxx4ggpj30cu0bi0ni.jpg"></p>
-<p>色带问题是当我们画了几个颜色完全不同的色带时出现的。这通常是个问题，会让物体看起来很平，有时候模糊。</p>
-<p>在这个球体的例子里，我把色带压缩到很小的区域。我把这种方法称为色带压缩，之前的阴影教程了也提到了。</p>
-<p>斜坡上就没办法这么压缩了。所以我旋转了渐变的方向。这也可以画出不错的抗锯齿，原来的是方向画错了，导致的色带问题。要总是注意这点，水平的斜坡应该加水平的抗锯齿，垂直的斜坡加垂直的抗锯齿。</p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在我建议你去实际的试试我这里讲的东西。你可以先从简单的 <code>2-1</code> 黑色斜坡开始，再试试圆圈。保持低颜色数，画布不要超过 <code>48</code> 乘 <code>48</code>。</p>
-<p>在这之后，你可以试试更多颜色，真实的画些东西。还是从简单的开始，像是球体，苹果，之后再到复杂的形状，比如人。</p>
-<p>总是注意画面里画出的色带，或者可以改进的抗锯齿。记住每个像素都是个抉择，每个像素都应该让你的画更好，画的更可读。如果抗锯齿带来的效果弊大于利，就去掉它。</p>
-]]></content>
+
+
+<h3 id="课程概述"><a href="#课程概述" class="headerlink" title="课程概述"></a>课程概述</h3><h4 id="课程信息"><a href="#课程信息" class="headerlink" title="课程信息"></a>课程信息</h4><table>
+<thead>
+<tr>
+<th><strong>Wiki</strong></th>
+<th><a href="http://os.cs.tsinghua.edu.cn/oscourse/OS2015">http://os.cs.tsinghua.edu.cn/oscourse/OS2015</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>学堂在线</strong></td>
+<td><strong><a href="https://www.xuetangx.com/courses/TsinghuaX/30240243X/2015T1/about">https://www.xuetangx.com/courses/TsinghuaX/30240243X/2015T1/about</a></strong></td>
+</tr>
+<tr>
+<td><strong>在线交流</strong></td>
+<td><strong><a href="https://piazza.com/tsinghua.edu.cn/spring2015/30240243x/home">https://piazza.com/tsinghua.edu.cn/spring2015/30240243x/home</a></strong></td>
+</tr>
+</tbody></table>
+<h4 id="教学团队"><a href="#教学团队" class="headerlink" title="教学团队"></a>教学团队</h4><table>
+<thead>
+<tr>
+<th>姓名</th>
+<th>邮箱</th>
+<th>角色</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>向勇</td>
+<td><a href="mailto:&#120;&#121;&#x6f;&#x6e;&#x67;&#64;&#x74;&#x73;&#105;&#x6e;&#103;&#104;&#117;&#x61;&#46;&#x65;&#100;&#117;&#46;&#x63;&#x6e;">&#120;&#121;&#x6f;&#x6e;&#x67;&#64;&#x74;&#x73;&#105;&#x6e;&#103;&#104;&#117;&#x61;&#46;&#x65;&#100;&#117;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td>教师</td>
+</tr>
+<tr>
+<td>陈渝</td>
+<td><a href="mailto:&#121;&#117;&#99;&#x68;&#101;&#110;&#64;&#x6d;&#97;&#105;&#108;&#46;&#116;&#x73;&#105;&#x6e;&#103;&#104;&#117;&#x61;&#46;&#101;&#x64;&#117;&#46;&#x63;&#x6e;">&#121;&#117;&#99;&#x68;&#101;&#110;&#64;&#x6d;&#97;&#105;&#108;&#46;&#116;&#x73;&#105;&#x6e;&#103;&#104;&#117;&#x61;&#46;&#101;&#x64;&#117;&#46;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
+<td>教师</td>
+</tr>
+<tr>
+<td>茅俊杰</td>
+<td><a href="mailto:&#x65;&#116;&#x65;&#x72;&#x6e;&#97;&#x6c;&#46;&#110;&#x30;&#56;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;">&#x65;&#116;&#x65;&#x72;&#x6e;&#97;&#x6c;&#46;&#110;&#x30;&#56;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;</a></td>
+<td>助教</td>
+</tr>
+<tr>
+<td>何嘉权</td>
+<td><a href="mailto:&#111;&#98;&#x6a;&#101;&#99;&#116;&#x6b;&#x75;&#x61;&#x6e;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;">&#111;&#98;&#x6a;&#101;&#99;&#116;&#x6b;&#x75;&#x61;&#x6e;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
+<td>助教</td>
+</tr>
+<tr>
+<td>曹睿东</td>
+<td><a href="mailto:&#x63;&#x72;&#100;&#x66;&#114;&#x61;&#110;&#107;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#x63;&#x72;&#100;&#x66;&#114;&#x61;&#110;&#107;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#109;</a></td>
+<td>助教</td>
+</tr>
+<tr>
+<td>武祥晋</td>
+<td><a href="mailto:&#x74;&#x61;&#99;&#x63;&#x6f;&#114;&#x61;&#x77;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#x74;&#x61;&#99;&#x63;&#x6f;&#114;&#x61;&#x77;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td>助教</td>
+</tr>
+<tr>
+<td>辛云星</td>
+<td><a href="mailto:&#120;&#105;&#x6e;&#121;&#x75;&#110;&#120;&#105;&#110;&#x67;&#48;&#48;&#x30;&#49;&#64;&#49;&#x36;&#51;&#x2e;&#99;&#x6f;&#109;">&#120;&#105;&#x6e;&#121;&#x75;&#110;&#120;&#105;&#110;&#x67;&#48;&#48;&#x30;&#49;&#64;&#49;&#x36;&#51;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td>助教</td>
+</tr>
+<tr>
+<td>刘聪</td>
+<td><a href="mailto:&#103;&#110;&#111;&#99;&#117;&#x69;&#108;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#103;&#110;&#111;&#99;&#117;&#x69;&#108;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td>助教</td>
+</tr>
+<tr>
+<td>常铖</td>
+<td><a href="mailto:&#x6d;&#x79;&#97;&#x69;&#x72;&#x69;&#x61;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x6d;&#x79;&#97;&#x69;&#x72;&#x69;&#x61;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td>助教</td>
+</tr>
+<tr>
+<td>张禹</td>
+<td><a href="mailto:&#x7a;&#x68;&#x61;&#x6e;&#x67;&#114;&#x61;&#105;&#110;&#57;&#x31;&#49;&#64;&#x31;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#109;">&#x7a;&#x68;&#x61;&#x6e;&#x67;&#114;&#x61;&#105;&#110;&#57;&#x31;&#49;&#64;&#x31;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td>技术支持</td>
+</tr>
+<tr>
+<td>郭旭</td>
+<td><a href="mailto:&#103;&#x67;&#x78;&#120;&#49;&#x32;&#48;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#103;&#x67;&#x78;&#120;&#49;&#x32;&#48;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td>技术支持</td>
+</tr>
+</tbody></table>
+<h4 id="预备知识"><a href="#预备知识" class="headerlink" title="预备知识"></a>预备知识</h4><blockquote>
+<ul>
+<li>计算机结构原理</li>
+<li>C与汇编程序设计</li>
+<li>数据结构</li>
+</ul>
+</blockquote>
+<p>这门课是计算机专业的专业基础课，是一门工作量很大、很综合的课程，需要上面这些先修课程作为铺垫。</p>
+<p>由于操作系统要与硬件打交道，所以需要大家了解<em>计算机系统结构</em>，包括CPU的组成、总线和中断等等内容都是在写操作系统内核代码的时候所需要的；操作系统的编程语言是<em>C语言</em>和<em>汇编</em>，所以需要了解C如何来表达想写的算法，使用汇编来对硬件设备进行控制；数据结构在操作系统涉及很多的，例如树、表、链表等等，我们会在上面进行插入、删除、修改和检索。所以我们需要把这些课程所学的知识结合起来，为上层的应用提供一个最基本的操作系统环境。</p>
+<h4 id="参考教材"><a href="#参考教材" class="headerlink" title="参考教材"></a>参考教材</h4><p>本课程无固定OS教材，可参考的教材如下：</p>
+<blockquote>
+<ul>
+<li><a href="http://www.ostep.org/">Operating Systems: Three Easy Pieces 操作系统：三大简易元素</a></li>
+<li><a href="http://item.jd.com/10553956.html">Operating System Concepts 操作系统概念</a></li>
+<li><a href="http://item.jd.com/10255221.html">Operating Systems:Internals and Design Principles 操作系统：精髓与设计原理</a></li>
+</ul>
+</blockquote>
+<h3 id="什么是操作系统"><a href="#什么是操作系统" class="headerlink" title="什么是操作系统"></a>什么是操作系统</h3><p>什么是操作系统？它是一个程序，它和其他程序是什么关系？然后它有些什么样的组成、它有些什么样的特征？</p>
+<h4 id="操作系统定义"><a href="#操作系统定义" class="headerlink" title="操作系统定义"></a>操作系统定义</h4><blockquote>
+<ul>
+<li>没有公认的精确定义</li>
+<li>操作系统是一个控制程序<ul>
+<li>一个系统软件</li>
+<li>控制程序执行过程，防止错误和计算机的不当使用</li>
+<li>执行用户程序，给用户程序提供各种服务</li>
+<li>方便用户使用计算机系统</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<p>操作系统实际上没有一个明确的定义，比如哪些功能、哪些应用软件或硬件算是操作系统里的。实际上随着操作系统的发展，操作系统内涵实际上是在不断变化的。我们现在给操作系统是给出一个解释：<strong>操作系统是一个控制程序</strong>。</p>
+<h5 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h5><p>它是一个系统软件，它给用户提供一个<strong>运行环境</strong>，用户使用计算机系统的时候提供所需要的服务；如果说用户的使用不当，那么这个时候他需要进行项目的一些错误处理；如果说用户在使用过程中是否可以给予一些协助。比如在输入一条命令的时候输入半截忘记了后面是什么内容，这个时候是否可以给出一些提示。</p>
+<h5 id="资源管理器"><a href="#资源管理器" class="headerlink" title="资源管理器"></a>资源管理器</h5><p>操作系统也是一个<strong>资源管理器</strong>。实际上就是说我们计算机硬件和应用程序之间用操作系统来作为它的一个中间层，为计算机应用程序来管理所有的计算机软硬件资源以协调于各个应用程序，在使用这些资源的时候能够友好地使用下去。具体说来就是如果所有的资源都由自己专用，那么使用资源肯定会没问题，但是如果说多个应用程序交替使用，那么这个时候资源如何使用就会有一些问题，比如内存，你在用我也在用，这时候两个应用之间各分配多少呢？需要如果和分配的结果不一致呢？对于操作系统，此时就需要做一个高效的判断能够按照应用程序的需要给它分配合理的资源，这是我们操作系统提供的高效使用所要达到的目标</p>
+<h4 id="操作系统的地位"><a href="#操作系统的地位" class="headerlink" title="操作系统的地位"></a>操作系统的地位</h4><p>操作系统的表现形式可能多种多样，比如windows、Linux的表现是完全不一样的，但是从操作系统内部结构上来讲，它基本上可以分成这样几个部分：</p>
+<blockquote>
+<ul>
+<li>应用系统 – 用户</li>
+<li>系统应用 – 应用开发者 </li>
+<li>操作系统 – 应用开发者  </li>
+<li>计算机硬件 – 系统设计者</li>
+</ul>
+</blockquote>
+<p>操作系统实际上就是在硬件上对上面的应用进行一层隔离，提供我们通常所见的逻辑和资源，比如进程、文件、地址空间，这都是在操作系统之后给用户程序看到的情况。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo4gw0wtj30gh0l6js7.jpg"></p>
+<h4 id="操作系统软件的分类"><a href="#操作系统软件的分类" class="headerlink" title="操作系统软件的分类"></a>操作系统软件的分类</h4><blockquote>
+<ul>
+<li>软件<ul>
+<li>应用软件</li>
+<li>系统软件<ul>
+<li>系统应用</li>
+<li>操作系统<ul>
+<li>命令行</li>
+<li>内核</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<p>在我们软件划分当中我们可以把软件划分为应用软件和系统软件；系统软件我们可以把它分成系统应用和操作系统；而在操作系统里面核心内容是我们的命令行和内核。</p>
+<h4 id="操作系统软件的组成"><a href="#操作系统软件的组成" class="headerlink" title="操作系统软件的组成"></a>操作系统软件的组成</h4><blockquote>
+<ul>
+<li><p>命令行接口 Shell</p>
+<ul>
+<li>通过键盘操纵</li>
+<li>方便用户进行命令输入</li>
+</ul>
+</li>
+<li><p>图形用户接口 GUI</p>
+<ul>
+<li>WIMP：视窗 Window、图标 Icon、选单 Menu、指标 Pointer</li>
+<li>直接操作和所见即所得</li>
+</ul>
+</li>
+<li><p>操作系统内核 Kernel</p>
+<ul>
+<li>执行各种资源管理等功能</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<p>内核实现操作系统资源的管理功能，操作系统之上的用要使用实际上我们提供的两种命令接口Shell、GUI，实际上我们是把命令转换成我们图形用户接口的一些基本读数。</p>
+<p>操作系统是我们整个计算机系统里的核心软件，外边构造提供对外借口和一些应用，用户就可以来使用系统所提供的服务了。</p>
+<h5 id="操作系统内核特征"><a href="#操作系统内核特征" class="headerlink" title="操作系统内核特征"></a>操作系统内核特征</h5><h6 id="并发"><a href="#并发" class="headerlink" title="并发"></a>并发</h6><p>计算机系统中同时存在多个运行的程序，需要OS管理和调度。具体指我们如果多个应用程序交替运行，我需要知道当前每一个应用都执行到什么位置、当前正在执行的是哪个应用……都在用操作系统来维护。</p>
+<h6 id="共享"><a href="#共享" class="headerlink" title="共享"></a>共享</h6><p>多个应用并发运行的时候宏观上要体现出它们同时在访问资源的情况，而微观上要实现它们的互斥访问。比如两个应用同时访问内存，这个时候我每个应用需要知道它访问是哪个，另一个应用访问的是哪个，需要保护的内存资源不能让另外一个应用去访问；微观上我需要对它做很好的隔离，我们知道在数据总线上任何一个时刻只有一个应用去访问存储单元，这就是微观上的互斥。</p>
+<h6 id="虚拟"><a href="#虚拟" class="headerlink" title="虚拟"></a>虚拟</h6><p>通过交替运行使每一个用户感觉到整个计算机都是由它一个用户在专门提供服务。实际上就是由操作系统在每个应用执行的时候这种频率极高的交替让用户在用的时候感觉不太出来这台机器还有其它用户在用（负载大到一定程度，用户是可以感觉到的）。</p>
+<h6 id="异步"><a href="#异步" class="headerlink" title="异步"></a>异步</h6><p>程序的执行不是一贯到底，而是走走停停，向前推进的速度不可预知。只要运行环境相同，OS需要保证程序运行的结果也要相同。</p>
+<h3 id="操作系统学习动机与方法论"><a href="#操作系统学习动机与方法论" class="headerlink" title="操作系统学习动机与方法论"></a>操作系统学习动机与方法论</h3><blockquote>
+<ul>
+<li><p>综合课程</p>
+<ul>
+<li>程序设计语言</li>
+<li>数据结构</li>
+<li>算法</li>
+<li>计算机体系结构</li>
+</ul>
+</li>
+<li><p>材料</p>
+<p>操作系统概念和原理、源代码</p>
+</li>
+<li><p>技能</p>
+<p>操作系统的设计和实现</p>
+</li>
+</ul>
+</blockquote>
+<p>有人会说现在已经有了很好的操作系统，比如Windows、Linux等，将来的工作也不会写操作系统，为什么还要学操作系统呢？我们研究操作系统是要实现需求，而已有的操作系统不能解决所有的事，无法满足更高的需求。</p>
+<h4 id="操作系统软件的地位"><a href="#操作系统软件的地位" class="headerlink" title="操作系统软件的地位"></a>操作系统软件的地位</h4><blockquote>
+<ul>
+<li>计算机系统的基本组成部分</li>
+<li>由硬件的发展和应用需求所驱动</li>
+<li>学术和工业的持续推进</li>
+</ul>
+</blockquote>
+<p>操作系统是计算机科学研究的基石之一，比如微软最赚钱的不是操作系统软件，而是上面的应用。但它投入大量的精力去研究和改进操作系统，足以证明操作系统在其中的地位。</p>
+<h4 id="操作系统研究"><a href="#操作系统研究" class="headerlink" title="操作系统研究"></a>操作系统研究</h4><p>随着技术的发展和时代的变化，操作系统的研究团队也在不断变化：</p>
+<blockquote>
+<ul>
+<li>旧时：Xerox（PARC）、IBM、DEC（SRC）、Bell Labs</li>
+<li>现代：Mincrosoft、Google、Yahoo、IBM、HP、Sun、Intel、VMware、Amazon…</li>
+<li>国内：阿里巴巴、百度、华为…</li>
+<li>研究协会：ACM SIGOPS、USENIX</li>
+</ul>
+</blockquote>
+<h5 id="顶级会议"><a href="#顶级会议" class="headerlink" title="顶级会议"></a>顶级会议</h5><ul>
+<li><p><strong>ACM操作系统原理研讨会（SOSP）</strong></p>
+<ul>
+<li>ACM SIGOPS</li>
+<li>每两年（奇数：1967-）</li>
+<li>~20论文</li>
+</ul>
+</li>
+<li><p><strong>USENIX操作系统设计和实现研讨会（OSDI）</strong></p>
+<ul>
+<li>USENIX</li>
+<li>每两年（偶数：1994-）</li>
+<li>~20论文</li>
+</ul>
+</li>
+</ul>
+<h5 id="影响论文"><a href="#影响论文" class="headerlink" title="影响论文"></a>影响论文</h5><ul>
+<li><p><strong>SIGOPS Hall-of-Fame Awards</strong></p>
+<ul>
+<li>论文必须发表在同行评议的文献中至少十年</li>
+<li>到目前为止有三十多篇论文获奖</li>
+</ul>
+</li>
+<li><p>假设你想做操作系统研究</p>
+<ul>
+<li>需要阅读和理解这些论文</li>
+<li><a href="http://www.sigops.org/award-hof.html">http://www.sigops.org/award-hof.html</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="如何学习操作系统"><a href="#如何学习操作系统" class="headerlink" title="如何学习操作系统"></a>如何学习操作系统</h4><blockquote>
+<p>“不闻不若闻之，闻之不若见之，见之不若知之，知之不若行之；学至于行之而止矣。”<br>–荀子《儒效篇》</p>
+<p>“天才是1%的灵感加上99%的汗水”<br>– Thomas Edison </p>
+</blockquote>
+<h3 id="操作系统实例"><a href="#操作系统实例" class="headerlink" title="操作系统实例"></a>操作系统实例</h3><p>最早的操作系统是在上世纪60年代由UNIX开始的，延伸出多种系统如BSD系列，现在大家见到的比较多的MacOS的前身也是UNIX。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo4jdkhkj31ao0t6gly.jpg"></p>
+<p>而到了90年代一个名叫Linux的大学生开始做Linux，他想做一个完全由自己掌控的系统。从它开始，一种新的开发模式诞生了，下面这些是Linux的延伸：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo4iblaej30qm0as74p.jpg"></p>
+<p>Liunx以很好的开放性为核心思路，获得了巨大的关注与发展。而Windows系统则是完全不同的一类做法，它以专用和封闭的形式来发行操作系统。Windows从DOS系统开始，直至3.0以图形用户接口和应用系统来得到认可。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo4hq424j30zk0k0gmm.jpg"></p>
+<p>我们可以看到从操作系统的角度来讲有两种完全不同的风格：开放和封闭。这两种类型我们很难说孰优孰劣，各有各的优缺点。</p>
+<h3 id="操作系统演变"><a href="#操作系统演变" class="headerlink" title="操作系统演变"></a>操作系统演变</h3><h4 id="操作系统为什么改变"><a href="#操作系统为什么改变" class="headerlink" title="操作系统为什么改变"></a>操作系统为什么改变</h4><blockquote>
+<ul>
+<li><p>操作系统的主要功能：硬件抽象和协调管理</p>
+</li>
+<li><p>原则：设计随着各种相关技术的改变而做出一定的改变</p>
+</li>
+<li><p>在过去二十年底层技术由极大的改变</p>
+</li>
+</ul>
+</blockquote>
+<p>从八十年代个人计算机出现到2012年硬件技术变化非常之大：CPU速度、处理能力、存储能力、硬盘容量，这种变化对操作系统有至关重要的影响。</p>
+<h4 id="操作系统的演变"><a href="#操作系统的演变" class="headerlink" title="操作系统的演变"></a>操作系统的演变</h4><p>操作系统也在不断变化：</p>
+<blockquote>
+<ul>
+<li>单用户系统</li>
+<li>批处理系统</li>
+<li>多程序系统</li>
+<li>分时</li>
+<li>个人计算机：每个用户一个系统</li>
+<li>分布式计算：每个用户多个系统</li>
+</ul>
+</blockquote>
+<h5 id="单用户系统（’45-’55）"><a href="#单用户系统（’45-’55）" class="headerlink" title="单用户系统（’45-’55）"></a>单用户系统（’45-’55）</h5><blockquote>
+<p>操作系统 = 装载器 + 通用子程序库</p>
+<p>问题： 昂贵组件的低利用率</p>
+<p>$\frac{执行时间}{执行时间+读卡时间}=%利用率$</p>
+</blockquote>
+<p>这段时间操作系统需要解决的事如何提高昂贵计算机的使用效率</p>
+<h3 id="操作系统结构"><a href="#操作系统结构" class="headerlink" title="操作系统结构"></a>操作系统结构</h3>]]></content>
       <categories>
-        <category>像素美工(Pixel Art Designing)</category>
-        <category>开始画像素画(Making Pixel Art)</category>
+        <category>计算机基础(Computer Basic)</category>
+        <category>操作系统(Operating Systems)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
+        <tag>Mooc</tag>
+        <tag>OS</tag>
       </tags>
   </entry>
   <entry>
@@ -4021,74 +4722,16 @@
       </tags>
   </entry>
   <entry>
-    <title>博客使用插件总结</title>
-    <url>/archives/c12c9c40.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn1a1doklvj31hc0u0wg1.jpg"></p>
-<p>这几天将博客主题从 Fluid 换回了 NexT，在重新安装插件的时候顺便记录了本博客当前使用的插件，便于后续修改。</p>
-<a id="more"></a>
-
-
-
-
-
-
-
-
-
-<h3 id="一键部署"><a href="#一键部署" class="headerlink" title="一键部署"></a>一键部署</h3><h4 id="地址"><a href="#地址" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href="https://github.com/hexojs/hexo-deployer-git">hexo-deployer-git</a></li>
-</ul>
-<h4 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-<p>然后修改站点配置文件<code>_config.yml</code> 中的配置：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span></span><br><span class="line">      <span class="attr">github:</span> <span class="string">git@github.com:Yousazoe/yousazoe.github.io.git</span></span><br><span class="line">      <span class="attr">coding:</span> <span class="string">git@e.coding.net:yousazoe/yousazoe/yousazoe.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-<h3 id="永久链接"><a href="#永久链接" class="headerlink" title="永久链接"></a>永久链接</h3><h4 id="地址-1"><a href="#地址-1" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href="https://github.com/rozbo/hexo-abbrlink">hexo-abbrlink</a></li>
-</ul>
-<h4 id="安装配置-1"><a href="#安装配置-1" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
-<p>然后我们可以在站点配置文件<code>_config.yml</code> 中修改为：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## If your site is put in a subdirectory, set url as &#x27;http://example.com/child&#x27; and root as &#x27;/child/&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">http://yousazoe.top</span></span><br><span class="line"><span class="attr">root:</span> <span class="string">/</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">archives/:abbrlink.html</span></span><br><span class="line"><span class="attr">abbrlink:</span></span><br><span class="line">  <span class="attr">alg:</span> <span class="string">crc32</span>  <span class="comment"># 算法：crc16(default) and crc32</span></span><br><span class="line">  <span class="attr">rep:</span> <span class="string">hex</span>    <span class="comment"># 进制：dec(default) and hex</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-<h3 id="文章推荐"><a href="#文章推荐" class="headerlink" title="文章推荐"></a>文章推荐</h3><p>这个可以帮助我们根据标签推荐相关文章，原版插件的使用要求编辑主题文件的，但是 NexT 主题集成了这个插件的配置，因此配置起来非常方便。</p>
-<h4 id="地址-2"><a href="#地址-2" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href="https://github.com/tea3/hexo-related-popular-posts">hexo-related-popular-posts</a></li>
-</ul>
-<h4 id="安装配置-2"><a href="#安装配置-2" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
-<p>我们只需要在主题配置文件<code>_config.yml</code> 中修改：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="comment">#PPMixingRate: 0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="comment">#isImage: false</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
-
-
-<h3 id="站点地图"><a href="#站点地图" class="headerlink" title="站点地图"></a>站点地图</h3><h4 id="通用站点地图"><a href="#通用站点地图" class="headerlink" title="通用站点地图"></a>通用站点地图</h4><ul>
-<li>地址：<a href="https://github.com/hexojs/hexo-generator-sitemap">hexo-generator-sitemap</a></li>
-</ul>
-<p>安装配置：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
-<p>然后我们需要在 Hexo 站点配置文件<code>_config.yml</code> 中加入 sitemap 插件：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 通用站点地图</span></span><br><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br></pre></td></tr></table></figure>
-<h4 id="百度站点地图"><a href="#百度站点地图" class="headerlink" title="百度站点地图"></a>百度站点地图</h4><ul>
-<li>地址：<a href="https://github.com/coneycode/hexo-generator-baidu-sitemap">Sitemap generator</a></li>
-</ul>
-<p>安装配置：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
-<p>具体配置类似通用站点地图，当然也可以看官方提供的教程，下面是一个简单的配置，我们在 Hexo 站点配置文件<code>_config.yml</code> 中添加：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 百度站点地图</span></span><br><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure>
-]]></content>
+    <title>进程与线程</title>
+    <url>/archives/44cf1d42.html</url>
+    <content><![CDATA[]]></content>
       <categories>
-        <category>博客搭建(Blog Building)</category>
+        <category>计算机基础(Computer Basic)</category>
+        <category>操作系统(Operating Systems)</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
-        <tag>NexT</tag>
-        <tag>Blog</tag>
+        <tag>Mooc</tag>
+        <tag>OS</tag>
       </tags>
   </entry>
   <entry>
@@ -4198,19 +4841,6 @@
       <tags>
         <tag>Aseprite</tag>
         <tag>CMake</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>进程与线程</title>
-    <url>/archives/44cf1d42.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>计算机基础(Computer Basic)</category>
-        <category>操作系统(Operating Systems)</category>
-      </categories>
-      <tags>
-        <tag>Mooc</tag>
-        <tag>OS</tag>
       </tags>
   </entry>
   <entry>
@@ -4776,342 +5406,6 @@
       </tags>
   </entry>
   <entry>
-    <title>游戏分析方法</title>
-    <url>/archives/f40ec98b.html</url>
-    <content><![CDATA[<a id="more"></a>
-
-<p>本文围绕游戏分析方法展开：游戏分析方法是什么以及它的意义，也就是我们为什么要分析游戏方法、关于游戏产品特性、关于游戏类型和游戏类型趋势分析，游戏品类有什么变化和发展。</p>
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#101;&#110;&#x78;&#x75;&#64;&#116;&#101;&#x6e;&#99;&#x65;&#110;&#116;&#46;&#x63;&#x6f;&#x6d;">&#108;&#x65;&#101;&#110;&#x78;&#x75;&#64;&#116;&#101;&#x6e;&#99;&#x65;&#110;&#116;&#46;&#x63;&#x6f;&#x6d;</a></strong> </li>
-</ul>
-<h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
-<blockquote>
-<p>eg. 产品类型，相较同类产品的突破</p>
-</blockquote>
-<h5 id="商业前景分析"><a href="#商业前景分析" class="headerlink" title="商业前景分析"></a>商业前景分析</h5><p>关注产品的商业潜力。</p>
-<blockquote>
-<p> eg. 目标用户数量，上线后预期市场表现</p>
-</blockquote>
-<h5 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h5><p>产品上线后调整的重要依据</p>
-<blockquote>
-<p>eg. 游戏上线后留存，游戏上线后收入</p>
-</blockquote>
-<h4 id="游戏特性分析对游戏从业人员和游戏项目意义重大"><a href="#游戏特性分析对游戏从业人员和游戏项目意义重大" class="headerlink" title="游戏特性分析对游戏从业人员和游戏项目意义重大"></a>游戏特性分析对游戏从业人员和游戏项目意义重大</h4><p>游戏特性分析是游戏从业人员熟悉和理解游戏的捷径。</p>
-<p>用户在熟悉和掌握游戏分析方法后，能够在遇到游戏产品时能够快速形成认知 。</p>
-<p>项目研发的各个环节彼此影响，只有完美结合，才能诞生顶级作品，<strong>对游戏的认知</strong>就是串联所有环节的一把<strong>钥匙。</strong></p>
-<p>游戏和程序部门对设计方案提出<strong>修改反馈</strong>。团队成员对游戏的认知越<strong>深刻全面</strong>，提出的修改反馈越<strong>及时准确</strong>，反之，则可能在资源和功能制作完成并进入**<em>整合阶段**</em>才会发现问题并提出修改反馈。</p>
-<h4 id="现代游戏特性分析需要分析方法的支持"><a href="#现代游戏特性分析需要分析方法的支持" class="headerlink" title="现代游戏特性分析需要分析方法的支持"></a>现代游戏特性分析需要分析方法的支持</h4><p>目前游戏产品的<strong>分析难度</strong>与<strong>复杂度</strong>逐渐变高，因此科学的分析方法的作用愈来愈大</p>
-<p>游戏特性分析与方法（简称游戏分析方法）的目的在于<strong>减少</strong>分析过程中的<strong>随意性</strong>和<strong>片面性</strong>，使得分析更加全面与深入</p>
-<p>现在的游戏通常较为复杂，呈现<strong>混合游戏类型</strong> </p>
-<blockquote>
-<p> eg. <code>荒野大镖客2</code>的内容和玩法极为丰富</p>
-</blockquote>
-<p>相同的游戏元素在不同的游戏类型中所占<strong>权重很大</strong></p>
-<blockquote>
-<p> eg. <code>突变元年</code> <code>伊甸之路</code></p>
-</blockquote>
-<h3 id="游戏产品特性分析方法"><a href="#游戏产品特性分析方法" class="headerlink" title="游戏产品特性分析方法"></a>游戏产品特性分析方法</h3><h4 id="游戏产品特性分析的基础：认真体验游，同时不断思考"><a href="#游戏产品特性分析的基础：认真体验游，同时不断思考" class="headerlink" title="游戏产品特性分析的基础：认真体验游，同时不断思考"></a>游戏产品特性分析的基础：认真体验游，同时不断思考</h4><p>想尽可能全面，准确，深入地对游戏进行分析，必须认真体验游戏，切忌只看视频和其他用户描述。</p>
-<p>在游戏分析过程中，用户逐渐熟悉和掌握游戏分析方法，甚至形成新的分析思路，从而在遇到游戏产品时能够<strong>快速形成认知</strong>。</p>
-<ul>
-<li>多玩同类游戏：在时间允许的情况下，尽可能多玩同类游戏</li>
-<li>随时记录：游戏时多做笔记，记录和跟踪你的游戏过程与思考</li>
-<li>归纳总结：体验游戏后有逻辑的归纳总结，包括自己对游戏的感想，关注点，同类游戏比较等等</li>
-</ul>
-<h4 id="分析游戏的第一步：通过多维度评估产品"><a href="#分析游戏的第一步：通过多维度评估产品" class="headerlink" title="分析游戏的第一步：通过多维度评估产品"></a>分析游戏的第一步：通过多维度评估产品</h4><p>下文列举了评估游戏的不同维度，这些维度代表了不同的切入角度和评判标准，通过这些维度评估，我们可以获得对一款游戏产品（以<code>皇室战争</code>为例）的全面理解：</p>
-<h5 id="玩法"><a href="#玩法" class="headerlink" title="玩法"></a>玩法</h5><ul>
-<li>创新性&emsp;在手游商创造性的体现出RTS玩法</li>
-<li>耐玩性&emsp;策略深度和变化性均较为出色</li>
-<li>契合度&emsp;玩法对题材的表达是否合适</li>
-</ul>
-<h5 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h5><ul>
-<li>辨识度&emsp;美术风格辨识度高</li>
-<li>美术质量&emsp;静态效果较好，动态效果尤为出色</li>
-<li>接受度&emsp;用户接受程度较高</li>
-</ul>
-<h5 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h5><ul>
-<li>操作方式&emsp;操作十分便捷</li>
-<li>信息呈现&emsp;信息呈现清晰，用户一目了然</li>
-</ul>
-<h5 id="题材"><a href="#题材" class="headerlink" title="题材"></a>题材</h5><ul>
-<li>新颖度&emsp;玩法新颖</li>
-<li>流行度 &emsp;有 <code>部落冲突</code> 的IP加成</li>
-</ul>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggyfvj8s6fj30xc0id15c.jpg"></p>
-<h4 id="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"><a href="#分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素" class="headerlink" title="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"></a>分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素</h4><h5 id="拆解产品主要元素"><a href="#拆解产品主要元素" class="headerlink" title="拆解产品主要元素"></a>拆解产品主要元素</h5><p>这款游戏最吸引人的地方在哪里？列出你认为最吸引人的3-4各方面，可以从玩法，美术，平台等方面考虑：</p>
-<ul>
-<li>卡组策略</li>
-<li>实时对抗</li>
-<li>移动平台</li>
-<li>临场指挥</li>
-</ul>
-<h5 id="归纳游戏产品类型"><a href="#归纳游戏产品类型" class="headerlink" title="归纳游戏产品类型"></a>归纳游戏产品类型</h5><p>根据游戏最主要的乐趣点进行类型界定：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">实时对抗 + 临场发挥 -&gt; RTS类型</span><br></pre></td></tr></table></figure>
-
-
-<h4 id="分析游戏第三步：将产品与所属类型的特性进行比较"><a href="#分析游戏第三步：将产品与所属类型的特性进行比较" class="headerlink" title="分析游戏第三步：将产品与所属类型的特性进行比较"></a>分析游戏第三步：将产品与所属类型的特性进行比较</h4><p>将产品与其所属类型的特性进行比较，分析产品继承，强化，甚至创造了哪些该类型的优点，同时解决了哪些该类型的缺点：</p>
-<h5 id="皇室战争"><a href="#皇室战争" class="headerlink" title="皇室战争"></a>皇室战争</h5><ul>
-<li>继承了什么品类的特点？</li>
-<li>在品类基础上有什么突破？</li>
-<li>解决了品类什么痛点？</li>
-</ul>
-<h5 id="RTS类型"><a href="#RTS类型" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
-<li>实时指挥的游戏运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-<li>门槛高，兴奋点滞后</li>
-<li>游戏负担重</li>
-</ul>
-<h5 id="皇室战争继承了RTS丰富策略实时对抗的优点"><a href="#皇室战争继承了RTS丰富策略实时对抗的优点" class="headerlink" title="皇室战争继承了RTS丰富策略实时对抗的优点"></a>皇室战争继承了RTS丰富策略实时对抗的优点</h5><ul>
-<li>卡牌相克明显</li>
-<li>组卡衍生战术多样性 </li>
-</ul>
-<blockquote>
-<p>eg. 巨人流，狗球流，自闭流…每个牌组只有8张牌，配卡方式多变，产生各种不同的战术</p>
-</blockquote>
-<ul>
-<li>实时操作与对抗</li>
-</ul>
-<blockquote>
-<p>eg. 实时操作单位，选择和改变策略；配合清晰合理的单位AI，营造初双方即时对抗博弈的体验</p>
-</blockquote>
-<h5 id="皇室战争-解决了RTS门槛高的问题"><a href="#皇室战争-解决了RTS门槛高的问题" class="headerlink" title="皇室战争 解决了RTS门槛高的问题"></a>皇室战争 解决了RTS门槛高的问题</h5><ul>
-<li>游戏时间短</li>
-</ul>
-<blockquote>
-<p>eg. 单局3-6分钟</p>
-</blockquote>
-<ul>
-<li>瞬时思考维度少</li>
-</ul>
-<blockquote>
-<p>eg. 恒大资源供给，简化内政，集中于战斗</p>
-</blockquote>
-<ul>
-<li>操作模式简单</li>
-</ul>
-<blockquote>
-<p>eg. 瞬时操作少，操作方式简单；在合适的时机，位置使用合适的卡牌</p>
-</blockquote>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggygkr3u8aj30xc0i3naz.jpg"></p>
-<h4 id="【小练习】-比较王者荣耀与RTS特性"><a href="#【小练习】-比较王者荣耀与RTS特性" class="headerlink" title="【小练习】 比较王者荣耀与RTS特性"></a>【小练习】 比较王者荣耀与RTS特性</h4><p>MOBA属于RTS的衍生类型，比较 <code>王者荣耀</code> 与RTS特性，分析其继承，强化，甚至创造了哪些RTS的优点，同时解决了哪些RTS的缺点：</p>
-<h5 id="王者荣耀"><a href="#王者荣耀" class="headerlink" title="王者荣耀"></a>王者荣耀</h5><ul>
-<li>继承了什么品类的特点？</li>
-<li>在品类基础上有什么突破？</li>
-<li>解决了品类什么痛点？</li>
-</ul>
-<h5 id="RTS类型-1"><a href="#RTS类型-1" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
-<li>实时指挥的游戏运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-<li>门槛高，兴奋点滞后</li>
-<li>游戏负担重</li>
-</ul>
-<h5 id="王者荣耀继承了RTS丰富策略实时对抗的优点"><a href="#王者荣耀继承了RTS丰富策略实时对抗的优点" class="headerlink" title="王者荣耀继承了RTS丰富策略实时对抗的优点"></a>王者荣耀继承了RTS丰富策略实时对抗的优点</h5><ul>
-<li>实时对抗的反馈与紧张+一定的战场模拟</li>
-<li>一定的策略深度（经济，成长，侦查，配合）</li>
-</ul>
-<h3 id="游戏类型特点分析方法"><a href="#游戏类型特点分析方法" class="headerlink" title="游戏类型特点分析方法"></a>游戏类型特点分析方法</h3><h4 id="分析游戏类型特点：总结同类型产品的共同点"><a href="#分析游戏类型特点：总结同类型产品的共同点" class="headerlink" title="分析游戏类型特点：总结同类型产品的共同点"></a>分析游戏类型特点：总结同类型产品的共同点</h4><h5 id="RTS同类型游戏"><a href="#RTS同类型游戏" class="headerlink" title="RTS同类型游戏"></a>RTS同类型游戏</h5><blockquote>
-<ul>
-<li><code>魔兽争霸3</code></li>
-<li><code>三国志大战</code></li>
-<li><code>全面战争:战锤2</code></li>
-<li><code>皇室战争</code></li>
-</ul>
-</blockquote>
-<h5 id="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"><a href="#一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性" class="headerlink" title="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"></a>一个游戏类型总会有各种各样的差异化产品，需要寻找它们的<strong>共性</strong></h5><blockquote>
-<p><code>魔兽争霸3</code></p>
-<ul>
-<li>PC平台 键鼠操作</li>
-<li>实时的‘内政-&gt;侦查-&gt;战斗’模式；矿点，商店等特殊地点的争夺贯穿整个游戏</li>
-</ul>
-<p><code>三国志大战</code></p>
-<ul>
-<li>街机平台 实体卡牌 + 触摸操作</li>
-<li>实时的‘资源-&gt;兵力-&gt;战斗’模式；地图区域的控制争夺贯穿整个游戏</li>
-</ul>
-<p><code>全面战争：战锤2</code></p>
-<ul>
-<li>PC平台 键鼠操作</li>
-<li>专注于实时的指挥与战斗；关键地形的争夺贯穿游戏过程</li>
-</ul>
-<p><code>皇室战争</code></p>
-<ul>
-<li>移动平台 触摸屏操作</li>
-<li>实时的 资源-&gt;兵力-&gt;战斗 模式</li>
-</ul>
-</blockquote>
-<p>共性：<strong>实时的运行机制和操作模式</strong> + <strong>丰富的策略与战场空间争夺元素</strong></p>
-<img src="https://img.3dmgame.com/UploadFiles/200908/20090831180642574.jpg" style="zoom:150%;" />
-
-
-
-<h5 id="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"><a href="#分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）" class="headerlink" title="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"></a>分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）</h5><ul>
-<li>回合制策略 - <code>文明6</code></li>
-<li>实时射击 - <code>绝地求生</code></li>
-</ul>
-<h5 id="分析游戏类型特点：寻找现实与游戏之间的映射"><a href="#分析游戏类型特点：寻找现实与游戏之间的映射" class="headerlink" title="分析游戏类型特点：寻找现实与游戏之间的映射"></a>分析游戏类型特点：寻找现实与游戏之间的映射</h5><p>很多游戏都可以视为对现实的一种映射，我们需要寻找 <strong>现实 &lt;–&gt; 游戏 的映射</strong></p>
-<blockquote>
-<p>格斗游戏</p>
-<ul>
-<li><code>VR战士</code> <code>街霸5</code> -&gt; 真实世界对战格斗</li>
-</ul>
-<p>射击</p>
-<ul>
-<li><code>绝地求生</code> <code>使命召唤系列</code> -&gt; 现实射击</li>
-</ul>
-<p>回合制策略</p>
-<ul>
-<li><code>文明6</code> <code>群星</code> -&gt; 国家管理与战争</li>
-</ul>
-<p>RTS</p>
-<ul>
-<li><code>全面战争：战锤2</code> <code>皇室战争 </code>-&gt; 战场指挥体验</li>
-</ul>
-</blockquote>
-<h5 id="通过多种方法总结游戏类型的特点"><a href="#通过多种方法总结游戏类型的特点" class="headerlink" title="通过多种方法总结游戏类型的特点"></a>通过多种方法总结游戏类型的特点</h5><p>RTS产品共性（优点）</p>
-<ul>
-<li>实时的运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-</ul>
-<p>RTS产品与其他类型产品差异（缺点）</p>
-<ul>
-<li>战场策略的实时还原</li>
-<li>门槛高，兴奋点滞后</li>
-</ul>
-<p>RTS产品与现实间的映射</p>
-<ul>
-<li>战场指挥体验</li>
-</ul>
-<h3 id="游戏类型趋势分析方法"><a href="#游戏类型趋势分析方法" class="headerlink" title="游戏类型趋势分析方法"></a>游戏类型趋势分析方法</h3><h4 id="分析游戏类型趋势：挑选重点产品进行对比"><a href="#分析游戏类型趋势：挑选重点产品进行对比" class="headerlink" title="分析游戏类型趋势：挑选重点产品进行对比"></a>分析游戏类型趋势：挑选重点产品进行对比</h4><p>在产品特性分析的基础上，我们库乐队特定游戏类型的发展趋势进行分析研究</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">挑选代表产品 -&gt; 总结每个产品的特点 -&gt; 比较产品</span><br></pre></td></tr></table></figure>
-
-
-
-
-<h4 id="比较产品，寻找类型发展趋势"><a href="#比较产品，寻找类型发展趋势" class="headerlink" title="比较产品，寻找类型发展趋势"></a>比较产品，寻找类型发展趋势</h4><blockquote>
-<p>时间轴</p>
-<ul>
-<li>2002 <code>魔兽争霸3</code> 内容非常全面 策略非常丰富 指挥体验完善 操作复杂 门槛高</li>
-<li>2005 强调战斗 策略丰富 指挥体验非常出色 门槛较高 新平台</li>
-<li>2006 <code>英雄连</code></li>
-<li>2009 <code>英雄联盟</code> 强调战斗和配合 策略丰富 操作方式简单 门槛低</li>
-<li>2010 <code>星际争霸2</code> 类似于WAR3的传统RTS</li>
-<li>2013 <code>横扫千星</code></li>
-<li>2015 <code>灰蛊</code> <code>王者荣耀</code> - 英雄联盟移动版</li>
-<li>2016 <code>奇点灰烬</code></li>
-<li>2017 强调战斗 战场策略丰富 指挥体验完善 操作较为复杂 门槛较高</li>
-</ul>
-</blockquote>
-<ul>
-<li>核心：实时的策略性，战场体验，指挥感仍是RTS的核心</li>
-<li>内容侧重：不追求内容面面俱到，而是集中于某些模块（例如战斗）</li>
-<li>门槛：门槛逐渐降低，游戏节奏逐渐加快</li>
-<li>平台：新平台出现扩大用户规模</li>
-<li>技术：新技术的应用改进RTS形态（例如新操作模式），使其满足新用户的需求</li>
-</ul>
-<p>###【课后作业】 分析特定产品</p>
-<p><strong>（1）Apex Legends</strong></p>
-<ul>
-<li>继承了什么大逃杀品类的特点</li>
-<li>在大逃杀品类基础上有什么突破</li>
-<li>解决了大逃杀品类的什么问题</li>
-</ul>
-<p><strong>（2）大逃杀类型特性</strong></p>
-<blockquote>
-<ul>
-<li><code>H1Z1</code></li>
-<li><code>绝地求生</code></li>
-<li><code>堡垒之夜</code></li>
-<li><code>黑色行动4</code></li>
-</ul>
-</blockquote>
-<p><strong>（3）只狼</strong></p>
-<ul>
-<li>继承了什么ACT品类的特点</li>
-<li>在ACT品类基础上有什么突破</li>
-<li>解决了ACT品类的什么问题</li>
-</ul>
-<p><strong>（4）ACT类型特性</strong></p>
-<blockquote>
-<ul>
-<li><code>鬼泣</code></li>
-<li><code>猎天使魔女</code></li>
-<li><code>黑暗之魂</code></li>
-<li><code>战神</code></li>
-</ul>
-</blockquote>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/dafortin">David Fortin</a>
-    </i>
-  </font>
-</div>]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一个关于爱与生活的童话-Florence</title>
-    <url>/archives/9b487a14.html</url>
-    <content><![CDATA[<p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
-<a id="more"></a>
-
-<p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_3803bfdcbfa1ff4515505f920ed1c7993993b9f6.600x338.jpg?t=1589331032">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256774213/movie480.webm?t=1580836892" type="video/mp4">       </video></p>
-<h3 id="关于游戏"><a href="#关于游戏" class="headerlink" title="关于游戏"></a>关于游戏</h3><p>Florence 是一场持续约 30 分钟的心动体验。故事很简短，但意义很深远。</p>
-<p>25 岁的 Florence Yeoh 对生活感到困惑。她的生活是日复一日地工作、睡觉，以及在社交媒体上打发大量时间。直到有一天，她遇到了一位名叫 Krish 的大提琴手，他改变了她眼中的整个世界。</p>
-<p>透过一系列预先设定的游戏剧本，从调情到吵架，从互助成长到逐渐分歧，玩家将体验 Florence 与 Krish 这段感情的点点滴滴。 《Florence》的灵感来源于「Slice of Life」漫画小说和网路漫画，讲述了一个熟悉、青涩而又私密的爱情故事。</p>
-<h3 id="测评"><a href="#测评" class="headerlink" title="测评"></a>测评</h3><blockquote>
-<p>“Florence is a beautiful experience that isn’t afraid to tell an ordinary story. This isn’t an action-packed, heroic tale or a somber story filled with tragedy, but it still hits some of those notes in subdued ways. Florence is happy, distressing, and admirable in its reflection of young romance, and it left me with a sense of unexpected hopefulness.”<br><em>Game Informer</em></p>
-</blockquote>
-<br/>
-
-<blockquote>
-<p>“This short collection of small moments manages to cover a wide range of powerfully relatable emotional highs and lows, beautifully capturing what it’s like to fall in love for the first time.”<br><em>The Guardian</em></p>
-</blockquote>
-<br/>
-
-<blockquote>
-<p>“The breathtaking Florence captures falling in love better than almost any game.”<br><em>Polygon</em></p>
-</blockquote>
-<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="玩法层面"><a href="#玩法层面" class="headerlink" title="玩法层面"></a>玩法层面</h4><p>游戏总体上偏向于叙事类的互动故事，玩家更注重故事本身，所以在玩法方面基本上是被弱化甚至是可以忽略。但是作为游戏，《Florence》的交互设计做的非常优秀，在后面会提到，在此不再赘述。</p>
-<h4 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h4><p>美术风格上绘图保持着非常高的质量，在同类游戏中处于中等偏上的水平。在游玩游戏的过程中，每一张图都可以当作壁纸，仿佛是在艺术长廊中欣赏一件件精美的画作。而且勾勒人物的线条非常简洁凝练，相较于写实风格更偏向卡通，但却拿捏的恰到好处。虽然游戏除了背景音乐完全没有人物配音，但美术上呈现出艺术上的张力，也能让画中的人物富有生机与活力。</p>
-<h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>交互设计也是《Florence》的一大亮点。</p>
-<p>从游戏一开始的拖拽牙刷来刷牙，到吃饭时点击食物来食用以及后面等等，交互的风格让我想到了锈湖推出的《白门》。除开游戏类型的不同，两者的交互设计非常相似，甚至《白门》的主人公一开始的洗漱和之后的吃饭几乎一模一样。在我的印象中，类似于洗漱吃饭这样的行为交互设计一般是通过按键的方式实现的，例如在饭桌前提示按下某个之前操作方式提到的交互键位，触发「洗漱」、「吃饭」、「睡觉」等，之后可能会有一段动画。回到游戏本身，作为叙事类游戏，《Florence》必然面临着游戏性不足的问题，而这种细腻独特的交互方式成功地拉长了总体的游戏时间，丰富了游戏的体验，让玩家参与其中而只不是“看漫画”。同样的，许多游戏大作采用固定交互键的方式也是节约了玩家的时间和精力，因为这些游戏本身不需要交互来给游戏“拖时间”。</p>
-<p>在交互的过程中，玩家感受到的不是僵硬地拖延游戏时间，而是情感被不断地牵动。令人印象非常深刻的是女主与男主交谈的几个片段。这个情节谈话的方式是将拼图拖拽到指定区域并拼好。双方刚开始聊天时，拼图有足足八块 ，形状也是千奇百怪。随着交谈的深入，拼图的数量也开始减少，难度开始不断降低，六块、四块、三块，到后面双方聊到火热，拼图也只剩下两块，画面中两个人的距离也在不断靠近。在接吻前，两块的拖拽甚至变成了轴对称的，只需要拖拽一块到区域内就完成了。在整个过程中，玩家对这种不断增进的感情实际上是感同身受的，情感已经借由交互带入到故事中：从刚开始聊天的羞涩，不断从脑中寻找话题，到之后双方开始互敞心扉，最后不断靠近并热切地接吻，玩家的情感也融入到情景之中。拼图的形式贯穿了整个游戏，随着剧情的发展，双方的争吵再次以拼图的形式呈现：拼图镶嵌的「角」从圆滑的「圆角」变成了锐利的「尖角」；如果拼接的速度不够快还可能输给对方；而到了夜里睡觉的时候，拼图拼出双方背对背躺着，却只能拼出两大块各自的拼图，两者因为「角」相互排斥拼不到一起。和拼图的效果相似的设计还有转动时针来表现时间的流逝、同居时放置物品和分居时收拾曾经放置的物品，都能给玩家带来很大的触动。</p>
-<p>丰富多样的交互可能会带来操作上的困难，但在整个游玩过程中，不同的交互都有相应的提示。交互方面唯一的遗憾是《Florence》作为跨平台的游戏，交互由触屏变成了鼠标的拖动，PC端的体验可能较手机端稍逊色一些。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf7df4nwl8j30go09dmyk.jpg"></p>
-<h4 id="剧情题材"><a href="#剧情题材" class="headerlink" title="剧情题材"></a>剧情题材</h4><p>故事的本身可能是《Florence》争议比较大的方面。一个女孩在日复一日麻木的生活与工作中偶然遇到自己心动的男孩，双方坠入爱河开始甜蜜幸福的生活，一起去追逐梦想。随着时间的流逝，在生活中女孩和男孩相互的不理解变成了争吵，最后不欢而散。女孩最后坚持了自己的梦想，成为了一名画家，但她依旧忘不了那个当初送给她颜料盒的那个人。</p>
-<p>有一些人认为剧情的真实性不够：女孩一见钟情，有懵懂的欣赏，有心动的害羞，有投机的聊天，这些都是校园恋爱的元素，放在前面铺垫过日复一日重复麻木单调工作的女孩身上显然是不合适的，而且之后的画画成名给人很突兀的感觉，逻辑上很难自洽：</p>
-<blockquote>
-<p>女孩幼年热爱绘画，二十来年不练，分手之后努力画了几年突然就绘画艺术家作品大卖了，我觉得真的好假啊，这种女孩是天才，是玛丽苏，是任何小说电视剧里的女主角，唯独不是普通人。一个「恋爱后分手，分手后成名」的恋爱故事，越品越感觉像是一个泡泡一样的童话”</p>
-<p> <em>Topas今天退休了吗</em></p>
-</blockquote>
-<p>在我看来，《Florence》与其说是一个故事，不如说是一个关于爱情的童话：与其在其中寻找现实中爱情的影子，不如放松下来，把它当作一本童话书或者一个绘本，静静欣赏那种单纯的美好。彼此激励一起为对方对梦想加油、无论做什么都是快乐而且有活力的、哪怕有吵架不久后还是原谅对方继续甜蜜、即使 Florence 失去了 Krish，她依旧选择了去热爱生活，去追逐自己的梦想，最后获得了成功。抛开合理性，这个剧情本身就已经超出了简单的甜甜的恋爱，立意上升到一个更高的层次：恋爱让自己变得更好。经历过这些，她明白了一个问题：我是谁？人的一生都在了解自己，女主也不例外。所以这款游戏的名字叫做“Florence”，不仅仅是说她经历了一切，更意味着，她经历的这一切，让她找回了自己。这可能才是游戏想真正表达的。</p>
-<p><img src="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_9e029df44296f3d21a61e96d0a7bea4447be2c14.600x338.jpg?t=1589331032"></p>
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>希望通过恋爱，成为更好的自己。</p>
-<blockquote>
-<p>加速拨动的时钟 诉说我们之间的改变<br>争吵时 对话框的拼图角变得越来越尖锐<br>明明拼好了的拼图却发现无法组合在一起<br>拼到一起的照片碎片 却还是一直在分离<br>…….<br>不管你怎么念念不舍把碎片拖回来 不愿意点下一页<br>但想要离开的人终究会疏远 远去 成为人生中的一名过客</p>
-<p>曾经的你使我的生活有了色彩 让我对未来有了无限的憧憬</p>
-<p>可相片里躺在我身边的你 却依旧是我亲手擦去了你的存在</p>
-<p>感谢曾经所有美好的回忆 也感谢你把我放归与人海成就更好的自己</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>游戏追踪 (Game Tracker)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>2D Game</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>像素宝典#2</title>
     <url>/archives/c22ed0e6.html</url>
     <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解俯视跑步循环、闪电效果、故障效果和关卡设计流程。</p>
@@ -5168,6 +5462,64 @@
       </tags>
   </entry>
   <entry>
+    <title>像素宝典#3</title>
+    <url>/archives/a2511f33.html</url>
+    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解水、火的特效、无缝循环、植物和骷髅。</p>
+<a id="more"></a>
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmib88u5vj30u008c74z.jpg"></p>
+<h3 id="水"><a href="#水" class="headerlink" title="水"></a>水</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibewya6g30e80e8dy9.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmib97v9lg30e80e8qmm.gif"></p>
+<p>这估计是至今为止我做的最复杂的一节了，不过希望对大家有帮助！水也不是我的专长，所以为了这节我找了非常多资料。</p>
+<p>再次重申，这些都不是什么金科玉律，只是我自己画水时候的思路。这也不是真实世界里水的行为，只是这样我觉着更酷。</p>
+<p>画水对我来说就是关于流动。我总是注意去循环，让所有东西都一直在移动。</p>
+<p>感谢大家一如既往的支持，做这个系列我也很开心。这个系列走到现在都是靠各位 patreons（patreon 上的资助者）和大家的积极分享。</p>
+<h3 id="火"><a href="#火" class="headerlink" title="火"></a>火</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibgn0cag30e80e8aq8.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibftf9dg30e80e84gh.gif"></p>
+<p>火的教程来了！</p>
+<p>很难形容怎么去画火，所以这节文字特别多。我画的时候会结合自己的观察，也会参考其他人的作品。这也是学习画大部分东西的好办法。</p>
+<p>感谢每个人的支持，不论是资助还是帮忙分享！</p>
+<p>这个老哥这几节就迷上流动了，啥都是流动的。</p>
+<h3 id="无缝循环"><a href="#无缝循环" class="headerlink" title="无缝循环"></a>无缝循环</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibgeds8g30e80e845r.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibag70hg30e80e84gh.gif"></p>
+<p>这节有点抽象，我试着用自己做循环的过程给大家说明。</p>
+<p>我觉得学习做无缝循环的时候，练习是非常重要的。所以我建议大家多多练习。</p>
+<p>感谢大家的支持，下周见！</p>
+<p><strong>风农：左下角那个火焰，每个绿色的线代表的区间都是一个火苗生成到消散的区间。</strong></p>
+<p><strong>火苗生成是从最底层开始，最小只有一个绿色的点。</strong></p>
+<h3 id="植物-1"><a href="#植物-1" class="headerlink" title="植物 1"></a>植物 1</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibedsczg30e80e8k2j.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibdtzilg30e80e8k37.gif"></p>
+<p>这节与其说是教程，更像是一些技巧集合，和一些画蔬菜时候要注意的地方。</p>
+<p>我最大的建议是不要画噪点。加纹理是好的，但是纹理产生噪点太多的话画面会很怪。</p>
+<p>所以我都是先处理外形，再是光照，最后才是细节。</p>
+<p>我之前的像素画基础也是类似的集合，里面解释了孤立像素以及保持低数量的像素块。</p>
+<p>这期教程基本上是用的 Endesga （twitter.com/endesga）的 32 色调色盘。</p>
+<p>图片版：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibh44x8j30pk0g1wgm.jpg"></p>
+<h3 id="骷髅和骨头"><a href="#骷髅和骨头" class="headerlink" title="骷髅和骨头"></a>骷髅和骨头</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibd1fjbg30e80e81ky.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibfgxawg30e80e84qq.gif"></p>
+<p>这里是我画骷髅跟骨头时后的一些思路。</p>
+<p>大部分时候我感觉都是在跟低分辨率较劲，与其说是画画，更像是解密，但我还是很喜欢这个过程。</p>
+<p>下面是图里放不下的几个点：</p>
+<ul>
+<li>没什么比露天的肋骨更能说明“我已经死了”。用条纹图案在角色胸口画就可以。</li>
+<li>这完全是关于图形识别。人的思维总是想到处看到人脸，利用这点。</li>
+<li>跟其他情况不同，噪点在这里不是什么大问题，我通常会把所有东西都搞得很脏，腐蚀的厉害。</li>
+</ul>
+<p>感谢所有赞助者和大家的分享！</p>
+]]></content>
+      <categories>
+        <category>像素美工(Pixel Art Designing)</category>
+        <category>像素宝典(Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>像素宝典#4</title>
     <url>/archives/2b4d75d3.html</url>
     <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解角色设计、动画、像素运动、爆炸效果和怪异科技效果。</p>
@@ -5206,6 +5558,78 @@
 <p>这次是关于机器，我决定做个类似于“参考样式”的。你可以看着它来考虑想要加到自己机器上面的元素。</p>
 <p>也别忘了参考周围的东西，还有网上的，尤其是破损的机器。</p>
 <p>感谢大家的支持！</p>
+]]></content>
+      <categories>
+        <category>像素美工(Pixel Art Designing)</category>
+        <category>像素宝典(Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>像素宝典#5</title>
+    <url>/archives/2b4d75d4.html</url>
+    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解视差和深度、渲染技巧、动画缓冲、像素画流程和废墟画法。</p>
+<a id="more"></a>
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg6zwi43j30u008c74z.jpg"></p>
+<h3 id="视差和深度"><a href="#视差和深度" class="headerlink" title="视差和深度"></a>视差和深度</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg71rziog30e80e8hdt.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg71dlo7g30e80e8kjl.gif"></p>
+<p>视差是游戏和编程里我很喜欢的技术。非常好实现，是 2D 游戏里表现深度的好办法。</p>
+<p>我还附带了一个 <code>.love</code> 的例子，包括一个 <code>.lua</code> 的源代码文件，你可以看看。</p>
+<p>要运行 <code>.love</code> 文件，需要先下载 Löve：<a href="https://love2d.org/">https://love2d.org/</a></p>
+<p><strong>parallax.love</strong>：<a href="https://www.patreon.com/file?h=7863658&amp;i=795078">https://www.patreon.com/file?h=7863658&amp;i=795078</a></p>
+<p><strong>main.lua</strong>：<a href="https://www.patreon.com/file?h=7863658&amp;i=795082">https://www.patreon.com/file?h=7863658&amp;i=795082</a></p>
+<p><strong>风农：</strong>这一期跟后面有几期他都用到了这个叫 love 的引擎，我完全没用过，所以大家就领会领会精神就好了，如果感兴趣也可以去研究一下。</p>
+<h3 id="渲染技巧"><a href="#渲染技巧" class="headerlink" title="渲染技巧"></a>渲染技巧</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg9vic3fg30e80e81hh.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg72oqtcg30e80e8b0l.gif"></p>
+<p>这一期是关于编程/美术的教程。</p>
+<p>稍微有点偏向编程，但是对于想了解我常用的，简单的渲染技巧的同学会有点用。</p>
+<p>希望这能帮助大家写自己的渲染代码。调整渲染能做到很多事情：精灵拖尾痕迹，故障效果，动态模糊等等。</p>
+<p>附带了一个 <code>.love</code> 的例子，包括一个 <code>.lua</code> 的源代码文件，你可以看看。</p>
+<p><strong>render_tricks.love</strong>：<a href="https://www.patreon.com/file?h=7947098&amp;i=809238">https://www.patreon.com/file?h=7947098&amp;i=809238</a></p>
+<p><strong>main.lua</strong>：<a href="https://www.patreon.com/file?h=7947098&amp;i=809239">https://www.patreon.com/file?h=7947098&amp;i=809239</a></p>
+<p>闪烁那个，原理是这样的：</p>
+<p>一般游戏引擎里都获取时间的办法。</p>
+<p>用这个时间数字，比如 <code>3</code> 秒，除以 <code>4</code>, 能得到商是 <code>0</code>，模/余数是 <code>3</code>。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">3&#x2F;4 &#x3D; 0 </span><br><span class="line">3%4 &#x3D; 3</span><br></pre></td></tr></table></figure>
+<p>大概是这么个意思吧。</p>
+<h3 id="动画缓冲"><a href="#动画缓冲" class="headerlink" title="动画缓冲"></a>动画缓冲</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg7361b6g30e80e8qc3.gif"></p>
+<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"><br>这节是编程和美术通用的。改变移动物体的速度能给动画增加个性，冲击力，让它更有趣。</p>
+<p>对编程来说，使用补间动画时，别忘了加上缓冲函数。我特意给大家制作了一个简单的缓冲函数小抄，用的 Löve framework，（基于 Albano 的 glide  <a href="https://bitbucket.org/jacobalbano/glide%EF%BC%89%E3%80%82">https://bitbucket.org/jacobalbano/glide）。</a></p>
+<p><strong>风农：tween 在编程里一般指补间动画，意思是给两个位置，之间的运动由程序计算完成，所以说别忘了加上缓冲函数。有很多的库做这个。</strong></p>
+<p><strong>一定注意看那几个代表位置的白块，那个东西就能解释他说的理念。</strong></p>
+<p><strong>Easing.love</strong>：<a href="https://www.patreon.com/file?h=8030922&amp;i=825976">https://www.patreon.com/file?h=8030922&amp;i=825976</a></p>
+<p><strong>main.lua</strong>：<a href="https://www.patreon.com/file?h=8030922&amp;i=825977">https://www.patreon.com/file?h=8030922&amp;i=825977</a></p>
+<p>后面应该就没有这个什么 love 引擎的了。</p>
+<h3 id="像素画流程"><a href="#像素画流程" class="headerlink" title="像素画流程"></a>像素画流程</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg742sjjg30e80e8aig.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg76vvejg30e80e8119.gif"></p>
+<p>风农：这节图特别多，不过后面的静态图也都是动图里面的，只是拿出来，让大家慢慢看。</p>
+<p><strong>动图后面 9 幅图都是定时特别长的，不是你手机卡住了。</strong></p>
+<p>今天的教程稍有不同。因为要说的是流程，我决定用更传统的序列的形式。</p>
+<p>带着定时阅读文字比较有压力，所以这个帖子我加了静态帧。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwganhqevj30e80e8746.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg77dnzpj30e80e8q2u.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwgas8oknj30e80e8wee.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg76em1hj30e80e8jrb.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg77sbixj30e80e8glj.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg74kiltj30e80e80so.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg787tp9j30e80e8dfs.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg7607uij30e80e8jrc.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwgb1jhw2j30e80e8749.jpg"></p>
+<p>感谢大家的支持，下节见。</p>
+<h3 id="废墟"><a href="#废墟" class="headerlink" title="废墟"></a>废墟</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg75jr6rg30e80e84qb.gif"></p>
+<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
+<p>这个教程是关于废墟或者是损毁的东西。更多的是一些参考和窍门。我的主要建议是不要做的太过。加太多的裂痕，或者太多的对比，会显得所有东西都很乱。</p>
+<p>图中提到的故障效果教程在之前的课程中可以找到</p>
+<p>今天开始我要去温哥华，再到旧金山参加 GDC，所以可能要有一两周断更了。不过之后马上更新。</p>
+<p>希望 GDC 上能看到大家：D</p>
+<p>很骄傲的说目前这个系列已经有 6 个月了！不敢相信我已经做了 24 个教程！</p>
+<p>这都是因为大家的支持和分享，非常感谢！</p>
 ]]></content>
       <categories>
         <category>像素美工(Pixel Art Designing)</category>
@@ -5282,64 +5706,6 @@
       </tags>
   </entry>
   <entry>
-    <title>像素宝典#3</title>
-    <url>/archives/a2511f33.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解水、火的特效、无缝循环、植物和骷髅。</p>
-<a id="more"></a>
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmib88u5vj30u008c74z.jpg"></p>
-<h3 id="水"><a href="#水" class="headerlink" title="水"></a>水</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibewya6g30e80e8dy9.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmib97v9lg30e80e8qmm.gif"></p>
-<p>这估计是至今为止我做的最复杂的一节了，不过希望对大家有帮助！水也不是我的专长，所以为了这节我找了非常多资料。</p>
-<p>再次重申，这些都不是什么金科玉律，只是我自己画水时候的思路。这也不是真实世界里水的行为，只是这样我觉着更酷。</p>
-<p>画水对我来说就是关于流动。我总是注意去循环，让所有东西都一直在移动。</p>
-<p>感谢大家一如既往的支持，做这个系列我也很开心。这个系列走到现在都是靠各位 patreons（patreon 上的资助者）和大家的积极分享。</p>
-<h3 id="火"><a href="#火" class="headerlink" title="火"></a>火</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibgn0cag30e80e8aq8.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibftf9dg30e80e84gh.gif"></p>
-<p>火的教程来了！</p>
-<p>很难形容怎么去画火，所以这节文字特别多。我画的时候会结合自己的观察，也会参考其他人的作品。这也是学习画大部分东西的好办法。</p>
-<p>感谢每个人的支持，不论是资助还是帮忙分享！</p>
-<p>这个老哥这几节就迷上流动了，啥都是流动的。</p>
-<h3 id="无缝循环"><a href="#无缝循环" class="headerlink" title="无缝循环"></a>无缝循环</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibgeds8g30e80e845r.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibag70hg30e80e84gh.gif"></p>
-<p>这节有点抽象，我试着用自己做循环的过程给大家说明。</p>
-<p>我觉得学习做无缝循环的时候，练习是非常重要的。所以我建议大家多多练习。</p>
-<p>感谢大家的支持，下周见！</p>
-<p><strong>风农：左下角那个火焰，每个绿色的线代表的区间都是一个火苗生成到消散的区间。</strong></p>
-<p><strong>火苗生成是从最底层开始，最小只有一个绿色的点。</strong></p>
-<h3 id="植物-1"><a href="#植物-1" class="headerlink" title="植物 1"></a>植物 1</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibedsczg30e80e8k2j.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibdtzilg30e80e8k37.gif"></p>
-<p>这节与其说是教程，更像是一些技巧集合，和一些画蔬菜时候要注意的地方。</p>
-<p>我最大的建议是不要画噪点。加纹理是好的，但是纹理产生噪点太多的话画面会很怪。</p>
-<p>所以我都是先处理外形，再是光照，最后才是细节。</p>
-<p>我之前的像素画基础也是类似的集合，里面解释了孤立像素以及保持低数量的像素块。</p>
-<p>这期教程基本上是用的 Endesga （twitter.com/endesga）的 32 色调色盘。</p>
-<p>图片版：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibh44x8j30pk0g1wgm.jpg"></p>
-<h3 id="骷髅和骨头"><a href="#骷髅和骨头" class="headerlink" title="骷髅和骨头"></a>骷髅和骨头</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibd1fjbg30e80e81ky.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibfgxawg30e80e84qq.gif"></p>
-<p>这里是我画骷髅跟骨头时后的一些思路。</p>
-<p>大部分时候我感觉都是在跟低分辨率较劲，与其说是画画，更像是解密，但我还是很喜欢这个过程。</p>
-<p>下面是图里放不下的几个点：</p>
-<ul>
-<li>没什么比露天的肋骨更能说明“我已经死了”。用条纹图案在角色胸口画就可以。</li>
-<li>这完全是关于图形识别。人的思维总是想到处看到人脸，利用这点。</li>
-<li>跟其他情况不同，噪点在这里不是什么大问题，我通常会把所有东西都搞得很脏，腐蚀的厉害。</li>
-</ul>
-<p>感谢所有赞助者和大家的分享！</p>
-]]></content>
-      <categories>
-        <category>像素美工(Pixel Art Designing)</category>
-        <category>像素宝典(Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>像素宝典#7</title>
     <url>/archives/b2442469.html</url>
     <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解粘液、岩石构成、植物、城市背景以及像素画基础。</p>
@@ -5380,78 +5746,6 @@
 <p>我会从原始的方块开始画，再逐渐添加细节，以及生命的迹象。</p>
 <p>感谢大家的支持，下节见。</p>
 <p><strong>风农：</strong>左上角是讲解如何画一个砖块的纹理。右边的框是画城市背景的几个步骤，字体颜色是跟随场景变化的。</p>
-]]></content>
-      <categories>
-        <category>像素美工(Pixel Art Designing)</category>
-        <category>像素宝典(Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>像素宝典#5</title>
-    <url>/archives/2b4d75d4.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解视差和深度、渲染技巧、动画缓冲、像素画流程和废墟画法。</p>
-<a id="more"></a>
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg6zwi43j30u008c74z.jpg"></p>
-<h3 id="视差和深度"><a href="#视差和深度" class="headerlink" title="视差和深度"></a>视差和深度</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg71rziog30e80e8hdt.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg71dlo7g30e80e8kjl.gif"></p>
-<p>视差是游戏和编程里我很喜欢的技术。非常好实现，是 2D 游戏里表现深度的好办法。</p>
-<p>我还附带了一个 <code>.love</code> 的例子，包括一个 <code>.lua</code> 的源代码文件，你可以看看。</p>
-<p>要运行 <code>.love</code> 文件，需要先下载 Löve：<a href="https://love2d.org/">https://love2d.org/</a></p>
-<p><strong>parallax.love</strong>：<a href="https://www.patreon.com/file?h=7863658&amp;i=795078">https://www.patreon.com/file?h=7863658&amp;i=795078</a></p>
-<p><strong>main.lua</strong>：<a href="https://www.patreon.com/file?h=7863658&amp;i=795082">https://www.patreon.com/file?h=7863658&amp;i=795082</a></p>
-<p><strong>风农：</strong>这一期跟后面有几期他都用到了这个叫 love 的引擎，我完全没用过，所以大家就领会领会精神就好了，如果感兴趣也可以去研究一下。</p>
-<h3 id="渲染技巧"><a href="#渲染技巧" class="headerlink" title="渲染技巧"></a>渲染技巧</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg9vic3fg30e80e81hh.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg72oqtcg30e80e8b0l.gif"></p>
-<p>这一期是关于编程/美术的教程。</p>
-<p>稍微有点偏向编程，但是对于想了解我常用的，简单的渲染技巧的同学会有点用。</p>
-<p>希望这能帮助大家写自己的渲染代码。调整渲染能做到很多事情：精灵拖尾痕迹，故障效果，动态模糊等等。</p>
-<p>附带了一个 <code>.love</code> 的例子，包括一个 <code>.lua</code> 的源代码文件，你可以看看。</p>
-<p><strong>render_tricks.love</strong>：<a href="https://www.patreon.com/file?h=7947098&amp;i=809238">https://www.patreon.com/file?h=7947098&amp;i=809238</a></p>
-<p><strong>main.lua</strong>：<a href="https://www.patreon.com/file?h=7947098&amp;i=809239">https://www.patreon.com/file?h=7947098&amp;i=809239</a></p>
-<p>闪烁那个，原理是这样的：</p>
-<p>一般游戏引擎里都获取时间的办法。</p>
-<p>用这个时间数字，比如 <code>3</code> 秒，除以 <code>4</code>, 能得到商是 <code>0</code>，模/余数是 <code>3</code>。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">3&#x2F;4 &#x3D; 0 </span><br><span class="line">3%4 &#x3D; 3</span><br></pre></td></tr></table></figure>
-<p>大概是这么个意思吧。</p>
-<h3 id="动画缓冲"><a href="#动画缓冲" class="headerlink" title="动画缓冲"></a>动画缓冲</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg7361b6g30e80e8qc3.gif"></p>
-<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"><br>这节是编程和美术通用的。改变移动物体的速度能给动画增加个性，冲击力，让它更有趣。</p>
-<p>对编程来说，使用补间动画时，别忘了加上缓冲函数。我特意给大家制作了一个简单的缓冲函数小抄，用的 Löve framework，（基于 Albano 的 glide  <a href="https://bitbucket.org/jacobalbano/glide%EF%BC%89%E3%80%82">https://bitbucket.org/jacobalbano/glide）。</a></p>
-<p><strong>风农：tween 在编程里一般指补间动画，意思是给两个位置，之间的运动由程序计算完成，所以说别忘了加上缓冲函数。有很多的库做这个。</strong></p>
-<p><strong>一定注意看那几个代表位置的白块，那个东西就能解释他说的理念。</strong></p>
-<p><strong>Easing.love</strong>：<a href="https://www.patreon.com/file?h=8030922&amp;i=825976">https://www.patreon.com/file?h=8030922&amp;i=825976</a></p>
-<p><strong>main.lua</strong>：<a href="https://www.patreon.com/file?h=8030922&amp;i=825977">https://www.patreon.com/file?h=8030922&amp;i=825977</a></p>
-<p>后面应该就没有这个什么 love 引擎的了。</p>
-<h3 id="像素画流程"><a href="#像素画流程" class="headerlink" title="像素画流程"></a>像素画流程</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg742sjjg30e80e8aig.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg76vvejg30e80e8119.gif"></p>
-<p>风农：这节图特别多，不过后面的静态图也都是动图里面的，只是拿出来，让大家慢慢看。</p>
-<p><strong>动图后面 9 幅图都是定时特别长的，不是你手机卡住了。</strong></p>
-<p>今天的教程稍有不同。因为要说的是流程，我决定用更传统的序列的形式。</p>
-<p>带着定时阅读文字比较有压力，所以这个帖子我加了静态帧。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwganhqevj30e80e8746.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg77dnzpj30e80e8q2u.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwgas8oknj30e80e8wee.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg76em1hj30e80e8jrb.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg77sbixj30e80e8glj.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg74kiltj30e80e80so.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg787tp9j30e80e8dfs.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg7607uij30e80e8jrc.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwgb1jhw2j30e80e8749.jpg"></p>
-<p>感谢大家的支持，下节见。</p>
-<h3 id="废墟"><a href="#废墟" class="headerlink" title="废墟"></a>废墟</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg75jr6rg30e80e84qb.gif"></p>
-<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
-<p>这个教程是关于废墟或者是损毁的东西。更多的是一些参考和窍门。我的主要建议是不要做的太过。加太多的裂痕，或者太多的对比，会显得所有东西都很乱。</p>
-<p>图中提到的故障效果教程在之前的课程中可以找到</p>
-<p>今天开始我要去温哥华，再到旧金山参加 GDC，所以可能要有一两周断更了。不过之后马上更新。</p>
-<p>希望 GDC 上能看到大家：D</p>
-<p>很骄傲的说目前这个系列已经有 6 个月了！不敢相信我已经做了 24 个教程！</p>
-<p>这都是因为大家的支持和分享，非常感谢！</p>
 ]]></content>
       <categories>
         <category>像素美工(Pixel Art Designing)</category>
@@ -8117,300 +8411,6 @@
       <tags>
         <tag>Write</tag>
         <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>操作系统概述</title>
-    <url>/archives/2ba40472.html</url>
-    <content><![CDATA[<p>介绍操作系统的基本知识与课程相关。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="课程概述"><a href="#课程概述" class="headerlink" title="课程概述"></a>课程概述</h3><h4 id="课程信息"><a href="#课程信息" class="headerlink" title="课程信息"></a>课程信息</h4><table>
-<thead>
-<tr>
-<th><strong>Wiki</strong></th>
-<th><a href="http://os.cs.tsinghua.edu.cn/oscourse/OS2015">http://os.cs.tsinghua.edu.cn/oscourse/OS2015</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>学堂在线</strong></td>
-<td><strong><a href="https://www.xuetangx.com/courses/TsinghuaX/30240243X/2015T1/about">https://www.xuetangx.com/courses/TsinghuaX/30240243X/2015T1/about</a></strong></td>
-</tr>
-<tr>
-<td><strong>在线交流</strong></td>
-<td><strong><a href="https://piazza.com/tsinghua.edu.cn/spring2015/30240243x/home">https://piazza.com/tsinghua.edu.cn/spring2015/30240243x/home</a></strong></td>
-</tr>
-</tbody></table>
-<h4 id="教学团队"><a href="#教学团队" class="headerlink" title="教学团队"></a>教学团队</h4><table>
-<thead>
-<tr>
-<th>姓名</th>
-<th>邮箱</th>
-<th>角色</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>向勇</td>
-<td><a href="mailto:&#120;&#121;&#111;&#110;&#103;&#64;&#x74;&#x73;&#x69;&#110;&#103;&#x68;&#x75;&#97;&#46;&#101;&#x64;&#x75;&#46;&#99;&#x6e;">&#120;&#121;&#111;&#110;&#103;&#64;&#x74;&#x73;&#x69;&#110;&#103;&#x68;&#x75;&#97;&#46;&#101;&#x64;&#x75;&#46;&#99;&#x6e;</a> xyongcn@gmail.com</td>
-<td>教师</td>
-</tr>
-<tr>
-<td>陈渝</td>
-<td><a href="mailto:&#121;&#x75;&#x63;&#104;&#101;&#110;&#64;&#109;&#x61;&#105;&#108;&#46;&#116;&#x73;&#x69;&#x6e;&#x67;&#x68;&#117;&#97;&#46;&#101;&#x64;&#x75;&#46;&#x63;&#x6e;">&#121;&#x75;&#x63;&#104;&#101;&#110;&#64;&#109;&#x61;&#105;&#108;&#46;&#116;&#x73;&#x69;&#x6e;&#x67;&#x68;&#117;&#97;&#46;&#101;&#x64;&#x75;&#46;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
-<td>教师</td>
-</tr>
-<tr>
-<td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#116;&#101;&#x72;&#110;&#x61;&#x6c;&#x2e;&#110;&#x30;&#x38;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;">&#x65;&#116;&#101;&#x72;&#110;&#x61;&#x6c;&#x2e;&#110;&#x30;&#x38;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
-<td>助教</td>
-</tr>
-<tr>
-<td>何嘉权</td>
-<td><a href="mailto:&#111;&#98;&#x6a;&#101;&#x63;&#116;&#x6b;&#x75;&#97;&#110;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">&#111;&#98;&#x6a;&#101;&#x63;&#116;&#x6b;&#x75;&#97;&#110;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;</a></td>
-<td>助教</td>
-</tr>
-<tr>
-<td>曹睿东</td>
-<td><a href="mailto:&#99;&#x72;&#100;&#x66;&#x72;&#97;&#x6e;&#x6b;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#99;&#x72;&#100;&#x66;&#x72;&#97;&#x6e;&#x6b;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
-<td>助教</td>
-</tr>
-<tr>
-<td>武祥晋</td>
-<td><a href="mailto:&#x74;&#x61;&#99;&#x63;&#111;&#114;&#x61;&#119;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#x74;&#x61;&#99;&#x63;&#111;&#114;&#x61;&#119;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;</a></td>
-<td>助教</td>
-</tr>
-<tr>
-<td>辛云星</td>
-<td><a href="mailto:&#120;&#105;&#110;&#x79;&#117;&#110;&#x78;&#x69;&#110;&#x67;&#x30;&#48;&#x30;&#49;&#64;&#49;&#54;&#51;&#46;&#99;&#111;&#109;">&#120;&#105;&#110;&#x79;&#117;&#110;&#x78;&#x69;&#110;&#x67;&#x30;&#48;&#x30;&#49;&#64;&#49;&#54;&#51;&#46;&#99;&#111;&#109;</a></td>
-<td>助教</td>
-</tr>
-<tr>
-<td>刘聪</td>
-<td><a href="mailto:&#103;&#110;&#x6f;&#x63;&#117;&#x69;&#108;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;">&#103;&#110;&#x6f;&#x63;&#117;&#x69;&#108;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
-<td>助教</td>
-</tr>
-<tr>
-<td>常铖</td>
-<td><a href="mailto:&#109;&#121;&#x61;&#105;&#x72;&#x69;&#x61;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#109;&#121;&#x61;&#105;&#x72;&#x69;&#x61;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
-<td>助教</td>
-</tr>
-<tr>
-<td>张禹</td>
-<td><a href="mailto:&#122;&#x68;&#97;&#x6e;&#103;&#x72;&#x61;&#x69;&#x6e;&#57;&#x31;&#49;&#64;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#x6d;">&#122;&#x68;&#97;&#x6e;&#103;&#x72;&#x61;&#x69;&#x6e;&#57;&#x31;&#49;&#64;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
-<td>技术支持</td>
-</tr>
-<tr>
-<td>郭旭</td>
-<td><a href="mailto:&#x67;&#103;&#120;&#x78;&#x31;&#50;&#x30;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#x6d;">&#x67;&#103;&#120;&#x78;&#x31;&#50;&#x30;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#x6d;</a></td>
-<td>技术支持</td>
-</tr>
-</tbody></table>
-<h4 id="预备知识"><a href="#预备知识" class="headerlink" title="预备知识"></a>预备知识</h4><blockquote>
-<ul>
-<li>计算机结构原理</li>
-<li>C与汇编程序设计</li>
-<li>数据结构</li>
-</ul>
-</blockquote>
-<p>这门课是计算机专业的专业基础课，是一门工作量很大、很综合的课程，需要上面这些先修课程作为铺垫。</p>
-<p>由于操作系统要与硬件打交道，所以需要大家了解<em>计算机系统结构</em>，包括CPU的组成、总线和中断等等内容都是在写操作系统内核代码的时候所需要的；操作系统的编程语言是<em>C语言</em>和<em>汇编</em>，所以需要了解C如何来表达想写的算法，使用汇编来对硬件设备进行控制；数据结构在操作系统涉及很多的，例如树、表、链表等等，我们会在上面进行插入、删除、修改和检索。所以我们需要把这些课程所学的知识结合起来，为上层的应用提供一个最基本的操作系统环境。</p>
-<h4 id="参考教材"><a href="#参考教材" class="headerlink" title="参考教材"></a>参考教材</h4><p>本课程无固定OS教材，可参考的教材如下：</p>
-<blockquote>
-<ul>
-<li><a href="http://www.ostep.org/">Operating Systems: Three Easy Pieces 操作系统：三大简易元素</a></li>
-<li><a href="http://item.jd.com/10553956.html">Operating System Concepts 操作系统概念</a></li>
-<li><a href="http://item.jd.com/10255221.html">Operating Systems:Internals and Design Principles 操作系统：精髓与设计原理</a></li>
-</ul>
-</blockquote>
-<h3 id="什么是操作系统"><a href="#什么是操作系统" class="headerlink" title="什么是操作系统"></a>什么是操作系统</h3><p>什么是操作系统？它是一个程序，它和其他程序是什么关系？然后它有些什么样的组成、它有些什么样的特征？</p>
-<h4 id="操作系统定义"><a href="#操作系统定义" class="headerlink" title="操作系统定义"></a>操作系统定义</h4><blockquote>
-<ul>
-<li>没有公认的精确定义</li>
-<li>操作系统是一个控制程序<ul>
-<li>一个系统软件</li>
-<li>控制程序执行过程，防止错误和计算机的不当使用</li>
-<li>执行用户程序，给用户程序提供各种服务</li>
-<li>方便用户使用计算机系统</li>
-</ul>
-</li>
-</ul>
-</blockquote>
-<p>操作系统实际上没有一个明确的定义，比如哪些功能、哪些应用软件或硬件算是操作系统里的。实际上随着操作系统的发展，操作系统内涵实际上是在不断变化的。我们现在给操作系统是给出一个解释：<strong>操作系统是一个控制程序</strong>。</p>
-<h5 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h5><p>它是一个系统软件，它给用户提供一个<strong>运行环境</strong>，用户使用计算机系统的时候提供所需要的服务；如果说用户的使用不当，那么这个时候他需要进行项目的一些错误处理；如果说用户在使用过程中是否可以给予一些协助。比如在输入一条命令的时候输入半截忘记了后面是什么内容，这个时候是否可以给出一些提示。</p>
-<h5 id="资源管理器"><a href="#资源管理器" class="headerlink" title="资源管理器"></a>资源管理器</h5><p>操作系统也是一个<strong>资源管理器</strong>。实际上就是说我们计算机硬件和应用程序之间用操作系统来作为它的一个中间层，为计算机应用程序来管理所有的计算机软硬件资源以协调于各个应用程序，在使用这些资源的时候能够友好地使用下去。具体说来就是如果所有的资源都由自己专用，那么使用资源肯定会没问题，但是如果说多个应用程序交替使用，那么这个时候资源如何使用就会有一些问题，比如内存，你在用我也在用，这时候两个应用之间各分配多少呢？需要如果和分配的结果不一致呢？对于操作系统，此时就需要做一个高效的判断能够按照应用程序的需要给它分配合理的资源，这是我们操作系统提供的高效使用所要达到的目标</p>
-<h4 id="操作系统的地位"><a href="#操作系统的地位" class="headerlink" title="操作系统的地位"></a>操作系统的地位</h4><p>操作系统的表现形式可能多种多样，比如windows、Linux的表现是完全不一样的，但是从操作系统内部结构上来讲，它基本上可以分成这样几个部分：</p>
-<blockquote>
-<ul>
-<li>应用系统 – 用户</li>
-<li>系统应用 – 应用开发者 </li>
-<li>操作系统 – 应用开发者  </li>
-<li>计算机硬件 – 系统设计者</li>
-</ul>
-</blockquote>
-<p>操作系统实际上就是在硬件上对上面的应用进行一层隔离，提供我们通常所见的逻辑和资源，比如进程、文件、地址空间，这都是在操作系统之后给用户程序看到的情况。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo4gw0wtj30gh0l6js7.jpg"></p>
-<h4 id="操作系统软件的分类"><a href="#操作系统软件的分类" class="headerlink" title="操作系统软件的分类"></a>操作系统软件的分类</h4><blockquote>
-<ul>
-<li>软件<ul>
-<li>应用软件</li>
-<li>系统软件<ul>
-<li>系统应用</li>
-<li>操作系统<ul>
-<li>命令行</li>
-<li>内核</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</blockquote>
-<p>在我们软件划分当中我们可以把软件划分为应用软件和系统软件；系统软件我们可以把它分成系统应用和操作系统；而在操作系统里面核心内容是我们的命令行和内核。</p>
-<h4 id="操作系统软件的组成"><a href="#操作系统软件的组成" class="headerlink" title="操作系统软件的组成"></a>操作系统软件的组成</h4><blockquote>
-<ul>
-<li><p>命令行接口 Shell</p>
-<ul>
-<li>通过键盘操纵</li>
-<li>方便用户进行命令输入</li>
-</ul>
-</li>
-<li><p>图形用户接口 GUI</p>
-<ul>
-<li>WIMP：视窗 Window、图标 Icon、选单 Menu、指标 Pointer</li>
-<li>直接操作和所见即所得</li>
-</ul>
-</li>
-<li><p>操作系统内核 Kernel</p>
-<ul>
-<li>执行各种资源管理等功能</li>
-</ul>
-</li>
-</ul>
-</blockquote>
-<p>内核实现操作系统资源的管理功能，操作系统之上的用要使用实际上我们提供的两种命令接口Shell、GUI，实际上我们是把命令转换成我们图形用户接口的一些基本读数。</p>
-<p>操作系统是我们整个计算机系统里的核心软件，外边构造提供对外借口和一些应用，用户就可以来使用系统所提供的服务了。</p>
-<h5 id="操作系统内核特征"><a href="#操作系统内核特征" class="headerlink" title="操作系统内核特征"></a>操作系统内核特征</h5><h6 id="并发"><a href="#并发" class="headerlink" title="并发"></a>并发</h6><p>计算机系统中同时存在多个运行的程序，需要OS管理和调度。具体指我们如果多个应用程序交替运行，我需要知道当前每一个应用都执行到什么位置、当前正在执行的是哪个应用……都在用操作系统来维护。</p>
-<h6 id="共享"><a href="#共享" class="headerlink" title="共享"></a>共享</h6><p>多个应用并发运行的时候宏观上要体现出它们同时在访问资源的情况，而微观上要实现它们的互斥访问。比如两个应用同时访问内存，这个时候我每个应用需要知道它访问是哪个，另一个应用访问的是哪个，需要保护的内存资源不能让另外一个应用去访问；微观上我需要对它做很好的隔离，我们知道在数据总线上任何一个时刻只有一个应用去访问存储单元，这就是微观上的互斥。</p>
-<h6 id="虚拟"><a href="#虚拟" class="headerlink" title="虚拟"></a>虚拟</h6><p>通过交替运行使每一个用户感觉到整个计算机都是由它一个用户在专门提供服务。实际上就是由操作系统在每个应用执行的时候这种频率极高的交替让用户在用的时候感觉不太出来这台机器还有其它用户在用（负载大到一定程度，用户是可以感觉到的）。</p>
-<h6 id="异步"><a href="#异步" class="headerlink" title="异步"></a>异步</h6><p>程序的执行不是一贯到底，而是走走停停，向前推进的速度不可预知。只要运行环境相同，OS需要保证程序运行的结果也要相同。</p>
-<h3 id="操作系统学习动机与方法论"><a href="#操作系统学习动机与方法论" class="headerlink" title="操作系统学习动机与方法论"></a>操作系统学习动机与方法论</h3><blockquote>
-<ul>
-<li><p>综合课程</p>
-<ul>
-<li>程序设计语言</li>
-<li>数据结构</li>
-<li>算法</li>
-<li>计算机体系结构</li>
-</ul>
-</li>
-<li><p>材料</p>
-<p>操作系统概念和原理、源代码</p>
-</li>
-<li><p>技能</p>
-<p>操作系统的设计和实现</p>
-</li>
-</ul>
-</blockquote>
-<p>有人会说现在已经有了很好的操作系统，比如Windows、Linux等，将来的工作也不会写操作系统，为什么还要学操作系统呢？我们研究操作系统是要实现需求，而已有的操作系统不能解决所有的事，无法满足更高的需求。</p>
-<h4 id="操作系统软件的地位"><a href="#操作系统软件的地位" class="headerlink" title="操作系统软件的地位"></a>操作系统软件的地位</h4><blockquote>
-<ul>
-<li>计算机系统的基本组成部分</li>
-<li>由硬件的发展和应用需求所驱动</li>
-<li>学术和工业的持续推进</li>
-</ul>
-</blockquote>
-<p>操作系统是计算机科学研究的基石之一，比如微软最赚钱的不是操作系统软件，而是上面的应用。但它投入大量的精力去研究和改进操作系统，足以证明操作系统在其中的地位。</p>
-<h4 id="操作系统研究"><a href="#操作系统研究" class="headerlink" title="操作系统研究"></a>操作系统研究</h4><p>随着技术的发展和时代的变化，操作系统的研究团队也在不断变化：</p>
-<blockquote>
-<ul>
-<li>旧时：Xerox（PARC）、IBM、DEC（SRC）、Bell Labs</li>
-<li>现代：Mincrosoft、Google、Yahoo、IBM、HP、Sun、Intel、VMware、Amazon…</li>
-<li>国内：阿里巴巴、百度、华为…</li>
-<li>研究协会：ACM SIGOPS、USENIX</li>
-</ul>
-</blockquote>
-<h5 id="顶级会议"><a href="#顶级会议" class="headerlink" title="顶级会议"></a>顶级会议</h5><ul>
-<li><p><strong>ACM操作系统原理研讨会（SOSP）</strong></p>
-<ul>
-<li>ACM SIGOPS</li>
-<li>每两年（奇数：1967-）</li>
-<li>~20论文</li>
-</ul>
-</li>
-<li><p><strong>USENIX操作系统设计和实现研讨会（OSDI）</strong></p>
-<ul>
-<li>USENIX</li>
-<li>每两年（偶数：1994-）</li>
-<li>~20论文</li>
-</ul>
-</li>
-</ul>
-<h5 id="影响论文"><a href="#影响论文" class="headerlink" title="影响论文"></a>影响论文</h5><ul>
-<li><p><strong>SIGOPS Hall-of-Fame Awards</strong></p>
-<ul>
-<li>论文必须发表在同行评议的文献中至少十年</li>
-<li>到目前为止有三十多篇论文获奖</li>
-</ul>
-</li>
-<li><p>假设你想做操作系统研究</p>
-<ul>
-<li>需要阅读和理解这些论文</li>
-<li><a href="http://www.sigops.org/award-hof.html">http://www.sigops.org/award-hof.html</a></li>
-</ul>
-</li>
-</ul>
-<h4 id="如何学习操作系统"><a href="#如何学习操作系统" class="headerlink" title="如何学习操作系统"></a>如何学习操作系统</h4><blockquote>
-<p>“不闻不若闻之，闻之不若见之，见之不若知之，知之不若行之；学至于行之而止矣。”<br>–荀子《儒效篇》</p>
-<p>“天才是1%的灵感加上99%的汗水”<br>– Thomas Edison </p>
-</blockquote>
-<h3 id="操作系统实例"><a href="#操作系统实例" class="headerlink" title="操作系统实例"></a>操作系统实例</h3><p>最早的操作系统是在上世纪60年代由UNIX开始的，延伸出多种系统如BSD系列，现在大家见到的比较多的MacOS的前身也是UNIX。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo4jdkhkj31ao0t6gly.jpg"></p>
-<p>而到了90年代一个名叫Linux的大学生开始做Linux，他想做一个完全由自己掌控的系统。从它开始，一种新的开发模式诞生了，下面这些是Linux的延伸：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo4iblaej30qm0as74p.jpg"></p>
-<p>Liunx以很好的开放性为核心思路，获得了巨大的关注与发展。而Windows系统则是完全不同的一类做法，它以专用和封闭的形式来发行操作系统。Windows从DOS系统开始，直至3.0以图形用户接口和应用系统来得到认可。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo4hq424j30zk0k0gmm.jpg"></p>
-<p>我们可以看到从操作系统的角度来讲有两种完全不同的风格：开放和封闭。这两种类型我们很难说孰优孰劣，各有各的优缺点。</p>
-<h3 id="操作系统演变"><a href="#操作系统演变" class="headerlink" title="操作系统演变"></a>操作系统演变</h3><h4 id="操作系统为什么改变"><a href="#操作系统为什么改变" class="headerlink" title="操作系统为什么改变"></a>操作系统为什么改变</h4><blockquote>
-<ul>
-<li><p>操作系统的主要功能：硬件抽象和协调管理</p>
-</li>
-<li><p>原则：设计随着各种相关技术的改变而做出一定的改变</p>
-</li>
-<li><p>在过去二十年底层技术由极大的改变</p>
-</li>
-</ul>
-</blockquote>
-<p>从八十年代个人计算机出现到2012年硬件技术变化非常之大：CPU速度、处理能力、存储能力、硬盘容量，这种变化对操作系统有至关重要的影响。</p>
-<h4 id="操作系统的演变"><a href="#操作系统的演变" class="headerlink" title="操作系统的演变"></a>操作系统的演变</h4><p>操作系统也在不断变化：</p>
-<blockquote>
-<ul>
-<li>单用户系统</li>
-<li>批处理系统</li>
-<li>多程序系统</li>
-<li>分时</li>
-<li>个人计算机：每个用户一个系统</li>
-<li>分布式计算：每个用户多个系统</li>
-</ul>
-</blockquote>
-<h5 id="单用户系统（’45-’55）"><a href="#单用户系统（’45-’55）" class="headerlink" title="单用户系统（’45-’55）"></a>单用户系统（’45-’55）</h5><blockquote>
-<p>操作系统 = 装载器 + 通用子程序库</p>
-<p>问题： 昂贵组件的低利用率</p>
-<p>$\frac{执行时间}{执行时间+读卡时间}=%利用率$</p>
-</blockquote>
-<p>这段时间操作系统需要解决的事如何提高昂贵计算机的使用效率</p>
-<h3 id="操作系统结构"><a href="#操作系统结构" class="headerlink" title="操作系统结构"></a>操作系统结构</h3>]]></content>
-      <categories>
-        <category>计算机基础(Computer Basic)</category>
-        <category>操作系统(Operating Systems)</category>
-      </categories>
-      <tags>
-        <tag>Mooc</tag>
-        <tag>OS</tag>
       </tags>
   </entry>
   <entry>
