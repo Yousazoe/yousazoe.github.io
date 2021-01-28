@@ -20,28 +20,19 @@
     var CONFIG = {"hostname":"yousazoe.top","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":"ture","show_result":false,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta property="og:type" content="article">
+  <meta name="description" content="本文将介绍Aseprite的编译安装方法。">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Aseprite教学-Aseprite编译教程">
 <meta property="og:url" content="http://yousazoe.top/archives/5d59087d.html">
 <meta property="og:site_name" content="Fl0w3r">
+<meta property="og:description" content="本文将介绍Aseprite的编译安装方法。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g7vqjebj30hs0a0wei.jpg">
-<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gmsw88l638j30q60a677k.jpg">
-<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gmsw891ap7j30w0066jtl.jpg">
-<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gmsw89jgzaj318v0u0dhr.jpg">
-<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn03cgss93j30k008674l.jpg">
-<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn03ciigs7j30k0089glu.jpg">
-<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn03chm5h8j31hc0rtjs8.jpg">
-<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn03cjhbh1j30dc07i0u9.jpg">
-<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn03ch4ldhj30k00bjgms.jpg">
-<meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn03cj1xxuj30k00arq5x.jpg">
 <meta property="article:published_time" content="2021-01-19T04:07:42.000Z">
-<meta property="article:modified_time" content="2021-01-28T07:38:14.005Z">
+<meta property="article:modified_time" content="2021-01-28T09:22:27.049Z">
 <meta property="article:author" content="Yousazoe">
 <meta property="article:tag" content="Aseprite">
 <meta property="article:tag" content="CMake">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g7vqjebj30hs0a0wei.jpg">
 
 <link rel="canonical" href="http://yousazoe.top/archives/5d59087d.html">
 
@@ -258,10 +249,13 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g7vqjebj30hs0a0wei.jpg"></p>
+        <p>本文将介绍Aseprite的编译安装方法。</p>
 <a id="more"></a>
 
-<p>本文将介绍Aseprite的编译安装方法。</p>
+
+
+
+
 <h3 id="官方说明文档"><a href="#官方说明文档" class="headerlink" title="官方说明文档"></a>官方说明文档</h3><h4 id="Platforms"><a href="#Platforms" class="headerlink" title="Platforms"></a>Platforms</h4><p>You should be able to compile Aseprite successfully on the following platforms:</p>
 <ul>
 <li>Windows 10 + <a target="_blank" rel="noopener" href="https://imgur.com/a/7zs51IT">Visual Studio Community 2019 + Windows 10.0.18362.0 SDK</a> (we don’t support <a target="_blank" rel="noopener" href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#mingw">MinGW</a>)</li>
@@ -326,28 +320,6 @@
 <p>In this case, <code>$HOME/deps/skia</code> is the directory where Skia was compiled or uncompressed.</p>
 <h4 id="Using-shared-third-party-libraries"><a href="#Using-shared-third-party-libraries" class="headerlink" title="Using shared third party libraries"></a>Using shared third party libraries</h4><p>If you don’t want to use the embedded code of third party libraries (i.e. to use your installed versions), you can disable static linking configuring each <code>USE_SHARED_</code> option.</p>
 <p>After running <code>cmake -G</code>, you can edit <code>build/CMakeCache.txt</code> file, and enable the <code>USE_SHARED_</code> flag (set its value to <code>ON</code>) of the library that you want to be linked dynamically.</p>
-<h3 id="Brew安装"><a href="#Brew安装" class="headerlink" title="Brew安装"></a>Brew安装</h3><p>如果你的电脑没有安装brew，那么先打开MAC的终端，输入如下命令</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; &lt; /dev/null 2&gt; /dev/null ; brew install caskroom/cask/brew-cask 2&gt; /dev/null</span><br></pre></td></tr></table></figure>
-<p>安装过程会提示你输入密码，输入密码后继续</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gmsw88l638j30q60a677k.jpg"></p>
-<p>安装brew之后输入命令</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew cask install aseprite</span><br></pre></td></tr></table></figure>
-<p>安装成功，信息输出如下</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gmsw891ap7j30w0066jtl.jpg"></p>
-<p>之后你可以在MAC的启动台启动Aseprite进行像素绘画啦！</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gmsw89jgzaj318v0u0dhr.jpg"></p>
-<h3 id="汉化"><a href="#汉化" class="headerlink" title="汉化"></a>汉化</h3><p>在steam社区中有非常详细的指南，推荐参考</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn03cgss93j30k008674l.jpg"></p>
-<p>汉化和主题的所需文件都在这里：<a href="https://link.zhihu.com/?target=https://github.com/J-11/Aseprite-Simplified-Chinese/blob/master/README.md">https://github.com/J-11/Aseprite-Simplified-Chinese/blob/master/README.md</a></p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn03ciigs7j30k0089glu.jpg"></p>
-<p>顶部菜单栏“Edit”&gt;&gt;“Preferences”&gt;&gt;“Extensions”&gt;&gt;“Add Extensions”&gt;&gt;选择下载的文件导入即可，如果汉化后字体模糊，则需要使用字体主题包</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn03chm5h8j31hc0rtjs8.jpg"></p>
-<p>汉化成功！尽情享受！</p>
-<h3 id="题外话"><a href="#题外话" class="headerlink" title="题外话"></a>题外话</h3><p>结尾再给大家分享几张像素画，全文中的像素画作者皆为：来自日本的1041uuu（丰井佑太）</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn03cjhbh1j30dc07i0u9.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn03ch4ldhj30k00bjgms.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn03cj1xxuj30k00arq5x.jpg"></p>
-<p>推荐一个像素艺术网站：<a href="https://link.zhihu.com/?target=https://www.pixilart.com/">https://www.pixilart.com/</a></p>
 <h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
 <li><a target="_blank" rel="noopener" href="http://macappstore.org/aseprite/">Install Aseprite on Mac OSX</a></li>
 <li><a target="_blank" rel="noopener" href="https://www.bestgcc.cn/20181204194300.html">Mac 编译安装 Aseprite</a></li>
@@ -438,7 +410,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%98%E6%96%B9%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3"><span class="nav-number">1.</span> <span class="nav-text">官方说明文档</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Platforms"><span class="nav-number">1.1.</span> <span class="nav-text">Platforms</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Get-the-source-code"><span class="nav-number">1.2.</span> <span class="nav-text">Get the source code</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Dependencies"><span class="nav-number">1.3.</span> <span class="nav-text">Dependencies</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Windows-dependencies"><span class="nav-number">1.3.1.</span> <span class="nav-text">Windows dependencies</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#macOS-dependencies"><span class="nav-number">1.3.2.</span> <span class="nav-text">macOS dependencies</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Linux-dependencies"><span class="nav-number">1.3.3.</span> <span class="nav-text">Linux dependencies</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Compiling"><span class="nav-number">1.4.</span> <span class="nav-text">Compiling</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Windows-details"><span class="nav-number">1.4.1.</span> <span class="nav-text">Windows details</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#MinGW"><span class="nav-number">1.4.1.1.</span> <span class="nav-text">MinGW</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#macOS-details"><span class="nav-number">1.4.2.</span> <span class="nav-text">macOS details</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Issues-with-Retina-displays"><span class="nav-number">1.4.3.</span> <span class="nav-text">Issues with Retina displays</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Linux-details"><span class="nav-number">1.4.4.</span> <span class="nav-text">Linux details</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Using-shared-third-party-libraries"><span class="nav-number">1.5.</span> <span class="nav-text">Using shared third party libraries</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Brew%E5%AE%89%E8%A3%85"><span class="nav-number">2.</span> <span class="nav-text">Brew安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B1%89%E5%8C%96"><span class="nav-number">3.</span> <span class="nav-text">汉化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%98%E5%A4%96%E8%AF%9D"><span class="nav-number">4.</span> <span class="nav-text">题外话</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E8%80%83"><span class="nav-number">5.</span> <span class="nav-text">参考</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%98%E6%96%B9%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3"><span class="nav-number">1.</span> <span class="nav-text">官方说明文档</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Platforms"><span class="nav-number">1.1.</span> <span class="nav-text">Platforms</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Get-the-source-code"><span class="nav-number">1.2.</span> <span class="nav-text">Get the source code</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Dependencies"><span class="nav-number">1.3.</span> <span class="nav-text">Dependencies</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Windows-dependencies"><span class="nav-number">1.3.1.</span> <span class="nav-text">Windows dependencies</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#macOS-dependencies"><span class="nav-number">1.3.2.</span> <span class="nav-text">macOS dependencies</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Linux-dependencies"><span class="nav-number">1.3.3.</span> <span class="nav-text">Linux dependencies</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Compiling"><span class="nav-number">1.4.</span> <span class="nav-text">Compiling</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Windows-details"><span class="nav-number">1.4.1.</span> <span class="nav-text">Windows details</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#MinGW"><span class="nav-number">1.4.1.1.</span> <span class="nav-text">MinGW</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#macOS-details"><span class="nav-number">1.4.2.</span> <span class="nav-text">macOS details</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Issues-with-Retina-displays"><span class="nav-number">1.4.3.</span> <span class="nav-text">Issues with Retina displays</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Linux-details"><span class="nav-number">1.4.4.</span> <span class="nav-text">Linux details</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Using-shared-third-party-libraries"><span class="nav-number">1.5.</span> <span class="nav-text">Using shared third party libraries</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E8%80%83"><span class="nav-number">2.</span> <span class="nav-text">参考</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

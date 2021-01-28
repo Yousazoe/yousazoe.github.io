@@ -20,16 +20,16 @@
     var CONFIG = {"hostname":"yousazoe.top","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":"ture","show_result":false,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="本文主要讨论数据分析与数据挖掘的基本原理与方法论，在艾新波老师的指引下对数据科学的整体有一个大致的了解，领悟核心的数据分析思想。 气象万千 数以等观随着数字时代的来临，我们身边的设备和系统表现出越来越多的令人惊叹的智能。比如我们上传一张照片到某个网站，它会自动识别出来里面每个人的年龄；在某些诊疗系统里面，通过一些具体的医疗图像它可以识别出来玩吗身体的状况是否有疾病，它一些疾病（比如肺癌）的治疗">
+  <meta name="description" content="本文主要讨论数据分析与数据挖掘的基本原理与方法论，在艾新波老师的指引下对数据科学的整体有一个大致的了解，领悟核心的数据分析思想。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="R语言数据分析方法论">
 <meta property="og:url" content="http://yousazoe.top/archives/730c27b4.html">
 <meta property="og:site_name" content="Fl0w3r">
-<meta property="og:description" content="本文主要讨论数据分析与数据挖掘的基本原理与方法论，在艾新波老师的指引下对数据科学的整体有一个大致的了解，领悟核心的数据分析思想。 气象万千 数以等观随着数字时代的来临，我们身边的设备和系统表现出越来越多的令人惊叹的智能。比如我们上传一张照片到某个网站，它会自动识别出来里面每个人的年龄；在某些诊疗系统里面，通过一些具体的医疗图像它可以识别出来玩吗身体的状况是否有疾病，它一些疾病（比如肺癌）的治疗">
+<meta property="og:description" content="本文主要讨论数据分析与数据挖掘的基本原理与方法论，在艾新波老师的指引下对数据科学的整体有一个大致的了解，领悟核心的数据分析思想。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq1jgxgaj31hc0m80z8.jpg">
 <meta property="article:published_time" content="2020-11-04T14:55:50.000Z">
-<meta property="article:modified_time" content="2021-01-28T07:52:19.147Z">
+<meta property="article:modified_time" content="2021-01-28T09:12:34.574Z">
 <meta property="article:author" content="Yousazoe">
 <meta property="article:tag" content="Mooc">
 <meta property="article:tag" content="R">
@@ -248,9 +248,13 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <a id="more"></a>
+        <p>本文主要讨论数据分析与数据挖掘的基本原理与方法论，在艾新波老师的指引下对数据科学的整体有一个大致的了解，领悟核心的数据分析思想。</p>
+<a id="more"></a>
 
-<p>本文主要讨论数据分析与数据挖掘的基本原理与方法论，在艾新波老师的指引下对数据科学的整体有一个大致的了解，领悟核心的数据分析思想。</p>
+
+
+
+
 <h3 id="气象万千-数以等观"><a href="#气象万千-数以等观" class="headerlink" title="气象万千 数以等观"></a>气象万千 数以等观</h3><p>随着数字时代的来临，我们身边的设备和系统表现出越来越多的令人惊叹的智能。比如我们上传一张照片到某个网站，它会自动识别出来里面每个人的年龄；在某些诊疗系统里面，通过一些具体的医疗图像它可以识别出来玩吗身体的状况是否有疾病，它一些疾病（比如肺癌）的治疗水平已经超过了一些医生；再比如我们利用某个聊天软件聊天的时候，朋友发过来一段语音，它可以自动识别语音转文字；当我们用某个音乐播放器时间久了，它也会自动识别出来我们的喜好，推荐一些我们感兴趣的歌曲。毫无疑问，这些类似的设备和系统表现出来的行为，它都不是我们事先人为设定的一些规则，而是基于大量的数据发现一些规律、识别一些模式，然后才表现出这些让我们比较惊叹的一些人工智能的行为。总结一下：<strong>所有的智能行为时源于发现了数据背后的规律</strong>。</p>
 <h4 id="从人类历史上第一个被发现的定律说起"><a href="#从人类历史上第一个被发现的定律说起" class="headerlink" title="从人类历史上第一个被发现的定律说起"></a>从人类历史上第一个被发现的定律说起</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq1jgxgaj31hc0m80z8.jpg"></p>
 <p><strong>波义耳定律（1662年）</strong>：密闭容器中的定量气体在恒温下，其体积和压强成反比：$p=f(v)=\frac{k}{v}$</p>
