@@ -713,7 +713,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#x65;&#110;&#120;&#117;&#x40;&#x74;&#101;&#x6e;&#99;&#101;&#110;&#116;&#46;&#x63;&#x6f;&#x6d;">&#x6c;&#x65;&#x65;&#110;&#120;&#117;&#x40;&#x74;&#101;&#x6e;&#99;&#101;&#110;&#116;&#46;&#x63;&#x6f;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#101;&#110;&#x78;&#x75;&#64;&#x74;&#x65;&#110;&#x63;&#101;&#x6e;&#x74;&#46;&#99;&#x6f;&#x6d;">&#x6c;&#101;&#101;&#110;&#x78;&#x75;&#64;&#x74;&#x65;&#110;&#x63;&#101;&#x6e;&#x74;&#46;&#99;&#x6f;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -3778,6 +3778,114 @@
       </tags>
   </entry>
   <entry>
+    <title>开始画像素画#1</title>
+    <url>/archives/655d7201.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g2x73ngj31hc0u0n18.jpg"></p>
+<a id="more"></a>
+
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《<a href="https://indienova.com/game/celeste">塞莱斯特山（蔚蓝，Celeste）</a>》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过<a href="https://indienova.com/u/fengnong">风农</a>翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtmvjmb7j30u008c74z.jpg"></p>
+<ul>
+<li><p>相关链接：</p>
+<ul>
+<li>Pedro Medeiros@Patreon<br><a href="https://www.patreon.com/saint11">https://www.patreon.com/saint11</a></li>
+<li>风农@indienova<br><a href="https://indienova.com/u/fengnong">https://indienova.com/u/fengnong</a></li>
+<li>风农@bilibili 专栏<br><a href="https://www.bilibili.com/read/readlist/rl38114">https://www.bilibili.com/read/readlist/rl38114</a></li>
+</ul>
+<blockquote>
+<p>这是一个小的系列，算是专门为纯小白设计。</p>
+</blockquote>
+<p>完全小白起步指南</p>
+<p>这篇文章是关于如何开始画像素画，专为从来没用过像素画软件，或者刚开始学画的人设计。这里我只会讲解最基本的东西，如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
+<p>如果喜欢这篇文章，欢迎去 Patreon 支持我：patreon.com/saint11</p>
+<p>这是一个系列的第一篇。</p>
+<h3 id="开始之前"><a href="#开始之前" class="headerlink" title="开始之前"></a>开始之前</h3><p>在开始进入像素画世界之前，要记住，像素画只是一种艺术形式，就像抽象画，油画，铅笔画，雕塑或者他的亲戚镶嵌画一样。画好像素画，你需要能画好常规的画。就是说你也要学习结构，透视，光影，颜色理论，甚至艺术史，这些都是画好像素画的关键。</p>
+<h4 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h4><p>画好像素画不需要什么好的工具，你可以只用鼠标和免费软件就画的不错。我的设备有一个小的 Wacom 手绘板，一个好鼠标，一个键盘和我最喜欢的软件 Aseprite，总之你应该用你用着最舒服的。</p>
+<p>这里是一些很常用的像素画软件：</p>
+<ul>
+<li><strong>Aseprite：</strong>专业的编辑器，有很多提高效率的特性，收费。<br><a href="https://www.aseprite.org/">https://www.aseprite.org/</a></li>
+<li><strong>GraphicsGale：</strong>经典，很多游戏有用到。略复杂，但是好特性很多，免费<br><a href="https://graphicsgale.com/us/">https://graphicsgale.com/us/</a></li>
+<li><strong>Piskel：</strong>免费线上编辑器（风农：我之前翻译的视频教程里有讲）。<br><a href="https://www.piskelapp.com/">https://www.piskelapp.com/</a></li>
+<li><strong>Photoshop：</strong>强力图片编辑器，不是为像素画设计的，但设置好了也可以用，收费。</li>
+</ul>
+<h4 id="Aseprite"><a href="#Aseprite" class="headerlink" title="Aseprite"></a>Aseprite</h4><p>目前我最喜欢的像素画软件。非常的强大，特性很多又很方便用。这个教程都是用 Aseprite 来做的，但是我觉得转换到其他软件也不需要费很大功夫。你可以试试 Aseprite 的试用版，但是不能保存文件，用来练习我觉得还 OK。</p>
+<h4 id="创建文件"><a href="#创建文件" class="headerlink" title="创建文件"></a>创建文件</h4><p>点击主界面的“<code>New File</code>”，或者到 <code>FIle</code> &gt; <code>New File</code>，之后就可以开始画了。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto9xfs3j307t0bqq2q.jpg"></p>
+</li>
+</ul>
+<p>  我们新建一个文件，<code>16</code> 乘 <code>16</code> 可能看起来太小，不过我觉得作为起始还是很好的。大的分辨率可能会让你分心，你现在应该聚焦在：理解每个像素和周边的关系。</p>
+<p>  颜色模式保持 <code>RGBA</code>，这是最简单直观的。一些像素画手喜欢用 <code>Indexed</code>（索引）模式，能用一些很酷的颜色技巧，但也有一些缺点。</p>
+<p>  背景选透明（transparent）或者白色（white），暂时没影响。高级选项（Advanced Options）不要选，以后你可以自己去试试。</p>
+<p>  现在就都准备 ok 了。</p>
+<h3 id="开始画！"><a href="#开始画！" class="headerlink" title="开始画！"></a>开始画！</h3><p>  界面上有很多工具和菜单，别着急，我们现在只需要用几个按钮。最主要的工具是铅笔（Pencil），应该一直保持 <code>1px</code> 宽度，这是我们在画布上画像素的工具。点击这个按钮，或者按 B，再去点击屏幕，就可以画上一个所选颜色的像素点。</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtodo3nvj30oh0k0dfx.jpg"></p>
+<p>  在左边你可以看到调色盘，有几个默认颜色。把这些换一下，换成简单点的集合。点击调色盘上面第三个按钮（预设，presets），选择 <code>ARQ4</code>（Endesga 所做的一个很棒的调色盘）。这就是你画第一个 sprite 会用的调色盘了。</p>
+<p>  现在用这里的 4 个颜色来试着画个杯子。</p>
+<p>  可以从我的设计里找灵感，也要试着画的个性一点。如果画错，按 ALT + 点击一个空白区域或者画布外，你就会选择一个透明的色，可以用来擦除像素。当然也可以点击橡皮（Eraser）或者按 E。</p>
+<p>  你可能注意到，在这么低的分辨率上画，跟常规绘画是不同的。所有东西都要计算好，没个像素的位置都是你需要做的决定。你需要适应这些。</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtobbn8oj309h09w0si.jpg"></p>
+<p>  你可以去试试其他的按钮。注意有些按钮点中后会打开更多选项。先不要用模糊工具（blur），他会增加很多颜色，我们还用不上。</p>
+<p>  现在，我们可以画更多 sprite，试试画骷髅，宝剑，人脸。这次不找像素画参考。如果你感觉这些在画布上画不开，完全正常，试着去把一些地方抽象成单像素再试试。在这么低的分辨率画画是很难的，有时候很想是解密。这里有一篇我之前给 Kano 写的，关于在低分辨率下画画的文章：<a href="https://kano.me/blog/my-thoughts-on-very-low-resolution/">https://kano.me/blog/my-thoughts-on-very-low-resolution/</a></p>
+<p>  这里是我画的几个 sprite，一定确保你画完自己的再看：</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto6xtqmj30lu0b1a9t.jpg"></p>
+<p>  这是个不错的练习，如果你想继续练习，试着带着这些限制画更多东西。</p>
+<h4 id="保存文件"><a href="#保存文件" class="headerlink" title="保存文件"></a>保存文件</h4><p>  按 CTRL+S 来保存文件，或者到 <code>File</code> &gt; <code>Save As...</code>，选文件名和保存路径，点击 <code>save</code>。</p>
+<p>  在试用版这个功能是禁用的！</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtod6vxsj30bh09r3ya.jpg"></p>
+<p>  Aseprite 可以保存很多的格式，我建议保存一个 ase 文件。就好像 PS 里你会留一个 psd 文件一样。当要导出到 web 或游戏里时，可以 CTRL+ALT+SHIFT+S，或者 <code>File</code> &gt; <code>Export</code>.</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtocrr05j30u00czq4t.jpg" alt="图片"></p>
+<p>  Aseprite 在导出界面有个很棒的 Resize 特性。它只会把你的 sprite 放大整数倍，完美。如果你要把 sprite 放大 107%，就会把所有像素都破坏掉，乱七八糟。但如果你缩放 200%，每个像素就会变成 2 倍宽和高，还是很整洁。</p>
+<h4 id="大点的画布"><a href="#大点的画布" class="headerlink" title="大点的画布"></a>大点的画布</h4><p>  现在你已经连接了基础，像创建保存文件，在画布上画画。我们试着画个大点的画布，<code>32</code> 乘 <code>32</code> 像素。调色盘也换大一点，试一试 <code>AAP-Micro12</code>（ AdigunPolack 制作）。这次画个铲子。</p>
+<p>  不像 <code>16</code> 乘 <code>16</code> 的 sprite，我们可以在这里画一些轮廓线，这是我的流程分解：</p>
+<h4 id="第一步：线条"><a href="#第一步：线条" class="headerlink" title="第一步：线条"></a>第一步：线条</h4><p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtoaeyuhj30gv0480gi.jpg" alt="图片"></p>
+<p>  这种线条风格我称为像素完美线，只有 <code>1</code> 像素宽，与其他像素对角线连接。当画这种线时，注意避免不必要的边，比如：</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto75iqtj307w0b90jk.jpg" alt="图片"></p>
+<p>  Aseprite 还有个很棒的笔刷特性可以自动处理这些：选中你的笔刷工具，再选中像素完美（pixel-perfect）。记得不画线的时候要把它勾掉，不然很烦人。</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtocc0hdj309y02g741.jpg" alt="图片"></p>
+<h4 id="第二步：基本颜色"><a href="#第二步：基本颜色" class="headerlink" title="第二步：基本颜色"></a>第二步：基本颜色</h4><p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtobselij30i704k0k1.jpg" alt="图片"></p>
+<p>  可选颜色少有个好处是不会被太多的选择淹没。这就是为什么用一大堆色也很难，如果你的调色盘里有个颜色，你没理由不好好利用起来。试着把它当成解密，多试验，即使是怪异的，非常规的组合，知道你找到你认为最合适这个区域的组合。</p>
+<h4 id="第三步：明暗"><a href="#第三步：明暗" class="headerlink" title="第三步：明暗"></a>第三步：明暗</h4><p>  用你的调色盘有创意的画出明暗。因为你只有非常受限的调色盘，你不会有每种不同亮度的色调，你必须随机应变。</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto8ka0gj308h06d0sh.jpg"> </p>
+<p>  这个例子里，我用的也是 <code>AAP-Mini12</code> 调色盘。当我画上这个绿老哥之后，我没有其他亮绿色可用了，所以我选了能用的最接近的色，也就是黄色。阴影也是一样，我选了蓝色，因为这是最接近的暗色。但如果我反过来呢？我可以用个亮蓝色和暗红色，对吧？其实不太行：</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto9lsp0j308o06a0sh.jpg"> </p>
+<p>  看起来好像很酷，但是明显有点不对劲。通常你得把冷色调用在阴影，暖色用在亮处，不然就看着怪。当然这也不是雷打不动的规则，有很多的例外。在你不确定的时候，就遵从它。</p>
+<h4 id="第四步：抗锯齿和优化"><a href="#第四步：抗锯齿和优化" class="headerlink" title="第四步：抗锯齿和优化"></a>第四步：抗锯齿和优化</h4><p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto824guj30gp0480kq.jpg" alt="图片"></p>
+<p>  这部分需要你试着把像素变得不那么“尖”。手工抗锯齿是个复杂的主题，估计我们要用一整篇文章来讨论，不过概念是，你可以用中间色来模拟“半个像素”，软化边界。但是不用过多的关心这个，现在你需要把 spirite 的尽量画的易于理解。</p>
+<p>  另外一个适合在这个阶段做的是干掉孤立像素减少噪点。孤立像素就是不属于任何大的同色的像素簇的像素，也不属于抗锯齿，比如：</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtob0n0wj30m70bo0si.jpg"></p>
+<p>  注意到左边的 <code>1</code> 像素小岛了吗？那些就是孤立像素，在我们把这些孤立像素和邻近的同色像素合并之后，能看出这个地球看起来好多了。</p>
+<p>  那么图里的那些星星呢？他们的存在是为了表示孤立像素也不是完全不好，这些星星就是想要的效果，画出一个噪点纹理，提高了背景的对比度。</p>
+<p>  不要无脑的删除孤立像素，要在过程中问自己：这个像素是不是需要单独存在？</p>
+<h3 id="接下来？"><a href="#接下来？" class="headerlink" title="接下来？"></a>接下来？</h3><p>  现在是时候去试试更多颜色和更大的分辨率了。但要慢慢来，比如 48 乘 48，16 个色等等。如果你是完全初学，我建议先别做动画，先聚焦于如何舒服的画出静态的画。</p>
+<p>  我选了几个我很喜欢的像素画教程，如果你想看看的话：</p>
+<ul>
+<li><p>Pixel art tutorial by Cure<br><a href="http://pixeljoint.com/forum/forum_posts.asp?TID=11299&amp;PID=139318#139318">http://pixeljoint.com/forum/forum_posts.asp?TID=11299&amp;PID=139318#139318</a></p>
+</li>
+<li><p>Pixel art tutorial by Derek Yu<br><a href="http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial">http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial</a></p>
+</li>
+<li><p>Pixel art tutorial by Arne<br><a href="https://androidarts.com/pixtut/pixelart.htm">https://androidarts.com/pixtut/pixelart.htm</a></p>
+<p>我自己也做了很多不同主题的教程，你可以在 patreon 页里看到（风农：就是我做的这个系列~）。</p>
+</li>
+<li><p>My Patreon page<br>patreon.com/saint11</p>
+</li>
+<li><p>A compiled list of all my tutorials<br><a href="http://blog.studiominiboss.com/pixelart">http://blog.studiominiboss.com/pixelart</a></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>像素美工(Pixel Art Designing)</category>
+        <category>开始画像素画(Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>火箭为什么是三级</title>
     <url>/archives/7d0497df.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g2e8i91j30u00u0jvz.jpg"></p>
@@ -3973,114 +4081,6 @@
         <tag>Mooc</tag>
         <tag>Mathematical Modeling</tag>
         <tag>Rocket</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开始画像素画#1</title>
-    <url>/archives/655d7201.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g2x73ngj31hc0u0n18.jpg"></p>
-<a id="more"></a>
-
-<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《<a href="https://indienova.com/game/celeste">塞莱斯特山（蔚蓝，Celeste）</a>》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过<a href="https://indienova.com/u/fengnong">风农</a>翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtmvjmb7j30u008c74z.jpg"></p>
-<ul>
-<li><p>相关链接：</p>
-<ul>
-<li>Pedro Medeiros@Patreon<br><a href="https://www.patreon.com/saint11">https://www.patreon.com/saint11</a></li>
-<li>风农@indienova<br><a href="https://indienova.com/u/fengnong">https://indienova.com/u/fengnong</a></li>
-<li>风农@bilibili 专栏<br><a href="https://www.bilibili.com/read/readlist/rl38114">https://www.bilibili.com/read/readlist/rl38114</a></li>
-</ul>
-<blockquote>
-<p>这是一个小的系列，算是专门为纯小白设计。</p>
-</blockquote>
-<p>完全小白起步指南</p>
-<p>这篇文章是关于如何开始画像素画，专为从来没用过像素画软件，或者刚开始学画的人设计。这里我只会讲解最基本的东西，如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
-<p>如果喜欢这篇文章，欢迎去 Patreon 支持我：patreon.com/saint11</p>
-<p>这是一个系列的第一篇。</p>
-<h3 id="开始之前"><a href="#开始之前" class="headerlink" title="开始之前"></a>开始之前</h3><p>在开始进入像素画世界之前，要记住，像素画只是一种艺术形式，就像抽象画，油画，铅笔画，雕塑或者他的亲戚镶嵌画一样。画好像素画，你需要能画好常规的画。就是说你也要学习结构，透视，光影，颜色理论，甚至艺术史，这些都是画好像素画的关键。</p>
-<h4 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h4><p>画好像素画不需要什么好的工具，你可以只用鼠标和免费软件就画的不错。我的设备有一个小的 Wacom 手绘板，一个好鼠标，一个键盘和我最喜欢的软件 Aseprite，总之你应该用你用着最舒服的。</p>
-<p>这里是一些很常用的像素画软件：</p>
-<ul>
-<li><strong>Aseprite：</strong>专业的编辑器，有很多提高效率的特性，收费。<br><a href="https://www.aseprite.org/">https://www.aseprite.org/</a></li>
-<li><strong>GraphicsGale：</strong>经典，很多游戏有用到。略复杂，但是好特性很多，免费<br><a href="https://graphicsgale.com/us/">https://graphicsgale.com/us/</a></li>
-<li><strong>Piskel：</strong>免费线上编辑器（风农：我之前翻译的视频教程里有讲）。<br><a href="https://www.piskelapp.com/">https://www.piskelapp.com/</a></li>
-<li><strong>Photoshop：</strong>强力图片编辑器，不是为像素画设计的，但设置好了也可以用，收费。</li>
-</ul>
-<h4 id="Aseprite"><a href="#Aseprite" class="headerlink" title="Aseprite"></a>Aseprite</h4><p>目前我最喜欢的像素画软件。非常的强大，特性很多又很方便用。这个教程都是用 Aseprite 来做的，但是我觉得转换到其他软件也不需要费很大功夫。你可以试试 Aseprite 的试用版，但是不能保存文件，用来练习我觉得还 OK。</p>
-<h4 id="创建文件"><a href="#创建文件" class="headerlink" title="创建文件"></a>创建文件</h4><p>点击主界面的“<code>New File</code>”，或者到 <code>FIle</code> &gt; <code>New File</code>，之后就可以开始画了。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto9xfs3j307t0bqq2q.jpg"></p>
-</li>
-</ul>
-<p>  我们新建一个文件，<code>16</code> 乘 <code>16</code> 可能看起来太小，不过我觉得作为起始还是很好的。大的分辨率可能会让你分心，你现在应该聚焦在：理解每个像素和周边的关系。</p>
-<p>  颜色模式保持 <code>RGBA</code>，这是最简单直观的。一些像素画手喜欢用 <code>Indexed</code>（索引）模式，能用一些很酷的颜色技巧，但也有一些缺点。</p>
-<p>  背景选透明（transparent）或者白色（white），暂时没影响。高级选项（Advanced Options）不要选，以后你可以自己去试试。</p>
-<p>  现在就都准备 ok 了。</p>
-<h3 id="开始画！"><a href="#开始画！" class="headerlink" title="开始画！"></a>开始画！</h3><p>  界面上有很多工具和菜单，别着急，我们现在只需要用几个按钮。最主要的工具是铅笔（Pencil），应该一直保持 <code>1px</code> 宽度，这是我们在画布上画像素的工具。点击这个按钮，或者按 B，再去点击屏幕，就可以画上一个所选颜色的像素点。</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtodo3nvj30oh0k0dfx.jpg"></p>
-<p>  在左边你可以看到调色盘，有几个默认颜色。把这些换一下，换成简单点的集合。点击调色盘上面第三个按钮（预设，presets），选择 <code>ARQ4</code>（Endesga 所做的一个很棒的调色盘）。这就是你画第一个 sprite 会用的调色盘了。</p>
-<p>  现在用这里的 4 个颜色来试着画个杯子。</p>
-<p>  可以从我的设计里找灵感，也要试着画的个性一点。如果画错，按 ALT + 点击一个空白区域或者画布外，你就会选择一个透明的色，可以用来擦除像素。当然也可以点击橡皮（Eraser）或者按 E。</p>
-<p>  你可能注意到，在这么低的分辨率上画，跟常规绘画是不同的。所有东西都要计算好，没个像素的位置都是你需要做的决定。你需要适应这些。</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtobbn8oj309h09w0si.jpg"></p>
-<p>  你可以去试试其他的按钮。注意有些按钮点中后会打开更多选项。先不要用模糊工具（blur），他会增加很多颜色，我们还用不上。</p>
-<p>  现在，我们可以画更多 sprite，试试画骷髅，宝剑，人脸。这次不找像素画参考。如果你感觉这些在画布上画不开，完全正常，试着去把一些地方抽象成单像素再试试。在这么低的分辨率画画是很难的，有时候很想是解密。这里有一篇我之前给 Kano 写的，关于在低分辨率下画画的文章：<a href="https://kano.me/blog/my-thoughts-on-very-low-resolution/">https://kano.me/blog/my-thoughts-on-very-low-resolution/</a></p>
-<p>  这里是我画的几个 sprite，一定确保你画完自己的再看：</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto6xtqmj30lu0b1a9t.jpg"></p>
-<p>  这是个不错的练习，如果你想继续练习，试着带着这些限制画更多东西。</p>
-<h4 id="保存文件"><a href="#保存文件" class="headerlink" title="保存文件"></a>保存文件</h4><p>  按 CTRL+S 来保存文件，或者到 <code>File</code> &gt; <code>Save As...</code>，选文件名和保存路径，点击 <code>save</code>。</p>
-<p>  在试用版这个功能是禁用的！</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtod6vxsj30bh09r3ya.jpg"></p>
-<p>  Aseprite 可以保存很多的格式，我建议保存一个 ase 文件。就好像 PS 里你会留一个 psd 文件一样。当要导出到 web 或游戏里时，可以 CTRL+ALT+SHIFT+S，或者 <code>File</code> &gt; <code>Export</code>.</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtocrr05j30u00czq4t.jpg" alt="图片"></p>
-<p>  Aseprite 在导出界面有个很棒的 Resize 特性。它只会把你的 sprite 放大整数倍，完美。如果你要把 sprite 放大 107%，就会把所有像素都破坏掉，乱七八糟。但如果你缩放 200%，每个像素就会变成 2 倍宽和高，还是很整洁。</p>
-<h4 id="大点的画布"><a href="#大点的画布" class="headerlink" title="大点的画布"></a>大点的画布</h4><p>  现在你已经连接了基础，像创建保存文件，在画布上画画。我们试着画个大点的画布，<code>32</code> 乘 <code>32</code> 像素。调色盘也换大一点，试一试 <code>AAP-Micro12</code>（ AdigunPolack 制作）。这次画个铲子。</p>
-<p>  不像 <code>16</code> 乘 <code>16</code> 的 sprite，我们可以在这里画一些轮廓线，这是我的流程分解：</p>
-<h4 id="第一步：线条"><a href="#第一步：线条" class="headerlink" title="第一步：线条"></a>第一步：线条</h4><p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtoaeyuhj30gv0480gi.jpg" alt="图片"></p>
-<p>  这种线条风格我称为像素完美线，只有 <code>1</code> 像素宽，与其他像素对角线连接。当画这种线时，注意避免不必要的边，比如：</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto75iqtj307w0b90jk.jpg" alt="图片"></p>
-<p>  Aseprite 还有个很棒的笔刷特性可以自动处理这些：选中你的笔刷工具，再选中像素完美（pixel-perfect）。记得不画线的时候要把它勾掉，不然很烦人。</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtocc0hdj309y02g741.jpg" alt="图片"></p>
-<h4 id="第二步：基本颜色"><a href="#第二步：基本颜色" class="headerlink" title="第二步：基本颜色"></a>第二步：基本颜色</h4><p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtobselij30i704k0k1.jpg" alt="图片"></p>
-<p>  可选颜色少有个好处是不会被太多的选择淹没。这就是为什么用一大堆色也很难，如果你的调色盘里有个颜色，你没理由不好好利用起来。试着把它当成解密，多试验，即使是怪异的，非常规的组合，知道你找到你认为最合适这个区域的组合。</p>
-<h4 id="第三步：明暗"><a href="#第三步：明暗" class="headerlink" title="第三步：明暗"></a>第三步：明暗</h4><p>  用你的调色盘有创意的画出明暗。因为你只有非常受限的调色盘，你不会有每种不同亮度的色调，你必须随机应变。</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto8ka0gj308h06d0sh.jpg"> </p>
-<p>  这个例子里，我用的也是 <code>AAP-Mini12</code> 调色盘。当我画上这个绿老哥之后，我没有其他亮绿色可用了，所以我选了能用的最接近的色，也就是黄色。阴影也是一样，我选了蓝色，因为这是最接近的暗色。但如果我反过来呢？我可以用个亮蓝色和暗红色，对吧？其实不太行：</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto9lsp0j308o06a0sh.jpg"> </p>
-<p>  看起来好像很酷，但是明显有点不对劲。通常你得把冷色调用在阴影，暖色用在亮处，不然就看着怪。当然这也不是雷打不动的规则，有很多的例外。在你不确定的时候，就遵从它。</p>
-<h4 id="第四步：抗锯齿和优化"><a href="#第四步：抗锯齿和优化" class="headerlink" title="第四步：抗锯齿和优化"></a>第四步：抗锯齿和优化</h4><p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto824guj30gp0480kq.jpg" alt="图片"></p>
-<p>  这部分需要你试着把像素变得不那么“尖”。手工抗锯齿是个复杂的主题，估计我们要用一整篇文章来讨论，不过概念是，你可以用中间色来模拟“半个像素”，软化边界。但是不用过多的关心这个，现在你需要把 spirite 的尽量画的易于理解。</p>
-<p>  另外一个适合在这个阶段做的是干掉孤立像素减少噪点。孤立像素就是不属于任何大的同色的像素簇的像素，也不属于抗锯齿，比如：</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtob0n0wj30m70bo0si.jpg"></p>
-<p>  注意到左边的 <code>1</code> 像素小岛了吗？那些就是孤立像素，在我们把这些孤立像素和邻近的同色像素合并之后，能看出这个地球看起来好多了。</p>
-<p>  那么图里的那些星星呢？他们的存在是为了表示孤立像素也不是完全不好，这些星星就是想要的效果，画出一个噪点纹理，提高了背景的对比度。</p>
-<p>  不要无脑的删除孤立像素，要在过程中问自己：这个像素是不是需要单独存在？</p>
-<h3 id="接下来？"><a href="#接下来？" class="headerlink" title="接下来？"></a>接下来？</h3><p>  现在是时候去试试更多颜色和更大的分辨率了。但要慢慢来，比如 48 乘 48，16 个色等等。如果你是完全初学，我建议先别做动画，先聚焦于如何舒服的画出静态的画。</p>
-<p>  我选了几个我很喜欢的像素画教程，如果你想看看的话：</p>
-<ul>
-<li><p>Pixel art tutorial by Cure<br><a href="http://pixeljoint.com/forum/forum_posts.asp?TID=11299&amp;PID=139318#139318">http://pixeljoint.com/forum/forum_posts.asp?TID=11299&amp;PID=139318#139318</a></p>
-</li>
-<li><p>Pixel art tutorial by Derek Yu<br><a href="http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial">http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial</a></p>
-</li>
-<li><p>Pixel art tutorial by Arne<br><a href="https://androidarts.com/pixtut/pixelart.htm">https://androidarts.com/pixtut/pixelart.htm</a></p>
-<p>我自己也做了很多不同主题的教程，你可以在 patreon 页里看到（风农：就是我做的这个系列~）。</p>
-</li>
-<li><p>My Patreon page<br>patreon.com/saint11</p>
-</li>
-<li><p>A compiled list of all my tutorials<br><a href="http://blog.studiominiboss.com/pixelart">http://blog.studiominiboss.com/pixelart</a></p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>像素美工(Pixel Art Designing)</category>
-        <category>开始画像素画(Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
       </tags>
   </entry>
   <entry>
@@ -4433,6 +4433,79 @@
       </tags>
   </entry>
   <entry>
+    <title>开始画像素画#7</title>
+    <url>/archives/7559aa07.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g6b5nk0j30u00gwwfh.jpg"></p>
+<a id="more"></a>
+
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8bd0hfj30u008c74z.jpg"></p>
+<p>系列第 7 篇。</p>
+<h3 id="什么是线条"><a href="#什么是线条" class="headerlink" title="什么是线条"></a>什么是线条</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv89ju74j30ei0d812e.jpg"></p>
+<p>线条是艺术领域最重要的工具之一。他们可以用来强调形状，对比。现实世界里我们看不到线条，但他们能帮助我们分隔空间，创造纹理，表现体积和方向。</p>
+<p>在像素美术中，屏幕上的空间非常受限。每个像素都很重要，绘制线条就变得很昂贵。因此，如果你在画非常低像素作品，不推荐使用线条。即使有一些富裕的空间，还是要谨慎的使用线条，试着不使用线条去完成。最少化线条的使用，是保持像素画整洁的好办法。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovDCt2BDcwjydRAsAavRfUE6DHsv5ia5XcbHnydHaaHo09AvG04kIS50Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>不必要的线可以用阴影或者高对比区域代替。将线条与暗影部分融合能让画面显得更统一，自然。</p>
+<h3 id="不必要的拐角"><a href="#不必要的拐角" class="headerlink" title="不必要的拐角"></a>不必要的拐角</h3><p>之前简单的解释过（第一节），这里再进一步讲一下。</p>
+<p>这种不必要的拐角，通常出现在手绘线条时。你可以手工去清理，也可以打开铅笔工具的“像素完美”（<code>pixel perfect</code>）功能来避免这些。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv88tzipj309w05c741.jpg"></p>
+<p>这个算法在画单像素线条时非常有用，不过不总是完美的，你还是应该知道如何手工去清理。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8cjbhrj30a205p0jc.jpg"></p>
+<p>查找模式很简单：每当你看到一个拐角（<code>3</code> 或 <code>4</code> 个像素组成的方形），思考一下这里是否应当是个拐角。如果这部分不是拐角，就去掉一个像素让他更圆。</p>
+<p>注意这跟锯齿是不同的，我在之前的章节（第二节）解释过锯齿，以及如何处理他们。修复拐角可能会创造出很多锯齿，所以通常这会是个多步过程：<code>绘制</code> &gt; <code>修复拐角</code> &gt; <code>修复锯齿</code>。</p>
+<h3 id="方形线"><a href="#方形线" class="headerlink" title="方形线"></a>方形线</h3><p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovZlINW3bgF8R1K5SK9yyhNaKCib7BiblqlicP8AkCzIBxyFMttmyIBNLKQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>单像素线条问题还有一种更风格化的解决办法。你可以到处加拐角，而不是尝试去移除他们。听起来没道理，但确实是种风格化的选择，很有趣，适合高度风格化的作品，因为它模拟了一种更粗的线条。</p>
+<p>处理过程基本一样，只是你需要找到每个对角链接的像素，把它变方，而不是去删掉拐角。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8a5yvaj309w05m0i1.jpg"></p>
+<p>注意这样做也会产生很多锯齿，别忘了处理他们。</p>
+<h3 id="Colored-lines-有色线条"><a href="#Colored-lines-有色线条" class="headerlink" title="Colored lines 有色线条"></a>Colored lines 有色线条</h3><p>有些时候，尤其是在较低分辨率，线条会吸引过多的注意。有个弱化这种效果的方法是，给线条添加临近颜色的深色版本。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDov1liczK25ftiam3YsickNl5yTnNicL81HKl91snwwbw5s4XwAS1yrCib8lWA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>过程很简单，回顾每条你画的线条，试着修改成临近颜色的深色版本。当你这么做之后，所选的颜色会让相应的区域显得变大了，所以线条的位置可能需要调整。有时候你可能不确定选哪个临近的颜色，有时候可能很容易确定。当你不确定的时候，就选更深的颜色。</p>
+<p>我依然喜欢保留最外层的黑色描边，看分辨率合适的话我甚至会加倍这个外层描边。但这只是我个人的选择，你可以自己考虑。</p>
+<h3 id="线条草图"><a href="#线条草图" class="headerlink" title="线条草图"></a>线条草图</h3><p>之前我们学过像素簇草图的画法，这次来试点别的。这种方法很适合于画角色以及画动画帧，因为画起来很快，而且聚焦于形状，而不是光和色（像像素簇草图那样）。</p>
+<p>我们来做个实际案例学习，把这节提到的都应用上。如果你想要跟着做，建议新建 64*64 分辨率的画布，用 AAP-64 调色板。</p>
+<p><strong>Step 1  — 草图</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv87ygl3j30fh078mwx.jpg"></p>
+<p>第一步先忽略各种像素画的规则，尽可能流畅的勾勒出形状。基本上跟在纸上或者其他数字化的，非像素的媒介一样。不要过多考虑之后如何清理线条。完成后可以稍作整理，去除明显的标志线，定义一些形状。</p>
+<p><strong>Step 2  — 线条清理</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvbdn60dj307j0770sh.jpg"></p>
+<p>现在开始做清理。把草图层设置成半透明，可以 右键 点击图层名称，选择属性，再调低透明度。现在可以在上面的图层去画。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8ao6foj30c007zq2q.jpg"></p>
+<p>这里的思路是画出最终的线条图。先聚焦在重点线条上，比如构成角色剪影和脸部的线条。先不要关心颜色和光影，如果想画的话可以画一点主阴影，重点还是把主要形状弄对。</p>
+<p><strong>Step 3  —  底色</strong></p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovve85R4AL3Ns9CkkPy3GZ91D8PLYmrl3Sc3WztQWvgHOec9h0XZDLrg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>很简单的一步，找到符合需求的颜色，用油漆桶填充进去。避免过于饱和和过亮的颜色。还不到画光影的时候，但是要考虑好画面应该如何被照亮，有些区域会被周围的颜色影响。</p>
+<p><strong>Step 4  —  光影</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv88aqv3j307p077gld.jpg"></p>
+<p>开始给画添加光影，添加明暗区域。试着想象光会如何照射到你画的物体上，相应的渲染。这一步找个参考图是个很好的办法。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvaibzjbj309z07h742.jpg"></p>
+<p>我喜欢在这一步通过给弧线加上较深的颜色，来尽量弱化黑色的描边，就好像是做抗锯齿。不过别做太过，不然线条看起来会模糊。</p>
+<p>这一步可以调整线条，但重点是光影。</p>
+<p><strong>Step 5  —  线条上色和抗锯齿</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8c2gduj307p07agld.jpg" alt="图片"></p>
+<p>之前提到过，过多的黑色描边可能会分散注意力。通过上色来弱化他们是个不错的方法。只要找到周围最近，最深的颜色，并把描边改成这个色的更深版本就行。</p>
+<p>如果这个描边是用来分隔明显的区域，比如脖子和脸颊，衣领和头发，你可以画很深色，甚至保留黑色。这也是为什么我喜欢保持黑色的角色外层描边。弱化的过渡一般用亮一点的线，比如鼻子的线条。</p>
+<p><strong>Step 6  — 打磨细节</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvb2fvmtj307t076t8h.jpg"></p>
+<p>最后这步你需要确定所有线条都做过抗锯齿，所有阴影过渡都合理的软化过（或者没有！如果是硬过渡的话。），并添加上所有细节。</p>
+<p>添加背光，小的高亮，反射区域。因为所有东西都就位了，你可以衡量想要在画面添加多少细节。不要做得太过，注意别加入过多噪点。</p>
+<p>这就完成了！多去练习，并试着把前几节的概念也融入进来。</p>
+<p>Good luck!</p>
+]]></content>
+      <categories>
+        <category>像素美工(Pixel Art Designing)</category>
+        <category>开始画像素画(Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开始画像素画#8</title>
     <url>/archives/e5e6b796.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g6urgs2j31hc0u0q6o.jpg"></p>
@@ -4572,57 +4645,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#121;&#111;&#x6e;&#x67;&#64;&#116;&#115;&#105;&#110;&#103;&#104;&#x75;&#x61;&#46;&#101;&#100;&#117;&#46;&#x63;&#x6e;">&#120;&#121;&#111;&#x6e;&#x67;&#64;&#116;&#115;&#105;&#110;&#103;&#104;&#x75;&#x61;&#46;&#101;&#100;&#117;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#x79;&#x6f;&#x6e;&#x67;&#x40;&#x74;&#x73;&#105;&#x6e;&#103;&#x68;&#117;&#97;&#x2e;&#101;&#x64;&#117;&#46;&#x63;&#110;">&#x78;&#x79;&#x6f;&#x6e;&#x67;&#x40;&#x74;&#x73;&#105;&#x6e;&#103;&#x68;&#117;&#97;&#x2e;&#101;&#x64;&#117;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#117;&#99;&#104;&#101;&#x6e;&#x40;&#x6d;&#97;&#105;&#x6c;&#x2e;&#116;&#x73;&#x69;&#x6e;&#103;&#104;&#x75;&#x61;&#46;&#101;&#x64;&#117;&#x2e;&#99;&#110;">&#121;&#117;&#99;&#104;&#101;&#x6e;&#x40;&#x6d;&#97;&#105;&#x6c;&#x2e;&#116;&#x73;&#x69;&#x6e;&#103;&#104;&#x75;&#x61;&#46;&#101;&#x64;&#117;&#x2e;&#99;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#x75;&#99;&#x68;&#101;&#x6e;&#x40;&#x6d;&#x61;&#x69;&#108;&#46;&#116;&#x73;&#x69;&#110;&#x67;&#104;&#x75;&#x61;&#46;&#101;&#x64;&#117;&#46;&#99;&#110;">&#121;&#x75;&#99;&#x68;&#101;&#x6e;&#x40;&#x6d;&#x61;&#x69;&#108;&#46;&#116;&#x73;&#x69;&#110;&#x67;&#104;&#x75;&#x61;&#46;&#101;&#x64;&#117;&#46;&#99;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#x74;&#101;&#x72;&#x6e;&#x61;&#108;&#x2e;&#110;&#48;&#x38;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x65;&#x74;&#101;&#x72;&#x6e;&#x61;&#108;&#x2e;&#110;&#48;&#x38;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#x74;&#101;&#x72;&#x6e;&#97;&#x6c;&#x2e;&#110;&#48;&#56;&#64;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;">&#101;&#x74;&#101;&#x72;&#x6e;&#97;&#x6c;&#x2e;&#110;&#48;&#56;&#64;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#x62;&#106;&#x65;&#99;&#116;&#107;&#x75;&#97;&#x6e;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#111;&#x62;&#106;&#x65;&#99;&#116;&#107;&#x75;&#97;&#x6e;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#98;&#106;&#101;&#99;&#x74;&#107;&#117;&#97;&#110;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;">&#111;&#98;&#106;&#101;&#99;&#x74;&#107;&#117;&#97;&#110;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#114;&#100;&#102;&#x72;&#x61;&#110;&#107;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">&#x63;&#114;&#100;&#102;&#x72;&#x61;&#110;&#107;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x63;&#114;&#x64;&#102;&#114;&#x61;&#x6e;&#107;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x63;&#114;&#x64;&#102;&#114;&#x61;&#x6e;&#107;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#97;&#x63;&#x63;&#111;&#114;&#97;&#119;&#64;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#116;&#97;&#x63;&#x63;&#111;&#114;&#97;&#119;&#64;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x74;&#97;&#x63;&#99;&#x6f;&#x72;&#x61;&#x77;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#x74;&#97;&#x63;&#99;&#x6f;&#x72;&#x61;&#x77;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#x69;&#110;&#121;&#x75;&#x6e;&#x78;&#105;&#110;&#x67;&#x30;&#48;&#48;&#x31;&#x40;&#49;&#54;&#51;&#46;&#x63;&#111;&#109;">&#x78;&#x69;&#110;&#121;&#x75;&#x6e;&#x78;&#105;&#110;&#x67;&#x30;&#48;&#48;&#x31;&#x40;&#49;&#54;&#51;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x78;&#x69;&#110;&#121;&#x75;&#x6e;&#120;&#x69;&#110;&#x67;&#x30;&#48;&#48;&#x31;&#64;&#49;&#54;&#51;&#46;&#x63;&#x6f;&#109;">&#x78;&#x69;&#110;&#121;&#x75;&#x6e;&#120;&#x69;&#110;&#x67;&#x30;&#48;&#48;&#x31;&#64;&#49;&#54;&#51;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#x6e;&#x6f;&#x63;&#x75;&#x69;&#x6c;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#103;&#x6e;&#x6f;&#x63;&#x75;&#x69;&#x6c;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#x6e;&#111;&#99;&#117;&#x69;&#108;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#103;&#x6e;&#111;&#99;&#117;&#x69;&#108;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#121;&#x61;&#105;&#x72;&#x69;&#97;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x6d;&#121;&#x61;&#105;&#x72;&#x69;&#97;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#109;&#121;&#97;&#105;&#x72;&#105;&#x61;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#109;&#121;&#97;&#105;&#x72;&#105;&#x61;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#104;&#97;&#x6e;&#103;&#114;&#x61;&#105;&#110;&#x39;&#x31;&#49;&#64;&#x31;&#x36;&#51;&#x2e;&#x63;&#111;&#109;">&#x7a;&#104;&#97;&#x6e;&#103;&#114;&#x61;&#105;&#110;&#x39;&#x31;&#49;&#64;&#x31;&#x36;&#51;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#122;&#104;&#x61;&#x6e;&#x67;&#x72;&#x61;&#105;&#x6e;&#x39;&#49;&#49;&#x40;&#49;&#54;&#x33;&#46;&#x63;&#x6f;&#109;">&#122;&#104;&#x61;&#x6e;&#x67;&#x72;&#x61;&#105;&#x6e;&#x39;&#49;&#49;&#x40;&#49;&#54;&#x33;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#103;&#120;&#x78;&#x31;&#50;&#48;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#109;">&#103;&#103;&#120;&#x78;&#x31;&#50;&#48;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#103;&#x67;&#x78;&#x78;&#x31;&#50;&#x30;&#64;&#103;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;">&#103;&#x67;&#x78;&#x78;&#x31;&#50;&#x30;&#64;&#103;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -5228,140 +5301,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#7</title>
-    <url>/archives/7559aa07.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g6b5nk0j30u00gwwfh.jpg"></p>
-<a id="more"></a>
-
-<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8bd0hfj30u008c74z.jpg"></p>
-<p>系列第 7 篇。</p>
-<h3 id="什么是线条"><a href="#什么是线条" class="headerlink" title="什么是线条"></a>什么是线条</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv89ju74j30ei0d812e.jpg"></p>
-<p>线条是艺术领域最重要的工具之一。他们可以用来强调形状，对比。现实世界里我们看不到线条，但他们能帮助我们分隔空间，创造纹理，表现体积和方向。</p>
-<p>在像素美术中，屏幕上的空间非常受限。每个像素都很重要，绘制线条就变得很昂贵。因此，如果你在画非常低像素作品，不推荐使用线条。即使有一些富裕的空间，还是要谨慎的使用线条，试着不使用线条去完成。最少化线条的使用，是保持像素画整洁的好办法。</p>
-<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovDCt2BDcwjydRAsAavRfUE6DHsv5ia5XcbHnydHaaHo09AvG04kIS50Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
-<p>不必要的线可以用阴影或者高对比区域代替。将线条与暗影部分融合能让画面显得更统一，自然。</p>
-<h3 id="不必要的拐角"><a href="#不必要的拐角" class="headerlink" title="不必要的拐角"></a>不必要的拐角</h3><p>之前简单的解释过（第一节），这里再进一步讲一下。</p>
-<p>这种不必要的拐角，通常出现在手绘线条时。你可以手工去清理，也可以打开铅笔工具的“像素完美”（<code>pixel perfect</code>）功能来避免这些。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv88tzipj309w05c741.jpg"></p>
-<p>这个算法在画单像素线条时非常有用，不过不总是完美的，你还是应该知道如何手工去清理。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8cjbhrj30a205p0jc.jpg"></p>
-<p>查找模式很简单：每当你看到一个拐角（<code>3</code> 或 <code>4</code> 个像素组成的方形），思考一下这里是否应当是个拐角。如果这部分不是拐角，就去掉一个像素让他更圆。</p>
-<p>注意这跟锯齿是不同的，我在之前的章节（第二节）解释过锯齿，以及如何处理他们。修复拐角可能会创造出很多锯齿，所以通常这会是个多步过程：<code>绘制</code> &gt; <code>修复拐角</code> &gt; <code>修复锯齿</code>。</p>
-<h3 id="方形线"><a href="#方形线" class="headerlink" title="方形线"></a>方形线</h3><p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovZlINW3bgF8R1K5SK9yyhNaKCib7BiblqlicP8AkCzIBxyFMttmyIBNLKQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
-<p>单像素线条问题还有一种更风格化的解决办法。你可以到处加拐角，而不是尝试去移除他们。听起来没道理，但确实是种风格化的选择，很有趣，适合高度风格化的作品，因为它模拟了一种更粗的线条。</p>
-<p>处理过程基本一样，只是你需要找到每个对角链接的像素，把它变方，而不是去删掉拐角。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8a5yvaj309w05m0i1.jpg"></p>
-<p>注意这样做也会产生很多锯齿，别忘了处理他们。</p>
-<h3 id="Colored-lines-有色线条"><a href="#Colored-lines-有色线条" class="headerlink" title="Colored lines 有色线条"></a>Colored lines 有色线条</h3><p>有些时候，尤其是在较低分辨率，线条会吸引过多的注意。有个弱化这种效果的方法是，给线条添加临近颜色的深色版本。</p>
-<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDov1liczK25ftiam3YsickNl5yTnNicL81HKl91snwwbw5s4XwAS1yrCib8lWA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
-<p>过程很简单，回顾每条你画的线条，试着修改成临近颜色的深色版本。当你这么做之后，所选的颜色会让相应的区域显得变大了，所以线条的位置可能需要调整。有时候你可能不确定选哪个临近的颜色，有时候可能很容易确定。当你不确定的时候，就选更深的颜色。</p>
-<p>我依然喜欢保留最外层的黑色描边，看分辨率合适的话我甚至会加倍这个外层描边。但这只是我个人的选择，你可以自己考虑。</p>
-<h3 id="线条草图"><a href="#线条草图" class="headerlink" title="线条草图"></a>线条草图</h3><p>之前我们学过像素簇草图的画法，这次来试点别的。这种方法很适合于画角色以及画动画帧，因为画起来很快，而且聚焦于形状，而不是光和色（像像素簇草图那样）。</p>
-<p>我们来做个实际案例学习，把这节提到的都应用上。如果你想要跟着做，建议新建 64*64 分辨率的画布，用 AAP-64 调色板。</p>
-<p><strong>Step 1  — 草图</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv87ygl3j30fh078mwx.jpg"></p>
-<p>第一步先忽略各种像素画的规则，尽可能流畅的勾勒出形状。基本上跟在纸上或者其他数字化的，非像素的媒介一样。不要过多考虑之后如何清理线条。完成后可以稍作整理，去除明显的标志线，定义一些形状。</p>
-<p><strong>Step 2  — 线条清理</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvbdn60dj307j0770sh.jpg"></p>
-<p>现在开始做清理。把草图层设置成半透明，可以 右键 点击图层名称，选择属性，再调低透明度。现在可以在上面的图层去画。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8ao6foj30c007zq2q.jpg"></p>
-<p>这里的思路是画出最终的线条图。先聚焦在重点线条上，比如构成角色剪影和脸部的线条。先不要关心颜色和光影，如果想画的话可以画一点主阴影，重点还是把主要形状弄对。</p>
-<p><strong>Step 3  —  底色</strong></p>
-<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovve85R4AL3Ns9CkkPy3GZ91D8PLYmrl3Sc3WztQWvgHOec9h0XZDLrg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
-<p>很简单的一步，找到符合需求的颜色，用油漆桶填充进去。避免过于饱和和过亮的颜色。还不到画光影的时候，但是要考虑好画面应该如何被照亮，有些区域会被周围的颜色影响。</p>
-<p><strong>Step 4  —  光影</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv88aqv3j307p077gld.jpg"></p>
-<p>开始给画添加光影，添加明暗区域。试着想象光会如何照射到你画的物体上，相应的渲染。这一步找个参考图是个很好的办法。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvaibzjbj309z07h742.jpg"></p>
-<p>我喜欢在这一步通过给弧线加上较深的颜色，来尽量弱化黑色的描边，就好像是做抗锯齿。不过别做太过，不然线条看起来会模糊。</p>
-<p>这一步可以调整线条，但重点是光影。</p>
-<p><strong>Step 5  —  线条上色和抗锯齿</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8c2gduj307p07agld.jpg" alt="图片"></p>
-<p>之前提到过，过多的黑色描边可能会分散注意力。通过上色来弱化他们是个不错的方法。只要找到周围最近，最深的颜色，并把描边改成这个色的更深版本就行。</p>
-<p>如果这个描边是用来分隔明显的区域，比如脖子和脸颊，衣领和头发，你可以画很深色，甚至保留黑色。这也是为什么我喜欢保持黑色的角色外层描边。弱化的过渡一般用亮一点的线，比如鼻子的线条。</p>
-<p><strong>Step 6  — 打磨细节</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvb2fvmtj307t076t8h.jpg"></p>
-<p>最后这步你需要确定所有线条都做过抗锯齿，所有阴影过渡都合理的软化过（或者没有！如果是硬过渡的话。），并添加上所有细节。</p>
-<p>添加背光，小的高亮，反射区域。因为所有东西都就位了，你可以衡量想要在画面添加多少细节。不要做得太过，注意别加入过多噪点。</p>
-<p>这就完成了！多去练习，并试着把前几节的概念也融入进来。</p>
-<p>Good luck!</p>
-]]></content>
-      <categories>
-        <category>像素美工(Pixel Art Designing)</category>
-        <category>开始画像素画(Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>像素宝典#1</title>
-    <url>/archives/5b27815c.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gc22zucj30u00gwacm.jpg"></p>
-<a id="more"></a>
-
-<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解简单的闪光效果、烟雾效果、攻击动画和跑步循环。</p>
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhstr5fj30u008c74z.jpg"></p>
-<h3 id="简单的闪光效果"><a href="#简单的闪光效果" class="headerlink" title="简单的闪光效果"></a>简单的闪光效果</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhu4pzrg30gg0hsqdi.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji9bylbg30gg0hs130.gif"></p>
-<p>这是个简单的闪光动画，最重要的就是时机的掌握。第三帧可以掠过大部分你想闪的区域。</p>
-<p>可以只用左边的简单效果，或者插入一个空白帧后，再加上右边的额外闪光效果。甚至是只用这个额外的部分，取决于实际的效果。</p>
-<h3 id="简单的攻击动画"><a href="#简单的攻击动画" class="headerlink" title="简单的攻击动画"></a>简单的攻击动画</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhwy03pg30e80e87it.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhyq5xhg30e80e8n9u.gif"></p>
-<p>这个稍微复杂点，如何画个最简洁的攻击动画</p>
-<p>做攻击动画最重要的一点就是让玩家输入后瞬间得到反馈。所以第一帧就要立即覆盖攻击判定区域，不要加预判动作，啥都别加。</p>
-<p>整个动作非常的快，还要确保他返回到空闲状态。我通常会额外加一点回弹（第八帧），让动作更有趣一点。</p>
-<blockquote>
-<p>风农：大家要注意这里说的是个简单的动画，如果你的目的是做出某种带有硬直的，或者有起手动作的动画，那肯定要加入一些预备动作的帧。</p>
-<p>其实这里的重点是给反馈，无论是视觉上的还是听觉上的，要迅速的给玩家一个输入的反馈。</p>
-</blockquote>
-<h3 id="烟雾"><a href="#烟雾" class="headerlink" title="烟雾"></a>烟雾</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji6rab1g30e80e8gp4.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji0bi5wg30e80e8qgs.gif"></p>
-<p>每次处理烟雾，水花，火焰这种复杂系统的动画时，我会把这个系统分解成零件，再把这些部分分别画出来。</p>
-<p>考虑一整团烟雾是如何运动的太复杂了，但是一个小的部分的运动相对来说简单一些。</p>
-<p>最后那个例子是个循环烟雾的效果，跟另外几个的区别在于，我差不多每 4 帧就多生成一些烟雾。并且在第一帧延续最后一帧的粒子效果。以后我会对这个循环动画做一期教程讲解。</p>
-<blockquote>
-<p>风农：最后那个循环动画，大家注意看，就是当烟雾快没了的时候，就再生成几个新的大块，同时最后一帧没有消散的粒子，在第一帧里延续下来。这样就循环起来了。拆开看更清楚。</p>
-</blockquote>
-<h3 id="攻击动画-tips"><a href="#攻击动画-tips" class="headerlink" title="攻击动画 tips"></a>攻击动画 tips</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji1yks4g30e609ctb7.gif"></p>
-<p>这个小 tip 是为了回答来自 Cam 的提问：</p>
-<p>“如果剑在角色身前，该怎么画剑的动画？有什么区别吗？剑停在身后的时候那个弧线比较好懂，我想知道在身前的话该怎么画。”</p>
-<p>好问题，如果剑在身前，直接把它往下移动看起来没什么力。有时候，剑，拳头，或者别的什么东西不在你想要的位置，你可能觉得要加个准备帧。这没错，<strong>但是这可以做个假</strong>。我通常会用个”风斩“，或者其他的模糊效果来模拟它。假装攻击是从你想要的位置发起的，而且极大的夸张了整个动作。玩家不会察觉到缺少了准备帧。另外一个技巧就是用长点的返回动画。</p>
-<p>还有，声明一下，上个教程虽然没提，但是我们做的是”玩家的动画“。敌人的动画是应该有准备帧的。有些游戏里玩家也有准备帧，（像恶魔城 Castlevania）。后面我会在进阶一点的攻击动画教程里详细讲，但一般是需要遵守这条法则的，除非你想让玩家感到无力，或者让敌人不好预测，这类东西。</p>
-<p>风农：教程里频繁出现 anticipation frame 这个词，我通常翻译为准备帧。这个概念可以在网上搜到，比如维基百科有个动画的 12 项基本法则，里面有这么一条：</p>
-<blockquote>
-<p>预期动作（Anticipation）</p>
-<p>物体从静止到开始动作前会有所谓的预期动作，可让观众能预知下个动作。例如从高空往下跳跃时会先弯曲膝盖再跳、正在跑步的人要停止跑步前会逐渐变慢步伐等等。在动画中适当加入预期动作不仅可增添生动性，亦可给予观众惊喜性。</p>
-</blockquote>
-<p>感兴趣的可以去看看另外一些法则，如果你需要示例比对，可以去看猫和老鼠，这些东西基本都是美式动漫的风格。</p>
-<h3 id="简单跑步循环"><a href="#简单跑步循环" class="headerlink" title="简单跑步循环"></a>简单跑步循环</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji7o366g30e80e8dlg.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji64j3ig30e80e8dr9.gif"></p>
-<p>大家好像非常想要个走/跑的教程，这就来了。走/跑的动画还是很复杂的，我尽力做出了我能做到的最简洁的动作。我计划对这个主题再做几个教程，关注不同的部位，比如手臂，腿，头部运动，倾斜度等等。</p>
-<p>对学习走/跑动画的同学，我最大的建议是<strong>注意头部的运动</strong>。即使手和腿的动作不太好，但只要头部动作够好，就可以让人信服。</p>
-<p>现在我解释下为什么选这个跑步循环。可能很多人不会喜欢这个“跳起”帧，更想用“过渡位置”帧，像这种：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji3an8cj302m02r0ak.jpg"></p>
-<p>这种也完全 ok。这里只是我能想到的最简单的方式，来做出适合 platformer 类型的跑步动作。走/跑的动画很能体现角色的个性，所以会有无数种方式来做。</p>
-<p>我倾向于“跳起”帧的原因是它非常容易复制，往下拉一两个像素，再稍微动动手和腿，就能得到个“下落”帧。我觉得这种方法做快跑动画非常高效。</p>
-<p>另一个原因是，如果第一帧是个跳跃，就感觉角色瞬间扎进了动作里，让动画更有活力。</p>
-]]></content>
-      <categories>
-        <category>像素美工(Pixel Art Designing)</category>
-        <category>像素宝典(Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>PAT (Basic Level) Practice</title>
     <url>/archives/d04381bb.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gaod1uuj30xc0ir3zq.jpg"></p>
@@ -5584,6 +5523,67 @@
         <tag>C++</tag>
         <tag>PAT</tag>
         <tag>Online Judge</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>像素宝典#1</title>
+    <url>/archives/5b27815c.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gc22zucj30u00gwacm.jpg"></p>
+<a id="more"></a>
+
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解简单的闪光效果、烟雾效果、攻击动画和跑步循环。</p>
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhstr5fj30u008c74z.jpg"></p>
+<h3 id="简单的闪光效果"><a href="#简单的闪光效果" class="headerlink" title="简单的闪光效果"></a>简单的闪光效果</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhu4pzrg30gg0hsqdi.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji9bylbg30gg0hs130.gif"></p>
+<p>这是个简单的闪光动画，最重要的就是时机的掌握。第三帧可以掠过大部分你想闪的区域。</p>
+<p>可以只用左边的简单效果，或者插入一个空白帧后，再加上右边的额外闪光效果。甚至是只用这个额外的部分，取决于实际的效果。</p>
+<h3 id="简单的攻击动画"><a href="#简单的攻击动画" class="headerlink" title="简单的攻击动画"></a>简单的攻击动画</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhwy03pg30e80e87it.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhyq5xhg30e80e8n9u.gif"></p>
+<p>这个稍微复杂点，如何画个最简洁的攻击动画</p>
+<p>做攻击动画最重要的一点就是让玩家输入后瞬间得到反馈。所以第一帧就要立即覆盖攻击判定区域，不要加预判动作，啥都别加。</p>
+<p>整个动作非常的快，还要确保他返回到空闲状态。我通常会额外加一点回弹（第八帧），让动作更有趣一点。</p>
+<blockquote>
+<p>风农：大家要注意这里说的是个简单的动画，如果你的目的是做出某种带有硬直的，或者有起手动作的动画，那肯定要加入一些预备动作的帧。</p>
+<p>其实这里的重点是给反馈，无论是视觉上的还是听觉上的，要迅速的给玩家一个输入的反馈。</p>
+</blockquote>
+<h3 id="烟雾"><a href="#烟雾" class="headerlink" title="烟雾"></a>烟雾</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji6rab1g30e80e8gp4.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji0bi5wg30e80e8qgs.gif"></p>
+<p>每次处理烟雾，水花，火焰这种复杂系统的动画时，我会把这个系统分解成零件，再把这些部分分别画出来。</p>
+<p>考虑一整团烟雾是如何运动的太复杂了，但是一个小的部分的运动相对来说简单一些。</p>
+<p>最后那个例子是个循环烟雾的效果，跟另外几个的区别在于，我差不多每 4 帧就多生成一些烟雾。并且在第一帧延续最后一帧的粒子效果。以后我会对这个循环动画做一期教程讲解。</p>
+<blockquote>
+<p>风农：最后那个循环动画，大家注意看，就是当烟雾快没了的时候，就再生成几个新的大块，同时最后一帧没有消散的粒子，在第一帧里延续下来。这样就循环起来了。拆开看更清楚。</p>
+</blockquote>
+<h3 id="攻击动画-tips"><a href="#攻击动画-tips" class="headerlink" title="攻击动画 tips"></a>攻击动画 tips</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji1yks4g30e609ctb7.gif"></p>
+<p>这个小 tip 是为了回答来自 Cam 的提问：</p>
+<p>“如果剑在角色身前，该怎么画剑的动画？有什么区别吗？剑停在身后的时候那个弧线比较好懂，我想知道在身前的话该怎么画。”</p>
+<p>好问题，如果剑在身前，直接把它往下移动看起来没什么力。有时候，剑，拳头，或者别的什么东西不在你想要的位置，你可能觉得要加个准备帧。这没错，<strong>但是这可以做个假</strong>。我通常会用个”风斩“，或者其他的模糊效果来模拟它。假装攻击是从你想要的位置发起的，而且极大的夸张了整个动作。玩家不会察觉到缺少了准备帧。另外一个技巧就是用长点的返回动画。</p>
+<p>还有，声明一下，上个教程虽然没提，但是我们做的是”玩家的动画“。敌人的动画是应该有准备帧的。有些游戏里玩家也有准备帧，（像恶魔城 Castlevania）。后面我会在进阶一点的攻击动画教程里详细讲，但一般是需要遵守这条法则的，除非你想让玩家感到无力，或者让敌人不好预测，这类东西。</p>
+<p>风农：教程里频繁出现 anticipation frame 这个词，我通常翻译为准备帧。这个概念可以在网上搜到，比如维基百科有个动画的 12 项基本法则，里面有这么一条：</p>
+<blockquote>
+<p>预期动作（Anticipation）</p>
+<p>物体从静止到开始动作前会有所谓的预期动作，可让观众能预知下个动作。例如从高空往下跳跃时会先弯曲膝盖再跳、正在跑步的人要停止跑步前会逐渐变慢步伐等等。在动画中适当加入预期动作不仅可增添生动性，亦可给予观众惊喜性。</p>
+</blockquote>
+<p>感兴趣的可以去看看另外一些法则，如果你需要示例比对，可以去看猫和老鼠，这些东西基本都是美式动漫的风格。</p>
+<h3 id="简单跑步循环"><a href="#简单跑步循环" class="headerlink" title="简单跑步循环"></a>简单跑步循环</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji7o366g30e80e8dlg.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji64j3ig30e80e8dr9.gif"></p>
+<p>大家好像非常想要个走/跑的教程，这就来了。走/跑的动画还是很复杂的，我尽力做出了我能做到的最简洁的动作。我计划对这个主题再做几个教程，关注不同的部位，比如手臂，腿，头部运动，倾斜度等等。</p>
+<p>对学习走/跑动画的同学，我最大的建议是<strong>注意头部的运动</strong>。即使手和腿的动作不太好，但只要头部动作够好，就可以让人信服。</p>
+<p>现在我解释下为什么选这个跑步循环。可能很多人不会喜欢这个“跳起”帧，更想用“过渡位置”帧，像这种：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji3an8cj302m02r0ak.jpg"></p>
+<p>这种也完全 ok。这里只是我能想到的最简单的方式，来做出适合 platformer 类型的跑步动作。走/跑的动画很能体现角色的个性，所以会有无数种方式来做。</p>
+<p>我倾向于“跳起”帧的原因是它非常容易复制，往下拉一两个像素，再稍微动动手和腿，就能得到个“下落”帧。我觉得这种方法做快跑动画非常高效。</p>
+<p>另一个原因是，如果第一帧是个跳跃，就感觉角色瞬间扎进了动作里，让动画更有活力。</p>
+]]></content>
+      <categories>
+        <category>像素美工(Pixel Art Designing)</category>
+        <category>像素宝典(Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
       </tags>
   </entry>
   <entry>
@@ -6115,8 +6115,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--那年的那些顾客</title>
     <url>/archives/c35ec0ed.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gkul8l5j315o0i4jz6.jpg"></p>
-<a id="more"></a>
+    <content><![CDATA[<a id="more"></a>
 
 <p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在苏宁电器遇到的奇闻趣事。</p>
 <p>我接下来要讲的这些，可能会得罪一些人，但这也是没办法的事。我知道，大家其实都是在维护自己的利益，很多时候也是无可厚非的。但是既然你的一些行为来到了我的记忆，那么写出来也未尝不可。</p>
@@ -8695,46 +8694,9 @@
       </tags>
   </entry>
   <entry>
-    <title>从苏宁电器到卡巴斯基--来到苏宁之前的过渡</title>
-    <url>/archives/4f9e99c0.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gk214n6j31hc0u0tnf.jpg"></p>
-<a id="more"></a>
-
-<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师离开书馆来苏宁前应聘中石化的琐事。</p>
-<h4 id="国企vs私企"><a href="#国企vs私企" class="headerlink" title="国企vs私企"></a>国企vs私企</h4><p>从老师那里离职并从佳木斯回到长春后，我就直接买了回珠海的票，回到了家里面。对于我离职，家里人其实还是比较支持的，因为他们觉得卖书并不是一个长久的事业，同时也不看好这个行业。在他们那一辈人看来，还得是去当公务员或者进入国企事业单位吃大锅饭才靠谱。因为他们觉得这样的单位不可能倒闭，即便是工资少一点也没有关系，因为福利会很好。并且这样的单位，说出去也显得特别有面子，甚至还能方便亲戚朋友走后门，好处还是非常多的。所以我觉得他俩还是希望我入职这样的单位，在亲戚里面显摆一下的。说到这里我想起来，其实我的两个亲戚的孩子，和我同辈，一个去当了公务员，一个去了某知名国企。具体工资我并不清楚，但是考虑到他们所在的地方属于N线城市，因此我感觉薪水少得可怜。即便如此，我父母依旧很是羡慕那两个亲戚的孩子。就算我后来入职苏宁（当时苏宁是民企的领头羊），待遇较之前卖书的时候翻倍，他们也把苏宁当成是“大型个体户”，认为这种私企并不是多么风光的单位。尽管私企在词典里面并不是贬义词，但是在那一辈人看来，私企就是一种轻蔑的称呼。他们认为这类企业，别看今天你还活蹦乱跳的，也许明天就倒闭了。包括后来的卡巴斯基也是一样，尽管是外企，尽管我们在信息安全领域处在一个霸主的地位，但也会让他们觉得这是强弩之末的企业，也是难以得到他们的认同的。可以这么说，进了私企相当于是被判了死缓，而入职国企才会获得永生。</p>
-<p>因此，当时在我回家后，我父亲就强烈建议我试试应聘中石化。因为他之前一直都是石油系统的员工，也是做销售。但是在我看来，他那个年代做销售，是一件非常简单的事情，毕竟皇帝的女儿不愁嫁，只要天天待在办公室打打电话，喝喝茶水看看报纸就行了，自然会有很多人送上门来的，守株待兔就能够有不错的业绩了，无需再出去拓展市场，毕竟这是国企，人在其中就如同是温水煮青蛙。另外，以前我父亲有时还会去全国各地开大会，也算是旅游了，你说惬意不惬意？他在石油系统待了那么长的时间，自然也是希望我能够继承衣钵，入职中石化的。但是他毕竟脱离系统多年，也就只能通过朋友的关系来帮我找工作了。其实按照我的真实想法，我对中石化并不感兴趣，但是执拗不过他对我的殷勤希望，也就只得暂且答应。心里想着，如果待遇还不错，工作我也能够胜任的话，去中石化也无妨。其实如果现在想要进石油系统（对于应届生而言），按照正常流程，得趁它校招的时候在网上投递简历，经过层层筛选，多次笔试面试，杀败无数竞争对手，才有可能获得这个职位的。并且还有可能去一个你不愿意去的城市上班，有种千军万马过独木桥的感觉。很多时候我也挺不理解的，石油是不可再生资源，“两桶油”明明是夕阳产业，怎么还会这么受青睐呢？况且中石化目前也在试水小型超市，也是为了多元化战略的需要，提高销售额。看起来也是在为未来石油行业的衰落做好准备。即便真的是那么向往国企，好歹也去一个新能源或者经营可再生能源之类的企业吧。就比如说国家现在大力推进电动汽车的销售，提供各种补贴，这是为了什么？不就是为了有朝一日应对石油资源的短缺么，同时还能推进环保事业的发展。当然有些人的想法可能就是想要一种安逸的工作状态，那么这也无可厚非。但是老一辈人对于这种行业的向往，是时候该改一改了。</p>
-<h4 id="只因一句话，让我与中石化失之交臂"><a href="#只因一句话，让我与中石化失之交臂" class="headerlink" title="只因一句话，让我与中石化失之交臂"></a>只因一句话，让我与中石化失之交臂</h4><p>尽管入职石油系统很麻烦，可是如果依靠朋友关系，在当年，也就不需要这么费劲了。正好我父亲的一个朋友算是石油系统的一个高管，他可以把我推荐到紧挨着珠海的一个城市的中石化。好吧，事不宜迟，我整理了一下简历，我们三个就出发了。我父亲甚至还买了两瓶好酒，打算在事成之后送给当地中石化的老总，以示感谢。在路上，那个帮我介绍工作的高管特别提醒了我一件事，那就是如果面试的时候问到我以后有什么打算，他建议我说以后打算考研，这样能够让老总认为我爱学习，是个可塑之才。当时我也没多想，心里也就同意了。</p>
-<p>尽管之前已经打好招呼了，但是面试环节是不能省下来的。第一轮面试就是直接见HR经理了。当时我觉得中石化的办公环境还是不错的，尽管装修略显呆板，但能在这样的环境里办公，至少是比库房还有店面强多了。心里想着也许过段时间我就能像他们一样，每天穿着白衬衫黑西裤，成为一个小白领，朝九晚五地上班了。甚至还想了很多长远的问题，比如入职以后，我是住在员工宿舍呢，还是回珠海呢？（毕竟才一个小时的车程）以后买房是在当地买呢，还是回珠海买呢……说到这里，我想起来一个笑话很能类比我当时的心情——</p>
-<blockquote>
-<p>单身久了，今天坐公交，一个女孩蹭了我肩膀一下，我连我们的孩子在哪上学都想好了。</p>
-</blockquote>
-<p>言归正传，HR经理面试我的时候，我父亲和他朋友自然是等在外面的。面试其实也就是简单聊一聊，他建议我去加油站，先从加油干起，待遇大概是一千多，如果能够晋升为加油站的站长，那么待遇就是三千。当时我心里一惊，怎么，我不是坐办公室吗，还得去加油，从这么基层的岗位干起吗？而且待遇未免也太低了吧。尽管不是重点城市，但毕竟是南方，而且还是世界知名的国企，相比而言，也没比我以前卖书多很多钱。然后我就对HR经理说，我毕竟是营销出身，其实我还是想做销售的。他说其实销售更累，压力更大，特别是如果完不成任务，那就拿不到提成，待遇很可能还不如去加油，所以其实加油最稳定，而且现在加油站在做“易捷”便利店，也是属于销售了。好吧，既然他都已经这么说了，那么我也就同意从加油干起了。他跟我说这个是需要三班倒的，会比较辛苦。我心里想说，再辛苦也不会有我搬书的时候辛苦吧。</p>
-<p>我估计这一面就是走个形式，人事经理当时也并没有表态。由于当天他们的一把手还有二把手去外地开会了，因此人事经理就让我们过两天再过去，等他俩回来，让老总和副总再面试一下（不过是招聘一个加油工，竟然还需要三个大领导面试，也是没谁了）。我从HR办公室出来以后，和我父亲说，人事经理建议我从加油站干起，还说了一下待遇。估计我父亲也觉得待遇比较低，但是他觉得无所谓，从基层开始奋斗没什么不好的，只要能进中石化就行。包括当天晚上回到珠海和我母亲也说了待遇，她也认为不错了，觉得只要我好好干，皇天不负有心人，终将会有出人头地的那一天的。既然我父母都没有意见，那么我其实在心里也就同意入职中石化了。</p>
-<p>大概过了两天吧，我们几个又去了中石化。那天首先见的是二把手，他是个和蔼的老头，一直笑眯眯的，显得特别亲切随和。这一面其实更加没问什么，更是在走形式。最后，一把手来了，也算是终面了。当时，一把手、二把手、人事经理还有我，一共四个人，在一把手的大办公室里面，全程都是只有一把手在说话。给我的感觉是，一把手非常严肃，刚正不阿，与二把手产生了鲜明的对比，一下子就把人与人之间的距离拉开了。尽管也是随便聊聊，但是你说巧不巧，他正好就问了我上班以后，未来有什么打算。也是天意，让我与中石化无缘。我就按照之前那个高管的意思，说其实我还是想努力学习，以后考研究生的。不料，那个一把手说，如果你以后要考研究生，迟早都是要走的，那我们现在为什么要培养你？一句话顿时让我语塞，心里想说这下可完了。本来我还想圆一下场子，说我去深造的目的是为了更好地报效中石化，但是由于一把手叨叨起来没完没了，我就一直插不上嘴。我心里想，估计以后要是和他开会，那别人就别想发言了，即便他真的破天荒地让你谈一下看法，那么你说完之后，他也就直接把你给否定掉了。之后大家也没再说什么，二把手依旧全程笑眯眯地，HR经理就让我回去等通知了。</p>
-<p>走出一把手办公室的大门，我父亲问我怎么样，我没敢照实说，只是说还不错，回去等通知。我父亲顿时觉得有戏，用手舞足蹈来形容也并不过分。二十多年来，我从来没见过他高兴成那样。当天回到珠海和老朋友们吃饭，由于很高兴，他竟然还喝多了。但是我心里却是非常地忐忑，不知道一旦让他晓得我没通过，他会是什么样的心情。而当天他喝多了，这就更加让我感觉到，他的期望是如此之高，到时候失望也会是相当之大了。大概是第二天吧，等到我父亲酒劲过去，我才和父亲说，其实昨天的面试，我感觉一把手非常的正直。一把手觉得由于我算是走后门，不算是按照正规招聘流程进来的，所以说他要考虑一下是否要我。我还说，即便我入职了，那么一把手可能也不会喜欢我，我的升职空间就非常有限了。我说那个一把手其实就是在婉拒我。当时我依旧没说重点，就是想隐瞒我说错话这件事。我父亲说原来是这样（似乎有些失望），没什么关系，如果面试真的失败了，那就算了，但他还是觉得我入职是有希望的，毕竟一把手并没有明确表示不要我。</p>
-<p>我也忘记了是面试完第二天还是第三天的下午，HR经理给我打电话了。说我面试通过了，可以去上班。我还真是没想到自己竟然应聘上了，但是鉴于那天一把手的态度，最终，我和HR经理说，我考虑了一下，抱歉，我由于个人原因，不想入职贵公司了。从电话里我也听不出他的心情，于是也就不了了之了。我觉得，尽管他们最后答应了我的入职申请，但是也许是考虑到不过是招聘一个加油的，是一个无足轻重的职位，大差不差的，因此也就同意我入职了。当然，HR给我打电话通知我通过这件事，我也没和我父亲说。事实上，直到今天为止，整个事情完整的过程，我父亲依旧是不知道的，他始终还是认为，是由于那个一把手太正直，才不同意我入职的。</p>
-<p>现在想想这件事，假设我当初面对一把手的时候没有那么说，那么最终我一定就去中石化加油了。或者后来HR告诉我通过了的时候，我不那么固执，选择妥协，那我也去中石化了。如果是那样，那么我的人生就会是另外的一条轨迹了（就如同当初答应了可口可乐去梨树或者榆树当业务员一样）。如果按照中石化这条轨迹来走我的人生，不晓得我现在在哪里在干什么呢？也许平行宇宙中的另一个我，正在这条轨迹上奔跑吧。</p>
-<p>过了几年我才知道，其实我父亲还是挺不甘心的，因为他也依旧在关注着那家中石化。之所以这么说，是因为到目前为止，他大概跟我说过两次，跟我说当时没去中石化，是一个正确的选择。因为后来那个笑眯眯的二把手，很快就退休了，而那个一把手也调去其它的公司了。所以如果说当时又送礼又巴结的，那么到后来也无非是竹篮打水一场空。三十年河东三十年河西，来了新的领导还得重新拍马屁。父亲还说鉴于一个朋友的孩子也去了中石化做文职，朋友的孩子在中石化过得并不如意，甚至还有多次轻生的念头，于是也就更加坚定了他的想法，没去中石化，是对的。但我知道，尽管他嘴上这么说，其实他的内心还是希望我能够去那里上班的。而起初买的那两瓶好酒，也就一直留到了现在。</p>
-<h4 id="又回到了艰难的找工作的状态"><a href="#又回到了艰难的找工作的状态" class="headerlink" title="又回到了艰难的找工作的状态"></a>又回到了艰难的找工作的状态</h4><p>虽然没去成中石化，但是生活还是得继续。我并不想留在珠海，所以还是回到了长春。想想以前没毕业的时候，找工作的种种艰难，其实我那时再找工作，心里还是非常没底的。当时觉得，既然是刚从大润发超市出来，也算是有了超市的经验，那不妨也应聘一下长春的家乐福和沃尔玛吧。正好我在网上看到家乐福招聘品类主管，就直接投了简历。很快也就得到了通知我去面试的电话。当时我面试的是长春家乐福的春城店，位于绿园区，是长春家乐福里面卖得最差的一家店了（现在已经关店了，长春家乐福的经营状况属实堪忧）。我记得在面试之前，我还特意去店里走了走，目的就是看一下店面有没有什么问题，这样一会面试的时候就不会无话可说。最重要的是，如果能够发现店面的问题，还能够给面试官留下良好的印象，有助于我的面试成功。其实这间家乐福超市最大的问题是客流量极其稀少，与门庭若市的佳木斯大润发形成了鲜明的对比。正所谓巧妇难为无米之炊，人少，不是我能够解决的问题。其实这家超市的图书也是老师的书店提供的，以前我就知道这间超市卖得差，图书销售额和其它超市相比经常垫底，看来很重要的原因就在于客流。</p>
-<p>在超市里面逛了一圈之后，很快就轮到我面试了，其实这种面试也没什么好问的，我这里也没什么好讲的。由于我刚从大润发回来，大概也讲了一下大润发超市的情况。我印象最深的一个问题是，面试官问我，你觉得在销售中，最重要的一个问题是什么。我说其实结合我们超市的情况，需要和顾客多多交流，了解我们自身的问题，然后改正。顾客的满意度提升了，有助于提升我们的销售额。当时我自认为说得还不错，可是面试官却说，最重要的不是对产品的了解吗？呃，好像也是，说得没错，被打败了。我只能赶紧圆场说，其实对于产品的了解是一个很基础的内容，是必须要具备的，所以我就没说，而我如果能够入职，我与其他人不同的是我会更加在意消费者对我们的意见，从而改正（也算是我的核心竞争优势了）。面试也没持续多长时间，就结束了。当时就觉得自己够呛，事后证实也的确如此，连“没通过”这几个字也没打电话告诉我。</p>
-<p>长春的好企业大企业其实并不多，既然家乐福不行，我就只能试试沃尔玛了。但是沃尔玛在网上并没有招聘信息，因此我就只能试一下“霸王面”了。记得我当时去的是长春火车站那边的长江路沃尔玛店（也好像是重庆路店），我直接去找的人力资源部，问他们招不招人（确实也是实在没办法了，只能直接去问了）。她说目前没有招聘计划，但是如果我愿意的话，不妨应聘收银。收银？那还是算了吧，我也就只能悻悻地离开了。</p>
-<p>找工作还是很困难的，当时甚至还在怀疑自己裸辞到底对不对，没有那么大的本事，却这么自信地说走就走，我是不是真的做错了呢？或者不去卖书，而是去中石化加油，通过自己的努力获得晋升的机会，是不是也是一个不错的选择呢？可是现在说什么都太晚了，是我自己放弃的，怨不得别人。沦落至此，终于发现，找工作实在是太艰辛了。</p>
-<h4 id="终于，讲到了苏宁"><a href="#终于，讲到了苏宁" class="headerlink" title="终于，讲到了苏宁"></a>终于，讲到了苏宁</h4><p>就在我找工作遇到了诸多不顺的时候，我在招聘网站上看到苏宁电器正在招聘营业员，于是我就在网上投递了我的简历。其实要说苏宁的名头，那还是响当当的，尽管我之前从来没去过苏宁买东西（我自己也不需要买电器），但是觉得如果我能够入职这么大的企业，也还是不错的选择。尽管我当时并不知道营业员具体是干什么的，只是感觉可能是站在柜台后面卖货的。觉得如果真是这样的话，心里还是老大的不乐意，这和去加油也没什么区别了。不过既然自己已经沦落到了这个份上，也就管不了那么多了。没记错的的话，招聘信息上并没有写明会去哪家苏宁店，也没写工资待遇是多少，所以对于苏宁以及对于自己的未来，一切还都是一个未知数。当时就觉得，如果没应聘上苏宁，那可就彻彻底底地完蛋了。因此，我也就心怀忐忑的去面试了。</p>
-]]></content>
-      <categories>
-        <category>程序人生(Programing Life)</category>
-        <category>姜晔传(The Autobiography of Jiangye)</category>
-      </categories>
-      <tags>
-        <tag>Story</tag>
-        <tag>Reprint</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>从苏宁电器到卡巴斯基--我的创业梦</title>
     <url>/archives/1783f129.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gj3brnsj31900u0dl5.jpg"></p>
-<a id="more"></a>
+    <content><![CDATA[<a id="more"></a>
 
 <p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在本科时期的一次创业实践与反思。</p>
 <h4 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h4><p>本科时一直有一个想法，那就是希望自己能够在毕业之前做出一些轰动的事情，让自己成为校园的名人。而就在那个时候，在大三第一学期的“预测与决策”这门课上，我们老师给我们播放了一段央视财经频道《赢在中国》的36强比赛片段，这就如同为我打开了新世界的大门，不单单在理论上丰富了我对于商业的认识，更加使我萌生了创业的念头，令我觉得，只有创业，才是我们这个专业的人的唯一出路。正如《赢在中国》的主题曲《在路上》那首歌所唱的那样——</p>
@@ -8783,10 +8745,44 @@
       </tags>
   </entry>
   <entry>
+    <title>从苏宁电器到卡巴斯基--来到苏宁之前的过渡</title>
+    <url>/archives/4f9e99c0.html</url>
+    <content><![CDATA[<a id="more"></a>
+
+<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师离开书馆来苏宁前应聘中石化的琐事。</p>
+<h4 id="国企vs私企"><a href="#国企vs私企" class="headerlink" title="国企vs私企"></a>国企vs私企</h4><p>从老师那里离职并从佳木斯回到长春后，我就直接买了回珠海的票，回到了家里面。对于我离职，家里人其实还是比较支持的，因为他们觉得卖书并不是一个长久的事业，同时也不看好这个行业。在他们那一辈人看来，还得是去当公务员或者进入国企事业单位吃大锅饭才靠谱。因为他们觉得这样的单位不可能倒闭，即便是工资少一点也没有关系，因为福利会很好。并且这样的单位，说出去也显得特别有面子，甚至还能方便亲戚朋友走后门，好处还是非常多的。所以我觉得他俩还是希望我入职这样的单位，在亲戚里面显摆一下的。说到这里我想起来，其实我的两个亲戚的孩子，和我同辈，一个去当了公务员，一个去了某知名国企。具体工资我并不清楚，但是考虑到他们所在的地方属于N线城市，因此我感觉薪水少得可怜。即便如此，我父母依旧很是羡慕那两个亲戚的孩子。就算我后来入职苏宁（当时苏宁是民企的领头羊），待遇较之前卖书的时候翻倍，他们也把苏宁当成是“大型个体户”，认为这种私企并不是多么风光的单位。尽管私企在词典里面并不是贬义词，但是在那一辈人看来，私企就是一种轻蔑的称呼。他们认为这类企业，别看今天你还活蹦乱跳的，也许明天就倒闭了。包括后来的卡巴斯基也是一样，尽管是外企，尽管我们在信息安全领域处在一个霸主的地位，但也会让他们觉得这是强弩之末的企业，也是难以得到他们的认同的。可以这么说，进了私企相当于是被判了死缓，而入职国企才会获得永生。</p>
+<p>因此，当时在我回家后，我父亲就强烈建议我试试应聘中石化。因为他之前一直都是石油系统的员工，也是做销售。但是在我看来，他那个年代做销售，是一件非常简单的事情，毕竟皇帝的女儿不愁嫁，只要天天待在办公室打打电话，喝喝茶水看看报纸就行了，自然会有很多人送上门来的，守株待兔就能够有不错的业绩了，无需再出去拓展市场，毕竟这是国企，人在其中就如同是温水煮青蛙。另外，以前我父亲有时还会去全国各地开大会，也算是旅游了，你说惬意不惬意？他在石油系统待了那么长的时间，自然也是希望我能够继承衣钵，入职中石化的。但是他毕竟脱离系统多年，也就只能通过朋友的关系来帮我找工作了。其实按照我的真实想法，我对中石化并不感兴趣，但是执拗不过他对我的殷勤希望，也就只得暂且答应。心里想着，如果待遇还不错，工作我也能够胜任的话，去中石化也无妨。其实如果现在想要进石油系统（对于应届生而言），按照正常流程，得趁它校招的时候在网上投递简历，经过层层筛选，多次笔试面试，杀败无数竞争对手，才有可能获得这个职位的。并且还有可能去一个你不愿意去的城市上班，有种千军万马过独木桥的感觉。很多时候我也挺不理解的，石油是不可再生资源，“两桶油”明明是夕阳产业，怎么还会这么受青睐呢？况且中石化目前也在试水小型超市，也是为了多元化战略的需要，提高销售额。看起来也是在为未来石油行业的衰落做好准备。即便真的是那么向往国企，好歹也去一个新能源或者经营可再生能源之类的企业吧。就比如说国家现在大力推进电动汽车的销售，提供各种补贴，这是为了什么？不就是为了有朝一日应对石油资源的短缺么，同时还能推进环保事业的发展。当然有些人的想法可能就是想要一种安逸的工作状态，那么这也无可厚非。但是老一辈人对于这种行业的向往，是时候该改一改了。</p>
+<h4 id="只因一句话，让我与中石化失之交臂"><a href="#只因一句话，让我与中石化失之交臂" class="headerlink" title="只因一句话，让我与中石化失之交臂"></a>只因一句话，让我与中石化失之交臂</h4><p>尽管入职石油系统很麻烦，可是如果依靠朋友关系，在当年，也就不需要这么费劲了。正好我父亲的一个朋友算是石油系统的一个高管，他可以把我推荐到紧挨着珠海的一个城市的中石化。好吧，事不宜迟，我整理了一下简历，我们三个就出发了。我父亲甚至还买了两瓶好酒，打算在事成之后送给当地中石化的老总，以示感谢。在路上，那个帮我介绍工作的高管特别提醒了我一件事，那就是如果面试的时候问到我以后有什么打算，他建议我说以后打算考研，这样能够让老总认为我爱学习，是个可塑之才。当时我也没多想，心里也就同意了。</p>
+<p>尽管之前已经打好招呼了，但是面试环节是不能省下来的。第一轮面试就是直接见HR经理了。当时我觉得中石化的办公环境还是不错的，尽管装修略显呆板，但能在这样的环境里办公，至少是比库房还有店面强多了。心里想着也许过段时间我就能像他们一样，每天穿着白衬衫黑西裤，成为一个小白领，朝九晚五地上班了。甚至还想了很多长远的问题，比如入职以后，我是住在员工宿舍呢，还是回珠海呢？（毕竟才一个小时的车程）以后买房是在当地买呢，还是回珠海买呢……说到这里，我想起来一个笑话很能类比我当时的心情——</p>
+<blockquote>
+<p>单身久了，今天坐公交，一个女孩蹭了我肩膀一下，我连我们的孩子在哪上学都想好了。</p>
+</blockquote>
+<p>言归正传，HR经理面试我的时候，我父亲和他朋友自然是等在外面的。面试其实也就是简单聊一聊，他建议我去加油站，先从加油干起，待遇大概是一千多，如果能够晋升为加油站的站长，那么待遇就是三千。当时我心里一惊，怎么，我不是坐办公室吗，还得去加油，从这么基层的岗位干起吗？而且待遇未免也太低了吧。尽管不是重点城市，但毕竟是南方，而且还是世界知名的国企，相比而言，也没比我以前卖书多很多钱。然后我就对HR经理说，我毕竟是营销出身，其实我还是想做销售的。他说其实销售更累，压力更大，特别是如果完不成任务，那就拿不到提成，待遇很可能还不如去加油，所以其实加油最稳定，而且现在加油站在做“易捷”便利店，也是属于销售了。好吧，既然他都已经这么说了，那么我也就同意从加油干起了。他跟我说这个是需要三班倒的，会比较辛苦。我心里想说，再辛苦也不会有我搬书的时候辛苦吧。</p>
+<p>我估计这一面就是走个形式，人事经理当时也并没有表态。由于当天他们的一把手还有二把手去外地开会了，因此人事经理就让我们过两天再过去，等他俩回来，让老总和副总再面试一下（不过是招聘一个加油工，竟然还需要三个大领导面试，也是没谁了）。我从HR办公室出来以后，和我父亲说，人事经理建议我从加油站干起，还说了一下待遇。估计我父亲也觉得待遇比较低，但是他觉得无所谓，从基层开始奋斗没什么不好的，只要能进中石化就行。包括当天晚上回到珠海和我母亲也说了待遇，她也认为不错了，觉得只要我好好干，皇天不负有心人，终将会有出人头地的那一天的。既然我父母都没有意见，那么我其实在心里也就同意入职中石化了。</p>
+<p>大概过了两天吧，我们几个又去了中石化。那天首先见的是二把手，他是个和蔼的老头，一直笑眯眯的，显得特别亲切随和。这一面其实更加没问什么，更是在走形式。最后，一把手来了，也算是终面了。当时，一把手、二把手、人事经理还有我，一共四个人，在一把手的大办公室里面，全程都是只有一把手在说话。给我的感觉是，一把手非常严肃，刚正不阿，与二把手产生了鲜明的对比，一下子就把人与人之间的距离拉开了。尽管也是随便聊聊，但是你说巧不巧，他正好就问了我上班以后，未来有什么打算。也是天意，让我与中石化无缘。我就按照之前那个高管的意思，说其实我还是想努力学习，以后考研究生的。不料，那个一把手说，如果你以后要考研究生，迟早都是要走的，那我们现在为什么要培养你？一句话顿时让我语塞，心里想说这下可完了。本来我还想圆一下场子，说我去深造的目的是为了更好地报效中石化，但是由于一把手叨叨起来没完没了，我就一直插不上嘴。我心里想，估计以后要是和他开会，那别人就别想发言了，即便他真的破天荒地让你谈一下看法，那么你说完之后，他也就直接把你给否定掉了。之后大家也没再说什么，二把手依旧全程笑眯眯地，HR经理就让我回去等通知了。</p>
+<p>走出一把手办公室的大门，我父亲问我怎么样，我没敢照实说，只是说还不错，回去等通知。我父亲顿时觉得有戏，用手舞足蹈来形容也并不过分。二十多年来，我从来没见过他高兴成那样。当天回到珠海和老朋友们吃饭，由于很高兴，他竟然还喝多了。但是我心里却是非常地忐忑，不知道一旦让他晓得我没通过，他会是什么样的心情。而当天他喝多了，这就更加让我感觉到，他的期望是如此之高，到时候失望也会是相当之大了。大概是第二天吧，等到我父亲酒劲过去，我才和父亲说，其实昨天的面试，我感觉一把手非常的正直。一把手觉得由于我算是走后门，不算是按照正规招聘流程进来的，所以说他要考虑一下是否要我。我还说，即便我入职了，那么一把手可能也不会喜欢我，我的升职空间就非常有限了。我说那个一把手其实就是在婉拒我。当时我依旧没说重点，就是想隐瞒我说错话这件事。我父亲说原来是这样（似乎有些失望），没什么关系，如果面试真的失败了，那就算了，但他还是觉得我入职是有希望的，毕竟一把手并没有明确表示不要我。</p>
+<p>我也忘记了是面试完第二天还是第三天的下午，HR经理给我打电话了。说我面试通过了，可以去上班。我还真是没想到自己竟然应聘上了，但是鉴于那天一把手的态度，最终，我和HR经理说，我考虑了一下，抱歉，我由于个人原因，不想入职贵公司了。从电话里我也听不出他的心情，于是也就不了了之了。我觉得，尽管他们最后答应了我的入职申请，但是也许是考虑到不过是招聘一个加油的，是一个无足轻重的职位，大差不差的，因此也就同意我入职了。当然，HR给我打电话通知我通过这件事，我也没和我父亲说。事实上，直到今天为止，整个事情完整的过程，我父亲依旧是不知道的，他始终还是认为，是由于那个一把手太正直，才不同意我入职的。</p>
+<p>现在想想这件事，假设我当初面对一把手的时候没有那么说，那么最终我一定就去中石化加油了。或者后来HR告诉我通过了的时候，我不那么固执，选择妥协，那我也去中石化了。如果是那样，那么我的人生就会是另外的一条轨迹了（就如同当初答应了可口可乐去梨树或者榆树当业务员一样）。如果按照中石化这条轨迹来走我的人生，不晓得我现在在哪里在干什么呢？也许平行宇宙中的另一个我，正在这条轨迹上奔跑吧。</p>
+<p>过了几年我才知道，其实我父亲还是挺不甘心的，因为他也依旧在关注着那家中石化。之所以这么说，是因为到目前为止，他大概跟我说过两次，跟我说当时没去中石化，是一个正确的选择。因为后来那个笑眯眯的二把手，很快就退休了，而那个一把手也调去其它的公司了。所以如果说当时又送礼又巴结的，那么到后来也无非是竹篮打水一场空。三十年河东三十年河西，来了新的领导还得重新拍马屁。父亲还说鉴于一个朋友的孩子也去了中石化做文职，朋友的孩子在中石化过得并不如意，甚至还有多次轻生的念头，于是也就更加坚定了他的想法，没去中石化，是对的。但我知道，尽管他嘴上这么说，其实他的内心还是希望我能够去那里上班的。而起初买的那两瓶好酒，也就一直留到了现在。</p>
+<h4 id="又回到了艰难的找工作的状态"><a href="#又回到了艰难的找工作的状态" class="headerlink" title="又回到了艰难的找工作的状态"></a>又回到了艰难的找工作的状态</h4><p>虽然没去成中石化，但是生活还是得继续。我并不想留在珠海，所以还是回到了长春。想想以前没毕业的时候，找工作的种种艰难，其实我那时再找工作，心里还是非常没底的。当时觉得，既然是刚从大润发超市出来，也算是有了超市的经验，那不妨也应聘一下长春的家乐福和沃尔玛吧。正好我在网上看到家乐福招聘品类主管，就直接投了简历。很快也就得到了通知我去面试的电话。当时我面试的是长春家乐福的春城店，位于绿园区，是长春家乐福里面卖得最差的一家店了（现在已经关店了，长春家乐福的经营状况属实堪忧）。我记得在面试之前，我还特意去店里走了走，目的就是看一下店面有没有什么问题，这样一会面试的时候就不会无话可说。最重要的是，如果能够发现店面的问题，还能够给面试官留下良好的印象，有助于我的面试成功。其实这间家乐福超市最大的问题是客流量极其稀少，与门庭若市的佳木斯大润发形成了鲜明的对比。正所谓巧妇难为无米之炊，人少，不是我能够解决的问题。其实这家超市的图书也是老师的书店提供的，以前我就知道这间超市卖得差，图书销售额和其它超市相比经常垫底，看来很重要的原因就在于客流。</p>
+<p>在超市里面逛了一圈之后，很快就轮到我面试了，其实这种面试也没什么好问的，我这里也没什么好讲的。由于我刚从大润发回来，大概也讲了一下大润发超市的情况。我印象最深的一个问题是，面试官问我，你觉得在销售中，最重要的一个问题是什么。我说其实结合我们超市的情况，需要和顾客多多交流，了解我们自身的问题，然后改正。顾客的满意度提升了，有助于提升我们的销售额。当时我自认为说得还不错，可是面试官却说，最重要的不是对产品的了解吗？呃，好像也是，说得没错，被打败了。我只能赶紧圆场说，其实对于产品的了解是一个很基础的内容，是必须要具备的，所以我就没说，而我如果能够入职，我与其他人不同的是我会更加在意消费者对我们的意见，从而改正（也算是我的核心竞争优势了）。面试也没持续多长时间，就结束了。当时就觉得自己够呛，事后证实也的确如此，连“没通过”这几个字也没打电话告诉我。</p>
+<p>长春的好企业大企业其实并不多，既然家乐福不行，我就只能试试沃尔玛了。但是沃尔玛在网上并没有招聘信息，因此我就只能试一下“霸王面”了。记得我当时去的是长春火车站那边的长江路沃尔玛店（也好像是重庆路店），我直接去找的人力资源部，问他们招不招人（确实也是实在没办法了，只能直接去问了）。她说目前没有招聘计划，但是如果我愿意的话，不妨应聘收银。收银？那还是算了吧，我也就只能悻悻地离开了。</p>
+<p>找工作还是很困难的，当时甚至还在怀疑自己裸辞到底对不对，没有那么大的本事，却这么自信地说走就走，我是不是真的做错了呢？或者不去卖书，而是去中石化加油，通过自己的努力获得晋升的机会，是不是也是一个不错的选择呢？可是现在说什么都太晚了，是我自己放弃的，怨不得别人。沦落至此，终于发现，找工作实在是太艰辛了。</p>
+<h4 id="终于，讲到了苏宁"><a href="#终于，讲到了苏宁" class="headerlink" title="终于，讲到了苏宁"></a>终于，讲到了苏宁</h4><p>就在我找工作遇到了诸多不顺的时候，我在招聘网站上看到苏宁电器正在招聘营业员，于是我就在网上投递了我的简历。其实要说苏宁的名头，那还是响当当的，尽管我之前从来没去过苏宁买东西（我自己也不需要买电器），但是觉得如果我能够入职这么大的企业，也还是不错的选择。尽管我当时并不知道营业员具体是干什么的，只是感觉可能是站在柜台后面卖货的。觉得如果真是这样的话，心里还是老大的不乐意，这和去加油也没什么区别了。不过既然自己已经沦落到了这个份上，也就管不了那么多了。没记错的的话，招聘信息上并没有写明会去哪家苏宁店，也没写工资待遇是多少，所以对于苏宁以及对于自己的未来，一切还都是一个未知数。当时就觉得，如果没应聘上苏宁，那可就彻彻底底地完蛋了。因此，我也就心怀忐忑的去面试了。</p>
+]]></content>
+      <categories>
+        <category>程序人生(Programing Life)</category>
+        <category>姜晔传(The Autobiography of Jiangye)</category>
+      </categories>
+      <tags>
+        <tag>Story</tag>
+        <tag>Reprint</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>从苏宁电器到卡巴斯基--单证这一年</title>
     <url>/archives/1d133aa.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3glzbf5oj30u011qtev.jpg"></p>
-<a id="more"></a>
+    <content><![CDATA[<a id="more"></a>
 
 <p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中在北工大读单证的生活。</p>
 <h3 id="上篇"><a href="#上篇" class="headerlink" title="上篇"></a>上篇</h3><h4 id="单证的学习与生活"><a href="#单证的学习与生活" class="headerlink" title="单证的学习与生活"></a>单证的学习与生活</h4><p>这是我第一次来到北京工业大学学习，我觉得与我的本科学校相比，那么这里简直就是天堂了。唯一可能不太好的，就是寝室里面是那种上下铺的设置，而本科是上床下桌。我觉得上床下桌那种，更加自由和独立。还有就是北研楼这里，寝室的衣柜设计太不合理了。因为柜子非常矮，别说是裤子了，即便是上衣也挂不起来，因此我也只能够把衣服都叠起来放着了。另外，这里食堂的饭菜种类比理工大学丰富得多，每天吃的可以不重样。但是北工大每个月上网却有流量上的限制，15块钱可以包月15G的流量，超过了，那么每多出1G就是10块钱，所以流量往往是不够用的。即便是双证，也是这样的政策。</p>
@@ -9605,8 +9601,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--我与卡巴斯基的邂逅</title>
     <url>/archives/392ae7ba.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gmji2g4j30u011qn5e.jpg"></p>
-<a id="more"></a>
+    <content><![CDATA[<a id="more"></a>
 
 <p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师与病毒的故事以及与卡巴斯基的邂逅。</p>
 <h3 id="上篇"><a href="#上篇" class="headerlink" title="上篇"></a>上篇</h3><h4 id="前传——我与病毒的故事"><a href="#前传——我与病毒的故事" class="headerlink" title="前传——我与病毒的故事"></a>前传——我与病毒的故事</h4><p>当我还在读小学的时候，我们家就购置了一台386电脑。当时还是DOS时代，不友好的命令行界面实在让我不知道这个电脑究竟能干什么。后来有懂行的，告诉我电脑里面有游戏，于是我就天天玩五子棋、推箱子、TT打字还有《妖魔道》。同时还发现电脑里面装有WPS，由于它是基于DOS的，还不是现在这种图形化的界面，因此用起来也很不方便。在DOS时代，病毒的种类还是比较少的，主要是因为想要编写病毒，就必须要精通系统底层以及汇编的知识，这并不是人人都可以掌握的。后来觉得这台386实在是不好用，家里就给我升级成了586，也终于装上了Windows95，同时还给我买了《开天辟地》以及《万事无忧》的光盘。</p>
@@ -9693,8 +9688,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--我在佳木斯的日子</title>
     <url>/archives/c2bd3756.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gjf40exj30u0190q95.jpg"></p>
-<a id="more"></a>
+    <content><![CDATA[<a id="more"></a>
 
 <p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师协助书馆前往佳木斯的日子。</p>
 <h3 id="上篇"><a href="#上篇" class="headerlink" title="上篇"></a>上篇</h3><h4 id="先来陈述一下背景"><a href="#先来陈述一下背景" class="headerlink" title="先来陈述一下背景"></a>先来陈述一下背景</h4><p>自从我们老师与超市展开合作以来（其实也没合作几年），差不多每年的七月份左右，都会和超市举办书展，算是图书促销，我毕业那年（2009年）也不例外。正好我是六月末毕业离开学校的，而那年的书展就定在了七月初开始举办。而我那年应该是规模最大的一次图书促销了，一共涉及三个城市的三家大润发超市。因此公司这边自然也得派三个人去监督。</p>
@@ -10359,8 +10353,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--曲折考研路</title>
     <url>/archives/f92a248.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gl6bugxj30u011qq9u.jpg"></p>
-<a id="more"></a>
+    <content><![CDATA[<a id="more"></a>
 
 <p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中的考研之旅。</p>
 <h3 id="上篇"><a href="#上篇" class="headerlink" title="上篇"></a>上篇</h3><h4 id="利用考证来为考研热身"><a href="#利用考证来为考研热身" class="headerlink" title="利用考证来为考研热身"></a>利用考证来为考研热身</h4><p>由于我当时考研报考的是计算机专业，因此需要考四门内容：政治、数学一、英语一以及408计算机专业基础综合。为了让自己尽快进入状态，因此我打算在考研之前，自己考一些认证来为考研做一下热身。而政治以及数学是没有类似的认证考试的，所以我决定考关于英语和计算机的认证。</p>
@@ -12275,8 +12268,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--我在苏宁电器当营业员</title>
     <url>/archives/d6ab9816.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gkh2goxj312w0lwdn4.jpg"></p>
-<a id="more"></a>
+    <content><![CDATA[<a id="more"></a>
 
 <p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在苏宁电器从就职到离职的故事。</p>
 <h3 id="I"><a href="#I" class="headerlink" title="I"></a>I</h3><h4 id="毕竟应聘的是营业员，门槛还是很低的"><a href="#毕竟应聘的是营业员，门槛还是很低的" class="headerlink" title="毕竟应聘的是营业员，门槛还是很低的"></a>毕竟应聘的是营业员，门槛还是很低的</h4><p>我应聘苏宁的时候已经到了2009年的8月初，记得当时苏宁电器的长春总部还在吉林大路与东盛大街交汇处的亚泰广场，我当时的面试就是在那里。我记得很清楚，那天等待面试的人还是非常多的。这从一个侧面也就说明，苏宁的人员流动性也是很大的。不过并不是所有人都应聘营业员，其中也有后勤之类的。到了先填了一张应聘表，写上个人信息。我心想我不是在网上写了么，怎么还得再手写一份，看看我们的字写得好不好看吗？我觉得这也算是笔试了。</p>
@@ -12425,8 +12417,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--我的本科时光</title>
     <url>/archives/3e4e60a1.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3giwc281j312w0krguv.jpg"></p>
-<a id="more"></a>
+    <content><![CDATA[<a id="more"></a>
 
 <p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在本科的时光。</p>
 <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p> 本系列故事的大标题为《从苏宁电器到卡巴斯基》，还有个小标题《讲讲我从一个营业员转变成一个病毒分析师的故事》。其实关于苏宁电器与卡巴斯基这两家企业无需我在这里过多地介绍，一家是中国电器零售行业的龙头老大，一家是世界顶尖的计算机安全企业，它们在各自领域里面都有着响当当的名头。但是这两家企业的业务范围并没有交集，包括营业员与病毒分析师这两个职位也是风马牛不相及。而我在这一系列的故事中所讲的，就是我的真实经历，给大家详细讲讲我个人角色转换的过程。</p>
@@ -12594,8 +12585,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--难忘的三年硕士时光</title>
     <url>/archives/e3376a49.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gm795t7j30u011qair.jpg"></p>
-<a id="more"></a>
+    <content><![CDATA[<a id="more"></a>
 
 <p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中在北工大读研的学习生活。</p>
 <h3 id="I"><a href="#I" class="headerlink" title="I"></a>I</h3><h4 id="初次接触逆向工程"><a href="#初次接触逆向工程" class="headerlink" title="初次接触逆向工程"></a>初次接触逆向工程</h4><p>时间不知不觉就来到了2013年的9月份，学校开学了，我开始正式体验研究生的生活了，我也将自己的行李从北研楼搬到了中蓝公寓。按道理来说，硕士研究生是需要围绕在导师身边，每天朝九晚五地去实验室做项目的。不过我们老师没有项目，也不要求我去实验室，这也就使得我可以有更多的时间来学习自己喜欢的东西。不过尽管没有项目，老师还是给了我翻译的任务，整个研一阶段，他找了两本英文书籍，是与计算机图形图像相关的，让我们翻译。虽说翻译的工作到最后也都不了了之了，但是多多少少对我的英语水平有了一定的提升作用，于是也就在研一的上下两个学期，一口气把四六级过了。记得当时我还发了一个状态来调侃自己：孩子都这么大了，还在拼命考四六级，我也算是前无古人后无来者了。</p>
