@@ -173,6 +173,190 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yousazoe.top/archives/730c27b4.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn2f3efk0dj30lc0lcq31.jpg">
+      <meta itemprop="name" content="Yousazoe">
+      <meta itemprop="description" content="藏剑若锋，养心若鱼">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fl0w3r">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/archives/730c27b4.html" class="post-title-link" itemprop="url">R语言数据分析方法论</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-11-04 22:55:50" itemprop="dateCreated datePublished" datetime="2020-11-04T22:55:50+08:00">2020-11-04</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/R%E8%AF%AD%E8%A8%80%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90-R-Language-Data-Analysis/" itemprop="url" rel="index"><span itemprop="name">R语言数据分析(R Language Data Analysis)</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/archives/730c27b4.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/archives/730c27b4.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <a id="more"></a>
+
+<p>本文主要讨论数据分析与数据挖掘的基本原理与方法论，在艾新波老师的指引下对数据科学的整体有一个大致的了解，领悟核心的数据分析思想。</p>
+<h3 id="气象万千-数以等观"><a href="#气象万千-数以等观" class="headerlink" title="气象万千 数以等观"></a>气象万千 数以等观</h3><p>随着数字时代的来临，我们身边的设备和系统表现出越来越多的令人惊叹的智能。比如我们上传一张照片到某个网站，它会自动识别出来里面每个人的年龄；在某些诊疗系统里面，通过一些具体的医疗图像它可以识别出来玩吗身体的状况是否有疾病，它一些疾病（比如肺癌）的治疗水平已经超过了一些医生；再比如我们利用某个聊天软件聊天的时候，朋友发过来一段语音，它可以自动识别语音转文字；当我们用某个音乐播放器时间久了，它也会自动识别出来我们的喜好，推荐一些我们感兴趣的歌曲。毫无疑问，这些类似的设备和系统表现出来的行为，它都不是我们事先人为设定的一些规则，而是基于大量的数据发现一些规律、识别一些模式，然后才表现出这些让我们比较惊叹的一些人工智能的行为。总结一下：<strong>所有的智能行为时源于发现了数据背后的规律</strong>。</p>
+<h4 id="从人类历史上第一个被发现的定律说起"><a href="#从人类历史上第一个被发现的定律说起" class="headerlink" title="从人类历史上第一个被发现的定律说起"></a>从人类历史上第一个被发现的定律说起</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq1jgxgaj31hc0m80z8.jpg"></p>
+<p><strong>波义耳定律（1662年）</strong>：密闭容器中的定量气体在恒温下，其体积和压强成反比：$p=f(v)=\frac{k}{v}$</p>
+<h4 id="我们学过的第一个数学模型"><a href="#我们学过的第一个数学模型" class="headerlink" title="我们学过的第一个数学模型"></a>我们学过的第一个数学模型</h4><p>也许是世界上最简单的数学模型：$1+1=2$</p>
+<p>虽然说这个表达式非常简单，但 $1+1=2$ 里面已经包含了一个非常非常有意思的数学符号：<code>=</code> 。等号左右两边是同质的，它是相同的事物。</p>
+<h4 id="风马牛不相及"><a href="#风马牛不相及" class="headerlink" title="风马牛不相及"></a>风马牛不相及</h4><p>回到波义耳定律：$p=f(v)=\frac{k}{v}$ ，其中 $p$ 是压强，$v$ 是体积，$p = v?$</p>
+<p>为了深刻理解等号的含义我们再举个例子：比如说我们现在想对这个房间的温度进行控制的话，可以送新的风进来。具体来讲我们可以遵循某些控制规律，利用偏差消除偏差 $u=f(e)$ ，$送风量=温度（温差）$。毫无疑问，送风量和温度也是两个完全不同的物理量。</p>
+<p>我们再来一个例子：$PM2.5=0.29T+0.53U+0.2V$，$污染=温度+湿度+风速？$。这时候我们将污染的浓度、温度、湿度、风速画上等号。这个时候的等号，其实表明我们对一些规律已经识别了。当然我们客观世界的规律是千差万别的，但是在数学上要表达规律的时候很大一部分都是用等号来表达。</p>
+<h4 id="等号的含义"><a href="#等号的含义" class="headerlink" title="等号的含义"></a>等号的含义</h4><blockquote>
+<p>$1+1=2 \<br>x=5 \<br>p=f(v)=k v^{-1} \<br>y=0.29t+0.53u+0.2v \ y=f(x)$</p>
+</blockquote>
+<blockquote>
+<p><em>等于  决定  定义为  相当于  转化为  映射  联系  等价于  制约  作用  依存</em></p>
+<p><em>equal to    defined as    mapped to    Value as    Depend on</em></p>
+</blockquote>
+<p>万事万物的规律在语文上有丰富的表达规律，但在数学上我们一般通过等号来给它刻画。</p>
+<p>在做数据分析的时候，我们很大一部分时候就是在划等号。举个例子，之前我们说上传一张照片到某个网站，它会自动识别出来里面每个人的年龄。它的实现就是大量有标记的图片经过一个学习算法训练出一个网络出来，然后将照片的像素点映射成这个年龄。</p>
+<blockquote>
+<p>$y=f(x_1=1.00,…x_{3149999}=0.16,x_{3150000}=0.90)=29$</p>
+</blockquote>
+<p>划定等号之后也就实现了这个照片里人的年龄识别，也就表现出了这个相应的智能行为。</p>
+<h4 id="气象万千，数以-观"><a href="#气象万千，数以-观" class="headerlink" title="气象万千，数以=观"></a>气象万千，数以=观</h4><table>
+<thead>
+<tr>
+<th align="center">一侧=</th>
+<th align="center">=另一侧</th>
+<th align="center">对客观规律的认知</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">邮件文件</td>
+<td align="center">1.是 2.否</td>
+<td align="center">垃圾邮件过滤</td>
+</tr>
+<tr>
+<td align="center">道路图像</td>
+<td align="center">道路、天空、行人、…</td>
+<td align="center">语义分割</td>
+</tr>
+<tr>
+<td align="center">医疗图像</td>
+<td align="center">1.有病 2.正常</td>
+<td align="center">疾病诊疗</td>
+</tr>
+<tr>
+<td align="center">光纤信号</td>
+<td align="center">事件类别</td>
+<td align="center">声纹检测</td>
+</tr>
+<tr>
+<td align="center">交易记录</td>
+<td align="center">正常、异常</td>
+<td align="center">欺诈交易侦测</td>
+</tr>
+<tr>
+<td align="center">用户评论</td>
+<td align="center">情绪类别</td>
+<td align="center">情绪分析</td>
+</tr>
+<tr>
+<td align="center">温度、压力等</td>
+<td align="center">氯化石蜡粘度</td>
+<td align="center">生产质量控制</td>
+</tr>
+</tbody></table>
+<p><strong>数据科学最令人着迷的地方</strong>：一旦进行量化，看似风马牛不相及的事物/属性，经过数学运算，居然可以画上等号，刻画各种各样的规律</p>
+<blockquote>
+<p><em>I have no special talent,I am only passionately curious</em></p>
+</blockquote>
+<h3 id="所谓学习-归类而已"><a href="#所谓学习-归类而已" class="headerlink" title="所谓学习 归类而已"></a>所谓学习 归类而已</h3><blockquote>
+<p>以机器学习为内核</p>
+<p>数据分析 = <strong>机器学习 数据挖掘</strong></p>
+<p>​                = 认识数据 + 关联 + 分类 + 聚类</p>
+<p>​                = 寻找关系结构（核心是归归类）</p>
+</blockquote>
+<h4 id="机器学习vs数据挖掘"><a href="#机器学习vs数据挖掘" class="headerlink" title="机器学习vs数据挖掘"></a>机器学习vs数据挖掘</h4><p>这门课叫《R语言数据分析》，毫无疑问数据分析是主体，R语言是工具。数据分析是一个相对比较宽泛的概念，当然很多文献会说机器学习和数据挖掘的边界是什么、重叠部分是什么，我们当然可以找一些相关文献来研究它们的异同，但现在我们将《数据挖掘导论》与《机器学习》（西瓜书）放在一起比较两者的异同：</p>
+<blockquote>
+<p>相同：</p>
+<ul>
+<li>决策树</li>
+<li>贝叶斯分类器</li>
+<li>人工神经网络</li>
+<li>支持向量机</li>
+<li>组合方法（集成学习）</li>
+<li>关联规则（规则学习）</li>
+<li>层次聚类</li>
+<li>原型聚类</li>
+<li>密度聚类</li>
+<li>维归约（降维）</li>
+<li>线性代数（矩阵）</li>
+<li>概率统计</li>
+<li>优化</li>
+</ul>
+<p>不同：</p>
+<ul>
+<li>数据挖掘导论：最近邻 异常检测</li>
+<li>机器学习：计算学习理论 半监督学习 强化学习</li>
+</ul>
+</blockquote>
+<p>通过比较我们可以得出结论：<strong>就算法模型而言，机器学习和数据挖掘是不需要做区分的</strong>。具体来说，数据挖掘包含两部分知识，一个是数据分析的技术（机器学习），一个是数据管理的技术（数据库）。由于该课程对数据管理涉及较少，所以对机器学习基本就不做区分，在后续的学习中数据分析、数据挖掘、机器学习这三个概念基本上是会交替使用的。</p>
+<h4 id="机器学习只是归归类"><a href="#机器学习只是归归类" class="headerlink" title="机器学习只是归归类"></a>机器学习只是归归类</h4><p><code>分类--有监督学习</code>、<code>聚类--无监督学习</code>构成了机器学习的主体部分。所以，机器学习不过是归一归类。</p>
+<h3 id="格言联璧学习"><a href="#格言联璧学习" class="headerlink" title="格言联璧学习"></a>格言联璧学习</h3><h3 id="源于数学-归于工程"><a href="#源于数学-归于工程" class="headerlink" title="源于数学 归于工程"></a>源于数学 归于工程</h3>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yousazoe.top/archives/a03a749.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -234,7 +418,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a target="_blank" rel="noopener" href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
+          <p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g1ptxtcj30u00w9q8n.jpg"></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/a03a749.html#more" rel="contents">
@@ -326,7 +510,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>本文作为即忘即看的备忘文档，适用于各种编写博客需要专业数学公式但不熟悉的Latex的读者，所有内容摘自 <a target="_blank" rel="noopener" href="http://mohu.org/info/symbols/symbols.htm">常用数学符号的 LaTeX 表示方法</a>。</p>
+          <p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g0l638dj314g0mg76q.jpg"></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/a5f7b62.html#more" rel="contents">
@@ -418,7 +602,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>由<a target="_blank" rel="noopener" href="https://pico-8.fandom.com/zh/wiki/LexaloffleGames">Lexaloffle Games</a>制作的<a target="_blank" rel="noopener" href="https://pico-8.fandom.com/zh/wiki/Pico8">PICO-8</a>是一台梦幻可编程游戏主机，用来制作，分享和玩小游戏和其他计算机程序（卡带，或“卡”）。这个主机提供了简单的内置工具来创造你自己的卡带。</p>
+          <p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gcgkgr7j30sg0hsgqx.jpg"></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/4adc5517.html#more" rel="contents">
@@ -506,7 +690,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>本文基于马尔萨斯的人口论，探讨人类社会人口的增长趋势并列举多种变体人口增长模型，同时领悟数学建模的主要思想和具体步骤，加深学习和理解。</p>
+          <p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g1fhhi3j30xc0m8gm5.jpg"></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/930af6f3.html#more" rel="contents">
@@ -582,7 +766,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>Madeline 攀登塞莱斯特山 （Celeste Mountain）的旅程中，帮助她克服内心深处的恐惧。勇敢面对数百个手工打造的挑战场景，揭开诡异的秘密，解开神秘山峰的谜团吧。</p>
+          <p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3fzmf2b3j31400p077y.jpg"></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/75f72eb2.html#more" rel="contents">
@@ -674,7 +858,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a target="_blank" rel="noopener" href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a target="_blank" rel="noopener" href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解明暗基础。</p>
+          <p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g4faxn0j30u00gw75o.jpg"></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/ec50fbbd.html#more" rel="contents">
@@ -766,86 +950,10 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a target="_blank" rel="noopener" href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a target="_blank" rel="noopener" href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解简单的 Aseprite 动画。</p>
+          <p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g3xgu89j31hc0u0780.jpg"></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/90b77012.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yousazoe.top/archives/e3ea8760.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn2f3efk0dj30lc0lcq31.jpg">
-      <meta itemprop="name" content="Yousazoe">
-      <meta itemprop="description" content="藏剑若锋，养心若鱼">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Fl0w3r">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/archives/e3ea8760.html" class="post-title-link" itemprop="url">俄罗斯方块的故事</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-09-28 19:57:46" itemprop="dateCreated datePublished" datetime="2020-09-28T19:57:46+08:00">2020-09-28</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%B8%B8%E6%88%8F%E5%8F%B2%E5%AD%A6%E5%AE%B6-Gaming-Historian/" itemprop="url" rel="index"><span itemprop="name">游戏史学家(Gaming Historian)</span></a>
-                </span>
-            </span>
-
-          
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gj6mnu4wbnj30xc0lvdm6.jpg"></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/archives/e3ea8760.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -934,7 +1042,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a target="_blank" rel="noopener" href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a target="_blank" rel="noopener" href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解像素绘画的流程，逐渐完善直到达到满意的效果。</p>
+          <p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g37nubbj31hc0u0n1z.jpg"></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/90b77012.html#more" rel="contents">
@@ -1026,7 +1134,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a target="_blank" rel="noopener" href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a target="_blank" rel="noopener" href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
+          <p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g2x73ngj31hc0u0n18.jpg"></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/archives/655d7201.html#more" rel="contents">
@@ -1169,7 +1277,7 @@
       <div class="widget-wrap">
           <div id="myCanvasContainer" class="widget tagcloud">
               <canvas width="250" height="250" id="resCanvas" style="width:100%">
-                  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2D-Game/" rel="tag">2D Game</a><span class="tag-list-count">7</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/AOJ/" rel="tag">AOJ</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Algorithm/" rel="tag">Algorithm</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Art/" rel="tag">Art</a><span class="tag-list-count">20</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Aseprite/" rel="tag">Aseprite</a><span class="tag-list-count">13</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Blog/" rel="tag">Blog</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/" rel="tag">C#</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/" rel="tag">C++</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CMake/" rel="tag">CMake</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Celeste/" rel="tag">Celeste</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Computer-Graphics/" rel="tag">Computer Graphics</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Data-Mining/" rel="tag">Data Mining</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Fluid/" rel="tag">Fluid</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GPS/" rel="tag">GPS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Game/" rel="tag">Game</a><span class="tag-list-count">18</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Game-Develop/" rel="tag">Game Develop</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Game-Engine/" rel="tag">Game Engine</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Github/" rel="tag">Github</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/INDIE/" rel="tag">INDIE</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Latex/" rel="tag">Latex</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Lua/" rel="tag">Lua</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Ludum-Dare/" rel="tag">Ludum Dare</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/MMORPG/" rel="tag">MMORPG</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown/" rel="tag">Markdown</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Math/" rel="tag">Math</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mathematical-Modeling/" rel="tag">Mathematical Modeling</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mooc/" rel="tag">Mooc</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NexT/" rel="tag">NexT</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OS/" rel="tag">OS</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Online-Judge/" rel="tag">Online Judge</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PAT/" rel="tag">PAT</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Pico-8/" rel="tag">Pico-8</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Pixel/" rel="tag">Pixel</a><span class="tag-list-count">19</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Population/" rel="tag">Population</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/R/" rel="tag">R</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RPG/" rel="tag">RPG</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RTS/" rel="tag">RTS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Random/" rel="tag">Random</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Reprint/" rel="tag">Reprint</a><span class="tag-list-count">35</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Rocket/" rel="tag">Rocket</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SEGA/" rel="tag">SEGA</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Story/" rel="tag">Story</a><span class="tag-list-count">11</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Unity/" rel="tag">Unity</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Write/" rel="tag">Write</a><span class="tag-list-count">3</span></li></ul>
+                  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2D-Game/" rel="tag">2D Game</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/AOJ/" rel="tag">AOJ</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Algorithm/" rel="tag">Algorithm</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Art/" rel="tag">Art</a><span class="tag-list-count">20</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Aseprite/" rel="tag">Aseprite</a><span class="tag-list-count">13</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Blog/" rel="tag">Blog</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/" rel="tag">C#</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/" rel="tag">C++</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CMake/" rel="tag">CMake</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Celeste/" rel="tag">Celeste</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Computer-Graphics/" rel="tag">Computer Graphics</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Data-Mining/" rel="tag">Data Mining</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Fluid/" rel="tag">Fluid</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GPS/" rel="tag">GPS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Game/" rel="tag">Game</a><span class="tag-list-count">17</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Game-Develop/" rel="tag">Game Develop</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Game-Engine/" rel="tag">Game Engine</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Github/" rel="tag">Github</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/INDIE/" rel="tag">INDIE</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Latex/" rel="tag">Latex</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Lua/" rel="tag">Lua</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Ludum-Dare/" rel="tag">Ludum Dare</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/MMORPG/" rel="tag">MMORPG</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown/" rel="tag">Markdown</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Math/" rel="tag">Math</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mathematical-Modeling/" rel="tag">Mathematical Modeling</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mooc/" rel="tag">Mooc</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NexT/" rel="tag">NexT</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OS/" rel="tag">OS</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Online-Judge/" rel="tag">Online Judge</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PAT/" rel="tag">PAT</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Pico-8/" rel="tag">Pico-8</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Pixel/" rel="tag">Pixel</a><span class="tag-list-count">19</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Population/" rel="tag">Population</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/R/" rel="tag">R</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RPG/" rel="tag">RPG</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RTS/" rel="tag">RTS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Random/" rel="tag">Random</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Reprint/" rel="tag">Reprint</a><span class="tag-list-count">34</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Rocket/" rel="tag">Rocket</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SEGA/" rel="tag">SEGA</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Story/" rel="tag">Story</a><span class="tag-list-count">11</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Unity/" rel="tag">Unity</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Write/" rel="tag">Write</a><span class="tag-list-count">3</span></li></ul>
               </canvas>
           </div>
       </div>

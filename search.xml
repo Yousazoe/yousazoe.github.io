@@ -4,13 +4,9 @@
     <title>《蔚蓝》的开发故事 The Story of Celeste&#39;s Development</title>
     <url>/archives/a20064d.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn16vc1aegj30zk0k0tbx.jpg"></p>
-<br/>
-
-<p>本文采访了《蔚蓝》联合开发者诺尔·贝瑞（Noel Berry）谈谈游戏背后的开发历程。</p>
 <a id="more"></a>
 
-
-
+<p>本文采访了《蔚蓝》联合开发者诺尔·贝瑞（Noel Berry）谈谈游戏背后的开发历程。</p>
 <p>本文是观看完 <a href="https://www.youtube.com/channel/UC0fDG3byEcMtbOqPMymDNbw">Noclip</a> 的 <a href="https://www.youtube.com/watch?v=c3mbELVqAmo&feature=youtu.be">The Story of Celeste’s Development</a> 后深受触动，决定整理一份文字版以供大家参考，中文制译可以移步 <a href="https://space.bilibili.com/180052141">卡姐Cara</a> 的 <a href="https://www.bilibili.com/video/BV1fJ41137HE">【游戏幕后】《蔚蓝》的开发故事 The Story of Celeste’s Development | Noclip</a>，欢迎赞助作者：<a href="https://patreon.com/noclip">https://patreon.com/noclip</a> 和译者。</p>
 <h3 id="立项"><a href="#立项" class="headerlink" title="立项"></a>立项</h3><p>完整版《蔚蓝》有丰富的剧情和氛围，PICO-8版却没有。最初的构想很简单，某人要爬一座山，过程会很难。我们想做款硬核平台游戏，但是PICO-8有很多限制：我们只能做30屏、用16种颜色……于是我们想做点好玩的。</p>
 <p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gmm6b40229j311y0lcwlm.jpg"></p>
@@ -53,10 +49,6 @@
     <title>Hero-NexT主题配置</title>
     <url>/archives/3bcb4b40.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn18azz7w8j30ma09u40a.jpg"></p>
-<br/>
-
-
-
 <a id="more"></a>
 
 
@@ -78,9 +70,110 @@
 <ol start="3">
 <li>解压所下载的压缩包至站点的 themes 目录下， 并将 解压后的文件夹名称（<code>hexo-theme-next-0.4.0</code>）更改为 <code>next</code>。</li>
 </ol>
-<h3 id="站点配置"><a href="#站点配置" class="headerlink" title="站点配置"></a>站点配置</h3><h3 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h3><h4 id="选择主题"><a href="#选择主题" class="headerlink" title="选择主题"></a>选择主题</h4><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Schemes</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">scheme:</span> <span class="string">Muse</span></span><br><span class="line"><span class="string">+</span> <span class="comment">#scheme: Muse</span></span><br><span class="line"><span class="comment">#scheme: Mist</span></span><br><span class="line"><span class="comment">#scheme: Pisces</span></span><br><span class="line"><span class="bullet">-</span> <span class="comment">#scheme: Gemini</span></span><br><span class="line"><span class="string">+</span> <span class="attr">scheme:</span> <span class="string">Gemini</span></span><br></pre></td></tr></table></figure>
+<h3 id="站点配置"><a href="#站点配置" class="headerlink" title="站点配置"></a>站点配置</h3><p>与所有 Hexo 主题启用的模式一样。 当 克隆/下载 完成后，打开 <strong>站点配置文件</strong>， 找到 <code>theme</code> 字段，并将其值更改为 <code>next</code>。</p>
+<p>启用 NexT 主题</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
+<p>到此，NexT 主题安装完成。下一步我们将验证主题是否正确启用。在切换主题之后、验证之前， 我们最好使用 <code>hexo clean</code> 来清除 Hexo 的缓存。</p>
+<h4 id="验证主题"><a href="#验证主题" class="headerlink" title="验证主题"></a>验证主题</h4><p>首先启动 Hexo 本地站点，并开启调试模式（即加上 <code>--debug</code>），整个命令是 <code>hexo s --debug</code>。 在服务启动的过程，注意观察命令行输出是否有任何异常信息，如果你碰到问题，这些信息将帮助他人更好的定位错误。 当命令行输出中提示出：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
+<p>此时即可使用浏览器访问 <code>http://localhost:4000</code>，检查站点是否正确运行。</p>
+<h4 id="设置语言"><a href="#设置语言" class="headerlink" title="设置语言"></a>设置语言</h4><p>编辑 <strong>站点配置文件</strong>， 将 <code>language</code> 设置成你所需要的语言。建议明确设置你所需要的语言，例如选用简体中文，配置如下：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">language:</span> <span class="string">zh-Hans</span></span><br></pre></td></tr></table></figure>
+<p>目前 NexT 支持的语言如以下表格所示：</p>
+<table>
+<thead>
+<tr>
+<th align="left">语言</th>
+<th align="left">代码</th>
+<th align="left">设定示例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">English</td>
+<td align="left"><code>en</code></td>
+<td align="left"><code>language: en</code></td>
+</tr>
+<tr>
+<td align="left">简体中文</td>
+<td align="left"><code>zh-Hans</code></td>
+<td align="left"><code>language: zh-Hans</code></td>
+</tr>
+<tr>
+<td align="left">Français</td>
+<td align="left"><code>fr-FR</code></td>
+<td align="left"><code>language: fr-FR</code></td>
+</tr>
+<tr>
+<td align="left">Português</td>
+<td align="left"><code>pt</code></td>
+<td align="left"><code>language: pt</code> or <code>language: pt-BR</code></td>
+</tr>
+<tr>
+<td align="left">繁體中文</td>
+<td align="left"><code>zh-hk</code> 或者 <code>zh-tw</code></td>
+<td align="left"><code>language: zh-hk</code></td>
+</tr>
+<tr>
+<td align="left">Русский язык</td>
+<td align="left"><code>ru</code></td>
+<td align="left"><code>language: ru</code></td>
+</tr>
+<tr>
+<td align="left">Deutsch</td>
+<td align="left"><code>de</code></td>
+<td align="left"><code>language: de</code></td>
+</tr>
+<tr>
+<td align="left">日本語</td>
+<td align="left"><code>ja</code></td>
+<td align="left"><code>language: ja</code></td>
+</tr>
+<tr>
+<td align="left">Indonesian</td>
+<td align="left"><code>id</code></td>
+<td align="left"><code>language: id</code></td>
+</tr>
+<tr>
+<td align="left">Korean</td>
+<td align="left"><code>ko</code></td>
+<td align="left"><code>language: ko</code></td>
+</tr>
+</tbody></table>
+<h3 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h3><h4 id="选择主题"><a href="#选择主题" class="headerlink" title="选择主题"></a>选择主题</h4><p>Scheme 是 NexT 提供的一种特性，借助于 Scheme，NexT 为你提供多种不同的外观。同时，几乎所有的配置都可以 在 Scheme 之间共用。目前 NexT 支持三种 Scheme，他们是：</p>
+<ul>
+<li>Muse - 默认 Scheme，这是 NexT 最初的版本，黑白主调，大量留白</li>
+<li>Mist - Muse 的紧凑版本，整洁有序的单栏外观</li>
+<li>Pisces - 双栏 Scheme，小家碧玉似的清新</li>
+</ul>
+<p>Scheme 的切换通过更改 <strong>主题配置文件</strong>，搜索 scheme 关键字。 你会看到有三行 scheme 的配置，将你需用启用的 scheme 前面注释 <code>#</code> 去除即可。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Schemes</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">scheme:</span> <span class="string">Muse</span></span><br><span class="line"><span class="string">+</span> <span class="comment">#scheme: Muse</span></span><br><span class="line"><span class="comment">#scheme: Mist</span></span><br><span class="line"><span class="comment">#scheme: Pisces</span></span><br><span class="line"><span class="bullet">-</span> <span class="comment">#scheme: Gemini</span></span><br><span class="line"><span class="string">+</span> <span class="attr">scheme:</span> <span class="string">Gemini</span></span><br></pre></td></tr></table></figure>
 
 
+
+
+<h4 id="设置侧栏"><a href="#设置侧栏" class="headerlink" title="设置侧栏"></a>设置侧栏</h4><p>默认情况下，侧栏仅在文章页面（拥有目录列表）时才显示，并放置于右侧位置。 可以通过修改 <strong>主题配置文件</strong> 中的 <code>sidebar</code> 字段来控制侧栏的行为。侧栏的设置包括两个部分，其一是侧栏的位置， 其二是侧栏显示的时机。</p>
+<ol>
+<li><p>设置侧栏的位置，修改 <code>sidebar.position</code> 的值，支持的选项有：</p>
+<ul>
+<li>left - 靠左放置</li>
+<li>right - 靠右放置</li>
+</ul>
+<p>目前仅 Pisces Scheme 支持 <code>position</code> 配置。影响版本<strong>5.0.0</strong>及更低版本。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sidebar:</span></span><br><span class="line">  <span class="attr">position:</span> <span class="string">left</span></span><br></pre></td></tr></table></figure></li>
+<li><p>设置侧栏显示的时机，修改 <code>sidebar.display</code> 的值，支持的选项有：</p>
+<ul>
+<li><code>post</code> - 默认行为，在文章页面（拥有目录列表）时显示</li>
+<li><code>always</code> - 在所有页面中都显示</li>
+<li><code>hide</code> - 在所有页面中都隐藏（可以手动展开）</li>
+<li><code>remove</code> - 完全移除</li>
+</ul>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sidebar:</span></span><br><span class="line">  <span class="attr">display:</span> <span class="string">post</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+</li>
+</ol>
 <h4 id="添加「标签」页面"><a href="#添加「标签」页面" class="headerlink" title="添加「标签」页面"></a>添加「标签」页面</h4><p>新建「标签」页面，并在菜单中显示「标签」链接。「标签」页面将展示站点的所有标签，若你的所有文章都未包含标签，此页面将是空的。 </p>
 <h5 id="新建页面"><a href="#新建页面" class="headerlink" title="新建页面"></a>新建页面</h5><p>在终端窗口下，定位到 Hexo 站点目录下。使用 <code>hexo new page</code> 新建一个页面，命名为 <code>tags</code> ：</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> your-hexo-site</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo new page tags</span></span><br></pre></td></tr></table></figure>
@@ -104,7 +197,8 @@
 
 
 
-<h4 id="更改网站图标"><a href="#更改网站图标" class="headerlink" title="更改网站图标"></a>更改网站图标</h4><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">favicon:</span></span><br><span class="line"><span class="bullet">-</span>  <span class="attr">small:</span> <span class="string">/images/favicon-16x16-next.png</span></span><br><span class="line"><span class="bullet">-</span>  <span class="attr">medium:</span> <span class="string">/images/favicon-32x32-next.png</span></span><br><span class="line"><span class="bullet">-</span>  <span class="attr">apple_touch_icon:</span> <span class="string">/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="bullet">-</span>  <span class="attr">safari_pinned_tab:</span> <span class="string">/images/logo.svg</span></span><br><span class="line"><span class="string">+</span>  <span class="attr">small:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line"><span class="string">+</span>  <span class="attr">medium:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line"><span class="string">+</span>  <span class="attr">apple_touch_icon:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line"><span class="string">+</span>  <span class="attr">safari_pinned_tab:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line">	<span class="comment">#android_manifest: /images/manifest.json</span></span><br><span class="line">  <span class="comment">#ms_browserconfig: /images/browserconfig.xml</span></span><br></pre></td></tr></table></figure>
+<h4 id="更改网站图标"><a href="#更改网站图标" class="headerlink" title="更改网站图标"></a>更改网站图标</h4><p>将默认的图片路径换为自己的路径或者链接：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">favicon:</span></span><br><span class="line"><span class="bullet">-</span>  <span class="attr">small:</span> <span class="string">/images/favicon-16x16-next.png</span></span><br><span class="line"><span class="bullet">-</span>  <span class="attr">medium:</span> <span class="string">/images/favicon-32x32-next.png</span></span><br><span class="line"><span class="bullet">-</span>  <span class="attr">apple_touch_icon:</span> <span class="string">/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="bullet">-</span>  <span class="attr">safari_pinned_tab:</span> <span class="string">/images/logo.svg</span></span><br><span class="line"><span class="string">+</span>  <span class="attr">small:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line"><span class="string">+</span>  <span class="attr">medium:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line"><span class="string">+</span>  <span class="attr">apple_touch_icon:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line"><span class="string">+</span>  <span class="attr">safari_pinned_tab:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line">	<span class="comment">#android_manifest: /images/manifest.json</span></span><br><span class="line">  <span class="comment">#ms_browserconfig: /images/browserconfig.xml</span></span><br></pre></td></tr></table></figure>
 
 
 
@@ -113,6 +207,35 @@
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Social Links</span></span><br><span class="line"><span class="comment"># Usage: `Key: permalink || icon`</span></span><br><span class="line"><span class="comment"># Key is the link label showing to end users.</span></span><br><span class="line"><span class="comment"># Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.</span></span><br><span class="line"><span class="attr">social:</span></span><br><span class="line">  <span class="attr">GitHub:</span> <span class="string">https://github.com/Yousazoe</span> <span class="string">||</span> <span class="string">fab</span> <span class="string">fa-github</span></span><br><span class="line">  <span class="comment">#E-Mail: mailto:yourname@gmail.com || fa fa-envelope</span></span><br><span class="line">  <span class="comment">#Weibo: https://weibo.com/yourname || fab fa-weibo</span></span><br><span class="line">  <span class="comment">#Google: https://plus.google.com/yourname || fab fa-google</span></span><br><span class="line">  <span class="comment">#Twitter: https://twitter.com/yourname || fab fa-twitter</span></span><br><span class="line">  <span class="comment">#FB Page: https://www.facebook.com/yourname || fab fa-facebook</span></span><br><span class="line">  <span class="comment">#StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow</span></span><br><span class="line">  <span class="comment">#YouTube: https://youtube.com/yourname || fab fa-youtube</span></span><br><span class="line">  <span class="comment">#Instagram: https://instagram.com/yourname || fab fa-instagram</span></span><br><span class="line">  <span class="comment">#Skype: skype:yourname?call|chat || fab fa-skype</span></span><br><span class="line"></span><br><span class="line"><span class="attr">social_icons:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">icons_only:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">transition:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
 
 
+
+
+<h4 id="代码高亮主题"><a href="#代码高亮主题" class="headerlink" title="代码高亮主题"></a>代码高亮主题</h4><p>NexT 使用 <a href="https://github.com/chriskempson/tomorrow-theme">Tomorrow Theme</a> 作为代码高亮，共有5款主题供你选择。 NexT 默认使用的是 白色的 <code>normal</code> 主题，可选的值有 <code>normal</code>，<code>night</code>， <code>night blue</code>， <code>night bright</code>， <code>night eighties</code>：</p>
+<table>
+<thead>
+<tr>
+<th><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3h06njcoj309d0ck74q.jpg"></th>
+<th><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3h07gs37j309d0ckmxm.jpg"></th>
+<th><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3h08bjtbj309d0ckaaj.jpg"></th>
+<th><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3h098mnij309d0ckaai.jpg"></th>
+<th><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3h0ac07kj309d0ckgm2.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>更改 <code>highlight_theme</code> 字段，将其值设定成你所喜爱的高亮主题，例如：</p>
+<p>高亮主题设置示例</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Code Highlight theme</span></span><br><span class="line"><span class="comment"># Available value: normal | night | night eighties | night blue | night bright</span></span><br><span class="line"><span class="comment"># https://github.com/chriskempson/tomorrow-theme</span></span><br><span class="line"><span class="attr">highlight_theme:</span> <span class="string">normal</span></span><br></pre></td></tr></table></figure>
+
+
+<h4 id="公益404页面"><a href="#公益404页面" class="headerlink" title="公益404页面"></a>公益404页面</h4><p>腾讯公益404页面，寻找丢失儿童，让大家一起关注此项公益事业！效果如下 <a href="http://www.ixirong.com/404.html">http://www.ixirong.com/404.html</a></p>
+<p>使用方法，新建 404.html 页面，放到主题的 <code>source</code> 目录下，内容如下：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">HTML</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;content-type&quot;</span> <span class="attr">content</span>=<span class="string">&quot;text/html;charset=utf-8;&quot;</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge,chrome=1&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;robots&quot;</span> <span class="attr">content</span>=<span class="string">&quot;all&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;robots&quot;</span> <span class="attr">content</span>=<span class="string">&quot;index,follow&quot;</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/css&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/style/404style.css&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/plain&quot;</span> <span class="attr">src</span>=<span class="string">&quot;http://www.qq.com/404/search_children.js&quot;</span></span></span><br><span class="line"><span class="tag">          <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">homePageUrl</span>=<span class="string">&quot;/&quot;</span></span></span><br><span class="line"><span class="tag">          <span class="attr">homePageName</span>=<span class="string">&quot;回到我的主页&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/data.js&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/page.js&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>博客搭建(Blog Building)</category>
@@ -127,17 +250,9 @@
     <title>博客使用插件总结</title>
     <url>/archives/c12c9c40.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn1a1doklvj31hc0u0wg1.jpg"></p>
-<p>这几天将博客主题从 Fluid 换回了 NexT，在重新安装插件的时候顺便记录了本博客当前使用的插件，便于后续修改。</p>
 <a id="more"></a>
 
-
-
-
-
-
-
-
-
+<p>这几天将博客主题从 Fluid 换回了 NexT，在重新安装插件的时候顺便记录了本博客当前使用的插件，便于后续修改。</p>
 <h3 id="一键部署"><a href="#一键部署" class="headerlink" title="一键部署"></a>一键部署</h3><h4 id="地址"><a href="#地址" class="headerlink" title="地址"></a>地址</h4><ul>
 <li><a href="https://github.com/hexojs/hexo-deployer-git">hexo-deployer-git</a></li>
 </ul>
@@ -598,7 +713,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#x65;&#110;&#x78;&#x75;&#64;&#x74;&#x65;&#x6e;&#99;&#x65;&#110;&#116;&#x2e;&#99;&#111;&#x6d;">&#108;&#x65;&#x65;&#110;&#x78;&#x75;&#64;&#x74;&#x65;&#x6e;&#99;&#x65;&#110;&#116;&#x2e;&#99;&#111;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#x65;&#110;&#120;&#117;&#x40;&#x74;&#101;&#x6e;&#99;&#101;&#110;&#116;&#46;&#x63;&#x6f;&#x6d;">&#x6c;&#x65;&#x65;&#110;&#120;&#117;&#x40;&#x74;&#101;&#x6e;&#99;&#101;&#110;&#116;&#46;&#x63;&#x6f;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -2402,6 +2517,93 @@
       </tags>
   </entry>
   <entry>
+    <title>2D游戏开发</title>
+    <url>/archives/6487e0f7.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkrfcylq45j312w0gak12.jpg"></p>
+<a id="more"></a>
+
+<p>使用C++开发一个通过命令行运行的简单游戏。</p>
+<h3 id="开发一个益智游戏"><a href="#开发一个益智游戏" class="headerlink" title="开发一个益智游戏"></a>开发一个益智游戏</h3><p>作为第一个游戏，我们决定去开发那个非常有名的“推箱子”的游戏。准备好场景数据后就可以进行单人游戏，游戏中也没有什么复杂的动作，因此无须设计太多东西能够完成。从结果来看，只需200行的代码就可以实现。</p>
+<h4 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h4><p>玩家用键盘操作，这里只支持移动操作。<code>p</code>代表玩家角色。上下左右移动分别通过<code>w</code>、<code>a</code>、<code>s</code>、<code>d</code>控制，并且需要按下回车键<code>Enter</code>。例如，依次按下<code>a</code>和<code>Enter</code>后，玩家将向左移动。</p>
+<p>除了<code>p</code>外，<code>#</code>代表墙壁，<code>o</code>代表尚未到达目的地的箱子，<code>.</code>代表目的地。为了便于识别，玩家到达<code>.</code>处时将变成<code>P</code>，箱子将变成<code>O</code>。等所有箱子都被推到<code>.</code>并变成<code>O</code>时，就表示游戏成功了。游戏中的箱子只能一个一个地推，不能拉。以上就是游戏的大概玩法。</p>
+<h4 id="键盘和画面输出"><a href="#键盘和画面输出" class="headerlink" title="键盘和画面输出"></a>键盘和画面输出</h4><p>画面的输入输出都是通过C++标准库<code>iostram</code>实现的。输入处理主要使用<code>istream</code>（<em>input stream</em>），输出处理则依赖<code>ostream</code>（<em>output stream</em>）</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="keyword">char</span> c;</span><br><span class="line">  <span class="built_in">cin</span> &gt;&gt; c;</span><br><span class="line">  <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;Input Character is &quot;</span> &lt;&lt; c &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><code>cin</code>和<code>cout</code>分别是<code>istream</code>类型和<code>ostream</code>类型的全局变量 <code>A</code>（全局变量指的是不属于任何类的变量。在C#和 Java 中没有这个概念，它们使用类中的<code>static</code>且<code>public</code>的变量来替代。），包含<code>iostream</code>头文件并声明<code>using namespace std</code>后，就可以在任意位置使用。<br><code>cin</code>通过<code>&gt;&gt;</code>将输入值写入变量，<code>cout</code>通过<code>&lt;&lt;</code>将变量值输出。<code>endl</code>是“end line”的缩写，也就是换行，程序执行到该处将会输出一行字符到画面上。上面虽然只是一个在键盘上输入字符并通过回车键显示字符的简单程序，但这就是该游戏输入输出处理的全部内容。</p>
+<h4 id="主循环"><a href="#主循环" class="headerlink" title="主循环"></a>主循环</h4><p>所谓游戏程序，无非就是获取输入、将输入反映到游戏世界中、显示结果这三项处理的无限循环，这个过程称为游戏循环或者主循环，代码如下所示：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span> (<span class="literal">true</span>)&#123;</span><br><span class="line">  getInput();</span><br><span class="line">  updateGame();</span><br><span class="line">  draw();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>代码十分简单，但据笔者所知，所有的游戏程序无一例外地都采用了这种结构。可能根据游戏的不同，在<code>getInput()</code>中会有<code>cin</code>或手柄输入的不同，或者在<code>draw()</code>中会有<code>cout</code>或 3D 图形输出的不同，但是最基本的结构都是一致的。前面的例子中只执行了一次主循环，这是因为该游戏采用了命令行执行的方式。至于如何去掉这种限制，我们将在后续章节中讨论。</p>
+<h4 id="编写逻辑处理"><a href="#编写逻辑处理" class="headerlink" title="编写逻辑处理"></a>编写逻辑处理</h4><p>接下来开始各个模块的开发。建议读者动起手来，首先试着创建出前面截图中出现的游戏场景。<br>为方便描述，我们将像下面这样使用文本来表示游戏场景：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">########</span><br><span class="line"># .. p #</span><br><span class="line"># oo # #</span><br><span class="line">#      #</span><br><span class="line">#      #</span><br><span class="line">########</span><br></pre></td></tr></table></figure>
+<h4 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h4><p>代码编写完后必须进行测试，这里我们按照下列四个要点进行：</p>
+<ul>
+<li><p>移动墙壁所在的格子会如何</p>
+</li>
+<li><p>移动已经到达目的地的箱子会如何</p>
+</li>
+<li><p>推动两个以上的箱子会如何</p>
+</li>
+<li><p>朝着墙壁推动箱子会如何</p>
+</li>
+</ul>
+<p>测试中是不是发现了很多问题？可能要么墙壁排乱了，要么推动位于目的地的箱子时目标地点不见了，要么箱子被挤到墙壁中了……如果一开始就能正确运行，那固然值得高兴，但从长远来看，现在经历一些挫折或许会更有利。</p>
+<h3 id="示例代码讲解"><a href="#示例代码讲解" class="headerlink" title="示例代码讲解"></a>示例代码讲解</h3><h4 id="场景数据常量"><a href="#场景数据常量" class="headerlink" title="场景数据常量"></a>场景数据常量</h4><p>刚开始我们使用全局变量来存储场景数据：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//“#”代表墙壁、“_”代表空间、“.”代表目的地、“o”代表箱子、“p”代表玩家</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">char</span> gStageData[] = <span class="string">&quot;\</span></span><br><span class="line"><span class="string">########\n\</span></span><br><span class="line"><span class="string"># .. p #\n\</span></span><br><span class="line"><span class="string"># oo   #\n\</span></span><br><span class="line"><span class="string">#      #\n\</span></span><br><span class="line"><span class="string">#\n\   #\n\</span></span><br><span class="line"><span class="string">########&quot;</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> gStageWidth = <span class="number">8</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> gStageHeight = <span class="number">5</span>;</span><br></pre></td></tr></table></figure>
+<p>首先用一个容易理解的字符串对该变量赋值，游戏开始后再将其转化为其他形式。相比一开始就使用 <code>0</code> 代表空间、<code>1</code> 代表玩家进行赋值，这样做更加简单。但需要注意的是，在C++ 中，如果字符串常量要中途换行显示，就必须在行末加上符号<code> \</code>。<br>这里定义的常量都是全局变量，笔者习惯以<code>g</code>开头命名。因为全局变量可以在程序中的任何地方被访问，所以加上这样一个标志以示区别会很方便。此外，按笔者的命名习惯，变量名都以小写字母开头，其后的每个单词则首字母大写，比如 <code>gStageWidth</code>。另外，因为后续没有修改该值的打算，所以使用了<code>const</code>关键字，这个习惯可以避免很多bug。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> gStageWidth = <span class="number">8</span>; <span class="comment">//第一次赋值 OK</span></span><br><span class="line">gStageWidth = <span class="number">4</span>; <span class="comment">//编译错误！</span></span><br></pre></td></tr></table></figure>
+<p>因为添加了<code>const</code>，所以如果代码试图在变量定义之外的地方对其赋值，则将导致编译错误，这可以防止某些错误操作。建议读者养成这个习惯，对第一次赋值后就不会再修改的变量添加<code>const</code>关键字。</p>
+<h4 id="枚举类型"><a href="#枚举类型" class="headerlink" title="枚举类型"></a>枚举类型</h4><p>接下来是枚举类型：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">enum</span> <span class="title">Object</span>&#123;</span></span><br><span class="line">  OBJ_SPACE,</span><br><span class="line">  OBJ_WALL,</span><br><span class="line">  OBJ_GOAL,</span><br><span class="line">  OBJ_BLOCK,</span><br><span class="line">  OBJ_BLOCK_ON_GOAL,</span><br><span class="line">  OBJ_MAN,</span><br><span class="line">  OBJ_MAN_ON_GOAL,</span><br><span class="line">  OBJ_UNKNOWN,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>场景中的所有状态都被保存在容量等于“宽 × 高”的枚举类型数组中。数组元素的类型可以是<code>int</code>或者<code>char</code>，只要保证元素值不会超出该类型所能表示的范围即可。不过，这样有可能会因为疏忽而代入无意义的值。使用枚举类型则不会有这个问题，并且调试时可以看见枚举类型的名字，很方便，所以应该尽量使用枚举类型。<br>注意“位于目的地的箱子”和“不在目的地的箱子”的枚举值是不同的。其实也可以采用另一种做法，将是否是目的地的信息单独存储在另外一个数组中，或者通过位运算将两种信息保存在同一个数组里。不过为了便于理解，这里我们采用了最直接的做法。</p>
+<h4 id="函数原型"><a href="#函数原型" class="headerlink" title="函数原型"></a>函数原型</h4><p>下面我们来看函数原型：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 函数原型</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">initialize</span><span class="params">( Object* state, <span class="keyword">int</span> w, <span class="keyword">int</span> h, <span class="keyword">const</span> <span class="keyword">char</span>* stageData )</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">draw</span><span class="params">( <span class="keyword">const</span> Object* state, <span class="keyword">int</span> w, <span class="keyword">int</span> h )</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">update</span><span class="params">( Object* state, <span class="keyword">char</span> input, <span class="keyword">int</span> w, <span class="keyword">int</span> h )</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">checkClear</span><span class="params">( <span class="keyword">const</span> Object* state, <span class="keyword">int</span> w, <span class="keyword">int</span> h )</span></span>;</span><br></pre></td></tr></table></figure>
+<p>上述代码声明了几个函数：读取场景数据字符串并将其转换Object数组的 <code>initialize()</code>、画面绘制函数 <code>draw()</code>、更新函数 <code>update()</code>、检测游戏是否通关的 <code>checkClear()</code>。至于前面讨论主循环时出现的 <code>getInput()</code>函数，因为此处我们直接在 <code>main()</code> 函数中添加了输入处理的代码，所以用不上。注意开发时应当尽可能地将各个功能封装成函数。</p>
+<h4 id="main函数"><a href="#main函数" class="headerlink" title="main函数"></a>main函数</h4><p>现在来看程序的入口<code>main</code>函数。首先创建一个大小等于“宽 × 高”的Object数组，并调用初始化函数 <code>initialize()</code>，使游戏处于就绪状态。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="comment">// 创建状态数组</span></span><br><span class="line">  Object* state = <span class="keyword">new</span> Object[ gStageWidth * gStageHeight ];</span><br><span class="line">  <span class="comment">// 初始化场景</span></span><br><span class="line">  initialize( state, gStageWidth, gStageHeight, gStageData );</span><br><span class="line">  <span class="comment">// 主循环</span></span><br><span class="line">  ( 略 )</span><br><span class="line">  <span class="comment">// 胜利时的提示信息</span></span><br><span class="line">  <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;Congratulation&#x27;s! you win.&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">  <span class="comment">// 通关</span></span><br><span class="line">  <span class="keyword">delete</span>[] state; <span class="comment">//通过 new 创建的数组不能使用 delete，而应当使用 delete[]</span></span><br><span class="line">  state = <span class="number">0</span>; <span class="comment">//笔者的习惯</span></span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<p>读者可能不太熟悉这种把枚举类型当作类名处理的写法。实际上枚举类型是一种用于列举的类 型，所以可以通过 <code>new</code> 生成，也可以用作参数和返回值。记住这一点将大有裨益。虽然枚举类型内 部本质上是一个 <code>int</code>，但是如果将 Object 类型的变量赋值为 <code>5</code> 或者 <code>10</code> 等数值，则会导致编译错误， 这就保证了只能通过枚举类型来赋值。</p>
+<p>另外请注意，虽然逻辑上 Object 应当是个二维数组，但是这里使用了一维数组的创建方式。 初学者往往习惯通过二维数组的方式进行声明，即像下面这样：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">Object state[ <span class="number">5</span> ][ <span class="number">8</span> ];</span><br></pre></td></tr></table></figure>
+<p>但遗憾的是，二维数组无法通过 new 动态创建。如果不采用 <code>new</code> 来动态创建，就必须在定义数 组时就确定好数组的尺寸，比如横 8 纵 5，但是这样做会使数组的尺寸永远固定，程序将丧失一定的 灵活性。后面我们会讨论如何将一维数组当作二维数组来使用。</p>
+<p>主循环结束意味着顺利通关，这时会输出胜利时的提示信息，然后释放 <code>state</code> 空间并结束程 序。虽然在程序退出前不执行 <code>delete</code> 也不会有什么问题，但还是应当养成及时释放空间的习惯。 注意这里通过 <code>new</code> 创建的数组在释放时必须使用 <code>delete[]</code> 而非 <code>delete</code>。后面我们会解释这么做 的原因。</p>
+<p>最好将 <code>delete</code> 后的指针赋值为 <code>0</code>，这样可以在很大程度上避免一些指针相关的 bug。笔者在任何时候都遵守这个习惯，哪怕在程序即将退出时，也会将无用的指针赋值为 <code>0</code>。</p>
+<h5 id="主循环-1"><a href="#主循环-1" class="headerlink" title="主循环"></a>主循环</h5><p>相关代码大致如下所示：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 主循环</span></span><br><span class="line"><span class="keyword">while</span> ( <span class="literal">true</span> )&#123;</span><br><span class="line">  <span class="comment">// 首先绘制</span></span><br><span class="line">  draw( state, gStageWidth, gStageHeight );</span><br><span class="line">  <span class="comment">// 通关检测</span></span><br><span class="line">  <span class="keyword">if</span> ( checkClear( state, gStageWidth, gStageHeight ) )&#123;</span><br><span class="line">  <span class="keyword">break</span>; <span class="comment">//通关检测 &#125;</span></span><br><span class="line">  <span class="comment">// 获取输入</span></span><br><span class="line">  <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;a:left s:right w:up z:down. command?&quot;</span> &lt;&lt; <span class="built_in">endl</span>; <span class="comment">//操作说明 char input;</span></span><br><span class="line">  <span class="built_in">cin</span> &gt;&gt; input;</span><br><span class="line">  <span class="comment">// 更新</span></span><br><span class="line">  update( state, input, gStageWidth, gStageHeight );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>为了将输入前的状态反映到画面上，程序一开始就执行了 <code>draw( )</code>，但游戏整体仍然按照输 入更新、绘制的顺序执行。调用 <code>draw()</code> 后立刻执行通关检测是为了应对满足通关条件时的突发情况。试想如果在某个时刻场景数据已经满足了通关条件，这时没有执行通关处理却继续响应输入，那么推动箱子后就又将变成不允许通关的状态了。正因为如此，才需要在响应输入前先判断通关条件。</p>
+<p>输入处理只是简单地通过 <code>cin</code> 读取输入的字符，在读取之前程序会提示操作说明。输入的内容会被传递给 <code>update()</code> 以更新游戏的状态。各个游戏的主循环处理基本上都遵循这个模式。</p>
+<h4 id="初始化场景"><a href="#初始化场景" class="headerlink" title="初始化场景"></a>初始化场景</h4><p><code>initialize()</code> 的内容如下所示：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">initialize</span><span class="params">(Object* state,<span class="keyword">int</span> width,<span class="keyword">int</span> height,<span class="keyword">const</span> <span class="keyword">char</span>* stageData )</span></span>&#123;</span><br><span class="line">  <span class="keyword">const</span> <span class="keyword">char</span>* d = stageData; <span class="comment">//读取指针 int x = 0;</span></span><br><span class="line">  <span class="keyword">int</span> y = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">while</span> ( *d != <span class="string">&#x27;\0&#x27;</span> )&#123; <span class="comment">//当字符不为NULL时</span></span><br><span class="line">    Object t;</span><br><span class="line">    <span class="keyword">switch</span> ( *d )&#123;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;#&#x27;</span>: t = OBJ_WALL; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27; &#x27;</span>: t = OBJ_SPACE; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;o&#x27;</span>: t = OBJ_BLOCK; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;O&#x27;</span>: t = OBJ_BLOCK_ON_GOAL; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;.&#x27;</span>: t = OBJ_GOAL; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;p&#x27;</span>: t = OBJ_MAN; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;P&#x27;</span>: t = OBJ_MAN_ON_GOAL; <span class="keyword">break</span>; </span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;\n&#x27;</span>: <span class="comment">//到下一行</span></span><br><span class="line">        x = <span class="number">0</span>; <span class="comment">//x返回到最左边</span></span><br><span class="line">        ++y; <span class="comment">//y 进到下一段</span></span><br><span class="line">        t = OBJ_UNKNOWN; <span class="comment">//没有数据 break;</span></span><br><span class="line">      <span class="keyword">default</span>: t = OBJ_UNKNOWN; <span class="keyword">break</span>; <span class="comment">//非法数据 &#125;</span></span><br><span class="line">      ++d;</span><br><span class="line">      <span class="comment">// 如果遇到未知字符则无视</span></span><br><span class="line">      <span class="keyword">if</span> ( t != OBJ_UNKNOWN )&#123;</span><br><span class="line">        state[ y*width + x ] = t; <span class="comment">//写入</span></span><br><span class="line">        ++x; &#125;</span><br><span class="line">&#125; &#125;</span><br></pre></td></tr></table></figure>
+
+
+<p>这段代码会逐个读取字符并将其转换为 Object 类型。<code>switch</code> 后的 <code>if</code> 语句是为了忽略非法输入。虽然程序考虑了数据中存在注释等无关信息的情况，但是错误处理仍不够完善。比如当场景数 据残缺不全，或者宽度、高度值和预想的不一致时，程序的行为都是未知的。最好的做法是通过场景数据自行计算出宽度和高度值，我们可以封装一个函数来实现这个功能。</p>
+<p>另外，如前所述，<code>state</code> 变量是按照一维数组的方式创建的。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">state[ y*width + x ] = t; <span class="comment">//写入</span></span><br></pre></td></tr></table></figure>
+<p><code>y*width + x</code>表示从左上角向右 x 列，向下 y 行处的网格位置。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">draw</span><span class="params">( <span class="keyword">const</span> Object* state, <span class="keyword">int</span> width, <span class="keyword">int</span> height )</span></span>&#123;</span><br><span class="line">  <span class="comment">//Object 枚举类型的顺序</span></span><br><span class="line">  <span class="keyword">const</span> <span class="keyword">char</span> font[] = &#123;<span class="string">&#x27; &#x27;</span>, <span class="string">&#x27;#&#x27;</span>, <span class="string">&#x27;.&#x27;</span>, <span class="string">&#x27;o&#x27;</span>, <span class="string">&#x27;O&#x27;</span>, <span class="string">&#x27;p&#x27;</span>, <span class="string">&#x27;P&#x27;</span>&#125;;</span><br><span class="line">  <span class="keyword">for</span> ( <span class="keyword">int</span> y = <span class="number">0</span>; y &lt; height; ++y )&#123;</span><br><span class="line">    <span class="keyword">for</span> ( <span class="keyword">int</span> x=<span class="number">0</span>; x &lt; width; ++x )&#123;</span><br><span class="line">      Object o = state[ y*width + x ];</span><br><span class="line">      <span class="built_in">cout</span> &lt;&lt; font[ o ];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/BlakeFawley">Blake Fawley</a>
+    </i>
+  </font>
+</div>]]></content>
+      <categories>
+        <category>游戏开发(Game Development)</category>
+      </categories>
+      <tags>
+        <tag>Game Develop</tag>
+        <tag>2D Game</tag>
+        <tag>SEGA</tag>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>谁发明了方向键？</title>
     <url>/archives/ed19197d.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn19usq2osj312w0lwjvf.jpg"></p>
@@ -2817,9 +3019,10 @@
   <entry>
     <title>一个关于爱与生活的童话-Florence</title>
     <url>/archives/9b487a14.html</url>
-    <content><![CDATA[<p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3fysiyprj30go09d75q.jpg"></p>
 <a id="more"></a>
 
+<p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
 <p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_3803bfdcbfa1ff4515505f920ed1c7993993b9f6.600x338.jpg?t=1589331032">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256774213/movie480.webm?t=1580836892" type="video/mp4">       </video></p>
 <h3 id="关于游戏"><a href="#关于游戏" class="headerlink" title="关于游戏"></a>关于游戏</h3><p>Florence 是一场持续约 30 分钟的心动体验。故事很简短，但意义很深远。</p>
 <p>25 岁的 Florence Yeoh 对生活感到困惑。她的生活是日复一日地工作、睡觉，以及在社交媒体上打发大量时间。直到有一天，她遇到了一位名叫 Krish 的大提琴手，他改变了她眼中的整个世界。</p>
@@ -2871,9 +3074,10 @@
   <entry>
     <title>跨越时空抚慰伤痛-Father and Son</title>
     <url>/archives/84339f66.html</url>
-    <content><![CDATA[<p>《父与子》由那不勒斯考古博物馆所发行，是一款以父子亲情为主题的冒险游戏，从那不勒斯国家考古博物馆，珍藏着人类最伟大的文物和珍宝，揭开这趟冒险之旅的序幕。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3fz0t31zj30zk0k0myo.jpg"></p>
 <a id="more"></a>
 
+<p>《父与子》由那不勒斯考古博物馆所发行，是一款以父子亲情为主题的冒险游戏，从那不勒斯国家考古博物馆，珍藏着人类最伟大的文物和珍宝，揭开这趟冒险之旅的序幕。</p>
 <p>剧情的主轴发展，开始于一个与父亲素为谋面的儿子迈克尔，透过穿越现在和过去，追溯已故父亲过往的考古旅程。你将亲自发掘那不勒斯的魅力，体验庞贝城在公元79年，维苏威火山喷发前几个小时的生离诀别，及探索古埃及的日常生活。积累的过去，造就了今日。</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6guDCiNkZr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -2928,9 +3132,10 @@
   <entry>
     <title>此时此刻，你充满了决心-Undertale</title>
     <url>/archives/795e3081.html</url>
-    <content><![CDATA[<p>《Undertale》中，玩家作为一名掉入地下世界的孩子游历整个地下世界，最终重返地面。在此过程中你可以选择战斗，亦或是宽恕，这些选择会影响游戏后面的对话、人物、故事和结局。请做出自己的选择，开始一段属于自己的地下冒险。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3fzcl4lej30rs0iwgsl.jpg"></p>
 <a id="more"></a>
 
+<p>《Undertale》中，玩家作为一名掉入地下世界的孩子游历整个地下世界，最终重返地面。在此过程中你可以选择战斗，亦或是宽恕，这些选择会影响游戏后面的对话、人物、故事和结局。请做出自己的选择，开始一段属于自己的地下冒险。</p>
 <p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/391540/header.jpg?t=1579096091">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256655616/movie480.webm?t=1447377566" type="video/mp4">       </video></p>
 <h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="传说"><a href="#传说" class="headerlink" title="传说"></a>传说</h4><blockquote>
 <p>“很久以前，地球由人类和怪物统治着。</p>
@@ -3022,11 +3227,10 @@
   <entry>
     <title>为什么要要登山？因为那里有山-Celeste</title>
     <url>/archives/75f72eb2.html</url>
-    <content><![CDATA[<p>Madeline 攀登塞莱斯特山 （Celeste Mountain）的旅程中，帮助她克服内心深处的恐惧。勇敢面对数百个手工打造的挑战场景，揭开诡异的秘密，解开神秘山峰的谜团吧。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3fzmf2b3j31400p077y.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>Madeline 攀登塞莱斯特山 （Celeste Mountain）的旅程中，帮助她克服内心深处的恐惧。勇敢面对数百个手工打造的挑战场景，揭开诡异的秘密，解开神秘山峰的谜团吧。</p>
 <p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/504230/ss_1012b11ad364ad6c138a25a654108de28de56c5f.600x338.jpg?t=1580863858">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256706951/movie480.webm?t=1516898311" type="video/mp4">       </video></p>
 <h3 id="关于游戏"><a href="#关于游戏" class="headerlink" title="关于游戏"></a>关于游戏</h3><p>《Celeste》是经典多人游戏《TowerFall》的制作者推出的又一力作。这款手工打造的平台游戏节奏极为紧凑，玩家需要在 Madeline 攀登塞莱斯特山 (Celeste Mountain) 的旅程中，帮助她克服内心深处的恐惧。</p>
 <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk0cdzxf2ej30go03hdia.jpg" style="zoom:150%;" />
@@ -3145,11 +3349,10 @@
   <entry>
     <title>48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</title>
     <url>/archives/6144e1a0.html</url>
-    <content><![CDATA[<p>本文转载了INDIENOVA社区的博主 <a href="https://indienova.com/u/wizcas">Wizcas.陈小一</a> 的 <a href="https://indienova.com/indie-game-development/my-first-time-in-ludum-dare-38">48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</a>，与大家共同分享参加LD比赛的一些经验。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g039rzbj30m80ciwge.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>本文转载了INDIENOVA社区的博主 <a href="https://indienova.com/u/wizcas">Wizcas.陈小一</a> 的 <a href="https://indienova.com/indie-game-development/my-first-time-in-ludum-dare-38">48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</a>，与大家共同分享参加LD比赛的一些经验。</p>
 <p>2017年4月24日16点23分。</p>
 <p>刚从床上爬起来的我肩颈酸痛，饥肠辘辘。昨夜难熬的腹泻和呕吐似乎已经消失了，想来应该是吃的药管用了。并不是因为贪睡——事实上，在刚刚结束的五个小时睡眠之前的48小时内，我在进行一场和自己的战斗。</p>
 <p>我是去年才知道Ludam Dare的。这是一个线上的游戏开发比赛，和Global Game Jam一样，参与者需要在限定的时间内根据给定的主题完成一个游戏原型。比赛分为两组，Compo和Jam，限定的时间分别为48小时和72小时。其中Compo的要求更为严格，参与者需要遵循这些规定：</p>
@@ -3249,11 +3452,10 @@
   <entry>
     <title>LATEX现学现用抢救指南</title>
     <url>/archives/a5f7b62.html</url>
-    <content><![CDATA[<p>本文作为即忘即看的备忘文档，适用于各种编写博客需要专业数学公式但不熟悉的Latex的读者，所有内容摘自 <a href="http://mohu.org/info/symbols/symbols.htm">常用数学符号的 LaTeX 表示方法</a>。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g0l638dj314g0mg76q.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>本文作为即忘即看的备忘文档，适用于各种编写博客需要专业数学公式但不熟悉的Latex的读者，所有内容摘自 <a href="http://mohu.org/info/symbols/symbols.htm">常用数学符号的 LaTeX 表示方法</a>。</p>
 <h3 id="指数与下标"><a href="#指数与下标" class="headerlink" title="指数与下标"></a>指数与下标</h3><p>指数和下标可以用<code>^</code>和<code>_</code>后加相应字符来实现。比如:</p>
 <figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span>a<span class="built_in">_</span>&#123;1&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>x<span class="built_in">^</span>&#123;2&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>e<span class="built_in">^</span>&#123;-<span class="keyword">\alpha</span>&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>a<span class="built_in">^</span>&#123;3&#125;<span class="built_in">_</span>&#123;i,j&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>e<span class="built_in">^</span>&#123;x<span class="built_in">^</span>2&#125; <span class="keyword">\neq</span> &#123;e<span class="built_in">^</span>x&#125;<span class="built_in">^</span>2<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
 <p>效果如下：</p>
@@ -3322,11 +3524,10 @@
   <entry>
     <title>马尔萨斯人口论与数学建模</title>
     <url>/archives/930af6f3.html</url>
-    <content><![CDATA[<p>本文基于马尔萨斯的人口论，探讨人类社会人口的增长趋势并列举多种变体人口增长模型，同时领悟数学建模的主要思想和具体步骤，加深学习和理解。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g1fhhi3j30xc0m8gm5.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>本文基于马尔萨斯的人口论，探讨人类社会人口的增长趋势并列举多种变体人口增长模型，同时领悟数学建模的主要思想和具体步骤，加深学习和理解。</p>
 <h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><blockquote>
 <p> <strong>群体的增长能不能预测？</strong></p>
 </blockquote>
@@ -3501,11 +3702,10 @@
   <entry>
     <title>手机是怎么知道你的位置的</title>
     <url>/archives/a03a749.html</url>
-    <content><![CDATA[<p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g1ptxtcj30u00w9q8n.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
 <h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>今天不管大家走到哪里，拿出手机可以告诉自己走到哪里、走了多快。给自己定位这样一件事是整个人类历史上持续在问的一个问题。我们中国发明了四大发明之一的指南针，可以更方便的进行定位，而在今天我们有全球定位系统，并通过经纬度来表示自己的坐标。</p>
 <h3 id="全球定位系统：2-TO-4"><a href="#全球定位系统：2-TO-4" class="headerlink" title="全球定位系统：2 TO 4"></a>全球定位系统：2 TO 4</h3><p><em>GPS（Global Positioning System）</em></p>
 <ul>
@@ -3580,9 +3780,10 @@
   <entry>
     <title>火箭为什么是三级</title>
     <url>/archives/7d0497df.html</url>
-    <content><![CDATA[<p>以满足正常发射卫星的需求为前提，确定火箭的最佳级数。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g2e8i91j30u00u0jvz.jpg"></p>
 <a id="more"></a>
 
+<p>以满足正常发射卫星的需求为前提，确定火箭的最佳级数。</p>
 <h3 id="问题提出"><a href="#问题提出" class="headerlink" title="问题提出"></a>问题提出</h3><h4 id="历史回顾"><a href="#历史回顾" class="headerlink" title="历史回顾"></a>历史回顾</h4><p>我国从1956年开始进行火箭的研制工作，1964年6月29日我国自行设计研制的中程火箭试飞成功，之后着手研制多级火箭，向空间技术进军。经过5年的努力，1970年4月24日，“长征一号”运载火箭诞生，首次发射“东方红一号卫星”，我国航天技术由此迈出重要的一步。</p>
 <p>现在“长征”系列火箭已经走向世界，享誉全球，在国际发射场上占有重要一席。近年来我国在火箭发射次数上赶超了欧洲，“长征二号F”已经成为全球仅有的三种轨道载人运载器之一。2016年6月25日，“长征七号”运载火箭首飞成功。</p>
 <h4 id="火箭级数"><a href="#火箭级数" class="headerlink" title="火箭级数"></a>火箭级数</h4><p>我们都看过火箭发射，火箭从地面发射时先点燃第一级推进器加速火箭的飞行；到第一级火箭的燃料燃尽时将第一级火箭丢弃，同时点燃第二级火箭；到第二级火箭燃尽时将第二级火箭丢弃，同时点燃第三级火箭，使火箭加速到一定的速度并将卫星送入轨道。火箭的三级结构被各国所采纳，那为什么都采取三级结构呢？多级火箭需要较为复杂的连接部件，制造一级火箭肯定比多级火箭要简单，那么能否用一级火箭发射卫星呢？如果一级火箭不行，那么二级火箭可以吗？为什么必须要三级火箭？如果三级火箭比二级火箭好，那四级火箭是不是就比三级火箭好，更多级火箭呢？事实上，使用三级火箭而不用一、二级火箭或更多级火箭的原因绝非偶然，而是采用数学模型、数学方法进行定量分析的结果。今天我们来建立运载火箭的数学模型，说明三级火箭在某种意义下是最优方案。</p>
@@ -3777,9 +3978,10 @@
   <entry>
     <title>开始画像素画#1</title>
     <url>/archives/655d7201.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g2x73ngj31hc0u0n18.jpg"></p>
 <a id="more"></a>
 
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《<a href="https://indienova.com/game/celeste">塞莱斯特山（蔚蓝，Celeste）</a>》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
 <p>这部分教程就是经过<a href="https://indienova.com/u/fengnong">风农</a>翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtmvjmb7j30u008c74z.jpg"></p>
@@ -3884,11 +4086,10 @@
   <entry>
     <title>开始画像素画#2</title>
     <url>/archives/90b77012.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解像素绘画的流程，逐渐完善直到达到满意的效果。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g37nubbj31hc0u0n1z.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解像素绘画的流程，逐渐完善直到达到满意的效果。</p>
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
 <p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhu7imh83j30u008c74z.jpg"></p>
@@ -3943,11 +4144,10 @@
   <entry>
     <title>开始画像素画#3</title>
     <url>/archives/90b77012.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解简单的 Aseprite 动画。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g3xgu89j31hc0u0780.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解简单的 Aseprite 动画。</p>
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
 <p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud6tcj7j30u008c74z.jpg"></p>
@@ -4008,11 +4208,10 @@
   <entry>
     <title>开始画像素画#4</title>
     <url>/archives/ec50fbbd.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解明暗基础。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g4faxn0j30u00gw75o.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解明暗基础。</p>
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
 <p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhurk4n8zj30u008c74z.jpg"></p>
@@ -4093,11 +4292,10 @@
   <entry>
     <title>开始画像素画#5</title>
     <url>/archives/9b57cb2b.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解关于抗锯齿与色带。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g4xwvq8j30u00gwwfk.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解关于抗锯齿与色带。</p>
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
 <p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxvnuszj30u008c74z.jpg"></p>
@@ -4155,11 +4353,10 @@
   <entry>
     <title>开始画像素画#6</title>
     <url>/archives/25e9a91.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解颜色理论基础。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g5b2f9yj30u00gwq47.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解颜色理论基础。</p>
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
 <p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv4avw6rj30u008c74z.jpg" alt="图片"></p>
@@ -4236,87 +4433,12 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#7</title>
-    <url>/archives/7559aa07.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8bd0hfj30u008c74z.jpg"></p>
-<p>系列第 7 篇。</p>
-<h3 id="什么是线条"><a href="#什么是线条" class="headerlink" title="什么是线条"></a>什么是线条</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv89ju74j30ei0d812e.jpg"></p>
-<p>线条是艺术领域最重要的工具之一。他们可以用来强调形状，对比。现实世界里我们看不到线条，但他们能帮助我们分隔空间，创造纹理，表现体积和方向。</p>
-<p>在像素美术中，屏幕上的空间非常受限。每个像素都很重要，绘制线条就变得很昂贵。因此，如果你在画非常低像素作品，不推荐使用线条。即使有一些富裕的空间，还是要谨慎的使用线条，试着不使用线条去完成。最少化线条的使用，是保持像素画整洁的好办法。</p>
-<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovDCt2BDcwjydRAsAavRfUE6DHsv5ia5XcbHnydHaaHo09AvG04kIS50Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
-<p>不必要的线可以用阴影或者高对比区域代替。将线条与暗影部分融合能让画面显得更统一，自然。</p>
-<h3 id="不必要的拐角"><a href="#不必要的拐角" class="headerlink" title="不必要的拐角"></a>不必要的拐角</h3><p>之前简单的解释过（第一节），这里再进一步讲一下。</p>
-<p>这种不必要的拐角，通常出现在手绘线条时。你可以手工去清理，也可以打开铅笔工具的“像素完美”（<code>pixel perfect</code>）功能来避免这些。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv88tzipj309w05c741.jpg"></p>
-<p>这个算法在画单像素线条时非常有用，不过不总是完美的，你还是应该知道如何手工去清理。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8cjbhrj30a205p0jc.jpg"></p>
-<p>查找模式很简单：每当你看到一个拐角（<code>3</code> 或 <code>4</code> 个像素组成的方形），思考一下这里是否应当是个拐角。如果这部分不是拐角，就去掉一个像素让他更圆。</p>
-<p>注意这跟锯齿是不同的，我在之前的章节（第二节）解释过锯齿，以及如何处理他们。修复拐角可能会创造出很多锯齿，所以通常这会是个多步过程：<code>绘制</code> &gt; <code>修复拐角</code> &gt; <code>修复锯齿</code>。</p>
-<h3 id="方形线"><a href="#方形线" class="headerlink" title="方形线"></a>方形线</h3><p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovZlINW3bgF8R1K5SK9yyhNaKCib7BiblqlicP8AkCzIBxyFMttmyIBNLKQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
-<p>单像素线条问题还有一种更风格化的解决办法。你可以到处加拐角，而不是尝试去移除他们。听起来没道理，但确实是种风格化的选择，很有趣，适合高度风格化的作品，因为它模拟了一种更粗的线条。</p>
-<p>处理过程基本一样，只是你需要找到每个对角链接的像素，把它变方，而不是去删掉拐角。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8a5yvaj309w05m0i1.jpg"></p>
-<p>注意这样做也会产生很多锯齿，别忘了处理他们。</p>
-<h3 id="Colored-lines-有色线条"><a href="#Colored-lines-有色线条" class="headerlink" title="Colored lines 有色线条"></a>Colored lines 有色线条</h3><p>有些时候，尤其是在较低分辨率，线条会吸引过多的注意。有个弱化这种效果的方法是，给线条添加临近颜色的深色版本。</p>
-<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDov1liczK25ftiam3YsickNl5yTnNicL81HKl91snwwbw5s4XwAS1yrCib8lWA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
-<p>过程很简单，回顾每条你画的线条，试着修改成临近颜色的深色版本。当你这么做之后，所选的颜色会让相应的区域显得变大了，所以线条的位置可能需要调整。有时候你可能不确定选哪个临近的颜色，有时候可能很容易确定。当你不确定的时候，就选更深的颜色。</p>
-<p>我依然喜欢保留最外层的黑色描边，看分辨率合适的话我甚至会加倍这个外层描边。但这只是我个人的选择，你可以自己考虑。</p>
-<h3 id="线条草图"><a href="#线条草图" class="headerlink" title="线条草图"></a>线条草图</h3><p>之前我们学过像素簇草图的画法，这次来试点别的。这种方法很适合于画角色以及画动画帧，因为画起来很快，而且聚焦于形状，而不是光和色（像像素簇草图那样）。</p>
-<p>我们来做个实际案例学习，把这节提到的都应用上。如果你想要跟着做，建议新建 64*64 分辨率的画布，用 AAP-64 调色板。</p>
-<p><strong>Step 1  — 草图</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv87ygl3j30fh078mwx.jpg"></p>
-<p>第一步先忽略各种像素画的规则，尽可能流畅的勾勒出形状。基本上跟在纸上或者其他数字化的，非像素的媒介一样。不要过多考虑之后如何清理线条。完成后可以稍作整理，去除明显的标志线，定义一些形状。</p>
-<p><strong>Step 2  — 线条清理</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvbdn60dj307j0770sh.jpg"></p>
-<p>现在开始做清理。把草图层设置成半透明，可以 右键 点击图层名称，选择属性，再调低透明度。现在可以在上面的图层去画。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8ao6foj30c007zq2q.jpg"></p>
-<p>这里的思路是画出最终的线条图。先聚焦在重点线条上，比如构成角色剪影和脸部的线条。先不要关心颜色和光影，如果想画的话可以画一点主阴影，重点还是把主要形状弄对。</p>
-<p><strong>Step 3  —  底色</strong></p>
-<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovve85R4AL3Ns9CkkPy3GZ91D8PLYmrl3Sc3WztQWvgHOec9h0XZDLrg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
-<p>很简单的一步，找到符合需求的颜色，用油漆桶填充进去。避免过于饱和和过亮的颜色。还不到画光影的时候，但是要考虑好画面应该如何被照亮，有些区域会被周围的颜色影响。</p>
-<p><strong>Step 4  —  光影</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv88aqv3j307p077gld.jpg"></p>
-<p>开始给画添加光影，添加明暗区域。试着想象光会如何照射到你画的物体上，相应的渲染。这一步找个参考图是个很好的办法。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvaibzjbj309z07h742.jpg"></p>
-<p>我喜欢在这一步通过给弧线加上较深的颜色，来尽量弱化黑色的描边，就好像是做抗锯齿。不过别做太过，不然线条看起来会模糊。</p>
-<p>这一步可以调整线条，但重点是光影。</p>
-<p><strong>Step 5  —  线条上色和抗锯齿</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8c2gduj307p07agld.jpg" alt="图片"></p>
-<p>之前提到过，过多的黑色描边可能会分散注意力。通过上色来弱化他们是个不错的方法。只要找到周围最近，最深的颜色，并把描边改成这个色的更深版本就行。</p>
-<p>如果这个描边是用来分隔明显的区域，比如脖子和脸颊，衣领和头发，你可以画很深色，甚至保留黑色。这也是为什么我喜欢保持黑色的角色外层描边。弱化的过渡一般用亮一点的线，比如鼻子的线条。</p>
-<p><strong>Step 6  — 打磨细节</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvb2fvmtj307t076t8h.jpg"></p>
-<p>最后这步你需要确定所有线条都做过抗锯齿，所有阴影过渡都合理的软化过（或者没有！如果是硬过渡的话。），并添加上所有细节。</p>
-<p>添加背光，小的高亮，反射区域。因为所有东西都就位了，你可以衡量想要在画面添加多少细节。不要做得太过，注意别加入过多噪点。</p>
-<p>这就完成了！多去练习，并试着把前几节的概念也融入进来。</p>
-<p>Good luck!</p>
-]]></content>
-      <categories>
-        <category>像素美工(Pixel Art Designing)</category>
-        <category>开始画像素画(Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开始画像素画#8</title>
     <url>/archives/e5e6b796.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解文件格式和导出方法。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g6urgs2j31hc0u0q6o.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解文件格式和导出方法。</p>
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
 <p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdd9dpvj30u008c74z.jpg"></p>
@@ -4420,13 +4542,10 @@
   <entry>
     <title>操作系统概述</title>
     <url>/archives/2ba40472.html</url>
-    <content><![CDATA[<p>介绍操作系统的基本知识与课程相关。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g79xavkg312w0lwhdu.gif"></p>
 <a id="more"></a>
 
-
-
-
-
+<p>介绍操作系统的基本知识与课程相关。</p>
 <h3 id="课程概述"><a href="#课程概述" class="headerlink" title="课程概述"></a>课程概述</h3><h4 id="课程信息"><a href="#课程信息" class="headerlink" title="课程信息"></a>课程信息</h4><table>
 <thead>
 <tr>
@@ -4453,57 +4572,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#x79;&#111;&#110;&#x67;&#x40;&#116;&#115;&#x69;&#x6e;&#x67;&#x68;&#x75;&#97;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#110;">&#x78;&#x79;&#111;&#110;&#x67;&#x40;&#116;&#115;&#x69;&#x6e;&#x67;&#x68;&#x75;&#97;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#121;&#111;&#x6e;&#x67;&#64;&#116;&#115;&#105;&#110;&#103;&#104;&#x75;&#x61;&#46;&#101;&#100;&#117;&#46;&#x63;&#x6e;">&#120;&#121;&#111;&#x6e;&#x67;&#64;&#116;&#115;&#105;&#110;&#103;&#104;&#x75;&#x61;&#46;&#101;&#100;&#117;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#x75;&#99;&#x68;&#101;&#x6e;&#x40;&#109;&#x61;&#105;&#x6c;&#46;&#x74;&#115;&#x69;&#110;&#103;&#104;&#117;&#97;&#46;&#x65;&#100;&#117;&#x2e;&#99;&#110;">&#121;&#x75;&#99;&#x68;&#101;&#x6e;&#x40;&#109;&#x61;&#105;&#x6c;&#46;&#x74;&#115;&#x69;&#110;&#103;&#104;&#117;&#97;&#46;&#x65;&#100;&#117;&#x2e;&#99;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#117;&#99;&#104;&#101;&#x6e;&#x40;&#x6d;&#97;&#105;&#x6c;&#x2e;&#116;&#x73;&#x69;&#x6e;&#103;&#104;&#x75;&#x61;&#46;&#101;&#x64;&#117;&#x2e;&#99;&#110;">&#121;&#117;&#99;&#104;&#101;&#x6e;&#x40;&#x6d;&#97;&#105;&#x6c;&#x2e;&#116;&#x73;&#x69;&#x6e;&#103;&#104;&#x75;&#x61;&#46;&#101;&#x64;&#117;&#x2e;&#99;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#116;&#101;&#x72;&#x6e;&#x61;&#x6c;&#46;&#x6e;&#48;&#x38;&#64;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;">&#x65;&#116;&#101;&#x72;&#x6e;&#x61;&#x6c;&#46;&#x6e;&#48;&#x38;&#64;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x65;&#x74;&#101;&#x72;&#x6e;&#x61;&#108;&#x2e;&#110;&#48;&#x38;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x65;&#x74;&#101;&#x72;&#x6e;&#x61;&#108;&#x2e;&#110;&#48;&#x38;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#x62;&#x6a;&#x65;&#99;&#x74;&#107;&#x75;&#x61;&#x6e;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#x6f;&#x62;&#x6a;&#x65;&#99;&#x74;&#107;&#x75;&#x61;&#x6e;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#111;&#x62;&#106;&#x65;&#99;&#116;&#107;&#x75;&#97;&#x6e;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#111;&#x62;&#106;&#x65;&#99;&#116;&#107;&#x75;&#97;&#x6e;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#114;&#100;&#x66;&#x72;&#x61;&#110;&#107;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#x63;&#114;&#100;&#x66;&#x72;&#x61;&#110;&#107;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#114;&#100;&#102;&#x72;&#x61;&#110;&#107;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">&#x63;&#114;&#100;&#102;&#x72;&#x61;&#110;&#107;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#x61;&#x63;&#x63;&#111;&#x72;&#97;&#119;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#116;&#x61;&#x63;&#x63;&#111;&#x72;&#97;&#119;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#116;&#97;&#x63;&#x63;&#111;&#114;&#97;&#119;&#64;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#116;&#97;&#x63;&#x63;&#111;&#114;&#97;&#119;&#64;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#117;&#x6e;&#120;&#x69;&#x6e;&#x67;&#x30;&#x30;&#48;&#49;&#x40;&#x31;&#x36;&#51;&#x2e;&#x63;&#111;&#109;">&#x78;&#x69;&#x6e;&#121;&#117;&#x6e;&#120;&#x69;&#x6e;&#x67;&#x30;&#x30;&#48;&#49;&#x40;&#x31;&#x36;&#51;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x78;&#x69;&#110;&#121;&#x75;&#x6e;&#x78;&#105;&#110;&#x67;&#x30;&#48;&#48;&#x31;&#x40;&#49;&#54;&#51;&#46;&#x63;&#111;&#109;">&#x78;&#x69;&#110;&#121;&#x75;&#x6e;&#x78;&#105;&#110;&#x67;&#x30;&#48;&#48;&#x31;&#x40;&#49;&#54;&#51;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#110;&#x6f;&#99;&#117;&#105;&#108;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x67;&#110;&#x6f;&#99;&#117;&#105;&#108;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#x6e;&#x6f;&#x63;&#x75;&#x69;&#x6c;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#103;&#x6e;&#x6f;&#x63;&#x75;&#x69;&#x6c;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#x79;&#x61;&#105;&#x72;&#x69;&#97;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#109;">&#x6d;&#x79;&#x61;&#105;&#x72;&#x69;&#97;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x6d;&#121;&#x61;&#105;&#x72;&#x69;&#97;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x6d;&#121;&#x61;&#105;&#x72;&#x69;&#97;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#x68;&#x61;&#x6e;&#103;&#114;&#97;&#x69;&#x6e;&#57;&#x31;&#49;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#111;&#109;">&#x7a;&#x68;&#x61;&#x6e;&#103;&#114;&#97;&#x69;&#x6e;&#57;&#x31;&#49;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x7a;&#104;&#97;&#x6e;&#103;&#114;&#x61;&#105;&#110;&#x39;&#x31;&#49;&#64;&#x31;&#x36;&#51;&#x2e;&#x63;&#111;&#109;">&#x7a;&#104;&#97;&#x6e;&#103;&#114;&#x61;&#105;&#110;&#x39;&#x31;&#49;&#64;&#x31;&#x36;&#51;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#x67;&#120;&#120;&#x31;&#x32;&#x30;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#103;&#x67;&#120;&#120;&#x31;&#x32;&#x30;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#103;&#120;&#x78;&#x31;&#50;&#48;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#109;">&#103;&#103;&#120;&#x78;&#x31;&#50;&#48;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -4727,11 +4846,10 @@
   <entry>
     <title>Aseprite教学-Aseprite编译教程</title>
     <url>/archives/5d59087d.html</url>
-    <content><![CDATA[<p>本文将介绍Aseprite的编译安装方法。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g7vqjebj30hs0a0wei.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>本文将介绍Aseprite的编译安装方法。</p>
 <h3 id="官方说明文档"><a href="#官方说明文档" class="headerlink" title="官方说明文档"></a>官方说明文档</h3><h4 id="Platforms"><a href="#Platforms" class="headerlink" title="Platforms"></a>Platforms</h4><p>You should be able to compile Aseprite successfully on the following platforms:</p>
 <ul>
 <li>Windows 10 + <a href="https://imgur.com/a/7zs51IT">Visual Studio Community 2019 + Windows 10.0.18362.0 SDK</a> (we don’t support <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#mingw">MinGW</a>)</li>
@@ -4836,11 +4954,10 @@
   <entry>
     <title>Aseprite教学-基本工具</title>
     <url>/archives/3df0cd57.html</url>
-    <content><![CDATA[<p>本文基于 <a href="https://www.mortmort.net/">MortMort</a> 的 Aseprite 教学视频并进行总结，介绍像素绘制软件 Aseprite 中基本工具的使用，了解各种绘画工具的功能并能熟练使用快捷键切换。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g85kbpvj30dw080q3a.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>本文基于 <a href="https://www.mortmort.net/">MortMort</a> 的 Aseprite 教学视频并进行总结，介绍像素绘制软件 Aseprite 中基本工具的使用，了解各种绘画工具的功能并能熟练使用快捷键切换。</p>
 <h3 id="Aseprite简介"><a href="#Aseprite简介" class="headerlink" title="Aseprite简介"></a>Aseprite简介</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8ds2ybj313g0m8wfq.jpg"></p>
 <p>目前主流的绘制像素作品的软件有两类，一类是 Adobe 公司著名的图像编辑软件  Phtotshop；另一类就是专注于像素绘制的轻量级软件,代表软件就是今天要介绍的 Aseprite，它具有以下的优点：</p>
 <ul>
@@ -4985,11 +5102,10 @@
   <entry>
     <title>Aseprite教学-色彩、造型和光照</title>
     <url>/archives/c7d3ecc8.html</url>
-    <content><![CDATA[<p>本文我们来聊聊颜色工具以及绘画中的造型和光照。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g9gelhjj30q00b4gnb.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>本文我们来聊聊颜色工具以及绘画中的造型和光照。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glougaw7m8j313g0m8q2x.jpg"></p>
 <p>颜色部分在左下角，虽然可能有些没用但了解一下也很好。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufnzmlvj313g0m8dfr.jpg"></p>
@@ -5031,7 +5147,8 @@
   <entry>
     <title>Aseprite教学-动画</title>
     <url>/archives/88d7e2f9.html</url>
-    <content><![CDATA[<a id="more"></a>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g9x9u1oj31o00u045c.jpg"></p>
+<a id="more"></a>
 
 
 
@@ -5072,7 +5189,8 @@
   <entry>
     <title>Aseprite教学-绘画技巧与常见问题</title>
     <url>/archives/4db0f4e3.html</url>
-    <content><![CDATA[<a id="more"></a>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gaafzh2j31yf0tox17.jpg"></p>
+<a id="more"></a>
 
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloustu5wwj313g0m8t8o.jpg"></p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glousqzobbj313g0m8mx4.jpg"></p>
@@ -5110,13 +5228,146 @@
       </tags>
   </entry>
   <entry>
-    <title>PAT (Basic Level) Practice</title>
-    <url>/archives/d04381bb.html</url>
-    <content><![CDATA[<p>本文是PAT乙级题库记录博客。</p>
+    <title>开始画像素画#7</title>
+    <url>/archives/7559aa07.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g6b5nk0j30u00gwwfh.jpg"></p>
 <a id="more"></a>
 
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8bd0hfj30u008c74z.jpg"></p>
+<p>系列第 7 篇。</p>
+<h3 id="什么是线条"><a href="#什么是线条" class="headerlink" title="什么是线条"></a>什么是线条</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv89ju74j30ei0d812e.jpg"></p>
+<p>线条是艺术领域最重要的工具之一。他们可以用来强调形状，对比。现实世界里我们看不到线条，但他们能帮助我们分隔空间，创造纹理，表现体积和方向。</p>
+<p>在像素美术中，屏幕上的空间非常受限。每个像素都很重要，绘制线条就变得很昂贵。因此，如果你在画非常低像素作品，不推荐使用线条。即使有一些富裕的空间，还是要谨慎的使用线条，试着不使用线条去完成。最少化线条的使用，是保持像素画整洁的好办法。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovDCt2BDcwjydRAsAavRfUE6DHsv5ia5XcbHnydHaaHo09AvG04kIS50Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>不必要的线可以用阴影或者高对比区域代替。将线条与暗影部分融合能让画面显得更统一，自然。</p>
+<h3 id="不必要的拐角"><a href="#不必要的拐角" class="headerlink" title="不必要的拐角"></a>不必要的拐角</h3><p>之前简单的解释过（第一节），这里再进一步讲一下。</p>
+<p>这种不必要的拐角，通常出现在手绘线条时。你可以手工去清理，也可以打开铅笔工具的“像素完美”（<code>pixel perfect</code>）功能来避免这些。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv88tzipj309w05c741.jpg"></p>
+<p>这个算法在画单像素线条时非常有用，不过不总是完美的，你还是应该知道如何手工去清理。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8cjbhrj30a205p0jc.jpg"></p>
+<p>查找模式很简单：每当你看到一个拐角（<code>3</code> 或 <code>4</code> 个像素组成的方形），思考一下这里是否应当是个拐角。如果这部分不是拐角，就去掉一个像素让他更圆。</p>
+<p>注意这跟锯齿是不同的，我在之前的章节（第二节）解释过锯齿，以及如何处理他们。修复拐角可能会创造出很多锯齿，所以通常这会是个多步过程：<code>绘制</code> &gt; <code>修复拐角</code> &gt; <code>修复锯齿</code>。</p>
+<h3 id="方形线"><a href="#方形线" class="headerlink" title="方形线"></a>方形线</h3><p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovZlINW3bgF8R1K5SK9yyhNaKCib7BiblqlicP8AkCzIBxyFMttmyIBNLKQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>单像素线条问题还有一种更风格化的解决办法。你可以到处加拐角，而不是尝试去移除他们。听起来没道理，但确实是种风格化的选择，很有趣，适合高度风格化的作品，因为它模拟了一种更粗的线条。</p>
+<p>处理过程基本一样，只是你需要找到每个对角链接的像素，把它变方，而不是去删掉拐角。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8a5yvaj309w05m0i1.jpg"></p>
+<p>注意这样做也会产生很多锯齿，别忘了处理他们。</p>
+<h3 id="Colored-lines-有色线条"><a href="#Colored-lines-有色线条" class="headerlink" title="Colored lines 有色线条"></a>Colored lines 有色线条</h3><p>有些时候，尤其是在较低分辨率，线条会吸引过多的注意。有个弱化这种效果的方法是，给线条添加临近颜色的深色版本。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDov1liczK25ftiam3YsickNl5yTnNicL81HKl91snwwbw5s4XwAS1yrCib8lWA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>过程很简单，回顾每条你画的线条，试着修改成临近颜色的深色版本。当你这么做之后，所选的颜色会让相应的区域显得变大了，所以线条的位置可能需要调整。有时候你可能不确定选哪个临近的颜色，有时候可能很容易确定。当你不确定的时候，就选更深的颜色。</p>
+<p>我依然喜欢保留最外层的黑色描边，看分辨率合适的话我甚至会加倍这个外层描边。但这只是我个人的选择，你可以自己考虑。</p>
+<h3 id="线条草图"><a href="#线条草图" class="headerlink" title="线条草图"></a>线条草图</h3><p>之前我们学过像素簇草图的画法，这次来试点别的。这种方法很适合于画角色以及画动画帧，因为画起来很快，而且聚焦于形状，而不是光和色（像像素簇草图那样）。</p>
+<p>我们来做个实际案例学习，把这节提到的都应用上。如果你想要跟着做，建议新建 64*64 分辨率的画布，用 AAP-64 调色板。</p>
+<p><strong>Step 1  — 草图</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv87ygl3j30fh078mwx.jpg"></p>
+<p>第一步先忽略各种像素画的规则，尽可能流畅的勾勒出形状。基本上跟在纸上或者其他数字化的，非像素的媒介一样。不要过多考虑之后如何清理线条。完成后可以稍作整理，去除明显的标志线，定义一些形状。</p>
+<p><strong>Step 2  — 线条清理</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvbdn60dj307j0770sh.jpg"></p>
+<p>现在开始做清理。把草图层设置成半透明，可以 右键 点击图层名称，选择属性，再调低透明度。现在可以在上面的图层去画。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8ao6foj30c007zq2q.jpg"></p>
+<p>这里的思路是画出最终的线条图。先聚焦在重点线条上，比如构成角色剪影和脸部的线条。先不要关心颜色和光影，如果想画的话可以画一点主阴影，重点还是把主要形状弄对。</p>
+<p><strong>Step 3  —  底色</strong></p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovve85R4AL3Ns9CkkPy3GZ91D8PLYmrl3Sc3WztQWvgHOec9h0XZDLrg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>很简单的一步，找到符合需求的颜色，用油漆桶填充进去。避免过于饱和和过亮的颜色。还不到画光影的时候，但是要考虑好画面应该如何被照亮，有些区域会被周围的颜色影响。</p>
+<p><strong>Step 4  —  光影</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv88aqv3j307p077gld.jpg"></p>
+<p>开始给画添加光影，添加明暗区域。试着想象光会如何照射到你画的物体上，相应的渲染。这一步找个参考图是个很好的办法。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvaibzjbj309z07h742.jpg"></p>
+<p>我喜欢在这一步通过给弧线加上较深的颜色，来尽量弱化黑色的描边，就好像是做抗锯齿。不过别做太过，不然线条看起来会模糊。</p>
+<p>这一步可以调整线条，但重点是光影。</p>
+<p><strong>Step 5  —  线条上色和抗锯齿</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8c2gduj307p07agld.jpg" alt="图片"></p>
+<p>之前提到过，过多的黑色描边可能会分散注意力。通过上色来弱化他们是个不错的方法。只要找到周围最近，最深的颜色，并把描边改成这个色的更深版本就行。</p>
+<p>如果这个描边是用来分隔明显的区域，比如脖子和脸颊，衣领和头发，你可以画很深色，甚至保留黑色。这也是为什么我喜欢保持黑色的角色外层描边。弱化的过渡一般用亮一点的线，比如鼻子的线条。</p>
+<p><strong>Step 6  — 打磨细节</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvb2fvmtj307t076t8h.jpg"></p>
+<p>最后这步你需要确定所有线条都做过抗锯齿，所有阴影过渡都合理的软化过（或者没有！如果是硬过渡的话。），并添加上所有细节。</p>
+<p>添加背光，小的高亮，反射区域。因为所有东西都就位了，你可以衡量想要在画面添加多少细节。不要做得太过，注意别加入过多噪点。</p>
+<p>这就完成了！多去练习，并试着把前几节的概念也融入进来。</p>
+<p>Good luck!</p>
+]]></content>
+      <categories>
+        <category>像素美工(Pixel Art Designing)</category>
+        <category>开始画像素画(Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>像素宝典#1</title>
+    <url>/archives/5b27815c.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gc22zucj30u00gwacm.jpg"></p>
+<a id="more"></a>
 
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解简单的闪光效果、烟雾效果、攻击动画和跑步循环。</p>
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhstr5fj30u008c74z.jpg"></p>
+<h3 id="简单的闪光效果"><a href="#简单的闪光效果" class="headerlink" title="简单的闪光效果"></a>简单的闪光效果</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhu4pzrg30gg0hsqdi.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji9bylbg30gg0hs130.gif"></p>
+<p>这是个简单的闪光动画，最重要的就是时机的掌握。第三帧可以掠过大部分你想闪的区域。</p>
+<p>可以只用左边的简单效果，或者插入一个空白帧后，再加上右边的额外闪光效果。甚至是只用这个额外的部分，取决于实际的效果。</p>
+<h3 id="简单的攻击动画"><a href="#简单的攻击动画" class="headerlink" title="简单的攻击动画"></a>简单的攻击动画</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhwy03pg30e80e87it.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhyq5xhg30e80e8n9u.gif"></p>
+<p>这个稍微复杂点，如何画个最简洁的攻击动画</p>
+<p>做攻击动画最重要的一点就是让玩家输入后瞬间得到反馈。所以第一帧就要立即覆盖攻击判定区域，不要加预判动作，啥都别加。</p>
+<p>整个动作非常的快，还要确保他返回到空闲状态。我通常会额外加一点回弹（第八帧），让动作更有趣一点。</p>
+<blockquote>
+<p>风农：大家要注意这里说的是个简单的动画，如果你的目的是做出某种带有硬直的，或者有起手动作的动画，那肯定要加入一些预备动作的帧。</p>
+<p>其实这里的重点是给反馈，无论是视觉上的还是听觉上的，要迅速的给玩家一个输入的反馈。</p>
+</blockquote>
+<h3 id="烟雾"><a href="#烟雾" class="headerlink" title="烟雾"></a>烟雾</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji6rab1g30e80e8gp4.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji0bi5wg30e80e8qgs.gif"></p>
+<p>每次处理烟雾，水花，火焰这种复杂系统的动画时，我会把这个系统分解成零件，再把这些部分分别画出来。</p>
+<p>考虑一整团烟雾是如何运动的太复杂了，但是一个小的部分的运动相对来说简单一些。</p>
+<p>最后那个例子是个循环烟雾的效果，跟另外几个的区别在于，我差不多每 4 帧就多生成一些烟雾。并且在第一帧延续最后一帧的粒子效果。以后我会对这个循环动画做一期教程讲解。</p>
+<blockquote>
+<p>风农：最后那个循环动画，大家注意看，就是当烟雾快没了的时候，就再生成几个新的大块，同时最后一帧没有消散的粒子，在第一帧里延续下来。这样就循环起来了。拆开看更清楚。</p>
+</blockquote>
+<h3 id="攻击动画-tips"><a href="#攻击动画-tips" class="headerlink" title="攻击动画 tips"></a>攻击动画 tips</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji1yks4g30e609ctb7.gif"></p>
+<p>这个小 tip 是为了回答来自 Cam 的提问：</p>
+<p>“如果剑在角色身前，该怎么画剑的动画？有什么区别吗？剑停在身后的时候那个弧线比较好懂，我想知道在身前的话该怎么画。”</p>
+<p>好问题，如果剑在身前，直接把它往下移动看起来没什么力。有时候，剑，拳头，或者别的什么东西不在你想要的位置，你可能觉得要加个准备帧。这没错，<strong>但是这可以做个假</strong>。我通常会用个”风斩“，或者其他的模糊效果来模拟它。假装攻击是从你想要的位置发起的，而且极大的夸张了整个动作。玩家不会察觉到缺少了准备帧。另外一个技巧就是用长点的返回动画。</p>
+<p>还有，声明一下，上个教程虽然没提，但是我们做的是”玩家的动画“。敌人的动画是应该有准备帧的。有些游戏里玩家也有准备帧，（像恶魔城 Castlevania）。后面我会在进阶一点的攻击动画教程里详细讲，但一般是需要遵守这条法则的，除非你想让玩家感到无力，或者让敌人不好预测，这类东西。</p>
+<p>风农：教程里频繁出现 anticipation frame 这个词，我通常翻译为准备帧。这个概念可以在网上搜到，比如维基百科有个动画的 12 项基本法则，里面有这么一条：</p>
+<blockquote>
+<p>预期动作（Anticipation）</p>
+<p>物体从静止到开始动作前会有所谓的预期动作，可让观众能预知下个动作。例如从高空往下跳跃时会先弯曲膝盖再跳、正在跑步的人要停止跑步前会逐渐变慢步伐等等。在动画中适当加入预期动作不仅可增添生动性，亦可给予观众惊喜性。</p>
+</blockquote>
+<p>感兴趣的可以去看看另外一些法则，如果你需要示例比对，可以去看猫和老鼠，这些东西基本都是美式动漫的风格。</p>
+<h3 id="简单跑步循环"><a href="#简单跑步循环" class="headerlink" title="简单跑步循环"></a>简单跑步循环</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji7o366g30e80e8dlg.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji64j3ig30e80e8dr9.gif"></p>
+<p>大家好像非常想要个走/跑的教程，这就来了。走/跑的动画还是很复杂的，我尽力做出了我能做到的最简洁的动作。我计划对这个主题再做几个教程，关注不同的部位，比如手臂，腿，头部运动，倾斜度等等。</p>
+<p>对学习走/跑动画的同学，我最大的建议是<strong>注意头部的运动</strong>。即使手和腿的动作不太好，但只要头部动作够好，就可以让人信服。</p>
+<p>现在我解释下为什么选这个跑步循环。可能很多人不会喜欢这个“跳起”帧，更想用“过渡位置”帧，像这种：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji3an8cj302m02r0ak.jpg"></p>
+<p>这种也完全 ok。这里只是我能想到的最简单的方式，来做出适合 platformer 类型的跑步动作。走/跑的动画很能体现角色的个性，所以会有无数种方式来做。</p>
+<p>我倾向于“跳起”帧的原因是它非常容易复制，往下拉一两个像素，再稍微动动手和腿，就能得到个“下落”帧。我觉得这种方法做快跑动画非常高效。</p>
+<p>另一个原因是，如果第一帧是个跳跃，就感觉角色瞬间扎进了动作里，让动画更有活力。</p>
+]]></content>
+      <categories>
+        <category>像素美工(Pixel Art Designing)</category>
+        <category>像素宝典(Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PAT (Basic Level) Practice</title>
+    <url>/archives/d04381bb.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gaod1uuj30xc0ir3zq.jpg"></p>
+<a id="more"></a>
 
+<p>本文是PAT乙级题库记录博客。</p>
 <br/>
 
 <p>PAT⼄级考试应具备的能⼒:</p>
@@ -5336,71 +5587,12 @@
       </tags>
   </entry>
   <entry>
-    <title>像素宝典#1</title>
-    <url>/archives/5b27815c.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解简单的闪光效果、烟雾效果、攻击动画和跑步循环。</p>
-<a id="more"></a>
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhstr5fj30u008c74z.jpg"></p>
-<h3 id="简单的闪光效果"><a href="#简单的闪光效果" class="headerlink" title="简单的闪光效果"></a>简单的闪光效果</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhu4pzrg30gg0hsqdi.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji9bylbg30gg0hs130.gif"></p>
-<p>这是个简单的闪光动画，最重要的就是时机的掌握。第三帧可以掠过大部分你想闪的区域。</p>
-<p>可以只用左边的简单效果，或者插入一个空白帧后，再加上右边的额外闪光效果。甚至是只用这个额外的部分，取决于实际的效果。</p>
-<h3 id="简单的攻击动画"><a href="#简单的攻击动画" class="headerlink" title="简单的攻击动画"></a>简单的攻击动画</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhwy03pg30e80e87it.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhyq5xhg30e80e8n9u.gif"></p>
-<p>这个稍微复杂点，如何画个最简洁的攻击动画</p>
-<p>做攻击动画最重要的一点就是让玩家输入后瞬间得到反馈。所以第一帧就要立即覆盖攻击判定区域，不要加预判动作，啥都别加。</p>
-<p>整个动作非常的快，还要确保他返回到空闲状态。我通常会额外加一点回弹（第八帧），让动作更有趣一点。</p>
-<blockquote>
-<p>风农：大家要注意这里说的是个简单的动画，如果你的目的是做出某种带有硬直的，或者有起手动作的动画，那肯定要加入一些预备动作的帧。</p>
-<p>其实这里的重点是给反馈，无论是视觉上的还是听觉上的，要迅速的给玩家一个输入的反馈。</p>
-</blockquote>
-<h3 id="烟雾"><a href="#烟雾" class="headerlink" title="烟雾"></a>烟雾</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji6rab1g30e80e8gp4.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji0bi5wg30e80e8qgs.gif"></p>
-<p>每次处理烟雾，水花，火焰这种复杂系统的动画时，我会把这个系统分解成零件，再把这些部分分别画出来。</p>
-<p>考虑一整团烟雾是如何运动的太复杂了，但是一个小的部分的运动相对来说简单一些。</p>
-<p>最后那个例子是个循环烟雾的效果，跟另外几个的区别在于，我差不多每 4 帧就多生成一些烟雾。并且在第一帧延续最后一帧的粒子效果。以后我会对这个循环动画做一期教程讲解。</p>
-<blockquote>
-<p>风农：最后那个循环动画，大家注意看，就是当烟雾快没了的时候，就再生成几个新的大块，同时最后一帧没有消散的粒子，在第一帧里延续下来。这样就循环起来了。拆开看更清楚。</p>
-</blockquote>
-<h3 id="攻击动画-tips"><a href="#攻击动画-tips" class="headerlink" title="攻击动画 tips"></a>攻击动画 tips</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji1yks4g30e609ctb7.gif"></p>
-<p>这个小 tip 是为了回答来自 Cam 的提问：</p>
-<p>“如果剑在角色身前，该怎么画剑的动画？有什么区别吗？剑停在身后的时候那个弧线比较好懂，我想知道在身前的话该怎么画。”</p>
-<p>好问题，如果剑在身前，直接把它往下移动看起来没什么力。有时候，剑，拳头，或者别的什么东西不在你想要的位置，你可能觉得要加个准备帧。这没错，<strong>但是这可以做个假</strong>。我通常会用个”风斩“，或者其他的模糊效果来模拟它。假装攻击是从你想要的位置发起的，而且极大的夸张了整个动作。玩家不会察觉到缺少了准备帧。另外一个技巧就是用长点的返回动画。</p>
-<p>还有，声明一下，上个教程虽然没提，但是我们做的是”玩家的动画“。敌人的动画是应该有准备帧的。有些游戏里玩家也有准备帧，（像恶魔城 Castlevania）。后面我会在进阶一点的攻击动画教程里详细讲，但一般是需要遵守这条法则的，除非你想让玩家感到无力，或者让敌人不好预测，这类东西。</p>
-<p>风农：教程里频繁出现 anticipation frame 这个词，我通常翻译为准备帧。这个概念可以在网上搜到，比如维基百科有个动画的 12 项基本法则，里面有这么一条：</p>
-<blockquote>
-<p>预期动作（Anticipation）</p>
-<p>物体从静止到开始动作前会有所谓的预期动作，可让观众能预知下个动作。例如从高空往下跳跃时会先弯曲膝盖再跳、正在跑步的人要停止跑步前会逐渐变慢步伐等等。在动画中适当加入预期动作不仅可增添生动性，亦可给予观众惊喜性。</p>
-</blockquote>
-<p>感兴趣的可以去看看另外一些法则，如果你需要示例比对，可以去看猫和老鼠，这些东西基本都是美式动漫的风格。</p>
-<h3 id="简单跑步循环"><a href="#简单跑步循环" class="headerlink" title="简单跑步循环"></a>简单跑步循环</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji7o366g30e80e8dlg.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji64j3ig30e80e8dr9.gif"></p>
-<p>大家好像非常想要个走/跑的教程，这就来了。走/跑的动画还是很复杂的，我尽力做出了我能做到的最简洁的动作。我计划对这个主题再做几个教程，关注不同的部位，比如手臂，腿，头部运动，倾斜度等等。</p>
-<p>对学习走/跑动画的同学，我最大的建议是<strong>注意头部的运动</strong>。即使手和腿的动作不太好，但只要头部动作够好，就可以让人信服。</p>
-<p>现在我解释下为什么选这个跑步循环。可能很多人不会喜欢这个“跳起”帧，更想用“过渡位置”帧，像这种：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji3an8cj302m02r0ak.jpg"></p>
-<p>这种也完全 ok。这里只是我能想到的最简单的方式，来做出适合 platformer 类型的跑步动作。走/跑的动画很能体现角色的个性，所以会有无数种方式来做。</p>
-<p>我倾向于“跳起”帧的原因是它非常容易复制，往下拉一两个像素，再稍微动动手和腿，就能得到个“下落”帧。我觉得这种方法做快跑动画非常高效。</p>
-<p>另一个原因是，如果第一帧是个跳跃，就感觉角色瞬间扎进了动作里，让动画更有活力。</p>
-]]></content>
-      <categories>
-        <category>像素美工(Pixel Art Designing)</category>
-        <category>像素宝典(Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>像素宝典#2</title>
     <url>/archives/c22ed0e6.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解俯视跑步循环、闪电效果、故障效果和关卡设计流程。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljtg9axfbj30u00gwwh2.jpg"></p>
 <a id="more"></a>
 
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解俯视跑步循环、闪电效果、故障效果和关卡设计流程。</p>
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljth1mvn7j30u008c74z.jpg"></p>
 <h3 id="像素画基础-1"><a href="#像素画基础-1" class="headerlink" title="像素画基础 1"></a>像素画基础 1</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljtjoj81ag30e80e8e81.gif"></p>
@@ -5454,9 +5646,10 @@
   <entry>
     <title>像素宝典#3</title>
     <url>/archives/a2511f33.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解水、火的特效、无缝循环、植物和骷髅。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmj12rxdzj30u00gw0vb.jpg"></p>
 <a id="more"></a>
 
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解水、火的特效、无缝循环、植物和骷髅。</p>
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmib88u5vj30u008c74z.jpg"></p>
 <h3 id="水"><a href="#水" class="headerlink" title="水"></a>水</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glmibewya6g30e80e8dy9.gif"></p>
@@ -5512,9 +5705,10 @@
   <entry>
     <title>像素宝典#4</title>
     <url>/archives/2b4d75d3.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解角色设计、动画、像素运动、爆炸效果和怪异科技效果。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh6kh6rfj30u00gwq5i.jpg"></p>
 <a id="more"></a>
 
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解角色设计、动画、像素运动、爆炸效果和怪异科技效果。</p>
 <p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。</p>
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh6yz1yrj30u008c74z.jpg"></p>
@@ -5562,9 +5756,10 @@
   <entry>
     <title>像素宝典#5</title>
     <url>/archives/2b4d75d4.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解视差和深度、渲染技巧、动画缓冲、像素画流程和废墟画法。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg68cmcdj30u00gw0va.jpg"></p>
 <a id="more"></a>
 
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解视差和深度、渲染技巧、动画缓冲、像素画流程和废墟画法。</p>
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg6zwi43j30u008c74z.jpg"></p>
 <h3 id="视差和深度"><a href="#视差和深度" class="headerlink" title="视差和深度"></a>视差和深度</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg71rziog30e80e8hdt.gif"></p>
@@ -5634,9 +5829,10 @@
   <entry>
     <title>像素宝典#6</title>
     <url>/archives/c54314ff.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解各种特效和飞行动画。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gfw3rb7j30u00gwq5i.jpg"></p>
 <a id="more"></a>
 
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解各种特效和飞行动画。</p>
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm78a6los3j30u008c74z.jpg" alt="图片"></p>
 <h3 id="宇宙飞船推进器"><a href="#宇宙飞船推进器" class="headerlink" title="宇宙飞船推进器"></a>宇宙飞船推进器</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm78a8i99rg30e80e8qlp.gif"></p>
@@ -5698,9 +5894,10 @@
   <entry>
     <title>像素宝典#7</title>
     <url>/archives/b2442469.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解粘液、岩石构成、植物、城市背景以及像素画基础。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3ggb6wi8j30u00gwtb9.jpg"></p>
 <a id="more"></a>
 
+<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解粘液、岩石构成、植物、城市背景以及像素画基础。</p>
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qfvi92oj30u008c3z7.jpg"></p>
 <h3 id="液体-粘液"><a href="#液体-粘液" class="headerlink" title="液体 / 粘液"></a>液体 / 粘液</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qetza7hg30e80e8qhl.gif"></p>
@@ -5750,11 +5947,10 @@
   <entry>
     <title>Pico-8 精彩代码--植物生长解析</title>
     <url>/archives/2c20cac3.html</url>
-    <content><![CDATA[<p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将学习如何实现植物生长的效果。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3ggpnhasj30m80cidgo.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将学习如何实现植物生长的效果。</p>
 <h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p>效果截图：</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq0g2efhg30hq07maji.gif"></p>
 <h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p><strong>作者：</strong>2DArray </p>
@@ -5803,9 +5999,10 @@
   <entry>
     <title>Pico-8 精彩代码--漩涡效果解析</title>
     <url>/archives/2a6e7125.html</url>
-    <content><![CDATA[<p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现漩涡的效果。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gh7y1gbj30m80ciaat.jpg"></p>
 <a id="more"></a>
 
+<p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现漩涡的效果。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljxi27lo3g30ar0arx6q.gif"></p>
 <h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p><strong>作者：</strong>2DArray<br><strong>来源：</strong>twiiter</p>
 <p>神奇的漩涡效果，代码发布在作者的 twitter 上，整理下只有 11 行：</p>
@@ -5844,9 +6041,10 @@
   <entry>
     <title>Pico-8 精彩代码--触手效果解析</title>
     <url>/archives/6b115460.html</url>
-    <content><![CDATA[<p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现触手的效果。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3ghn3hb8j30m80ci753.jpg"></p>
 <a id="more"></a>
 
+<p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现触手的效果。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gln5jaei1kg30bp0bx7u5.gif"></p>
 <h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p><strong>作者：</strong>Luca@lucatron_<br><strong>来源：</strong>twitter</p>
 <p>整理过后 14 行代码：</p>
@@ -5884,10 +6082,10 @@
   <entry>
     <title>Pico-8 精彩代码--摇曳树木效果解析</title>
     <url>/archives/31df4d37.html</url>
-    <content><![CDATA[<p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现摇曳的树木的效果。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3ghx7w6zj30m80cidgj.jpg"></p>
 <a id="more"></a>
 
-
+<p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现摇曳的树木的效果。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glr5cnac3hg30ak0aib29.gif"></p>
 <p><strong>作者：</strong> Luca Harris @lucatron_<br><strong>来源：</strong>twitter</p>
 <p>整理了一下作者的代码，共计15行：</p>
@@ -5917,11 +6115,10 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--那年的那些顾客</title>
     <url>/archives/c35ec0ed.html</url>
-    <content><![CDATA[<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在苏宁电器遇到的奇闻趣事。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gkul8l5j315o0i4jz6.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在苏宁电器遇到的奇闻趣事。</p>
 <p>我接下来要讲的这些，可能会得罪一些人，但这也是没办法的事。我知道，大家其实都是在维护自己的利益，很多时候也是无可厚非的。但是既然你的一些行为来到了我的记忆，那么写出来也未尝不可。</p>
 <h4 id="上电视"><a href="#上电视" class="headerlink" title="上电视"></a>上电视</h4><p>当我还在诺基亚的时候，有一位顾客买了一部诺基亚手机，可能是因为手机天生缺陷，买回去之后没多久就出现了故障，于是就拿到售后去维修。问题似乎还比较严重，售后就给他换了一块主板。修好了，顾客开机之后发现，他的手机变成了中国移动定制版，开机就是移动的动画，壁纸也是移动的壁纸。他立刻就不干了，来我们柜台进行了一番火爆的理论，双方都没能把问题解决掉。之后又来了几次，我们这边也都说解决不了。于是过了几天，他请了电视台的（也有可能是他朋友）扛着摄像机就把和我们双方理论的过程拍下来，第二天就上了电视。当时我们还调侃，我们店的客诉主管和手机品类督导终于上电视了。</p>
 <h4 id="差点挨打"><a href="#差点挨打" class="headerlink" title="差点挨打"></a>差点挨打</h4><p>这次的主角换成了我，此时我已经来到了苹果专区。一次一位顾客找到我，说他刚买的苹果手机的充电器坏了，我试了一下，果然坏了。于是我就说，这个您需要去找苹果售后调换。然后，毫无征兆地他就发脾气了，说我怎么能这么说话（我怎么说话了？），你赶紧给我解决，否则别想走！我有点懵，不知怎么办好了。因为货已经出了柜台，有问题确实是要去找苹果售后解决的。可是他的脾气上来什么也不听，我们店的手机品类督导，安保人员也来了，远远地看着我和他，他坐在我们苹果专区一顿骂，确实是有动手的打算（我心里还是挺怕的）。后来没办法，我将我们样机的充电器和他换了（其实这是不允许的），风波才告一段落。结果没几天，他又来了，一拍我后背，我吓一跳。他说他的耳机也坏了，我为了息事宁人，将自己的山寨耳机给他了（没告诉他那是山寨的）。他见他的手机配件总是出问题，就很怀疑自己的手机是不是也是有问题的，我再三解释说我们销售的是正品行货，他也是半信半疑。然后就没再见过他了。看来性格和手机的品质也是挂钩的。</p>
@@ -5947,13 +6144,9 @@
   <entry>
     <title>R语言数据分析方法论</title>
     <url>/archives/730c27b4.html</url>
-    <content><![CDATA[<p>本文主要讨论数据分析与数据挖掘的基本原理与方法论，在艾新波老师的指引下对数据科学的整体有一个大致的了解，领悟核心的数据分析思想。</p>
-<a id="more"></a>
+    <content><![CDATA[<a id="more"></a>
 
-
-
-
-
+<p>本文主要讨论数据分析与数据挖掘的基本原理与方法论，在艾新波老师的指引下对数据科学的整体有一个大致的了解，领悟核心的数据分析思想。</p>
 <h3 id="气象万千-数以等观"><a href="#气象万千-数以等观" class="headerlink" title="气象万千 数以等观"></a>气象万千 数以等观</h3><p>随着数字时代的来临，我们身边的设备和系统表现出越来越多的令人惊叹的智能。比如我们上传一张照片到某个网站，它会自动识别出来里面每个人的年龄；在某些诊疗系统里面，通过一些具体的医疗图像它可以识别出来玩吗身体的状况是否有疾病，它一些疾病（比如肺癌）的治疗水平已经超过了一些医生；再比如我们利用某个聊天软件聊天的时候，朋友发过来一段语音，它可以自动识别语音转文字；当我们用某个音乐播放器时间久了，它也会自动识别出来我们的喜好，推荐一些我们感兴趣的歌曲。毫无疑问，这些类似的设备和系统表现出来的行为，它都不是我们事先人为设定的一些规则，而是基于大量的数据发现一些规律、识别一些模式，然后才表现出这些让我们比较惊叹的一些人工智能的行为。总结一下：<strong>所有的智能行为时源于发现了数据背后的规律</strong>。</p>
 <h4 id="从人类历史上第一个被发现的定律说起"><a href="#从人类历史上第一个被发现的定律说起" class="headerlink" title="从人类历史上第一个被发现的定律说起"></a>从人类历史上第一个被发现的定律说起</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq1jgxgaj31hc0m80z8.jpg"></p>
 <p><strong>波义耳定律（1662年）</strong>：密闭容器中的定量气体在恒温下，其体积和压强成反比：$p=f(v)=\frac{k}{v}$</p>
@@ -6068,11 +6261,10 @@
   <entry>
     <title>Unity Student Plan申请指南</title>
     <url>/archives/e8e3308a.html</url>
-    <content><![CDATA[<p>本文转载了Unity社区的优秀博主 <a href="https://unity.cn/u/michael-wang-2/?tab=article">Michael Wang</a> 的 <a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">Unity Student Plan申请指南！</a>，希望通过转载的方式可以帮助到对 Unity Pro 购买上有困难的在读学生申请「Unity Student Plan」。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gmur5q2j31hc0u0n1c.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>本文转载了Unity社区的优秀博主 <a href="https://unity.cn/u/michael-wang-2/?tab=article">Michael Wang</a> 的 <a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">Unity Student Plan申请指南！</a>，希望通过转载的方式可以帮助到对 Unity Pro 购买上有困难的在读学生申请「Unity Student Plan」。</p>
 <p><strong>支持正版Unity从我做起！拒绝盗版，拒绝破解！</strong></p>
 <ul>
 <li><p>想使用 Unity 深色主题吗？</p>
@@ -6140,11 +6332,10 @@
   <entry>
     <title>GoogleDinosaur--Unity2D游戏开发</title>
     <url>/archives/87cbf473.html</url>
-    <content><![CDATA[<p>本文将使用Unity2D复刻谷歌小恐龙游戏。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gnyhb2mj31400u0mzn.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>本文将使用Unity2D复刻谷歌小恐龙游戏。</p>
 <h3 id="素材切片与场景搭建"><a href="#素材切片与场景搭建" class="headerlink" title="素材切片与场景搭建"></a>素材切片与场景搭建</h3><p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gmidiukv4wj30aj0b0q49.jpg"></p>
 <p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gmidp5p593j308n0cwq3q.jpg"></p>
 <h3 id="背景制作"><a href="#背景制作" class="headerlink" title="背景制作"></a>背景制作</h3><p>复制一个与之相同的地板，两者首尾相连。</p>
@@ -7541,201 +7732,12 @@
       </tags>
   </entry>
   <entry>
-    <title>Markdown入门指南</title>
-    <url>/archives/dbc11c00.html</url>
-    <content><![CDATA[<p>有关 Markdown 的概述、工作原理、用途以及语法快速参考手册 / 速查表。</p>
-<a id="more"></a>
-
-
-
-<h3 id="入门指南"><a href="#入门指南" class="headerlink" title="入门指南"></a>入门指南</h3><h4 id="Markdown-是什么？"><a href="#Markdown-是什么？" class="headerlink" title="Markdown 是什么？"></a>Markdown 是什么？</h4><p>Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添加格式化元素。Markdown 由 <a href="https://daringfireball.net/projects/markdown/">John Gruber</a> 于 2004 年创建，如今已成为世界上最受欢迎的标记语言之一。</p>
-<p>使用 Markdown 与使用 <a href="https://en.wikipedia.org/wiki/WYSIWYG">WYSIWYG</a> 编辑器不同。在 Microsoft Word 之类的应用程序中，单击按钮以设置单词和短语的格式，并且，更改立即可见。而 Markdown 与此不同，当你创建 Markdown 格式的文件时，可以在文本中添加 Markdown 语法，以指示哪些单词和短语看起来应该有所不同。</p>
-<p>例如，要表示标题，只须在短语前面添加一个井号即可（例如， <code># Heading One</code>）。或者要加粗一个短语，只须在短语前后各加两个星号即可（例如，<code>**this text is bold**</code>）。可能需要一段时间才能习惯在文本中看到 Markdown 语法，尤其是如果你已习惯了所见即所得的应用程序。以下屏幕截展示了 Markdown 文件在 <a href="https://atom.io/">Atom 文本编辑器</a> 中显示的效果。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbqcquj2lj31360go41p.jpg" alt="Markdown file in the Atom text editor"></p>
-<p>你可以使用文本编辑器为纯文本文件添加 Markdown 格式的元素。或者，你也可以安装针对 macOS、Windows、Linux、iOS 和 Android 操作系统的 Markdown 应用程序。或者还可以使用一些基于 Web 的应用程序用于 Markdown 编写。</p>
-<p>依赖于你所使用的应用程序，你可能无法实时预览格式化的文档。但是没关系。<a href="https://daringfireball.net/projects/markdown/">根据 Gruber 的说法</a>，Markdown 的语法被设计为可读性强且不显眼，因此即使 Markdown 文件中的文本未经过渲染也易于阅读。</p>
-<blockquote>
-<p>Markdown 语法的首要设计目标是尽可能易读。基于这个目标，Markdown 格式的文档能够以纯文本形式原样发布，而不会看起来像被填满了标签或格式化指令。</p>
-</blockquote>
-<h4 id="为什么要使用-Markdown？"><a href="#为什么要使用-Markdown？" class="headerlink" title="为什么要使用 Markdown？"></a>为什么要使用 Markdown？</h4><p>你可能想知道为什么人们使用 Markdown 而不是所用即所得（WYSIWYG）编辑器。当你可以通过按下界面中的按钮来设置文本格式时，为什么还要使用 Markdown 来书写呢？事实证明，人们使用 Markdown 而不是 WYSIWYG 编辑器的原因有两个：</p>
-<ul>
-<li>Markdown 处处可用。人们使用它来创建 <a href="https://www.markdown.xyz/getting-started/#websites">网站</a>、<a href="https://www.markdown.xyz/getting-started/#documents">文档</a>、<a href="https://www.markdown.xyz/getting-started/#notes">便签</a>、<a href="https://www.markdown.xyz/getting-started/#books">书籍</a>、<a href="https://www.markdown.xyz/getting-started/#presentations">演示文稿</a>、<a href="https://www.markdown.xyz/getting-started/#email">邮件</a> 和 <a href="https://www.markdown.xyz/getting-started/#documentation">技术文档</a>。</li>
-<li>Markdown 是可移植的。几乎可以使用任何应用程序打开包含 Markdown 格式的文本文件。如果你不喜欢当前使用的 Markdown 应用程序了，则可以将 Markdown 文件导入另一个 Markdown 应用程序中。这与 Microsoft Word 等文字处理应用程序形成了鲜明的对比，Microsoft Word 将你的内容锁定在专有文件格式中。</li>
-<li>Markdown 是独立于平台的。你可以在运行任何操作系统的任何设备上创建 Markdown 格式的文本。</li>
-<li>Markdown 能适应未来的变化。即使你正在使用的应用程序将来会在某个时候不能使用了，你仍然可以使用文本编辑器读取 Markdown 格式的文本。当涉及需要无限期保存的书籍、大学论文和其他里程碑式的文件时，这是一个重要的考虑因素。</li>
-<li>Markdown 无处不在。例如 Reddit 和 GitHub 等网站都支持 Markdown，许多桌面和基于 Web 的应用程序也都支持 Markdown。</li>
-</ul>
-<h4 id="工欲善其事，必先利其器"><a href="#工欲善其事，必先利其器" class="headerlink" title="工欲善其事，必先利其器"></a>工欲善其事，必先利其器</h4><p>Markdown 入门的最佳方式就是多使用它。由于有大量免费工具的存在，这比以前任何时候都更容易开始上手了。</p>
-<p>你甚至都不需要下载任何程序，就可以使用几种在线的 Markdown 编辑器来编写 Markdown。<a href="https://dillinger.io/">Dillinger</a> 是最好的在线 Markdown 编辑器之一。进入其站点就可以开始在左侧窗格中书写了。渲染后的文档在右侧窗格预览。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbqcrss2lj30s90mun01.jpg"></p>
-<p>阅读本指南时，你可以打开 Dillinger 网站。这样，你就可以一边学习 Markdown 语法一边练习了。熟悉 Markdown 之后，你可以在台式计算机或移动设备上安装支持 Markdown 的应用程序。</p>
-<h4 id="Markdown-的工作原理"><a href="#Markdown-的工作原理" class="headerlink" title="Markdown 的工作原理"></a>Markdown 的工作原理</h4><p>Dillinger 让 Markdown 的编写变得容易，因为它隐藏了幕后发生的事情，但是该过程的总体工作方式是值得探索的。</p>
-<p>在使用 Markdown 格式书写时，文本内容存储在带有 <code>.md</code> 或 <code>.markdown</code> 扩展名的纯文本文件中。那然后呢？你的 Markdown 格式的文件如何转换为 HTML 或可打印的文档呢？</p>
-<p>简单来说，你需要一个能够处理 Markdown 文件的 <em>Markdown 应用程序</em>。有许多应用程序可供选择，从简单的脚本到类似于 Microsoft Word 的桌面应用程序，应有尽有。尽管它们在视觉上有所不同，但所有应用程序都执行相同的操作。像 Dillinger 一样，它们都是将 Markdown 格式的文本转换为 HTML，以便可以在 Web 浏览器中显示。</p>
-<p>Markdown 应用程序使用一种称为 <em>Markdown 处理器</em>（也通常称为“解析器”或“实现”）的东西将获取到的 Markdown 格式的文本输出为 HTML 格式。此时，可以在 Web 浏览器中查看你的文档，或者将其与样式表组合并打印。你可以在下图看到此过程的直观表示。</p>
-<p><strong>注意：</strong> Markdown 应用程序和处理器是两个单独的组件。为了简洁起见，在下图中，我将它们组合为一个元素（即 “Markdown应用程序”）。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbqcra4hxj30c00ew0sw.jpg"></p>
-<p>总而言之，这是一个四步的过程：</p>
-<ol>
-<li>使用文本编辑器或 Markdown 专用的应用程序创建 Markdown 文件。该文件应带有 <code>.md</code> 或 <code>.markdown</code> 扩展名。</li>
-<li>在 Markdown 应用程序中打开 Markdown 文件。</li>
-<li>使用 Markdown 应用程序将 Markdown 文件转换为 HTML 文档。</li>
-<li>在 web 浏览器中查看 HTML 文件，或使用 Markdown 应用程序将其转换为其他文件格式，例如 PDF。</li>
-</ol>
-<p>从你的角度来看，该过程将根据你使用的应用程序的不同而有所不同。例如，Dillinger 本质上将第 1-3 步组合到一个单一、无缝的界面中，你要做的就是在左窗格中键入内容，然后转换结果就在右窗格中就神奇地出现了。但是，如果你使用的是其他工具（例如带有静态网站生成器的文本编辑器），则会发现该过程更为明显。</p>
-<h4 id="Markdown-有什么用？"><a href="#Markdown-有什么用？" class="headerlink" title="Markdown 有什么用？"></a>Markdown 有什么用？</h4><p>Markdown 是做笔记、为网站创建内容以及生成可打印文档的快速、简便的方法。</p>
-<p>学习 Markdown 语法并不需要很长时间，一旦你知道如何使用它，你就可以在几乎所有地方使用 Markdown 进行书写了。大多数人使用 Markdown 来为网站创建内容，但是 Markdown 也可以很好地格式化从电子邮件到购物清单的所有内容。</p>
-<p>下面是一些你可以使用 Markdown 的场景。</p>
-<h5 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h5><p>Markdown 是为 web 而设计的，因此，市面上有很多专门用于创建网站内容的应用程序就不足为奇了。</p>
-<p>如果你您正在寻找利用 Markdown 文件创建网站的最简单方法，请参考 <a href="https://blot.im/">blot.im</a> 和 <a href="https://smallvictori.es/">smallvictori.es</a> 两个站点。在你注册某个服务之后，它们将在你的计算机上创建一个 Dropbox 文件夹。你只需将 Markdown 文件拖放到该文件夹中，然后嗖的一声，这些文件就在你的网站上了。再简单不过了。</p>
-<p>如果您熟悉 HTML、CSS和版本管理工具，请试试 Jekyll，这是一个广受欢迎的静态网站生成器，它能将 Markdown 文件并构建为 HTML 网站。这种方法的优势之一是 GitHub Pages 为 Jekyll 生成的网站提供免费托管服务。如果 Jekyll 不是你的理想之选，你可以在 其它大量可用的静态站点生成器 中选择一个。</p>
-<p><strong>注意：</strong> 此 <em>Markdown 指南</em> 就是用 Jekyll 创建的。你可以在 <a href="https://github.com/mattcone/markdown-guide">GitHub</a> 上查看其源码。</p>
-<p>如果你想使用内容管理系统（CMS）来支撑你的网站，请试试 <a href="https://www.markdown.xyz/tools/ghost/">Ghost</a>。这是一个免费的开源博客平台，具有出色的 Markdown 编辑器。如果你是 WordPress 用户，你将很高兴地知道 WordPress.com 上托管的网站都 <a href="https://en.support.wordpress.com/markdown/">支持 Markdown</a>。自托管的 WordPress 网站可以使用 <a href="https://jetpack.com/support/markdown/">Jetpack 插件</a>实现对 Markdown 的支持。</p>
-<h5 id="文件资料"><a href="#文件资料" class="headerlink" title="文件资料"></a>文件资料</h5><p>Markdown 并不具备像 Microsoft Word 这样的文字处理程序的所有功能，但是对于创建基本文件（例如作业和信件）来说已经足够了。你可以使用 Markdown 文档创作工具来创建 Markdown 格式的文档并将其导出为 PDF 或 HTML 格式。PDF 格式是关键，因为一旦有了 PDF 文档，您就可以使用它进行任何操作：打印、通过电子邮件发送或将其上传到网站。</p>
-<p>这是我推荐的一些Markdown文档创作工具：</p>
-<ul>
-<li>Mac: MacDown、iA Writer 或 Marked</li>
-<li>iOS / Android: iA Writer</li>
-<li>Windows: ghostwriter 或 Markdown Monster</li>
-<li>Linux: ReText 或 ghostwriter</li>
-<li>Web: Dillinger 或 StackEdit</li>
-</ul>
-<p>提示： iA Writer 提供了模板用于预览、打印和导出 Markdown 格式的文档。例如，“ Academic – MLA 样式”的模板会缩进段落并添加双倍行间距。</p>
-<h5 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h5><p>在几乎所有方面，Markdown 都是记笔记的理想语法。不幸的是，两个最受欢迎的笔记应用程序 <a href="https://evernote.com/">Evernote</a> 和 <a href="https://www.onenote.com/">OneNote</a> 目前都不支持 Markdown。好消息是，其他一些笔记应用程序 <em>是</em> 支持 Markdown 的：</p>
-<ul>
-<li>Simplenote 是适用于所有平台的免费、简单的笔记应用程序。</li>
-<li>Notable 是可以在各种平台上运行的笔记应用程序。</li>
-<li>Bear 是适用于 Mac 和 iOS 设备的类似 Evernote 的应用程序。默认情况下，它并不专门针对 Markdown 的，但是你可以启用 Markdown 兼容模式。</li>
-<li>Boostnote 自称是“专为程序员设计的开源笔记应用程序”。</li>
-</ul>
-<p>如果你无法放弃 Evernote，可以试试 <a href="https://marxi.co/">Marxico</a>，一个专门针对 Evernote 的基于订阅付费的 Markdown编辑器，或在 Evernote 网站上使用 <a href="https://www.markdown.xyz/tools/markdown-here/">Markdown Here</a> 插件。</p>
-<h5 id="书籍"><a href="#书籍" class="headerlink" title="书籍"></a>书籍</h5><p>想要自行出版小说？请试试 <a href="https://leanpub.com/">Leanpub</a>，该服务可将你的 Markdown 格式的文件转换为电子书。Leanpub 以 PDF、EPUB 和 MOBI 文件格式输出你的图书。如果你要创建纸版书籍，可以将 PDF 文件上传到类似 <a href="https://kdp.amazon.com/">Kindle Direct Publishing</a> 之类的服务提供商处。要了解有关使用 Markdown 编写和自行出版书籍的更多信息，请阅读 <a href="https://medium.com/techspiration-ideas-making-it-happen/how-i-wrote-and-published-my-novel-using-only-open-source-tools-5cdfbd7c00ca">此博文</a>。</p>
-<h5 id="演示文稿"><a href="#演示文稿" class="headerlink" title="演示文稿"></a>演示文稿</h5><p>信不信由你，你可以将 Markdown 格式的文件转换成演示文稿。在 Markdown 中创建演示文稿需要一点时间来适应，但是一旦你掌握了它，你就能体会到比使用 PowerPoint 或 Keynote 之类的应用程序更快、更容易。<a href="https://remarkjs.com/">Remark</a>（<a href="https://github.com/gnab/remark">GitHub 仓库</a>）和 <a href="https://jdan.github.io/cleaver/">Cleaver</a>（<a href="https://github.com/jdan/cleaver">GitHub 仓库</a>）一样，是一种基于浏览器的、流行的 Markdown 幻灯片工具。如果你使用的是 Mac，并且希望安装一个应用程序来使用的话，请试试 <a href="https://www.decksetapp.com/">Deckset</a> 或 <a href="https://marked2app.com/">Marked</a>。</p>
-<h5 id="邮件"><a href="#邮件" class="headerlink" title="邮件"></a>邮件</h5><p>如果你需要发送大量电子邮件，并且对大多数电子邮件提供商网站上可用的格式设置控件感到厌倦，那么你将很高兴地发现有一种使用 Markdown 编写电子邮件的简便方法：Markdown Here 是一个免费、开源的浏览器扩展程序，可将 Markdown 格式的文本转换为可用于发送的 HTML。</p>
-<h5 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h5><p>Markdown 非常适合技术文档。像 GitHub 这样的公司越来越多地转向使用 Markdown 来创建其文档了，请查看此 博文 以了解如何将 Markdown 格式的文档迁移到 Jekyll。如果你是为产品或服务编写文档，请试试以下的便捷工具：</p>
-<ul>
-<li>Read the Docs 可以将你所开源的 Markdown 文件生成文档网站。只需将你的 GitHub 仓库连接到他们的服务，然后你就可以将内容推送到该仓库中，Read the Docs 会完成其余的工作。他们还为 商业实体提供服务。</li>
-<li>MkDocs 是一个快速、简单的静态站点生成器，专门用于构建项目文档。文档源文件使用 Markdown 编写，并使用一个 YAML 配置文件进行配置。MkDocs 有多个 内置主题，包括移植自 Read the Docs 的文档主题。最新的一个主题是 MkDocs Material。</li>
-<li>Docusaurus 是一个静态网站生成器，专门用于创建文档网站。它支持翻译、搜索和版本控制。</li>
-<li>VuePress 是基于 Vue 构建的静态站点生成器，并针对编写技术文档进行了优化。</li>
-<li>Jekyll 前面已经提到过它了，但它也是将 Markdown 文件生成文档网站的一个不错的选择。如果你选择 Jekyll，请务必试试 Jekyll 文档主题。</li>
-</ul>
-<h4 id="Markdown-方言"><a href="#Markdown-方言" class="headerlink" title="Markdown 方言"></a>Markdown 方言</h4><p>使用 Markdown 的过程中，最令人困惑的地方是：实际上每个 Markdown 应用程序都实现了稍有不同的 Markdown 语法。Markdown 的这些变体通常被称为 <em>flavors（方言）</em>。掌握你的应用程序所实现的 Markdown 语法是你需要注意的。</p>
-<p>为了让你了解各 Markdown 方言的概念，将它们比作语言的方言（language dialects）可能会有所帮助。华雷斯城（Ciudad Juárez）的人说西班牙语，就像巴塞罗那（Barcelona）人一样，但是两个城市使用的方言之间有很大的不同。使用不同 Markdown 应用程序的人也是如此。Dillinger 支持的 Markdown 格式与 Ulysses 有着很大的不同。</p>
-<p>实际上，这意味着当一个应用程序说它支持 “Markdown” 时，你永远也不会确切地知到它的实际意思。它说的是仅支持基本语法？还是所有基本语法加扩展语法 ？或者是某些语法的组合呢？在你阅读其文档或开始使用该应用程序之前，你永远都不会知道。</p>
-<p>如果你只是新手，我能给你的最好建议就是选择一个具有良好 Markdown 支持的应用程序。这对保持 Markdown 文件的可移植性大有帮助。你可能需要在其它应用程序中保存或使用你的 Markdown 文件，要实现这一点，你应当从使用一个具有良好 Markdown 支持的应用程序开始。你可以在 Markdown 工具列表中找到合适的应用程序。</p>
-<h4 id="其它资源"><a href="#其它资源" class="headerlink" title="其它资源"></a>其它资源</h4><p>网上有很多资源用来学习 Markdown。以下列出一些：</p>
-<ul>
-<li><a href="https://daringfireball.net/projects/markdown/">John Gruber’s Markdown documentation</a>. Markdown 的创建者编写的原始指南。</li>
-<li><a href="https://www.markdowntutorial.com/">Markdown Tutorial</a>. 一个开源网站，你能用浏览器在这个网站上尝试 Markdown。</li>
-<li><a href="https://github.com/mundimark/awesome-markdown">Awesome Markdown</a>. Markdown 工具和学习资源列表。</li>
-<li><a href="https://dave.autonoma.ca/blog/2019/05/22/typesetting-markdown-part-1">Typesetting Markdown</a>. 这是一个系列教程，介绍了使用 <a href="https://pandoc.org/">pandoc</a> 和 <a href="https://www.contextgarden.net/">ConTeXt</a> 对 Markdown 文档进行排版的系统。</li>
-</ul>
-<h3 id="速查表"><a href="#速查表" class="headerlink" title="速查表"></a>速查表</h3><h4 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h4><p>这些是 John Gruber 的原始设计文档中列出的元素。所有 Markdown 应用程序都支持这些元素。</p>
-<table>
-<thead>
-<tr>
-<th>元素</th>
-<th>Markdown 语法</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>标题（Heading）</td>
-<td><code># H1## H2### H3</code></td>
-</tr>
-<tr>
-<td>粗体（Bold）</td>
-<td><code>**bold text**</code></td>
-</tr>
-<tr>
-<td>斜体（Italic）</td>
-<td><code>*italicized text*</code></td>
-</tr>
-<tr>
-<td>引用块（Blockquote）</td>
-<td><code>&gt; blockquote</code></td>
-</tr>
-<tr>
-<td>有序列表（Ordered List）</td>
-<td><code>1. First item2. Second item3. Third item</code></td>
-</tr>
-<tr>
-<td>无序列表（Unordered List）</td>
-<td><code>- First item- Second item- Third item</code></td>
-</tr>
-<tr>
-<td>代码（Code）</td>
-<td><code>code</code></td>
-</tr>
-<tr>
-<td>分隔线（Horizontal Rule）</td>
-<td><code>---</code></td>
-</tr>
-<tr>
-<td>链接（Link）</td>
-<td><code>[title](https://www.example.com)</code></td>
-</tr>
-<tr>
-<td>图片（Image）</td>
-<td><code>![alt text](image.jpg)</code></td>
-</tr>
-</tbody></table>
-<h4 id="扩展语法"><a href="#扩展语法" class="headerlink" title="扩展语法"></a>扩展语法</h4><p>这些元素通过添加额外的功能扩展了基本语法。但是，并非所有 Markdown 应用程序都支持这些元素。</p>
-<table>
-<thead>
-<tr>
-<th>元素</th>
-<th>Markdown 语法</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>表格（Table）</td>
-<td></td>
-</tr>
-<tr>
-<td>代码块（Fenced Code Block）</td>
-<td><code>&#123; &quot;firstName&quot;: &quot;John&quot;, &quot;lastName&quot;: &quot;Smith&quot;, &quot;age&quot;: 25&#125;</code></td>
-</tr>
-<tr>
-<td>脚注（Footnote）</td>
-<td><code>Here&#39;s a sentence with a footnote. [^1][^1]: This is the footnote.</code></td>
-</tr>
-<tr>
-<td>标题编号（Heading ID）</td>
-<td><code>### My Great Heading &#123; #custom-id&#125;</code></td>
-</tr>
-<tr>
-<td>定义列表（Definition List）</td>
-<td><code>term: definition</code></td>
-</tr>
-<tr>
-<td>删除线（Strikethrough）</td>
-<td><code>~~The world is flat.~~</code></td>
-</tr>
-<tr>
-<td>任务列表（Task List）</td>
-<td><code>- [x] Write the press release- [ ] Update the website- [ ] Contact the media</code></td>
-</tr>
-</tbody></table>
-<h4 id="Downloads"><a href="#Downloads" class="headerlink" title="Downloads"></a>Downloads</h4><p>You can download this cheat sheet as a Markdown file for use in your Markdown application.</p>
-]]></content>
-      <categories>
-        <category>写作技巧(Write Skill)</category>
-        <category>Markdown</category>
-      </categories>
-      <tags>
-        <tag>Write</tag>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown基本语法</title>
     <url>/archives/42c84dba.html</url>
-    <content><![CDATA[<p>Markdown 语法公式备忘文档。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g0vcsi7j30xf0lpgps.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>Markdown 语法公式备忘文档。</p>
 <h3 id="宗旨"><a href="#宗旨" class="headerlink" title="宗旨"></a>宗旨</h3><p>Markdown 的目标是实现「易读易写」。</p>
 <p>可读性，无论如何，都是最重要的。一份使用 Markdown 格式撰写的文件应该可以直接以纯文本发布，并且看起来不会像是由许多标签或是格式指令所构成。Markdown 语法受到一些既有 text-to-HTML 格式的影响，包括 <a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a>、<a href="http://www.aaronsw.com/2002/atx/">atx</a>、<a href="http://textism.com/tools/textile/">Textile</a>、<a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>、<a href="http://www.triptico.com/software/grutatxt.html">Grutatext</a> 和 <a href="http://ettext.taint.org/doc/">EtText</a>，而最大灵感来源其实是纯文本电子邮件的格式。</p>
 <h3 id="标题（Headings）"><a href="#标题（Headings）" class="headerlink" title="标题（Headings）"></a>标题（Headings）</h3><p>要创建标题，请在单词或短语前面添加井号 (<code>#</code>) 。井号的数量代表了标题的级别。例如，添加三个井号即创建一个三级标题 (<code>&lt;h3&gt;</code>) (例如：<code>### My Header</code>)。</p>
@@ -8404,11 +8406,199 @@
       </tags>
   </entry>
   <entry>
-    <title>Pico--神奇的虚构游戏机</title>
-    <url>/archives/4adc5517.html</url>
-    <content><![CDATA[<p>由<a href="https://pico-8.fandom.com/zh/wiki/LexaloffleGames">Lexaloffle Games</a>制作的<a href="https://pico-8.fandom.com/zh/wiki/Pico8">PICO-8</a>是一台梦幻可编程游戏主机，用来制作，分享和玩小游戏和其他计算机程序（卡带，或“卡”）。这个主机提供了简单的内置工具来创造你自己的卡带。</p>
+    <title>Markdown入门指南</title>
+    <url>/archives/dbc11c00.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3g14p9u5j31360go41p.jpg"></p>
 <a id="more"></a>
 
+<p>有关 Markdown 的概述、工作原理、用途以及语法快速参考手册 / 速查表。</p>
+<h3 id="入门指南"><a href="#入门指南" class="headerlink" title="入门指南"></a>入门指南</h3><h4 id="Markdown-是什么？"><a href="#Markdown-是什么？" class="headerlink" title="Markdown 是什么？"></a>Markdown 是什么？</h4><p>Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添加格式化元素。Markdown 由 <a href="https://daringfireball.net/projects/markdown/">John Gruber</a> 于 2004 年创建，如今已成为世界上最受欢迎的标记语言之一。</p>
+<p>使用 Markdown 与使用 <a href="https://en.wikipedia.org/wiki/WYSIWYG">WYSIWYG</a> 编辑器不同。在 Microsoft Word 之类的应用程序中，单击按钮以设置单词和短语的格式，并且，更改立即可见。而 Markdown 与此不同，当你创建 Markdown 格式的文件时，可以在文本中添加 Markdown 语法，以指示哪些单词和短语看起来应该有所不同。</p>
+<p>例如，要表示标题，只须在短语前面添加一个井号即可（例如， <code># Heading One</code>）。或者要加粗一个短语，只须在短语前后各加两个星号即可（例如，<code>**this text is bold**</code>）。可能需要一段时间才能习惯在文本中看到 Markdown 语法，尤其是如果你已习惯了所见即所得的应用程序。以下屏幕截展示了 Markdown 文件在 <a href="https://atom.io/">Atom 文本编辑器</a> 中显示的效果。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbqcquj2lj31360go41p.jpg" alt="Markdown file in the Atom text editor"></p>
+<p>你可以使用文本编辑器为纯文本文件添加 Markdown 格式的元素。或者，你也可以安装针对 macOS、Windows、Linux、iOS 和 Android 操作系统的 Markdown 应用程序。或者还可以使用一些基于 Web 的应用程序用于 Markdown 编写。</p>
+<p>依赖于你所使用的应用程序，你可能无法实时预览格式化的文档。但是没关系。<a href="https://daringfireball.net/projects/markdown/">根据 Gruber 的说法</a>，Markdown 的语法被设计为可读性强且不显眼，因此即使 Markdown 文件中的文本未经过渲染也易于阅读。</p>
+<blockquote>
+<p>Markdown 语法的首要设计目标是尽可能易读。基于这个目标，Markdown 格式的文档能够以纯文本形式原样发布，而不会看起来像被填满了标签或格式化指令。</p>
+</blockquote>
+<h4 id="为什么要使用-Markdown？"><a href="#为什么要使用-Markdown？" class="headerlink" title="为什么要使用 Markdown？"></a>为什么要使用 Markdown？</h4><p>你可能想知道为什么人们使用 Markdown 而不是所用即所得（WYSIWYG）编辑器。当你可以通过按下界面中的按钮来设置文本格式时，为什么还要使用 Markdown 来书写呢？事实证明，人们使用 Markdown 而不是 WYSIWYG 编辑器的原因有两个：</p>
+<ul>
+<li>Markdown 处处可用。人们使用它来创建 <a href="https://www.markdown.xyz/getting-started/#websites">网站</a>、<a href="https://www.markdown.xyz/getting-started/#documents">文档</a>、<a href="https://www.markdown.xyz/getting-started/#notes">便签</a>、<a href="https://www.markdown.xyz/getting-started/#books">书籍</a>、<a href="https://www.markdown.xyz/getting-started/#presentations">演示文稿</a>、<a href="https://www.markdown.xyz/getting-started/#email">邮件</a> 和 <a href="https://www.markdown.xyz/getting-started/#documentation">技术文档</a>。</li>
+<li>Markdown 是可移植的。几乎可以使用任何应用程序打开包含 Markdown 格式的文本文件。如果你不喜欢当前使用的 Markdown 应用程序了，则可以将 Markdown 文件导入另一个 Markdown 应用程序中。这与 Microsoft Word 等文字处理应用程序形成了鲜明的对比，Microsoft Word 将你的内容锁定在专有文件格式中。</li>
+<li>Markdown 是独立于平台的。你可以在运行任何操作系统的任何设备上创建 Markdown 格式的文本。</li>
+<li>Markdown 能适应未来的变化。即使你正在使用的应用程序将来会在某个时候不能使用了，你仍然可以使用文本编辑器读取 Markdown 格式的文本。当涉及需要无限期保存的书籍、大学论文和其他里程碑式的文件时，这是一个重要的考虑因素。</li>
+<li>Markdown 无处不在。例如 Reddit 和 GitHub 等网站都支持 Markdown，许多桌面和基于 Web 的应用程序也都支持 Markdown。</li>
+</ul>
+<h4 id="工欲善其事，必先利其器"><a href="#工欲善其事，必先利其器" class="headerlink" title="工欲善其事，必先利其器"></a>工欲善其事，必先利其器</h4><p>Markdown 入门的最佳方式就是多使用它。由于有大量免费工具的存在，这比以前任何时候都更容易开始上手了。</p>
+<p>你甚至都不需要下载任何程序，就可以使用几种在线的 Markdown 编辑器来编写 Markdown。<a href="https://dillinger.io/">Dillinger</a> 是最好的在线 Markdown 编辑器之一。进入其站点就可以开始在左侧窗格中书写了。渲染后的文档在右侧窗格预览。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbqcrss2lj30s90mun01.jpg"></p>
+<p>阅读本指南时，你可以打开 Dillinger 网站。这样，你就可以一边学习 Markdown 语法一边练习了。熟悉 Markdown 之后，你可以在台式计算机或移动设备上安装支持 Markdown 的应用程序。</p>
+<h4 id="Markdown-的工作原理"><a href="#Markdown-的工作原理" class="headerlink" title="Markdown 的工作原理"></a>Markdown 的工作原理</h4><p>Dillinger 让 Markdown 的编写变得容易，因为它隐藏了幕后发生的事情，但是该过程的总体工作方式是值得探索的。</p>
+<p>在使用 Markdown 格式书写时，文本内容存储在带有 <code>.md</code> 或 <code>.markdown</code> 扩展名的纯文本文件中。那然后呢？你的 Markdown 格式的文件如何转换为 HTML 或可打印的文档呢？</p>
+<p>简单来说，你需要一个能够处理 Markdown 文件的 <em>Markdown 应用程序</em>。有许多应用程序可供选择，从简单的脚本到类似于 Microsoft Word 的桌面应用程序，应有尽有。尽管它们在视觉上有所不同，但所有应用程序都执行相同的操作。像 Dillinger 一样，它们都是将 Markdown 格式的文本转换为 HTML，以便可以在 Web 浏览器中显示。</p>
+<p>Markdown 应用程序使用一种称为 <em>Markdown 处理器</em>（也通常称为“解析器”或“实现”）的东西将获取到的 Markdown 格式的文本输出为 HTML 格式。此时，可以在 Web 浏览器中查看你的文档，或者将其与样式表组合并打印。你可以在下图看到此过程的直观表示。</p>
+<p><strong>注意：</strong> Markdown 应用程序和处理器是两个单独的组件。为了简洁起见，在下图中，我将它们组合为一个元素（即 “Markdown应用程序”）。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbqcra4hxj30c00ew0sw.jpg"></p>
+<p>总而言之，这是一个四步的过程：</p>
+<ol>
+<li>使用文本编辑器或 Markdown 专用的应用程序创建 Markdown 文件。该文件应带有 <code>.md</code> 或 <code>.markdown</code> 扩展名。</li>
+<li>在 Markdown 应用程序中打开 Markdown 文件。</li>
+<li>使用 Markdown 应用程序将 Markdown 文件转换为 HTML 文档。</li>
+<li>在 web 浏览器中查看 HTML 文件，或使用 Markdown 应用程序将其转换为其他文件格式，例如 PDF。</li>
+</ol>
+<p>从你的角度来看，该过程将根据你使用的应用程序的不同而有所不同。例如，Dillinger 本质上将第 1-3 步组合到一个单一、无缝的界面中，你要做的就是在左窗格中键入内容，然后转换结果就在右窗格中就神奇地出现了。但是，如果你使用的是其他工具（例如带有静态网站生成器的文本编辑器），则会发现该过程更为明显。</p>
+<h4 id="Markdown-有什么用？"><a href="#Markdown-有什么用？" class="headerlink" title="Markdown 有什么用？"></a>Markdown 有什么用？</h4><p>Markdown 是做笔记、为网站创建内容以及生成可打印文档的快速、简便的方法。</p>
+<p>学习 Markdown 语法并不需要很长时间，一旦你知道如何使用它，你就可以在几乎所有地方使用 Markdown 进行书写了。大多数人使用 Markdown 来为网站创建内容，但是 Markdown 也可以很好地格式化从电子邮件到购物清单的所有内容。</p>
+<p>下面是一些你可以使用 Markdown 的场景。</p>
+<h5 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h5><p>Markdown 是为 web 而设计的，因此，市面上有很多专门用于创建网站内容的应用程序就不足为奇了。</p>
+<p>如果你您正在寻找利用 Markdown 文件创建网站的最简单方法，请参考 <a href="https://blot.im/">blot.im</a> 和 <a href="https://smallvictori.es/">smallvictori.es</a> 两个站点。在你注册某个服务之后，它们将在你的计算机上创建一个 Dropbox 文件夹。你只需将 Markdown 文件拖放到该文件夹中，然后嗖的一声，这些文件就在你的网站上了。再简单不过了。</p>
+<p>如果您熟悉 HTML、CSS和版本管理工具，请试试 Jekyll，这是一个广受欢迎的静态网站生成器，它能将 Markdown 文件并构建为 HTML 网站。这种方法的优势之一是 GitHub Pages 为 Jekyll 生成的网站提供免费托管服务。如果 Jekyll 不是你的理想之选，你可以在 其它大量可用的静态站点生成器 中选择一个。</p>
+<p><strong>注意：</strong> 此 <em>Markdown 指南</em> 就是用 Jekyll 创建的。你可以在 <a href="https://github.com/mattcone/markdown-guide">GitHub</a> 上查看其源码。</p>
+<p>如果你想使用内容管理系统（CMS）来支撑你的网站，请试试 <a href="https://www.markdown.xyz/tools/ghost/">Ghost</a>。这是一个免费的开源博客平台，具有出色的 Markdown 编辑器。如果你是 WordPress 用户，你将很高兴地知道 WordPress.com 上托管的网站都 <a href="https://en.support.wordpress.com/markdown/">支持 Markdown</a>。自托管的 WordPress 网站可以使用 <a href="https://jetpack.com/support/markdown/">Jetpack 插件</a>实现对 Markdown 的支持。</p>
+<h5 id="文件资料"><a href="#文件资料" class="headerlink" title="文件资料"></a>文件资料</h5><p>Markdown 并不具备像 Microsoft Word 这样的文字处理程序的所有功能，但是对于创建基本文件（例如作业和信件）来说已经足够了。你可以使用 Markdown 文档创作工具来创建 Markdown 格式的文档并将其导出为 PDF 或 HTML 格式。PDF 格式是关键，因为一旦有了 PDF 文档，您就可以使用它进行任何操作：打印、通过电子邮件发送或将其上传到网站。</p>
+<p>这是我推荐的一些Markdown文档创作工具：</p>
+<ul>
+<li>Mac: MacDown、iA Writer 或 Marked</li>
+<li>iOS / Android: iA Writer</li>
+<li>Windows: ghostwriter 或 Markdown Monster</li>
+<li>Linux: ReText 或 ghostwriter</li>
+<li>Web: Dillinger 或 StackEdit</li>
+</ul>
+<p>提示： iA Writer 提供了模板用于预览、打印和导出 Markdown 格式的文档。例如，“ Academic – MLA 样式”的模板会缩进段落并添加双倍行间距。</p>
+<h5 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h5><p>在几乎所有方面，Markdown 都是记笔记的理想语法。不幸的是，两个最受欢迎的笔记应用程序 <a href="https://evernote.com/">Evernote</a> 和 <a href="https://www.onenote.com/">OneNote</a> 目前都不支持 Markdown。好消息是，其他一些笔记应用程序 <em>是</em> 支持 Markdown 的：</p>
+<ul>
+<li>Simplenote 是适用于所有平台的免费、简单的笔记应用程序。</li>
+<li>Notable 是可以在各种平台上运行的笔记应用程序。</li>
+<li>Bear 是适用于 Mac 和 iOS 设备的类似 Evernote 的应用程序。默认情况下，它并不专门针对 Markdown 的，但是你可以启用 Markdown 兼容模式。</li>
+<li>Boostnote 自称是“专为程序员设计的开源笔记应用程序”。</li>
+</ul>
+<p>如果你无法放弃 Evernote，可以试试 <a href="https://marxi.co/">Marxico</a>，一个专门针对 Evernote 的基于订阅付费的 Markdown编辑器，或在 Evernote 网站上使用 <a href="https://www.markdown.xyz/tools/markdown-here/">Markdown Here</a> 插件。</p>
+<h5 id="书籍"><a href="#书籍" class="headerlink" title="书籍"></a>书籍</h5><p>想要自行出版小说？请试试 <a href="https://leanpub.com/">Leanpub</a>，该服务可将你的 Markdown 格式的文件转换为电子书。Leanpub 以 PDF、EPUB 和 MOBI 文件格式输出你的图书。如果你要创建纸版书籍，可以将 PDF 文件上传到类似 <a href="https://kdp.amazon.com/">Kindle Direct Publishing</a> 之类的服务提供商处。要了解有关使用 Markdown 编写和自行出版书籍的更多信息，请阅读 <a href="https://medium.com/techspiration-ideas-making-it-happen/how-i-wrote-and-published-my-novel-using-only-open-source-tools-5cdfbd7c00ca">此博文</a>。</p>
+<h5 id="演示文稿"><a href="#演示文稿" class="headerlink" title="演示文稿"></a>演示文稿</h5><p>信不信由你，你可以将 Markdown 格式的文件转换成演示文稿。在 Markdown 中创建演示文稿需要一点时间来适应，但是一旦你掌握了它，你就能体会到比使用 PowerPoint 或 Keynote 之类的应用程序更快、更容易。<a href="https://remarkjs.com/">Remark</a>（<a href="https://github.com/gnab/remark">GitHub 仓库</a>）和 <a href="https://jdan.github.io/cleaver/">Cleaver</a>（<a href="https://github.com/jdan/cleaver">GitHub 仓库</a>）一样，是一种基于浏览器的、流行的 Markdown 幻灯片工具。如果你使用的是 Mac，并且希望安装一个应用程序来使用的话，请试试 <a href="https://www.decksetapp.com/">Deckset</a> 或 <a href="https://marked2app.com/">Marked</a>。</p>
+<h5 id="邮件"><a href="#邮件" class="headerlink" title="邮件"></a>邮件</h5><p>如果你需要发送大量电子邮件，并且对大多数电子邮件提供商网站上可用的格式设置控件感到厌倦，那么你将很高兴地发现有一种使用 Markdown 编写电子邮件的简便方法：Markdown Here 是一个免费、开源的浏览器扩展程序，可将 Markdown 格式的文本转换为可用于发送的 HTML。</p>
+<h5 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h5><p>Markdown 非常适合技术文档。像 GitHub 这样的公司越来越多地转向使用 Markdown 来创建其文档了，请查看此 博文 以了解如何将 Markdown 格式的文档迁移到 Jekyll。如果你是为产品或服务编写文档，请试试以下的便捷工具：</p>
+<ul>
+<li>Read the Docs 可以将你所开源的 Markdown 文件生成文档网站。只需将你的 GitHub 仓库连接到他们的服务，然后你就可以将内容推送到该仓库中，Read the Docs 会完成其余的工作。他们还为 商业实体提供服务。</li>
+<li>MkDocs 是一个快速、简单的静态站点生成器，专门用于构建项目文档。文档源文件使用 Markdown 编写，并使用一个 YAML 配置文件进行配置。MkDocs 有多个 内置主题，包括移植自 Read the Docs 的文档主题。最新的一个主题是 MkDocs Material。</li>
+<li>Docusaurus 是一个静态网站生成器，专门用于创建文档网站。它支持翻译、搜索和版本控制。</li>
+<li>VuePress 是基于 Vue 构建的静态站点生成器，并针对编写技术文档进行了优化。</li>
+<li>Jekyll 前面已经提到过它了，但它也是将 Markdown 文件生成文档网站的一个不错的选择。如果你选择 Jekyll，请务必试试 Jekyll 文档主题。</li>
+</ul>
+<h4 id="Markdown-方言"><a href="#Markdown-方言" class="headerlink" title="Markdown 方言"></a>Markdown 方言</h4><p>使用 Markdown 的过程中，最令人困惑的地方是：实际上每个 Markdown 应用程序都实现了稍有不同的 Markdown 语法。Markdown 的这些变体通常被称为 <em>flavors（方言）</em>。掌握你的应用程序所实现的 Markdown 语法是你需要注意的。</p>
+<p>为了让你了解各 Markdown 方言的概念，将它们比作语言的方言（language dialects）可能会有所帮助。华雷斯城（Ciudad Juárez）的人说西班牙语，就像巴塞罗那（Barcelona）人一样，但是两个城市使用的方言之间有很大的不同。使用不同 Markdown 应用程序的人也是如此。Dillinger 支持的 Markdown 格式与 Ulysses 有着很大的不同。</p>
+<p>实际上，这意味着当一个应用程序说它支持 “Markdown” 时，你永远也不会确切地知到它的实际意思。它说的是仅支持基本语法？还是所有基本语法加扩展语法 ？或者是某些语法的组合呢？在你阅读其文档或开始使用该应用程序之前，你永远都不会知道。</p>
+<p>如果你只是新手，我能给你的最好建议就是选择一个具有良好 Markdown 支持的应用程序。这对保持 Markdown 文件的可移植性大有帮助。你可能需要在其它应用程序中保存或使用你的 Markdown 文件，要实现这一点，你应当从使用一个具有良好 Markdown 支持的应用程序开始。你可以在 Markdown 工具列表中找到合适的应用程序。</p>
+<h4 id="其它资源"><a href="#其它资源" class="headerlink" title="其它资源"></a>其它资源</h4><p>网上有很多资源用来学习 Markdown。以下列出一些：</p>
+<ul>
+<li><a href="https://daringfireball.net/projects/markdown/">John Gruber’s Markdown documentation</a>. Markdown 的创建者编写的原始指南。</li>
+<li><a href="https://www.markdowntutorial.com/">Markdown Tutorial</a>. 一个开源网站，你能用浏览器在这个网站上尝试 Markdown。</li>
+<li><a href="https://github.com/mundimark/awesome-markdown">Awesome Markdown</a>. Markdown 工具和学习资源列表。</li>
+<li><a href="https://dave.autonoma.ca/blog/2019/05/22/typesetting-markdown-part-1">Typesetting Markdown</a>. 这是一个系列教程，介绍了使用 <a href="https://pandoc.org/">pandoc</a> 和 <a href="https://www.contextgarden.net/">ConTeXt</a> 对 Markdown 文档进行排版的系统。</li>
+</ul>
+<h3 id="速查表"><a href="#速查表" class="headerlink" title="速查表"></a>速查表</h3><h4 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h4><p>这些是 John Gruber 的原始设计文档中列出的元素。所有 Markdown 应用程序都支持这些元素。</p>
+<table>
+<thead>
+<tr>
+<th>元素</th>
+<th>Markdown 语法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>标题（Heading）</td>
+<td><code># H1## H2### H3</code></td>
+</tr>
+<tr>
+<td>粗体（Bold）</td>
+<td><code>**bold text**</code></td>
+</tr>
+<tr>
+<td>斜体（Italic）</td>
+<td><code>*italicized text*</code></td>
+</tr>
+<tr>
+<td>引用块（Blockquote）</td>
+<td><code>&gt; blockquote</code></td>
+</tr>
+<tr>
+<td>有序列表（Ordered List）</td>
+<td><code>1. First item2. Second item3. Third item</code></td>
+</tr>
+<tr>
+<td>无序列表（Unordered List）</td>
+<td><code>- First item- Second item- Third item</code></td>
+</tr>
+<tr>
+<td>代码（Code）</td>
+<td><code>code</code></td>
+</tr>
+<tr>
+<td>分隔线（Horizontal Rule）</td>
+<td><code>---</code></td>
+</tr>
+<tr>
+<td>链接（Link）</td>
+<td><code>[title](https://www.example.com)</code></td>
+</tr>
+<tr>
+<td>图片（Image）</td>
+<td><code>![alt text](image.jpg)</code></td>
+</tr>
+</tbody></table>
+<h4 id="扩展语法"><a href="#扩展语法" class="headerlink" title="扩展语法"></a>扩展语法</h4><p>这些元素通过添加额外的功能扩展了基本语法。但是，并非所有 Markdown 应用程序都支持这些元素。</p>
+<table>
+<thead>
+<tr>
+<th>元素</th>
+<th>Markdown 语法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>表格（Table）</td>
+<td></td>
+</tr>
+<tr>
+<td>代码块（Fenced Code Block）</td>
+<td><code>&#123; &quot;firstName&quot;: &quot;John&quot;, &quot;lastName&quot;: &quot;Smith&quot;, &quot;age&quot;: 25&#125;</code></td>
+</tr>
+<tr>
+<td>脚注（Footnote）</td>
+<td><code>Here&#39;s a sentence with a footnote. [^1][^1]: This is the footnote.</code></td>
+</tr>
+<tr>
+<td>标题编号（Heading ID）</td>
+<td><code>### My Great Heading &#123; #custom-id&#125;</code></td>
+</tr>
+<tr>
+<td>定义列表（Definition List）</td>
+<td><code>term: definition</code></td>
+</tr>
+<tr>
+<td>删除线（Strikethrough）</td>
+<td><code>~~The world is flat.~~</code></td>
+</tr>
+<tr>
+<td>任务列表（Task List）</td>
+<td><code>- [x] Write the press release- [ ] Update the website- [ ] Contact the media</code></td>
+</tr>
+</tbody></table>
+<h4 id="Downloads"><a href="#Downloads" class="headerlink" title="Downloads"></a>Downloads</h4><p>You can download this cheat sheet as a Markdown file for use in your Markdown application.</p>
+]]></content>
+      <categories>
+        <category>写作技巧(Write Skill)</category>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>Write</tag>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Pico--神奇的虚构游戏机</title>
+    <url>/archives/4adc5517.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gcgkgr7j30sg0hsgqx.jpg"></p>
+<a id="more"></a>
+
+<p>由<a href="https://pico-8.fandom.com/zh/wiki/LexaloffleGames">Lexaloffle Games</a>制作的<a href="https://pico-8.fandom.com/zh/wiki/Pico8">PICO-8</a>是一台梦幻可编程游戏主机，用来制作，分享和玩小游戏和其他计算机程序（卡带，或“卡”）。这个主机提供了简单的内置工具来创造你自己的卡带。</p>
 <blockquote>
 <p>本文转载了知乎专栏作家 <a href="https://www.zhihu.com/people/peng-an-dr-quest">蓬岸 Dr.Quest</a> 翻译的 <a href="https://zhuanlan.zhihu.com/p/30405996">Pico-8——神奇的虚构游戏机</a> 。原文刊载于《Skrolli》杂志，本文翻译自 2016.1E（国际版）：<a href="https://link.zhihu.com/?target=https://skrolli.fi/2016/07/pico-8-fascinating-fantasy-console/">Pico-8 – Fascinating fantasy console</a> 。</p>
 </blockquote>
@@ -8505,11 +8695,48 @@
       </tags>
   </entry>
   <entry>
-    <title>从苏宁电器到卡巴斯基--我的创业梦</title>
-    <url>/archives/1783f129.html</url>
-    <content><![CDATA[<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在本科时期的一次创业实践与反思。</p>
+    <title>从苏宁电器到卡巴斯基--来到苏宁之前的过渡</title>
+    <url>/archives/4f9e99c0.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gk214n6j31hc0u0tnf.jpg"></p>
 <a id="more"></a>
 
+<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师离开书馆来苏宁前应聘中石化的琐事。</p>
+<h4 id="国企vs私企"><a href="#国企vs私企" class="headerlink" title="国企vs私企"></a>国企vs私企</h4><p>从老师那里离职并从佳木斯回到长春后，我就直接买了回珠海的票，回到了家里面。对于我离职，家里人其实还是比较支持的，因为他们觉得卖书并不是一个长久的事业，同时也不看好这个行业。在他们那一辈人看来，还得是去当公务员或者进入国企事业单位吃大锅饭才靠谱。因为他们觉得这样的单位不可能倒闭，即便是工资少一点也没有关系，因为福利会很好。并且这样的单位，说出去也显得特别有面子，甚至还能方便亲戚朋友走后门，好处还是非常多的。所以我觉得他俩还是希望我入职这样的单位，在亲戚里面显摆一下的。说到这里我想起来，其实我的两个亲戚的孩子，和我同辈，一个去当了公务员，一个去了某知名国企。具体工资我并不清楚，但是考虑到他们所在的地方属于N线城市，因此我感觉薪水少得可怜。即便如此，我父母依旧很是羡慕那两个亲戚的孩子。就算我后来入职苏宁（当时苏宁是民企的领头羊），待遇较之前卖书的时候翻倍，他们也把苏宁当成是“大型个体户”，认为这种私企并不是多么风光的单位。尽管私企在词典里面并不是贬义词，但是在那一辈人看来，私企就是一种轻蔑的称呼。他们认为这类企业，别看今天你还活蹦乱跳的，也许明天就倒闭了。包括后来的卡巴斯基也是一样，尽管是外企，尽管我们在信息安全领域处在一个霸主的地位，但也会让他们觉得这是强弩之末的企业，也是难以得到他们的认同的。可以这么说，进了私企相当于是被判了死缓，而入职国企才会获得永生。</p>
+<p>因此，当时在我回家后，我父亲就强烈建议我试试应聘中石化。因为他之前一直都是石油系统的员工，也是做销售。但是在我看来，他那个年代做销售，是一件非常简单的事情，毕竟皇帝的女儿不愁嫁，只要天天待在办公室打打电话，喝喝茶水看看报纸就行了，自然会有很多人送上门来的，守株待兔就能够有不错的业绩了，无需再出去拓展市场，毕竟这是国企，人在其中就如同是温水煮青蛙。另外，以前我父亲有时还会去全国各地开大会，也算是旅游了，你说惬意不惬意？他在石油系统待了那么长的时间，自然也是希望我能够继承衣钵，入职中石化的。但是他毕竟脱离系统多年，也就只能通过朋友的关系来帮我找工作了。其实按照我的真实想法，我对中石化并不感兴趣，但是执拗不过他对我的殷勤希望，也就只得暂且答应。心里想着，如果待遇还不错，工作我也能够胜任的话，去中石化也无妨。其实如果现在想要进石油系统（对于应届生而言），按照正常流程，得趁它校招的时候在网上投递简历，经过层层筛选，多次笔试面试，杀败无数竞争对手，才有可能获得这个职位的。并且还有可能去一个你不愿意去的城市上班，有种千军万马过独木桥的感觉。很多时候我也挺不理解的，石油是不可再生资源，“两桶油”明明是夕阳产业，怎么还会这么受青睐呢？况且中石化目前也在试水小型超市，也是为了多元化战略的需要，提高销售额。看起来也是在为未来石油行业的衰落做好准备。即便真的是那么向往国企，好歹也去一个新能源或者经营可再生能源之类的企业吧。就比如说国家现在大力推进电动汽车的销售，提供各种补贴，这是为了什么？不就是为了有朝一日应对石油资源的短缺么，同时还能推进环保事业的发展。当然有些人的想法可能就是想要一种安逸的工作状态，那么这也无可厚非。但是老一辈人对于这种行业的向往，是时候该改一改了。</p>
+<h4 id="只因一句话，让我与中石化失之交臂"><a href="#只因一句话，让我与中石化失之交臂" class="headerlink" title="只因一句话，让我与中石化失之交臂"></a>只因一句话，让我与中石化失之交臂</h4><p>尽管入职石油系统很麻烦，可是如果依靠朋友关系，在当年，也就不需要这么费劲了。正好我父亲的一个朋友算是石油系统的一个高管，他可以把我推荐到紧挨着珠海的一个城市的中石化。好吧，事不宜迟，我整理了一下简历，我们三个就出发了。我父亲甚至还买了两瓶好酒，打算在事成之后送给当地中石化的老总，以示感谢。在路上，那个帮我介绍工作的高管特别提醒了我一件事，那就是如果面试的时候问到我以后有什么打算，他建议我说以后打算考研，这样能够让老总认为我爱学习，是个可塑之才。当时我也没多想，心里也就同意了。</p>
+<p>尽管之前已经打好招呼了，但是面试环节是不能省下来的。第一轮面试就是直接见HR经理了。当时我觉得中石化的办公环境还是不错的，尽管装修略显呆板，但能在这样的环境里办公，至少是比库房还有店面强多了。心里想着也许过段时间我就能像他们一样，每天穿着白衬衫黑西裤，成为一个小白领，朝九晚五地上班了。甚至还想了很多长远的问题，比如入职以后，我是住在员工宿舍呢，还是回珠海呢？（毕竟才一个小时的车程）以后买房是在当地买呢，还是回珠海买呢……说到这里，我想起来一个笑话很能类比我当时的心情——</p>
+<blockquote>
+<p>单身久了，今天坐公交，一个女孩蹭了我肩膀一下，我连我们的孩子在哪上学都想好了。</p>
+</blockquote>
+<p>言归正传，HR经理面试我的时候，我父亲和他朋友自然是等在外面的。面试其实也就是简单聊一聊，他建议我去加油站，先从加油干起，待遇大概是一千多，如果能够晋升为加油站的站长，那么待遇就是三千。当时我心里一惊，怎么，我不是坐办公室吗，还得去加油，从这么基层的岗位干起吗？而且待遇未免也太低了吧。尽管不是重点城市，但毕竟是南方，而且还是世界知名的国企，相比而言，也没比我以前卖书多很多钱。然后我就对HR经理说，我毕竟是营销出身，其实我还是想做销售的。他说其实销售更累，压力更大，特别是如果完不成任务，那就拿不到提成，待遇很可能还不如去加油，所以其实加油最稳定，而且现在加油站在做“易捷”便利店，也是属于销售了。好吧，既然他都已经这么说了，那么我也就同意从加油干起了。他跟我说这个是需要三班倒的，会比较辛苦。我心里想说，再辛苦也不会有我搬书的时候辛苦吧。</p>
+<p>我估计这一面就是走个形式，人事经理当时也并没有表态。由于当天他们的一把手还有二把手去外地开会了，因此人事经理就让我们过两天再过去，等他俩回来，让老总和副总再面试一下（不过是招聘一个加油工，竟然还需要三个大领导面试，也是没谁了）。我从HR办公室出来以后，和我父亲说，人事经理建议我从加油站干起，还说了一下待遇。估计我父亲也觉得待遇比较低，但是他觉得无所谓，从基层开始奋斗没什么不好的，只要能进中石化就行。包括当天晚上回到珠海和我母亲也说了待遇，她也认为不错了，觉得只要我好好干，皇天不负有心人，终将会有出人头地的那一天的。既然我父母都没有意见，那么我其实在心里也就同意入职中石化了。</p>
+<p>大概过了两天吧，我们几个又去了中石化。那天首先见的是二把手，他是个和蔼的老头，一直笑眯眯的，显得特别亲切随和。这一面其实更加没问什么，更是在走形式。最后，一把手来了，也算是终面了。当时，一把手、二把手、人事经理还有我，一共四个人，在一把手的大办公室里面，全程都是只有一把手在说话。给我的感觉是，一把手非常严肃，刚正不阿，与二把手产生了鲜明的对比，一下子就把人与人之间的距离拉开了。尽管也是随便聊聊，但是你说巧不巧，他正好就问了我上班以后，未来有什么打算。也是天意，让我与中石化无缘。我就按照之前那个高管的意思，说其实我还是想努力学习，以后考研究生的。不料，那个一把手说，如果你以后要考研究生，迟早都是要走的，那我们现在为什么要培养你？一句话顿时让我语塞，心里想说这下可完了。本来我还想圆一下场子，说我去深造的目的是为了更好地报效中石化，但是由于一把手叨叨起来没完没了，我就一直插不上嘴。我心里想，估计以后要是和他开会，那别人就别想发言了，即便他真的破天荒地让你谈一下看法，那么你说完之后，他也就直接把你给否定掉了。之后大家也没再说什么，二把手依旧全程笑眯眯地，HR经理就让我回去等通知了。</p>
+<p>走出一把手办公室的大门，我父亲问我怎么样，我没敢照实说，只是说还不错，回去等通知。我父亲顿时觉得有戏，用手舞足蹈来形容也并不过分。二十多年来，我从来没见过他高兴成那样。当天回到珠海和老朋友们吃饭，由于很高兴，他竟然还喝多了。但是我心里却是非常地忐忑，不知道一旦让他晓得我没通过，他会是什么样的心情。而当天他喝多了，这就更加让我感觉到，他的期望是如此之高，到时候失望也会是相当之大了。大概是第二天吧，等到我父亲酒劲过去，我才和父亲说，其实昨天的面试，我感觉一把手非常的正直。一把手觉得由于我算是走后门，不算是按照正规招聘流程进来的，所以说他要考虑一下是否要我。我还说，即便我入职了，那么一把手可能也不会喜欢我，我的升职空间就非常有限了。我说那个一把手其实就是在婉拒我。当时我依旧没说重点，就是想隐瞒我说错话这件事。我父亲说原来是这样（似乎有些失望），没什么关系，如果面试真的失败了，那就算了，但他还是觉得我入职是有希望的，毕竟一把手并没有明确表示不要我。</p>
+<p>我也忘记了是面试完第二天还是第三天的下午，HR经理给我打电话了。说我面试通过了，可以去上班。我还真是没想到自己竟然应聘上了，但是鉴于那天一把手的态度，最终，我和HR经理说，我考虑了一下，抱歉，我由于个人原因，不想入职贵公司了。从电话里我也听不出他的心情，于是也就不了了之了。我觉得，尽管他们最后答应了我的入职申请，但是也许是考虑到不过是招聘一个加油的，是一个无足轻重的职位，大差不差的，因此也就同意我入职了。当然，HR给我打电话通知我通过这件事，我也没和我父亲说。事实上，直到今天为止，整个事情完整的过程，我父亲依旧是不知道的，他始终还是认为，是由于那个一把手太正直，才不同意我入职的。</p>
+<p>现在想想这件事，假设我当初面对一把手的时候没有那么说，那么最终我一定就去中石化加油了。或者后来HR告诉我通过了的时候，我不那么固执，选择妥协，那我也去中石化了。如果是那样，那么我的人生就会是另外的一条轨迹了（就如同当初答应了可口可乐去梨树或者榆树当业务员一样）。如果按照中石化这条轨迹来走我的人生，不晓得我现在在哪里在干什么呢？也许平行宇宙中的另一个我，正在这条轨迹上奔跑吧。</p>
+<p>过了几年我才知道，其实我父亲还是挺不甘心的，因为他也依旧在关注着那家中石化。之所以这么说，是因为到目前为止，他大概跟我说过两次，跟我说当时没去中石化，是一个正确的选择。因为后来那个笑眯眯的二把手，很快就退休了，而那个一把手也调去其它的公司了。所以如果说当时又送礼又巴结的，那么到后来也无非是竹篮打水一场空。三十年河东三十年河西，来了新的领导还得重新拍马屁。父亲还说鉴于一个朋友的孩子也去了中石化做文职，朋友的孩子在中石化过得并不如意，甚至还有多次轻生的念头，于是也就更加坚定了他的想法，没去中石化，是对的。但我知道，尽管他嘴上这么说，其实他的内心还是希望我能够去那里上班的。而起初买的那两瓶好酒，也就一直留到了现在。</p>
+<h4 id="又回到了艰难的找工作的状态"><a href="#又回到了艰难的找工作的状态" class="headerlink" title="又回到了艰难的找工作的状态"></a>又回到了艰难的找工作的状态</h4><p>虽然没去成中石化，但是生活还是得继续。我并不想留在珠海，所以还是回到了长春。想想以前没毕业的时候，找工作的种种艰难，其实我那时再找工作，心里还是非常没底的。当时觉得，既然是刚从大润发超市出来，也算是有了超市的经验，那不妨也应聘一下长春的家乐福和沃尔玛吧。正好我在网上看到家乐福招聘品类主管，就直接投了简历。很快也就得到了通知我去面试的电话。当时我面试的是长春家乐福的春城店，位于绿园区，是长春家乐福里面卖得最差的一家店了（现在已经关店了，长春家乐福的经营状况属实堪忧）。我记得在面试之前，我还特意去店里走了走，目的就是看一下店面有没有什么问题，这样一会面试的时候就不会无话可说。最重要的是，如果能够发现店面的问题，还能够给面试官留下良好的印象，有助于我的面试成功。其实这间家乐福超市最大的问题是客流量极其稀少，与门庭若市的佳木斯大润发形成了鲜明的对比。正所谓巧妇难为无米之炊，人少，不是我能够解决的问题。其实这家超市的图书也是老师的书店提供的，以前我就知道这间超市卖得差，图书销售额和其它超市相比经常垫底，看来很重要的原因就在于客流。</p>
+<p>在超市里面逛了一圈之后，很快就轮到我面试了，其实这种面试也没什么好问的，我这里也没什么好讲的。由于我刚从大润发回来，大概也讲了一下大润发超市的情况。我印象最深的一个问题是，面试官问我，你觉得在销售中，最重要的一个问题是什么。我说其实结合我们超市的情况，需要和顾客多多交流，了解我们自身的问题，然后改正。顾客的满意度提升了，有助于提升我们的销售额。当时我自认为说得还不错，可是面试官却说，最重要的不是对产品的了解吗？呃，好像也是，说得没错，被打败了。我只能赶紧圆场说，其实对于产品的了解是一个很基础的内容，是必须要具备的，所以我就没说，而我如果能够入职，我与其他人不同的是我会更加在意消费者对我们的意见，从而改正（也算是我的核心竞争优势了）。面试也没持续多长时间，就结束了。当时就觉得自己够呛，事后证实也的确如此，连“没通过”这几个字也没打电话告诉我。</p>
+<p>长春的好企业大企业其实并不多，既然家乐福不行，我就只能试试沃尔玛了。但是沃尔玛在网上并没有招聘信息，因此我就只能试一下“霸王面”了。记得我当时去的是长春火车站那边的长江路沃尔玛店（也好像是重庆路店），我直接去找的人力资源部，问他们招不招人（确实也是实在没办法了，只能直接去问了）。她说目前没有招聘计划，但是如果我愿意的话，不妨应聘收银。收银？那还是算了吧，我也就只能悻悻地离开了。</p>
+<p>找工作还是很困难的，当时甚至还在怀疑自己裸辞到底对不对，没有那么大的本事，却这么自信地说走就走，我是不是真的做错了呢？或者不去卖书，而是去中石化加油，通过自己的努力获得晋升的机会，是不是也是一个不错的选择呢？可是现在说什么都太晚了，是我自己放弃的，怨不得别人。沦落至此，终于发现，找工作实在是太艰辛了。</p>
+<h4 id="终于，讲到了苏宁"><a href="#终于，讲到了苏宁" class="headerlink" title="终于，讲到了苏宁"></a>终于，讲到了苏宁</h4><p>就在我找工作遇到了诸多不顺的时候，我在招聘网站上看到苏宁电器正在招聘营业员，于是我就在网上投递了我的简历。其实要说苏宁的名头，那还是响当当的，尽管我之前从来没去过苏宁买东西（我自己也不需要买电器），但是觉得如果我能够入职这么大的企业，也还是不错的选择。尽管我当时并不知道营业员具体是干什么的，只是感觉可能是站在柜台后面卖货的。觉得如果真是这样的话，心里还是老大的不乐意，这和去加油也没什么区别了。不过既然自己已经沦落到了这个份上，也就管不了那么多了。没记错的的话，招聘信息上并没有写明会去哪家苏宁店，也没写工资待遇是多少，所以对于苏宁以及对于自己的未来，一切还都是一个未知数。当时就觉得，如果没应聘上苏宁，那可就彻彻底底地完蛋了。因此，我也就心怀忐忑的去面试了。</p>
+]]></content>
+      <categories>
+        <category>程序人生(Programing Life)</category>
+        <category>姜晔传(The Autobiography of Jiangye)</category>
+      </categories>
+      <tags>
+        <tag>Story</tag>
+        <tag>Reprint</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>从苏宁电器到卡巴斯基--我的创业梦</title>
+    <url>/archives/1783f129.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gj3brnsj31900u0dl5.jpg"></p>
+<a id="more"></a>
+
+<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在本科时期的一次创业实践与反思。</p>
 <h4 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h4><p>本科时一直有一个想法，那就是希望自己能够在毕业之前做出一些轰动的事情，让自己成为校园的名人。而就在那个时候，在大三第一学期的“预测与决策”这门课上，我们老师给我们播放了一段央视财经频道《赢在中国》的36强比赛片段，这就如同为我打开了新世界的大门，不单单在理论上丰富了我对于商业的认识，更加使我萌生了创业的念头，令我觉得，只有创业，才是我们这个专业的人的唯一出路。正如《赢在中国》的主题曲《在路上》那首歌所唱的那样——</p>
 <blockquote>
 <p>那一天，我不得已上路，为不安分的心，为自尊的生存，为自我的证明。</p>
@@ -8556,46 +8783,12 @@
       </tags>
   </entry>
   <entry>
-    <title>从苏宁电器到卡巴斯基--来到苏宁之前的过渡</title>
-    <url>/archives/4f9e99c0.html</url>
-    <content><![CDATA[<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师离开书馆来苏宁前应聘中石化的琐事。</p>
-<a id="more"></a>
-
-<h4 id="国企vs私企"><a href="#国企vs私企" class="headerlink" title="国企vs私企"></a>国企vs私企</h4><p>从老师那里离职并从佳木斯回到长春后，我就直接买了回珠海的票，回到了家里面。对于我离职，家里人其实还是比较支持的，因为他们觉得卖书并不是一个长久的事业，同时也不看好这个行业。在他们那一辈人看来，还得是去当公务员或者进入国企事业单位吃大锅饭才靠谱。因为他们觉得这样的单位不可能倒闭，即便是工资少一点也没有关系，因为福利会很好。并且这样的单位，说出去也显得特别有面子，甚至还能方便亲戚朋友走后门，好处还是非常多的。所以我觉得他俩还是希望我入职这样的单位，在亲戚里面显摆一下的。说到这里我想起来，其实我的两个亲戚的孩子，和我同辈，一个去当了公务员，一个去了某知名国企。具体工资我并不清楚，但是考虑到他们所在的地方属于N线城市，因此我感觉薪水少得可怜。即便如此，我父母依旧很是羡慕那两个亲戚的孩子。就算我后来入职苏宁（当时苏宁是民企的领头羊），待遇较之前卖书的时候翻倍，他们也把苏宁当成是“大型个体户”，认为这种私企并不是多么风光的单位。尽管私企在词典里面并不是贬义词，但是在那一辈人看来，私企就是一种轻蔑的称呼。他们认为这类企业，别看今天你还活蹦乱跳的，也许明天就倒闭了。包括后来的卡巴斯基也是一样，尽管是外企，尽管我们在信息安全领域处在一个霸主的地位，但也会让他们觉得这是强弩之末的企业，也是难以得到他们的认同的。可以这么说，进了私企相当于是被判了死缓，而入职国企才会获得永生。</p>
-<p>因此，当时在我回家后，我父亲就强烈建议我试试应聘中石化。因为他之前一直都是石油系统的员工，也是做销售。但是在我看来，他那个年代做销售，是一件非常简单的事情，毕竟皇帝的女儿不愁嫁，只要天天待在办公室打打电话，喝喝茶水看看报纸就行了，自然会有很多人送上门来的，守株待兔就能够有不错的业绩了，无需再出去拓展市场，毕竟这是国企，人在其中就如同是温水煮青蛙。另外，以前我父亲有时还会去全国各地开大会，也算是旅游了，你说惬意不惬意？他在石油系统待了那么长的时间，自然也是希望我能够继承衣钵，入职中石化的。但是他毕竟脱离系统多年，也就只能通过朋友的关系来帮我找工作了。其实按照我的真实想法，我对中石化并不感兴趣，但是执拗不过他对我的殷勤希望，也就只得暂且答应。心里想着，如果待遇还不错，工作我也能够胜任的话，去中石化也无妨。其实如果现在想要进石油系统（对于应届生而言），按照正常流程，得趁它校招的时候在网上投递简历，经过层层筛选，多次笔试面试，杀败无数竞争对手，才有可能获得这个职位的。并且还有可能去一个你不愿意去的城市上班，有种千军万马过独木桥的感觉。很多时候我也挺不理解的，石油是不可再生资源，“两桶油”明明是夕阳产业，怎么还会这么受青睐呢？况且中石化目前也在试水小型超市，也是为了多元化战略的需要，提高销售额。看起来也是在为未来石油行业的衰落做好准备。即便真的是那么向往国企，好歹也去一个新能源或者经营可再生能源之类的企业吧。就比如说国家现在大力推进电动汽车的销售，提供各种补贴，这是为了什么？不就是为了有朝一日应对石油资源的短缺么，同时还能推进环保事业的发展。当然有些人的想法可能就是想要一种安逸的工作状态，那么这也无可厚非。但是老一辈人对于这种行业的向往，是时候该改一改了。</p>
-<h4 id="只因一句话，让我与中石化失之交臂"><a href="#只因一句话，让我与中石化失之交臂" class="headerlink" title="只因一句话，让我与中石化失之交臂"></a>只因一句话，让我与中石化失之交臂</h4><p>尽管入职石油系统很麻烦，可是如果依靠朋友关系，在当年，也就不需要这么费劲了。正好我父亲的一个朋友算是石油系统的一个高管，他可以把我推荐到紧挨着珠海的一个城市的中石化。好吧，事不宜迟，我整理了一下简历，我们三个就出发了。我父亲甚至还买了两瓶好酒，打算在事成之后送给当地中石化的老总，以示感谢。在路上，那个帮我介绍工作的高管特别提醒了我一件事，那就是如果面试的时候问到我以后有什么打算，他建议我说以后打算考研，这样能够让老总认为我爱学习，是个可塑之才。当时我也没多想，心里也就同意了。</p>
-<p>尽管之前已经打好招呼了，但是面试环节是不能省下来的。第一轮面试就是直接见HR经理了。当时我觉得中石化的办公环境还是不错的，尽管装修略显呆板，但能在这样的环境里办公，至少是比库房还有店面强多了。心里想着也许过段时间我就能像他们一样，每天穿着白衬衫黑西裤，成为一个小白领，朝九晚五地上班了。甚至还想了很多长远的问题，比如入职以后，我是住在员工宿舍呢，还是回珠海呢？（毕竟才一个小时的车程）以后买房是在当地买呢，还是回珠海买呢……说到这里，我想起来一个笑话很能类比我当时的心情——</p>
-<blockquote>
-<p>单身久了，今天坐公交，一个女孩蹭了我肩膀一下，我连我们的孩子在哪上学都想好了。</p>
-</blockquote>
-<p>言归正传，HR经理面试我的时候，我父亲和他朋友自然是等在外面的。面试其实也就是简单聊一聊，他建议我去加油站，先从加油干起，待遇大概是一千多，如果能够晋升为加油站的站长，那么待遇就是三千。当时我心里一惊，怎么，我不是坐办公室吗，还得去加油，从这么基层的岗位干起吗？而且待遇未免也太低了吧。尽管不是重点城市，但毕竟是南方，而且还是世界知名的国企，相比而言，也没比我以前卖书多很多钱。然后我就对HR经理说，我毕竟是营销出身，其实我还是想做销售的。他说其实销售更累，压力更大，特别是如果完不成任务，那就拿不到提成，待遇很可能还不如去加油，所以其实加油最稳定，而且现在加油站在做“易捷”便利店，也是属于销售了。好吧，既然他都已经这么说了，那么我也就同意从加油干起了。他跟我说这个是需要三班倒的，会比较辛苦。我心里想说，再辛苦也不会有我搬书的时候辛苦吧。</p>
-<p>我估计这一面就是走个形式，人事经理当时也并没有表态。由于当天他们的一把手还有二把手去外地开会了，因此人事经理就让我们过两天再过去，等他俩回来，让老总和副总再面试一下（不过是招聘一个加油工，竟然还需要三个大领导面试，也是没谁了）。我从HR办公室出来以后，和我父亲说，人事经理建议我从加油站干起，还说了一下待遇。估计我父亲也觉得待遇比较低，但是他觉得无所谓，从基层开始奋斗没什么不好的，只要能进中石化就行。包括当天晚上回到珠海和我母亲也说了待遇，她也认为不错了，觉得只要我好好干，皇天不负有心人，终将会有出人头地的那一天的。既然我父母都没有意见，那么我其实在心里也就同意入职中石化了。</p>
-<p>大概过了两天吧，我们几个又去了中石化。那天首先见的是二把手，他是个和蔼的老头，一直笑眯眯的，显得特别亲切随和。这一面其实更加没问什么，更是在走形式。最后，一把手来了，也算是终面了。当时，一把手、二把手、人事经理还有我，一共四个人，在一把手的大办公室里面，全程都是只有一把手在说话。给我的感觉是，一把手非常严肃，刚正不阿，与二把手产生了鲜明的对比，一下子就把人与人之间的距离拉开了。尽管也是随便聊聊，但是你说巧不巧，他正好就问了我上班以后，未来有什么打算。也是天意，让我与中石化无缘。我就按照之前那个高管的意思，说其实我还是想努力学习，以后考研究生的。不料，那个一把手说，如果你以后要考研究生，迟早都是要走的，那我们现在为什么要培养你？一句话顿时让我语塞，心里想说这下可完了。本来我还想圆一下场子，说我去深造的目的是为了更好地报效中石化，但是由于一把手叨叨起来没完没了，我就一直插不上嘴。我心里想，估计以后要是和他开会，那别人就别想发言了，即便他真的破天荒地让你谈一下看法，那么你说完之后，他也就直接把你给否定掉了。之后大家也没再说什么，二把手依旧全程笑眯眯地，HR经理就让我回去等通知了。</p>
-<p>走出一把手办公室的大门，我父亲问我怎么样，我没敢照实说，只是说还不错，回去等通知。我父亲顿时觉得有戏，用手舞足蹈来形容也并不过分。二十多年来，我从来没见过他高兴成那样。当天回到珠海和老朋友们吃饭，由于很高兴，他竟然还喝多了。但是我心里却是非常地忐忑，不知道一旦让他晓得我没通过，他会是什么样的心情。而当天他喝多了，这就更加让我感觉到，他的期望是如此之高，到时候失望也会是相当之大了。大概是第二天吧，等到我父亲酒劲过去，我才和父亲说，其实昨天的面试，我感觉一把手非常的正直。一把手觉得由于我算是走后门，不算是按照正规招聘流程进来的，所以说他要考虑一下是否要我。我还说，即便我入职了，那么一把手可能也不会喜欢我，我的升职空间就非常有限了。我说那个一把手其实就是在婉拒我。当时我依旧没说重点，就是想隐瞒我说错话这件事。我父亲说原来是这样（似乎有些失望），没什么关系，如果面试真的失败了，那就算了，但他还是觉得我入职是有希望的，毕竟一把手并没有明确表示不要我。</p>
-<p>我也忘记了是面试完第二天还是第三天的下午，HR经理给我打电话了。说我面试通过了，可以去上班。我还真是没想到自己竟然应聘上了，但是鉴于那天一把手的态度，最终，我和HR经理说，我考虑了一下，抱歉，我由于个人原因，不想入职贵公司了。从电话里我也听不出他的心情，于是也就不了了之了。我觉得，尽管他们最后答应了我的入职申请，但是也许是考虑到不过是招聘一个加油的，是一个无足轻重的职位，大差不差的，因此也就同意我入职了。当然，HR给我打电话通知我通过这件事，我也没和我父亲说。事实上，直到今天为止，整个事情完整的过程，我父亲依旧是不知道的，他始终还是认为，是由于那个一把手太正直，才不同意我入职的。</p>
-<p>现在想想这件事，假设我当初面对一把手的时候没有那么说，那么最终我一定就去中石化加油了。或者后来HR告诉我通过了的时候，我不那么固执，选择妥协，那我也去中石化了。如果是那样，那么我的人生就会是另外的一条轨迹了（就如同当初答应了可口可乐去梨树或者榆树当业务员一样）。如果按照中石化这条轨迹来走我的人生，不晓得我现在在哪里在干什么呢？也许平行宇宙中的另一个我，正在这条轨迹上奔跑吧。</p>
-<p>过了几年我才知道，其实我父亲还是挺不甘心的，因为他也依旧在关注着那家中石化。之所以这么说，是因为到目前为止，他大概跟我说过两次，跟我说当时没去中石化，是一个正确的选择。因为后来那个笑眯眯的二把手，很快就退休了，而那个一把手也调去其它的公司了。所以如果说当时又送礼又巴结的，那么到后来也无非是竹篮打水一场空。三十年河东三十年河西，来了新的领导还得重新拍马屁。父亲还说鉴于一个朋友的孩子也去了中石化做文职，朋友的孩子在中石化过得并不如意，甚至还有多次轻生的念头，于是也就更加坚定了他的想法，没去中石化，是对的。但我知道，尽管他嘴上这么说，其实他的内心还是希望我能够去那里上班的。而起初买的那两瓶好酒，也就一直留到了现在。</p>
-<h4 id="又回到了艰难的找工作的状态"><a href="#又回到了艰难的找工作的状态" class="headerlink" title="又回到了艰难的找工作的状态"></a>又回到了艰难的找工作的状态</h4><p>虽然没去成中石化，但是生活还是得继续。我并不想留在珠海，所以还是回到了长春。想想以前没毕业的时候，找工作的种种艰难，其实我那时再找工作，心里还是非常没底的。当时觉得，既然是刚从大润发超市出来，也算是有了超市的经验，那不妨也应聘一下长春的家乐福和沃尔玛吧。正好我在网上看到家乐福招聘品类主管，就直接投了简历。很快也就得到了通知我去面试的电话。当时我面试的是长春家乐福的春城店，位于绿园区，是长春家乐福里面卖得最差的一家店了（现在已经关店了，长春家乐福的经营状况属实堪忧）。我记得在面试之前，我还特意去店里走了走，目的就是看一下店面有没有什么问题，这样一会面试的时候就不会无话可说。最重要的是，如果能够发现店面的问题，还能够给面试官留下良好的印象，有助于我的面试成功。其实这间家乐福超市最大的问题是客流量极其稀少，与门庭若市的佳木斯大润发形成了鲜明的对比。正所谓巧妇难为无米之炊，人少，不是我能够解决的问题。其实这家超市的图书也是老师的书店提供的，以前我就知道这间超市卖得差，图书销售额和其它超市相比经常垫底，看来很重要的原因就在于客流。</p>
-<p>在超市里面逛了一圈之后，很快就轮到我面试了，其实这种面试也没什么好问的，我这里也没什么好讲的。由于我刚从大润发回来，大概也讲了一下大润发超市的情况。我印象最深的一个问题是，面试官问我，你觉得在销售中，最重要的一个问题是什么。我说其实结合我们超市的情况，需要和顾客多多交流，了解我们自身的问题，然后改正。顾客的满意度提升了，有助于提升我们的销售额。当时我自认为说得还不错，可是面试官却说，最重要的不是对产品的了解吗？呃，好像也是，说得没错，被打败了。我只能赶紧圆场说，其实对于产品的了解是一个很基础的内容，是必须要具备的，所以我就没说，而我如果能够入职，我与其他人不同的是我会更加在意消费者对我们的意见，从而改正（也算是我的核心竞争优势了）。面试也没持续多长时间，就结束了。当时就觉得自己够呛，事后证实也的确如此，连“没通过”这几个字也没打电话告诉我。</p>
-<p>长春的好企业大企业其实并不多，既然家乐福不行，我就只能试试沃尔玛了。但是沃尔玛在网上并没有招聘信息，因此我就只能试一下“霸王面”了。记得我当时去的是长春火车站那边的长江路沃尔玛店（也好像是重庆路店），我直接去找的人力资源部，问他们招不招人（确实也是实在没办法了，只能直接去问了）。她说目前没有招聘计划，但是如果我愿意的话，不妨应聘收银。收银？那还是算了吧，我也就只能悻悻地离开了。</p>
-<p>找工作还是很困难的，当时甚至还在怀疑自己裸辞到底对不对，没有那么大的本事，却这么自信地说走就走，我是不是真的做错了呢？或者不去卖书，而是去中石化加油，通过自己的努力获得晋升的机会，是不是也是一个不错的选择呢？可是现在说什么都太晚了，是我自己放弃的，怨不得别人。沦落至此，终于发现，找工作实在是太艰辛了。</p>
-<h4 id="终于，讲到了苏宁"><a href="#终于，讲到了苏宁" class="headerlink" title="终于，讲到了苏宁"></a>终于，讲到了苏宁</h4><p>就在我找工作遇到了诸多不顺的时候，我在招聘网站上看到苏宁电器正在招聘营业员，于是我就在网上投递了我的简历。其实要说苏宁的名头，那还是响当当的，尽管我之前从来没去过苏宁买东西（我自己也不需要买电器），但是觉得如果我能够入职这么大的企业，也还是不错的选择。尽管我当时并不知道营业员具体是干什么的，只是感觉可能是站在柜台后面卖货的。觉得如果真是这样的话，心里还是老大的不乐意，这和去加油也没什么区别了。不过既然自己已经沦落到了这个份上，也就管不了那么多了。没记错的的话，招聘信息上并没有写明会去哪家苏宁店，也没写工资待遇是多少，所以对于苏宁以及对于自己的未来，一切还都是一个未知数。当时就觉得，如果没应聘上苏宁，那可就彻彻底底地完蛋了。因此，我也就心怀忐忑的去面试了。</p>
-]]></content>
-      <categories>
-        <category>程序人生(Programing Life)</category>
-        <category>姜晔传(The Autobiography of Jiangye)</category>
-      </categories>
-      <tags>
-        <tag>Story</tag>
-        <tag>Reprint</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>从苏宁电器到卡巴斯基--单证这一年</title>
     <url>/archives/1d133aa.html</url>
-    <content><![CDATA[<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中在北工大读单证的生活。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3glzbf5oj30u011qtev.jpg"></p>
 <a id="more"></a>
 
+<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中在北工大读单证的生活。</p>
 <h3 id="上篇"><a href="#上篇" class="headerlink" title="上篇"></a>上篇</h3><h4 id="单证的学习与生活"><a href="#单证的学习与生活" class="headerlink" title="单证的学习与生活"></a>单证的学习与生活</h4><p>这是我第一次来到北京工业大学学习，我觉得与我的本科学校相比，那么这里简直就是天堂了。唯一可能不太好的，就是寝室里面是那种上下铺的设置，而本科是上床下桌。我觉得上床下桌那种，更加自由和独立。还有就是北研楼这里，寝室的衣柜设计太不合理了。因为柜子非常矮，别说是裤子了，即便是上衣也挂不起来，因此我也只能够把衣服都叠起来放着了。另外，这里食堂的饭菜种类比理工大学丰富得多，每天吃的可以不重样。但是北工大每个月上网却有流量上的限制，15块钱可以包月15G的流量，超过了，那么每多出1G就是10块钱，所以流量往往是不够用的。即便是双证，也是这样的政策。</p>
 <p>说到这里我想起一件有意思的事，估计是我们隔壁的隔壁那间寝室，有一天他们装了一个无线路由器，但是没有设置密码，于是我们寝室的人（包括我）就连上他们的网络，开启了疯狂的下载模式（其实我们当时也不知道是隔壁的隔壁寝室的网络）。仅仅一个多小时，15G的流量就没有了。之后那个家伙好像是去充了几十块钱，然后又被我们用完了。估计他心里面也是很懵的，但是应该也想到是自己的网络被盗用了，可是他也不知道是谁盗用的，于是第二天，在我们五楼的楼梯口的位置，贴了一张A4纸，上面写得满满地，把整个楼层的人给骂了，说要通过什么网络地址找到我们。我们心里觉得特逗，心想你要是真的懂技术，那就来吧，我们不跑。但是鉴于他网络安全意识这么淡薄，连密码都不设置的情况来看，我们不认为他掌握了找到我们的技术。不过第二天他就给自己的无线路由器设置了密码，我们也就不能再用他的网了。不过我们寝室的一个小子为了破解，装了个Linux系统，好像可以通过什么软件进行暴力破解。但是花了一两天时间也没破解出来，只能作罢。这也是我第一次知道黑客的技术。</p>
 <p>我们单证是需要分方向的，一共有四个方向可供选择——软件工程与网络、数字媒体技术、信息管理系统方向以及嵌入式方向。结合自己的兴趣，我选择的是软件工程与网络。不过听说软院的嵌入式方向还是挺强的，我们这届就有慕名而来学习的。另外，对于本科不是计算机类的学生，开学后需要在周五以及周六的晚上参加四门补修的课程——程序设计基础、数据结构与算法分析、操作系统以及计算机网络基础。从这点来看，学院的要求还是很合理并且很有必要的。不过我当时是申请了免修，因为我有程序员和软件设计师的证书，最后学院也同意了我的申请。</p>
@@ -8651,11 +8844,10 @@
   <entry>
     <title>OnOff-Unity2D游戏开发</title>
     <url>/archives/2445f889.html</url>
-    <content><![CDATA[<p>本文将使用Unity2D引擎制作一款2D横版跳跃类游戏。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gnec054j311x0j6q3b.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>本文将使用Unity2D引擎制作一款2D横版跳跃类游戏。</p>
 <h3 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h3><h4 id="项目架构"><a href="#项目架构" class="headerlink" title="项目架构"></a>项目架构</h4><ul>
 <li>玩家 <code>PlayerController.cs</code></li>
 <li>游戏功能 <code>GameManager.cs</code></li>
@@ -9411,226 +9603,12 @@
       </tags>
   </entry>
   <entry>
-    <title>俄罗斯方块的故事</title>
-    <url>/archives/e3ea8760.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gj6mnu4wbnj30xc0lvdm6.jpg"></p>
-<a id="more"></a>
-
-<p>1984年，在冷战期间，一位名叫Alexey Pajitnov的俄罗斯程序员创造了一些特别的东西：一款名为俄罗斯方块的益智游戏。它很快在苏联内部获得了狂热的追捧。当游戏穿越冷战铁幕的时候，一场关于出版俄罗斯方块的权利的争斗爆发了。俄罗斯方块不仅掀起了电子游戏行业的风暴，还帮助打破了美国和苏联之间的界限。 </p>
-<p>本文是观看完 <a href="https://www.youtube.com/channel/UCnbvPS_rXp4PC21PG2k1UVg">Gaming Historian</a> 的 <a href="https://www.youtube.com/watch?v=_fQtxKmgJC8&feature=youtu.be">The Story of Tetris | Gaming Historian</a> 后深受触动，决定整理一份文字版以供大家参考，中文制译可以移步 <a href="https://space.bilibili.com/180052141">卡姐Cara</a> 的 <a href="https://www.bilibili.com/video/BV1CW411j73x">《俄罗斯方块》的故事</a>，有条件的读者可以支持上面的作者和译者。</p>
-<h3 id="时代背景"><a href="#时代背景" class="headerlink" title="时代背景"></a>时代背景</h3><p>1984年，冷战在两个超级大国间加剧，经济和政治差异让这两个二战前盟友关系紧张。资本主义美国经历了空前的经济增长，苹果发布了备受期待的麦金塔个人电脑，洛杉矶举办了1984年夏季奥运会，电影《捉鬼敢死队》和《小魔怪》轰动一时（前者是美国影史上第一部卖座破百万美元的恐怖喜剧片），布鲁斯·斯普林斯廷发布了他最成功的专辑《诞生在美国》（在美国排行榜榜首停留了7周，在英国排行榜上停留了2年半之久），美国经济发达、社会繁荣。但共产主义苏联却呈鲜明对比，经济停滞不前，石油作为主要出口产品价格下跌，苏联抵制1984年夏季奥运会，称其为反苏闹剧，总书记康斯坦丁·契尔年科病危，米哈伊尔·戈尔巴乔夫准备接任，与阿富汗的冲突已持续五年，老百姓生活惆怅而拮据，政府发动席卷全国的改革以消除异议、恢复秩序，两国陷入前所未有的分歧。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmoof5vxij311y0lcmzy.jpg"></p>
-<p>但那年夏天，一名苏联程序员创造了一样特别的东西——一款益智游戏。这款游戏风靡游戏行业，打破了两个超级大国间的隔阂。</p>
-<h3 id="帕基特诺夫"><a href="#帕基特诺夫" class="headerlink" title="帕基特诺夫"></a>帕基特诺夫</h3><p>阿列克谢·帕基特诺夫1956年3月14日生于莫斯科。他的母亲是一名电影新闻记者，电影在苏联是颇具争议的艺术形式；他的父亲是一名哲学家、作家、共产主义政权的异见者。帕基特诺夫11岁时父母离异，从那时起，他就和母亲生活在一间单人公寓里。那时他开始接触流行文化，他的母亲经常以记者身份参加莫斯科国际电影展。有时，她会带上年幼的帕基特诺夫见识世界各国的电影。他酷爱詹姆斯·邦德，也热爱数学益智游戏和桌游。桌游是当时苏联孩子为数不多的娱乐之一，他很喜欢五格骨牌，游戏玩法是把12片不同形状的五格骨牌拼成一个长方形。</p>
-<p>作为60年代的孩子，帕基特诺夫见证了美国和苏联间的太空竞赛，苏联征召科学家和工程师以获得优势<br>他们想通过展示最新技术来吸引孩子学习理工。因此，17岁的帕基特诺夫接触了电脑，电脑一直让他印象深刻。他入读莫斯科航空学院取得了应用数学硕士学位。毕业后，帕基特诺夫进入了位于莫斯科的苏联科学院，在Dorodnitsyn计算中心得到一个研究员职位。可是计算中心的技术并不先进，所有员工共用一个房间体积的大型机，工作条件也不理想。帕基特诺夫和其他三名研究员共用一张办公桌，每日过着几乎一样的生活：早上7点半到8点起床，吃点香肠、鸡蛋和白软干酪，办些杂事；10点前到达计算中心；他会工作到半夜，所以晚上有些独处时光。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjlt8b5grnj311y0lc1kx.jpg"></p>
-<p>后来，帕基特诺夫和同事的设备得到升级，他们有了个人用的Electronika 60电脑，这相比大型机可谓巨大进步，但相比西方世界仍是古董。Electronika 60仿自LSI 11电脑（后者是美国DEC在1975年的产品），一套九年前推出的系统，它不能显示图形，只有字符界面。帕基特诺夫负责语音识别软件中的AI部分，这个软件吸引了克格勃，即苏联最高安全机构，他们希望借此窃听电话通话。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjlt9mm54nj311y0lc4qp.jpg"></p>
-<p>但到了晚上，帕基特诺夫和其他研究员会用电脑干私活。他有个同事沉迷于《吃豆人》，当时穿越冷战铁幕的街机游戏之一。帕基特诺夫花了不少时间去逆向工程，德米特里·帕夫洛夫斯基也在那（他是帕基特诺夫一位已在计算中心大型机上写过好几个游戏的同事兼朋友）。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjlta4rnmej311y0lc1kx.jpg"></p>
-<p>还有一位16岁编程天才，叫瓦迪姆·格拉西莫夫。在令他的计算机老师刮目相看后，他被送到计算中心进修并协助软件项目。帕夫洛夫斯基将他介绍给帕基特诺夫，三人因对电脑游戏和编程的热爱产生共鸣，他们组成团队，利用晚上构思游戏创意。他们希望打造并销售游戏集合，这在苏联是极端困难的。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmb5kkmulj311y0lc1kx.jpg"></p>
-<p>帕基特诺夫经常坐在桌旁思考到很晚，他回想起童年玩五格骨牌的时光。显然，他有办法将这游戏移植到电脑上。帕基特诺夫修改了标准的五格骨牌，以适应他的古董电脑。他将五格减为四格，这让图形数量从12个减少为7个。帕基特诺夫用六天就做出了原型，他称之为“基因工程”。游戏目标很简单，排列方块以填满盒子。游戏可行，但有个问题：太无聊了。一旦玩家找到解法，就没必要再玩了，游戏需给玩家不断挑战的动力。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmb5motrpj311y0lc4qp.jpg"></p>
-<p>于是帕基特诺夫让游戏更刺激，他将游戏区域缩窄到屏幕中央，让方块持续下落，这让游戏节奏更快、更有挑战性。但还有个问题，如果你未能让一行填满，它不会消失；如果你填满一行，它也不会消失，这很不带感，游戏也会很快结束。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmjie5fqmj311y0lc4qp.jpg"></p>
-<p>帕基特诺夫再次修改游戏，一旦玩家填满一行，那行就会消失。游戏理论上无穷无尽，而将方块填满一行的感觉令人沉迷。突然，他自己都玩得停不下来，他甚至在工作时间以调试程序的名义偷偷玩游戏，这款游戏天生令人上瘾，而且不需要任何教程或解释。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmk56zim5j311y0lc1hf.jpg"></p>
-<p>帕基特诺夫将之命名为“Tetris（俄罗斯方块）”。这个词组合了希腊语表示四的“Tetr”和他最爱的网球运动“tennis”。它有个基本的分数系统，没有音效和额外关卡，但它令人上瘾，绝对是他们游戏集合中的最佳作品，但没人想到《俄罗斯方块》会流出计算中心的大楼，它仅能运行在过时的Electronika 60上。</p>
-<p>《俄罗斯方块》在苏联科学院收获了一小群死忠粉，帕基特诺夫希望有更多玩家，唯一的办法是将游戏移植到更通用的平台上，即IBM PC。他问16岁天才瓦迪姆·格拉西莫夫能否办到，这个任务之所以困难是因为格拉西莫夫需要在一台从未用过的电脑上重写所有代码。但区区数日，格拉西莫夫就完成原型。几周后，他就做出兼容性更好的完整版。他为方块加上颜色，加入了更多关卡和分数保存功能，《俄罗斯方块》变得更令人上瘾了。然而，销售游戏集合的梦想破碎了。在苏联做生意非同寻常，更别说是软件生意，外加他们是在苏联科学院里开发游戏，所以严格来说游戏是政府财产。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmoatf0goj311y0lc7wh.jpg"></p>
-<p>帕基特诺夫、帕夫洛夫斯基和格拉西莫夫不希望汗水付诸东流，他们将游戏集合命名为“电脑游乐场”，并制作拷贝分发给任何感兴趣的人，其中之一便是弗拉基米尔·伯克希尔科，他是帕基特诺夫的朋友，在莫斯科医学中心担任临床心理学家。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmodrltcaj311y0lc4qp.jpg"></p>
-<p>当他玩了《俄罗斯方块》后，他立刻明白了这款游戏令人上瘾的本质。当一行行方块消失，一种情绪激励会让玩家不断玩下去。伯克希尔科将游戏拷贝给下属们玩，很快，整个心理学部门都着迷了。伯克希尔科害怕游戏会干扰工作，又销毁了医学中心的每份拷贝。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnvxjytruj311y0lc1kx.jpg"></p>
-<p>但游戏还是死灰复燃，堵不如疏，伯克希尔科想到这款游戏可用于成瘾性研究。帕基特诺夫和格拉西莫夫为莫斯科医学中心开发了专门的双人版本。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmomqrhn4j311y0lcteb.jpg"></p>
-<p>到1986年，《俄罗斯方块》在苏联如野火般传开，几乎每个能接触IBM PC的人都能玩上。帕基特诺夫没赚一分钱，但他为游戏的流行感到振奋，但这只是开始，《俄罗斯方块》最终传到苏联之外，燃了一场借此赚钱的史诗之争。</p>
-<h3 id="进入西方"><a href="#进入西方" class="headerlink" title="进入西方"></a>进入西方</h3><p>由于简单而令人上瘾的玩法,《俄罗斯方块》占据了苏联人的闲暇时光，包括帕基特诺夫的上司，他将游戏分享给匈牙利布达佩斯SZKI计算机科学学院的几位同事，他们非常喜欢，一些学生甚至将游戏移植到Commodore 64和Apple II上（当时两款西方最流行的家用电脑）。由此，《俄罗斯方块》正式穿过了冷战铁幕。</p>
-<p>某种程度上，匈牙利在苏联阵营中受西方影响最大。它虽受共产主义统治，但在1956年匈牙利革命后，匈牙利政府进行了一些主要经济改革以创造一个相对开放的自由市场。匈牙利最流行的出口之一就是由鲁比克·艾尔内于1974年发明的魔方。商人们在匈牙利寻找将东方产品销往西方市场的机会，其中一名商人叫罗伯特·斯坦恩，他是英国软件公司Andromeda的老板。他在80年代卖过电脑硬件，然后转向了软件销售这门利润颇丰的生意。相比在英国发掘新游戏，他觉得故乡匈牙利更适合他。他的商业模式很简单，发掘新游戏；卖给西方游戏发行商；按销量收取版税。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmpwb5qfvj311y0lc7wh.jpg"></p>
-<p>斯坦恩为了寻找游戏，经常拜访SZKI计算机科学学院。1986年某天，他注意到有人在计算机实验室角落玩一款游戏，那就是《俄罗斯方块》。</p>
-<p>“这是啥？”他问<br>“噢，游戏而已”一位员工答道</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmsyqi973j311y0lc7wh.jpg"></p>
-<p>好奇之下，斯坦恩也玩了玩。他不是游戏达人，却也玩得停不下来，这肯定能火。他立刻找到学院主管希望获得授权，但主管不好意思地承认，游戏不是他们的，如果斯坦恩想要授权，他得跟苏联谈。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmt2x77ohj311y0lc7wh.jpg"></p>
-<p>这可不容易，苏联经济当时仍非常封闭，斯坦恩就这么飞到莫斯并谈拢生意的可能性几乎为零，但学院主管有个联系方式，他有苏联科学院的电传机号码。斯坦恩发了条电报，说明自己希望获得《俄罗斯方块》授权，这条信息被转交帕基特诺夫。</p>
-<p>帕基特诺夫大为震动，他几乎放弃卖游戏的想法了，现在却收到一份对《俄罗斯方块》的报价。但他必须谨慎，他发明了《俄罗斯方块》，但他无权进行游戏授权。</p>
-<p>“我们对此无能为力”，他说</p>
-<p>不过，将游戏发行实在是个巨大诱惑。几周后，经过书面翻译和恰当授权，帕基特诺夫做了如下回复：“我们很感兴趣”、“我们希望达成协议”，其实帕基特诺夫是想说“我们再谈谈吧”，他不想贸然行事触怒政府，也不想完全关上大门，但斯坦恩看来，这就是口头答应了。</p>
-<p>他有把握，他的公司能找到《俄罗斯方块》的买家。斯坦恩立刻找到他在英国的一个首选发行商Mirrorsoft。Mirrorsoft隶属于麦克斯韦集团，后者由罗伯特·麦克斯韦创立，他是一名二战老兵和前国会议员。麦克斯韦集团拥有几家报刊、杂志和一个足球俱乐部。Mirrorsoft是个财力雄厚的大发行商，斯坦恩约见了Mirrorsoft联合创始人吉姆·麦肯诺奇，后者看了下《俄罗斯方块》，觉得没啥特别，就将它转给了Mirrorsoft的技术部门。几周后，麦肯诺奇在午休时闲逛来到技术部门，他发现大家挤成一团在玩《俄罗斯方块》，他这才想到自己也该玩玩。他将游戏拷回家，很快他和老婆孩子就沉迷其中。除了Mirrorsoft，麦克斯韦集团还拥有一家美国软件公司。Mirrorsoft和Spectrum Holobyte合作得很好，会定期沟通他们各自地域的新作和游戏发行。当时，Spectrum Holobyte总裁菲尔·亚当正在英国发掘新作，麦肯诺奇向他展示了《俄罗斯方块》，他也入迷了，斯坦恩由此与麦克斯韦集团达成协议，Mirrorsoft付出3000英镑外加版税获得《俄罗斯方块》PC和主机的欧洲发行权，Spectrum Holobyte付出1.1万英镑外加版税获得北美和日本发行权。</p>
-<p>斯坦恩不算大赚，但他还有其它授权可卖，比如街机和掌机授权。而真正的问题在于斯坦恩假设自己已跟莫斯科计算中心的帕基特诺夫达成协议，但他只有那条口头答应的含糊电报，尚未签署任何文件。理论上，他是将一款并不属于他的游戏卖给别人。随着他与两家公司的合同进展，时间愈发紧迫。斯坦恩给莫斯科发出了报价，预付1万美元，外加他从《俄罗斯方块》赚得利润的75%。帕基特诺夫再次给了含糊但正面的回复。他们快要达成协议了，斯坦恩不断催促，他甚至将部分款项以Commodore电脑实物来支付。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmtjttheqj311y0lc7wh.jpg"></p>
-<p>但正如帕基特诺夫所料，苏联政府介入了谈判。AcademySoft，苏联科学院内部的发行和授权团队接手了进一步谈判，AcademySoft只愿给斯坦恩IBM PC版《俄罗斯方块》授权。斯坦恩同意了，其它版本可稍后再谈。当时已是1987年，却还没签订任何合同。Spectrum Holobyte和Mirrorsoft正筹备他们的《俄罗斯方块》，以为自己已获得相关授权。斯坦恩愈发焦虑，苏联那边到底由谁来代表商谈？斯坦恩认为自己已获口头承诺，但他需要纸面合同来确保和Mirrorsoft、Spectrum Holobyte的交易合法，所以斯坦恩不断催促苏联。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmu7023k2j311y0lc4qp.jpg"></p>
-<p>1987年4月，他向莫斯科发了另一封电报，里面说明Mirrorsoft和Spectrum Holobyte会在各自地域发行IBM PC版《俄罗斯方块》，但他的催促并无效果。1987年6月，斯坦恩与Spectrum Holobyte、Mirrorsoft敲定了最终合同，但他仍需要苏联方面的签字。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmtmunddzj311y0lc4qp.jpg"></p>
-<h3 id="红盒子"><a href="#红盒子" class="headerlink" title="红盒子"></a>红盒子</h3><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmumhfdz0j311y0lcn3u.jpg"></p>
-<p>罗伯特·斯坦恩向两家公司保证他会搞定和苏联的协议，于是两家公司继续推进项目，但市场营销是个大问题：《俄罗斯方块》令人上瘾，但不同于当时市面上的任何游戏它没有故事或英雄，画面也没优势。Spectrum Holobyte总裁菲尔·亚当斯注意到《俄罗斯方块》是北美商业发行的第一个俄国游戏，为何不借此宣传呢？他提议将《俄罗斯方块》包装成来自神秘铁幕之后的异国游戏，这定能迎合大众对苏联的好奇。游戏被完全重写，以融入俄国元素，其中加入的图片包括圣瓦西里大教堂、列宁体育场和五一劳动节红场庆典，游戏还用了经典的俄国音乐，甚至暗示了马蒂亚斯·鲁斯特那个驾着小飞机直达红场的西德飞行员，（他被逮捕，并以“蓄意流氓罪”被起诉模仿里根和戈尔巴乔夫的演员在贸易展上推销游戏）《俄罗斯方块》热潮随发布接近渐涨。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmuonqs6cj311y0lc4qp.jpg"></p>
-<p>1988年1月，就在《俄罗斯方块》上市前，罗伯特·斯坦恩收到来自苏联另一机构的电报，该机构指控斯坦恩非法销售《俄罗斯方块》并声称他们全权负责后续谈判，这个机构就是ELORG。ELORG是“电子技术机构”的简称，苏联外贸部门为进出口计算机技术建立了ELORG，专门面向其它共产主义国家。但随着1980年代戈尔巴乔夫掌权，与西方贸易的限制渐渐放开，ELORG可自由寻找国际上技术授权的机会，包括软件领域。ELORG获悉一些苏联科学院研究员在开发软件，包括帕基特诺夫的AI程序。ELORG找到帕基特诺夫，看他的程序是否能销往国外，见面时，帕基特诺夫随口提起《俄罗斯方块》，包括他和AcademySoft在与罗伯特·斯坦恩交易中的困难。ELORG的代表大为震惊，帕基特诺夫和AcademySoft无权商谈国际软件授权事项，ELORG要求立即移交所有纸质文件。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmurpmvo6j311y0lc7wh.jpg"></p>
-<p>ELORG深感不可思议，一名苏联科学院的研究员竟在商谈一款电子游戏的国际商业授权。不仅如此，还没签任何合同，这款游戏就即将在西方发售了。就这样，ELORG开始全权负责授权谈判，他们要求斯坦恩来莫斯科进行解释。当斯坦恩到达时，他说就像被审问一样。ELORG的代表们并不相信他：</p>
-<p>“你为何未经我们批准就销售《俄罗斯方块》？”他们问<br>“我之前都不知道你们的存在！”斯坦恩辩解道</p>
-<p>他据理力争，说现在中止交易对苏联不利，会让外界觉得苏联是不可靠的贸易对象。双方讨价还价，像无休无止的网球比赛。ELORG想对游戏有最终审查权，斯坦恩想获得所有计算机版本授权，不仅限于IBM PC。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmuu1kfyyj311y0lc7wh.jpg"></p>
-<p>双方一直讨价还价未达成任何协议。此时，游戏在西方大有进展。1988年1月29日，Spectrum Holobyte以34.95美元的价格发售《俄罗斯方块》。它有一个红色包装盒，上面用黄色粗体俄文写着名字<br>相比其它游戏非常显眼。这种“俄国风”营销思路非常奏效，Spectrum Holobyte首年就卖出了10万份拷贝，英国Mirrorsoft的销量稍逊，但仍然可观。另外，英国版移除了游戏中的很多俄国元素，游戏好评如潮：</p>
-<blockquote>
-<p>“《俄罗斯方块》上手如此简单，你打开游戏五分钟就能学会。它是如此诱人，一旦你开始玩就会在电脑前待上很久，以至于你开始怀疑这游戏是不是一个恶毒阴谋，由邪恶帝国策划，以降低美国工人生产力”</p>
-<p><strong><em>丹尼斯·林奇，《芝加哥论坛报》</em></strong></p>
-</blockquote>
-<blockquote>
-<p>“在众多电脑游戏中，它简单而令人上瘾。批评者说，它没有枪械、爆炸和混战，对年轻的美国硬核玩家缺乏吸引力。不过，这款苏联游戏就是如此温和”</p>
-<p><strong><em>彼得·刘易斯，《纽约时报》</em></strong></p>
-</blockquote>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmuqzu6uyj311y0lcb29.jpg"></p>
-<p>《俄罗斯方块》热潮席卷西方，在家庭和公司都可见踪影。Spectrum Holobyte甚至为游戏加上了老板键，按下Esc键即可快速弹出一个命令行界面。这是Spectrum Holobyte和Mirrorsoft的一次巨大成功，但斯坦恩依然提心吊胆：他和俄国人的协议仍悬而未决。Spectrum Holobyte和Mirrorsoft开始将游戏移植到其它电脑平台。最终在1988年5月，《俄罗斯方块》发售4个月后，ELORG和斯坦恩达成了协议，Andromeda公司获得游戏PC版发行权以及将游戏移植到“不同类型计算机”的权利。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmv0ivxmuj311y0lc1kx.jpg"></p>
-<p>斯坦恩认为，这包括了家用主机，ELORG会拿到一笔未公开预付款，以及每份游戏销售的版税。斯坦恩如释重负，他立刻致电Mirrorsoft的吉姆·麦肯诺奇，告知交易正式完成。当麦肯诺奇问到街机和掌机授权时，斯坦恩向他保证，那些不在话下。他们由此编织出一个错综复杂的授权网，最终导致一场残酷的争斗：关于谁拥有《俄罗斯方块》的哪些权利。</p>
-<h3 id="登陆任天堂"><a href="#登陆任天堂" class="headerlink" title="登陆任天堂"></a>登陆任天堂</h3><p>1988年1月，Spectrum Holobyte在拉斯维加斯的冬季CES上展示了他们的新产品。Spectrum Holobyte总裁菲尔·亚当斯骄傲地站在展厅里向排成长队的与会者展示《俄罗斯方块》。亨克·罗杰斯也在队伍中，他是日本游戏发行商BulletProof的老板。罗杰斯生于荷兰，在美国长大。当他在夏威夷大学读书时，他爱上了一位日本姑娘，并随她回到日本。他在那儿进入游戏开发行业，创立了Bulletproof。受“龙与地下城”桌游的启发，亨克·罗杰斯发售了《黑玛瑙》–一款野心勃勃的回合制RPG，在日本还是首创。1984年底，它已成为日本最畅销电脑游戏。</p>
-<p>1985年，他被任天堂FC迷住了，决定为这一平台开发游戏。当他通过杂志了解到任天堂社长山内溥是围棋爱好者后，他预约了见面。罗杰斯提出他能为FC开发围棋游戏，山内溥向他预付3000万日元：即30万美元来开发游戏。几分钟内，罗杰斯就与任天堂达成交易，不仅收获现金，还得到任天堂官方许可。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmx30kv3nj311y0lc1kx.jpg"></p>
-<p>1988年，罗杰斯更多涉足了发行行业。他经常出没于贸易展，寻找下一款能在日本发行的游戏，所以他站在那，排队等着去玩一款来自俄国的古怪游戏：《俄罗斯方块》。他不确定这是怎么回事：</p>
-<p>“《俄罗斯方块》是展会上最安静的游戏”<br>“那时，游戏已经有些画面吸引力”<br>“但这款游戏却完全不同”<br>“我想玩它，因为它是如此质朴”<br>“我玩得停不下来”</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmx1rcxkpj311y0lc4qp.jpg"></p>
-<p>在反复排队玩了不下五次后，罗杰斯心服口服，《俄罗斯方块》就是他在寻觅的游戏。它如此简洁，看起来编程简单，且几乎无需文字翻译。罗杰斯获悉，Spectrum Holobyte的CEO吉尔曼·路易将去日本推销游戏。吉尔曼·路易的第一站是ASCII公司，日本最大的发行商之一。他们婉拒了《俄罗斯方块》，说这游戏过于复古，这成了罗杰斯的运气。</p>
-<p>吉尔曼·路易和亨克·罗杰斯签订了意向书，让BulletProof在日本发行《俄罗斯方块》，遍及所能想象的所有平台。罗杰斯给了标准开价，一笔预付款和按销量收取的版税。Spectrum Holobyte无意涉足日本市场，罗杰斯看起来更适合在日本发行这款游戏。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmx5x95u7j311y0lc4qp.jpg"></p>
-<p>当吉尔曼·路易致电吉姆·麦肯诺奇告知消息时，他也得到一个惊人消息：罗杰斯没法享有在主机街机上的日本发行权–因为那发行权已经卖了，买家是雅达利游戏（雅达利在1984年分拆为“雅达利集团”和“雅达利游戏”）。雅达利游戏计划用子公司Tengen来发行游戏，与其他人一样雅达利工程师们玩了PC版《俄罗斯方块》后入迷了，游戏成了办公室日常谈资，这启发了雅达利游戏去争夺发行权。</p>
-<p>对罗杰斯更不利的是，雅达利游戏只花了很少代价。为了换取《俄罗斯方块》在日本和北美的主机街机发行权，雅达利游戏给了Mirrorsoft《彗星大爆破》的PC发行权：这是街机游戏《爆破彗星》的简单更新版<br>授权无需版税或现金。</p>
-<p>吉尔曼·路易气炸了，但他毫无办法。由于跟麦克斯韦集团关系更紧密，Mirrorsoft的权力更大，路易斯致电罗杰斯，告知这个消息，罗杰斯可以拿到PC发行权，但如果他想要主机和街机授权，他得找雅达利游戏。当罗杰斯联系对方询价时，雅达利游戏一口回绝。</p>
-<p>罗杰斯并不气馁，他飞往加州并在雅达利游戏的停车场扎起帐篷，他等待与总裁中岛秀的交谈机会。一天中岛正准备下班，罗杰斯乘机上去推销一番，中岛最终同意安排会谈。经过一顿寿司大餐，两人商讨了交易细节，中岛无法出售街机发行权，因为已经卖给了世嘉，但他愿意出售在日本主机的发行权。中岛不太关心游戏在日本主机的发行权，因为他正全力以赴北美市场，不过他开价很高。罗杰斯被迫多付30万美元来获得主机发行权，但他确信这款游戏能大卖。然而，日本的初期销量很低，BulletProof只收到4万份订单。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmy5qpgo2j311y0lc7wh.jpg"></p>
-<p>罗杰斯再次找到任天堂社长山内溥，希望他能帮忙推广游戏。山内溥很好奇，于是将游戏交给了一位设计师：宫本茂。几天后，山内溥问宫本茂，《俄罗斯方块》好不好玩</p>
-<p>“好玩”，宫本茂说</p>
-<p>山内溥想知道原因，宫本茂说</p>
-<p>“因为你的秘书和会计都在玩呢”</p>
-<p>由此，山内溥明白了《俄罗斯方块》具有普遍魅力，他同意推动这款游戏的销量，订单数借此超过了20万份。1988年12月22日，BulletProof在任天堂FC上发行了《俄罗斯方块》，它成了任天堂史上最畅销的游戏，当时卖出了200万份，但这又给那棵复杂的“授权/再授权”关系树增加了分支。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmy8fvn6mj311y0lc1kx.jpg"></p>
-<p>一切取决于一个合同，即罗伯特·斯坦恩与ELORG的交易，而那笔交易正岌岌可危。<br>1988年，任天堂正处于电子游戏界之巅，他们正一步步实现700万台的NES年销量。业界专家预测，任天堂的市场规模比整个家用PC游戏规模还大。不仅如此，任天堂日本准备推出一台全新设备：掌机Game Boy。在北美，任天堂主机通常会捆绑一款游戏，但选哪款呢？1988年12月，亨克·罗杰斯与任天堂美国总裁荒川实进行会谈，地点在华盛顿州雷德蒙德总部。当罗杰斯得知他们的状况后，他建议选《俄罗斯方块》：</p>
-<p>“如果捆绑马里奥，Game Boy就像为孩子设计”<br>“如果捆绑《俄罗斯方块》”<br>“Game Boy就会适合大众了”，他说</p>
-<p>荒川实大感兴趣。他听说了FC版《俄罗斯方块》在日本的成功，Tengen正准备在北美发行NES版的《俄罗斯方块》，但掌机发行权尚无定论。罗杰斯愿意帮忙，他知道能因此大赚。如果《俄罗斯方块》能随手可玩，在他获取这款游戏日本发行权的过程中，他得知罗伯特·斯坦恩是关键人物。</p>
-<p>罗杰斯致电斯坦恩，询问掌机授权的报价，他开价预付2.5万美元，但斯坦恩仍未获得掌机和街机授权并同时在应付Mirrorsoft对掌机授权的要求时他只给了个含糊回答：他要先跟俄国人谈了，才能答复罗杰斯，但斯坦恩即将遭遇另一障碍：在错综复杂的授权网某处，ELORG的收款逾期了，他们指派新主管尼古拉·贝里科夫来理清这团乱麻。贝里科夫是个以无情著称的高大男人，帕基特诺夫将他描述为一个出色演员，他是个谈判高手。贝里科夫看了斯坦恩和ELORG在1988年5月签署的合同，其中承诺会在三个月内付款，而这笔付款已逾期三个月。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnw0ijo94j311y0lc1kx.jpg"></p>
-<p>斯坦恩进退两难：Mirrorsoft和亨克·罗杰斯正等着掌机授权；未经授权的街机版《俄罗斯方块》已经发售。他觉得解决一切的最好办法，就是去莫斯科与贝里科夫会面。与此同时，罗杰斯感觉自己被无视了，他开始对罗伯特·斯坦恩生疑。不仅如此，他还听说Spectrum Holobyte的吉尔曼·路易正试图将掌机授权卖给任天堂。当荒川实向罗杰斯打听此事，罗杰斯坚决否认：</p>
-<p>“我知道吉尔曼没有这类授权”<br>“给我个机会，我会摆平的”</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnw1sz3xlj311y0lc7wh.jpg"></p>
-<p>罗杰斯决定直接跟俄国人打交道，于是他前往莫斯科。在英国，Mirrorsoft听到任天堂觊觎掌机授权的风声，母公司麦克斯韦集团派遣凯文·麦克斯韦，即老板罗伯特·麦克斯韦之子前往莫斯科。麦克斯韦集团与苏联官僚关系密切，所以在争夺掌机和街机授权上优势大得多。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnvz3324dj311y0lcb29.jpg"></p>
-<p>1989年2月，斯坦恩、罗杰斯和麦克斯韦三人飞往莫斯科争夺《俄罗斯方块》这块蛋糕，《俄罗斯方块》的版权之争即将上演。</p>
-<h3 id="资本主义"><a href="#资本主义" class="headerlink" title="资本主义"></a>资本主义</h3><p>亨克·罗杰斯抵达莫斯科时，对自己该去哪毫无头绪。他知道斯坦恩是跟ELORG交涉，但他不知道这个部门在哪。最初，他尝试跟当地人下围棋来交朋友，但无所斩获，于是罗杰斯雇了名翻译来帮他打听ELORG。在莫斯科转了一天后，他们终于找到地址。亨克·罗杰斯走进ELORG，请求与《俄罗斯方块》的版权负责人见面。他在大厅等候时，能感受到周围压力。</p>
-<p>“你从没去过这么不欢迎自己的地方”，他说</p>
-<p>当贝里科夫得知一个来自日本的外国人想洽谈《俄罗斯方块》时，他非常惊讶，未经克格勃允许，与外国人会面是违反制度的，但贝里科夫很好奇，还是决定见面，无论如何，有个第三方报价对授权谈判总是有利的。贝里科夫与罗杰斯在大厅见了面。</p>
-<p>“你是谁？”他问</p>
-<p>罗杰斯拿出一份FC版《俄罗斯方块》，递给贝里科夫</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwl3m5m8j311y0lc79l.jpg"></p>
-<p>“我们是目前世界上最大的《俄罗斯方块》发行商”，他吹嘘道</p>
-<p>贝里科夫困惑地看着游戏卡带。就他所知，还没人得到主机版《俄罗斯方块》授权。</p>
-<p>“ELORG并未向任何人提供主机版授权！”贝里科夫咆哮道</p>
-<p>罗杰斯为自己辩解，解释了是怎样的“授权/再授权”链给了他权利：</p>
-<p>即ELORG-&gt; Andromeda-&gt; Mirrorsoft-&gt; Tengen-&gt; BulletProof（Andromeda=斯坦恩，Tengen=雅达利游戏）</p>
-<p>贝里科夫更困惑了，他甚至都没听过Tengen，他们只向Andromeda授了权，而且仅限于PC版《俄罗斯方块》。</p>
-<p>“你在非法销售不属于你的东西”，他说</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwm1i8bbj311y0lc7wh.jpg"></p>
-<p>罗杰斯来莫斯科是为了争取掌机授权，但现在他竟有失去一切的危险。“我要么带着《俄罗斯方块》的授权离开，要么就得进集中营了”，他想。一番讨论后，罗杰斯和贝里科夫约定第二天正式会谈。第二天，罗杰斯来到ELORG，就被引进一间摆着巨大桌子的巨大房间，桌子的尽头是谈判强人贝里科夫、《俄罗斯方块》发明人帕基特诺夫和几位ELORG成员，罗杰斯一人坐在另一边。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwnhot2ij311y0lc4qp.jpg"></p>
-<p>通常，他的推销会提到他与任天堂的密切关系以及他们如何占据了电子游戏市场的主要份额，但俄国人对任天堂和电子游戏市场一无所知。于是他另辟蹊径，给俄国人上了堂电子游戏商业速成课。ELORG向罗杰斯展示了他们与斯坦恩签署的合同，罗杰斯扫了一遍，发现了其中引发争端的条文：Andromeda与ELORG的合同声明斯坦恩有权将《俄罗斯方块》移植到“不同类型计算机”上–对俄国人而言，这仅意味着“计算机系统”；对斯坦恩而言，计算机与游戏主机并无本质区别。因此，ELORG贱卖了《俄罗斯方块》，只获得万分之一的收益，实在太糟糕了。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwo9qajpj311y0lc4qp.jpg"></p>
-<p>罗杰斯向ELORG自荐，提出了他对掌机授权的详细报价，他愿为每盘卡带销售支付固定金额。在与斯坦恩的交易后，这报价实在惊喜，帕基特诺夫尤为折服。罗杰斯精通商业之道，而作为前程序员，他和帕基特诺夫志趣相投。罗杰斯一番推销后，贝里科夫希望更进一步，他要求一份对《俄罗斯方块》掌机授权的正式报价。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwq2kt99j311y0lc7wh.jpg"></p>
-<p>“把东西都写下来”，他说</p>
-<p>贝里科夫问罗杰斯什么时候能再来莫斯科</p>
-<p>“我要么达成协议，要么一去不返”，罗杰斯回答道</p>
-<p>会谈后，罗杰斯与帕基特诺夫继续交谈。</p>
-<p>“不知道怎的，我俩一见如故”<br>“他就是我在俄国寻找的那种朋友”，罗杰斯说</p>
-<p>那晚，帕基特诺夫带罗杰斯参观了莫斯科。他们游览城市，畅饮伏尔加，讨论《俄罗斯方块》的续作创意，对帕基特诺夫而言，能畅快地聊聊作品实在清爽。</p>
-<p>“他无所予，也无所求”，帕基特诺夫说</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwqv02qsj311y0lc1kp.jpg"></p>
-<p>两人结下的友谊，将对《俄罗斯方块》的未来产生深远影响。第二天，罗杰斯回到ELORG，带着对《俄罗斯方块》掌机授权的一纸报价。罗杰斯知道斯坦恩也将到来，所以他以这份报价仅有一周有效期来施压。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwt8j1yfj311y0lctc7.jpg"></p>
-<p>在罗杰斯的电子游戏商业速成课后，贝里科夫也准备与罗伯特·斯坦恩和凯文·麦克斯韦会面。贝里科夫认为斯坦恩滥用了授权，斯坦恩攫取了一切，俄国人却收获甚微。而且相比之下，游戏发明者帕基特诺夫显然更喜欢罗杰斯，现在轮到共产主义者来玩这资本主义游戏了。</p>
-<p>罗伯特·斯坦恩进入ELORG办公室时只有一个想法：争取《俄罗斯方块》的掌机街机授权，街机授权尤为重要，因为Tengen和世嘉已开始销售机器了，但贝里科夫另有打算。贝里科夫向斯坦恩展示了他们的最初合同。</p>
-<p>“斯坦恩先生，老实告诉我这是什么？”，他问<br>“一份协议”，斯坦恩说<br>“这不是协议”，贝里科夫拍案而起<br>&quot;这只是一堆不负责的文字&quot;<br>“在这之下，发行权被随意转让，却毫无补偿！”</p>
-<p>贝里科夫向斯坦恩展示了一份修改版合同。ELORG想拿到收款，所以新合同详列了逾期付款的罚金，贝里科夫不愿讨价还价。斯坦恩答应先读读合同，几天后再来。这次会谈虽不愉快，但斯坦恩有信心在摆平一切后依然能争取到掌机街机授权。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwudubkij311y0lc1kx.jpg"></p>
-<p>贝里科夫接着将会见凯文·麦克斯韦，麦克斯韦集团老板罗伯特·麦克斯韦之子。罗伯特·麦克斯韦与俄国官僚关系密切，包括总书记米哈伊尔·戈尔巴乔夫，Mirrorsoft很有把握凯文·麦克斯韦一定能如愿拿下掌机授权。会谈一开始，贝里科夫就将FC版《俄罗斯方块》卡带滑向对方。</p>
-<p>“这是什么？”，他吓唬道</p>
-<p>麦克斯韦没啥头绪，他猜这是一份盗版《俄罗斯方块》</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwvf9aulj311y0lc7wh.jpg"></p>
-<p>“所以Mirrorsoft和ELORG更有理由谈成协议来杜绝这些盗版”，他说</p>
-<p>麦克斯韦对状况的无知成了致命伤。在贝里科夫看来，显然没人拥有《俄罗斯方块》的主机授权。贝里科夫没法一口回绝麦克斯韦哪怕他很想这么做，麦克斯韦与俄国高层关系密切，且财力雄厚。</p>
-<p>“如果这确实是份盗版”，贝里科夫说<br>“那Mirrorsoft应该为主机授权开个价”</p>
-<p>他同时抛出另一笔交易，ELORG将获得麦克斯韦集团旗下出版的参考书和百科全书发行权以换取Mirrorsoft对《俄罗斯方块》任何新授权的优先权。麦克斯韦对此非常满意地离开了，认为事情正往有利方向进展。但实际上，他吃大亏了。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnww9uydtj311y0lc7wh.jpg"></p>
-<p>回到酒店房间，罗伯特·斯坦恩仔细看了ELORG开出的新合同，它几乎与旧合同一样，除了为逾期付款开出的高昂罚金。获得街机授权至关重要，为此斯坦恩必须签了这份合同。他签了名，并在第二天回到ELORG。没了这个障碍，谈判可以继续了，但贝里科夫说，ELORG还没打算卖出掌机授权，不过街机授权可以谈，报价是六周内付清15万美元的授权预付金。这是一大笔钱，但起码斯坦恩可避免Tengen和世嘉街机版的任何授权纠纷。</p>
-<p>斯坦恩心满意足地回去了，但斯坦恩忽略了新合同的一处关键改动，贝里科夫为“计算机”加上了定义，其中指明“计算机”是由处理器、显示器、磁盘驱动器、键盘和操作系统组成。由于这份合同具有回溯效力，它有效剥夺了斯坦恩自以为拥有的一切主机授权，那笔大额逾期罚金只是掩人耳目罢了，ELORG的俄国人玩了一次资本主义把戏并取得胜利。</p>
-<p>这次会面后，贝里科夫致电罗杰斯通知他，凯文·麦克斯韦和Mirrorsoft也想获得掌机授权。</p>
-<p>“我的开价比不上麦克斯韦”<br>“但我会诚实守信地为每盘卡带销售付钱”，罗杰斯说</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwxkacn9j311y0lce7b.jpg"></p>
-<p>几天后罗杰斯向ELORG呈上了最终合同，并详解了每处细节。一锤定音，罗杰斯和任天堂拿到了Game Boy上的《俄罗斯方块》授权。签署合同后，贝里科夫向罗杰斯提出另一笔交易：让他为《俄罗斯方块》的主机授权报价。罗杰斯知道任天堂肯定有兴趣。“任天堂会开出最高价格”，罗杰斯说。贝里科夫要求三周内给出一份纸面报价，在此之前不再会谈。罗杰斯马上赶回日本，他可耽搁不起。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwyrljprj311y0lc4qp.jpg"></p>
-<h3 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h3><p>一回到日本，亨克·罗杰斯就致电荒川实，告知喜讯：任天堂不仅手握《俄罗斯方块》掌机授权，由于之前的合同纠纷，他们还有机会争取主机授权。荒川实将信息转给任天堂美国副总裁霍华德·林肯，林肯兴奋得两眼发亮，这笔交易能让任天堂大赚，同时也是对雅达利游戏的回敬：后者作为曾经的授权厂商，正为1亿美元赔偿起诉任天堂。（这个诉讼源自雅达利游戏在任天堂授权政策上的碰壁，他们起诉任天堂涉嫌垄断和不公平竞争。与此同时，雅达利游戏以子公司Tengen名义，发行了一批未经授权的游戏，它们是最早出现在NES上的未授权游戏。Tengen即将发布的游戏之一，就是主机版《俄罗斯方块》）</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnxknfinxj311y0lcjwe.jpg"></p>
-<p>夺取Tengen的主机授权会对其重创，林肯对此一清二楚。他们派罗杰斯去莫斯科正式报价，一位著名律师与他随行，这位律师曾在苏联工作，精通俄语。他们给ELORG的报价相当惊人–500万美元的保证金。为履行承诺，贝里科夫联系Mirrorsoft通知其行使优先权。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnxkd04tpj311y0lc1kx.jpg"></p>
-<p>1989年3月15日，他发出电报，并给对方一天来还价。没收到回复之下，ELORG准备跟任天堂签署合同。因为那笔巨大金额，一位任天堂雇员必须前来签字。林肯和荒川实决定秘密前往，雅达利游戏如有任何察觉，都会危及这份协议。他们告知任天堂美国的员工是要去日本旅行，然后直飞莫斯科。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnxly8zhpj311y0lc1kx.jpg"></p>
-<p>他们到达后，谈判继续。林肯确定雅达利游戏会尾随其后，他希望加上条款，声明俄国人会在任何相关诉讼中帮助任天堂。林肯还建议帕基特诺夫作为发明人也能收到版税，贝里科夫认为这建议不妥，帕基特诺夫是在办公室做出了游戏，游戏属于国家。贝里科夫提议ELORG也能制造卡带，甚至要求能制造苏联自己的NES，任天堂拒绝了。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnxn65delj311y0lcqs7.jpg"></p>
-<p>就在谈判最后阶段，Mirrorsoft的吉姆·麦肯诺奇最终回复了ELORG。就麦肯诺奇所知，Mirrorsoft已经拥有主机授权，ELORG肯定搞错了，这回复正中ELORG下怀。1989年3月22日，任天堂和ELORG签署了《俄罗斯方块》主机授权的协议。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnxofi3w0j311y0lc4qp.jpg"></p>
-<p>同一天，贝里科夫给Mirrorsoft和罗伯特·斯坦恩发出一封电报，《俄罗斯方块》的主机和掌机授权已经卖出，它们已属于任天堂。罗伯特·斯坦恩目瞪口呆。</p>
-<p>“我只专注于自己想要什么”<br>“竟忘了认真看看他们想要什么”，他说</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnxp1xb1hj311y0lchc4.jpg"></p>
-<p>他觉得自己遭谎言中伤和欺骗，他指控亨克·罗杰斯与俄国人合谋修改了合同，他也指责凯文·麦克斯韦与贝里科夫的会面毁了一切。</p>
-<p>“他坑了我，也坑了大家”，斯坦恩说</p>
-<p>不过他好歹还有份安慰奖，斯坦恩仍然持有《俄罗斯方块》的PC和街机授权。凯文·麦克斯韦得知消息后火冒三丈。“你们两次撕毁协定，死定了”，他在给ELORG的回复电报中如是说，他还威胁要让苏联当局介入。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnxqopbb1j311y0lc438.jpg"></p>
-<p>他不是在吹牛，苏联政府质询了贝里科夫，搜查了他的文件，但贝里科夫据理力争并担保任天堂会信守承诺。当凯文·麦克斯韦将这一消息告知父亲时，据称他父亲“勃然大怒”。罗伯特·麦克斯韦将他的怒火撒向戈尔巴乔夫，时任苏共总书记的戈尔巴乔夫当时无暇顾及这些，他的国家正在坍塌边缘。</p>
-<p>“你应该无需再担心日本公司了”，戈尔巴乔夫告诉麦克斯韦</p>
-<p>在此保证下，Mirrorsoft放弃了诉讼。1989年3月31日，雅达利游戏总裁中岛秀收到一封令他吃惊的电报，来自任天堂美国的霍华德·林肯。这是一封停终函，要求他们停止并终止在NES或任何家用主机上关于《俄罗斯方块》的制造、宣传、推广和销售，现在相关权利归任天堂了。</p>
-<p>“我知道这掐住了那些混蛋的命门”，林肯说</p>
-<p>1989年4月6日，任天堂发出官方新闻稿宣布这年夏天将在NES上发售《俄罗斯方块》。次日雅达利游戏和子公司Tengen回复了任天堂：</p>
-<p>“我们已收到您的来信”<br>“对此非常坦然和困惑”<br>“如任天堂所知，自去年起”<br>“Tengen就已获得NES上发行《俄罗斯方块》的授权”<br>“这些权利在Tengen看来是相当清晰无误的”</p>
-<p>但雅达利游戏其实慌了。一周后，他们申请了自家版本《俄罗斯方块》的版权。4月18日，他们起诉任天堂侵犯了他们的《俄罗斯方块》授权。一切都变得岌岌可危。雅达利游戏期望《俄罗斯方块》成为一拳重击打破任天堂的主宰之盾。他们指派编程老手埃德·洛格从头编写NES版的《俄罗斯方块》，他们为营销投入大量资金，在《今日美国》上登了整页广告。他们生产了30万份游戏拷贝，甚至在纽约的俄罗斯茶室举办了盛大的发售派对。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnxtadyfaj311y0lc42d.jpg"></p>
-<p>1989年5月17日在诉讼之战中途，Tengen在NES上发行了《俄罗斯方块》。如其预料，游戏被抢购一空，数周内就卖出15万份。与此同时，霍华德·林肯前往莫斯科，带着一队律师为接下来的诉讼做准备。他们尽可能地采访了每个人，包括帕基特诺夫、贝里科夫、ELORG和苏联科学院的员工，他们梳理了罗伯特·斯坦恩和ELORG间的每份合同。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnxt3gqnuj311y0lc4pg.jpg"></p>
-<p>1989年6月15日，Tengen和任天堂的诉讼在加州北区联邦地区法院开庭。本案由法官菲尔·史密斯主持，她同时负责审理两家公司关于“未授权Tengen游戏”的诉讼案。任天堂和雅达利游戏都申请了预先禁令以防止对手销售《俄罗斯方块》。雅达利游戏辩称，他们来自Mirrorsoft的授权是有效的，是俄国人进行了重复授权；任天堂表示，俄国人从未想过将家用PC之外的任何授权卖给Mirrorsoft，那份修改后的合同就是确凿证据，其中定义了“家用计算机系统”，NES绝对不符合那个定义。</p>
-<p>6月22日，法官菲尔·史密斯做出决定，她批准任天堂的预先禁令，禁止雅达利游戏继续销售《俄罗斯方块》，最后的判决要等到那年11月了。雅达利游戏遭到巨大打击，那时，他们的30万份拷贝已卖出一半，还剩一整仓库的卡带。消费者得知消息后，蜂拥而至抢购一份，很多从租赁店借了游戏的人也不还了，并乐意为此付费</p>
-<p>1989年7月31日，任天堂宣布在北美发售Game Boy并捆绑一套《俄罗斯方块》。任天堂觉得他们在案件中拥有清晰强力的证据，他们请求法官菲尔·史密斯做出简易判决尽快结束案件。令人吃惊的是，法官同意了。</p>
-<p>1989年11月13日，她判决任天堂享有《俄罗斯方块》的主机授权。雅达利游戏宣称将会上诉，但后来决定放弃。他们销毁了所剩的游戏库存。同月任天堂发布了NES版《俄罗斯方块》，后来创下500万套销量，这场围绕《俄罗斯方块》的争斗终于结束。</p>
-<p>亨克·罗杰斯关于“《俄罗斯方块》会使Game Boy吸引每个人”的预测是正确的。截止2003年，任天堂卖出了超过1.18亿台Game Boy其中3500万台捆绑了《俄罗斯方块》。尽管任天堂是最后赢家，但涉足其中的每个人：斯坦恩、Spectrum Holobyte、Mirrorsoft、罗杰斯、ELORG和雅达利游戏都借“俄罗斯方块”大赚一笔，除了游戏的发明者阿列克谢·帕基特诺夫。直到1989年，他都没得到什么收益并仍在苏联科学院工作。他结婚了，有了两个孩子。但在1991年，他的命运改变了：亨克·罗杰斯决定帮助这位好友，他帮助帕基特诺夫全家移民到西雅图，帕基特诺夫在那儿创立了自己的软件公司。</p>
-<p>1995年，“俄罗斯方块”原版权过期了，这让帕基特诺夫终于有机会从他的作品上直接赚钱。那时，ELORG已是家私人公司，仍旧由贝里科夫领导。ELORG购买了“俄罗斯方块”一半的版权；罗杰斯和帕基特诺夫合伙成立了“俄罗斯方块公司”<br>并购买了另一半版权。长达13年后，阿列克谢·帕基特诺夫终于获得了游戏的版税收入。</p>
-<p>时至今日，“俄罗斯方块”系列的总销量已超过1.7亿份，使之排名“史上最畅销游戏系列”第七位。（前六名：马里奥、精灵宝可梦、侠盗猎车手、使命召唤、Wii系列、模拟人生）</p>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/emineakgz">Emine Açıkgöz</a><br/>
-      <a href="https://www.youtube.com/channel/UCnbvPS_rXp4PC21PG2k1UVg">Gaming Historian</a><br/>
-      <a href="https://space.bilibili.com/180052141">Cara</a>
-    </i>
-  </font>
-</div>
-
-
-]]></content>
-      <categories>
-        <category>游戏史学家(Gaming Historian)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>从苏宁电器到卡巴斯基--我与卡巴斯基的邂逅</title>
     <url>/archives/392ae7ba.html</url>
-    <content><![CDATA[<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师与病毒的故事以及与卡巴斯基的邂逅。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gmji2g4j30u011qn5e.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师与病毒的故事以及与卡巴斯基的邂逅。</p>
 <h3 id="上篇"><a href="#上篇" class="headerlink" title="上篇"></a>上篇</h3><h4 id="前传——我与病毒的故事"><a href="#前传——我与病毒的故事" class="headerlink" title="前传——我与病毒的故事"></a>前传——我与病毒的故事</h4><p>当我还在读小学的时候，我们家就购置了一台386电脑。当时还是DOS时代，不友好的命令行界面实在让我不知道这个电脑究竟能干什么。后来有懂行的，告诉我电脑里面有游戏，于是我就天天玩五子棋、推箱子、TT打字还有《妖魔道》。同时还发现电脑里面装有WPS，由于它是基于DOS的，还不是现在这种图形化的界面，因此用起来也很不方便。在DOS时代，病毒的种类还是比较少的，主要是因为想要编写病毒，就必须要精通系统底层以及汇编的知识，这并不是人人都可以掌握的。后来觉得这台386实在是不好用，家里就给我升级成了586，也终于装上了Windows95，同时还给我买了《开天辟地》以及《万事无忧》的光盘。</p>
 <p>也正是这两套教程，让我开始系统地接触到了计算机的学习。尽管它们的内容更多地是计算机的实际应用，并不是计算机的原理，但却给我未来的学习打下了坚实的基础。而在《开天辟地》的入门篇中，就专门有一章来介绍病毒的知识。不过那一章讲的也是比较简单，主要就是说两件事，第一是不要畏惧病毒，第二就是如果中了病毒，就要使用杀毒软件查杀。</p>
 <p>那个时候的杀毒软件和现在还是很不一样的，只有一张软盘，而且也不能像现在一样安装在系统里面进行实时监控。基本都是在怀疑中了病毒之后，可以把软盘插进软驱来扫一扫，病毒库也没办法做到实时更新。不过教程中告诉我们，在应用篇里面会教给我们如何手动地给杀软添加病毒特征，可是我翻遍了应用篇也没找到相关内容，于是想学习高级技术的我也就只能作罢了。</p>
@@ -9715,9 +9693,10 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--我在佳木斯的日子</title>
     <url>/archives/c2bd3756.html</url>
-    <content><![CDATA[<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师协助书馆前往佳木斯的日子。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gjf40exj30u0190q95.jpg"></p>
 <a id="more"></a>
 
+<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师协助书馆前往佳木斯的日子。</p>
 <h3 id="上篇"><a href="#上篇" class="headerlink" title="上篇"></a>上篇</h3><h4 id="先来陈述一下背景"><a href="#先来陈述一下背景" class="headerlink" title="先来陈述一下背景"></a>先来陈述一下背景</h4><p>自从我们老师与超市展开合作以来（其实也没合作几年），差不多每年的七月份左右，都会和超市举办书展，算是图书促销，我毕业那年（2009年）也不例外。正好我是六月末毕业离开学校的，而那年的书展就定在了七月初开始举办。而我那年应该是规模最大的一次图书促销了，一共涉及三个城市的三家大润发超市。因此公司这边自然也得派三个人去监督。</p>
 <p>负责超市事务的经理去了吉林市（离长春最近的地方），我被派往去了佳木斯市（还是第一次去黑龙江，到了比长春还北的城市），而我的那个同学去了齐齐哈尔（其实他具体去哪我记不清了，不过这不重要了）。从以往的销售情况来看，每次举办的书展其实也挣不到多少钱，销售情况也是挺一般的。尽管有打肿脸充胖子的嫌疑，但是既然超市允许我们办书展，当然不能错过这个机会，也算是薄利多销，推广自己的品牌了。</p>
 <p>一个人去陌生的佳木斯，其实还是非常忐忑的，但是既然把我推到了这个位置，行不行都得去了，感觉至少要比憋在店面，住在老师那里好吧，毕竟在店面我也不知道该怎么维护客户关系或者拓展客户，到佳木斯，也就相当于是去度假了。</p>
@@ -9988,13 +9967,9 @@
     <title>Hexo-Fluid博客建站记录</title>
     <url>/archives/e5b4d2d6.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn19hpon5nj31hc0u0wf8.jpg"></p>
-<br/>
-
-<p>本文将记录本博客Hexo-Fluid建站的全部过程，包括配置信息修改和功能拓展。</p>
 <a id="more"></a>
 
-
-
+<p>本文将记录本博客Hexo-Fluid建站的全部过程，包括配置信息修改和功能拓展。</p>
 <h3 id="压缩生成文件"><a href="#压缩生成文件" class="headerlink" title="压缩生成文件"></a>压缩生成文件</h3><blockquote>
 <p><a href="https://github.com/chenzhutian/hexo-all-minifier">hexo-all-minifier</a></p>
 </blockquote>
@@ -10384,11 +10359,10 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--曲折考研路</title>
     <url>/archives/f92a248.html</url>
-    <content><![CDATA[<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中的考研之旅。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gl6bugxj30u011qq9u.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中的考研之旅。</p>
 <h3 id="上篇"><a href="#上篇" class="headerlink" title="上篇"></a>上篇</h3><h4 id="利用考证来为考研热身"><a href="#利用考证来为考研热身" class="headerlink" title="利用考证来为考研热身"></a>利用考证来为考研热身</h4><p>由于我当时考研报考的是计算机专业，因此需要考四门内容：政治、数学一、英语一以及408计算机专业基础综合。为了让自己尽快进入状态，因此我打算在考研之前，自己考一些认证来为考研做一下热身。而政治以及数学是没有类似的认证考试的，所以我决定考关于英语和计算机的认证。</p>
 <h4 id="托业考试"><a href="#托业考试" class="headerlink" title="托业考试"></a>托业考试</h4><p>对于英语的热身，最好的选择莫过于四六级考试了。但是当时对于非在校大学生而言，是不能参加四六级考试的，后来我打听了一下，发现可以去考英语托业（TOEIC）。记得我本科的一个室友，大学期间就考了托业，考了五百多分。后来就凭着这个成绩，毕业后去挪威留学了。我了解了这个考试之后觉得不错，就买了教材并且报了名。不过这个考试还是比较贵的，前前后后花了我差不多一千块钱。这个考试的主要内容是英语在实际工作中的应用，因此考的知识还是比较实用的。我还想着，要是我的分数还不错的话，也许在我找工作的时还候能为我加分也说不定，希望可以填补我英语四级的空缺。</p>
 <p>托业考试分为听力和阅读，全都是选择题。由于全都是选择题，因此很多时候还是可以蒙答案的。没记错的话，应该是120分钟做200道题，所以时间还是比较紧迫的。我记得当时我将我手头上的教材练习册完完整整认认真真地做了两遍，这套比较贵的教材，也算是没有白买。做练习的时候，我的正确率平均来看大概也就是百分之六七十，其中当然有我擅长的题目，比如篇章阅读，这样的问题我基本能够全对。但是由于我的英语语法极差，因此选词填空类考核语法的题目，我就基本只能靠蒙了。而听力部分，如果太长太复杂，我也是搞不懂的。</p>
@@ -10483,11 +10457,10 @@
   <entry>
     <title>C#初级编程</title>
     <url>/archives/5342c81f.html</url>
-    <content><![CDATA[<p>本课程将通过Unity社区简单易学的讲解，从零基础开始介绍游戏开发编程。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gnoe4r3j30xc0egq44.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>本课程将通过Unity社区简单易学的讲解，从零基础开始介绍游戏开发编程。</p>
 <h3 id="课程大纲"><a href="#课程大纲" class="headerlink" title="课程大纲"></a>课程大纲</h3><p><a href="https://unity.cn/ask/question/5f924d5cedbc2a0020a89d1e">点击查看Unity社区全部教程</a></p>
 <p><a href="https://www.bilibili.com/video/BV1oy4y1q7jJ/"><strong>观看地址：</strong>https://www.bilibili.com/video/BV1oy4y1q7jJ/</a></p>
 <ul>
@@ -10861,11 +10834,11 @@
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn198zyihyj311i0u0jwr.jpg"></p>
 <br/>
 
-<p>Acquire fundamental elements of programming languages.</p>
+
+
 <a id="more"></a>
 
-
-
+<p>Acquire fundamental elements of programming languages.</p>
 <h3 id="Topic-1-Getting-Started"><a href="#Topic-1-Getting-Started" class="headerlink" title="Topic # 1 Getting Started"></a>Topic # 1 Getting Started</h3><p>As an introduction to programming, you will learn basic structures, variables, input/output, and computation.</p>
 <h4 id="ITP1-1-A-Hello-World"><a href="#ITP1-1-A-Hello-World" class="headerlink" title="ITP1_1_A Hello World"></a>ITP1_1_A Hello World</h4><blockquote>
 <p>Time Limit : <code>1 sec</code> , Memory Limit : <code>131072 KB</code> </p>
@@ -12302,9 +12275,10 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--我在苏宁电器当营业员</title>
     <url>/archives/d6ab9816.html</url>
-    <content><![CDATA[<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在苏宁电器从就职到离职的故事。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gkh2goxj312w0lwdn4.jpg"></p>
 <a id="more"></a>
 
+<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在苏宁电器从就职到离职的故事。</p>
 <h3 id="I"><a href="#I" class="headerlink" title="I"></a>I</h3><h4 id="毕竟应聘的是营业员，门槛还是很低的"><a href="#毕竟应聘的是营业员，门槛还是很低的" class="headerlink" title="毕竟应聘的是营业员，门槛还是很低的"></a>毕竟应聘的是营业员，门槛还是很低的</h4><p>我应聘苏宁的时候已经到了2009年的8月初，记得当时苏宁电器的长春总部还在吉林大路与东盛大街交汇处的亚泰广场，我当时的面试就是在那里。我记得很清楚，那天等待面试的人还是非常多的。这从一个侧面也就说明，苏宁的人员流动性也是很大的。不过并不是所有人都应聘营业员，其中也有后勤之类的。到了先填了一张应聘表，写上个人信息。我心想我不是在网上写了么，怎么还得再手写一份，看看我们的字写得好不好看吗？我觉得这也算是笔试了。</p>
 <p>接下来我们就一个接着一个地进小屋面试了。毕竟招聘的是营业员，最为基层的职位，因此整个面试的过程就是走个形式，感觉也没什么好总结的。也就是以自我介绍作为开始，然后根据以往的经历和面试登记表上的内容来聊一聊。当时面试官只有一个人，是负责长春所有苏宁店面事务的经理，也算是蛮大的一个官了。整个面试过程也没持续几分钟，我也没从她的表情上看出她究竟觉得我怎么样。之后就让我回去等消息了。</p>
 <p>话说等消息的日子也是非常难熬的，那时我也没有再投简历，就是想入职苏宁了。也没等多久，苏宁就通知我准备办理入职手续。因为是有五险一金的，所以还需要我的户口本复印件之类的众多材料。以前毕竟没有经历过，所以一时也把我搞得手忙脚乱。不过我心里还是挺激动的，终于有单位肯要我了。将资料准备好，就去苏宁签合同了。我记得当时应该是签了两份（一式两份），但是按道理我们自己应该保留一份的，不过直到我离职，苏宁也没给我，因此直到今天我也不知道我的第一份正式劳动合同上写的是什么，其实我还是挺想留做纪念的。</p>
@@ -12451,11 +12425,10 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--我的本科时光</title>
     <url>/archives/3e4e60a1.html</url>
-    <content><![CDATA[<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在本科的时光。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3giwc281j312w0krguv.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在本科的时光。</p>
 <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p> 本系列故事的大标题为《从苏宁电器到卡巴斯基》，还有个小标题《讲讲我从一个营业员转变成一个病毒分析师的故事》。其实关于苏宁电器与卡巴斯基这两家企业无需我在这里过多地介绍，一家是中国电器零售行业的龙头老大，一家是世界顶尖的计算机安全企业，它们在各自领域里面都有着响当当的名头。但是这两家企业的业务范围并没有交集，包括营业员与病毒分析师这两个职位也是风马牛不相及。而我在这一系列的故事中所讲的，就是我的真实经历，给大家详细讲讲我个人角色转换的过程。</p>
 <p>虽说题目是以苏宁电器作为开始，但是这里我并不打算按部就班地从苏宁讲起，而是还要把时间线向前延伸，延长到我刚上大学的时候。我觉得从刚上本科的时候开始讲，可以让大家了解很多的前因后果，可以打下很多的铺垫，我也可以多发几句牢骚，对遇到的不平事表达一下不满。故事的时间跨度长达十一年，内容包括有我的本科阶段、卖书经历、成为苏宁营业员、辞职考研、两段硕士时光以及入职卡巴斯基等。这里的成功经验和所走的弯路，也许能够帮到一部分的朋友，引以为鉴，找到自己的方向，不再迷茫。</p>
 <p>尽管我只是无限宇宙之中的一粒小小的尘埃，但是我认为，即便是一个小人物，一个草根，也可以拥有大视野、大格局以及大人生。从而活出非凡的，独一无二的自己。</p>
@@ -12621,11 +12594,10 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--难忘的三年硕士时光</title>
     <url>/archives/e3376a49.html</url>
-    <content><![CDATA[<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中在北工大读研的学习生活。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3gm795t7j30u011qair.jpg"></p>
 <a id="more"></a>
 
-
-
+<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中在北工大读研的学习生活。</p>
 <h3 id="I"><a href="#I" class="headerlink" title="I"></a>I</h3><h4 id="初次接触逆向工程"><a href="#初次接触逆向工程" class="headerlink" title="初次接触逆向工程"></a>初次接触逆向工程</h4><p>时间不知不觉就来到了2013年的9月份，学校开学了，我开始正式体验研究生的生活了，我也将自己的行李从北研楼搬到了中蓝公寓。按道理来说，硕士研究生是需要围绕在导师身边，每天朝九晚五地去实验室做项目的。不过我们老师没有项目，也不要求我去实验室，这也就使得我可以有更多的时间来学习自己喜欢的东西。不过尽管没有项目，老师还是给了我翻译的任务，整个研一阶段，他找了两本英文书籍，是与计算机图形图像相关的，让我们翻译。虽说翻译的工作到最后也都不了了之了，但是多多少少对我的英语水平有了一定的提升作用，于是也就在研一的上下两个学期，一口气把四六级过了。记得当时我还发了一个状态来调侃自己：孩子都这么大了，还在拼命考四六级，我也算是前无古人后无来者了。</p>
 <p>其实当我们这批研究生毕业的时候，我们班算上我在内一共有三个结婚的，当然我是在读研究生之前（2011年）就已经结婚了，2012年有的小孩。而我们班还有一个，大概是研二的时候结的婚，研三有的小孩。还有一对，男生女生都是我们班的，也是在毕业之前结的婚。当然我们班在毕业前结婚的还有，传说还有两三人吧，但是只有这三对是我比较确定的。可见，现在的研究生，即便是工科出身的，结婚生子也不是什么稀罕的事情了。</p>
 <p>另外，我在前文也提到过了，尽管我最初下决心要好好学习游戏引擎的相关知识，但也仅仅是三分钟的热度，最后也不了了之了。学了一点之后，觉得自己不是这块料，对这方面实在是不感兴趣，也就放弃了。</p>
