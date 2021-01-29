@@ -307,13 +307,21 @@
 
 
 
-<h3 id="字数统计"><a href="#字数统计" class="headerlink" title="字数统计"></a>字数统计</h3><h4 id="地址-3"><a href="#地址-3" class="headerlink" title="地址"></a>地址</h4><ul>
+<h3 id="站点统计"><a href="#站点统计" class="headerlink" title="站点统计"></a>站点统计</h3><h4 id="地址-3"><a href="#地址-3" class="headerlink" title="地址"></a>地址</h4><ul>
 <li><a href="https://github.com/theme-next/hexo-symbols-count-time">hexo-symbols-count-times</a></li>
 </ul>
-<p>安装插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-symbols-count-time --save</span><br><span class="line">npm install hexo-wordcount --save</span><br></pre></td></tr></table></figure>
+<h4 id="安装配置-3"><a href="#安装配置-3" class="headerlink" title="安装配置"></a>安装配置</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-symbols-count-time --save</span><br></pre></td></tr></table></figure>
 <p>我们只需要在主题配置文件<code>_config.yml</code> 中修改：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Post wordcount display settings</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/hexo-symbols-count-time</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">item_text_post:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Post wordcount display settings</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/hexo-symbols-count-time</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">false</span> <span class="comment"># 统计信息不换行显示</span></span><br><span class="line">  <span class="attr">item_text_post:</span> <span class="literal">false</span> <span class="comment"># 文章统计信息中是否显示“本文字数/阅读时长”等描述文字</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="string">ture</span> <span class="comment"># 站点统计信息中是否显示“本文字数/阅读时长”等描述文字</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">2</span> <span class="comment"># Average Word Length：平均字符长度</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span> <span class="comment"># Words Per Minute：阅读速度</span></span><br></pre></td></tr></table></figure>
+<p>汉字的平均字符长度为 1.5，如果在文章中使用纯中文进行写作（没有混杂英文），那么推荐设置 <code>awl: 2</code> 及 <code>wpm: 300</code>，但是如果文章中存在英文，建议设置 <code>awl: 4</code> 及 <code>wpm: 275</code>。</p>
+<h3 id="站内搜索"><a href="#站内搜索" class="headerlink" title="站内搜索"></a>站内搜索</h3><h4 id="地址-4"><a href="#地址-4" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/theme-next/hexo-generator-searchdb">hexo-generator-searchdb</a></li>
+</ul>
+<h4 id="安装配置-4"><a href="#安装配置-4" class="headerlink" title="安装配置"></a>安装配置</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+<p>在<strong>主题配置</strong>文件<code>themes\next_config.yml</code>中修改相关字段：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span> <span class="comment"># 每次输入改变都执行搜索</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">3</span> <span class="comment"># 每篇文章显示的搜索结果数量</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<p>在<strong>站点配置</strong>文件<code>_config.yml</code>中添加以下字段：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span> <span class="comment"># 指定搜索范围，可选 post | page | all</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span> <span class="comment"># 指定页面内容形式，可选 html | raw (Markdown) | excerpt | more</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>博客搭建(Blog Building)</category>
@@ -724,7 +732,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#x65;&#110;&#x78;&#117;&#x40;&#x74;&#101;&#x6e;&#99;&#101;&#x6e;&#x74;&#46;&#x63;&#x6f;&#109;">&#x6c;&#101;&#x65;&#110;&#x78;&#117;&#x40;&#x74;&#101;&#x6e;&#99;&#101;&#x6e;&#x74;&#46;&#x63;&#x6f;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#101;&#101;&#110;&#x78;&#x75;&#x40;&#116;&#101;&#x6e;&#x63;&#101;&#110;&#x74;&#46;&#99;&#x6f;&#109;">&#108;&#101;&#101;&#110;&#x78;&#x75;&#x40;&#116;&#101;&#x6e;&#x63;&#101;&#110;&#x74;&#46;&#99;&#x6f;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -1498,6 +1506,183 @@
         <tag>Game</tag>
         <tag>RPG</tag>
         <tag>MMORPG</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分析聚焦感情而设计的游戏品类</title>
+    <url>/archives/86c9b0ee.html</url>
+    <content><![CDATA[<p>本文介绍聚焦情感而诞生的玩法品类，并以女性向游戏为例进行简要分析，提取出特征和关键要素；之后是关于聚焦情感而产生的设计方向–独立游戏，提取出独立游戏的关键要素。</p>
+<a id="more"></a>
+
+
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>Kinhu</strong></p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+<li>HR专业，一名普通的游戏策划</li>
+<li>大三完成第一款独立游戏从而入行</li>
+<li>至今完成20多款游戏作品</li>
+<li>担任过 程序、美术、音乐、策划</li>
+<li>商业游戏界十多年工作经验</li>
+</ul>
+<h3 id="聚焦感情而诞生的玩法品类-女性向游戏"><a href="#聚焦感情而诞生的玩法品类-女性向游戏" class="headerlink" title="聚焦感情而诞生的玩法品类 - 女性向游戏"></a>聚焦感情而诞生的玩法品类 - 女性向游戏</h3><h4 id="一段有趣的对话"><a href="#一段有趣的对话" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
+<ul>
+<li>宫斗卡牌游戏</li>
+<li>策略性 玩法</li>
+<li>好多帅哥 很多漂亮的衣服</li>
+</ul>
+</blockquote>
+<h4 id="女性向游戏"><a href="#女性向游戏" class="headerlink" title="女性向游戏"></a>女性向游戏</h4><ul>
+<li>以女性<strong>精神诉求</strong>为<strong>出发点</strong>进行设计</li>
+<li>以女性<strong>基础需求</strong>作为<strong>核心</strong>进行设计</li>
+</ul>
+<h3 id="该品类的特征和关键要素-共性三要素"><a href="#该品类的特征和关键要素-共性三要素" class="headerlink" title="该品类的特征和关键要素 - 共性三要素"></a>该品类的特征和关键要素 - 共性三要素</h3><h4 id="共性产品提取出的女性关注焦点三要素"><a href="#共性产品提取出的女性关注焦点三要素" class="headerlink" title="共性产品提取出的女性关注焦点三要素"></a>共性产品提取出的女性关注焦点三要素</h4><ul>
+<li>恋爱</li>
+<li>时尚</li>
+<li>装扮</li>
+</ul>
+<h4 id="表现永远是女性向的第一门槛"><a href="#表现永远是女性向的第一门槛" class="headerlink" title="表现永远是女性向的第一门槛"></a>表现永远是女性向的第一门槛</h4><ul>
+<li><p>符合本国大众女性用户审美，排斥情绪最低</p>
+</li>
+<li><p>女性才愿意通过表现看到焦点</p>
+</li>
+</ul>
+<ul>
+<li><p>如果有合格的表现和焦点就能成功，那么这些游戏为何成功？</p>
+<p>女性的心理特点，才是女性向市场存在的核心</p>
+</li>
+</ul>
+<h5 id="女性心理特点抽取出三要素"><a href="#女性心理特点抽取出三要素" class="headerlink" title="女性心理特点抽取出三要素"></a>女性心理特点抽取出三要素</h5><h6 id="群体的归属"><a href="#群体的归属" class="headerlink" title="群体的归属"></a>群体的归属</h6><ul>
+<li>获得群体</li>
+<li>可融入的群体</li>
+<li>值得依赖的群体</li>
+<li>有爱的群体</li>
+</ul>
+<h6 id="纤细的情感"><a href="#纤细的情感" class="headerlink" title="纤细的情感"></a>纤细的情感</h6><ul>
+<li>细腻</li>
+<li>丰富</li>
+<li>多样</li>
+<li>真实</li>
+</ul>
+<h6 id="虚荣的攀比"><a href="#虚荣的攀比" class="headerlink" title="虚荣的攀比"></a>虚荣的攀比</h6><ul>
+<li>独占欲：限定 唯一</li>
+<li>精神上的击败：多 贵 好</li>
+<li>高忠诚度和对外洁癖</li>
+</ul>
+<p>女性的心理特点受到生理和社会观念等长期影响</p>
+<h4 id="聚焦女性情感，才能准确掌握女性向游戏的核心"><a href="#聚焦女性情感，才能准确掌握女性向游戏的核心" class="headerlink" title="聚焦女性情感，才能准确掌握女性向游戏的核心"></a>聚焦女性情感，才能准确掌握女性向游戏的核心</h4><h5 id="共性元素"><a href="#共性元素" class="headerlink" title="共性元素"></a>共性元素</h5><ul>
+<li>恋爱</li>
+<li>时尚 流行 娱乐</li>
+<li>美食</li>
+</ul>
+<h5 id="共性表现"><a href="#共性表现" class="headerlink" title="共性表现"></a>共性表现</h5><ul>
+<li>本国的大众审美</li>
+<li>拒绝另类</li>
+</ul>
+<ul>
+<li><p>共性体验</p>
+<p>同品类游戏中，操作体验轻度，内容体验重度，受到女性价值观认可度高</p>
+</li>
+</ul>
+<h3 id="聚焦感情而产生的设计方向-独立游戏"><a href="#聚焦感情而产生的设计方向-独立游戏" class="headerlink" title="聚焦感情而产生的设计方向 - 独立游戏"></a>聚焦感情而产生的设计方向 - 独立游戏</h3><h4 id="一段有趣的对话-1"><a href="#一段有趣的对话-1" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
+<ul>
+<li>我有一个不错的创意</li>
+<li>我看到的这些游戏里面有许多创意</li>
+<li>所以独立游戏等于创意，我应该可以作出不错的独立游戏</li>
+</ul>
+</blockquote>
+<h4 id="传统定义独立游戏"><a href="#传统定义独立游戏" class="headerlink" title="传统定义独立游戏"></a>传统定义独立游戏</h4><h5 id="不受商业投资的影响"><a href="#不受商业投资的影响" class="headerlink" title="不受商业投资的影响"></a>不受商业投资的影响</h5><ul>
+<li>自由创作 随性所欲</li>
+<li>没有Deadline KPI的项目</li>
+<li>远离你死我活的竞争</li>
+<li>自己做自己的老板</li>
+</ul>
+<h5 id="小团队"><a href="#小团队" class="headerlink" title="小团队"></a>小团队</h5><ul>
+<li>不超过10人的合作规模</li>
+<li>参与者之间是合作伙伴关系而非上下级</li>
+</ul>
+<h5 id="身兼数职"><a href="#身兼数职" class="headerlink" title="身兼数职"></a>身兼数职</h5><p>因为开发量和开发人数不成正比结果导致的</p>
+<h5 id="拥有独立精神的游戏"><a href="#拥有独立精神的游戏" class="headerlink" title="拥有独立精神的游戏"></a>拥有独立精神的游戏</h5><blockquote>
+<p><strong><em>Make Game For Fun</em></strong> </p>
+<p><strong><em>Fun Can Make Money</em></strong></p>
+<p><strong><em>独立之精神，自由之思想</em></strong></p>
+</blockquote>
+<p>在自由创作的情感诉求下所诞生的作品，不受固有玩法和类型的约束</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《我的战争》《万物》</strong> </li>
+</ul>
+</blockquote>
+<p>焦点是如何更好的传达设计师的情感诉求</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《replica》 《史丹利的寓言》</strong></li>
+</ul>
+</blockquote>
+<h3 id="如何利用聚焦的设计来脱颖而出-独立游戏的关键要素"><a href="#如何利用聚焦的设计来脱颖而出-独立游戏的关键要素" class="headerlink" title="如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素"></a>如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素</h3><h4 id="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"><a href="#残酷现实下迫使独立游戏在情感诉求上的表现更为张扬" class="headerlink" title="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"></a>残酷现实下迫使独立游戏在情感诉求上的表现更为张扬</h4><ul>
+<li><p>有限的宣传渠道</p>
+</li>
+<li><p>发行平台过于集中</p>
+</li>
+<li><p>成本控制的经验缺失</p>
+</li>
+<li><p>5%的完成率 1%的成功率</p>
+</li>
+</ul>
+<h4 id="从独立游戏开发进化方式分析出其设计的出发点"><a href="#从独立游戏开发进化方式分析出其设计的出发点" class="headerlink" title="从独立游戏开发进化方式分析出其设计的出发点"></a>从独立游戏开发进化方式分析出其设计的出发点</h4><h5 id="焦点式开发"><a href="#焦点式开发" class="headerlink" title="焦点式开发"></a>焦点式开发</h5><ul>
+<li>游戏创新 - 目标是可落地的</li>
+<li>游戏玩法 - 集中玩法设计，深挖玩法可衍生性</li>
+<li>游戏表现力 - 突围的方法</li>
+<li>成本控制 - 游戏保证完成</li>
+</ul>
+<p>聚焦情感所设计的游戏，不需要太过在意游戏玩法方式，<em>它可以是任意方式</em>。</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《传说之下（Undertale）》</strong></li>
+</ul>
+</blockquote>
+<p>越是贴近于生活的游戏创意，引起情感共鸣的成功可能性越高。</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《Papers Please》 《迷你小地铁》</strong></li>
+</ul>
+</blockquote>
+<p>足以让玩家衍生出情感创作的作品，是优秀独立游戏的特征。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh7z3ds8dwj31lz0u07wh.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.pixiv.net/artworks/64559533">日本語版公式リリース</a> by 
+      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>弗兰克 - 奥哈拉，美国当代最著名、最有影响力的纽约派诗人之一，《动物》是一首挽歌式的作品，作者用它凭吊逝去的恋情。</p>
+<p>美国独立游戏峰会时一位独立游戏制作人将此诗发给了现场所有独立游戏人，以此诗借喻鼓励全世界的独立游戏制作人，勿忘独立游戏制作最初带给他们的美好及感动。</p>
+<blockquote>
+<p><em>你还记得从前那段 &emsp; 我们最初的模样吗</em><br><em>每天啃着一个苹果 &emsp; 一天一天地变胖</em><br><em>感慨着时光地流逝 &emsp; 偶尔用一些小伎俩</em><br><em>试着做一些小突破 &emsp; 我们整个过往经历</em><br><em>就像一顿丰盛晚餐 &emsp; 不需要去计算时间</em><br><em>仅仅用冰块和白水 &emsp; 就能调制出鸡尾酒</em><br><strong><em>只要你和我在一起 &emsp; 我不会希望快一些</em></strong><br><strong><em>我也不会一无所知 &emsp; 你就是我这生命中</em></strong><br><strong><em>&emsp;&emsp;&emsp;&emsp;&emsp;最美好的一个存在</em></strong><br>&emsp;</p>
+</blockquote>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a><br/>
+      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
+    </i>
+  </font>
+</div>
+
+]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>INDIE</tag>
       </tags>
   </entry>
   <entry>
@@ -2280,183 +2465,6 @@
       </categories>
       <tags>
         <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>分析聚焦感情而设计的游戏品类</title>
-    <url>/archives/86c9b0ee.html</url>
-    <content><![CDATA[<p>本文介绍聚焦情感而诞生的玩法品类，并以女性向游戏为例进行简要分析，提取出特征和关键要素；之后是关于聚焦情感而产生的设计方向–独立游戏，提取出独立游戏的关键要素。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>Kinhu</strong></p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li>HR专业，一名普通的游戏策划</li>
-<li>大三完成第一款独立游戏从而入行</li>
-<li>至今完成20多款游戏作品</li>
-<li>担任过 程序、美术、音乐、策划</li>
-<li>商业游戏界十多年工作经验</li>
-</ul>
-<h3 id="聚焦感情而诞生的玩法品类-女性向游戏"><a href="#聚焦感情而诞生的玩法品类-女性向游戏" class="headerlink" title="聚焦感情而诞生的玩法品类 - 女性向游戏"></a>聚焦感情而诞生的玩法品类 - 女性向游戏</h3><h4 id="一段有趣的对话"><a href="#一段有趣的对话" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
-<ul>
-<li>宫斗卡牌游戏</li>
-<li>策略性 玩法</li>
-<li>好多帅哥 很多漂亮的衣服</li>
-</ul>
-</blockquote>
-<h4 id="女性向游戏"><a href="#女性向游戏" class="headerlink" title="女性向游戏"></a>女性向游戏</h4><ul>
-<li>以女性<strong>精神诉求</strong>为<strong>出发点</strong>进行设计</li>
-<li>以女性<strong>基础需求</strong>作为<strong>核心</strong>进行设计</li>
-</ul>
-<h3 id="该品类的特征和关键要素-共性三要素"><a href="#该品类的特征和关键要素-共性三要素" class="headerlink" title="该品类的特征和关键要素 - 共性三要素"></a>该品类的特征和关键要素 - 共性三要素</h3><h4 id="共性产品提取出的女性关注焦点三要素"><a href="#共性产品提取出的女性关注焦点三要素" class="headerlink" title="共性产品提取出的女性关注焦点三要素"></a>共性产品提取出的女性关注焦点三要素</h4><ul>
-<li>恋爱</li>
-<li>时尚</li>
-<li>装扮</li>
-</ul>
-<h4 id="表现永远是女性向的第一门槛"><a href="#表现永远是女性向的第一门槛" class="headerlink" title="表现永远是女性向的第一门槛"></a>表现永远是女性向的第一门槛</h4><ul>
-<li><p>符合本国大众女性用户审美，排斥情绪最低</p>
-</li>
-<li><p>女性才愿意通过表现看到焦点</p>
-</li>
-</ul>
-<ul>
-<li><p>如果有合格的表现和焦点就能成功，那么这些游戏为何成功？</p>
-<p>女性的心理特点，才是女性向市场存在的核心</p>
-</li>
-</ul>
-<h5 id="女性心理特点抽取出三要素"><a href="#女性心理特点抽取出三要素" class="headerlink" title="女性心理特点抽取出三要素"></a>女性心理特点抽取出三要素</h5><h6 id="群体的归属"><a href="#群体的归属" class="headerlink" title="群体的归属"></a>群体的归属</h6><ul>
-<li>获得群体</li>
-<li>可融入的群体</li>
-<li>值得依赖的群体</li>
-<li>有爱的群体</li>
-</ul>
-<h6 id="纤细的情感"><a href="#纤细的情感" class="headerlink" title="纤细的情感"></a>纤细的情感</h6><ul>
-<li>细腻</li>
-<li>丰富</li>
-<li>多样</li>
-<li>真实</li>
-</ul>
-<h6 id="虚荣的攀比"><a href="#虚荣的攀比" class="headerlink" title="虚荣的攀比"></a>虚荣的攀比</h6><ul>
-<li>独占欲：限定 唯一</li>
-<li>精神上的击败：多 贵 好</li>
-<li>高忠诚度和对外洁癖</li>
-</ul>
-<p>女性的心理特点受到生理和社会观念等长期影响</p>
-<h4 id="聚焦女性情感，才能准确掌握女性向游戏的核心"><a href="#聚焦女性情感，才能准确掌握女性向游戏的核心" class="headerlink" title="聚焦女性情感，才能准确掌握女性向游戏的核心"></a>聚焦女性情感，才能准确掌握女性向游戏的核心</h4><h5 id="共性元素"><a href="#共性元素" class="headerlink" title="共性元素"></a>共性元素</h5><ul>
-<li>恋爱</li>
-<li>时尚 流行 娱乐</li>
-<li>美食</li>
-</ul>
-<h5 id="共性表现"><a href="#共性表现" class="headerlink" title="共性表现"></a>共性表现</h5><ul>
-<li>本国的大众审美</li>
-<li>拒绝另类</li>
-</ul>
-<ul>
-<li><p>共性体验</p>
-<p>同品类游戏中，操作体验轻度，内容体验重度，受到女性价值观认可度高</p>
-</li>
-</ul>
-<h3 id="聚焦感情而产生的设计方向-独立游戏"><a href="#聚焦感情而产生的设计方向-独立游戏" class="headerlink" title="聚焦感情而产生的设计方向 - 独立游戏"></a>聚焦感情而产生的设计方向 - 独立游戏</h3><h4 id="一段有趣的对话-1"><a href="#一段有趣的对话-1" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
-<ul>
-<li>我有一个不错的创意</li>
-<li>我看到的这些游戏里面有许多创意</li>
-<li>所以独立游戏等于创意，我应该可以作出不错的独立游戏</li>
-</ul>
-</blockquote>
-<h4 id="传统定义独立游戏"><a href="#传统定义独立游戏" class="headerlink" title="传统定义独立游戏"></a>传统定义独立游戏</h4><h5 id="不受商业投资的影响"><a href="#不受商业投资的影响" class="headerlink" title="不受商业投资的影响"></a>不受商业投资的影响</h5><ul>
-<li>自由创作 随性所欲</li>
-<li>没有Deadline KPI的项目</li>
-<li>远离你死我活的竞争</li>
-<li>自己做自己的老板</li>
-</ul>
-<h5 id="小团队"><a href="#小团队" class="headerlink" title="小团队"></a>小团队</h5><ul>
-<li>不超过10人的合作规模</li>
-<li>参与者之间是合作伙伴关系而非上下级</li>
-</ul>
-<h5 id="身兼数职"><a href="#身兼数职" class="headerlink" title="身兼数职"></a>身兼数职</h5><p>因为开发量和开发人数不成正比结果导致的</p>
-<h5 id="拥有独立精神的游戏"><a href="#拥有独立精神的游戏" class="headerlink" title="拥有独立精神的游戏"></a>拥有独立精神的游戏</h5><blockquote>
-<p><strong><em>Make Game For Fun</em></strong> </p>
-<p><strong><em>Fun Can Make Money</em></strong></p>
-<p><strong><em>独立之精神，自由之思想</em></strong></p>
-</blockquote>
-<p>在自由创作的情感诉求下所诞生的作品，不受固有玩法和类型的约束</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《我的战争》《万物》</strong> </li>
-</ul>
-</blockquote>
-<p>焦点是如何更好的传达设计师的情感诉求</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《replica》 《史丹利的寓言》</strong></li>
-</ul>
-</blockquote>
-<h3 id="如何利用聚焦的设计来脱颖而出-独立游戏的关键要素"><a href="#如何利用聚焦的设计来脱颖而出-独立游戏的关键要素" class="headerlink" title="如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素"></a>如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素</h3><h4 id="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"><a href="#残酷现实下迫使独立游戏在情感诉求上的表现更为张扬" class="headerlink" title="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"></a>残酷现实下迫使独立游戏在情感诉求上的表现更为张扬</h4><ul>
-<li><p>有限的宣传渠道</p>
-</li>
-<li><p>发行平台过于集中</p>
-</li>
-<li><p>成本控制的经验缺失</p>
-</li>
-<li><p>5%的完成率 1%的成功率</p>
-</li>
-</ul>
-<h4 id="从独立游戏开发进化方式分析出其设计的出发点"><a href="#从独立游戏开发进化方式分析出其设计的出发点" class="headerlink" title="从独立游戏开发进化方式分析出其设计的出发点"></a>从独立游戏开发进化方式分析出其设计的出发点</h4><h5 id="焦点式开发"><a href="#焦点式开发" class="headerlink" title="焦点式开发"></a>焦点式开发</h5><ul>
-<li>游戏创新 - 目标是可落地的</li>
-<li>游戏玩法 - 集中玩法设计，深挖玩法可衍生性</li>
-<li>游戏表现力 - 突围的方法</li>
-<li>成本控制 - 游戏保证完成</li>
-</ul>
-<p>聚焦情感所设计的游戏，不需要太过在意游戏玩法方式，<em>它可以是任意方式</em>。</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《传说之下（Undertale）》</strong></li>
-</ul>
-</blockquote>
-<p>越是贴近于生活的游戏创意，引起情感共鸣的成功可能性越高。</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《Papers Please》 《迷你小地铁》</strong></li>
-</ul>
-</blockquote>
-<p>足以让玩家衍生出情感创作的作品，是优秀独立游戏的特征。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh7z3ds8dwj31lz0u07wh.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.pixiv.net/artworks/64559533">日本語版公式リリース</a> by 
-      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
-    </i>
-  </font>
-</div>
-
-
-
-<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>弗兰克 - 奥哈拉，美国当代最著名、最有影响力的纽约派诗人之一，《动物》是一首挽歌式的作品，作者用它凭吊逝去的恋情。</p>
-<p>美国独立游戏峰会时一位独立游戏制作人将此诗发给了现场所有独立游戏人，以此诗借喻鼓励全世界的独立游戏制作人，勿忘独立游戏制作最初带给他们的美好及感动。</p>
-<blockquote>
-<p><em>你还记得从前那段 &emsp; 我们最初的模样吗</em><br><em>每天啃着一个苹果 &emsp; 一天一天地变胖</em><br><em>感慨着时光地流逝 &emsp; 偶尔用一些小伎俩</em><br><em>试着做一些小突破 &emsp; 我们整个过往经历</em><br><em>就像一顿丰盛晚餐 &emsp; 不需要去计算时间</em><br><em>仅仅用冰块和白水 &emsp; 就能调制出鸡尾酒</em><br><strong><em>只要你和我在一起 &emsp; 我不会希望快一些</em></strong><br><strong><em>我也不会一无所知 &emsp; 你就是我这生命中</em></strong><br><strong><em>&emsp;&emsp;&emsp;&emsp;&emsp;最美好的一个存在</em></strong><br>&emsp;</p>
-</blockquote>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a><br/>
-      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
-    </i>
-  </font>
-</div>
-
-]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>INDIE</tag>
       </tags>
   </entry>
   <entry>
@@ -3307,6 +3315,80 @@
       </tags>
   </entry>
   <entry>
+    <title>LATEX现学现用抢救指南</title>
+    <url>/archives/a5f7b62.html</url>
+    <content><![CDATA[<p>本文作为即忘即看的备忘文档，适用于各种编写博客需要专业数学公式但不熟悉的Latex的读者，所有内容摘自 <a href="http://mohu.org/info/symbols/symbols.htm">常用数学符号的 LaTeX 表示方法</a>。</p>
+<a id="more"></a>
+
+
+
+
+
+<h3 id="指数与下标"><a href="#指数与下标" class="headerlink" title="指数与下标"></a>指数与下标</h3><p>指数和下标可以用<code>^</code>和<code>_</code>后加相应字符来实现。比如:</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span>a<span class="built_in">_</span>&#123;1&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>x<span class="built_in">^</span>&#123;2&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>e<span class="built_in">^</span>&#123;-<span class="keyword">\alpha</span>&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>a<span class="built_in">^</span>&#123;3&#125;<span class="built_in">_</span>&#123;i,j&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>e<span class="built_in">^</span>&#123;x<span class="built_in">^</span>2&#125; <span class="keyword">\neq</span> &#123;e<span class="built_in">^</span>x&#125;<span class="built_in">^</span>2<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<blockquote>
+<p>$a_{1}$ $\qquad$ $x^{2}$ $\qquad$ $e^{-\alpha}$ $\qquad$ $a^{3}_{i,j}$ $\qquad$ $e^{x^2} \neq {e^x}^2$</p>
+</blockquote>
+<h3 id="根号"><a href="#根号" class="headerlink" title="根号"></a>根号</h3><p>平方根（square root）的输入命令为：<code>\sqrt</code>，n 次方根相应地为:<code> \sqrt[n]</code>。方根符号的大小由LATEX自动加以调整。也可用<code>\surd</code> 仅给出符号。比如：</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\sqrt</span>&#123;x&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span><span class="keyword">\sqrt</span>&#123;x<span class="built_in">^</span>&#123;2&#125;+<span class="keyword">\sqrt</span>&#123;y&#125;&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span><span class="keyword">\sqrt</span>[3]&#123;2&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span><span class="keyword">\surd</span>[x<span class="built_in">^</span>2+y<span class="built_in">^</span>2]<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<blockquote>
+<p>$\sqrt{x}$ $\qquad$ $\sqrt{x^{2}+\sqrt{y}}$ $\qquad$ $\sqrt[3]{2}$ $\qquad$ $\surd[x^2+y^2]$</p>
+</blockquote>
+<h3 id="水平线"><a href="#水平线" class="headerlink" title="水平线"></a>水平线</h3><p>命令<code>\overline</code> 和<code>\underline</code> 在表达式的上、下方画出水平线。比如：</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\overline</span>&#123;m+n&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span><span class="keyword">\underline</span>&#123;m+n&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<blockquote>
+<p>$\overline{m+n}$ $\qquad$$\underline{m+n}$</p>
+</blockquote>
+<h3 id="水平大括号"><a href="#水平大括号" class="headerlink" title="水平大括号"></a>水平大括号</h3><p>命令<code>\overbrace</code> 和<code>\underbrace</code> 在表达式的上、下方给出一水平的大括号。</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\underbrace</span>&#123;a+b+<span class="keyword">\cdots</span>+z&#125;<span class="built_in">_</span>&#123;26&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<blockquote>
+<p>$\underbrace{a+b+\cdots+z}_{26}$</p>
+</blockquote>
+<h3 id="向量"><a href="#向量" class="headerlink" title="向量"></a>向量</h3><p>向量（Vectors）通常用上方有小箭头（arrow symbols）的变量表示。这可由<code>\vec</code> 得到。另两个命令<code>\overrightarrow</code> 和<code>\overleftarrow</code>在定义从A 到B 的向量时非常有用。</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\vec</span> a<span class="keyword">\quad</span><span class="keyword">\overrightarrow</span>&#123;AB&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<blockquote>
+<p>$\vec a\quad\overrightarrow{AB}$</p>
+</blockquote>
+<h3 id="分数"><a href="#分数" class="headerlink" title="分数"></a>分数</h3><p>分数（fraction）使用<code>\frac&#123;...&#125;&#123;...&#125;</code> 排版。一般来说，1/2 这种形式更受欢迎，因为对于少量的分式，它看起来更好些。</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span>1<span class="keyword">\frac</span>&#123;1&#125;&#123;2&#125;<span class="built_in">$</span>~hours</span><br><span class="line"><span class="built_in">$</span><span class="keyword">\frac</span>&#123;x<span class="built_in">^</span>&#123;2&#125;&#125;&#123;k+1&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span>x<span class="built_in">^</span>&#123;<span class="keyword">\frac</span>&#123;2&#125;&#123;k+1&#125;&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span>x<span class="built_in">^</span>&#123;1/2&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<blockquote>
+<p>$1\frac{1}{2}$ $~hours$ $\qquad$ $\frac{x^{2}}{k+1}$ $\qquad$ $x^{\frac{2}{k+1}}$ $\qquad$ $x^{1/2}$</p>
+</blockquote>
+<h3 id="积分-求和-乘积"><a href="#积分-求和-乘积" class="headerlink" title="积分 求和 乘积"></a>积分 求和 乘积</h3><p>积分运算符（integral operator）用<code>\int</code> 来生成。求和运算符（sum operator）由<code>\sum</code> 生成。乘积运算符（product operator）由<code>\prod</code> 生成。上限和下限用<code>^</code> 和<code>_</code>来生成，类似于上标和下标。</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\sum</span><span class="built_in">_</span>&#123;i=1&#125;<span class="built_in">^</span>&#123;n&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span><span class="keyword">\int</span><span class="built_in">_</span>&#123;0&#125;<span class="built_in">^</span>&#123;frac&#123;<span class="keyword">\pi</span>&#125;&#123;2&#125;&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span><span class="keyword">\prod</span><span class="built_in">_</span><span class="keyword">\epsilon</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<blockquote>
+<p>$\sum_{i=1}^{n}$ $\qquad$$\int_{0}^{frac{\pi}{2}}$ $\qquad$ $\prod_\epsilon$</p>
+</blockquote>
+<h3 id="常用符号表示方法"><a href="#常用符号表示方法" class="headerlink" title="常用符号表示方法"></a>常用符号表示方法</h3><h4 id="数学模式重音符"><a href="#数学模式重音符" class="headerlink" title="数学模式重音符"></a>数学模式重音符</h4><figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\hat</span>&#123;a&#125;   <span class="keyword">\check</span>&#123;a&#125; <span class="keyword">\tilde</span>&#123;a&#125;   <span class="keyword">\acute</span>&#123;a&#125; </span><br><span class="line"><span class="keyword">\grave</span>&#123;a&#125; <span class="keyword">\dot</span>&#123;a&#125;   <span class="keyword">\ddot</span>&#123;a&#125;    <span class="keyword">\breve</span>&#123;a&#125; </span><br><span class="line"><span class="keyword">\bar</span>&#123;a&#125;   <span class="keyword">\vec</span>&#123;a&#125;   <span class="keyword">\widehat</span>&#123;a&#125; <span class="keyword">\widetilde</span>&#123;a&#125;</span><br></pre></td></tr></table></figure>
+
+
+<blockquote>
+<p>$\hat{a} \qquad \check{a} \qquad \tilde{a} \qquad \acute{a} \\<br>\grave{a} \qquad \dot{a} \qquad \ddot{a} \qquad \breve{a} \\<br>\bar{a} \qquad \vec{a} \qquad \widehat{a} \qquad \widetilde{a} \\$</p>
+</blockquote>
+<h4 id="小写希腊字母"><a href="#小写希腊字母" class="headerlink" title="小写希腊字母"></a>小写希腊字母</h4><figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\alpha</span>      <span class="keyword">\theta</span>    o         <span class="keyword">\upsilon</span></span><br><span class="line"><span class="keyword">\beta</span>       <span class="keyword">\vartheta</span> <span class="keyword">\pi</span>       <span class="keyword">\phi</span></span><br><span class="line"><span class="keyword">\gamma</span>      <span class="keyword">\iota</span>     <span class="keyword">\varpi</span>    <span class="keyword">\varphi</span></span><br><span class="line"><span class="keyword">\delta</span>      <span class="keyword">\kappa</span>    <span class="keyword">\rho</span>      <span class="keyword">\chi</span></span><br><span class="line"><span class="keyword">\epsilon</span>    <span class="keyword">\lambda</span>   <span class="keyword">\varrho</span>   <span class="keyword">\psi</span></span><br><span class="line"><span class="keyword">\varepsilon</span> <span class="keyword">\mu</span>       <span class="keyword">\sigma</span>    <span class="keyword">\omega</span></span><br><span class="line"><span class="keyword">\zeta</span>       <span class="keyword">\nu</span>       <span class="keyword">\varsigma</span> </span><br><span class="line"><span class="keyword">\eta</span>        <span class="keyword">\xi</span>       <span class="keyword">\tau</span></span><br></pre></td></tr></table></figure>
+
+
+<blockquote>
+<p>$$<br>\alpha \qquad \theta \qquad o \qquad \upsilon \\<br>\beta \qquad \vartheta \qquad \pi \qquad \phi \<br>\gamma \qquad \iota \qquad \varpi  \qquad \varphi \<br>\delta \qquad \kappa \qquad \rho \qquad \chi \<br>\epsilon \qquad \lambda \qquad \varrho \qquad \psi \<br>\varepsilon \qquad \mu \qquad \sigma \qquad \omega \<br>\zeta \qquad \nu \qquad \varsigma \<br>\eta \qquad \xi \qquad \tau \<br>$$</p>
+</blockquote>
+<h4 id="大写希腊字母"><a href="#大写希腊字母" class="headerlink" title="大写希腊字母"></a>大写希腊字母</h4><h4 id="二元关系符"><a href="#二元关系符" class="headerlink" title="二元关系符"></a>二元关系符</h4><h4 id="二元运算符"><a href="#二元运算符" class="headerlink" title="二元运算符"></a>二元运算符</h4><h4 id="大尺寸运算符"><a href="#大尺寸运算符" class="headerlink" title="大尺寸运算符"></a>大尺寸运算符</h4><h4 id="箭头"><a href="#箭头" class="headerlink" title="箭头"></a>箭头</h4><h4 id="定界符"><a href="#定界符" class="headerlink" title="定界符"></a>定界符</h4><h4 id="大尺寸定界符"><a href="#大尺寸定界符" class="headerlink" title="大尺寸定界符"></a>大尺寸定界符</h4><h4 id="其他符号"><a href="#其他符号" class="headerlink" title="其他符号"></a>其他符号</h4>]]></content>
+      <categories>
+        <category>写作技巧(Write Skill)</category>
+      </categories>
+      <tags>
+        <tag>Write</tag>
+        <tag>Latex</tag>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</title>
     <url>/archives/6144e1a0.html</url>
     <content><![CDATA[<p>本文转载了INDIENOVA社区的博主 <a href="https://indienova.com/u/wizcas">Wizcas.陈小一</a> 的 <a href="https://indienova.com/indie-game-development/my-first-time-in-ludum-dare-38">48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</a>，与大家共同分享参加LD比赛的一些经验。</p>
@@ -3410,80 +3492,6 @@
         <tag>Game</tag>
         <tag>Ludum Dare</tag>
         <tag>Unity</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>LATEX现学现用抢救指南</title>
-    <url>/archives/a5f7b62.html</url>
-    <content><![CDATA[<p>本文作为即忘即看的备忘文档，适用于各种编写博客需要专业数学公式但不熟悉的Latex的读者，所有内容摘自 <a href="http://mohu.org/info/symbols/symbols.htm">常用数学符号的 LaTeX 表示方法</a>。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="指数与下标"><a href="#指数与下标" class="headerlink" title="指数与下标"></a>指数与下标</h3><p>指数和下标可以用<code>^</code>和<code>_</code>后加相应字符来实现。比如:</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span>a<span class="built_in">_</span>&#123;1&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>x<span class="built_in">^</span>&#123;2&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>e<span class="built_in">^</span>&#123;-<span class="keyword">\alpha</span>&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>a<span class="built_in">^</span>&#123;3&#125;<span class="built_in">_</span>&#123;i,j&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>e<span class="built_in">^</span>&#123;x<span class="built_in">^</span>2&#125; <span class="keyword">\neq</span> &#123;e<span class="built_in">^</span>x&#125;<span class="built_in">^</span>2<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<blockquote>
-<p>$a_{1}$ $\qquad$ $x^{2}$ $\qquad$ $e^{-\alpha}$ $\qquad$ $a^{3}_{i,j}$ $\qquad$ $e^{x^2} \neq {e^x}^2$</p>
-</blockquote>
-<h3 id="根号"><a href="#根号" class="headerlink" title="根号"></a>根号</h3><p>平方根（square root）的输入命令为：<code>\sqrt</code>，n 次方根相应地为:<code> \sqrt[n]</code>。方根符号的大小由LATEX自动加以调整。也可用<code>\surd</code> 仅给出符号。比如：</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\sqrt</span>&#123;x&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span><span class="keyword">\sqrt</span>&#123;x<span class="built_in">^</span>&#123;2&#125;+<span class="keyword">\sqrt</span>&#123;y&#125;&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span><span class="keyword">\sqrt</span>[3]&#123;2&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span><span class="keyword">\surd</span>[x<span class="built_in">^</span>2+y<span class="built_in">^</span>2]<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<blockquote>
-<p>$\sqrt{x}$ $\qquad$ $\sqrt{x^{2}+\sqrt{y}}$ $\qquad$ $\sqrt[3]{2}$ $\qquad$ $\surd[x^2+y^2]$</p>
-</blockquote>
-<h3 id="水平线"><a href="#水平线" class="headerlink" title="水平线"></a>水平线</h3><p>命令<code>\overline</code> 和<code>\underline</code> 在表达式的上、下方画出水平线。比如：</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\overline</span>&#123;m+n&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span><span class="keyword">\underline</span>&#123;m+n&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<blockquote>
-<p>$\overline{m+n}$ $\qquad$$\underline{m+n}$</p>
-</blockquote>
-<h3 id="水平大括号"><a href="#水平大括号" class="headerlink" title="水平大括号"></a>水平大括号</h3><p>命令<code>\overbrace</code> 和<code>\underbrace</code> 在表达式的上、下方给出一水平的大括号。</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\underbrace</span>&#123;a+b+<span class="keyword">\cdots</span>+z&#125;<span class="built_in">_</span>&#123;26&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<blockquote>
-<p>$\underbrace{a+b+\cdots+z}_{26}$</p>
-</blockquote>
-<h3 id="向量"><a href="#向量" class="headerlink" title="向量"></a>向量</h3><p>向量（Vectors）通常用上方有小箭头（arrow symbols）的变量表示。这可由<code>\vec</code> 得到。另两个命令<code>\overrightarrow</code> 和<code>\overleftarrow</code>在定义从A 到B 的向量时非常有用。</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\vec</span> a<span class="keyword">\quad</span><span class="keyword">\overrightarrow</span>&#123;AB&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<blockquote>
-<p>$\vec a\quad\overrightarrow{AB}$</p>
-</blockquote>
-<h3 id="分数"><a href="#分数" class="headerlink" title="分数"></a>分数</h3><p>分数（fraction）使用<code>\frac&#123;...&#125;&#123;...&#125;</code> 排版。一般来说，1/2 这种形式更受欢迎，因为对于少量的分式，它看起来更好些。</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span>1<span class="keyword">\frac</span>&#123;1&#125;&#123;2&#125;<span class="built_in">$</span>~hours</span><br><span class="line"><span class="built_in">$</span><span class="keyword">\frac</span>&#123;x<span class="built_in">^</span>&#123;2&#125;&#125;&#123;k+1&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span>x<span class="built_in">^</span>&#123;<span class="keyword">\frac</span>&#123;2&#125;&#123;k+1&#125;&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span>x<span class="built_in">^</span>&#123;1/2&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<blockquote>
-<p>$1\frac{1}{2}$ $~hours$ $\qquad$ $\frac{x^{2}}{k+1}$ $\qquad$ $x^{\frac{2}{k+1}}$ $\qquad$ $x^{1/2}$</p>
-</blockquote>
-<h3 id="积分-求和-乘积"><a href="#积分-求和-乘积" class="headerlink" title="积分 求和 乘积"></a>积分 求和 乘积</h3><p>积分运算符（integral operator）用<code>\int</code> 来生成。求和运算符（sum operator）由<code>\sum</code> 生成。乘积运算符（product operator）由<code>\prod</code> 生成。上限和下限用<code>^</code> 和<code>_</code>来生成，类似于上标和下标。</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\sum</span><span class="built_in">_</span>&#123;i=1&#125;<span class="built_in">^</span>&#123;n&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span><span class="keyword">\int</span><span class="built_in">_</span>&#123;0&#125;<span class="built_in">^</span>&#123;frac&#123;<span class="keyword">\pi</span>&#125;&#123;2&#125;&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span><span class="keyword">\prod</span><span class="built_in">_</span><span class="keyword">\epsilon</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<blockquote>
-<p>$\sum_{i=1}^{n}$ $\qquad$$\int_{0}^{frac{\pi}{2}}$ $\qquad$ $\prod_\epsilon$</p>
-</blockquote>
-<h3 id="常用符号表示方法"><a href="#常用符号表示方法" class="headerlink" title="常用符号表示方法"></a>常用符号表示方法</h3><h4 id="数学模式重音符"><a href="#数学模式重音符" class="headerlink" title="数学模式重音符"></a>数学模式重音符</h4><figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\hat</span>&#123;a&#125;   <span class="keyword">\check</span>&#123;a&#125; <span class="keyword">\tilde</span>&#123;a&#125;   <span class="keyword">\acute</span>&#123;a&#125; </span><br><span class="line"><span class="keyword">\grave</span>&#123;a&#125; <span class="keyword">\dot</span>&#123;a&#125;   <span class="keyword">\ddot</span>&#123;a&#125;    <span class="keyword">\breve</span>&#123;a&#125; </span><br><span class="line"><span class="keyword">\bar</span>&#123;a&#125;   <span class="keyword">\vec</span>&#123;a&#125;   <span class="keyword">\widehat</span>&#123;a&#125; <span class="keyword">\widetilde</span>&#123;a&#125;</span><br></pre></td></tr></table></figure>
-
-
-<blockquote>
-<p>$\hat{a} \qquad \check{a} \qquad \tilde{a} \qquad \acute{a} \\<br>\grave{a} \qquad \dot{a} \qquad \ddot{a} \qquad \breve{a} \\<br>\bar{a} \qquad \vec{a} \qquad \widehat{a} \qquad \widetilde{a} \\$</p>
-</blockquote>
-<h4 id="小写希腊字母"><a href="#小写希腊字母" class="headerlink" title="小写希腊字母"></a>小写希腊字母</h4><figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\alpha</span>      <span class="keyword">\theta</span>    o         <span class="keyword">\upsilon</span></span><br><span class="line"><span class="keyword">\beta</span>       <span class="keyword">\vartheta</span> <span class="keyword">\pi</span>       <span class="keyword">\phi</span></span><br><span class="line"><span class="keyword">\gamma</span>      <span class="keyword">\iota</span>     <span class="keyword">\varpi</span>    <span class="keyword">\varphi</span></span><br><span class="line"><span class="keyword">\delta</span>      <span class="keyword">\kappa</span>    <span class="keyword">\rho</span>      <span class="keyword">\chi</span></span><br><span class="line"><span class="keyword">\epsilon</span>    <span class="keyword">\lambda</span>   <span class="keyword">\varrho</span>   <span class="keyword">\psi</span></span><br><span class="line"><span class="keyword">\varepsilon</span> <span class="keyword">\mu</span>       <span class="keyword">\sigma</span>    <span class="keyword">\omega</span></span><br><span class="line"><span class="keyword">\zeta</span>       <span class="keyword">\nu</span>       <span class="keyword">\varsigma</span> </span><br><span class="line"><span class="keyword">\eta</span>        <span class="keyword">\xi</span>       <span class="keyword">\tau</span></span><br></pre></td></tr></table></figure>
-
-
-<blockquote>
-<p>$$<br>\alpha \qquad \theta \qquad o \qquad \upsilon \\<br>\beta \qquad \vartheta \qquad \pi \qquad \phi \<br>\gamma \qquad \iota \qquad \varpi  \qquad \varphi \<br>\delta \qquad \kappa \qquad \rho \qquad \chi \<br>\epsilon \qquad \lambda \qquad \varrho \qquad \psi \<br>\varepsilon \qquad \mu \qquad \sigma \qquad \omega \<br>\zeta \qquad \nu \qquad \varsigma \<br>\eta \qquad \xi \qquad \tau \<br>$$</p>
-</blockquote>
-<h4 id="大写希腊字母"><a href="#大写希腊字母" class="headerlink" title="大写希腊字母"></a>大写希腊字母</h4><h4 id="二元关系符"><a href="#二元关系符" class="headerlink" title="二元关系符"></a>二元关系符</h4><h4 id="二元运算符"><a href="#二元运算符" class="headerlink" title="二元运算符"></a>二元运算符</h4><h4 id="大尺寸运算符"><a href="#大尺寸运算符" class="headerlink" title="大尺寸运算符"></a>大尺寸运算符</h4><h4 id="箭头"><a href="#箭头" class="headerlink" title="箭头"></a>箭头</h4><h4 id="定界符"><a href="#定界符" class="headerlink" title="定界符"></a>定界符</h4><h4 id="大尺寸定界符"><a href="#大尺寸定界符" class="headerlink" title="大尺寸定界符"></a>大尺寸定界符</h4><h4 id="其他符号"><a href="#其他符号" class="headerlink" title="其他符号"></a>其他符号</h4>]]></content>
-      <categories>
-        <category>写作技巧(Write Skill)</category>
-      </categories>
-      <tags>
-        <tag>Write</tag>
-        <tag>Latex</tag>
-        <tag>Markdown</tag>
       </tags>
   </entry>
   <entry>
@@ -3665,6 +3673,87 @@
         <tag>Mooc</tag>
         <tag>Population</tag>
         <tag>Mathematical Modeling</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手机是怎么知道你的位置的</title>
+    <url>/archives/a03a749.html</url>
+    <content><![CDATA[<p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
+<a id="more"></a>
+
+
+
+
+
+<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>今天不管大家走到哪里，拿出手机可以告诉自己走到哪里、走了多快。给自己定位这样一件事是整个人类历史上持续在问的一个问题。我们中国发明了四大发明之一的指南针，可以更方便的进行定位，而在今天我们有全球定位系统，并通过经纬度来表示自己的坐标。</p>
+<h3 id="全球定位系统：2-TO-4"><a href="#全球定位系统：2-TO-4" class="headerlink" title="全球定位系统：2 TO 4"></a>全球定位系统：2 TO 4</h3><p><em>GPS（Global Positioning System）</em></p>
+<ul>
+<li><p><strong>美国的GPS</strong></p>
+<p>GPS一共6条轨道，每条轨道4颗卫星，一共24颗卫星。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq8p7fr5j30fi0ahgm2.jpg"></p>
+</li>
+</ul>
+<ul>
+<li><p><strong>苏联的GLONASS</strong></p>
+<p>GLONASS一共3条轨道，每条轨道8颗卫星，一共24颗卫星。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq8ostpkj30cv08xdg0.jpg"></p>
+</li>
+</ul>
+<ul>
+<li><p><strong>欧盟的伽利略</strong></p>
+</li>
+<li><p><strong>中国的北斗</strong></p>
+</li>
+</ul>
+<h3 id="模型的构建与求解"><a href="#模型的构建与求解" class="headerlink" title="模型的构建与求解"></a>模型的构建与求解</h3><p>当我们遇到问题的时候，我们不要追求一个模型解决所有的问题。建模的共性在于在最初的阶段能否用非常简单的模型去讨论最简单基本的情形。</p>
+<h4 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h4><p>我们身处地球给自己的空间位置定位，除了地球表面基本的经度和纬度外，还有海拔高度。一个全球定位系统实现了全球覆盖之后，无论在地球的哪个位置，在头顶上能接收到信号的卫星大约在<strong>6～10颗</strong>左右。这些卫星在固定的频率上发送的信息有：<strong>发出信号的时刻、卫星的位置坐标</strong>。</p>
+<p>而我们接收了这些卫星的信号，怎么通过卫星的位置知道自己的位置呢？虽然自己的坐标是未知的，但是我们知道从卫星的位置走到自己的位置的距离如何去表达：</p>
+<blockquote>
+<p>$distance^2=(x-x_0)^2+(y-y_0)^2+(z-z_0)^2$ 其中 $x_0、y_0、z_0$ 为卫星坐标</p>
+</blockquote>
+<p>而距离我们可不可以算出来呢？可以，因为我们还有时间：电磁波是以光速传播到设备的，乘上时间便可以求出距离。以距离为桥梁，我们将两边联系在了一起：</p>
+<blockquote>
+<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=distance^2=[(t-t_0) \cdot c]^2$</p>
+<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=[(t-t_0) \cdot c]^2$</p>
+</blockquote>
+<h4 id="基本模型"><a href="#基本模型" class="headerlink" title="基本模型"></a>基本模型</h4><p>每有一颗卫星，就有一组方程； 使用者能接收几颗卫星，就有几组下面这样的信号量：</p>
+<blockquote>
+<p>$(x-3)^2+(y-2)^2+(z-3)^2-[(10010.00692286-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-3)^2+(z-1)^2-[(10013.34256381-t)\cdot c]^2=0$</p>
+<p>$(x-5)^2+(y-7)^2+(z-4)^2-[(10016.67820476-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-6)^2+(z-3)^2-[(10020.01384571-t)\cdot c]^2=0$</p>
+<p>$(x-7)^2+(y-6)^2+(z-7)^2-[(10023.34948666-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-4)^2+(z-9)^2-[(10030.02076857-t)\cdot c]^2=0$</p>
+</blockquote>
+<p>这样就列出了一个四元二次方程组，很容易求解。</p>
+<h4 id="求解原理"><a href="#求解原理" class="headerlink" title="求解原理"></a>求解原理</h4><p>四元二次方程组消掉高次项以后变成一个线性方程组：</p>
+<blockquote>
+<p>$\begin{bmatrix} 4 &amp; -4 &amp; -12 &amp; 3.59751 \\ 0 &amp; -2 &amp; -16 &amp; 2.99792 \\ 8 &amp; 6 &amp; -10 &amp; 2.39834 \\ 0 &amp; 6 &amp; -12 &amp; 1.79875 \\ 12 &amp; 4 &amp; -4 &amp; 1.19917 \end{bmatrix}\begin{bmatrix} x \\ y \\ z \\ t\end{bmatrix}=\begin{bmatrix}35971.1 \\ 29957.2 \\ 24031.4 \\ 17993.5 \\ 12059.7 \end{bmatrix}$</p>
+</blockquote>
+<p>如此简单的问题甚至不需要很大的计算机，一个计算器就可以算出来。全球定位系统看着一个很高大上的东西，其实它最基本的、最反映它本质的一个数学模型是非常简单的，当然这个模型并不能很好的解决现实问题，但确实是能体现出全球定位系统最核心的思想的模型。</p>
+<p>这样的模型直接投入使用空间上会有几十米量级的误差，不能满足我们日常的大部分需求，我们需要进一步改进。但正是这样简单的模型，在时间上通过卫星授时误差能达到毫秒量级。</p>
+<h3 id="模型的分析"><a href="#模型的分析" class="headerlink" title="模型的分析"></a>模型的分析</h3><h4 id="卫星时钟"><a href="#卫星时钟" class="headerlink" title="卫星时钟"></a>卫星时钟</h4><p>全球定位系统的使用者可以不知道自己的时间，但卫星上的时间必须要非常准确的，所以地面会有一个原子钟为卫星授时并校准。之前也提到过，$[(t-t_0) \cdot c]^2$ 因为有光速这样大量级的存在，时间上的微小误差会被放大到很大，从而影响到方程本身的求解。也就是说，<strong>时间的同步性</strong>是非常重要的。</p>
+<h4 id="轨道误差"><a href="#轨道误差" class="headerlink" title="轨道误差"></a>轨道误差</h4><p>卫星总体来讲会绕着地球不断地自转，但转的每一次都多多少少会有一些误差。而卫星发送的数据包是根据自己的轨道位置所计算得到的，但轨道本身是按预定轨道计算，其中自转过程未必严格按预定轨道执行从而产生空间信息的偏差。</p>
+<h4 id="电磁波延迟"><a href="#电磁波延迟" class="headerlink" title="电磁波延迟"></a>电磁波延迟</h4><p>发送电磁波穿过电离层和大气层会有延迟，在时间方面产生误差。</p>
+<h4 id="接收机噪声"><a href="#接收机噪声" class="headerlink" title="接收机噪声"></a>接收机噪声</h4><p>GPS接收机本身有噪声，设备之间也会有显著的区别。</p>
+<p>首先考虑一个方程的简单情况，观察空间位置对时间误差的敏感程度：$f_1=(x-3)^2-[(T_1+t_1)\cdot c]^2=0$敏感程度可以由导数来刻画，具体来讲是$x$ 关于 $t$ 的这个函数求导。考虑4个方程的情况：</p>
+<blockquote>
+<p>$f_1=(x-3)^2+(y-2)^2+(z-3)^2-[(T_1+t_1-t)\cdot c]^2=0$</p>
+<p>$f_2=(x-1)^2+(y-3)^2+(z-1)^2-[(T_2+t_2-t)\cdot c]^2=0$</p>
+<p>$f_3=(x-5)^2+(y-7)^2+(z-4)^2-[(T_3+t_3-t)\cdot c]^2=0$</p>
+<p>$f_4=(x-1)^2+(y-7)^2+(z-3)^2-[(T_4+t_4-t)\cdot c]^2=0$</p>
+</blockquote>
+<h3 id="问题的解决"><a href="#问题的解决" class="headerlink" title="问题的解决"></a>问题的解决</h3><p><strong>基本模型：</strong>可行，但达不到应用的要求（时间的精度、空间位置的精度）</p>
+<p><strong>科学问题到工程问题：</strong>科学原理可行到工程实现，需要技术方面的支持，而数学建模则更多的关注科学原理上可行性的问题</p>
+]]></content>
+      <categories>
+        <category>数学建模(Mathematical Modeling)</category>
+      </categories>
+      <tags>
+        <tag>Math</tag>
+        <tag>Mooc</tag>
+        <tag>Mathematical Modeling</tag>
+        <tag>GPS</tag>
       </tags>
   </entry>
   <entry>
@@ -3866,87 +3955,6 @@
         <tag>Mooc</tag>
         <tag>Mathematical Modeling</tag>
         <tag>Rocket</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手机是怎么知道你的位置的</title>
-    <url>/archives/a03a749.html</url>
-    <content><![CDATA[<p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>今天不管大家走到哪里，拿出手机可以告诉自己走到哪里、走了多快。给自己定位这样一件事是整个人类历史上持续在问的一个问题。我们中国发明了四大发明之一的指南针，可以更方便的进行定位，而在今天我们有全球定位系统，并通过经纬度来表示自己的坐标。</p>
-<h3 id="全球定位系统：2-TO-4"><a href="#全球定位系统：2-TO-4" class="headerlink" title="全球定位系统：2 TO 4"></a>全球定位系统：2 TO 4</h3><p><em>GPS（Global Positioning System）</em></p>
-<ul>
-<li><p><strong>美国的GPS</strong></p>
-<p>GPS一共6条轨道，每条轨道4颗卫星，一共24颗卫星。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq8p7fr5j30fi0ahgm2.jpg"></p>
-</li>
-</ul>
-<ul>
-<li><p><strong>苏联的GLONASS</strong></p>
-<p>GLONASS一共3条轨道，每条轨道8颗卫星，一共24颗卫星。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq8ostpkj30cv08xdg0.jpg"></p>
-</li>
-</ul>
-<ul>
-<li><p><strong>欧盟的伽利略</strong></p>
-</li>
-<li><p><strong>中国的北斗</strong></p>
-</li>
-</ul>
-<h3 id="模型的构建与求解"><a href="#模型的构建与求解" class="headerlink" title="模型的构建与求解"></a>模型的构建与求解</h3><p>当我们遇到问题的时候，我们不要追求一个模型解决所有的问题。建模的共性在于在最初的阶段能否用非常简单的模型去讨论最简单基本的情形。</p>
-<h4 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h4><p>我们身处地球给自己的空间位置定位，除了地球表面基本的经度和纬度外，还有海拔高度。一个全球定位系统实现了全球覆盖之后，无论在地球的哪个位置，在头顶上能接收到信号的卫星大约在<strong>6～10颗</strong>左右。这些卫星在固定的频率上发送的信息有：<strong>发出信号的时刻、卫星的位置坐标</strong>。</p>
-<p>而我们接收了这些卫星的信号，怎么通过卫星的位置知道自己的位置呢？虽然自己的坐标是未知的，但是我们知道从卫星的位置走到自己的位置的距离如何去表达：</p>
-<blockquote>
-<p>$distance^2=(x-x_0)^2+(y-y_0)^2+(z-z_0)^2$ 其中 $x_0、y_0、z_0$ 为卫星坐标</p>
-</blockquote>
-<p>而距离我们可不可以算出来呢？可以，因为我们还有时间：电磁波是以光速传播到设备的，乘上时间便可以求出距离。以距离为桥梁，我们将两边联系在了一起：</p>
-<blockquote>
-<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=distance^2=[(t-t_0) \cdot c]^2$</p>
-<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=[(t-t_0) \cdot c]^2$</p>
-</blockquote>
-<h4 id="基本模型"><a href="#基本模型" class="headerlink" title="基本模型"></a>基本模型</h4><p>每有一颗卫星，就有一组方程； 使用者能接收几颗卫星，就有几组下面这样的信号量：</p>
-<blockquote>
-<p>$(x-3)^2+(y-2)^2+(z-3)^2-[(10010.00692286-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-3)^2+(z-1)^2-[(10013.34256381-t)\cdot c]^2=0$</p>
-<p>$(x-5)^2+(y-7)^2+(z-4)^2-[(10016.67820476-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-6)^2+(z-3)^2-[(10020.01384571-t)\cdot c]^2=0$</p>
-<p>$(x-7)^2+(y-6)^2+(z-7)^2-[(10023.34948666-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-4)^2+(z-9)^2-[(10030.02076857-t)\cdot c]^2=0$</p>
-</blockquote>
-<p>这样就列出了一个四元二次方程组，很容易求解。</p>
-<h4 id="求解原理"><a href="#求解原理" class="headerlink" title="求解原理"></a>求解原理</h4><p>四元二次方程组消掉高次项以后变成一个线性方程组：</p>
-<blockquote>
-<p>$\begin{bmatrix} 4 &amp; -4 &amp; -12 &amp; 3.59751 \\ 0 &amp; -2 &amp; -16 &amp; 2.99792 \\ 8 &amp; 6 &amp; -10 &amp; 2.39834 \\ 0 &amp; 6 &amp; -12 &amp; 1.79875 \\ 12 &amp; 4 &amp; -4 &amp; 1.19917 \end{bmatrix}\begin{bmatrix} x \\ y \\ z \\ t\end{bmatrix}=\begin{bmatrix}35971.1 \\ 29957.2 \\ 24031.4 \\ 17993.5 \\ 12059.7 \end{bmatrix}$</p>
-</blockquote>
-<p>如此简单的问题甚至不需要很大的计算机，一个计算器就可以算出来。全球定位系统看着一个很高大上的东西，其实它最基本的、最反映它本质的一个数学模型是非常简单的，当然这个模型并不能很好的解决现实问题，但确实是能体现出全球定位系统最核心的思想的模型。</p>
-<p>这样的模型直接投入使用空间上会有几十米量级的误差，不能满足我们日常的大部分需求，我们需要进一步改进。但正是这样简单的模型，在时间上通过卫星授时误差能达到毫秒量级。</p>
-<h3 id="模型的分析"><a href="#模型的分析" class="headerlink" title="模型的分析"></a>模型的分析</h3><h4 id="卫星时钟"><a href="#卫星时钟" class="headerlink" title="卫星时钟"></a>卫星时钟</h4><p>全球定位系统的使用者可以不知道自己的时间，但卫星上的时间必须要非常准确的，所以地面会有一个原子钟为卫星授时并校准。之前也提到过，$[(t-t_0) \cdot c]^2$ 因为有光速这样大量级的存在，时间上的微小误差会被放大到很大，从而影响到方程本身的求解。也就是说，<strong>时间的同步性</strong>是非常重要的。</p>
-<h4 id="轨道误差"><a href="#轨道误差" class="headerlink" title="轨道误差"></a>轨道误差</h4><p>卫星总体来讲会绕着地球不断地自转，但转的每一次都多多少少会有一些误差。而卫星发送的数据包是根据自己的轨道位置所计算得到的，但轨道本身是按预定轨道计算，其中自转过程未必严格按预定轨道执行从而产生空间信息的偏差。</p>
-<h4 id="电磁波延迟"><a href="#电磁波延迟" class="headerlink" title="电磁波延迟"></a>电磁波延迟</h4><p>发送电磁波穿过电离层和大气层会有延迟，在时间方面产生误差。</p>
-<h4 id="接收机噪声"><a href="#接收机噪声" class="headerlink" title="接收机噪声"></a>接收机噪声</h4><p>GPS接收机本身有噪声，设备之间也会有显著的区别。</p>
-<p>首先考虑一个方程的简单情况，观察空间位置对时间误差的敏感程度：$f_1=(x-3)^2-[(T_1+t_1)\cdot c]^2=0$敏感程度可以由导数来刻画，具体来讲是$x$ 关于 $t$ 的这个函数求导。考虑4个方程的情况：</p>
-<blockquote>
-<p>$f_1=(x-3)^2+(y-2)^2+(z-3)^2-[(T_1+t_1-t)\cdot c]^2=0$</p>
-<p>$f_2=(x-1)^2+(y-3)^2+(z-1)^2-[(T_2+t_2-t)\cdot c]^2=0$</p>
-<p>$f_3=(x-5)^2+(y-7)^2+(z-4)^2-[(T_3+t_3-t)\cdot c]^2=0$</p>
-<p>$f_4=(x-1)^2+(y-7)^2+(z-3)^2-[(T_4+t_4-t)\cdot c]^2=0$</p>
-</blockquote>
-<h3 id="问题的解决"><a href="#问题的解决" class="headerlink" title="问题的解决"></a>问题的解决</h3><p><strong>基本模型：</strong>可行，但达不到应用的要求（时间的精度、空间位置的精度）</p>
-<p><strong>科学问题到工程问题：</strong>科学原理可行到工程实现，需要技术方面的支持，而数学建模则更多的关注科学原理上可行性的问题</p>
-]]></content>
-      <categories>
-        <category>数学建模(Mathematical Modeling)</category>
-      </categories>
-      <tags>
-        <tag>Math</tag>
-        <tag>Mooc</tag>
-        <tag>Mathematical Modeling</tag>
-        <tag>GPS</tag>
       </tags>
   </entry>
   <entry>
@@ -4587,25 +4595,6 @@
       </tags>
   </entry>
   <entry>
-    <title>进程与线程</title>
-    <url>/archives/44cf1d42.html</url>
-    <content><![CDATA[<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
-<a id="more"></a>
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>操作系统(Operating Systems)</category>
-      </categories>
-      <tags>
-        <tag>Mooc</tag>
-        <tag>OS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>操作系统概述</title>
     <url>/archives/2ba40472.html</url>
     <content><![CDATA[<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将介绍操作系统的基本知识与课程相关。</p>
@@ -4641,57 +4630,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#121;&#111;&#110;&#103;&#64;&#116;&#x73;&#105;&#x6e;&#103;&#104;&#117;&#97;&#x2e;&#x65;&#100;&#x75;&#x2e;&#99;&#x6e;">&#120;&#121;&#111;&#110;&#103;&#64;&#116;&#x73;&#105;&#x6e;&#103;&#104;&#117;&#97;&#x2e;&#x65;&#100;&#x75;&#x2e;&#99;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#x79;&#x6f;&#x6e;&#x67;&#x40;&#116;&#x73;&#x69;&#x6e;&#x67;&#104;&#x75;&#x61;&#46;&#101;&#100;&#117;&#46;&#x63;&#x6e;">&#x78;&#x79;&#x6f;&#x6e;&#x67;&#x40;&#116;&#x73;&#x69;&#x6e;&#x67;&#104;&#x75;&#x61;&#46;&#101;&#100;&#117;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#117;&#99;&#x68;&#x65;&#110;&#64;&#x6d;&#x61;&#105;&#108;&#46;&#x74;&#x73;&#x69;&#x6e;&#x67;&#x68;&#x75;&#x61;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#110;">&#121;&#117;&#99;&#x68;&#x65;&#110;&#64;&#x6d;&#x61;&#105;&#108;&#46;&#x74;&#x73;&#x69;&#x6e;&#x67;&#x68;&#x75;&#x61;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#117;&#x63;&#104;&#101;&#110;&#x40;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#116;&#x73;&#x69;&#x6e;&#x67;&#104;&#117;&#x61;&#46;&#x65;&#x64;&#117;&#x2e;&#99;&#110;">&#121;&#117;&#x63;&#104;&#101;&#110;&#x40;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#116;&#x73;&#x69;&#x6e;&#x67;&#104;&#117;&#x61;&#46;&#x65;&#x64;&#117;&#x2e;&#99;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#116;&#101;&#114;&#110;&#97;&#108;&#x2e;&#110;&#x30;&#x38;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#101;&#116;&#101;&#114;&#110;&#97;&#108;&#x2e;&#110;&#x30;&#x38;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#101;&#x74;&#x65;&#114;&#110;&#x61;&#108;&#x2e;&#x6e;&#48;&#x38;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#101;&#x74;&#x65;&#114;&#110;&#x61;&#108;&#x2e;&#x6e;&#48;&#x38;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#x62;&#x6a;&#101;&#99;&#116;&#x6b;&#x75;&#x61;&#x6e;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#111;&#x62;&#x6a;&#101;&#99;&#116;&#x6b;&#x75;&#x61;&#x6e;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x6f;&#x62;&#x6a;&#x65;&#99;&#116;&#107;&#117;&#x61;&#110;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#x6f;&#x62;&#x6a;&#x65;&#99;&#116;&#107;&#117;&#x61;&#110;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#x72;&#x64;&#102;&#114;&#x61;&#110;&#x6b;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#99;&#x72;&#x64;&#102;&#114;&#x61;&#110;&#x6b;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x63;&#x72;&#x64;&#x66;&#114;&#97;&#x6e;&#107;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#x63;&#x72;&#x64;&#x66;&#114;&#97;&#x6e;&#107;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#97;&#x63;&#x63;&#x6f;&#114;&#97;&#119;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#x74;&#97;&#x63;&#x63;&#x6f;&#114;&#97;&#119;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x74;&#97;&#x63;&#x63;&#111;&#114;&#97;&#x77;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x74;&#97;&#x63;&#x63;&#111;&#114;&#97;&#x77;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#x78;&#105;&#110;&#x67;&#48;&#48;&#48;&#49;&#64;&#49;&#54;&#x33;&#x2e;&#x63;&#111;&#x6d;">&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#x78;&#105;&#110;&#x67;&#48;&#48;&#48;&#49;&#64;&#49;&#54;&#x33;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#120;&#105;&#110;&#x79;&#x75;&#110;&#120;&#105;&#110;&#x67;&#48;&#48;&#x30;&#x31;&#x40;&#x31;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#x6d;">&#120;&#105;&#110;&#x79;&#x75;&#110;&#120;&#105;&#110;&#x67;&#48;&#48;&#x30;&#x31;&#x40;&#x31;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#110;&#x6f;&#x63;&#x75;&#x69;&#x6c;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#103;&#110;&#x6f;&#x63;&#x75;&#x69;&#x6c;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#x6e;&#111;&#99;&#x75;&#105;&#108;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#109;">&#103;&#x6e;&#111;&#99;&#x75;&#105;&#108;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#x79;&#97;&#x69;&#x72;&#105;&#x61;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#x6d;">&#109;&#x79;&#97;&#x69;&#x72;&#105;&#x61;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#x79;&#x61;&#x69;&#x72;&#x69;&#x61;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;">&#109;&#x79;&#x61;&#x69;&#x72;&#x69;&#x61;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#104;&#97;&#x6e;&#103;&#114;&#x61;&#105;&#110;&#57;&#49;&#49;&#x40;&#x31;&#x36;&#51;&#x2e;&#99;&#x6f;&#x6d;">&#122;&#104;&#97;&#x6e;&#103;&#114;&#x61;&#105;&#110;&#57;&#49;&#49;&#x40;&#x31;&#x36;&#51;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#104;&#97;&#x6e;&#103;&#x72;&#x61;&#x69;&#110;&#57;&#49;&#49;&#x40;&#49;&#x36;&#x33;&#x2e;&#99;&#111;&#x6d;">&#x7a;&#104;&#97;&#x6e;&#103;&#x72;&#x61;&#x69;&#110;&#57;&#49;&#49;&#x40;&#49;&#x36;&#x33;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#x67;&#120;&#x78;&#49;&#x32;&#48;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#103;&#x67;&#120;&#x78;&#49;&#x32;&#48;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#103;&#x78;&#120;&#49;&#50;&#x30;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#103;&#x78;&#120;&#49;&#50;&#x30;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -4890,6 +4879,25 @@
 </blockquote>
 <p>这段时间操作系统需要解决的事如何提高昂贵计算机的使用效率</p>
 <h3 id="操作系统结构"><a href="#操作系统结构" class="headerlink" title="操作系统结构"></a>操作系统结构</h3>]]></content>
+      <categories>
+        <category>操作系统(Operating Systems)</category>
+      </categories>
+      <tags>
+        <tag>Mooc</tag>
+        <tag>OS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>进程与线程</title>
+    <url>/archives/44cf1d42.html</url>
+    <content><![CDATA[<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
+<a id="more"></a>
+
+
+
+
+
+]]></content>
       <categories>
         <category>操作系统(Operating Systems)</category>
       </categories>
@@ -5666,6 +5674,58 @@
       </tags>
   </entry>
   <entry>
+    <title>像素宝典#4</title>
+    <url>/archives/2b4d75d3.html</url>
+    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解角色设计、动画、像素运动、爆炸效果和怪异科技效果。</p>
+<a id="more"></a>
+
+
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh6yz1yrj30u008c74z.jpg"></p>
+<h3 id="角色设计-1"><a href="#角色设计-1" class="headerlink" title="角色设计 1"></a>角色设计 1</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh6zvcfhg30e80e81kx.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh7283bug30e80e81kx.gif"></p>
+<p>这节是关于角色剪影！</p>
+<p>我觉得剪影是角色设计里最重要的一环，在像素画里更是如此。</p>
+<p>画像素画大部分时候都是在低分辨率。正因为我们不能添加很多的细节，甚至不能用过多的颜色，剪影就必须传达些东西。</p>
+<p>画角色的时候我都会从剪影开始，不用特别精细，他只是大致形状的草稿，接着我就会问自己：“我想要这个角色传达出什么？我想要玩家看到角色时感受到什么？”</p>
+<p>剪影也可以是有欺骗性的，你可以做一个看起来安全的剪影，但是细节却变现出他其实很危险。都可以，只要你有自己的目的。</p>
+<p>感谢所有人的大力支持，这已经是教程的第三个月了！制作教程的过程很有趣，我自己也从中学到了很多。</p>
+<h3 id="动画计划"><a href="#动画计划" class="headerlink" title="动画计划"></a>动画计划</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh7408hxg30e80e8n63.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh75ds13g30e80e811z.gif"></p>
+<p>这节是关于我如何处理需要计划的复杂动画。我不知道这是不是“官方”做法，因为我从来没经历过科班培训，这只是我的工作方式：</p>
+<p>静态帧 ＞ 草图 &gt; 关键帧 &gt; 中间帧（及一些修改）</p>
+<p>我感觉最难的是关键帧，通常意味着你得想出低分辨率下看着还很酷的姿势。但是中间帧是最累的部分，需要做所有的调整，次级动画以及繁重的复制粘贴。</p>
+<p>感谢大家一如既往的支持！</p>
+<h3 id="lt-1-像素的运动"><a href="#lt-1-像素的运动" class="headerlink" title="&lt;1 像素的运动"></a>&lt;1 像素的运动</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh76bwvog30e80e8n4s.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh76u5iog30e80e87co.gif"></p>
+<p>这节是关于 &lt;1 像素的运动，有些人也叫亚像素动画。因为移动少于一个像素是不可能的，所以这节其实是关于如何让像素动画尽可能的精美。</p>
+<p> 我觉得这应该是像素画里最难的东西了，我的主要建议就是慢点来，多练习。不用担心，这个就是非常难做好的，为了这个我通常都会重做好几次动画。我觉得这是正常的，最起码我希望是。</p>
+<h3 id="爆炸-1"><a href="#爆炸-1" class="headerlink" title="爆炸 1"></a>爆炸 1</h3><p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh77ezszg30e80e8doq.gif"></p>
+<p>爆炸是我最喜欢画的主题之一了！里面有很多的粒子，我通常都会一个一个的处理。比如我会从头到尾画一个弹片，接着从头到尾画一团烟雾，等等。</p>
+<p>爆炸里有非常多的火和烟雾，我之前也做过教程，可以去看下。</p>
+<p>这是第 18 个教程了!（之前有几个可能他觉得不算，比如专辑那个。） 很高兴这个系列能走这么远，完全靠大家的支持！</p>
+<p>感谢所有支持这个系列的人！</p>
+<h3 id="机器和怪异科技"><a href="#机器和怪异科技" class="headerlink" title="机器和怪异科技"></a>机器和怪异科技</h3><p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh77uh87g30e80e87qz.gif"></p>
+<p>不好意思各位，本来应该昨天发，但是感冒太严重了。今天好点了。（风农：不是我。）</p>
+<p>这次是关于机器，我决定做个类似于“参考样式”的。你可以看着它来考虑想要加到自己机器上面的元素。</p>
+<p>也别忘了参考周围的东西，还有网上的，尤其是破损的机器。</p>
+<p>感谢大家的支持！</p>
+]]></content>
+      <categories>
+        <category>像素宝典(Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>像素宝典#5</title>
     <url>/archives/2b4d75d4.html</url>
     <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解视差和深度、渲染技巧、动画缓冲、像素画流程和废墟画法。</p>
@@ -5728,58 +5788,6 @@
 <p>希望 GDC 上能看到大家：D</p>
 <p>很骄傲的说目前这个系列已经有 6 个月了！不敢相信我已经做了 24 个教程！</p>
 <p>这都是因为大家的支持和分享，非常感谢！</p>
-]]></content>
-      <categories>
-        <category>像素宝典(Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>像素宝典#4</title>
-    <url>/archives/2b4d75d3.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解角色设计、动画、像素运动、爆炸效果和怪异科技效果。</p>
-<a id="more"></a>
-
-
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh6yz1yrj30u008c74z.jpg"></p>
-<h3 id="角色设计-1"><a href="#角色设计-1" class="headerlink" title="角色设计 1"></a>角色设计 1</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh6zvcfhg30e80e81kx.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh7283bug30e80e81kx.gif"></p>
-<p>这节是关于角色剪影！</p>
-<p>我觉得剪影是角色设计里最重要的一环，在像素画里更是如此。</p>
-<p>画像素画大部分时候都是在低分辨率。正因为我们不能添加很多的细节，甚至不能用过多的颜色，剪影就必须传达些东西。</p>
-<p>画角色的时候我都会从剪影开始，不用特别精细，他只是大致形状的草稿，接着我就会问自己：“我想要这个角色传达出什么？我想要玩家看到角色时感受到什么？”</p>
-<p>剪影也可以是有欺骗性的，你可以做一个看起来安全的剪影，但是细节却变现出他其实很危险。都可以，只要你有自己的目的。</p>
-<p>感谢所有人的大力支持，这已经是教程的第三个月了！制作教程的过程很有趣，我自己也从中学到了很多。</p>
-<h3 id="动画计划"><a href="#动画计划" class="headerlink" title="动画计划"></a>动画计划</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh7408hxg30e80e8n63.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh75ds13g30e80e811z.gif"></p>
-<p>这节是关于我如何处理需要计划的复杂动画。我不知道这是不是“官方”做法，因为我从来没经历过科班培训，这只是我的工作方式：</p>
-<p>静态帧 ＞ 草图 &gt; 关键帧 &gt; 中间帧（及一些修改）</p>
-<p>我感觉最难的是关键帧，通常意味着你得想出低分辨率下看着还很酷的姿势。但是中间帧是最累的部分，需要做所有的调整，次级动画以及繁重的复制粘贴。</p>
-<p>感谢大家一如既往的支持！</p>
-<h3 id="lt-1-像素的运动"><a href="#lt-1-像素的运动" class="headerlink" title="&lt;1 像素的运动"></a>&lt;1 像素的运动</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh76bwvog30e80e8n4s.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh76u5iog30e80e87co.gif"></p>
-<p>这节是关于 &lt;1 像素的运动，有些人也叫亚像素动画。因为移动少于一个像素是不可能的，所以这节其实是关于如何让像素动画尽可能的精美。</p>
-<p> 我觉得这应该是像素画里最难的东西了，我的主要建议就是慢点来，多练习。不用担心，这个就是非常难做好的，为了这个我通常都会重做好几次动画。我觉得这是正常的，最起码我希望是。</p>
-<h3 id="爆炸-1"><a href="#爆炸-1" class="headerlink" title="爆炸 1"></a>爆炸 1</h3><p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh77ezszg30e80e8doq.gif"></p>
-<p>爆炸是我最喜欢画的主题之一了！里面有很多的粒子，我通常都会一个一个的处理。比如我会从头到尾画一个弹片，接着从头到尾画一团烟雾，等等。</p>
-<p>爆炸里有非常多的火和烟雾，我之前也做过教程，可以去看下。</p>
-<p>这是第 18 个教程了!（之前有几个可能他觉得不算，比如专辑那个。） 很高兴这个系列能走这么远，完全靠大家的支持！</p>
-<p>感谢所有支持这个系列的人！</p>
-<h3 id="机器和怪异科技"><a href="#机器和怪异科技" class="headerlink" title="机器和怪异科技"></a>机器和怪异科技</h3><p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh77uh87g30e80e87qz.gif"></p>
-<p>不好意思各位，本来应该昨天发，但是感冒太严重了。今天好点了。（风农：不是我。）</p>
-<p>这次是关于机器，我决定做个类似于“参考样式”的。你可以看着它来考虑想要加到自己机器上面的元素。</p>
-<p>也别忘了参考周围的东西，还有网上的，尤其是破损的机器。</p>
-<p>感谢大家的支持！</p>
 ]]></content>
       <categories>
         <category>像素宝典(Pixel Dictionary)</category>
