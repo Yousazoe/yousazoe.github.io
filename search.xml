@@ -323,6 +323,292 @@
       </tags>
   </entry>
   <entry>
+    <title>游戏分析方法</title>
+    <url>/archives/f40ec98b.html</url>
+    <content><![CDATA[<p>本文围绕游戏分析方法展开：游戏分析方法是什么以及它的意义，也就是我们为什么要分析游戏方法、关于游戏产品特性、关于游戏类型和游戏类型趋势分析，游戏品类有什么变化和发展。</p>
+<a id="more"></a>
+
+
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#101;&#110;&#x78;&#117;&#64;&#116;&#101;&#x6e;&#x63;&#x65;&#x6e;&#116;&#x2e;&#x63;&#111;&#109;">&#x6c;&#101;&#101;&#110;&#x78;&#117;&#64;&#116;&#101;&#x6e;&#x63;&#x65;&#x6e;&#116;&#x2e;&#x63;&#111;&#109;</a></strong> </li>
+</ul>
+<h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
+<blockquote>
+<p>eg. 产品类型，相较同类产品的突破</p>
+</blockquote>
+<h5 id="商业前景分析"><a href="#商业前景分析" class="headerlink" title="商业前景分析"></a>商业前景分析</h5><p>关注产品的商业潜力。</p>
+<blockquote>
+<p> eg. 目标用户数量，上线后预期市场表现</p>
+</blockquote>
+<h5 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h5><p>产品上线后调整的重要依据</p>
+<blockquote>
+<p>eg. 游戏上线后留存，游戏上线后收入</p>
+</blockquote>
+<h4 id="游戏特性分析对游戏从业人员和游戏项目意义重大"><a href="#游戏特性分析对游戏从业人员和游戏项目意义重大" class="headerlink" title="游戏特性分析对游戏从业人员和游戏项目意义重大"></a>游戏特性分析对游戏从业人员和游戏项目意义重大</h4><p>游戏特性分析是游戏从业人员熟悉和理解游戏的捷径。</p>
+<p>用户在熟悉和掌握游戏分析方法后，能够在遇到游戏产品时能够快速形成认知 。</p>
+<p>项目研发的各个环节彼此影响，只有完美结合，才能诞生顶级作品，<strong>对游戏的认知</strong>就是串联所有环节的一把<strong>钥匙。</strong></p>
+<p>游戏和程序部门对设计方案提出<strong>修改反馈</strong>。团队成员对游戏的认知越<strong>深刻全面</strong>，提出的修改反馈越<strong>及时准确</strong>，反之，则可能在资源和功能制作完成并进入**<em>整合阶段**</em>才会发现问题并提出修改反馈。</p>
+<h4 id="现代游戏特性分析需要分析方法的支持"><a href="#现代游戏特性分析需要分析方法的支持" class="headerlink" title="现代游戏特性分析需要分析方法的支持"></a>现代游戏特性分析需要分析方法的支持</h4><p>目前游戏产品的<strong>分析难度</strong>与<strong>复杂度</strong>逐渐变高，因此科学的分析方法的作用愈来愈大</p>
+<p>游戏特性分析与方法（简称游戏分析方法）的目的在于<strong>减少</strong>分析过程中的<strong>随意性</strong>和<strong>片面性</strong>，使得分析更加全面与深入</p>
+<p>现在的游戏通常较为复杂，呈现<strong>混合游戏类型</strong> </p>
+<blockquote>
+<p> eg. <code>荒野大镖客2</code>的内容和玩法极为丰富</p>
+</blockquote>
+<p>相同的游戏元素在不同的游戏类型中所占<strong>权重很大</strong></p>
+<blockquote>
+<p> eg. <code>突变元年</code> <code>伊甸之路</code></p>
+</blockquote>
+<h3 id="游戏产品特性分析方法"><a href="#游戏产品特性分析方法" class="headerlink" title="游戏产品特性分析方法"></a>游戏产品特性分析方法</h3><h4 id="游戏产品特性分析的基础：认真体验游，同时不断思考"><a href="#游戏产品特性分析的基础：认真体验游，同时不断思考" class="headerlink" title="游戏产品特性分析的基础：认真体验游，同时不断思考"></a>游戏产品特性分析的基础：认真体验游，同时不断思考</h4><p>想尽可能全面，准确，深入地对游戏进行分析，必须认真体验游戏，切忌只看视频和其他用户描述。</p>
+<p>在游戏分析过程中，用户逐渐熟悉和掌握游戏分析方法，甚至形成新的分析思路，从而在遇到游戏产品时能够<strong>快速形成认知</strong>。</p>
+<ul>
+<li>多玩同类游戏：在时间允许的情况下，尽可能多玩同类游戏</li>
+<li>随时记录：游戏时多做笔记，记录和跟踪你的游戏过程与思考</li>
+<li>归纳总结：体验游戏后有逻辑的归纳总结，包括自己对游戏的感想，关注点，同类游戏比较等等</li>
+</ul>
+<h4 id="分析游戏的第一步：通过多维度评估产品"><a href="#分析游戏的第一步：通过多维度评估产品" class="headerlink" title="分析游戏的第一步：通过多维度评估产品"></a>分析游戏的第一步：通过多维度评估产品</h4><p>下文列举了评估游戏的不同维度，这些维度代表了不同的切入角度和评判标准，通过这些维度评估，我们可以获得对一款游戏产品（以<code>皇室战争</code>为例）的全面理解：</p>
+<h5 id="玩法"><a href="#玩法" class="headerlink" title="玩法"></a>玩法</h5><ul>
+<li>创新性&emsp;在手游商创造性的体现出RTS玩法</li>
+<li>耐玩性&emsp;策略深度和变化性均较为出色</li>
+<li>契合度&emsp;玩法对题材的表达是否合适</li>
+</ul>
+<h5 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h5><ul>
+<li>辨识度&emsp;美术风格辨识度高</li>
+<li>美术质量&emsp;静态效果较好，动态效果尤为出色</li>
+<li>接受度&emsp;用户接受程度较高</li>
+</ul>
+<h5 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h5><ul>
+<li>操作方式&emsp;操作十分便捷</li>
+<li>信息呈现&emsp;信息呈现清晰，用户一目了然</li>
+</ul>
+<h5 id="题材"><a href="#题材" class="headerlink" title="题材"></a>题材</h5><ul>
+<li>新颖度&emsp;玩法新颖</li>
+<li>流行度 &emsp;有 <code>部落冲突</code> 的IP加成</li>
+</ul>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggyfvj8s6fj30xc0id15c.jpg"></p>
+<h4 id="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"><a href="#分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素" class="headerlink" title="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"></a>分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素</h4><h5 id="拆解产品主要元素"><a href="#拆解产品主要元素" class="headerlink" title="拆解产品主要元素"></a>拆解产品主要元素</h5><p>这款游戏最吸引人的地方在哪里？列出你认为最吸引人的3-4各方面，可以从玩法，美术，平台等方面考虑：</p>
+<ul>
+<li>卡组策略</li>
+<li>实时对抗</li>
+<li>移动平台</li>
+<li>临场指挥</li>
+</ul>
+<h5 id="归纳游戏产品类型"><a href="#归纳游戏产品类型" class="headerlink" title="归纳游戏产品类型"></a>归纳游戏产品类型</h5><p>根据游戏最主要的乐趣点进行类型界定：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">实时对抗 + 临场发挥 -&gt; RTS类型</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="分析游戏第三步：将产品与所属类型的特性进行比较"><a href="#分析游戏第三步：将产品与所属类型的特性进行比较" class="headerlink" title="分析游戏第三步：将产品与所属类型的特性进行比较"></a>分析游戏第三步：将产品与所属类型的特性进行比较</h4><p>将产品与其所属类型的特性进行比较，分析产品继承，强化，甚至创造了哪些该类型的优点，同时解决了哪些该类型的缺点：</p>
+<h5 id="皇室战争"><a href="#皇室战争" class="headerlink" title="皇室战争"></a>皇室战争</h5><ul>
+<li>继承了什么品类的特点？</li>
+<li>在品类基础上有什么突破？</li>
+<li>解决了品类什么痛点？</li>
+</ul>
+<h5 id="RTS类型"><a href="#RTS类型" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
+<li>实时指挥的游戏运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+<li>门槛高，兴奋点滞后</li>
+<li>游戏负担重</li>
+</ul>
+<h5 id="皇室战争继承了RTS丰富策略实时对抗的优点"><a href="#皇室战争继承了RTS丰富策略实时对抗的优点" class="headerlink" title="皇室战争继承了RTS丰富策略实时对抗的优点"></a>皇室战争继承了RTS丰富策略实时对抗的优点</h5><ul>
+<li>卡牌相克明显</li>
+<li>组卡衍生战术多样性 </li>
+</ul>
+<blockquote>
+<p>eg. 巨人流，狗球流，自闭流…每个牌组只有8张牌，配卡方式多变，产生各种不同的战术</p>
+</blockquote>
+<ul>
+<li>实时操作与对抗</li>
+</ul>
+<blockquote>
+<p>eg. 实时操作单位，选择和改变策略；配合清晰合理的单位AI，营造初双方即时对抗博弈的体验</p>
+</blockquote>
+<h5 id="皇室战争-解决了RTS门槛高的问题"><a href="#皇室战争-解决了RTS门槛高的问题" class="headerlink" title="皇室战争 解决了RTS门槛高的问题"></a>皇室战争 解决了RTS门槛高的问题</h5><ul>
+<li>游戏时间短</li>
+</ul>
+<blockquote>
+<p>eg. 单局3-6分钟</p>
+</blockquote>
+<ul>
+<li>瞬时思考维度少</li>
+</ul>
+<blockquote>
+<p>eg. 恒大资源供给，简化内政，集中于战斗</p>
+</blockquote>
+<ul>
+<li>操作模式简单</li>
+</ul>
+<blockquote>
+<p>eg. 瞬时操作少，操作方式简单；在合适的时机，位置使用合适的卡牌</p>
+</blockquote>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggygkr3u8aj30xc0i3naz.jpg"></p>
+<h4 id="【小练习】-比较王者荣耀与RTS特性"><a href="#【小练习】-比较王者荣耀与RTS特性" class="headerlink" title="【小练习】 比较王者荣耀与RTS特性"></a>【小练习】 比较王者荣耀与RTS特性</h4><p>MOBA属于RTS的衍生类型，比较 <code>王者荣耀</code> 与RTS特性，分析其继承，强化，甚至创造了哪些RTS的优点，同时解决了哪些RTS的缺点：</p>
+<h5 id="王者荣耀"><a href="#王者荣耀" class="headerlink" title="王者荣耀"></a>王者荣耀</h5><ul>
+<li>继承了什么品类的特点？</li>
+<li>在品类基础上有什么突破？</li>
+<li>解决了品类什么痛点？</li>
+</ul>
+<h5 id="RTS类型-1"><a href="#RTS类型-1" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
+<li>实时指挥的游戏运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+<li>门槛高，兴奋点滞后</li>
+<li>游戏负担重</li>
+</ul>
+<h5 id="王者荣耀继承了RTS丰富策略实时对抗的优点"><a href="#王者荣耀继承了RTS丰富策略实时对抗的优点" class="headerlink" title="王者荣耀继承了RTS丰富策略实时对抗的优点"></a>王者荣耀继承了RTS丰富策略实时对抗的优点</h5><ul>
+<li>实时对抗的反馈与紧张+一定的战场模拟</li>
+<li>一定的策略深度（经济，成长，侦查，配合）</li>
+</ul>
+<h3 id="游戏类型特点分析方法"><a href="#游戏类型特点分析方法" class="headerlink" title="游戏类型特点分析方法"></a>游戏类型特点分析方法</h3><h4 id="分析游戏类型特点：总结同类型产品的共同点"><a href="#分析游戏类型特点：总结同类型产品的共同点" class="headerlink" title="分析游戏类型特点：总结同类型产品的共同点"></a>分析游戏类型特点：总结同类型产品的共同点</h4><h5 id="RTS同类型游戏"><a href="#RTS同类型游戏" class="headerlink" title="RTS同类型游戏"></a>RTS同类型游戏</h5><blockquote>
+<ul>
+<li><code>魔兽争霸3</code></li>
+<li><code>三国志大战</code></li>
+<li><code>全面战争:战锤2</code></li>
+<li><code>皇室战争</code></li>
+</ul>
+</blockquote>
+<h5 id="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"><a href="#一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性" class="headerlink" title="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"></a>一个游戏类型总会有各种各样的差异化产品，需要寻找它们的<strong>共性</strong></h5><blockquote>
+<p><code>魔兽争霸3</code></p>
+<ul>
+<li>PC平台 键鼠操作</li>
+<li>实时的‘内政-&gt;侦查-&gt;战斗’模式；矿点，商店等特殊地点的争夺贯穿整个游戏</li>
+</ul>
+<p><code>三国志大战</code></p>
+<ul>
+<li>街机平台 实体卡牌 + 触摸操作</li>
+<li>实时的‘资源-&gt;兵力-&gt;战斗’模式；地图区域的控制争夺贯穿整个游戏</li>
+</ul>
+<p><code>全面战争：战锤2</code></p>
+<ul>
+<li>PC平台 键鼠操作</li>
+<li>专注于实时的指挥与战斗；关键地形的争夺贯穿游戏过程</li>
+</ul>
+<p><code>皇室战争</code></p>
+<ul>
+<li>移动平台 触摸屏操作</li>
+<li>实时的 资源-&gt;兵力-&gt;战斗 模式</li>
+</ul>
+</blockquote>
+<p>共性：<strong>实时的运行机制和操作模式</strong> + <strong>丰富的策略与战场空间争夺元素</strong></p>
+<img src="https://img.3dmgame.com/UploadFiles/200908/20090831180642574.jpg" style="zoom:150%;" />
+
+
+
+<h5 id="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"><a href="#分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）" class="headerlink" title="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"></a>分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）</h5><ul>
+<li>回合制策略 - <code>文明6</code></li>
+<li>实时射击 - <code>绝地求生</code></li>
+</ul>
+<h5 id="分析游戏类型特点：寻找现实与游戏之间的映射"><a href="#分析游戏类型特点：寻找现实与游戏之间的映射" class="headerlink" title="分析游戏类型特点：寻找现实与游戏之间的映射"></a>分析游戏类型特点：寻找现实与游戏之间的映射</h5><p>很多游戏都可以视为对现实的一种映射，我们需要寻找 <strong>现实 &lt;–&gt; 游戏 的映射</strong></p>
+<blockquote>
+<p>格斗游戏</p>
+<ul>
+<li><code>VR战士</code> <code>街霸5</code> -&gt; 真实世界对战格斗</li>
+</ul>
+<p>射击</p>
+<ul>
+<li><code>绝地求生</code> <code>使命召唤系列</code> -&gt; 现实射击</li>
+</ul>
+<p>回合制策略</p>
+<ul>
+<li><code>文明6</code> <code>群星</code> -&gt; 国家管理与战争</li>
+</ul>
+<p>RTS</p>
+<ul>
+<li><code>全面战争：战锤2</code> <code>皇室战争 </code>-&gt; 战场指挥体验</li>
+</ul>
+</blockquote>
+<h5 id="通过多种方法总结游戏类型的特点"><a href="#通过多种方法总结游戏类型的特点" class="headerlink" title="通过多种方法总结游戏类型的特点"></a>通过多种方法总结游戏类型的特点</h5><p>RTS产品共性（优点）</p>
+<ul>
+<li>实时的运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+</ul>
+<p>RTS产品与其他类型产品差异（缺点）</p>
+<ul>
+<li>战场策略的实时还原</li>
+<li>门槛高，兴奋点滞后</li>
+</ul>
+<p>RTS产品与现实间的映射</p>
+<ul>
+<li>战场指挥体验</li>
+</ul>
+<h3 id="游戏类型趋势分析方法"><a href="#游戏类型趋势分析方法" class="headerlink" title="游戏类型趋势分析方法"></a>游戏类型趋势分析方法</h3><h4 id="分析游戏类型趋势：挑选重点产品进行对比"><a href="#分析游戏类型趋势：挑选重点产品进行对比" class="headerlink" title="分析游戏类型趋势：挑选重点产品进行对比"></a>分析游戏类型趋势：挑选重点产品进行对比</h4><p>在产品特性分析的基础上，我们库乐队特定游戏类型的发展趋势进行分析研究</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">挑选代表产品 -&gt; 总结每个产品的特点 -&gt; 比较产品</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h4 id="比较产品，寻找类型发展趋势"><a href="#比较产品，寻找类型发展趋势" class="headerlink" title="比较产品，寻找类型发展趋势"></a>比较产品，寻找类型发展趋势</h4><blockquote>
+<p>时间轴</p>
+<ul>
+<li>2002 <code>魔兽争霸3</code> 内容非常全面 策略非常丰富 指挥体验完善 操作复杂 门槛高</li>
+<li>2005 强调战斗 策略丰富 指挥体验非常出色 门槛较高 新平台</li>
+<li>2006 <code>英雄连</code></li>
+<li>2009 <code>英雄联盟</code> 强调战斗和配合 策略丰富 操作方式简单 门槛低</li>
+<li>2010 <code>星际争霸2</code> 类似于WAR3的传统RTS</li>
+<li>2013 <code>横扫千星</code></li>
+<li>2015 <code>灰蛊</code> <code>王者荣耀</code> - 英雄联盟移动版</li>
+<li>2016 <code>奇点灰烬</code></li>
+<li>2017 强调战斗 战场策略丰富 指挥体验完善 操作较为复杂 门槛较高</li>
+</ul>
+</blockquote>
+<ul>
+<li>核心：实时的策略性，战场体验，指挥感仍是RTS的核心</li>
+<li>内容侧重：不追求内容面面俱到，而是集中于某些模块（例如战斗）</li>
+<li>门槛：门槛逐渐降低，游戏节奏逐渐加快</li>
+<li>平台：新平台出现扩大用户规模</li>
+<li>技术：新技术的应用改进RTS形态（例如新操作模式），使其满足新用户的需求</li>
+</ul>
+<p>###【课后作业】 分析特定产品</p>
+<p><strong>（1）Apex Legends</strong></p>
+<ul>
+<li>继承了什么大逃杀品类的特点</li>
+<li>在大逃杀品类基础上有什么突破</li>
+<li>解决了大逃杀品类的什么问题</li>
+</ul>
+<p><strong>（2）大逃杀类型特性</strong></p>
+<blockquote>
+<ul>
+<li><code>H1Z1</code></li>
+<li><code>绝地求生</code></li>
+<li><code>堡垒之夜</code></li>
+<li><code>黑色行动4</code></li>
+</ul>
+</blockquote>
+<p><strong>（3）只狼</strong></p>
+<ul>
+<li>继承了什么ACT品类的特点</li>
+<li>在ACT品类基础上有什么突破</li>
+<li>解决了ACT品类的什么问题</li>
+</ul>
+<p><strong>（4）ACT类型特性</strong></p>
+<blockquote>
+<ul>
+<li><code>鬼泣</code></li>
+<li><code>猎天使魔女</code></li>
+<li><code>黑暗之魂</code></li>
+<li><code>战神</code></li>
+</ul>
+</blockquote>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/dafortin">David Fortin</a>
+    </i>
+  </font>
+</div>]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>中国游戏市场简析</title>
     <url>/archives/c558be6b.html</url>
     <content><![CDATA[<p>本文内容围绕中国游戏市场简析展开，简单科普一下中国游戏是怎么来的，介绍现存的平台和游戏特征和中国玩家的特征、国内的游戏开发商。</p>
@@ -702,292 +988,6 @@
 <h4 id="海外厂商国内分公司"><a href="#海外厂商国内分公司" class="headerlink" title="海外厂商国内分公司"></a>海外厂商国内分公司</h4><p>承担总部赋予各种功能的中国分公司。<br>代表厂商有：<code>育碧</code> <code>EA</code> <code>暴雪</code> <code>光荣</code> <code>索尼</code>  </p>
 <h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>中国游戏行业是丰富、复杂的市场，但庞大的用户基数与持续需求，依然展露着中国市场的前景。不断进取的行业从业者，也将中国游戏往全球遍地开花</p>
 ]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>游戏分析方法</title>
-    <url>/archives/f40ec98b.html</url>
-    <content><![CDATA[<p>本文围绕游戏分析方法展开：游戏分析方法是什么以及它的意义，也就是我们为什么要分析游戏方法、关于游戏产品特性、关于游戏类型和游戏类型趋势分析，游戏品类有什么变化和发展。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#101;&#110;&#x78;&#x75;&#x40;&#x74;&#101;&#110;&#x63;&#x65;&#110;&#116;&#x2e;&#99;&#111;&#109;">&#x6c;&#x65;&#101;&#110;&#x78;&#x75;&#x40;&#x74;&#101;&#110;&#x63;&#x65;&#110;&#116;&#x2e;&#99;&#111;&#109;</a></strong> </li>
-</ul>
-<h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
-<blockquote>
-<p>eg. 产品类型，相较同类产品的突破</p>
-</blockquote>
-<h5 id="商业前景分析"><a href="#商业前景分析" class="headerlink" title="商业前景分析"></a>商业前景分析</h5><p>关注产品的商业潜力。</p>
-<blockquote>
-<p> eg. 目标用户数量，上线后预期市场表现</p>
-</blockquote>
-<h5 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h5><p>产品上线后调整的重要依据</p>
-<blockquote>
-<p>eg. 游戏上线后留存，游戏上线后收入</p>
-</blockquote>
-<h4 id="游戏特性分析对游戏从业人员和游戏项目意义重大"><a href="#游戏特性分析对游戏从业人员和游戏项目意义重大" class="headerlink" title="游戏特性分析对游戏从业人员和游戏项目意义重大"></a>游戏特性分析对游戏从业人员和游戏项目意义重大</h4><p>游戏特性分析是游戏从业人员熟悉和理解游戏的捷径。</p>
-<p>用户在熟悉和掌握游戏分析方法后，能够在遇到游戏产品时能够快速形成认知 。</p>
-<p>项目研发的各个环节彼此影响，只有完美结合，才能诞生顶级作品，<strong>对游戏的认知</strong>就是串联所有环节的一把<strong>钥匙。</strong></p>
-<p>游戏和程序部门对设计方案提出<strong>修改反馈</strong>。团队成员对游戏的认知越<strong>深刻全面</strong>，提出的修改反馈越<strong>及时准确</strong>，反之，则可能在资源和功能制作完成并进入**<em>整合阶段**</em>才会发现问题并提出修改反馈。</p>
-<h4 id="现代游戏特性分析需要分析方法的支持"><a href="#现代游戏特性分析需要分析方法的支持" class="headerlink" title="现代游戏特性分析需要分析方法的支持"></a>现代游戏特性分析需要分析方法的支持</h4><p>目前游戏产品的<strong>分析难度</strong>与<strong>复杂度</strong>逐渐变高，因此科学的分析方法的作用愈来愈大</p>
-<p>游戏特性分析与方法（简称游戏分析方法）的目的在于<strong>减少</strong>分析过程中的<strong>随意性</strong>和<strong>片面性</strong>，使得分析更加全面与深入</p>
-<p>现在的游戏通常较为复杂，呈现<strong>混合游戏类型</strong> </p>
-<blockquote>
-<p> eg. <code>荒野大镖客2</code>的内容和玩法极为丰富</p>
-</blockquote>
-<p>相同的游戏元素在不同的游戏类型中所占<strong>权重很大</strong></p>
-<blockquote>
-<p> eg. <code>突变元年</code> <code>伊甸之路</code></p>
-</blockquote>
-<h3 id="游戏产品特性分析方法"><a href="#游戏产品特性分析方法" class="headerlink" title="游戏产品特性分析方法"></a>游戏产品特性分析方法</h3><h4 id="游戏产品特性分析的基础：认真体验游，同时不断思考"><a href="#游戏产品特性分析的基础：认真体验游，同时不断思考" class="headerlink" title="游戏产品特性分析的基础：认真体验游，同时不断思考"></a>游戏产品特性分析的基础：认真体验游，同时不断思考</h4><p>想尽可能全面，准确，深入地对游戏进行分析，必须认真体验游戏，切忌只看视频和其他用户描述。</p>
-<p>在游戏分析过程中，用户逐渐熟悉和掌握游戏分析方法，甚至形成新的分析思路，从而在遇到游戏产品时能够<strong>快速形成认知</strong>。</p>
-<ul>
-<li>多玩同类游戏：在时间允许的情况下，尽可能多玩同类游戏</li>
-<li>随时记录：游戏时多做笔记，记录和跟踪你的游戏过程与思考</li>
-<li>归纳总结：体验游戏后有逻辑的归纳总结，包括自己对游戏的感想，关注点，同类游戏比较等等</li>
-</ul>
-<h4 id="分析游戏的第一步：通过多维度评估产品"><a href="#分析游戏的第一步：通过多维度评估产品" class="headerlink" title="分析游戏的第一步：通过多维度评估产品"></a>分析游戏的第一步：通过多维度评估产品</h4><p>下文列举了评估游戏的不同维度，这些维度代表了不同的切入角度和评判标准，通过这些维度评估，我们可以获得对一款游戏产品（以<code>皇室战争</code>为例）的全面理解：</p>
-<h5 id="玩法"><a href="#玩法" class="headerlink" title="玩法"></a>玩法</h5><ul>
-<li>创新性&emsp;在手游商创造性的体现出RTS玩法</li>
-<li>耐玩性&emsp;策略深度和变化性均较为出色</li>
-<li>契合度&emsp;玩法对题材的表达是否合适</li>
-</ul>
-<h5 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h5><ul>
-<li>辨识度&emsp;美术风格辨识度高</li>
-<li>美术质量&emsp;静态效果较好，动态效果尤为出色</li>
-<li>接受度&emsp;用户接受程度较高</li>
-</ul>
-<h5 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h5><ul>
-<li>操作方式&emsp;操作十分便捷</li>
-<li>信息呈现&emsp;信息呈现清晰，用户一目了然</li>
-</ul>
-<h5 id="题材"><a href="#题材" class="headerlink" title="题材"></a>题材</h5><ul>
-<li>新颖度&emsp;玩法新颖</li>
-<li>流行度 &emsp;有 <code>部落冲突</code> 的IP加成</li>
-</ul>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggyfvj8s6fj30xc0id15c.jpg"></p>
-<h4 id="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"><a href="#分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素" class="headerlink" title="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"></a>分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素</h4><h5 id="拆解产品主要元素"><a href="#拆解产品主要元素" class="headerlink" title="拆解产品主要元素"></a>拆解产品主要元素</h5><p>这款游戏最吸引人的地方在哪里？列出你认为最吸引人的3-4各方面，可以从玩法，美术，平台等方面考虑：</p>
-<ul>
-<li>卡组策略</li>
-<li>实时对抗</li>
-<li>移动平台</li>
-<li>临场指挥</li>
-</ul>
-<h5 id="归纳游戏产品类型"><a href="#归纳游戏产品类型" class="headerlink" title="归纳游戏产品类型"></a>归纳游戏产品类型</h5><p>根据游戏最主要的乐趣点进行类型界定：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">实时对抗 + 临场发挥 -&gt; RTS类型</span><br></pre></td></tr></table></figure>
-
-
-<h4 id="分析游戏第三步：将产品与所属类型的特性进行比较"><a href="#分析游戏第三步：将产品与所属类型的特性进行比较" class="headerlink" title="分析游戏第三步：将产品与所属类型的特性进行比较"></a>分析游戏第三步：将产品与所属类型的特性进行比较</h4><p>将产品与其所属类型的特性进行比较，分析产品继承，强化，甚至创造了哪些该类型的优点，同时解决了哪些该类型的缺点：</p>
-<h5 id="皇室战争"><a href="#皇室战争" class="headerlink" title="皇室战争"></a>皇室战争</h5><ul>
-<li>继承了什么品类的特点？</li>
-<li>在品类基础上有什么突破？</li>
-<li>解决了品类什么痛点？</li>
-</ul>
-<h5 id="RTS类型"><a href="#RTS类型" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
-<li>实时指挥的游戏运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-<li>门槛高，兴奋点滞后</li>
-<li>游戏负担重</li>
-</ul>
-<h5 id="皇室战争继承了RTS丰富策略实时对抗的优点"><a href="#皇室战争继承了RTS丰富策略实时对抗的优点" class="headerlink" title="皇室战争继承了RTS丰富策略实时对抗的优点"></a>皇室战争继承了RTS丰富策略实时对抗的优点</h5><ul>
-<li>卡牌相克明显</li>
-<li>组卡衍生战术多样性 </li>
-</ul>
-<blockquote>
-<p>eg. 巨人流，狗球流，自闭流…每个牌组只有8张牌，配卡方式多变，产生各种不同的战术</p>
-</blockquote>
-<ul>
-<li>实时操作与对抗</li>
-</ul>
-<blockquote>
-<p>eg. 实时操作单位，选择和改变策略；配合清晰合理的单位AI，营造初双方即时对抗博弈的体验</p>
-</blockquote>
-<h5 id="皇室战争-解决了RTS门槛高的问题"><a href="#皇室战争-解决了RTS门槛高的问题" class="headerlink" title="皇室战争 解决了RTS门槛高的问题"></a>皇室战争 解决了RTS门槛高的问题</h5><ul>
-<li>游戏时间短</li>
-</ul>
-<blockquote>
-<p>eg. 单局3-6分钟</p>
-</blockquote>
-<ul>
-<li>瞬时思考维度少</li>
-</ul>
-<blockquote>
-<p>eg. 恒大资源供给，简化内政，集中于战斗</p>
-</blockquote>
-<ul>
-<li>操作模式简单</li>
-</ul>
-<blockquote>
-<p>eg. 瞬时操作少，操作方式简单；在合适的时机，位置使用合适的卡牌</p>
-</blockquote>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggygkr3u8aj30xc0i3naz.jpg"></p>
-<h4 id="【小练习】-比较王者荣耀与RTS特性"><a href="#【小练习】-比较王者荣耀与RTS特性" class="headerlink" title="【小练习】 比较王者荣耀与RTS特性"></a>【小练习】 比较王者荣耀与RTS特性</h4><p>MOBA属于RTS的衍生类型，比较 <code>王者荣耀</code> 与RTS特性，分析其继承，强化，甚至创造了哪些RTS的优点，同时解决了哪些RTS的缺点：</p>
-<h5 id="王者荣耀"><a href="#王者荣耀" class="headerlink" title="王者荣耀"></a>王者荣耀</h5><ul>
-<li>继承了什么品类的特点？</li>
-<li>在品类基础上有什么突破？</li>
-<li>解决了品类什么痛点？</li>
-</ul>
-<h5 id="RTS类型-1"><a href="#RTS类型-1" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
-<li>实时指挥的游戏运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-<li>门槛高，兴奋点滞后</li>
-<li>游戏负担重</li>
-</ul>
-<h5 id="王者荣耀继承了RTS丰富策略实时对抗的优点"><a href="#王者荣耀继承了RTS丰富策略实时对抗的优点" class="headerlink" title="王者荣耀继承了RTS丰富策略实时对抗的优点"></a>王者荣耀继承了RTS丰富策略实时对抗的优点</h5><ul>
-<li>实时对抗的反馈与紧张+一定的战场模拟</li>
-<li>一定的策略深度（经济，成长，侦查，配合）</li>
-</ul>
-<h3 id="游戏类型特点分析方法"><a href="#游戏类型特点分析方法" class="headerlink" title="游戏类型特点分析方法"></a>游戏类型特点分析方法</h3><h4 id="分析游戏类型特点：总结同类型产品的共同点"><a href="#分析游戏类型特点：总结同类型产品的共同点" class="headerlink" title="分析游戏类型特点：总结同类型产品的共同点"></a>分析游戏类型特点：总结同类型产品的共同点</h4><h5 id="RTS同类型游戏"><a href="#RTS同类型游戏" class="headerlink" title="RTS同类型游戏"></a>RTS同类型游戏</h5><blockquote>
-<ul>
-<li><code>魔兽争霸3</code></li>
-<li><code>三国志大战</code></li>
-<li><code>全面战争:战锤2</code></li>
-<li><code>皇室战争</code></li>
-</ul>
-</blockquote>
-<h5 id="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"><a href="#一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性" class="headerlink" title="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"></a>一个游戏类型总会有各种各样的差异化产品，需要寻找它们的<strong>共性</strong></h5><blockquote>
-<p><code>魔兽争霸3</code></p>
-<ul>
-<li>PC平台 键鼠操作</li>
-<li>实时的‘内政-&gt;侦查-&gt;战斗’模式；矿点，商店等特殊地点的争夺贯穿整个游戏</li>
-</ul>
-<p><code>三国志大战</code></p>
-<ul>
-<li>街机平台 实体卡牌 + 触摸操作</li>
-<li>实时的‘资源-&gt;兵力-&gt;战斗’模式；地图区域的控制争夺贯穿整个游戏</li>
-</ul>
-<p><code>全面战争：战锤2</code></p>
-<ul>
-<li>PC平台 键鼠操作</li>
-<li>专注于实时的指挥与战斗；关键地形的争夺贯穿游戏过程</li>
-</ul>
-<p><code>皇室战争</code></p>
-<ul>
-<li>移动平台 触摸屏操作</li>
-<li>实时的 资源-&gt;兵力-&gt;战斗 模式</li>
-</ul>
-</blockquote>
-<p>共性：<strong>实时的运行机制和操作模式</strong> + <strong>丰富的策略与战场空间争夺元素</strong></p>
-<img src="https://img.3dmgame.com/UploadFiles/200908/20090831180642574.jpg" style="zoom:150%;" />
-
-
-
-<h5 id="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"><a href="#分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）" class="headerlink" title="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"></a>分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）</h5><ul>
-<li>回合制策略 - <code>文明6</code></li>
-<li>实时射击 - <code>绝地求生</code></li>
-</ul>
-<h5 id="分析游戏类型特点：寻找现实与游戏之间的映射"><a href="#分析游戏类型特点：寻找现实与游戏之间的映射" class="headerlink" title="分析游戏类型特点：寻找现实与游戏之间的映射"></a>分析游戏类型特点：寻找现实与游戏之间的映射</h5><p>很多游戏都可以视为对现实的一种映射，我们需要寻找 <strong>现实 &lt;–&gt; 游戏 的映射</strong></p>
-<blockquote>
-<p>格斗游戏</p>
-<ul>
-<li><code>VR战士</code> <code>街霸5</code> -&gt; 真实世界对战格斗</li>
-</ul>
-<p>射击</p>
-<ul>
-<li><code>绝地求生</code> <code>使命召唤系列</code> -&gt; 现实射击</li>
-</ul>
-<p>回合制策略</p>
-<ul>
-<li><code>文明6</code> <code>群星</code> -&gt; 国家管理与战争</li>
-</ul>
-<p>RTS</p>
-<ul>
-<li><code>全面战争：战锤2</code> <code>皇室战争 </code>-&gt; 战场指挥体验</li>
-</ul>
-</blockquote>
-<h5 id="通过多种方法总结游戏类型的特点"><a href="#通过多种方法总结游戏类型的特点" class="headerlink" title="通过多种方法总结游戏类型的特点"></a>通过多种方法总结游戏类型的特点</h5><p>RTS产品共性（优点）</p>
-<ul>
-<li>实时的运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-</ul>
-<p>RTS产品与其他类型产品差异（缺点）</p>
-<ul>
-<li>战场策略的实时还原</li>
-<li>门槛高，兴奋点滞后</li>
-</ul>
-<p>RTS产品与现实间的映射</p>
-<ul>
-<li>战场指挥体验</li>
-</ul>
-<h3 id="游戏类型趋势分析方法"><a href="#游戏类型趋势分析方法" class="headerlink" title="游戏类型趋势分析方法"></a>游戏类型趋势分析方法</h3><h4 id="分析游戏类型趋势：挑选重点产品进行对比"><a href="#分析游戏类型趋势：挑选重点产品进行对比" class="headerlink" title="分析游戏类型趋势：挑选重点产品进行对比"></a>分析游戏类型趋势：挑选重点产品进行对比</h4><p>在产品特性分析的基础上，我们库乐队特定游戏类型的发展趋势进行分析研究</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">挑选代表产品 -&gt; 总结每个产品的特点 -&gt; 比较产品</span><br></pre></td></tr></table></figure>
-
-
-
-
-<h4 id="比较产品，寻找类型发展趋势"><a href="#比较产品，寻找类型发展趋势" class="headerlink" title="比较产品，寻找类型发展趋势"></a>比较产品，寻找类型发展趋势</h4><blockquote>
-<p>时间轴</p>
-<ul>
-<li>2002 <code>魔兽争霸3</code> 内容非常全面 策略非常丰富 指挥体验完善 操作复杂 门槛高</li>
-<li>2005 强调战斗 策略丰富 指挥体验非常出色 门槛较高 新平台</li>
-<li>2006 <code>英雄连</code></li>
-<li>2009 <code>英雄联盟</code> 强调战斗和配合 策略丰富 操作方式简单 门槛低</li>
-<li>2010 <code>星际争霸2</code> 类似于WAR3的传统RTS</li>
-<li>2013 <code>横扫千星</code></li>
-<li>2015 <code>灰蛊</code> <code>王者荣耀</code> - 英雄联盟移动版</li>
-<li>2016 <code>奇点灰烬</code></li>
-<li>2017 强调战斗 战场策略丰富 指挥体验完善 操作较为复杂 门槛较高</li>
-</ul>
-</blockquote>
-<ul>
-<li>核心：实时的策略性，战场体验，指挥感仍是RTS的核心</li>
-<li>内容侧重：不追求内容面面俱到，而是集中于某些模块（例如战斗）</li>
-<li>门槛：门槛逐渐降低，游戏节奏逐渐加快</li>
-<li>平台：新平台出现扩大用户规模</li>
-<li>技术：新技术的应用改进RTS形态（例如新操作模式），使其满足新用户的需求</li>
-</ul>
-<p>###【课后作业】 分析特定产品</p>
-<p><strong>（1）Apex Legends</strong></p>
-<ul>
-<li>继承了什么大逃杀品类的特点</li>
-<li>在大逃杀品类基础上有什么突破</li>
-<li>解决了大逃杀品类的什么问题</li>
-</ul>
-<p><strong>（2）大逃杀类型特性</strong></p>
-<blockquote>
-<ul>
-<li><code>H1Z1</code></li>
-<li><code>绝地求生</code></li>
-<li><code>堡垒之夜</code></li>
-<li><code>黑色行动4</code></li>
-</ul>
-</blockquote>
-<p><strong>（3）只狼</strong></p>
-<ul>
-<li>继承了什么ACT品类的特点</li>
-<li>在ACT品类基础上有什么突破</li>
-<li>解决了ACT品类的什么问题</li>
-</ul>
-<p><strong>（4）ACT类型特性</strong></p>
-<blockquote>
-<ul>
-<li><code>鬼泣</code></li>
-<li><code>猎天使魔女</code></li>
-<li><code>黑暗之魂</code></li>
-<li><code>战神</code></li>
-</ul>
-</blockquote>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/dafortin">David Fortin</a>
-    </i>
-  </font>
-</div>]]></content>
       <categories>
         <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
       </categories>
@@ -2190,9 +2190,99 @@
       </tags>
   </entry>
   <entry>
+    <title>2D游戏开发</title>
+    <url>/archives/6487e0f7.html</url>
+    <content><![CDATA[<p>使用C++开发一个通过命令行运行的简单游戏。</p>
+<a id="more"></a>
+
+
+
+
+
+<h3 id="开发一个益智游戏"><a href="#开发一个益智游戏" class="headerlink" title="开发一个益智游戏"></a>开发一个益智游戏</h3><p>作为第一个游戏，我们决定去开发那个非常有名的“推箱子”的游戏。准备好场景数据后就可以进行单人游戏，游戏中也没有什么复杂的动作，因此无须设计太多东西能够完成。从结果来看，只需200行的代码就可以实现。</p>
+<h4 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h4><p>玩家用键盘操作，这里只支持移动操作。<code>p</code>代表玩家角色。上下左右移动分别通过<code>w</code>、<code>a</code>、<code>s</code>、<code>d</code>控制，并且需要按下回车键<code>Enter</code>。例如，依次按下<code>a</code>和<code>Enter</code>后，玩家将向左移动。</p>
+<p>除了<code>p</code>外，<code>#</code>代表墙壁，<code>o</code>代表尚未到达目的地的箱子，<code>.</code>代表目的地。为了便于识别，玩家到达<code>.</code>处时将变成<code>P</code>，箱子将变成<code>O</code>。等所有箱子都被推到<code>.</code>并变成<code>O</code>时，就表示游戏成功了。游戏中的箱子只能一个一个地推，不能拉。以上就是游戏的大概玩法。</p>
+<h4 id="键盘和画面输出"><a href="#键盘和画面输出" class="headerlink" title="键盘和画面输出"></a>键盘和画面输出</h4><p>画面的输入输出都是通过C++标准库<code>iostram</code>实现的。输入处理主要使用<code>istream</code>（<em>input stream</em>），输出处理则依赖<code>ostream</code>（<em>output stream</em>）</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="keyword">char</span> c;</span><br><span class="line">  <span class="built_in">cin</span> &gt;&gt; c;</span><br><span class="line">  <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;Input Character is &quot;</span> &lt;&lt; c &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><code>cin</code>和<code>cout</code>分别是<code>istream</code>类型和<code>ostream</code>类型的全局变量 <code>A</code>（全局变量指的是不属于任何类的变量。在C#和 Java 中没有这个概念，它们使用类中的<code>static</code>且<code>public</code>的变量来替代。），包含<code>iostream</code>头文件并声明<code>using namespace std</code>后，就可以在任意位置使用。<br><code>cin</code>通过<code>&gt;&gt;</code>将输入值写入变量，<code>cout</code>通过<code>&lt;&lt;</code>将变量值输出。<code>endl</code>是“end line”的缩写，也就是换行，程序执行到该处将会输出一行字符到画面上。上面虽然只是一个在键盘上输入字符并通过回车键显示字符的简单程序，但这就是该游戏输入输出处理的全部内容。</p>
+<h4 id="主循环"><a href="#主循环" class="headerlink" title="主循环"></a>主循环</h4><p>所谓游戏程序，无非就是获取输入、将输入反映到游戏世界中、显示结果这三项处理的无限循环，这个过程称为游戏循环或者主循环，代码如下所示：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span> (<span class="literal">true</span>)&#123;</span><br><span class="line">  getInput();</span><br><span class="line">  updateGame();</span><br><span class="line">  draw();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>代码十分简单，但据笔者所知，所有的游戏程序无一例外地都采用了这种结构。可能根据游戏的不同，在<code>getInput()</code>中会有<code>cin</code>或手柄输入的不同，或者在<code>draw()</code>中会有<code>cout</code>或 3D 图形输出的不同，但是最基本的结构都是一致的。前面的例子中只执行了一次主循环，这是因为该游戏采用了命令行执行的方式。至于如何去掉这种限制，我们将在后续章节中讨论。</p>
+<h4 id="编写逻辑处理"><a href="#编写逻辑处理" class="headerlink" title="编写逻辑处理"></a>编写逻辑处理</h4><p>接下来开始各个模块的开发。建议读者动起手来，首先试着创建出前面截图中出现的游戏场景。<br>为方便描述，我们将像下面这样使用文本来表示游戏场景：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">########</span><br><span class="line"># .. p #</span><br><span class="line"># oo # #</span><br><span class="line">#      #</span><br><span class="line">#      #</span><br><span class="line">########</span><br></pre></td></tr></table></figure>
+<h4 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h4><p>代码编写完后必须进行测试，这里我们按照下列四个要点进行：</p>
+<ul>
+<li><p>移动墙壁所在的格子会如何</p>
+</li>
+<li><p>移动已经到达目的地的箱子会如何</p>
+</li>
+<li><p>推动两个以上的箱子会如何</p>
+</li>
+<li><p>朝着墙壁推动箱子会如何</p>
+</li>
+</ul>
+<p>测试中是不是发现了很多问题？可能要么墙壁排乱了，要么推动位于目的地的箱子时目标地点不见了，要么箱子被挤到墙壁中了……如果一开始就能正确运行，那固然值得高兴，但从长远来看，现在经历一些挫折或许会更有利。</p>
+<h3 id="示例代码讲解"><a href="#示例代码讲解" class="headerlink" title="示例代码讲解"></a>示例代码讲解</h3><h4 id="场景数据常量"><a href="#场景数据常量" class="headerlink" title="场景数据常量"></a>场景数据常量</h4><p>刚开始我们使用全局变量来存储场景数据：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//“#”代表墙壁、“_”代表空间、“.”代表目的地、“o”代表箱子、“p”代表玩家</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">char</span> gStageData[] = <span class="string">&quot;\</span></span><br><span class="line"><span class="string">########\n\</span></span><br><span class="line"><span class="string"># .. p #\n\</span></span><br><span class="line"><span class="string"># oo   #\n\</span></span><br><span class="line"><span class="string">#      #\n\</span></span><br><span class="line"><span class="string">#\n\   #\n\</span></span><br><span class="line"><span class="string">########&quot;</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> gStageWidth = <span class="number">8</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> gStageHeight = <span class="number">5</span>;</span><br></pre></td></tr></table></figure>
+<p>首先用一个容易理解的字符串对该变量赋值，游戏开始后再将其转化为其他形式。相比一开始就使用 <code>0</code> 代表空间、<code>1</code> 代表玩家进行赋值，这样做更加简单。但需要注意的是，在C++ 中，如果字符串常量要中途换行显示，就必须在行末加上符号<code> \</code>。<br>这里定义的常量都是全局变量，笔者习惯以<code>g</code>开头命名。因为全局变量可以在程序中的任何地方被访问，所以加上这样一个标志以示区别会很方便。此外，按笔者的命名习惯，变量名都以小写字母开头，其后的每个单词则首字母大写，比如 <code>gStageWidth</code>。另外，因为后续没有修改该值的打算，所以使用了<code>const</code>关键字，这个习惯可以避免很多bug。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> gStageWidth = <span class="number">8</span>; <span class="comment">//第一次赋值 OK</span></span><br><span class="line">gStageWidth = <span class="number">4</span>; <span class="comment">//编译错误！</span></span><br></pre></td></tr></table></figure>
+<p>因为添加了<code>const</code>，所以如果代码试图在变量定义之外的地方对其赋值，则将导致编译错误，这可以防止某些错误操作。建议读者养成这个习惯，对第一次赋值后就不会再修改的变量添加<code>const</code>关键字。</p>
+<h4 id="枚举类型"><a href="#枚举类型" class="headerlink" title="枚举类型"></a>枚举类型</h4><p>接下来是枚举类型：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">enum</span> <span class="title">Object</span>&#123;</span></span><br><span class="line">  OBJ_SPACE,</span><br><span class="line">  OBJ_WALL,</span><br><span class="line">  OBJ_GOAL,</span><br><span class="line">  OBJ_BLOCK,</span><br><span class="line">  OBJ_BLOCK_ON_GOAL,</span><br><span class="line">  OBJ_MAN,</span><br><span class="line">  OBJ_MAN_ON_GOAL,</span><br><span class="line">  OBJ_UNKNOWN,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>场景中的所有状态都被保存在容量等于“宽 × 高”的枚举类型数组中。数组元素的类型可以是<code>int</code>或者<code>char</code>，只要保证元素值不会超出该类型所能表示的范围即可。不过，这样有可能会因为疏忽而代入无意义的值。使用枚举类型则不会有这个问题，并且调试时可以看见枚举类型的名字，很方便，所以应该尽量使用枚举类型。<br>注意“位于目的地的箱子”和“不在目的地的箱子”的枚举值是不同的。其实也可以采用另一种做法，将是否是目的地的信息单独存储在另外一个数组中，或者通过位运算将两种信息保存在同一个数组里。不过为了便于理解，这里我们采用了最直接的做法。</p>
+<h4 id="函数原型"><a href="#函数原型" class="headerlink" title="函数原型"></a>函数原型</h4><p>下面我们来看函数原型：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 函数原型</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">initialize</span><span class="params">( Object* state, <span class="keyword">int</span> w, <span class="keyword">int</span> h, <span class="keyword">const</span> <span class="keyword">char</span>* stageData )</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">draw</span><span class="params">( <span class="keyword">const</span> Object* state, <span class="keyword">int</span> w, <span class="keyword">int</span> h )</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">update</span><span class="params">( Object* state, <span class="keyword">char</span> input, <span class="keyword">int</span> w, <span class="keyword">int</span> h )</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">checkClear</span><span class="params">( <span class="keyword">const</span> Object* state, <span class="keyword">int</span> w, <span class="keyword">int</span> h )</span></span>;</span><br></pre></td></tr></table></figure>
+<p>上述代码声明了几个函数：读取场景数据字符串并将其转换Object数组的 <code>initialize()</code>、画面绘制函数 <code>draw()</code>、更新函数 <code>update()</code>、检测游戏是否通关的 <code>checkClear()</code>。至于前面讨论主循环时出现的 <code>getInput()</code>函数，因为此处我们直接在 <code>main()</code> 函数中添加了输入处理的代码，所以用不上。注意开发时应当尽可能地将各个功能封装成函数。</p>
+<h4 id="main函数"><a href="#main函数" class="headerlink" title="main函数"></a>main函数</h4><p>现在来看程序的入口<code>main</code>函数。首先创建一个大小等于“宽 × 高”的Object数组，并调用初始化函数 <code>initialize()</code>，使游戏处于就绪状态。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="comment">// 创建状态数组</span></span><br><span class="line">  Object* state = <span class="keyword">new</span> Object[ gStageWidth * gStageHeight ];</span><br><span class="line">  <span class="comment">// 初始化场景</span></span><br><span class="line">  initialize( state, gStageWidth, gStageHeight, gStageData );</span><br><span class="line">  <span class="comment">// 主循环</span></span><br><span class="line">  ( 略 )</span><br><span class="line">  <span class="comment">// 胜利时的提示信息</span></span><br><span class="line">  <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;Congratulation&#x27;s! you win.&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">  <span class="comment">// 通关</span></span><br><span class="line">  <span class="keyword">delete</span>[] state; <span class="comment">//通过 new 创建的数组不能使用 delete，而应当使用 delete[]</span></span><br><span class="line">  state = <span class="number">0</span>; <span class="comment">//笔者的习惯</span></span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<p>读者可能不太熟悉这种把枚举类型当作类名处理的写法。实际上枚举类型是一种用于列举的类 型，所以可以通过 <code>new</code> 生成，也可以用作参数和返回值。记住这一点将大有裨益。虽然枚举类型内 部本质上是一个 <code>int</code>，但是如果将 Object 类型的变量赋值为 <code>5</code> 或者 <code>10</code> 等数值，则会导致编译错误， 这就保证了只能通过枚举类型来赋值。</p>
+<p>另外请注意，虽然逻辑上 Object 应当是个二维数组，但是这里使用了一维数组的创建方式。 初学者往往习惯通过二维数组的方式进行声明，即像下面这样：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">Object state[ <span class="number">5</span> ][ <span class="number">8</span> ];</span><br></pre></td></tr></table></figure>
+<p>但遗憾的是，二维数组无法通过 new 动态创建。如果不采用 <code>new</code> 来动态创建，就必须在定义数 组时就确定好数组的尺寸，比如横 8 纵 5，但是这样做会使数组的尺寸永远固定，程序将丧失一定的 灵活性。后面我们会讨论如何将一维数组当作二维数组来使用。</p>
+<p>主循环结束意味着顺利通关，这时会输出胜利时的提示信息，然后释放 <code>state</code> 空间并结束程 序。虽然在程序退出前不执行 <code>delete</code> 也不会有什么问题，但还是应当养成及时释放空间的习惯。 注意这里通过 <code>new</code> 创建的数组在释放时必须使用 <code>delete[]</code> 而非 <code>delete</code>。后面我们会解释这么做 的原因。</p>
+<p>最好将 <code>delete</code> 后的指针赋值为 <code>0</code>，这样可以在很大程度上避免一些指针相关的 bug。笔者在任何时候都遵守这个习惯，哪怕在程序即将退出时，也会将无用的指针赋值为 <code>0</code>。</p>
+<h5 id="主循环-1"><a href="#主循环-1" class="headerlink" title="主循环"></a>主循环</h5><p>相关代码大致如下所示：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 主循环</span></span><br><span class="line"><span class="keyword">while</span> ( <span class="literal">true</span> )&#123;</span><br><span class="line">  <span class="comment">// 首先绘制</span></span><br><span class="line">  draw( state, gStageWidth, gStageHeight );</span><br><span class="line">  <span class="comment">// 通关检测</span></span><br><span class="line">  <span class="keyword">if</span> ( checkClear( state, gStageWidth, gStageHeight ) )&#123;</span><br><span class="line">  <span class="keyword">break</span>; <span class="comment">//通关检测 &#125;</span></span><br><span class="line">  <span class="comment">// 获取输入</span></span><br><span class="line">  <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;a:left s:right w:up z:down. command?&quot;</span> &lt;&lt; <span class="built_in">endl</span>; <span class="comment">//操作说明 char input;</span></span><br><span class="line">  <span class="built_in">cin</span> &gt;&gt; input;</span><br><span class="line">  <span class="comment">// 更新</span></span><br><span class="line">  update( state, input, gStageWidth, gStageHeight );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>为了将输入前的状态反映到画面上，程序一开始就执行了 <code>draw( )</code>，但游戏整体仍然按照输 入更新、绘制的顺序执行。调用 <code>draw()</code> 后立刻执行通关检测是为了应对满足通关条件时的突发情况。试想如果在某个时刻场景数据已经满足了通关条件，这时没有执行通关处理却继续响应输入，那么推动箱子后就又将变成不允许通关的状态了。正因为如此，才需要在响应输入前先判断通关条件。</p>
+<p>输入处理只是简单地通过 <code>cin</code> 读取输入的字符，在读取之前程序会提示操作说明。输入的内容会被传递给 <code>update()</code> 以更新游戏的状态。各个游戏的主循环处理基本上都遵循这个模式。</p>
+<h4 id="初始化场景"><a href="#初始化场景" class="headerlink" title="初始化场景"></a>初始化场景</h4><p><code>initialize()</code> 的内容如下所示：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">initialize</span><span class="params">(Object* state,<span class="keyword">int</span> width,<span class="keyword">int</span> height,<span class="keyword">const</span> <span class="keyword">char</span>* stageData )</span></span>&#123;</span><br><span class="line">  <span class="keyword">const</span> <span class="keyword">char</span>* d = stageData; <span class="comment">//读取指针 int x = 0;</span></span><br><span class="line">  <span class="keyword">int</span> y = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">while</span> ( *d != <span class="string">&#x27;\0&#x27;</span> )&#123; <span class="comment">//当字符不为NULL时</span></span><br><span class="line">    Object t;</span><br><span class="line">    <span class="keyword">switch</span> ( *d )&#123;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;#&#x27;</span>: t = OBJ_WALL; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27; &#x27;</span>: t = OBJ_SPACE; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;o&#x27;</span>: t = OBJ_BLOCK; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;O&#x27;</span>: t = OBJ_BLOCK_ON_GOAL; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;.&#x27;</span>: t = OBJ_GOAL; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;p&#x27;</span>: t = OBJ_MAN; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;P&#x27;</span>: t = OBJ_MAN_ON_GOAL; <span class="keyword">break</span>; </span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;\n&#x27;</span>: <span class="comment">//到下一行</span></span><br><span class="line">        x = <span class="number">0</span>; <span class="comment">//x返回到最左边</span></span><br><span class="line">        ++y; <span class="comment">//y 进到下一段</span></span><br><span class="line">        t = OBJ_UNKNOWN; <span class="comment">//没有数据 break;</span></span><br><span class="line">      <span class="keyword">default</span>: t = OBJ_UNKNOWN; <span class="keyword">break</span>; <span class="comment">//非法数据 &#125;</span></span><br><span class="line">      ++d;</span><br><span class="line">      <span class="comment">// 如果遇到未知字符则无视</span></span><br><span class="line">      <span class="keyword">if</span> ( t != OBJ_UNKNOWN )&#123;</span><br><span class="line">        state[ y*width + x ] = t; <span class="comment">//写入</span></span><br><span class="line">        ++x; &#125;</span><br><span class="line">&#125; &#125;</span><br></pre></td></tr></table></figure>
+
+
+<p>这段代码会逐个读取字符并将其转换为 Object 类型。<code>switch</code> 后的 <code>if</code> 语句是为了忽略非法输入。虽然程序考虑了数据中存在注释等无关信息的情况，但是错误处理仍不够完善。比如当场景数 据残缺不全，或者宽度、高度值和预想的不一致时，程序的行为都是未知的。最好的做法是通过场景数据自行计算出宽度和高度值，我们可以封装一个函数来实现这个功能。</p>
+<p>另外，如前所述，<code>state</code> 变量是按照一维数组的方式创建的。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">state[ y*width + x ] = t; <span class="comment">//写入</span></span><br></pre></td></tr></table></figure>
+<p><code>y*width + x</code>表示从左上角向右 x 列，向下 y 行处的网格位置。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">draw</span><span class="params">( <span class="keyword">const</span> Object* state, <span class="keyword">int</span> width, <span class="keyword">int</span> height )</span></span>&#123;</span><br><span class="line">  <span class="comment">//Object 枚举类型的顺序</span></span><br><span class="line">  <span class="keyword">const</span> <span class="keyword">char</span> font[] = &#123;<span class="string">&#x27; &#x27;</span>, <span class="string">&#x27;#&#x27;</span>, <span class="string">&#x27;.&#x27;</span>, <span class="string">&#x27;o&#x27;</span>, <span class="string">&#x27;O&#x27;</span>, <span class="string">&#x27;p&#x27;</span>, <span class="string">&#x27;P&#x27;</span>&#125;;</span><br><span class="line">  <span class="keyword">for</span> ( <span class="keyword">int</span> y = <span class="number">0</span>; y &lt; height; ++y )&#123;</span><br><span class="line">    <span class="keyword">for</span> ( <span class="keyword">int</span> x=<span class="number">0</span>; x &lt; width; ++x )&#123;</span><br><span class="line">      Object o = state[ y*width + x ];</span><br><span class="line">      <span class="built_in">cout</span> &lt;&lt; font[ o ];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/BlakeFawley">Blake Fawley</a>
+    </i>
+  </font>
+</div>]]></content>
+      <categories>
+        <category>游戏开发(Game Development)</category>
+      </categories>
+      <tags>
+        <tag>Game Develop</tag>
+        <tag>2D Game</tag>
+        <tag>SEGA</tag>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>图形技术发展&amp;动作游戏发展</title>
     <url>/archives/21f5c0c6.html</url>
-    <content><![CDATA[<p>本文从图形技术的发展延伸到动作游戏的发展，讲述动作游戏这一品类。</p>
+    <content><![CDATA[<p>本文从图形技术的发展为基础介绍不同世代的特点，并以此延伸到动作游戏的发展，讲述动作游戏这一品类和一些具有突出特点的代表作品推荐。</p>
 <a id="more"></a>
 
 
@@ -2203,8 +2293,7 @@
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
 </ul>
-<p>###《吃豆人》游戏图形的起源</p>
-<ul>
+<h3 id="《吃豆人》游戏图形的起源"><a href="#《吃豆人》游戏图形的起源" class="headerlink" title="《吃豆人》游戏图形的起源"></a>《吃豆人》游戏图形的起源</h3><ul>
 <li><p>动作游戏界定</p>
 <ul>
 <li>通过手眼的配合作出即时反馈的游戏统称为动作游戏</li>
@@ -2456,96 +2545,6 @@
       </categories>
       <tags>
         <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2D游戏开发</title>
-    <url>/archives/6487e0f7.html</url>
-    <content><![CDATA[<p>使用C++开发一个通过命令行运行的简单游戏。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="开发一个益智游戏"><a href="#开发一个益智游戏" class="headerlink" title="开发一个益智游戏"></a>开发一个益智游戏</h3><p>作为第一个游戏，我们决定去开发那个非常有名的“推箱子”的游戏。准备好场景数据后就可以进行单人游戏，游戏中也没有什么复杂的动作，因此无须设计太多东西能够完成。从结果来看，只需200行的代码就可以实现。</p>
-<h4 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h4><p>玩家用键盘操作，这里只支持移动操作。<code>p</code>代表玩家角色。上下左右移动分别通过<code>w</code>、<code>a</code>、<code>s</code>、<code>d</code>控制，并且需要按下回车键<code>Enter</code>。例如，依次按下<code>a</code>和<code>Enter</code>后，玩家将向左移动。</p>
-<p>除了<code>p</code>外，<code>#</code>代表墙壁，<code>o</code>代表尚未到达目的地的箱子，<code>.</code>代表目的地。为了便于识别，玩家到达<code>.</code>处时将变成<code>P</code>，箱子将变成<code>O</code>。等所有箱子都被推到<code>.</code>并变成<code>O</code>时，就表示游戏成功了。游戏中的箱子只能一个一个地推，不能拉。以上就是游戏的大概玩法。</p>
-<h4 id="键盘和画面输出"><a href="#键盘和画面输出" class="headerlink" title="键盘和画面输出"></a>键盘和画面输出</h4><p>画面的输入输出都是通过C++标准库<code>iostram</code>实现的。输入处理主要使用<code>istream</code>（<em>input stream</em>），输出处理则依赖<code>ostream</code>（<em>output stream</em>）</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="keyword">char</span> c;</span><br><span class="line">  <span class="built_in">cin</span> &gt;&gt; c;</span><br><span class="line">  <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;Input Character is &quot;</span> &lt;&lt; c &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><code>cin</code>和<code>cout</code>分别是<code>istream</code>类型和<code>ostream</code>类型的全局变量 <code>A</code>（全局变量指的是不属于任何类的变量。在C#和 Java 中没有这个概念，它们使用类中的<code>static</code>且<code>public</code>的变量来替代。），包含<code>iostream</code>头文件并声明<code>using namespace std</code>后，就可以在任意位置使用。<br><code>cin</code>通过<code>&gt;&gt;</code>将输入值写入变量，<code>cout</code>通过<code>&lt;&lt;</code>将变量值输出。<code>endl</code>是“end line”的缩写，也就是换行，程序执行到该处将会输出一行字符到画面上。上面虽然只是一个在键盘上输入字符并通过回车键显示字符的简单程序，但这就是该游戏输入输出处理的全部内容。</p>
-<h4 id="主循环"><a href="#主循环" class="headerlink" title="主循环"></a>主循环</h4><p>所谓游戏程序，无非就是获取输入、将输入反映到游戏世界中、显示结果这三项处理的无限循环，这个过程称为游戏循环或者主循环，代码如下所示：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span> (<span class="literal">true</span>)&#123;</span><br><span class="line">  getInput();</span><br><span class="line">  updateGame();</span><br><span class="line">  draw();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>代码十分简单，但据笔者所知，所有的游戏程序无一例外地都采用了这种结构。可能根据游戏的不同，在<code>getInput()</code>中会有<code>cin</code>或手柄输入的不同，或者在<code>draw()</code>中会有<code>cout</code>或 3D 图形输出的不同，但是最基本的结构都是一致的。前面的例子中只执行了一次主循环，这是因为该游戏采用了命令行执行的方式。至于如何去掉这种限制，我们将在后续章节中讨论。</p>
-<h4 id="编写逻辑处理"><a href="#编写逻辑处理" class="headerlink" title="编写逻辑处理"></a>编写逻辑处理</h4><p>接下来开始各个模块的开发。建议读者动起手来，首先试着创建出前面截图中出现的游戏场景。<br>为方便描述，我们将像下面这样使用文本来表示游戏场景：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">########</span><br><span class="line"># .. p #</span><br><span class="line"># oo # #</span><br><span class="line">#      #</span><br><span class="line">#      #</span><br><span class="line">########</span><br></pre></td></tr></table></figure>
-<h4 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h4><p>代码编写完后必须进行测试，这里我们按照下列四个要点进行：</p>
-<ul>
-<li><p>移动墙壁所在的格子会如何</p>
-</li>
-<li><p>移动已经到达目的地的箱子会如何</p>
-</li>
-<li><p>推动两个以上的箱子会如何</p>
-</li>
-<li><p>朝着墙壁推动箱子会如何</p>
-</li>
-</ul>
-<p>测试中是不是发现了很多问题？可能要么墙壁排乱了，要么推动位于目的地的箱子时目标地点不见了，要么箱子被挤到墙壁中了……如果一开始就能正确运行，那固然值得高兴，但从长远来看，现在经历一些挫折或许会更有利。</p>
-<h3 id="示例代码讲解"><a href="#示例代码讲解" class="headerlink" title="示例代码讲解"></a>示例代码讲解</h3><h4 id="场景数据常量"><a href="#场景数据常量" class="headerlink" title="场景数据常量"></a>场景数据常量</h4><p>刚开始我们使用全局变量来存储场景数据：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//“#”代表墙壁、“_”代表空间、“.”代表目的地、“o”代表箱子、“p”代表玩家</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">char</span> gStageData[] = <span class="string">&quot;\</span></span><br><span class="line"><span class="string">########\n\</span></span><br><span class="line"><span class="string"># .. p #\n\</span></span><br><span class="line"><span class="string"># oo   #\n\</span></span><br><span class="line"><span class="string">#      #\n\</span></span><br><span class="line"><span class="string">#\n\   #\n\</span></span><br><span class="line"><span class="string">########&quot;</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> gStageWidth = <span class="number">8</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> gStageHeight = <span class="number">5</span>;</span><br></pre></td></tr></table></figure>
-<p>首先用一个容易理解的字符串对该变量赋值，游戏开始后再将其转化为其他形式。相比一开始就使用 <code>0</code> 代表空间、<code>1</code> 代表玩家进行赋值，这样做更加简单。但需要注意的是，在C++ 中，如果字符串常量要中途换行显示，就必须在行末加上符号<code> \</code>。<br>这里定义的常量都是全局变量，笔者习惯以<code>g</code>开头命名。因为全局变量可以在程序中的任何地方被访问，所以加上这样一个标志以示区别会很方便。此外，按笔者的命名习惯，变量名都以小写字母开头，其后的每个单词则首字母大写，比如 <code>gStageWidth</code>。另外，因为后续没有修改该值的打算，所以使用了<code>const</code>关键字，这个习惯可以避免很多bug。</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> gStageWidth = <span class="number">8</span>; <span class="comment">//第一次赋值 OK</span></span><br><span class="line">gStageWidth = <span class="number">4</span>; <span class="comment">//编译错误！</span></span><br></pre></td></tr></table></figure>
-<p>因为添加了<code>const</code>，所以如果代码试图在变量定义之外的地方对其赋值，则将导致编译错误，这可以防止某些错误操作。建议读者养成这个习惯，对第一次赋值后就不会再修改的变量添加<code>const</code>关键字。</p>
-<h4 id="枚举类型"><a href="#枚举类型" class="headerlink" title="枚举类型"></a>枚举类型</h4><p>接下来是枚举类型：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">enum</span> <span class="title">Object</span>&#123;</span></span><br><span class="line">  OBJ_SPACE,</span><br><span class="line">  OBJ_WALL,</span><br><span class="line">  OBJ_GOAL,</span><br><span class="line">  OBJ_BLOCK,</span><br><span class="line">  OBJ_BLOCK_ON_GOAL,</span><br><span class="line">  OBJ_MAN,</span><br><span class="line">  OBJ_MAN_ON_GOAL,</span><br><span class="line">  OBJ_UNKNOWN,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<p>场景中的所有状态都被保存在容量等于“宽 × 高”的枚举类型数组中。数组元素的类型可以是<code>int</code>或者<code>char</code>，只要保证元素值不会超出该类型所能表示的范围即可。不过，这样有可能会因为疏忽而代入无意义的值。使用枚举类型则不会有这个问题，并且调试时可以看见枚举类型的名字，很方便，所以应该尽量使用枚举类型。<br>注意“位于目的地的箱子”和“不在目的地的箱子”的枚举值是不同的。其实也可以采用另一种做法，将是否是目的地的信息单独存储在另外一个数组中，或者通过位运算将两种信息保存在同一个数组里。不过为了便于理解，这里我们采用了最直接的做法。</p>
-<h4 id="函数原型"><a href="#函数原型" class="headerlink" title="函数原型"></a>函数原型</h4><p>下面我们来看函数原型：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 函数原型</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">initialize</span><span class="params">( Object* state, <span class="keyword">int</span> w, <span class="keyword">int</span> h, <span class="keyword">const</span> <span class="keyword">char</span>* stageData )</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">draw</span><span class="params">( <span class="keyword">const</span> Object* state, <span class="keyword">int</span> w, <span class="keyword">int</span> h )</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">update</span><span class="params">( Object* state, <span class="keyword">char</span> input, <span class="keyword">int</span> w, <span class="keyword">int</span> h )</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">checkClear</span><span class="params">( <span class="keyword">const</span> Object* state, <span class="keyword">int</span> w, <span class="keyword">int</span> h )</span></span>;</span><br></pre></td></tr></table></figure>
-<p>上述代码声明了几个函数：读取场景数据字符串并将其转换Object数组的 <code>initialize()</code>、画面绘制函数 <code>draw()</code>、更新函数 <code>update()</code>、检测游戏是否通关的 <code>checkClear()</code>。至于前面讨论主循环时出现的 <code>getInput()</code>函数，因为此处我们直接在 <code>main()</code> 函数中添加了输入处理的代码，所以用不上。注意开发时应当尽可能地将各个功能封装成函数。</p>
-<h4 id="main函数"><a href="#main函数" class="headerlink" title="main函数"></a>main函数</h4><p>现在来看程序的入口<code>main</code>函数。首先创建一个大小等于“宽 × 高”的Object数组，并调用初始化函数 <code>initialize()</code>，使游戏处于就绪状态。</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="comment">// 创建状态数组</span></span><br><span class="line">  Object* state = <span class="keyword">new</span> Object[ gStageWidth * gStageHeight ];</span><br><span class="line">  <span class="comment">// 初始化场景</span></span><br><span class="line">  initialize( state, gStageWidth, gStageHeight, gStageData );</span><br><span class="line">  <span class="comment">// 主循环</span></span><br><span class="line">  ( 略 )</span><br><span class="line">  <span class="comment">// 胜利时的提示信息</span></span><br><span class="line">  <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;Congratulation&#x27;s! you win.&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">  <span class="comment">// 通关</span></span><br><span class="line">  <span class="keyword">delete</span>[] state; <span class="comment">//通过 new 创建的数组不能使用 delete，而应当使用 delete[]</span></span><br><span class="line">  state = <span class="number">0</span>; <span class="comment">//笔者的习惯</span></span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-<p>读者可能不太熟悉这种把枚举类型当作类名处理的写法。实际上枚举类型是一种用于列举的类 型，所以可以通过 <code>new</code> 生成，也可以用作参数和返回值。记住这一点将大有裨益。虽然枚举类型内 部本质上是一个 <code>int</code>，但是如果将 Object 类型的变量赋值为 <code>5</code> 或者 <code>10</code> 等数值，则会导致编译错误， 这就保证了只能通过枚举类型来赋值。</p>
-<p>另外请注意，虽然逻辑上 Object 应当是个二维数组，但是这里使用了一维数组的创建方式。 初学者往往习惯通过二维数组的方式进行声明，即像下面这样：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">Object state[ <span class="number">5</span> ][ <span class="number">8</span> ];</span><br></pre></td></tr></table></figure>
-<p>但遗憾的是，二维数组无法通过 new 动态创建。如果不采用 <code>new</code> 来动态创建，就必须在定义数 组时就确定好数组的尺寸，比如横 8 纵 5，但是这样做会使数组的尺寸永远固定，程序将丧失一定的 灵活性。后面我们会讨论如何将一维数组当作二维数组来使用。</p>
-<p>主循环结束意味着顺利通关，这时会输出胜利时的提示信息，然后释放 <code>state</code> 空间并结束程 序。虽然在程序退出前不执行 <code>delete</code> 也不会有什么问题，但还是应当养成及时释放空间的习惯。 注意这里通过 <code>new</code> 创建的数组在释放时必须使用 <code>delete[]</code> 而非 <code>delete</code>。后面我们会解释这么做 的原因。</p>
-<p>最好将 <code>delete</code> 后的指针赋值为 <code>0</code>，这样可以在很大程度上避免一些指针相关的 bug。笔者在任何时候都遵守这个习惯，哪怕在程序即将退出时，也会将无用的指针赋值为 <code>0</code>。</p>
-<h5 id="主循环-1"><a href="#主循环-1" class="headerlink" title="主循环"></a>主循环</h5><p>相关代码大致如下所示：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 主循环</span></span><br><span class="line"><span class="keyword">while</span> ( <span class="literal">true</span> )&#123;</span><br><span class="line">  <span class="comment">// 首先绘制</span></span><br><span class="line">  draw( state, gStageWidth, gStageHeight );</span><br><span class="line">  <span class="comment">// 通关检测</span></span><br><span class="line">  <span class="keyword">if</span> ( checkClear( state, gStageWidth, gStageHeight ) )&#123;</span><br><span class="line">  <span class="keyword">break</span>; <span class="comment">//通关检测 &#125;</span></span><br><span class="line">  <span class="comment">// 获取输入</span></span><br><span class="line">  <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;a:left s:right w:up z:down. command?&quot;</span> &lt;&lt; <span class="built_in">endl</span>; <span class="comment">//操作说明 char input;</span></span><br><span class="line">  <span class="built_in">cin</span> &gt;&gt; input;</span><br><span class="line">  <span class="comment">// 更新</span></span><br><span class="line">  update( state, input, gStageWidth, gStageHeight );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>为了将输入前的状态反映到画面上，程序一开始就执行了 <code>draw( )</code>，但游戏整体仍然按照输 入更新、绘制的顺序执行。调用 <code>draw()</code> 后立刻执行通关检测是为了应对满足通关条件时的突发情况。试想如果在某个时刻场景数据已经满足了通关条件，这时没有执行通关处理却继续响应输入，那么推动箱子后就又将变成不允许通关的状态了。正因为如此，才需要在响应输入前先判断通关条件。</p>
-<p>输入处理只是简单地通过 <code>cin</code> 读取输入的字符，在读取之前程序会提示操作说明。输入的内容会被传递给 <code>update()</code> 以更新游戏的状态。各个游戏的主循环处理基本上都遵循这个模式。</p>
-<h4 id="初始化场景"><a href="#初始化场景" class="headerlink" title="初始化场景"></a>初始化场景</h4><p><code>initialize()</code> 的内容如下所示：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">initialize</span><span class="params">(Object* state,<span class="keyword">int</span> width,<span class="keyword">int</span> height,<span class="keyword">const</span> <span class="keyword">char</span>* stageData )</span></span>&#123;</span><br><span class="line">  <span class="keyword">const</span> <span class="keyword">char</span>* d = stageData; <span class="comment">//读取指针 int x = 0;</span></span><br><span class="line">  <span class="keyword">int</span> y = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">while</span> ( *d != <span class="string">&#x27;\0&#x27;</span> )&#123; <span class="comment">//当字符不为NULL时</span></span><br><span class="line">    Object t;</span><br><span class="line">    <span class="keyword">switch</span> ( *d )&#123;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;#&#x27;</span>: t = OBJ_WALL; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27; &#x27;</span>: t = OBJ_SPACE; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;o&#x27;</span>: t = OBJ_BLOCK; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;O&#x27;</span>: t = OBJ_BLOCK_ON_GOAL; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;.&#x27;</span>: t = OBJ_GOAL; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;p&#x27;</span>: t = OBJ_MAN; <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;P&#x27;</span>: t = OBJ_MAN_ON_GOAL; <span class="keyword">break</span>; </span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;\n&#x27;</span>: <span class="comment">//到下一行</span></span><br><span class="line">        x = <span class="number">0</span>; <span class="comment">//x返回到最左边</span></span><br><span class="line">        ++y; <span class="comment">//y 进到下一段</span></span><br><span class="line">        t = OBJ_UNKNOWN; <span class="comment">//没有数据 break;</span></span><br><span class="line">      <span class="keyword">default</span>: t = OBJ_UNKNOWN; <span class="keyword">break</span>; <span class="comment">//非法数据 &#125;</span></span><br><span class="line">      ++d;</span><br><span class="line">      <span class="comment">// 如果遇到未知字符则无视</span></span><br><span class="line">      <span class="keyword">if</span> ( t != OBJ_UNKNOWN )&#123;</span><br><span class="line">        state[ y*width + x ] = t; <span class="comment">//写入</span></span><br><span class="line">        ++x; &#125;</span><br><span class="line">&#125; &#125;</span><br></pre></td></tr></table></figure>
-
-
-<p>这段代码会逐个读取字符并将其转换为 Object 类型。<code>switch</code> 后的 <code>if</code> 语句是为了忽略非法输入。虽然程序考虑了数据中存在注释等无关信息的情况，但是错误处理仍不够完善。比如当场景数 据残缺不全，或者宽度、高度值和预想的不一致时，程序的行为都是未知的。最好的做法是通过场景数据自行计算出宽度和高度值，我们可以封装一个函数来实现这个功能。</p>
-<p>另外，如前所述，<code>state</code> 变量是按照一维数组的方式创建的。</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">state[ y*width + x ] = t; <span class="comment">//写入</span></span><br></pre></td></tr></table></figure>
-<p><code>y*width + x</code>表示从左上角向右 x 列，向下 y 行处的网格位置。</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">draw</span><span class="params">( <span class="keyword">const</span> Object* state, <span class="keyword">int</span> width, <span class="keyword">int</span> height )</span></span>&#123;</span><br><span class="line">  <span class="comment">//Object 枚举类型的顺序</span></span><br><span class="line">  <span class="keyword">const</span> <span class="keyword">char</span> font[] = &#123;<span class="string">&#x27; &#x27;</span>, <span class="string">&#x27;#&#x27;</span>, <span class="string">&#x27;.&#x27;</span>, <span class="string">&#x27;o&#x27;</span>, <span class="string">&#x27;O&#x27;</span>, <span class="string">&#x27;p&#x27;</span>, <span class="string">&#x27;P&#x27;</span>&#125;;</span><br><span class="line">  <span class="keyword">for</span> ( <span class="keyword">int</span> y = <span class="number">0</span>; y &lt; height; ++y )&#123;</span><br><span class="line">    <span class="keyword">for</span> ( <span class="keyword">int</span> x=<span class="number">0</span>; x &lt; width; ++x )&#123;</span><br><span class="line">      Object o = state[ y*width + x ];</span><br><span class="line">      <span class="built_in">cout</span> &lt;&lt; font[ o ];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/BlakeFawley">Blake Fawley</a>
-    </i>
-  </font>
-</div>]]></content>
-      <categories>
-        <category>游戏开发(Game Development)</category>
-      </categories>
-      <tags>
-        <tag>Game Develop</tag>
-        <tag>2D Game</tag>
-        <tag>SEGA</tag>
-        <tag>C++</tag>
       </tags>
   </entry>
   <entry>
@@ -4204,71 +4203,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#3</title>
-    <url>/archives/90b77012.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解简单的 Aseprite 动画。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud6tcj7j30u008c74z.jpg"></p>
-<p>简单的 Aseprite 动画。这是系列的第 3 篇。</p>
-<h3 id="什么是动画？"><a href="#什么是动画？" class="headerlink" title="什么是动画？"></a>什么是动画？</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuggpz84g30dw05oab9.gif"></p>
-<p>动画是由一系列表现动作流程图像，按特定顺序播放，所引起的运动错觉。我们的工作就是让这个序列看起来尽可能让人信服。</p>
-<h3 id="时间轴"><a href="#时间轴" class="headerlink" title="时间轴"></a>时间轴</h3><p>首先我们要了解时间轴。它是一种在单个文件里表现多个图像的方法。每一列都是完整的图像，有一个编号，我们称之为帧。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudbdlr7j30dq02t0pm.jpg" alt="图片"></p>
-<p>新建帧的最简单方法是按 ALT + B。这会在当前选中帧的后面新建一个空白帧，然后选择它。你可以点击某帧来选中，或者按’,’,’.’改变选中帧，在键盘上找 &lt; 和 &gt;，比较好记。</p>
-<p>试着在不同帧上画些颜色，点击播放（Enter 键，回车）。也可以在预览窗口看，按 F7。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud72cy8j308w07idfl.jpg"></p>
-<p>你可能感觉“这么多快捷键我怎么记得住”，没关系。记住快捷键需要时间跟肌肉记忆，而且大部分也都可以只用鼠标完成。当你记不住某个快捷键，就在菜单里找找，或者查看 Aseprite 的官方键位参考图：<a href="https://www.aseprite.org/quickref/">https://www.aseprite.org/quickref/</a></p>
-<h3 id="一个非常简单的动画"><a href="#一个非常简单的动画" class="headerlink" title="一个非常简单的动画"></a>一个非常简单的动画</h3><p>画动画有非常多的技巧，比如应该按什么顺序绘制每帧，如何优化，不过我们暂时先讲我了解的最简单的一个技巧：一个“连续动作（straight-ahead）”的弹球动画。“连续动作”是指我们按顺序一帧一帧直接画，而不是先画出重要帧，再添加中间帧的方式。先建个 <code>32</code> 乘 <code>32</code> 的文件，随便选个调色盘。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudcea72j30pt03r741.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud855nnj30ig03va9t.jpg"></p>
-<p>动画第一帧我称之为“静止”。它既是概念图，定义动画的风格，也是这个序列的停止位置。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudekly7j30440440ba.jpg"></p>
-<p>你要注意这帧里添加的细节，因为下一帧也要保持相同的风格。</p>
-<p>接着复制这一帧（ALT + N），把它向上移动 <code>4</code> 像素，像这样：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudajda0j303u03w0b4.jpg"></p>
-<p>之后，继续向上 <code>3</code> 像素，<code>2</code> 像素，<code>1</code> 像素，多保持相同位置一帧，后面反过来一遍。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud8k43lj30gt029741.jpg"></p>
-<h3 id="节奏"><a href="#节奏" class="headerlink" title="节奏"></a>节奏</h3><p>尽管节奏的运用是个相当复杂的主题，甚至可以做一整期专门的教程，我现在简单的从技术方面讲一点，让你可以自己去试试。</p>
-<p>我们来添加一些节奏。球在落地后停一段时间，再跳起来。要增加某一帧的持续时间，右键 点击帧上的数字，选择帧属性（Frame Properties）。然后你可以输入你想要这帧持续的时间。我们试下 <code>300</code> 毫秒。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud9h0a1j308d05qdfm.jpg"></p>
-<p>你也可以选中多个帧，同时修改持续时间。对于一次性快速修改整个动画的速度很有帮助。</p>
-<h3 id="挤压和拉伸"><a href="#挤压和拉伸" class="headerlink" title="挤压和拉伸"></a>挤压和拉伸</h3><p>这里我们可以做的一个简单改进是添加一点挤压和拉伸，一种让动作看起来更流畅自然的技术。包括沿着运动方向拉伸或者压扁物体，同时保持整体面积。</p>
-<p>具体原理可以参考之前的教程：</p>
-<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MjIyOTc2Nw==&mid=2649561430&idx=1&sn=50924ed496f2b1a5e91c843bbc4c8384&chksm=beb0c9be89c740a8f0eb6ce3e7f98fc4a65e7bdba4cfe0738ee0e67594721cd5278f81a87de7&scene=21#wechat_redirect">链接：像素宝典 #8</a></p>
-<p>我们复制下第一帧，把它水平拉伸，垂直方向上压扁，保持整体体积。保持体积是很重要的，这样物体不会看起来变小或者变大了。当然这属于在我们更有经验之后可以尝试打破的规则，不过暂时还是遵守它。这帧也被称作“准备帧”，主要用来让下一帧发生的动作看起来更强烈。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud7nyyfj30bi0640kw.jpg"></p>
-<p>现在我们用同样方式复制并修改球落地时的帧，可以画的更加夸张点。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudd1yndj307m07l0f8.jpg"></p>
-<p>最后是垂直拉伸（同时水平挤压）跳起的第一帧和下落的最后一帧，当球速度最快的时候。这就完成了，我们看下结果：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudbt9f1j30mg07uwe9.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud9yqt4g305c05cmxc.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudaxnfug305c05cq31.gif"></p>
-<h3 id="保存动画"><a href="#保存动画" class="headerlink" title="保存动画"></a>保存动画</h3><p>尽管保存成 <code>.aseprite</code> 格式可以保存动画，你可能想要把动画导出，发到网上或者用到游戏里。</p>
-<p>网上，最简单的方式是保存成 <code>gif</code>，用 <code>FIle &gt; Export...</code> 命令。勾选 <code>Export for twitter</code>， 如果你想把最后一帧修改成 <code>1/4</code> 的持续时间，这样即使 Twitter 把它转成 MP4 也可以完美播放。</p>
-<p>当导出给游戏使用时，通常会保存成 png，动画一般会分解成一个精灵表或者图像序列。要保存成图像序列，选择导出为 png 格式，导出的文件后都带一个数字，像是“<code>bounce00.png</code>”。这回导出多个文件，像“<code>bounce01.png</code>”，“<code>bounce02.png</code>”等等。</p>
-<p>有的引擎需要精灵表的形式，不需要手工处理，只要选择 File&gt;Export Sprite Sheet，可以改改设置，有很多参数可选。</p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhude6qwbg305c05c747.gif" alt="图片"></p>
-<p>接下来我建议多试试时间轴，试着画点别的动画。你可以看看我其他的教程，选个感兴趣的跟着画画。</p>
-<p>另外也可以试试经典的初学者练习，画一个面粉袋走和跳的动画：<br><a href="https://www.youtube.com/watch?v=C8cbTGshkZw%E3%80%82">https://www.youtube.com/watch?v=C8cbTGshkZw。</a></p>
-<p>暂时保持低一点的分辨率和颜色数，不要太复杂了。</p>
-]]></content>
-      <categories>
-        <category>像素美工(Pixel Art Designing)</category>
-        <category>开始画像素画(Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开始画像素画#4</title>
     <url>/archives/ec50fbbd.html</url>
     <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解明暗基础。</p>
@@ -4354,55 +4288,58 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#5</title>
-    <url>/archives/9b57cb2b.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解关于抗锯齿与色带。</p>
+    <title>开始画像素画#3</title>
+    <url>/archives/90b77012.html</url>
+    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解简单的 Aseprite 动画。</p>
 <a id="more"></a>
 
 
 
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
 <p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxvnuszj30u008c74z.jpg"></p>
-<p>系列第 5 节。</p>
-<p>这节稍微复杂点，可能比其他的几篇更进阶点。</p>
-<p>如果不能一下看懂也没关系，很多都是我的个人观点，而且抗锯齿和色带问题在像素画社区里观点很多。</p>
-<p>开始我不会讲软件，而是重点讲解这些概念，在接下来部分我会推荐一些练习。</p>
-<h3 id="什么是锯齿，为什么大家不喜欢"><a href="#什么是锯齿，为什么大家不喜欢" class="headerlink" title="什么是锯齿，为什么大家不喜欢"></a>什么是锯齿，为什么大家不喜欢</h3><p>在像素画里的 anti-alias 的 alias 我们一般说的是锯齿，或者说台阶效果。一种在低分辨下很容易注意到的效果。这个效果本身没有好坏，有时甚至是某种故意追求的风格，但有时候也会让画面很难看懂。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxu5ffrj30dp07fjr5.jpg"></p>
-<p>上面的例子里能看到，第一个图有很多尖锐的边，尤其是火焰周围。有些区域甚至很难理解在发生什么。</p>
-<p>这是因为像素画是事物的低分辨率表现。如果你这样想，就可以区分出“有意的线”和实际像素。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxs0u51j30fi07kwe9.jpg"></p>
-<p>基本上整个像素画流程就包括了把线转化到低分辨率画布上，并<strong>决定哪些像素要填充</strong>。有些像素明显在线的范围内，所以要填充。有些明显在外面，就不用填充。问题是那些刚刚贴到线上或者一半在线上的，才是问题所在。抗锯齿就是用中间色来填充这些像素，来创造一种柔和过渡的错觉。</p>
-<h3 id="如何画抗锯齿"><a href="#如何画抗锯齿" class="headerlink" title="如何画抗锯齿"></a>如何画抗锯齿</h3><p>简单讲: 有时候画的线不能完全符合像素网格，就需要使用中间色来让它看起来好点。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxst7nsj306a09r741.jpg"></p>
-<p>这个问题没有单一的解决方法，你可以用多种方法表现“想要的线”，取决于你的分辨率，画风，以及可用的颜色有多少。</p>
-<p>使用中间混合颜色的像素，在远处看算是半个像素。你可以利用这个来把边角软化一点。</p>
-<p>一个画反锯齿的好方法是搜索任何比 <code>1-1</code> 长的台阶图案：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxyf0g9j30rp04j0qh.jpg"></p>
-<p>找到 <code>2</code> 个像素或者更长的台阶之后，可以开始柔化他们，通过在台阶末尾添加半色的像素。要添加的像素数量取决于台阶的长度，以及可用的颜色。有时候这样会让物体扩张太多，这样的话你可以用半色的像素替代一个（有时更多）原来图案里的像素。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxsa2xaj30rg04c0jq.jpg"></p>
-<p>改变颜色或者饱和度影响不大，只要你是正确的在插值颜色的亮度。这在使用非常小的调色盘时很有用。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxuo4saj30ak0aiq2p.jpg"></p>
-<p>在简单的斜坡上画这些就已经很复杂了，在真正的画上面复杂度更是几何级增加。小的画布上画抗锯齿会影响到其他东西，带来很多副作用。我们讲几个常见的。</p>
-<p><strong>太多抗锯齿</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxv3quwj30f00e7jr5.jpg"></p>
-<p>最常见的问题就是过度的做抗锯齿，导致所有东西都很模糊。通过使用更少的半色，更少的台阶，以及不要在 <code>45</code> 度的线（<code>1-1</code> 的台阶）或者直线上用抗锯齿，来避免这种情况。</p>
-<p><strong>抗锯齿太短</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxtkq1xj30oa0ae3yd.jpg"></p>
-<p>这是不太常见的情况，而且可能是有意为之，尤其是在受限的调色盘上，不过有时候抗锯齿的半色像素比台阶本身的长度短太多。记住一个长的台阶应该有个相对长的抗锯齿半色条纹。</p>
-<p><strong>半色亮度错误</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxwdze1j30gl0gn742.jpg"></p>
-<p>之前也提到了，半色可以用不同的颜色，只要亮度感觉是两种要混合颜色的桥梁就可以。这里出的问题就是没有考虑这一点，相对于背景把半色画的太暗，或者太亮。</p>
-<p>有时候，当背景比物体还亮，这可以用来模拟阴影，也算是有用。但记住这种情况下其实是在画明暗而不是画抗锯齿。</p>
-<p><strong>色带</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxx4ggpj30cu0bi0ni.jpg"></p>
-<p>色带问题是当我们画了几个颜色完全不同的色带时出现的。这通常是个问题，会让物体看起来很平，有时候模糊。</p>
-<p>在这个球体的例子里，我把色带压缩到很小的区域。我把这种方法称为色带压缩，之前的阴影教程了也提到了。</p>
-<p>斜坡上就没办法这么压缩了。所以我旋转了渐变的方向。这也可以画出不错的抗锯齿，原来的是方向画错了，导致的色带问题。要总是注意这点，水平的斜坡应该加水平的抗锯齿，垂直的斜坡加垂直的抗锯齿。</p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在我建议你去实际的试试我这里讲的东西。你可以先从简单的 <code>2-1</code> 黑色斜坡开始，再试试圆圈。保持低颜色数，画布不要超过 <code>48</code> 乘 <code>48</code>。</p>
-<p>在这之后，你可以试试更多颜色，真实的画些东西。还是从简单的开始，像是球体，苹果，之后再到复杂的形状，比如人。</p>
-<p>总是注意画面里画出的色带，或者可以改进的抗锯齿。记住每个像素都是个抉择，每个像素都应该让你的画更好，画的更可读。如果抗锯齿带来的效果弊大于利，就去掉它。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud6tcj7j30u008c74z.jpg"></p>
+<p>简单的 Aseprite 动画。这是系列的第 3 篇。</p>
+<h3 id="什么是动画？"><a href="#什么是动画？" class="headerlink" title="什么是动画？"></a>什么是动画？</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuggpz84g30dw05oab9.gif"></p>
+<p>动画是由一系列表现动作流程图像，按特定顺序播放，所引起的运动错觉。我们的工作就是让这个序列看起来尽可能让人信服。</p>
+<h3 id="时间轴"><a href="#时间轴" class="headerlink" title="时间轴"></a>时间轴</h3><p>首先我们要了解时间轴。它是一种在单个文件里表现多个图像的方法。每一列都是完整的图像，有一个编号，我们称之为帧。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudbdlr7j30dq02t0pm.jpg" alt="图片"></p>
+<p>新建帧的最简单方法是按 ALT + B。这会在当前选中帧的后面新建一个空白帧，然后选择它。你可以点击某帧来选中，或者按’,’,’.’改变选中帧，在键盘上找 &lt; 和 &gt;，比较好记。</p>
+<p>试着在不同帧上画些颜色，点击播放（Enter 键，回车）。也可以在预览窗口看，按 F7。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud72cy8j308w07idfl.jpg"></p>
+<p>你可能感觉“这么多快捷键我怎么记得住”，没关系。记住快捷键需要时间跟肌肉记忆，而且大部分也都可以只用鼠标完成。当你记不住某个快捷键，就在菜单里找找，或者查看 Aseprite 的官方键位参考图：<a href="https://www.aseprite.org/quickref/">https://www.aseprite.org/quickref/</a></p>
+<h3 id="一个非常简单的动画"><a href="#一个非常简单的动画" class="headerlink" title="一个非常简单的动画"></a>一个非常简单的动画</h3><p>画动画有非常多的技巧，比如应该按什么顺序绘制每帧，如何优化，不过我们暂时先讲我了解的最简单的一个技巧：一个“连续动作（straight-ahead）”的弹球动画。“连续动作”是指我们按顺序一帧一帧直接画，而不是先画出重要帧，再添加中间帧的方式。先建个 <code>32</code> 乘 <code>32</code> 的文件，随便选个调色盘。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudcea72j30pt03r741.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud855nnj30ig03va9t.jpg"></p>
+<p>动画第一帧我称之为“静止”。它既是概念图，定义动画的风格，也是这个序列的停止位置。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudekly7j30440440ba.jpg"></p>
+<p>你要注意这帧里添加的细节，因为下一帧也要保持相同的风格。</p>
+<p>接着复制这一帧（ALT + N），把它向上移动 <code>4</code> 像素，像这样：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudajda0j303u03w0b4.jpg"></p>
+<p>之后，继续向上 <code>3</code> 像素，<code>2</code> 像素，<code>1</code> 像素，多保持相同位置一帧，后面反过来一遍。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud8k43lj30gt029741.jpg"></p>
+<h3 id="节奏"><a href="#节奏" class="headerlink" title="节奏"></a>节奏</h3><p>尽管节奏的运用是个相当复杂的主题，甚至可以做一整期专门的教程，我现在简单的从技术方面讲一点，让你可以自己去试试。</p>
+<p>我们来添加一些节奏。球在落地后停一段时间，再跳起来。要增加某一帧的持续时间，右键 点击帧上的数字，选择帧属性（Frame Properties）。然后你可以输入你想要这帧持续的时间。我们试下 <code>300</code> 毫秒。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud9h0a1j308d05qdfm.jpg"></p>
+<p>你也可以选中多个帧，同时修改持续时间。对于一次性快速修改整个动画的速度很有帮助。</p>
+<h3 id="挤压和拉伸"><a href="#挤压和拉伸" class="headerlink" title="挤压和拉伸"></a>挤压和拉伸</h3><p>这里我们可以做的一个简单改进是添加一点挤压和拉伸，一种让动作看起来更流畅自然的技术。包括沿着运动方向拉伸或者压扁物体，同时保持整体面积。</p>
+<p>具体原理可以参考之前的教程：</p>
+<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MjIyOTc2Nw==&mid=2649561430&idx=1&sn=50924ed496f2b1a5e91c843bbc4c8384&chksm=beb0c9be89c740a8f0eb6ce3e7f98fc4a65e7bdba4cfe0738ee0e67594721cd5278f81a87de7&scene=21#wechat_redirect">链接：像素宝典 #8</a></p>
+<p>我们复制下第一帧，把它水平拉伸，垂直方向上压扁，保持整体体积。保持体积是很重要的，这样物体不会看起来变小或者变大了。当然这属于在我们更有经验之后可以尝试打破的规则，不过暂时还是遵守它。这帧也被称作“准备帧”，主要用来让下一帧发生的动作看起来更强烈。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud7nyyfj30bi0640kw.jpg"></p>
+<p>现在我们用同样方式复制并修改球落地时的帧，可以画的更加夸张点。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudd1yndj307m07l0f8.jpg"></p>
+<p>最后是垂直拉伸（同时水平挤压）跳起的第一帧和下落的最后一帧，当球速度最快的时候。这就完成了，我们看下结果：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudbt9f1j30mg07uwe9.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud9yqt4g305c05cmxc.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudaxnfug305c05cq31.gif"></p>
+<h3 id="保存动画"><a href="#保存动画" class="headerlink" title="保存动画"></a>保存动画</h3><p>尽管保存成 <code>.aseprite</code> 格式可以保存动画，你可能想要把动画导出，发到网上或者用到游戏里。</p>
+<p>网上，最简单的方式是保存成 <code>gif</code>，用 <code>FIle &gt; Export...</code> 命令。勾选 <code>Export for twitter</code>， 如果你想把最后一帧修改成 <code>1/4</code> 的持续时间，这样即使 Twitter 把它转成 MP4 也可以完美播放。</p>
+<p>当导出给游戏使用时，通常会保存成 png，动画一般会分解成一个精灵表或者图像序列。要保存成图像序列，选择导出为 png 格式，导出的文件后都带一个数字，像是“<code>bounce00.png</code>”。这回导出多个文件，像“<code>bounce01.png</code>”，“<code>bounce02.png</code>”等等。</p>
+<p>有的引擎需要精灵表的形式，不需要手工处理，只要选择 File&gt;Export Sprite Sheet，可以改改设置，有很多参数可选。</p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhude6qwbg305c05c747.gif" alt="图片"></p>
+<p>接下来我建议多试试时间轴，试着画点别的动画。你可以看看我其他的教程，选个感兴趣的跟着画画。</p>
+<p>另外也可以试试经典的初学者练习，画一个面粉袋走和跳的动画：<br><a href="https://www.youtube.com/watch?v=C8cbTGshkZw%E3%80%82">https://www.youtube.com/watch?v=C8cbTGshkZw。</a></p>
+<p>暂时保持低一点的分辨率和颜色数，不要太复杂了。</p>
 ]]></content>
       <categories>
         <category>像素美工(Pixel Art Designing)</category>
@@ -4486,6 +4423,68 @@
 <p>如果要做自己的调色盘，Adobe 有个很棒的工具：</p>
 <p><a href="https://color.adobe.com/create/color-wheel/">https://color.adobe.com/create/color-wheel/</a></p>
 <p>最后提一下：记住，处理颜色是个很主观的事情。这里提到的都不是雷打不动的规则，都是灵活的指导方针，不过我还是建议在你能更自信的打破这些规则之前，继续遵守他们。</p>
+]]></content>
+      <categories>
+        <category>像素美工(Pixel Art Designing)</category>
+        <category>开始画像素画(Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开始画像素画#5</title>
+    <url>/archives/9b57cb2b.html</url>
+    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解关于抗锯齿与色带。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxvnuszj30u008c74z.jpg"></p>
+<p>系列第 5 节。</p>
+<p>这节稍微复杂点，可能比其他的几篇更进阶点。</p>
+<p>如果不能一下看懂也没关系，很多都是我的个人观点，而且抗锯齿和色带问题在像素画社区里观点很多。</p>
+<p>开始我不会讲软件，而是重点讲解这些概念，在接下来部分我会推荐一些练习。</p>
+<h3 id="什么是锯齿，为什么大家不喜欢"><a href="#什么是锯齿，为什么大家不喜欢" class="headerlink" title="什么是锯齿，为什么大家不喜欢"></a>什么是锯齿，为什么大家不喜欢</h3><p>在像素画里的 anti-alias 的 alias 我们一般说的是锯齿，或者说台阶效果。一种在低分辨下很容易注意到的效果。这个效果本身没有好坏，有时甚至是某种故意追求的风格，但有时候也会让画面很难看懂。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxu5ffrj30dp07fjr5.jpg"></p>
+<p>上面的例子里能看到，第一个图有很多尖锐的边，尤其是火焰周围。有些区域甚至很难理解在发生什么。</p>
+<p>这是因为像素画是事物的低分辨率表现。如果你这样想，就可以区分出“有意的线”和实际像素。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxs0u51j30fi07kwe9.jpg"></p>
+<p>基本上整个像素画流程就包括了把线转化到低分辨率画布上，并<strong>决定哪些像素要填充</strong>。有些像素明显在线的范围内，所以要填充。有些明显在外面，就不用填充。问题是那些刚刚贴到线上或者一半在线上的，才是问题所在。抗锯齿就是用中间色来填充这些像素，来创造一种柔和过渡的错觉。</p>
+<h3 id="如何画抗锯齿"><a href="#如何画抗锯齿" class="headerlink" title="如何画抗锯齿"></a>如何画抗锯齿</h3><p>简单讲: 有时候画的线不能完全符合像素网格，就需要使用中间色来让它看起来好点。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxst7nsj306a09r741.jpg"></p>
+<p>这个问题没有单一的解决方法，你可以用多种方法表现“想要的线”，取决于你的分辨率，画风，以及可用的颜色有多少。</p>
+<p>使用中间混合颜色的像素，在远处看算是半个像素。你可以利用这个来把边角软化一点。</p>
+<p>一个画反锯齿的好方法是搜索任何比 <code>1-1</code> 长的台阶图案：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxyf0g9j30rp04j0qh.jpg"></p>
+<p>找到 <code>2</code> 个像素或者更长的台阶之后，可以开始柔化他们，通过在台阶末尾添加半色的像素。要添加的像素数量取决于台阶的长度，以及可用的颜色。有时候这样会让物体扩张太多，这样的话你可以用半色的像素替代一个（有时更多）原来图案里的像素。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxsa2xaj30rg04c0jq.jpg"></p>
+<p>改变颜色或者饱和度影响不大，只要你是正确的在插值颜色的亮度。这在使用非常小的调色盘时很有用。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxuo4saj30ak0aiq2p.jpg"></p>
+<p>在简单的斜坡上画这些就已经很复杂了，在真正的画上面复杂度更是几何级增加。小的画布上画抗锯齿会影响到其他东西，带来很多副作用。我们讲几个常见的。</p>
+<p><strong>太多抗锯齿</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxv3quwj30f00e7jr5.jpg"></p>
+<p>最常见的问题就是过度的做抗锯齿，导致所有东西都很模糊。通过使用更少的半色，更少的台阶，以及不要在 <code>45</code> 度的线（<code>1-1</code> 的台阶）或者直线上用抗锯齿，来避免这种情况。</p>
+<p><strong>抗锯齿太短</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxtkq1xj30oa0ae3yd.jpg"></p>
+<p>这是不太常见的情况，而且可能是有意为之，尤其是在受限的调色盘上，不过有时候抗锯齿的半色像素比台阶本身的长度短太多。记住一个长的台阶应该有个相对长的抗锯齿半色条纹。</p>
+<p><strong>半色亮度错误</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxwdze1j30gl0gn742.jpg"></p>
+<p>之前也提到了，半色可以用不同的颜色，只要亮度感觉是两种要混合颜色的桥梁就可以。这里出的问题就是没有考虑这一点，相对于背景把半色画的太暗，或者太亮。</p>
+<p>有时候，当背景比物体还亮，这可以用来模拟阴影，也算是有用。但记住这种情况下其实是在画明暗而不是画抗锯齿。</p>
+<p><strong>色带</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuxx4ggpj30cu0bi0ni.jpg"></p>
+<p>色带问题是当我们画了几个颜色完全不同的色带时出现的。这通常是个问题，会让物体看起来很平，有时候模糊。</p>
+<p>在这个球体的例子里，我把色带压缩到很小的区域。我把这种方法称为色带压缩，之前的阴影教程了也提到了。</p>
+<p>斜坡上就没办法这么压缩了。所以我旋转了渐变的方向。这也可以画出不错的抗锯齿，原来的是方向画错了，导致的色带问题。要总是注意这点，水平的斜坡应该加水平的抗锯齿，垂直的斜坡加垂直的抗锯齿。</p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在我建议你去实际的试试我这里讲的东西。你可以先从简单的 <code>2-1</code> 黑色斜坡开始，再试试圆圈。保持低颜色数，画布不要超过 <code>48</code> 乘 <code>48</code>。</p>
+<p>在这之后，你可以试试更多颜色，真实的画些东西。还是从简单的开始，像是球体，苹果，之后再到复杂的形状，比如人。</p>
+<p>总是注意画面里画出的色带，或者可以改进的抗锯齿。记住每个像素都是个抉择，每个像素都应该让你的画更好，画的更可读。如果抗锯齿带来的效果弊大于利，就去掉它。</p>
 ]]></content>
       <categories>
         <category>像素美工(Pixel Art Designing)</category>
@@ -4681,6 +4680,19 @@
       </tags>
   </entry>
   <entry>
+    <title>进程与线程</title>
+    <url>/archives/44cf1d42.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>计算机基础(Computer Basic)</category>
+        <category>操作系统(Operating Systems)</category>
+      </categories>
+      <tags>
+        <tag>Mooc</tag>
+        <tag>OS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>操作系统概述</title>
     <url>/archives/2ba40472.html</url>
     <content><![CDATA[<p>介绍操作系统的基本知识与课程相关。</p>
@@ -4716,57 +4728,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#x79;&#x6f;&#110;&#103;&#x40;&#116;&#x73;&#x69;&#x6e;&#103;&#x68;&#117;&#x61;&#x2e;&#101;&#100;&#117;&#x2e;&#99;&#x6e;">&#x78;&#x79;&#x6f;&#110;&#103;&#x40;&#116;&#x73;&#x69;&#x6e;&#103;&#x68;&#117;&#x61;&#x2e;&#101;&#100;&#117;&#x2e;&#99;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#121;&#x6f;&#110;&#103;&#x40;&#x74;&#x73;&#x69;&#110;&#103;&#x68;&#x75;&#97;&#46;&#x65;&#x64;&#x75;&#46;&#x63;&#x6e;">&#120;&#121;&#x6f;&#110;&#103;&#x40;&#x74;&#x73;&#x69;&#110;&#103;&#x68;&#x75;&#97;&#46;&#x65;&#x64;&#x75;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#x75;&#x63;&#104;&#x65;&#x6e;&#x40;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x74;&#x73;&#x69;&#110;&#103;&#x68;&#x75;&#x61;&#x2e;&#101;&#100;&#117;&#46;&#x63;&#x6e;">&#x79;&#x75;&#x63;&#104;&#x65;&#x6e;&#x40;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x74;&#x73;&#x69;&#110;&#103;&#x68;&#x75;&#x61;&#x2e;&#101;&#100;&#117;&#46;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#x75;&#x63;&#104;&#x65;&#x6e;&#x40;&#x6d;&#97;&#x69;&#x6c;&#46;&#116;&#x73;&#105;&#110;&#103;&#104;&#x75;&#x61;&#x2e;&#101;&#100;&#117;&#46;&#99;&#x6e;">&#121;&#x75;&#x63;&#104;&#x65;&#x6e;&#x40;&#x6d;&#97;&#x69;&#x6c;&#46;&#116;&#x73;&#105;&#110;&#103;&#104;&#x75;&#x61;&#x2e;&#101;&#100;&#117;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#116;&#x65;&#x72;&#x6e;&#x61;&#108;&#46;&#110;&#48;&#x38;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x65;&#116;&#x65;&#x72;&#x6e;&#x61;&#108;&#46;&#110;&#48;&#x38;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#116;&#x65;&#114;&#110;&#97;&#108;&#46;&#110;&#x30;&#56;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;">&#101;&#116;&#x65;&#114;&#110;&#97;&#108;&#46;&#110;&#x30;&#56;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#98;&#x6a;&#x65;&#x63;&#x74;&#x6b;&#x75;&#x61;&#110;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#111;&#98;&#x6a;&#x65;&#x63;&#x74;&#x6b;&#x75;&#x61;&#110;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#98;&#x6a;&#x65;&#99;&#x74;&#107;&#x75;&#97;&#110;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#111;&#98;&#x6a;&#x65;&#99;&#x74;&#107;&#x75;&#97;&#110;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#114;&#x64;&#102;&#114;&#97;&#x6e;&#x6b;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#x63;&#114;&#x64;&#102;&#114;&#97;&#x6e;&#x6b;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#114;&#x64;&#102;&#x72;&#x61;&#x6e;&#107;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#99;&#114;&#x64;&#102;&#x72;&#x61;&#x6e;&#107;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#x61;&#99;&#99;&#x6f;&#x72;&#x61;&#119;&#64;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x74;&#x61;&#99;&#99;&#x6f;&#x72;&#x61;&#119;&#64;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#116;&#x61;&#99;&#x63;&#111;&#x72;&#97;&#119;&#x40;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#116;&#x61;&#99;&#x63;&#111;&#x72;&#97;&#119;&#x40;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#105;&#110;&#121;&#117;&#110;&#x78;&#105;&#x6e;&#103;&#x30;&#x30;&#48;&#x31;&#64;&#x31;&#x36;&#51;&#46;&#99;&#x6f;&#109;">&#x78;&#105;&#110;&#121;&#117;&#110;&#x78;&#105;&#x6e;&#103;&#x30;&#x30;&#48;&#x31;&#64;&#x31;&#x36;&#51;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#120;&#105;&#x6e;&#121;&#117;&#x6e;&#x78;&#105;&#110;&#103;&#48;&#48;&#x30;&#x31;&#x40;&#x31;&#54;&#51;&#46;&#99;&#x6f;&#109;">&#120;&#105;&#x6e;&#121;&#117;&#x6e;&#x78;&#105;&#110;&#103;&#48;&#48;&#x30;&#x31;&#x40;&#x31;&#54;&#51;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#110;&#x6f;&#99;&#x75;&#105;&#108;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;">&#103;&#110;&#x6f;&#99;&#x75;&#105;&#108;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#103;&#110;&#x6f;&#99;&#117;&#105;&#x6c;&#64;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#103;&#110;&#x6f;&#99;&#117;&#105;&#x6c;&#64;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#x79;&#97;&#x69;&#114;&#x69;&#x61;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#109;&#x79;&#97;&#x69;&#114;&#x69;&#x61;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#121;&#97;&#105;&#114;&#105;&#97;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#109;&#121;&#97;&#105;&#114;&#105;&#97;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#x68;&#97;&#110;&#x67;&#114;&#97;&#105;&#110;&#x39;&#49;&#x31;&#64;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#109;">&#x7a;&#x68;&#97;&#110;&#x67;&#114;&#97;&#105;&#110;&#x39;&#49;&#x31;&#64;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x7a;&#x68;&#97;&#110;&#x67;&#114;&#x61;&#x69;&#x6e;&#x39;&#x31;&#x31;&#64;&#49;&#54;&#x33;&#46;&#x63;&#x6f;&#109;">&#x7a;&#x68;&#97;&#110;&#x67;&#114;&#x61;&#x69;&#x6e;&#x39;&#x31;&#x31;&#64;&#49;&#54;&#x33;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#103;&#120;&#120;&#x31;&#50;&#48;&#64;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#103;&#103;&#120;&#120;&#x31;&#50;&#48;&#64;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#x67;&#120;&#120;&#x31;&#x32;&#x30;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">&#x67;&#x67;&#120;&#120;&#x31;&#x32;&#x30;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -4965,19 +4977,6 @@
 </blockquote>
 <p>这段时间操作系统需要解决的事如何提高昂贵计算机的使用效率</p>
 <h3 id="操作系统结构"><a href="#操作系统结构" class="headerlink" title="操作系统结构"></a>操作系统结构</h3>]]></content>
-      <categories>
-        <category>计算机基础(Computer Basic)</category>
-        <category>操作系统(Operating Systems)</category>
-      </categories>
-      <tags>
-        <tag>Mooc</tag>
-        <tag>OS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>进程与线程</title>
-    <url>/archives/44cf1d42.html</url>
-    <content><![CDATA[]]></content>
       <categories>
         <category>计算机基础(Computer Basic)</category>
         <category>操作系统(Operating Systems)</category>
@@ -6218,6 +6217,80 @@
       </tags>
   </entry>
   <entry>
+    <title>Unity Student Plan申请指南</title>
+    <url>/archives/e8e3308a.html</url>
+    <content><![CDATA[<p>本文转载了Unity社区的优秀博主 <a href="https://unity.cn/u/michael-wang-2/?tab=article">Michael Wang</a> 的 <a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">Unity Student Plan申请指南！</a>，希望通过转载的方式可以帮助到对 Unity Pro 购买上有困难的在读学生申请「Unity Student Plan」。</p>
+<a id="more"></a>
+
+
+
+
+
+<p><strong>支持正版Unity从我做起！拒绝盗版，拒绝破解！</strong></p>
+<ul>
+<li><p>想使用 Unity 深色主题吗？</p>
+</li>
+<li><p>想更方便跟5位队友远程共同开发游戏吗？</p>
+</li>
+<li><p>想免费看「Unity Learn」上面的各种优质课程吗？</p>
+</li>
+<li><p>学生党没有钱购买 Plus / Pro 版吗？</p>
+</li>
+</ul>
+<p>这篇文章会帮助你成功加入「Unity Student Plan」这个超级增值计划当中。让你免费享受以上所有你曾经梦寐以求的服务！</p>
+<p>考虑到可能很多同学会在操作上有些疑惑，<a href="https://unity.cn/u/michael-wang-2/?tab=article">麦扣</a>含(超)泪(龄)特此制作<a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">中文指南</a>。点个收藏支持一下吧!</p>
+<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>直奔主题，详细内容查看官方正确网站：<a href="https://store.unity.com/academic/unity-student?_ga=2.192862250.1412877669.1590291680-1494240502.1590291680">点我申请</a></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpvkhdfzj30u016h42m.jpg"></p>
+<h3 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤"></a>主要步骤</h3><p>打开上面的网站地址就可以看到上面的界面，主要分为3个主要步骤：</p>
+<p><strong>1. 授权 Unity 通过 Github 来确认你的学生身份</strong> </p>
+<p><strong>2. 申请学生开发包</strong> </p>
+<p><strong>3. 激活你的 Unity Student Plan</strong></p>
+<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><p>请先不要着急操作！还有一些前期的准备要做！请确认一下内容：</p>
+<ul>
+<li><strong>你是真实的学生身份（初中以上！惊不惊喜）</strong></li>
+<li><strong>你已经注册拥有 Unity ID</strong></li>
+<li><strong>你已经有 GitHub 账号并且已经 “Get student benefits”</strong></li>
+</ul>
+<p>如果你已经具备了以上的内容，那么你可以跳过后面的指南直接通过 Unity 官方网站申请。</p>
+<h3 id="Github-Student-Benefits"><a href="#Github-Student-Benefits" class="headerlink" title="Github Student Benefits"></a>Github Student Benefits</h3><p>*注意你需要有 Github 账号。<a href="https://education.github.com/benefits">点我跳转！</a></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpvi91g4j31b90u0n2i.jpg"></p>
+<p><strong>GitHub官方网站提供了非常详细的注册指南，在这里就不赘述了。但是提供一些可能遇到的问题的小提示：</strong></p>
+<ul>
+<li>如果你有 .edu 的邮箱，那么请在你的申请页面添加这个教育邮箱。</li>
+<li>请尝试咨询学校如何申请 .edu 的邮箱。那么会让你飞快通过申请！</li>
+<li>如果无法申请邮箱 或者 你的学校不在列表当中（优先搜索英语名字），那么需要提供学生证的照片来验证，等候时间会变长，但是不带表你不能申请！！</li>
+<li>学生证等信息不在身边，可以访问<a href="https://my.chsi.com.cn/archive/index.jsp">「学信档案网站」</a>截图上传证明。</li>
+<li>保持好的心态，你一定会成功！</li>
+</ul>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpviz7ofj30oj0v1jtj.jpg"></p>
+<p>做完以上的操作你很可能看到这样的界面</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpvk0chxj313n0ktjta.jpg"></p>
+<p><em>不要担心 4 days 很可能就是几个小时的事儿，30 days 也不一定非要等30天！请大家多多留意自己的邮箱，GitHub 总是会给你惊喜的。</em></p>
+<h3 id="Unity-Student-Plan"><a href="#Unity-Student-Plan" class="headerlink" title="Unity Student Plan"></a>Unity Student Plan</h3><p>当你收到了 GitHub 的确认邮件，那么恭喜你，你基本上成功了，现在你需要回到文章开头的 Unity Student Plan 申请的连接完成 3 个步骤。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpvldizsj31go0l2gs1.jpg"></p>
+<ul>
+<li>Unity 发给你的<strong>邮件</strong>当中会详细描述你在哪里可以获得你的 Pro 专业版 使用权的<strong>激活码</strong>，使用激活码<strong>在HUB中激活你的证书</strong>。</li>
+<li>你会获得让所有人望眼欲穿的，价值 <strong>$489.93 的 Assets Pack 超优质资源包</strong>，跟我一样只能看看的请<a href="https://assetstore.unity.com/browse/student-plan-pack?_ga=2.131450953.776403174.1590049942-37205968.1582701932">点击这里</a>！</li>
+</ul>
+<p><strong>如果你成功申请了，别忘了回来给麦扣留言告诉我这个好消息，还有收藏这篇文章支持我！</strong></p>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
+<li>7月2日之前每周四晚上8:00，麦扣跟你一起学习做3D游戏：<a href="https://unity.cn/projects/unityling-ji-chu-zhi-bo-create-with-code-live-zhong-wen-5-7wan-ba-dian-kai-bo">详情及录播</a></li>
+<li>5月29日 Unity 资深技术专家高川老师直播带你了解 Unity Asset：<a href="https://unity.cn/projects/zhi-bo-yu-gao-unityzi-shen-ji-zhu-zhuan-jia-gao-chuan-wei-nin-xiang-jie-unity-assetde-yi-sheng">详情页面</a></li>
+<li>关注我的详细信息欢迎访问我的主页跳转：<a href="https://m-studio-m.github.io/">点我就对了</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>游戏引擎(Game Engine)</category>
+        <category>Unity</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Game</tag>
+        <tag>Unity</tag>
+        <tag>Game Engine</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>R语言数据分析方法论</title>
     <url>/archives/730c27b4.html</url>
     <content><![CDATA[<p>本文主要讨论数据分析与数据挖掘的基本原理与方法论，在艾新波老师的指引下对数据科学的整体有一个大致的了解，领悟核心的数据分析思想。</p>
@@ -6336,80 +6409,6 @@
         <tag>Mooc</tag>
         <tag>R</tag>
         <tag>Data Mining</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Unity Student Plan申请指南</title>
-    <url>/archives/e8e3308a.html</url>
-    <content><![CDATA[<p>本文转载了Unity社区的优秀博主 <a href="https://unity.cn/u/michael-wang-2/?tab=article">Michael Wang</a> 的 <a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">Unity Student Plan申请指南！</a>，希望通过转载的方式可以帮助到对 Unity Pro 购买上有困难的在读学生申请「Unity Student Plan」。</p>
-<a id="more"></a>
-
-
-
-
-
-<p><strong>支持正版Unity从我做起！拒绝盗版，拒绝破解！</strong></p>
-<ul>
-<li><p>想使用 Unity 深色主题吗？</p>
-</li>
-<li><p>想更方便跟5位队友远程共同开发游戏吗？</p>
-</li>
-<li><p>想免费看「Unity Learn」上面的各种优质课程吗？</p>
-</li>
-<li><p>学生党没有钱购买 Plus / Pro 版吗？</p>
-</li>
-</ul>
-<p>这篇文章会帮助你成功加入「Unity Student Plan」这个超级增值计划当中。让你免费享受以上所有你曾经梦寐以求的服务！</p>
-<p>考虑到可能很多同学会在操作上有些疑惑，<a href="https://unity.cn/u/michael-wang-2/?tab=article">麦扣</a>含(超)泪(龄)特此制作<a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">中文指南</a>。点个收藏支持一下吧!</p>
-<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>直奔主题，详细内容查看官方正确网站：<a href="https://store.unity.com/academic/unity-student?_ga=2.192862250.1412877669.1590291680-1494240502.1590291680">点我申请</a></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpvkhdfzj30u016h42m.jpg"></p>
-<h3 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤"></a>主要步骤</h3><p>打开上面的网站地址就可以看到上面的界面，主要分为3个主要步骤：</p>
-<p><strong>1. 授权 Unity 通过 Github 来确认你的学生身份</strong> </p>
-<p><strong>2. 申请学生开发包</strong> </p>
-<p><strong>3. 激活你的 Unity Student Plan</strong></p>
-<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><p>请先不要着急操作！还有一些前期的准备要做！请确认一下内容：</p>
-<ul>
-<li><strong>你是真实的学生身份（初中以上！惊不惊喜）</strong></li>
-<li><strong>你已经注册拥有 Unity ID</strong></li>
-<li><strong>你已经有 GitHub 账号并且已经 “Get student benefits”</strong></li>
-</ul>
-<p>如果你已经具备了以上的内容，那么你可以跳过后面的指南直接通过 Unity 官方网站申请。</p>
-<h3 id="Github-Student-Benefits"><a href="#Github-Student-Benefits" class="headerlink" title="Github Student Benefits"></a>Github Student Benefits</h3><p>*注意你需要有 Github 账号。<a href="https://education.github.com/benefits">点我跳转！</a></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpvi91g4j31b90u0n2i.jpg"></p>
-<p><strong>GitHub官方网站提供了非常详细的注册指南，在这里就不赘述了。但是提供一些可能遇到的问题的小提示：</strong></p>
-<ul>
-<li>如果你有 .edu 的邮箱，那么请在你的申请页面添加这个教育邮箱。</li>
-<li>请尝试咨询学校如何申请 .edu 的邮箱。那么会让你飞快通过申请！</li>
-<li>如果无法申请邮箱 或者 你的学校不在列表当中（优先搜索英语名字），那么需要提供学生证的照片来验证，等候时间会变长，但是不带表你不能申请！！</li>
-<li>学生证等信息不在身边，可以访问<a href="https://my.chsi.com.cn/archive/index.jsp">「学信档案网站」</a>截图上传证明。</li>
-<li>保持好的心态，你一定会成功！</li>
-</ul>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpviz7ofj30oj0v1jtj.jpg"></p>
-<p>做完以上的操作你很可能看到这样的界面</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpvk0chxj313n0ktjta.jpg"></p>
-<p><em>不要担心 4 days 很可能就是几个小时的事儿，30 days 也不一定非要等30天！请大家多多留意自己的邮箱，GitHub 总是会给你惊喜的。</em></p>
-<h3 id="Unity-Student-Plan"><a href="#Unity-Student-Plan" class="headerlink" title="Unity Student Plan"></a>Unity Student Plan</h3><p>当你收到了 GitHub 的确认邮件，那么恭喜你，你基本上成功了，现在你需要回到文章开头的 Unity Student Plan 申请的连接完成 3 个步骤。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpvldizsj31go0l2gs1.jpg"></p>
-<ul>
-<li>Unity 发给你的<strong>邮件</strong>当中会详细描述你在哪里可以获得你的 Pro 专业版 使用权的<strong>激活码</strong>，使用激活码<strong>在HUB中激活你的证书</strong>。</li>
-<li>你会获得让所有人望眼欲穿的，价值 <strong>$489.93 的 Assets Pack 超优质资源包</strong>，跟我一样只能看看的请<a href="https://assetstore.unity.com/browse/student-plan-pack?_ga=2.131450953.776403174.1590049942-37205968.1582701932">点击这里</a>！</li>
-</ul>
-<p><strong>如果你成功申请了，别忘了回来给麦扣留言告诉我这个好消息，还有收藏这篇文章支持我！</strong></p>
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
-<li>7月2日之前每周四晚上8:00，麦扣跟你一起学习做3D游戏：<a href="https://unity.cn/projects/unityling-ji-chu-zhi-bo-create-with-code-live-zhong-wen-5-7wan-ba-dian-kai-bo">详情及录播</a></li>
-<li>5月29日 Unity 资深技术专家高川老师直播带你了解 Unity Asset：<a href="https://unity.cn/projects/zhi-bo-yu-gao-unityzi-shen-ji-zhu-zhuan-jia-gao-chuan-wei-nin-xiang-jie-unity-assetde-yi-sheng">详情页面</a></li>
-<li>关注我的详细信息欢迎访问我的主页跳转：<a href="https://m-studio-m.github.io/">点我就对了</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>游戏引擎(Game Engine)</category>
-        <category>Unity</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Game</tag>
-        <tag>Unity</tag>
-        <tag>Game Engine</tag>
       </tags>
   </entry>
   <entry>
