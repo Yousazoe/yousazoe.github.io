@@ -3,8 +3,19 @@
   <entry>
     <title>《蔚蓝》的开发故事 The Story of Celeste&#39;s Development</title>
     <url>/archives/a20064d.html</url>
-    <content><![CDATA[<p>《蔚蓝》是2018年TGA最佳独立游戏，本文采访了《蔚蓝》联合开发者诺尔·贝瑞（Noel Berry）谈谈游戏背后的开发历程和故事。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4nel48tcj31hr0u0121.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://twitter.com/CherryStarArt">Twitter@CherryStarArt</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文采访了《蔚蓝》联合开发者诺尔·贝瑞（Noel Berry）谈谈游戏背后的开发历程和故事。</p>
 <a id="more"></a>
+
+
 
 <blockquote>
 <p>本文是观看完 <a href="https://www.youtube.com/channel/UC0fDG3byEcMtbOqPMymDNbw">Noclip</a> 的 <a href="https://www.youtube.com/watch?v=c3mbELVqAmo&feature=youtu.be">The Story of Celeste’s Development</a> 后深受触动，决定整理一份文字版以供大家参考，中文制译可以移步 <a href="https://space.bilibili.com/180052141">卡姐Cara</a> 的 <a href="https://www.bilibili.com/video/BV1fJ41137HE">【游戏幕后】《蔚蓝》的开发故事 The Story of Celeste’s Development | Noclip</a>，欢迎赞助作者：<a href="https://patreon.com/noclip">https://patreon.com/noclip</a> 和译者。</p>
@@ -49,7 +60,18 @@
   <entry>
     <title>Hero-NexT主题配置</title>
     <url>/archives/3bcb4b40.html</url>
-    <content><![CDATA[<p>本文记录NexT博客的主题配置，本文记录了从站点配置Hexo重新安装到NexT主题自带的基础配置，不包含带有插件安装的主题美化。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4n8vkpmgj30ma09u40a.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="http://theme-next.iissnan.com/">Hexo NexT</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文记录NexT博客的主题配置，本文记录了从站点配置Hexo重新安装到NexT主题自带的基础配置，不包含带有插件安装的主题美化。</p>
 <a id="more"></a>
 
 
@@ -238,19 +260,26 @@
 <p>使用方法，新建 404.html 页面，放到主题的 <code>source</code> 目录下，内容如下：</p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">HTML</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;content-type&quot;</span> <span class="attr">content</span>=<span class="string">&quot;text/html;charset=utf-8;&quot;</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge,chrome=1&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;robots&quot;</span> <span class="attr">content</span>=<span class="string">&quot;all&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;robots&quot;</span> <span class="attr">content</span>=<span class="string">&quot;index,follow&quot;</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/css&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/style/404style.css&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/plain&quot;</span> <span class="attr">src</span>=<span class="string">&quot;http://www.qq.com/404/search_children.js&quot;</span></span></span><br><span class="line"><span class="tag">          <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">homePageUrl</span>=<span class="string">&quot;/&quot;</span></span></span><br><span class="line"><span class="tag">          <span class="attr">homePageName</span>=<span class="string">&quot;回到我的主页&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/data.js&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/page.js&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 ]]></content>
-      <categories>
-        <category>博客搭建(Blog Building)</category>
-      </categories>
       <tags>
         <tag>Hexo</tag>
         <tag>NexT</tag>
         <tag>Blog</tag>
+        <tag>博客搭建(Blog Building)</tag>
       </tags>
   </entry>
   <entry>
     <title>博客使用插件总结</title>
     <url>/archives/c12c9c40.html</url>
-    <content><![CDATA[<p>这几天将博客主题从 Fluid 换回了 NexT，在重新安装插件的时候顺便记录了本博客当前使用的插件以及插件相关的主题美化，便于后续修改和供NexT主题读者参考。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4nnpskhxj311i0gywkf.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="http://theme-next.iissnan.com/">Hexo NexT</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这几天将博客主题从 Fluid 换回了 NexT，在重新安装插件的时候顺便记录了本博客当前使用的插件以及插件相关的主题美化，便于后续修改和供NexT主题读者参考。</p>
 <a id="more"></a>
 
 
@@ -334,13 +363,10 @@
   </entry>
   <entry>
     <title>中国游戏市场简析</title>
-    <url>/archives/c558be6b.html</url>
-    <content><![CDATA[<p>本文内容围绕中国游戏市场简析展开，简单科普一下中国游戏是怎么来的，介绍现存的平台和游戏特征和中国玩家的特征、国内的游戏开发商。</p>
+    <url>/archives/undefined.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggxwpu9b5oj311i0p0n12.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本章内容围绕中国游戏市场简析展开，角度更倾向于内容发展而不是一些渠道平台方面的东西。总体上大概分四个部分讲述，首先简单科普一下中国游戏是怎么来的，之后介绍现存的平台和游戏特征和中国玩家的特征，最后来看看国内的游戏开发商到底是什么样子</p>
 <a id="more"></a>
-
-
-
-
 
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>郑仲勋</strong></p>
 <ul>
@@ -722,17 +748,25 @@
   <entry>
     <title>游戏分析方法</title>
     <url>/archives/f40ec98b.html</url>
-    <content><![CDATA[<p>本文围绕游戏分析方法展开：游戏分析方法是什么以及它的意义，也就是我们为什么要分析游戏方法、关于游戏产品特性、关于游戏类型和游戏类型趋势分析，游戏品类有什么变化和发展。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggxxkrdi94j312w0ihn3n.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/60494431/Clash-Royale-Royal-Ghost">Clash Royale - Royal Ghost</a> by 
+      <a href="https://www.behance.net/dafortin">David Fortin</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文围绕游戏分析方法展开。游戏分析方法分为四个部分，首先是游戏分析方法是什么以及它的意义，也就是我们为什么要分析游戏方法；之后是关于游戏产品特性；再往下是关于游戏类型，即一个游戏品类的分析；最后是游戏类型趋势分析，游戏品类有什么变化和发展。</p>
 <a id="more"></a>
-
-
 
 
 
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#x65;&#x6e;&#120;&#x75;&#64;&#x74;&#101;&#x6e;&#99;&#x65;&#110;&#116;&#46;&#99;&#111;&#109;">&#x6c;&#x65;&#x65;&#x6e;&#120;&#x75;&#64;&#x74;&#101;&#x6e;&#99;&#x65;&#110;&#116;&#46;&#99;&#111;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#101;&#110;&#x78;&#117;&#64;&#x74;&#101;&#110;&#99;&#101;&#110;&#x74;&#x2e;&#x63;&#x6f;&#109;">&#108;&#x65;&#101;&#110;&#x78;&#117;&#64;&#x74;&#101;&#110;&#99;&#101;&#110;&#x74;&#x2e;&#x63;&#x6f;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -1008,10 +1042,9 @@
   <entry>
     <title>策略游戏如何成为时间杀手</title>
     <url>/archives/b542e368.html</url>
-    <content><![CDATA[<p>本文主要是针对策略游戏对大家进行一些简单的分享，简单认识下策略游戏，了解策略游戏的核心玩法和乐趣以及展望策略游戏的未来。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggzkai33lfj31hc0u0nlz.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主要是针对策略游戏对大家进行一些简单的分享。首先是简单认识下策略游戏，第二是策略游戏的核心玩法到底乐趣在哪里，最后是简单看一看策略游戏的未来。</p>
 <a id="more"></a>
-
-
 
 
 
@@ -1309,7 +1342,21 @@
   <entry>
     <title>MMORPG的发展历程与简析</title>
     <url>/archives/ccbc93d7.html</url>
-    <content><![CDATA[<p>本文主要讲解MMORPG游戏类型，通过MMORPG的主要发展过程、列举一些具有代表性的产品，分析其中的一些系统，以及如何改变市场发展方向。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh07s1iq60j312w0a0adb.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/68766885/Black-potion">Black potion</a> by 
+      <a href="https://www.behance.net/harveydentmustdie">Milos Kostic</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主要讲解MMORPG游戏类型，通过MMORPG的主要发展过程、列举一些具有代表性的产品，分析其中的一些系统，以及如何改变市场发展方向。</p>
 <a id="more"></a>
 
 
@@ -1511,10 +1558,30 @@
   <entry>
     <title>分析聚焦感情而设计的游戏品类</title>
     <url>/archives/86c9b0ee.html</url>
-    <content><![CDATA[<p>本文介绍聚焦情感而诞生的玩法品类，并以女性向游戏为例进行简要分析，提取出特征和关键要素；之后是关于聚焦情感而产生的设计方向–独立游戏，提取出独立游戏的关键要素。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh7yu5uj06j312w0lv7i7.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/101068479/Minecraft-Collection?tracking_source=search_projects_recommended%7Cminecraft">Minecraft Collection</a> by 
+      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+
+<h3 id=""><a href="#" class="headerlink" title=""></a><div align=center></h3>  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/110074175/Haokan_Newbrand_video?tracking_source=search_projects_recommended">Haokan_Newbrand_video</a> by 
+      <a href="https://www.behance.net/donerzozo">Donerzozo</a>
+    </i>
+  </font>
+</div>
+
+<p>本文主要分成四个部分，首先是关于聚焦情感而诞生的玩法品类，并以女性向游戏为例进行简要分析，提取出特征和关键要素；之后是关于聚焦情感而产生的设计方向，也就是独立游戏，提取出独立游戏的关键要素。</p>
 <a id="more"></a>
-
-
 
 
 
@@ -1688,10 +1755,21 @@
   <entry>
     <title>美国游戏市场概况</title>
     <url>/archives/24a69431.html</url>
-    <content><![CDATA[<p>本文主讲美国游戏市场，主要分四个部分。首先从美国游戏的发展简史开始；随后是介绍美国游戏市场的概况；再然后是关于知名厂商的点评以及市场趋势与变化猜想。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghh8o4l8ovj312w0t6aea.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/96651447/Candy-Arcade?tracking_source=search_projects_recommended%7CArcade">Candy Arcade</a> by 
+      <a href="https://www.behance.net/chsoares">Carlos Soares</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主讲美国游戏市场，主要分四个部分。首先从美国游戏的发展简史开始；随后是介绍美国游戏市场的概况；再然后是关于知名厂商的点评以及市场趋势与变化猜想。</p>
 <a id="more"></a>
-
-
 
 
 
@@ -2202,10 +2280,20 @@
   <entry>
     <title>图形技术发展&amp;动作游戏发展</title>
     <url>/archives/21f5c0c6.html</url>
-    <content><![CDATA[<p>本文从图形技术的发展为基础介绍不同世代的特点，并以此延伸到动作游戏的发展，讲述动作游戏这一品类和一些具有突出特点的代表作品推荐。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghr9b2xyjej30xc0ot42q.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="behance.net/gallery/102282989/Selected-works-2019-2020?tracking_source=best_of_behance">Selected works | 2019-2020</a> by 
+      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文从图形技术的发展延伸到动作游戏的发展，讲述动作游戏这一品类。</p>
 <a id="more"></a>
-
-
 
 
 
@@ -2213,7 +2301,8 @@
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
 </ul>
-<h3 id="《吃豆人》游戏图形的起源"><a href="#《吃豆人》游戏图形的起源" class="headerlink" title="《吃豆人》游戏图形的起源"></a>《吃豆人》游戏图形的起源</h3><ul>
+<p>###《吃豆人》游戏图形的起源</p>
+<ul>
 <li><p>动作游戏界定</p>
 <ul>
 <li>通过手眼的配合作出即时反馈的游戏统称为动作游戏</li>
@@ -2470,14 +2559,23 @@
   <entry>
     <title>2D游戏开发</title>
     <url>/archives/6487e0f7.html</url>
-    <content><![CDATA[<p>作为第一个游戏，我们决定去开发那个非常有名的“推箱子”的游戏。准备好场景数据后就可以进行单人游戏，游戏中也没有什么复杂的动作，因此无须设计太多东西能够完成。从结果来看，只需200行的代码就可以实现。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkrfcylq45j312w0gak12.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/66966371/PromaxGames-Sponsor-Titles">PromaxGames Sponsor Titles</a> by 
+      <a href="https://www.behance.net/BlakeFawley">Blake Fawley</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>一说到游戏，很多人脑海里浮现的可能是家用游戏机的绚丽画面。不过遗憾的是，我们暂时还不能开发那样的游戏。我们将开发一个通过命令行运行的简单游戏，学习C++的基本用法。</p>
 <a id="more"></a>
 
 
 
-
-
-<h3 id="开发一个益智游戏"><a href="#开发一个益智游戏" class="headerlink" title="开发一个益智游戏"></a>开发一个益智游戏</h3><h4 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h4><p>玩家用键盘操作，这里只支持移动操作。<code>p</code>代表玩家角色。上下左右移动分别通过<code>w</code>、<code>a</code>、<code>s</code>、<code>d</code>控制，并且需要按下回车键<code>Enter</code>。例如，依次按下<code>a</code>和<code>Enter</code>后，玩家将向左移动。</p>
+<h3 id="开发一个益智游戏"><a href="#开发一个益智游戏" class="headerlink" title="开发一个益智游戏"></a>开发一个益智游戏</h3><p>作为第一个游戏，我们决定去开发那个非常有名的“推箱子”的游戏。准备好场景数据后就可以进行单人游戏，游戏中也没有什么复杂的动作，因此无须设计太多东西能够完成。从结果来看，只需200行的代码就可以实现。</p>
+<h4 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h4><p>玩家用键盘操作，这里只支持移动操作。<code>p</code>代表玩家角色。上下左右移动分别通过<code>w</code>、<code>a</code>、<code>s</code>、<code>d</code>控制，并且需要按下回车键<code>Enter</code>。例如，依次按下<code>a</code>和<code>Enter</code>后，玩家将向左移动。</p>
 <p>除了<code>p</code>外，<code>#</code>代表墙壁，<code>o</code>代表尚未到达目的地的箱子，<code>.</code>代表目的地。为了便于识别，玩家到达<code>.</code>处时将变成<code>P</code>，箱子将变成<code>O</code>。等所有箱子都被推到<code>.</code>并变成<code>O</code>时，就表示游戏成功了。游戏中的箱子只能一个一个地推，不能拉。以上就是游戏的大概玩法。</p>
 <h4 id="键盘和画面输出"><a href="#键盘和画面输出" class="headerlink" title="键盘和画面输出"></a>键盘和画面输出</h4><p>画面的输入输出都是通过C++标准库<code>iostram</code>实现的。输入处理主要使用<code>istream</code>（<em>input stream</em>），输出处理则依赖<code>ostream</code>（<em>output stream</em>）</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="keyword">char</span> c;</span><br><span class="line">  <span class="built_in">cin</span> &gt;&gt; c;</span><br><span class="line">  <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;Input Character is &quot;</span> &lt;&lt; c &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -2551,7 +2649,6 @@
       </categories>
       <tags>
         <tag>Game Develop</tag>
-        <tag>2D Game</tag>
         <tag>SEGA</tag>
         <tag>C++</tag>
       </tags>
@@ -2559,7 +2656,8 @@
   <entry>
     <title>谁发明了方向键？</title>
     <url>/archives/ed19197d.html</url>
-    <content><![CDATA[<p>谁发明了方向键？它是如何工作的？为什么几乎在每一只手柄上都有它的身影？是不是所有方向键都是一个样？观看本期节目吧！</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4oa9rl0cj312w0lwjvf.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>谁发明了方向键？它是如何工作的？为什么几乎在每一只手柄上都有它的身影？是不是所有方向键都是一个样？观看本期节目吧！</p>
 <a id="more"></a>
 
 
@@ -2594,12 +2692,18 @@
   <entry>
     <title>随机数在游戏中的应用</title>
     <url>/archives/71c35c5e.html</url>
-    <content><![CDATA[<p>本文讲的主题是随机数在游戏中的应用，讲解随机数的基本概念和游戏中常见的随机策略，介绍随机数生成器和一些随机数使用上的小技巧与随机数分布与应用方面的东西。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gekvei5q74j30xc0j30ys.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/44248527/Tarot-cards-Game">Tarot-cards-Game</a> by 
+      <a href="https://www.behance.net/victoire">Victoire Douy</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本章讲的主题是随机数在游戏中的应用，主要目的是通过这节课给大家一下随机数的基本概念和游戏中常见的随机策略，介绍随机数生成器，能够指出一些容易用错的地方防止大家出错，还有就是介绍一些随机数使用上的小技巧与随机数分布与应用方面的东西。</p>
 <a id="more"></a>
-
-
-
-
 
 <h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p>在游戏中使用随机数一般是为了增加一些随机性，防止过于重复。</p>
 <h4 id="随机数在游戏中的应用"><a href="#随机数在游戏中的应用" class="headerlink" title="随机数在游戏中的应用"></a>随机数在游戏中的应用</h4><h5 id="作为游戏玩法的一部分"><a href="#作为游戏玩法的一部分" class="headerlink" title="作为游戏玩法的一部分"></a>作为游戏玩法的一部分</h5><p>现在游戏中用到随机数除了增加一些随机性，还有很多方面，比如说玩网游的<code>扔骰子</code>、<code>抽卡</code>、<code>开宝箱</code>这些东西，都是作为游戏玩法的一部分。很多游戏里像<code>龙与地下城</code> <code>大富翁</code>这种游戏扔骰子本身就是游戏的一部分。</p>
@@ -2774,8 +2878,14 @@
 <li>重复上面步骤，直到剩1个元素为止。</li>
 </ul>
 <p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gekzwflh2oj30xc0p0dot.jpg"></p>
-<h3 id="特别鸣谢"><a href="#特别鸣谢" class="headerlink" title="特别鸣谢"></a>特别鸣谢</h3><p>文章配图：<a href="https://www.behance.net/victoire">Victoire Douy</a></p>
-]]></content>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/victoire">Victoire Douy</a>
+    </i>
+  </font>
+</div>
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gekyba8kcdj30xc0got99.jpg)]]></content>
       <categories>
         <category>游戏程序设计 (Game Programming)</category>
       </categories>
@@ -2788,7 +2898,16 @@
   <entry>
     <title>游戏性系统</title>
     <url>/archives/a79ad39b.html</url>
-    <content><![CDATA[<p>本章由马若遥老师介绍游戏玩法开发，包括了解什么是游戏玩法开发,通过具体实例来介绍如何建立愿景、划定边界、迭代、抛光。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf97mfku7fj30x30lp750.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://undraw.co/illustrations">unDraw</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本章由马若遥老师介绍游戏玩法开发，他曾在动视暴雪开发使命召唤系列黑色行动3&amp;4和手游，目前在腾讯NExT北京工作室。本章内容包括了解什么是游戏玩法开发,通过具体实例来介绍如何建立愿景、划定边界、迭代、抛光。</p>
 <a id="more"></a>
 
 <h3 id="什么是游戏玩法开发-Gameplay-Development"><a href="#什么是游戏玩法开发-Gameplay-Development" class="headerlink" title="什么是游戏玩法开发 Gameplay Development"></a>什么是游戏玩法开发 Gameplay Development</h3><p>游戏玩法开发是与玩家交互行为相关的游戏功能与行为的开发。这个定义非常模糊，业界也没有一个准确的定义。</p>
@@ -2979,29 +3098,26 @@
   <entry>
     <title>一个关于爱与生活的童话-Florence</title>
     <url>/archives/9b487a14.html</url>
-    <content><![CDATA[<p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5uxkndixj30go09djt1.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
 <a id="more"></a>
-
-
-
-
 
 <p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_3803bfdcbfa1ff4515505f920ed1c7993993b9f6.600x338.jpg?t=1589331032">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256774213/movie480.webm?t=1580836892" type="video/mp4">       </video></p>
 <h3 id="关于游戏"><a href="#关于游戏" class="headerlink" title="关于游戏"></a>关于游戏</h3><p>Florence 是一场持续约 30 分钟的心动体验。故事很简短，但意义很深远。</p>
 <p>25 岁的 Florence Yeoh 对生活感到困惑。她的生活是日复一日地工作、睡觉，以及在社交媒体上打发大量时间。直到有一天，她遇到了一位名叫 Krish 的大提琴手，他改变了她眼中的整个世界。</p>
 <p>透过一系列预先设定的游戏剧本，从调情到吵架，从互助成长到逐渐分歧，玩家将体验 Florence 与 Krish 这段感情的点点滴滴。 《Florence》的灵感来源于「Slice of Life」漫画小说和网路漫画，讲述了一个熟悉、青涩而又私密的爱情故事。</p>
 <h3 id="测评"><a href="#测评" class="headerlink" title="测评"></a>测评</h3><blockquote>
-<p>“Florence is a beautiful experience that isn’t afraid to tell an ordinary story. This isn’t an action-packed, heroic tale or a somber story filled with tragedy, but it still hits some of those notes in subdued ways. Florence is happy, distressing, and admirable in its reflection of young romance, and it left me with a sense of unexpected hopefulness.”<br><em>Game Informer</em></p>
+<p>“Florence is a beautiful experience that isn’t afraid to tell an ordinary story. This isn’t an action-packed, heroic tale or a somber story filled with tragedy, but it still hits some of those notes in subdued ways. Florence is happy, distressing, and admirable in its reflection of young romance, and it left me with a sense of unexpected hopefulness.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.gameinformer.com/games/florence/b/ios/archive/2018/02/20/florence-game-informer-review.aspx">Game Informer</a></p>
 </blockquote>
 <br/>
 
 <blockquote>
-<p>“This short collection of small moments manages to cover a wide range of powerfully relatable emotional highs and lows, beautifully capturing what it’s like to fall in love for the first time.”<br><em>The Guardian</em></p>
+<p>“This short collection of small moments manages to cover a wide range of powerfully relatable emotional highs and lows, beautifully capturing what it’s like to fall in love for the first time.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.theguardian.com/games/2018/feb/23/florence-review-graphic-novel-style-game">The Guardian</a></p>
 </blockquote>
 <br/>
 
 <blockquote>
-<p>“The breathtaking Florence captures falling in love better than almost any game.”<br><em>Polygon</em></p>
+<p>“The breathtaking Florence captures falling in love better than almost any game.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.polygon.com/2018/2/15/17014258/florence-game-review-ios-best-games-2018">Polygon</a></p>
 </blockquote>
 <h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="玩法层面"><a href="#玩法层面" class="headerlink" title="玩法层面"></a>玩法层面</h4><p>游戏总体上偏向于叙事类的互动故事，玩家更注重故事本身，所以在玩法方面基本上是被弱化甚至是可以忽略。但是作为游戏，《Florence》的交互设计做的非常优秀，在后面会提到，在此不再赘述。</p>
 <h4 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h4><p>美术风格上绘图保持着非常高的质量，在同类游戏中处于中等偏上的水平。在游玩游戏的过程中，每一张图都可以当作壁纸，仿佛是在艺术长廊中欣赏一件件精美的画作。而且勾勒人物的线条非常简洁凝练，相较于写实风格更偏向卡通，但却拿捏的恰到好处。虽然游戏除了背景音乐完全没有人物配音，但美术上呈现出艺术上的张力，也能让画中的人物富有生机与活力。</p>
@@ -3014,7 +3130,7 @@
 <p>有一些人认为剧情的真实性不够：女孩一见钟情，有懵懂的欣赏，有心动的害羞，有投机的聊天，这些都是校园恋爱的元素，放在前面铺垫过日复一日重复麻木单调工作的女孩身上显然是不合适的，而且之后的画画成名给人很突兀的感觉，逻辑上很难自洽：</p>
 <blockquote>
 <p>女孩幼年热爱绘画，二十来年不练，分手之后努力画了几年突然就绘画艺术家作品大卖了，我觉得真的好假啊，这种女孩是天才，是玛丽苏，是任何小说电视剧里的女主角，唯独不是普通人。一个「恋爱后分手，分手后成名」的恋爱故事，越品越感觉像是一个泡泡一样的童话”</p>
-<p> <em>Topas今天退休了吗</em></p>
+<p> –<a href="https://www.taptap.com/user/50050544">Topas今天退休了吗</a></p>
 </blockquote>
 <p>在我看来，《Florence》与其说是一个故事，不如说是一个关于爱情的童话：与其在其中寻找现实中爱情的影子，不如放松下来，把它当作一本童话书或者一个绘本，静静欣赏那种单纯的美好。彼此激励一起为对方对梦想加油、无论做什么都是快乐而且有活力的、哪怕有吵架不久后还是原谅对方继续甜蜜、即使 Florence 失去了 Krish，她依旧选择了去热爱生活，去追逐自己的梦想，最后获得了成功。抛开合理性，这个剧情本身就已经超出了简单的甜甜的恋爱，立意上升到一个更高的层次：恋爱让自己变得更好。经历过这些，她明白了一个问题：我是谁？人的一生都在了解自己，女主也不例外。所以这款游戏的名字叫做“Florence”，不仅仅是说她经历了一切，更意味着，她经历的这一切，让她找回了自己。这可能才是游戏想真正表达的。</p>
 <p><img src="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_9e029df44296f3d21a61e96d0a7bea4447be2c14.600x338.jpg?t=1589331032"></p>
@@ -3031,18 +3147,15 @@
       </categories>
       <tags>
         <tag>Game</tag>
-        <tag>2D Game</tag>
       </tags>
   </entry>
   <entry>
     <title>跨越时空抚慰伤痛-Father and Son</title>
     <url>/archives/84339f66.html</url>
-    <content><![CDATA[<p>《父与子》由那不勒斯考古博物馆所发行，是一款以父子亲情为主题的冒险游戏，从那不勒斯国家考古博物馆，珍藏着人类最伟大的文物和珍宝，揭开这趟冒险之旅的序幕。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf9lwaptxij30zk0k0401.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《父与子》由那不勒斯考古博物馆所发行，是一款以父子亲情为主题的冒险游戏，从那不勒斯国家考古博物馆，珍藏着人类最伟大的文物和珍宝，揭开这趟冒险之旅的序幕。剧情的主轴发展，开始于一个与父亲素为谋面的儿子迈克尔，透过穿越现在和过去，追溯已故父亲过往的考古旅程。你将亲自发掘那不勒斯的魅力，体验庞贝城在公元79年，维苏威火山喷发前几个小时的生离诀别，及探索古埃及的日常生活。积累的过去，造就了今日。</p>
 <a id="more"></a>
 
-
-
-<p>剧情的主轴发展，开始于一个与父亲素为谋面的儿子迈克尔，透过穿越现在和过去，追溯已故父亲过往的考古旅程。你将亲自发掘那不勒斯的魅力，体验庞贝城在公元79年，维苏威火山喷发前几个小时的生离诀别，及探索古埃及的日常生活。积累的过去，造就了今日。</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6guDCiNkZr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
@@ -3089,17 +3202,24 @@
       </categories>
       <tags>
         <tag>Game</tag>
-        <tag>2D Game</tag>
         <tag>Art</tag>
       </tags>
   </entry>
   <entry>
     <title>此时此刻，你充满了决心-Undertale</title>
     <url>/archives/795e3081.html</url>
-    <content><![CDATA[<p>《Undertale》中，玩家作为一名掉入地下世界的孩子游历整个地下世界，最终重返地面。在此过程中你可以选择战斗，亦或是宽恕，这些选择会影响游戏后面的对话、人物、故事和结局。请做出自己的选择，开始一段属于自己的地下冒险。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggm00ecrbej30rs0iwhdt.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.pixiv.net/artworks/73392117">Undertale01</a> by 
+      <a href="https://www.pixiv.net/users/38310320">ア</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《Undertale》中，玩家作为一名掉入地下世界的孩子游历整个地下世界，最终重返地面。在此过程中你可以选择战斗，亦或是宽恕，这些选择会影响游戏后面的对话、人物、故事和结局。请做出自己的选择，开始一段属于自己的地下冒险。</p>
 <a id="more"></a>
-
-
 
 <p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/391540/header.jpg?t=1579096091">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256655616/movie480.webm?t=1447377566" type="video/mp4">       </video></p>
 <h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="传说"><a href="#传说" class="headerlink" title="传说"></a>传说</h4><blockquote>
@@ -3186,16 +3306,14 @@
         <tag>Game</tag>
         <tag>RPG</tag>
         <tag>INDIE</tag>
-        <tag>2D Game</tag>
       </tags>
   </entry>
   <entry>
     <title>为什么要要登山？因为那里有山-Celeste</title>
     <url>/archives/75f72eb2.html</url>
-    <content><![CDATA[<p>Madeline 攀登塞莱斯特山 （Celeste Mountain）的旅程中，帮助她克服内心深处的恐惧。勇敢面对数百个手工打造的挑战场景，揭开诡异的秘密，解开神秘山峰的谜团吧。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk9kpgb76dj31400p0q6v.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>Madeline 攀登塞莱斯特山 （Celeste Mountain）的旅程中，帮助她克服内心深处的恐惧。勇敢面对数百个手工打造的挑战场景，揭开诡异的秘密，解开神秘山峰的谜团吧。</p>
 <a id="more"></a>
-
-
 
 
 
@@ -3311,16 +3429,14 @@
         <tag>Celeste</tag>
         <tag>Game</tag>
         <tag>INDIE</tag>
-        <tag>2D Game</tag>
       </tags>
   </entry>
   <entry>
     <title>48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</title>
     <url>/archives/6144e1a0.html</url>
-    <content><![CDATA[<p>本文转载了INDIENOVA社区的博主 <a href="https://indienova.com/u/wizcas">Wizcas.陈小一</a> 的 <a href="https://indienova.com/indie-game-development/my-first-time-in-ludum-dare-38">48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</a>，与大家共同分享参加LD比赛的一些经验。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh9djvu6vvj30m80cin3k.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>Ludum Dare 是国外知名的独立游戏开发竞赛，首届比赛举办于2002年4月，迄今已走过足足35期，诞生了无数脍炙人口的经典作品。本文转载了INDIENOVA社区的博主 <a href="https://indienova.com/u/wizcas">Wizcas.陈小一</a> 的 <a href="https://indienova.com/indie-game-development/my-first-time-in-ludum-dare-38">48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</a>，与大家共同分享参加LD比赛的一些经验。</p>
 <a id="more"></a>
-
-
 
 
 
@@ -3339,13 +3455,13 @@
 <h3 id="DAY-1-2017-4-22——选题"><a href="#DAY-1-2017-4-22——选题" class="headerlink" title="DAY 1 2017.4.22——选题"></a>DAY 1 2017.4.22——选题</h3><p>比赛主题发布是在中国时间的周六上午9:00，这也是比赛开始的时间。在此之前，LD官方网站上进行了为期两周的主题投票，这些主题是网站的注册用户提交的，而得票最高者即是本次比赛的主题。</p>
 <p>平时周末我都会起的比较晚，这次9:40就起了。虽然比赛已经开始了40分钟，但我更需要保存更多精力来应付这场战争。</p>
 <p>用手机打开官网，页面顶部赫然写着比赛主题：<strong>A Small World</strong>。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbprzk83hj30z30degng.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh9dwroc7cj30z30deq53.jpg"></p>
 <p>这是什么？</p>
 <p>我本来期待着看到更出人意料、更奇特的主题。这个主题看起来平淡无奇，甚至让人耳朵长茧。一时间我蒙圈了。</p>
 <p>这是第一个挑战。</p>
 <p>我调整了一下自己的心态，开始琢磨如何解读这个主题。好在LD对于主题的解读范围十分宽容，而且官方本身并不会限定你是否要使用这个主题——当然作为评判力量的其他玩家和开发者会更严格些。</p>
 <p>我并不打算做一个和地球/星球相关的游戏，这个角度已经被用烂了。既然是独立游戏挑战赛，当然是要做一些自己更喜欢、脑洞更大一点的游戏。在经过了20分钟的思考后，我决定做一款献给我们家主子“二狗子”的游戏，因为我的家对于她来说就是整个世界。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbprxwuxij30dc07ijrx.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh9dz40f20j30dc07i0tf.jpg"></p>
 <p>大概的思路是，二狗子为了展现自己是这个世界统治者，决心收集世界中的所有“财宝”。但愚蠢的人类不会让她把东西都藏起来，因此二狗子必须要在人类的眼皮子底下获得这些财宝，而且不能被抓住。</p>
 <h4 id="开工"><a href="#开工" class="headerlink" title="开工"></a>开工</h4><p>有了思路便要尽快开始了。对于48小时，我仅有个模糊的概念——不能在对目标没有帮助的事情上浪费时间。最终的结果证明了整个开发节奏远比我想象的还要紧张。</p>
 <p>游戏的风格是斜45度角的RTT（Real-time tactics，即时战术游戏）游戏，代表作有《盟军敢死队》、《赏金奇兵》和最近的新作《影子战术》。和这些游戏不同的是，我的游戏的关卡很小，“敌人”也只有一个，但是在纵向上活动的范围会很大，毕竟猫是很善于跳跃的。</p>
@@ -3354,7 +3470,7 @@
 <p>此时整个游戏流程已经初具雏形，虽然细节部分基本都没有经过打磨，但在我的计划里是打算将这些放到收尾阶段再进行的。</p>
 <p>抬头看表，已经是晚饭时间了。此时距离开始开发已经经过了大概7个小时，整个进度看起来很乐观，我甚至还录了一小段游戏原型视频上传到了YouTube，并在活动网站上发了个博客向其他人介绍我的进展。</p>
 <p>晚饭过后，我开始为游戏添加一些小细节，例如鼠标移到可交互物体上出现的提示框、在OffMesh路径节点上进行跳跃控制等，然后对之前完成的内容进行了一系列测试。在这个过程中，我还重构了一部分代码。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbprz0ushj30go094gms.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh9dxjd48sj30go09475p.jpg"></p>
 <h4 id="坑"><a href="#坑" class="headerlink" title="坑"></a>坑</h4><p>一切看起来都跟美好——直到我遇到了第一个自己给自己挖的坑。</p>
 <p>在此之前我并没有完整的AI开发经验，自己也没有成熟的AI框架，所以在开发敌人的控制脚本时，几乎是两眼一摸黑，按着感觉走。而当我要为敌人添加对猫叫声的反应时，噩梦来了。</p>
 <p>在一开始的设计中，敌人的行为只有巡逻、索敌、注视、追赶几种情况，基本是纯线性的过程，所以用几个<code>if...else</code>已经足够处理。而新增的行为“听见声音并前往调查”立刻使AI决策的复杂度上升了，更别提以后在AI层面进行扩展了。</p>
@@ -3373,7 +3489,7 @@
 <p>考虑到自己的3D建模水平实在捉鸡，在有限的时间内我也不打算真的用Blender去一点一点抠模型了。</p>
 <p>我想起自己在Steam花68块钱买过一款名为Qubicle Voxel Editor的体素艺术软件，一直躺在库里还没下载过，就是为了有一天能派上用场。对于学了一点像素画的我来说，这种用方块拼成的世界既可行，又具有强烈的独立游戏风格。</p>
 <p>我一边看着官方的帮助文档，一边尝试着建模还原我住的小公寓。考虑到场景的可玩性和复杂度，我去掉了家里的厨房和厕所。建模、导出、改贴图、在场景中放置……一件件家具被创造出来，游戏场景也越来越充实。看着自己创造的小世界，一阵强烈的满足感袭来——我突然意识到这就是激励我开始做游戏的初衷，也是对“a small world”这个主题的最好诠释。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbps09cv1j30go093dgn.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh9dy5qr54j30go093jse.jpg"></p>
 <p>随着对建模越来越熟练，更多物件被创造出来：猫咪玩具、散落的臭袜子、手机、猫咪二狗子……媳妇的“这不是满屏马赛克么”的吐槽并没有影响我对体素艺术的热情。</p>
 <p>二狗子的模型被做出来后，我曾一度打算在Blender中通过骨骼动画来完成猫的各种动作动画，然而时钟上无情的指针让我打消了这个念头——我没有时间再去学习怎么做骨骼动画了。最终我放弃了二狗子的四肢，用Unity自带的动画工具把它做成了一只像史莱姆一样跳来跳去的生物。</p>
 <p>此时已经超过半夜十二点了。做模型花了我五个多小时的时间，制作和绑定小猫的动画又花了我两三个小时的时间。</p>
@@ -3383,7 +3499,7 @@
 <p>在被电脑屏幕和台灯照亮的黑暗中，我尽可能快地完成着收尾的开发工作，不时抬头看看表，然后为后面的工作粗略地分配着时间。</p>
 <p>为了给游戏配上猫叫的音效，我在半夜里举着手机满屋子追二狗子想让她叫一声，但是这小王八蛋估计是听懂了我的话，自始至终一声不吭。气急败坏的我最终只能自己学猫叫——而此时我才发现我的嗓子已经快出不来声了。</p>
 <p>窗外射进了清晨的曙光，我也终于进入了最终的测试阶段。我对于自己的成果并不满意：跳跃动画和位移的衔接并不流畅、UI过于简陋、人类的视线检测很不准确、模型碰撞的检测范围经常出现错误、没有用更合适的方式控制摄影机跟踪……但此时已经是早上七点多，距离提交只有不到两个小时了。我不得不放弃了很多细节调整，甚至放弃了忘了做的人类模型和动画，而只是用一个简陋胶囊体代替。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbprylop9j30go094dh7.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh9dyp2ww2j30go094405.jpg"></p>
 <p>时间一分一秒的走着，往往觉得只做了一个很小的调整和修复，但转头发现时间已经过去了二十多分钟。我感觉缓缓前行的时间像一台巨大的压路机向我逼来，而我必须在这恐怖的压力下拖着身躯在泥泞中奋力爬行。</p>
 <p>终于在8:59分时，我上传了全部代码和资源文件。</p>
 <h4 id="最后一小时"><a href="#最后一小时" class="headerlink" title="最后一小时"></a>最后一小时</h4><p>根据LD的规则，在开发时限到期后还有一个小时额外的打包提交时间。我直到这时才发现，网站上赫然写着：“我们建议您尽早提交，因为人们总是在最后一小时发现各种技术问题。”</p>
@@ -3421,12 +3537,29 @@
       </tags>
   </entry>
   <entry>
+    <title>Leetcode题解</title>
+    <url>/archives/293466a9.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4mym0wp6j30xc0irn4o.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/110074175/Haokan_Newbrand_video?tracking_source=search_projects_recommended">Haokan_Newbrand_video</a> by 
+      <a href="https://www.behance.net/donerzozo">Donerzozo</a>
+    </i>
+  </font>
+</div>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><a id="more"></a>
+
+]]></content>
+  </entry>
+  <entry>
     <title>LATEX现学现用抢救指南</title>
-    <url>/archives/a5f7b62.html</url>
-    <content><![CDATA[<p>本文作为即忘即看的备忘文档，适用于各种编写博客需要专业数学公式但不熟悉的Latex的读者，所有内容摘自 <a href="http://mohu.org/info/symbols/symbols.htm">常用数学符号的 LaTeX 表示方法</a>。</p>
+    <url>/archives/d27a4a46.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkb9od3oecj314g0mg755.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文作为即忘即看的备忘文档，适用于各种编写博客需要专业数学公式但不熟悉的Latex的读者，所有内容摘自 <a href="http://mohu.org/info/symbols/symbols.htm">常用数学符号的 LaTeX 表示方法</a>。</p>
 <a id="more"></a>
-
-
 
 
 
@@ -3496,11 +3629,20 @@
   </entry>
   <entry>
     <title>马尔萨斯人口论与数学建模</title>
-    <url>/archives/930af6f3.html</url>
-    <content><![CDATA[<p>本文基于马尔萨斯的人口论，探讨人类社会人口的增长趋势并列举多种变体人口增长模型，同时领悟数学建模的主要思想和具体步骤，加深学习和理解。</p>
+    <url>/archives/1492ea3c.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk0dpddbq1j30xc0m80tg.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/100474895/World-Population-Day_Advertisment?tracking_source=search_projects_recommended%7CPopulation">World Population Day_Advertisment</a> by 
+      <a href="https://www.behance.net/vibinks">vibin ks</a>
+    </i>
+  </font>
+</div>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文基于马尔萨斯的人口论，探讨人类社会人口的增长趋势并列举多种变体人口增长模型，同时领悟数学建模的主要思想和具体步骤，加深学习和理解。</p>
 <a id="more"></a>
-
-
 
 
 
@@ -3603,7 +3745,7 @@
 <p>$N(t)=\frac{K}{1+Ce^{-r(t-t_0)}}$</p>
 <p>$C=\frac{K-P_0}{P_0}$</p>
 </blockquote>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq7lv5vuj30ev08sdfr.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk9yk47wlkj30ev08sq3j.jpg"></p>
 <p>回到之前的两个问题，第一个问题依然可以直接计算代入即可；第二个问题中令 $t$ 趋于无穷预测未来趋势，作图可以发现$K$ 是一个渐进线：如果初值比 $K$ 值小，人口会以“S”型曲线增长直至达到 $K$ 值饱和； 如果初值已经超过 $K$ 值，它会比较快速的下降到 $K$ 值之后稳定。</p>
 <h4 id="模型离散化"><a href="#模型离散化" class="headerlink" title="模型离散化"></a>模型离散化</h4><p>将微分方程再化为差分方程，考虑这个模型的离散化：</p>
 <blockquote>
@@ -3617,15 +3759,15 @@
 <p>$N_{t+1}=(1+r)N_t-\frac{r}{K}N_t^{2}$</p>
 </blockquote>
 <p>取定参数 $K$ ，考虑不同的参数 $r$ </p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq7jzyryj30gn08kmx9.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk9yjjz3r2j30gn08k3zt.jpg"></p>
 <p>可以发现 $t$ 越来越大时愈发趋近于 $K$ 。让我们再看一看 $r$ 变大一点的效果：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq7lerhfj30fl080q35.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk9yj5csmcj30fl080dhk.jpg"></p>
 <p>我们可以发现在极限状态下呈现出一定的周期性，极限也不一定是之前稳态的 $K$ 了，更像是一种平均值，所以严格来说它并没有极限，或者说是2周期的解，每两步就回来。那如果 $r$ 继续增大呢？</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq7kztk5j30gb07o3ys.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk9ylqp2m0j30gb07otaz.jpg"></p>
 <p>我们可以观察到它还是周期的，但不再是2周期的了，而是4周期的。那我们继续让 $r$ 增大：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq7jpetgj30gh085jrn.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk9ygqasbdj30gh085ac9.jpg"></p>
 <p>随着 $r$ 的不断增大，最后甚至会出现“混沌”的状态：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq7ki14zj30fj0750t3.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk9z26wrn9j30fj07576t.jpg"></p>
 <p>也就是说如果对这个问题做一个小的扰乱比如初始值，整个曲线后面变化会非常大，也可以说是对初值敏感的依赖（“混沌”的标准）。所以从离散化的模型我们可以得到这么丰富的现象，结果非常意外。</p>
 <h3 id="Leslie模型"><a href="#Leslie模型" class="headerlink" title="Leslie模型"></a>Leslie模型</h3><p>言归正传回到原来的问题，之前的两个模型都只考虑了 <strong>人口总量</strong> 的问题，而忽视了 <strong>人口分布</strong> 的问题：人口总量一样、人口分布不一样。这个问题的核心在于<strong>只有人口总量一个是否可以足够刻画人口</strong>，而 <strong>年龄分布</strong> 的引入显然是对人口更完整的刻画。</p>
 <p>假如现在以年为单位，年龄对人口进行切分：$N_t=\begin{pmatrix} n_0 \\ n_1 \\ … \\ n_s \end{pmatrix}_t$</p>
@@ -3678,10 +3820,19 @@
   <entry>
     <title>手机是怎么知道你的位置的</title>
     <url>/archives/a03a749.html</url>
-    <content><![CDATA[<p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkcy9nokcuj30u00w9hag.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/105968903/Space-Economics-Illustrations-Resources-Magazine?tracking_source=search_projects_recommended%7Csatellite">Space Economics Illustrations / Resources Magazine</a> by 
+      <a href="https://www.behance.net/jamesrdesign">James Round</a>
+    </i>
+  </font>
+</div>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
 <a id="more"></a>
-
-
 
 
 
@@ -3690,13 +3841,13 @@
 <ul>
 <li><p><strong>美国的GPS</strong></p>
 <p>GPS一共6条轨道，每条轨道4颗卫星，一共24颗卫星。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq8p7fr5j30fi0ahgm2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkdgum5vcqj30fi0ahmxm.jpg"></p>
 </li>
 </ul>
 <ul>
 <li><p><strong>苏联的GLONASS</strong></p>
 <p>GLONASS一共3条轨道，每条轨道8颗卫星，一共24颗卫星。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq8ostpkj30cv08xdg0.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkdgwdsot0j30cv08xac9.jpg"></p>
 </li>
 </ul>
 <ul>
@@ -3745,7 +3896,13 @@
 </blockquote>
 <h3 id="问题的解决"><a href="#问题的解决" class="headerlink" title="问题的解决"></a>问题的解决</h3><p><strong>基本模型：</strong>可行，但达不到应用的要求（时间的精度、空间位置的精度）</p>
 <p><strong>科学问题到工程问题：</strong>科学原理可行到工程实现，需要技术方面的支持，而数学建模则更多的关注科学原理上可行性的问题</p>
-]]></content>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/jamesrdesign">James Round</a>
+    </i>
+  </font>
+</div>]]></content>
       <categories>
         <category>数学建模(Mathematical Modeling)</category>
       </categories>
@@ -3758,13 +3915,19 @@
   </entry>
   <entry>
     <title>火箭为什么是三级</title>
-    <url>/archives/7d0497df.html</url>
-    <content><![CDATA[<p>近年来我国航天领域成绩斐然，本文将研究确定火箭最佳级数的问题，以满足正常发射卫星的需求为前提，考虑卫星的速度、火箭的推力、火箭与卫星的质量，最终确定火箭的最佳级数。</p>
+    <url>/archives/6ddbab03.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkxbjaai90j30u00u0npe.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/97089797/AEONS?tracking_source=search_projects_recommended%7Crocket">AEONS</a> by 
+      <a href="https://www.behance.net/karezoid">Michał Karcz</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>近年来我国航天领域成绩斐然，本文将研究确定火箭最佳级数的问题，以满足正常发射卫星的需求为前提，考虑卫星的速度、火箭的推力、火箭与卫星的质量，最终确定火箭的最佳级数。</p>
 <a id="more"></a>
-
-
-
-
 
 <h3 id="问题提出"><a href="#问题提出" class="headerlink" title="问题提出"></a>问题提出</h3><h4 id="历史回顾"><a href="#历史回顾" class="headerlink" title="历史回顾"></a>历史回顾</h4><p>我国从1956年开始进行火箭的研制工作，1964年6月29日我国自行设计研制的中程火箭试飞成功，之后着手研制多级火箭，向空间技术进军。经过5年的努力，1970年4月24日，“长征一号”运载火箭诞生，首次发射“东方红一号卫星”，我国航天技术由此迈出重要的一步。</p>
 <p>现在“长征”系列火箭已经走向世界，享誉全球，在国际发射场上占有重要一席。近年来我国在火箭发射次数上赶超了欧洲，“长征二号F”已经成为全球仅有的三种轨道载人运载器之一。2016年6月25日，“长征七号”运载火箭首飞成功。</p>
@@ -3787,7 +3950,7 @@
 <p>至于火箭的结构、外形及控制等问题在确定火箭的最佳级数时不是主要因素，我们只假定它们能满足火箭的正常飞行需要而不加以考虑。</p>
 <h3 id="卫星速度"><a href="#卫星速度" class="headerlink" title="卫星速度"></a>卫星速度</h3><h4 id="行星运动定律"><a href="#行星运动定律" class="headerlink" title="行星运动定律"></a>行星运动定律</h4><p>首先我们来讨论卫星能够维持在轨道上运行而不落下来所必须达到的速度。这个问题的解决，依赖于牛顿万有引力定律，因为卫星在绕地球作圆周运动时，受到转动惯心力抵消了地球对卫星的引力作用，从而维持卫星在轨道上的运行，不会因为地球的引力作用掉下来。</p>
 <p>万有引力定律由牛顿在总结前人研究成果基础上得出的著名物理定律。我们知道，伽利略在比萨斜塔上做了一个实验，验证了自由落体定律、开普勒通过对火星的细致研究以及对当时已经发现的太阳系六大行星的轨道综合分析，总结出著名的行星运动三定律：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq9ot74yj30ic07ymxg.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkydvx56k0j30ic07ymy4.jpg"></p>
 <blockquote>
 <ul>
 <li><p><strong>开普勒第一定律</strong></p>
@@ -3842,7 +4005,7 @@
 <p>$m(t)$ $t$时刻火箭的质量 $\qquad v(t)$ $t$时刻火箭的速度</p>
 <p>$t+\Delta t:$</p>
 <p>$m(t+\Delta t)v(t+\Delta t)$ 继续飞行的火箭系统的动量</p>
-<p>$(m(t)-m(t+\Delta t))(v(t)-u)$ $\qquad u$ 气体喷射相对于火箭的速度；$v(t)$ 火箭相对于地球的速度</p>
+<p> $(m(t)-m(t+\Delta t))(v(t)-u)$ $\qquad u$ 气体喷射相对于火箭的速度；$v(t)$ 火箭相对于地球的速度</p>
 </blockquote>
 <p>​    于是由动量守恒定律知：</p>
 <blockquote>
@@ -3862,7 +4025,7 @@
 <p>$v(t)=v_0+u\ln\frac{m_0}{m(t)}$ $\qquad v_0$ 初始时刻火箭的速度；$m_0$ 初始时刻火箭系统的质量</p>
 </blockquote>
 <p>如果初始时火箭静止在地面上，那么 $v_0=0$ ，$v(t)=u \ln\frac{m_0}{m(t)}$</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq9pc2laj30ra12lq8z.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkzhahkr4jj30ra12ljyn.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -3871,7 +4034,6 @@
     </i>
   </font>
 </div>
-
 
 
 
@@ -3946,7 +4108,14 @@
 <td align="center">49</td>
 </tr>
 </tbody></table>
-]]></content>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/karezoid">Michał Karcz</a><br/>
+      <a href="https://www.behance.net/Tohad">Sylvain Sarrailh</a>
+    </i>
+  </font>
+</div>]]></content>
       <categories>
         <category>数学建模(Mathematical Modeling)</category>
       </categories>
@@ -4488,136 +4657,19 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#8</title>
-    <url>/archives/e5e6b796.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解文件格式和导出方法。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdd9dpvj30u008c74z.jpg"></p>
-<p>这个是系列的第 8 节。这篇技术细节比较多，可以跳过你不感兴趣的部分。</p>
-<p>本节主要是文件格式和导出方法。</p>
-<h3 id="Bitmap-and-vector-位图和矢量图"><a href="#Bitmap-and-vector-位图和矢量图" class="headerlink" title="Bitmap and vector 位图和矢量图"></a>Bitmap and vector 位图和矢量图</h3><p>我们先来讲讲图片在电脑上是如何保存的。简单来说，有两种 2d 的图像文件类型，位图和矢量图。</p>
-<p>矢量图是点、线坐标，以及颜色信息的集合，可以用来创作能缩放到任意分辨率的图像。它主要的缺点在于难以用在表现细节的图像上，像是照片，你几乎无法在像素级别进行控制。尽管我们能创建出看起来像是像素画的矢量图，或者把像素画导出成矢量图格式，但几乎没人这么做。也有些例外情况，比如说要把像素画打印到很大的板子上。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">circle</span> <span class="attr">cx</span>=<span class="string">&quot;50&quot;</span> <span class="attr">cy</span>=<span class="string">&quot;50&quot;</span> <span class="attr">r</span>=<span class="string">&quot;40&quot;</span> <span class="attr">stroke</span>=<span class="string">&quot;black&quot;</span> <span class="attr">stroke-width</span>=<span class="string">&quot;3&quot;</span> <span class="attr">fill</span>=<span class="string">&quot;red&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdbgy43j30330310pw.jpg"></p>
-<p>而位图图像，才是像素画能够存在的原因。位图把图像想象成很大的网格，打印在屏幕上，每个像素都单独存储。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdh3fwmj30jn0770s1.jpg"></p>
-<p>这样保存的文件有时候比较大。一个 <code>1080*1920</code> 的图，意味着包含了 <code>2.073.600</code> 个独立像素需要保存，所以有时候需要用高效算法来压缩一下。</p>
-<h3 id="Image-compression-图像压缩"><a href="#Image-compression-图像压缩" class="headerlink" title="Image compression 图像压缩"></a>Image compression 图像压缩</h3><p>图像压缩是为了减小图像文件的体积，但是依据使用算法的不同，有些算法可能会损坏原数据。</p>
-<p>压缩可以是有损或者无损的。有损压缩一般对于照片或者大幅插画是可以接受的，但是像素画就不可以。用 JPG 格式保存像素画会造成随机的颜色变化，图形虚影。在压缩像素画时，我们必须检查是否用的是无损压缩，比如 PNG 格式。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdcrltyj30en07lmx2.jpg"></p>
-<p>总的来说，你的编辑器提供的图像格式，比如 Aseprite 的.aseprite 格式，或者 GraphicGale 的.gal 格式，可以安全的保存所有的图层和元数据。</p>
-<h3 id="在-Aseprite-里保存"><a href="#在-Aseprite-里保存" class="headerlink" title="在 Aseprite 里保存"></a>在 Aseprite 里保存</h3><p>在 Aseprite 里用保存对话框进行保存（Ctrl + S，或者 Ctrl + Shift + S 做另存为新文件）</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdgjejzj30hz0avdg0.jpg"></p>
-<p>很直观，是吧？在这里保存为 <code>.aseprite</code> 格式，保存所有文件信息，以便你以后可以回来做修改。</p>
-<h3 id="导出预览"><a href="#导出预览" class="headerlink" title="导出预览"></a>导出预览</h3><p>在完成了你的精灵图之后，你可能想要发布到什么地方，或者发给谁，但如果直接保存成 <code>.png</code> 文件，会有两个不好的地方：第一，你的图像会保存成一个扁平的文件，就是说失去了图层和元数据，第二，你的 <code>png</code> 文件可能会长这样：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvf351jhj30180180bx.jpg"></p>
-<p>导出做预览的正确方式是用导出对话框，在“文件 -&gt; 导出”（<code>File</code> -&gt;<code> Export</code>）菜单</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdidzz7j30b809ua9u.jpg"></p>
-<p>这个对话框里有非常多有用的选项，我们一个个看一下：</p>
-<p><strong>Output File 输出文件</strong>：文件名。如果你直接输入想使用的文件格式，Aseprite 就可以保存为这个格式。推荐静态的图用“<code>.png</code>”，动画用“<code>.gif</code>”。</p>
-<p>这里不会把保存命令的默认格式也改掉，所以不用担心这里选择的格式以后会把所有东西都拍扁。</p>
-<p><strong>Resize 缩放</strong>：像素画对于目前的显示器来说通常都太小，所以需要缩放。Aseprite 提供了很多的分辨率供你选择。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdixafaj30ft0760oy.jpg"></p>
-<p>你可能注意到了，只能缩放成 <code>100%</code> 的整数倍，不能有小数，比如 <code>250%</code>。这是因为非整数倍的缩放会损坏像素画。这是个像素画的严重缺陷，并且没有什么办法能避免。记住缩放一定要用整数倍（<code>200%</code>，<code>300%</code> 等），不要用非整数倍（<code>130%</code>，<code>250%</code> 等等）。</p>
-<p>如果你一定要满足某个大小，试着缩放到最接近的最小的倍数，然后把画布延伸到你需要的尺寸。</p>
-<p>通常放大 <code>200%</code> 或者 <code>300%</code> 发布到网上足够了。</p>
-<p><strong>Layers 图层：</strong>当你导出文件时，他会被拍扁，就是失去所有图层信息。这个选项可以让你选择导出时需要包含哪个图层。</p>
-<p><strong>Frames 帧：</strong>后面会详细讲，这里就是指要导出哪些帧。如果你有不止一帧，那么会发生两件事：</p>
-<ul>
-<li>如果导出格式支持动画，比如 <code>gif</code>，那么就会导出动画到这个文件。</li>
-<li>如果导出格式不支持动画，比如 <code>png</code>，那么 Aseprite 就会保存到多个文件，每帧一个。<br>（编辑注：现在 <code>APNG</code> 动画格式其实也已经得到了广泛支持）</li>
-</ul>
-<p><strong>Animation direction 动画方向：</strong>这里可以看到常用的方向，比如向前，向后等等，选最适合你的。这里的含义很直观，你也可以自己试试。</p>
-<p><strong>Apply pixel ratio 应用像素比例：</strong>这个不常用，如果你用的不是方形像素，选这个会把它压扁成方形。如果不确定这个是什么也没关系，他不会改变什么东西。</p>
-<p><strong>Export for Twitter 导出到 twitter：</strong>勾选后会让最后一帧动画持续时间整个动画的一半长度，完美适合 twitter MP4 循环。</p>
-<h3 id="Saving-for-the-engine-保存给引擎"><a href="#Saving-for-the-engine-保存给引擎" class="headerlink" title="Saving for the engine 保存给引擎"></a>Saving for the engine 保存给引擎</h3><p>游戏引擎各不相同，每个都需要你做特定处理，不过这里是一些通用的原则：</p>
-<ul>
-<li>首先是文件格式：尽管有些引擎支持 <code>tiff</code>，<code>gif</code>，甚至是 <code>bmp</code>，最好还是用 <code>png</code>。轻量，解压相对迅速，透明支持的很好。别用 <code>jpg</code>，<code>mp4</code>，或者其他的有损压缩格式。</li>
-<li>除非你有什么原因，否则不要在导出给游戏引擎时对像素画做缩放。正常情况下精灵应该是由引擎来做缩放，所有文件都应该保持原有分辨率。</li>
-<li>动画应该保存成图片序列，或者精灵表（sprite sheet）。不要用任何的视频格式，除非你在做什么特别的。</li>
-</ul>
-<h3 id="Saving-an-image-sequence-保存图片序列"><a href="#Saving-an-image-sequence-保存图片序列" class="headerlink" title="Saving an image sequence 保存图片序列"></a>Saving an image sequence 保存图片序列</h3><p>当把动画保存为 <code>png</code> 时，Aseprite 会创建一个图片序列，看起来这样:</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdbuf77j30ep045dfm.jpg"></p>
-<p>一般这就行了，不过我喜欢文件名从 <code>0</code> 开始，而且我喜欢两位数字。这个很容易实现：在文件名这，只要输入文件名后面加上”<code>00</code>“。这里我把文件名写为 <code>alert00.png</code>，结果是这样：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdhjw9lj30fs023gld.jpg"></p>
-<p>另外一个有用的技巧是加多个标签。在 Aseprite 里，你可以选择多组帧加上标签。这样一个文件里可以保存多个动画。像这样：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvddrdl3j30kj03i3ya.jpg"></p>
-<p>这有助于整理，导出也很方便，只要输入 <code>boss_&#123;tag&#125;&#123;tagframe00&#125;.png</code>，aseeprite 会这样导出：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdccrpkj30j10dijsi.jpg"></p>
-<p>很方便吧？如果你想多几个或少几个 <code>0</code>，可以把 <code>&#123;tagframe00&#125;</code> 改成 <code>&#123;tagframe000&#125;</code> 或者直接 <code>&#123;tagframe&#125;</code>。</p>
-<h3 id="保存精灵表-sprite-sheet"><a href="#保存精灵表-sprite-sheet" class="headerlink" title="保存精灵表 sprite sheet"></a>保存精灵表 sprite sheet</h3><p>有些游戏引擎推荐用精灵表，而不是多张图片，我们可以用“文件&gt;导出精灵表”（<code>File</code> &gt; <code>Export Sprite Sheet</code>）命令自动导出。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdec521j30m10e3a9x.jpg"></p>
-<p>这里我们有多个选项，可以根据所用的引擎做调整。有些需要在精灵之间添加边距，提供 <code>JSON</code> 描述信息，其他的可能支持去除透明部分。<code>Extrude</code> 拉伸可以让所有瓦片的边界颜色向外延伸一个像素，避免 3D 瓦片的接缝，如果你用的是 3D 引擎的话。不确定就什么都不选就好。</p>
-<p>对于行和列的数量设置，如果引擎没有特殊要求，我建议选择“最适合纹理的尺寸”（<code>Best fit for texture</code>），让 Aseprite 自动计算尺寸。</p>
-<p>这里需要注意的是，不勾选“<code>Output file</code>”并提供文件名时，点击导出不会生成文件的。你也可以选择“<code>Open generated sprite sheet</code>”，这会打开一个新文件，你可以手工保存。</p>
-<h3 id="切割工具和命令行"><a href="#切割工具和命令行" class="headerlink" title="切割工具和命令行"></a>切割工具和命令行</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdi043kj309m06wjr5.jpg"></p>
-<p>最后一个技巧时用切割工具 slice。切割工具适合于把多个图放在同一个画布的时候。我喜欢在给游戏场景制作素材时用这个，我可以把素材放在旁边随时比对尺寸。</p>
-<p>首先要把精灵放到一个文件，挨着。别互相重叠到一个矩形区域就好。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdepvv0j30gg0cx749.jpg"></p>
-<p>接着选择切割工具，开始在每个物体上做选取，注意不要把其他物体的部分包括进来。之后你可以双击其中一个，或者右键点击查看属性，给它命名。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdfbb6uj30u00cg0vg.jpg"></p>
-<p>现在，用命令行！如果你主要做美术，这部分听起来可能有点吓人，但我保证，只要简单了解并设置好之后，这能够自动处理很多枯燥的导出工作。</p>
-<p>首先你需要把 Aseprite 添加到环境变量里，如果你不清楚这个，可以看看这个教程<a href="https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables">https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables</a> （百度什么的搜一下设置环境变量）。把 <code>Aseprite.exe</code> 加入到环境变量里。</p>
-<p>现在，保存好 Aseprite 文件，在同一个文件夹打开命令行工具。如果不知道怎么做的话，在 windows 下，Shift + 右键，选择在当前位置打开命令行。</p>
-<p>接着是有意思的地方了，用到的命令！直接输入下面这个，把 <code>myFile</code> 替换成你的文件名，按回车：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Aseprite.exe -b &#39;.\myFile.aseprite&#39; --save-as &#39;&#123;slice&#125;.png&#39;</span><br></pre></td></tr></table></figure>
-<p>我们分解一下这个的含义：</p>
-<ul>
-<li><code>Aseprite.exe</code> 用来启动 Aseprite</li>
-<li><code>-b</code> 表示我们是在批处理模式。不加这个的话 Aseprite 就打开了，我们不需要。</li>
-<li><code>‘.\myFile.aseprite’</code> 是需要处理的文件名和拓展名。这个是相对于当前路径的。</li>
-<li><code>--save-as</code> 是保存选中文件的命令，它也会根据你给的文件名里带的标签去格式化文件名。</li>
-<li><code>&#39;&#123;slice&#125;.png&#39;</code> 是导出文件名, <code>&#123;slice&#125;</code> 是个标签，它表示文件名会用切割的名称并切割出来。</li>
-</ul>
-<p>如果想了解更多命令行信息，Aseprite 有个不错的使用教程可以看看：</p>
-<p><a href="https://www.aseprite.org/docs/cli/#filename-format">https://www.aseprite.org/docs/cli/#filename-format</a></p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在你了解到如何正确的保存像素画了！当有不确定的地方时，参考以下几点：</p>
-<ul>
-<li>永远用整数倍缩放，不用小数，不缩小。</li>
-<li>Aseprite 可以自动保存出图片序列。</li>
-<li>别用 <code>jpg</code> 和 <code>mp4</code>，以及其他的有损压缩图像格式。</li>
-<li>不确定时，就用 <code>png</code>，别缩放。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>开始画像素画(Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>进程与线程</title>
-    <url>/archives/44cf1d42.html</url>
-    <content><![CDATA[<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
-<a id="more"></a>
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>操作系统(Operating Systems)</category>
-      </categories>
-      <tags>
-        <tag>Mooc</tag>
-        <tag>OS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>操作系统概述</title>
-    <url>/archives/2ba40472.html</url>
-    <content><![CDATA[<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将介绍操作系统的基本知识与课程相关。</p>
-<a id="more"></a>
+    <url>/archives/33c82dd4.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gky8z6eslsg312w0lwhdu.gif"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/107924435/MTVOS?tracking_source=search_projects_recommended%7COS">MTV.OS</a> by 
+      <a href="https://www.behance.net/charlx">Charl- x</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><a id="more"></a>
 
 
 
@@ -4649,57 +4701,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#x79;&#x6f;&#x6e;&#x67;&#64;&#x74;&#x73;&#x69;&#x6e;&#103;&#x68;&#117;&#97;&#46;&#x65;&#100;&#x75;&#x2e;&#x63;&#110;">&#120;&#x79;&#x6f;&#x6e;&#x67;&#64;&#x74;&#x73;&#x69;&#x6e;&#103;&#x68;&#117;&#97;&#46;&#x65;&#100;&#x75;&#x2e;&#x63;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#121;&#111;&#110;&#x67;&#x40;&#x74;&#x73;&#x69;&#x6e;&#x67;&#x68;&#x75;&#97;&#46;&#101;&#100;&#117;&#x2e;&#99;&#110;">&#120;&#121;&#111;&#110;&#x67;&#x40;&#x74;&#x73;&#x69;&#x6e;&#x67;&#x68;&#x75;&#97;&#46;&#101;&#100;&#117;&#x2e;&#99;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#x75;&#99;&#x68;&#x65;&#110;&#x40;&#109;&#x61;&#105;&#x6c;&#x2e;&#116;&#115;&#105;&#110;&#x67;&#x68;&#117;&#97;&#x2e;&#101;&#100;&#117;&#46;&#x63;&#110;">&#121;&#x75;&#99;&#x68;&#x65;&#110;&#x40;&#109;&#x61;&#105;&#x6c;&#x2e;&#116;&#115;&#105;&#110;&#x67;&#x68;&#117;&#97;&#x2e;&#101;&#100;&#117;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#x75;&#x63;&#x68;&#x65;&#110;&#64;&#x6d;&#97;&#x69;&#108;&#x2e;&#116;&#x73;&#105;&#x6e;&#103;&#x68;&#x75;&#97;&#x2e;&#x65;&#x64;&#117;&#46;&#x63;&#x6e;">&#121;&#x75;&#x63;&#x68;&#x65;&#110;&#64;&#x6d;&#97;&#x69;&#108;&#x2e;&#116;&#x73;&#105;&#x6e;&#103;&#x68;&#x75;&#97;&#x2e;&#x65;&#x64;&#117;&#46;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#116;&#101;&#114;&#x6e;&#97;&#x6c;&#x2e;&#x6e;&#x30;&#56;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#101;&#116;&#101;&#114;&#x6e;&#97;&#x6c;&#x2e;&#x6e;&#x30;&#56;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#101;&#x74;&#x65;&#x72;&#x6e;&#x61;&#108;&#46;&#x6e;&#48;&#x38;&#64;&#103;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#101;&#x74;&#x65;&#x72;&#x6e;&#x61;&#108;&#46;&#x6e;&#48;&#x38;&#64;&#103;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#x62;&#106;&#x65;&#99;&#116;&#x6b;&#x75;&#x61;&#x6e;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#x6d;">&#111;&#x62;&#106;&#x65;&#99;&#116;&#x6b;&#x75;&#x61;&#x6e;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#98;&#106;&#101;&#x63;&#116;&#x6b;&#117;&#97;&#x6e;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">&#111;&#98;&#106;&#101;&#x63;&#116;&#x6b;&#117;&#97;&#x6e;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#x72;&#x64;&#102;&#x72;&#97;&#x6e;&#107;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#x63;&#x72;&#x64;&#102;&#x72;&#97;&#x6e;&#107;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#99;&#x72;&#100;&#x66;&#x72;&#x61;&#110;&#x6b;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;">&#99;&#x72;&#100;&#x66;&#x72;&#x61;&#110;&#x6b;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#x61;&#99;&#x63;&#x6f;&#114;&#x61;&#x77;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#116;&#x61;&#99;&#x63;&#x6f;&#114;&#x61;&#x77;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#116;&#97;&#x63;&#x63;&#111;&#x72;&#97;&#x77;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#116;&#97;&#x63;&#x63;&#111;&#x72;&#97;&#x77;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#x69;&#x6e;&#x79;&#x75;&#x6e;&#120;&#x69;&#x6e;&#x67;&#48;&#x30;&#x30;&#x31;&#x40;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;">&#120;&#x69;&#x6e;&#x79;&#x75;&#x6e;&#120;&#x69;&#x6e;&#x67;&#48;&#x30;&#x30;&#x31;&#x40;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#120;&#105;&#110;&#x79;&#x75;&#110;&#120;&#105;&#x6e;&#x67;&#48;&#48;&#48;&#x31;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#x6f;&#x6d;">&#120;&#105;&#110;&#x79;&#x75;&#110;&#120;&#105;&#x6e;&#x67;&#48;&#48;&#48;&#x31;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#110;&#111;&#x63;&#117;&#x69;&#108;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#103;&#110;&#111;&#x63;&#117;&#x69;&#108;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x6e;&#x6f;&#x63;&#x75;&#x69;&#108;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#x67;&#x6e;&#x6f;&#x63;&#x75;&#x69;&#108;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#121;&#x61;&#105;&#x72;&#x69;&#97;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x6d;&#121;&#x61;&#105;&#x72;&#x69;&#97;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#109;&#x79;&#97;&#x69;&#114;&#x69;&#97;&#64;&#103;&#109;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#109;&#x79;&#97;&#x69;&#114;&#x69;&#97;&#64;&#103;&#109;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#104;&#97;&#x6e;&#103;&#114;&#x61;&#x69;&#x6e;&#x39;&#49;&#x31;&#64;&#x31;&#54;&#51;&#46;&#99;&#x6f;&#x6d;">&#x7a;&#104;&#97;&#x6e;&#103;&#114;&#x61;&#x69;&#x6e;&#x39;&#49;&#x31;&#64;&#x31;&#54;&#51;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#x68;&#x61;&#110;&#103;&#x72;&#x61;&#105;&#x6e;&#x39;&#x31;&#49;&#64;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#109;">&#x7a;&#x68;&#x61;&#110;&#103;&#x72;&#x61;&#105;&#x6e;&#x39;&#x31;&#49;&#64;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#103;&#120;&#x78;&#49;&#50;&#48;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#103;&#103;&#120;&#x78;&#49;&#50;&#48;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#103;&#x78;&#120;&#x31;&#50;&#48;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#109;">&#x67;&#103;&#x78;&#120;&#x31;&#50;&#48;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -4746,7 +4798,7 @@
 </ul>
 </blockquote>
 <p>操作系统实际上就是在硬件上对上面的应用进行一层隔离，提供我们通常所见的逻辑和资源，比如进程、文件、地址空间，这都是在操作系统之后给用户程序看到的情况。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo4gw0wtj30gh0l6js7.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gl7l3p1tc6j30gh0l6js7.jpg"></p>
 <h4 id="操作系统软件的分类"><a href="#操作系统软件的分类" class="headerlink" title="操作系统软件的分类"></a>操作系统软件的分类</h4><blockquote>
 <ul>
 <li>软件<ul>
@@ -4863,41 +4915,19 @@
 <p>“天才是1%的灵感加上99%的汗水”<br>– Thomas Edison </p>
 </blockquote>
 <h3 id="操作系统实例"><a href="#操作系统实例" class="headerlink" title="操作系统实例"></a>操作系统实例</h3><p>最早的操作系统是在上世纪60年代由UNIX开始的，延伸出多种系统如BSD系列，现在大家见到的比较多的MacOS的前身也是UNIX。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo4jdkhkj31ao0t6gly.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gl9bgme4rmj31ao0t6wer.jpg"></p>
 <p>而到了90年代一个名叫Linux的大学生开始做Linux，他想做一个完全由自己掌控的系统。从它开始，一种新的开发模式诞生了，下面这些是Linux的延伸：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo4iblaej30qm0as74p.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gl9bk9hnf2j30qm0asdg9.jpg"></p>
 <p>Liunx以很好的开放性为核心思路，获得了巨大的关注与发展。而Windows系统则是完全不同的一类做法，它以专用和封闭的形式来发行操作系统。Windows从DOS系统开始，直至3.0以图形用户接口和应用系统来得到认可。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo4hq424j30zk0k0gmm.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gl9brf57pvj30zk0k0my8.jpg"></p>
 <p>我们可以看到从操作系统的角度来讲有两种完全不同的风格：开放和封闭。这两种类型我们很难说孰优孰劣，各有各的优缺点。</p>
-<h3 id="操作系统演变"><a href="#操作系统演变" class="headerlink" title="操作系统演变"></a>操作系统演变</h3><h4 id="操作系统为什么改变"><a href="#操作系统为什么改变" class="headerlink" title="操作系统为什么改变"></a>操作系统为什么改变</h4><blockquote>
-<ul>
-<li><p>操作系统的主要功能：硬件抽象和协调管理</p>
-</li>
-<li><p>原则：设计随着各种相关技术的改变而做出一定的改变</p>
-</li>
-<li><p>在过去二十年底层技术由极大的改变</p>
-</li>
-</ul>
-</blockquote>
-<p>从八十年代个人计算机出现到2012年硬件技术变化非常之大：CPU速度、处理能力、存储能力、硬盘容量，这种变化对操作系统有至关重要的影响。</p>
-<h4 id="操作系统的演变"><a href="#操作系统的演变" class="headerlink" title="操作系统的演变"></a>操作系统的演变</h4><p>操作系统也在不断变化：</p>
-<blockquote>
-<ul>
-<li>单用户系统</li>
-<li>批处理系统</li>
-<li>多程序系统</li>
-<li>分时</li>
-<li>个人计算机：每个用户一个系统</li>
-<li>分布式计算：每个用户多个系统</li>
-</ul>
-</blockquote>
-<h5 id="单用户系统（’45-’55）"><a href="#单用户系统（’45-’55）" class="headerlink" title="单用户系统（’45-’55）"></a>单用户系统（’45-’55）</h5><blockquote>
-<p>操作系统 = 装载器 + 通用子程序库</p>
-<p>问题： 昂贵组件的低利用率</p>
-<p>$\frac{执行时间}{执行时间+读卡时间}=%利用率$</p>
-</blockquote>
-<p>这段时间操作系统需要解决的事如何提高昂贵计算机的使用效率</p>
-<h3 id="操作系统结构"><a href="#操作系统结构" class="headerlink" title="操作系统结构"></a>操作系统结构</h3>]]></content>
+<h3 id="操作系统演变"><a href="#操作系统演变" class="headerlink" title="操作系统演变"></a>操作系统演变</h3><h3 id="操作系统结构"><a href="#操作系统结构" class="headerlink" title="操作系统结构"></a>操作系统结构</h3><div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/charlx">Charl- x</a>
+    </i>
+  </font>
+</div>]]></content>
       <categories>
         <category>操作系统(Operating Systems)</category>
       </categories>
@@ -4907,150 +4937,126 @@
       </tags>
   </entry>
   <entry>
-    <title>Aseprite教学-基本工具</title>
-    <url>/archives/3df0cd57.html</url>
-    <content><![CDATA[<p>本文基于 <a href="https://www.mortmort.net/">MortMort</a> 的 Aseprite 教学视频并进行总结，介绍像素绘制软件 Aseprite 中基本工具的使用，了解各种绘画工具的功能并能熟练使用快捷键切换。</p>
+    <title>进程与线程</title>
+    <url>/archives/44cf1d42.html</url>
+    <content><![CDATA[<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
 <a id="more"></a>
 
 
 
 
 
-<h3 id="Aseprite简介"><a href="#Aseprite简介" class="headerlink" title="Aseprite简介"></a>Aseprite简介</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8ds2ybj313g0m8wfq.jpg"></p>
-<p>目前主流的绘制像素作品的软件有两类，一类是 Adobe 公司著名的图像编辑软件  Phtotshop；另一类就是专注于像素绘制的轻量级软件,代表软件就是今天要介绍的 Aseprite，它具有以下的优点：</p>
-<ul>
-<li>类似于 Flash 的时间轴</li>
-<li>功能上专注于像素绘画</li>
-<li>简洁的界面</li>
-</ul>
-<p><a href="https://www.aseprite.org/">官网</a>上和 <a href="https://store.steampowered.com/app/431730/Aseprite/">steam</a> 都可以购买，推荐在 steam上等折扣时购买，价格在¥33～¥48之间，官网上也有了不能保存的试用版，可以先下载下来使用再决定是否购买。</p>
-<h3 id="基础工具"><a href="#基础工具" class="headerlink" title="基础工具"></a>基础工具</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8c6pb3j313g0m8gmq.jpg"></p>
-<h4 id="铅笔工具-Pen-tool"><a href="#铅笔工具-Pen-tool" class="headerlink" title="铅笔工具 Pen tool"></a>铅笔工具 Pen tool</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8lme4aj313g0m8t9m.jpg"></p>
-<ul>
-<li>基本的绘图工具</li>
-<li>快捷键：<code>B</code></li>
-<li>鼠标左键：绘制</li>
-<li>鼠标右键：擦除</li>
-</ul>
-<p>如果右键点击没有擦除，确保背景颜色设置为Mask。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8nz21hj313g0m8dgq.jpg"></p>
-<ul>
-<li>笔刷大小：可以通过输入数字或者滚动鼠标滚轮改变大小</li>
-<li>笔刷形状：可以改变为正方形或线形（可以改变角度）</li>
-</ul>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8h0nksj313g0m8ab4.jpg"></p>
-<ul>
-<li>Pixel-Perfect：勾选后再绘制会避免多个像素累积。它仍可能会产生锯齿状的线条，但还是可以让你更加轻松方便地绘制</li>
-<li>对称选项：View – Symmetry Options 蓝线为对称轴进行镜像（垂直/水平）绘制</li>
-</ul>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8m3o4wj313g0m8t9n.jpg"></p>
-<ul>
-<li>Alpha：透明度</li>
-<li>Opacity：不透明度</li>
-</ul>
-<p>勾选 Alpha 会出现 Opacity 选项，它的作用就是设置画笔的不透明度，颜色越画越深。</p>
-<hr>
-<h4 id="直线工具-Line-tool"><a href="#直线工具-Line-tool" class="headerlink" title="直线工具 Line tool"></a>直线工具 Line tool</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8e7qxyj313g0m8my0.jpg"></p>
-<ul>
-<li>绘制直线的工具</li>
-<li>快捷键：<code>L</code></li>
-</ul>
-<p>按下鼠标左键并拖拽就可以画出一条直线。当按住<code>Shift</code>画直线时会以一定的角度进行变化；而当按住<code>Ctrl</code>画直线时线从中心开始画而不是某一点。<code>Ctrl</code>和<code>Shift</code>也可以组合使用，画出一条从中心出发并且有一定角度的线。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8fi2orj313g0m8mxy.jpg"></p>
-<ul>
-<li>曲线工具</li>
-<li>快捷键：<code>Shift</code> + <code>L</code></li>
-</ul>
-<p>当第一次释放鼠标时会画出像之前一样的线条，但现在可以上下拖动它来画一条曲线。你可以进行两次曲线操作来绘制平滑曲线。</p>
-<hr>
-<h4 id="形状工具-Shape-tool"><a href="#形状工具-Shape-tool" class="headerlink" title="形状工具 Shape tool"></a>形状工具 Shape tool</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8iw8slj313g0m875d.jpg"></p>
-<ul>
-<li>矩形工具</li>
-<li>绘制矩形并填色</li>
-<li>快捷键：<code>U</code></li>
-</ul>
-<p>第一次按<code>U</code>绘制的是空心矩形，再按一次<code>U</code>绘制的是实心矩形（拖拽的时候仍然是空心，释放鼠标后变成实心）。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8f67k8j313g0m8dgu.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8el2i5j313g0m8mxx.jpg"></p>
-<ul>
-<li><p>椭圆工具</p>
-</li>
-<li><p>快捷键：<code>Shift</code> + <code>L</code></p>
-</li>
-</ul>
-<p>像线条工具一样，当按住<code>Ctrl</code>可以从中心点（开始的地方）开始画圆；当按住<code>Shift</code>可以画出正圆。也可以组合起来使用。</p>
-<hr>
-<h4 id="轮廓线工具-Contour"><a href="#轮廓线工具-Contour" class="headerlink" title="轮廓线工具 Contour"></a>轮廓线工具 Contour</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8jtilyj313g0m8755.jpg"></p>
-<ul>
-<li>轮廓线工具</li>
-<li>快速填色</li>
-<li>快捷键：<code>D</code></li>
-</ul>
-<p>轮廓线工具可能会认为是一般的绘画工具，但在闭环释放鼠标时它会给你绘制的东西填色。</p>
-<ul>
-<li>多边形工具</li>
-<li>快捷键：<code>Shift</code> + <code>D</code></li>
-</ul>
-<p>多边形工具可以认为是线条工具和轮廓线工具的组合。</p>
-<hr>
-<h4 id="鼠标操作-Mouse"><a href="#鼠标操作-Mouse" class="headerlink" title="鼠标操作 Mouse"></a>鼠标操作 Mouse</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8hdd8sj313g0m80tc.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8d5vl4j313g0m8755.jpg"></p>
-<ul>
-<li><p>移动画布：鼠标中键 / 空格 + 鼠标左键</p>
-</li>
-<li><p>居中适应屏幕：<code>Space</code></p>
-</li>
-<li><p>放大缩小画布：鼠标滚轮</p>
-</li>
-</ul>
-<hr>
-<h4 id="橡皮工具-Eraser"><a href="#橡皮工具-Eraser" class="headerlink" title="橡皮工具 Eraser"></a>橡皮工具 Eraser</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8gfy9ej313g0m8dgj.jpg"></p>
-<ul>
-<li>快捷键：<code>E</code></li>
-</ul>
-<p>擦除已有的内容，可以像铅笔工具一样改变橡皮的大小、形状，方法类似不再赘述。</p>
-<hr>
-<h4 id="吸管工具-Eyedropper"><a href="#吸管工具-Eyedropper" class="headerlink" title="吸管工具 Eyedropper"></a>吸管工具 Eyedropper</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8kt4atj313g0m8gmd.jpg"></p>
-<ul>
-<li>快捷键：<code>Alt</code> / <code>I</code></li>
-</ul>
-<p>通过吸管可以快速地在一些我想要采样和继续使用的颜色之间进行选择。</p>
-<hr>
-<h4 id="油漆桶工具-Paint-Bucket"><a href="#油漆桶工具-Paint-Bucket" class="headerlink" title="油漆桶工具 Paint Bucket"></a>油漆桶工具 Paint Bucket</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8cpv1oj313g0m8gmp.jpg"></p>
-<ul>
-<li>快捷键：<code>G</code></li>
-<li>Contiguous：连续选项</li>
-</ul>
-<p>油漆桶选择颜色并在轮廓内填充这个颜色，不勾选连续选项时会替换图层上所有的选中颜色，适合给有许多同色的情况上色。当我们只想填充部分区域时，可以配合选择工具使用。</p>
-<hr>
-<h4 id="选择工具-Selection"><a href="#选择工具-Selection" class="headerlink" title="选择工具 Selection"></a>选择工具 Selection</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8mkemgj313g0m8t9u.jpg"></p>
-<ul>
-<li><p>一般选择工具</p>
-</li>
-<li><p>快捷键：<code>M</code></p>
-</li>
-</ul>
-<p>拖拽会出现蚂蚁线的矩形，拖动就可以移动你的选区。选中区域后使用画笔工具就只在选区内绘制；也可以配合油漆工具填充颜色。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8jabapj313g0m8wfj.jpg"></p>
-<ul>
-<li><p>魔术棒</p>
-</li>
-<li><p>快捷键：<code>W</code></p>
-</li>
-</ul>
-<p>当使用魔术棒点击某个颜色或者某个地方，可以圈选特定轮廓，在一定情况下非常有用。取消选定只需要按住<code>Ctrl</code>+<code>D</code>或者鼠标右键点击。</p>
-<hr>
-<h4 id="图层基础"><a href="#图层基础" class="headerlink" title="图层基础"></a>图层基础</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8i09ujj313g0m8q3p.jpg"></p>
-<p>之前说过 Aseprite 与 Adobe 公司的 Flash比较相似，所有有接触过的朋友可能会问：图层在哪里显示呢？答案是按下<code>Tab</code>键即可显示图层与时间轴。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8nblsjj313g0m8aao.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8fzekuj313g0m8dgy.jpg"></p>
-<h3 id="复习回顾"><a href="#复习回顾" class="headerlink" title="复习回顾"></a>复习回顾</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8oetrcj313g0m8aax.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbo8p0ojhj313g0m875i.jpg"></p>
 ]]></content>
       <categories>
-        <category>像素美工(Pixel Art Designing)</category>
+        <category>操作系统(Operating Systems)</category>
       </categories>
       <tags>
+        <tag>Mooc</tag>
+        <tag>OS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开始画像素画#8</title>
+    <url>/archives/e5e6b796.html</url>
+    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解文件格式和导出方法。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdd9dpvj30u008c74z.jpg"></p>
+<p>这个是系列的第 8 节。这篇技术细节比较多，可以跳过你不感兴趣的部分。</p>
+<p>本节主要是文件格式和导出方法。</p>
+<h3 id="Bitmap-and-vector-位图和矢量图"><a href="#Bitmap-and-vector-位图和矢量图" class="headerlink" title="Bitmap and vector 位图和矢量图"></a>Bitmap and vector 位图和矢量图</h3><p>我们先来讲讲图片在电脑上是如何保存的。简单来说，有两种 2d 的图像文件类型，位图和矢量图。</p>
+<p>矢量图是点、线坐标，以及颜色信息的集合，可以用来创作能缩放到任意分辨率的图像。它主要的缺点在于难以用在表现细节的图像上，像是照片，你几乎无法在像素级别进行控制。尽管我们能创建出看起来像是像素画的矢量图，或者把像素画导出成矢量图格式，但几乎没人这么做。也有些例外情况，比如说要把像素画打印到很大的板子上。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">circle</span> <span class="attr">cx</span>=<span class="string">&quot;50&quot;</span> <span class="attr">cy</span>=<span class="string">&quot;50&quot;</span> <span class="attr">r</span>=<span class="string">&quot;40&quot;</span> <span class="attr">stroke</span>=<span class="string">&quot;black&quot;</span> <span class="attr">stroke-width</span>=<span class="string">&quot;3&quot;</span> <span class="attr">fill</span>=<span class="string">&quot;red&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdbgy43j30330310pw.jpg"></p>
+<p>而位图图像，才是像素画能够存在的原因。位图把图像想象成很大的网格，打印在屏幕上，每个像素都单独存储。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdh3fwmj30jn0770s1.jpg"></p>
+<p>这样保存的文件有时候比较大。一个 <code>1080*1920</code> 的图，意味着包含了 <code>2.073.600</code> 个独立像素需要保存，所以有时候需要用高效算法来压缩一下。</p>
+<h3 id="Image-compression-图像压缩"><a href="#Image-compression-图像压缩" class="headerlink" title="Image compression 图像压缩"></a>Image compression 图像压缩</h3><p>图像压缩是为了减小图像文件的体积，但是依据使用算法的不同，有些算法可能会损坏原数据。</p>
+<p>压缩可以是有损或者无损的。有损压缩一般对于照片或者大幅插画是可以接受的，但是像素画就不可以。用 JPG 格式保存像素画会造成随机的颜色变化，图形虚影。在压缩像素画时，我们必须检查是否用的是无损压缩，比如 PNG 格式。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdcrltyj30en07lmx2.jpg"></p>
+<p>总的来说，你的编辑器提供的图像格式，比如 Aseprite 的.aseprite 格式，或者 GraphicGale 的.gal 格式，可以安全的保存所有的图层和元数据。</p>
+<h3 id="在-Aseprite-里保存"><a href="#在-Aseprite-里保存" class="headerlink" title="在 Aseprite 里保存"></a>在 Aseprite 里保存</h3><p>在 Aseprite 里用保存对话框进行保存（Ctrl + S，或者 Ctrl + Shift + S 做另存为新文件）</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdgjejzj30hz0avdg0.jpg"></p>
+<p>很直观，是吧？在这里保存为 <code>.aseprite</code> 格式，保存所有文件信息，以便你以后可以回来做修改。</p>
+<h3 id="导出预览"><a href="#导出预览" class="headerlink" title="导出预览"></a>导出预览</h3><p>在完成了你的精灵图之后，你可能想要发布到什么地方，或者发给谁，但如果直接保存成 <code>.png</code> 文件，会有两个不好的地方：第一，你的图像会保存成一个扁平的文件，就是说失去了图层和元数据，第二，你的 <code>png</code> 文件可能会长这样：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvf351jhj30180180bx.jpg"></p>
+<p>导出做预览的正确方式是用导出对话框，在“文件 -&gt; 导出”（<code>File</code> -&gt;<code> Export</code>）菜单</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdidzz7j30b809ua9u.jpg"></p>
+<p>这个对话框里有非常多有用的选项，我们一个个看一下：</p>
+<p><strong>Output File 输出文件</strong>：文件名。如果你直接输入想使用的文件格式，Aseprite 就可以保存为这个格式。推荐静态的图用“<code>.png</code>”，动画用“<code>.gif</code>”。</p>
+<p>这里不会把保存命令的默认格式也改掉，所以不用担心这里选择的格式以后会把所有东西都拍扁。</p>
+<p><strong>Resize 缩放</strong>：像素画对于目前的显示器来说通常都太小，所以需要缩放。Aseprite 提供了很多的分辨率供你选择。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdixafaj30ft0760oy.jpg"></p>
+<p>你可能注意到了，只能缩放成 <code>100%</code> 的整数倍，不能有小数，比如 <code>250%</code>。这是因为非整数倍的缩放会损坏像素画。这是个像素画的严重缺陷，并且没有什么办法能避免。记住缩放一定要用整数倍（<code>200%</code>，<code>300%</code> 等），不要用非整数倍（<code>130%</code>，<code>250%</code> 等等）。</p>
+<p>如果你一定要满足某个大小，试着缩放到最接近的最小的倍数，然后把画布延伸到你需要的尺寸。</p>
+<p>通常放大 <code>200%</code> 或者 <code>300%</code> 发布到网上足够了。</p>
+<p><strong>Layers 图层：</strong>当你导出文件时，他会被拍扁，就是失去所有图层信息。这个选项可以让你选择导出时需要包含哪个图层。</p>
+<p><strong>Frames 帧：</strong>后面会详细讲，这里就是指要导出哪些帧。如果你有不止一帧，那么会发生两件事：</p>
+<ul>
+<li>如果导出格式支持动画，比如 <code>gif</code>，那么就会导出动画到这个文件。</li>
+<li>如果导出格式不支持动画，比如 <code>png</code>，那么 Aseprite 就会保存到多个文件，每帧一个。<br>（编辑注：现在 <code>APNG</code> 动画格式其实也已经得到了广泛支持）</li>
+</ul>
+<p><strong>Animation direction 动画方向：</strong>这里可以看到常用的方向，比如向前，向后等等，选最适合你的。这里的含义很直观，你也可以自己试试。</p>
+<p><strong>Apply pixel ratio 应用像素比例：</strong>这个不常用，如果你用的不是方形像素，选这个会把它压扁成方形。如果不确定这个是什么也没关系，他不会改变什么东西。</p>
+<p><strong>Export for Twitter 导出到 twitter：</strong>勾选后会让最后一帧动画持续时间整个动画的一半长度，完美适合 twitter MP4 循环。</p>
+<h3 id="Saving-for-the-engine-保存给引擎"><a href="#Saving-for-the-engine-保存给引擎" class="headerlink" title="Saving for the engine 保存给引擎"></a>Saving for the engine 保存给引擎</h3><p>游戏引擎各不相同，每个都需要你做特定处理，不过这里是一些通用的原则：</p>
+<ul>
+<li>首先是文件格式：尽管有些引擎支持 <code>tiff</code>，<code>gif</code>，甚至是 <code>bmp</code>，最好还是用 <code>png</code>。轻量，解压相对迅速，透明支持的很好。别用 <code>jpg</code>，<code>mp4</code>，或者其他的有损压缩格式。</li>
+<li>除非你有什么原因，否则不要在导出给游戏引擎时对像素画做缩放。正常情况下精灵应该是由引擎来做缩放，所有文件都应该保持原有分辨率。</li>
+<li>动画应该保存成图片序列，或者精灵表（sprite sheet）。不要用任何的视频格式，除非你在做什么特别的。</li>
+</ul>
+<h3 id="Saving-an-image-sequence-保存图片序列"><a href="#Saving-an-image-sequence-保存图片序列" class="headerlink" title="Saving an image sequence 保存图片序列"></a>Saving an image sequence 保存图片序列</h3><p>当把动画保存为 <code>png</code> 时，Aseprite 会创建一个图片序列，看起来这样:</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdbuf77j30ep045dfm.jpg"></p>
+<p>一般这就行了，不过我喜欢文件名从 <code>0</code> 开始，而且我喜欢两位数字。这个很容易实现：在文件名这，只要输入文件名后面加上”<code>00</code>“。这里我把文件名写为 <code>alert00.png</code>，结果是这样：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdhjw9lj30fs023gld.jpg"></p>
+<p>另外一个有用的技巧是加多个标签。在 Aseprite 里，你可以选择多组帧加上标签。这样一个文件里可以保存多个动画。像这样：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvddrdl3j30kj03i3ya.jpg"></p>
+<p>这有助于整理，导出也很方便，只要输入 <code>boss_&#123;tag&#125;&#123;tagframe00&#125;.png</code>，aseeprite 会这样导出：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdccrpkj30j10dijsi.jpg"></p>
+<p>很方便吧？如果你想多几个或少几个 <code>0</code>，可以把 <code>&#123;tagframe00&#125;</code> 改成 <code>&#123;tagframe000&#125;</code> 或者直接 <code>&#123;tagframe&#125;</code>。</p>
+<h3 id="保存精灵表-sprite-sheet"><a href="#保存精灵表-sprite-sheet" class="headerlink" title="保存精灵表 sprite sheet"></a>保存精灵表 sprite sheet</h3><p>有些游戏引擎推荐用精灵表，而不是多张图片，我们可以用“文件&gt;导出精灵表”（<code>File</code> &gt; <code>Export Sprite Sheet</code>）命令自动导出。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdec521j30m10e3a9x.jpg"></p>
+<p>这里我们有多个选项，可以根据所用的引擎做调整。有些需要在精灵之间添加边距，提供 <code>JSON</code> 描述信息，其他的可能支持去除透明部分。<code>Extrude</code> 拉伸可以让所有瓦片的边界颜色向外延伸一个像素，避免 3D 瓦片的接缝，如果你用的是 3D 引擎的话。不确定就什么都不选就好。</p>
+<p>对于行和列的数量设置，如果引擎没有特殊要求，我建议选择“最适合纹理的尺寸”（<code>Best fit for texture</code>），让 Aseprite 自动计算尺寸。</p>
+<p>这里需要注意的是，不勾选“<code>Output file</code>”并提供文件名时，点击导出不会生成文件的。你也可以选择“<code>Open generated sprite sheet</code>”，这会打开一个新文件，你可以手工保存。</p>
+<h3 id="切割工具和命令行"><a href="#切割工具和命令行" class="headerlink" title="切割工具和命令行"></a>切割工具和命令行</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdi043kj309m06wjr5.jpg"></p>
+<p>最后一个技巧时用切割工具 slice。切割工具适合于把多个图放在同一个画布的时候。我喜欢在给游戏场景制作素材时用这个，我可以把素材放在旁边随时比对尺寸。</p>
+<p>首先要把精灵放到一个文件，挨着。别互相重叠到一个矩形区域就好。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdepvv0j30gg0cx749.jpg"></p>
+<p>接着选择切割工具，开始在每个物体上做选取，注意不要把其他物体的部分包括进来。之后你可以双击其中一个，或者右键点击查看属性，给它命名。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdfbb6uj30u00cg0vg.jpg"></p>
+<p>现在，用命令行！如果你主要做美术，这部分听起来可能有点吓人，但我保证，只要简单了解并设置好之后，这能够自动处理很多枯燥的导出工作。</p>
+<p>首先你需要把 Aseprite 添加到环境变量里，如果你不清楚这个，可以看看这个教程<a href="https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables">https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables</a> （百度什么的搜一下设置环境变量）。把 <code>Aseprite.exe</code> 加入到环境变量里。</p>
+<p>现在，保存好 Aseprite 文件，在同一个文件夹打开命令行工具。如果不知道怎么做的话，在 windows 下，Shift + 右键，选择在当前位置打开命令行。</p>
+<p>接着是有意思的地方了，用到的命令！直接输入下面这个，把 <code>myFile</code> 替换成你的文件名，按回车：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Aseprite.exe -b &#39;.\myFile.aseprite&#39; --save-as &#39;&#123;slice&#125;.png&#39;</span><br></pre></td></tr></table></figure>
+<p>我们分解一下这个的含义：</p>
+<ul>
+<li><code>Aseprite.exe</code> 用来启动 Aseprite</li>
+<li><code>-b</code> 表示我们是在批处理模式。不加这个的话 Aseprite 就打开了，我们不需要。</li>
+<li><code>‘.\myFile.aseprite’</code> 是需要处理的文件名和拓展名。这个是相对于当前路径的。</li>
+<li><code>--save-as</code> 是保存选中文件的命令，它也会根据你给的文件名里带的标签去格式化文件名。</li>
+<li><code>&#39;&#123;slice&#125;.png&#39;</code> 是导出文件名, <code>&#123;slice&#125;</code> 是个标签，它表示文件名会用切割的名称并切割出来。</li>
+</ul>
+<p>如果想了解更多命令行信息，Aseprite 有个不错的使用教程可以看看：</p>
+<p><a href="https://www.aseprite.org/docs/cli/#filename-format">https://www.aseprite.org/docs/cli/#filename-format</a></p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在你了解到如何正确的保存像素画了！当有不确定的地方时，参考以下几点：</p>
+<ul>
+<li>永远用整数倍缩放，不用小数，不缩小。</li>
+<li>Aseprite 可以自动保存出图片序列。</li>
+<li>别用 <code>jpg</code> 和 <code>mp4</code>，以及其他的有损压缩图像格式。</li>
+<li>不确定时，就用 <code>png</code>，别缩放。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>开始画像素画(Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
         <tag>Aseprite</tag>
@@ -5059,7 +5065,8 @@
   <entry>
     <title>Aseprite教学-Aseprite编译教程</title>
     <url>/archives/5d59087d.html</url>
-    <content><![CDATA[<p>本文将根据官方的编译文档从Windows、MacOS和Linux三个平台为基础分别介绍Aseprite的编译安装方法，以此免费获取开源的Aseprite。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4nt7r5jxj314w0i3788.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将根据官方文档介绍Aseprite的编译安装方法。</p>
 <a id="more"></a>
 
 
@@ -5145,38 +5152,162 @@
       </tags>
   </entry>
   <entry>
-    <title>Aseprite教学-动画</title>
-    <url>/archives/88d7e2f9.html</url>
-    <content><![CDATA[<a id="more"></a>
+    <title>Aseprite教学-基本工具</title>
+    <url>/archives/3df0cd57.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5u3va259j30xc0irh5u.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/91900373/Dawn">Dawn</a> by 
+      <a href="https://www.behance.net/KenzeWeeHonMing">Kenze Wee</a>
+    </i>
+  </font>
+</div>
 
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文基于 <a href="https://www.mortmort.net/">MortMort</a> 的 Aseprite 教学视频并进行总结，介绍像素绘制软件 Aseprite 中基本工具的使用，了解各种绘画工具的功能并能熟练使用快捷键切换。通过本系列的学习，你可以创造出属于自己的像素作品，开始你的像素冒险！</p>
+<a id="more"></a>
 
+<h3 id="Aseprite简介"><a href="#Aseprite简介" class="headerlink" title="Aseprite简介"></a>Aseprite简介</h3><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1geymabsfdej313g0m8glk.jpg"></p>
+<p>目前主流的绘制像素作品的软件有两类，一类是 Adobe 公司著名的图像编辑软件  Phtotshop；另一类就是专注于像素绘制的轻量级软件,代表软件就是今天要介绍的 Aseprite，它具有以下的优点：</p>
+<ul>
+<li>类似于 Flash 的时间轴</li>
+<li>功能上专注于像素绘画</li>
+<li>简洁的界面</li>
+</ul>
+<p><a href="https://www.aseprite.org/">官网</a>上和 <a href="https://store.steampowered.com/app/431730/Aseprite/">steam</a> 都可以购买，推荐在 steam上等折扣时购买，价格在¥33～¥48之间，官网上也有了不能保存的试用版，可以先下载下来使用再决定是否购买。</p>
+<h3 id="基础工具"><a href="#基础工具" class="headerlink" title="基础工具"></a>基础工具</h3><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5wt3fyj9j313g0m83yh.jpg"></p>
+<h4 id="铅笔工具-Pen-tool"><a href="#铅笔工具-Pen-tool" class="headerlink" title="铅笔工具 Pen tool"></a>铅笔工具 Pen tool</h4><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5wydtwl7j313g0m8748.jpg"></p>
+<ul>
+<li>基本的绘图工具</li>
+<li>快捷键：<code>B</code></li>
+<li>鼠标左键：绘制</li>
+<li>鼠标右键：擦除</li>
+</ul>
+<p>如果右键点击没有擦除，确保背景颜色设置为Mask。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5xl74nwmj313g0m8dfs.jpg"></p>
+<ul>
+<li>笔刷大小：可以通过输入数字或者滚动鼠标滚轮改变大小</li>
+<li>笔刷形状：可以改变为正方形或线形（可以改变角度）</li>
+</ul>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5xlg41xrj313g0m8dfs.jpg"></p>
+<ul>
+<li>Pixel-Perfect：勾选后再绘制会避免多个像素累积。它仍可能会产生锯齿状的线条，但还是可以让你更加轻松方便地绘制</li>
+<li>对称选项：View – Symmetry Options 蓝线为对称轴进行镜像（垂直/水平）绘制</li>
+</ul>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5xlm8jq1j313g0m8glk.jpg"></p>
+<ul>
+<li>Alpha：透明度</li>
+<li>Opacity：不透明度</li>
+</ul>
+<p>勾选 Alpha 会出现 Opacity 选项，它的作用就是设置画笔的不透明度，颜色越画越深。</p>
+<hr>
+<h4 id="直线工具-Line-tool"><a href="#直线工具-Line-tool" class="headerlink" title="直线工具 Line tool"></a>直线工具 Line tool</h4><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5xlywbfxj313g0m8748.jpg"></p>
+<ul>
+<li>绘制直线的工具</li>
+<li>快捷键：<code>L</code></li>
+</ul>
+<p>按下鼠标左键并拖拽就可以画出一条直线。当按住<code>Shift</code>画直线时会以一定的角度进行变化；而当按住<code>Ctrl</code>画直线时线从中心开始画而不是某一点。<code>Ctrl</code>和<code>Shift</code>也可以组合使用，画出一条从中心出发并且有一定角度的线。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5xmtn8a4j313g0m8t8n.jpg"></p>
+<ul>
+<li>曲线工具</li>
+<li>快捷键：<code>Shift</code> + <code>L</code></li>
+</ul>
+<p>当第一次释放鼠标时会画出像之前一样的线条，但现在可以上下拖动它来画一条曲线。你可以进行两次曲线操作来绘制平滑曲线。</p>
+<hr>
+<h4 id="形状工具-Shape-tool"><a href="#形状工具-Shape-tool" class="headerlink" title="形状工具 Shape tool"></a>形状工具 Shape tool</h4><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5xmxthn2j313g0m8dfs.jpg"></p>
+<ul>
+<li>矩形工具</li>
+<li>绘制矩形并填色</li>
+<li>快捷键：<code>U</code></li>
+</ul>
+<p>第一次按<code>U</code>绘制的是空心矩形，再按一次<code>U</code>绘制的是实心矩形（拖拽的时候仍然是空心，释放鼠标后变成实心）。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5xnsqkufj313g0m8dfs.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5xnqe6gtj313g0m8wef.jpg"></p>
+<ul>
+<li><p>椭圆工具</p>
+</li>
+<li><p>快捷键：<code>Shift</code> + <code>L</code></p>
+</li>
+</ul>
+<p>像线条工具一样，当按住<code>Ctrl</code>可以从中心点（开始的地方）开始画圆；当按住<code>Shift</code>可以画出正圆。也可以组合起来使用。</p>
+<hr>
+<h4 id="轮廓线工具-Contour"><a href="#轮廓线工具-Contour" class="headerlink" title="轮廓线工具 Contour"></a>轮廓线工具 Contour</h4><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5xnmpi9ej313g0m8748.jpg"></p>
+<ul>
+<li>轮廓线工具</li>
+<li>快速填色</li>
+<li>快捷键：<code>D</code></li>
+</ul>
+<p>轮廓线工具可能会认为是一般的绘画工具，但在闭环释放鼠标时它会给你绘制的东西填色。</p>
+<ul>
+<li>多边形工具</li>
+<li>快捷键：<code>Shift</code> + <code>D</code></li>
+</ul>
+<p>多边形工具可以认为是线条工具和轮廓线工具的组合。</p>
+<hr>
+<h4 id="鼠标操作-Mouse"><a href="#鼠标操作-Mouse" class="headerlink" title="鼠标操作 Mouse"></a>鼠标操作 Mouse</h4><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5xnn3mpwj313g0m8dfr.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5xnlo6frj313g0m8748.jpg"></p>
+<ul>
+<li><p>移动画布：鼠标中键 / 空格 + 鼠标左键</p>
+</li>
+<li><p>居中适应屏幕：<code>Space</code></p>
+</li>
+<li><p>放大缩小画布：鼠标滚轮</p>
+</li>
+</ul>
+<hr>
+<h4 id="橡皮工具-Eraser"><a href="#橡皮工具-Eraser" class="headerlink" title="橡皮工具 Eraser"></a>橡皮工具 Eraser</h4><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5xno2ecdj313g0m80so.jpg"></p>
+<ul>
+<li>快捷键：<code>E</code></li>
+</ul>
+<p>擦除已有的内容，可以像铅笔工具一样改变橡皮的大小、形状，方法类似不再赘述。</p>
+<hr>
+<h4 id="吸管工具-Eyedropper"><a href="#吸管工具-Eyedropper" class="headerlink" title="吸管工具 Eyedropper"></a>吸管工具 Eyedropper</h4><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5xrkktzzj313g0m8748.jpg"></p>
+<ul>
+<li>快捷键：<code>Alt</code> / <code>I</code></li>
+</ul>
+<p>通过吸管可以快速地在一些我想要采样和继续使用的颜色之间进行选择。</p>
+<hr>
+<h4 id="油漆桶工具-Paint-Bucket"><a href="#油漆桶工具-Paint-Bucket" class="headerlink" title="油漆桶工具 Paint Bucket"></a>油漆桶工具 Paint Bucket</h4><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5xnnmhqgj313g0m8gll.jpg"></p>
+<ul>
+<li>快捷键：<code>G</code></li>
+<li>Contiguous：连续选项</li>
+</ul>
+<p>油漆桶选择颜色并在轮廓内填充这个颜色，不勾选连续选项时会替换图层上所有的选中颜色，适合给有许多同色的情况上色。当我们只想填充部分区域时，可以配合选择工具使用。</p>
+<hr>
+<h4 id="选择工具-Selection"><a href="#选择工具-Selection" class="headerlink" title="选择工具 Selection"></a>选择工具 Selection</h4><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5xnoko35j313g0m8gll.jpg"></p>
+<ul>
+<li><p>一般选择工具</p>
+</li>
+<li><p>快捷键：<code>M</code></p>
+</li>
+</ul>
+<p>拖拽会出现蚂蚁线的矩形，拖动就可以移动你的选区。选中区域后使用画笔工具就只在选区内绘制；也可以配合油漆工具填充颜色。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf5xnoykuuj313g0m8weg.jpg"></p>
+<ul>
+<li><p>魔术棒</p>
+</li>
+<li><p>快捷键：<code>W</code></p>
+</li>
+</ul>
+<p>当使用魔术棒点击某个颜色或者某个地方，可以圈选特定轮廓，在一定情况下非常有用。取消选定只需要按住<code>Ctrl</code>+<code>D</code>或者鼠标右键点击。</p>
+<hr>
+<h4 id="图层基础"><a href="#图层基础" class="headerlink" title="图层基础"></a>图层基础</h4><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggoifkhcb2j313g0m8mx3.jpg"></p>
+<p>之前说过 Aseprite 与 Adobe 公司的 Flash比较相似，所有有接触过的朋友可能会问：图层在哪里显示呢？答案是按下<code>Tab</code>键即可显示图层与时间轴。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggoih50gb7j313g0m8dfr.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggoiieh5ohj313g0m8748.jpg"></p>
+<h3 id="复习回顾"><a href="#复习回顾" class="headerlink" title="复习回顾"></a>复习回顾</h3><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggoi3waphej313g0m83yg.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggoi49gcflj313g0m8aa1.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/KenzeWeeHonMing">Kenze Wee</a>
+    </i>
+  </font>
+</div>
 
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukz3p07j313g0m8dfr.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul1wou3j313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukrnscmj313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukv9f17j313g0m8jra.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul2b2hij313g0m8gli.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glouksphvbj313g0m8dfq.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukzl9ggj313g0m8gli.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul2q4r2j313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukw8s9cj313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukr1vkjj313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukzvf2oj313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukwqxqcj313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul4oipdj313g0m8gli.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul3q1tjj313g0m8dfq.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul52fhcj313g0m8gli.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul0e2x2j313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukxky4bj313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul44c0wj313g0m83yf.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul0yb3ej313g0m8a9z.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul19vjsj313g0m83yf.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul37d40j313g0m8dfr.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukycj5kj313g0m8a9z.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukugrr3j313g0m80sn.jpg"></p>
 ]]></content>
       <categories>
-        <category>像素美工(Pixel Art Designing)</category>
+        <category>像素美工 (Pixel Art Designing)</category>
       </categories>
       <tags>
         <tag>Art</tag>
@@ -5232,6 +5363,46 @@
       </tags>
   </entry>
   <entry>
+    <title>Aseprite教学-动画</title>
+    <url>/archives/88d7e2f9.html</url>
+    <content><![CDATA[<a id="more"></a>
+
+
+
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukz3p07j313g0m8dfr.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul1wou3j313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukrnscmj313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukv9f17j313g0m8jra.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul2b2hij313g0m8gli.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glouksphvbj313g0m8dfq.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukzl9ggj313g0m8gli.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul2q4r2j313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukw8s9cj313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukr1vkjj313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukzvf2oj313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukwqxqcj313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul4oipdj313g0m8gli.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul3q1tjj313g0m8dfq.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul52fhcj313g0m8gli.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul0e2x2j313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukxky4bj313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul44c0wj313g0m83yf.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul0yb3ej313g0m8a9z.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul19vjsj313g0m83yf.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul37d40j313g0m8dfr.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukycj5kj313g0m8a9z.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukugrr3j313g0m80sn.jpg"></p>
+]]></content>
+      <categories>
+        <category>像素美工(Pixel Art Designing)</category>
+      </categories>
+      <tags>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Aseprite教学-绘画技巧与常见问题</title>
     <url>/archives/4db0f4e3.html</url>
     <content><![CDATA[<p>本文将列举像素绘画中的绘画技巧与常见问题。</p>
@@ -5274,7 +5445,17 @@
   <entry>
     <title>PAT (Basic Level) Practice</title>
     <url>/archives/d04381bb.html</url>
-    <content><![CDATA[<p>PAT（程序设计类实验辅助教学平台）乙级题库是为初学者准备的考察编程水平和数据结构的基础题库，本文将记录PAT乙级题库记录的做题过程。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghj9h9wmvbj30xc0irjwp.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/77277335/Space-O-Lina?tracking_source=for_you_feed_recommended">Space-O-Lina</a> by 
+      <a href="https://www.behance.net/leandroleanza">Leandro Leanza</a>
+    </i>
+  </font>
+</div>
+
+
 <a id="more"></a>
 
 
@@ -5917,21 +6098,20 @@
       </tags>
   </entry>
   <entry>
-    <title>Pico-8 精彩代码--植物生长解析</title>
-    <url>/archives/2c20cac3.html</url>
-    <content><![CDATA[<p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将学习如何实现植物生长的效果。</p>
+    <title>Pico-8 精彩代码解析</title>
+    <url>/archives/9c0e841f.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkqxm3p0xkj30m80cidgo.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。</p>
 <a id="more"></a>
 
 
 
-
-
 <h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p>效果截图：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq0g2efhg30hq07maji.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkr3rkhbppg30hq07maji.gif"></p>
 <h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p><strong>作者：</strong>2DArray </p>
 <p><strong>来源：</strong>twitter</p>
 <p>一个有趣的植物沿着物体生长的 gfx，作者在 twitter 上贴了代码</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq0gejc8j30u00e0gml.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkr3rlam8lj30u00e0gml.jpg"></p>
 <p>代码比较简单，我格式化了一下，只有 19 行：</p>
 <figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">cls()<span class="built_in">print</span>(<span class="string">&quot;grow&quot;</span>)</span><br><span class="line">line(<span class="number">0</span>,<span class="number">5</span>,<span class="number">15</span>,<span class="number">5</span>,<span class="number">11</span>)</span><br><span class="line">memcpy(<span class="number">0</span>,<span class="number">24576</span>,<span class="number">384</span>)</span><br><span class="line">cls()</span><br><span class="line">sspr(<span class="number">0</span>,<span class="number">0</span>,<span class="number">15</span>,<span class="number">6</span>,<span class="number">11</span>,<span class="number">70</span>,<span class="number">105</span>,<span class="number">35</span>)::_::</span><br><span class="line">x=rnd(<span class="number">128</span>)</span><br><span class="line">c=<span class="number">0</span></span><br><span class="line">y=rnd(<span class="number">64</span>)+<span class="number">64</span></span><br><span class="line">u=x+rnd(<span class="number">2</span>)<span class="number">-1</span></span><br><span class="line">v=y<span class="number">-1</span><span class="keyword">for</span> a=u<span class="number">-1</span>,u+<span class="number">1</span> <span class="keyword">do</span></span><br><span class="line"> <span class="keyword">for</span> b=v<span class="number">-1</span>,v+<span class="number">1</span> <span class="keyword">do</span></span><br><span class="line">  <span class="keyword">if</span>(pget(a,b)%<span class="number">6</span>&gt;<span class="number">0</span>)c+=<span class="number">1</span></span><br><span class="line"> endendif(pget(x,y)%<span class="number">6</span>&gt;<span class="number">0</span> <span class="keyword">and</span>(pget(u,v)==<span class="number">6</span> <span class="keyword">or</span> rnd()&lt;<span class="number">.1</span>) <span class="keyword">and</span> c&lt;<span class="number">6</span>) pset(u,v,<span class="number">3</span>+c%<span class="number">2</span>*<span class="number">8</span>)<span class="keyword">goto</span> _</span><br></pre></td></tr></table></figure>
 
@@ -5944,7 +6124,7 @@
 <li><code>u</code> 随机取 <code>[x-1,x,x+1]</code> 在 <code>x</code> 值左中右 <code>3</code> 个值中随机， <code>v =y-1</code> 是 <code>y</code> 值上方的点</li>
 </ul>
 <p>这样算法的意图就比较明显了，在显示范围内随机取点，在该点上方左中右方向上延伸，以模拟植物向上分叉生长的感觉。我们可以把 <code>u</code> 改成  <code>u=x</code> 使得植物只向上方生长。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq0h147sg30hs08r45w.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkr3ws7afsg30hs08r45w.gif"></p>
 <p>也可以令 <code>v=y+1</code> 使像素点向下延伸。</p>
 <p>第 13-17 行的两个嵌套 <code>for</code> 循环，将 <code>(u, v)</code> 所在的附近九宫格内的像素点遍历一遍；<code>if (pget(a,b) %6 &gt; 0)c += 1</code>，取其颜色值 (<code>0-15</code>) 与 <code>6</code> 取余，大于 <code>0</code> 则 <code>c</code> 加一。其实就是计算 <code>(u, v)</code> 附近的颜色非 <code>0</code>，<code>6</code> 的像素的数量 <code>c</code>，这里背景色是黑色 <code>0</code>， “GROW” 是灰色 <code>6</code>。</p>
 <p>第 18 行，根据 3 个判断将点 <code>(u, v)</code> 着色；</p>
@@ -5953,15 +6133,15 @@
 <li><code>pget(u, v) == 6 or rnd() &lt; 0.1</code> 点 <code>(u, v)</code> 的像素如果是字体颜色 <code>6</code>，则可以着色，否则只有 <code>0.1</code> 的概率会着色。这里模拟植物优先在字体表面增长，空白部位只有很少的草在增长。如下图将字体颜色改成粉色 <code>14</code>，草就无法在字体上生长。</li>
 <li><code>c &lt; 6</code> 点 <code>(u, v)</code> 周围九宫格范围内的草的数量，如果多余 <code>6</code> 个则不在生长，用于控制草的密度。</li>
 </ul>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq0dvehxg30hs08r102.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkr481phydg30hs08r102.gif"></p>
 <p>最后根据 <code>pset(u, v, 3 + c % 2 * 8)</code> 密度用两种绿色进行着色。简单明了的实现了植物生长的特效。</p>
 <p>最后解释一下 1-6 行在屏幕上打印“GROW”的代码。2-3 行在屏幕的左上角打印 GROW 并在字体下方加上绿色的下划线。第 4 行 <code>memcpy(0, 24576, 384)</code> 将屏幕内容所在的内存地址 <code>24576</code> 后的 <code>384 bytes</code> 复制到精灵内存地址 <code>0</code>。pico-8 中 <code>24576</code> 开始的内存存放的是屏幕中的像素颜色信息，一个 bytes（8 位）可以存放两个点，低 4 位和高 4 位分别储存一个点的颜色信息，这也是 pico-8 只能有 2 的 4 次方，16 种颜色的原因。那 <code>384 = 128 * 6 / 2</code> 正好是屏幕中打印的 GROW 所在的前 6 行，将打印的 GROW 拷贝到存放的精灵的地址中，再使用 <code>sspr</code> 函数将精灵放大显示到屏幕的中心。</p>
 <p>这样复杂的操作仅仅是为了打印一个字号比较大的 GROW 而已，因为自带的 <code>print</code> 函数不能设置字号。这样做会把  pico-8 中精灵编辑器中前 6 行的内容都覆盖掉，所以直接在精灵编辑器中编辑再显示在屏幕中是个更好的选择。这里作者肯定是为了简便才使用这种直接打字的方式。</p>
 <h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>这种随机遍历每个像素点来实现的特效会消耗大量的 cpu，用在游戏中的话还需要做相应的简化。虽然这种奇技淫巧看起来很难用到游戏里，但是这也是可以逐像素操作的 pico-8 魅力所在。当然在其他游戏引擎中，就可以用像素着色器（Shader）更有效率的实现这种算法，使其变得可用。作者使用 <code>u</code>, <code>v</code> 做变量名，应该也是 Shader 写法的影响。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq0hkl2kg30dy05c0wm.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkr4eaxqy4g30dy05c0wm.gif"></p>
 ]]></content>
       <categories>
-        <category>Pico-8游戏引擎(Pico-8 Game Engine)</category>
+        <category>Pico-8 精彩代码解析(Pico-8 Coding)</category>
       </categories>
       <tags>
         <tag>Reprint</tag>
@@ -5973,7 +6153,8 @@
   <entry>
     <title>Pico-8 精彩代码--漩涡效果解析</title>
     <url>/archives/2a6e7125.html</url>
-    <content><![CDATA[<p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现漩涡的效果。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4obfrjkrj30m80ciaat.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现漩涡的效果。</p>
 <a id="more"></a>
 
 
@@ -6015,7 +6196,8 @@
   <entry>
     <title>Pico-8 精彩代码--触手效果解析</title>
     <url>/archives/6b115460.html</url>
-    <content><![CDATA[<p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现触手的效果。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4oc80facj30m80ci753.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现触手的效果。</p>
 <a id="more"></a>
 
 
@@ -6056,7 +6238,8 @@
   <entry>
     <title>Pico-8 精彩代码--摇曳树木效果解析</title>
     <url>/archives/31df4d37.html</url>
-    <content><![CDATA[<p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现摇曳的树木的效果。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4octe663j30m80cidgj.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现摇曳的树木的效果。</p>
 <a id="more"></a>
 
 
@@ -6122,8 +6305,19 @@
   </entry>
   <entry>
     <title>R语言数据分析方法论</title>
-    <url>/archives/730c27b4.html</url>
-    <content><![CDATA[<p>本文主要讨论数据分析与数据挖掘的基本原理与方法论，在艾新波老师的指引下对数据科学的整体有一个大致的了解，领悟核心的数据分析思想。</p>
+    <url>/archives/988a2d13.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gke2i5jecdg30xc0ir7wi.gif"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/104300623/Infoview-motion-graphic?tracking_source=search_projects_recommended%7Cdata">Infoview motion graphic</a> by 
+      <a href="https://www.behance.net/motion_story">Motion Story</a>
+    </i>
+  </font>
+</div>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主要讨论数据分析与数据挖掘的基本原理与方法论，在艾新波老师的指引下对数据科学的整体有一个大致的了解，领悟核心的数据分析思想。</p>
 <a id="more"></a>
 
 
@@ -6131,7 +6325,7 @@
 
 
 <h3 id="气象万千-数以等观"><a href="#气象万千-数以等观" class="headerlink" title="气象万千 数以等观"></a>气象万千 数以等观</h3><p>随着数字时代的来临，我们身边的设备和系统表现出越来越多的令人惊叹的智能。比如我们上传一张照片到某个网站，它会自动识别出来里面每个人的年龄；在某些诊疗系统里面，通过一些具体的医疗图像它可以识别出来玩吗身体的状况是否有疾病，它一些疾病（比如肺癌）的治疗水平已经超过了一些医生；再比如我们利用某个聊天软件聊天的时候，朋友发过来一段语音，它可以自动识别语音转文字；当我们用某个音乐播放器时间久了，它也会自动识别出来我们的喜好，推荐一些我们感兴趣的歌曲。毫无疑问，这些类似的设备和系统表现出来的行为，它都不是我们事先人为设定的一些规则，而是基于大量的数据发现一些规律、识别一些模式，然后才表现出这些让我们比较惊叹的一些人工智能的行为。总结一下：<strong>所有的智能行为时源于发现了数据背后的规律</strong>。</p>
-<h4 id="从人类历史上第一个被发现的定律说起"><a href="#从人类历史上第一个被发现的定律说起" class="headerlink" title="从人类历史上第一个被发现的定律说起"></a>从人类历史上第一个被发现的定律说起</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq1jgxgaj31hc0m80z8.jpg"></p>
+<h4 id="从人类历史上第一个被发现的定律说起"><a href="#从人类历史上第一个被发现的定律说起" class="headerlink" title="从人类历史上第一个被发现的定律说起"></a>从人类历史上第一个被发现的定律说起</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkq26xh6ncj31hc0m8153.jpg"></p>
 <p><strong>波义耳定律（1662年）</strong>：密闭容器中的定量气体在恒温下，其体积和压强成反比：$p=f(v)=\frac{k}{v}$</p>
 <h4 id="我们学过的第一个数学模型"><a href="#我们学过的第一个数学模型" class="headerlink" title="我们学过的第一个数学模型"></a>我们学过的第一个数学模型</h4><p>也许是世界上最简单的数学模型：$1+1=2$</p>
 <p>虽然说这个表达式非常简单，但 $1+1=2$ 里面已经包含了一个非常非常有意思的数学符号：<code>=</code> 。等号左右两边是同质的，它是相同的事物。</p>
@@ -6231,7 +6425,13 @@
 </blockquote>
 <p>通过比较我们可以得出结论：<strong>就算法模型而言，机器学习和数据挖掘是不需要做区分的</strong>。具体来说，数据挖掘包含两部分知识，一个是数据分析的技术（机器学习），一个是数据管理的技术（数据库）。由于该课程对数据管理涉及较少，所以对机器学习基本就不做区分，在后续的学习中数据分析、数据挖掘、机器学习这三个概念基本上是会交替使用的。</p>
 <h4 id="机器学习只是归归类"><a href="#机器学习只是归归类" class="headerlink" title="机器学习只是归归类"></a>机器学习只是归归类</h4><p><code>分类--有监督学习</code>、<code>聚类--无监督学习</code>构成了机器学习的主体部分。所以，机器学习不过是归一归类。</p>
-<h3 id="格言联璧学习"><a href="#格言联璧学习" class="headerlink" title="格言联璧学习"></a>格言联璧学习</h3><h3 id="源于数学-归于工程"><a href="#源于数学-归于工程" class="headerlink" title="源于数学 归于工程"></a>源于数学 归于工程</h3>]]></content>
+<h3 id="格言联璧学习"><a href="#格言联璧学习" class="headerlink" title="格言联璧学习"></a>格言联璧学习</h3><h3 id="源于数学-归于工程"><a href="#源于数学-归于工程" class="headerlink" title="源于数学 归于工程"></a>源于数学 归于工程</h3><div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/motion_story">Motion Story</a>
+    </i>
+  </font>
+</div>]]></content>
       <categories>
         <category>R语言数据分析(R Language Data Analysis)</category>
       </categories>
@@ -6244,7 +6444,7 @@
   <entry>
     <title>Unity Student Plan申请指南</title>
     <url>/archives/e8e3308a.html</url>
-    <content><![CDATA[<p>本文转载了Unity社区的优秀博主 <a href="https://unity.cn/u/michael-wang-2/?tab=article">Michael Wang</a> 的 <a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">Unity Student Plan申请指南！</a>，希望通过转载的方式可以帮助到对 Unity Pro 购买上有困难的在读学生申请「Unity Student Plan」。</p>
+    <content><![CDATA[<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了Unity社区的优秀博主 <a href="https://unity.cn/u/michael-wang-2/?tab=article">Michael Wang</a> 的 <a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">Unity Student Plan申请指南！</a>，希望通过转载的方式可以帮助到对 Unity Pro 购买上有困难的在读学生申请「Unity Student Plan」，也希望有能力的读者朋友可以去支持一下原文作者，他有大量的优质 Unity 教学视频可供初学者学习。</p>
 <a id="more"></a>
 
 
@@ -6317,7 +6517,8 @@
   <entry>
     <title>GoogleDinosaur--Unity2D游戏开发</title>
     <url>/archives/87cbf473.html</url>
-    <content><![CDATA[<p>本文将使用Unity2D复刻谷歌小恐龙游戏。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4o5qaa8ej31400u0mzn.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将使用Unity2D复刻谷歌小恐龙游戏。</p>
 <a id="more"></a>
 
 
@@ -6338,14 +6539,15 @@
       </categories>
       <tags>
         <tag>Game Develop</tag>
-        <tag>2D Game</tag>
         <tag>Unity</tag>
+        <tag>2D Game</tag>
       </tags>
   </entry>
   <entry>
     <title>Hexo-Fluid写作指南</title>
     <url>/archives/f0a0db79.html</url>
-    <content><![CDATA[<p>本文记录Hexo-Fluid主题的写作技巧，内容包含了Markdown、HTML和IMG三个大类。需要注意因为主题转变的原因部分标签无法使用，但对于博客写作仍有共同之处和参考价值。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4ofxtwutj313g0jo761.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文记录Hexo-Fluid主题的写作技巧，内容包含了Markdown、HTML和IMG三个大类。需要注意因为主题转变的原因部分标签无法使用，但对于博客写作仍有共同之处和参考价值。</p>
 <a id="more"></a>
 
 
@@ -7072,7 +7274,18 @@
   <entry>
     <title>Foundations of Computer Graphics Unit1</title>
     <url>/archives/301329c.html</url>
-    <content><![CDATA[<p>本文将在上节课向量和矩阵概念的基础上介绍关于这些变换的数学知识，深入理解计算机图形学中基本变换的概念。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4odgcr3hj31hc0u074w.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://edu.gcfglobal.org/en/beginning-graphic-design/fundamentals-of-design/1/">The basis of art, design, and more</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将在上节课向量和矩阵概念的基础上介绍关于这些变换的数学知识，深入理解计算机图形学中基本变换的概念。</p>
 <a id="more"></a>
 
 
@@ -7494,7 +7707,8 @@
   <entry>
     <title>Github个人首页美化</title>
     <url>/archives/d7f21a0b.html</url>
-    <content><![CDATA[<p>本文将介绍如何从零开始美化自己的Github主页，让<code>Github Profile</code>展示更多有用的信息，包括统计卡片和代码时长统计等。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4o7e7de2j30rs0bo404.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将介绍如何从零开始美化自己的Github主页，让<code>Github Profile</code>展示更多有用的信息。</p>
 <a id="more"></a>
 
 
@@ -7724,11 +7938,10 @@
   </entry>
   <entry>
     <title>Markdown基本语法</title>
-    <url>/archives/42c84dba.html</url>
-    <content><![CDATA[<p>本文作为即忘即看的Markdown基本语法备忘文档，适用于各种编写博客排版需要但不熟悉的Markdown的读者。Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。部分内容摘自 <a href="https://www.runoob.com/markdown/md-tutorial.html">菜鸟教程</a> 与<a href="https://markdown-zh.readthedocs.io/en/latest/">Markdown 中文文档</a></p>
+    <url>/archives/41c7ed62.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gl2lggm8g1j30xf0lp43o.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文作为即忘即看的Markdown基本语法备忘文档，适用于各种编写博客排版需要但不熟悉的Markdown的读者。Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。部分内容摘自 <a href="https://www.runoob.com/markdown/md-tutorial.html">菜鸟教程</a> 与<a href="https://markdown-zh.readthedocs.io/en/latest/">Markdown 中文文档</a></p>
 <a id="more"></a>
-
-
 
 
 
@@ -8159,7 +8372,7 @@
 <li><p>Open the file containing the Linux mascot.</p>
 </li>
 <li><p>Marvel at its beauty.</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbqbuls8mj30xf0lpgps.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gl2t6ma2q7j30xf0lpgps.jpg"></p>
 </li>
 <li><p>Close the file.</p>
 </li>
@@ -8307,11 +8520,11 @@
 <h3 id="图片（Images）"><a href="#图片（Images）" class="headerlink" title="图片（Images）"></a>图片（Images）</h3><p>要添加图片，首先请添加感叹号（<code>!</code>），然后紧跟着是方括号，方括号中可添加替代文本（alt text，即图片显示失败后显示此文本），最后跟着圆括号，圆括号中添加图片资源的路径或 URL。你可以选择在圆括号中的 URL 之后添加标题（即 title 属性）。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">![Philadelphia&#39;s Magic Gardens. This place was so cool!](&#x2F;assets&#x2F;images&#x2F;philly-magic-gardens.jpg &quot;Philadelphia&#39;s Magic Gardens&quot;)</span><br></pre></td></tr></table></figure>
 <p>渲染效果如下：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbqbvl4c2j30nj0hndm7.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gl2t1zhebkj30nj0hnjxc.jpg"></p>
 <h4 id="带链接的图片"><a href="#带链接的图片" class="headerlink" title="带链接的图片"></a>带链接的图片</h4><p>要为图片添加链接，请先为图片的 Markdown 标记添加一个方括号，然后紧跟着一个圆括号，并在圆括号中添加链接地址。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[![An old rock in the desert](&#x2F;assets&#x2F;images&#x2F;shiprock.jpg &quot;Shiprock, New Mexico by Beau Rogers&quot;)](https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;beaurogers&#x2F;31833779864&#x2F;in&#x2F;photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)</span><br></pre></td></tr></table></figure>
 <p>渲染效果如下：</p>
-<p><a href="https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv"><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbqbuypdbj30nj0fqq48.jpg" alt="An old rock in the desert"></a></p>
+<p><a href="https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv"><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gl2t1ycocbj30nj0fqq47.jpg" alt="An old rock in the desert"></a></p>
 <h3 id="转义字符（Escaping-Characters）"><a href="#转义字符（Escaping-Characters）" class="headerlink" title="转义字符（Escaping Characters）"></a>转义字符（Escaping Characters）</h3><p>要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 (<code>\</code>) 。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">\* 如果没有开头的反斜杠字符的话，这一行将显示为无序列表。</span><br></pre></td></tr></table></figure>
 <p>渲染效果如下：</p>
@@ -8400,8 +8613,9 @@
   </entry>
   <entry>
     <title>Markdown入门指南</title>
-    <url>/archives/dbc11c00.html</url>
-    <content><![CDATA[<p>Markdown 是一种轻量级的标记语言，如今已成为世界上最受欢迎的标记语言之一。本文将介绍有关 Markdown 的概述、工作原理、用途以及语法快速参考手册 / 速查表。</p>
+    <url>/archives/6f3ff15d.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gl2tm1nc2nj31360go78r.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>有关 Markdown 的概述、工作原理、用途以及语法快速参考手册 / 速查表。</p>
 <a id="more"></a>
 
 
@@ -8409,7 +8623,7 @@
 <h3 id="入门指南"><a href="#入门指南" class="headerlink" title="入门指南"></a>入门指南</h3><h4 id="Markdown-是什么？"><a href="#Markdown-是什么？" class="headerlink" title="Markdown 是什么？"></a>Markdown 是什么？</h4><p>Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添加格式化元素。Markdown 由 <a href="https://daringfireball.net/projects/markdown/">John Gruber</a> 于 2004 年创建，如今已成为世界上最受欢迎的标记语言之一。</p>
 <p>使用 Markdown 与使用 <a href="https://en.wikipedia.org/wiki/WYSIWYG">WYSIWYG</a> 编辑器不同。在 Microsoft Word 之类的应用程序中，单击按钮以设置单词和短语的格式，并且，更改立即可见。而 Markdown 与此不同，当你创建 Markdown 格式的文件时，可以在文本中添加 Markdown 语法，以指示哪些单词和短语看起来应该有所不同。</p>
 <p>例如，要表示标题，只须在短语前面添加一个井号即可（例如， <code># Heading One</code>）。或者要加粗一个短语，只须在短语前后各加两个星号即可（例如，<code>**this text is bold**</code>）。可能需要一段时间才能习惯在文本中看到 Markdown 语法，尤其是如果你已习惯了所见即所得的应用程序。以下屏幕截展示了 Markdown 文件在 <a href="https://atom.io/">Atom 文本编辑器</a> 中显示的效果。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b1but4sj31360go77h.jpg" alt="Markdown file in the Atom text editor"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gl2troxzhbj31360go78r.jpg" alt="Markdown file in the Atom text editor"></p>
 <p>你可以使用文本编辑器为纯文本文件添加 Markdown 格式的元素。或者，你也可以安装针对 macOS、Windows、Linux、iOS 和 Android 操作系统的 Markdown 应用程序。或者还可以使用一些基于 Web 的应用程序用于 Markdown 编写。</p>
 <p>依赖于你所使用的应用程序，你可能无法实时预览格式化的文档。但是没关系。<a href="https://daringfireball.net/projects/markdown/">根据 Gruber 的说法</a>，Markdown 的语法被设计为可读性强且不显眼，因此即使 Markdown 文件中的文本未经过渲染也易于阅读。</p>
 <blockquote>
@@ -8425,14 +8639,14 @@
 </ul>
 <h4 id="工欲善其事，必先利其器"><a href="#工欲善其事，必先利其器" class="headerlink" title="工欲善其事，必先利其器"></a>工欲善其事，必先利其器</h4><p>Markdown 入门的最佳方式就是多使用它。由于有大量免费工具的存在，这比以前任何时候都更容易开始上手了。</p>
 <p>你甚至都不需要下载任何程序，就可以使用几种在线的 Markdown 编辑器来编写 Markdown。<a href="https://dillinger.io/">Dillinger</a> 是最好的在线 Markdown 编辑器之一。进入其站点就可以开始在左侧窗格中书写了。渲染后的文档在右侧窗格预览。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b1ax9xpj30s90muacx.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gl2trprsuuj30s90mugnd.jpg"></p>
 <p>阅读本指南时，你可以打开 Dillinger 网站。这样，你就可以一边学习 Markdown 语法一边练习了。熟悉 Markdown 之后，你可以在台式计算机或移动设备上安装支持 Markdown 的应用程序。</p>
 <h4 id="Markdown-的工作原理"><a href="#Markdown-的工作原理" class="headerlink" title="Markdown 的工作原理"></a>Markdown 的工作原理</h4><p>Dillinger 让 Markdown 的编写变得容易，因为它隐藏了幕后发生的事情，但是该过程的总体工作方式是值得探索的。</p>
 <p>在使用 Markdown 格式书写时，文本内容存储在带有 <code>.md</code> 或 <code>.markdown</code> 扩展名的纯文本文件中。那然后呢？你的 Markdown 格式的文件如何转换为 HTML 或可打印的文档呢？</p>
 <p>简单来说，你需要一个能够处理 Markdown 文件的 <em>Markdown 应用程序</em>。有许多应用程序可供选择，从简单的脚本到类似于 Microsoft Word 的桌面应用程序，应有尽有。尽管它们在视觉上有所不同，但所有应用程序都执行相同的操作。像 Dillinger 一样，它们都是将 Markdown 格式的文本转换为 HTML，以便可以在 Web 浏览器中显示。</p>
 <p>Markdown 应用程序使用一种称为 <em>Markdown 处理器</em>（也通常称为“解析器”或“实现”）的东西将获取到的 Markdown 格式的文本输出为 HTML 格式。此时，可以在 Web 浏览器中查看你的文档，或者将其与样式表组合并打印。你可以在下图看到此过程的直观表示。</p>
 <p><strong>注意：</strong> Markdown 应用程序和处理器是两个单独的组件。为了简洁起见，在下图中，我将它们组合为一个元素（即 “Markdown应用程序”）。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b1a697zj30c00ew0sw.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gl2trq3ugbj30c00ewwec.jpg"></p>
 <p>总而言之，这是一个四步的过程：</p>
 <ol>
 <li>使用文本编辑器或 Markdown 专用的应用程序创建 Markdown 文件。该文件应带有 <code>.md</code> 或 <code>.markdown</code> 扩展名。</li>
@@ -8579,7 +8793,6 @@
 ]]></content>
       <categories>
         <category>写作技巧(Write Skill)</category>
-        <category>Markdown</category>
       </categories>
       <tags>
         <tag>Write</tag>
@@ -8587,42 +8800,39 @@
       </tags>
   </entry>
   <entry>
-    <title>Pico--神奇的虚构游戏机</title>
-    <url>/archives/4adc5517.html</url>
-    <content><![CDATA[<p>由<a href="https://pico-8.fandom.com/zh/wiki/LexaloffleGames">Lexaloffle Games</a>制作的<a href="https://pico-8.fandom.com/zh/wiki/Pico8">PICO-8</a>是一台梦幻可编程游戏主机，用来制作，分享和玩小游戏和其他计算机程序（卡带，或“卡”）。这个主机提供了简单的内置工具来创造你自己的卡带。</p>
+    <title>Pico-8—神奇的虚构游戏机</title>
+    <url>/archives/18a71cc2.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk6mtusj1xj30sg0hs11h.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>由<a href="https://pico-8.fandom.com/zh/wiki/LexaloffleGames">Lexaloffle Games</a>制作的<a href="https://pico-8.fandom.com/zh/wiki/Pico8">PICO-8</a>是一台梦幻可编程游戏主机，用来制作，分享和玩小游戏和其他计算机程序（卡带，或“卡”）。这个主机提供了简单的内置工具来创造你自己的卡带。</p>
 <a id="more"></a>
-
-
-
-
 
 <blockquote>
 <p>本文转载了知乎专栏作家 <a href="https://www.zhihu.com/people/peng-an-dr-quest">蓬岸 Dr.Quest</a> 翻译的 <a href="https://zhuanlan.zhihu.com/p/30405996">Pico-8——神奇的虚构游戏机</a> 。原文刊载于《Skrolli》杂志，本文翻译自 2016.1E（国际版）：<a href="https://link.zhihu.com/?target=https://skrolli.fi/2016/07/pico-8-fascinating-fantasy-console/">Pico-8 – Fascinating fantasy console</a> 。</p>
 </blockquote>
 <p>许多的电脑爱好者在它们的发烧之路上尝试过各种各样的硬件设备和软件平台。而很多时候它们会有意的搜集这些平台和设备，来尝试上面的游戏或是完成它们的艺术作品。这一探索过程也帮助这些发烧友们了解各个平台的特性，并帮助他们发掘自己喜爱或是感兴趣的电脑平台。而虚构的游戏机平台Pico-8就是其中别具趣味的一个。</p>
 <p>对Pico-8最好的解释，就是它是一款并不真实存在的游戏机的模拟器。它的具有非常鲜明的8-bit风格，因此你可以把它像想为类似Game Boy Color这样的小掌机。它的提供一块128x128像素，16色的显示屏，以及四通道的音乐芯片。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxg7rv7j30g40f0t9b.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk6myh5qnfj30g40f03yb.jpg"></p>
 <p>不过，Pico-8却不仅仅是某种架空历史的实践，它设计的出发点与市面上已有的类似设备有着很大的不同。它并没有试图去最大化的利用有限的逻辑功能，而是提供了一批积木式的代码部件，尽可能的挖掘使用的乐趣。开发商希望随着时间的推移，Pico-8的技术框架将形成一种独特的审美观：极简主义并有着丰富的表现力。</p>
-<h3 id="第一印象"><a href="#第一印象" class="headerlink" title="第一印象"></a>第一印象</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxjfqaqj304g05p0sx.jpg"></p>
+<h3 id="第一印象"><a href="#第一印象" class="headerlink" title="第一印象"></a>第一印象</h3><p><img src="https://pic1.zhimg.com/80/v2-9e2c70b8b1f9f12e73dba7cc4d0ee41c_720w.jpg"></p>
 <p>Pico-8乍看上去有一点“精神分裂”。启动之后它给人的感觉并不是一台游戏机，而更像是一台带有键盘鼠标的家用电脑。它使用命令解释器来加载软件和输出提示，举例来说，按下ESC按钮，你会打开一个文本编辑器，它具有自己独立的区域来存储代码、图像和声音内容。不过，只有系统内置的应用程序可以访问键盘、鼠标和完整的文件系统——对于外部加载的应用程序来说，Pico是一台使用ROM卡带和双按钮手柄的游戏机。</p>
 <p>Pico使用Lua作为它的开发语言，这款为游戏脚本而生的语言虽然功能有限，但却具有强大的表达能力。实际上，Pico虚拟机本身并不模拟任何处理器芯片——它甚至不会执行字节码。所有的东西全都使用Lua写成，这也是程序员们能访问到的最底层的东西。</p>
 <p>分发Pico-8平台的游戏和软件主要有两种方式，一种方式被称作“卡带”（cartridges）或者“卡”（carts），它实际上是一张PNG图片，看起来像是一张带有封面贴纸的游戏卡，“卡带”图片使用了文件的低位（lower bits）来存储程序代码、图像和声音数据，类似某种文件指纹。而另一种方式则是将软件导出为HTML5格式并使用现代浏览器来运行，以这种方式运行的软件可以不需要Pico-8环境。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxefeojj30g40f0q43.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk6negts6uj30g40f0q43.jpg"></p>
 <h3 id="边界和限制"><a href="#边界和限制" class="headerlink" title="边界和限制"></a>边界和限制</h3><p>Pico最明显的技术特征就是128x128像素的屏幕分辨率以及固定的16色调色盘了，这一调色板具有相当独特而易于辨识的色彩组合，显示了其设计者对色彩的嗅觉相比一般的工程师更胜一筹。</p>
 <p>虽然典型的Pico游戏通常使用8x8像素的方格来构成游戏地图，并使用8x8像素的动画精灵，但这却不是平台的限制之一。Pico的图形模式是纯粹的像素缓冲模式，它实际上可以绘制任何的图形——而机器的性能也足够流畅的运行90年代演示程序中的各种特效。不过，平台通过提供速度更快的绘制地图和精灵的功能函数，鼓励开发者使用8x8像素快而不是使用自己的代码逐个像素的绘制图形。</p>
 <p>一张“游戏卡”可以存储15360字节（15KB）压缩后的代码，编辑器所能支持的最大长度是65536个字符或是8192个“标记”（tokens）。这一限制实际上并不容易达到，即使是许多Pico平台上最好的游戏其代码量也要明显低于这个数额。从另一个方面讲，这种限制鼓励开发者开发简单而线性的游戏逻辑，Pico上面没有空间容纳庞大的游戏引擎或多层的抽象逻辑。</p>
 <p>“游戏卡”上还有12544字节（12.25KB）的空间预留给图像资源，另外4608字节（4.5KB）则留给声音。当然这些数据区域也可以被用作其他用途——内存操作指令可以在字节层面去操作它们。当程序开始运行之后，“游戏卡”中的数据将会被复制到RAM，然后程序就可以在需要的时候修改它们。用户可使用的RAM还包括了略低于7KB的用户保留空间，以及8KB的显存。</p>
 <p>图形数据由8x8像素的精灵组成，它们可以包含调色板中的任意颜色。系统可以支持最多256个精灵，而地图则由128x32个精灵组成。如果只使用128个精灵的话，地图的尺寸还可以再翻倍。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxdzq2hj30g40f0tby.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxkdwdsj30g40f0myr.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk6nfqxlfdj30g40f0tby.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk6ng4qq1bj30g40f0jsz.jpg"></p>
 <p>在声音方面，与“精灵”对应的是“声效”（sound effect - sfx），每个声效由32个音符位置（note locations）组成，每个音符位置都包含了音符和它的波形、音量和特效，每一个选项都有8种不同的设置可选，播放的速度也可以修改，较慢的播放速度更适合演奏音乐而不是音效。</p>
 <p>与Tracker（序列器）音乐类似，一首歌曲由四个通道上定义了不同效果的“图案”（patterns）构成，Pico-8支持最多64个图案，通过使用循环和图案结束标记可以在一个文件中容纳多首歌曲。</p>
 <p>虽然Pico-8的图形功能可以让开发者操作单个像素，但用户却无法直接访问声音系统的“寄存器”。理论上讲你可以通过实时修改声音数据来实现播放器功能，但虚拟机的时序限制很可能让这种功能无法被实现出来。不过，通过向音效内存里写入随机数据的方式，还是可以轻松的创造出若干试验性的声效的。</p>
 <p>除了程序代码，数据RAM和卡带ROM之外，Pico还为Lua解释器提供了256KB内存空间。相比Pico的其他内存空间来说这一空间要大上不少，但它却比较容易被用完，比如说在操作大型表（Table - Lua中的一种数据结构）的时候。数字表的每个元素最多可以存储8字节，但实际的数据只能使用其中的一半。每个数字包含16 bit整数和16 bit小数部分，这些意味着通过位算数运算可以对它们进行比较。</p>
 <p>当内存空间不足时，Pico也可以从其他ROM卡带中读取数据，甚至可以向卡带中写入数据。但程序代码有着严格的限制，只可以从它们原始的卡带中运行。Lua本身支持将数据作为代码运行，但Pico-8删除了这一功能，这意味着需要使用更多代码空间的程序需要构建它们自己的虚拟机。</p>
 <p>Pico-8并不能以电脑处理器的全速执行Lua代码。执行不同函数所需的时间已经被预先设定好。而这种速度限制也可以减少典型的Pico软件开发时所可能出现的问题，同时也将其对硬件的需求标准化，并避免了硬件需求的螺旋上升。按照作者的描述，第一代的树莓派就足以让最复杂的Pico软件全速运行了。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxftf8kj30g40f0q55.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxhojerj30g40f0wfy.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk6ngt65gaj30g40f0q55.jpg"></p>
+<p><img src="https://pic4.zhimg.com/80/v2-6d32552c3b1c59afe54646f691845d57_720w.jpg"></p>
 <h3 id="如何编写代码？"><a href="#如何编写代码？" class="headerlink" title="如何编写代码？"></a>如何编写代码？</h3><p>Lua是一种全部使用大写字母的语言，因此它往往会让人联想起BASIC。举例来说许多人都会记得如何使用BASIC语言无限循环打印文本：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">::START::</span><br><span class="line">PRINT &quot;HELLO&quot;</span><br><span class="line">GOTO START</span><br></pre></td></tr></table></figure>
 <p>不同于标准的Lua库，Pico提供了一组有限的BASIC风格的函数：其中包括了绘图函数，一组声音函数，控制器输入函数和一些内存管理、数学运算、位运算和字符串处理函数。</p>
@@ -8638,32 +8848,32 @@
 <p>一般来讲双缓冲（Double-buffering）的绘图技巧在Pico上面并不适用，因为只有当_draw()函数执行完成后更改显存的操作才其作用。另一方面来讲，即使在删除掉一些声音效果之后，用户内存也仅仅能够装下一个全屏双缓冲器。</p>
 <p>声音方面Pico提供了sfx()和music()两个函数。前者会在第一个空闲的通道上播放指定参数的音效，而后者则会从指定的“图案”编号处开始播放音乐。</p>
 <p>小型2D游戏的开发者们并不需要太在意命令执行的速度，只有当将要达到平台极限的时候才会出现问题。pset()函数刷新屏幕上所有像素所需的时间大概是正常情况下屏幕刷新的1.5倍。直接使用poke()函数写入显存则比一般情况下快将近三倍。然而，使用memcpy()和memset()函数的话，速度将会快上10倍，并且绘制背景图像的命令map()的速度也是一样快。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxdf73ej30g40f0gmw.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxikkxrj30g40f0dh8.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxjxxfzj30g40f0dh5.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk6nhcialrj30g40f0gmw.jpg"></p>
+<p><img src="https://pic4.zhimg.com/80/v2-ba70fa875f4d1417f1cad188ee7671c3_720w.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk6nhra2naj30g40f0dh5.jpg"></p>
 <h3 id="像素方块的乐趣"><a href="#像素方块的乐趣" class="headerlink" title="像素方块的乐趣"></a>像素方块的乐趣</h3><p>Pico的许多功能都会让人联想起1980年代的家用电脑，但它却没有止步于对传统或技术的复原，而更加强调创作的乐趣和像素方块风格的美术效果。那些对这一点感到疑惑的人们应当考虑到它毕竟是一款虚构的游戏平台：虚拟世界并不总是完美无缺的，但它设定了许多有趣的事件，并能够激发参与者的想象力。</p>
 <p>如果我们用一个词来总结Pico-8的精神的话，我想应该是“直截了当”。其中的一部分来自于8-bit电脑和运行在上面的BASIC语言：你可以在“开机”之后立刻编写程序，而不需要考虑如何配置操作系统、API和运行环境。所有的事情都简洁明了：内存里的某个比特总是会反馈到屏幕上某个位置的某个色块上。</p>
 <p>然而这一概念并不止于此，它没有时钟周期和栅格线，没有颜色单元边界，没有折腾开发工具和文件的困扰。平台自身的限制避免了磨洋工式的细节调整。这得益于没有可以调节的调色盘、采样系统和机器语言指令，你不再需要对它们进行微调。而较少的像素数让完美主义者们也不会花太多时间在处理抗锯齿上。</p>
 <p>对于那些对它感兴趣了人们来说，Pico-8确实有一些技术挑战和智力问题在等着它们。但我们也同样不会认为Pico-8的世界里需要极度关注细节。Pico程序写起来很快也很容易，熟悉这一平台基础只是的开发者可以在一晚上就写出一款相对精美的游戏。</p>
 <p>当我写作这篇文章时，Pico仍然处于Alpha测试版本，至少在开发环境中这种不完善还是很容易被发觉的。代码编辑器不能自动跳到有错误的行，而绘制像素的时候键盘也不能使用。这些软件并不能很好的帮助用户进行开发，相反用户需要阅读零散的文档才能知道可以用ESC键打开编辑器这样简单的功能。地图编辑器也让人有点摸不着头脑，因为它没有任何地方标明地图里的零号精灵永远都是空白的。</p>
 <p>但瑕不掩瑜，我还是推荐大家尝试Pico，即使新手程序员也是如此——至少是其中那些喜欢8-bit像素方块美术风格同时也不怕阅读文字说明的人。Lua语言没有明显的缺点，而Pico简化的接口鼓励开发者自行解决问题而不是寻找现成的方案。对于更有经验的开发者而言，Pico提供了一种轻松愉快的消遣方式，而其结果则比简单的涂鸦和水彩画丰富的多。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxi7v11j30g40f0tak.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxgnrqgj30g40f03zd.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxlru1xj30g40f0gm3.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk6niel7jvj30g40f0wgc.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk6niqt745j30g40f0wfc.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk6nivzxeej30g40f0mxs.jpg"></p>
 <h3 id="社区和创意"><a href="#社区和创意" class="headerlink" title="社区和创意"></a>社区和创意</h3><p>Pico-8在开发之时就曾经参与众筹，并在发布之前就聚集了一大批热心粉丝。在我写下这篇文章之时，开发者论坛和Lexaloffle Games为Pico准备了超过250张卡带，包括游戏和各种软件。这其中大部分是平台游戏和各类传统2D动作游戏，但其中偶尔也夹杂着更加试验性的作品。在Pico平台上甚至可以找到一些Demoscene作品。</p>
 <p>线上论坛从一开始就是Pico社区开发和发行的中心，这些论坛中有着温和和充满鼓励的气氛。社区中的成员以友好和互助的姿态欢迎初学者的加入。Pico开发团队的成员也经常参与讨论，这也让论坛成为讨论Pico技术细节的最佳去处。</p>
 <p>Pico-8同样有着自己的发烧友杂志《Pico-8 Fanzine》，它收到了包括Lexaloffle的主力开发者“zep”在内的许多投稿。独立平台冒险游戏VVVVV的开发者Terry Cavanagh则是其中最有名的作者之一。发烧友杂志的作者和读者都是该平台的爱好者，截止到写作这篇文章的时候，这份发烧友杂志已经发行了三期。这份杂志和其他杂志类似，也包含了编写游戏的指导、采访、游戏测评、不同类型的Pico-8编程文章，当然还有爱好者们创作的美术作品。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxewwmmj30k00sdgnh.jpg"></p>
+<p><img src="https://pic3.zhimg.com/80/v2-3714e51f5188b199cf6927db5c5346e2_720w.jpg"></p>
 <p>行文至此，我想许多读者们会非常确定的认为这款充满热血而开放的开发者文化的软件玩具一定是免费甚至开源的。但情况却并非如此，Pico-8是一款商业产品，目前正以$20的标价提供下载。二进制文件可以在三种重要的x86操作系统上运行：Windows，Mac OS和Linux。许多人都希望能推出一款基于硬件的Pico-8游戏机，但到目前为止，Pico-8仍然只能提供二进制格式的软件运行环境。</p>
 <p>当然Pico是一款简单的平台，对其进行逆向工程未必很困难，并且Lua解释器本身已经是开源的。不过这一项目正被“友善光环”所围绕，因此没有多少黑客敢于开发免费和开源的Pico变种。相比之下我们更期待Lexaloffle自己会在客户们逐渐丧失兴趣的时候会将Pico开源。当社区衰退，开发也不再活跃之时，Pico可能会成为游戏开发的一个有趣的小众选项，乃至进入教育市场。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxkvpl1j30g40f0wfc.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxj1mhqj30g40f0dha.jpg"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-106cf0db903b13308093c99861c4dc41_720w.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk6njfmiooj30g40f0abi.jpg"></p>
 <h3 id="虚构平台的未来"><a href="#虚构平台的未来" class="headerlink" title="虚构平台的未来"></a>虚构平台的未来</h3><p>像Pico-8这样的虚构游戏机是一种相对比较新的现象，虽然早在1970年代的微电脑爱好者中就已经存在Chip-8这样的虚拟机，并在某种程度上可以视为是它的前身，而许多教育软件也会使用简化的机器架构，而Pico的一个与众不同之处，就是它是“以创意作为第一考量”的。也因此它真正的前身可能只有Lexaloffle更早的Voxatron虚构游戏机。</p>
 <p>在未来，很可能有相比Pico更小也更易于掌握的虚构平台出现，但其出现的原因却并不一定是要与Pico竞争或是比较——而很可能仅仅是出于好奇心。</p>
 <p>Pico的功能鼓励人们在其上开发有趣可爱而又怀旧的作品，但选择不同的功能组合则可能创造出截然不同的精神世界和美术风格。比如说，如果人们开发出一款强调阴郁厚重风格的平台作为Pico的“邪恶双胞胎”就是一个颇为有趣的想法。当然，类似的现象在电脑平台发展史上时有发生，但创造虚构平台的亚文化可能会为研究这种现象提供某种有趣的试验环境。</p>
 <p>无论未来的前景如何，Pico-8仍然是一个有趣的开发环境，相比那些经典的电脑和游戏机平台，它提供了一种更为轻松的选项。它将充满启发性的8-bit平台的种种限制和简单易用的现代设计理念结合起来，即使是那些对编程最不感冒的人群，也可能会被大颗像素的风格吸引，并从中找到诸多的乐趣。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxlbmaej30g40f03ze.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbpxfd95gj30g40f00uw.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk6njvray1j30g40f03ze.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gk6nk2wky5j30g40f040o.jpg"></p>
 <blockquote>
 <p><strong>芬兰语版本：</strong><a href="https://link.zhihu.com/?target=https://skrolli.fi/2016/07/pico-8-fantasiakonsolin-pauloissa/">Pico-8 – Fantasiakonsolin pauloissa</a> <strong>文字作者：</strong>Visa-Valtteri Pimiä, Ville-Matias Heikkilä<br><strong>图片作者：</strong>Laura Pesola, Ville-Matias Heikkilä</p>
 </blockquote>
@@ -8681,7 +8891,7 @@
 </ul>
 ]]></content>
       <categories>
-        <category>Pico-8游戏引擎(Pico-8 Game Engine)</category>
+        <category>游戏引擎(Game Engine)</category>
       </categories>
       <tags>
         <tag>Reprint</tag>
@@ -8846,7 +9056,8 @@
   <entry>
     <title>OnOff-Unity2D游戏开发</title>
     <url>/archives/2445f889.html</url>
-    <content><![CDATA[<p>本文主要面向对Unity有基本了解，并想学习制作一个完整的2D Platformer游戏的读者。在课程中会透过重新制作《On Off》这个小游戏，来为大家讲解关于2D人物的操纵以及动画转换，也包含了开始选单、音乐音效等在各游戏中都非常泛用的知识点。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4o2y46uwj311x0j6q3b.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主要面向对Unity有基本了解，并想学习制作一个完整的2D Platformer游戏的读者。在课程中会透过重新制作《On Off》这个小游戏，来为大家讲解关于2D人物的操纵以及动画转换，也包含了开始选单、音乐音效等在各游戏中都非常泛用的知识点。</p>
 <a id="more"></a>
 
 
@@ -9178,19 +9389,26 @@
       </categories>
       <tags>
         <tag>Game Develop</tag>
-        <tag>2D Game</tag>
         <tag>Unity</tag>
+        <tag>2D Game</tag>
       </tags>
   </entry>
   <entry>
     <title>Foundations of Computer Graphics Unit0</title>
     <url>/archives/7406020a.html</url>
-    <content><![CDATA[<p>本文课程我们将一起探索发现计算机图形学的美，学习几种创建三维图形的方法，并会完成一些有趣的作业使我们能够创建属于自己的计算机图形程序。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkq5ou5zn2j31hc0u0my9.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://edu.gcfglobal.org/en/beginning-graphic-design/fundamentals-of-design/1/">The basis of art, design, and more</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本系列课程我们将一起探索发现计算机图形学的美，学习几种创建三维图形的方法，并会完成一些有趣的作业使我们能够创建属于自己的计算机图形程序。</p>
 <a id="more"></a>
-
-
-
-
 
 <h3 id="Lecture1-Course-Overview"><a href="#Lecture1-Course-Overview" class="headerlink" title="Lecture1 Course Overview"></a>Lecture1 Course Overview</h3><h4 id="学习动机"><a href="#学习动机" class="headerlink" title="学习动机"></a>学习动机</h4><h5 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍"></a>自我介绍</h5><p>Ravi Ramamoorthi <a href="http://www.cs.berkeley.edu/~ravir">http://www.cs.berkeley.edu/~ravir</a></p>
 <blockquote>
@@ -9314,9 +9532,7 @@
 <p>当然，文本化的表达已经不再是最近几十年中我们在计算机中使用的主要形式了。一个很重要的发展是图形用户界面的概念。图形用户界面有着有趣的历史。它发明于上世纪70年代的施乐公司在帕罗奥图（Palo Alto）的研究中心，大概在1975年前后。但是施乐公司并没有从图形用户界面的发展中真正获利。图形用户界面在苹果公司的Macintosh电脑中被首次使用，随后成为了所有计算机的一个标配。画图是计算机图形的一个早期应用。伊凡·苏泽兰（Ivan Sutherland）的画板（Sketchpad）系统，开发于60年代的MIT，在当时遥遥领先。它介绍了很多现在系统中还用到的绘图的概念，比如弹出菜单、基于约束的画图、分层建模。我在这给出了一个视频链接，讲述苏泽兰的画板系统。我强烈建议你们在课后观看。</p>
 <p>画板可以被认为是第一个交互式计算机图形系统，实际上这也是第一篇关于计算机图形的博士学位论文。实际上，它为计算机图形的应用打下了很好的基础。在此之后，很多人对开发绘图系统饶有兴趣（绘图系统得到了很好的发展）。由Richard Shoup和Alvy Ray Smith开发的SuperPaint系统，也是70年代在施乐Palo Alto研究中心进行的。我在网上搜集了这些我提到的伟大产品的图片，它们是由Richard Shoup整理的。</p>
 <p>SuperPaint系统真正预示了现代软件技术，比如Adobe Photoshop。实际上，Adobe是最早从事计算机图形的新兴企业之一。当然现今，我们会毫不犹豫地用它来对图像进行通用操作。图像处理技术在我们能从屏幕上看到什么中扮演着重要的角色。我们很少能见到没有经过处理的图像。你可以通过裁剪、缩放、合成来修改图像。你甚至可以增减物体。电视体育节目中常常结合了二维和三维图形处理，无论是奥运会播出中的世界纪录线，还是在各泳道上显示游泳运动员名字。甚至在各地显示的各种广告，所有这些都可能是由智能的图像和视频技术处理出来的。</p>
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/FfSnJdpFBb8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FfSnJdpFBb8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p>我们快速地回顾了二维计算机图形学的历史。回顾之余，我要指出，虽然二维已不再是图形学课程中要学习的重点了，但它真正改变了我们生活的世界。你无法想象如果离开了二维计算机图形，当今世界会变成什么样。这门课的大部分内容是关于三维计算机图形的，我只打算给你们简要介绍建模和绘制（渲染）方面的历史。</p>
 <p>几何建模是一个创建三维几何的过程，能在计算机的图形系统中使用。在七八十年代，最重要发展之一就是样条曲线和曲面的发明。这些几何方法能把这个被称为犹他茶壶的物体创建出来。这个模型是犹他大学建立的。在当时这是一个很有意思的模型，因为这个茶壶中包含了很多有趣的几何信息。它不是一个0亏格的曲面，它有一个把手，有一个壶嘴，所有这些都能通过样条模型生成。后来，从真实世界获取三维几何形状引起了广泛的兴趣，模型被表示为从真实物体上获取的三角网格。</p>
@@ -9603,7 +9819,6 @@
         <category>计算机图像学(Foundations of Computer Graphics)</category>
       </categories>
       <tags>
-        <tag>Math</tag>
         <tag>Mooc</tag>
         <tag>Computer Graphics</tag>
       </tags>
@@ -9611,48 +9826,57 @@
   <entry>
     <title>俄罗斯方块的故事</title>
     <url>/archives/e3ea8760.html</url>
-    <content><![CDATA[<p>1984年，在冷战期间，一位名叫Alexey Pajitnov的俄罗斯程序员创造了一些特别的东西：一款名为俄罗斯方块的益智游戏。它很快在苏联内部获得了狂热的追捧。当游戏穿越冷战铁幕的时候，一场关于出版俄罗斯方块的权利的争斗爆发了。俄罗斯方块不仅掀起了电子游戏行业的风暴，还帮助打破了美国和苏联之间的界限。 </p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gj6mnu4wbnj30xc0lvdm6.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/104225729/Tetris-Art?tracking_source=search_projects_recommended%7CTetris">Tetris Art</a> by 
+      <a href="https://www.behance.net/emineakgz">Emine Açıkgöz</a>
+    </i>
+  </font>
+</div>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>1984年，在冷战期间，一位名叫Alexey Pajitnov的俄罗斯程序员创造了一些特别的东西：一款名为俄罗斯方块的益智游戏。它很快在苏联内部获得了狂热的追捧。当游戏穿越冷战铁幕的时候，一场关于出版俄罗斯方块的权利的争斗爆发了。俄罗斯方块不仅掀起了电子游戏行业的风暴，还帮助打破了美国和苏联之间的界限。 </p>
 <a id="more"></a>
 
-<blockquote>
 <p>本文是观看完 <a href="https://www.youtube.com/channel/UCnbvPS_rXp4PC21PG2k1UVg">Gaming Historian</a> 的 <a href="https://www.youtube.com/watch?v=_fQtxKmgJC8&feature=youtu.be">The Story of Tetris | Gaming Historian</a> 后深受触动，决定整理一份文字版以供大家参考，中文制译可以移步 <a href="https://space.bilibili.com/180052141">卡姐Cara</a> 的 <a href="https://www.bilibili.com/video/BV1CW411j73x">《俄罗斯方块》的故事</a>，有条件的读者可以支持上面的作者和译者。</p>
-</blockquote>
 <h3 id="时代背景"><a href="#时代背景" class="headerlink" title="时代背景"></a>时代背景</h3><p>1984年，冷战在两个超级大国间加剧，经济和政治差异让这两个二战前盟友关系紧张。资本主义美国经历了空前的经济增长，苹果发布了备受期待的麦金塔个人电脑，洛杉矶举办了1984年夏季奥运会，电影《捉鬼敢死队》和《小魔怪》轰动一时（前者是美国影史上第一部卖座破百万美元的恐怖喜剧片），布鲁斯·斯普林斯廷发布了他最成功的专辑《诞生在美国》（在美国排行榜榜首停留了7周，在英国排行榜上停留了2年半之久），美国经济发达、社会繁荣。但共产主义苏联却呈鲜明对比，经济停滞不前，石油作为主要出口产品价格下跌，苏联抵制1984年夏季奥运会，称其为反苏闹剧，总书记康斯坦丁·契尔年科病危，米哈伊尔·戈尔巴乔夫准备接任，与阿富汗的冲突已持续五年，老百姓生活惆怅而拮据，政府发动席卷全国的改革以消除异议、恢复秩序，两国陷入前所未有的分歧。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b448ds7j311y0lcact.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmoof5vxij311y0lcmzy.jpg"></p>
 <p>但那年夏天，一名苏联程序员创造了一样特别的东西——一款益智游戏。这款游戏风靡游戏行业，打破了两个超级大国间的隔阂。</p>
 <h3 id="帕基特诺夫"><a href="#帕基特诺夫" class="headerlink" title="帕基特诺夫"></a>帕基特诺夫</h3><p>阿列克谢·帕基特诺夫1956年3月14日生于莫斯科。他的母亲是一名电影新闻记者，电影在苏联是颇具争议的艺术形式；他的父亲是一名哲学家、作家、共产主义政权的异见者。帕基特诺夫11岁时父母离异，从那时起，他就和母亲生活在一间单人公寓里。那时他开始接触流行文化，他的母亲经常以记者身份参加莫斯科国际电影展。有时，她会带上年幼的帕基特诺夫见识世界各国的电影。他酷爱詹姆斯·邦德，也热爱数学益智游戏和桌游。桌游是当时苏联孩子为数不多的娱乐之一，他很喜欢五格骨牌，游戏玩法是把12片不同形状的五格骨牌拼成一个长方形。</p>
 <p>作为60年代的孩子，帕基特诺夫见证了美国和苏联间的太空竞赛，苏联征召科学家和工程师以获得优势<br>他们想通过展示最新技术来吸引孩子学习理工。因此，17岁的帕基特诺夫接触了电脑，电脑一直让他印象深刻。他入读莫斯科航空学院取得了应用数学硕士学位。毕业后，帕基特诺夫进入了位于莫斯科的苏联科学院，在Dorodnitsyn计算中心得到一个研究员职位。可是计算中心的技术并不先进，所有员工共用一个房间体积的大型机，工作条件也不理想。帕基特诺夫和其他三名研究员共用一张办公桌，每日过着几乎一样的生活：早上7点半到8点起床，吃点香肠、鸡蛋和白软干酪，办些杂事；10点前到达计算中心；他会工作到半夜，所以晚上有些独处时光。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4byg2mj311y0lcn0x.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjlt8b5grnj311y0lc1kx.jpg"></p>
 <p>后来，帕基特诺夫和同事的设备得到升级，他们有了个人用的Electronika 60电脑，这相比大型机可谓巨大进步，但相比西方世界仍是古董。Electronika 60仿自LSI 11电脑（后者是美国DEC在1975年的产品），一套九年前推出的系统，它不能显示图形，只有字符界面。帕基特诺夫负责语音识别软件中的AI部分，这个软件吸引了克格勃，即苏联最高安全机构，他们希望借此窃听电话通话。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4frhb3j311y0lcjvq.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjlt9mm54nj311y0lc4qp.jpg"></p>
 <p>但到了晚上，帕基特诺夫和其他研究员会用电脑干私活。他有个同事沉迷于《吃豆人》，当时穿越冷战铁幕的街机游戏之一。帕基特诺夫花了不少时间去逆向工程，德米特里·帕夫洛夫斯基也在那（他是帕基特诺夫一位已在计算中心大型机上写过好几个游戏的同事兼朋友）。</p>
 <p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjlta4rnmej311y0lc1kx.jpg"></p>
 <p>还有一位16岁编程天才，叫瓦迪姆·格拉西莫夫。在令他的计算机老师刮目相看后，他被送到计算中心进修并协助软件项目。帕夫洛夫斯基将他介绍给帕基特诺夫，三人因对电脑游戏和编程的热爱产生共鸣，他们组成团队，利用晚上构思游戏创意。他们希望打造并销售游戏集合，这在苏联是极端困难的。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4kukzqj311y0lcgpe.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmb5kkmulj311y0lc1kx.jpg"></p>
 <p>帕基特诺夫经常坐在桌旁思考到很晚，他回想起童年玩五格骨牌的时光。显然，他有办法将这游戏移植到电脑上。帕基特诺夫修改了标准的五格骨牌，以适应他的古董电脑。他将五格减为四格，这让图形数量从12个减少为7个。帕基特诺夫用六天就做出了原型，他称之为“基因工程”。游戏目标很简单，排列方块以填满盒子。游戏可行，但有个问题：太无聊了。一旦玩家找到解法，就没必要再玩了，游戏需给玩家不断挑战的动力。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4ciuwmj311y0lc78t.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmb5motrpj311y0lc4qp.jpg"></p>
 <p>于是帕基特诺夫让游戏更刺激，他将游戏区域缩窄到屏幕中央，让方块持续下落，这让游戏节奏更快、更有挑战性。但还有个问题，如果你未能让一行填满，它不会消失；如果你填满一行，它也不会消失，这很不带感，游戏也会很快结束。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4f9nelj311y0lcdkd.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmjie5fqmj311y0lc4qp.jpg"></p>
 <p>帕基特诺夫再次修改游戏，一旦玩家填满一行，那行就会消失。游戏理论上无穷无尽，而将方块填满一行的感觉令人沉迷。突然，他自己都玩得停不下来，他甚至在工作时间以调试程序的名义偷偷玩游戏，这款游戏天生令人上瘾，而且不需要任何教程或解释。</p>
 <p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmk56zim5j311y0lc1hf.jpg"></p>
 <p>帕基特诺夫将之命名为“Tetris（俄罗斯方块）”。这个词组合了希腊语表示四的“Tetr”和他最爱的网球运动“tennis”。它有个基本的分数系统，没有音效和额外关卡，但它令人上瘾，绝对是他们游戏集合中的最佳作品，但没人想到《俄罗斯方块》会流出计算中心的大楼，它仅能运行在过时的Electronika 60上。</p>
 <p>《俄罗斯方块》在苏联科学院收获了一小群死忠粉，帕基特诺夫希望有更多玩家，唯一的办法是将游戏移植到更通用的平台上，即IBM PC。他问16岁天才瓦迪姆·格拉西莫夫能否办到，这个任务之所以困难是因为格拉西莫夫需要在一台从未用过的电脑上重写所有代码。但区区数日，格拉西莫夫就完成原型。几周后，他就做出兼容性更好的完整版。他为方块加上颜色，加入了更多关卡和分数保存功能，《俄罗斯方块》变得更令人上瘾了。然而，销售游戏集合的梦想破碎了。在苏联做生意非同寻常，更别说是软件生意，外加他们是在苏联科学院里开发游戏，所以严格来说游戏是政府财产。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4kg58ej311y0lc43c.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmoatf0goj311y0lc7wh.jpg"></p>
 <p>帕基特诺夫、帕夫洛夫斯基和格拉西莫夫不希望汗水付诸东流，他们将游戏集合命名为“电脑游乐场”，并制作拷贝分发给任何感兴趣的人，其中之一便是弗拉基米尔·伯克希尔科，他是帕基特诺夫的朋友，在莫斯科医学中心担任临床心理学家。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4iizqyj311y0lc42k.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmodrltcaj311y0lc4qp.jpg"></p>
 <p>当他玩了《俄罗斯方块》后，他立刻明白了这款游戏令人上瘾的本质。当一行行方块消失，一种情绪激励会让玩家不断玩下去。伯克希尔科将游戏拷贝给下属们玩，很快，整个心理学部门都着迷了。伯克希尔科害怕游戏会干扰工作，又销毁了医学中心的每份拷贝。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4b3wx3j311y0lcgou.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnvxjytruj311y0lc1kx.jpg"></p>
 <p>但游戏还是死灰复燃，堵不如疏，伯克希尔科想到这款游戏可用于成瘾性研究。帕基特诺夫和格拉西莫夫为莫斯科医学中心开发了专门的双人版本。</p>
 <p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmomqrhn4j311y0lcteb.jpg"></p>
 <p>到1986年，《俄罗斯方块》在苏联如野火般传开，几乎每个能接触IBM PC的人都能玩上。帕基特诺夫没赚一分钱，但他为游戏的流行感到振奋，但这只是开始，《俄罗斯方块》最终传到苏联之外，燃了一场借此赚钱的史诗之争。</p>
 <h3 id="进入西方"><a href="#进入西方" class="headerlink" title="进入西方"></a>进入西方</h3><p>由于简单而令人上瘾的玩法,《俄罗斯方块》占据了苏联人的闲暇时光，包括帕基特诺夫的上司，他将游戏分享给匈牙利布达佩斯SZKI计算机科学学院的几位同事，他们非常喜欢，一些学生甚至将游戏移植到Commodore 64和Apple II上（当时两款西方最流行的家用电脑）。由此，《俄罗斯方块》正式穿过了冷战铁幕。</p>
 <p>某种程度上，匈牙利在苏联阵营中受西方影响最大。它虽受共产主义统治，但在1956年匈牙利革命后，匈牙利政府进行了一些主要经济改革以创造一个相对开放的自由市场。匈牙利最流行的出口之一就是由鲁比克·艾尔内于1974年发明的魔方。商人们在匈牙利寻找将东方产品销往西方市场的机会，其中一名商人叫罗伯特·斯坦恩，他是英国软件公司Andromeda的老板。他在80年代卖过电脑硬件，然后转向了软件销售这门利润颇丰的生意。相比在英国发掘新游戏，他觉得故乡匈牙利更适合他。他的商业模式很简单，发掘新游戏；卖给西方游戏发行商；按销量收取版税。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b451hhcj311y0lctdo.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmpwb5qfvj311y0lc7wh.jpg"></p>
 <p>斯坦恩为了寻找游戏，经常拜访SZKI计算机科学学院。1986年某天，他注意到有人在计算机实验室角落玩一款游戏，那就是《俄罗斯方块》。</p>
 <p>“这是啥？”他问<br>“噢，游戏而已”一位员工答道</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4jwqsgj311y0lctee.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmsyqi973j311y0lc7wh.jpg"></p>
 <p>好奇之下，斯坦恩也玩了玩。他不是游戏达人，却也玩得停不下来，这肯定能火。他立刻找到学院主管希望获得授权，但主管不好意思地承认，游戏不是他们的，如果斯坦恩想要授权，他得跟苏联谈。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b45zirnj311y0lcq7y.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmt2x77ohj311y0lc7wh.jpg"></p>
 <p>这可不容易，苏联经济当时仍非常封闭，斯坦恩就这么飞到莫斯并谈拢生意的可能性几乎为零，但学院主管有个联系方式，他有苏联科学院的电传机号码。斯坦恩发了条电报，说明自己希望获得《俄罗斯方块》授权，这条信息被转交帕基特诺夫。</p>
 <p>帕基特诺夫大为震动，他几乎放弃卖游戏的想法了，现在却收到一份对《俄罗斯方块》的报价。但他必须谨慎，他发明了《俄罗斯方块》，但他无权进行游戏授权。</p>
 <p>“我们对此无能为力”，他说</p>
@@ -9663,16 +9887,16 @@
 <p>但正如帕基特诺夫所料，苏联政府介入了谈判。AcademySoft，苏联科学院内部的发行和授权团队接手了进一步谈判，AcademySoft只愿给斯坦恩IBM PC版《俄罗斯方块》授权。斯坦恩同意了，其它版本可稍后再谈。当时已是1987年，却还没签订任何合同。Spectrum Holobyte和Mirrorsoft正筹备他们的《俄罗斯方块》，以为自己已获得相关授权。斯坦恩愈发焦虑，苏联那边到底由谁来代表商谈？斯坦恩认为自己已获口头承诺，但他需要纸面合同来确保和Mirrorsoft、Spectrum Holobyte的交易合法，所以斯坦恩不断催促苏联。</p>
 <p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmu7023k2j311y0lc4qp.jpg"></p>
 <p>1987年4月，他向莫斯科发了另一封电报，里面说明Mirrorsoft和Spectrum Holobyte会在各自地域发行IBM PC版《俄罗斯方块》，但他的催促并无效果。1987年6月，斯坦恩与Spectrum Holobyte、Mirrorsoft敲定了最终合同，但他仍需要苏联方面的签字。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b487jfxj311y0lcjw8.jpg"></p>
-<h3 id="红盒子"><a href="#红盒子" class="headerlink" title="红盒子"></a>红盒子</h3><p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b47le3sj311y0lctfc.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmtmunddzj311y0lc4qp.jpg"></p>
+<h3 id="红盒子"><a href="#红盒子" class="headerlink" title="红盒子"></a>红盒子</h3><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmumhfdz0j311y0lcn3u.jpg"></p>
 <p>罗伯特·斯坦恩向两家公司保证他会搞定和苏联的协议，于是两家公司继续推进项目，但市场营销是个大问题：《俄罗斯方块》令人上瘾，但不同于当时市面上的任何游戏它没有故事或英雄，画面也没优势。Spectrum Holobyte总裁菲尔·亚当斯注意到《俄罗斯方块》是北美商业发行的第一个俄国游戏，为何不借此宣传呢？他提议将《俄罗斯方块》包装成来自神秘铁幕之后的异国游戏，这定能迎合大众对苏联的好奇。游戏被完全重写，以融入俄国元素，其中加入的图片包括圣瓦西里大教堂、列宁体育场和五一劳动节红场庆典，游戏还用了经典的俄国音乐，甚至暗示了马蒂亚斯·鲁斯特那个驾着小飞机直达红场的西德飞行员，（他被逮捕，并以“蓄意流氓罪”被起诉模仿里根和戈尔巴乔夫的演员在贸易展上推销游戏）《俄罗斯方块》热潮随发布接近渐涨。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4ak56bj311y0lcjwj.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmuonqs6cj311y0lc4qp.jpg"></p>
 <p>1988年1月，就在《俄罗斯方块》上市前，罗伯特·斯坦恩收到来自苏联另一机构的电报，该机构指控斯坦恩非法销售《俄罗斯方块》并声称他们全权负责后续谈判，这个机构就是ELORG。ELORG是“电子技术机构”的简称，苏联外贸部门为进出口计算机技术建立了ELORG，专门面向其它共产主义国家。但随着1980年代戈尔巴乔夫掌权，与西方贸易的限制渐渐放开，ELORG可自由寻找国际上技术授权的机会，包括软件领域。ELORG获悉一些苏联科学院研究员在开发软件，包括帕基特诺夫的AI程序。ELORG找到帕基特诺夫，看他的程序是否能销往国外，见面时，帕基特诺夫随口提起《俄罗斯方块》，包括他和AcademySoft在与罗伯特·斯坦恩交易中的困难。ELORG的代表大为震惊，帕基特诺夫和AcademySoft无权商谈国际软件授权事项，ELORG要求立即移交所有纸质文件。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4eee7wj311y0lcte7.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmurpmvo6j311y0lc7wh.jpg"></p>
 <p>ELORG深感不可思议，一名苏联科学院的研究员竟在商谈一款电子游戏的国际商业授权。不仅如此，还没签任何合同，这款游戏就即将在西方发售了。就这样，ELORG开始全权负责授权谈判，他们要求斯坦恩来莫斯科进行解释。当斯坦恩到达时，他说就像被审问一样。ELORG的代表们并不相信他：</p>
 <p>“你为何未经我们批准就销售《俄罗斯方块》？”他们问<br>“我之前都不知道你们的存在！”斯坦恩辩解道</p>
 <p>他据理力争，说现在中止交易对苏联不利，会让外界觉得苏联是不可靠的贸易对象。双方讨价还价，像无休无止的网球比赛。ELORG想对游戏有最终审查权，斯坦恩想获得所有计算机版本授权，不仅限于IBM PC。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4lbrkij311y0lcq8g.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmuu1kfyyj311y0lc7wh.jpg"></p>
 <p>双方一直讨价还价未达成任何协议。此时，游戏在西方大有进展。1988年1月29日，Spectrum Holobyte以34.95美元的价格发售《俄罗斯方块》。它有一个红色包装盒，上面用黄色粗体俄文写着名字<br>相比其它游戏非常显眼。这种“俄国风”营销思路非常奏效，Spectrum Holobyte首年就卖出了10万份拷贝，英国Mirrorsoft的销量稍逊，但仍然可观。另外，英国版移除了游戏中的很多俄国元素，游戏好评如潮：</p>
 <blockquote>
 <p>“《俄罗斯方块》上手如此简单，你打开游戏五分钟就能学会。它是如此诱人，一旦你开始玩就会在电脑前待上很久，以至于你开始怀疑这游戏是不是一个恶毒阴谋，由邪恶帝国策划，以降低美国工人生产力”</p>
@@ -9684,22 +9908,22 @@
 </blockquote>
 <p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmuqzu6uyj311y0lcb29.jpg"></p>
 <p>《俄罗斯方块》热潮席卷西方，在家庭和公司都可见踪影。Spectrum Holobyte甚至为游戏加上了老板键，按下Esc键即可快速弹出一个命令行界面。这是Spectrum Holobyte和Mirrorsoft的一次巨大成功，但斯坦恩依然提心吊胆：他和俄国人的协议仍悬而未决。Spectrum Holobyte和Mirrorsoft开始将游戏移植到其它电脑平台。最终在1988年5月，《俄罗斯方块》发售4个月后，ELORG和斯坦恩达成了协议，Andromeda公司获得游戏PC版发行权以及将游戏移植到“不同类型计算机”的权利。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4dchoaj311y0lcn0j.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmv0ivxmuj311y0lc1kx.jpg"></p>
 <p>斯坦恩认为，这包括了家用主机，ELORG会拿到一笔未公开预付款，以及每份游戏销售的版税。斯坦恩如释重负，他立刻致电Mirrorsoft的吉姆·麦肯诺奇，告知交易正式完成。当麦肯诺奇问到街机和掌机授权时，斯坦恩向他保证，那些不在话下。他们由此编织出一个错综复杂的授权网，最终导致一场残酷的争斗：关于谁拥有《俄罗斯方块》的哪些权利。</p>
 <h3 id="登陆任天堂"><a href="#登陆任天堂" class="headerlink" title="登陆任天堂"></a>登陆任天堂</h3><p>1988年1月，Spectrum Holobyte在拉斯维加斯的冬季CES上展示了他们的新产品。Spectrum Holobyte总裁菲尔·亚当斯骄傲地站在展厅里向排成长队的与会者展示《俄罗斯方块》。亨克·罗杰斯也在队伍中，他是日本游戏发行商BulletProof的老板。罗杰斯生于荷兰，在美国长大。当他在夏威夷大学读书时，他爱上了一位日本姑娘，并随她回到日本。他在那儿进入游戏开发行业，创立了Bulletproof。受“龙与地下城”桌游的启发，亨克·罗杰斯发售了《黑玛瑙》–一款野心勃勃的回合制RPG，在日本还是首创。1984年底，它已成为日本最畅销电脑游戏。</p>
 <p>1985年，他被任天堂FC迷住了，决定为这一平台开发游戏。当他通过杂志了解到任天堂社长山内溥是围棋爱好者后，他预约了见面。罗杰斯提出他能为FC开发围棋游戏，山内溥向他预付3000万日元：即30万美元来开发游戏。几分钟内，罗杰斯就与任天堂达成交易，不仅收获现金，还得到任天堂官方许可。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b48ogcgj311y0lcjv3.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmx30kv3nj311y0lc1kx.jpg"></p>
 <p>1988年，罗杰斯更多涉足了发行行业。他经常出没于贸易展，寻找下一款能在日本发行的游戏，所以他站在那，排队等着去玩一款来自俄国的古怪游戏：《俄罗斯方块》。他不确定这是怎么回事：</p>
 <p>“《俄罗斯方块》是展会上最安静的游戏”<br>“那时，游戏已经有些画面吸引力”<br>“但这款游戏却完全不同”<br>“我想玩它，因为它是如此质朴”<br>“我玩得停不下来”</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4eua82j311y0lc431.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmx1rcxkpj311y0lc4qp.jpg"></p>
 <p>在反复排队玩了不下五次后，罗杰斯心服口服，《俄罗斯方块》就是他在寻觅的游戏。它如此简洁，看起来编程简单，且几乎无需文字翻译。罗杰斯获悉，Spectrum Holobyte的CEO吉尔曼·路易将去日本推销游戏。吉尔曼·路易的第一站是ASCII公司，日本最大的发行商之一。他们婉拒了《俄罗斯方块》，说这游戏过于复古，这成了罗杰斯的运气。</p>
 <p>吉尔曼·路易和亨克·罗杰斯签订了意向书，让BulletProof在日本发行《俄罗斯方块》，遍及所能想象的所有平台。罗杰斯给了标准开价，一笔预付款和按销量收取的版税。Spectrum Holobyte无意涉足日本市场，罗杰斯看起来更适合在日本发行这款游戏。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b45i7k2j311y0lcdk1.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmx5x95u7j311y0lc4qp.jpg"></p>
 <p>当吉尔曼·路易致电吉姆·麦肯诺奇告知消息时，他也得到一个惊人消息：罗杰斯没法享有在主机街机上的日本发行权–因为那发行权已经卖了，买家是雅达利游戏（雅达利在1984年分拆为“雅达利集团”和“雅达利游戏”）。雅达利游戏计划用子公司Tengen来发行游戏，与其他人一样雅达利工程师们玩了PC版《俄罗斯方块》后入迷了，游戏成了办公室日常谈资，这启发了雅达利游戏去争夺发行权。</p>
 <p>对罗杰斯更不利的是，雅达利游戏只花了很少代价。为了换取《俄罗斯方块》在日本和北美的主机街机发行权，雅达利游戏给了Mirrorsoft《彗星大爆破》的PC发行权：这是街机游戏《爆破彗星》的简单更新版<br>授权无需版税或现金。</p>
 <p>吉尔曼·路易气炸了，但他毫无办法。由于跟麦克斯韦集团关系更紧密，Mirrorsoft的权力更大，路易斯致电罗杰斯，告知这个消息，罗杰斯可以拿到PC发行权，但如果他想要主机和街机授权，他得找雅达利游戏。当罗杰斯联系对方询价时，雅达利游戏一口回绝。</p>
 <p>罗杰斯并不气馁，他飞往加州并在雅达利游戏的停车场扎起帐篷，他等待与总裁中岛秀的交谈机会。一天中岛正准备下班，罗杰斯乘机上去推销一番，中岛最终同意安排会谈。经过一顿寿司大餐，两人商讨了交易细节，中岛无法出售街机发行权，因为已经卖给了世嘉，但他愿意出售在日本主机的发行权。中岛不太关心游戏在日本主机的发行权，因为他正全力以赴北美市场，不过他开价很高。罗杰斯被迫多付30万美元来获得主机发行权，但他确信这款游戏能大卖。然而，日本的初期销量很低，BulletProof只收到4万份订单。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4h57fkj311y0lcn2o.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjmy5qpgo2j311y0lc7wh.jpg"></p>
 <p>罗杰斯再次找到任天堂社长山内溥，希望他能帮忙推广游戏。山内溥很好奇，于是将游戏交给了一位设计师：宫本茂。几天后，山内溥问宫本茂，《俄罗斯方块》好不好玩</p>
 <p>“好玩”，宫本茂说</p>
 <p>山内溥想知道原因，宫本茂说</p>
@@ -9710,19 +9934,19 @@
 <p>“如果捆绑马里奥，Game Boy就像为孩子设计”<br>“如果捆绑《俄罗斯方块》”<br>“Game Boy就会适合大众了”，他说</p>
 <p>荒川实大感兴趣。他听说了FC版《俄罗斯方块》在日本的成功，Tengen正准备在北美发行NES版的《俄罗斯方块》，但掌机发行权尚无定论。罗杰斯愿意帮忙，他知道能因此大赚。如果《俄罗斯方块》能随手可玩，在他获取这款游戏日本发行权的过程中，他得知罗伯特·斯坦恩是关键人物。</p>
 <p>罗杰斯致电斯坦恩，询问掌机授权的报价，他开价预付2.5万美元，但斯坦恩仍未获得掌机和街机授权并同时在应付Mirrorsoft对掌机授权的要求时他只给了个含糊回答：他要先跟俄国人谈了，才能答复罗杰斯，但斯坦恩即将遭遇另一障碍：在错综复杂的授权网某处，ELORG的收款逾期了，他们指派新主管尼古拉·贝里科夫来理清这团乱麻。贝里科夫是个以无情著称的高大男人，帕基特诺夫将他描述为一个出色演员，他是个谈判高手。贝里科夫看了斯坦恩和ELORG在1988年5月签署的合同，其中承诺会在三个月内付款，而这笔付款已逾期三个月。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4lssnzj311y0lcwi8.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnw0ijo94j311y0lc1kx.jpg"></p>
 <p>斯坦恩进退两难：Mirrorsoft和亨克·罗杰斯正等着掌机授权；未经授权的街机版《俄罗斯方块》已经发售。他觉得解决一切的最好办法，就是去莫斯科与贝里科夫会面。与此同时，罗杰斯感觉自己被无视了，他开始对罗伯特·斯坦恩生疑。不仅如此，他还听说Spectrum Holobyte的吉尔曼·路易正试图将掌机授权卖给任天堂。当荒川实向罗杰斯打听此事，罗杰斯坚决否认：</p>
 <p>“我知道吉尔曼没有这类授权”<br>“给我个机会，我会摆平的”</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4bksylj311y0lcaf9.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnw1sz3xlj311y0lc7wh.jpg"></p>
 <p>罗杰斯决定直接跟俄国人打交道，于是他前往莫斯科。在英国，Mirrorsoft听到任天堂觊觎掌机授权的风声，母公司麦克斯韦集团派遣凯文·麦克斯韦，即老板罗伯特·麦克斯韦之子前往莫斯科。麦克斯韦集团与苏联官僚关系密切，所以在争夺掌机和街机授权上优势大得多。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b495e0tj311y0lcn3v.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnvz3324dj311y0lcb29.jpg"></p>
 <p>1989年2月，斯坦恩、罗杰斯和麦克斯韦三人飞往莫斯科争夺《俄罗斯方块》这块蛋糕，《俄罗斯方块》的版权之争即将上演。</p>
 <h3 id="资本主义"><a href="#资本主义" class="headerlink" title="资本主义"></a>资本主义</h3><p>亨克·罗杰斯抵达莫斯科时，对自己该去哪毫无头绪。他知道斯坦恩是跟ELORG交涉，但他不知道这个部门在哪。最初，他尝试跟当地人下围棋来交朋友，但无所斩获，于是罗杰斯雇了名翻译来帮他打听ELORG。在莫斯科转了一天后，他们终于找到地址。亨克·罗杰斯走进ELORG，请求与《俄罗斯方块》的版权负责人见面。他在大厅等候时，能感受到周围压力。</p>
 <p>“你从没去过这么不欢迎自己的地方”，他说</p>
 <p>当贝里科夫得知一个来自日本的外国人想洽谈《俄罗斯方块》时，他非常惊讶，未经克格勃允许，与外国人会面是违反制度的，但贝里科夫很好奇，还是决定见面，无论如何，有个第三方报价对授权谈判总是有利的。贝里科夫与罗杰斯在大厅见了面。</p>
 <p>“你是谁？”他问</p>
 <p>罗杰斯拿出一份FC版《俄罗斯方块》，递给贝里科夫</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4cvsooj311y0lcdl3.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwl3m5m8j311y0lc79l.jpg"></p>
 <p>“我们是目前世界上最大的《俄罗斯方块》发行商”，他吹嘘道</p>
 <p>贝里科夫困惑地看着游戏卡带。就他所知，还没人得到主机版《俄罗斯方块》授权。</p>
 <p>“ELORG并未向任何人提供主机版授权！”贝里科夫咆哮道</p>
@@ -9730,13 +9954,13 @@
 <p>即ELORG-&gt; Andromeda-&gt; Mirrorsoft-&gt; Tengen-&gt; BulletProof（Andromeda=斯坦恩，Tengen=雅达利游戏）</p>
 <p>贝里科夫更困惑了，他甚至都没听过Tengen，他们只向Andromeda授了权，而且仅限于PC版《俄罗斯方块》。</p>
 <p>“你在非法销售不属于你的东西”，他说</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4jgelej311y0lcjwz.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwm1i8bbj311y0lc7wh.jpg"></p>
 <p>罗杰斯来莫斯科是为了争取掌机授权，但现在他竟有失去一切的危险。“我要么带着《俄罗斯方块》的授权离开，要么就得进集中营了”，他想。一番讨论后，罗杰斯和贝里科夫约定第二天正式会谈。第二天，罗杰斯来到ELORG，就被引进一间摆着巨大桌子的巨大房间，桌子的尽头是谈判强人贝里科夫、《俄罗斯方块》发明人帕基特诺夫和几位ELORG成员，罗杰斯一人坐在另一边。</p>
 <p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwnhot2ij311y0lc4qp.jpg"></p>
 <p>通常，他的推销会提到他与任天堂的密切关系以及他们如何占据了电子游戏市场的主要份额，但俄国人对任天堂和电子游戏市场一无所知。于是他另辟蹊径，给俄国人上了堂电子游戏商业速成课。ELORG向罗杰斯展示了他们与斯坦恩签署的合同，罗杰斯扫了一遍，发现了其中引发争端的条文：Andromeda与ELORG的合同声明斯坦恩有权将《俄罗斯方块》移植到“不同类型计算机”上–对俄国人而言，这仅意味着“计算机系统”；对斯坦恩而言，计算机与游戏主机并无本质区别。因此，ELORG贱卖了《俄罗斯方块》，只获得万分之一的收益，实在太糟糕了。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4g5jkcj311y0lcn1w.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwo9qajpj311y0lc4qp.jpg"></p>
 <p>罗杰斯向ELORG自荐，提出了他对掌机授权的详细报价，他愿为每盘卡带销售支付固定金额。在与斯坦恩的交易后，这报价实在惊喜，帕基特诺夫尤为折服。罗杰斯精通商业之道，而作为前程序员，他和帕基特诺夫志趣相投。罗杰斯一番推销后，贝里科夫希望更进一步，他要求一份对《俄罗斯方块》掌机授权的正式报价。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4malw3j311y0lc441.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwq2kt99j311y0lc7wh.jpg"></p>
 <p>“把东西都写下来”，他说</p>
 <p>贝里科夫问罗杰斯什么时候能再来莫斯科</p>
 <p>“我要么达成协议，要么一去不返”，罗杰斯回答道</p>
@@ -9744,7 +9968,7 @@
 <p>“不知道怎的，我俩一见如故”<br>“他就是我在俄国寻找的那种朋友”，罗杰斯说</p>
 <p>那晚，帕基特诺夫带罗杰斯参观了莫斯科。他们游览城市，畅饮伏尔加，讨论《俄罗斯方块》的续作创意，对帕基特诺夫而言，能畅快地聊聊作品实在清爽。</p>
 <p>“他无所予，也无所求”，帕基特诺夫说</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4gmuj7j311y0lcada.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwqv02qsj311y0lc1kp.jpg"></p>
 <p>两人结下的友谊，将对《俄罗斯方块》的未来产生深远影响。第二天，罗杰斯回到ELORG，带着对《俄罗斯方块》掌机授权的一纸报价。罗杰斯知道斯坦恩也将到来，所以他以这份报价仅有一周有效期来施压。</p>
 <p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwt8j1yfj311y0lctc7.jpg"></p>
 <p>在罗杰斯的电子游戏商业速成课后，贝里科夫也准备与罗伯特·斯坦恩和凯文·麦克斯韦会面。贝里科夫认为斯坦恩滥用了授权，斯坦恩攫取了一切，俄国人却收获甚微。而且相比之下，游戏发明者帕基特诺夫显然更喜欢罗杰斯，现在轮到共产主义者来玩这资本主义游戏了。</p>
@@ -9755,25 +9979,25 @@
 <p>贝里科夫接着将会见凯文·麦克斯韦，麦克斯韦集团老板罗伯特·麦克斯韦之子。罗伯特·麦克斯韦与俄国官僚关系密切，包括总书记米哈伊尔·戈尔巴乔夫，Mirrorsoft很有把握凯文·麦克斯韦一定能如愿拿下掌机授权。会谈一开始，贝里科夫就将FC版《俄罗斯方块》卡带滑向对方。</p>
 <p>“这是什么？”，他吓唬道</p>
 <p>麦克斯韦没啥头绪，他猜这是一份盗版《俄罗斯方块》</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4a48u1j311y0lcjvn.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwvf9aulj311y0lc7wh.jpg"></p>
 <p>“所以Mirrorsoft和ELORG更有理由谈成协议来杜绝这些盗版”，他说</p>
 <p>麦克斯韦对状况的无知成了致命伤。在贝里科夫看来，显然没人拥有《俄罗斯方块》的主机授权。贝里科夫没法一口回绝麦克斯韦哪怕他很想这么做，麦克斯韦与俄国高层关系密切，且财力雄厚。</p>
 <p>“如果这确实是份盗版”，贝里科夫说<br>“那Mirrorsoft应该为主机授权开个价”</p>
 <p>他同时抛出另一笔交易，ELORG将获得麦克斯韦集团旗下出版的参考书和百科全书发行权以换取Mirrorsoft对《俄罗斯方块》任何新授权的优先权。麦克斯韦对此非常满意地离开了，认为事情正往有利方向进展。但实际上，他吃大亏了。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4dwagaj311y0lctbu.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnww9uydtj311y0lc7wh.jpg"></p>
 <p>回到酒店房间，罗伯特·斯坦恩仔细看了ELORG开出的新合同，它几乎与旧合同一样，除了为逾期付款开出的高昂罚金。获得街机授权至关重要，为此斯坦恩必须签了这份合同。他签了名，并在第二天回到ELORG。没了这个障碍，谈判可以继续了，但贝里科夫说，ELORG还没打算卖出掌机授权，不过街机授权可以谈，报价是六周内付清15万美元的授权预付金。这是一大笔钱，但起码斯坦恩可避免Tengen和世嘉街机版的任何授权纠纷。</p>
 <p>斯坦恩心满意足地回去了，但斯坦恩忽略了新合同的一处关键改动，贝里科夫为“计算机”加上了定义，其中指明“计算机”是由处理器、显示器、磁盘驱动器、键盘和操作系统组成。由于这份合同具有回溯效力，它有效剥夺了斯坦恩自以为拥有的一切主机授权，那笔大额逾期罚金只是掩人耳目罢了，ELORG的俄国人玩了一次资本主义把戏并取得胜利。</p>
 <p>这次会面后，贝里科夫致电罗杰斯通知他，凯文·麦克斯韦和Mirrorsoft也想获得掌机授权。</p>
 <p>“我的开价比不上麦克斯韦”<br>“但我会诚实守信地为每盘卡带销售付钱”，罗杰斯说</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4na4ofj311y0lc427.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwxkacn9j311y0lce7b.jpg"></p>
 <p>几天后罗杰斯向ELORG呈上了最终合同，并详解了每处细节。一锤定音，罗杰斯和任天堂拿到了Game Boy上的《俄罗斯方块》授权。签署合同后，贝里科夫向罗杰斯提出另一笔交易：让他为《俄罗斯方块》的主机授权报价。罗杰斯知道任天堂肯定有兴趣。“任天堂会开出最高价格”，罗杰斯说。贝里科夫要求三周内给出一份纸面报价，在此之前不再会谈。罗杰斯马上赶回日本，他可耽搁不起。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4iz0c8j311y0lc787.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnwyrljprj311y0lc4qp.jpg"></p>
 <h3 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h3><p>一回到日本，亨克·罗杰斯就致电荒川实，告知喜讯：任天堂不仅手握《俄罗斯方块》掌机授权，由于之前的合同纠纷，他们还有机会争取主机授权。荒川实将信息转给任天堂美国副总裁霍华德·林肯，林肯兴奋得两眼发亮，这笔交易能让任天堂大赚，同时也是对雅达利游戏的回敬：后者作为曾经的授权厂商，正为1亿美元赔偿起诉任天堂。（这个诉讼源自雅达利游戏在任天堂授权政策上的碰壁，他们起诉任天堂涉嫌垄断和不公平竞争。与此同时，雅达利游戏以子公司Tengen名义，发行了一批未经授权的游戏，它们是最早出现在NES上的未授权游戏。Tengen即将发布的游戏之一，就是主机版《俄罗斯方块》）</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b49n99rj311y0lcwjg.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnxknfinxj311y0lcjwe.jpg"></p>
 <p>夺取Tengen的主机授权会对其重创，林肯对此一清二楚。他们派罗杰斯去莫斯科正式报价，一位著名律师与他随行，这位律师曾在苏联工作，精通俄语。他们给ELORG的报价相当惊人–500万美元的保证金。为履行承诺，贝里科夫联系Mirrorsoft通知其行使优先权。</p>
 <p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnxkd04tpj311y0lc1kx.jpg"></p>
 <p>1989年3月15日，他发出电报，并给对方一天来还价。没收到回复之下，ELORG准备跟任天堂签署合同。因为那笔巨大金额，一位任天堂雇员必须前来签字。林肯和荒川实决定秘密前往，雅达利游戏如有任何察觉，都会危及这份协议。他们告知任天堂美国的员工是要去日本旅行，然后直飞莫斯科。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4i1x8yj311y0lcwiq.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnxly8zhpj311y0lc1kx.jpg"></p>
 <p>他们到达后，谈判继续。林肯确定雅达利游戏会尾随其后，他希望加上条款，声明俄国人会在任何相关诉讼中帮助任天堂。林肯还建议帕基特诺夫作为发明人也能收到版税，贝里科夫认为这建议不妥，帕基特诺夫是在办公室做出了游戏，游戏属于国家。贝里科夫提议ELORG也能制造卡带，甚至要求能制造苏联自己的NES，任天堂拒绝了。</p>
 <p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnxn65delj311y0lcqs7.jpg"></p>
 <p>就在谈判最后阶段，Mirrorsoft的吉姆·麦肯诺奇最终回复了ELORG。就麦肯诺奇所知，Mirrorsoft已经拥有主机授权，ELORG肯定搞错了，这回复正中ELORG下怀。1989年3月22日，任天堂和ELORG签署了《俄罗斯方块》主机授权的协议。</p>
@@ -9784,7 +10008,7 @@
 <p>他觉得自己遭谎言中伤和欺骗，他指控亨克·罗杰斯与俄国人合谋修改了合同，他也指责凯文·麦克斯韦与贝里科夫的会面毁了一切。</p>
 <p>“他坑了我，也坑了大家”，斯坦恩说</p>
 <p>不过他好歹还有份安慰奖，斯坦恩仍然持有《俄罗斯方块》的PC和街机授权。凯文·麦克斯韦得知消息后火冒三丈。“你们两次撕毁协定，死定了”，他在给ELORG的回复电报中如是说，他还威胁要让苏联当局介入。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b46hbhxj311y0lcaeq.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnxqopbb1j311y0lc438.jpg"></p>
 <p>他不是在吹牛，苏联政府质询了贝里科夫，搜查了他的文件，但贝里科夫据理力争并担保任天堂会信守承诺。当凯文·麦克斯韦将这一消息告知父亲时，据称他父亲“勃然大怒”。罗伯特·麦克斯韦将他的怒火撒向戈尔巴乔夫，时任苏共总书记的戈尔巴乔夫当时无暇顾及这些，他的国家正在坍塌边缘。</p>
 <p>“你应该无需再担心日本公司了”，戈尔巴乔夫告诉麦克斯韦</p>
 <p>在此保证下，Mirrorsoft放弃了诉讼。1989年3月31日，雅达利游戏总裁中岛秀收到一封令他吃惊的电报，来自任天堂美国的霍华德·林肯。这是一封停终函，要求他们停止并终止在NES或任何家用主机上关于《俄罗斯方块》的制造、宣传、推广和销售，现在相关权利归任天堂了。</p>
@@ -9794,7 +10018,7 @@
 <p>但雅达利游戏其实慌了。一周后，他们申请了自家版本《俄罗斯方块》的版权。4月18日，他们起诉任天堂侵犯了他们的《俄罗斯方块》授权。一切都变得岌岌可危。雅达利游戏期望《俄罗斯方块》成为一拳重击打破任天堂的主宰之盾。他们指派编程老手埃德·洛格从头编写NES版的《俄罗斯方块》，他们为营销投入大量资金，在《今日美国》上登了整页广告。他们生产了30万份游戏拷贝，甚至在纽约的俄罗斯茶室举办了盛大的发售派对。</p>
 <p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnxtadyfaj311y0lc42d.jpg"></p>
 <p>1989年5月17日在诉讼之战中途，Tengen在NES上发行了《俄罗斯方块》。如其预料，游戏被抢购一空，数周内就卖出15万份。与此同时，霍华德·林肯前往莫斯科，带着一队律师为接下来的诉讼做准备。他们尽可能地采访了每个人，包括帕基特诺夫、贝里科夫、ELORG和苏联科学院的员工，他们梳理了罗伯特·斯坦恩和ELORG间的每份合同。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b4hl18sj311y0lc0w5.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjnxt3gqnuj311y0lc4pg.jpg"></p>
 <p>1989年6月15日，Tengen和任天堂的诉讼在加州北区联邦地区法院开庭。本案由法官菲尔·史密斯主持，她同时负责审理两家公司关于“未授权Tengen游戏”的诉讼案。任天堂和雅达利游戏都申请了预先禁令以防止对手销售《俄罗斯方块》。雅达利游戏辩称，他们来自Mirrorsoft的授权是有效的，是俄国人进行了重复授权；任天堂表示，俄国人从未想过将家用PC之外的任何授权卖给Mirrorsoft，那份修改后的合同就是确凿证据，其中定义了“家用计算机系统”，NES绝对不符合那个定义。</p>
 <p>6月22日，法官菲尔·史密斯做出决定，她批准任天堂的预先禁令，禁止雅达利游戏继续销售《俄罗斯方块》，最后的判决要等到那年11月了。雅达利游戏遭到巨大打击，那时，他们的30万份拷贝已卖出一半，还剩一整仓库的卡带。消费者得知消息后，蜂拥而至抢购一份，很多从租赁店借了游戏的人也不还了，并乐意为此付费</p>
 <p>1989年7月31日，任天堂宣布在北美发售Game Boy并捆绑一套《俄罗斯方块》。任天堂觉得他们在案件中拥有清晰强力的证据，他们请求法官菲尔·史密斯做出简易判决尽快结束案件。令人吃惊的是，法官同意了。</p>
@@ -9810,7 +10034,10 @@
       <a href="https://space.bilibili.com/180052141">Cara</a>
     </i>
   </font>
-</div>]]></content>
+</div>
+
+
+]]></content>
       <categories>
         <category>游戏史学家(Gaming Historian)</category>
       </categories>
@@ -9979,7 +10206,8 @@
   <entry>
     <title>C#中级编程</title>
     <url>/archives/7d83bb70.html</url>
-    <content><![CDATA[<p>本课程将通过Unity社区简单易学的讲解，在初级教程的基础上更近一步介绍游戏开发编程，了解面向对象思想的编程模式。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4nztqqvjj30xc0egq44.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本课程将通过Unity社区简单易学的讲解，在初级教程的基础上更近一步介绍游戏开发编程，了解面向对象思想的编程模式。</p>
 <a id="more"></a>
 
 <p><a href="https://unity.cn/ask/question/5f924d5cedbc2a0020a89d1e">点击查看Unity社区全部教程</a></p>
@@ -10186,7 +10414,8 @@
   <entry>
     <title>Hexo-Fluid博客建站记录</title>
     <url>/archives/e5b4d2d6.html</url>
-    <content><![CDATA[<p>本文将记录本博客Hexo-Fluid建站的全部过程，包括配置信息修改和功能拓展。虽然最后还是转回到了NexT主题，不过还是保留下来给其他初入Fluid主题想进行美化的读者留作参考。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4ofatf7fj31hc0u0wf8.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将记录本博客Hexo-Fluid建站的全部过程，包括配置信息修改和功能拓展。虽然最后还是转回到了NexT主题，不过还是保留下来给其他初入Fluid主题想进行美化的读者留作参考。</p>
 <a id="more"></a>
 
 
@@ -10682,7 +10911,8 @@
   <entry>
     <title>C#初级编程</title>
     <url>/archives/5342c81f.html</url>
-    <content><![CDATA[<p>本课程将通过Unity社区简单易学的讲解，从零基础开始介绍游戏开发编程，主要内容是C#的基本语法以及Unity内置函数的了解和使用。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4o4c5klrj30xc0egq44.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本课程将通过Unity社区简单易学的讲解，从零基础开始介绍游戏开发编程，主要内容是C#的基本语法以及Unity内置函数的了解和使用。</p>
 <a id="more"></a>
 
 
@@ -11058,7 +11288,19 @@
   <entry>
     <title>Introduction to Programming I</title>
     <url>/archives/c735be6b.html</url>
-    <content><![CDATA[<p>Aizu Online Judge’s course <em>Introduction to Programming I</em> : Acquire fundamental elements of programming languages.</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4nj407c6j311i0u0jwr.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/64152259/Keyclack-posters">Keyclack posters</a> by 
+      <a href="https://www.behance.net/MChahin">Mohamed Chahin</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>Acquire fundamental elements of programming languages.</p>
 <a id="more"></a>
 
 
