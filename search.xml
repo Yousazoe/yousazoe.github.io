@@ -47,91 +47,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客使用插件总结</title>
-    <url>/archives/c12c9c40.html</url>
-    <content><![CDATA[<p>这几天将博客主题从 Fluid 换回了 NexT，在重新安装插件的时候顺便记录了本博客当前使用的插件以及插件相关的主题美化，便于后续修改和供NexT主题读者参考。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="一键部署"><a href="#一键部署" class="headerlink" title="一键部署"></a>一键部署</h3><h4 id="地址"><a href="#地址" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href="https://github.com/hexojs/hexo-deployer-git">hexo-deployer-git</a></li>
-</ul>
-<h4 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-<p>然后修改站点配置文件<code>_config.yml</code> 中的配置：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span></span><br><span class="line">      <span class="attr">github:</span> <span class="string">git@github.com:Yousazoe/yousazoe.github.io.git</span></span><br><span class="line">      <span class="attr">coding:</span> <span class="string">git@e.coding.net:yousazoe/yousazoe/yousazoe.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-<h3 id="永久链接"><a href="#永久链接" class="headerlink" title="永久链接"></a>永久链接</h3><h4 id="地址-1"><a href="#地址-1" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href="https://github.com/rozbo/hexo-abbrlink">hexo-abbrlink</a></li>
-</ul>
-<h4 id="安装配置-1"><a href="#安装配置-1" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
-<p>然后我们可以在站点配置文件<code>_config.yml</code> 中修改为：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## If your site is put in a subdirectory, set url as &#x27;http://example.com/child&#x27; and root as &#x27;/child/&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">http://yousazoe.top</span></span><br><span class="line"><span class="attr">root:</span> <span class="string">/</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">archives/:abbrlink.html</span></span><br><span class="line"><span class="attr">abbrlink:</span></span><br><span class="line">  <span class="attr">alg:</span> <span class="string">crc32</span>  <span class="comment"># 算法：crc16(default) and crc32</span></span><br><span class="line">  <span class="attr">rep:</span> <span class="string">hex</span>    <span class="comment"># 进制：dec(default) and hex</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-<h3 id="文章推荐"><a href="#文章推荐" class="headerlink" title="文章推荐"></a>文章推荐</h3><p>这个可以帮助我们根据标签推荐相关文章，原版插件的使用要求编辑主题文件的，但是 NexT 主题集成了这个插件的配置，因此配置起来非常方便。</p>
-<h4 id="地址-2"><a href="#地址-2" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href="https://github.com/tea3/hexo-related-popular-posts">hexo-related-popular-posts</a></li>
-</ul>
-<h4 id="安装配置-2"><a href="#安装配置-2" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
-<p>我们只需要在主题配置文件<code>_config.yml</code> 中修改：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="comment">#PPMixingRate: 0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="comment">#isImage: false</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
-
-
-<h3 id="站点地图"><a href="#站点地图" class="headerlink" title="站点地图"></a>站点地图</h3><h4 id="通用站点地图"><a href="#通用站点地图" class="headerlink" title="通用站点地图"></a>通用站点地图</h4><ul>
-<li>地址：<a href="https://github.com/hexojs/hexo-generator-sitemap">hexo-generator-sitemap</a></li>
-</ul>
-<p>安装配置：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
-<p>然后我们需要在 Hexo 站点配置文件<code>_config.yml</code> 中加入 sitemap 插件：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 通用站点地图</span></span><br><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br></pre></td></tr></table></figure>
-<h4 id="百度站点地图"><a href="#百度站点地图" class="headerlink" title="百度站点地图"></a>百度站点地图</h4><ul>
-<li>地址：<a href="https://github.com/coneycode/hexo-generator-baidu-sitemap">Sitemap generator</a></li>
-</ul>
-<p>安装配置：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
-<p>具体配置类似通用站点地图，当然也可以看官方提供的教程，下面是一个简单的配置，我们在 Hexo 站点配置文件<code>_config.yml</code> 中添加：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 百度站点地图</span></span><br><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-<h3 id="站点统计"><a href="#站点统计" class="headerlink" title="站点统计"></a>站点统计</h3><h4 id="地址-3"><a href="#地址-3" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href="https://github.com/theme-next/hexo-symbols-count-time">hexo-symbols-count-times</a></li>
-</ul>
-<h4 id="安装配置-3"><a href="#安装配置-3" class="headerlink" title="安装配置"></a>安装配置</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-symbols-count-time --save</span><br></pre></td></tr></table></figure>
-<p>我们只需要在主题配置文件<code>_config.yml</code> 中修改：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Post wordcount display settings</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/hexo-symbols-count-time</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">false</span> <span class="comment"># 统计信息不换行显示</span></span><br><span class="line">  <span class="attr">item_text_post:</span> <span class="literal">false</span> <span class="comment"># 文章统计信息中是否显示“本文字数/阅读时长”等描述文字</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="string">ture</span> <span class="comment"># 站点统计信息中是否显示“本文字数/阅读时长”等描述文字</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">2</span> <span class="comment"># Average Word Length：平均字符长度</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span> <span class="comment"># Words Per Minute：阅读速度</span></span><br></pre></td></tr></table></figure>
-<p>汉字的平均字符长度为 1.5，如果在文章中使用纯中文进行写作（没有混杂英文），那么推荐设置 <code>awl: 2</code> 及 <code>wpm: 300</code>，但是如果文章中存在英文，建议设置 <code>awl: 4</code> 及 <code>wpm: 275</code>。</p>
-<h3 id="站内搜索"><a href="#站内搜索" class="headerlink" title="站内搜索"></a>站内搜索</h3><h4 id="地址-4"><a href="#地址-4" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href="https://github.com/theme-next/hexo-generator-searchdb">hexo-generator-searchdb</a></li>
-</ul>
-<h4 id="安装配置-4"><a href="#安装配置-4" class="headerlink" title="安装配置"></a>安装配置</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
-<p>在<strong>主题配置</strong>文件<code>themes\next_config.yml</code>中修改相关字段：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span> <span class="comment"># 每次输入改变都执行搜索</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">3</span> <span class="comment"># 每篇文章显示的搜索结果数量</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-<p>在<strong>站点配置</strong>文件<code>_config.yml</code>中添加以下字段：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span> <span class="comment"># 指定搜索范围，可选 post | page | all</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span> <span class="comment"># 指定页面内容形式，可选 html | raw (Markdown) | excerpt | more</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>博客搭建(Blog Building)</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>NexT</tag>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hero-NexT主题配置</title>
     <url>/archives/3bcb4b40.html</url>
     <content><![CDATA[<p>本文记录NexT博客的主题配置，本文记录了从站点配置Hexo重新安装到NexT主题自带的基础配置，不包含带有插件安装的主题美化。</p>
@@ -322,6 +237,91 @@
 <h4 id="公益404页面"><a href="#公益404页面" class="headerlink" title="公益404页面"></a>公益404页面</h4><p>腾讯公益404页面，寻找丢失儿童，让大家一起关注此项公益事业！效果如下 <a href="http://www.ixirong.com/404.html">http://www.ixirong.com/404.html</a></p>
 <p>使用方法，新建 404.html 页面，放到主题的 <code>source</code> 目录下，内容如下：</p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">HTML</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;content-type&quot;</span> <span class="attr">content</span>=<span class="string">&quot;text/html;charset=utf-8;&quot;</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge,chrome=1&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;robots&quot;</span> <span class="attr">content</span>=<span class="string">&quot;all&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;robots&quot;</span> <span class="attr">content</span>=<span class="string">&quot;index,follow&quot;</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/css&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/style/404style.css&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/plain&quot;</span> <span class="attr">src</span>=<span class="string">&quot;http://www.qq.com/404/search_children.js&quot;</span></span></span><br><span class="line"><span class="tag">          <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">homePageUrl</span>=<span class="string">&quot;/&quot;</span></span></span><br><span class="line"><span class="tag">          <span class="attr">homePageName</span>=<span class="string">&quot;回到我的主页&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/data.js&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/page.js&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>博客搭建(Blog Building)</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客使用插件总结</title>
+    <url>/archives/c12c9c40.html</url>
+    <content><![CDATA[<p>这几天将博客主题从 Fluid 换回了 NexT，在重新安装插件的时候顺便记录了本博客当前使用的插件以及插件相关的主题美化，便于后续修改和供NexT主题读者参考。</p>
+<a id="more"></a>
+
+
+
+
+
+<h3 id="一键部署"><a href="#一键部署" class="headerlink" title="一键部署"></a>一键部署</h3><h4 id="地址"><a href="#地址" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/hexojs/hexo-deployer-git">hexo-deployer-git</a></li>
+</ul>
+<h4 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<p>然后修改站点配置文件<code>_config.yml</code> 中的配置：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span></span><br><span class="line">      <span class="attr">github:</span> <span class="string">git@github.com:Yousazoe/yousazoe.github.io.git</span></span><br><span class="line">      <span class="attr">coding:</span> <span class="string">git@e.coding.net:yousazoe/yousazoe/yousazoe.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+<h3 id="永久链接"><a href="#永久链接" class="headerlink" title="永久链接"></a>永久链接</h3><h4 id="地址-1"><a href="#地址-1" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/rozbo/hexo-abbrlink">hexo-abbrlink</a></li>
+</ul>
+<h4 id="安装配置-1"><a href="#安装配置-1" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+<p>然后我们可以在站点配置文件<code>_config.yml</code> 中修改为：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## If your site is put in a subdirectory, set url as &#x27;http://example.com/child&#x27; and root as &#x27;/child/&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">http://yousazoe.top</span></span><br><span class="line"><span class="attr">root:</span> <span class="string">/</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">archives/:abbrlink.html</span></span><br><span class="line"><span class="attr">abbrlink:</span></span><br><span class="line">  <span class="attr">alg:</span> <span class="string">crc32</span>  <span class="comment"># 算法：crc16(default) and crc32</span></span><br><span class="line">  <span class="attr">rep:</span> <span class="string">hex</span>    <span class="comment"># 进制：dec(default) and hex</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+<h3 id="文章推荐"><a href="#文章推荐" class="headerlink" title="文章推荐"></a>文章推荐</h3><p>这个可以帮助我们根据标签推荐相关文章，原版插件的使用要求编辑主题文件的，但是 NexT 主题集成了这个插件的配置，因此配置起来非常方便。</p>
+<h4 id="地址-2"><a href="#地址-2" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/tea3/hexo-related-popular-posts">hexo-related-popular-posts</a></li>
+</ul>
+<h4 id="安装配置-2"><a href="#安装配置-2" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
+<p>我们只需要在主题配置文件<code>_config.yml</code> 中修改：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="comment">#PPMixingRate: 0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="comment">#isImage: false</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
+
+
+<h3 id="站点地图"><a href="#站点地图" class="headerlink" title="站点地图"></a>站点地图</h3><h4 id="通用站点地图"><a href="#通用站点地图" class="headerlink" title="通用站点地图"></a>通用站点地图</h4><ul>
+<li>地址：<a href="https://github.com/hexojs/hexo-generator-sitemap">hexo-generator-sitemap</a></li>
+</ul>
+<p>安装配置：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
+<p>然后我们需要在 Hexo 站点配置文件<code>_config.yml</code> 中加入 sitemap 插件：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 通用站点地图</span></span><br><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br></pre></td></tr></table></figure>
+<h4 id="百度站点地图"><a href="#百度站点地图" class="headerlink" title="百度站点地图"></a>百度站点地图</h4><ul>
+<li>地址：<a href="https://github.com/coneycode/hexo-generator-baidu-sitemap">Sitemap generator</a></li>
+</ul>
+<p>安装配置：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
+<p>具体配置类似通用站点地图，当然也可以看官方提供的教程，下面是一个简单的配置，我们在 Hexo 站点配置文件<code>_config.yml</code> 中添加：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 百度站点地图</span></span><br><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+<h3 id="站点统计"><a href="#站点统计" class="headerlink" title="站点统计"></a>站点统计</h3><h4 id="地址-3"><a href="#地址-3" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/theme-next/hexo-symbols-count-time">hexo-symbols-count-times</a></li>
+</ul>
+<h4 id="安装配置-3"><a href="#安装配置-3" class="headerlink" title="安装配置"></a>安装配置</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-symbols-count-time --save</span><br></pre></td></tr></table></figure>
+<p>我们只需要在主题配置文件<code>_config.yml</code> 中修改：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Post wordcount display settings</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/hexo-symbols-count-time</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">false</span> <span class="comment"># 统计信息不换行显示</span></span><br><span class="line">  <span class="attr">item_text_post:</span> <span class="literal">false</span> <span class="comment"># 文章统计信息中是否显示“本文字数/阅读时长”等描述文字</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="string">ture</span> <span class="comment"># 站点统计信息中是否显示“本文字数/阅读时长”等描述文字</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">2</span> <span class="comment"># Average Word Length：平均字符长度</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span> <span class="comment"># Words Per Minute：阅读速度</span></span><br></pre></td></tr></table></figure>
+<p>汉字的平均字符长度为 1.5，如果在文章中使用纯中文进行写作（没有混杂英文），那么推荐设置 <code>awl: 2</code> 及 <code>wpm: 300</code>，但是如果文章中存在英文，建议设置 <code>awl: 4</code> 及 <code>wpm: 275</code>。</p>
+<h3 id="站内搜索"><a href="#站内搜索" class="headerlink" title="站内搜索"></a>站内搜索</h3><h4 id="地址-4"><a href="#地址-4" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/theme-next/hexo-generator-searchdb">hexo-generator-searchdb</a></li>
+</ul>
+<h4 id="安装配置-4"><a href="#安装配置-4" class="headerlink" title="安装配置"></a>安装配置</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+<p>在<strong>主题配置</strong>文件<code>themes\next_config.yml</code>中修改相关字段：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span> <span class="comment"># 每次输入改变都执行搜索</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">3</span> <span class="comment"># 每篇文章显示的搜索结果数量</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<p>在<strong>站点配置</strong>文件<code>_config.yml</code>中添加以下字段：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span> <span class="comment"># 指定搜索范围，可选 post | page | all</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span> <span class="comment"># 指定页面内容形式，可选 html | raw (Markdown) | excerpt | more</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>博客搭建(Blog Building)</category>
@@ -732,7 +732,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#x65;&#x6e;&#x78;&#x75;&#x40;&#116;&#x65;&#x6e;&#x63;&#x65;&#110;&#116;&#x2e;&#x63;&#111;&#109;">&#108;&#x65;&#x65;&#x6e;&#x78;&#x75;&#x40;&#116;&#x65;&#x6e;&#x63;&#x65;&#110;&#116;&#x2e;&#x63;&#111;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#x65;&#x6e;&#120;&#x75;&#64;&#x74;&#101;&#x6e;&#99;&#x65;&#110;&#116;&#46;&#99;&#111;&#109;">&#x6c;&#x65;&#x65;&#x6e;&#120;&#x75;&#64;&#x74;&#101;&#x6e;&#99;&#x65;&#110;&#116;&#46;&#99;&#111;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -2786,123 +2786,6 @@
       </tags>
   </entry>
   <entry>
-    <title>一个关于爱与生活的童话-Florence</title>
-    <url>/archives/9b487a14.html</url>
-    <content><![CDATA[<p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
-<a id="more"></a>
-
-
-
-
-
-<p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_3803bfdcbfa1ff4515505f920ed1c7993993b9f6.600x338.jpg?t=1589331032">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256774213/movie480.webm?t=1580836892" type="video/mp4">       </video></p>
-<h3 id="关于游戏"><a href="#关于游戏" class="headerlink" title="关于游戏"></a>关于游戏</h3><p>Florence 是一场持续约 30 分钟的心动体验。故事很简短，但意义很深远。</p>
-<p>25 岁的 Florence Yeoh 对生活感到困惑。她的生活是日复一日地工作、睡觉，以及在社交媒体上打发大量时间。直到有一天，她遇到了一位名叫 Krish 的大提琴手，他改变了她眼中的整个世界。</p>
-<p>透过一系列预先设定的游戏剧本，从调情到吵架，从互助成长到逐渐分歧，玩家将体验 Florence 与 Krish 这段感情的点点滴滴。 《Florence》的灵感来源于「Slice of Life」漫画小说和网路漫画，讲述了一个熟悉、青涩而又私密的爱情故事。</p>
-<h3 id="测评"><a href="#测评" class="headerlink" title="测评"></a>测评</h3><blockquote>
-<p>“Florence is a beautiful experience that isn’t afraid to tell an ordinary story. This isn’t an action-packed, heroic tale or a somber story filled with tragedy, but it still hits some of those notes in subdued ways. Florence is happy, distressing, and admirable in its reflection of young romance, and it left me with a sense of unexpected hopefulness.”<br><em>Game Informer</em></p>
-</blockquote>
-<br/>
-
-<blockquote>
-<p>“This short collection of small moments manages to cover a wide range of powerfully relatable emotional highs and lows, beautifully capturing what it’s like to fall in love for the first time.”<br><em>The Guardian</em></p>
-</blockquote>
-<br/>
-
-<blockquote>
-<p>“The breathtaking Florence captures falling in love better than almost any game.”<br><em>Polygon</em></p>
-</blockquote>
-<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="玩法层面"><a href="#玩法层面" class="headerlink" title="玩法层面"></a>玩法层面</h4><p>游戏总体上偏向于叙事类的互动故事，玩家更注重故事本身，所以在玩法方面基本上是被弱化甚至是可以忽略。但是作为游戏，《Florence》的交互设计做的非常优秀，在后面会提到，在此不再赘述。</p>
-<h4 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h4><p>美术风格上绘图保持着非常高的质量，在同类游戏中处于中等偏上的水平。在游玩游戏的过程中，每一张图都可以当作壁纸，仿佛是在艺术长廊中欣赏一件件精美的画作。而且勾勒人物的线条非常简洁凝练，相较于写实风格更偏向卡通，但却拿捏的恰到好处。虽然游戏除了背景音乐完全没有人物配音，但美术上呈现出艺术上的张力，也能让画中的人物富有生机与活力。</p>
-<h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>交互设计也是《Florence》的一大亮点。</p>
-<p>从游戏一开始的拖拽牙刷来刷牙，到吃饭时点击食物来食用以及后面等等，交互的风格让我想到了锈湖推出的《白门》。除开游戏类型的不同，两者的交互设计非常相似，甚至《白门》的主人公一开始的洗漱和之后的吃饭几乎一模一样。在我的印象中，类似于洗漱吃饭这样的行为交互设计一般是通过按键的方式实现的，例如在饭桌前提示按下某个之前操作方式提到的交互键位，触发「洗漱」、「吃饭」、「睡觉」等，之后可能会有一段动画。回到游戏本身，作为叙事类游戏，《Florence》必然面临着游戏性不足的问题，而这种细腻独特的交互方式成功地拉长了总体的游戏时间，丰富了游戏的体验，让玩家参与其中而只不是“看漫画”。同样的，许多游戏大作采用固定交互键的方式也是节约了玩家的时间和精力，因为这些游戏本身不需要交互来给游戏“拖时间”。</p>
-<p>在交互的过程中，玩家感受到的不是僵硬地拖延游戏时间，而是情感被不断地牵动。令人印象非常深刻的是女主与男主交谈的几个片段。这个情节谈话的方式是将拼图拖拽到指定区域并拼好。双方刚开始聊天时，拼图有足足八块 ，形状也是千奇百怪。随着交谈的深入，拼图的数量也开始减少，难度开始不断降低，六块、四块、三块，到后面双方聊到火热，拼图也只剩下两块，画面中两个人的距离也在不断靠近。在接吻前，两块的拖拽甚至变成了轴对称的，只需要拖拽一块到区域内就完成了。在整个过程中，玩家对这种不断增进的感情实际上是感同身受的，情感已经借由交互带入到故事中：从刚开始聊天的羞涩，不断从脑中寻找话题，到之后双方开始互敞心扉，最后不断靠近并热切地接吻，玩家的情感也融入到情景之中。拼图的形式贯穿了整个游戏，随着剧情的发展，双方的争吵再次以拼图的形式呈现：拼图镶嵌的「角」从圆滑的「圆角」变成了锐利的「尖角」；如果拼接的速度不够快还可能输给对方；而到了夜里睡觉的时候，拼图拼出双方背对背躺着，却只能拼出两大块各自的拼图，两者因为「角」相互排斥拼不到一起。和拼图的效果相似的设计还有转动时针来表现时间的流逝、同居时放置物品和分居时收拾曾经放置的物品，都能给玩家带来很大的触动。</p>
-<p>丰富多样的交互可能会带来操作上的困难，但在整个游玩过程中，不同的交互都有相应的提示。交互方面唯一的遗憾是《Florence》作为跨平台的游戏，交互由触屏变成了鼠标的拖动，PC端的体验可能较手机端稍逊色一些。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf7df4nwl8j30go09dmyk.jpg"></p>
-<h4 id="剧情题材"><a href="#剧情题材" class="headerlink" title="剧情题材"></a>剧情题材</h4><p>故事的本身可能是《Florence》争议比较大的方面。一个女孩在日复一日麻木的生活与工作中偶然遇到自己心动的男孩，双方坠入爱河开始甜蜜幸福的生活，一起去追逐梦想。随着时间的流逝，在生活中女孩和男孩相互的不理解变成了争吵，最后不欢而散。女孩最后坚持了自己的梦想，成为了一名画家，但她依旧忘不了那个当初送给她颜料盒的那个人。</p>
-<p>有一些人认为剧情的真实性不够：女孩一见钟情，有懵懂的欣赏，有心动的害羞，有投机的聊天，这些都是校园恋爱的元素，放在前面铺垫过日复一日重复麻木单调工作的女孩身上显然是不合适的，而且之后的画画成名给人很突兀的感觉，逻辑上很难自洽：</p>
-<blockquote>
-<p>女孩幼年热爱绘画，二十来年不练，分手之后努力画了几年突然就绘画艺术家作品大卖了，我觉得真的好假啊，这种女孩是天才，是玛丽苏，是任何小说电视剧里的女主角，唯独不是普通人。一个「恋爱后分手，分手后成名」的恋爱故事，越品越感觉像是一个泡泡一样的童话”</p>
-<p> <em>Topas今天退休了吗</em></p>
-</blockquote>
-<p>在我看来，《Florence》与其说是一个故事，不如说是一个关于爱情的童话：与其在其中寻找现实中爱情的影子，不如放松下来，把它当作一本童话书或者一个绘本，静静欣赏那种单纯的美好。彼此激励一起为对方对梦想加油、无论做什么都是快乐而且有活力的、哪怕有吵架不久后还是原谅对方继续甜蜜、即使 Florence 失去了 Krish，她依旧选择了去热爱生活，去追逐自己的梦想，最后获得了成功。抛开合理性，这个剧情本身就已经超出了简单的甜甜的恋爱，立意上升到一个更高的层次：恋爱让自己变得更好。经历过这些，她明白了一个问题：我是谁？人的一生都在了解自己，女主也不例外。所以这款游戏的名字叫做“Florence”，不仅仅是说她经历了一切，更意味着，她经历的这一切，让她找回了自己。这可能才是游戏想真正表达的。</p>
-<p><img src="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_9e029df44296f3d21a61e96d0a7bea4447be2c14.600x338.jpg?t=1589331032"></p>
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>希望通过恋爱，成为更好的自己。</p>
-<blockquote>
-<p>加速拨动的时钟 诉说我们之间的改变<br>争吵时 对话框的拼图角变得越来越尖锐<br>明明拼好了的拼图却发现无法组合在一起<br>拼到一起的照片碎片 却还是一直在分离<br>…….<br>不管你怎么念念不舍把碎片拖回来 不愿意点下一页<br>但想要离开的人终究会疏远 远去 成为人生中的一名过客</p>
-<p>曾经的你使我的生活有了色彩 让我对未来有了无限的憧憬</p>
-<p>可相片里躺在我身边的你 却依旧是我亲手擦去了你的存在</p>
-<p>感谢曾经所有美好的回忆 也感谢你把我放归与人海成就更好的自己</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>游戏追踪 (Game Tracker)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>2D Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>跨越时空抚慰伤痛-Father and Son</title>
-    <url>/archives/84339f66.html</url>
-    <content><![CDATA[<p>《父与子》由那不勒斯考古博物馆所发行，是一款以父子亲情为主题的冒险游戏，从那不勒斯国家考古博物馆，珍藏着人类最伟大的文物和珍宝，揭开这趟冒险之旅的序幕。</p>
-<a id="more"></a>
-
-
-
-<p>剧情的主轴发展，开始于一个与父亲素为谋面的儿子迈克尔，透过穿越现在和过去，追溯已故父亲过往的考古旅程。你将亲自发掘那不勒斯的魅力，体验庞贝城在公元79年，维苏威火山喷发前几个小时的生离诀别，及探索古埃及的日常生活。积累的过去，造就了今日。</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6guDCiNkZr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-
-
-<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>因为游戏基本上没有什么玩法，就是移动、对话和一些小交互，所以画面被有意的压缩，留下上下两处放置交互按键。每个图案都清晰的表示，点击即可交互。然而令人非常遗憾的是，虽然交互的按键不少，但真正意义上的交互却非常少，家中的咖啡机和座椅、街道的座位，虽然有交互动画，但并不能实质推进剧情内容，只是让玩家单纯的沉浸在游戏的环境中，造成一种审美的疲劳，从而使一些玩家开始厌倦这种没有意义的交互。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghyp8ctbcmj31ds0n0wib.jpg"></p>
-<h4 id="场景设计"><a href="#场景设计" class="headerlink" title="场景设计"></a>场景设计</h4><p>整个游戏的美术风格采用了厚实质朴的油画风格，辨识度非常之高。最初被吸引的原因也是和许多年前的一个游戏 《直到世界的尽头》的美术风格非常相近。这个游戏不仅是油画风格，包括交互和时间交织的设计，我觉得都是参考了那个游戏。</p>
-<p>回到游戏本身，场景应该是参照现实中的博物馆和那不勒斯的实景，很有异域风情的感觉：熙熙攘攘的街道、庄严肃穆的博物馆、摇摇欲坠的火山、月光下的告白……细腻的油画很容易让人沉浸其中，形形色色的人被简化成了颜色各异的人形模型，漫游在一座陌生的城市，与父亲之前的朋友聊天，欣赏着故时的艺术，遇到自己心仪的女孩。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghzyns7kw0j31ds0n0b2a.jpg"></p>
-<h4 id="剧情故事"><a href="#剧情故事" class="headerlink" title="剧情故事"></a>剧情故事</h4><p>故事这一方面可以说是相当的不满意了。</p>
-<p>游戏总体上分成了三条叙事线：第一条是主角拜访父亲的故居，了解父亲的工作并试图去谅解抛妻弃子的他；第二条是儿子到访博物馆时时空交织回火山爆发前的古城，作为丈夫想办法拯救自己的妻子和女儿；第三条是儿子谅解父亲后与陌生姑娘的偶遇邂逅穿插雕塑师（个人推测是当时米开朗基罗任命的波尔塔）与妻子的诀别。</p>
-<p>光看上面陈列的故事线，叙事应该是非常丰富多彩的，带给玩家的应该是令人无法释怀的感人故事，然而叙述的手法实在拙劣。第一条线的核心个人理解应该是儿子是如何体谅父亲的，然而玩家被大量没有营养的对话所充斥，与父亲的旧友聊天和对艺术的感悟并不足以让儿子理解父亲离开妻儿如此长的时间，至少我去代入的话是不会这样的。即使穿插着第二条火山爆发前古城的父亲保护了妻子和女儿，但依旧无法掩饰他作为父亲的失职。也许他是一位优秀敬业的考古学者，但一定不是一位称职的父亲。</p>
-<p>第二条线依旧非常简陋，在火山爆发前父亲在慌乱中寻找邻居家的钱来凑够船票，碰巧遇到了熟人。这里可以选择抢走他的钱或者放任他，我选择了后者。唯一给我触动的是在送完妻女后头上开始倒计时，人群四散奔跑，而我觉得会有出口或者交互地点，于是从最左侧的码头跑回了最右侧，但是什么也没有发生，倒计时仍在继续。当我尝试在从右侧向左侧跑动时，时间已经不够了，对女儿的承诺也随着火山灰的坠落一并消逝了。</p>
-<p>第三条线则显得更加突兀，主角在理解父亲后在街上偶遇了心动的女孩，在唯美的场景下说出许多我自认为故弄玄虚的话，交织着雕刻师与妻子的诀别。在重现历史的过程中插入爱情的元素感觉是很突兀的，因为对白的功底不足，情感渲染的也不是很到位。</p>
-<p>虽然标题是 “跨越时空抚慰伤痛”，但给我个人的感觉是缺少父亲“赎罪”的过程。仅仅以探究古代丰富多彩的故事的工作为借口而忽略对儿子的陪伴，身为一个父亲是不合格的，这样的理由不足以打动玩家。跨越时间的故事虽然也是和父爱相关，但一个是为了妻儿选择留下牺牲自己，而一个是为了自己所痴迷的东西忘记了作为父亲的职责。</p>
-<p><img src="http://www.fatherandsongame.com/img/gallery/01.jpg"></p>
-<h3 id="文化溯源"><a href="#文化溯源" class="headerlink" title="文化溯源"></a>文化溯源</h3><h4 id="面包师-Terentius-Neo-和他妻子的壁画"><a href="#面包师-Terentius-Neo-和他妻子的壁画" class="headerlink" title="面包师 Terentius Neo 和他妻子的壁画"></a>面包师 Terentius Neo 和他妻子的壁画</h4><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfaa7ug22mj30ww0irwij.jpg"></p>
-<p>画上面包师及其妻子均手握书写工具，这表明他们是接受了教育的，纵使经济尚可，依旧努力掩饰自己出身卑微的情况。这幅双人肖像是在该地区发现的唯一此类画作，也是展览的亮点之一。展览策划人保罗·罗伯茨（Paul Roberts）认为，这幅画从独特的视角展现了公元1世纪庞贝城的居民生活：</p>
-<blockquote>
-<p>“作品显示这位面包师和妻子是优秀的罗马人，纸卷和铁笔显示他们受过教育，有修养。更重要的是，他们似乎是地位平等的伴侣。</p>
-</blockquote>
-<br/>
-
-<blockquote>
-<p>“她站在他前面一点，这不是怯懦女性的形象。在生意上，她是掌握账本的人。”</p>
-</blockquote>
-<h4 id="法尔内塞赫拉克勒斯-Ercole-Farnese"><a href="#法尔内塞赫拉克勒斯-Ercole-Farnese" class="headerlink" title="法尔内塞赫拉克勒斯 / Ercole Farnese"></a>法尔内塞赫拉克勒斯 / Ercole Farnese</h4><p><img src="https://www.analisidellopera.it/wp-content/uploads/2019/12/Lisippo_Ercole_Farnese.jpg"></p>
-<p>古罗马的皇帝怀着对赫拉克勒斯的崇敬，在罗马的卡拉卡拉浴场修建了该雕像。罗马灭亡后直至文艺复兴，人们开始对浴场进行考古挖掘。雕像的头部和躯干相继被发现，但双腿没有找到，于是文艺复兴运动主要的资助人之一红衣主教 <strong>法尔内塞</strong> 让米开朗基罗的学生波尔塔把雕像的这几部分运往罗马的 <strong>法尔内塞宫</strong>。米开朗基罗让波尔塔为雕像雕刻了一双新腿（双腿原件不久就被找到了），而自己在宫里的庭院中建了一个特殊的建筑来展示这个3米多高的巨人，雕像也因此命名为<strong>法尔内塞赫拉克勒斯（Farnese Hercules）</strong>，现收藏于 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a>。</p>
-<p>在希腊神话中，赫拉克勒斯是最伟大的英雄，他曾以顽强的战斗精神克服重重困难，完成了天神赋予他的十二件艰险的工作，还拯救了为人类盗火的普罗米修斯。赫拉克勒斯一生频于战斗，所有功绩都可圈可点，所以作者独具匠心地选取了他休息时的情节来表现这位伟大的英雄。雕像中人体呈曲线型，左腿支撑着身体的重量，左臂倚在支柱上，右臂背到身后。这种富有变化的姿态，形成了较为轻松的气氛。整个雕像给人一种平和但蕴含着力量的感觉，表现了一种雄浑的古典风格。雕像的形体块面结实饱满，虽然作品表现的是英雄赫拉克勒斯疲劳后休息的形象，但却依然让人感到似乎可以随时爆发出强大的能量。</p>
-<h4 id="庞贝古城"><a href="#庞贝古城" class="headerlink" title="庞贝古城"></a>庞贝古城</h4><p>庞贝城的起源可以上溯至公元前6世纪，在罗马人到来前，埃特鲁里亚、希腊和萨莫奈人先后在此统治。公元前4世纪，罗马人击败萨莫奈人，庞贝和坎帕尼亚的城邦纷纷加入罗马联盟，但仍然保持着相对独立的地位，由当地政府管辖，在外交和军事等方面则需要听从罗马的指令。公元前91年，同盟战争爆发，庞贝也是参战的意大利盟邦之一。战后，庞贝人获得了罗马公民权，但也成为罗马的殖民地，官方语言变成了拉丁语，并改用罗马的政治制度，开始每年选举双执法官。</p>
-<p>公元79年，庞贝遭遇灭顶之灾，维苏威火山喷发形成的火山灰，掩埋了它与附近的赫库兰尼姆、奥普隆蒂斯和斯塔比亚等城市。小普林尼的两封书信记录了这场灾难，他当年17岁，是火山爆发的见证者。在随后的岁月里，除了掘宝人的偶尔光顾（一所大房屋的门上留下了“此屋已凿”的字样），庞贝被世人遗忘了上千年。直到1592年，人们在挖掘运河时发现了带有古代壁画的墙壁，以及刻着“庞贝市议员”字样的石碑，这座城市才陆续被发掘。从18世纪末开始，发掘进展大大加快，不断有新的重要建筑被发现，庞贝城的面貌开始逐渐展现在世人眼前。</p>
-<p>今天，庞贝的城市布局已经相当清晰。根据考古学家朱塞佩·菲奥雷利的描绘，城中的每栋建筑都有了独立的编码，即便有的还尚未被命名。庞贝位于罗马以南240公里，在古代，普通旅行者从首都前往那里可能要花费三天，而信使骑快马可能只需一天。它所在的那不勒斯湾，在罗马时代就是贵族精英的度假胜地，许多名人在那里拥有别墅，比如恺撒就曾带领大批侍从造访政治家西塞罗的宅邸。通过贸易和罗马扩张带来的财富，庞贝成为一座繁荣的城市，建有圆形竞技场、两个剧场和四个浴场。庞贝还发掘了大量精美的壁画和工艺品，不仅体现了城市的富庶，更是古罗马时期生活的重要见证。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gi1wjbinunj30sg0lcgrf.jpg"></p>
-<h3 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h3><h4 id="存档"><a href="#存档" class="headerlink" title="存档"></a>存档</h4><p>在最初的场景中，由于一开始的交互内容包含了大量的艺术方面的知识，我会先主动退出游戏去查这些艺术品。但再次进入游戏后并没有回到之前的场景，而是直接重新开始。游戏过程中也没有找到手动存档的地方，这会导致玩的时候必须要玩到游戏指定的自动存档点才可以退出游戏，这对于喜欢刨根问底不断切屏追究游戏中的历史溯源的玩家是非常影响游戏体验的，而作为和博物馆联动的宣传游戏肩负着宣传的责任，上面的硬核玩家其实才是最有可能亲自到访 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a> 的受众。</p>
-<h4 id="本地化翻译"><a href="#本地化翻译" class="headerlink" title="本地化翻译"></a>本地化翻译</h4><p>从在家里父亲给儿子的信就能感觉到，文字中那种很奇怪的感觉：「让您重新看待你的人生」、「你计画去哪吗」……这种非常糟糕的本地化翻译就像每年四六级各种层出不穷的奇怪翻译一样，是这个游戏诟病的点之一。同样的，作为 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a> 已经出海的宣传游戏，海外的玩家如果看到如此糟糕的文本，游戏的体验要打折扣，想必对博物馆本身宣传的效果会适得其反。希望开发者和博物馆双方都能注重如何本土化文本的问题。</p>
-<h4 id="对话交流"><a href="#对话交流" class="headerlink" title="对话交流"></a>对话交流</h4><p>游戏中许多场景下的对话有一定的延迟和卡顿，在点击之后不能够及时反馈。这种延迟感对于游戏体验而言是致命的，会让我感到烦躁。同样的，对话的文本显得冗余繁杂，不够凝练，而且大部分对话都是对于父亲的看法，没有实质性推动游戏剧情的有效内容。</p>
-<h4 id="故事流程"><a href="#故事流程" class="headerlink" title="故事流程"></a>故事流程</h4><p>流程有一点问题。在火山爆发前去朋友家山上别墅找钱币购买船票时，在与另一个老人相遇之后回到客厅仍能再次挖掘钱币，再次上楼老人可以重复流程。在客厅的钱只够买两张船票，你可以再次选择保留自己的良心不去抢夺还是为了自己的孩子去抢夺老人。不知道是制作者有意为之给玩家重新选择的机会还是测试的时候没有发现，我觉得是前者。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfaa68p2kzj31hc0u015n.jpg"></p>
-]]></content>
-      <categories>
-        <category>游戏追踪 (Game Tracker)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>2D Game</tag>
-        <tag>Art</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>游戏性系统</title>
     <url>/archives/a79ad39b.html</url>
     <content><![CDATA[<p>本章由马若遥老师介绍游戏玩法开发，包括了解什么是游戏玩法开发,通过具体实例来介绍如何建立愿景、划定边界、迭代、抛光。</p>
@@ -3091,6 +2974,123 @@
       </categories>
       <tags>
         <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一个关于爱与生活的童话-Florence</title>
+    <url>/archives/9b487a14.html</url>
+    <content><![CDATA[<p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
+<a id="more"></a>
+
+
+
+
+
+<p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_3803bfdcbfa1ff4515505f920ed1c7993993b9f6.600x338.jpg?t=1589331032">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256774213/movie480.webm?t=1580836892" type="video/mp4">       </video></p>
+<h3 id="关于游戏"><a href="#关于游戏" class="headerlink" title="关于游戏"></a>关于游戏</h3><p>Florence 是一场持续约 30 分钟的心动体验。故事很简短，但意义很深远。</p>
+<p>25 岁的 Florence Yeoh 对生活感到困惑。她的生活是日复一日地工作、睡觉，以及在社交媒体上打发大量时间。直到有一天，她遇到了一位名叫 Krish 的大提琴手，他改变了她眼中的整个世界。</p>
+<p>透过一系列预先设定的游戏剧本，从调情到吵架，从互助成长到逐渐分歧，玩家将体验 Florence 与 Krish 这段感情的点点滴滴。 《Florence》的灵感来源于「Slice of Life」漫画小说和网路漫画，讲述了一个熟悉、青涩而又私密的爱情故事。</p>
+<h3 id="测评"><a href="#测评" class="headerlink" title="测评"></a>测评</h3><blockquote>
+<p>“Florence is a beautiful experience that isn’t afraid to tell an ordinary story. This isn’t an action-packed, heroic tale or a somber story filled with tragedy, but it still hits some of those notes in subdued ways. Florence is happy, distressing, and admirable in its reflection of young romance, and it left me with a sense of unexpected hopefulness.”<br><em>Game Informer</em></p>
+</blockquote>
+<br/>
+
+<blockquote>
+<p>“This short collection of small moments manages to cover a wide range of powerfully relatable emotional highs and lows, beautifully capturing what it’s like to fall in love for the first time.”<br><em>The Guardian</em></p>
+</blockquote>
+<br/>
+
+<blockquote>
+<p>“The breathtaking Florence captures falling in love better than almost any game.”<br><em>Polygon</em></p>
+</blockquote>
+<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="玩法层面"><a href="#玩法层面" class="headerlink" title="玩法层面"></a>玩法层面</h4><p>游戏总体上偏向于叙事类的互动故事，玩家更注重故事本身，所以在玩法方面基本上是被弱化甚至是可以忽略。但是作为游戏，《Florence》的交互设计做的非常优秀，在后面会提到，在此不再赘述。</p>
+<h4 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h4><p>美术风格上绘图保持着非常高的质量，在同类游戏中处于中等偏上的水平。在游玩游戏的过程中，每一张图都可以当作壁纸，仿佛是在艺术长廊中欣赏一件件精美的画作。而且勾勒人物的线条非常简洁凝练，相较于写实风格更偏向卡通，但却拿捏的恰到好处。虽然游戏除了背景音乐完全没有人物配音，但美术上呈现出艺术上的张力，也能让画中的人物富有生机与活力。</p>
+<h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>交互设计也是《Florence》的一大亮点。</p>
+<p>从游戏一开始的拖拽牙刷来刷牙，到吃饭时点击食物来食用以及后面等等，交互的风格让我想到了锈湖推出的《白门》。除开游戏类型的不同，两者的交互设计非常相似，甚至《白门》的主人公一开始的洗漱和之后的吃饭几乎一模一样。在我的印象中，类似于洗漱吃饭这样的行为交互设计一般是通过按键的方式实现的，例如在饭桌前提示按下某个之前操作方式提到的交互键位，触发「洗漱」、「吃饭」、「睡觉」等，之后可能会有一段动画。回到游戏本身，作为叙事类游戏，《Florence》必然面临着游戏性不足的问题，而这种细腻独特的交互方式成功地拉长了总体的游戏时间，丰富了游戏的体验，让玩家参与其中而只不是“看漫画”。同样的，许多游戏大作采用固定交互键的方式也是节约了玩家的时间和精力，因为这些游戏本身不需要交互来给游戏“拖时间”。</p>
+<p>在交互的过程中，玩家感受到的不是僵硬地拖延游戏时间，而是情感被不断地牵动。令人印象非常深刻的是女主与男主交谈的几个片段。这个情节谈话的方式是将拼图拖拽到指定区域并拼好。双方刚开始聊天时，拼图有足足八块 ，形状也是千奇百怪。随着交谈的深入，拼图的数量也开始减少，难度开始不断降低，六块、四块、三块，到后面双方聊到火热，拼图也只剩下两块，画面中两个人的距离也在不断靠近。在接吻前，两块的拖拽甚至变成了轴对称的，只需要拖拽一块到区域内就完成了。在整个过程中，玩家对这种不断增进的感情实际上是感同身受的，情感已经借由交互带入到故事中：从刚开始聊天的羞涩，不断从脑中寻找话题，到之后双方开始互敞心扉，最后不断靠近并热切地接吻，玩家的情感也融入到情景之中。拼图的形式贯穿了整个游戏，随着剧情的发展，双方的争吵再次以拼图的形式呈现：拼图镶嵌的「角」从圆滑的「圆角」变成了锐利的「尖角」；如果拼接的速度不够快还可能输给对方；而到了夜里睡觉的时候，拼图拼出双方背对背躺着，却只能拼出两大块各自的拼图，两者因为「角」相互排斥拼不到一起。和拼图的效果相似的设计还有转动时针来表现时间的流逝、同居时放置物品和分居时收拾曾经放置的物品，都能给玩家带来很大的触动。</p>
+<p>丰富多样的交互可能会带来操作上的困难，但在整个游玩过程中，不同的交互都有相应的提示。交互方面唯一的遗憾是《Florence》作为跨平台的游戏，交互由触屏变成了鼠标的拖动，PC端的体验可能较手机端稍逊色一些。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf7df4nwl8j30go09dmyk.jpg"></p>
+<h4 id="剧情题材"><a href="#剧情题材" class="headerlink" title="剧情题材"></a>剧情题材</h4><p>故事的本身可能是《Florence》争议比较大的方面。一个女孩在日复一日麻木的生活与工作中偶然遇到自己心动的男孩，双方坠入爱河开始甜蜜幸福的生活，一起去追逐梦想。随着时间的流逝，在生活中女孩和男孩相互的不理解变成了争吵，最后不欢而散。女孩最后坚持了自己的梦想，成为了一名画家，但她依旧忘不了那个当初送给她颜料盒的那个人。</p>
+<p>有一些人认为剧情的真实性不够：女孩一见钟情，有懵懂的欣赏，有心动的害羞，有投机的聊天，这些都是校园恋爱的元素，放在前面铺垫过日复一日重复麻木单调工作的女孩身上显然是不合适的，而且之后的画画成名给人很突兀的感觉，逻辑上很难自洽：</p>
+<blockquote>
+<p>女孩幼年热爱绘画，二十来年不练，分手之后努力画了几年突然就绘画艺术家作品大卖了，我觉得真的好假啊，这种女孩是天才，是玛丽苏，是任何小说电视剧里的女主角，唯独不是普通人。一个「恋爱后分手，分手后成名」的恋爱故事，越品越感觉像是一个泡泡一样的童话”</p>
+<p> <em>Topas今天退休了吗</em></p>
+</blockquote>
+<p>在我看来，《Florence》与其说是一个故事，不如说是一个关于爱情的童话：与其在其中寻找现实中爱情的影子，不如放松下来，把它当作一本童话书或者一个绘本，静静欣赏那种单纯的美好。彼此激励一起为对方对梦想加油、无论做什么都是快乐而且有活力的、哪怕有吵架不久后还是原谅对方继续甜蜜、即使 Florence 失去了 Krish，她依旧选择了去热爱生活，去追逐自己的梦想，最后获得了成功。抛开合理性，这个剧情本身就已经超出了简单的甜甜的恋爱，立意上升到一个更高的层次：恋爱让自己变得更好。经历过这些，她明白了一个问题：我是谁？人的一生都在了解自己，女主也不例外。所以这款游戏的名字叫做“Florence”，不仅仅是说她经历了一切，更意味着，她经历的这一切，让她找回了自己。这可能才是游戏想真正表达的。</p>
+<p><img src="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_9e029df44296f3d21a61e96d0a7bea4447be2c14.600x338.jpg?t=1589331032"></p>
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>希望通过恋爱，成为更好的自己。</p>
+<blockquote>
+<p>加速拨动的时钟 诉说我们之间的改变<br>争吵时 对话框的拼图角变得越来越尖锐<br>明明拼好了的拼图却发现无法组合在一起<br>拼到一起的照片碎片 却还是一直在分离<br>…….<br>不管你怎么念念不舍把碎片拖回来 不愿意点下一页<br>但想要离开的人终究会疏远 远去 成为人生中的一名过客</p>
+<p>曾经的你使我的生活有了色彩 让我对未来有了无限的憧憬</p>
+<p>可相片里躺在我身边的你 却依旧是我亲手擦去了你的存在</p>
+<p>感谢曾经所有美好的回忆 也感谢你把我放归与人海成就更好的自己</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>游戏追踪 (Game Tracker)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>2D Game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>跨越时空抚慰伤痛-Father and Son</title>
+    <url>/archives/84339f66.html</url>
+    <content><![CDATA[<p>《父与子》由那不勒斯考古博物馆所发行，是一款以父子亲情为主题的冒险游戏，从那不勒斯国家考古博物馆，珍藏着人类最伟大的文物和珍宝，揭开这趟冒险之旅的序幕。</p>
+<a id="more"></a>
+
+
+
+<p>剧情的主轴发展，开始于一个与父亲素为谋面的儿子迈克尔，透过穿越现在和过去，追溯已故父亲过往的考古旅程。你将亲自发掘那不勒斯的魅力，体验庞贝城在公元79年，维苏威火山喷发前几个小时的生离诀别，及探索古埃及的日常生活。积累的过去，造就了今日。</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6guDCiNkZr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>因为游戏基本上没有什么玩法，就是移动、对话和一些小交互，所以画面被有意的压缩，留下上下两处放置交互按键。每个图案都清晰的表示，点击即可交互。然而令人非常遗憾的是，虽然交互的按键不少，但真正意义上的交互却非常少，家中的咖啡机和座椅、街道的座位，虽然有交互动画，但并不能实质推进剧情内容，只是让玩家单纯的沉浸在游戏的环境中，造成一种审美的疲劳，从而使一些玩家开始厌倦这种没有意义的交互。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghyp8ctbcmj31ds0n0wib.jpg"></p>
+<h4 id="场景设计"><a href="#场景设计" class="headerlink" title="场景设计"></a>场景设计</h4><p>整个游戏的美术风格采用了厚实质朴的油画风格，辨识度非常之高。最初被吸引的原因也是和许多年前的一个游戏 《直到世界的尽头》的美术风格非常相近。这个游戏不仅是油画风格，包括交互和时间交织的设计，我觉得都是参考了那个游戏。</p>
+<p>回到游戏本身，场景应该是参照现实中的博物馆和那不勒斯的实景，很有异域风情的感觉：熙熙攘攘的街道、庄严肃穆的博物馆、摇摇欲坠的火山、月光下的告白……细腻的油画很容易让人沉浸其中，形形色色的人被简化成了颜色各异的人形模型，漫游在一座陌生的城市，与父亲之前的朋友聊天，欣赏着故时的艺术，遇到自己心仪的女孩。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghzyns7kw0j31ds0n0b2a.jpg"></p>
+<h4 id="剧情故事"><a href="#剧情故事" class="headerlink" title="剧情故事"></a>剧情故事</h4><p>故事这一方面可以说是相当的不满意了。</p>
+<p>游戏总体上分成了三条叙事线：第一条是主角拜访父亲的故居，了解父亲的工作并试图去谅解抛妻弃子的他；第二条是儿子到访博物馆时时空交织回火山爆发前的古城，作为丈夫想办法拯救自己的妻子和女儿；第三条是儿子谅解父亲后与陌生姑娘的偶遇邂逅穿插雕塑师（个人推测是当时米开朗基罗任命的波尔塔）与妻子的诀别。</p>
+<p>光看上面陈列的故事线，叙事应该是非常丰富多彩的，带给玩家的应该是令人无法释怀的感人故事，然而叙述的手法实在拙劣。第一条线的核心个人理解应该是儿子是如何体谅父亲的，然而玩家被大量没有营养的对话所充斥，与父亲的旧友聊天和对艺术的感悟并不足以让儿子理解父亲离开妻儿如此长的时间，至少我去代入的话是不会这样的。即使穿插着第二条火山爆发前古城的父亲保护了妻子和女儿，但依旧无法掩饰他作为父亲的失职。也许他是一位优秀敬业的考古学者，但一定不是一位称职的父亲。</p>
+<p>第二条线依旧非常简陋，在火山爆发前父亲在慌乱中寻找邻居家的钱来凑够船票，碰巧遇到了熟人。这里可以选择抢走他的钱或者放任他，我选择了后者。唯一给我触动的是在送完妻女后头上开始倒计时，人群四散奔跑，而我觉得会有出口或者交互地点，于是从最左侧的码头跑回了最右侧，但是什么也没有发生，倒计时仍在继续。当我尝试在从右侧向左侧跑动时，时间已经不够了，对女儿的承诺也随着火山灰的坠落一并消逝了。</p>
+<p>第三条线则显得更加突兀，主角在理解父亲后在街上偶遇了心动的女孩，在唯美的场景下说出许多我自认为故弄玄虚的话，交织着雕刻师与妻子的诀别。在重现历史的过程中插入爱情的元素感觉是很突兀的，因为对白的功底不足，情感渲染的也不是很到位。</p>
+<p>虽然标题是 “跨越时空抚慰伤痛”，但给我个人的感觉是缺少父亲“赎罪”的过程。仅仅以探究古代丰富多彩的故事的工作为借口而忽略对儿子的陪伴，身为一个父亲是不合格的，这样的理由不足以打动玩家。跨越时间的故事虽然也是和父爱相关，但一个是为了妻儿选择留下牺牲自己，而一个是为了自己所痴迷的东西忘记了作为父亲的职责。</p>
+<p><img src="http://www.fatherandsongame.com/img/gallery/01.jpg"></p>
+<h3 id="文化溯源"><a href="#文化溯源" class="headerlink" title="文化溯源"></a>文化溯源</h3><h4 id="面包师-Terentius-Neo-和他妻子的壁画"><a href="#面包师-Terentius-Neo-和他妻子的壁画" class="headerlink" title="面包师 Terentius Neo 和他妻子的壁画"></a>面包师 Terentius Neo 和他妻子的壁画</h4><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfaa7ug22mj30ww0irwij.jpg"></p>
+<p>画上面包师及其妻子均手握书写工具，这表明他们是接受了教育的，纵使经济尚可，依旧努力掩饰自己出身卑微的情况。这幅双人肖像是在该地区发现的唯一此类画作，也是展览的亮点之一。展览策划人保罗·罗伯茨（Paul Roberts）认为，这幅画从独特的视角展现了公元1世纪庞贝城的居民生活：</p>
+<blockquote>
+<p>“作品显示这位面包师和妻子是优秀的罗马人，纸卷和铁笔显示他们受过教育，有修养。更重要的是，他们似乎是地位平等的伴侣。</p>
+</blockquote>
+<br/>
+
+<blockquote>
+<p>“她站在他前面一点，这不是怯懦女性的形象。在生意上，她是掌握账本的人。”</p>
+</blockquote>
+<h4 id="法尔内塞赫拉克勒斯-Ercole-Farnese"><a href="#法尔内塞赫拉克勒斯-Ercole-Farnese" class="headerlink" title="法尔内塞赫拉克勒斯 / Ercole Farnese"></a>法尔内塞赫拉克勒斯 / Ercole Farnese</h4><p><img src="https://www.analisidellopera.it/wp-content/uploads/2019/12/Lisippo_Ercole_Farnese.jpg"></p>
+<p>古罗马的皇帝怀着对赫拉克勒斯的崇敬，在罗马的卡拉卡拉浴场修建了该雕像。罗马灭亡后直至文艺复兴，人们开始对浴场进行考古挖掘。雕像的头部和躯干相继被发现，但双腿没有找到，于是文艺复兴运动主要的资助人之一红衣主教 <strong>法尔内塞</strong> 让米开朗基罗的学生波尔塔把雕像的这几部分运往罗马的 <strong>法尔内塞宫</strong>。米开朗基罗让波尔塔为雕像雕刻了一双新腿（双腿原件不久就被找到了），而自己在宫里的庭院中建了一个特殊的建筑来展示这个3米多高的巨人，雕像也因此命名为<strong>法尔内塞赫拉克勒斯（Farnese Hercules）</strong>，现收藏于 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a>。</p>
+<p>在希腊神话中，赫拉克勒斯是最伟大的英雄，他曾以顽强的战斗精神克服重重困难，完成了天神赋予他的十二件艰险的工作，还拯救了为人类盗火的普罗米修斯。赫拉克勒斯一生频于战斗，所有功绩都可圈可点，所以作者独具匠心地选取了他休息时的情节来表现这位伟大的英雄。雕像中人体呈曲线型，左腿支撑着身体的重量，左臂倚在支柱上，右臂背到身后。这种富有变化的姿态，形成了较为轻松的气氛。整个雕像给人一种平和但蕴含着力量的感觉，表现了一种雄浑的古典风格。雕像的形体块面结实饱满，虽然作品表现的是英雄赫拉克勒斯疲劳后休息的形象，但却依然让人感到似乎可以随时爆发出强大的能量。</p>
+<h4 id="庞贝古城"><a href="#庞贝古城" class="headerlink" title="庞贝古城"></a>庞贝古城</h4><p>庞贝城的起源可以上溯至公元前6世纪，在罗马人到来前，埃特鲁里亚、希腊和萨莫奈人先后在此统治。公元前4世纪，罗马人击败萨莫奈人，庞贝和坎帕尼亚的城邦纷纷加入罗马联盟，但仍然保持着相对独立的地位，由当地政府管辖，在外交和军事等方面则需要听从罗马的指令。公元前91年，同盟战争爆发，庞贝也是参战的意大利盟邦之一。战后，庞贝人获得了罗马公民权，但也成为罗马的殖民地，官方语言变成了拉丁语，并改用罗马的政治制度，开始每年选举双执法官。</p>
+<p>公元79年，庞贝遭遇灭顶之灾，维苏威火山喷发形成的火山灰，掩埋了它与附近的赫库兰尼姆、奥普隆蒂斯和斯塔比亚等城市。小普林尼的两封书信记录了这场灾难，他当年17岁，是火山爆发的见证者。在随后的岁月里，除了掘宝人的偶尔光顾（一所大房屋的门上留下了“此屋已凿”的字样），庞贝被世人遗忘了上千年。直到1592年，人们在挖掘运河时发现了带有古代壁画的墙壁，以及刻着“庞贝市议员”字样的石碑，这座城市才陆续被发掘。从18世纪末开始，发掘进展大大加快，不断有新的重要建筑被发现，庞贝城的面貌开始逐渐展现在世人眼前。</p>
+<p>今天，庞贝的城市布局已经相当清晰。根据考古学家朱塞佩·菲奥雷利的描绘，城中的每栋建筑都有了独立的编码，即便有的还尚未被命名。庞贝位于罗马以南240公里，在古代，普通旅行者从首都前往那里可能要花费三天，而信使骑快马可能只需一天。它所在的那不勒斯湾，在罗马时代就是贵族精英的度假胜地，许多名人在那里拥有别墅，比如恺撒就曾带领大批侍从造访政治家西塞罗的宅邸。通过贸易和罗马扩张带来的财富，庞贝成为一座繁荣的城市，建有圆形竞技场、两个剧场和四个浴场。庞贝还发掘了大量精美的壁画和工艺品，不仅体现了城市的富庶，更是古罗马时期生活的重要见证。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gi1wjbinunj30sg0lcgrf.jpg"></p>
+<h3 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h3><h4 id="存档"><a href="#存档" class="headerlink" title="存档"></a>存档</h4><p>在最初的场景中，由于一开始的交互内容包含了大量的艺术方面的知识，我会先主动退出游戏去查这些艺术品。但再次进入游戏后并没有回到之前的场景，而是直接重新开始。游戏过程中也没有找到手动存档的地方，这会导致玩的时候必须要玩到游戏指定的自动存档点才可以退出游戏，这对于喜欢刨根问底不断切屏追究游戏中的历史溯源的玩家是非常影响游戏体验的，而作为和博物馆联动的宣传游戏肩负着宣传的责任，上面的硬核玩家其实才是最有可能亲自到访 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a> 的受众。</p>
+<h4 id="本地化翻译"><a href="#本地化翻译" class="headerlink" title="本地化翻译"></a>本地化翻译</h4><p>从在家里父亲给儿子的信就能感觉到，文字中那种很奇怪的感觉：「让您重新看待你的人生」、「你计画去哪吗」……这种非常糟糕的本地化翻译就像每年四六级各种层出不穷的奇怪翻译一样，是这个游戏诟病的点之一。同样的，作为 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a> 已经出海的宣传游戏，海外的玩家如果看到如此糟糕的文本，游戏的体验要打折扣，想必对博物馆本身宣传的效果会适得其反。希望开发者和博物馆双方都能注重如何本土化文本的问题。</p>
+<h4 id="对话交流"><a href="#对话交流" class="headerlink" title="对话交流"></a>对话交流</h4><p>游戏中许多场景下的对话有一定的延迟和卡顿，在点击之后不能够及时反馈。这种延迟感对于游戏体验而言是致命的，会让我感到烦躁。同样的，对话的文本显得冗余繁杂，不够凝练，而且大部分对话都是对于父亲的看法，没有实质性推动游戏剧情的有效内容。</p>
+<h4 id="故事流程"><a href="#故事流程" class="headerlink" title="故事流程"></a>故事流程</h4><p>流程有一点问题。在火山爆发前去朋友家山上别墅找钱币购买船票时，在与另一个老人相遇之后回到客厅仍能再次挖掘钱币，再次上楼老人可以重复流程。在客厅的钱只够买两张船票，你可以再次选择保留自己的良心不去抢夺还是为了自己的孩子去抢夺老人。不知道是制作者有意为之给玩家重新选择的机会还是测试的时候没有发现，我觉得是前者。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfaa68p2kzj31hc0u015n.jpg"></p>
+]]></content>
+      <categories>
+        <category>游戏追踪 (Game Tracker)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>2D Game</tag>
+        <tag>Art</tag>
       </tags>
   </entry>
   <entry>
@@ -4488,6 +4488,132 @@
       </tags>
   </entry>
   <entry>
+    <title>开始画像素画#8</title>
+    <url>/archives/e5e6b796.html</url>
+    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解文件格式和导出方法。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdd9dpvj30u008c74z.jpg"></p>
+<p>这个是系列的第 8 节。这篇技术细节比较多，可以跳过你不感兴趣的部分。</p>
+<p>本节主要是文件格式和导出方法。</p>
+<h3 id="Bitmap-and-vector-位图和矢量图"><a href="#Bitmap-and-vector-位图和矢量图" class="headerlink" title="Bitmap and vector 位图和矢量图"></a>Bitmap and vector 位图和矢量图</h3><p>我们先来讲讲图片在电脑上是如何保存的。简单来说，有两种 2d 的图像文件类型，位图和矢量图。</p>
+<p>矢量图是点、线坐标，以及颜色信息的集合，可以用来创作能缩放到任意分辨率的图像。它主要的缺点在于难以用在表现细节的图像上，像是照片，你几乎无法在像素级别进行控制。尽管我们能创建出看起来像是像素画的矢量图，或者把像素画导出成矢量图格式，但几乎没人这么做。也有些例外情况，比如说要把像素画打印到很大的板子上。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">circle</span> <span class="attr">cx</span>=<span class="string">&quot;50&quot;</span> <span class="attr">cy</span>=<span class="string">&quot;50&quot;</span> <span class="attr">r</span>=<span class="string">&quot;40&quot;</span> <span class="attr">stroke</span>=<span class="string">&quot;black&quot;</span> <span class="attr">stroke-width</span>=<span class="string">&quot;3&quot;</span> <span class="attr">fill</span>=<span class="string">&quot;red&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdbgy43j30330310pw.jpg"></p>
+<p>而位图图像，才是像素画能够存在的原因。位图把图像想象成很大的网格，打印在屏幕上，每个像素都单独存储。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdh3fwmj30jn0770s1.jpg"></p>
+<p>这样保存的文件有时候比较大。一个 <code>1080*1920</code> 的图，意味着包含了 <code>2.073.600</code> 个独立像素需要保存，所以有时候需要用高效算法来压缩一下。</p>
+<h3 id="Image-compression-图像压缩"><a href="#Image-compression-图像压缩" class="headerlink" title="Image compression 图像压缩"></a>Image compression 图像压缩</h3><p>图像压缩是为了减小图像文件的体积，但是依据使用算法的不同，有些算法可能会损坏原数据。</p>
+<p>压缩可以是有损或者无损的。有损压缩一般对于照片或者大幅插画是可以接受的，但是像素画就不可以。用 JPG 格式保存像素画会造成随机的颜色变化，图形虚影。在压缩像素画时，我们必须检查是否用的是无损压缩，比如 PNG 格式。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdcrltyj30en07lmx2.jpg"></p>
+<p>总的来说，你的编辑器提供的图像格式，比如 Aseprite 的.aseprite 格式，或者 GraphicGale 的.gal 格式，可以安全的保存所有的图层和元数据。</p>
+<h3 id="在-Aseprite-里保存"><a href="#在-Aseprite-里保存" class="headerlink" title="在 Aseprite 里保存"></a>在 Aseprite 里保存</h3><p>在 Aseprite 里用保存对话框进行保存（Ctrl + S，或者 Ctrl + Shift + S 做另存为新文件）</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdgjejzj30hz0avdg0.jpg"></p>
+<p>很直观，是吧？在这里保存为 <code>.aseprite</code> 格式，保存所有文件信息，以便你以后可以回来做修改。</p>
+<h3 id="导出预览"><a href="#导出预览" class="headerlink" title="导出预览"></a>导出预览</h3><p>在完成了你的精灵图之后，你可能想要发布到什么地方，或者发给谁，但如果直接保存成 <code>.png</code> 文件，会有两个不好的地方：第一，你的图像会保存成一个扁平的文件，就是说失去了图层和元数据，第二，你的 <code>png</code> 文件可能会长这样：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvf351jhj30180180bx.jpg"></p>
+<p>导出做预览的正确方式是用导出对话框，在“文件 -&gt; 导出”（<code>File</code> -&gt;<code> Export</code>）菜单</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdidzz7j30b809ua9u.jpg"></p>
+<p>这个对话框里有非常多有用的选项，我们一个个看一下：</p>
+<p><strong>Output File 输出文件</strong>：文件名。如果你直接输入想使用的文件格式，Aseprite 就可以保存为这个格式。推荐静态的图用“<code>.png</code>”，动画用“<code>.gif</code>”。</p>
+<p>这里不会把保存命令的默认格式也改掉，所以不用担心这里选择的格式以后会把所有东西都拍扁。</p>
+<p><strong>Resize 缩放</strong>：像素画对于目前的显示器来说通常都太小，所以需要缩放。Aseprite 提供了很多的分辨率供你选择。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdixafaj30ft0760oy.jpg"></p>
+<p>你可能注意到了，只能缩放成 <code>100%</code> 的整数倍，不能有小数，比如 <code>250%</code>。这是因为非整数倍的缩放会损坏像素画。这是个像素画的严重缺陷，并且没有什么办法能避免。记住缩放一定要用整数倍（<code>200%</code>，<code>300%</code> 等），不要用非整数倍（<code>130%</code>，<code>250%</code> 等等）。</p>
+<p>如果你一定要满足某个大小，试着缩放到最接近的最小的倍数，然后把画布延伸到你需要的尺寸。</p>
+<p>通常放大 <code>200%</code> 或者 <code>300%</code> 发布到网上足够了。</p>
+<p><strong>Layers 图层：</strong>当你导出文件时，他会被拍扁，就是失去所有图层信息。这个选项可以让你选择导出时需要包含哪个图层。</p>
+<p><strong>Frames 帧：</strong>后面会详细讲，这里就是指要导出哪些帧。如果你有不止一帧，那么会发生两件事：</p>
+<ul>
+<li>如果导出格式支持动画，比如 <code>gif</code>，那么就会导出动画到这个文件。</li>
+<li>如果导出格式不支持动画，比如 <code>png</code>，那么 Aseprite 就会保存到多个文件，每帧一个。<br>（编辑注：现在 <code>APNG</code> 动画格式其实也已经得到了广泛支持）</li>
+</ul>
+<p><strong>Animation direction 动画方向：</strong>这里可以看到常用的方向，比如向前，向后等等，选最适合你的。这里的含义很直观，你也可以自己试试。</p>
+<p><strong>Apply pixel ratio 应用像素比例：</strong>这个不常用，如果你用的不是方形像素，选这个会把它压扁成方形。如果不确定这个是什么也没关系，他不会改变什么东西。</p>
+<p><strong>Export for Twitter 导出到 twitter：</strong>勾选后会让最后一帧动画持续时间整个动画的一半长度，完美适合 twitter MP4 循环。</p>
+<h3 id="Saving-for-the-engine-保存给引擎"><a href="#Saving-for-the-engine-保存给引擎" class="headerlink" title="Saving for the engine 保存给引擎"></a>Saving for the engine 保存给引擎</h3><p>游戏引擎各不相同，每个都需要你做特定处理，不过这里是一些通用的原则：</p>
+<ul>
+<li>首先是文件格式：尽管有些引擎支持 <code>tiff</code>，<code>gif</code>，甚至是 <code>bmp</code>，最好还是用 <code>png</code>。轻量，解压相对迅速，透明支持的很好。别用 <code>jpg</code>，<code>mp4</code>，或者其他的有损压缩格式。</li>
+<li>除非你有什么原因，否则不要在导出给游戏引擎时对像素画做缩放。正常情况下精灵应该是由引擎来做缩放，所有文件都应该保持原有分辨率。</li>
+<li>动画应该保存成图片序列，或者精灵表（sprite sheet）。不要用任何的视频格式，除非你在做什么特别的。</li>
+</ul>
+<h3 id="Saving-an-image-sequence-保存图片序列"><a href="#Saving-an-image-sequence-保存图片序列" class="headerlink" title="Saving an image sequence 保存图片序列"></a>Saving an image sequence 保存图片序列</h3><p>当把动画保存为 <code>png</code> 时，Aseprite 会创建一个图片序列，看起来这样:</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdbuf77j30ep045dfm.jpg"></p>
+<p>一般这就行了，不过我喜欢文件名从 <code>0</code> 开始，而且我喜欢两位数字。这个很容易实现：在文件名这，只要输入文件名后面加上”<code>00</code>“。这里我把文件名写为 <code>alert00.png</code>，结果是这样：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdhjw9lj30fs023gld.jpg"></p>
+<p>另外一个有用的技巧是加多个标签。在 Aseprite 里，你可以选择多组帧加上标签。这样一个文件里可以保存多个动画。像这样：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvddrdl3j30kj03i3ya.jpg"></p>
+<p>这有助于整理，导出也很方便，只要输入 <code>boss_&#123;tag&#125;&#123;tagframe00&#125;.png</code>，aseeprite 会这样导出：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdccrpkj30j10dijsi.jpg"></p>
+<p>很方便吧？如果你想多几个或少几个 <code>0</code>，可以把 <code>&#123;tagframe00&#125;</code> 改成 <code>&#123;tagframe000&#125;</code> 或者直接 <code>&#123;tagframe&#125;</code>。</p>
+<h3 id="保存精灵表-sprite-sheet"><a href="#保存精灵表-sprite-sheet" class="headerlink" title="保存精灵表 sprite sheet"></a>保存精灵表 sprite sheet</h3><p>有些游戏引擎推荐用精灵表，而不是多张图片，我们可以用“文件&gt;导出精灵表”（<code>File</code> &gt; <code>Export Sprite Sheet</code>）命令自动导出。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdec521j30m10e3a9x.jpg"></p>
+<p>这里我们有多个选项，可以根据所用的引擎做调整。有些需要在精灵之间添加边距，提供 <code>JSON</code> 描述信息，其他的可能支持去除透明部分。<code>Extrude</code> 拉伸可以让所有瓦片的边界颜色向外延伸一个像素，避免 3D 瓦片的接缝，如果你用的是 3D 引擎的话。不确定就什么都不选就好。</p>
+<p>对于行和列的数量设置，如果引擎没有特殊要求，我建议选择“最适合纹理的尺寸”（<code>Best fit for texture</code>），让 Aseprite 自动计算尺寸。</p>
+<p>这里需要注意的是，不勾选“<code>Output file</code>”并提供文件名时，点击导出不会生成文件的。你也可以选择“<code>Open generated sprite sheet</code>”，这会打开一个新文件，你可以手工保存。</p>
+<h3 id="切割工具和命令行"><a href="#切割工具和命令行" class="headerlink" title="切割工具和命令行"></a>切割工具和命令行</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdi043kj309m06wjr5.jpg"></p>
+<p>最后一个技巧时用切割工具 slice。切割工具适合于把多个图放在同一个画布的时候。我喜欢在给游戏场景制作素材时用这个，我可以把素材放在旁边随时比对尺寸。</p>
+<p>首先要把精灵放到一个文件，挨着。别互相重叠到一个矩形区域就好。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdepvv0j30gg0cx749.jpg"></p>
+<p>接着选择切割工具，开始在每个物体上做选取，注意不要把其他物体的部分包括进来。之后你可以双击其中一个，或者右键点击查看属性，给它命名。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdfbb6uj30u00cg0vg.jpg"></p>
+<p>现在，用命令行！如果你主要做美术，这部分听起来可能有点吓人，但我保证，只要简单了解并设置好之后，这能够自动处理很多枯燥的导出工作。</p>
+<p>首先你需要把 Aseprite 添加到环境变量里，如果你不清楚这个，可以看看这个教程<a href="https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables">https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables</a> （百度什么的搜一下设置环境变量）。把 <code>Aseprite.exe</code> 加入到环境变量里。</p>
+<p>现在，保存好 Aseprite 文件，在同一个文件夹打开命令行工具。如果不知道怎么做的话，在 windows 下，Shift + 右键，选择在当前位置打开命令行。</p>
+<p>接着是有意思的地方了，用到的命令！直接输入下面这个，把 <code>myFile</code> 替换成你的文件名，按回车：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Aseprite.exe -b &#39;.\myFile.aseprite&#39; --save-as &#39;&#123;slice&#125;.png&#39;</span><br></pre></td></tr></table></figure>
+<p>我们分解一下这个的含义：</p>
+<ul>
+<li><code>Aseprite.exe</code> 用来启动 Aseprite</li>
+<li><code>-b</code> 表示我们是在批处理模式。不加这个的话 Aseprite 就打开了，我们不需要。</li>
+<li><code>‘.\myFile.aseprite’</code> 是需要处理的文件名和拓展名。这个是相对于当前路径的。</li>
+<li><code>--save-as</code> 是保存选中文件的命令，它也会根据你给的文件名里带的标签去格式化文件名。</li>
+<li><code>&#39;&#123;slice&#125;.png&#39;</code> 是导出文件名, <code>&#123;slice&#125;</code> 是个标签，它表示文件名会用切割的名称并切割出来。</li>
+</ul>
+<p>如果想了解更多命令行信息，Aseprite 有个不错的使用教程可以看看：</p>
+<p><a href="https://www.aseprite.org/docs/cli/#filename-format">https://www.aseprite.org/docs/cli/#filename-format</a></p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在你了解到如何正确的保存像素画了！当有不确定的地方时，参考以下几点：</p>
+<ul>
+<li>永远用整数倍缩放，不用小数，不缩小。</li>
+<li>Aseprite 可以自动保存出图片序列。</li>
+<li>别用 <code>jpg</code> 和 <code>mp4</code>，以及其他的有损压缩图像格式。</li>
+<li>不确定时，就用 <code>png</code>，别缩放。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>开始画像素画(Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>进程与线程</title>
+    <url>/archives/44cf1d42.html</url>
+    <content><![CDATA[<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
+<a id="more"></a>
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>操作系统(Operating Systems)</category>
+      </categories>
+      <tags>
+        <tag>Mooc</tag>
+        <tag>OS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>操作系统概述</title>
     <url>/archives/2ba40472.html</url>
     <content><![CDATA[<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将介绍操作系统的基本知识与课程相关。</p>
@@ -4523,57 +4649,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#121;&#111;&#x6e;&#x67;&#64;&#116;&#115;&#105;&#x6e;&#103;&#x68;&#x75;&#97;&#x2e;&#x65;&#100;&#117;&#46;&#x63;&#x6e;">&#120;&#121;&#111;&#x6e;&#x67;&#64;&#116;&#115;&#105;&#x6e;&#103;&#x68;&#x75;&#97;&#x2e;&#x65;&#100;&#117;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#x79;&#x6f;&#x6e;&#x67;&#64;&#x74;&#x73;&#x69;&#x6e;&#103;&#x68;&#117;&#97;&#46;&#x65;&#100;&#x75;&#x2e;&#x63;&#110;">&#120;&#x79;&#x6f;&#x6e;&#x67;&#64;&#x74;&#x73;&#x69;&#x6e;&#103;&#x68;&#117;&#97;&#46;&#x65;&#100;&#x75;&#x2e;&#x63;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#117;&#99;&#x68;&#x65;&#110;&#64;&#x6d;&#97;&#x69;&#108;&#x2e;&#116;&#x73;&#x69;&#110;&#103;&#104;&#x75;&#97;&#46;&#101;&#x64;&#117;&#x2e;&#99;&#x6e;">&#x79;&#117;&#99;&#x68;&#x65;&#110;&#64;&#x6d;&#97;&#x69;&#108;&#x2e;&#116;&#x73;&#x69;&#110;&#103;&#104;&#x75;&#97;&#46;&#101;&#x64;&#117;&#x2e;&#99;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#x75;&#99;&#x68;&#x65;&#110;&#x40;&#109;&#x61;&#105;&#x6c;&#x2e;&#116;&#115;&#105;&#110;&#x67;&#x68;&#117;&#97;&#x2e;&#101;&#100;&#117;&#46;&#x63;&#110;">&#121;&#x75;&#99;&#x68;&#x65;&#110;&#x40;&#109;&#x61;&#105;&#x6c;&#x2e;&#116;&#115;&#105;&#110;&#x67;&#x68;&#117;&#97;&#x2e;&#101;&#100;&#117;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#x74;&#x65;&#114;&#x6e;&#x61;&#108;&#x2e;&#x6e;&#x30;&#56;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x65;&#x74;&#x65;&#114;&#x6e;&#x61;&#108;&#x2e;&#x6e;&#x30;&#56;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#116;&#101;&#114;&#x6e;&#97;&#x6c;&#x2e;&#x6e;&#x30;&#56;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#101;&#116;&#101;&#114;&#x6e;&#97;&#x6c;&#x2e;&#x6e;&#x30;&#56;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#98;&#106;&#101;&#99;&#x74;&#107;&#x75;&#x61;&#110;&#64;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;">&#111;&#98;&#106;&#101;&#99;&#x74;&#107;&#x75;&#x61;&#110;&#64;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#111;&#x62;&#106;&#x65;&#99;&#116;&#x6b;&#x75;&#x61;&#x6e;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#x6d;">&#111;&#x62;&#106;&#x65;&#99;&#116;&#x6b;&#x75;&#x61;&#x6e;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#114;&#x64;&#x66;&#x72;&#x61;&#110;&#107;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;">&#x63;&#114;&#x64;&#x66;&#x72;&#x61;&#110;&#107;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#x72;&#x64;&#102;&#x72;&#97;&#x6e;&#107;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#x63;&#x72;&#x64;&#102;&#x72;&#97;&#x6e;&#107;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#x61;&#99;&#x63;&#x6f;&#114;&#x61;&#119;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#99;&#x6f;&#109;">&#x74;&#x61;&#99;&#x63;&#x6f;&#114;&#x61;&#119;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#116;&#x61;&#99;&#x63;&#x6f;&#114;&#x61;&#x77;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#116;&#x61;&#99;&#x63;&#x6f;&#114;&#x61;&#x77;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#x69;&#110;&#121;&#117;&#x6e;&#120;&#x69;&#110;&#x67;&#x30;&#x30;&#x30;&#x31;&#64;&#49;&#54;&#x33;&#46;&#99;&#111;&#x6d;">&#x78;&#x69;&#110;&#121;&#117;&#x6e;&#120;&#x69;&#110;&#x67;&#x30;&#x30;&#x30;&#x31;&#64;&#49;&#54;&#x33;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#120;&#x69;&#x6e;&#x79;&#x75;&#x6e;&#120;&#x69;&#x6e;&#x67;&#48;&#x30;&#x30;&#x31;&#x40;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;">&#120;&#x69;&#x6e;&#x79;&#x75;&#x6e;&#120;&#x69;&#x6e;&#x67;&#48;&#x30;&#x30;&#x31;&#x40;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#110;&#x6f;&#99;&#x75;&#x69;&#108;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#x67;&#110;&#x6f;&#99;&#x75;&#x69;&#108;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#110;&#111;&#x63;&#117;&#x69;&#108;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#103;&#110;&#111;&#x63;&#117;&#x69;&#108;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#121;&#x61;&#x69;&#x72;&#x69;&#x61;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;">&#x6d;&#121;&#x61;&#x69;&#x72;&#x69;&#x61;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x6d;&#121;&#x61;&#105;&#x72;&#x69;&#97;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x6d;&#121;&#x61;&#105;&#x72;&#x69;&#97;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#104;&#x61;&#110;&#x67;&#x72;&#97;&#x69;&#x6e;&#x39;&#49;&#49;&#64;&#x31;&#54;&#51;&#46;&#99;&#111;&#x6d;">&#x7a;&#104;&#x61;&#110;&#x67;&#x72;&#97;&#x69;&#x6e;&#x39;&#49;&#49;&#64;&#x31;&#54;&#51;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#104;&#97;&#x6e;&#103;&#114;&#x61;&#x69;&#x6e;&#x39;&#49;&#x31;&#64;&#x31;&#54;&#51;&#46;&#99;&#x6f;&#x6d;">&#x7a;&#104;&#97;&#x6e;&#103;&#114;&#x61;&#x69;&#x6e;&#x39;&#49;&#x31;&#64;&#x31;&#54;&#51;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#103;&#120;&#120;&#49;&#50;&#48;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;">&#x67;&#103;&#120;&#120;&#49;&#50;&#48;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#103;&#120;&#x78;&#49;&#50;&#48;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#103;&#103;&#120;&#x78;&#49;&#50;&#48;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -4781,267 +4907,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#8</title>
-    <url>/archives/e5e6b796.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解文件格式和导出方法。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdd9dpvj30u008c74z.jpg"></p>
-<p>这个是系列的第 8 节。这篇技术细节比较多，可以跳过你不感兴趣的部分。</p>
-<p>本节主要是文件格式和导出方法。</p>
-<h3 id="Bitmap-and-vector-位图和矢量图"><a href="#Bitmap-and-vector-位图和矢量图" class="headerlink" title="Bitmap and vector 位图和矢量图"></a>Bitmap and vector 位图和矢量图</h3><p>我们先来讲讲图片在电脑上是如何保存的。简单来说，有两种 2d 的图像文件类型，位图和矢量图。</p>
-<p>矢量图是点、线坐标，以及颜色信息的集合，可以用来创作能缩放到任意分辨率的图像。它主要的缺点在于难以用在表现细节的图像上，像是照片，你几乎无法在像素级别进行控制。尽管我们能创建出看起来像是像素画的矢量图，或者把像素画导出成矢量图格式，但几乎没人这么做。也有些例外情况，比如说要把像素画打印到很大的板子上。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">circle</span> <span class="attr">cx</span>=<span class="string">&quot;50&quot;</span> <span class="attr">cy</span>=<span class="string">&quot;50&quot;</span> <span class="attr">r</span>=<span class="string">&quot;40&quot;</span> <span class="attr">stroke</span>=<span class="string">&quot;black&quot;</span> <span class="attr">stroke-width</span>=<span class="string">&quot;3&quot;</span> <span class="attr">fill</span>=<span class="string">&quot;red&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdbgy43j30330310pw.jpg"></p>
-<p>而位图图像，才是像素画能够存在的原因。位图把图像想象成很大的网格，打印在屏幕上，每个像素都单独存储。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdh3fwmj30jn0770s1.jpg"></p>
-<p>这样保存的文件有时候比较大。一个 <code>1080*1920</code> 的图，意味着包含了 <code>2.073.600</code> 个独立像素需要保存，所以有时候需要用高效算法来压缩一下。</p>
-<h3 id="Image-compression-图像压缩"><a href="#Image-compression-图像压缩" class="headerlink" title="Image compression 图像压缩"></a>Image compression 图像压缩</h3><p>图像压缩是为了减小图像文件的体积，但是依据使用算法的不同，有些算法可能会损坏原数据。</p>
-<p>压缩可以是有损或者无损的。有损压缩一般对于照片或者大幅插画是可以接受的，但是像素画就不可以。用 JPG 格式保存像素画会造成随机的颜色变化，图形虚影。在压缩像素画时，我们必须检查是否用的是无损压缩，比如 PNG 格式。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdcrltyj30en07lmx2.jpg"></p>
-<p>总的来说，你的编辑器提供的图像格式，比如 Aseprite 的.aseprite 格式，或者 GraphicGale 的.gal 格式，可以安全的保存所有的图层和元数据。</p>
-<h3 id="在-Aseprite-里保存"><a href="#在-Aseprite-里保存" class="headerlink" title="在 Aseprite 里保存"></a>在 Aseprite 里保存</h3><p>在 Aseprite 里用保存对话框进行保存（Ctrl + S，或者 Ctrl + Shift + S 做另存为新文件）</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdgjejzj30hz0avdg0.jpg"></p>
-<p>很直观，是吧？在这里保存为 <code>.aseprite</code> 格式，保存所有文件信息，以便你以后可以回来做修改。</p>
-<h3 id="导出预览"><a href="#导出预览" class="headerlink" title="导出预览"></a>导出预览</h3><p>在完成了你的精灵图之后，你可能想要发布到什么地方，或者发给谁，但如果直接保存成 <code>.png</code> 文件，会有两个不好的地方：第一，你的图像会保存成一个扁平的文件，就是说失去了图层和元数据，第二，你的 <code>png</code> 文件可能会长这样：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvf351jhj30180180bx.jpg"></p>
-<p>导出做预览的正确方式是用导出对话框，在“文件 -&gt; 导出”（<code>File</code> -&gt;<code> Export</code>）菜单</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdidzz7j30b809ua9u.jpg"></p>
-<p>这个对话框里有非常多有用的选项，我们一个个看一下：</p>
-<p><strong>Output File 输出文件</strong>：文件名。如果你直接输入想使用的文件格式，Aseprite 就可以保存为这个格式。推荐静态的图用“<code>.png</code>”，动画用“<code>.gif</code>”。</p>
-<p>这里不会把保存命令的默认格式也改掉，所以不用担心这里选择的格式以后会把所有东西都拍扁。</p>
-<p><strong>Resize 缩放</strong>：像素画对于目前的显示器来说通常都太小，所以需要缩放。Aseprite 提供了很多的分辨率供你选择。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdixafaj30ft0760oy.jpg"></p>
-<p>你可能注意到了，只能缩放成 <code>100%</code> 的整数倍，不能有小数，比如 <code>250%</code>。这是因为非整数倍的缩放会损坏像素画。这是个像素画的严重缺陷，并且没有什么办法能避免。记住缩放一定要用整数倍（<code>200%</code>，<code>300%</code> 等），不要用非整数倍（<code>130%</code>，<code>250%</code> 等等）。</p>
-<p>如果你一定要满足某个大小，试着缩放到最接近的最小的倍数，然后把画布延伸到你需要的尺寸。</p>
-<p>通常放大 <code>200%</code> 或者 <code>300%</code> 发布到网上足够了。</p>
-<p><strong>Layers 图层：</strong>当你导出文件时，他会被拍扁，就是失去所有图层信息。这个选项可以让你选择导出时需要包含哪个图层。</p>
-<p><strong>Frames 帧：</strong>后面会详细讲，这里就是指要导出哪些帧。如果你有不止一帧，那么会发生两件事：</p>
-<ul>
-<li>如果导出格式支持动画，比如 <code>gif</code>，那么就会导出动画到这个文件。</li>
-<li>如果导出格式不支持动画，比如 <code>png</code>，那么 Aseprite 就会保存到多个文件，每帧一个。<br>（编辑注：现在 <code>APNG</code> 动画格式其实也已经得到了广泛支持）</li>
-</ul>
-<p><strong>Animation direction 动画方向：</strong>这里可以看到常用的方向，比如向前，向后等等，选最适合你的。这里的含义很直观，你也可以自己试试。</p>
-<p><strong>Apply pixel ratio 应用像素比例：</strong>这个不常用，如果你用的不是方形像素，选这个会把它压扁成方形。如果不确定这个是什么也没关系，他不会改变什么东西。</p>
-<p><strong>Export for Twitter 导出到 twitter：</strong>勾选后会让最后一帧动画持续时间整个动画的一半长度，完美适合 twitter MP4 循环。</p>
-<h3 id="Saving-for-the-engine-保存给引擎"><a href="#Saving-for-the-engine-保存给引擎" class="headerlink" title="Saving for the engine 保存给引擎"></a>Saving for the engine 保存给引擎</h3><p>游戏引擎各不相同，每个都需要你做特定处理，不过这里是一些通用的原则：</p>
-<ul>
-<li>首先是文件格式：尽管有些引擎支持 <code>tiff</code>，<code>gif</code>，甚至是 <code>bmp</code>，最好还是用 <code>png</code>。轻量，解压相对迅速，透明支持的很好。别用 <code>jpg</code>，<code>mp4</code>，或者其他的有损压缩格式。</li>
-<li>除非你有什么原因，否则不要在导出给游戏引擎时对像素画做缩放。正常情况下精灵应该是由引擎来做缩放，所有文件都应该保持原有分辨率。</li>
-<li>动画应该保存成图片序列，或者精灵表（sprite sheet）。不要用任何的视频格式，除非你在做什么特别的。</li>
-</ul>
-<h3 id="Saving-an-image-sequence-保存图片序列"><a href="#Saving-an-image-sequence-保存图片序列" class="headerlink" title="Saving an image sequence 保存图片序列"></a>Saving an image sequence 保存图片序列</h3><p>当把动画保存为 <code>png</code> 时，Aseprite 会创建一个图片序列，看起来这样:</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdbuf77j30ep045dfm.jpg"></p>
-<p>一般这就行了，不过我喜欢文件名从 <code>0</code> 开始，而且我喜欢两位数字。这个很容易实现：在文件名这，只要输入文件名后面加上”<code>00</code>“。这里我把文件名写为 <code>alert00.png</code>，结果是这样：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdhjw9lj30fs023gld.jpg"></p>
-<p>另外一个有用的技巧是加多个标签。在 Aseprite 里，你可以选择多组帧加上标签。这样一个文件里可以保存多个动画。像这样：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvddrdl3j30kj03i3ya.jpg"></p>
-<p>这有助于整理，导出也很方便，只要输入 <code>boss_&#123;tag&#125;&#123;tagframe00&#125;.png</code>，aseeprite 会这样导出：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdccrpkj30j10dijsi.jpg"></p>
-<p>很方便吧？如果你想多几个或少几个 <code>0</code>，可以把 <code>&#123;tagframe00&#125;</code> 改成 <code>&#123;tagframe000&#125;</code> 或者直接 <code>&#123;tagframe&#125;</code>。</p>
-<h3 id="保存精灵表-sprite-sheet"><a href="#保存精灵表-sprite-sheet" class="headerlink" title="保存精灵表 sprite sheet"></a>保存精灵表 sprite sheet</h3><p>有些游戏引擎推荐用精灵表，而不是多张图片，我们可以用“文件&gt;导出精灵表”（<code>File</code> &gt; <code>Export Sprite Sheet</code>）命令自动导出。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdec521j30m10e3a9x.jpg"></p>
-<p>这里我们有多个选项，可以根据所用的引擎做调整。有些需要在精灵之间添加边距，提供 <code>JSON</code> 描述信息，其他的可能支持去除透明部分。<code>Extrude</code> 拉伸可以让所有瓦片的边界颜色向外延伸一个像素，避免 3D 瓦片的接缝，如果你用的是 3D 引擎的话。不确定就什么都不选就好。</p>
-<p>对于行和列的数量设置，如果引擎没有特殊要求，我建议选择“最适合纹理的尺寸”（<code>Best fit for texture</code>），让 Aseprite 自动计算尺寸。</p>
-<p>这里需要注意的是，不勾选“<code>Output file</code>”并提供文件名时，点击导出不会生成文件的。你也可以选择“<code>Open generated sprite sheet</code>”，这会打开一个新文件，你可以手工保存。</p>
-<h3 id="切割工具和命令行"><a href="#切割工具和命令行" class="headerlink" title="切割工具和命令行"></a>切割工具和命令行</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdi043kj309m06wjr5.jpg"></p>
-<p>最后一个技巧时用切割工具 slice。切割工具适合于把多个图放在同一个画布的时候。我喜欢在给游戏场景制作素材时用这个，我可以把素材放在旁边随时比对尺寸。</p>
-<p>首先要把精灵放到一个文件，挨着。别互相重叠到一个矩形区域就好。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdepvv0j30gg0cx749.jpg"></p>
-<p>接着选择切割工具，开始在每个物体上做选取，注意不要把其他物体的部分包括进来。之后你可以双击其中一个，或者右键点击查看属性，给它命名。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdfbb6uj30u00cg0vg.jpg"></p>
-<p>现在，用命令行！如果你主要做美术，这部分听起来可能有点吓人，但我保证，只要简单了解并设置好之后，这能够自动处理很多枯燥的导出工作。</p>
-<p>首先你需要把 Aseprite 添加到环境变量里，如果你不清楚这个，可以看看这个教程<a href="https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables">https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables</a> （百度什么的搜一下设置环境变量）。把 <code>Aseprite.exe</code> 加入到环境变量里。</p>
-<p>现在，保存好 Aseprite 文件，在同一个文件夹打开命令行工具。如果不知道怎么做的话，在 windows 下，Shift + 右键，选择在当前位置打开命令行。</p>
-<p>接着是有意思的地方了，用到的命令！直接输入下面这个，把 <code>myFile</code> 替换成你的文件名，按回车：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Aseprite.exe -b &#39;.\myFile.aseprite&#39; --save-as &#39;&#123;slice&#125;.png&#39;</span><br></pre></td></tr></table></figure>
-<p>我们分解一下这个的含义：</p>
-<ul>
-<li><code>Aseprite.exe</code> 用来启动 Aseprite</li>
-<li><code>-b</code> 表示我们是在批处理模式。不加这个的话 Aseprite 就打开了，我们不需要。</li>
-<li><code>‘.\myFile.aseprite’</code> 是需要处理的文件名和拓展名。这个是相对于当前路径的。</li>
-<li><code>--save-as</code> 是保存选中文件的命令，它也会根据你给的文件名里带的标签去格式化文件名。</li>
-<li><code>&#39;&#123;slice&#125;.png&#39;</code> 是导出文件名, <code>&#123;slice&#125;</code> 是个标签，它表示文件名会用切割的名称并切割出来。</li>
-</ul>
-<p>如果想了解更多命令行信息，Aseprite 有个不错的使用教程可以看看：</p>
-<p><a href="https://www.aseprite.org/docs/cli/#filename-format">https://www.aseprite.org/docs/cli/#filename-format</a></p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在你了解到如何正确的保存像素画了！当有不确定的地方时，参考以下几点：</p>
-<ul>
-<li>永远用整数倍缩放，不用小数，不缩小。</li>
-<li>Aseprite 可以自动保存出图片序列。</li>
-<li>别用 <code>jpg</code> 和 <code>mp4</code>，以及其他的有损压缩图像格式。</li>
-<li>不确定时，就用 <code>png</code>，别缩放。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>开始画像素画(Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>进程与线程</title>
-    <url>/archives/44cf1d42.html</url>
-    <content><![CDATA[<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
-<a id="more"></a>
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>操作系统(Operating Systems)</category>
-      </categories>
-      <tags>
-        <tag>Mooc</tag>
-        <tag>OS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Aseprite教学-Aseprite编译教程</title>
-    <url>/archives/5d59087d.html</url>
-    <content><![CDATA[<p>本文将根据官方的编译文档从Windows、MacOS和Linux三个平台为基础分别介绍Aseprite的编译安装方法，以此免费获取开源的Aseprite。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="官方说明文档"><a href="#官方说明文档" class="headerlink" title="官方说明文档"></a>官方说明文档</h3><h4 id="Platforms"><a href="#Platforms" class="headerlink" title="Platforms"></a>Platforms</h4><p>You should be able to compile Aseprite successfully on the following platforms:</p>
-<ul>
-<li>Windows 10 + <a href="https://imgur.com/a/7zs51IT">Visual Studio Community 2019 + Windows 10.0.18362.0 SDK</a> (we don’t support <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#mingw">MinGW</a>)</li>
-<li>macOS 10.15.3 Mojave + Xcode 11.2.1 + macOS 10.15 SDK (older version might work)</li>
-<li>Linux + gcc 9.2 or clang 9.0</li>
-</ul>
-<h4 id="Get-the-source-code"><a href="#Get-the-source-code" class="headerlink" title="Get the source code"></a>Get the source code</h4><p>You can get the source code downloading a <code>Aseprite-v1.x-Source.zip</code> file from the latest Aseprite release (<em>in that case please follow the compilation instructions inside the <code>.zip</code> file</em>):</p>
-<p><a href="https://github.com/aseprite/aseprite/releases">https://github.com/aseprite/aseprite/releases</a></p>
-<p>Or you can clone the repository and all its submodules using the following command:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone --recursive https:&#x2F;&#x2F;github.com&#x2F;aseprite&#x2F;aseprite.git</span><br></pre></td></tr></table></figure>
-<p>To update an existing clone you can use the following commands:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">git pull</span><br><span class="line">git submodule update --init --recursive</span><br></pre></td></tr></table></figure>
-<p>You can use <a href="https://git-for-windows.github.io/">Git for Windows</a> to clone the repository on Windows.</p>
-<h4 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h4><p>To compile Aseprite you will need:</p>
-<ul>
-<li>The latest version of <a href="https://cmake.org/">CMake</a> (3.14 or greater)</li>
-<li><a href="https://ninja-build.org/">Ninja</a> build system</li>
-<li>And a compiled version of the <code>aseprite-m81</code> branch of the <a href="https://github.com/aseprite/skia#readme">Skia library</a>. There are <a href="https://github.com/aseprite/skia/releases">pre-built packages available</a>. You can get some extra information in the <a href="https://github.com/aseprite/laf#dependencies"><em>laf</em> dependencies</a> page.</li>
-</ul>
-<h5 id="Windows-dependencies"><a href="#Windows-dependencies" class="headerlink" title="Windows dependencies"></a>Windows dependencies</h5><ul>
-<li>Windows 10 (we don’t support cross-compiling)</li>
-<li><a href="https://visualstudio.microsoft.com/downloads/">Visual Studio Community 2019</a> (we don’t support <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#mingw">MinGW</a>)</li>
-<li>The <a href="https://imgur.com/a/7zs51IT">Desktop development with C++ item + Windows 10.0.18362.0 SDK</a> from the Visual Studio installer</li>
-</ul>
-<h5 id="macOS-dependencies"><a href="#macOS-dependencies" class="headerlink" title="macOS dependencies"></a>macOS dependencies</h5><p>On macOS you will need macOS 10.15 SDK and Xcode 11.2.1 (older versions might work).</p>
-<h5 id="Linux-dependencies"><a href="#Linux-dependencies" class="headerlink" title="Linux dependencies"></a>Linux dependencies</h5><p>You will need the following dependencies on Ubuntu/Debian:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-get install -y g++ cmake ninja-build libx11-dev libxcursor-dev libxi-dev libgl1-mesa-dev libfontconfig1-dev</span><br></pre></td></tr></table></figure>
-<p>On Fedora:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo dnf install -y gcc-c++ cmake ninja-build libX11-devel libXcursor-devel libXi-devel mesa-libGL-devel fontconfig-devel</span><br></pre></td></tr></table></figure>
-
-
-<h4 id="Compiling"><a href="#Compiling" class="headerlink" title="Compiling"></a>Compiling</h4><ol>
-<li><p><a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#get-the-source-code">Get Aseprite code</a>, put it in a folder like <code>C:\aseprite</code>, and create a <code>build</code> directory inside to leave all the files that are result of the compilation process (<code>.exe</code>, <code>.lib</code>, <code>.obj</code>, <code>.a</code>, <code>.o</code>, etc).</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite</span><br><span class="line">mkdir build</span><br></pre></td></tr></table></figure>
-<p>In this way, if you want to start with a fresh copy of Aseprite source code, you can remove the <code>build</code> directory and start again.</p>
-</li>
-<li><p>Enter in the new directory and execute <code>cmake</code>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite\build</span><br><span class="line">cmake -G Ninja -DLAF_BACKEND&#x3D;skia ..</span><br></pre></td></tr></table></figure>
-<p>Here <code>cmake</code> needs different options depending on your platform. You must check the details for <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#windows-details">Windows</a>, <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#macos-details">macOS</a>, and <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#linux-details">Linux</a>. Some <code>cmake</code> options can be modified using tools like <a href="https://cmake.org/cmake/help/latest/manual/ccmake.1.html"><code>ccmake</code></a> or <a href="https://cmake.org/cmake/help/latest/manual/cmake-gui.1.html"><code>cmake-gui</code></a>.</p>
-</li>
-<li><p>After you have executed and configured <code>cmake</code>, you have to compile the project:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite\build</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure></li>
-<li><p>When <code>ninja</code> finishes the compilation, you can find the executable inside <code>C:\aseprite\build\bin\aseprite.exe</code>.</p>
-</li>
-</ol>
-<h5 id="Windows-details"><a href="#Windows-details" class="headerlink" title="Windows details"></a>Windows details</h5><p>Open a <a href="https://docs.microsoft.com/en-us/dotnet/framework/tools/developer-command-prompt-for-vs">developer command prompt</a> or in the command line (<code>cmd.exe</code>) call:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">call &quot;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat&quot; -arch&#x3D;x64</span><br></pre></td></tr></table></figure>
-<p>And then</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo -DLAF_BACKEND&#x3D;skia -DSKIA_DIR&#x3D;C:\deps\skia -DSKIA_LIBRARY_DIR&#x3D;C:\deps\skia\out\Release-x64 -DSKIA_LIBRARY&#x3D;C:\deps\skia\out\Release-x64\skia.lib -G Ninja ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
-<p>In this case, <code>C:\deps\skia</code> is the directory where Skia was compiled or uncompressed.</p>
-<h6 id="MinGW"><a href="#MinGW" class="headerlink" title="MinGW"></a>MinGW</h6><p>We don’t support MinGW compiler and it might bring some problems into the compilation process. If you see that the detected C++ compiler by cmake is <code>C:\MinGW\bin\c++.exe</code> or something similar, you have to get rid of MinGW path (<code>C:\MinGW\bin</code>) from the <code>PATH</code> environment variable and run cmake again from scratch, so the Visual Studio C++ compiler (<code>cl.exe</code>) is used instead.</p>
-<p>You can define the <code>CMAKE_IGNORE_PATH</code> variable when running cmake for the first time in case that you don’t know or don’t want to modify the <code>PATH</code> variable, e.g.:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cmake -DCMAKE_IGNORE_PATH&#x3D;C:\MinGW\bin ...</span><br></pre></td></tr></table></figure>
-<p>More information in <a href="https://github.com/aseprite/aseprite/issues/2449">issue #2449</a></p>
-<h5 id="macOS-details"><a href="#macOS-details" class="headerlink" title="macOS details"></a>macOS details</h5><p>Run <code>cmake</code> with the following parameters and then <code>ninja</code>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake \</span><br><span class="line">  -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo \</span><br><span class="line">  -DCMAKE_OSX_ARCHITECTURES&#x3D;x86_64 \</span><br><span class="line">  -DCMAKE_OSX_DEPLOYMENT_TARGET&#x3D;10.9 \</span><br><span class="line">  -DCMAKE_OSX_SYSROOT&#x3D;&#x2F;Applications&#x2F;Xcode.app&#x2F;Contents&#x2F;Developer&#x2F;Platforms&#x2F;MacOSX.platform&#x2F;Developer&#x2F;SDKs&#x2F;MacOSX10.15.sdk \</span><br><span class="line">  -DLAF_BACKEND&#x3D;skia \</span><br><span class="line">  -DSKIA_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia \</span><br><span class="line">  -DSKIA_LIBRARY_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64 \</span><br><span class="line">  -DSKIA_LIBRARY&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64&#x2F;libskia.a \</span><br><span class="line">  -G Ninja \</span><br><span class="line">  ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
-<p>In this case, <code>$HOME/deps/skia</code> is the directory where Skia was compiled or downloaded. Make sure that <code>CMAKE_OSX_SYSROOT</code> is pointing to the correct SDK directory (in this case <code>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk</code>), but it could be different in your Mac.</p>
-<h5 id="Issues-with-Retina-displays"><a href="#Issues-with-Retina-displays" class="headerlink" title="Issues with Retina displays"></a>Issues with Retina displays</h5><p>If you have a Retina display, check the following issue:</p>
-<p><a href="https://github.com/aseprite/aseprite/issues/589">https://github.com/aseprite/aseprite/issues/589</a></p>
-<h5 id="Linux-details"><a href="#Linux-details" class="headerlink" title="Linux details"></a>Linux details</h5><p>Run <code>cmake</code> with the following parameters and then <code>ninja</code>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake \</span><br><span class="line">  -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo \</span><br><span class="line">  -DLAF_BACKEND&#x3D;skia \</span><br><span class="line">  -DSKIA_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia \</span><br><span class="line">  -DSKIA_LIBRARY_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64 \</span><br><span class="line">  -DSKIA_LIBRARY&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64&#x2F;libskia.a \</span><br><span class="line">  -G Ninja \</span><br><span class="line">  ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
-<p>In this case, <code>$HOME/deps/skia</code> is the directory where Skia was compiled or uncompressed.</p>
-<h4 id="Using-shared-third-party-libraries"><a href="#Using-shared-third-party-libraries" class="headerlink" title="Using shared third party libraries"></a>Using shared third party libraries</h4><p>If you don’t want to use the embedded code of third party libraries (i.e. to use your installed versions), you can disable static linking configuring each <code>USE_SHARED_</code> option.</p>
-<p>After running <code>cmake -G</code>, you can edit <code>build/CMakeCache.txt</code> file, and enable the <code>USE_SHARED_</code> flag (set its value to <code>ON</code>) of the library that you want to be linked dynamically.</p>
-<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
-<li><a href="http://macappstore.org/aseprite/">Install Aseprite on Mac OSX</a></li>
-<li><a href="https://www.bestgcc.cn/20181204194300.html">Mac 编译安装 Aseprite</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/156775243">【Aseprite】像素绘制软件编译（白嫖）教程</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>像素美工(Pixel Art Designing)</category>
-      </categories>
-      <tags>
-        <tag>Aseprite</tag>
-        <tag>CMake</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Aseprite教学-色彩、造型和光照</title>
-    <url>/archives/c7d3ecc8.html</url>
-    <content><![CDATA[<p>本文我们来聊聊颜色工具以及绘画中的造型和光照。</p>
-<a id="more"></a>
-
-
-
-
-
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glougaw7m8j313g0m8q2x.jpg"></p>
-<p>颜色部分在左下角，虽然可能有些没用但了解一下也很好。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufnzmlvj313g0m8dfr.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufqttnbj313g0m8dfr.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufrom4sj313g0m8glj.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufn3g8gj313g0m8747.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufvl0dkj313g0m8aa0.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glougm6pqwj313g0m80so.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufxbssyj313g0m8aa3.jpg" alt="Course32"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufuvjpej313g0m8jrf.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufvwljrj313g0m8747.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloug2x3jyj313g0m8aa3.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufptct5j313g0m8gln.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufovderj313g0m8wee.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloug1ytcgj313g0m80sn.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloug45900j313g0m8747.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufmb36fj313g0m8a9z.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufslui3j313g0m8glj.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glouftn7ydj313g0m8glj.jpg"></p>
-<p><img src="/Users/apple/Desktop/Asset/tourial/Course43.png"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloug0op2vj313g0m8wef.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufwhe7sj313g0m83yg.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloug1bp77j313g0m8748.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufy7gdxj313g0m8748.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufz6c8aj313g0m8glk.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloug038bej313g0m8jrc.jpg"></p>
-<p><img src="/Users/apple/Desktop/Asset/tourial/Course50.png"></p>
-]]></content>
-      <categories>
-        <category>像素美工(Pixel Art Designing)</category>
-      </categories>
-      <tags>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Aseprite教学-基本工具</title>
     <url>/archives/3df0cd57.html</url>
     <content><![CDATA[<p>本文基于 <a href="https://www.mortmort.net/">MortMort</a> 的 Aseprite 教学视频并进行总结，介绍像素绘制软件 Aseprite 中基本工具的使用，了解各种绘画工具的功能并能熟练使用快捷键切换。</p>
@@ -5192,6 +5057,94 @@
       </tags>
   </entry>
   <entry>
+    <title>Aseprite教学-Aseprite编译教程</title>
+    <url>/archives/5d59087d.html</url>
+    <content><![CDATA[<p>本文将根据官方的编译文档从Windows、MacOS和Linux三个平台为基础分别介绍Aseprite的编译安装方法，以此免费获取开源的Aseprite。</p>
+<a id="more"></a>
+
+
+
+
+
+<h3 id="官方说明文档"><a href="#官方说明文档" class="headerlink" title="官方说明文档"></a>官方说明文档</h3><h4 id="Platforms"><a href="#Platforms" class="headerlink" title="Platforms"></a>Platforms</h4><p>You should be able to compile Aseprite successfully on the following platforms:</p>
+<ul>
+<li>Windows 10 + <a href="https://imgur.com/a/7zs51IT">Visual Studio Community 2019 + Windows 10.0.18362.0 SDK</a> (we don’t support <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#mingw">MinGW</a>)</li>
+<li>macOS 10.15.3 Mojave + Xcode 11.2.1 + macOS 10.15 SDK (older version might work)</li>
+<li>Linux + gcc 9.2 or clang 9.0</li>
+</ul>
+<h4 id="Get-the-source-code"><a href="#Get-the-source-code" class="headerlink" title="Get the source code"></a>Get the source code</h4><p>You can get the source code downloading a <code>Aseprite-v1.x-Source.zip</code> file from the latest Aseprite release (<em>in that case please follow the compilation instructions inside the <code>.zip</code> file</em>):</p>
+<p><a href="https://github.com/aseprite/aseprite/releases">https://github.com/aseprite/aseprite/releases</a></p>
+<p>Or you can clone the repository and all its submodules using the following command:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone --recursive https:&#x2F;&#x2F;github.com&#x2F;aseprite&#x2F;aseprite.git</span><br></pre></td></tr></table></figure>
+<p>To update an existing clone you can use the following commands:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">git pull</span><br><span class="line">git submodule update --init --recursive</span><br></pre></td></tr></table></figure>
+<p>You can use <a href="https://git-for-windows.github.io/">Git for Windows</a> to clone the repository on Windows.</p>
+<h4 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h4><p>To compile Aseprite you will need:</p>
+<ul>
+<li>The latest version of <a href="https://cmake.org/">CMake</a> (3.14 or greater)</li>
+<li><a href="https://ninja-build.org/">Ninja</a> build system</li>
+<li>And a compiled version of the <code>aseprite-m81</code> branch of the <a href="https://github.com/aseprite/skia#readme">Skia library</a>. There are <a href="https://github.com/aseprite/skia/releases">pre-built packages available</a>. You can get some extra information in the <a href="https://github.com/aseprite/laf#dependencies"><em>laf</em> dependencies</a> page.</li>
+</ul>
+<h5 id="Windows-dependencies"><a href="#Windows-dependencies" class="headerlink" title="Windows dependencies"></a>Windows dependencies</h5><ul>
+<li>Windows 10 (we don’t support cross-compiling)</li>
+<li><a href="https://visualstudio.microsoft.com/downloads/">Visual Studio Community 2019</a> (we don’t support <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#mingw">MinGW</a>)</li>
+<li>The <a href="https://imgur.com/a/7zs51IT">Desktop development with C++ item + Windows 10.0.18362.0 SDK</a> from the Visual Studio installer</li>
+</ul>
+<h5 id="macOS-dependencies"><a href="#macOS-dependencies" class="headerlink" title="macOS dependencies"></a>macOS dependencies</h5><p>On macOS you will need macOS 10.15 SDK and Xcode 11.2.1 (older versions might work).</p>
+<h5 id="Linux-dependencies"><a href="#Linux-dependencies" class="headerlink" title="Linux dependencies"></a>Linux dependencies</h5><p>You will need the following dependencies on Ubuntu/Debian:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-get install -y g++ cmake ninja-build libx11-dev libxcursor-dev libxi-dev libgl1-mesa-dev libfontconfig1-dev</span><br></pre></td></tr></table></figure>
+<p>On Fedora:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo dnf install -y gcc-c++ cmake ninja-build libX11-devel libXcursor-devel libXi-devel mesa-libGL-devel fontconfig-devel</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="Compiling"><a href="#Compiling" class="headerlink" title="Compiling"></a>Compiling</h4><ol>
+<li><p><a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#get-the-source-code">Get Aseprite code</a>, put it in a folder like <code>C:\aseprite</code>, and create a <code>build</code> directory inside to leave all the files that are result of the compilation process (<code>.exe</code>, <code>.lib</code>, <code>.obj</code>, <code>.a</code>, <code>.o</code>, etc).</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite</span><br><span class="line">mkdir build</span><br></pre></td></tr></table></figure>
+<p>In this way, if you want to start with a fresh copy of Aseprite source code, you can remove the <code>build</code> directory and start again.</p>
+</li>
+<li><p>Enter in the new directory and execute <code>cmake</code>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite\build</span><br><span class="line">cmake -G Ninja -DLAF_BACKEND&#x3D;skia ..</span><br></pre></td></tr></table></figure>
+<p>Here <code>cmake</code> needs different options depending on your platform. You must check the details for <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#windows-details">Windows</a>, <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#macos-details">macOS</a>, and <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#linux-details">Linux</a>. Some <code>cmake</code> options can be modified using tools like <a href="https://cmake.org/cmake/help/latest/manual/ccmake.1.html"><code>ccmake</code></a> or <a href="https://cmake.org/cmake/help/latest/manual/cmake-gui.1.html"><code>cmake-gui</code></a>.</p>
+</li>
+<li><p>After you have executed and configured <code>cmake</code>, you have to compile the project:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite\build</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure></li>
+<li><p>When <code>ninja</code> finishes the compilation, you can find the executable inside <code>C:\aseprite\build\bin\aseprite.exe</code>.</p>
+</li>
+</ol>
+<h5 id="Windows-details"><a href="#Windows-details" class="headerlink" title="Windows details"></a>Windows details</h5><p>Open a <a href="https://docs.microsoft.com/en-us/dotnet/framework/tools/developer-command-prompt-for-vs">developer command prompt</a> or in the command line (<code>cmd.exe</code>) call:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">call &quot;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat&quot; -arch&#x3D;x64</span><br></pre></td></tr></table></figure>
+<p>And then</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo -DLAF_BACKEND&#x3D;skia -DSKIA_DIR&#x3D;C:\deps\skia -DSKIA_LIBRARY_DIR&#x3D;C:\deps\skia\out\Release-x64 -DSKIA_LIBRARY&#x3D;C:\deps\skia\out\Release-x64\skia.lib -G Ninja ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
+<p>In this case, <code>C:\deps\skia</code> is the directory where Skia was compiled or uncompressed.</p>
+<h6 id="MinGW"><a href="#MinGW" class="headerlink" title="MinGW"></a>MinGW</h6><p>We don’t support MinGW compiler and it might bring some problems into the compilation process. If you see that the detected C++ compiler by cmake is <code>C:\MinGW\bin\c++.exe</code> or something similar, you have to get rid of MinGW path (<code>C:\MinGW\bin</code>) from the <code>PATH</code> environment variable and run cmake again from scratch, so the Visual Studio C++ compiler (<code>cl.exe</code>) is used instead.</p>
+<p>You can define the <code>CMAKE_IGNORE_PATH</code> variable when running cmake for the first time in case that you don’t know or don’t want to modify the <code>PATH</code> variable, e.g.:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cmake -DCMAKE_IGNORE_PATH&#x3D;C:\MinGW\bin ...</span><br></pre></td></tr></table></figure>
+<p>More information in <a href="https://github.com/aseprite/aseprite/issues/2449">issue #2449</a></p>
+<h5 id="macOS-details"><a href="#macOS-details" class="headerlink" title="macOS details"></a>macOS details</h5><p>Run <code>cmake</code> with the following parameters and then <code>ninja</code>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake \</span><br><span class="line">  -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo \</span><br><span class="line">  -DCMAKE_OSX_ARCHITECTURES&#x3D;x86_64 \</span><br><span class="line">  -DCMAKE_OSX_DEPLOYMENT_TARGET&#x3D;10.9 \</span><br><span class="line">  -DCMAKE_OSX_SYSROOT&#x3D;&#x2F;Applications&#x2F;Xcode.app&#x2F;Contents&#x2F;Developer&#x2F;Platforms&#x2F;MacOSX.platform&#x2F;Developer&#x2F;SDKs&#x2F;MacOSX10.15.sdk \</span><br><span class="line">  -DLAF_BACKEND&#x3D;skia \</span><br><span class="line">  -DSKIA_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia \</span><br><span class="line">  -DSKIA_LIBRARY_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64 \</span><br><span class="line">  -DSKIA_LIBRARY&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64&#x2F;libskia.a \</span><br><span class="line">  -G Ninja \</span><br><span class="line">  ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
+<p>In this case, <code>$HOME/deps/skia</code> is the directory where Skia was compiled or downloaded. Make sure that <code>CMAKE_OSX_SYSROOT</code> is pointing to the correct SDK directory (in this case <code>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk</code>), but it could be different in your Mac.</p>
+<h5 id="Issues-with-Retina-displays"><a href="#Issues-with-Retina-displays" class="headerlink" title="Issues with Retina displays"></a>Issues with Retina displays</h5><p>If you have a Retina display, check the following issue:</p>
+<p><a href="https://github.com/aseprite/aseprite/issues/589">https://github.com/aseprite/aseprite/issues/589</a></p>
+<h5 id="Linux-details"><a href="#Linux-details" class="headerlink" title="Linux details"></a>Linux details</h5><p>Run <code>cmake</code> with the following parameters and then <code>ninja</code>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake \</span><br><span class="line">  -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo \</span><br><span class="line">  -DLAF_BACKEND&#x3D;skia \</span><br><span class="line">  -DSKIA_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia \</span><br><span class="line">  -DSKIA_LIBRARY_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64 \</span><br><span class="line">  -DSKIA_LIBRARY&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64&#x2F;libskia.a \</span><br><span class="line">  -G Ninja \</span><br><span class="line">  ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
+<p>In this case, <code>$HOME/deps/skia</code> is the directory where Skia was compiled or uncompressed.</p>
+<h4 id="Using-shared-third-party-libraries"><a href="#Using-shared-third-party-libraries" class="headerlink" title="Using shared third party libraries"></a>Using shared third party libraries</h4><p>If you don’t want to use the embedded code of third party libraries (i.e. to use your installed versions), you can disable static linking configuring each <code>USE_SHARED_</code> option.</p>
+<p>After running <code>cmake -G</code>, you can edit <code>build/CMakeCache.txt</code> file, and enable the <code>USE_SHARED_</code> flag (set its value to <code>ON</code>) of the library that you want to be linked dynamically.</p>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
+<li><a href="http://macappstore.org/aseprite/">Install Aseprite on Mac OSX</a></li>
+<li><a href="https://www.bestgcc.cn/20181204194300.html">Mac 编译安装 Aseprite</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/156775243">【Aseprite】像素绘制软件编译（白嫖）教程</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>像素美工(Pixel Art Designing)</category>
+      </categories>
+      <tags>
+        <tag>Aseprite</tag>
+        <tag>CMake</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Aseprite教学-动画</title>
     <url>/archives/88d7e2f9.html</url>
     <content><![CDATA[<a id="more"></a>
@@ -5221,6 +5174,53 @@
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul37d40j313g0m8dfr.jpg"></p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukycj5kj313g0m8a9z.jpg"></p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukugrr3j313g0m80sn.jpg"></p>
+]]></content>
+      <categories>
+        <category>像素美工(Pixel Art Designing)</category>
+      </categories>
+      <tags>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Aseprite教学-色彩、造型和光照</title>
+    <url>/archives/c7d3ecc8.html</url>
+    <content><![CDATA[<p>本文我们来聊聊颜色工具以及绘画中的造型和光照。</p>
+<a id="more"></a>
+
+
+
+
+
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glougaw7m8j313g0m8q2x.jpg"></p>
+<p>颜色部分在左下角，虽然可能有些没用但了解一下也很好。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufnzmlvj313g0m8dfr.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufqttnbj313g0m8dfr.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufrom4sj313g0m8glj.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufn3g8gj313g0m8747.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufvl0dkj313g0m8aa0.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glougm6pqwj313g0m80so.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufxbssyj313g0m8aa3.jpg" alt="Course32"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufuvjpej313g0m8jrf.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufvwljrj313g0m8747.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloug2x3jyj313g0m8aa3.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufptct5j313g0m8gln.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufovderj313g0m8wee.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloug1ytcgj313g0m80sn.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloug45900j313g0m8747.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufmb36fj313g0m8a9z.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufslui3j313g0m8glj.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glouftn7ydj313g0m8glj.jpg"></p>
+<p><img src="/Users/apple/Desktop/Asset/tourial/Course43.png"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloug0op2vj313g0m8wef.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufwhe7sj313g0m83yg.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloug1bp77j313g0m8748.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufy7gdxj313g0m8748.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufz6c8aj313g0m8glk.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloug038bej313g0m8jrc.jpg"></p>
+<p><img src="/Users/apple/Desktop/Asset/tourial/Course50.png"></p>
 ]]></content>
       <categories>
         <category>像素美工(Pixel Art Designing)</category>
