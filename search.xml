@@ -732,7 +732,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#101;&#101;&#110;&#x78;&#x75;&#x40;&#116;&#101;&#x6e;&#x63;&#101;&#110;&#x74;&#46;&#99;&#x6f;&#109;">&#108;&#101;&#101;&#110;&#x78;&#x75;&#x40;&#116;&#101;&#x6e;&#x63;&#101;&#110;&#x74;&#46;&#99;&#x6f;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#x65;&#110;&#120;&#x75;&#x40;&#x74;&#101;&#110;&#x63;&#x65;&#x6e;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#x6c;&#x65;&#x65;&#110;&#120;&#x75;&#x40;&#x74;&#101;&#110;&#x63;&#x65;&#x6e;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -3315,80 +3315,6 @@
       </tags>
   </entry>
   <entry>
-    <title>LATEX现学现用抢救指南</title>
-    <url>/archives/a5f7b62.html</url>
-    <content><![CDATA[<p>本文作为即忘即看的备忘文档，适用于各种编写博客需要专业数学公式但不熟悉的Latex的读者，所有内容摘自 <a href="http://mohu.org/info/symbols/symbols.htm">常用数学符号的 LaTeX 表示方法</a>。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="指数与下标"><a href="#指数与下标" class="headerlink" title="指数与下标"></a>指数与下标</h3><p>指数和下标可以用<code>^</code>和<code>_</code>后加相应字符来实现。比如:</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span>a<span class="built_in">_</span>&#123;1&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>x<span class="built_in">^</span>&#123;2&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>e<span class="built_in">^</span>&#123;-<span class="keyword">\alpha</span>&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>a<span class="built_in">^</span>&#123;3&#125;<span class="built_in">_</span>&#123;i,j&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>e<span class="built_in">^</span>&#123;x<span class="built_in">^</span>2&#125; <span class="keyword">\neq</span> &#123;e<span class="built_in">^</span>x&#125;<span class="built_in">^</span>2<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<blockquote>
-<p>$a_{1}$ $\qquad$ $x^{2}$ $\qquad$ $e^{-\alpha}$ $\qquad$ $a^{3}_{i,j}$ $\qquad$ $e^{x^2} \neq {e^x}^2$</p>
-</blockquote>
-<h3 id="根号"><a href="#根号" class="headerlink" title="根号"></a>根号</h3><p>平方根（square root）的输入命令为：<code>\sqrt</code>，n 次方根相应地为:<code> \sqrt[n]</code>。方根符号的大小由LATEX自动加以调整。也可用<code>\surd</code> 仅给出符号。比如：</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\sqrt</span>&#123;x&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span><span class="keyword">\sqrt</span>&#123;x<span class="built_in">^</span>&#123;2&#125;+<span class="keyword">\sqrt</span>&#123;y&#125;&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span><span class="keyword">\sqrt</span>[3]&#123;2&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span><span class="keyword">\surd</span>[x<span class="built_in">^</span>2+y<span class="built_in">^</span>2]<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<blockquote>
-<p>$\sqrt{x}$ $\qquad$ $\sqrt{x^{2}+\sqrt{y}}$ $\qquad$ $\sqrt[3]{2}$ $\qquad$ $\surd[x^2+y^2]$</p>
-</blockquote>
-<h3 id="水平线"><a href="#水平线" class="headerlink" title="水平线"></a>水平线</h3><p>命令<code>\overline</code> 和<code>\underline</code> 在表达式的上、下方画出水平线。比如：</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\overline</span>&#123;m+n&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span><span class="keyword">\underline</span>&#123;m+n&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<blockquote>
-<p>$\overline{m+n}$ $\qquad$$\underline{m+n}$</p>
-</blockquote>
-<h3 id="水平大括号"><a href="#水平大括号" class="headerlink" title="水平大括号"></a>水平大括号</h3><p>命令<code>\overbrace</code> 和<code>\underbrace</code> 在表达式的上、下方给出一水平的大括号。</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\underbrace</span>&#123;a+b+<span class="keyword">\cdots</span>+z&#125;<span class="built_in">_</span>&#123;26&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<blockquote>
-<p>$\underbrace{a+b+\cdots+z}_{26}$</p>
-</blockquote>
-<h3 id="向量"><a href="#向量" class="headerlink" title="向量"></a>向量</h3><p>向量（Vectors）通常用上方有小箭头（arrow symbols）的变量表示。这可由<code>\vec</code> 得到。另两个命令<code>\overrightarrow</code> 和<code>\overleftarrow</code>在定义从A 到B 的向量时非常有用。</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\vec</span> a<span class="keyword">\quad</span><span class="keyword">\overrightarrow</span>&#123;AB&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<blockquote>
-<p>$\vec a\quad\overrightarrow{AB}$</p>
-</blockquote>
-<h3 id="分数"><a href="#分数" class="headerlink" title="分数"></a>分数</h3><p>分数（fraction）使用<code>\frac&#123;...&#125;&#123;...&#125;</code> 排版。一般来说，1/2 这种形式更受欢迎，因为对于少量的分式，它看起来更好些。</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span>1<span class="keyword">\frac</span>&#123;1&#125;&#123;2&#125;<span class="built_in">$</span>~hours</span><br><span class="line"><span class="built_in">$</span><span class="keyword">\frac</span>&#123;x<span class="built_in">^</span>&#123;2&#125;&#125;&#123;k+1&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span>x<span class="built_in">^</span>&#123;<span class="keyword">\frac</span>&#123;2&#125;&#123;k+1&#125;&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span>x<span class="built_in">^</span>&#123;1/2&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<blockquote>
-<p>$1\frac{1}{2}$ $~hours$ $\qquad$ $\frac{x^{2}}{k+1}$ $\qquad$ $x^{\frac{2}{k+1}}$ $\qquad$ $x^{1/2}$</p>
-</blockquote>
-<h3 id="积分-求和-乘积"><a href="#积分-求和-乘积" class="headerlink" title="积分 求和 乘积"></a>积分 求和 乘积</h3><p>积分运算符（integral operator）用<code>\int</code> 来生成。求和运算符（sum operator）由<code>\sum</code> 生成。乘积运算符（product operator）由<code>\prod</code> 生成。上限和下限用<code>^</code> 和<code>_</code>来生成，类似于上标和下标。</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\sum</span><span class="built_in">_</span>&#123;i=1&#125;<span class="built_in">^</span>&#123;n&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span><span class="keyword">\int</span><span class="built_in">_</span>&#123;0&#125;<span class="built_in">^</span>&#123;frac&#123;<span class="keyword">\pi</span>&#125;&#123;2&#125;&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span><span class="keyword">\prod</span><span class="built_in">_</span><span class="keyword">\epsilon</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<blockquote>
-<p>$\sum_{i=1}^{n}$ $\qquad$$\int_{0}^{frac{\pi}{2}}$ $\qquad$ $\prod_\epsilon$</p>
-</blockquote>
-<h3 id="常用符号表示方法"><a href="#常用符号表示方法" class="headerlink" title="常用符号表示方法"></a>常用符号表示方法</h3><h4 id="数学模式重音符"><a href="#数学模式重音符" class="headerlink" title="数学模式重音符"></a>数学模式重音符</h4><figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\hat</span>&#123;a&#125;   <span class="keyword">\check</span>&#123;a&#125; <span class="keyword">\tilde</span>&#123;a&#125;   <span class="keyword">\acute</span>&#123;a&#125; </span><br><span class="line"><span class="keyword">\grave</span>&#123;a&#125; <span class="keyword">\dot</span>&#123;a&#125;   <span class="keyword">\ddot</span>&#123;a&#125;    <span class="keyword">\breve</span>&#123;a&#125; </span><br><span class="line"><span class="keyword">\bar</span>&#123;a&#125;   <span class="keyword">\vec</span>&#123;a&#125;   <span class="keyword">\widehat</span>&#123;a&#125; <span class="keyword">\widetilde</span>&#123;a&#125;</span><br></pre></td></tr></table></figure>
-
-
-<blockquote>
-<p>$\hat{a} \qquad \check{a} \qquad \tilde{a} \qquad \acute{a} \\<br>\grave{a} \qquad \dot{a} \qquad \ddot{a} \qquad \breve{a} \\<br>\bar{a} \qquad \vec{a} \qquad \widehat{a} \qquad \widetilde{a} \\$</p>
-</blockquote>
-<h4 id="小写希腊字母"><a href="#小写希腊字母" class="headerlink" title="小写希腊字母"></a>小写希腊字母</h4><figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\alpha</span>      <span class="keyword">\theta</span>    o         <span class="keyword">\upsilon</span></span><br><span class="line"><span class="keyword">\beta</span>       <span class="keyword">\vartheta</span> <span class="keyword">\pi</span>       <span class="keyword">\phi</span></span><br><span class="line"><span class="keyword">\gamma</span>      <span class="keyword">\iota</span>     <span class="keyword">\varpi</span>    <span class="keyword">\varphi</span></span><br><span class="line"><span class="keyword">\delta</span>      <span class="keyword">\kappa</span>    <span class="keyword">\rho</span>      <span class="keyword">\chi</span></span><br><span class="line"><span class="keyword">\epsilon</span>    <span class="keyword">\lambda</span>   <span class="keyword">\varrho</span>   <span class="keyword">\psi</span></span><br><span class="line"><span class="keyword">\varepsilon</span> <span class="keyword">\mu</span>       <span class="keyword">\sigma</span>    <span class="keyword">\omega</span></span><br><span class="line"><span class="keyword">\zeta</span>       <span class="keyword">\nu</span>       <span class="keyword">\varsigma</span> </span><br><span class="line"><span class="keyword">\eta</span>        <span class="keyword">\xi</span>       <span class="keyword">\tau</span></span><br></pre></td></tr></table></figure>
-
-
-<blockquote>
-<p>$$<br>\alpha \qquad \theta \qquad o \qquad \upsilon \\<br>\beta \qquad \vartheta \qquad \pi \qquad \phi \<br>\gamma \qquad \iota \qquad \varpi  \qquad \varphi \<br>\delta \qquad \kappa \qquad \rho \qquad \chi \<br>\epsilon \qquad \lambda \qquad \varrho \qquad \psi \<br>\varepsilon \qquad \mu \qquad \sigma \qquad \omega \<br>\zeta \qquad \nu \qquad \varsigma \<br>\eta \qquad \xi \qquad \tau \<br>$$</p>
-</blockquote>
-<h4 id="大写希腊字母"><a href="#大写希腊字母" class="headerlink" title="大写希腊字母"></a>大写希腊字母</h4><h4 id="二元关系符"><a href="#二元关系符" class="headerlink" title="二元关系符"></a>二元关系符</h4><h4 id="二元运算符"><a href="#二元运算符" class="headerlink" title="二元运算符"></a>二元运算符</h4><h4 id="大尺寸运算符"><a href="#大尺寸运算符" class="headerlink" title="大尺寸运算符"></a>大尺寸运算符</h4><h4 id="箭头"><a href="#箭头" class="headerlink" title="箭头"></a>箭头</h4><h4 id="定界符"><a href="#定界符" class="headerlink" title="定界符"></a>定界符</h4><h4 id="大尺寸定界符"><a href="#大尺寸定界符" class="headerlink" title="大尺寸定界符"></a>大尺寸定界符</h4><h4 id="其他符号"><a href="#其他符号" class="headerlink" title="其他符号"></a>其他符号</h4>]]></content>
-      <categories>
-        <category>写作技巧(Write Skill)</category>
-      </categories>
-      <tags>
-        <tag>Write</tag>
-        <tag>Latex</tag>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</title>
     <url>/archives/6144e1a0.html</url>
     <content><![CDATA[<p>本文转载了INDIENOVA社区的博主 <a href="https://indienova.com/u/wizcas">Wizcas.陈小一</a> 的 <a href="https://indienova.com/indie-game-development/my-first-time-in-ludum-dare-38">48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</a>，与大家共同分享参加LD比赛的一些经验。</p>
@@ -3492,6 +3418,80 @@
         <tag>Game</tag>
         <tag>Ludum Dare</tag>
         <tag>Unity</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LATEX现学现用抢救指南</title>
+    <url>/archives/a5f7b62.html</url>
+    <content><![CDATA[<p>本文作为即忘即看的备忘文档，适用于各种编写博客需要专业数学公式但不熟悉的Latex的读者，所有内容摘自 <a href="http://mohu.org/info/symbols/symbols.htm">常用数学符号的 LaTeX 表示方法</a>。</p>
+<a id="more"></a>
+
+
+
+
+
+<h3 id="指数与下标"><a href="#指数与下标" class="headerlink" title="指数与下标"></a>指数与下标</h3><p>指数和下标可以用<code>^</code>和<code>_</code>后加相应字符来实现。比如:</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span>a<span class="built_in">_</span>&#123;1&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>x<span class="built_in">^</span>&#123;2&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>e<span class="built_in">^</span>&#123;-<span class="keyword">\alpha</span>&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>a<span class="built_in">^</span>&#123;3&#125;<span class="built_in">_</span>&#123;i,j&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span>e<span class="built_in">^</span>&#123;x<span class="built_in">^</span>2&#125; <span class="keyword">\neq</span> &#123;e<span class="built_in">^</span>x&#125;<span class="built_in">^</span>2<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<blockquote>
+<p>$a_{1}$ $\qquad$ $x^{2}$ $\qquad$ $e^{-\alpha}$ $\qquad$ $a^{3}_{i,j}$ $\qquad$ $e^{x^2} \neq {e^x}^2$</p>
+</blockquote>
+<h3 id="根号"><a href="#根号" class="headerlink" title="根号"></a>根号</h3><p>平方根（square root）的输入命令为：<code>\sqrt</code>，n 次方根相应地为:<code> \sqrt[n]</code>。方根符号的大小由LATEX自动加以调整。也可用<code>\surd</code> 仅给出符号。比如：</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\sqrt</span>&#123;x&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span><span class="keyword">\sqrt</span>&#123;x<span class="built_in">^</span>&#123;2&#125;+<span class="keyword">\sqrt</span>&#123;y&#125;&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span><span class="keyword">\sqrt</span>[3]&#123;2&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span> </span><br><span class="line"><span class="built_in">$</span><span class="keyword">\surd</span>[x<span class="built_in">^</span>2+y<span class="built_in">^</span>2]<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<blockquote>
+<p>$\sqrt{x}$ $\qquad$ $\sqrt{x^{2}+\sqrt{y}}$ $\qquad$ $\sqrt[3]{2}$ $\qquad$ $\surd[x^2+y^2]$</p>
+</blockquote>
+<h3 id="水平线"><a href="#水平线" class="headerlink" title="水平线"></a>水平线</h3><p>命令<code>\overline</code> 和<code>\underline</code> 在表达式的上、下方画出水平线。比如：</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\overline</span>&#123;m+n&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span><span class="keyword">\underline</span>&#123;m+n&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<blockquote>
+<p>$\overline{m+n}$ $\qquad$$\underline{m+n}$</p>
+</blockquote>
+<h3 id="水平大括号"><a href="#水平大括号" class="headerlink" title="水平大括号"></a>水平大括号</h3><p>命令<code>\overbrace</code> 和<code>\underbrace</code> 在表达式的上、下方给出一水平的大括号。</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\underbrace</span>&#123;a+b+<span class="keyword">\cdots</span>+z&#125;<span class="built_in">_</span>&#123;26&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<blockquote>
+<p>$\underbrace{a+b+\cdots+z}_{26}$</p>
+</blockquote>
+<h3 id="向量"><a href="#向量" class="headerlink" title="向量"></a>向量</h3><p>向量（Vectors）通常用上方有小箭头（arrow symbols）的变量表示。这可由<code>\vec</code> 得到。另两个命令<code>\overrightarrow</code> 和<code>\overleftarrow</code>在定义从A 到B 的向量时非常有用。</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\vec</span> a<span class="keyword">\quad</span><span class="keyword">\overrightarrow</span>&#123;AB&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<blockquote>
+<p>$\vec a\quad\overrightarrow{AB}$</p>
+</blockquote>
+<h3 id="分数"><a href="#分数" class="headerlink" title="分数"></a>分数</h3><p>分数（fraction）使用<code>\frac&#123;...&#125;&#123;...&#125;</code> 排版。一般来说，1/2 这种形式更受欢迎，因为对于少量的分式，它看起来更好些。</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span>1<span class="keyword">\frac</span>&#123;1&#125;&#123;2&#125;<span class="built_in">$</span>~hours</span><br><span class="line"><span class="built_in">$</span><span class="keyword">\frac</span>&#123;x<span class="built_in">^</span>&#123;2&#125;&#125;&#123;k+1&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span>x<span class="built_in">^</span>&#123;<span class="keyword">\frac</span>&#123;2&#125;&#123;k+1&#125;&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span>x<span class="built_in">^</span>&#123;1/2&#125;<span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<blockquote>
+<p>$1\frac{1}{2}$ $~hours$ $\qquad$ $\frac{x^{2}}{k+1}$ $\qquad$ $x^{\frac{2}{k+1}}$ $\qquad$ $x^{1/2}$</p>
+</blockquote>
+<h3 id="积分-求和-乘积"><a href="#积分-求和-乘积" class="headerlink" title="积分 求和 乘积"></a>积分 求和 乘积</h3><p>积分运算符（integral operator）用<code>\int</code> 来生成。求和运算符（sum operator）由<code>\sum</code> 生成。乘积运算符（product operator）由<code>\prod</code> 生成。上限和下限用<code>^</code> 和<code>_</code>来生成，类似于上标和下标。</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="keyword">\sum</span><span class="built_in">_</span>&#123;i=1&#125;<span class="built_in">^</span>&#123;n&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span><span class="keyword">\int</span><span class="built_in">_</span>&#123;0&#125;<span class="built_in">^</span>&#123;frac&#123;<span class="keyword">\pi</span>&#125;&#123;2&#125;&#125;<span class="built_in">$</span> <span class="keyword">\qquad</span></span><br><span class="line"><span class="built_in">$</span><span class="keyword">\prod</span><span class="built_in">_</span><span class="keyword">\epsilon</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<blockquote>
+<p>$\sum_{i=1}^{n}$ $\qquad$$\int_{0}^{frac{\pi}{2}}$ $\qquad$ $\prod_\epsilon$</p>
+</blockquote>
+<h3 id="常用符号表示方法"><a href="#常用符号表示方法" class="headerlink" title="常用符号表示方法"></a>常用符号表示方法</h3><h4 id="数学模式重音符"><a href="#数学模式重音符" class="headerlink" title="数学模式重音符"></a>数学模式重音符</h4><figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\hat</span>&#123;a&#125;   <span class="keyword">\check</span>&#123;a&#125; <span class="keyword">\tilde</span>&#123;a&#125;   <span class="keyword">\acute</span>&#123;a&#125; </span><br><span class="line"><span class="keyword">\grave</span>&#123;a&#125; <span class="keyword">\dot</span>&#123;a&#125;   <span class="keyword">\ddot</span>&#123;a&#125;    <span class="keyword">\breve</span>&#123;a&#125; </span><br><span class="line"><span class="keyword">\bar</span>&#123;a&#125;   <span class="keyword">\vec</span>&#123;a&#125;   <span class="keyword">\widehat</span>&#123;a&#125; <span class="keyword">\widetilde</span>&#123;a&#125;</span><br></pre></td></tr></table></figure>
+
+
+<blockquote>
+<p>$\hat{a} \qquad \check{a} \qquad \tilde{a} \qquad \acute{a} \\<br>\grave{a} \qquad \dot{a} \qquad \ddot{a} \qquad \breve{a} \\<br>\bar{a} \qquad \vec{a} \qquad \widehat{a} \qquad \widetilde{a} \\$</p>
+</blockquote>
+<h4 id="小写希腊字母"><a href="#小写希腊字母" class="headerlink" title="小写希腊字母"></a>小写希腊字母</h4><figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\alpha</span>      <span class="keyword">\theta</span>    o         <span class="keyword">\upsilon</span></span><br><span class="line"><span class="keyword">\beta</span>       <span class="keyword">\vartheta</span> <span class="keyword">\pi</span>       <span class="keyword">\phi</span></span><br><span class="line"><span class="keyword">\gamma</span>      <span class="keyword">\iota</span>     <span class="keyword">\varpi</span>    <span class="keyword">\varphi</span></span><br><span class="line"><span class="keyword">\delta</span>      <span class="keyword">\kappa</span>    <span class="keyword">\rho</span>      <span class="keyword">\chi</span></span><br><span class="line"><span class="keyword">\epsilon</span>    <span class="keyword">\lambda</span>   <span class="keyword">\varrho</span>   <span class="keyword">\psi</span></span><br><span class="line"><span class="keyword">\varepsilon</span> <span class="keyword">\mu</span>       <span class="keyword">\sigma</span>    <span class="keyword">\omega</span></span><br><span class="line"><span class="keyword">\zeta</span>       <span class="keyword">\nu</span>       <span class="keyword">\varsigma</span> </span><br><span class="line"><span class="keyword">\eta</span>        <span class="keyword">\xi</span>       <span class="keyword">\tau</span></span><br></pre></td></tr></table></figure>
+
+
+<blockquote>
+<p>$$<br>\alpha \qquad \theta \qquad o \qquad \upsilon \\<br>\beta \qquad \vartheta \qquad \pi \qquad \phi \<br>\gamma \qquad \iota \qquad \varpi  \qquad \varphi \<br>\delta \qquad \kappa \qquad \rho \qquad \chi \<br>\epsilon \qquad \lambda \qquad \varrho \qquad \psi \<br>\varepsilon \qquad \mu \qquad \sigma \qquad \omega \<br>\zeta \qquad \nu \qquad \varsigma \<br>\eta \qquad \xi \qquad \tau \<br>$$</p>
+</blockquote>
+<h4 id="大写希腊字母"><a href="#大写希腊字母" class="headerlink" title="大写希腊字母"></a>大写希腊字母</h4><h4 id="二元关系符"><a href="#二元关系符" class="headerlink" title="二元关系符"></a>二元关系符</h4><h4 id="二元运算符"><a href="#二元运算符" class="headerlink" title="二元运算符"></a>二元运算符</h4><h4 id="大尺寸运算符"><a href="#大尺寸运算符" class="headerlink" title="大尺寸运算符"></a>大尺寸运算符</h4><h4 id="箭头"><a href="#箭头" class="headerlink" title="箭头"></a>箭头</h4><h4 id="定界符"><a href="#定界符" class="headerlink" title="定界符"></a>定界符</h4><h4 id="大尺寸定界符"><a href="#大尺寸定界符" class="headerlink" title="大尺寸定界符"></a>大尺寸定界符</h4><h4 id="其他符号"><a href="#其他符号" class="headerlink" title="其他符号"></a>其他符号</h4>]]></content>
+      <categories>
+        <category>写作技巧(Write Skill)</category>
+      </categories>
+      <tags>
+        <tag>Write</tag>
+        <tag>Latex</tag>
+        <tag>Markdown</tag>
       </tags>
   </entry>
   <entry>
@@ -4630,57 +4630,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#x79;&#x6f;&#x6e;&#x67;&#x40;&#116;&#x73;&#x69;&#x6e;&#x67;&#104;&#x75;&#x61;&#46;&#101;&#100;&#117;&#46;&#x63;&#x6e;">&#x78;&#x79;&#x6f;&#x6e;&#x67;&#x40;&#116;&#x73;&#x69;&#x6e;&#x67;&#104;&#x75;&#x61;&#46;&#101;&#100;&#117;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#x79;&#x6f;&#110;&#103;&#64;&#x74;&#x73;&#105;&#110;&#103;&#x68;&#117;&#x61;&#x2e;&#101;&#100;&#x75;&#x2e;&#x63;&#x6e;">&#x78;&#x79;&#x6f;&#110;&#103;&#64;&#x74;&#x73;&#105;&#110;&#103;&#x68;&#117;&#x61;&#x2e;&#101;&#100;&#x75;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#117;&#x63;&#104;&#101;&#110;&#x40;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#116;&#x73;&#x69;&#x6e;&#x67;&#104;&#117;&#x61;&#46;&#x65;&#x64;&#117;&#x2e;&#99;&#110;">&#121;&#117;&#x63;&#104;&#101;&#110;&#x40;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#116;&#x73;&#x69;&#x6e;&#x67;&#104;&#117;&#x61;&#46;&#x65;&#x64;&#117;&#x2e;&#99;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#x75;&#99;&#104;&#101;&#x6e;&#x40;&#109;&#97;&#x69;&#x6c;&#x2e;&#x74;&#x73;&#105;&#110;&#103;&#104;&#x75;&#x61;&#46;&#x65;&#100;&#x75;&#x2e;&#99;&#x6e;">&#x79;&#x75;&#99;&#104;&#101;&#x6e;&#x40;&#109;&#97;&#x69;&#x6c;&#x2e;&#x74;&#x73;&#105;&#110;&#103;&#104;&#x75;&#x61;&#46;&#x65;&#100;&#x75;&#x2e;&#99;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#x74;&#x65;&#114;&#110;&#x61;&#108;&#x2e;&#x6e;&#48;&#x38;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#101;&#x74;&#x65;&#114;&#110;&#x61;&#108;&#x2e;&#x6e;&#48;&#x38;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x65;&#x74;&#x65;&#x72;&#110;&#97;&#108;&#46;&#x6e;&#x30;&#56;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">&#x65;&#x74;&#x65;&#x72;&#110;&#97;&#108;&#46;&#x6e;&#x30;&#56;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#x62;&#x6a;&#x65;&#99;&#116;&#107;&#117;&#x61;&#110;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#x6f;&#x62;&#x6a;&#x65;&#99;&#116;&#107;&#117;&#x61;&#110;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#98;&#106;&#101;&#x63;&#116;&#107;&#x75;&#97;&#110;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;">&#111;&#98;&#106;&#101;&#x63;&#116;&#107;&#x75;&#97;&#110;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#x72;&#x64;&#x66;&#114;&#97;&#x6e;&#107;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#x63;&#x72;&#x64;&#x66;&#114;&#97;&#x6e;&#107;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#x72;&#x64;&#102;&#x72;&#x61;&#x6e;&#107;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;">&#99;&#x72;&#x64;&#102;&#x72;&#x61;&#x6e;&#107;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#97;&#x63;&#x63;&#111;&#114;&#97;&#x77;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x74;&#97;&#x63;&#x63;&#111;&#114;&#97;&#x77;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#116;&#x61;&#x63;&#99;&#x6f;&#114;&#97;&#x77;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#116;&#x61;&#x63;&#99;&#x6f;&#114;&#97;&#x77;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#105;&#110;&#x79;&#x75;&#110;&#120;&#105;&#110;&#x67;&#48;&#48;&#x30;&#x31;&#x40;&#x31;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#x6d;">&#120;&#105;&#110;&#x79;&#x75;&#110;&#120;&#105;&#110;&#x67;&#48;&#48;&#x30;&#x31;&#x40;&#x31;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#120;&#105;&#x6e;&#x67;&#x30;&#48;&#x30;&#x31;&#x40;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#x6d;">&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#120;&#105;&#x6e;&#x67;&#x30;&#48;&#x30;&#x31;&#x40;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#x6e;&#111;&#99;&#x75;&#105;&#108;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#109;">&#103;&#x6e;&#111;&#99;&#x75;&#105;&#108;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x6e;&#111;&#x63;&#117;&#105;&#x6c;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#x67;&#x6e;&#111;&#x63;&#117;&#105;&#x6c;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#x79;&#x61;&#x69;&#x72;&#x69;&#x61;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;">&#109;&#x79;&#x61;&#x69;&#x72;&#x69;&#x61;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x6d;&#x79;&#x61;&#105;&#114;&#x69;&#97;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x6d;&#x79;&#x61;&#105;&#114;&#x69;&#97;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#104;&#97;&#x6e;&#103;&#x72;&#x61;&#x69;&#110;&#57;&#49;&#49;&#x40;&#49;&#x36;&#x33;&#x2e;&#99;&#111;&#x6d;">&#x7a;&#104;&#97;&#x6e;&#103;&#x72;&#x61;&#x69;&#110;&#57;&#49;&#49;&#x40;&#49;&#x36;&#x33;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#104;&#x61;&#x6e;&#x67;&#114;&#x61;&#105;&#x6e;&#57;&#49;&#x31;&#64;&#x31;&#x36;&#x33;&#x2e;&#99;&#111;&#x6d;">&#x7a;&#104;&#x61;&#x6e;&#x67;&#114;&#x61;&#105;&#x6e;&#57;&#49;&#x31;&#64;&#x31;&#x36;&#x33;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#103;&#x78;&#120;&#49;&#50;&#x30;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#103;&#x78;&#120;&#49;&#50;&#x30;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#103;&#120;&#x78;&#49;&#50;&#x30;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#103;&#120;&#x78;&#49;&#50;&#x30;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -5145,6 +5145,46 @@
       </tags>
   </entry>
   <entry>
+    <title>Aseprite教学-动画</title>
+    <url>/archives/88d7e2f9.html</url>
+    <content><![CDATA[<a id="more"></a>
+
+
+
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukz3p07j313g0m8dfr.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul1wou3j313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukrnscmj313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukv9f17j313g0m8jra.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul2b2hij313g0m8gli.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glouksphvbj313g0m8dfq.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukzl9ggj313g0m8gli.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul2q4r2j313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukw8s9cj313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukr1vkjj313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukzvf2oj313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukwqxqcj313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul4oipdj313g0m8gli.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul3q1tjj313g0m8dfq.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul52fhcj313g0m8gli.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul0e2x2j313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukxky4bj313g0m8mx2.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul44c0wj313g0m83yf.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul0yb3ej313g0m8a9z.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul19vjsj313g0m83yf.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul37d40j313g0m8dfr.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukycj5kj313g0m8a9z.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukugrr3j313g0m80sn.jpg"></p>
+]]></content>
+      <categories>
+        <category>像素美工(Pixel Art Designing)</category>
+      </categories>
+      <tags>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Aseprite教学-色彩、造型和光照</title>
     <url>/archives/c7d3ecc8.html</url>
     <content><![CDATA[<p>本文我们来聊聊颜色工具以及绘画中的造型和光照。</p>
@@ -5181,46 +5221,6 @@
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloufz6c8aj313g0m8glk.jpg"></p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloug038bej313g0m8jrc.jpg"></p>
 <p><img src="/Users/apple/Desktop/Asset/tourial/Course50.png"></p>
-]]></content>
-      <categories>
-        <category>像素美工(Pixel Art Designing)</category>
-      </categories>
-      <tags>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Aseprite教学-动画</title>
-    <url>/archives/88d7e2f9.html</url>
-    <content><![CDATA[<a id="more"></a>
-
-
-
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukz3p07j313g0m8dfr.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul1wou3j313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukrnscmj313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukv9f17j313g0m8jra.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul2b2hij313g0m8gli.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glouksphvbj313g0m8dfq.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukzl9ggj313g0m8gli.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul2q4r2j313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukw8s9cj313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukr1vkjj313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukzvf2oj313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukwqxqcj313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul4oipdj313g0m8gli.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul3q1tjj313g0m8dfq.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul52fhcj313g0m8gli.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul0e2x2j313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukxky4bj313g0m8mx2.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul44c0wj313g0m83yf.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul0yb3ej313g0m8a9z.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul19vjsj313g0m83yf.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloul37d40j313g0m8dfr.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukycj5kj313g0m8a9z.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloukugrr3j313g0m80sn.jpg"></p>
 ]]></content>
       <categories>
         <category>像素美工(Pixel Art Designing)</category>
