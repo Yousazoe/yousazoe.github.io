@@ -3,10 +3,12 @@
   <entry>
     <title>《蔚蓝》的开发故事 The Story of Celeste&#39;s Development</title>
     <url>/archives/a20064d.html</url>
-    <content><![CDATA[<p>本文采访了《蔚蓝》联合开发者诺尔·贝瑞（Noel Berry）谈谈游戏背后的开发历程。</p>
+    <content><![CDATA[<p>《蔚蓝》是2018年TGA最佳独立游戏，本文采访了《蔚蓝》联合开发者诺尔·贝瑞（Noel Berry）谈谈游戏背后的开发历程和故事。</p>
 <a id="more"></a>
 
+<blockquote>
 <p>本文是观看完 <a href="https://www.youtube.com/channel/UC0fDG3byEcMtbOqPMymDNbw">Noclip</a> 的 <a href="https://www.youtube.com/watch?v=c3mbELVqAmo&feature=youtu.be">The Story of Celeste’s Development</a> 后深受触动，决定整理一份文字版以供大家参考，中文制译可以移步 <a href="https://space.bilibili.com/180052141">卡姐Cara</a> 的 <a href="https://www.bilibili.com/video/BV1fJ41137HE">【游戏幕后】《蔚蓝》的开发故事 The Story of Celeste’s Development | Noclip</a>，欢迎赞助作者：<a href="https://patreon.com/noclip">https://patreon.com/noclip</a> 和译者。</p>
+</blockquote>
 <h3 id="立项"><a href="#立项" class="headerlink" title="立项"></a>立项</h3><p>完整版《蔚蓝》有丰富的剧情和氛围，PICO-8版却没有。最初的构想很简单，某人要爬一座山，过程会很难。我们想做款硬核平台游戏，但是PICO-8有很多限制：我们只能做30屏、用16种颜色……于是我们想做点好玩的。</p>
 <p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gmm6b40229j311y0lcwlm.jpg"></p>
 <p>PICO-8版完成后我们发到网上，很多人喜欢玩，尤其是速通玩家，他们曾在GDQ（快速通关慈善活动，一年举办两次）上玩。几个月后，忘了哪天，我们决定不如稍微扩展下游戏，就是两三个月能完工那种。</p>
@@ -47,7 +49,7 @@
   <entry>
     <title>Hero-NexT主题配置</title>
     <url>/archives/3bcb4b40.html</url>
-    <content><![CDATA[<p>本文记录NexT博客的主题配置。</p>
+    <content><![CDATA[<p>本文记录NexT博客的主题配置，本文记录了从站点配置Hexo重新安装到NexT主题自带的基础配置，不包含带有插件安装的主题美化。</p>
 <a id="more"></a>
 
 
@@ -248,7 +250,7 @@
   <entry>
     <title>博客使用插件总结</title>
     <url>/archives/c12c9c40.html</url>
-    <content><![CDATA[<p>这几天将博客主题从 Fluid 换回了 NexT，在重新安装插件的时候顺便记录了本博客当前使用的插件，便于后续修改。</p>
+    <content><![CDATA[<p>这几天将博客主题从 Fluid 换回了 NexT，在重新安装插件的时候顺便记录了本博客当前使用的插件以及插件相关的主题美化，便于后续修改和供NexT主题读者参考。</p>
 <a id="more"></a>
 
 
@@ -722,7 +724,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#101;&#x65;&#110;&#120;&#117;&#64;&#116;&#x65;&#x6e;&#x63;&#x65;&#x6e;&#x74;&#46;&#x63;&#111;&#109;">&#108;&#101;&#x65;&#110;&#120;&#117;&#64;&#116;&#x65;&#x6e;&#x63;&#x65;&#x6e;&#x74;&#46;&#x63;&#111;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#x65;&#110;&#x78;&#117;&#x40;&#x74;&#101;&#x6e;&#99;&#101;&#x6e;&#x74;&#46;&#x63;&#x6f;&#109;">&#x6c;&#101;&#x65;&#110;&#x78;&#117;&#x40;&#x74;&#101;&#x6e;&#99;&#101;&#x6e;&#x74;&#46;&#x63;&#x6f;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -993,208 +995,6 @@
       </categories>
       <tags>
         <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MMORPG的发展历程与简析</title>
-    <url>/archives/ccbc93d7.html</url>
-    <content><![CDATA[<p>本文主要讲解MMORPG游戏类型，通过MMORPG的主要发展过程、列举一些具有代表性的产品，分析其中的一些系统，以及如何改变市场发展方向。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>李博</strong> </p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li>2011年毕业于厦门大学</li>
-<li>2014年进入腾讯引进评估中心 </li>
-</ul>
-<h3 id="MMORPG的兴起"><a href="#MMORPG的兴起" class="headerlink" title="MMORPG的兴起"></a>MMORPG的兴起</h3><h4 id="MMORPG的概念"><a href="#MMORPG的概念" class="headerlink" title="MMORPG的概念"></a>MMORPG的概念</h4><blockquote>
-<p> <strong>MMORPG</strong> – <strong>M</strong>assively <strong>M</strong>ultiplayer <strong>O</strong>nline <strong>R</strong>ole <strong>P</strong>laying <strong>G</strong>ame – 大型多人在线角色扮演游戏</p>
-</blockquote>
-<p>与单机RPG一样，个人成长仍然是游戏的核心驱动力，但成长出口和成长方式有本质区别。社交系统给了玩家全新的体验。</p>
-<p>其实并不是所有产品都会在国内市场获得成功，但是每款产品都奠定了一个MMORPG的一个玩法品类或者是整个框架这样一个基础，所以后续的产品基本上没有逃出这三个产品的一个基本框架。</p>
-<h4 id="《网络传创世纪（Ultima-Online）》"><a href="#《网络传创世纪（Ultima-Online）》" class="headerlink" title="《网络传创世纪（Ultima Online）》"></a><strong>《网络传创世纪（Ultima Online）》</strong></h4><p>1996年（中国 1999年）上线，它是第一款图形网络游戏，在<strong>《网络创世纪》</strong>之前其实都是文字网游。但它本身并没有逃出文字网游的一些设定，虽然是图形化，但玩家在操作时还是要输入指令，后面出现了宏名指令之后让整个指令过程变得简单一些。</p>
-<p>这款游戏在玩法上是非常自由的，玩家在进入游戏时并不用选择职业，然后可以自己定义自己的发展方向。同时涉及了诸如家园系统、钓鱼系统、生活技能等等，这些大部分都被沿用到了今天。这款产品开创了整个网络游戏的一个框架，就是服务端和客户端的交互，客户端负责计算和展示，服务端进行存储。</p>
-<ul>
-<li><p>游戏公会</p>
-</li>
-<li><p>家园系统</p>
-</li>
-<li><p>虚拟生态</p>
-<p>  现代的MMORPG网游的刷怪都是有固定或者有一个时间间隔的，而网络创世纪不会随机刷新。</p>
-<blockquote>
-<p> 在一个村庄有鹿的生活区域，如果玩家把鹿都杀光，该地区的龙就会因为缺少食物而去攻击人类的村庄，这个时候人类的村庄会弹出一个任务，让玩家去屠龙。</p>
-</blockquote>
-<p>  设计者想的很好，通过这种生态模式可以触发很多新的任务新的玩法给玩家。然而事实上玩家屠龙之后因为没有刷怪机制只能自相残杀，整个游戏变得非常混乱，生态系统宣告失败。</p>
-</li>
-</ul>
-<ul>
-<li><p>红名模式</p>
-<p>  首创杀人会变成红名，红名会获得惩罚。</p>
-</li>
-<li><p>不列颠之王遇刺事件</p>
-<p>  在内测的时候当时的总设计师理查德，作为一个GM账号进入游戏，游戏ID是不列颠之王。结果因为GM账号没有勾选无敌选项，他被一个盗贼玩家杀死了。</p>
-</li>
-</ul>
-<p>这几件事给人们带来的启示是游戏玩家的行为会不可预测的，限制玩家行为是非常重要的。而像<strong>网络创世纪</strong>这样开放自由的游戏在后面的产品中已经非常少见了。</p>
-<h4 id="《无尽的任务（Ever-Quest）》"><a href="#《无尽的任务（Ever-Quest）》" class="headerlink" title="《无尽的任务（Ever Quest）》"></a><strong>《无尽的任务（Ever Quest）》</strong></h4><p>1999年（中国 2003年）上线，简要的概括这款产品就是<strong>魔兽世界</strong>的前身。当时设计者在<strong>网络创世纪</strong>看到许多PvP的负面影响，所以定位是主攻PvE，系统非常出彩。比如它首创了仇恨系统，怪物会根据玩家对它不同的攻击来建立一个仇恨的列表，然后优先攻击仇恨列表第一个玩家。它的任务系统也是非常庞大的，给玩家非常多的选择。它也首创了raid系统，即大规模的团队PvE。还有一些职业的分化、buff、debuff、种族天赋都有所体现。</p>
-<p>但这款产品在2003年进入中国之后并没有获得成功。首先它作为3D游戏，国内的硬件环境并没有办法去支撑，大部分电脑是跑不动的；还有一点是过于硬核，设计者对游戏的真实性达到了偏执的程度，里面所有的设定都要跟现实世界比较相似。</p>
-<blockquote>
-<p>里面的夜晚真的就是夜晚，现在游戏的夜晚是天色变黑但能见度没有影响，但在EQ里面没有夜视能力的职业是基本什么都看不到。所以当时如果人类在晚上出生，他想出新手村可能要转几个小时才能出去。</p>
-</blockquote>
-<h4 id="《石器时代（StoneAge）》"><a href="#《石器时代（StoneAge）》" class="headerlink" title="《石器时代（StoneAge）》"></a><strong>《石器时代（StoneAge）》</strong></h4><p>1999年在日本上线，2001中国上线并获得了成功。作为一个回合制游戏，在拨号上网的年代很契合中国的网络环境，即时制的游戏对于网络要求比较高；同时它的画面表现相对欧美玩家来讲更符合国内玩家的品味，相对轻松一些的卡通风格，接受度也更大一些。</p>
-<ul>
-<li>宠物系统</li>
-<li>社交行为</li>
-<li>直接影响回合制游戏的设定</li>
-</ul>
-<h3 id="MMORPG的发展"><a href="#MMORPG的发展" class="headerlink" title="MMORPG的发展"></a>MMORPG的发展</h3><p>发展的时期大概在2001年到2010年之间，这段时间算是MMORPG最辉煌的一个阶段，大作非常多，玩法的颠覆也非常多，社交体系的颠覆也比较多，包括商业化。商业化的改变非常巨大，中国在这一方面引领了世界。</p>
-<h4 id="《传奇》系列"><a href="#《传奇》系列" class="headerlink" title="《传奇》系列"></a><strong>《传奇》系列</strong></h4><p>传奇就跟它的名字一样，它就是一个传奇。它在2001年由盛大代理在国内上线 <strong>《传奇（热血传奇）》</strong>。</p>
-<p>传奇的玩法就是杀怪，玩家杀怪获得装备升级，升级之后变强了拿到更好的装备就可以挑战更高级的怪物，然后继续杀怪升级。游戏的探索价值比较高，当时没有门户网站，整个游戏是未知，需要玩家不断去探索。</p>
-<blockquote>
-<ul>
-<li>2002 传奇私服出现</li>
-<li>2003 <strong>传奇世界</strong></li>
-<li>2011 传奇页游开始兴起</li>
-<li>2015 热血传奇手游上线</li>
-</ul>
-</blockquote>
-<h4 id="《梦幻西游》"><a href="#《梦幻西游》" class="headerlink" title="《梦幻西游》"></a><strong>《梦幻西游》</strong></h4><p>融合了几乎所有回合制游戏的优点。当时设计者对玩家体验并不是十分的关注，而梦幻西游在玩家体验上做到了非常极致的优化，在游戏生活中非常的便捷。同时它在玩法上已经扩充的非常丰富了，除了最原始的打怪升级之外还有许多丰富的任务活动来填充玩家的游戏时间，成为了回合制游戏标杆。</p>
-<p>梦幻西游的经济系统非常开放，玩家可以自由交易，还能做到经济平衡，玩家的产出和消耗基本是持平的状态。在经济系统平稳的前提下，玩家整个打怪收益会比较固定，玩家粘性也会更高，最重要的点就是 <strong>我的努力有回报</strong>。</p>
-<p>网易凭借梦幻西游在2006年直接成为了国内第一的网游公司，所有产品的总在线人数超过了两百万。</p>
-<h4 id="《魔兽世界》"><a href="#《魔兽世界》" class="headerlink" title="《魔兽世界》"></a><strong>《魔兽世界》</strong></h4><p>魔兽世界是对整个网游市场颠覆最大的一款游戏。它在2005年由九城代理进入国内，做的最大的颠覆是副本系统。副本系统对PvE玩家更加的友好，有施展自己拳脚的平台。因为副本的诞生，让整个游戏更深耕于PvE的一个玩法，而BOSS更多的技能设计，也让整个游戏的玩法变得更加有趣。</p>
-<p>装备绑定的设定对整个网游影响也很大。因为之前的装备是不绑定的，所有的极品装备都是可以在市场上流通的，直接的影响就是装备会贬值。</p>
-<ul>
-<li>阵营设定</li>
-<li>剧情任务</li>
-<li>开启语音社交时代</li>
-</ul>
-<p>早期魔兽跟无尽的任务十分相似，后面随着游戏的快餐化取消了许多反人类的硬核设定，而这些会在怀旧服中体现出来。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghbggrdqahj30r00f7juo.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.wowchina.com/zh-cn/news/18088331/%E9%AD%94%E5%85%BD%E4%B8%96%E7%95%8C%E5%85%A8%E6%96%B04k%E5%A3%81%E7%BA%B8">魔兽世界</a> 
-    </i>
-  </font>
-</div>
-
-
-
-<h4 id="《热血江湖》"><a href="#《热血江湖》" class="headerlink" title="《热血江湖》"></a><strong>《热血江湖》</strong></h4><p>首款大张旗鼓宣扬自己是免费游戏的一款游戏。在此之前的免费游戏没有找到很好的营收手段，同时“卖数值”会影响平衡，让非R玩家有很强的负面情绪。</p>
-<ul>
-<li>宣告网游正式进入免费时代</li>
-</ul>
-<h4 id="《征途》"><a href="#《征途》" class="headerlink" title="《征途》"></a><strong>《征途》</strong></h4><p>把游戏的商业化做到极致的一个产品，以至于没有一款产品可以超越它。在2006年上线后就超过了梦幻西游的在线人数，原因在于史玉柱在宣传方面下了更多的功夫。</p>
-<p>征途开创了一种新的社交方式，就是国战。每个服务器有十个国家，然后对于城主和国家的皇帝来说，他的行驶权利是非常大的，比如获得NPC的一部分收益；或者可以行使一部分GM权利，这是一个玩家身份地位一个非常好的体现。</p>
-<ul>
-<li>商业化和宣传</li>
-<li>新的PVP社交模式</li>
-<li>自动寻路开始普及</li>
-<li>网游开始快餐化</li>
-</ul>
-<h4 id="《魔域》"><a href="#《魔域》" class="headerlink" title="《魔域》"></a><strong>《魔域》</strong></h4><ul>
-<li>2006</li>
-<li>爽快战斗</li>
-<li>XP技能</li>
-<li>商人在游戏中作用巨大</li>
-<li>网络游戏快餐化</li>
-</ul>
-<h4 id="《剑侠情缘网络版叁》"><a href="#《剑侠情缘网络版叁》" class="headerlink" title="《剑侠情缘网络版叁》"></a><strong>《剑侠情缘网络版叁》</strong></h4><p>初期仿照魔兽世界，后面效果不佳对游戏进行改进，变成现在这样相对巅峰的状态。恶人谷与浩气盟的争斗让设计者重新发现PvP的玩家参与度是比较高的，最终演变为阵容的攻防战，鼓励玩家去攻击阵营的BOSS。</p>
-<p>萝莉体型也是剑网三首创的，吸引了一部分二次元玩家。这部分玩家的二次创作能力非常强，包括cosplay、同人漫画、同人歌曲等等。同人文化的发展也是剑网三的一大特色。</p>
-<ul>
-<li>阵容攻防战</li>
-<li>轻功系统</li>
-<li>同人文化</li>
-<li>剧情深化</li>
-</ul>
-<p>这些改进让剑网三走向了和魔兽世界完全不同的道路。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghbo6zmp6mj30zk0ffn4z.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://mp.weixin.qq.com/s/pLTjQMTOw6veVAn2R4mT0w">@白芷不是中药</a> 
-    </i>
-  </font>
-</div>
-
-
-
-
-<h3 id="MMORPG的分化"><a href="#MMORPG的分化" class="headerlink" title="MMORPG的分化"></a>MMORPG的分化</h3><p>MMO到2010年之后，它就处于一个非常尴尬的地位，因为其实玩法上面已经挖掘差不多了，很难找到一个新的玩法；其次游戏这时候已经孵化成非常多的品类了，玩家有了更多的选择。第一条出路就是多平台，就是可以向其他一些更便捷的平台迁移来降低这个游戏的体量，同时研发成本也会降低。</p>
-<h4 id="页游MMO兴起"><a href="#页游MMO兴起" class="headerlink" title="页游MMO兴起"></a>页游MMO兴起</h4><p>MMO页游的特点就是全自动，它的目标用户就是上班族白领，他们没有时间玩游戏，通过自动挂机的方式来进行任务，打怪升级。在有时间的时候做一些操作比如PK、充值。因为玩法过于简单迅速进入瓶颈期，玩法和品质均无法做到突破。</p>
-<ul>
-<li>洗量大行其道</li>
-<li>页游MMO最终只成为一个过渡形态</li>
-</ul>
-<h4 id="手游MMO兴起"><a href="#手游MMO兴起" class="headerlink" title="手游MMO兴起"></a>手游MMO兴起</h4><ul>
-<li>2014</li>
-<li>全民奇迹获得成功</li>
-<li>MMO手游开始兴起</li>
-<li>MMO品类正式从端游、页游，过渡到手游</li>
-</ul>
-<h4 id="梦幻西游手游"><a href="#梦幻西游手游" class="headerlink" title="梦幻西游手游"></a><strong>梦幻西游</strong>手游</h4><p>几乎移植了端游的所有玩法，在手游上毫无例外的获得了成功。在IOS畅销榜上面占第一名长达640天，没有任何一款新游戏可以撼动它的地位。</p>
-<ul>
-<li>端游IP移植手游的热潮开启</li>
-<li>后续<strong>热血传奇、剑侠情缘、天龙八部</strong>等游戏相继上线</li>
-</ul>
-<h4 id="《我叫MT4》"><a href="#《我叫MT4》" class="headerlink" title="《我叫MT4》"></a><strong>《我叫MT4》</strong></h4><p>在这款产品之前并没有一款魔兽世界玩法的游戏，弥补了该类的空白。</p>
-<ul>
-<li>魔兽玩法移植</li>
-<li>端游IP基本消耗殆尽</li>
-<li>手游MMO也将进入瓶颈</li>
-</ul>
-<h4 id="《激战2》"><a href="#《激战2》" class="headerlink" title="《激战2》"></a><strong>《激战2》</strong></h4><p>尝试开放世界，强调游戏探索。</p>
-<ul>
-<li>随机地图事件</li>
-<li>买断式收费</li>
-<li>跨服的纯公平PVP</li>
-<li>国服盗号事件</li>
-</ul>
-<h4 id="《楚留香》"><a href="#《楚留香》" class="headerlink" title="《楚留香》"></a><strong>《楚留香》</strong></h4><p>手游的开放世界尝试。</p>
-<ul>
-<li>开放世界的尝试</li>
-<li>硬件和网络不断发展</li>
-<li>手游MMO的机会比较大</li>
-</ul>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh17yayv6rj30mk0dkzw6.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://jianghu.163.com/?from=nietop">楚留香 一梦江湖</a> 
-    </i>
-  </font>
-</div>
-
-
-
-
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><ul>
-<li>画面品质、玩法乐趣、社交体系、经济体系都是绝对一款MMORPG是否成功的关键因素</li>
-<li>页游MMORPG在游戏本身以及比较难再做突破</li>
-<li>端游和手游MMO仍有比较大的发展前景</li>
-<li>未来MMORPG在玩法层面突破机会较大，高自由度、沙盒化的玩法可能是未来MMORPG爆发的方向</li>
-</ul>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh07sc7c5sj30xc08cmzg.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-     <a href="https://www.behance.net/harveydentmustdie">Milos Kostic</a>
-    </i>
-  </font>
-</div>
-
-]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>RPG</tag>
-        <tag>MMORPG</tag>
       </tags>
   </entry>
   <entry>
@@ -1499,271 +1299,205 @@
       </tags>
   </entry>
   <entry>
-    <title>图形技术发展&amp;动作游戏发展</title>
-    <url>/archives/21f5c0c6.html</url>
-    <content><![CDATA[<p>本文从图形技术的发展为基础介绍不同世代的特点，并以此延伸到动作游戏的发展，讲述动作游戏这一品类和一些具有突出特点的代表作品推荐。</p>
+    <title>MMORPG的发展历程与简析</title>
+    <url>/archives/ccbc93d7.html</url>
+    <content><![CDATA[<p>本文主要讲解MMORPG游戏类型，通过MMORPG的主要发展过程、列举一些具有代表性的产品，分析其中的一些系统，以及如何改变市场发展方向。</p>
 <a id="more"></a>
 
 
 
 
 
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>任爽/Sionx</strong></p>
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>李博</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+<li>2011年毕业于厦门大学</li>
+<li>2014年进入腾讯引进评估中心 </li>
 </ul>
-<h3 id="《吃豆人》游戏图形的起源"><a href="#《吃豆人》游戏图形的起源" class="headerlink" title="《吃豆人》游戏图形的起源"></a>《吃豆人》游戏图形的起源</h3><ul>
-<li><p>动作游戏界定</p>
+<h3 id="MMORPG的兴起"><a href="#MMORPG的兴起" class="headerlink" title="MMORPG的兴起"></a>MMORPG的兴起</h3><h4 id="MMORPG的概念"><a href="#MMORPG的概念" class="headerlink" title="MMORPG的概念"></a>MMORPG的概念</h4><blockquote>
+<p> <strong>MMORPG</strong> – <strong>M</strong>assively <strong>M</strong>ultiplayer <strong>O</strong>nline <strong>R</strong>ole <strong>P</strong>laying <strong>G</strong>ame – 大型多人在线角色扮演游戏</p>
+</blockquote>
+<p>与单机RPG一样，个人成长仍然是游戏的核心驱动力，但成长出口和成长方式有本质区别。社交系统给了玩家全新的体验。</p>
+<p>其实并不是所有产品都会在国内市场获得成功，但是每款产品都奠定了一个MMORPG的一个玩法品类或者是整个框架这样一个基础，所以后续的产品基本上没有逃出这三个产品的一个基本框架。</p>
+<h4 id="《网络传创世纪（Ultima-Online）》"><a href="#《网络传创世纪（Ultima-Online）》" class="headerlink" title="《网络传创世纪（Ultima Online）》"></a><strong>《网络传创世纪（Ultima Online）》</strong></h4><p>1996年（中国 1999年）上线，它是第一款图形网络游戏，在<strong>《网络创世纪》</strong>之前其实都是文字网游。但它本身并没有逃出文字网游的一些设定，虽然是图形化，但玩家在操作时还是要输入指令，后面出现了宏名指令之后让整个指令过程变得简单一些。</p>
+<p>这款游戏在玩法上是非常自由的，玩家在进入游戏时并不用选择职业，然后可以自己定义自己的发展方向。同时涉及了诸如家园系统、钓鱼系统、生活技能等等，这些大部分都被沿用到了今天。这款产品开创了整个网络游戏的一个框架，就是服务端和客户端的交互，客户端负责计算和展示，服务端进行存储。</p>
 <ul>
-<li>通过手眼的配合作出即时反馈的游戏统称为动作游戏</li>
-</ul>
+<li><p>游戏公会</p>
 </li>
-<li><p>动作游戏品类</p>
+<li><p>家园系统</p>
+</li>
+<li><p>虚拟生态</p>
+<p>  现代的MMORPG网游的刷怪都是有固定或者有一个时间间隔的，而网络创世纪不会随机刷新。</p>
+<blockquote>
+<p> 在一个村庄有鹿的生活区域，如果玩家把鹿都杀光，该地区的龙就会因为缺少食物而去攻击人类的村庄，这个时候人类的村庄会弹出一个任务，让玩家去屠龙。</p>
+</blockquote>
+<p>  设计者想的很好，通过这种生态模式可以触发很多新的任务新的玩法给玩家。然而事实上玩家屠龙之后因为没有刷怪机制只能自相残杀，整个游戏变得非常混乱，生态系统宣告失败。</p>
+</li>
+</ul>
 <ul>
-<li>平台跳跃</li>
-<li>横版过关</li>
-<li>动作射击</li>
-<li>动作冒险</li>
-<li>动作角色扮演</li>
-<li>格斗</li>
-</ul>
+<li><p>红名模式</p>
+<p>  首创杀人会变成红名，红名会获得惩罚。</p>
 </li>
-<li><p>2D时代</p>
+<li><p>不列颠之王遇刺事件</p>
+<p>  在内测的时候当时的总设计师理查德，作为一个GM账号进入游戏，游戏ID是不列颠之王。结果因为GM账号没有勾选无敌选项，他被一个盗贼玩家杀死了。</p>
+</li>
+</ul>
+<p>这几件事给人们带来的启示是游戏玩家的行为会不可预测的，限制玩家行为是非常重要的。而像<strong>网络创世纪</strong>这样开放自由的游戏在后面的产品中已经非常少见了。</p>
+<h4 id="《无尽的任务（Ever-Quest）》"><a href="#《无尽的任务（Ever-Quest）》" class="headerlink" title="《无尽的任务（Ever Quest）》"></a><strong>《无尽的任务（Ever Quest）》</strong></h4><p>1999年（中国 2003年）上线，简要的概括这款产品就是<strong>魔兽世界</strong>的前身。当时设计者在<strong>网络创世纪</strong>看到许多PvP的负面影响，所以定位是主攻PvE，系统非常出彩。比如它首创了仇恨系统，怪物会根据玩家对它不同的攻击来建立一个仇恨的列表，然后优先攻击仇恨列表第一个玩家。它的任务系统也是非常庞大的，给玩家非常多的选择。它也首创了raid系统，即大规模的团队PvE。还有一些职业的分化、buff、debuff、种族天赋都有所体现。</p>
+<p>但这款产品在2003年进入中国之后并没有获得成功。首先它作为3D游戏，国内的硬件环境并没有办法去支撑，大部分电脑是跑不动的；还有一点是过于硬核，设计者对游戏的真实性达到了偏执的程度，里面所有的设定都要跟现实世界比较相似。</p>
+<blockquote>
+<p>里面的夜晚真的就是夜晚，现在游戏的夜晚是天色变黑但能见度没有影响，但在EQ里面没有夜视能力的职业是基本什么都看不到。所以当时如果人类在晚上出生，他想出新手村可能要转几个小时才能出去。</p>
+</blockquote>
+<h4 id="《石器时代（StoneAge）》"><a href="#《石器时代（StoneAge）》" class="headerlink" title="《石器时代（StoneAge）》"></a><strong>《石器时代（StoneAge）》</strong></h4><p>1999年在日本上线，2001中国上线并获得了成功。作为一个回合制游戏，在拨号上网的年代很契合中国的网络环境，即时制的游戏对于网络要求比较高；同时它的画面表现相对欧美玩家来讲更符合国内玩家的品味，相对轻松一些的卡通风格，接受度也更大一些。</p>
 <ul>
-<li><p>FC</p>
+<li>宠物系统</li>
+<li>社交行为</li>
+<li>直接影响回合制游戏的设定</li>
+</ul>
+<h3 id="MMORPG的发展"><a href="#MMORPG的发展" class="headerlink" title="MMORPG的发展"></a>MMORPG的发展</h3><p>发展的时期大概在2001年到2010年之间，这段时间算是MMORPG最辉煌的一个阶段，大作非常多，玩法的颠覆也非常多，社交体系的颠覆也比较多，包括商业化。商业化的改变非常巨大，中国在这一方面引领了世界。</p>
+<h4 id="《传奇》系列"><a href="#《传奇》系列" class="headerlink" title="《传奇》系列"></a><strong>《传奇》系列</strong></h4><p>传奇就跟它的名字一样，它就是一个传奇。它在2001年由盛大代理在国内上线 <strong>《传奇（热血传奇）》</strong>。</p>
+<p>传奇的玩法就是杀怪，玩家杀怪获得装备升级，升级之后变强了拿到更好的装备就可以挑战更高级的怪物，然后继续杀怪升级。游戏的探索价值比较高，当时没有门户网站，整个游戏是未知，需要玩家不断去探索。</p>
+<blockquote>
 <ul>
-<li>1983年发售</li>
-<li>处理器 &emsp; 8位</li>
-<li>输出分辨率  &emsp; 256 x 240</li>
-<li>内存 &emsp; 2KB</li>
+<li>2002 传奇私服出现</li>
+<li>2003 <strong>传奇世界</strong></li>
+<li>2011 传奇页游开始兴起</li>
+<li>2015 热血传奇手游上线</li>
 </ul>
-</li>
-<li><p><strong>《吃豆人》</strong></p>
+</blockquote>
+<h4 id="《梦幻西游》"><a href="#《梦幻西游》" class="headerlink" title="《梦幻西游》"></a><strong>《梦幻西游》</strong></h4><p>融合了几乎所有回合制游戏的优点。当时设计者对玩家体验并不是十分的关注，而梦幻西游在玩家体验上做到了非常极致的优化，在游戏生活中非常的便捷。同时它在玩法上已经扩充的非常丰富了，除了最原始的打怪升级之外还有许多丰富的任务活动来填充玩家的游戏时间，成为了回合制游戏标杆。</p>
+<p>梦幻西游的经济系统非常开放，玩家可以自由交易，还能做到经济平衡，玩家的产出和消耗基本是持平的状态。在经济系统平稳的前提下，玩家整个打怪收益会比较固定，玩家粘性也会更高，最重要的点就是 <strong>我的努力有回报</strong>。</p>
+<p>网易凭借梦幻西游在2006年直接成为了国内第一的网游公司，所有产品的总在线人数超过了两百万。</p>
+<h4 id="《魔兽世界》"><a href="#《魔兽世界》" class="headerlink" title="《魔兽世界》"></a><strong>《魔兽世界》</strong></h4><p>魔兽世界是对整个网游市场颠覆最大的一款游戏。它在2005年由九城代理进入国内，做的最大的颠覆是副本系统。副本系统对PvE玩家更加的友好，有施展自己拳脚的平台。因为副本的诞生，让整个游戏更深耕于PvE的一个玩法，而BOSS更多的技能设计，也让整个游戏的玩法变得更加有趣。</p>
+<p>装备绑定的设定对整个网游影响也很大。因为之前的装备是不绑定的，所有的极品装备都是可以在市场上流通的，直接的影响就是装备会贬值。</p>
 <ul>
-<li>1980年发售</li>
-<li>16进制代码创建图像</li>
+<li>阵营设定</li>
+<li>剧情任务</li>
+<li>开启语音社交时代</li>
 </ul>
-</li>
-<li><p>2D为主</p>
+<p>早期魔兽跟无尽的任务十分相似，后面随着游戏的快餐化取消了许多反人类的硬核设定，而这些会在怀旧服中体现出来。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghbggrdqahj30r00f7juo.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.wowchina.com/zh-cn/news/18088331/%E9%AD%94%E5%85%BD%E4%B8%96%E7%95%8C%E5%85%A8%E6%96%B04k%E5%A3%81%E7%BA%B8">魔兽世界</a> 
+    </i>
+  </font>
+</div>
+
+
+
+<h4 id="《热血江湖》"><a href="#《热血江湖》" class="headerlink" title="《热血江湖》"></a><strong>《热血江湖》</strong></h4><p>首款大张旗鼓宣扬自己是免费游戏的一款游戏。在此之前的免费游戏没有找到很好的营收手段，同时“卖数值”会影响平衡，让非R玩家有很强的负面情绪。</p>
 <ul>
-<li><p>类似摇杆的外设</p>
-</li>
-<li><p>SEGA Degitizer System</p>
+<li>宣告网游正式进入免费时代</li>
+</ul>
+<h4 id="《征途》"><a href="#《征途》" class="headerlink" title="《征途》"></a><strong>《征途》</strong></h4><p>把游戏的商业化做到极致的一个产品，以至于没有一款产品可以超越它。在2006年上线后就超过了梦幻西游的在线人数，原因在于史玉柱在宣传方面下了更多的功夫。</p>
+<p>征途开创了一种新的社交方式，就是国战。每个服务器有十个国家，然后对于城主和国家的皇帝来说，他的行驶权利是非常大的，比如获得NPC的一部分收益；或者可以行使一部分GM权利，这是一个玩家身份地位一个非常好的体现。</p>
 <ul>
-<li>有效改善2D图像制作效率问题 </li>
+<li>商业化和宣传</li>
+<li>新的PVP社交模式</li>
+<li>自动寻路开始普及</li>
+<li>网游开始快餐化</li>
 </ul>
-</li>
-<li><p>SEGA Degitizer System 3</p>
-</li>
-<li><p>早期的动作游戏都以横版表现形式为主</p>
+<h4 id="《魔域》"><a href="#《魔域》" class="headerlink" title="《魔域》"></a><strong>《魔域》</strong></h4><ul>
+<li>2006</li>
+<li>爽快战斗</li>
+<li>XP技能</li>
+<li>商人在游戏中作用巨大</li>
+<li>网络游戏快餐化</li>
+</ul>
+<h4 id="《剑侠情缘网络版叁》"><a href="#《剑侠情缘网络版叁》" class="headerlink" title="《剑侠情缘网络版叁》"></a><strong>《剑侠情缘网络版叁》</strong></h4><p>初期仿照魔兽世界，后面效果不佳对游戏进行改进，变成现在这样相对巅峰的状态。恶人谷与浩气盟的争斗让设计者重新发现PvP的玩家参与度是比较高的，最终演变为阵容的攻防战，鼓励玩家去攻击阵营的BOSS。</p>
+<p>萝莉体型也是剑网三首创的，吸引了一部分二次元玩家。这部分玩家的二次创作能力非常强，包括cosplay、同人漫画、同人歌曲等等。同人文化的发展也是剑网三的一大特色。</p>
 <ul>
-<li>通过算法水平镜像使资源只需一套解决左右翻转问题</li>
+<li>阵容攻防战</li>
+<li>轻功系统</li>
+<li>同人文化</li>
+<li>剧情深化</li>
 </ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《超级马里奥兄弟》</strong></p>
+<p>这些改进让剑网三走向了和魔兽世界完全不同的道路。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghbo6zmp6mj30zk0ffn4z.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://mp.weixin.qq.com/s/pLTjQMTOw6veVAn2R4mT0w">@白芷不是中药</a> 
+    </i>
+  </font>
+</div>
+
+
+
+
+<h3 id="MMORPG的分化"><a href="#MMORPG的分化" class="headerlink" title="MMORPG的分化"></a>MMORPG的分化</h3><p>MMO到2010年之后，它就处于一个非常尴尬的地位，因为其实玩法上面已经挖掘差不多了，很难找到一个新的玩法；其次游戏这时候已经孵化成非常多的品类了，玩家有了更多的选择。第一条出路就是多平台，就是可以向其他一些更便捷的平台迁移来降低这个游戏的体量，同时研发成本也会降低。</p>
+<h4 id="页游MMO兴起"><a href="#页游MMO兴起" class="headerlink" title="页游MMO兴起"></a>页游MMO兴起</h4><p>MMO页游的特点就是全自动，它的目标用户就是上班族白领，他们没有时间玩游戏，通过自动挂机的方式来进行任务，打怪升级。在有时间的时候做一些操作比如PK、充值。因为玩法过于简单迅速进入瓶颈期，玩法和品质均无法做到突破。</p>
 <ul>
-<li>1985年发售</li>
-<li>平台跳跃的鼻祖<ul>
-<li>奠定基础规则</li>
+<li>洗量大行其道</li>
+<li>页游MMO最终只成为一个过渡形态</li>
 </ul>
-</li>
+<h4 id="手游MMO兴起"><a href="#手游MMO兴起" class="headerlink" title="手游MMO兴起"></a>手游MMO兴起</h4><ul>
+<li>2014</li>
+<li>全民奇迹获得成功</li>
+<li>MMO手游开始兴起</li>
+<li>MMO品类正式从端游、页游，过渡到手游</li>
 </ul>
-</li>
-<li><p><strong>《热血硬派》</strong></p>
+<h4 id="梦幻西游手游"><a href="#梦幻西游手游" class="headerlink" title="梦幻西游手游"></a><strong>梦幻西游</strong>手游</h4><p>几乎移植了端游的所有玩法，在手游上毫无例外的获得了成功。在IOS畅销榜上面占第一名长达640天，没有任何一款新游戏可以撼动它的地位。</p>
 <ul>
-<li>1986年发售</li>
-<li>八方向移动对横版过关类游戏具有深远的影响力</li>
+<li>端游IP移植手游的热潮开启</li>
+<li>后续<strong>热血传奇、剑侠情缘、天龙八部</strong>等游戏相继上线</li>
 </ul>
-</li>
-<li><p><strong>《合金弹头》</strong></p>
+<h4 id="《我叫MT4》"><a href="#《我叫MT4》" class="headerlink" title="《我叫MT4》"></a><strong>《我叫MT4》</strong></h4><p>在这款产品之前并没有一款魔兽世界玩法的游戏，弥补了该类的空白。</p>
 <ul>
-<li>1996年SNK发售</li>
-<li>动作射击类的巅峰之作</li>
+<li>魔兽玩法移植</li>
+<li>端游IP基本消耗殆尽</li>
+<li>手游MMO也将进入瓶颈</li>
 </ul>
-</li>
-<li><p><strong>《真人快打》</strong></p>
+<h4 id="《激战2》"><a href="#《激战2》" class="headerlink" title="《激战2》"></a><strong>《激战2》</strong></h4><p>尝试开放世界，强调游戏探索。</p>
 <ul>
-<li>1992年Midway发售</li>
-<li>最早出现以真人拍摄制作的格斗游戏</li>
+<li>随机地图事件</li>
+<li>买断式收费</li>
+<li>跨服的纯公平PVP</li>
+<li>国服盗号事件</li>
 </ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="3D时代"><a href="#3D时代" class="headerlink" title="3D时代"></a>3D时代</h3><ul>
-<li><p>主机游戏机</p>
+<h4 id="《楚留香》"><a href="#《楚留香》" class="headerlink" title="《楚留香》"></a><strong>《楚留香》</strong></h4><p>手游的开放世界尝试。</p>
 <ul>
-<li>1994年发售</li>
-<li>处理器  &emsp; 32位</li>
-<li>输出分辨率  &emsp; 640 x 480px</li>
-<li>内存 &emsp; 2MB</li>
-<li>最高性价比机能去体验更好的视觉效果和游戏乐趣</li>
+<li>开放世界的尝试</li>
+<li>硬件和网络不断发展</li>
+<li>手游MMO的机会比较大</li>
 </ul>
-</li>
-<li><p><strong>《玩具总动员》</strong></p>
-<ul>
-<li>1995年发售</li>
-<li>3D技术的普及<ul>
-<li>3D在表现和效率上体现出巨大优势</li>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh17yayv6rj30mk0dkzw6.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://jianghu.163.com/?from=nietop">楚留香 一梦江湖</a> 
+    </i>
+  </font>
+</div>
+
+
+
+
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><ul>
+<li>画面品质、玩法乐趣、社交体系、经济体系都是绝对一款MMORPG是否成功的关键因素</li>
+<li>页游MMORPG在游戏本身以及比较难再做突破</li>
+<li>端游和手游MMO仍有比较大的发展前景</li>
+<li>未来MMORPG在玩法层面突破机会较大，高自由度、沙盒化的玩法可能是未来MMORPG爆发的方向</li>
 </ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《VR展示战士》</strong></p>
-<ul>
-<li>1994年发售</li>
-<li>第一款3D格斗游戏</li>
-</ul>
-</li>
-<li><p><strong>《超级马里奥64》</strong></p>
-<ul>
-<li>1994年发售</li>
-<li>第一步3D化的马里奥系列<ul>
-<li>平面 -&gt; 3D</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《古墓丽影》</strong></p>
-<ul>
-<li>1996年发售</li>
-<li>动作冒险类游戏在PC上获得成功<ul>
-<li>3D游戏和2D游戏完全拉开一个质的变化</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《生化危机》</strong></p>
-<ul>
-<li>1996年发售</li>
-<li>‘坦克式’移动<ul>
-<li>机能不足</li>
-<li>使用固定视角去切换场景</li>
-<li>不同真正的模型，贴图去处理中远景</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="次世代"><a href="#次世代" class="headerlink" title="次世代"></a>次世代</h3><ul>
-<li><p>次世代</p>
-<ul>
-<li>法线贴图</li>
-<li>高光贴图</li>
-<li>动作捕捉</li>
-<li>PBR</li>
-<li>即时渲染光影</li>
-</ul>
-</li>
-<li><p>PlayStation3</p>
-<ul>
-<li>处理器 &emsp; 18m PowerPC 3.2Hz</li>
-<li>输出分辨率 &emsp; 1080p</li>
-<li>内存 &emsp; 256MB</li>
-<li>显存 &emsp; Reality Synthesizer，R5X</li>
-</ul>
-</li>
-<li><p><strong>《暗黑破坏神2》</strong></p>
-<ul>
-<li>2000年发售</li>
-<li>三渲二技术<ul>
-<li>CG技术远远大于即时演算技术</li>
-<li>追求高画质体验</li>
-<li>2D序列帧</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《地下城与勇士》</strong></p>
-<ul>
-<li>2005年发售</li>
-<li>网络时代的横版动作游戏<ul>
-<li>数值成长体系</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《陇村正》</strong></p>
-<ul>
-<li>2009年发售</li>
-<li>2D不再局限于像素风格</li>
-<li>次世代制作的2D横版动作游戏延续</li>
-</ul>
-</li>
-<li><p><strong>《火影忍者：究极风暴4》</strong></p>
-<ul>
-<li>2016年发售</li>
-<li>卡通渲染技术的格斗游戏</li>
-</ul>
-</li>
-<li><p><strong>《塞尔达传说：荒野之息》</strong></p>
-<ul>
-<li>2017年发售</li>
-<li>物理特性让玩法拥有多样性</li>
-</ul>
-</li>
-<li><p><strong>《怪物猎人：世界》</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>独乐乐不如众乐乐</li>
-<li>1200+w以上的销量</li>
-</ul>
-</li>
-<li><p><strong>《荒野大镖客：救赎2》</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>融合电影化叙事等多种元素的动作冒险游戏</li>
-<li>追求极致的实时渲染<ul>
-<li>次世代最高顶级的画质表现力</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>次世代的动作明星</p>
-<ul>
-<li>奎托斯</li>
-<li>但丁</li>
-<li>贝优妮塔</li>
-</ul>
-</li>
-<li><p><strong>《只狼》</strong></p>
-<ul>
-<li>2019年发售</li>
-<li>突破传统的动作游戏节奏，鼓励主动进攻</li>
-<li>同时进攻获取最大收益</li>
-</ul>
-</li>
-<li><p>【游戏推荐】</p>
-<ul>
-<li><p><strong>《Cuphead》（茶杯头）</strong></p>
-<ul>
-<li>2017年发售</li>
-<li>2017 TGA最佳美术指导、最佳独立游戏</li>
-</ul>
-</li>
-<li><p><strong>《Celeste》（蔚蓝）</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>2018 TGA最佳独立游戏</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh07sc7c5sj30xc08cmzg.jpg"></p>
 <div align=center>
   <font size="3">
     <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
+     <a href="https://www.behance.net/harveydentmustdie">Milos Kostic</a>
     </i>
   </font>
-</div>]]></content>
+</div>
+
+]]></content>
       <categories>
         <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
       </categories>
       <tags>
         <tag>Game</tag>
+        <tag>RPG</tag>
+        <tag>MMORPG</tag>
       </tags>
   </entry>
   <entry>
@@ -2281,6 +2015,451 @@
       </tags>
   </entry>
   <entry>
+    <title>图形技术发展&amp;动作游戏发展</title>
+    <url>/archives/21f5c0c6.html</url>
+    <content><![CDATA[<p>本文从图形技术的发展为基础介绍不同世代的特点，并以此延伸到动作游戏的发展，讲述动作游戏这一品类和一些具有突出特点的代表作品推荐。</p>
+<a id="more"></a>
+
+
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>任爽/Sionx</strong></p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+</ul>
+<h3 id="《吃豆人》游戏图形的起源"><a href="#《吃豆人》游戏图形的起源" class="headerlink" title="《吃豆人》游戏图形的起源"></a>《吃豆人》游戏图形的起源</h3><ul>
+<li><p>动作游戏界定</p>
+<ul>
+<li>通过手眼的配合作出即时反馈的游戏统称为动作游戏</li>
+</ul>
+</li>
+<li><p>动作游戏品类</p>
+<ul>
+<li>平台跳跃</li>
+<li>横版过关</li>
+<li>动作射击</li>
+<li>动作冒险</li>
+<li>动作角色扮演</li>
+<li>格斗</li>
+</ul>
+</li>
+<li><p>2D时代</p>
+<ul>
+<li><p>FC</p>
+<ul>
+<li>1983年发售</li>
+<li>处理器 &emsp; 8位</li>
+<li>输出分辨率  &emsp; 256 x 240</li>
+<li>内存 &emsp; 2KB</li>
+</ul>
+</li>
+<li><p><strong>《吃豆人》</strong></p>
+<ul>
+<li>1980年发售</li>
+<li>16进制代码创建图像</li>
+</ul>
+</li>
+<li><p>2D为主</p>
+<ul>
+<li><p>类似摇杆的外设</p>
+</li>
+<li><p>SEGA Degitizer System</p>
+<ul>
+<li>有效改善2D图像制作效率问题 </li>
+</ul>
+</li>
+<li><p>SEGA Degitizer System 3</p>
+</li>
+<li><p>早期的动作游戏都以横版表现形式为主</p>
+<ul>
+<li>通过算法水平镜像使资源只需一套解决左右翻转问题</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《超级马里奥兄弟》</strong></p>
+<ul>
+<li>1985年发售</li>
+<li>平台跳跃的鼻祖<ul>
+<li>奠定基础规则</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《热血硬派》</strong></p>
+<ul>
+<li>1986年发售</li>
+<li>八方向移动对横版过关类游戏具有深远的影响力</li>
+</ul>
+</li>
+<li><p><strong>《合金弹头》</strong></p>
+<ul>
+<li>1996年SNK发售</li>
+<li>动作射击类的巅峰之作</li>
+</ul>
+</li>
+<li><p><strong>《真人快打》</strong></p>
+<ul>
+<li>1992年Midway发售</li>
+<li>最早出现以真人拍摄制作的格斗游戏</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="3D时代"><a href="#3D时代" class="headerlink" title="3D时代"></a>3D时代</h3><ul>
+<li><p>主机游戏机</p>
+<ul>
+<li>1994年发售</li>
+<li>处理器  &emsp; 32位</li>
+<li>输出分辨率  &emsp; 640 x 480px</li>
+<li>内存 &emsp; 2MB</li>
+<li>最高性价比机能去体验更好的视觉效果和游戏乐趣</li>
+</ul>
+</li>
+<li><p><strong>《玩具总动员》</strong></p>
+<ul>
+<li>1995年发售</li>
+<li>3D技术的普及<ul>
+<li>3D在表现和效率上体现出巨大优势</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《VR展示战士》</strong></p>
+<ul>
+<li>1994年发售</li>
+<li>第一款3D格斗游戏</li>
+</ul>
+</li>
+<li><p><strong>《超级马里奥64》</strong></p>
+<ul>
+<li>1994年发售</li>
+<li>第一步3D化的马里奥系列<ul>
+<li>平面 -&gt; 3D</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《古墓丽影》</strong></p>
+<ul>
+<li>1996年发售</li>
+<li>动作冒险类游戏在PC上获得成功<ul>
+<li>3D游戏和2D游戏完全拉开一个质的变化</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《生化危机》</strong></p>
+<ul>
+<li>1996年发售</li>
+<li>‘坦克式’移动<ul>
+<li>机能不足</li>
+<li>使用固定视角去切换场景</li>
+<li>不同真正的模型，贴图去处理中远景</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="次世代"><a href="#次世代" class="headerlink" title="次世代"></a>次世代</h3><ul>
+<li><p>次世代</p>
+<ul>
+<li>法线贴图</li>
+<li>高光贴图</li>
+<li>动作捕捉</li>
+<li>PBR</li>
+<li>即时渲染光影</li>
+</ul>
+</li>
+<li><p>PlayStation3</p>
+<ul>
+<li>处理器 &emsp; 18m PowerPC 3.2Hz</li>
+<li>输出分辨率 &emsp; 1080p</li>
+<li>内存 &emsp; 256MB</li>
+<li>显存 &emsp; Reality Synthesizer，R5X</li>
+</ul>
+</li>
+<li><p><strong>《暗黑破坏神2》</strong></p>
+<ul>
+<li>2000年发售</li>
+<li>三渲二技术<ul>
+<li>CG技术远远大于即时演算技术</li>
+<li>追求高画质体验</li>
+<li>2D序列帧</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《地下城与勇士》</strong></p>
+<ul>
+<li>2005年发售</li>
+<li>网络时代的横版动作游戏<ul>
+<li>数值成长体系</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《陇村正》</strong></p>
+<ul>
+<li>2009年发售</li>
+<li>2D不再局限于像素风格</li>
+<li>次世代制作的2D横版动作游戏延续</li>
+</ul>
+</li>
+<li><p><strong>《火影忍者：究极风暴4》</strong></p>
+<ul>
+<li>2016年发售</li>
+<li>卡通渲染技术的格斗游戏</li>
+</ul>
+</li>
+<li><p><strong>《塞尔达传说：荒野之息》</strong></p>
+<ul>
+<li>2017年发售</li>
+<li>物理特性让玩法拥有多样性</li>
+</ul>
+</li>
+<li><p><strong>《怪物猎人：世界》</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>独乐乐不如众乐乐</li>
+<li>1200+w以上的销量</li>
+</ul>
+</li>
+<li><p><strong>《荒野大镖客：救赎2》</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>融合电影化叙事等多种元素的动作冒险游戏</li>
+<li>追求极致的实时渲染<ul>
+<li>次世代最高顶级的画质表现力</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>次世代的动作明星</p>
+<ul>
+<li>奎托斯</li>
+<li>但丁</li>
+<li>贝优妮塔</li>
+</ul>
+</li>
+<li><p><strong>《只狼》</strong></p>
+<ul>
+<li>2019年发售</li>
+<li>突破传统的动作游戏节奏，鼓励主动进攻</li>
+<li>同时进攻获取最大收益</li>
+</ul>
+</li>
+<li><p>【游戏推荐】</p>
+<ul>
+<li><p><strong>《Cuphead》（茶杯头）</strong></p>
+<ul>
+<li>2017年发售</li>
+<li>2017 TGA最佳美术指导、最佳独立游戏</li>
+</ul>
+</li>
+<li><p><strong>《Celeste》（蔚蓝）</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>2018 TGA最佳独立游戏</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
+    </i>
+  </font>
+</div>]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分析聚焦感情而设计的游戏品类</title>
+    <url>/archives/86c9b0ee.html</url>
+    <content><![CDATA[<p>本文介绍聚焦情感而诞生的玩法品类，并以女性向游戏为例进行简要分析，提取出特征和关键要素；之后是关于聚焦情感而产生的设计方向–独立游戏，提取出独立游戏的关键要素。</p>
+<a id="more"></a>
+
+
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>Kinhu</strong></p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+<li>HR专业，一名普通的游戏策划</li>
+<li>大三完成第一款独立游戏从而入行</li>
+<li>至今完成20多款游戏作品</li>
+<li>担任过 程序、美术、音乐、策划</li>
+<li>商业游戏界十多年工作经验</li>
+</ul>
+<h3 id="聚焦感情而诞生的玩法品类-女性向游戏"><a href="#聚焦感情而诞生的玩法品类-女性向游戏" class="headerlink" title="聚焦感情而诞生的玩法品类 - 女性向游戏"></a>聚焦感情而诞生的玩法品类 - 女性向游戏</h3><h4 id="一段有趣的对话"><a href="#一段有趣的对话" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
+<ul>
+<li>宫斗卡牌游戏</li>
+<li>策略性 玩法</li>
+<li>好多帅哥 很多漂亮的衣服</li>
+</ul>
+</blockquote>
+<h4 id="女性向游戏"><a href="#女性向游戏" class="headerlink" title="女性向游戏"></a>女性向游戏</h4><ul>
+<li>以女性<strong>精神诉求</strong>为<strong>出发点</strong>进行设计</li>
+<li>以女性<strong>基础需求</strong>作为<strong>核心</strong>进行设计</li>
+</ul>
+<h3 id="该品类的特征和关键要素-共性三要素"><a href="#该品类的特征和关键要素-共性三要素" class="headerlink" title="该品类的特征和关键要素 - 共性三要素"></a>该品类的特征和关键要素 - 共性三要素</h3><h4 id="共性产品提取出的女性关注焦点三要素"><a href="#共性产品提取出的女性关注焦点三要素" class="headerlink" title="共性产品提取出的女性关注焦点三要素"></a>共性产品提取出的女性关注焦点三要素</h4><ul>
+<li>恋爱</li>
+<li>时尚</li>
+<li>装扮</li>
+</ul>
+<h4 id="表现永远是女性向的第一门槛"><a href="#表现永远是女性向的第一门槛" class="headerlink" title="表现永远是女性向的第一门槛"></a>表现永远是女性向的第一门槛</h4><ul>
+<li><p>符合本国大众女性用户审美，排斥情绪最低</p>
+</li>
+<li><p>女性才愿意通过表现看到焦点</p>
+</li>
+</ul>
+<ul>
+<li><p>如果有合格的表现和焦点就能成功，那么这些游戏为何成功？</p>
+<p>女性的心理特点，才是女性向市场存在的核心</p>
+</li>
+</ul>
+<h5 id="女性心理特点抽取出三要素"><a href="#女性心理特点抽取出三要素" class="headerlink" title="女性心理特点抽取出三要素"></a>女性心理特点抽取出三要素</h5><h6 id="群体的归属"><a href="#群体的归属" class="headerlink" title="群体的归属"></a>群体的归属</h6><ul>
+<li>获得群体</li>
+<li>可融入的群体</li>
+<li>值得依赖的群体</li>
+<li>有爱的群体</li>
+</ul>
+<h6 id="纤细的情感"><a href="#纤细的情感" class="headerlink" title="纤细的情感"></a>纤细的情感</h6><ul>
+<li>细腻</li>
+<li>丰富</li>
+<li>多样</li>
+<li>真实</li>
+</ul>
+<h6 id="虚荣的攀比"><a href="#虚荣的攀比" class="headerlink" title="虚荣的攀比"></a>虚荣的攀比</h6><ul>
+<li>独占欲：限定 唯一</li>
+<li>精神上的击败：多 贵 好</li>
+<li>高忠诚度和对外洁癖</li>
+</ul>
+<p>女性的心理特点受到生理和社会观念等长期影响</p>
+<h4 id="聚焦女性情感，才能准确掌握女性向游戏的核心"><a href="#聚焦女性情感，才能准确掌握女性向游戏的核心" class="headerlink" title="聚焦女性情感，才能准确掌握女性向游戏的核心"></a>聚焦女性情感，才能准确掌握女性向游戏的核心</h4><h5 id="共性元素"><a href="#共性元素" class="headerlink" title="共性元素"></a>共性元素</h5><ul>
+<li>恋爱</li>
+<li>时尚 流行 娱乐</li>
+<li>美食</li>
+</ul>
+<h5 id="共性表现"><a href="#共性表现" class="headerlink" title="共性表现"></a>共性表现</h5><ul>
+<li>本国的大众审美</li>
+<li>拒绝另类</li>
+</ul>
+<ul>
+<li><p>共性体验</p>
+<p>同品类游戏中，操作体验轻度，内容体验重度，受到女性价值观认可度高</p>
+</li>
+</ul>
+<h3 id="聚焦感情而产生的设计方向-独立游戏"><a href="#聚焦感情而产生的设计方向-独立游戏" class="headerlink" title="聚焦感情而产生的设计方向 - 独立游戏"></a>聚焦感情而产生的设计方向 - 独立游戏</h3><h4 id="一段有趣的对话-1"><a href="#一段有趣的对话-1" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
+<ul>
+<li>我有一个不错的创意</li>
+<li>我看到的这些游戏里面有许多创意</li>
+<li>所以独立游戏等于创意，我应该可以作出不错的独立游戏</li>
+</ul>
+</blockquote>
+<h4 id="传统定义独立游戏"><a href="#传统定义独立游戏" class="headerlink" title="传统定义独立游戏"></a>传统定义独立游戏</h4><h5 id="不受商业投资的影响"><a href="#不受商业投资的影响" class="headerlink" title="不受商业投资的影响"></a>不受商业投资的影响</h5><ul>
+<li>自由创作 随性所欲</li>
+<li>没有Deadline KPI的项目</li>
+<li>远离你死我活的竞争</li>
+<li>自己做自己的老板</li>
+</ul>
+<h5 id="小团队"><a href="#小团队" class="headerlink" title="小团队"></a>小团队</h5><ul>
+<li>不超过10人的合作规模</li>
+<li>参与者之间是合作伙伴关系而非上下级</li>
+</ul>
+<h5 id="身兼数职"><a href="#身兼数职" class="headerlink" title="身兼数职"></a>身兼数职</h5><p>因为开发量和开发人数不成正比结果导致的</p>
+<h5 id="拥有独立精神的游戏"><a href="#拥有独立精神的游戏" class="headerlink" title="拥有独立精神的游戏"></a>拥有独立精神的游戏</h5><blockquote>
+<p><strong><em>Make Game For Fun</em></strong> </p>
+<p><strong><em>Fun Can Make Money</em></strong></p>
+<p><strong><em>独立之精神，自由之思想</em></strong></p>
+</blockquote>
+<p>在自由创作的情感诉求下所诞生的作品，不受固有玩法和类型的约束</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《我的战争》《万物》</strong> </li>
+</ul>
+</blockquote>
+<p>焦点是如何更好的传达设计师的情感诉求</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《replica》 《史丹利的寓言》</strong></li>
+</ul>
+</blockquote>
+<h3 id="如何利用聚焦的设计来脱颖而出-独立游戏的关键要素"><a href="#如何利用聚焦的设计来脱颖而出-独立游戏的关键要素" class="headerlink" title="如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素"></a>如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素</h3><h4 id="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"><a href="#残酷现实下迫使独立游戏在情感诉求上的表现更为张扬" class="headerlink" title="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"></a>残酷现实下迫使独立游戏在情感诉求上的表现更为张扬</h4><ul>
+<li><p>有限的宣传渠道</p>
+</li>
+<li><p>发行平台过于集中</p>
+</li>
+<li><p>成本控制的经验缺失</p>
+</li>
+<li><p>5%的完成率 1%的成功率</p>
+</li>
+</ul>
+<h4 id="从独立游戏开发进化方式分析出其设计的出发点"><a href="#从独立游戏开发进化方式分析出其设计的出发点" class="headerlink" title="从独立游戏开发进化方式分析出其设计的出发点"></a>从独立游戏开发进化方式分析出其设计的出发点</h4><h5 id="焦点式开发"><a href="#焦点式开发" class="headerlink" title="焦点式开发"></a>焦点式开发</h5><ul>
+<li>游戏创新 - 目标是可落地的</li>
+<li>游戏玩法 - 集中玩法设计，深挖玩法可衍生性</li>
+<li>游戏表现力 - 突围的方法</li>
+<li>成本控制 - 游戏保证完成</li>
+</ul>
+<p>聚焦情感所设计的游戏，不需要太过在意游戏玩法方式，<em>它可以是任意方式</em>。</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《传说之下（Undertale）》</strong></li>
+</ul>
+</blockquote>
+<p>越是贴近于生活的游戏创意，引起情感共鸣的成功可能性越高。</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《Papers Please》 《迷你小地铁》</strong></li>
+</ul>
+</blockquote>
+<p>足以让玩家衍生出情感创作的作品，是优秀独立游戏的特征。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh7z3ds8dwj31lz0u07wh.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.pixiv.net/artworks/64559533">日本語版公式リリース</a> by 
+      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>弗兰克 - 奥哈拉，美国当代最著名、最有影响力的纽约派诗人之一，《动物》是一首挽歌式的作品，作者用它凭吊逝去的恋情。</p>
+<p>美国独立游戏峰会时一位独立游戏制作人将此诗发给了现场所有独立游戏人，以此诗借喻鼓励全世界的独立游戏制作人，勿忘独立游戏制作最初带给他们的美好及感动。</p>
+<blockquote>
+<p><em>你还记得从前那段 &emsp; 我们最初的模样吗</em><br><em>每天啃着一个苹果 &emsp; 一天一天地变胖</em><br><em>感慨着时光地流逝 &emsp; 偶尔用一些小伎俩</em><br><em>试着做一些小突破 &emsp; 我们整个过往经历</em><br><em>就像一顿丰盛晚餐 &emsp; 不需要去计算时间</em><br><em>仅仅用冰块和白水 &emsp; 就能调制出鸡尾酒</em><br><strong><em>只要你和我在一起 &emsp; 我不会希望快一些</em></strong><br><strong><em>我也不会一无所知 &emsp; 你就是我这生命中</em></strong><br><strong><em>&emsp;&emsp;&emsp;&emsp;&emsp;最美好的一个存在</em></strong><br>&emsp;</p>
+</blockquote>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a><br/>
+      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
+    </i>
+  </font>
+</div>
+
+]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>INDIE</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2D游戏开发</title>
     <url>/archives/6487e0f7.html</url>
     <content><![CDATA[<p>作为第一个游戏，我们决定去开发那个非常有名的“推箱子”的游戏。准备好场景数据后就可以进行单人游戏，游戏中也没有什么复杂的动作，因此无须设计太多东西能够完成。从结果来看，只需200行的代码就可以实现。</p>
@@ -2377,7 +2556,9 @@
 
 
 
+<blockquote>
 <p>本文是观看完 <a href="https://www.youtube.com/channel/UCnbvPS_rXp4PC21PG2k1UVg">Gaming Historian</a> 的 <a href="https://www.youtube.com/watch?v=CnmMDzgTB7o&feature=youtu.be">Who Invented the D-Pad? | Gaming Historian</a> 后深受触动，决定整理一份文字版以供大家参考，中文制译可以移步 <a href="https://space.bilibili.com/180052141">卡姐Cara</a> 的 <a href="https://www.bilibili.com/video/BV1Kx411u7oR">谁发明了方向键？</a>，有条件的读者可以支持上面的作者和译者。</p>
+</blockquote>
 <p>十字键，又称为方向键，已经是一种业界标准，它几乎在每只游戏手柄上，即使是PlayStation 4这样的现代游戏主机也会包含。它是Nintendo1982年的发明，但方向键并非一问世就改变游戏界，那时它只是为解决涉及难题而生。实际上，在方向键面试后，任天堂都没立刻意识到它的潜力，这里有何故事？让我们一起看看这个简单但革命性发明背后的历史吧。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gll2uj4w2ej30xc0ir789.jpg"></p>
 <h3 id="诞生"><a href="#诞生" class="headerlink" title="诞生"></a>诞生</h3><p>在方向键之前，主流控制器是摇杆。那时也有方向按键，四个按钮分别代表上下左右，美泰儿的Intellivision游戏机（1979年发售）用圆盘操作，可以控制角色在16个方向上移动。但它因此有些笨拙难用，但是这一切在1982年被改变了。</p>
@@ -2597,123 +2778,6 @@
       </tags>
   </entry>
   <entry>
-    <title>一个关于爱与生活的童话-Florence</title>
-    <url>/archives/9b487a14.html</url>
-    <content><![CDATA[<p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
-<a id="more"></a>
-
-
-
-
-
-<p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_3803bfdcbfa1ff4515505f920ed1c7993993b9f6.600x338.jpg?t=1589331032">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256774213/movie480.webm?t=1580836892" type="video/mp4">       </video></p>
-<h3 id="关于游戏"><a href="#关于游戏" class="headerlink" title="关于游戏"></a>关于游戏</h3><p>Florence 是一场持续约 30 分钟的心动体验。故事很简短，但意义很深远。</p>
-<p>25 岁的 Florence Yeoh 对生活感到困惑。她的生活是日复一日地工作、睡觉，以及在社交媒体上打发大量时间。直到有一天，她遇到了一位名叫 Krish 的大提琴手，他改变了她眼中的整个世界。</p>
-<p>透过一系列预先设定的游戏剧本，从调情到吵架，从互助成长到逐渐分歧，玩家将体验 Florence 与 Krish 这段感情的点点滴滴。 《Florence》的灵感来源于「Slice of Life」漫画小说和网路漫画，讲述了一个熟悉、青涩而又私密的爱情故事。</p>
-<h3 id="测评"><a href="#测评" class="headerlink" title="测评"></a>测评</h3><blockquote>
-<p>“Florence is a beautiful experience that isn’t afraid to tell an ordinary story. This isn’t an action-packed, heroic tale or a somber story filled with tragedy, but it still hits some of those notes in subdued ways. Florence is happy, distressing, and admirable in its reflection of young romance, and it left me with a sense of unexpected hopefulness.”<br><em>Game Informer</em></p>
-</blockquote>
-<br/>
-
-<blockquote>
-<p>“This short collection of small moments manages to cover a wide range of powerfully relatable emotional highs and lows, beautifully capturing what it’s like to fall in love for the first time.”<br><em>The Guardian</em></p>
-</blockquote>
-<br/>
-
-<blockquote>
-<p>“The breathtaking Florence captures falling in love better than almost any game.”<br><em>Polygon</em></p>
-</blockquote>
-<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="玩法层面"><a href="#玩法层面" class="headerlink" title="玩法层面"></a>玩法层面</h4><p>游戏总体上偏向于叙事类的互动故事，玩家更注重故事本身，所以在玩法方面基本上是被弱化甚至是可以忽略。但是作为游戏，《Florence》的交互设计做的非常优秀，在后面会提到，在此不再赘述。</p>
-<h4 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h4><p>美术风格上绘图保持着非常高的质量，在同类游戏中处于中等偏上的水平。在游玩游戏的过程中，每一张图都可以当作壁纸，仿佛是在艺术长廊中欣赏一件件精美的画作。而且勾勒人物的线条非常简洁凝练，相较于写实风格更偏向卡通，但却拿捏的恰到好处。虽然游戏除了背景音乐完全没有人物配音，但美术上呈现出艺术上的张力，也能让画中的人物富有生机与活力。</p>
-<h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>交互设计也是《Florence》的一大亮点。</p>
-<p>从游戏一开始的拖拽牙刷来刷牙，到吃饭时点击食物来食用以及后面等等，交互的风格让我想到了锈湖推出的《白门》。除开游戏类型的不同，两者的交互设计非常相似，甚至《白门》的主人公一开始的洗漱和之后的吃饭几乎一模一样。在我的印象中，类似于洗漱吃饭这样的行为交互设计一般是通过按键的方式实现的，例如在饭桌前提示按下某个之前操作方式提到的交互键位，触发「洗漱」、「吃饭」、「睡觉」等，之后可能会有一段动画。回到游戏本身，作为叙事类游戏，《Florence》必然面临着游戏性不足的问题，而这种细腻独特的交互方式成功地拉长了总体的游戏时间，丰富了游戏的体验，让玩家参与其中而只不是“看漫画”。同样的，许多游戏大作采用固定交互键的方式也是节约了玩家的时间和精力，因为这些游戏本身不需要交互来给游戏“拖时间”。</p>
-<p>在交互的过程中，玩家感受到的不是僵硬地拖延游戏时间，而是情感被不断地牵动。令人印象非常深刻的是女主与男主交谈的几个片段。这个情节谈话的方式是将拼图拖拽到指定区域并拼好。双方刚开始聊天时，拼图有足足八块 ，形状也是千奇百怪。随着交谈的深入，拼图的数量也开始减少，难度开始不断降低，六块、四块、三块，到后面双方聊到火热，拼图也只剩下两块，画面中两个人的距离也在不断靠近。在接吻前，两块的拖拽甚至变成了轴对称的，只需要拖拽一块到区域内就完成了。在整个过程中，玩家对这种不断增进的感情实际上是感同身受的，情感已经借由交互带入到故事中：从刚开始聊天的羞涩，不断从脑中寻找话题，到之后双方开始互敞心扉，最后不断靠近并热切地接吻，玩家的情感也融入到情景之中。拼图的形式贯穿了整个游戏，随着剧情的发展，双方的争吵再次以拼图的形式呈现：拼图镶嵌的「角」从圆滑的「圆角」变成了锐利的「尖角」；如果拼接的速度不够快还可能输给对方；而到了夜里睡觉的时候，拼图拼出双方背对背躺着，却只能拼出两大块各自的拼图，两者因为「角」相互排斥拼不到一起。和拼图的效果相似的设计还有转动时针来表现时间的流逝、同居时放置物品和分居时收拾曾经放置的物品，都能给玩家带来很大的触动。</p>
-<p>丰富多样的交互可能会带来操作上的困难，但在整个游玩过程中，不同的交互都有相应的提示。交互方面唯一的遗憾是《Florence》作为跨平台的游戏，交互由触屏变成了鼠标的拖动，PC端的体验可能较手机端稍逊色一些。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf7df4nwl8j30go09dmyk.jpg"></p>
-<h4 id="剧情题材"><a href="#剧情题材" class="headerlink" title="剧情题材"></a>剧情题材</h4><p>故事的本身可能是《Florence》争议比较大的方面。一个女孩在日复一日麻木的生活与工作中偶然遇到自己心动的男孩，双方坠入爱河开始甜蜜幸福的生活，一起去追逐梦想。随着时间的流逝，在生活中女孩和男孩相互的不理解变成了争吵，最后不欢而散。女孩最后坚持了自己的梦想，成为了一名画家，但她依旧忘不了那个当初送给她颜料盒的那个人。</p>
-<p>有一些人认为剧情的真实性不够：女孩一见钟情，有懵懂的欣赏，有心动的害羞，有投机的聊天，这些都是校园恋爱的元素，放在前面铺垫过日复一日重复麻木单调工作的女孩身上显然是不合适的，而且之后的画画成名给人很突兀的感觉，逻辑上很难自洽：</p>
-<blockquote>
-<p>女孩幼年热爱绘画，二十来年不练，分手之后努力画了几年突然就绘画艺术家作品大卖了，我觉得真的好假啊，这种女孩是天才，是玛丽苏，是任何小说电视剧里的女主角，唯独不是普通人。一个「恋爱后分手，分手后成名」的恋爱故事，越品越感觉像是一个泡泡一样的童话”</p>
-<p> <em>Topas今天退休了吗</em></p>
-</blockquote>
-<p>在我看来，《Florence》与其说是一个故事，不如说是一个关于爱情的童话：与其在其中寻找现实中爱情的影子，不如放松下来，把它当作一本童话书或者一个绘本，静静欣赏那种单纯的美好。彼此激励一起为对方对梦想加油、无论做什么都是快乐而且有活力的、哪怕有吵架不久后还是原谅对方继续甜蜜、即使 Florence 失去了 Krish，她依旧选择了去热爱生活，去追逐自己的梦想，最后获得了成功。抛开合理性，这个剧情本身就已经超出了简单的甜甜的恋爱，立意上升到一个更高的层次：恋爱让自己变得更好。经历过这些，她明白了一个问题：我是谁？人的一生都在了解自己，女主也不例外。所以这款游戏的名字叫做“Florence”，不仅仅是说她经历了一切，更意味着，她经历的这一切，让她找回了自己。这可能才是游戏想真正表达的。</p>
-<p><img src="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_9e029df44296f3d21a61e96d0a7bea4447be2c14.600x338.jpg?t=1589331032"></p>
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>希望通过恋爱，成为更好的自己。</p>
-<blockquote>
-<p>加速拨动的时钟 诉说我们之间的改变<br>争吵时 对话框的拼图角变得越来越尖锐<br>明明拼好了的拼图却发现无法组合在一起<br>拼到一起的照片碎片 却还是一直在分离<br>…….<br>不管你怎么念念不舍把碎片拖回来 不愿意点下一页<br>但想要离开的人终究会疏远 远去 成为人生中的一名过客</p>
-<p>曾经的你使我的生活有了色彩 让我对未来有了无限的憧憬</p>
-<p>可相片里躺在我身边的你 却依旧是我亲手擦去了你的存在</p>
-<p>感谢曾经所有美好的回忆 也感谢你把我放归与人海成就更好的自己</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>游戏追踪 (Game Tracker)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>2D Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>跨越时空抚慰伤痛-Father and Son</title>
-    <url>/archives/84339f66.html</url>
-    <content><![CDATA[<p>《父与子》由那不勒斯考古博物馆所发行，是一款以父子亲情为主题的冒险游戏，从那不勒斯国家考古博物馆，珍藏着人类最伟大的文物和珍宝，揭开这趟冒险之旅的序幕。</p>
-<a id="more"></a>
-
-
-
-<p>剧情的主轴发展，开始于一个与父亲素为谋面的儿子迈克尔，透过穿越现在和过去，追溯已故父亲过往的考古旅程。你将亲自发掘那不勒斯的魅力，体验庞贝城在公元79年，维苏威火山喷发前几个小时的生离诀别，及探索古埃及的日常生活。积累的过去，造就了今日。</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6guDCiNkZr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-
-
-<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>因为游戏基本上没有什么玩法，就是移动、对话和一些小交互，所以画面被有意的压缩，留下上下两处放置交互按键。每个图案都清晰的表示，点击即可交互。然而令人非常遗憾的是，虽然交互的按键不少，但真正意义上的交互却非常少，家中的咖啡机和座椅、街道的座位，虽然有交互动画，但并不能实质推进剧情内容，只是让玩家单纯的沉浸在游戏的环境中，造成一种审美的疲劳，从而使一些玩家开始厌倦这种没有意义的交互。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghyp8ctbcmj31ds0n0wib.jpg"></p>
-<h4 id="场景设计"><a href="#场景设计" class="headerlink" title="场景设计"></a>场景设计</h4><p>整个游戏的美术风格采用了厚实质朴的油画风格，辨识度非常之高。最初被吸引的原因也是和许多年前的一个游戏 《直到世界的尽头》的美术风格非常相近。这个游戏不仅是油画风格，包括交互和时间交织的设计，我觉得都是参考了那个游戏。</p>
-<p>回到游戏本身，场景应该是参照现实中的博物馆和那不勒斯的实景，很有异域风情的感觉：熙熙攘攘的街道、庄严肃穆的博物馆、摇摇欲坠的火山、月光下的告白……细腻的油画很容易让人沉浸其中，形形色色的人被简化成了颜色各异的人形模型，漫游在一座陌生的城市，与父亲之前的朋友聊天，欣赏着故时的艺术，遇到自己心仪的女孩。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghzyns7kw0j31ds0n0b2a.jpg"></p>
-<h4 id="剧情故事"><a href="#剧情故事" class="headerlink" title="剧情故事"></a>剧情故事</h4><p>故事这一方面可以说是相当的不满意了。</p>
-<p>游戏总体上分成了三条叙事线：第一条是主角拜访父亲的故居，了解父亲的工作并试图去谅解抛妻弃子的他；第二条是儿子到访博物馆时时空交织回火山爆发前的古城，作为丈夫想办法拯救自己的妻子和女儿；第三条是儿子谅解父亲后与陌生姑娘的偶遇邂逅穿插雕塑师（个人推测是当时米开朗基罗任命的波尔塔）与妻子的诀别。</p>
-<p>光看上面陈列的故事线，叙事应该是非常丰富多彩的，带给玩家的应该是令人无法释怀的感人故事，然而叙述的手法实在拙劣。第一条线的核心个人理解应该是儿子是如何体谅父亲的，然而玩家被大量没有营养的对话所充斥，与父亲的旧友聊天和对艺术的感悟并不足以让儿子理解父亲离开妻儿如此长的时间，至少我去代入的话是不会这样的。即使穿插着第二条火山爆发前古城的父亲保护了妻子和女儿，但依旧无法掩饰他作为父亲的失职。也许他是一位优秀敬业的考古学者，但一定不是一位称职的父亲。</p>
-<p>第二条线依旧非常简陋，在火山爆发前父亲在慌乱中寻找邻居家的钱来凑够船票，碰巧遇到了熟人。这里可以选择抢走他的钱或者放任他，我选择了后者。唯一给我触动的是在送完妻女后头上开始倒计时，人群四散奔跑，而我觉得会有出口或者交互地点，于是从最左侧的码头跑回了最右侧，但是什么也没有发生，倒计时仍在继续。当我尝试在从右侧向左侧跑动时，时间已经不够了，对女儿的承诺也随着火山灰的坠落一并消逝了。</p>
-<p>第三条线则显得更加突兀，主角在理解父亲后在街上偶遇了心动的女孩，在唯美的场景下说出许多我自认为故弄玄虚的话，交织着雕刻师与妻子的诀别。在重现历史的过程中插入爱情的元素感觉是很突兀的，因为对白的功底不足，情感渲染的也不是很到位。</p>
-<p>虽然标题是 “跨越时空抚慰伤痛”，但给我个人的感觉是缺少父亲“赎罪”的过程。仅仅以探究古代丰富多彩的故事的工作为借口而忽略对儿子的陪伴，身为一个父亲是不合格的，这样的理由不足以打动玩家。跨越时间的故事虽然也是和父爱相关，但一个是为了妻儿选择留下牺牲自己，而一个是为了自己所痴迷的东西忘记了作为父亲的职责。</p>
-<p><img src="http://www.fatherandsongame.com/img/gallery/01.jpg"></p>
-<h3 id="文化溯源"><a href="#文化溯源" class="headerlink" title="文化溯源"></a>文化溯源</h3><h4 id="面包师-Terentius-Neo-和他妻子的壁画"><a href="#面包师-Terentius-Neo-和他妻子的壁画" class="headerlink" title="面包师 Terentius Neo 和他妻子的壁画"></a>面包师 Terentius Neo 和他妻子的壁画</h4><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfaa7ug22mj30ww0irwij.jpg"></p>
-<p>画上面包师及其妻子均手握书写工具，这表明他们是接受了教育的，纵使经济尚可，依旧努力掩饰自己出身卑微的情况。这幅双人肖像是在该地区发现的唯一此类画作，也是展览的亮点之一。展览策划人保罗·罗伯茨（Paul Roberts）认为，这幅画从独特的视角展现了公元1世纪庞贝城的居民生活：</p>
-<blockquote>
-<p>“作品显示这位面包师和妻子是优秀的罗马人，纸卷和铁笔显示他们受过教育，有修养。更重要的是，他们似乎是地位平等的伴侣。</p>
-</blockquote>
-<br/>
-
-<blockquote>
-<p>“她站在他前面一点，这不是怯懦女性的形象。在生意上，她是掌握账本的人。”</p>
-</blockquote>
-<h4 id="法尔内塞赫拉克勒斯-Ercole-Farnese"><a href="#法尔内塞赫拉克勒斯-Ercole-Farnese" class="headerlink" title="法尔内塞赫拉克勒斯 / Ercole Farnese"></a>法尔内塞赫拉克勒斯 / Ercole Farnese</h4><p><img src="https://www.analisidellopera.it/wp-content/uploads/2019/12/Lisippo_Ercole_Farnese.jpg"></p>
-<p>古罗马的皇帝怀着对赫拉克勒斯的崇敬，在罗马的卡拉卡拉浴场修建了该雕像。罗马灭亡后直至文艺复兴，人们开始对浴场进行考古挖掘。雕像的头部和躯干相继被发现，但双腿没有找到，于是文艺复兴运动主要的资助人之一红衣主教 <strong>法尔内塞</strong> 让米开朗基罗的学生波尔塔把雕像的这几部分运往罗马的 <strong>法尔内塞宫</strong>。米开朗基罗让波尔塔为雕像雕刻了一双新腿（双腿原件不久就被找到了），而自己在宫里的庭院中建了一个特殊的建筑来展示这个3米多高的巨人，雕像也因此命名为<strong>法尔内塞赫拉克勒斯（Farnese Hercules）</strong>，现收藏于 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a>。</p>
-<p>在希腊神话中，赫拉克勒斯是最伟大的英雄，他曾以顽强的战斗精神克服重重困难，完成了天神赋予他的十二件艰险的工作，还拯救了为人类盗火的普罗米修斯。赫拉克勒斯一生频于战斗，所有功绩都可圈可点，所以作者独具匠心地选取了他休息时的情节来表现这位伟大的英雄。雕像中人体呈曲线型，左腿支撑着身体的重量，左臂倚在支柱上，右臂背到身后。这种富有变化的姿态，形成了较为轻松的气氛。整个雕像给人一种平和但蕴含着力量的感觉，表现了一种雄浑的古典风格。雕像的形体块面结实饱满，虽然作品表现的是英雄赫拉克勒斯疲劳后休息的形象，但却依然让人感到似乎可以随时爆发出强大的能量。</p>
-<h4 id="庞贝古城"><a href="#庞贝古城" class="headerlink" title="庞贝古城"></a>庞贝古城</h4><p>庞贝城的起源可以上溯至公元前6世纪，在罗马人到来前，埃特鲁里亚、希腊和萨莫奈人先后在此统治。公元前4世纪，罗马人击败萨莫奈人，庞贝和坎帕尼亚的城邦纷纷加入罗马联盟，但仍然保持着相对独立的地位，由当地政府管辖，在外交和军事等方面则需要听从罗马的指令。公元前91年，同盟战争爆发，庞贝也是参战的意大利盟邦之一。战后，庞贝人获得了罗马公民权，但也成为罗马的殖民地，官方语言变成了拉丁语，并改用罗马的政治制度，开始每年选举双执法官。</p>
-<p>公元79年，庞贝遭遇灭顶之灾，维苏威火山喷发形成的火山灰，掩埋了它与附近的赫库兰尼姆、奥普隆蒂斯和斯塔比亚等城市。小普林尼的两封书信记录了这场灾难，他当年17岁，是火山爆发的见证者。在随后的岁月里，除了掘宝人的偶尔光顾（一所大房屋的门上留下了“此屋已凿”的字样），庞贝被世人遗忘了上千年。直到1592年，人们在挖掘运河时发现了带有古代壁画的墙壁，以及刻着“庞贝市议员”字样的石碑，这座城市才陆续被发掘。从18世纪末开始，发掘进展大大加快，不断有新的重要建筑被发现，庞贝城的面貌开始逐渐展现在世人眼前。</p>
-<p>今天，庞贝的城市布局已经相当清晰。根据考古学家朱塞佩·菲奥雷利的描绘，城中的每栋建筑都有了独立的编码，即便有的还尚未被命名。庞贝位于罗马以南240公里，在古代，普通旅行者从首都前往那里可能要花费三天，而信使骑快马可能只需一天。它所在的那不勒斯湾，在罗马时代就是贵族精英的度假胜地，许多名人在那里拥有别墅，比如恺撒就曾带领大批侍从造访政治家西塞罗的宅邸。通过贸易和罗马扩张带来的财富，庞贝成为一座繁荣的城市，建有圆形竞技场、两个剧场和四个浴场。庞贝还发掘了大量精美的壁画和工艺品，不仅体现了城市的富庶，更是古罗马时期生活的重要见证。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gi1wjbinunj30sg0lcgrf.jpg"></p>
-<h3 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h3><h4 id="存档"><a href="#存档" class="headerlink" title="存档"></a>存档</h4><p>在最初的场景中，由于一开始的交互内容包含了大量的艺术方面的知识，我会先主动退出游戏去查这些艺术品。但再次进入游戏后并没有回到之前的场景，而是直接重新开始。游戏过程中也没有找到手动存档的地方，这会导致玩的时候必须要玩到游戏指定的自动存档点才可以退出游戏，这对于喜欢刨根问底不断切屏追究游戏中的历史溯源的玩家是非常影响游戏体验的，而作为和博物馆联动的宣传游戏肩负着宣传的责任，上面的硬核玩家其实才是最有可能亲自到访 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a> 的受众。</p>
-<h4 id="本地化翻译"><a href="#本地化翻译" class="headerlink" title="本地化翻译"></a>本地化翻译</h4><p>从在家里父亲给儿子的信就能感觉到，文字中那种很奇怪的感觉：「让您重新看待你的人生」、「你计画去哪吗」……这种非常糟糕的本地化翻译就像每年四六级各种层出不穷的奇怪翻译一样，是这个游戏诟病的点之一。同样的，作为 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a> 已经出海的宣传游戏，海外的玩家如果看到如此糟糕的文本，游戏的体验要打折扣，想必对博物馆本身宣传的效果会适得其反。希望开发者和博物馆双方都能注重如何本土化文本的问题。</p>
-<h4 id="对话交流"><a href="#对话交流" class="headerlink" title="对话交流"></a>对话交流</h4><p>游戏中许多场景下的对话有一定的延迟和卡顿，在点击之后不能够及时反馈。这种延迟感对于游戏体验而言是致命的，会让我感到烦躁。同样的，对话的文本显得冗余繁杂，不够凝练，而且大部分对话都是对于父亲的看法，没有实质性推动游戏剧情的有效内容。</p>
-<h4 id="故事流程"><a href="#故事流程" class="headerlink" title="故事流程"></a>故事流程</h4><p>流程有一点问题。在火山爆发前去朋友家山上别墅找钱币购买船票时，在与另一个老人相遇之后回到客厅仍能再次挖掘钱币，再次上楼老人可以重复流程。在客厅的钱只够买两张船票，你可以再次选择保留自己的良心不去抢夺还是为了自己的孩子去抢夺老人。不知道是制作者有意为之给玩家重新选择的机会还是测试的时候没有发现，我觉得是前者。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfaa68p2kzj31hc0u015n.jpg"></p>
-]]></content>
-      <categories>
-        <category>游戏追踪 (Game Tracker)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>2D Game</tag>
-        <tag>Art</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>游戏性系统</title>
     <url>/archives/a79ad39b.html</url>
     <content><![CDATA[<p>本章由马若遥老师介绍游戏玩法开发，包括了解什么是游戏玩法开发,通过具体实例来介绍如何建立愿景、划定边界、迭代、抛光。</p>
@@ -2905,6 +2969,123 @@
       </tags>
   </entry>
   <entry>
+    <title>一个关于爱与生活的童话-Florence</title>
+    <url>/archives/9b487a14.html</url>
+    <content><![CDATA[<p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
+<a id="more"></a>
+
+
+
+
+
+<p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_3803bfdcbfa1ff4515505f920ed1c7993993b9f6.600x338.jpg?t=1589331032">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256774213/movie480.webm?t=1580836892" type="video/mp4">       </video></p>
+<h3 id="关于游戏"><a href="#关于游戏" class="headerlink" title="关于游戏"></a>关于游戏</h3><p>Florence 是一场持续约 30 分钟的心动体验。故事很简短，但意义很深远。</p>
+<p>25 岁的 Florence Yeoh 对生活感到困惑。她的生活是日复一日地工作、睡觉，以及在社交媒体上打发大量时间。直到有一天，她遇到了一位名叫 Krish 的大提琴手，他改变了她眼中的整个世界。</p>
+<p>透过一系列预先设定的游戏剧本，从调情到吵架，从互助成长到逐渐分歧，玩家将体验 Florence 与 Krish 这段感情的点点滴滴。 《Florence》的灵感来源于「Slice of Life」漫画小说和网路漫画，讲述了一个熟悉、青涩而又私密的爱情故事。</p>
+<h3 id="测评"><a href="#测评" class="headerlink" title="测评"></a>测评</h3><blockquote>
+<p>“Florence is a beautiful experience that isn’t afraid to tell an ordinary story. This isn’t an action-packed, heroic tale or a somber story filled with tragedy, but it still hits some of those notes in subdued ways. Florence is happy, distressing, and admirable in its reflection of young romance, and it left me with a sense of unexpected hopefulness.”<br><em>Game Informer</em></p>
+</blockquote>
+<br/>
+
+<blockquote>
+<p>“This short collection of small moments manages to cover a wide range of powerfully relatable emotional highs and lows, beautifully capturing what it’s like to fall in love for the first time.”<br><em>The Guardian</em></p>
+</blockquote>
+<br/>
+
+<blockquote>
+<p>“The breathtaking Florence captures falling in love better than almost any game.”<br><em>Polygon</em></p>
+</blockquote>
+<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="玩法层面"><a href="#玩法层面" class="headerlink" title="玩法层面"></a>玩法层面</h4><p>游戏总体上偏向于叙事类的互动故事，玩家更注重故事本身，所以在玩法方面基本上是被弱化甚至是可以忽略。但是作为游戏，《Florence》的交互设计做的非常优秀，在后面会提到，在此不再赘述。</p>
+<h4 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h4><p>美术风格上绘图保持着非常高的质量，在同类游戏中处于中等偏上的水平。在游玩游戏的过程中，每一张图都可以当作壁纸，仿佛是在艺术长廊中欣赏一件件精美的画作。而且勾勒人物的线条非常简洁凝练，相较于写实风格更偏向卡通，但却拿捏的恰到好处。虽然游戏除了背景音乐完全没有人物配音，但美术上呈现出艺术上的张力，也能让画中的人物富有生机与活力。</p>
+<h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>交互设计也是《Florence》的一大亮点。</p>
+<p>从游戏一开始的拖拽牙刷来刷牙，到吃饭时点击食物来食用以及后面等等，交互的风格让我想到了锈湖推出的《白门》。除开游戏类型的不同，两者的交互设计非常相似，甚至《白门》的主人公一开始的洗漱和之后的吃饭几乎一模一样。在我的印象中，类似于洗漱吃饭这样的行为交互设计一般是通过按键的方式实现的，例如在饭桌前提示按下某个之前操作方式提到的交互键位，触发「洗漱」、「吃饭」、「睡觉」等，之后可能会有一段动画。回到游戏本身，作为叙事类游戏，《Florence》必然面临着游戏性不足的问题，而这种细腻独特的交互方式成功地拉长了总体的游戏时间，丰富了游戏的体验，让玩家参与其中而只不是“看漫画”。同样的，许多游戏大作采用固定交互键的方式也是节约了玩家的时间和精力，因为这些游戏本身不需要交互来给游戏“拖时间”。</p>
+<p>在交互的过程中，玩家感受到的不是僵硬地拖延游戏时间，而是情感被不断地牵动。令人印象非常深刻的是女主与男主交谈的几个片段。这个情节谈话的方式是将拼图拖拽到指定区域并拼好。双方刚开始聊天时，拼图有足足八块 ，形状也是千奇百怪。随着交谈的深入，拼图的数量也开始减少，难度开始不断降低，六块、四块、三块，到后面双方聊到火热，拼图也只剩下两块，画面中两个人的距离也在不断靠近。在接吻前，两块的拖拽甚至变成了轴对称的，只需要拖拽一块到区域内就完成了。在整个过程中，玩家对这种不断增进的感情实际上是感同身受的，情感已经借由交互带入到故事中：从刚开始聊天的羞涩，不断从脑中寻找话题，到之后双方开始互敞心扉，最后不断靠近并热切地接吻，玩家的情感也融入到情景之中。拼图的形式贯穿了整个游戏，随着剧情的发展，双方的争吵再次以拼图的形式呈现：拼图镶嵌的「角」从圆滑的「圆角」变成了锐利的「尖角」；如果拼接的速度不够快还可能输给对方；而到了夜里睡觉的时候，拼图拼出双方背对背躺着，却只能拼出两大块各自的拼图，两者因为「角」相互排斥拼不到一起。和拼图的效果相似的设计还有转动时针来表现时间的流逝、同居时放置物品和分居时收拾曾经放置的物品，都能给玩家带来很大的触动。</p>
+<p>丰富多样的交互可能会带来操作上的困难，但在整个游玩过程中，不同的交互都有相应的提示。交互方面唯一的遗憾是《Florence》作为跨平台的游戏，交互由触屏变成了鼠标的拖动，PC端的体验可能较手机端稍逊色一些。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf7df4nwl8j30go09dmyk.jpg"></p>
+<h4 id="剧情题材"><a href="#剧情题材" class="headerlink" title="剧情题材"></a>剧情题材</h4><p>故事的本身可能是《Florence》争议比较大的方面。一个女孩在日复一日麻木的生活与工作中偶然遇到自己心动的男孩，双方坠入爱河开始甜蜜幸福的生活，一起去追逐梦想。随着时间的流逝，在生活中女孩和男孩相互的不理解变成了争吵，最后不欢而散。女孩最后坚持了自己的梦想，成为了一名画家，但她依旧忘不了那个当初送给她颜料盒的那个人。</p>
+<p>有一些人认为剧情的真实性不够：女孩一见钟情，有懵懂的欣赏，有心动的害羞，有投机的聊天，这些都是校园恋爱的元素，放在前面铺垫过日复一日重复麻木单调工作的女孩身上显然是不合适的，而且之后的画画成名给人很突兀的感觉，逻辑上很难自洽：</p>
+<blockquote>
+<p>女孩幼年热爱绘画，二十来年不练，分手之后努力画了几年突然就绘画艺术家作品大卖了，我觉得真的好假啊，这种女孩是天才，是玛丽苏，是任何小说电视剧里的女主角，唯独不是普通人。一个「恋爱后分手，分手后成名」的恋爱故事，越品越感觉像是一个泡泡一样的童话”</p>
+<p> <em>Topas今天退休了吗</em></p>
+</blockquote>
+<p>在我看来，《Florence》与其说是一个故事，不如说是一个关于爱情的童话：与其在其中寻找现实中爱情的影子，不如放松下来，把它当作一本童话书或者一个绘本，静静欣赏那种单纯的美好。彼此激励一起为对方对梦想加油、无论做什么都是快乐而且有活力的、哪怕有吵架不久后还是原谅对方继续甜蜜、即使 Florence 失去了 Krish，她依旧选择了去热爱生活，去追逐自己的梦想，最后获得了成功。抛开合理性，这个剧情本身就已经超出了简单的甜甜的恋爱，立意上升到一个更高的层次：恋爱让自己变得更好。经历过这些，她明白了一个问题：我是谁？人的一生都在了解自己，女主也不例外。所以这款游戏的名字叫做“Florence”，不仅仅是说她经历了一切，更意味着，她经历的这一切，让她找回了自己。这可能才是游戏想真正表达的。</p>
+<p><img src="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_9e029df44296f3d21a61e96d0a7bea4447be2c14.600x338.jpg?t=1589331032"></p>
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>希望通过恋爱，成为更好的自己。</p>
+<blockquote>
+<p>加速拨动的时钟 诉说我们之间的改变<br>争吵时 对话框的拼图角变得越来越尖锐<br>明明拼好了的拼图却发现无法组合在一起<br>拼到一起的照片碎片 却还是一直在分离<br>…….<br>不管你怎么念念不舍把碎片拖回来 不愿意点下一页<br>但想要离开的人终究会疏远 远去 成为人生中的一名过客</p>
+<p>曾经的你使我的生活有了色彩 让我对未来有了无限的憧憬</p>
+<p>可相片里躺在我身边的你 却依旧是我亲手擦去了你的存在</p>
+<p>感谢曾经所有美好的回忆 也感谢你把我放归与人海成就更好的自己</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>游戏追踪 (Game Tracker)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>2D Game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>跨越时空抚慰伤痛-Father and Son</title>
+    <url>/archives/84339f66.html</url>
+    <content><![CDATA[<p>《父与子》由那不勒斯考古博物馆所发行，是一款以父子亲情为主题的冒险游戏，从那不勒斯国家考古博物馆，珍藏着人类最伟大的文物和珍宝，揭开这趟冒险之旅的序幕。</p>
+<a id="more"></a>
+
+
+
+<p>剧情的主轴发展，开始于一个与父亲素为谋面的儿子迈克尔，透过穿越现在和过去，追溯已故父亲过往的考古旅程。你将亲自发掘那不勒斯的魅力，体验庞贝城在公元79年，维苏威火山喷发前几个小时的生离诀别，及探索古埃及的日常生活。积累的过去，造就了今日。</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6guDCiNkZr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>因为游戏基本上没有什么玩法，就是移动、对话和一些小交互，所以画面被有意的压缩，留下上下两处放置交互按键。每个图案都清晰的表示，点击即可交互。然而令人非常遗憾的是，虽然交互的按键不少，但真正意义上的交互却非常少，家中的咖啡机和座椅、街道的座位，虽然有交互动画，但并不能实质推进剧情内容，只是让玩家单纯的沉浸在游戏的环境中，造成一种审美的疲劳，从而使一些玩家开始厌倦这种没有意义的交互。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghyp8ctbcmj31ds0n0wib.jpg"></p>
+<h4 id="场景设计"><a href="#场景设计" class="headerlink" title="场景设计"></a>场景设计</h4><p>整个游戏的美术风格采用了厚实质朴的油画风格，辨识度非常之高。最初被吸引的原因也是和许多年前的一个游戏 《直到世界的尽头》的美术风格非常相近。这个游戏不仅是油画风格，包括交互和时间交织的设计，我觉得都是参考了那个游戏。</p>
+<p>回到游戏本身，场景应该是参照现实中的博物馆和那不勒斯的实景，很有异域风情的感觉：熙熙攘攘的街道、庄严肃穆的博物馆、摇摇欲坠的火山、月光下的告白……细腻的油画很容易让人沉浸其中，形形色色的人被简化成了颜色各异的人形模型，漫游在一座陌生的城市，与父亲之前的朋友聊天，欣赏着故时的艺术，遇到自己心仪的女孩。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghzyns7kw0j31ds0n0b2a.jpg"></p>
+<h4 id="剧情故事"><a href="#剧情故事" class="headerlink" title="剧情故事"></a>剧情故事</h4><p>故事这一方面可以说是相当的不满意了。</p>
+<p>游戏总体上分成了三条叙事线：第一条是主角拜访父亲的故居，了解父亲的工作并试图去谅解抛妻弃子的他；第二条是儿子到访博物馆时时空交织回火山爆发前的古城，作为丈夫想办法拯救自己的妻子和女儿；第三条是儿子谅解父亲后与陌生姑娘的偶遇邂逅穿插雕塑师（个人推测是当时米开朗基罗任命的波尔塔）与妻子的诀别。</p>
+<p>光看上面陈列的故事线，叙事应该是非常丰富多彩的，带给玩家的应该是令人无法释怀的感人故事，然而叙述的手法实在拙劣。第一条线的核心个人理解应该是儿子是如何体谅父亲的，然而玩家被大量没有营养的对话所充斥，与父亲的旧友聊天和对艺术的感悟并不足以让儿子理解父亲离开妻儿如此长的时间，至少我去代入的话是不会这样的。即使穿插着第二条火山爆发前古城的父亲保护了妻子和女儿，但依旧无法掩饰他作为父亲的失职。也许他是一位优秀敬业的考古学者，但一定不是一位称职的父亲。</p>
+<p>第二条线依旧非常简陋，在火山爆发前父亲在慌乱中寻找邻居家的钱来凑够船票，碰巧遇到了熟人。这里可以选择抢走他的钱或者放任他，我选择了后者。唯一给我触动的是在送完妻女后头上开始倒计时，人群四散奔跑，而我觉得会有出口或者交互地点，于是从最左侧的码头跑回了最右侧，但是什么也没有发生，倒计时仍在继续。当我尝试在从右侧向左侧跑动时，时间已经不够了，对女儿的承诺也随着火山灰的坠落一并消逝了。</p>
+<p>第三条线则显得更加突兀，主角在理解父亲后在街上偶遇了心动的女孩，在唯美的场景下说出许多我自认为故弄玄虚的话，交织着雕刻师与妻子的诀别。在重现历史的过程中插入爱情的元素感觉是很突兀的，因为对白的功底不足，情感渲染的也不是很到位。</p>
+<p>虽然标题是 “跨越时空抚慰伤痛”，但给我个人的感觉是缺少父亲“赎罪”的过程。仅仅以探究古代丰富多彩的故事的工作为借口而忽略对儿子的陪伴，身为一个父亲是不合格的，这样的理由不足以打动玩家。跨越时间的故事虽然也是和父爱相关，但一个是为了妻儿选择留下牺牲自己，而一个是为了自己所痴迷的东西忘记了作为父亲的职责。</p>
+<p><img src="http://www.fatherandsongame.com/img/gallery/01.jpg"></p>
+<h3 id="文化溯源"><a href="#文化溯源" class="headerlink" title="文化溯源"></a>文化溯源</h3><h4 id="面包师-Terentius-Neo-和他妻子的壁画"><a href="#面包师-Terentius-Neo-和他妻子的壁画" class="headerlink" title="面包师 Terentius Neo 和他妻子的壁画"></a>面包师 Terentius Neo 和他妻子的壁画</h4><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfaa7ug22mj30ww0irwij.jpg"></p>
+<p>画上面包师及其妻子均手握书写工具，这表明他们是接受了教育的，纵使经济尚可，依旧努力掩饰自己出身卑微的情况。这幅双人肖像是在该地区发现的唯一此类画作，也是展览的亮点之一。展览策划人保罗·罗伯茨（Paul Roberts）认为，这幅画从独特的视角展现了公元1世纪庞贝城的居民生活：</p>
+<blockquote>
+<p>“作品显示这位面包师和妻子是优秀的罗马人，纸卷和铁笔显示他们受过教育，有修养。更重要的是，他们似乎是地位平等的伴侣。</p>
+</blockquote>
+<br/>
+
+<blockquote>
+<p>“她站在他前面一点，这不是怯懦女性的形象。在生意上，她是掌握账本的人。”</p>
+</blockquote>
+<h4 id="法尔内塞赫拉克勒斯-Ercole-Farnese"><a href="#法尔内塞赫拉克勒斯-Ercole-Farnese" class="headerlink" title="法尔内塞赫拉克勒斯 / Ercole Farnese"></a>法尔内塞赫拉克勒斯 / Ercole Farnese</h4><p><img src="https://www.analisidellopera.it/wp-content/uploads/2019/12/Lisippo_Ercole_Farnese.jpg"></p>
+<p>古罗马的皇帝怀着对赫拉克勒斯的崇敬，在罗马的卡拉卡拉浴场修建了该雕像。罗马灭亡后直至文艺复兴，人们开始对浴场进行考古挖掘。雕像的头部和躯干相继被发现，但双腿没有找到，于是文艺复兴运动主要的资助人之一红衣主教 <strong>法尔内塞</strong> 让米开朗基罗的学生波尔塔把雕像的这几部分运往罗马的 <strong>法尔内塞宫</strong>。米开朗基罗让波尔塔为雕像雕刻了一双新腿（双腿原件不久就被找到了），而自己在宫里的庭院中建了一个特殊的建筑来展示这个3米多高的巨人，雕像也因此命名为<strong>法尔内塞赫拉克勒斯（Farnese Hercules）</strong>，现收藏于 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a>。</p>
+<p>在希腊神话中，赫拉克勒斯是最伟大的英雄，他曾以顽强的战斗精神克服重重困难，完成了天神赋予他的十二件艰险的工作，还拯救了为人类盗火的普罗米修斯。赫拉克勒斯一生频于战斗，所有功绩都可圈可点，所以作者独具匠心地选取了他休息时的情节来表现这位伟大的英雄。雕像中人体呈曲线型，左腿支撑着身体的重量，左臂倚在支柱上，右臂背到身后。这种富有变化的姿态，形成了较为轻松的气氛。整个雕像给人一种平和但蕴含着力量的感觉，表现了一种雄浑的古典风格。雕像的形体块面结实饱满，虽然作品表现的是英雄赫拉克勒斯疲劳后休息的形象，但却依然让人感到似乎可以随时爆发出强大的能量。</p>
+<h4 id="庞贝古城"><a href="#庞贝古城" class="headerlink" title="庞贝古城"></a>庞贝古城</h4><p>庞贝城的起源可以上溯至公元前6世纪，在罗马人到来前，埃特鲁里亚、希腊和萨莫奈人先后在此统治。公元前4世纪，罗马人击败萨莫奈人，庞贝和坎帕尼亚的城邦纷纷加入罗马联盟，但仍然保持着相对独立的地位，由当地政府管辖，在外交和军事等方面则需要听从罗马的指令。公元前91年，同盟战争爆发，庞贝也是参战的意大利盟邦之一。战后，庞贝人获得了罗马公民权，但也成为罗马的殖民地，官方语言变成了拉丁语，并改用罗马的政治制度，开始每年选举双执法官。</p>
+<p>公元79年，庞贝遭遇灭顶之灾，维苏威火山喷发形成的火山灰，掩埋了它与附近的赫库兰尼姆、奥普隆蒂斯和斯塔比亚等城市。小普林尼的两封书信记录了这场灾难，他当年17岁，是火山爆发的见证者。在随后的岁月里，除了掘宝人的偶尔光顾（一所大房屋的门上留下了“此屋已凿”的字样），庞贝被世人遗忘了上千年。直到1592年，人们在挖掘运河时发现了带有古代壁画的墙壁，以及刻着“庞贝市议员”字样的石碑，这座城市才陆续被发掘。从18世纪末开始，发掘进展大大加快，不断有新的重要建筑被发现，庞贝城的面貌开始逐渐展现在世人眼前。</p>
+<p>今天，庞贝的城市布局已经相当清晰。根据考古学家朱塞佩·菲奥雷利的描绘，城中的每栋建筑都有了独立的编码，即便有的还尚未被命名。庞贝位于罗马以南240公里，在古代，普通旅行者从首都前往那里可能要花费三天，而信使骑快马可能只需一天。它所在的那不勒斯湾，在罗马时代就是贵族精英的度假胜地，许多名人在那里拥有别墅，比如恺撒就曾带领大批侍从造访政治家西塞罗的宅邸。通过贸易和罗马扩张带来的财富，庞贝成为一座繁荣的城市，建有圆形竞技场、两个剧场和四个浴场。庞贝还发掘了大量精美的壁画和工艺品，不仅体现了城市的富庶，更是古罗马时期生活的重要见证。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gi1wjbinunj30sg0lcgrf.jpg"></p>
+<h3 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h3><h4 id="存档"><a href="#存档" class="headerlink" title="存档"></a>存档</h4><p>在最初的场景中，由于一开始的交互内容包含了大量的艺术方面的知识，我会先主动退出游戏去查这些艺术品。但再次进入游戏后并没有回到之前的场景，而是直接重新开始。游戏过程中也没有找到手动存档的地方，这会导致玩的时候必须要玩到游戏指定的自动存档点才可以退出游戏，这对于喜欢刨根问底不断切屏追究游戏中的历史溯源的玩家是非常影响游戏体验的，而作为和博物馆联动的宣传游戏肩负着宣传的责任，上面的硬核玩家其实才是最有可能亲自到访 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a> 的受众。</p>
+<h4 id="本地化翻译"><a href="#本地化翻译" class="headerlink" title="本地化翻译"></a>本地化翻译</h4><p>从在家里父亲给儿子的信就能感觉到，文字中那种很奇怪的感觉：「让您重新看待你的人生」、「你计画去哪吗」……这种非常糟糕的本地化翻译就像每年四六级各种层出不穷的奇怪翻译一样，是这个游戏诟病的点之一。同样的，作为 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a> 已经出海的宣传游戏，海外的玩家如果看到如此糟糕的文本，游戏的体验要打折扣，想必对博物馆本身宣传的效果会适得其反。希望开发者和博物馆双方都能注重如何本土化文本的问题。</p>
+<h4 id="对话交流"><a href="#对话交流" class="headerlink" title="对话交流"></a>对话交流</h4><p>游戏中许多场景下的对话有一定的延迟和卡顿，在点击之后不能够及时反馈。这种延迟感对于游戏体验而言是致命的，会让我感到烦躁。同样的，对话的文本显得冗余繁杂，不够凝练，而且大部分对话都是对于父亲的看法，没有实质性推动游戏剧情的有效内容。</p>
+<h4 id="故事流程"><a href="#故事流程" class="headerlink" title="故事流程"></a>故事流程</h4><p>流程有一点问题。在火山爆发前去朋友家山上别墅找钱币购买船票时，在与另一个老人相遇之后回到客厅仍能再次挖掘钱币，再次上楼老人可以重复流程。在客厅的钱只够买两张船票，你可以再次选择保留自己的良心不去抢夺还是为了自己的孩子去抢夺老人。不知道是制作者有意为之给玩家重新选择的机会还是测试的时候没有发现，我觉得是前者。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfaa68p2kzj31hc0u015n.jpg"></p>
+]]></content>
+      <categories>
+        <category>游戏追踪 (Game Tracker)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>2D Game</tag>
+        <tag>Art</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>此时此刻，你充满了决心-Undertale</title>
     <url>/archives/795e3081.html</url>
     <content><![CDATA[<p>《Undertale》中，玩家作为一名掉入地下世界的孩子游历整个地下世界，最终重返地面。在此过程中你可以选择战斗，亦或是宽恕，这些选择会影响游戏后面的对话、人物、故事和结局。请做出自己的选择，开始一段属于自己的地下冒险。</p>
@@ -2996,8 +3177,8 @@
       <tags>
         <tag>Game</tag>
         <tag>RPG</tag>
-        <tag>2D Game</tag>
         <tag>INDIE</tag>
+        <tag>2D Game</tag>
       </tags>
   </entry>
   <entry>
@@ -3121,8 +3302,8 @@
       <tags>
         <tag>Celeste</tag>
         <tag>Game</tag>
-        <tag>2D Game</tag>
         <tag>INDIE</tag>
+        <tag>2D Game</tag>
       </tags>
   </entry>
   <entry>
@@ -3487,6 +3668,207 @@
       </tags>
   </entry>
   <entry>
+    <title>火箭为什么是三级</title>
+    <url>/archives/7d0497df.html</url>
+    <content><![CDATA[<p>近年来我国航天领域成绩斐然，本文将研究确定火箭最佳级数的问题，以满足正常发射卫星的需求为前提，考虑卫星的速度、火箭的推力、火箭与卫星的质量，最终确定火箭的最佳级数。</p>
+<a id="more"></a>
+
+
+
+
+
+<h3 id="问题提出"><a href="#问题提出" class="headerlink" title="问题提出"></a>问题提出</h3><h4 id="历史回顾"><a href="#历史回顾" class="headerlink" title="历史回顾"></a>历史回顾</h4><p>我国从1956年开始进行火箭的研制工作，1964年6月29日我国自行设计研制的中程火箭试飞成功，之后着手研制多级火箭，向空间技术进军。经过5年的努力，1970年4月24日，“长征一号”运载火箭诞生，首次发射“东方红一号卫星”，我国航天技术由此迈出重要的一步。</p>
+<p>现在“长征”系列火箭已经走向世界，享誉全球，在国际发射场上占有重要一席。近年来我国在火箭发射次数上赶超了欧洲，“长征二号F”已经成为全球仅有的三种轨道载人运载器之一。2016年6月25日，“长征七号”运载火箭首飞成功。</p>
+<h4 id="火箭级数"><a href="#火箭级数" class="headerlink" title="火箭级数"></a>火箭级数</h4><p>我们都看过火箭发射，火箭从地面发射时先点燃第一级推进器加速火箭的飞行；到第一级火箭的燃料燃尽时将第一级火箭丢弃，同时点燃第二级火箭；到第二级火箭燃尽时将第二级火箭丢弃，同时点燃第三级火箭，使火箭加速到一定的速度并将卫星送入轨道。火箭的三级结构被各国所采纳，那为什么都采取三级结构呢？多级火箭需要较为复杂的连接部件，制造一级火箭肯定比多级火箭要简单，那么能否用一级火箭发射卫星呢？如果一级火箭不行，那么二级火箭可以吗？为什么必须要三级火箭？如果三级火箭比二级火箭好，那四级火箭是不是就比三级火箭好，更多级火箭呢？事实上，使用三级火箭而不用一、二级火箭或更多级火箭的原因绝非偶然，而是采用数学模型、数学方法进行定量分析的结果。今天我们来建立运载火箭的数学模型，说明三级火箭在某种意义下是最优方案。</p>
+<p>运载火箭是一个十分复杂的系统，影响它飞行的因素很多：</p>
+<ul>
+<li>发动机是否足够强大</li>
+<li>火箭的结构是否有足够的强度</li>
+<li>火箭的外形是否使前进阻力减小到最低限度</li>
+<li>火箭的控制系统是否灵敏可靠</li>
+</ul>
+<p>构建数学模型必须找出主要因素，我们现在讨论的问题是：将运载火箭垂直于地面发射，最后将卫星送入绕地球旋转的轨道并使它保持在轨道上运动。要达到这个目的，卫星必须保持一定的速度从而要求<strong>运载火箭将卫星送入轨道时达到较大的速度</strong>，这个速度又是通过火箭推进器给予的。根据牛顿第二定律：$F=ma$，要获得较大的加速度需要较大的推力和较小的质量，所以必须考虑<strong>火箭推进器的推力</strong>和<strong>火箭系统的质量</strong>。</p>
+<p>归结起来，我们需要考虑以下问题：</p>
+<ul>
+<li>卫星的速度</li>
+<li>火箭的推力</li>
+<li>火箭与卫星的质量</li>
+<li>火箭的最佳级数</li>
+</ul>
+<p>至于火箭的结构、外形及控制等问题在确定火箭的最佳级数时不是主要因素，我们只假定它们能满足火箭的正常飞行需要而不加以考虑。</p>
+<h3 id="卫星速度"><a href="#卫星速度" class="headerlink" title="卫星速度"></a>卫星速度</h3><h4 id="行星运动定律"><a href="#行星运动定律" class="headerlink" title="行星运动定律"></a>行星运动定律</h4><p>首先我们来讨论卫星能够维持在轨道上运行而不落下来所必须达到的速度。这个问题的解决，依赖于牛顿万有引力定律，因为卫星在绕地球作圆周运动时，受到转动惯心力抵消了地球对卫星的引力作用，从而维持卫星在轨道上的运行，不会因为地球的引力作用掉下来。</p>
+<p>万有引力定律由牛顿在总结前人研究成果基础上得出的著名物理定律。我们知道，伽利略在比萨斜塔上做了一个实验，验证了自由落体定律、开普勒通过对火星的细致研究以及对当时已经发现的太阳系六大行星的轨道综合分析，总结出著名的行星运动三定律：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq9ot74yj30ic07ymxg.jpg"></p>
+<blockquote>
+<ul>
+<li><p><strong>开普勒第一定律</strong></p>
+<p>行星绕太阳运动的轨道是椭圆，太阳位于椭圆的一个焦点上</p>
+</li>
+<li><p><strong>开普勒第二定律</strong></p>
+<p>太阳和每个行星连接而成的矢径，随着行星的运动，在单位时间内扫过的面积恒为常数</p>
+</li>
+<li><p><strong>开普勒第三定律</strong></p>
+<p>太阳系中各行星的运行周期的平方与轨道半长轴的立方之比对各行星是相同的</p>
+</li>
+</ul>
+</blockquote>
+<h4 id="第一宇宙速度推导"><a href="#第一宇宙速度推导" class="headerlink" title="第一宇宙速度推导"></a>第一宇宙速度推导</h4><p>牛顿进一步分析了力与这些现象的关系，得出了反应不仅存在于地球与物体、太阳与行星，而广泛存在于宇宙万物之间的万有引力定律：</p>
+<blockquote>
+<p>$F=\gamma\frac{m_1m_2}{r^2}$</p>
+<p>宇宙万物之间都存在着相互之间的引力，它的作用方向在两点的连线上，它的大小与两者的质量的乘积成正比，而和两者距离的平方成反比，且比例系数是一个对万物皆相同的宇宙常数。</p>
+</blockquote>
+<p>根据万有引力定律，地球对卫星的引力可以表示为 $G=\gamma \frac{Mm}{r^2}$，$M$ 为地球质量，$m$为卫星质量，$r$ 为卫星到地球中心的距离，$\gamma$ 为万有引力常数。也就是地球对卫星的引力与地球的质量和卫星的质量的乘积成正比、与两者之间的距离平方成反比。我们再令 $k=\gamma M$，最终可以得到 $G=k\frac{m}{r^2}$，这个 $k$ 就是地球引力常数，它仅依赖于地球的质量而与卫星的质量无关。</p>
+<blockquote>
+<p>$k\frac{m}{R^2}=mg \qquad$ $g$ 为重力加速度；$mg$ 为卫星在地面上的重量；$R$ 为地球半径</p>
+<p>$k=gR^2$</p>
+</blockquote>
+<p>最后引力公式可以写成如下的形式：</p>
+<blockquote>
+<p>$G=k\frac{m}{r^2}=mg(\frac{R}{r})^2$</p>
+</blockquote>
+<p>现在再来考虑卫星的运动，假设卫星以速度 $v$ 绕地球作匀速圆周运动，那么卫星没有切向加速度，法向加速度为 $\frac{v^2}{r}$。由于卫星只受到地球的影响，由牛顿第二定律得<strong>转动惯性力抵消了地球对卫星的引力作用</strong>：</p>
+<blockquote>
+<p>$m\frac{v^2}{r}=mg(\frac{R}{r})^2$</p>
+<p>$v=R\sqrt{\frac{g}{r}}$</p>
+</blockquote>
+<p>最后这个速度就是卫星绕地球旋转不至因引力而坠落的速度。卫星是用火箭送入轨道的，所以火箭的最终速度至少也应该达到 $v$。我们近似取 $R$ 为地球半径代入公式得：</p>
+<blockquote>
+<p>$r \approx R=6371km$</p>
+<p>$v=\sqrt{Rg} \approx 7.9km/s$</p>
+</blockquote>
+<p>这就是所谓的 <strong>第一宇宙速度</strong>。</p>
+<h3 id="火箭的推力"><a href="#火箭的推力" class="headerlink" title="火箭的推力"></a>火箭的推力</h3><p>接下来讨论火箭的推力问题。首先将火箭简化成一个装满燃料的燃料仓和火箭发射器构成的一个系统。燃料在发动机中燃烧产生大量气体，从火箭的地步喷射出去，对火箭产生向前的推力：</p>
+<blockquote>
+<p><strong>反冲</strong></p>
+<p>一个物体在内力的作用下分裂成两个部分，一部分向某个方向运动；另一个部分必然向相反方向运动。</p>
+</blockquote>
+<p>在反冲运动中物体受到的反冲作用通常称为 <strong>反冲力</strong>，这个过程遵循 <strong>动量守恒定律</strong>：</p>
+<blockquote>
+<p><strong>动量守恒定律</strong></p>
+<p>系统在内力的作用下，当一部分向某一方向的动量发生变化时，剩余部分沿相反方向的动量发生同样大小的变化。</p>
+</blockquote>
+<p>反冲运动与爆炸、碰撞有相似之处，作用内力远大于外力。为了简化分析，我们忽略影响不大的重力与空气阻力，采用微元法利用动量守恒定律和质量守恒定律，考察时间微元 $(t,t+\Delta t)$ 中火箭系统的动量变化。</p>
+<blockquote>
+<p>$mv$ –&gt; $m(t)v(t)$</p>
+<p>$m(t)$ $t$时刻火箭的质量 $\qquad v(t)$ $t$时刻火箭的速度</p>
+<p>$t+\Delta t:$</p>
+<p>$m(t+\Delta t)v(t+\Delta t)$ 继续飞行的火箭系统的动量</p>
+<p>$(m(t)-m(t+\Delta t))(v(t)-u)$ $\qquad u$ 气体喷射相对于火箭的速度；$v(t)$ 火箭相对于地球的速度</p>
+</blockquote>
+<p>​    于是由动量守恒定律知：</p>
+<blockquote>
+<p>$m(t)v(t)=m(t+\Delta t)v(t+\Delta t)-(m(t+\Delta t)-m(t))(v(t)-u)$</p>
+<p>$m(t)v(t)-m(t+\Delta t)v(t+\Delta t)=-(m(t+\Delta t)-m(t))(v(t)-u)$</p>
+<p>$m(t+\Delta t)v(t+\Delta t)-m(t)v(t)=m(t+\Delta t)-m(t))(v(t)-u)$</p>
+<p>$\frac{m(t+\Delta t)v(t+\Delta t)-m(t)v(t)}{\Delta t}=\frac{m(t+\Delta t)-m(t))(v(t)-u)}{\Delta t}$</p>
+</blockquote>
+<blockquote>
+<p>$\lim_{\Delta t-&gt;0}{\frac{m(t+\Delta t)v(t+\Delta t)-m(t)v(t)}{\Delta t}}=\lim_{\Delta t-&gt;0}{\frac{m(t+\Delta t)-m(t))(v(t)-u)}{\Delta t}}$</p>
+<p>$\frac{d(m(t)v(t))}{dt}=\frac{dm(t)}{dt}(v(t)-u)$</p>
+<p>$\frac{d(m(t)v(t))}{dt}=\frac{dm(t)}{dt}v(t)-\frac{dv(t)}{dt}m(t)$</p>
+<p>$m(t)\frac{dv(t)}{dt}=-u\frac{dm(t)}{dt}$</p>
+</blockquote>
+<p>分离变量可以得到：</p>
+<blockquote>
+<p>$v(t)=v_0+u\ln\frac{m_0}{m(t)}$ $\qquad v_0$ 初始时刻火箭的速度；$m_0$ 初始时刻火箭系统的质量</p>
+</blockquote>
+<p>如果初始时火箭静止在地面上，那么 $v_0=0$ ，$v(t)=u \ln\frac{m_0}{m(t)}$</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq9pc2laj30ra12lq8z.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/76454647/Ariane-6?tracking_source=search_projects_recommended%7Crocket">Ariane 6</a> by 
+      <a href="https://www.behance.net/Tohad">Sylvain Sarrailh</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+<h3 id="火箭系统的质量"><a href="#火箭系统的质量" class="headerlink" title="火箭系统的质量"></a>火箭系统的质量</h3><p>构成火箭系统的质量有三个部分：火箭的有效载荷 $m_p$、火箭的结构质量 $m_s$、火箭所装载的燃料质量 $m_f$。显然初始时刻火箭的初始质量就是这三者之和：$m_0=m_p+m_s+m_f$</p>
+<p>虽然上一节我们推导出了任一时刻火箭速度的公式，但我们并不关心任意时刻火箭的速度到底是多少，我们实际关心的是<strong>火箭最终能达到怎样的速度</strong>，这个速度是否能保证卫星在预定轨道上绕地球旋转而不掉下来。</p>
+<blockquote>
+<p>$v(t)=u \ln\frac{m_0}{m_p+m_s}$</p>
+</blockquote>
+<p>这里分母少掉了 $m_f$ 就是燃料燃烧完毕以后的火箭系统质量。我们再引入火箭的结构比：$\lambda=\frac{m_s}{m_s+m_f}$ 用来表示结构质量在结构和燃料总质量中所占的比例，则 $1-\lambda=\frac{m_f}{m_s+m_f}$ 表示燃料质量在结构和燃料总质量中所占的比例：</p>
+<blockquote>
+<p>$m_s=\lambda(m_s+m_f)=\lambda(m_0-m_p)$</p>
+</blockquote>
+<p>最后代入火箭最终的速度公式：</p>
+<blockquote>
+<p>$v=u \ln{\frac{m_0}{m_p+m_s}}=u \ln{\frac{m_0}{\lambda m_0 + (1-\lambda)m_p}}$</p>
+</blockquote>
+<p>由此可见，对于给定气体喷射速度 $u$ ，火箭的最终速度在有效载荷质量 $m_p = 0$ 时达到最大，最大值为 $u \ln{\frac{1}{\lambda}}$ 。这是显而易见的，在气体喷射速度一定的情况下，推力也就给定了；在推力给定的情况下，质量越小，获得的加速度就越大，从而速度也就越大。</p>
+<p>也就是说，只要<strong>结构比 $\lambda$ 够小亦或是气体喷射速度 $u$ 够大，火箭就能达到任意想达到的速度</strong>。 但是很可惜，结构比和气体喷射速度不是可以任意给定的，它们是由当前技术条件所决定的。目前气体喷射速度可以达到 $u=3km/s$、结构比 可以达到$\lambda = 0.1$，代入数据可以得到一级火箭的最终速度：</p>
+<blockquote>
+<p>$u u \ln{\frac{1}{\lambda}}=3 \ln10 \approx 7(km/s)$</p>
+</blockquote>
+<p>由此可见<strong>一级火箭无法达到第一宇宙速度</strong>。</p>
+<h3 id="多级火箭的速度公式"><a href="#多级火箭的速度公式" class="headerlink" title="多级火箭的速度公式"></a>多级火箭的速度公式</h3><p>由牛顿第二定律 $F=ma$ 得在推力一定的情况下，为了获得更大的加速度，减少火箭质量是一个有效的措施。设想构建一种理想的条件：火箭在燃料耗去一部分时，用于装载这一部分的火箭结构可以同时抛弃。这种理想化的条件是很难实现的，但是这种设想启迪人们研发出多级火箭：<strong>将火箭设计成若干级，当某一级火箭的燃料燃尽时，将该级火箭的结构抛弃以此来减轻火箭系统的质量</strong>。</p>
+<blockquote>
+<p>$n$ 火箭级数 $\qquad m_i$ 第 $i$ 级火箭的结构和燃料的总质量 $\qquad \lambda$ 结构比 $\qquad m_p$ 有效载荷</p>
+<p>第 $i$ 级火箭的结构质量：$\lambda m_i$</p>
+<p>第 $i$ 级火箭的燃料质量：$(1-\lambda)m_i$</p>
+<p>火箭的初始质量：$m_0=m_p+m_1+m_2+…+m_n$</p>
+</blockquote>
+<p>当第一级火箭燃料消耗完毕时，火箭速度公式为：$v=v_0+u\ln{\frac{m_0}{m(t)}}$ ，那么火箭的质量为$m_p+\lambda m_1+m_2+…+m_n$</p>
+<blockquote>
+<p>火箭的速度：</p>
+<p>$v_1=u\ln{\frac{m_0}{m_p+\lambda m_1+m_2+…+m_n}}$</p>
+</blockquote>
+<p>此时 $v_1$就是第二级火箭点燃时的初速度，而火箭此时没有了第一级火箭的燃料质量，质量为 $m_p+m_2+m_3+…+m_n$……以此类推，第 $n$ 级火箭的速度为：</p>
+<blockquote>
+<p>$v_n=v_{n-1}+u \ln{\frac{m_p+m_n}{m_p+\lambda m_n}}$</p>
+</blockquote>
+<h3 id="三级火箭的最优性"><a href="#三级火箭的最优性" class="headerlink" title="三级火箭的最优性"></a>三级火箭的最优性</h3><p>由于实际中我们还需要考虑成本问题，所以现在在一切已知的前提下考虑如何分配各级火箭的质量使火箭的初始质量 $m_0$ 达到最小？</p>
+<blockquote>
+<p>已知 $v,u,\lambda,m_p$ ，在约束条件<br>$$<br>m_0=m_p+m_1+m_2+…+m_n \<br>\ln(\frac{m_0}{m_p+\lambda m_1+m_2+…+m_n}\cdot \frac{m_p+m_2+…+m_n}{m_p+\lambda m_2+…+m_n}\cdot…\cdot \frac{m_p+m_n}{m_p+\lambda m_n})=\frac{v}{u}<br>$$<br>下，球 $m_0$ 的最小值或者 $\frac{m_0}{m_p}$ 的最小值</p>
+</blockquote>
+<p>令 $a_i=\frac{m_p+m_i+…+m_n}{m_p+m_{i+1}+…+m_n}$，在约束条件 $\ln{\frac{a_1}{1+\lambda(a_1-1)} \cdot \frac{a_2}{1+\lambda(a_2-1)}…\frac{a_n}{1+\lambda(a_n-1)}}=\frac{v}{u}$ 下，求 $a_1a_2…a_n$ 的最小值。</p>
+<p>再令 $x_i=\frac{1+\lambda(a_i)+1}{a_i}$ ，在约束条件 $x_1x_2…x_n=e^{-\frac{v}{u}}$ ，下，求 $(x_1-\lambda)(x_2-\lambda)…(x_n-\lambda)$ 的最大值</p>
+<blockquote>
+<p>命题：设 $\lambda$ 与 $C$ 为给定数值，且 $C \ge \lambda^n$，则 $y=\Pi^n_{i=1}(x_i-\lambda)$</p>
+<p>满足约束条件 $\Pi^n_{i=1}x_i=C$ 和 $x_i \ge \lambda$ 的最大值在 $x_i=C^{\frac{1}{n}}$ 时达到，且最大值为 $y_{max}=(C^{\frac{1}{n}}-\lambda)$</p>
+</blockquote>
+<p>当 $x_i=e^{-\frac{v}{nu}}$ 是， $(x_1-\lambda)(x_2-\lambda)…(x_n-\lambda)$ 达到最大值 $(e^{-\frac{v}{nu}}-\lambda)^n$，则质量比 $\frac{m_0}{m_p}$ 的最小值为 $\frac{m_0}{m_p}=(\frac{1-\lambda}{e^{-\frac{v}{nu}}-\lambda})^n$，称为<strong>最优质量比</strong>。</p>
+<p>多级火箭的最优质量比随火箭级数 $n$ 的增大而单调递减：</p>
+<table>
+<thead>
+<tr>
+<th align="center">$n$</th>
+<th align="center">1</th>
+<th align="center">2</th>
+<th align="center">3</th>
+<th align="center">4</th>
+<th align="center">5</th>
+<th align="center">…</th>
+<th align="center">$\infty$</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">$\frac{m_0}{m_p}$</td>
+<td align="center">–</td>
+<td align="center">149</td>
+<td align="center"><strong>77</strong></td>
+<td align="center">65</td>
+<td align="center">60</td>
+<td align="center"></td>
+<td align="center">49</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>数学建模(Mathematical Modeling)</category>
+      </categories>
+      <tags>
+        <tag>Math</tag>
+        <tag>Mooc</tag>
+        <tag>Mathematical Modeling</tag>
+        <tag>Rocket</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>手机是怎么知道你的位置的</title>
     <url>/archives/a03a749.html</url>
     <content><![CDATA[<p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
@@ -3731,207 +4113,6 @@
         <tag>Art</tag>
         <tag>Pixel</tag>
         <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>火箭为什么是三级</title>
-    <url>/archives/7d0497df.html</url>
-    <content><![CDATA[<p>近年来我国航天领域成绩斐然，本文将研究确定火箭最佳级数的问题，以满足正常发射卫星的需求为前提，考虑卫星的速度、火箭的推力、火箭与卫星的质量，最终确定火箭的最佳级数。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="问题提出"><a href="#问题提出" class="headerlink" title="问题提出"></a>问题提出</h3><h4 id="历史回顾"><a href="#历史回顾" class="headerlink" title="历史回顾"></a>历史回顾</h4><p>我国从1956年开始进行火箭的研制工作，1964年6月29日我国自行设计研制的中程火箭试飞成功，之后着手研制多级火箭，向空间技术进军。经过5年的努力，1970年4月24日，“长征一号”运载火箭诞生，首次发射“东方红一号卫星”，我国航天技术由此迈出重要的一步。</p>
-<p>现在“长征”系列火箭已经走向世界，享誉全球，在国际发射场上占有重要一席。近年来我国在火箭发射次数上赶超了欧洲，“长征二号F”已经成为全球仅有的三种轨道载人运载器之一。2016年6月25日，“长征七号”运载火箭首飞成功。</p>
-<h4 id="火箭级数"><a href="#火箭级数" class="headerlink" title="火箭级数"></a>火箭级数</h4><p>我们都看过火箭发射，火箭从地面发射时先点燃第一级推进器加速火箭的飞行；到第一级火箭的燃料燃尽时将第一级火箭丢弃，同时点燃第二级火箭；到第二级火箭燃尽时将第二级火箭丢弃，同时点燃第三级火箭，使火箭加速到一定的速度并将卫星送入轨道。火箭的三级结构被各国所采纳，那为什么都采取三级结构呢？多级火箭需要较为复杂的连接部件，制造一级火箭肯定比多级火箭要简单，那么能否用一级火箭发射卫星呢？如果一级火箭不行，那么二级火箭可以吗？为什么必须要三级火箭？如果三级火箭比二级火箭好，那四级火箭是不是就比三级火箭好，更多级火箭呢？事实上，使用三级火箭而不用一、二级火箭或更多级火箭的原因绝非偶然，而是采用数学模型、数学方法进行定量分析的结果。今天我们来建立运载火箭的数学模型，说明三级火箭在某种意义下是最优方案。</p>
-<p>运载火箭是一个十分复杂的系统，影响它飞行的因素很多：</p>
-<ul>
-<li>发动机是否足够强大</li>
-<li>火箭的结构是否有足够的强度</li>
-<li>火箭的外形是否使前进阻力减小到最低限度</li>
-<li>火箭的控制系统是否灵敏可靠</li>
-</ul>
-<p>构建数学模型必须找出主要因素，我们现在讨论的问题是：将运载火箭垂直于地面发射，最后将卫星送入绕地球旋转的轨道并使它保持在轨道上运动。要达到这个目的，卫星必须保持一定的速度从而要求<strong>运载火箭将卫星送入轨道时达到较大的速度</strong>，这个速度又是通过火箭推进器给予的。根据牛顿第二定律：$F=ma$，要获得较大的加速度需要较大的推力和较小的质量，所以必须考虑<strong>火箭推进器的推力</strong>和<strong>火箭系统的质量</strong>。</p>
-<p>归结起来，我们需要考虑以下问题：</p>
-<ul>
-<li>卫星的速度</li>
-<li>火箭的推力</li>
-<li>火箭与卫星的质量</li>
-<li>火箭的最佳级数</li>
-</ul>
-<p>至于火箭的结构、外形及控制等问题在确定火箭的最佳级数时不是主要因素，我们只假定它们能满足火箭的正常飞行需要而不加以考虑。</p>
-<h3 id="卫星速度"><a href="#卫星速度" class="headerlink" title="卫星速度"></a>卫星速度</h3><h4 id="行星运动定律"><a href="#行星运动定律" class="headerlink" title="行星运动定律"></a>行星运动定律</h4><p>首先我们来讨论卫星能够维持在轨道上运行而不落下来所必须达到的速度。这个问题的解决，依赖于牛顿万有引力定律，因为卫星在绕地球作圆周运动时，受到转动惯心力抵消了地球对卫星的引力作用，从而维持卫星在轨道上的运行，不会因为地球的引力作用掉下来。</p>
-<p>万有引力定律由牛顿在总结前人研究成果基础上得出的著名物理定律。我们知道，伽利略在比萨斜塔上做了一个实验，验证了自由落体定律、开普勒通过对火星的细致研究以及对当时已经发现的太阳系六大行星的轨道综合分析，总结出著名的行星运动三定律：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq9ot74yj30ic07ymxg.jpg"></p>
-<blockquote>
-<ul>
-<li><p><strong>开普勒第一定律</strong></p>
-<p>行星绕太阳运动的轨道是椭圆，太阳位于椭圆的一个焦点上</p>
-</li>
-<li><p><strong>开普勒第二定律</strong></p>
-<p>太阳和每个行星连接而成的矢径，随着行星的运动，在单位时间内扫过的面积恒为常数</p>
-</li>
-<li><p><strong>开普勒第三定律</strong></p>
-<p>太阳系中各行星的运行周期的平方与轨道半长轴的立方之比对各行星是相同的</p>
-</li>
-</ul>
-</blockquote>
-<h4 id="第一宇宙速度推导"><a href="#第一宇宙速度推导" class="headerlink" title="第一宇宙速度推导"></a>第一宇宙速度推导</h4><p>牛顿进一步分析了力与这些现象的关系，得出了反应不仅存在于地球与物体、太阳与行星，而广泛存在于宇宙万物之间的万有引力定律：</p>
-<blockquote>
-<p>$F=\gamma\frac{m_1m_2}{r^2}$</p>
-<p>宇宙万物之间都存在着相互之间的引力，它的作用方向在两点的连线上，它的大小与两者的质量的乘积成正比，而和两者距离的平方成反比，且比例系数是一个对万物皆相同的宇宙常数。</p>
-</blockquote>
-<p>根据万有引力定律，地球对卫星的引力可以表示为 $G=\gamma \frac{Mm}{r^2}$，$M$ 为地球质量，$m$为卫星质量，$r$ 为卫星到地球中心的距离，$\gamma$ 为万有引力常数。也就是地球对卫星的引力与地球的质量和卫星的质量的乘积成正比、与两者之间的距离平方成反比。我们再令 $k=\gamma M$，最终可以得到 $G=k\frac{m}{r^2}$，这个 $k$ 就是地球引力常数，它仅依赖于地球的质量而与卫星的质量无关。</p>
-<blockquote>
-<p>$k\frac{m}{R^2}=mg \qquad$ $g$ 为重力加速度；$mg$ 为卫星在地面上的重量；$R$ 为地球半径</p>
-<p>$k=gR^2$</p>
-</blockquote>
-<p>最后引力公式可以写成如下的形式：</p>
-<blockquote>
-<p>$G=k\frac{m}{r^2}=mg(\frac{R}{r})^2$</p>
-</blockquote>
-<p>现在再来考虑卫星的运动，假设卫星以速度 $v$ 绕地球作匀速圆周运动，那么卫星没有切向加速度，法向加速度为 $\frac{v^2}{r}$。由于卫星只受到地球的影响，由牛顿第二定律得<strong>转动惯性力抵消了地球对卫星的引力作用</strong>：</p>
-<blockquote>
-<p>$m\frac{v^2}{r}=mg(\frac{R}{r})^2$</p>
-<p>$v=R\sqrt{\frac{g}{r}}$</p>
-</blockquote>
-<p>最后这个速度就是卫星绕地球旋转不至因引力而坠落的速度。卫星是用火箭送入轨道的，所以火箭的最终速度至少也应该达到 $v$。我们近似取 $R$ 为地球半径代入公式得：</p>
-<blockquote>
-<p>$r \approx R=6371km$</p>
-<p>$v=\sqrt{Rg} \approx 7.9km/s$</p>
-</blockquote>
-<p>这就是所谓的 <strong>第一宇宙速度</strong>。</p>
-<h3 id="火箭的推力"><a href="#火箭的推力" class="headerlink" title="火箭的推力"></a>火箭的推力</h3><p>接下来讨论火箭的推力问题。首先将火箭简化成一个装满燃料的燃料仓和火箭发射器构成的一个系统。燃料在发动机中燃烧产生大量气体，从火箭的地步喷射出去，对火箭产生向前的推力：</p>
-<blockquote>
-<p><strong>反冲</strong></p>
-<p>一个物体在内力的作用下分裂成两个部分，一部分向某个方向运动；另一个部分必然向相反方向运动。</p>
-</blockquote>
-<p>在反冲运动中物体受到的反冲作用通常称为 <strong>反冲力</strong>，这个过程遵循 <strong>动量守恒定律</strong>：</p>
-<blockquote>
-<p><strong>动量守恒定律</strong></p>
-<p>系统在内力的作用下，当一部分向某一方向的动量发生变化时，剩余部分沿相反方向的动量发生同样大小的变化。</p>
-</blockquote>
-<p>反冲运动与爆炸、碰撞有相似之处，作用内力远大于外力。为了简化分析，我们忽略影响不大的重力与空气阻力，采用微元法利用动量守恒定律和质量守恒定律，考察时间微元 $(t,t+\Delta t)$ 中火箭系统的动量变化。</p>
-<blockquote>
-<p>$mv$ –&gt; $m(t)v(t)$</p>
-<p>$m(t)$ $t$时刻火箭的质量 $\qquad v(t)$ $t$时刻火箭的速度</p>
-<p>$t+\Delta t:$</p>
-<p>$m(t+\Delta t)v(t+\Delta t)$ 继续飞行的火箭系统的动量</p>
-<p>$(m(t)-m(t+\Delta t))(v(t)-u)$ $\qquad u$ 气体喷射相对于火箭的速度；$v(t)$ 火箭相对于地球的速度</p>
-</blockquote>
-<p>​    于是由动量守恒定律知：</p>
-<blockquote>
-<p>$m(t)v(t)=m(t+\Delta t)v(t+\Delta t)-(m(t+\Delta t)-m(t))(v(t)-u)$</p>
-<p>$m(t)v(t)-m(t+\Delta t)v(t+\Delta t)=-(m(t+\Delta t)-m(t))(v(t)-u)$</p>
-<p>$m(t+\Delta t)v(t+\Delta t)-m(t)v(t)=m(t+\Delta t)-m(t))(v(t)-u)$</p>
-<p>$\frac{m(t+\Delta t)v(t+\Delta t)-m(t)v(t)}{\Delta t}=\frac{m(t+\Delta t)-m(t))(v(t)-u)}{\Delta t}$</p>
-</blockquote>
-<blockquote>
-<p>$\lim_{\Delta t-&gt;0}{\frac{m(t+\Delta t)v(t+\Delta t)-m(t)v(t)}{\Delta t}}=\lim_{\Delta t-&gt;0}{\frac{m(t+\Delta t)-m(t))(v(t)-u)}{\Delta t}}$</p>
-<p>$\frac{d(m(t)v(t))}{dt}=\frac{dm(t)}{dt}(v(t)-u)$</p>
-<p>$\frac{d(m(t)v(t))}{dt}=\frac{dm(t)}{dt}v(t)-\frac{dv(t)}{dt}m(t)$</p>
-<p>$m(t)\frac{dv(t)}{dt}=-u\frac{dm(t)}{dt}$</p>
-</blockquote>
-<p>分离变量可以得到：</p>
-<blockquote>
-<p>$v(t)=v_0+u\ln\frac{m_0}{m(t)}$ $\qquad v_0$ 初始时刻火箭的速度；$m_0$ 初始时刻火箭系统的质量</p>
-</blockquote>
-<p>如果初始时火箭静止在地面上，那么 $v_0=0$ ，$v(t)=u \ln\frac{m_0}{m(t)}$</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glbq9pc2laj30ra12lq8z.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/76454647/Ariane-6?tracking_source=search_projects_recommended%7Crocket">Ariane 6</a> by 
-      <a href="https://www.behance.net/Tohad">Sylvain Sarrailh</a>
-    </i>
-  </font>
-</div>
-
-
-
-
-<h3 id="火箭系统的质量"><a href="#火箭系统的质量" class="headerlink" title="火箭系统的质量"></a>火箭系统的质量</h3><p>构成火箭系统的质量有三个部分：火箭的有效载荷 $m_p$、火箭的结构质量 $m_s$、火箭所装载的燃料质量 $m_f$。显然初始时刻火箭的初始质量就是这三者之和：$m_0=m_p+m_s+m_f$</p>
-<p>虽然上一节我们推导出了任一时刻火箭速度的公式，但我们并不关心任意时刻火箭的速度到底是多少，我们实际关心的是<strong>火箭最终能达到怎样的速度</strong>，这个速度是否能保证卫星在预定轨道上绕地球旋转而不掉下来。</p>
-<blockquote>
-<p>$v(t)=u \ln\frac{m_0}{m_p+m_s}$</p>
-</blockquote>
-<p>这里分母少掉了 $m_f$ 就是燃料燃烧完毕以后的火箭系统质量。我们再引入火箭的结构比：$\lambda=\frac{m_s}{m_s+m_f}$ 用来表示结构质量在结构和燃料总质量中所占的比例，则 $1-\lambda=\frac{m_f}{m_s+m_f}$ 表示燃料质量在结构和燃料总质量中所占的比例：</p>
-<blockquote>
-<p>$m_s=\lambda(m_s+m_f)=\lambda(m_0-m_p)$</p>
-</blockquote>
-<p>最后代入火箭最终的速度公式：</p>
-<blockquote>
-<p>$v=u \ln{\frac{m_0}{m_p+m_s}}=u \ln{\frac{m_0}{\lambda m_0 + (1-\lambda)m_p}}$</p>
-</blockquote>
-<p>由此可见，对于给定气体喷射速度 $u$ ，火箭的最终速度在有效载荷质量 $m_p = 0$ 时达到最大，最大值为 $u \ln{\frac{1}{\lambda}}$ 。这是显而易见的，在气体喷射速度一定的情况下，推力也就给定了；在推力给定的情况下，质量越小，获得的加速度就越大，从而速度也就越大。</p>
-<p>也就是说，只要<strong>结构比 $\lambda$ 够小亦或是气体喷射速度 $u$ 够大，火箭就能达到任意想达到的速度</strong>。 但是很可惜，结构比和气体喷射速度不是可以任意给定的，它们是由当前技术条件所决定的。目前气体喷射速度可以达到 $u=3km/s$、结构比 可以达到$\lambda = 0.1$，代入数据可以得到一级火箭的最终速度：</p>
-<blockquote>
-<p>$u u \ln{\frac{1}{\lambda}}=3 \ln10 \approx 7(km/s)$</p>
-</blockquote>
-<p>由此可见<strong>一级火箭无法达到第一宇宙速度</strong>。</p>
-<h3 id="多级火箭的速度公式"><a href="#多级火箭的速度公式" class="headerlink" title="多级火箭的速度公式"></a>多级火箭的速度公式</h3><p>由牛顿第二定律 $F=ma$ 得在推力一定的情况下，为了获得更大的加速度，减少火箭质量是一个有效的措施。设想构建一种理想的条件：火箭在燃料耗去一部分时，用于装载这一部分的火箭结构可以同时抛弃。这种理想化的条件是很难实现的，但是这种设想启迪人们研发出多级火箭：<strong>将火箭设计成若干级，当某一级火箭的燃料燃尽时，将该级火箭的结构抛弃以此来减轻火箭系统的质量</strong>。</p>
-<blockquote>
-<p>$n$ 火箭级数 $\qquad m_i$ 第 $i$ 级火箭的结构和燃料的总质量 $\qquad \lambda$ 结构比 $\qquad m_p$ 有效载荷</p>
-<p>第 $i$ 级火箭的结构质量：$\lambda m_i$</p>
-<p>第 $i$ 级火箭的燃料质量：$(1-\lambda)m_i$</p>
-<p>火箭的初始质量：$m_0=m_p+m_1+m_2+…+m_n$</p>
-</blockquote>
-<p>当第一级火箭燃料消耗完毕时，火箭速度公式为：$v=v_0+u\ln{\frac{m_0}{m(t)}}$ ，那么火箭的质量为$m_p+\lambda m_1+m_2+…+m_n$</p>
-<blockquote>
-<p>火箭的速度：</p>
-<p>$v_1=u\ln{\frac{m_0}{m_p+\lambda m_1+m_2+…+m_n}}$</p>
-</blockquote>
-<p>此时 $v_1$就是第二级火箭点燃时的初速度，而火箭此时没有了第一级火箭的燃料质量，质量为 $m_p+m_2+m_3+…+m_n$……以此类推，第 $n$ 级火箭的速度为：</p>
-<blockquote>
-<p>$v_n=v_{n-1}+u \ln{\frac{m_p+m_n}{m_p+\lambda m_n}}$</p>
-</blockquote>
-<h3 id="三级火箭的最优性"><a href="#三级火箭的最优性" class="headerlink" title="三级火箭的最优性"></a>三级火箭的最优性</h3><p>由于实际中我们还需要考虑成本问题，所以现在在一切已知的前提下考虑如何分配各级火箭的质量使火箭的初始质量 $m_0$ 达到最小？</p>
-<blockquote>
-<p>已知 $v,u,\lambda,m_p$ ，在约束条件<br>$$<br>m_0=m_p+m_1+m_2+…+m_n \<br>\ln(\frac{m_0}{m_p+\lambda m_1+m_2+…+m_n}\cdot \frac{m_p+m_2+…+m_n}{m_p+\lambda m_2+…+m_n}\cdot…\cdot \frac{m_p+m_n}{m_p+\lambda m_n})=\frac{v}{u}<br>$$<br>下，球 $m_0$ 的最小值或者 $\frac{m_0}{m_p}$ 的最小值</p>
-</blockquote>
-<p>令 $a_i=\frac{m_p+m_i+…+m_n}{m_p+m_{i+1}+…+m_n}$，在约束条件 $\ln{\frac{a_1}{1+\lambda(a_1-1)} \cdot \frac{a_2}{1+\lambda(a_2-1)}…\frac{a_n}{1+\lambda(a_n-1)}}=\frac{v}{u}$ 下，求 $a_1a_2…a_n$ 的最小值。</p>
-<p>再令 $x_i=\frac{1+\lambda(a_i)+1}{a_i}$ ，在约束条件 $x_1x_2…x_n=e^{-\frac{v}{u}}$ ，下，求 $(x_1-\lambda)(x_2-\lambda)…(x_n-\lambda)$ 的最大值</p>
-<blockquote>
-<p>命题：设 $\lambda$ 与 $C$ 为给定数值，且 $C \ge \lambda^n$，则 $y=\Pi^n_{i=1}(x_i-\lambda)$</p>
-<p>满足约束条件 $\Pi^n_{i=1}x_i=C$ 和 $x_i \ge \lambda$ 的最大值在 $x_i=C^{\frac{1}{n}}$ 时达到，且最大值为 $y_{max}=(C^{\frac{1}{n}}-\lambda)$</p>
-</blockquote>
-<p>当 $x_i=e^{-\frac{v}{nu}}$ 是， $(x_1-\lambda)(x_2-\lambda)…(x_n-\lambda)$ 达到最大值 $(e^{-\frac{v}{nu}}-\lambda)^n$，则质量比 $\frac{m_0}{m_p}$ 的最小值为 $\frac{m_0}{m_p}=(\frac{1-\lambda}{e^{-\frac{v}{nu}}-\lambda})^n$，称为<strong>最优质量比</strong>。</p>
-<p>多级火箭的最优质量比随火箭级数 $n$ 的增大而单调递减：</p>
-<table>
-<thead>
-<tr>
-<th align="center">$n$</th>
-<th align="center">1</th>
-<th align="center">2</th>
-<th align="center">3</th>
-<th align="center">4</th>
-<th align="center">5</th>
-<th align="center">…</th>
-<th align="center">$\infty$</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">$\frac{m_0}{m_p}$</td>
-<td align="center">–</td>
-<td align="center">149</td>
-<td align="center"><strong>77</strong></td>
-<td align="center">65</td>
-<td align="center">60</td>
-<td align="center"></td>
-<td align="center">49</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>数学建模(Mathematical Modeling)</category>
-      </categories>
-      <tags>
-        <tag>Math</tag>
-        <tag>Mooc</tag>
-        <tag>Mathematical Modeling</tag>
-        <tag>Rocket</tag>
       </tags>
   </entry>
   <entry>
@@ -4299,183 +4480,6 @@
       </tags>
   </entry>
   <entry>
-    <title>分析聚焦感情而设计的游戏品类</title>
-    <url>/archives/86c9b0ee.html</url>
-    <content><![CDATA[<p>本文介绍聚焦情感而诞生的玩法品类，并以女性向游戏为例进行简要分析，提取出特征和关键要素；之后是关于聚焦情感而产生的设计方向–独立游戏，提取出独立游戏的关键要素。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>Kinhu</strong></p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li>HR专业，一名普通的游戏策划</li>
-<li>大三完成第一款独立游戏从而入行</li>
-<li>至今完成20多款游戏作品</li>
-<li>担任过 程序、美术、音乐、策划</li>
-<li>商业游戏界十多年工作经验</li>
-</ul>
-<h3 id="聚焦感情而诞生的玩法品类-女性向游戏"><a href="#聚焦感情而诞生的玩法品类-女性向游戏" class="headerlink" title="聚焦感情而诞生的玩法品类 - 女性向游戏"></a>聚焦感情而诞生的玩法品类 - 女性向游戏</h3><h4 id="一段有趣的对话"><a href="#一段有趣的对话" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
-<ul>
-<li>宫斗卡牌游戏</li>
-<li>策略性 玩法</li>
-<li>好多帅哥 很多漂亮的衣服</li>
-</ul>
-</blockquote>
-<h4 id="女性向游戏"><a href="#女性向游戏" class="headerlink" title="女性向游戏"></a>女性向游戏</h4><ul>
-<li>以女性<strong>精神诉求</strong>为<strong>出发点</strong>进行设计</li>
-<li>以女性<strong>基础需求</strong>作为<strong>核心</strong>进行设计</li>
-</ul>
-<h3 id="该品类的特征和关键要素-共性三要素"><a href="#该品类的特征和关键要素-共性三要素" class="headerlink" title="该品类的特征和关键要素 - 共性三要素"></a>该品类的特征和关键要素 - 共性三要素</h3><h4 id="共性产品提取出的女性关注焦点三要素"><a href="#共性产品提取出的女性关注焦点三要素" class="headerlink" title="共性产品提取出的女性关注焦点三要素"></a>共性产品提取出的女性关注焦点三要素</h4><ul>
-<li>恋爱</li>
-<li>时尚</li>
-<li>装扮</li>
-</ul>
-<h4 id="表现永远是女性向的第一门槛"><a href="#表现永远是女性向的第一门槛" class="headerlink" title="表现永远是女性向的第一门槛"></a>表现永远是女性向的第一门槛</h4><ul>
-<li><p>符合本国大众女性用户审美，排斥情绪最低</p>
-</li>
-<li><p>女性才愿意通过表现看到焦点</p>
-</li>
-</ul>
-<ul>
-<li><p>如果有合格的表现和焦点就能成功，那么这些游戏为何成功？</p>
-<p>女性的心理特点，才是女性向市场存在的核心</p>
-</li>
-</ul>
-<h5 id="女性心理特点抽取出三要素"><a href="#女性心理特点抽取出三要素" class="headerlink" title="女性心理特点抽取出三要素"></a>女性心理特点抽取出三要素</h5><h6 id="群体的归属"><a href="#群体的归属" class="headerlink" title="群体的归属"></a>群体的归属</h6><ul>
-<li>获得群体</li>
-<li>可融入的群体</li>
-<li>值得依赖的群体</li>
-<li>有爱的群体</li>
-</ul>
-<h6 id="纤细的情感"><a href="#纤细的情感" class="headerlink" title="纤细的情感"></a>纤细的情感</h6><ul>
-<li>细腻</li>
-<li>丰富</li>
-<li>多样</li>
-<li>真实</li>
-</ul>
-<h6 id="虚荣的攀比"><a href="#虚荣的攀比" class="headerlink" title="虚荣的攀比"></a>虚荣的攀比</h6><ul>
-<li>独占欲：限定 唯一</li>
-<li>精神上的击败：多 贵 好</li>
-<li>高忠诚度和对外洁癖</li>
-</ul>
-<p>女性的心理特点受到生理和社会观念等长期影响</p>
-<h4 id="聚焦女性情感，才能准确掌握女性向游戏的核心"><a href="#聚焦女性情感，才能准确掌握女性向游戏的核心" class="headerlink" title="聚焦女性情感，才能准确掌握女性向游戏的核心"></a>聚焦女性情感，才能准确掌握女性向游戏的核心</h4><h5 id="共性元素"><a href="#共性元素" class="headerlink" title="共性元素"></a>共性元素</h5><ul>
-<li>恋爱</li>
-<li>时尚 流行 娱乐</li>
-<li>美食</li>
-</ul>
-<h5 id="共性表现"><a href="#共性表现" class="headerlink" title="共性表现"></a>共性表现</h5><ul>
-<li>本国的大众审美</li>
-<li>拒绝另类</li>
-</ul>
-<ul>
-<li><p>共性体验</p>
-<p>同品类游戏中，操作体验轻度，内容体验重度，受到女性价值观认可度高</p>
-</li>
-</ul>
-<h3 id="聚焦感情而产生的设计方向-独立游戏"><a href="#聚焦感情而产生的设计方向-独立游戏" class="headerlink" title="聚焦感情而产生的设计方向 - 独立游戏"></a>聚焦感情而产生的设计方向 - 独立游戏</h3><h4 id="一段有趣的对话-1"><a href="#一段有趣的对话-1" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
-<ul>
-<li>我有一个不错的创意</li>
-<li>我看到的这些游戏里面有许多创意</li>
-<li>所以独立游戏等于创意，我应该可以作出不错的独立游戏</li>
-</ul>
-</blockquote>
-<h4 id="传统定义独立游戏"><a href="#传统定义独立游戏" class="headerlink" title="传统定义独立游戏"></a>传统定义独立游戏</h4><h5 id="不受商业投资的影响"><a href="#不受商业投资的影响" class="headerlink" title="不受商业投资的影响"></a>不受商业投资的影响</h5><ul>
-<li>自由创作 随性所欲</li>
-<li>没有Deadline KPI的项目</li>
-<li>远离你死我活的竞争</li>
-<li>自己做自己的老板</li>
-</ul>
-<h5 id="小团队"><a href="#小团队" class="headerlink" title="小团队"></a>小团队</h5><ul>
-<li>不超过10人的合作规模</li>
-<li>参与者之间是合作伙伴关系而非上下级</li>
-</ul>
-<h5 id="身兼数职"><a href="#身兼数职" class="headerlink" title="身兼数职"></a>身兼数职</h5><p>因为开发量和开发人数不成正比结果导致的</p>
-<h5 id="拥有独立精神的游戏"><a href="#拥有独立精神的游戏" class="headerlink" title="拥有独立精神的游戏"></a>拥有独立精神的游戏</h5><blockquote>
-<p><strong><em>Make Game For Fun</em></strong> </p>
-<p><strong><em>Fun Can Make Money</em></strong></p>
-<p><strong><em>独立之精神，自由之思想</em></strong></p>
-</blockquote>
-<p>在自由创作的情感诉求下所诞生的作品，不受固有玩法和类型的约束</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《我的战争》《万物》</strong> </li>
-</ul>
-</blockquote>
-<p>焦点是如何更好的传达设计师的情感诉求</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《replica》 《史丹利的寓言》</strong></li>
-</ul>
-</blockquote>
-<h3 id="如何利用聚焦的设计来脱颖而出-独立游戏的关键要素"><a href="#如何利用聚焦的设计来脱颖而出-独立游戏的关键要素" class="headerlink" title="如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素"></a>如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素</h3><h4 id="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"><a href="#残酷现实下迫使独立游戏在情感诉求上的表现更为张扬" class="headerlink" title="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"></a>残酷现实下迫使独立游戏在情感诉求上的表现更为张扬</h4><ul>
-<li><p>有限的宣传渠道</p>
-</li>
-<li><p>发行平台过于集中</p>
-</li>
-<li><p>成本控制的经验缺失</p>
-</li>
-<li><p>5%的完成率 1%的成功率</p>
-</li>
-</ul>
-<h4 id="从独立游戏开发进化方式分析出其设计的出发点"><a href="#从独立游戏开发进化方式分析出其设计的出发点" class="headerlink" title="从独立游戏开发进化方式分析出其设计的出发点"></a>从独立游戏开发进化方式分析出其设计的出发点</h4><h5 id="焦点式开发"><a href="#焦点式开发" class="headerlink" title="焦点式开发"></a>焦点式开发</h5><ul>
-<li>游戏创新 - 目标是可落地的</li>
-<li>游戏玩法 - 集中玩法设计，深挖玩法可衍生性</li>
-<li>游戏表现力 - 突围的方法</li>
-<li>成本控制 - 游戏保证完成</li>
-</ul>
-<p>聚焦情感所设计的游戏，不需要太过在意游戏玩法方式，<em>它可以是任意方式</em>。</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《传说之下（Undertale）》</strong></li>
-</ul>
-</blockquote>
-<p>越是贴近于生活的游戏创意，引起情感共鸣的成功可能性越高。</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《Papers Please》 《迷你小地铁》</strong></li>
-</ul>
-</blockquote>
-<p>足以让玩家衍生出情感创作的作品，是优秀独立游戏的特征。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh7z3ds8dwj31lz0u07wh.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.pixiv.net/artworks/64559533">日本語版公式リリース</a> by 
-      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
-    </i>
-  </font>
-</div>
-
-
-
-<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>弗兰克 - 奥哈拉，美国当代最著名、最有影响力的纽约派诗人之一，《动物》是一首挽歌式的作品，作者用它凭吊逝去的恋情。</p>
-<p>美国独立游戏峰会时一位独立游戏制作人将此诗发给了现场所有独立游戏人，以此诗借喻鼓励全世界的独立游戏制作人，勿忘独立游戏制作最初带给他们的美好及感动。</p>
-<blockquote>
-<p><em>你还记得从前那段 &emsp; 我们最初的模样吗</em><br><em>每天啃着一个苹果 &emsp; 一天一天地变胖</em><br><em>感慨着时光地流逝 &emsp; 偶尔用一些小伎俩</em><br><em>试着做一些小突破 &emsp; 我们整个过往经历</em><br><em>就像一顿丰盛晚餐 &emsp; 不需要去计算时间</em><br><em>仅仅用冰块和白水 &emsp; 就能调制出鸡尾酒</em><br><strong><em>只要你和我在一起 &emsp; 我不会希望快一些</em></strong><br><strong><em>我也不会一无所知 &emsp; 你就是我这生命中</em></strong><br><strong><em>&emsp;&emsp;&emsp;&emsp;&emsp;最美好的一个存在</em></strong><br>&emsp;</p>
-</blockquote>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a><br/>
-      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
-    </i>
-  </font>
-</div>
-
-]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>INDIE</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开始画像素画#8</title>
     <url>/archives/e5e6b796.html</url>
     <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解文件格式和导出方法。</p>
@@ -4583,6 +4587,25 @@
       </tags>
   </entry>
   <entry>
+    <title>进程与线程</title>
+    <url>/archives/44cf1d42.html</url>
+    <content><![CDATA[<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
+<a id="more"></a>
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>操作系统(Operating Systems)</category>
+      </categories>
+      <tags>
+        <tag>Mooc</tag>
+        <tag>OS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>操作系统概述</title>
     <url>/archives/2ba40472.html</url>
     <content><![CDATA[<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将介绍操作系统的基本知识与课程相关。</p>
@@ -4618,57 +4641,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#121;&#x6f;&#x6e;&#x67;&#x40;&#116;&#x73;&#x69;&#110;&#103;&#104;&#117;&#97;&#46;&#101;&#100;&#117;&#x2e;&#x63;&#x6e;">&#x78;&#121;&#x6f;&#x6e;&#x67;&#x40;&#116;&#x73;&#x69;&#110;&#103;&#104;&#117;&#97;&#46;&#101;&#100;&#117;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#121;&#111;&#110;&#103;&#64;&#116;&#x73;&#105;&#x6e;&#103;&#104;&#117;&#97;&#x2e;&#x65;&#100;&#x75;&#x2e;&#99;&#x6e;">&#120;&#121;&#111;&#110;&#103;&#64;&#116;&#x73;&#105;&#x6e;&#103;&#104;&#117;&#97;&#x2e;&#x65;&#100;&#x75;&#x2e;&#99;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#x75;&#99;&#104;&#x65;&#x6e;&#64;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x74;&#115;&#x69;&#x6e;&#x67;&#104;&#117;&#x61;&#46;&#101;&#100;&#x75;&#46;&#99;&#110;">&#x79;&#x75;&#99;&#104;&#x65;&#x6e;&#64;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x74;&#115;&#x69;&#x6e;&#x67;&#104;&#117;&#x61;&#46;&#101;&#100;&#x75;&#46;&#99;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#117;&#99;&#x68;&#x65;&#110;&#64;&#x6d;&#x61;&#105;&#108;&#46;&#x74;&#x73;&#x69;&#x6e;&#x67;&#x68;&#x75;&#x61;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#110;">&#121;&#117;&#99;&#x68;&#x65;&#110;&#64;&#x6d;&#x61;&#105;&#108;&#46;&#x74;&#x73;&#x69;&#x6e;&#x67;&#x68;&#x75;&#x61;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#x74;&#x65;&#114;&#110;&#x61;&#x6c;&#46;&#x6e;&#48;&#x38;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x65;&#x74;&#x65;&#114;&#110;&#x61;&#x6c;&#46;&#x6e;&#48;&#x38;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#101;&#116;&#101;&#114;&#110;&#97;&#108;&#x2e;&#110;&#x30;&#x38;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#101;&#116;&#101;&#114;&#110;&#97;&#108;&#x2e;&#110;&#x30;&#x38;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#98;&#106;&#x65;&#x63;&#116;&#107;&#x75;&#97;&#110;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#111;&#98;&#106;&#x65;&#x63;&#116;&#107;&#x75;&#97;&#110;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#x62;&#x6a;&#101;&#99;&#116;&#x6b;&#x75;&#x61;&#x6e;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#111;&#x62;&#x6a;&#101;&#99;&#116;&#x6b;&#x75;&#x61;&#x6e;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#114;&#100;&#102;&#x72;&#97;&#110;&#x6b;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;">&#99;&#114;&#100;&#102;&#x72;&#97;&#110;&#x6b;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#99;&#x72;&#x64;&#102;&#114;&#x61;&#110;&#x6b;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#99;&#x72;&#x64;&#102;&#114;&#x61;&#110;&#x6b;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#97;&#x63;&#99;&#x6f;&#x72;&#x61;&#x77;&#x40;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;">&#116;&#97;&#x63;&#99;&#x6f;&#x72;&#x61;&#x77;&#x40;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x74;&#97;&#x63;&#x63;&#x6f;&#114;&#97;&#119;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#x74;&#97;&#x63;&#x63;&#x6f;&#114;&#97;&#119;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#x69;&#110;&#x79;&#x75;&#110;&#120;&#105;&#110;&#103;&#48;&#x30;&#48;&#49;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#x6d;">&#120;&#x69;&#110;&#x79;&#x75;&#110;&#120;&#105;&#110;&#103;&#48;&#x30;&#48;&#49;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#x78;&#105;&#110;&#x67;&#48;&#48;&#48;&#49;&#64;&#49;&#54;&#x33;&#x2e;&#x63;&#111;&#x6d;">&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#x78;&#105;&#110;&#x67;&#48;&#48;&#48;&#49;&#64;&#49;&#54;&#x33;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#110;&#x6f;&#x63;&#x75;&#105;&#108;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#x6d;">&#103;&#110;&#x6f;&#x63;&#x75;&#105;&#108;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#110;&#x6f;&#x63;&#x75;&#x69;&#x6c;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#103;&#110;&#x6f;&#x63;&#x75;&#x69;&#x6c;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#121;&#97;&#x69;&#114;&#x69;&#x61;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#109;&#121;&#97;&#x69;&#114;&#x69;&#x61;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#x79;&#97;&#x69;&#x72;&#105;&#x61;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#x6d;">&#109;&#x79;&#97;&#x69;&#x72;&#105;&#x61;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#104;&#x61;&#x6e;&#103;&#114;&#97;&#105;&#110;&#x39;&#x31;&#49;&#x40;&#49;&#x36;&#51;&#x2e;&#99;&#x6f;&#109;">&#x7a;&#104;&#x61;&#x6e;&#103;&#114;&#97;&#105;&#110;&#x39;&#x31;&#49;&#x40;&#49;&#x36;&#51;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#122;&#104;&#97;&#x6e;&#103;&#114;&#x61;&#105;&#110;&#57;&#49;&#49;&#x40;&#x31;&#x36;&#51;&#x2e;&#99;&#x6f;&#x6d;">&#122;&#104;&#97;&#x6e;&#103;&#114;&#x61;&#105;&#110;&#57;&#49;&#49;&#x40;&#x31;&#x36;&#51;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#x67;&#x78;&#x78;&#x31;&#50;&#48;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">&#103;&#x67;&#x78;&#x78;&#x31;&#50;&#48;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#x67;&#120;&#x78;&#49;&#x32;&#48;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#103;&#x67;&#120;&#x78;&#49;&#x32;&#48;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -4876,28 +4899,9 @@
       </tags>
   </entry>
   <entry>
-    <title>进程与线程</title>
-    <url>/archives/44cf1d42.html</url>
-    <content><![CDATA[<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
-<a id="more"></a>
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>操作系统(Operating Systems)</category>
-      </categories>
-      <tags>
-        <tag>Mooc</tag>
-        <tag>OS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Aseprite教学-Aseprite编译教程</title>
     <url>/archives/5d59087d.html</url>
-    <content><![CDATA[<p>本文将介绍Aseprite的编译安装方法。</p>
+    <content><![CDATA[<p>本文将根据官方的编译文档从Windows、MacOS和Linux三个平台为基础分别介绍Aseprite的编译安装方法，以此免费获取开源的Aseprite。</p>
 <a id="more"></a>
 
 
@@ -5662,58 +5666,6 @@
       </tags>
   </entry>
   <entry>
-    <title>像素宝典#4</title>
-    <url>/archives/2b4d75d3.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解角色设计、动画、像素运动、爆炸效果和怪异科技效果。</p>
-<a id="more"></a>
-
-
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh6yz1yrj30u008c74z.jpg"></p>
-<h3 id="角色设计-1"><a href="#角色设计-1" class="headerlink" title="角色设计 1"></a>角色设计 1</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh6zvcfhg30e80e81kx.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh7283bug30e80e81kx.gif"></p>
-<p>这节是关于角色剪影！</p>
-<p>我觉得剪影是角色设计里最重要的一环，在像素画里更是如此。</p>
-<p>画像素画大部分时候都是在低分辨率。正因为我们不能添加很多的细节，甚至不能用过多的颜色，剪影就必须传达些东西。</p>
-<p>画角色的时候我都会从剪影开始，不用特别精细，他只是大致形状的草稿，接着我就会问自己：“我想要这个角色传达出什么？我想要玩家看到角色时感受到什么？”</p>
-<p>剪影也可以是有欺骗性的，你可以做一个看起来安全的剪影，但是细节却变现出他其实很危险。都可以，只要你有自己的目的。</p>
-<p>感谢所有人的大力支持，这已经是教程的第三个月了！制作教程的过程很有趣，我自己也从中学到了很多。</p>
-<h3 id="动画计划"><a href="#动画计划" class="headerlink" title="动画计划"></a>动画计划</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh7408hxg30e80e8n63.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh75ds13g30e80e811z.gif"></p>
-<p>这节是关于我如何处理需要计划的复杂动画。我不知道这是不是“官方”做法，因为我从来没经历过科班培训，这只是我的工作方式：</p>
-<p>静态帧 ＞ 草图 &gt; 关键帧 &gt; 中间帧（及一些修改）</p>
-<p>我感觉最难的是关键帧，通常意味着你得想出低分辨率下看着还很酷的姿势。但是中间帧是最累的部分，需要做所有的调整，次级动画以及繁重的复制粘贴。</p>
-<p>感谢大家一如既往的支持！</p>
-<h3 id="lt-1-像素的运动"><a href="#lt-1-像素的运动" class="headerlink" title="&lt;1 像素的运动"></a>&lt;1 像素的运动</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh76bwvog30e80e8n4s.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh76u5iog30e80e87co.gif"></p>
-<p>这节是关于 &lt;1 像素的运动，有些人也叫亚像素动画。因为移动少于一个像素是不可能的，所以这节其实是关于如何让像素动画尽可能的精美。</p>
-<p> 我觉得这应该是像素画里最难的东西了，我的主要建议就是慢点来，多练习。不用担心，这个就是非常难做好的，为了这个我通常都会重做好几次动画。我觉得这是正常的，最起码我希望是。</p>
-<h3 id="爆炸-1"><a href="#爆炸-1" class="headerlink" title="爆炸 1"></a>爆炸 1</h3><p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh77ezszg30e80e8doq.gif"></p>
-<p>爆炸是我最喜欢画的主题之一了！里面有很多的粒子，我通常都会一个一个的处理。比如我会从头到尾画一个弹片，接着从头到尾画一团烟雾，等等。</p>
-<p>爆炸里有非常多的火和烟雾，我之前也做过教程，可以去看下。</p>
-<p>这是第 18 个教程了!（之前有几个可能他觉得不算，比如专辑那个。） 很高兴这个系列能走这么远，完全靠大家的支持！</p>
-<p>感谢所有支持这个系列的人！</p>
-<h3 id="机器和怪异科技"><a href="#机器和怪异科技" class="headerlink" title="机器和怪异科技"></a>机器和怪异科技</h3><p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh77uh87g30e80e87qz.gif"></p>
-<p>不好意思各位，本来应该昨天发，但是感冒太严重了。今天好点了。（风农：不是我。）</p>
-<p>这次是关于机器，我决定做个类似于“参考样式”的。你可以看着它来考虑想要加到自己机器上面的元素。</p>
-<p>也别忘了参考周围的东西，还有网上的，尤其是破损的机器。</p>
-<p>感谢大家的支持！</p>
-]]></content>
-      <categories>
-        <category>像素宝典(Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>像素宝典#5</title>
     <url>/archives/2b4d75d4.html</url>
     <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解视差和深度、渲染技巧、动画缓冲、像素画流程和废墟画法。</p>
@@ -5776,6 +5728,58 @@
 <p>希望 GDC 上能看到大家：D</p>
 <p>很骄傲的说目前这个系列已经有 6 个月了！不敢相信我已经做了 24 个教程！</p>
 <p>这都是因为大家的支持和分享，非常感谢！</p>
+]]></content>
+      <categories>
+        <category>像素宝典(Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>像素宝典#4</title>
+    <url>/archives/2b4d75d3.html</url>
+    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解角色设计、动画、像素运动、爆炸效果和怪异科技效果。</p>
+<a id="more"></a>
+
+
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh6yz1yrj30u008c74z.jpg"></p>
+<h3 id="角色设计-1"><a href="#角色设计-1" class="headerlink" title="角色设计 1"></a>角色设计 1</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh6zvcfhg30e80e81kx.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh7283bug30e80e81kx.gif"></p>
+<p>这节是关于角色剪影！</p>
+<p>我觉得剪影是角色设计里最重要的一环，在像素画里更是如此。</p>
+<p>画像素画大部分时候都是在低分辨率。正因为我们不能添加很多的细节，甚至不能用过多的颜色，剪影就必须传达些东西。</p>
+<p>画角色的时候我都会从剪影开始，不用特别精细，他只是大致形状的草稿，接着我就会问自己：“我想要这个角色传达出什么？我想要玩家看到角色时感受到什么？”</p>
+<p>剪影也可以是有欺骗性的，你可以做一个看起来安全的剪影，但是细节却变现出他其实很危险。都可以，只要你有自己的目的。</p>
+<p>感谢所有人的大力支持，这已经是教程的第三个月了！制作教程的过程很有趣，我自己也从中学到了很多。</p>
+<h3 id="动画计划"><a href="#动画计划" class="headerlink" title="动画计划"></a>动画计划</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh7408hxg30e80e8n63.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh75ds13g30e80e811z.gif"></p>
+<p>这节是关于我如何处理需要计划的复杂动画。我不知道这是不是“官方”做法，因为我从来没经历过科班培训，这只是我的工作方式：</p>
+<p>静态帧 ＞ 草图 &gt; 关键帧 &gt; 中间帧（及一些修改）</p>
+<p>我感觉最难的是关键帧，通常意味着你得想出低分辨率下看着还很酷的姿势。但是中间帧是最累的部分，需要做所有的调整，次级动画以及繁重的复制粘贴。</p>
+<p>感谢大家一如既往的支持！</p>
+<h3 id="lt-1-像素的运动"><a href="#lt-1-像素的运动" class="headerlink" title="&lt;1 像素的运动"></a>&lt;1 像素的运动</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh76bwvog30e80e8n4s.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh76u5iog30e80e87co.gif"></p>
+<p>这节是关于 &lt;1 像素的运动，有些人也叫亚像素动画。因为移动少于一个像素是不可能的，所以这节其实是关于如何让像素动画尽可能的精美。</p>
+<p> 我觉得这应该是像素画里最难的东西了，我的主要建议就是慢点来，多练习。不用担心，这个就是非常难做好的，为了这个我通常都会重做好几次动画。我觉得这是正常的，最起码我希望是。</p>
+<h3 id="爆炸-1"><a href="#爆炸-1" class="headerlink" title="爆炸 1"></a>爆炸 1</h3><p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh77ezszg30e80e8doq.gif"></p>
+<p>爆炸是我最喜欢画的主题之一了！里面有很多的粒子，我通常都会一个一个的处理。比如我会从头到尾画一个弹片，接着从头到尾画一团烟雾，等等。</p>
+<p>爆炸里有非常多的火和烟雾，我之前也做过教程，可以去看下。</p>
+<p>这是第 18 个教程了!（之前有几个可能他觉得不算，比如专辑那个。） 很高兴这个系列能走这么远，完全靠大家的支持！</p>
+<p>感谢所有支持这个系列的人！</p>
+<h3 id="机器和怪异科技"><a href="#机器和怪异科技" class="headerlink" title="机器和怪异科技"></a>机器和怪异科技</h3><p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh77uh87g30e80e87qz.gif"></p>
+<p>不好意思各位，本来应该昨天发，但是感冒太严重了。今天好点了。（风农：不是我。）</p>
+<p>这次是关于机器，我决定做个类似于“参考样式”的。你可以看着它来考虑想要加到自己机器上面的元素。</p>
+<p>也别忘了参考周围的东西，还有网上的，尤其是破损的机器。</p>
+<p>感谢大家的支持！</p>
 ]]></content>
       <categories>
         <category>像素宝典(Pixel Dictionary)</category>
@@ -6531,428 +6535,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Foundations of Computer Graphics Unit1</title>
-    <url>/archives/301329c.html</url>
-    <content><![CDATA[<p>本文将在上节课向量和矩阵概念的基础上介绍关于这些变换的数学知识，深入理解计算机图形学中基本变换的概念。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="Transforms"><a href="#Transforms" class="headerlink" title="Transforms"></a>Transforms</h3><blockquote>
-<ul>
-<li>Many different coordinate systems in graphicsWorld, model, body, arms, … </li>
-<li>To relate them, we must transform between them </li>
-<li>Also, for modeling objects. I have a teapot, but<ul>
-<li>Want to place it at correct location in the world</li>
-<li>Want to view it from different angles (HW 1) </li>
-<li>Want to scale it to make it bigger or smaller </li>
-</ul>
-</li>
-<li>Demo of HW 1 </li>
-</ul>
-</blockquote>
-<p>在计算机图形学中经常会接触到许多不同的坐标系统，可能是一个世界坐标系，还可能有一个为世界上某个角色创建的坐标系。为了将它们关联起来，我们必须在不同的坐标系间变换。这种变换非常频繁，当有一个手臂的几何模型、躯干的几何模型、头部的几何模型，需要做的就是把它们都变换到一个共同的坐标系下，并且将它们放置在世界中合适的位置。</p>
-<p>坐标变换对于建模尤为重要，因为很多时候在模型系统中已经创建好了一个茶壶，但是你现在想将它放置在世界某个正确的位置，你需要放缩到合适的尺寸，从不同的角度去观察它。</p>
-<h4 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h4><blockquote>
-<ul>
-<li>This unit is about the math for these transformations<ul>
-<li>Represent transformations using matrices and matrixvector multiplications. </li>
-</ul>
-</li>
-<li>Demos throughout lecture: HW 1 and Applet </li>
-<li>Transformations Game Applet<ul>
-<li>Brown University Exploratories of Software  </li>
-<li><a href="http://www.cs.brown.edu/exploratories/home.html">http://www.cs.brown.edu/exploratories/home.html</a> </li>
-<li>Credit: Andries Van Dam and Jean Laleuf</li>
-</ul>
-</li>
-</ul>
-</blockquote>
-<p>本单元介绍关于这些变换的数学知识。在前面的章节，我们介绍了向量和矩阵的概念，所有的变换使用矩阵来表达，可表示为矩阵向量的乘积。</p>
-<h4 id="基本内容"><a href="#基本内容" class="headerlink" title="基本内容"></a>基本内容</h4><blockquote>
-<ul>
-<li>Object in model coordinates</li>
-<li>Transform into world coordinates</li>
-<li>Represent points on object as vectors</li>
-<li>Multiply by matrices</li>
-<li>Demos with applet </li>
-</ul>
-</blockquote>
-<p>一般，我们得到的物体是在模型坐标系下的，我们将把物体变换到世界坐标系。电荷物体模型用向量表示，它们被乘以对应不同的变换的矩阵。</p>
-<blockquote>
-<ul>
-<li>2D transformations: rotation, scale, shear </li>
-<li>Composing transforms </li>
-<li>3D rotations</li>
-<li>Translation: Homogeneous Coordinates (next time)</li>
-<li>Transforming Normals (next time)</li>
-</ul>
-</blockquote>
-<p>这部分将会处理二维变换：旋转、缩放和错切。本讲后面部分会讨论其他有趣的问题比如组合变换、三维旋转。这些内容将会用来处理齐次坐标，这是计算机图形学的重大突破，我们使用这种方法处理法向变换和遮挡。</p>
-<h4 id="缩放变换"><a href="#缩放变换" class="headerlink" title="缩放变换"></a>缩放变换</h4><blockquote>
-<p>$Scale(s_x,s_y)= \begin{pmatrix}s_x &amp; 0 \\ 0 &amp; s_y \end{pmatrix} \qquad S^{-1} = \begin{pmatrix} s_x^{-1} &amp; 0 \\ 0 &amp; s_y^{-1}\end{pmatrix}$</p>
-<p>$\begin{pmatrix}s_x &amp; 0 &amp; 0 \\ 0 &amp; s_y &amp; 0 \\ 0 &amp; 0 &amp; s_z\end{pmatrix}\begin{pmatrix}x \\ y \\ z\end{pmatrix}=\begin{pmatrix}s_xx \\ s_yy \\ s_zz\end{pmatrix}$</p>
-</blockquote>
-<p>我们首先讨论缩放变换。缩放可以是非均匀的，X方向的缩放和Y方向的缩放可以是不同的。相应的缩放矩阵是一个对角矩阵，矩阵的相应行标注了放大的倍数。这里的$s_x$和$s_y$分别表示X方向和Y方向的放大倍数，因此X坐标乘以$s_x$、Y坐标乘以$s_y$。</p>
-<p>这个缩放的逆操作就是简单地用X坐标和Y坐标分别乘以$s_x$和$s_y$的倒数，也就是$s_x^{-1}$和$s_y^{-1}$。如果进行我们感兴趣的三维空间缩放，只要分别讲坐标乘以相应地缩放系数$s_x$、$s_y$、$s_z$。</p>
-<h4 id="错切变换"><a href="#错切变换" class="headerlink" title="错切变换"></a>错切变换</h4><blockquote>
-<p>$Shear=\begin{pmatrix}1 &amp; a \\ 0 &amp; 1\end{pmatrix} \qquad S^{-1}=\begin{pmatrix}1 &amp; -a \\ 0 &amp; 1\end{pmatrix}$</p>
-</blockquote>
-<p>接下来我们谈谈错切。通过错切你可以将一个矩形变换成一个平行四边形：矩形的顶部向右移动，矩形的底部向左移动。一般情况下，中心线上不发生错切。</p>
-<p>错切矩阵是什么样子呢？X坐标值依赖于Y坐标，因此如果Y坐标+1，那么变换后的X坐标将会加上a，即向前移动a的距离；如果Y坐标是-1，那么X坐标将会减a。因此错切可以写成：Y坐标不发生变化（$y=y’$），因此矩阵的第二行就是$[0,1]$；然而矩阵的第一行，$x$变换后的值$x’$等于之前的值加上a乘以Y坐标的值（$x’=x+ay$），这也是错切的基本方程。</p>
-<p>错切的逆变换就是将a变为-a，错切公式不变。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glflr2ytjbj30go07fjri.jpg"></p>
-<h4 id="旋转变换"><a href="#旋转变换" class="headerlink" title="旋转变换"></a>旋转变换</h4><blockquote>
-<ul>
-<li><p>2D simple, 3D complicated. [Derivation? Examples?] </p>
-</li>
-<li><p>2D? </p>
-<p>$\begin{bmatrix}x’ \\ y’\end{bmatrix}=\begin{bmatrix}\cos\theta &amp; -\sin\theta \\ \sin\theta &amp; \cos\theta \end{bmatrix}\begin{bmatrix}x \\ y\end{bmatrix}$</p>
-<p>$R(X+Y)=R(X)+R(Y)$</p>
-</li>
-<li><p>Linear </p>
-</li>
-<li><p>Commutative </p>
-</li>
-</ul>
-</blockquote>
-<p>现在我们来讨论二维旋转变换。对于旋转变换而言，像其它变换一样它们也是矩阵，该矩阵使得X方向和Y方向的变换叠加，相当于先在X方向旋转再在Y方向旋转。如果物体上某个位置可以表示成物体质心加上一个位移量，那么旋转它等价于旋转质心然后旋转这个位移，因此你可以将它们叠加。</p>
-<p>旋转变换是一个线性的操作，在二维的情况下它们是可交换的，交换旋转的顺序对于结果没有影响，三维空间则不然。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glfpny93dzj30ba0a3mx6.jpg"></p>
-<p>接下来的问题是，二维旋转矩阵是什么样子？用极坐标非常简单：</p>
-<blockquote>
-<p>$o = (r\cos\theta,r\sin\theta)$</p>
-<p>$o’=(r\cos{(\phi+\theta)}),r\sin{(\phi+\theta)}))$</p>
-</blockquote>
-<p>为了放到笛卡尔坐标系下，我们需要使用标准的三角公式展开：</p>
-<blockquote>
-<p>$\cos{(\phi+\theta)}=\cos{\phi}\cos{\theta}-\sin{\phi}\sin{\theta}$</p>
-<p>$\sin{(\phi+\theta)}=\sin{\phi}\cos{\theta}+\cos{\phi}\sin{\theta}$</p>
-<p>$O’_x=r\cos{\phi}(O_x)\cos{\theta}-r\sin{\phi}(O_y)\sin{\theta}=x\cos{\theta}-y\sin{\theta}$</p>
-</blockquote>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glfpma91gtj30sg0lc75d.jpg"></p>
-<h4 id="组合变换"><a href="#组合变换" class="headerlink" title="组合变换"></a>组合变换</h4><p>我们经常需要将变换组合起来，比如你需要对自己的模型在X方向放大2倍，然后旋转45度。</p>
-<blockquote>
-<ul>
-<li><p>Often want to combine transforms </p>
-</li>
-<li><p>E.g. first scale by 2, then rotate by 45 degrees </p>
-</li>
-<li><p>Advantage of matrix formulation: All still a matrix </p>
-</li>
-<li><p>Not commutative!! Order matters </p>
-</li>
-</ul>
-</blockquote>
-<p>矩阵的优点是你可以使用这些矩阵进行单独的操作，连接矩阵只是矩阵相乘，因此多个变换仍然是一个矩阵。然而，重要的是我们要知道连接矩阵不是可交换的，因为矩阵乘法不具有交换性。</p>
-<blockquote>
-<p>$x_3=Rx_2 \qquad x_2=Sx_1$</p>
-<p>$x_3=R(Sx_1)=(RS)x_1$</p>
-<p>$x_3\neq SRx_1$</p>
-</blockquote>
-<p>组合旋转和旋转变换，从某个初始位置$x_1$开始，你可以先对它进行缩放，假设这个矩阵为$S$，缩放后的新位置是$x_2$；接着对$x_2$进行旋转，旋转矩阵是$R$得到$x_3$。因为矩阵的乘法满足结合律，因此这部分等于旋转矩阵$R$乘以缩放矩阵$S$的结果再乘以$x_1$。我们得到一个合成的变换矩阵：$R*S$。</p>
-<p>我们可以交换顺序吗？矩阵乘法不可交换，如果按照相反的顺序做旋转和缩放，结果就会改变。先做旋转再做缩放和错切相似。</p>
-<blockquote>
-<ul>
-<li><p>Say I want to invert a combination of 3 transforms </p>
-</li>
-<li><p>Option 1: Find composite matrix, invert </p>
-</li>
-<li><p>Option 2: Invert each transform <strong>and swap order</strong> </p>
-</li>
-<li><p>Obvious from properties of matrices, demo </p>
-</li>
-</ul>
-<p>$M=M_1M_2M_3$</p>
-<p>$M^{-1}=M_3^{-1}M_2^{-1}M_1^{-1}$</p>
-<p>$M^{-1}M=M_3^{-1}(M_2^{-1}(M_1^{-1}M_1)M_2)M_3$</p>
-</blockquote>
-<p>最后我们想做的是做一个组合变换的逆变换。假设我们有2到3个变换：缩放、旋转和平移，该如何对它逆变换使它返回到初始的正确位置呢？有两种方法可以尝试：求出所有这些单个矩阵的乘积然后使用通用的逆矩阵求解过程求出这个结果矩阵的逆矩阵；另一种方法你可以单独求出每一个矩阵的逆矩阵，但需要注意求连乘矩阵的逆需要求出每个矩阵的逆然后逆序防止这些矩阵。</p>
-<h4 id="三维旋转"><a href="#三维旋转" class="headerlink" title="三维旋转"></a>三维旋转</h4><p>现在我们来讨论三维旋转。</p>
-<blockquote>
-<p>Review of 2D case </p>
-<p>$\begin{bmatrix}x’ \\ y’\end{bmatrix}=\begin{bmatrix}\cos\theta &amp; -\sin\theta \\ \sin\theta &amp; \cos\theta \end{bmatrix}\begin{bmatrix}x \\ y\end{bmatrix}$</p>
-<p>Orthogonal? $R^TR=I$</p>
-</blockquote>
-<p>回顾一下二维旋转，对于这个矩阵有一个重要的性质没有提到–旋转矩阵是正交的。更直接的说，R的转置（$R^T$）乘以R等于单位矩阵I。</p>
-<blockquote>
-<p>$\begin{pmatrix}\cos &amp; \sin \\ -\sin &amp; \cos\end{pmatrix}\begin{pmatrix}\cos &amp; -\sin \\ \sin &amp; \cos\end{pmatrix}=\begin{pmatrix}1 &amp; 0 \\ 0 &amp; 1\end{pmatrix}$</p>
-</blockquote>
-<blockquote>
-<p>Rotations about coordinate axes simple </p>
-<p>$R_z=\begin{pmatrix}\cos &amp; -\sin &amp; 0 \\ \sin &amp; \cos &amp; 0 \\ 0 &amp; 0 &amp; 1\end{pmatrix} \qquad R_x = \begin{pmatrix}1 &amp; 0 &amp; 0 \\ 0 &amp; \cos &amp; -\sin \\ 0 &amp; \sin &amp; \cos \end{pmatrix}$</p>
-<p>$R_y=\begin{pmatrix}\cos &amp; 0 &amp; \sin \\ 0 &amp; 1 &amp; 0 \\ -\sin &amp; 0&amp; \cos\end{pmatrix}$</p>
-<p>Always linear, orthogonal                 $R^TR=I$</p>
-<ul>
-<li>Rows/cols orthonormal            $R(X+Y)=R(X)+R(Y)$ </li>
-</ul>
-</blockquote>
-<p>现在我们考虑三维空间中关于坐标轴的旋转。二维旋转可以看作是绕着Z轴的特殊旋转，因为Z轴保持不变。</p>
-<blockquote>
-<ul>
-<li><p>Rows of matrix are 3 unit vectors of new coord frame </p>
-</li>
-<li><p>Can construct rotation matrix from 3 orthonormal vectors </p>
-</li>
-</ul>
-<p>$R_{uvw}=\begin{pmatrix}x_u &amp; y_u &amp; z_u \\ x_v &amp; y_v &amp; z_v \\ x_w &amp; y_w &amp; z_w\end{pmatrix} \qquad u=x_uX+y_uY+z_uZ$</p>
-<p>$R_p=\begin{pmatrix}x_u &amp; y_u &amp; z_u \\ x_v &amp; y_v &amp; z_v \\ x_w &amp; y_w &amp; z_w\end{pmatrix}\begin{pmatrix}x_p \\ y_p \\ z_p\end{pmatrix}=?$</p>
-</blockquote>
-<p>我们可以把矩阵的每一行当作一个新的单位向量，向量u是新坐标系的坐标轴。由此得出，当给定了3个正交向量，正交意味着向量u点乘向量v等于0、向量u点乘向量w等于0、向量v点乘向量w等于0，并且u，v，w都是单位向量。所以给定任意的这样三个向量，就可以确定标准的XYZ坐标系下的一个旋转，通过这些向量我们可以构建一个旋转矩形。</p>
-<blockquote>
-<ul>
-<li><p>Rows of matrix are 3 unit vectors of new coord frame </p>
-</li>
-<li><p>Can construct rotation matrix from 3 orthonormal vectors </p>
-</li>
-<li><p>Effectively, projections of point into new coord frame </p>
-</li>
-<li><p>New coord frame uvw taken to cartesian components xyz </p>
-</li>
-<li><p>Inverse or transpose takes xyz cartesian to uvw</p>
-</li>
-</ul>
-</blockquote>
-<p>还有一种有趣的思考方式，就是旋转矩阵乘以点的形式。我们可以用这种方式写下这个旋转矩阵：$\begin{pmatrix}u \\ v \\ w\end{pmatrix}p=\begin{pmatrix}u \cdot p \\ v \cdot p \\ w \cdot p\end{pmatrix}$。因此，实际上我们做的仅仅是把点p映射到新的坐标系里，这是一个非常简单的三维旋转的解释：在一个坐标系下得到了p的点积。</p>
-<p>这是一个很有用的性质，这个坐标可以用来表示新的u，v，w坐标并使它们等于X，Y，Z。逆变换就是使X，Y，Z的值等于u，v，w。</p>
-<blockquote>
-<ul>
-<li>Not Commutative (unlike in 2D)!! </li>
-<li>Rotate by x, then y is not same as y then x </li>
-<li>Order of applying rotations does matter </li>
-<li>Follows from matrix multiplication not commutative<ul>
-<li>R1 * R2 is not the same as R2 * R1 </li>
-</ul>
-</li>
-<li>Demo: HW1, order of right or up will matter </li>
-</ul>
-</blockquote>
-<p>三维旋转是不可交换的，当你先绕着X旋转再绕着Y轴旋转效果和先绕着Y轴旋转再绕着X轴旋转式不同的。其实这也可以从矩阵的乘法直接得出：矩阵$R_1*R_2 \neq R_2 * R_1$。</p>
-<blockquote>
-<ul>
-<li><p>Rotate by an angle θ about arbitrary axis <strong>a</strong> </p>
-<ul>
-<li>Homework 1: must rotate eye, up direction </li>
-<li>Somewhat mathematical derivation but useful formula </li>
-</ul>
-</li>
-<li><p>Problem setup: Rotate vector <strong>b</strong> by θ about <strong>a</strong> </p>
-</li>
-<li><p>Helpful to relate <strong>b</strong> to X, <strong>a</strong> to Z, verify does right thing </p>
-</li>
-<li><p>For HW1, you probably just need final formula </p>
-</li>
-</ul>
-</blockquote>
-<p>在三维情况下，我们能否给出一个任意的旋转公式？绕任意一个角度（旋转的轴角 axis-angle）旋转，同样的表示方法还有欧拉角或四元数。</p>
-<blockquote>
-<ul>
-<li>Step 1: <strong>b</strong> has components parallel to <strong>a</strong>, perpendicular<ul>
-<li>Parallel component unchanged (rotating about an axis leaves that axis unchanged after rotation, e.g. rot about z) </li>
-</ul>
-</li>
-<li>Step 2: Define <strong>c</strong> orthogonal to both <strong>a</strong> and <strong>b</strong><ul>
-<li>Analogous to defining Y axis </li>
-<li>Use cross products and matrix formula for that </li>
-</ul>
-</li>
-<li>Step 3: With respect to the perpendicular comp of <strong>b</strong> <ul>
-<li>Cos θ of it remains unchanged </li>
-<li>Sin θ of it projects onto vector <strong>c</strong> </li>
-</ul>
-</li>
-</ul>
-</blockquote>
-<h4 id="齐次坐标"><a href="#齐次坐标" class="headerlink" title="齐次坐标"></a>齐次坐标</h4><blockquote>
-<ul>
-<li><p><em>Translation: Homogeneous Coordinates</em></p>
-</li>
-<li><p>Transforming Normals</p>
-</li>
-<li><p>Rotations revisited: coordinate frames</p>
-</li>
-<li><p>gluLookAt (quickly)</p>
-</li>
-</ul>
-</blockquote>
-<p>我们首先来讲平移和齐次坐标。到目前为止，我们已经处理了旋转、缩放，但我们还没处理将一个物体从一个地方移动到另一个地方的简单操作。</p>
-<blockquote>
-<ul>
-<li>E.g. move x by +5 units, leave y, z unchanged</li>
-<li>We need appropriate matrix. What is it?</li>
-</ul>
-<p>$\begin{pmatrix}x’ \\ y’ \\ z’ \end{pmatrix}=\begin{pmatrix}?\end{pmatrix}\begin{pmatrix}x \\ y \\ z\end{pmatrix}=\begin{pmatrix}x+5 \\ y \\ z\end{pmatrix}$</p>
-</blockquote>
-<p>这个矩阵是什么呢？这是一个挑战性的问题，也许有人说可以$[1 \space 0 \space \frac{5}{z}]$ 和 $\begin{pmatrix}x \\ y \\ z\end{pmatrix}$这样+5，但实际上变换矩阵是不能包含有关x、y、z的参数。</p>
-<p>在图形学中我们通过齐次坐标的方法来解决。齐次坐标的产生时很多事情变为可能，否则的话很多事情将会非常困难。</p>
-<blockquote>
-<ul>
-<li><p>Add a fourth homogeneous coordinate (w=1)</p>
-</li>
-<li><p>4x4 matrices very common in graphics, hardware</p>
-</li>
-<li><p>Last row always 0 0 0 1 (until next lecture)</p>
-</li>
-</ul>
-<p>$\begin{pmatrix}\end{pmatrix} = \begin{pmatrix}1 &amp; 0 &amp; 0 &amp; 5 \\ 0 &amp; 1 &amp; 0 &amp; 0 \\ 0 &amp;0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp;1 \end{pmatrix} \begin{pmatrix}x \\ y \\ z \\ 1\end{pmatrix} = \begin{pmatrix}x + 5 \\ y \\ z  \\ 1\end{pmatrix}$</p>
-</blockquote>
-<p>回想起来这个想法非常简单，你只需要加入第四个齐次坐标即可。我们用w表示这第四个齐次坐标，专门用作平移变换的。可以看到 $\begin{pmatrix}1 &amp; 0 &amp; 0 &amp; 5\end{pmatrix}\begin{pmatrix}x \\ y \\ z \\ 1\end{pmatrix}=x+5$</p>
-<blockquote>
-<p>Homogeneous coordinates</p>
-<ul>
-<li><p>Divide by 4th coord (w) to get (inhomogeneous) point</p>
-</li>
-<li><p>Multiplication by w &gt; 0, no effect</p>
-</li>
-<li><p>Assume w ≥ 0. For w &gt; 0, normal finite point. For w = 0, point at infinity (used for vectors to stop translation)</p>
-</li>
-</ul>
-</blockquote>
-<p>这就是齐次坐标，通过加入一个w坐标，可以做平移变换。但事实上还可以使用齐次坐标做更多有趣的事情。</p>
-<p>第一个问题这个齐次项来自何处？本质上，点的非齐次坐标是通过除以w给定的，所以实际上$P=\begin{pmatrix}x \\ y \\ z \\ w\end{pmatrix}=\begin{pmatrix}x/w \\ y/w \\ z/w \\ 1\end{pmatrix}$。一个重要的推论是四维齐次坐标的任何常量缩放会得到相同的结果。事实上，它包含点的非齐次坐标的所有可能缩放。在前面我们假设w=1，事实上w可以等于任何数值，如果w=0，这表示一个无穷远处的点。在实际应用中w等于0通常用来表示一个向量，矩阵不会对向量产生平移的效果。</p>
-<blockquote>
-<ul>
-<li><p>Unified framework for translation, viewing, rot…</p>
-</li>
-<li><p>Can concatenate any set of transforms to 4x4 matrix</p>
-</li>
-<li><p>No division (as for perspective viewing) till end</p>
-</li>
-<li><p>Simpler formulas, no special cases</p>
-</li>
-<li><p>Standard in graphics software, hardware</p>
-</li>
-</ul>
-</blockquote>
-<p>齐次坐标的优点首先是它是我们考虑的所有变换的一个统一框架，这些变换包括平移、观察、旋转以及后面要讲到的透视投影。这意味着整个渲染管线都以这个$4\times4$的齐次坐标矩阵及其对应的四维向量为基础，只有在最后一步表示屏幕上真实点的位置的时候才需要把齐次变为非齐次。实际上，所有这些变换都可以通过齐次坐标联系起来，我可以移动我的模型、旋转它、缩放它、平移它、观察它……所有这些都是一个单一的$4\times4$的矩阵。</p>
-<p>在计算机里除法是一个非常复杂的操作，相比于加法或乘法它花费更多的时钟周期，但除法却非常基础，所以如果你考虑透视投影，你可能看到远处的物体看起来更小，因此不得不除以深度。齐次坐标的优点就是只需在渲染管线的最后一步做一次除法将齐次坐标转换为非齐次，中间没有任何除法操作。</p>
-<p>由于以上这些原因，4阶矩阵和齐次坐标是计算机图形软件和硬件中普遍使用的标准。</p>
-<blockquote>
-<p>$T=\begin{pmatrix}1 &amp; 0 &amp; 0 &amp; T_x \\ 0 &amp; 1 &amp; 0 &amp; T_y \\ 0 &amp; 0 &amp; 1 &amp; T_z \\ 0 &amp; 0 &amp; 0 &amp; 1\end{pmatrix}=\begin{pmatrix}I_3 &amp; T \\ 0 &amp; 1\end{pmatrix}$</p>
-<p>$P’=TP=\begin{pmatrix}1 &amp; 0 &amp; 0 &amp; T_x \\ 0 &amp; 1 &amp; 0 &amp; T_y \\ 0 &amp; 0 &amp; 1 &amp; T_z \\ 0 &amp; 0 &amp; 0 &amp; 1\end{pmatrix}\begin{pmatrix}x \\ y \\ z \\ 1\end{pmatrix}=\begin{pmatrix}x+T_x \\ y + T_y \\ z + T_z \\ 1\end{pmatrix}=P+T$</p>
-</blockquote>
-<p>这里没有施加旋转，当单位矩阵作用到x，y，z时不变，这正是我们希望的结果。矩阵的右上部分是我们的平移向量，实际上是一个点加上一个平移向量。当考虑旋转和平移把$4\times4$矩阵写成这种形式很方便。</p>
-<blockquote>
-<ul>
-<li><p>Order matters!! TR is not the same as RT (demo)</p>
-</li>
-<li><p>General form for rigid body transforms</p>
-</li>
-<li><p>We show rotation first, then translation (commonly used to position objects) on next slide. Slide after </p>
-</li>
-</ul>
-<p>that works it out the other way </p>
-<ul>
-<li>Demos with applet</li>
-</ul>
-<p>$P’=(TR)P=MP=RP+T$</p>
-<p>$P’=(RT)P=MP=R(P+T)=RP+RT$</p>
-</blockquote>
-<h4 id="法向变换"><a href="#法向变换" class="headerlink" title="法向变换"></a>法向变换</h4><blockquote>
-<ul>
-<li>Important for many tasks in graphics like lighting</li>
-<li>Do not transform like points e.g. shear</li>
-<li>Algebra tricks to derive correct transform</li>
-</ul>
-</blockquote>
-<blockquote>
-<p>$t \to Mt \qquad n \to Qn \qquad Q=?$</p>
-<p>$n^Tt=0$</p>
-<p>$n^TQ^TMt=0 \to Q^TM=I$</p>
-<p>$Q=(M^{-1})^T$</p>
-</blockquote>
-<h4 id="旋转和坐标"><a href="#旋转和坐标" class="headerlink" title="旋转和坐标"></a>旋转和坐标</h4><blockquote>
-<ul>
-<li><p>All of discussion in terms of operating on points</p>
-</li>
-<li><p>But can also change coordinate system </p>
-</li>
-<li><p>Example, motion means either point moves backward, or coordinate system moves forward</p>
-</li>
-</ul>
-</blockquote>
-<blockquote>
-<ul>
-<li><p>Can differ both origin and orientation (e.g. 2 people)</p>
-</li>
-<li><p>One good example: World, camera coord frames (H1)</p>
-</li>
-</ul>
-</blockquote>
-<blockquote>
-<ul>
-<li><p>Rows of matrix are 3 unit vectors of new coord frame</p>
-</li>
-<li><p>Can construct rotation matrix from 3 orthonormal vectors</p>
-</li>
-</ul>
-</blockquote>
-<h4 id="推导gluLookAt"><a href="#推导gluLookAt" class="headerlink" title="推导gluLookAt"></a>推导gluLookAt</h4><blockquote>
-<p>Defines camera, fundamental to how we view images</p>
-<ul>
-<li><p>gluLookAt(eyex, eyey, eyez, centerx, centery, centerz, upx, upy, upz) </p>
-</li>
-<li><p>Camera is at eye, looking at center, with the up direction being up</p>
-</li>
-<li><p>May be important for HW1</p>
-</li>
-<li><p>Combines many concepts discussed in lecture</p>
-</li>
-<li><p>Core function in OpenGL for later assignments</p>
-</li>
-</ul>
-</blockquote>
-<blockquote>
-<ul>
-<li><p>gluLookAt(eyex, eyey, eyez, centerx, centery, centerz, upx, upy, upz)</p>
-</li>
-<li><p>Camera is at eye, looking at center, with the up direction being up</p>
-</li>
-<li><p><em>First, create a coordinate frame for the camera</em></p>
-</li>
-<li><p>Define a rotation matrix</p>
-</li>
-<li><p>Apply appropriate translation for camera (eye) location</p>
-</li>
-</ul>
-</blockquote>
-<blockquote>
-<p>We want to associate <strong>w</strong> with <strong>a</strong>, and <strong>v</strong> with <strong>b</strong> </p>
-<ul>
-<li><p>But <strong>a</strong> and <strong>b</strong> are neither orthogonal nor unit norm</p>
-</li>
-<li><p>And we also need to find <strong>u</strong></p>
-</li>
-</ul>
-<ul>
-<li><p>We want to position camera at origin, looking down –Z dirn</p>
-</li>
-<li><p>Hence, vector <strong>a</strong> is given by <strong>eye</strong> – <strong>center</strong></p>
-</li>
-<li><p>The vector <strong>b</strong> is simply the <strong>up</strong> vector</p>
-</li>
-</ul>
-</blockquote>
-<blockquote>
-<ul>
-<li><p>Rows of matrix are 3 unit vectors of new coord frame</p>
-</li>
-<li><p>Can construct rotation matrix from 3 orthonormal vectors</p>
-</li>
-</ul>
-</blockquote>
-<h3 id="Viewing"><a href="#Viewing" class="headerlink" title="Viewing"></a>Viewing</h3><h4 id="正交投影"><a href="#正交投影" class="headerlink" title="正交投影"></a>正交投影</h4><h4 id="透视投影"><a href="#透视投影" class="headerlink" title="透视投影"></a>透视投影</h4><h4 id="gluPerspective"><a href="#gluPerspective" class="headerlink" title="gluPerspective"></a>gluPerspective</h4>]]></content>
-      <categories>
-        <category>计算机图像学(Foundations of Computer Graphics)</category>
-      </categories>
-      <tags>
-        <tag>Mooc</tag>
-        <tag>Computer Graphics</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>绪论</title>
     <url>/archives/43830010.html</url>
     <content><![CDATA[<p>本课程旨在围绕各类数据结构的设计与实现，揭示其中的规律原理与方法技巧；同时针对算法设计及其性能分析，使学生了解并掌握主要的套路与手段。本文将讲解数据结构入门的一些基本概念，并通过举例学习的方式进一步理解其内涵与本质。</p>
@@ -7480,9 +7062,431 @@
       </tags>
   </entry>
   <entry>
+    <title>Foundations of Computer Graphics Unit1</title>
+    <url>/archives/301329c.html</url>
+    <content><![CDATA[<p>本文将在上节课向量和矩阵概念的基础上介绍关于这些变换的数学知识，深入理解计算机图形学中基本变换的概念。</p>
+<a id="more"></a>
+
+
+
+
+
+<h3 id="Transforms"><a href="#Transforms" class="headerlink" title="Transforms"></a>Transforms</h3><blockquote>
+<ul>
+<li>Many different coordinate systems in graphicsWorld, model, body, arms, … </li>
+<li>To relate them, we must transform between them </li>
+<li>Also, for modeling objects. I have a teapot, but<ul>
+<li>Want to place it at correct location in the world</li>
+<li>Want to view it from different angles (HW 1) </li>
+<li>Want to scale it to make it bigger or smaller </li>
+</ul>
+</li>
+<li>Demo of HW 1 </li>
+</ul>
+</blockquote>
+<p>在计算机图形学中经常会接触到许多不同的坐标系统，可能是一个世界坐标系，还可能有一个为世界上某个角色创建的坐标系。为了将它们关联起来，我们必须在不同的坐标系间变换。这种变换非常频繁，当有一个手臂的几何模型、躯干的几何模型、头部的几何模型，需要做的就是把它们都变换到一个共同的坐标系下，并且将它们放置在世界中合适的位置。</p>
+<p>坐标变换对于建模尤为重要，因为很多时候在模型系统中已经创建好了一个茶壶，但是你现在想将它放置在世界某个正确的位置，你需要放缩到合适的尺寸，从不同的角度去观察它。</p>
+<h4 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h4><blockquote>
+<ul>
+<li>This unit is about the math for these transformations<ul>
+<li>Represent transformations using matrices and matrixvector multiplications. </li>
+</ul>
+</li>
+<li>Demos throughout lecture: HW 1 and Applet </li>
+<li>Transformations Game Applet<ul>
+<li>Brown University Exploratories of Software  </li>
+<li><a href="http://www.cs.brown.edu/exploratories/home.html">http://www.cs.brown.edu/exploratories/home.html</a> </li>
+<li>Credit: Andries Van Dam and Jean Laleuf</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<p>本单元介绍关于这些变换的数学知识。在前面的章节，我们介绍了向量和矩阵的概念，所有的变换使用矩阵来表达，可表示为矩阵向量的乘积。</p>
+<h4 id="基本内容"><a href="#基本内容" class="headerlink" title="基本内容"></a>基本内容</h4><blockquote>
+<ul>
+<li>Object in model coordinates</li>
+<li>Transform into world coordinates</li>
+<li>Represent points on object as vectors</li>
+<li>Multiply by matrices</li>
+<li>Demos with applet </li>
+</ul>
+</blockquote>
+<p>一般，我们得到的物体是在模型坐标系下的，我们将把物体变换到世界坐标系。电荷物体模型用向量表示，它们被乘以对应不同的变换的矩阵。</p>
+<blockquote>
+<ul>
+<li>2D transformations: rotation, scale, shear </li>
+<li>Composing transforms </li>
+<li>3D rotations</li>
+<li>Translation: Homogeneous Coordinates (next time)</li>
+<li>Transforming Normals (next time)</li>
+</ul>
+</blockquote>
+<p>这部分将会处理二维变换：旋转、缩放和错切。本讲后面部分会讨论其他有趣的问题比如组合变换、三维旋转。这些内容将会用来处理齐次坐标，这是计算机图形学的重大突破，我们使用这种方法处理法向变换和遮挡。</p>
+<h4 id="缩放变换"><a href="#缩放变换" class="headerlink" title="缩放变换"></a>缩放变换</h4><blockquote>
+<p>$Scale(s_x,s_y)= \begin{pmatrix}s_x &amp; 0 \\ 0 &amp; s_y \end{pmatrix} \qquad S^{-1} = \begin{pmatrix} s_x^{-1} &amp; 0 \\ 0 &amp; s_y^{-1}\end{pmatrix}$</p>
+<p>$\begin{pmatrix}s_x &amp; 0 &amp; 0 \\ 0 &amp; s_y &amp; 0 \\ 0 &amp; 0 &amp; s_z\end{pmatrix}\begin{pmatrix}x \\ y \\ z\end{pmatrix}=\begin{pmatrix}s_xx \\ s_yy \\ s_zz\end{pmatrix}$</p>
+</blockquote>
+<p>我们首先讨论缩放变换。缩放可以是非均匀的，X方向的缩放和Y方向的缩放可以是不同的。相应的缩放矩阵是一个对角矩阵，矩阵的相应行标注了放大的倍数。这里的$s_x$和$s_y$分别表示X方向和Y方向的放大倍数，因此X坐标乘以$s_x$、Y坐标乘以$s_y$。</p>
+<p>这个缩放的逆操作就是简单地用X坐标和Y坐标分别乘以$s_x$和$s_y$的倒数，也就是$s_x^{-1}$和$s_y^{-1}$。如果进行我们感兴趣的三维空间缩放，只要分别讲坐标乘以相应地缩放系数$s_x$、$s_y$、$s_z$。</p>
+<h4 id="错切变换"><a href="#错切变换" class="headerlink" title="错切变换"></a>错切变换</h4><blockquote>
+<p>$Shear=\begin{pmatrix}1 &amp; a \\ 0 &amp; 1\end{pmatrix} \qquad S^{-1}=\begin{pmatrix}1 &amp; -a \\ 0 &amp; 1\end{pmatrix}$</p>
+</blockquote>
+<p>接下来我们谈谈错切。通过错切你可以将一个矩形变换成一个平行四边形：矩形的顶部向右移动，矩形的底部向左移动。一般情况下，中心线上不发生错切。</p>
+<p>错切矩阵是什么样子呢？X坐标值依赖于Y坐标，因此如果Y坐标+1，那么变换后的X坐标将会加上a，即向前移动a的距离；如果Y坐标是-1，那么X坐标将会减a。因此错切可以写成：Y坐标不发生变化（$y=y’$），因此矩阵的第二行就是$[0,1]$；然而矩阵的第一行，$x$变换后的值$x’$等于之前的值加上a乘以Y坐标的值（$x’=x+ay$），这也是错切的基本方程。</p>
+<p>错切的逆变换就是将a变为-a，错切公式不变。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glflr2ytjbj30go07fjri.jpg"></p>
+<h4 id="旋转变换"><a href="#旋转变换" class="headerlink" title="旋转变换"></a>旋转变换</h4><blockquote>
+<ul>
+<li><p>2D simple, 3D complicated. [Derivation? Examples?] </p>
+</li>
+<li><p>2D? </p>
+<p>$\begin{bmatrix}x’ \\ y’\end{bmatrix}=\begin{bmatrix}\cos\theta &amp; -\sin\theta \\ \sin\theta &amp; \cos\theta \end{bmatrix}\begin{bmatrix}x \\ y\end{bmatrix}$</p>
+<p>$R(X+Y)=R(X)+R(Y)$</p>
+</li>
+<li><p>Linear </p>
+</li>
+<li><p>Commutative </p>
+</li>
+</ul>
+</blockquote>
+<p>现在我们来讨论二维旋转变换。对于旋转变换而言，像其它变换一样它们也是矩阵，该矩阵使得X方向和Y方向的变换叠加，相当于先在X方向旋转再在Y方向旋转。如果物体上某个位置可以表示成物体质心加上一个位移量，那么旋转它等价于旋转质心然后旋转这个位移，因此你可以将它们叠加。</p>
+<p>旋转变换是一个线性的操作，在二维的情况下它们是可交换的，交换旋转的顺序对于结果没有影响，三维空间则不然。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glfpny93dzj30ba0a3mx6.jpg"></p>
+<p>接下来的问题是，二维旋转矩阵是什么样子？用极坐标非常简单：</p>
+<blockquote>
+<p>$o = (r\cos\theta,r\sin\theta)$</p>
+<p>$o’=(r\cos{(\phi+\theta)}),r\sin{(\phi+\theta)}))$</p>
+</blockquote>
+<p>为了放到笛卡尔坐标系下，我们需要使用标准的三角公式展开：</p>
+<blockquote>
+<p>$\cos{(\phi+\theta)}=\cos{\phi}\cos{\theta}-\sin{\phi}\sin{\theta}$</p>
+<p>$\sin{(\phi+\theta)}=\sin{\phi}\cos{\theta}+\cos{\phi}\sin{\theta}$</p>
+<p>$O’_x=r\cos{\phi}(O_x)\cos{\theta}-r\sin{\phi}(O_y)\sin{\theta}=x\cos{\theta}-y\sin{\theta}$</p>
+</blockquote>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glfpma91gtj30sg0lc75d.jpg"></p>
+<h4 id="组合变换"><a href="#组合变换" class="headerlink" title="组合变换"></a>组合变换</h4><p>我们经常需要将变换组合起来，比如你需要对自己的模型在X方向放大2倍，然后旋转45度。</p>
+<blockquote>
+<ul>
+<li><p>Often want to combine transforms </p>
+</li>
+<li><p>E.g. first scale by 2, then rotate by 45 degrees </p>
+</li>
+<li><p>Advantage of matrix formulation: All still a matrix </p>
+</li>
+<li><p>Not commutative!! Order matters </p>
+</li>
+</ul>
+</blockquote>
+<p>矩阵的优点是你可以使用这些矩阵进行单独的操作，连接矩阵只是矩阵相乘，因此多个变换仍然是一个矩阵。然而，重要的是我们要知道连接矩阵不是可交换的，因为矩阵乘法不具有交换性。</p>
+<blockquote>
+<p>$x_3=Rx_2 \qquad x_2=Sx_1$</p>
+<p>$x_3=R(Sx_1)=(RS)x_1$</p>
+<p>$x_3\neq SRx_1$</p>
+</blockquote>
+<p>组合旋转和旋转变换，从某个初始位置$x_1$开始，你可以先对它进行缩放，假设这个矩阵为$S$，缩放后的新位置是$x_2$；接着对$x_2$进行旋转，旋转矩阵是$R$得到$x_3$。因为矩阵的乘法满足结合律，因此这部分等于旋转矩阵$R$乘以缩放矩阵$S$的结果再乘以$x_1$。我们得到一个合成的变换矩阵：$R*S$。</p>
+<p>我们可以交换顺序吗？矩阵乘法不可交换，如果按照相反的顺序做旋转和缩放，结果就会改变。先做旋转再做缩放和错切相似。</p>
+<blockquote>
+<ul>
+<li><p>Say I want to invert a combination of 3 transforms </p>
+</li>
+<li><p>Option 1: Find composite matrix, invert </p>
+</li>
+<li><p>Option 2: Invert each transform <strong>and swap order</strong> </p>
+</li>
+<li><p>Obvious from properties of matrices, demo </p>
+</li>
+</ul>
+<p>$M=M_1M_2M_3$</p>
+<p>$M^{-1}=M_3^{-1}M_2^{-1}M_1^{-1}$</p>
+<p>$M^{-1}M=M_3^{-1}(M_2^{-1}(M_1^{-1}M_1)M_2)M_3$</p>
+</blockquote>
+<p>最后我们想做的是做一个组合变换的逆变换。假设我们有2到3个变换：缩放、旋转和平移，该如何对它逆变换使它返回到初始的正确位置呢？有两种方法可以尝试：求出所有这些单个矩阵的乘积然后使用通用的逆矩阵求解过程求出这个结果矩阵的逆矩阵；另一种方法你可以单独求出每一个矩阵的逆矩阵，但需要注意求连乘矩阵的逆需要求出每个矩阵的逆然后逆序防止这些矩阵。</p>
+<h4 id="三维旋转"><a href="#三维旋转" class="headerlink" title="三维旋转"></a>三维旋转</h4><p>现在我们来讨论三维旋转。</p>
+<blockquote>
+<p>Review of 2D case </p>
+<p>$\begin{bmatrix}x’ \\ y’\end{bmatrix}=\begin{bmatrix}\cos\theta &amp; -\sin\theta \\ \sin\theta &amp; \cos\theta \end{bmatrix}\begin{bmatrix}x \\ y\end{bmatrix}$</p>
+<p>Orthogonal? $R^TR=I$</p>
+</blockquote>
+<p>回顾一下二维旋转，对于这个矩阵有一个重要的性质没有提到–旋转矩阵是正交的。更直接的说，R的转置（$R^T$）乘以R等于单位矩阵I。</p>
+<blockquote>
+<p>$\begin{pmatrix}\cos &amp; \sin \\ -\sin &amp; \cos\end{pmatrix}\begin{pmatrix}\cos &amp; -\sin \\ \sin &amp; \cos\end{pmatrix}=\begin{pmatrix}1 &amp; 0 \\ 0 &amp; 1\end{pmatrix}$</p>
+</blockquote>
+<blockquote>
+<p>Rotations about coordinate axes simple </p>
+<p>$R_z=\begin{pmatrix}\cos &amp; -\sin &amp; 0 \\ \sin &amp; \cos &amp; 0 \\ 0 &amp; 0 &amp; 1\end{pmatrix} \qquad R_x = \begin{pmatrix}1 &amp; 0 &amp; 0 \\ 0 &amp; \cos &amp; -\sin \\ 0 &amp; \sin &amp; \cos \end{pmatrix}$</p>
+<p>$R_y=\begin{pmatrix}\cos &amp; 0 &amp; \sin \\ 0 &amp; 1 &amp; 0 \\ -\sin &amp; 0&amp; \cos\end{pmatrix}$</p>
+<p>Always linear, orthogonal                 $R^TR=I$</p>
+<ul>
+<li>Rows/cols orthonormal            $R(X+Y)=R(X)+R(Y)$ </li>
+</ul>
+</blockquote>
+<p>现在我们考虑三维空间中关于坐标轴的旋转。二维旋转可以看作是绕着Z轴的特殊旋转，因为Z轴保持不变。</p>
+<blockquote>
+<ul>
+<li><p>Rows of matrix are 3 unit vectors of new coord frame </p>
+</li>
+<li><p>Can construct rotation matrix from 3 orthonormal vectors </p>
+</li>
+</ul>
+<p>$R_{uvw}=\begin{pmatrix}x_u &amp; y_u &amp; z_u \\ x_v &amp; y_v &amp; z_v \\ x_w &amp; y_w &amp; z_w\end{pmatrix} \qquad u=x_uX+y_uY+z_uZ$</p>
+<p>$R_p=\begin{pmatrix}x_u &amp; y_u &amp; z_u \\ x_v &amp; y_v &amp; z_v \\ x_w &amp; y_w &amp; z_w\end{pmatrix}\begin{pmatrix}x_p \\ y_p \\ z_p\end{pmatrix}=?$</p>
+</blockquote>
+<p>我们可以把矩阵的每一行当作一个新的单位向量，向量u是新坐标系的坐标轴。由此得出，当给定了3个正交向量，正交意味着向量u点乘向量v等于0、向量u点乘向量w等于0、向量v点乘向量w等于0，并且u，v，w都是单位向量。所以给定任意的这样三个向量，就可以确定标准的XYZ坐标系下的一个旋转，通过这些向量我们可以构建一个旋转矩形。</p>
+<blockquote>
+<ul>
+<li><p>Rows of matrix are 3 unit vectors of new coord frame </p>
+</li>
+<li><p>Can construct rotation matrix from 3 orthonormal vectors </p>
+</li>
+<li><p>Effectively, projections of point into new coord frame </p>
+</li>
+<li><p>New coord frame uvw taken to cartesian components xyz </p>
+</li>
+<li><p>Inverse or transpose takes xyz cartesian to uvw</p>
+</li>
+</ul>
+</blockquote>
+<p>还有一种有趣的思考方式，就是旋转矩阵乘以点的形式。我们可以用这种方式写下这个旋转矩阵：$\begin{pmatrix}u \\ v \\ w\end{pmatrix}p=\begin{pmatrix}u \cdot p \\ v \cdot p \\ w \cdot p\end{pmatrix}$。因此，实际上我们做的仅仅是把点p映射到新的坐标系里，这是一个非常简单的三维旋转的解释：在一个坐标系下得到了p的点积。</p>
+<p>这是一个很有用的性质，这个坐标可以用来表示新的u，v，w坐标并使它们等于X，Y，Z。逆变换就是使X，Y，Z的值等于u，v，w。</p>
+<blockquote>
+<ul>
+<li>Not Commutative (unlike in 2D)!! </li>
+<li>Rotate by x, then y is not same as y then x </li>
+<li>Order of applying rotations does matter </li>
+<li>Follows from matrix multiplication not commutative<ul>
+<li>R1 * R2 is not the same as R2 * R1 </li>
+</ul>
+</li>
+<li>Demo: HW1, order of right or up will matter </li>
+</ul>
+</blockquote>
+<p>三维旋转是不可交换的，当你先绕着X旋转再绕着Y轴旋转效果和先绕着Y轴旋转再绕着X轴旋转式不同的。其实这也可以从矩阵的乘法直接得出：矩阵$R_1*R_2 \neq R_2 * R_1$。</p>
+<blockquote>
+<ul>
+<li><p>Rotate by an angle θ about arbitrary axis <strong>a</strong> </p>
+<ul>
+<li>Homework 1: must rotate eye, up direction </li>
+<li>Somewhat mathematical derivation but useful formula </li>
+</ul>
+</li>
+<li><p>Problem setup: Rotate vector <strong>b</strong> by θ about <strong>a</strong> </p>
+</li>
+<li><p>Helpful to relate <strong>b</strong> to X, <strong>a</strong> to Z, verify does right thing </p>
+</li>
+<li><p>For HW1, you probably just need final formula </p>
+</li>
+</ul>
+</blockquote>
+<p>在三维情况下，我们能否给出一个任意的旋转公式？绕任意一个角度（旋转的轴角 axis-angle）旋转，同样的表示方法还有欧拉角或四元数。</p>
+<blockquote>
+<ul>
+<li>Step 1: <strong>b</strong> has components parallel to <strong>a</strong>, perpendicular<ul>
+<li>Parallel component unchanged (rotating about an axis leaves that axis unchanged after rotation, e.g. rot about z) </li>
+</ul>
+</li>
+<li>Step 2: Define <strong>c</strong> orthogonal to both <strong>a</strong> and <strong>b</strong><ul>
+<li>Analogous to defining Y axis </li>
+<li>Use cross products and matrix formula for that </li>
+</ul>
+</li>
+<li>Step 3: With respect to the perpendicular comp of <strong>b</strong> <ul>
+<li>Cos θ of it remains unchanged </li>
+<li>Sin θ of it projects onto vector <strong>c</strong> </li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h4 id="齐次坐标"><a href="#齐次坐标" class="headerlink" title="齐次坐标"></a>齐次坐标</h4><blockquote>
+<ul>
+<li><p><em>Translation: Homogeneous Coordinates</em></p>
+</li>
+<li><p>Transforming Normals</p>
+</li>
+<li><p>Rotations revisited: coordinate frames</p>
+</li>
+<li><p>gluLookAt (quickly)</p>
+</li>
+</ul>
+</blockquote>
+<p>我们首先来讲平移和齐次坐标。到目前为止，我们已经处理了旋转、缩放，但我们还没处理将一个物体从一个地方移动到另一个地方的简单操作。</p>
+<blockquote>
+<ul>
+<li>E.g. move x by +5 units, leave y, z unchanged</li>
+<li>We need appropriate matrix. What is it?</li>
+</ul>
+<p>$\begin{pmatrix}x’ \\ y’ \\ z’ \end{pmatrix}=\begin{pmatrix}?\end{pmatrix}\begin{pmatrix}x \\ y \\ z\end{pmatrix}=\begin{pmatrix}x+5 \\ y \\ z\end{pmatrix}$</p>
+</blockquote>
+<p>这个矩阵是什么呢？这是一个挑战性的问题，也许有人说可以$[1 \space 0 \space \frac{5}{z}]$ 和 $\begin{pmatrix}x \\ y \\ z\end{pmatrix}$这样+5，但实际上变换矩阵是不能包含有关x、y、z的参数。</p>
+<p>在图形学中我们通过齐次坐标的方法来解决。齐次坐标的产生时很多事情变为可能，否则的话很多事情将会非常困难。</p>
+<blockquote>
+<ul>
+<li><p>Add a fourth homogeneous coordinate (w=1)</p>
+</li>
+<li><p>4x4 matrices very common in graphics, hardware</p>
+</li>
+<li><p>Last row always 0 0 0 1 (until next lecture)</p>
+</li>
+</ul>
+<p>$\begin{pmatrix}\end{pmatrix} = \begin{pmatrix}1 &amp; 0 &amp; 0 &amp; 5 \\ 0 &amp; 1 &amp; 0 &amp; 0 \\ 0 &amp;0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp;1 \end{pmatrix} \begin{pmatrix}x \\ y \\ z \\ 1\end{pmatrix} = \begin{pmatrix}x + 5 \\ y \\ z  \\ 1\end{pmatrix}$</p>
+</blockquote>
+<p>回想起来这个想法非常简单，你只需要加入第四个齐次坐标即可。我们用w表示这第四个齐次坐标，专门用作平移变换的。可以看到 $\begin{pmatrix}1 &amp; 0 &amp; 0 &amp; 5\end{pmatrix}\begin{pmatrix}x \\ y \\ z \\ 1\end{pmatrix}=x+5$</p>
+<blockquote>
+<p>Homogeneous coordinates</p>
+<ul>
+<li><p>Divide by 4th coord (w) to get (inhomogeneous) point</p>
+</li>
+<li><p>Multiplication by w &gt; 0, no effect</p>
+</li>
+<li><p>Assume w ≥ 0. For w &gt; 0, normal finite point. For w = 0, point at infinity (used for vectors to stop translation)</p>
+</li>
+</ul>
+</blockquote>
+<p>这就是齐次坐标，通过加入一个w坐标，可以做平移变换。但事实上还可以使用齐次坐标做更多有趣的事情。</p>
+<p>第一个问题这个齐次项来自何处？本质上，点的非齐次坐标是通过除以w给定的，所以实际上$P=\begin{pmatrix}x \\ y \\ z \\ w\end{pmatrix}=\begin{pmatrix}x/w \\ y/w \\ z/w \\ 1\end{pmatrix}$。一个重要的推论是四维齐次坐标的任何常量缩放会得到相同的结果。事实上，它包含点的非齐次坐标的所有可能缩放。在前面我们假设w=1，事实上w可以等于任何数值，如果w=0，这表示一个无穷远处的点。在实际应用中w等于0通常用来表示一个向量，矩阵不会对向量产生平移的效果。</p>
+<blockquote>
+<ul>
+<li><p>Unified framework for translation, viewing, rot…</p>
+</li>
+<li><p>Can concatenate any set of transforms to 4x4 matrix</p>
+</li>
+<li><p>No division (as for perspective viewing) till end</p>
+</li>
+<li><p>Simpler formulas, no special cases</p>
+</li>
+<li><p>Standard in graphics software, hardware</p>
+</li>
+</ul>
+</blockquote>
+<p>齐次坐标的优点首先是它是我们考虑的所有变换的一个统一框架，这些变换包括平移、观察、旋转以及后面要讲到的透视投影。这意味着整个渲染管线都以这个$4\times4$的齐次坐标矩阵及其对应的四维向量为基础，只有在最后一步表示屏幕上真实点的位置的时候才需要把齐次变为非齐次。实际上，所有这些变换都可以通过齐次坐标联系起来，我可以移动我的模型、旋转它、缩放它、平移它、观察它……所有这些都是一个单一的$4\times4$的矩阵。</p>
+<p>在计算机里除法是一个非常复杂的操作，相比于加法或乘法它花费更多的时钟周期，但除法却非常基础，所以如果你考虑透视投影，你可能看到远处的物体看起来更小，因此不得不除以深度。齐次坐标的优点就是只需在渲染管线的最后一步做一次除法将齐次坐标转换为非齐次，中间没有任何除法操作。</p>
+<p>由于以上这些原因，4阶矩阵和齐次坐标是计算机图形软件和硬件中普遍使用的标准。</p>
+<blockquote>
+<p>$T=\begin{pmatrix}1 &amp; 0 &amp; 0 &amp; T_x \\ 0 &amp; 1 &amp; 0 &amp; T_y \\ 0 &amp; 0 &amp; 1 &amp; T_z \\ 0 &amp; 0 &amp; 0 &amp; 1\end{pmatrix}=\begin{pmatrix}I_3 &amp; T \\ 0 &amp; 1\end{pmatrix}$</p>
+<p>$P’=TP=\begin{pmatrix}1 &amp; 0 &amp; 0 &amp; T_x \\ 0 &amp; 1 &amp; 0 &amp; T_y \\ 0 &amp; 0 &amp; 1 &amp; T_z \\ 0 &amp; 0 &amp; 0 &amp; 1\end{pmatrix}\begin{pmatrix}x \\ y \\ z \\ 1\end{pmatrix}=\begin{pmatrix}x+T_x \\ y + T_y \\ z + T_z \\ 1\end{pmatrix}=P+T$</p>
+</blockquote>
+<p>这里没有施加旋转，当单位矩阵作用到x，y，z时不变，这正是我们希望的结果。矩阵的右上部分是我们的平移向量，实际上是一个点加上一个平移向量。当考虑旋转和平移把$4\times4$矩阵写成这种形式很方便。</p>
+<blockquote>
+<ul>
+<li><p>Order matters!! TR is not the same as RT (demo)</p>
+</li>
+<li><p>General form for rigid body transforms</p>
+</li>
+<li><p>We show rotation first, then translation (commonly used to position objects) on next slide. Slide after </p>
+</li>
+</ul>
+<p>that works it out the other way </p>
+<ul>
+<li>Demos with applet</li>
+</ul>
+<p>$P’=(TR)P=MP=RP+T$</p>
+<p>$P’=(RT)P=MP=R(P+T)=RP+RT$</p>
+</blockquote>
+<h4 id="法向变换"><a href="#法向变换" class="headerlink" title="法向变换"></a>法向变换</h4><blockquote>
+<ul>
+<li>Important for many tasks in graphics like lighting</li>
+<li>Do not transform like points e.g. shear</li>
+<li>Algebra tricks to derive correct transform</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>$t \to Mt \qquad n \to Qn \qquad Q=?$</p>
+<p>$n^Tt=0$</p>
+<p>$n^TQ^TMt=0 \to Q^TM=I$</p>
+<p>$Q=(M^{-1})^T$</p>
+</blockquote>
+<h4 id="旋转和坐标"><a href="#旋转和坐标" class="headerlink" title="旋转和坐标"></a>旋转和坐标</h4><blockquote>
+<ul>
+<li><p>All of discussion in terms of operating on points</p>
+</li>
+<li><p>But can also change coordinate system </p>
+</li>
+<li><p>Example, motion means either point moves backward, or coordinate system moves forward</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><p>Can differ both origin and orientation (e.g. 2 people)</p>
+</li>
+<li><p>One good example: World, camera coord frames (H1)</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><p>Rows of matrix are 3 unit vectors of new coord frame</p>
+</li>
+<li><p>Can construct rotation matrix from 3 orthonormal vectors</p>
+</li>
+</ul>
+</blockquote>
+<h4 id="推导gluLookAt"><a href="#推导gluLookAt" class="headerlink" title="推导gluLookAt"></a>推导gluLookAt</h4><blockquote>
+<p>Defines camera, fundamental to how we view images</p>
+<ul>
+<li><p>gluLookAt(eyex, eyey, eyez, centerx, centery, centerz, upx, upy, upz) </p>
+</li>
+<li><p>Camera is at eye, looking at center, with the up direction being up</p>
+</li>
+<li><p>May be important for HW1</p>
+</li>
+<li><p>Combines many concepts discussed in lecture</p>
+</li>
+<li><p>Core function in OpenGL for later assignments</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><p>gluLookAt(eyex, eyey, eyez, centerx, centery, centerz, upx, upy, upz)</p>
+</li>
+<li><p>Camera is at eye, looking at center, with the up direction being up</p>
+</li>
+<li><p><em>First, create a coordinate frame for the camera</em></p>
+</li>
+<li><p>Define a rotation matrix</p>
+</li>
+<li><p>Apply appropriate translation for camera (eye) location</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>We want to associate <strong>w</strong> with <strong>a</strong>, and <strong>v</strong> with <strong>b</strong> </p>
+<ul>
+<li><p>But <strong>a</strong> and <strong>b</strong> are neither orthogonal nor unit norm</p>
+</li>
+<li><p>And we also need to find <strong>u</strong></p>
+</li>
+</ul>
+<ul>
+<li><p>We want to position camera at origin, looking down –Z dirn</p>
+</li>
+<li><p>Hence, vector <strong>a</strong> is given by <strong>eye</strong> – <strong>center</strong></p>
+</li>
+<li><p>The vector <strong>b</strong> is simply the <strong>up</strong> vector</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><p>Rows of matrix are 3 unit vectors of new coord frame</p>
+</li>
+<li><p>Can construct rotation matrix from 3 orthonormal vectors</p>
+</li>
+</ul>
+</blockquote>
+<h3 id="Viewing"><a href="#Viewing" class="headerlink" title="Viewing"></a>Viewing</h3><h4 id="正交投影"><a href="#正交投影" class="headerlink" title="正交投影"></a>正交投影</h4><h4 id="透视投影"><a href="#透视投影" class="headerlink" title="透视投影"></a>透视投影</h4><h4 id="gluPerspective"><a href="#gluPerspective" class="headerlink" title="gluPerspective"></a>gluPerspective</h4>]]></content>
+      <categories>
+        <category>计算机图像学(Foundations of Computer Graphics)</category>
+      </categories>
+      <tags>
+        <tag>Mooc</tag>
+        <tag>Computer Graphics</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Github个人首页美化</title>
     <url>/archives/d7f21a0b.html</url>
-    <content><![CDATA[<p>本文将介绍如何从零开始美化自己的Github主页，让<code>Github Profile</code>展示更多有用的信息。</p>
+    <content><![CDATA[<p>本文将介绍如何从零开始美化自己的Github主页，让<code>Github Profile</code>展示更多有用的信息，包括统计卡片和代码时长统计等。</p>
 <a id="more"></a>
 
 
@@ -9602,7 +9606,9 @@
     <content><![CDATA[<p>1984年，在冷战期间，一位名叫Alexey Pajitnov的俄罗斯程序员创造了一些特别的东西：一款名为俄罗斯方块的益智游戏。它很快在苏联内部获得了狂热的追捧。当游戏穿越冷战铁幕的时候，一场关于出版俄罗斯方块的权利的争斗爆发了。俄罗斯方块不仅掀起了电子游戏行业的风暴，还帮助打破了美国和苏联之间的界限。 </p>
 <a id="more"></a>
 
+<blockquote>
 <p>本文是观看完 <a href="https://www.youtube.com/channel/UCnbvPS_rXp4PC21PG2k1UVg">Gaming Historian</a> 的 <a href="https://www.youtube.com/watch?v=_fQtxKmgJC8&feature=youtu.be">The Story of Tetris | Gaming Historian</a> 后深受触动，决定整理一份文字版以供大家参考，中文制译可以移步 <a href="https://space.bilibili.com/180052141">卡姐Cara</a> 的 <a href="https://www.bilibili.com/video/BV1CW411j73x">《俄罗斯方块》的故事</a>，有条件的读者可以支持上面的作者和译者。</p>
+</blockquote>
 <h3 id="时代背景"><a href="#时代背景" class="headerlink" title="时代背景"></a>时代背景</h3><p>1984年，冷战在两个超级大国间加剧，经济和政治差异让这两个二战前盟友关系紧张。资本主义美国经历了空前的经济增长，苹果发布了备受期待的麦金塔个人电脑，洛杉矶举办了1984年夏季奥运会，电影《捉鬼敢死队》和《小魔怪》轰动一时（前者是美国影史上第一部卖座破百万美元的恐怖喜剧片），布鲁斯·斯普林斯廷发布了他最成功的专辑《诞生在美国》（在美国排行榜榜首停留了7周，在英国排行榜上停留了2年半之久），美国经济发达、社会繁荣。但共产主义苏联却呈鲜明对比，经济停滞不前，石油作为主要出口产品价格下跌，苏联抵制1984年夏季奥运会，称其为反苏闹剧，总书记康斯坦丁·契尔年科病危，米哈伊尔·戈尔巴乔夫准备接任，与阿富汗的冲突已持续五年，老百姓生活惆怅而拮据，政府发动席卷全国的改革以消除异议、恢复秩序，两国陷入前所未有的分歧。</p>
 <p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4b448ds7j311y0lcact.jpg"></p>
 <p>但那年夏天，一名苏联程序员创造了一样特别的东西——一款益智游戏。这款游戏风靡游戏行业，打破了两个超级大国间的隔阂。</p>
@@ -9965,7 +9971,7 @@
   <entry>
     <title>C#中级编程</title>
     <url>/archives/7d83bb70.html</url>
-    <content><![CDATA[<p>本课程将通过Unity社区简单易学的讲解，在初级教程的基础上更近一步介绍游戏开发编程。</p>
+    <content><![CDATA[<p>本课程将通过Unity社区简单易学的讲解，在初级教程的基础上更近一步介绍游戏开发编程，了解面向对象思想的编程模式。</p>
 <a id="more"></a>
 
 <p><a href="https://unity.cn/ask/question/5f924d5cedbc2a0020a89d1e">点击查看Unity社区全部教程</a></p>
@@ -10668,7 +10674,7 @@
   <entry>
     <title>C#初级编程</title>
     <url>/archives/5342c81f.html</url>
-    <content><![CDATA[<p>本课程将通过Unity社区简单易学的讲解，从零基础开始介绍游戏开发编程。</p>
+    <content><![CDATA[<p>本课程将通过Unity社区简单易学的讲解，从零基础开始介绍游戏开发编程，主要内容是C#的基本语法以及Unity内置函数的了解和使用。</p>
 <a id="more"></a>
 
 
