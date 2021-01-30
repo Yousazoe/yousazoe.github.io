@@ -256,9 +256,33 @@
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Code Highlight theme</span></span><br><span class="line"><span class="comment"># Available value: normal | night | night eighties | night blue | night bright</span></span><br><span class="line"><span class="comment"># https://github.com/chriskempson/tomorrow-theme</span></span><br><span class="line"><span class="attr">highlight_theme:</span> <span class="string">normal</span></span><br></pre></td></tr></table></figure>
 
 
+<h3 id="阅读进度条"><a href="#阅读进度条" class="headerlink" title="阅读进度条"></a>阅读进度条</h3><p>我们可以在主题配置文件<code>_config.yml</code> 中进行修改：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Reading progress bar</span></span><br><span class="line"><span class="attr">reading_progress:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="string">ture</span></span><br><span class="line">  <span class="comment"># Available values: top | bottom</span></span><br><span class="line">  <span class="attr">position:</span> <span class="string">top</span></span><br><span class="line">  <span class="attr">color:</span> <span class="string">&quot;#37c6c0&quot;</span></span><br><span class="line">  <span class="attr">height:</span> <span class="string">3px</span></span><br></pre></td></tr></table></figure>
+<p>注意：<strong>这个阅读进度条动画需要安装依赖</strong>，地址：<a href="https://github.com/theme-next/theme-next-reading-progress">Reading Progress for NexT</a>。</p>
+<ul>
+<li>方法 1：安装文件</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 进入主题目录</span></span><br><span class="line"><span class="built_in">cd</span> themes/next</span><br><span class="line"></span><br><span class="line"><span class="comment"># 从GitHub下载依赖文件</span></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/theme-next-reading-progress <span class="built_in">source</span>/lib/reading_progress</span><br></pre></td></tr></table></figure>
+<ul>
+<li>方法 2：启用 CDN</li>
+</ul>
+<p>我们可以在主题配置文件<code>_config.yml</code> 中修改：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">vendors:</span></span><br><span class="line">  <span class="attr">reading_progress:</span> <span class="string">//cdn.jsdelivr.net/gh/theme-next/theme-next-reading-progress@1/reading_progress.min.js</span></span><br></pre></td></tr></table></figure>
+
+
+<h3 id="动态彩带背景"><a href="#动态彩带背景" class="headerlink" title="动态彩带背景"></a>动态彩带背景</h3><p>我们可以在主题配置文件<code>_config.yml</code> 中修改：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># JavaScript 3D library.</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/theme-next-three</span></span><br><span class="line"><span class="attr">three:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">three_waves:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">canvas_lines:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">canvas_sphere:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<p>接着替换原先的CDN：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Internal version: 1.0.0</span></span><br><span class="line"> <span class="comment"># three: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three.min.js</span></span><br><span class="line"> <span class="comment"># three_waves: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three-waves.min.js</span></span><br><span class="line"> <span class="comment"># canvas_lines: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_lines.min.js</span></span><br><span class="line"> <span class="comment"># canvas_sphere: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_sphere.min.js</span></span><br><span class="line"> <span class="attr">three:</span></span><br><span class="line"> <span class="attr">three_waves:</span></span><br><span class="line"> <span class="attr">canvas_lines:</span> <span class="string">//cdn.jsdelivr.net/gh/bynotes/texiao/source/js/caidai.js</span> <span class="comment"># 动态彩带</span></span><br><span class="line"> <span class="attr">canvas_sphere:</span></span><br></pre></td></tr></table></figure>
+
+
+
+
 <h4 id="公益404页面"><a href="#公益404页面" class="headerlink" title="公益404页面"></a>公益404页面</h4><p>腾讯公益404页面，寻找丢失儿童，让大家一起关注此项公益事业！效果如下 <a href="http://www.ixirong.com/404.html">http://www.ixirong.com/404.html</a></p>
 <p>使用方法，新建 404.html 页面，放到主题的 <code>source</code> 目录下，内容如下：</p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">HTML</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;content-type&quot;</span> <span class="attr">content</span>=<span class="string">&quot;text/html;charset=utf-8;&quot;</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge,chrome=1&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;robots&quot;</span> <span class="attr">content</span>=<span class="string">&quot;all&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;robots&quot;</span> <span class="attr">content</span>=<span class="string">&quot;index,follow&quot;</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/css&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/style/404style.css&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/plain&quot;</span> <span class="attr">src</span>=<span class="string">&quot;http://www.qq.com/404/search_children.js&quot;</span></span></span><br><span class="line"><span class="tag">          <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">homePageUrl</span>=<span class="string">&quot;/&quot;</span></span></span><br><span class="line"><span class="tag">          <span class="attr">homePageName</span>=<span class="string">&quot;回到我的主页&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/data.js&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/page.js&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
 ]]></content>
       <categories>
         <category>博客搭建 (Blog Building)</category>
@@ -768,7 +792,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#101;&#101;&#110;&#120;&#117;&#64;&#116;&#x65;&#110;&#x63;&#101;&#x6e;&#116;&#46;&#99;&#x6f;&#109;">&#108;&#101;&#101;&#110;&#120;&#117;&#64;&#116;&#x65;&#110;&#x63;&#101;&#x6e;&#116;&#46;&#99;&#x6f;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#x65;&#x6e;&#120;&#x75;&#64;&#x74;&#101;&#110;&#99;&#101;&#x6e;&#x74;&#46;&#x63;&#111;&#x6d;">&#108;&#x65;&#x65;&#x6e;&#120;&#x75;&#64;&#x74;&#101;&#110;&#99;&#101;&#x6e;&#x74;&#46;&#x63;&#111;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -1555,6 +1579,203 @@
         <tag>Game</tag>
         <tag>RPG</tag>
         <tag>MMORPG</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分析聚焦感情而设计的游戏品类</title>
+    <url>/archives/86c9b0ee.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh7yu5uj06j312w0lv7i7.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/101068479/Minecraft-Collection?tracking_source=search_projects_recommended%7Cminecraft">Minecraft Collection</a> by 
+      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+
+<h3 id=""><a href="#" class="headerlink" title=""></a><div align=center></h3>  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/110074175/Haokan_Newbrand_video?tracking_source=search_projects_recommended">Haokan_Newbrand_video</a> by 
+      <a href="https://www.behance.net/donerzozo">Donerzozo</a>
+    </i>
+  </font>
+</div>
+
+<p>本文主要分成四个部分，首先是关于聚焦情感而诞生的玩法品类，并以女性向游戏为例进行简要分析，提取出特征和关键要素；之后是关于聚焦情感而产生的设计方向，也就是独立游戏，提取出独立游戏的关键要素。</p>
+<a id="more"></a>
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>Kinhu</strong></p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+<li>HR专业，一名普通的游戏策划</li>
+<li>大三完成第一款独立游戏从而入行</li>
+<li>至今完成20多款游戏作品</li>
+<li>担任过 程序、美术、音乐、策划</li>
+<li>商业游戏界十多年工作经验</li>
+</ul>
+<h3 id="聚焦感情而诞生的玩法品类-女性向游戏"><a href="#聚焦感情而诞生的玩法品类-女性向游戏" class="headerlink" title="聚焦感情而诞生的玩法品类 - 女性向游戏"></a>聚焦感情而诞生的玩法品类 - 女性向游戏</h3><h4 id="一段有趣的对话"><a href="#一段有趣的对话" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
+<ul>
+<li>宫斗卡牌游戏</li>
+<li>策略性 玩法</li>
+<li>好多帅哥 很多漂亮的衣服</li>
+</ul>
+</blockquote>
+<h4 id="女性向游戏"><a href="#女性向游戏" class="headerlink" title="女性向游戏"></a>女性向游戏</h4><ul>
+<li>以女性<strong>精神诉求</strong>为<strong>出发点</strong>进行设计</li>
+<li>以女性<strong>基础需求</strong>作为<strong>核心</strong>进行设计</li>
+</ul>
+<h3 id="该品类的特征和关键要素-共性三要素"><a href="#该品类的特征和关键要素-共性三要素" class="headerlink" title="该品类的特征和关键要素 - 共性三要素"></a>该品类的特征和关键要素 - 共性三要素</h3><h4 id="共性产品提取出的女性关注焦点三要素"><a href="#共性产品提取出的女性关注焦点三要素" class="headerlink" title="共性产品提取出的女性关注焦点三要素"></a>共性产品提取出的女性关注焦点三要素</h4><ul>
+<li>恋爱</li>
+<li>时尚</li>
+<li>装扮</li>
+</ul>
+<h4 id="表现永远是女性向的第一门槛"><a href="#表现永远是女性向的第一门槛" class="headerlink" title="表现永远是女性向的第一门槛"></a>表现永远是女性向的第一门槛</h4><ul>
+<li><p>符合本国大众女性用户审美，排斥情绪最低</p>
+</li>
+<li><p>女性才愿意通过表现看到焦点</p>
+</li>
+</ul>
+<ul>
+<li><p>如果有合格的表现和焦点就能成功，那么这些游戏为何成功？</p>
+<p>女性的心理特点，才是女性向市场存在的核心</p>
+</li>
+</ul>
+<h5 id="女性心理特点抽取出三要素"><a href="#女性心理特点抽取出三要素" class="headerlink" title="女性心理特点抽取出三要素"></a>女性心理特点抽取出三要素</h5><h6 id="群体的归属"><a href="#群体的归属" class="headerlink" title="群体的归属"></a>群体的归属</h6><ul>
+<li>获得群体</li>
+<li>可融入的群体</li>
+<li>值得依赖的群体</li>
+<li>有爱的群体</li>
+</ul>
+<h6 id="纤细的情感"><a href="#纤细的情感" class="headerlink" title="纤细的情感"></a>纤细的情感</h6><ul>
+<li>细腻</li>
+<li>丰富</li>
+<li>多样</li>
+<li>真实</li>
+</ul>
+<h6 id="虚荣的攀比"><a href="#虚荣的攀比" class="headerlink" title="虚荣的攀比"></a>虚荣的攀比</h6><ul>
+<li>独占欲：限定 唯一</li>
+<li>精神上的击败：多 贵 好</li>
+<li>高忠诚度和对外洁癖</li>
+</ul>
+<p>女性的心理特点受到生理和社会观念等长期影响</p>
+<h4 id="聚焦女性情感，才能准确掌握女性向游戏的核心"><a href="#聚焦女性情感，才能准确掌握女性向游戏的核心" class="headerlink" title="聚焦女性情感，才能准确掌握女性向游戏的核心"></a>聚焦女性情感，才能准确掌握女性向游戏的核心</h4><h5 id="共性元素"><a href="#共性元素" class="headerlink" title="共性元素"></a>共性元素</h5><ul>
+<li>恋爱</li>
+<li>时尚 流行 娱乐</li>
+<li>美食</li>
+</ul>
+<h5 id="共性表现"><a href="#共性表现" class="headerlink" title="共性表现"></a>共性表现</h5><ul>
+<li>本国的大众审美</li>
+<li>拒绝另类</li>
+</ul>
+<ul>
+<li><p>共性体验</p>
+<p>同品类游戏中，操作体验轻度，内容体验重度，受到女性价值观认可度高</p>
+</li>
+</ul>
+<h3 id="聚焦感情而产生的设计方向-独立游戏"><a href="#聚焦感情而产生的设计方向-独立游戏" class="headerlink" title="聚焦感情而产生的设计方向 - 独立游戏"></a>聚焦感情而产生的设计方向 - 独立游戏</h3><h4 id="一段有趣的对话-1"><a href="#一段有趣的对话-1" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
+<ul>
+<li>我有一个不错的创意</li>
+<li>我看到的这些游戏里面有许多创意</li>
+<li>所以独立游戏等于创意，我应该可以作出不错的独立游戏</li>
+</ul>
+</blockquote>
+<h4 id="传统定义独立游戏"><a href="#传统定义独立游戏" class="headerlink" title="传统定义独立游戏"></a>传统定义独立游戏</h4><h5 id="不受商业投资的影响"><a href="#不受商业投资的影响" class="headerlink" title="不受商业投资的影响"></a>不受商业投资的影响</h5><ul>
+<li>自由创作 随性所欲</li>
+<li>没有Deadline KPI的项目</li>
+<li>远离你死我活的竞争</li>
+<li>自己做自己的老板</li>
+</ul>
+<h5 id="小团队"><a href="#小团队" class="headerlink" title="小团队"></a>小团队</h5><ul>
+<li>不超过10人的合作规模</li>
+<li>参与者之间是合作伙伴关系而非上下级</li>
+</ul>
+<h5 id="身兼数职"><a href="#身兼数职" class="headerlink" title="身兼数职"></a>身兼数职</h5><p>因为开发量和开发人数不成正比结果导致的</p>
+<h5 id="拥有独立精神的游戏"><a href="#拥有独立精神的游戏" class="headerlink" title="拥有独立精神的游戏"></a>拥有独立精神的游戏</h5><blockquote>
+<p><strong><em>Make Game For Fun</em></strong> </p>
+<p><strong><em>Fun Can Make Money</em></strong></p>
+<p><strong><em>独立之精神，自由之思想</em></strong></p>
+</blockquote>
+<p>在自由创作的情感诉求下所诞生的作品，不受固有玩法和类型的约束</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《我的战争》《万物》</strong> </li>
+</ul>
+</blockquote>
+<p>焦点是如何更好的传达设计师的情感诉求</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《replica》 《史丹利的寓言》</strong></li>
+</ul>
+</blockquote>
+<h3 id="如何利用聚焦的设计来脱颖而出-独立游戏的关键要素"><a href="#如何利用聚焦的设计来脱颖而出-独立游戏的关键要素" class="headerlink" title="如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素"></a>如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素</h3><h4 id="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"><a href="#残酷现实下迫使独立游戏在情感诉求上的表现更为张扬" class="headerlink" title="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"></a>残酷现实下迫使独立游戏在情感诉求上的表现更为张扬</h4><ul>
+<li><p>有限的宣传渠道</p>
+</li>
+<li><p>发行平台过于集中</p>
+</li>
+<li><p>成本控制的经验缺失</p>
+</li>
+<li><p>5%的完成率 1%的成功率</p>
+</li>
+</ul>
+<h4 id="从独立游戏开发进化方式分析出其设计的出发点"><a href="#从独立游戏开发进化方式分析出其设计的出发点" class="headerlink" title="从独立游戏开发进化方式分析出其设计的出发点"></a>从独立游戏开发进化方式分析出其设计的出发点</h4><h5 id="焦点式开发"><a href="#焦点式开发" class="headerlink" title="焦点式开发"></a>焦点式开发</h5><ul>
+<li>游戏创新 - 目标是可落地的</li>
+<li>游戏玩法 - 集中玩法设计，深挖玩法可衍生性</li>
+<li>游戏表现力 - 突围的方法</li>
+<li>成本控制 - 游戏保证完成</li>
+</ul>
+<p>聚焦情感所设计的游戏，不需要太过在意游戏玩法方式，<em>它可以是任意方式</em>。</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《传说之下（Undertale）》</strong></li>
+</ul>
+</blockquote>
+<p>越是贴近于生活的游戏创意，引起情感共鸣的成功可能性越高。</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《Papers Please》 《迷你小地铁》</strong></li>
+</ul>
+</blockquote>
+<p>足以让玩家衍生出情感创作的作品，是优秀独立游戏的特征。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh7z3ds8dwj31lz0u07wh.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.pixiv.net/artworks/64559533">日本語版公式リリース</a> by 
+      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>弗兰克 - 奥哈拉，美国当代最著名、最有影响力的纽约派诗人之一，《动物》是一首挽歌式的作品，作者用它凭吊逝去的恋情。</p>
+<p>美国独立游戏峰会时一位独立游戏制作人将此诗发给了现场所有独立游戏人，以此诗借喻鼓励全世界的独立游戏制作人，勿忘独立游戏制作最初带给他们的美好及感动。</p>
+<blockquote>
+<p><em>你还记得从前那段 &emsp; 我们最初的模样吗</em><br><em>每天啃着一个苹果 &emsp; 一天一天地变胖</em><br><em>感慨着时光地流逝 &emsp; 偶尔用一些小伎俩</em><br><em>试着做一些小突破 &emsp; 我们整个过往经历</em><br><em>就像一顿丰盛晚餐 &emsp; 不需要去计算时间</em><br><em>仅仅用冰块和白水 &emsp; 就能调制出鸡尾酒</em><br><strong><em>只要你和我在一起 &emsp; 我不会希望快一些</em></strong><br><strong><em>我也不会一无所知 &emsp; 你就是我这生命中</em></strong><br><strong><em>&emsp;&emsp;&emsp;&emsp;&emsp;最美好的一个存在</em></strong><br>&emsp;</p>
+</blockquote>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a><br/>
+      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
+    </i>
+  </font>
+</div>
+
+]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>INDIE</tag>
       </tags>
   </entry>
   <entry>
@@ -2359,203 +2580,6 @@
       </categories>
       <tags>
         <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>分析聚焦感情而设计的游戏品类</title>
-    <url>/archives/86c9b0ee.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh7yu5uj06j312w0lv7i7.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/101068479/Minecraft-Collection?tracking_source=search_projects_recommended%7Cminecraft">Minecraft Collection</a> by 
-      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a>
-    </i>
-  </font>
-</div>
-
-
-
-
-
-<h3 id=""><a href="#" class="headerlink" title=""></a><div align=center></h3>  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/110074175/Haokan_Newbrand_video?tracking_source=search_projects_recommended">Haokan_Newbrand_video</a> by 
-      <a href="https://www.behance.net/donerzozo">Donerzozo</a>
-    </i>
-  </font>
-</div>
-
-<p>本文主要分成四个部分，首先是关于聚焦情感而诞生的玩法品类，并以女性向游戏为例进行简要分析，提取出特征和关键要素；之后是关于聚焦情感而产生的设计方向，也就是独立游戏，提取出独立游戏的关键要素。</p>
-<a id="more"></a>
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>Kinhu</strong></p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li>HR专业，一名普通的游戏策划</li>
-<li>大三完成第一款独立游戏从而入行</li>
-<li>至今完成20多款游戏作品</li>
-<li>担任过 程序、美术、音乐、策划</li>
-<li>商业游戏界十多年工作经验</li>
-</ul>
-<h3 id="聚焦感情而诞生的玩法品类-女性向游戏"><a href="#聚焦感情而诞生的玩法品类-女性向游戏" class="headerlink" title="聚焦感情而诞生的玩法品类 - 女性向游戏"></a>聚焦感情而诞生的玩法品类 - 女性向游戏</h3><h4 id="一段有趣的对话"><a href="#一段有趣的对话" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
-<ul>
-<li>宫斗卡牌游戏</li>
-<li>策略性 玩法</li>
-<li>好多帅哥 很多漂亮的衣服</li>
-</ul>
-</blockquote>
-<h4 id="女性向游戏"><a href="#女性向游戏" class="headerlink" title="女性向游戏"></a>女性向游戏</h4><ul>
-<li>以女性<strong>精神诉求</strong>为<strong>出发点</strong>进行设计</li>
-<li>以女性<strong>基础需求</strong>作为<strong>核心</strong>进行设计</li>
-</ul>
-<h3 id="该品类的特征和关键要素-共性三要素"><a href="#该品类的特征和关键要素-共性三要素" class="headerlink" title="该品类的特征和关键要素 - 共性三要素"></a>该品类的特征和关键要素 - 共性三要素</h3><h4 id="共性产品提取出的女性关注焦点三要素"><a href="#共性产品提取出的女性关注焦点三要素" class="headerlink" title="共性产品提取出的女性关注焦点三要素"></a>共性产品提取出的女性关注焦点三要素</h4><ul>
-<li>恋爱</li>
-<li>时尚</li>
-<li>装扮</li>
-</ul>
-<h4 id="表现永远是女性向的第一门槛"><a href="#表现永远是女性向的第一门槛" class="headerlink" title="表现永远是女性向的第一门槛"></a>表现永远是女性向的第一门槛</h4><ul>
-<li><p>符合本国大众女性用户审美，排斥情绪最低</p>
-</li>
-<li><p>女性才愿意通过表现看到焦点</p>
-</li>
-</ul>
-<ul>
-<li><p>如果有合格的表现和焦点就能成功，那么这些游戏为何成功？</p>
-<p>女性的心理特点，才是女性向市场存在的核心</p>
-</li>
-</ul>
-<h5 id="女性心理特点抽取出三要素"><a href="#女性心理特点抽取出三要素" class="headerlink" title="女性心理特点抽取出三要素"></a>女性心理特点抽取出三要素</h5><h6 id="群体的归属"><a href="#群体的归属" class="headerlink" title="群体的归属"></a>群体的归属</h6><ul>
-<li>获得群体</li>
-<li>可融入的群体</li>
-<li>值得依赖的群体</li>
-<li>有爱的群体</li>
-</ul>
-<h6 id="纤细的情感"><a href="#纤细的情感" class="headerlink" title="纤细的情感"></a>纤细的情感</h6><ul>
-<li>细腻</li>
-<li>丰富</li>
-<li>多样</li>
-<li>真实</li>
-</ul>
-<h6 id="虚荣的攀比"><a href="#虚荣的攀比" class="headerlink" title="虚荣的攀比"></a>虚荣的攀比</h6><ul>
-<li>独占欲：限定 唯一</li>
-<li>精神上的击败：多 贵 好</li>
-<li>高忠诚度和对外洁癖</li>
-</ul>
-<p>女性的心理特点受到生理和社会观念等长期影响</p>
-<h4 id="聚焦女性情感，才能准确掌握女性向游戏的核心"><a href="#聚焦女性情感，才能准确掌握女性向游戏的核心" class="headerlink" title="聚焦女性情感，才能准确掌握女性向游戏的核心"></a>聚焦女性情感，才能准确掌握女性向游戏的核心</h4><h5 id="共性元素"><a href="#共性元素" class="headerlink" title="共性元素"></a>共性元素</h5><ul>
-<li>恋爱</li>
-<li>时尚 流行 娱乐</li>
-<li>美食</li>
-</ul>
-<h5 id="共性表现"><a href="#共性表现" class="headerlink" title="共性表现"></a>共性表现</h5><ul>
-<li>本国的大众审美</li>
-<li>拒绝另类</li>
-</ul>
-<ul>
-<li><p>共性体验</p>
-<p>同品类游戏中，操作体验轻度，内容体验重度，受到女性价值观认可度高</p>
-</li>
-</ul>
-<h3 id="聚焦感情而产生的设计方向-独立游戏"><a href="#聚焦感情而产生的设计方向-独立游戏" class="headerlink" title="聚焦感情而产生的设计方向 - 独立游戏"></a>聚焦感情而产生的设计方向 - 独立游戏</h3><h4 id="一段有趣的对话-1"><a href="#一段有趣的对话-1" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
-<ul>
-<li>我有一个不错的创意</li>
-<li>我看到的这些游戏里面有许多创意</li>
-<li>所以独立游戏等于创意，我应该可以作出不错的独立游戏</li>
-</ul>
-</blockquote>
-<h4 id="传统定义独立游戏"><a href="#传统定义独立游戏" class="headerlink" title="传统定义独立游戏"></a>传统定义独立游戏</h4><h5 id="不受商业投资的影响"><a href="#不受商业投资的影响" class="headerlink" title="不受商业投资的影响"></a>不受商业投资的影响</h5><ul>
-<li>自由创作 随性所欲</li>
-<li>没有Deadline KPI的项目</li>
-<li>远离你死我活的竞争</li>
-<li>自己做自己的老板</li>
-</ul>
-<h5 id="小团队"><a href="#小团队" class="headerlink" title="小团队"></a>小团队</h5><ul>
-<li>不超过10人的合作规模</li>
-<li>参与者之间是合作伙伴关系而非上下级</li>
-</ul>
-<h5 id="身兼数职"><a href="#身兼数职" class="headerlink" title="身兼数职"></a>身兼数职</h5><p>因为开发量和开发人数不成正比结果导致的</p>
-<h5 id="拥有独立精神的游戏"><a href="#拥有独立精神的游戏" class="headerlink" title="拥有独立精神的游戏"></a>拥有独立精神的游戏</h5><blockquote>
-<p><strong><em>Make Game For Fun</em></strong> </p>
-<p><strong><em>Fun Can Make Money</em></strong></p>
-<p><strong><em>独立之精神，自由之思想</em></strong></p>
-</blockquote>
-<p>在自由创作的情感诉求下所诞生的作品，不受固有玩法和类型的约束</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《我的战争》《万物》</strong> </li>
-</ul>
-</blockquote>
-<p>焦点是如何更好的传达设计师的情感诉求</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《replica》 《史丹利的寓言》</strong></li>
-</ul>
-</blockquote>
-<h3 id="如何利用聚焦的设计来脱颖而出-独立游戏的关键要素"><a href="#如何利用聚焦的设计来脱颖而出-独立游戏的关键要素" class="headerlink" title="如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素"></a>如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素</h3><h4 id="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"><a href="#残酷现实下迫使独立游戏在情感诉求上的表现更为张扬" class="headerlink" title="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"></a>残酷现实下迫使独立游戏在情感诉求上的表现更为张扬</h4><ul>
-<li><p>有限的宣传渠道</p>
-</li>
-<li><p>发行平台过于集中</p>
-</li>
-<li><p>成本控制的经验缺失</p>
-</li>
-<li><p>5%的完成率 1%的成功率</p>
-</li>
-</ul>
-<h4 id="从独立游戏开发进化方式分析出其设计的出发点"><a href="#从独立游戏开发进化方式分析出其设计的出发点" class="headerlink" title="从独立游戏开发进化方式分析出其设计的出发点"></a>从独立游戏开发进化方式分析出其设计的出发点</h4><h5 id="焦点式开发"><a href="#焦点式开发" class="headerlink" title="焦点式开发"></a>焦点式开发</h5><ul>
-<li>游戏创新 - 目标是可落地的</li>
-<li>游戏玩法 - 集中玩法设计，深挖玩法可衍生性</li>
-<li>游戏表现力 - 突围的方法</li>
-<li>成本控制 - 游戏保证完成</li>
-</ul>
-<p>聚焦情感所设计的游戏，不需要太过在意游戏玩法方式，<em>它可以是任意方式</em>。</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《传说之下（Undertale）》</strong></li>
-</ul>
-</blockquote>
-<p>越是贴近于生活的游戏创意，引起情感共鸣的成功可能性越高。</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《Papers Please》 《迷你小地铁》</strong></li>
-</ul>
-</blockquote>
-<p>足以让玩家衍生出情感创作的作品，是优秀独立游戏的特征。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh7z3ds8dwj31lz0u07wh.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.pixiv.net/artworks/64559533">日本語版公式リリース</a> by 
-      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
-    </i>
-  </font>
-</div>
-
-
-
-<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>弗兰克 - 奥哈拉，美国当代最著名、最有影响力的纽约派诗人之一，《动物》是一首挽歌式的作品，作者用它凭吊逝去的恋情。</p>
-<p>美国独立游戏峰会时一位独立游戏制作人将此诗发给了现场所有独立游戏人，以此诗借喻鼓励全世界的独立游戏制作人，勿忘独立游戏制作最初带给他们的美好及感动。</p>
-<blockquote>
-<p><em>你还记得从前那段 &emsp; 我们最初的模样吗</em><br><em>每天啃着一个苹果 &emsp; 一天一天地变胖</em><br><em>感慨着时光地流逝 &emsp; 偶尔用一些小伎俩</em><br><em>试着做一些小突破 &emsp; 我们整个过往经历</em><br><em>就像一顿丰盛晚餐 &emsp; 不需要去计算时间</em><br><em>仅仅用冰块和白水 &emsp; 就能调制出鸡尾酒</em><br><strong><em>只要你和我在一起 &emsp; 我不会希望快一些</em></strong><br><strong><em>我也不会一无所知 &emsp; 你就是我这生命中</em></strong><br><strong><em>&emsp;&emsp;&emsp;&emsp;&emsp;最美好的一个存在</em></strong><br>&emsp;</p>
-</blockquote>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a><br/>
-      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
-    </i>
-  </font>
-</div>
-
-]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>INDIE</tag>
       </tags>
   </entry>
   <entry>
@@ -4129,6 +4153,115 @@
       </tags>
   </entry>
   <entry>
+    <title>开始画像素画#1</title>
+    <url>/archives/655d7201.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zfnfb9aj31hc0u00wn.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《<a href="https://indienova.com/game/celeste">塞莱斯特山（蔚蓝，Celeste）</a>》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过<a href="https://indienova.com/u/fengnong">风农</a>翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtmvjmb7j30u008c74z.jpg"></p>
+<ul>
+<li><p>相关链接：</p>
+<ul>
+<li>Pedro Medeiros@Patreon<br><a href="https://www.patreon.com/saint11">https://www.patreon.com/saint11</a></li>
+<li>风农@indienova<br><a href="https://indienova.com/u/fengnong">https://indienova.com/u/fengnong</a></li>
+<li>风农@bilibili 专栏<br><a href="https://www.bilibili.com/read/readlist/rl38114">https://www.bilibili.com/read/readlist/rl38114</a></li>
+</ul>
+<blockquote>
+<p>这是一个小的系列，算是专门为纯小白设计。</p>
+</blockquote>
+<p>完全小白起步指南</p>
+<p>这篇文章是关于如何开始画像素画，专为从来没用过像素画软件，或者刚开始学画的人设计。这里我只会讲解最基本的东西，如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
+<p>如果喜欢这篇文章，欢迎去 Patreon 支持我：patreon.com/saint11</p>
+<p>这是一个系列的第一篇。</p>
+<h3 id="开始之前"><a href="#开始之前" class="headerlink" title="开始之前"></a>开始之前</h3><p>在开始进入像素画世界之前，要记住，像素画只是一种艺术形式，就像抽象画，油画，铅笔画，雕塑或者他的亲戚镶嵌画一样。画好像素画，你需要能画好常规的画。就是说你也要学习结构，透视，光影，颜色理论，甚至艺术史，这些都是画好像素画的关键。</p>
+<h4 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h4><p>画好像素画不需要什么好的工具，你可以只用鼠标和免费软件就画的不错。我的设备有一个小的 Wacom 手绘板，一个好鼠标，一个键盘和我最喜欢的软件 Aseprite，总之你应该用你用着最舒服的。</p>
+<p>这里是一些很常用的像素画软件：</p>
+<ul>
+<li><strong>Aseprite：</strong>专业的编辑器，有很多提高效率的特性，收费。<br><a href="https://www.aseprite.org/">https://www.aseprite.org/</a></li>
+<li><strong>GraphicsGale：</strong>经典，很多游戏有用到。略复杂，但是好特性很多，免费<br><a href="https://graphicsgale.com/us/">https://graphicsgale.com/us/</a></li>
+<li><strong>Piskel：</strong>免费线上编辑器（风农：我之前翻译的视频教程里有讲）。<br><a href="https://www.piskelapp.com/">https://www.piskelapp.com/</a></li>
+<li><strong>Photoshop：</strong>强力图片编辑器，不是为像素画设计的，但设置好了也可以用，收费。</li>
+</ul>
+<h4 id="Aseprite"><a href="#Aseprite" class="headerlink" title="Aseprite"></a>Aseprite</h4><p>目前我最喜欢的像素画软件。非常的强大，特性很多又很方便用。这个教程都是用 Aseprite 来做的，但是我觉得转换到其他软件也不需要费很大功夫。你可以试试 Aseprite 的试用版，但是不能保存文件，用来练习我觉得还 OK。</p>
+<h4 id="创建文件"><a href="#创建文件" class="headerlink" title="创建文件"></a>创建文件</h4><p>点击主界面的“<code>New File</code>”，或者到 <code>FIle</code> &gt; <code>New File</code>，之后就可以开始画了。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto9xfs3j307t0bqq2q.jpg"></p>
+</li>
+</ul>
+<p>  我们新建一个文件，<code>16</code> 乘 <code>16</code> 可能看起来太小，不过我觉得作为起始还是很好的。大的分辨率可能会让你分心，你现在应该聚焦在：理解每个像素和周边的关系。</p>
+<p>  颜色模式保持 <code>RGBA</code>，这是最简单直观的。一些像素画手喜欢用 <code>Indexed</code>（索引）模式，能用一些很酷的颜色技巧，但也有一些缺点。</p>
+<p>  背景选透明（transparent）或者白色（white），暂时没影响。高级选项（Advanced Options）不要选，以后你可以自己去试试。</p>
+<p>  现在就都准备 ok 了。</p>
+<h3 id="开始画！"><a href="#开始画！" class="headerlink" title="开始画！"></a>开始画！</h3><p>  界面上有很多工具和菜单，别着急，我们现在只需要用几个按钮。最主要的工具是铅笔（Pencil），应该一直保持 <code>1px</code> 宽度，这是我们在画布上画像素的工具。点击这个按钮，或者按 B，再去点击屏幕，就可以画上一个所选颜色的像素点。</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtodo3nvj30oh0k0dfx.jpg"></p>
+<p>  在左边你可以看到调色盘，有几个默认颜色。把这些换一下，换成简单点的集合。点击调色盘上面第三个按钮（预设，presets），选择 <code>ARQ4</code>（Endesga 所做的一个很棒的调色盘）。这就是你画第一个 sprite 会用的调色盘了。</p>
+<p>  现在用这里的 4 个颜色来试着画个杯子。</p>
+<p>  可以从我的设计里找灵感，也要试着画的个性一点。如果画错，按 ALT + 点击一个空白区域或者画布外，你就会选择一个透明的色，可以用来擦除像素。当然也可以点击橡皮（Eraser）或者按 E。</p>
+<p>  你可能注意到，在这么低的分辨率上画，跟常规绘画是不同的。所有东西都要计算好，没个像素的位置都是你需要做的决定。你需要适应这些。</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtobbn8oj309h09w0si.jpg"></p>
+<p>  你可以去试试其他的按钮。注意有些按钮点中后会打开更多选项。先不要用模糊工具（blur），他会增加很多颜色，我们还用不上。</p>
+<p>  现在，我们可以画更多 sprite，试试画骷髅，宝剑，人脸。这次不找像素画参考。如果你感觉这些在画布上画不开，完全正常，试着去把一些地方抽象成单像素再试试。在这么低的分辨率画画是很难的，有时候很想是解密。这里有一篇我之前给 Kano 写的，关于在低分辨率下画画的文章：<a href="https://kano.me/blog/my-thoughts-on-very-low-resolution/">https://kano.me/blog/my-thoughts-on-very-low-resolution/</a></p>
+<p>  这里是我画的几个 sprite，一定确保你画完自己的再看：</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto6xtqmj30lu0b1a9t.jpg"></p>
+<p>  这是个不错的练习，如果你想继续练习，试着带着这些限制画更多东西。</p>
+<h4 id="保存文件"><a href="#保存文件" class="headerlink" title="保存文件"></a>保存文件</h4><p>  按 CTRL+S 来保存文件，或者到 <code>File</code> &gt; <code>Save As...</code>，选文件名和保存路径，点击 <code>save</code>。</p>
+<p>  在试用版这个功能是禁用的！</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtod6vxsj30bh09r3ya.jpg"></p>
+<p>  Aseprite 可以保存很多的格式，我建议保存一个 ase 文件。就好像 PS 里你会留一个 psd 文件一样。当要导出到 web 或游戏里时，可以 CTRL+ALT+SHIFT+S，或者 <code>File</code> &gt; <code>Export</code>.</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtocrr05j30u00czq4t.jpg" alt="图片"></p>
+<p>  Aseprite 在导出界面有个很棒的 Resize 特性。它只会把你的 sprite 放大整数倍，完美。如果你要把 sprite 放大 107%，就会把所有像素都破坏掉，乱七八糟。但如果你缩放 200%，每个像素就会变成 2 倍宽和高，还是很整洁。</p>
+<h4 id="大点的画布"><a href="#大点的画布" class="headerlink" title="大点的画布"></a>大点的画布</h4><p>  现在你已经连接了基础，像创建保存文件，在画布上画画。我们试着画个大点的画布，<code>32</code> 乘 <code>32</code> 像素。调色盘也换大一点，试一试 <code>AAP-Micro12</code>（ AdigunPolack 制作）。这次画个铲子。</p>
+<p>  不像 <code>16</code> 乘 <code>16</code> 的 sprite，我们可以在这里画一些轮廓线，这是我的流程分解：</p>
+<h4 id="第一步：线条"><a href="#第一步：线条" class="headerlink" title="第一步：线条"></a>第一步：线条</h4><p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtoaeyuhj30gv0480gi.jpg" alt="图片"></p>
+<p>  这种线条风格我称为像素完美线，只有 <code>1</code> 像素宽，与其他像素对角线连接。当画这种线时，注意避免不必要的边，比如：</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto75iqtj307w0b90jk.jpg" alt="图片"></p>
+<p>  Aseprite 还有个很棒的笔刷特性可以自动处理这些：选中你的笔刷工具，再选中像素完美（pixel-perfect）。记得不画线的时候要把它勾掉，不然很烦人。</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtocc0hdj309y02g741.jpg" alt="图片"></p>
+<h4 id="第二步：基本颜色"><a href="#第二步：基本颜色" class="headerlink" title="第二步：基本颜色"></a>第二步：基本颜色</h4><p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtobselij30i704k0k1.jpg" alt="图片"></p>
+<p>  可选颜色少有个好处是不会被太多的选择淹没。这就是为什么用一大堆色也很难，如果你的调色盘里有个颜色，你没理由不好好利用起来。试着把它当成解密，多试验，即使是怪异的，非常规的组合，知道你找到你认为最合适这个区域的组合。</p>
+<h4 id="第三步：明暗"><a href="#第三步：明暗" class="headerlink" title="第三步：明暗"></a>第三步：明暗</h4><p>  用你的调色盘有创意的画出明暗。因为你只有非常受限的调色盘，你不会有每种不同亮度的色调，你必须随机应变。</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto8ka0gj308h06d0sh.jpg"> </p>
+<p>  这个例子里，我用的也是 <code>AAP-Mini12</code> 调色盘。当我画上这个绿老哥之后，我没有其他亮绿色可用了，所以我选了能用的最接近的色，也就是黄色。阴影也是一样，我选了蓝色，因为这是最接近的暗色。但如果我反过来呢？我可以用个亮蓝色和暗红色，对吧？其实不太行：</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto9lsp0j308o06a0sh.jpg"> </p>
+<p>  看起来好像很酷，但是明显有点不对劲。通常你得把冷色调用在阴影，暖色用在亮处，不然就看着怪。当然这也不是雷打不动的规则，有很多的例外。在你不确定的时候，就遵从它。</p>
+<h4 id="第四步：抗锯齿和优化"><a href="#第四步：抗锯齿和优化" class="headerlink" title="第四步：抗锯齿和优化"></a>第四步：抗锯齿和优化</h4><p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto824guj30gp0480kq.jpg" alt="图片"></p>
+<p>  这部分需要你试着把像素变得不那么“尖”。手工抗锯齿是个复杂的主题，估计我们要用一整篇文章来讨论，不过概念是，你可以用中间色来模拟“半个像素”，软化边界。但是不用过多的关心这个，现在你需要把 spirite 的尽量画的易于理解。</p>
+<p>  另外一个适合在这个阶段做的是干掉孤立像素减少噪点。孤立像素就是不属于任何大的同色的像素簇的像素，也不属于抗锯齿，比如：</p>
+<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtob0n0wj30m70bo0si.jpg"></p>
+<p>  注意到左边的 <code>1</code> 像素小岛了吗？那些就是孤立像素，在我们把这些孤立像素和邻近的同色像素合并之后，能看出这个地球看起来好多了。</p>
+<p>  那么图里的那些星星呢？他们的存在是为了表示孤立像素也不是完全不好，这些星星就是想要的效果，画出一个噪点纹理，提高了背景的对比度。</p>
+<p>  不要无脑的删除孤立像素，要在过程中问自己：这个像素是不是需要单独存在？</p>
+<h3 id="接下来？"><a href="#接下来？" class="headerlink" title="接下来？"></a>接下来？</h3><p>  现在是时候去试试更多颜色和更大的分辨率了。但要慢慢来，比如 48 乘 48，16 个色等等。如果你是完全初学，我建议先别做动画，先聚焦于如何舒服的画出静态的画。</p>
+<p>  我选了几个我很喜欢的像素画教程，如果你想看看的话：</p>
+<ul>
+<li><p>Pixel art tutorial by Cure<br><a href="http://pixeljoint.com/forum/forum_posts.asp?TID=11299&amp;PID=139318#139318">http://pixeljoint.com/forum/forum_posts.asp?TID=11299&amp;PID=139318#139318</a></p>
+</li>
+<li><p>Pixel art tutorial by Derek Yu<br><a href="http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial">http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial</a></p>
+</li>
+<li><p>Pixel art tutorial by Arne<br><a href="https://androidarts.com/pixtut/pixelart.htm">https://androidarts.com/pixtut/pixelart.htm</a></p>
+<p>我自己也做了很多不同主题的教程，你可以在 patreon 页里看到（风农：就是我做的这个系列~）。</p>
+</li>
+<li><p>My Patreon page<br>patreon.com/saint11</p>
+</li>
+<li><p>A compiled list of all my tutorials<br><a href="http://blog.studiominiboss.com/pixelart">http://blog.studiominiboss.com/pixelart</a></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开始画像素画#2</title>
     <url>/archives/90b77012.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zhhvzmzj31hc0u0434.jpg"></p>
@@ -4241,115 +4374,6 @@
 <p>接下来我建议多试试时间轴，试着画点别的动画。你可以看看我其他的教程，选个感兴趣的跟着画画。</p>
 <p>另外也可以试试经典的初学者练习，画一个面粉袋走和跳的动画：<br><a href="https://www.youtube.com/watch?v=C8cbTGshkZw%E3%80%82">https://www.youtube.com/watch?v=C8cbTGshkZw。</a></p>
 <p>暂时保持低一点的分辨率和颜色数，不要太复杂了。</p>
-]]></content>
-      <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开始画像素画#1</title>
-    <url>/archives/655d7201.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zfnfb9aj31hc0u00wn.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《<a href="https://indienova.com/game/celeste">塞莱斯特山（蔚蓝，Celeste）</a>》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过<a href="https://indienova.com/u/fengnong">风农</a>翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtmvjmb7j30u008c74z.jpg"></p>
-<ul>
-<li><p>相关链接：</p>
-<ul>
-<li>Pedro Medeiros@Patreon<br><a href="https://www.patreon.com/saint11">https://www.patreon.com/saint11</a></li>
-<li>风农@indienova<br><a href="https://indienova.com/u/fengnong">https://indienova.com/u/fengnong</a></li>
-<li>风农@bilibili 专栏<br><a href="https://www.bilibili.com/read/readlist/rl38114">https://www.bilibili.com/read/readlist/rl38114</a></li>
-</ul>
-<blockquote>
-<p>这是一个小的系列，算是专门为纯小白设计。</p>
-</blockquote>
-<p>完全小白起步指南</p>
-<p>这篇文章是关于如何开始画像素画，专为从来没用过像素画软件，或者刚开始学画的人设计。这里我只会讲解最基本的东西，如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
-<p>如果喜欢这篇文章，欢迎去 Patreon 支持我：patreon.com/saint11</p>
-<p>这是一个系列的第一篇。</p>
-<h3 id="开始之前"><a href="#开始之前" class="headerlink" title="开始之前"></a>开始之前</h3><p>在开始进入像素画世界之前，要记住，像素画只是一种艺术形式，就像抽象画，油画，铅笔画，雕塑或者他的亲戚镶嵌画一样。画好像素画，你需要能画好常规的画。就是说你也要学习结构，透视，光影，颜色理论，甚至艺术史，这些都是画好像素画的关键。</p>
-<h4 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h4><p>画好像素画不需要什么好的工具，你可以只用鼠标和免费软件就画的不错。我的设备有一个小的 Wacom 手绘板，一个好鼠标，一个键盘和我最喜欢的软件 Aseprite，总之你应该用你用着最舒服的。</p>
-<p>这里是一些很常用的像素画软件：</p>
-<ul>
-<li><strong>Aseprite：</strong>专业的编辑器，有很多提高效率的特性，收费。<br><a href="https://www.aseprite.org/">https://www.aseprite.org/</a></li>
-<li><strong>GraphicsGale：</strong>经典，很多游戏有用到。略复杂，但是好特性很多，免费<br><a href="https://graphicsgale.com/us/">https://graphicsgale.com/us/</a></li>
-<li><strong>Piskel：</strong>免费线上编辑器（风农：我之前翻译的视频教程里有讲）。<br><a href="https://www.piskelapp.com/">https://www.piskelapp.com/</a></li>
-<li><strong>Photoshop：</strong>强力图片编辑器，不是为像素画设计的，但设置好了也可以用，收费。</li>
-</ul>
-<h4 id="Aseprite"><a href="#Aseprite" class="headerlink" title="Aseprite"></a>Aseprite</h4><p>目前我最喜欢的像素画软件。非常的强大，特性很多又很方便用。这个教程都是用 Aseprite 来做的，但是我觉得转换到其他软件也不需要费很大功夫。你可以试试 Aseprite 的试用版，但是不能保存文件，用来练习我觉得还 OK。</p>
-<h4 id="创建文件"><a href="#创建文件" class="headerlink" title="创建文件"></a>创建文件</h4><p>点击主界面的“<code>New File</code>”，或者到 <code>FIle</code> &gt; <code>New File</code>，之后就可以开始画了。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto9xfs3j307t0bqq2q.jpg"></p>
-</li>
-</ul>
-<p>  我们新建一个文件，<code>16</code> 乘 <code>16</code> 可能看起来太小，不过我觉得作为起始还是很好的。大的分辨率可能会让你分心，你现在应该聚焦在：理解每个像素和周边的关系。</p>
-<p>  颜色模式保持 <code>RGBA</code>，这是最简单直观的。一些像素画手喜欢用 <code>Indexed</code>（索引）模式，能用一些很酷的颜色技巧，但也有一些缺点。</p>
-<p>  背景选透明（transparent）或者白色（white），暂时没影响。高级选项（Advanced Options）不要选，以后你可以自己去试试。</p>
-<p>  现在就都准备 ok 了。</p>
-<h3 id="开始画！"><a href="#开始画！" class="headerlink" title="开始画！"></a>开始画！</h3><p>  界面上有很多工具和菜单，别着急，我们现在只需要用几个按钮。最主要的工具是铅笔（Pencil），应该一直保持 <code>1px</code> 宽度，这是我们在画布上画像素的工具。点击这个按钮，或者按 B，再去点击屏幕，就可以画上一个所选颜色的像素点。</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtodo3nvj30oh0k0dfx.jpg"></p>
-<p>  在左边你可以看到调色盘，有几个默认颜色。把这些换一下，换成简单点的集合。点击调色盘上面第三个按钮（预设，presets），选择 <code>ARQ4</code>（Endesga 所做的一个很棒的调色盘）。这就是你画第一个 sprite 会用的调色盘了。</p>
-<p>  现在用这里的 4 个颜色来试着画个杯子。</p>
-<p>  可以从我的设计里找灵感，也要试着画的个性一点。如果画错，按 ALT + 点击一个空白区域或者画布外，你就会选择一个透明的色，可以用来擦除像素。当然也可以点击橡皮（Eraser）或者按 E。</p>
-<p>  你可能注意到，在这么低的分辨率上画，跟常规绘画是不同的。所有东西都要计算好，没个像素的位置都是你需要做的决定。你需要适应这些。</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtobbn8oj309h09w0si.jpg"></p>
-<p>  你可以去试试其他的按钮。注意有些按钮点中后会打开更多选项。先不要用模糊工具（blur），他会增加很多颜色，我们还用不上。</p>
-<p>  现在，我们可以画更多 sprite，试试画骷髅，宝剑，人脸。这次不找像素画参考。如果你感觉这些在画布上画不开，完全正常，试着去把一些地方抽象成单像素再试试。在这么低的分辨率画画是很难的，有时候很想是解密。这里有一篇我之前给 Kano 写的，关于在低分辨率下画画的文章：<a href="https://kano.me/blog/my-thoughts-on-very-low-resolution/">https://kano.me/blog/my-thoughts-on-very-low-resolution/</a></p>
-<p>  这里是我画的几个 sprite，一定确保你画完自己的再看：</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto6xtqmj30lu0b1a9t.jpg"></p>
-<p>  这是个不错的练习，如果你想继续练习，试着带着这些限制画更多东西。</p>
-<h4 id="保存文件"><a href="#保存文件" class="headerlink" title="保存文件"></a>保存文件</h4><p>  按 CTRL+S 来保存文件，或者到 <code>File</code> &gt; <code>Save As...</code>，选文件名和保存路径，点击 <code>save</code>。</p>
-<p>  在试用版这个功能是禁用的！</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtod6vxsj30bh09r3ya.jpg"></p>
-<p>  Aseprite 可以保存很多的格式，我建议保存一个 ase 文件。就好像 PS 里你会留一个 psd 文件一样。当要导出到 web 或游戏里时，可以 CTRL+ALT+SHIFT+S，或者 <code>File</code> &gt; <code>Export</code>.</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtocrr05j30u00czq4t.jpg" alt="图片"></p>
-<p>  Aseprite 在导出界面有个很棒的 Resize 特性。它只会把你的 sprite 放大整数倍，完美。如果你要把 sprite 放大 107%，就会把所有像素都破坏掉，乱七八糟。但如果你缩放 200%，每个像素就会变成 2 倍宽和高，还是很整洁。</p>
-<h4 id="大点的画布"><a href="#大点的画布" class="headerlink" title="大点的画布"></a>大点的画布</h4><p>  现在你已经连接了基础，像创建保存文件，在画布上画画。我们试着画个大点的画布，<code>32</code> 乘 <code>32</code> 像素。调色盘也换大一点，试一试 <code>AAP-Micro12</code>（ AdigunPolack 制作）。这次画个铲子。</p>
-<p>  不像 <code>16</code> 乘 <code>16</code> 的 sprite，我们可以在这里画一些轮廓线，这是我的流程分解：</p>
-<h4 id="第一步：线条"><a href="#第一步：线条" class="headerlink" title="第一步：线条"></a>第一步：线条</h4><p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtoaeyuhj30gv0480gi.jpg" alt="图片"></p>
-<p>  这种线条风格我称为像素完美线，只有 <code>1</code> 像素宽，与其他像素对角线连接。当画这种线时，注意避免不必要的边，比如：</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto75iqtj307w0b90jk.jpg" alt="图片"></p>
-<p>  Aseprite 还有个很棒的笔刷特性可以自动处理这些：选中你的笔刷工具，再选中像素完美（pixel-perfect）。记得不画线的时候要把它勾掉，不然很烦人。</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtocc0hdj309y02g741.jpg" alt="图片"></p>
-<h4 id="第二步：基本颜色"><a href="#第二步：基本颜色" class="headerlink" title="第二步：基本颜色"></a>第二步：基本颜色</h4><p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtobselij30i704k0k1.jpg" alt="图片"></p>
-<p>  可选颜色少有个好处是不会被太多的选择淹没。这就是为什么用一大堆色也很难，如果你的调色盘里有个颜色，你没理由不好好利用起来。试着把它当成解密，多试验，即使是怪异的，非常规的组合，知道你找到你认为最合适这个区域的组合。</p>
-<h4 id="第三步：明暗"><a href="#第三步：明暗" class="headerlink" title="第三步：明暗"></a>第三步：明暗</h4><p>  用你的调色盘有创意的画出明暗。因为你只有非常受限的调色盘，你不会有每种不同亮度的色调，你必须随机应变。</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto8ka0gj308h06d0sh.jpg"> </p>
-<p>  这个例子里，我用的也是 <code>AAP-Mini12</code> 调色盘。当我画上这个绿老哥之后，我没有其他亮绿色可用了，所以我选了能用的最接近的色，也就是黄色。阴影也是一样，我选了蓝色，因为这是最接近的暗色。但如果我反过来呢？我可以用个亮蓝色和暗红色，对吧？其实不太行：</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto9lsp0j308o06a0sh.jpg"> </p>
-<p>  看起来好像很酷，但是明显有点不对劲。通常你得把冷色调用在阴影，暖色用在亮处，不然就看着怪。当然这也不是雷打不动的规则，有很多的例外。在你不确定的时候，就遵从它。</p>
-<h4 id="第四步：抗锯齿和优化"><a href="#第四步：抗锯齿和优化" class="headerlink" title="第四步：抗锯齿和优化"></a>第四步：抗锯齿和优化</h4><p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto824guj30gp0480kq.jpg" alt="图片"></p>
-<p>  这部分需要你试着把像素变得不那么“尖”。手工抗锯齿是个复杂的主题，估计我们要用一整篇文章来讨论，不过概念是，你可以用中间色来模拟“半个像素”，软化边界。但是不用过多的关心这个，现在你需要把 spirite 的尽量画的易于理解。</p>
-<p>  另外一个适合在这个阶段做的是干掉孤立像素减少噪点。孤立像素就是不属于任何大的同色的像素簇的像素，也不属于抗锯齿，比如：</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtob0n0wj30m70bo0si.jpg"></p>
-<p>  注意到左边的 <code>1</code> 像素小岛了吗？那些就是孤立像素，在我们把这些孤立像素和邻近的同色像素合并之后，能看出这个地球看起来好多了。</p>
-<p>  那么图里的那些星星呢？他们的存在是为了表示孤立像素也不是完全不好，这些星星就是想要的效果，画出一个噪点纹理，提高了背景的对比度。</p>
-<p>  不要无脑的删除孤立像素，要在过程中问自己：这个像素是不是需要单独存在？</p>
-<h3 id="接下来？"><a href="#接下来？" class="headerlink" title="接下来？"></a>接下来？</h3><p>  现在是时候去试试更多颜色和更大的分辨率了。但要慢慢来，比如 48 乘 48，16 个色等等。如果你是完全初学，我建议先别做动画，先聚焦于如何舒服的画出静态的画。</p>
-<p>  我选了几个我很喜欢的像素画教程，如果你想看看的话：</p>
-<ul>
-<li><p>Pixel art tutorial by Cure<br><a href="http://pixeljoint.com/forum/forum_posts.asp?TID=11299&amp;PID=139318#139318">http://pixeljoint.com/forum/forum_posts.asp?TID=11299&amp;PID=139318#139318</a></p>
-</li>
-<li><p>Pixel art tutorial by Derek Yu<br><a href="http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial">http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial</a></p>
-</li>
-<li><p>Pixel art tutorial by Arne<br><a href="https://androidarts.com/pixtut/pixelart.htm">https://androidarts.com/pixtut/pixelart.htm</a></p>
-<p>我自己也做了很多不同主题的教程，你可以在 patreon 页里看到（风农：就是我做的这个系列~）。</p>
-</li>
-<li><p>My Patreon page<br>patreon.com/saint11</p>
-</li>
-<li><p>A compiled list of all my tutorials<br><a href="http://blog.studiominiboss.com/pixelart">http://blog.studiominiboss.com/pixelart</a></p>
-</li>
-</ul>
 ]]></content>
       <categories>
         <category>开始画像素画 (Making Pixel Art)</category>
@@ -4818,57 +4842,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#x79;&#111;&#110;&#103;&#64;&#x74;&#115;&#105;&#110;&#103;&#x68;&#117;&#x61;&#x2e;&#x65;&#x64;&#117;&#46;&#99;&#110;">&#x78;&#x79;&#111;&#110;&#103;&#64;&#x74;&#115;&#105;&#110;&#103;&#x68;&#117;&#x61;&#x2e;&#x65;&#x64;&#117;&#46;&#99;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#x79;&#111;&#110;&#103;&#x40;&#x74;&#115;&#x69;&#110;&#103;&#104;&#x75;&#x61;&#46;&#x65;&#x64;&#x75;&#46;&#x63;&#110;">&#120;&#x79;&#111;&#110;&#103;&#x40;&#x74;&#115;&#x69;&#110;&#103;&#104;&#x75;&#x61;&#46;&#x65;&#x64;&#x75;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#x75;&#99;&#x68;&#x65;&#x6e;&#64;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#116;&#x73;&#105;&#110;&#x67;&#x68;&#117;&#x61;&#x2e;&#x65;&#x64;&#117;&#x2e;&#99;&#110;">&#121;&#x75;&#99;&#x68;&#x65;&#x6e;&#64;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#116;&#x73;&#105;&#110;&#x67;&#x68;&#117;&#x61;&#x2e;&#x65;&#x64;&#117;&#x2e;&#99;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#x75;&#99;&#x68;&#101;&#110;&#x40;&#109;&#97;&#x69;&#108;&#46;&#x74;&#115;&#105;&#x6e;&#x67;&#104;&#x75;&#97;&#x2e;&#101;&#100;&#x75;&#46;&#99;&#110;">&#121;&#x75;&#99;&#x68;&#101;&#110;&#x40;&#109;&#97;&#x69;&#108;&#46;&#x74;&#115;&#105;&#x6e;&#x67;&#104;&#x75;&#97;&#x2e;&#101;&#100;&#x75;&#46;&#99;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#116;&#101;&#114;&#x6e;&#97;&#x6c;&#46;&#x6e;&#x30;&#x38;&#x40;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#101;&#116;&#101;&#114;&#x6e;&#97;&#x6c;&#46;&#x6e;&#x30;&#x38;&#x40;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#101;&#x74;&#x65;&#114;&#x6e;&#97;&#108;&#x2e;&#x6e;&#48;&#x38;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;">&#101;&#x74;&#x65;&#114;&#x6e;&#97;&#108;&#x2e;&#x6e;&#48;&#x38;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#98;&#106;&#x65;&#x63;&#x74;&#x6b;&#x75;&#x61;&#x6e;&#64;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#x6f;&#98;&#106;&#x65;&#x63;&#x74;&#x6b;&#x75;&#x61;&#x6e;&#64;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x6f;&#x62;&#x6a;&#101;&#99;&#116;&#107;&#117;&#x61;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x6f;&#x62;&#x6a;&#101;&#99;&#116;&#107;&#117;&#x61;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#114;&#x64;&#102;&#114;&#x61;&#110;&#x6b;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#x63;&#114;&#x64;&#102;&#114;&#x61;&#110;&#x6b;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#x72;&#100;&#x66;&#114;&#97;&#110;&#x6b;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#x63;&#x72;&#100;&#x66;&#114;&#97;&#110;&#x6b;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#x61;&#99;&#x63;&#111;&#114;&#97;&#x77;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#109;">&#x74;&#x61;&#99;&#x63;&#111;&#114;&#97;&#x77;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x74;&#97;&#x63;&#99;&#x6f;&#114;&#97;&#x77;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;">&#x74;&#97;&#x63;&#99;&#x6f;&#114;&#97;&#x77;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#x69;&#x6e;&#x79;&#117;&#110;&#120;&#x69;&#110;&#103;&#48;&#48;&#48;&#x31;&#x40;&#x31;&#x36;&#51;&#x2e;&#99;&#111;&#x6d;">&#120;&#x69;&#x6e;&#x79;&#117;&#110;&#120;&#x69;&#110;&#103;&#48;&#48;&#48;&#x31;&#x40;&#x31;&#x36;&#51;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#120;&#105;&#x6e;&#121;&#117;&#110;&#120;&#x69;&#110;&#x67;&#48;&#x30;&#48;&#x31;&#x40;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#109;">&#120;&#105;&#x6e;&#121;&#117;&#110;&#120;&#x69;&#110;&#x67;&#48;&#x30;&#48;&#x31;&#x40;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#x6e;&#x6f;&#99;&#x75;&#105;&#x6c;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#x67;&#x6e;&#x6f;&#99;&#x75;&#105;&#x6c;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#x6e;&#x6f;&#x63;&#x75;&#105;&#x6c;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;">&#103;&#x6e;&#x6f;&#x63;&#x75;&#105;&#x6c;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#x79;&#97;&#x69;&#114;&#105;&#97;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#x6d;&#x79;&#97;&#x69;&#114;&#105;&#97;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x6d;&#x79;&#x61;&#x69;&#x72;&#105;&#97;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#x6d;&#x79;&#x61;&#x69;&#x72;&#105;&#97;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#104;&#97;&#x6e;&#x67;&#x72;&#x61;&#x69;&#x6e;&#x39;&#x31;&#49;&#64;&#x31;&#54;&#51;&#46;&#99;&#x6f;&#109;">&#122;&#104;&#97;&#x6e;&#x67;&#x72;&#x61;&#x69;&#x6e;&#x39;&#x31;&#49;&#64;&#x31;&#54;&#51;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#122;&#x68;&#97;&#x6e;&#x67;&#x72;&#97;&#105;&#x6e;&#57;&#49;&#x31;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#111;&#x6d;">&#122;&#x68;&#97;&#x6e;&#x67;&#x72;&#97;&#105;&#x6e;&#57;&#49;&#x31;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#x67;&#120;&#x78;&#49;&#x32;&#48;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#109;">&#103;&#x67;&#120;&#x78;&#49;&#x32;&#48;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x67;&#x78;&#120;&#49;&#x32;&#48;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;">&#x67;&#x67;&#x78;&#120;&#49;&#x32;&#48;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
