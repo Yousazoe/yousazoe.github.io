@@ -36,7 +36,7 @@
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gmuhrm1fuvj30dm03twea.jpg">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gmuhuyzi7ij305603nmwx.jpg">
 <meta property="article:published_time" content="2020-11-25T15:21:02.000Z">
-<meta property="article:modified_time" content="2021-01-29T08:36:51.713Z">
+<meta property="article:modified_time" content="2021-01-30T08:27:52.259Z">
 <meta property="article:author" content="Yousazoe">
 <meta property="article:tag" content="C++">
 <meta property="article:tag" content="Online Judge">
@@ -264,13 +264,13 @@
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
               </span>
-              <span>63k</span>
+              <span>64k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
-              <span>1:54</span>
+              <span>1:56</span>
             </span>
 
         </div>
@@ -1342,7 +1342,15 @@
 
 
 
-<h5 id="問題を解く-31"><a href="#問題を解く-31" class="headerlink" title="問題を解く"></a>問題を解く</h5><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<h5 id="問題を解く-31"><a href="#問題を解く-31" class="headerlink" title="問題を解く"></a>問題を解く</h5><p>本题要求我们从一个字符串中找到一个子串。我左思右想还是没有想到一个比较好的解决方法，于是求助于Solution找到一个较为便捷的方法：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">string</span> s,p;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; s &gt;&gt; p;</span><br><span class="line">    s = s + s;</span><br><span class="line">    <span class="keyword">if</span>(s.find(p) != <span class="number">-1</span>) </span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;Yes&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">else</span> </span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;No&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<p>整个过程最大的盲区在于<code>find()</code> 函数，它本质上是一个模板函数，用于在指定范围内查找和目标元素值相等的第一个元素。如下为 <code>find()</code> 函数的语法格式：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">InputIterator <span class="title">find</span> <span class="params">(InputIterator first, InputIterator last, <span class="keyword">const</span> T&amp; val)</span></span>;</span><br></pre></td></tr></table></figure>
+<p>其中，<code>first</code> 和 <code>last</code> 为输入迭代器，<code>[first, last)</code> 用于指定该函数的查找范围；<code>val</code> 为要查找的目标元素。</p>
+<p>对于 <code>find()</code> 函数的底层实现，C++ 标准库中给出了参数代码，感兴趣的读者可自行研究：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> <span class="title">InputIterator</span>, <span class="keyword">class</span> <span class="title">T</span>&gt;</span></span><br><span class="line"><span class="function">InputIterator <span class="title">find</span> <span class="params">(InputIterator first, InputIterator last, <span class="keyword">const</span> T&amp; val)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">while</span> (first!=last) &#123;</span><br><span class="line">        <span class="keyword">if</span> (*first==val) <span class="keyword">return</span> first;</span><br><span class="line">        ++first;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> last;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
 
@@ -1365,7 +1373,16 @@
 <h5 id="Sample-Output-18"><a href="#Sample-Output-18" class="headerlink" title="Sample Output"></a>Sample Output</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
 
 
-<h5 id="問題を解く-32"><a href="#問題を解く-32" class="headerlink" title="問題を解く"></a>問題を解く</h5><h4 id="ITP1-9-B-Shuffle"><a href="#ITP1-9-B-Shuffle" class="headerlink" title="ITP1_9_B Shuffle"></a>ITP1_9_B Shuffle</h4><blockquote>
+<h5 id="問題を解く-32"><a href="#問題を解く-32" class="headerlink" title="問題を解く"></a>問題を解く</h5><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">string</span> str;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; str;</span><br><span class="line">    transform(str.begin(), str.end(), str.begin(), ::<span class="built_in">tolower</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> count = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span>(<span class="number">1</span>)&#123;</span><br><span class="line">        <span class="built_in">string</span> tmp;</span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; tmp;</span><br><span class="line">        <span class="keyword">if</span>(tmp == <span class="string">&quot;END_OF_TEXT&quot;</span>)</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        transform(tmp.begin(), tmp.end(), tmp.begin(), ::<span class="built_in">tolower</span>);</span><br><span class="line">        <span class="keyword">if</span>(str == tmp)</span><br><span class="line">            count++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; count &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+<h4 id="ITP1-9-B-Shuffle"><a href="#ITP1-9-B-Shuffle" class="headerlink" title="ITP1_9_B Shuffle"></a>ITP1_9_B Shuffle</h4><blockquote>
 <p>Time Limit : <code>1 sec</code> , Memory Limit : <code>131072 KB</code></p>
 </blockquote>
 <p>Your task is to shuffle a deck of <em>n</em> cards, each of which is marked by a alphabetical letter.</p>
@@ -1906,7 +1923,7 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">628k</span>
+    <span title="站点总字数">629k</span>
 
   <!--
     <span class="post-meta-divider">|</span>
@@ -1914,7 +1931,7 @@
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">19:01</span>
+    <span title="站点阅读时长">19:03</span>
   -->
 </div>
   <div class="addthis_inline_share_toolbox">
