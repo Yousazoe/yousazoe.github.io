@@ -29,7 +29,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn4nztqqvjj30xc0egq44.jpg">
 <meta property="article:published_time" content="2021-01-13T12:04:58.000Z">
-<meta property="article:modified_time" content="2021-01-30T09:42:09.907Z">
+<meta property="article:modified_time" content="2021-01-30T11:55:27.963Z">
 <meta property="article:author" content="Yousazoe">
 <meta property="article:tag" content="Unity">
 <meta property="article:tag" content="C#">
@@ -255,13 +255,13 @@
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
               </span>
-              <span>21k</span>
+              <span>22k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
-              <span>38 分钟</span>
+              <span>39 分钟</span>
             </span>
 
         </div>
@@ -470,8 +470,13 @@
 <h3 id="列表和字典"><a href="#列表和字典" class="headerlink" title="列表和字典"></a>列表和字典</h3><p>在本章中我们将介绍两个泛型集合列表和字典，我们还将使用它们的方法，两者的工作原理类似于数组，但有一些明显区别。</p>
 <p>我们首先介绍<code>List</code>类，列表就像是大小动态变化的数组，这表示你不需要提前知道列表将包含多少个元素。在深入讲解之前，我们快速创建一个可以存储在列表中的类：</p>
 <figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"><span class="keyword">using</span> System.Collection;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">BadGuy</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="keyword">public</span> <span class="built_in">string</span> name;</span><br><span class="line">   <span class="keyword">public</span> <span class="built_in">int</span> power;</span><br><span class="line"></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">BadGuy</span>(<span class="params"><span class="built_in">string</span> newName,<span class="built_in">int</span> newPower</span>)</span></span><br><span class="line"><span class="function"></span>   &#123;</span><br><span class="line">      name = newName;</span><br><span class="line">      power = newPower;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>现在我们可以开始创建列表。<code>List</code>是泛型类，因此在任何修饰符之后我们输入类名后跟要存储在列表中的类型。在本例中我们输入<code>BadGuy</code>，然后为列表指定名称。由于列表是一个类，因此我们调用构造函数</p>
+<p>现在我们可以开始创建列表。<code>List</code>是泛型类，因此在任何修饰符之后我们输入类名后跟要存储在列表中的类型。在本例中我们输入<code>BadGuy</code>，然后为列表指定名称。由于列表是一个类，因此我们调用构造函数。</p>
 <figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"><span class="keyword">using</span> System.Collection;</span><br><span class="line"><span class="keyword">using</span> System.Collection.Generic;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">SomeClass</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="function"><span class="keyword">void</span> <span class="title">Start</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>   &#123;</span><br><span class="line">      List&lt;badGuy&gt; badguys = <span class="keyword">new</span> List&lt;BadGuy&gt;();</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>列表现在是空的，我们来为它分配内容。我们使用<code>Add</code>函数执行这个操作，这将在列表末尾添加新元素。<code>Add</code>函数的参数是要添加到列表的对象，在本例中我们将为<code>BadGuy</code>类调用构造函数，然后填充列表。</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"><span class="keyword">using</span> System.Collection;</span><br><span class="line"><span class="keyword">using</span> System.Collection.Generic;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">SomeClass</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="function"><span class="keyword">void</span> <span class="title">Start</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>   &#123;</span><br><span class="line">      List&lt;badGuy&gt; badguys = <span class="keyword">new</span> List&lt;BadGuy&gt;();</span><br><span class="line"></span><br><span class="line">      badguys.Add(<span class="keyword">new</span> BadGuy(<span class="string">&quot;Harvey&quot;</span>,<span class="number">50</span>));</span><br><span class="line">      badguys.Add(<span class="keyword">new</span> BadGuy(<span class="string">&quot;Magneto&quot;</span>,<span class="number">100</span>));</span><br><span class="line">      badguys.Add(<span class="keyword">new</span> BadGuy(<span class="string">&quot;Pip&quot;</span>,<span class="number">5</span>));</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>要访问列表项，可以像数组一样使用索引进行访问。它还有一个<code>count</code>属性，作用类似于数组的<code>length</code>属性。列表的<code>RemoveAt</code>和<code>Insert</code>等函数用于手动排列，<code>RemoveAt</code>用于列表中移除给定索引处的元素，这个元素上方的所有元素会下移一位；<code>Insert</code>需要一个索引和一个元素将这个索引之后的所有元素上移一位。</p>
+<p>列表的最强大函数之一是<code>Sort</code>，可用于按给定类型的任何变量对这个类型的列表进行排序，它依赖于类型来实现<code>IComparable</code>接口。我们回到<code>BadGuy</code>类进行实现，首先<code>IComparable</code>位于系统名称空间</p>
+
     </div>
 
     
@@ -653,7 +658,7 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">569k</span>
+    <span title="站点总字数">570k</span>
 
   <!--
     <span class="post-meta-divider">|</span>
@@ -661,7 +666,7 @@
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">17:15</span>
+    <span title="站点阅读时长">17:16</span>
   -->
 </div>
   <div class="addthis_inline_share_toolbox">

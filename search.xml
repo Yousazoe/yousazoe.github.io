@@ -364,6 +364,300 @@
       </tags>
   </entry>
   <entry>
+    <title>游戏分析方法</title>
+    <url>/archives/f40ec98b.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggxxkrdi94j312w0ihn3n.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/60494431/Clash-Royale-Royal-Ghost">Clash Royale - Royal Ghost</a> by 
+      <a href="https://www.behance.net/dafortin">David Fortin</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文围绕游戏分析方法展开。游戏分析方法分为四个部分，首先是游戏分析方法是什么以及它的意义，也就是我们为什么要分析游戏方法；之后是关于游戏产品特性；再往下是关于游戏类型，即一个游戏品类的分析；最后是游戏类型趋势分析，游戏品类有什么变化和发展。</p>
+<a id="more"></a>
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#x65;&#110;&#120;&#x75;&#64;&#116;&#x65;&#x6e;&#99;&#101;&#110;&#x74;&#46;&#99;&#111;&#x6d;">&#x6c;&#101;&#x65;&#110;&#120;&#x75;&#64;&#116;&#x65;&#x6e;&#99;&#101;&#110;&#x74;&#46;&#99;&#111;&#x6d;</a></strong> </li>
+</ul>
+<h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
+<blockquote>
+<p>eg. 产品类型，相较同类产品的突破</p>
+</blockquote>
+<h5 id="商业前景分析"><a href="#商业前景分析" class="headerlink" title="商业前景分析"></a>商业前景分析</h5><p>关注产品的商业潜力。</p>
+<blockquote>
+<p> eg. 目标用户数量，上线后预期市场表现</p>
+</blockquote>
+<h5 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h5><p>产品上线后调整的重要依据</p>
+<blockquote>
+<p>eg. 游戏上线后留存，游戏上线后收入</p>
+</blockquote>
+<h4 id="游戏特性分析对游戏从业人员和游戏项目意义重大"><a href="#游戏特性分析对游戏从业人员和游戏项目意义重大" class="headerlink" title="游戏特性分析对游戏从业人员和游戏项目意义重大"></a>游戏特性分析对游戏从业人员和游戏项目意义重大</h4><p>游戏特性分析是游戏从业人员熟悉和理解游戏的捷径。</p>
+<p>用户在熟悉和掌握游戏分析方法后，能够在遇到游戏产品时能够快速形成认知 。</p>
+<p>项目研发的各个环节彼此影响，只有完美结合，才能诞生顶级作品，<strong>对游戏的认知</strong>就是串联所有环节的一把<strong>钥匙。</strong></p>
+<p>游戏和程序部门对设计方案提出<strong>修改反馈</strong>。团队成员对游戏的认知越<strong>深刻全面</strong>，提出的修改反馈越<strong>及时准确</strong>，反之，则可能在资源和功能制作完成并进入**<em>整合阶段**</em>才会发现问题并提出修改反馈。</p>
+<h4 id="现代游戏特性分析需要分析方法的支持"><a href="#现代游戏特性分析需要分析方法的支持" class="headerlink" title="现代游戏特性分析需要分析方法的支持"></a>现代游戏特性分析需要分析方法的支持</h4><p>目前游戏产品的<strong>分析难度</strong>与<strong>复杂度</strong>逐渐变高，因此科学的分析方法的作用愈来愈大</p>
+<p>游戏特性分析与方法（简称游戏分析方法）的目的在于<strong>减少</strong>分析过程中的<strong>随意性</strong>和<strong>片面性</strong>，使得分析更加全面与深入</p>
+<p>现在的游戏通常较为复杂，呈现<strong>混合游戏类型</strong> </p>
+<blockquote>
+<p> eg. <code>荒野大镖客2</code>的内容和玩法极为丰富</p>
+</blockquote>
+<p>相同的游戏元素在不同的游戏类型中所占<strong>权重很大</strong></p>
+<blockquote>
+<p> eg. <code>突变元年</code> <code>伊甸之路</code></p>
+</blockquote>
+<h3 id="游戏产品特性分析方法"><a href="#游戏产品特性分析方法" class="headerlink" title="游戏产品特性分析方法"></a>游戏产品特性分析方法</h3><h4 id="游戏产品特性分析的基础：认真体验游，同时不断思考"><a href="#游戏产品特性分析的基础：认真体验游，同时不断思考" class="headerlink" title="游戏产品特性分析的基础：认真体验游，同时不断思考"></a>游戏产品特性分析的基础：认真体验游，同时不断思考</h4><p>想尽可能全面，准确，深入地对游戏进行分析，必须认真体验游戏，切忌只看视频和其他用户描述。</p>
+<p>在游戏分析过程中，用户逐渐熟悉和掌握游戏分析方法，甚至形成新的分析思路，从而在遇到游戏产品时能够<strong>快速形成认知</strong>。</p>
+<ul>
+<li>多玩同类游戏：在时间允许的情况下，尽可能多玩同类游戏</li>
+<li>随时记录：游戏时多做笔记，记录和跟踪你的游戏过程与思考</li>
+<li>归纳总结：体验游戏后有逻辑的归纳总结，包括自己对游戏的感想，关注点，同类游戏比较等等</li>
+</ul>
+<h4 id="分析游戏的第一步：通过多维度评估产品"><a href="#分析游戏的第一步：通过多维度评估产品" class="headerlink" title="分析游戏的第一步：通过多维度评估产品"></a>分析游戏的第一步：通过多维度评估产品</h4><p>下文列举了评估游戏的不同维度，这些维度代表了不同的切入角度和评判标准，通过这些维度评估，我们可以获得对一款游戏产品（以<code>皇室战争</code>为例）的全面理解：</p>
+<h5 id="玩法"><a href="#玩法" class="headerlink" title="玩法"></a>玩法</h5><ul>
+<li>创新性&emsp;在手游商创造性的体现出RTS玩法</li>
+<li>耐玩性&emsp;策略深度和变化性均较为出色</li>
+<li>契合度&emsp;玩法对题材的表达是否合适</li>
+</ul>
+<h5 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h5><ul>
+<li>辨识度&emsp;美术风格辨识度高</li>
+<li>美术质量&emsp;静态效果较好，动态效果尤为出色</li>
+<li>接受度&emsp;用户接受程度较高</li>
+</ul>
+<h5 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h5><ul>
+<li>操作方式&emsp;操作十分便捷</li>
+<li>信息呈现&emsp;信息呈现清晰，用户一目了然</li>
+</ul>
+<h5 id="题材"><a href="#题材" class="headerlink" title="题材"></a>题材</h5><ul>
+<li>新颖度&emsp;玩法新颖</li>
+<li>流行度 &emsp;有 <code>部落冲突</code> 的IP加成</li>
+</ul>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggyfvj8s6fj30xc0id15c.jpg"></p>
+<h4 id="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"><a href="#分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素" class="headerlink" title="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"></a>分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素</h4><h5 id="拆解产品主要元素"><a href="#拆解产品主要元素" class="headerlink" title="拆解产品主要元素"></a>拆解产品主要元素</h5><p>这款游戏最吸引人的地方在哪里？列出你认为最吸引人的3-4各方面，可以从玩法，美术，平台等方面考虑：</p>
+<ul>
+<li>卡组策略</li>
+<li>实时对抗</li>
+<li>移动平台</li>
+<li>临场指挥</li>
+</ul>
+<h5 id="归纳游戏产品类型"><a href="#归纳游戏产品类型" class="headerlink" title="归纳游戏产品类型"></a>归纳游戏产品类型</h5><p>根据游戏最主要的乐趣点进行类型界定：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">实时对抗 + 临场发挥 -&gt; RTS类型</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="分析游戏第三步：将产品与所属类型的特性进行比较"><a href="#分析游戏第三步：将产品与所属类型的特性进行比较" class="headerlink" title="分析游戏第三步：将产品与所属类型的特性进行比较"></a>分析游戏第三步：将产品与所属类型的特性进行比较</h4><p>将产品与其所属类型的特性进行比较，分析产品继承，强化，甚至创造了哪些该类型的优点，同时解决了哪些该类型的缺点：</p>
+<h5 id="皇室战争"><a href="#皇室战争" class="headerlink" title="皇室战争"></a>皇室战争</h5><ul>
+<li>继承了什么品类的特点？</li>
+<li>在品类基础上有什么突破？</li>
+<li>解决了品类什么痛点？</li>
+</ul>
+<h5 id="RTS类型"><a href="#RTS类型" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
+<li>实时指挥的游戏运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+<li>门槛高，兴奋点滞后</li>
+<li>游戏负担重</li>
+</ul>
+<h5 id="皇室战争继承了RTS丰富策略实时对抗的优点"><a href="#皇室战争继承了RTS丰富策略实时对抗的优点" class="headerlink" title="皇室战争继承了RTS丰富策略实时对抗的优点"></a>皇室战争继承了RTS丰富策略实时对抗的优点</h5><ul>
+<li>卡牌相克明显</li>
+<li>组卡衍生战术多样性 </li>
+</ul>
+<blockquote>
+<p>eg. 巨人流，狗球流，自闭流…每个牌组只有8张牌，配卡方式多变，产生各种不同的战术</p>
+</blockquote>
+<ul>
+<li>实时操作与对抗</li>
+</ul>
+<blockquote>
+<p>eg. 实时操作单位，选择和改变策略；配合清晰合理的单位AI，营造初双方即时对抗博弈的体验</p>
+</blockquote>
+<h5 id="皇室战争-解决了RTS门槛高的问题"><a href="#皇室战争-解决了RTS门槛高的问题" class="headerlink" title="皇室战争 解决了RTS门槛高的问题"></a>皇室战争 解决了RTS门槛高的问题</h5><ul>
+<li>游戏时间短</li>
+</ul>
+<blockquote>
+<p>eg. 单局3-6分钟</p>
+</blockquote>
+<ul>
+<li>瞬时思考维度少</li>
+</ul>
+<blockquote>
+<p>eg. 恒大资源供给，简化内政，集中于战斗</p>
+</blockquote>
+<ul>
+<li>操作模式简单</li>
+</ul>
+<blockquote>
+<p>eg. 瞬时操作少，操作方式简单；在合适的时机，位置使用合适的卡牌</p>
+</blockquote>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggygkr3u8aj30xc0i3naz.jpg"></p>
+<h4 id="【小练习】-比较王者荣耀与RTS特性"><a href="#【小练习】-比较王者荣耀与RTS特性" class="headerlink" title="【小练习】 比较王者荣耀与RTS特性"></a>【小练习】 比较王者荣耀与RTS特性</h4><p>MOBA属于RTS的衍生类型，比较 <code>王者荣耀</code> 与RTS特性，分析其继承，强化，甚至创造了哪些RTS的优点，同时解决了哪些RTS的缺点：</p>
+<h5 id="王者荣耀"><a href="#王者荣耀" class="headerlink" title="王者荣耀"></a>王者荣耀</h5><ul>
+<li>继承了什么品类的特点？</li>
+<li>在品类基础上有什么突破？</li>
+<li>解决了品类什么痛点？</li>
+</ul>
+<h5 id="RTS类型-1"><a href="#RTS类型-1" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
+<li>实时指挥的游戏运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+<li>门槛高，兴奋点滞后</li>
+<li>游戏负担重</li>
+</ul>
+<h5 id="王者荣耀继承了RTS丰富策略实时对抗的优点"><a href="#王者荣耀继承了RTS丰富策略实时对抗的优点" class="headerlink" title="王者荣耀继承了RTS丰富策略实时对抗的优点"></a>王者荣耀继承了RTS丰富策略实时对抗的优点</h5><ul>
+<li>实时对抗的反馈与紧张+一定的战场模拟</li>
+<li>一定的策略深度（经济，成长，侦查，配合）</li>
+</ul>
+<h3 id="游戏类型特点分析方法"><a href="#游戏类型特点分析方法" class="headerlink" title="游戏类型特点分析方法"></a>游戏类型特点分析方法</h3><h4 id="分析游戏类型特点：总结同类型产品的共同点"><a href="#分析游戏类型特点：总结同类型产品的共同点" class="headerlink" title="分析游戏类型特点：总结同类型产品的共同点"></a>分析游戏类型特点：总结同类型产品的共同点</h4><h5 id="RTS同类型游戏"><a href="#RTS同类型游戏" class="headerlink" title="RTS同类型游戏"></a>RTS同类型游戏</h5><blockquote>
+<ul>
+<li><code>魔兽争霸3</code></li>
+<li><code>三国志大战</code></li>
+<li><code>全面战争:战锤2</code></li>
+<li><code>皇室战争</code></li>
+</ul>
+</blockquote>
+<h5 id="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"><a href="#一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性" class="headerlink" title="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"></a>一个游戏类型总会有各种各样的差异化产品，需要寻找它们的<strong>共性</strong></h5><blockquote>
+<p><code>魔兽争霸3</code></p>
+<ul>
+<li>PC平台 键鼠操作</li>
+<li>实时的‘内政-&gt;侦查-&gt;战斗’模式；矿点，商店等特殊地点的争夺贯穿整个游戏</li>
+</ul>
+<p><code>三国志大战</code></p>
+<ul>
+<li>街机平台 实体卡牌 + 触摸操作</li>
+<li>实时的‘资源-&gt;兵力-&gt;战斗’模式；地图区域的控制争夺贯穿整个游戏</li>
+</ul>
+<p><code>全面战争：战锤2</code></p>
+<ul>
+<li>PC平台 键鼠操作</li>
+<li>专注于实时的指挥与战斗；关键地形的争夺贯穿游戏过程</li>
+</ul>
+<p><code>皇室战争</code></p>
+<ul>
+<li>移动平台 触摸屏操作</li>
+<li>实时的 资源-&gt;兵力-&gt;战斗 模式</li>
+</ul>
+</blockquote>
+<p>共性：<strong>实时的运行机制和操作模式</strong> + <strong>丰富的策略与战场空间争夺元素</strong></p>
+<img src="https://img.3dmgame.com/UploadFiles/200908/20090831180642574.jpg" style="zoom:150%;" />
+
+
+
+<h5 id="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"><a href="#分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）" class="headerlink" title="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"></a>分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）</h5><ul>
+<li>回合制策略 - <code>文明6</code></li>
+<li>实时射击 - <code>绝地求生</code></li>
+</ul>
+<h5 id="分析游戏类型特点：寻找现实与游戏之间的映射"><a href="#分析游戏类型特点：寻找现实与游戏之间的映射" class="headerlink" title="分析游戏类型特点：寻找现实与游戏之间的映射"></a>分析游戏类型特点：寻找现实与游戏之间的映射</h5><p>很多游戏都可以视为对现实的一种映射，我们需要寻找 <strong>现实 &lt;–&gt; 游戏 的映射</strong></p>
+<blockquote>
+<p>格斗游戏</p>
+<ul>
+<li><code>VR战士</code> <code>街霸5</code> -&gt; 真实世界对战格斗</li>
+</ul>
+<p>射击</p>
+<ul>
+<li><code>绝地求生</code> <code>使命召唤系列</code> -&gt; 现实射击</li>
+</ul>
+<p>回合制策略</p>
+<ul>
+<li><code>文明6</code> <code>群星</code> -&gt; 国家管理与战争</li>
+</ul>
+<p>RTS</p>
+<ul>
+<li><code>全面战争：战锤2</code> <code>皇室战争 </code>-&gt; 战场指挥体验</li>
+</ul>
+</blockquote>
+<h5 id="通过多种方法总结游戏类型的特点"><a href="#通过多种方法总结游戏类型的特点" class="headerlink" title="通过多种方法总结游戏类型的特点"></a>通过多种方法总结游戏类型的特点</h5><p>RTS产品共性（优点）</p>
+<ul>
+<li>实时的运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+</ul>
+<p>RTS产品与其他类型产品差异（缺点）</p>
+<ul>
+<li>战场策略的实时还原</li>
+<li>门槛高，兴奋点滞后</li>
+</ul>
+<p>RTS产品与现实间的映射</p>
+<ul>
+<li>战场指挥体验</li>
+</ul>
+<h3 id="游戏类型趋势分析方法"><a href="#游戏类型趋势分析方法" class="headerlink" title="游戏类型趋势分析方法"></a>游戏类型趋势分析方法</h3><h4 id="分析游戏类型趋势：挑选重点产品进行对比"><a href="#分析游戏类型趋势：挑选重点产品进行对比" class="headerlink" title="分析游戏类型趋势：挑选重点产品进行对比"></a>分析游戏类型趋势：挑选重点产品进行对比</h4><p>在产品特性分析的基础上，我们库乐队特定游戏类型的发展趋势进行分析研究</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">挑选代表产品 -&gt; 总结每个产品的特点 -&gt; 比较产品</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h4 id="比较产品，寻找类型发展趋势"><a href="#比较产品，寻找类型发展趋势" class="headerlink" title="比较产品，寻找类型发展趋势"></a>比较产品，寻找类型发展趋势</h4><blockquote>
+<p>时间轴</p>
+<ul>
+<li>2002 <code>魔兽争霸3</code> 内容非常全面 策略非常丰富 指挥体验完善 操作复杂 门槛高</li>
+<li>2005 强调战斗 策略丰富 指挥体验非常出色 门槛较高 新平台</li>
+<li>2006 <code>英雄连</code></li>
+<li>2009 <code>英雄联盟</code> 强调战斗和配合 策略丰富 操作方式简单 门槛低</li>
+<li>2010 <code>星际争霸2</code> 类似于WAR3的传统RTS</li>
+<li>2013 <code>横扫千星</code></li>
+<li>2015 <code>灰蛊</code> <code>王者荣耀</code> - 英雄联盟移动版</li>
+<li>2016 <code>奇点灰烬</code></li>
+<li>2017 强调战斗 战场策略丰富 指挥体验完善 操作较为复杂 门槛较高</li>
+</ul>
+</blockquote>
+<ul>
+<li>核心：实时的策略性，战场体验，指挥感仍是RTS的核心</li>
+<li>内容侧重：不追求内容面面俱到，而是集中于某些模块（例如战斗）</li>
+<li>门槛：门槛逐渐降低，游戏节奏逐渐加快</li>
+<li>平台：新平台出现扩大用户规模</li>
+<li>技术：新技术的应用改进RTS形态（例如新操作模式），使其满足新用户的需求</li>
+</ul>
+<p>###【课后作业】 分析特定产品</p>
+<p><strong>（1）Apex Legends</strong></p>
+<ul>
+<li>继承了什么大逃杀品类的特点</li>
+<li>在大逃杀品类基础上有什么突破</li>
+<li>解决了大逃杀品类的什么问题</li>
+</ul>
+<p><strong>（2）大逃杀类型特性</strong></p>
+<blockquote>
+<ul>
+<li><code>H1Z1</code></li>
+<li><code>绝地求生</code></li>
+<li><code>堡垒之夜</code></li>
+<li><code>黑色行动4</code></li>
+</ul>
+</blockquote>
+<p><strong>（3）只狼</strong></p>
+<ul>
+<li>继承了什么ACT品类的特点</li>
+<li>在ACT品类基础上有什么突破</li>
+<li>解决了ACT品类的什么问题</li>
+</ul>
+<p><strong>（4）ACT类型特性</strong></p>
+<blockquote>
+<ul>
+<li><code>鬼泣</code></li>
+<li><code>猎天使魔女</code></li>
+<li><code>黑暗之魂</code></li>
+<li><code>战神</code></li>
+</ul>
+</blockquote>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/dafortin">David Fortin</a>
+    </i>
+  </font>
+</div>]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>中国游戏市场简析</title>
     <url>/archives/undefined.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggxwpu9b5oj311i0p0n12.jpg"></p>
@@ -748,297 +1042,219 @@
       </tags>
   </entry>
   <entry>
-    <title>游戏分析方法</title>
-    <url>/archives/f40ec98b.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggxxkrdi94j312w0ihn3n.jpg"></p>
+    <title>MMORPG的发展历程与简析</title>
+    <url>/archives/ccbc93d7.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh07s1iq60j312w0a0adb.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
-      <a href="https://www.behance.net/gallery/60494431/Clash-Royale-Royal-Ghost">Clash Royale - Royal Ghost</a> by 
-      <a href="https://www.behance.net/dafortin">David Fortin</a>
+      <a href="https://www.behance.net/gallery/68766885/Black-potion">Black potion</a> by 
+      <a href="https://www.behance.net/harveydentmustdie">Milos Kostic</a>
     </i>
   </font>
 </div>
 
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文围绕游戏分析方法展开。游戏分析方法分为四个部分，首先是游戏分析方法是什么以及它的意义，也就是我们为什么要分析游戏方法；之后是关于游戏产品特性；再往下是关于游戏类型，即一个游戏品类的分析；最后是游戏类型趋势分析，游戏品类有什么变化和发展。</p>
+
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主要讲解MMORPG游戏类型，通过MMORPG的主要发展过程、列举一些具有代表性的产品，分析其中的一些系统，以及如何改变市场发展方向。</p>
 <a id="more"></a>
 
 
 
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>李博</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#101;&#101;&#110;&#x78;&#117;&#x40;&#x74;&#101;&#110;&#99;&#x65;&#x6e;&#x74;&#x2e;&#x63;&#x6f;&#109;">&#108;&#101;&#101;&#110;&#x78;&#117;&#x40;&#x74;&#101;&#110;&#99;&#x65;&#x6e;&#x74;&#x2e;&#x63;&#x6f;&#109;</a></strong> </li>
+<li>2011年毕业于厦门大学</li>
+<li>2014年进入腾讯引进评估中心 </li>
 </ul>
-<h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
-<blockquote>
-<p>eg. 产品类型，相较同类产品的突破</p>
+<h3 id="MMORPG的兴起"><a href="#MMORPG的兴起" class="headerlink" title="MMORPG的兴起"></a>MMORPG的兴起</h3><h4 id="MMORPG的概念"><a href="#MMORPG的概念" class="headerlink" title="MMORPG的概念"></a>MMORPG的概念</h4><blockquote>
+<p> <strong>MMORPG</strong> – <strong>M</strong>assively <strong>M</strong>ultiplayer <strong>O</strong>nline <strong>R</strong>ole <strong>P</strong>laying <strong>G</strong>ame – 大型多人在线角色扮演游戏</p>
 </blockquote>
-<h5 id="商业前景分析"><a href="#商业前景分析" class="headerlink" title="商业前景分析"></a>商业前景分析</h5><p>关注产品的商业潜力。</p>
-<blockquote>
-<p> eg. 目标用户数量，上线后预期市场表现</p>
-</blockquote>
-<h5 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h5><p>产品上线后调整的重要依据</p>
-<blockquote>
-<p>eg. 游戏上线后留存，游戏上线后收入</p>
-</blockquote>
-<h4 id="游戏特性分析对游戏从业人员和游戏项目意义重大"><a href="#游戏特性分析对游戏从业人员和游戏项目意义重大" class="headerlink" title="游戏特性分析对游戏从业人员和游戏项目意义重大"></a>游戏特性分析对游戏从业人员和游戏项目意义重大</h4><p>游戏特性分析是游戏从业人员熟悉和理解游戏的捷径。</p>
-<p>用户在熟悉和掌握游戏分析方法后，能够在遇到游戏产品时能够快速形成认知 。</p>
-<p>项目研发的各个环节彼此影响，只有完美结合，才能诞生顶级作品，<strong>对游戏的认知</strong>就是串联所有环节的一把<strong>钥匙。</strong></p>
-<p>游戏和程序部门对设计方案提出<strong>修改反馈</strong>。团队成员对游戏的认知越<strong>深刻全面</strong>，提出的修改反馈越<strong>及时准确</strong>，反之，则可能在资源和功能制作完成并进入**<em>整合阶段**</em>才会发现问题并提出修改反馈。</p>
-<h4 id="现代游戏特性分析需要分析方法的支持"><a href="#现代游戏特性分析需要分析方法的支持" class="headerlink" title="现代游戏特性分析需要分析方法的支持"></a>现代游戏特性分析需要分析方法的支持</h4><p>目前游戏产品的<strong>分析难度</strong>与<strong>复杂度</strong>逐渐变高，因此科学的分析方法的作用愈来愈大</p>
-<p>游戏特性分析与方法（简称游戏分析方法）的目的在于<strong>减少</strong>分析过程中的<strong>随意性</strong>和<strong>片面性</strong>，使得分析更加全面与深入</p>
-<p>现在的游戏通常较为复杂，呈现<strong>混合游戏类型</strong> </p>
-<blockquote>
-<p> eg. <code>荒野大镖客2</code>的内容和玩法极为丰富</p>
-</blockquote>
-<p>相同的游戏元素在不同的游戏类型中所占<strong>权重很大</strong></p>
-<blockquote>
-<p> eg. <code>突变元年</code> <code>伊甸之路</code></p>
-</blockquote>
-<h3 id="游戏产品特性分析方法"><a href="#游戏产品特性分析方法" class="headerlink" title="游戏产品特性分析方法"></a>游戏产品特性分析方法</h3><h4 id="游戏产品特性分析的基础：认真体验游，同时不断思考"><a href="#游戏产品特性分析的基础：认真体验游，同时不断思考" class="headerlink" title="游戏产品特性分析的基础：认真体验游，同时不断思考"></a>游戏产品特性分析的基础：认真体验游，同时不断思考</h4><p>想尽可能全面，准确，深入地对游戏进行分析，必须认真体验游戏，切忌只看视频和其他用户描述。</p>
-<p>在游戏分析过程中，用户逐渐熟悉和掌握游戏分析方法，甚至形成新的分析思路，从而在遇到游戏产品时能够<strong>快速形成认知</strong>。</p>
+<p>与单机RPG一样，个人成长仍然是游戏的核心驱动力，但成长出口和成长方式有本质区别。社交系统给了玩家全新的体验。</p>
+<p>其实并不是所有产品都会在国内市场获得成功，但是每款产品都奠定了一个MMORPG的一个玩法品类或者是整个框架这样一个基础，所以后续的产品基本上没有逃出这三个产品的一个基本框架。</p>
+<h4 id="《网络传创世纪（Ultima-Online）》"><a href="#《网络传创世纪（Ultima-Online）》" class="headerlink" title="《网络传创世纪（Ultima Online）》"></a><strong>《网络传创世纪（Ultima Online）》</strong></h4><p>1996年（中国 1999年）上线，它是第一款图形网络游戏，在<strong>《网络创世纪》</strong>之前其实都是文字网游。但它本身并没有逃出文字网游的一些设定，虽然是图形化，但玩家在操作时还是要输入指令，后面出现了宏名指令之后让整个指令过程变得简单一些。</p>
+<p>这款游戏在玩法上是非常自由的，玩家在进入游戏时并不用选择职业，然后可以自己定义自己的发展方向。同时涉及了诸如家园系统、钓鱼系统、生活技能等等，这些大部分都被沿用到了今天。这款产品开创了整个网络游戏的一个框架，就是服务端和客户端的交互，客户端负责计算和展示，服务端进行存储。</p>
 <ul>
-<li>多玩同类游戏：在时间允许的情况下，尽可能多玩同类游戏</li>
-<li>随时记录：游戏时多做笔记，记录和跟踪你的游戏过程与思考</li>
-<li>归纳总结：体验游戏后有逻辑的归纳总结，包括自己对游戏的感想，关注点，同类游戏比较等等</li>
-</ul>
-<h4 id="分析游戏的第一步：通过多维度评估产品"><a href="#分析游戏的第一步：通过多维度评估产品" class="headerlink" title="分析游戏的第一步：通过多维度评估产品"></a>分析游戏的第一步：通过多维度评估产品</h4><p>下文列举了评估游戏的不同维度，这些维度代表了不同的切入角度和评判标准，通过这些维度评估，我们可以获得对一款游戏产品（以<code>皇室战争</code>为例）的全面理解：</p>
-<h5 id="玩法"><a href="#玩法" class="headerlink" title="玩法"></a>玩法</h5><ul>
-<li>创新性&emsp;在手游商创造性的体现出RTS玩法</li>
-<li>耐玩性&emsp;策略深度和变化性均较为出色</li>
-<li>契合度&emsp;玩法对题材的表达是否合适</li>
-</ul>
-<h5 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h5><ul>
-<li>辨识度&emsp;美术风格辨识度高</li>
-<li>美术质量&emsp;静态效果较好，动态效果尤为出色</li>
-<li>接受度&emsp;用户接受程度较高</li>
-</ul>
-<h5 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h5><ul>
-<li>操作方式&emsp;操作十分便捷</li>
-<li>信息呈现&emsp;信息呈现清晰，用户一目了然</li>
-</ul>
-<h5 id="题材"><a href="#题材" class="headerlink" title="题材"></a>题材</h5><ul>
-<li>新颖度&emsp;玩法新颖</li>
-<li>流行度 &emsp;有 <code>部落冲突</code> 的IP加成</li>
-</ul>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggyfvj8s6fj30xc0id15c.jpg"></p>
-<h4 id="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"><a href="#分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素" class="headerlink" title="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"></a>分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素</h4><h5 id="拆解产品主要元素"><a href="#拆解产品主要元素" class="headerlink" title="拆解产品主要元素"></a>拆解产品主要元素</h5><p>这款游戏最吸引人的地方在哪里？列出你认为最吸引人的3-4各方面，可以从玩法，美术，平台等方面考虑：</p>
-<ul>
-<li>卡组策略</li>
-<li>实时对抗</li>
-<li>移动平台</li>
-<li>临场指挥</li>
-</ul>
-<h5 id="归纳游戏产品类型"><a href="#归纳游戏产品类型" class="headerlink" title="归纳游戏产品类型"></a>归纳游戏产品类型</h5><p>根据游戏最主要的乐趣点进行类型界定：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">实时对抗 + 临场发挥 -&gt; RTS类型</span><br></pre></td></tr></table></figure>
-
-
-<h4 id="分析游戏第三步：将产品与所属类型的特性进行比较"><a href="#分析游戏第三步：将产品与所属类型的特性进行比较" class="headerlink" title="分析游戏第三步：将产品与所属类型的特性进行比较"></a>分析游戏第三步：将产品与所属类型的特性进行比较</h4><p>将产品与其所属类型的特性进行比较，分析产品继承，强化，甚至创造了哪些该类型的优点，同时解决了哪些该类型的缺点：</p>
-<h5 id="皇室战争"><a href="#皇室战争" class="headerlink" title="皇室战争"></a>皇室战争</h5><ul>
-<li>继承了什么品类的特点？</li>
-<li>在品类基础上有什么突破？</li>
-<li>解决了品类什么痛点？</li>
-</ul>
-<h5 id="RTS类型"><a href="#RTS类型" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
-<li>实时指挥的游戏运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-<li>门槛高，兴奋点滞后</li>
-<li>游戏负担重</li>
-</ul>
-<h5 id="皇室战争继承了RTS丰富策略实时对抗的优点"><a href="#皇室战争继承了RTS丰富策略实时对抗的优点" class="headerlink" title="皇室战争继承了RTS丰富策略实时对抗的优点"></a>皇室战争继承了RTS丰富策略实时对抗的优点</h5><ul>
-<li>卡牌相克明显</li>
-<li>组卡衍生战术多样性 </li>
-</ul>
+<li><p>游戏公会</p>
+</li>
+<li><p>家园系统</p>
+</li>
+<li><p>虚拟生态</p>
+<p>  现代的MMORPG网游的刷怪都是有固定或者有一个时间间隔的，而网络创世纪不会随机刷新。</p>
 <blockquote>
-<p>eg. 巨人流，狗球流，自闭流…每个牌组只有8张牌，配卡方式多变，产生各种不同的战术</p>
+<p> 在一个村庄有鹿的生活区域，如果玩家把鹿都杀光，该地区的龙就会因为缺少食物而去攻击人类的村庄，这个时候人类的村庄会弹出一个任务，让玩家去屠龙。</p>
 </blockquote>
-<ul>
-<li>实时操作与对抗</li>
+<p>  设计者想的很好，通过这种生态模式可以触发很多新的任务新的玩法给玩家。然而事实上玩家屠龙之后因为没有刷怪机制只能自相残杀，整个游戏变得非常混乱，生态系统宣告失败。</p>
+</li>
 </ul>
+<ul>
+<li><p>红名模式</p>
+<p>  首创杀人会变成红名，红名会获得惩罚。</p>
+</li>
+<li><p>不列颠之王遇刺事件</p>
+<p>  在内测的时候当时的总设计师理查德，作为一个GM账号进入游戏，游戏ID是不列颠之王。结果因为GM账号没有勾选无敌选项，他被一个盗贼玩家杀死了。</p>
+</li>
+</ul>
+<p>这几件事给人们带来的启示是游戏玩家的行为会不可预测的，限制玩家行为是非常重要的。而像<strong>网络创世纪</strong>这样开放自由的游戏在后面的产品中已经非常少见了。</p>
+<h4 id="《无尽的任务（Ever-Quest）》"><a href="#《无尽的任务（Ever-Quest）》" class="headerlink" title="《无尽的任务（Ever Quest）》"></a><strong>《无尽的任务（Ever Quest）》</strong></h4><p>1999年（中国 2003年）上线，简要的概括这款产品就是<strong>魔兽世界</strong>的前身。当时设计者在<strong>网络创世纪</strong>看到许多PvP的负面影响，所以定位是主攻PvE，系统非常出彩。比如它首创了仇恨系统，怪物会根据玩家对它不同的攻击来建立一个仇恨的列表，然后优先攻击仇恨列表第一个玩家。它的任务系统也是非常庞大的，给玩家非常多的选择。它也首创了raid系统，即大规模的团队PvE。还有一些职业的分化、buff、debuff、种族天赋都有所体现。</p>
+<p>但这款产品在2003年进入中国之后并没有获得成功。首先它作为3D游戏，国内的硬件环境并没有办法去支撑，大部分电脑是跑不动的；还有一点是过于硬核，设计者对游戏的真实性达到了偏执的程度，里面所有的设定都要跟现实世界比较相似。</p>
 <blockquote>
-<p>eg. 实时操作单位，选择和改变策略；配合清晰合理的单位AI，营造初双方即时对抗博弈的体验</p>
+<p>里面的夜晚真的就是夜晚，现在游戏的夜晚是天色变黑但能见度没有影响，但在EQ里面没有夜视能力的职业是基本什么都看不到。所以当时如果人类在晚上出生，他想出新手村可能要转几个小时才能出去。</p>
 </blockquote>
-<h5 id="皇室战争-解决了RTS门槛高的问题"><a href="#皇室战争-解决了RTS门槛高的问题" class="headerlink" title="皇室战争 解决了RTS门槛高的问题"></a>皇室战争 解决了RTS门槛高的问题</h5><ul>
-<li>游戏时间短</li>
+<h4 id="《石器时代（StoneAge）》"><a href="#《石器时代（StoneAge）》" class="headerlink" title="《石器时代（StoneAge）》"></a><strong>《石器时代（StoneAge）》</strong></h4><p>1999年在日本上线，2001中国上线并获得了成功。作为一个回合制游戏，在拨号上网的年代很契合中国的网络环境，即时制的游戏对于网络要求比较高；同时它的画面表现相对欧美玩家来讲更符合国内玩家的品味，相对轻松一些的卡通风格，接受度也更大一些。</p>
+<ul>
+<li>宠物系统</li>
+<li>社交行为</li>
+<li>直接影响回合制游戏的设定</li>
 </ul>
+<h3 id="MMORPG的发展"><a href="#MMORPG的发展" class="headerlink" title="MMORPG的发展"></a>MMORPG的发展</h3><p>发展的时期大概在2001年到2010年之间，这段时间算是MMORPG最辉煌的一个阶段，大作非常多，玩法的颠覆也非常多，社交体系的颠覆也比较多，包括商业化。商业化的改变非常巨大，中国在这一方面引领了世界。</p>
+<h4 id="《传奇》系列"><a href="#《传奇》系列" class="headerlink" title="《传奇》系列"></a><strong>《传奇》系列</strong></h4><p>传奇就跟它的名字一样，它就是一个传奇。它在2001年由盛大代理在国内上线 <strong>《传奇（热血传奇）》</strong>。</p>
+<p>传奇的玩法就是杀怪，玩家杀怪获得装备升级，升级之后变强了拿到更好的装备就可以挑战更高级的怪物，然后继续杀怪升级。游戏的探索价值比较高，当时没有门户网站，整个游戏是未知，需要玩家不断去探索。</p>
 <blockquote>
-<p>eg. 单局3-6分钟</p>
-</blockquote>
 <ul>
-<li>瞬时思考维度少</li>
-</ul>
-<blockquote>
-<p>eg. 恒大资源供给，简化内政，集中于战斗</p>
-</blockquote>
-<ul>
-<li>操作模式简单</li>
-</ul>
-<blockquote>
-<p>eg. 瞬时操作少，操作方式简单；在合适的时机，位置使用合适的卡牌</p>
-</blockquote>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggygkr3u8aj30xc0i3naz.jpg"></p>
-<h4 id="【小练习】-比较王者荣耀与RTS特性"><a href="#【小练习】-比较王者荣耀与RTS特性" class="headerlink" title="【小练习】 比较王者荣耀与RTS特性"></a>【小练习】 比较王者荣耀与RTS特性</h4><p>MOBA属于RTS的衍生类型，比较 <code>王者荣耀</code> 与RTS特性，分析其继承，强化，甚至创造了哪些RTS的优点，同时解决了哪些RTS的缺点：</p>
-<h5 id="王者荣耀"><a href="#王者荣耀" class="headerlink" title="王者荣耀"></a>王者荣耀</h5><ul>
-<li>继承了什么品类的特点？</li>
-<li>在品类基础上有什么突破？</li>
-<li>解决了品类什么痛点？</li>
-</ul>
-<h5 id="RTS类型-1"><a href="#RTS类型-1" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
-<li>实时指挥的游戏运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-<li>门槛高，兴奋点滞后</li>
-<li>游戏负担重</li>
-</ul>
-<h5 id="王者荣耀继承了RTS丰富策略实时对抗的优点"><a href="#王者荣耀继承了RTS丰富策略实时对抗的优点" class="headerlink" title="王者荣耀继承了RTS丰富策略实时对抗的优点"></a>王者荣耀继承了RTS丰富策略实时对抗的优点</h5><ul>
-<li>实时对抗的反馈与紧张+一定的战场模拟</li>
-<li>一定的策略深度（经济，成长，侦查，配合）</li>
-</ul>
-<h3 id="游戏类型特点分析方法"><a href="#游戏类型特点分析方法" class="headerlink" title="游戏类型特点分析方法"></a>游戏类型特点分析方法</h3><h4 id="分析游戏类型特点：总结同类型产品的共同点"><a href="#分析游戏类型特点：总结同类型产品的共同点" class="headerlink" title="分析游戏类型特点：总结同类型产品的共同点"></a>分析游戏类型特点：总结同类型产品的共同点</h4><h5 id="RTS同类型游戏"><a href="#RTS同类型游戏" class="headerlink" title="RTS同类型游戏"></a>RTS同类型游戏</h5><blockquote>
-<ul>
-<li><code>魔兽争霸3</code></li>
-<li><code>三国志大战</code></li>
-<li><code>全面战争:战锤2</code></li>
-<li><code>皇室战争</code></li>
+<li>2002 传奇私服出现</li>
+<li>2003 <strong>传奇世界</strong></li>
+<li>2011 传奇页游开始兴起</li>
+<li>2015 热血传奇手游上线</li>
 </ul>
 </blockquote>
-<h5 id="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"><a href="#一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性" class="headerlink" title="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"></a>一个游戏类型总会有各种各样的差异化产品，需要寻找它们的<strong>共性</strong></h5><blockquote>
-<p><code>魔兽争霸3</code></p>
+<h4 id="《梦幻西游》"><a href="#《梦幻西游》" class="headerlink" title="《梦幻西游》"></a><strong>《梦幻西游》</strong></h4><p>融合了几乎所有回合制游戏的优点。当时设计者对玩家体验并不是十分的关注，而梦幻西游在玩家体验上做到了非常极致的优化，在游戏生活中非常的便捷。同时它在玩法上已经扩充的非常丰富了，除了最原始的打怪升级之外还有许多丰富的任务活动来填充玩家的游戏时间，成为了回合制游戏标杆。</p>
+<p>梦幻西游的经济系统非常开放，玩家可以自由交易，还能做到经济平衡，玩家的产出和消耗基本是持平的状态。在经济系统平稳的前提下，玩家整个打怪收益会比较固定，玩家粘性也会更高，最重要的点就是 <strong>我的努力有回报</strong>。</p>
+<p>网易凭借梦幻西游在2006年直接成为了国内第一的网游公司，所有产品的总在线人数超过了两百万。</p>
+<h4 id="《魔兽世界》"><a href="#《魔兽世界》" class="headerlink" title="《魔兽世界》"></a><strong>《魔兽世界》</strong></h4><p>魔兽世界是对整个网游市场颠覆最大的一款游戏。它在2005年由九城代理进入国内，做的最大的颠覆是副本系统。副本系统对PvE玩家更加的友好，有施展自己拳脚的平台。因为副本的诞生，让整个游戏更深耕于PvE的一个玩法，而BOSS更多的技能设计，也让整个游戏的玩法变得更加有趣。</p>
+<p>装备绑定的设定对整个网游影响也很大。因为之前的装备是不绑定的，所有的极品装备都是可以在市场上流通的，直接的影响就是装备会贬值。</p>
 <ul>
-<li>PC平台 键鼠操作</li>
-<li>实时的‘内政-&gt;侦查-&gt;战斗’模式；矿点，商店等特殊地点的争夺贯穿整个游戏</li>
+<li>阵营设定</li>
+<li>剧情任务</li>
+<li>开启语音社交时代</li>
 </ul>
-<p><code>三国志大战</code></p>
-<ul>
-<li>街机平台 实体卡牌 + 触摸操作</li>
-<li>实时的‘资源-&gt;兵力-&gt;战斗’模式；地图区域的控制争夺贯穿整个游戏</li>
-</ul>
-<p><code>全面战争：战锤2</code></p>
-<ul>
-<li>PC平台 键鼠操作</li>
-<li>专注于实时的指挥与战斗；关键地形的争夺贯穿游戏过程</li>
-</ul>
-<p><code>皇室战争</code></p>
-<ul>
-<li>移动平台 触摸屏操作</li>
-<li>实时的 资源-&gt;兵力-&gt;战斗 模式</li>
-</ul>
-</blockquote>
-<p>共性：<strong>实时的运行机制和操作模式</strong> + <strong>丰富的策略与战场空间争夺元素</strong></p>
-<img src="https://img.3dmgame.com/UploadFiles/200908/20090831180642574.jpg" style="zoom:150%;" />
+<p>早期魔兽跟无尽的任务十分相似，后面随着游戏的快餐化取消了许多反人类的硬核设定，而这些会在怀旧服中体现出来。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghbggrdqahj30r00f7juo.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.wowchina.com/zh-cn/news/18088331/%E9%AD%94%E5%85%BD%E4%B8%96%E7%95%8C%E5%85%A8%E6%96%B04k%E5%A3%81%E7%BA%B8">魔兽世界</a> 
+    </i>
+  </font>
+</div>
 
 
 
-<h5 id="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"><a href="#分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）" class="headerlink" title="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"></a>分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）</h5><ul>
-<li>回合制策略 - <code>文明6</code></li>
-<li>实时射击 - <code>绝地求生</code></li>
-</ul>
-<h5 id="分析游戏类型特点：寻找现实与游戏之间的映射"><a href="#分析游戏类型特点：寻找现实与游戏之间的映射" class="headerlink" title="分析游戏类型特点：寻找现实与游戏之间的映射"></a>分析游戏类型特点：寻找现实与游戏之间的映射</h5><p>很多游戏都可以视为对现实的一种映射，我们需要寻找 <strong>现实 &lt;–&gt; 游戏 的映射</strong></p>
-<blockquote>
-<p>格斗游戏</p>
+<h4 id="《热血江湖》"><a href="#《热血江湖》" class="headerlink" title="《热血江湖》"></a><strong>《热血江湖》</strong></h4><p>首款大张旗鼓宣扬自己是免费游戏的一款游戏。在此之前的免费游戏没有找到很好的营收手段，同时“卖数值”会影响平衡，让非R玩家有很强的负面情绪。</p>
 <ul>
-<li><code>VR战士</code> <code>街霸5</code> -&gt; 真实世界对战格斗</li>
+<li>宣告网游正式进入免费时代</li>
 </ul>
-<p>射击</p>
+<h4 id="《征途》"><a href="#《征途》" class="headerlink" title="《征途》"></a><strong>《征途》</strong></h4><p>把游戏的商业化做到极致的一个产品，以至于没有一款产品可以超越它。在2006年上线后就超过了梦幻西游的在线人数，原因在于史玉柱在宣传方面下了更多的功夫。</p>
+<p>征途开创了一种新的社交方式，就是国战。每个服务器有十个国家，然后对于城主和国家的皇帝来说，他的行驶权利是非常大的，比如获得NPC的一部分收益；或者可以行使一部分GM权利，这是一个玩家身份地位一个非常好的体现。</p>
 <ul>
-<li><code>绝地求生</code> <code>使命召唤系列</code> -&gt; 现实射击</li>
+<li>商业化和宣传</li>
+<li>新的PVP社交模式</li>
+<li>自动寻路开始普及</li>
+<li>网游开始快餐化</li>
 </ul>
-<p>回合制策略</p>
+<h4 id="《魔域》"><a href="#《魔域》" class="headerlink" title="《魔域》"></a><strong>《魔域》</strong></h4><ul>
+<li>2006</li>
+<li>爽快战斗</li>
+<li>XP技能</li>
+<li>商人在游戏中作用巨大</li>
+<li>网络游戏快餐化</li>
+</ul>
+<h4 id="《剑侠情缘网络版叁》"><a href="#《剑侠情缘网络版叁》" class="headerlink" title="《剑侠情缘网络版叁》"></a><strong>《剑侠情缘网络版叁》</strong></h4><p>初期仿照魔兽世界，后面效果不佳对游戏进行改进，变成现在这样相对巅峰的状态。恶人谷与浩气盟的争斗让设计者重新发现PvP的玩家参与度是比较高的，最终演变为阵容的攻防战，鼓励玩家去攻击阵营的BOSS。</p>
+<p>萝莉体型也是剑网三首创的，吸引了一部分二次元玩家。这部分玩家的二次创作能力非常强，包括cosplay、同人漫画、同人歌曲等等。同人文化的发展也是剑网三的一大特色。</p>
 <ul>
-<li><code>文明6</code> <code>群星</code> -&gt; 国家管理与战争</li>
+<li>阵容攻防战</li>
+<li>轻功系统</li>
+<li>同人文化</li>
+<li>剧情深化</li>
 </ul>
-<p>RTS</p>
-<ul>
-<li><code>全面战争：战锤2</code> <code>皇室战争 </code>-&gt; 战场指挥体验</li>
-</ul>
-</blockquote>
-<h5 id="通过多种方法总结游戏类型的特点"><a href="#通过多种方法总结游戏类型的特点" class="headerlink" title="通过多种方法总结游戏类型的特点"></a>通过多种方法总结游戏类型的特点</h5><p>RTS产品共性（优点）</p>
-<ul>
-<li>实时的运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-</ul>
-<p>RTS产品与其他类型产品差异（缺点）</p>
-<ul>
-<li>战场策略的实时还原</li>
-<li>门槛高，兴奋点滞后</li>
-</ul>
-<p>RTS产品与现实间的映射</p>
-<ul>
-<li>战场指挥体验</li>
-</ul>
-<h3 id="游戏类型趋势分析方法"><a href="#游戏类型趋势分析方法" class="headerlink" title="游戏类型趋势分析方法"></a>游戏类型趋势分析方法</h3><h4 id="分析游戏类型趋势：挑选重点产品进行对比"><a href="#分析游戏类型趋势：挑选重点产品进行对比" class="headerlink" title="分析游戏类型趋势：挑选重点产品进行对比"></a>分析游戏类型趋势：挑选重点产品进行对比</h4><p>在产品特性分析的基础上，我们库乐队特定游戏类型的发展趋势进行分析研究</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">挑选代表产品 -&gt; 总结每个产品的特点 -&gt; 比较产品</span><br></pre></td></tr></table></figure>
+<p>这些改进让剑网三走向了和魔兽世界完全不同的道路。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghbo6zmp6mj30zk0ffn4z.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://mp.weixin.qq.com/s/pLTjQMTOw6veVAn2R4mT0w">@白芷不是中药</a> 
+    </i>
+  </font>
+</div>
 
 
 
 
-<h4 id="比较产品，寻找类型发展趋势"><a href="#比较产品，寻找类型发展趋势" class="headerlink" title="比较产品，寻找类型发展趋势"></a>比较产品，寻找类型发展趋势</h4><blockquote>
-<p>时间轴</p>
+<h3 id="MMORPG的分化"><a href="#MMORPG的分化" class="headerlink" title="MMORPG的分化"></a>MMORPG的分化</h3><p>MMO到2010年之后，它就处于一个非常尴尬的地位，因为其实玩法上面已经挖掘差不多了，很难找到一个新的玩法；其次游戏这时候已经孵化成非常多的品类了，玩家有了更多的选择。第一条出路就是多平台，就是可以向其他一些更便捷的平台迁移来降低这个游戏的体量，同时研发成本也会降低。</p>
+<h4 id="页游MMO兴起"><a href="#页游MMO兴起" class="headerlink" title="页游MMO兴起"></a>页游MMO兴起</h4><p>MMO页游的特点就是全自动，它的目标用户就是上班族白领，他们没有时间玩游戏，通过自动挂机的方式来进行任务，打怪升级。在有时间的时候做一些操作比如PK、充值。因为玩法过于简单迅速进入瓶颈期，玩法和品质均无法做到突破。</p>
 <ul>
-<li>2002 <code>魔兽争霸3</code> 内容非常全面 策略非常丰富 指挥体验完善 操作复杂 门槛高</li>
-<li>2005 强调战斗 策略丰富 指挥体验非常出色 门槛较高 新平台</li>
-<li>2006 <code>英雄连</code></li>
-<li>2009 <code>英雄联盟</code> 强调战斗和配合 策略丰富 操作方式简单 门槛低</li>
-<li>2010 <code>星际争霸2</code> 类似于WAR3的传统RTS</li>
-<li>2013 <code>横扫千星</code></li>
-<li>2015 <code>灰蛊</code> <code>王者荣耀</code> - 英雄联盟移动版</li>
-<li>2016 <code>奇点灰烬</code></li>
-<li>2017 强调战斗 战场策略丰富 指挥体验完善 操作较为复杂 门槛较高</li>
+<li>洗量大行其道</li>
+<li>页游MMO最终只成为一个过渡形态</li>
 </ul>
-</blockquote>
+<h4 id="手游MMO兴起"><a href="#手游MMO兴起" class="headerlink" title="手游MMO兴起"></a>手游MMO兴起</h4><ul>
+<li>2014</li>
+<li>全民奇迹获得成功</li>
+<li>MMO手游开始兴起</li>
+<li>MMO品类正式从端游、页游，过渡到手游</li>
+</ul>
+<h4 id="梦幻西游手游"><a href="#梦幻西游手游" class="headerlink" title="梦幻西游手游"></a><strong>梦幻西游</strong>手游</h4><p>几乎移植了端游的所有玩法，在手游上毫无例外的获得了成功。在IOS畅销榜上面占第一名长达640天，没有任何一款新游戏可以撼动它的地位。</p>
 <ul>
-<li>核心：实时的策略性，战场体验，指挥感仍是RTS的核心</li>
-<li>内容侧重：不追求内容面面俱到，而是集中于某些模块（例如战斗）</li>
-<li>门槛：门槛逐渐降低，游戏节奏逐渐加快</li>
-<li>平台：新平台出现扩大用户规模</li>
-<li>技术：新技术的应用改进RTS形态（例如新操作模式），使其满足新用户的需求</li>
+<li>端游IP移植手游的热潮开启</li>
+<li>后续<strong>热血传奇、剑侠情缘、天龙八部</strong>等游戏相继上线</li>
 </ul>
-<p>###【课后作业】 分析特定产品</p>
-<p><strong>（1）Apex Legends</strong></p>
+<h4 id="《我叫MT4》"><a href="#《我叫MT4》" class="headerlink" title="《我叫MT4》"></a><strong>《我叫MT4》</strong></h4><p>在这款产品之前并没有一款魔兽世界玩法的游戏，弥补了该类的空白。</p>
 <ul>
-<li>继承了什么大逃杀品类的特点</li>
-<li>在大逃杀品类基础上有什么突破</li>
-<li>解决了大逃杀品类的什么问题</li>
+<li>魔兽玩法移植</li>
+<li>端游IP基本消耗殆尽</li>
+<li>手游MMO也将进入瓶颈</li>
 </ul>
-<p><strong>（2）大逃杀类型特性</strong></p>
-<blockquote>
+<h4 id="《激战2》"><a href="#《激战2》" class="headerlink" title="《激战2》"></a><strong>《激战2》</strong></h4><p>尝试开放世界，强调游戏探索。</p>
 <ul>
-<li><code>H1Z1</code></li>
-<li><code>绝地求生</code></li>
-<li><code>堡垒之夜</code></li>
-<li><code>黑色行动4</code></li>
+<li>随机地图事件</li>
+<li>买断式收费</li>
+<li>跨服的纯公平PVP</li>
+<li>国服盗号事件</li>
 </ul>
-</blockquote>
-<p><strong>（3）只狼</strong></p>
+<h4 id="《楚留香》"><a href="#《楚留香》" class="headerlink" title="《楚留香》"></a><strong>《楚留香》</strong></h4><p>手游的开放世界尝试。</p>
 <ul>
-<li>继承了什么ACT品类的特点</li>
-<li>在ACT品类基础上有什么突破</li>
-<li>解决了ACT品类的什么问题</li>
+<li>开放世界的尝试</li>
+<li>硬件和网络不断发展</li>
+<li>手游MMO的机会比较大</li>
 </ul>
-<p><strong>（4）ACT类型特性</strong></p>
-<blockquote>
-<ul>
-<li><code>鬼泣</code></li>
-<li><code>猎天使魔女</code></li>
-<li><code>黑暗之魂</code></li>
-<li><code>战神</code></li>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh17yayv6rj30mk0dkzw6.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://jianghu.163.com/?from=nietop">楚留香 一梦江湖</a> 
+    </i>
+  </font>
+</div>
+
+
+
+
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><ul>
+<li>画面品质、玩法乐趣、社交体系、经济体系都是绝对一款MMORPG是否成功的关键因素</li>
+<li>页游MMORPG在游戏本身以及比较难再做突破</li>
+<li>端游和手游MMO仍有比较大的发展前景</li>
+<li>未来MMORPG在玩法层面突破机会较大，高自由度、沙盒化的玩法可能是未来MMORPG爆发的方向</li>
 </ul>
-</blockquote>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh07sc7c5sj30xc08cmzg.jpg"></p>
 <div align=center>
   <font size="3">
     <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/dafortin">David Fortin</a>
+     <a href="https://www.behance.net/harveydentmustdie">Milos Kostic</a>
     </i>
   </font>
-</div>]]></content>
+</div>
+
+]]></content>
       <categories>
         <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
       </categories>
       <tags>
         <tag>Game</tag>
+        <tag>RPG</tag>
+        <tag>MMORPG</tag>
       </tags>
   </entry>
   <entry>
@@ -1339,419 +1555,6 @@
       <tags>
         <tag>Game</tag>
         <tag>RTS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MMORPG的发展历程与简析</title>
-    <url>/archives/ccbc93d7.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh07s1iq60j312w0a0adb.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/68766885/Black-potion">Black potion</a> by 
-      <a href="https://www.behance.net/harveydentmustdie">Milos Kostic</a>
-    </i>
-  </font>
-</div>
-
-
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主要讲解MMORPG游戏类型，通过MMORPG的主要发展过程、列举一些具有代表性的产品，分析其中的一些系统，以及如何改变市场发展方向。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>李博</strong> </p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li>2011年毕业于厦门大学</li>
-<li>2014年进入腾讯引进评估中心 </li>
-</ul>
-<h3 id="MMORPG的兴起"><a href="#MMORPG的兴起" class="headerlink" title="MMORPG的兴起"></a>MMORPG的兴起</h3><h4 id="MMORPG的概念"><a href="#MMORPG的概念" class="headerlink" title="MMORPG的概念"></a>MMORPG的概念</h4><blockquote>
-<p> <strong>MMORPG</strong> – <strong>M</strong>assively <strong>M</strong>ultiplayer <strong>O</strong>nline <strong>R</strong>ole <strong>P</strong>laying <strong>G</strong>ame – 大型多人在线角色扮演游戏</p>
-</blockquote>
-<p>与单机RPG一样，个人成长仍然是游戏的核心驱动力，但成长出口和成长方式有本质区别。社交系统给了玩家全新的体验。</p>
-<p>其实并不是所有产品都会在国内市场获得成功，但是每款产品都奠定了一个MMORPG的一个玩法品类或者是整个框架这样一个基础，所以后续的产品基本上没有逃出这三个产品的一个基本框架。</p>
-<h4 id="《网络传创世纪（Ultima-Online）》"><a href="#《网络传创世纪（Ultima-Online）》" class="headerlink" title="《网络传创世纪（Ultima Online）》"></a><strong>《网络传创世纪（Ultima Online）》</strong></h4><p>1996年（中国 1999年）上线，它是第一款图形网络游戏，在<strong>《网络创世纪》</strong>之前其实都是文字网游。但它本身并没有逃出文字网游的一些设定，虽然是图形化，但玩家在操作时还是要输入指令，后面出现了宏名指令之后让整个指令过程变得简单一些。</p>
-<p>这款游戏在玩法上是非常自由的，玩家在进入游戏时并不用选择职业，然后可以自己定义自己的发展方向。同时涉及了诸如家园系统、钓鱼系统、生活技能等等，这些大部分都被沿用到了今天。这款产品开创了整个网络游戏的一个框架，就是服务端和客户端的交互，客户端负责计算和展示，服务端进行存储。</p>
-<ul>
-<li><p>游戏公会</p>
-</li>
-<li><p>家园系统</p>
-</li>
-<li><p>虚拟生态</p>
-<p>  现代的MMORPG网游的刷怪都是有固定或者有一个时间间隔的，而网络创世纪不会随机刷新。</p>
-<blockquote>
-<p> 在一个村庄有鹿的生活区域，如果玩家把鹿都杀光，该地区的龙就会因为缺少食物而去攻击人类的村庄，这个时候人类的村庄会弹出一个任务，让玩家去屠龙。</p>
-</blockquote>
-<p>  设计者想的很好，通过这种生态模式可以触发很多新的任务新的玩法给玩家。然而事实上玩家屠龙之后因为没有刷怪机制只能自相残杀，整个游戏变得非常混乱，生态系统宣告失败。</p>
-</li>
-</ul>
-<ul>
-<li><p>红名模式</p>
-<p>  首创杀人会变成红名，红名会获得惩罚。</p>
-</li>
-<li><p>不列颠之王遇刺事件</p>
-<p>  在内测的时候当时的总设计师理查德，作为一个GM账号进入游戏，游戏ID是不列颠之王。结果因为GM账号没有勾选无敌选项，他被一个盗贼玩家杀死了。</p>
-</li>
-</ul>
-<p>这几件事给人们带来的启示是游戏玩家的行为会不可预测的，限制玩家行为是非常重要的。而像<strong>网络创世纪</strong>这样开放自由的游戏在后面的产品中已经非常少见了。</p>
-<h4 id="《无尽的任务（Ever-Quest）》"><a href="#《无尽的任务（Ever-Quest）》" class="headerlink" title="《无尽的任务（Ever Quest）》"></a><strong>《无尽的任务（Ever Quest）》</strong></h4><p>1999年（中国 2003年）上线，简要的概括这款产品就是<strong>魔兽世界</strong>的前身。当时设计者在<strong>网络创世纪</strong>看到许多PvP的负面影响，所以定位是主攻PvE，系统非常出彩。比如它首创了仇恨系统，怪物会根据玩家对它不同的攻击来建立一个仇恨的列表，然后优先攻击仇恨列表第一个玩家。它的任务系统也是非常庞大的，给玩家非常多的选择。它也首创了raid系统，即大规模的团队PvE。还有一些职业的分化、buff、debuff、种族天赋都有所体现。</p>
-<p>但这款产品在2003年进入中国之后并没有获得成功。首先它作为3D游戏，国内的硬件环境并没有办法去支撑，大部分电脑是跑不动的；还有一点是过于硬核，设计者对游戏的真实性达到了偏执的程度，里面所有的设定都要跟现实世界比较相似。</p>
-<blockquote>
-<p>里面的夜晚真的就是夜晚，现在游戏的夜晚是天色变黑但能见度没有影响，但在EQ里面没有夜视能力的职业是基本什么都看不到。所以当时如果人类在晚上出生，他想出新手村可能要转几个小时才能出去。</p>
-</blockquote>
-<h4 id="《石器时代（StoneAge）》"><a href="#《石器时代（StoneAge）》" class="headerlink" title="《石器时代（StoneAge）》"></a><strong>《石器时代（StoneAge）》</strong></h4><p>1999年在日本上线，2001中国上线并获得了成功。作为一个回合制游戏，在拨号上网的年代很契合中国的网络环境，即时制的游戏对于网络要求比较高；同时它的画面表现相对欧美玩家来讲更符合国内玩家的品味，相对轻松一些的卡通风格，接受度也更大一些。</p>
-<ul>
-<li>宠物系统</li>
-<li>社交行为</li>
-<li>直接影响回合制游戏的设定</li>
-</ul>
-<h3 id="MMORPG的发展"><a href="#MMORPG的发展" class="headerlink" title="MMORPG的发展"></a>MMORPG的发展</h3><p>发展的时期大概在2001年到2010年之间，这段时间算是MMORPG最辉煌的一个阶段，大作非常多，玩法的颠覆也非常多，社交体系的颠覆也比较多，包括商业化。商业化的改变非常巨大，中国在这一方面引领了世界。</p>
-<h4 id="《传奇》系列"><a href="#《传奇》系列" class="headerlink" title="《传奇》系列"></a><strong>《传奇》系列</strong></h4><p>传奇就跟它的名字一样，它就是一个传奇。它在2001年由盛大代理在国内上线 <strong>《传奇（热血传奇）》</strong>。</p>
-<p>传奇的玩法就是杀怪，玩家杀怪获得装备升级，升级之后变强了拿到更好的装备就可以挑战更高级的怪物，然后继续杀怪升级。游戏的探索价值比较高，当时没有门户网站，整个游戏是未知，需要玩家不断去探索。</p>
-<blockquote>
-<ul>
-<li>2002 传奇私服出现</li>
-<li>2003 <strong>传奇世界</strong></li>
-<li>2011 传奇页游开始兴起</li>
-<li>2015 热血传奇手游上线</li>
-</ul>
-</blockquote>
-<h4 id="《梦幻西游》"><a href="#《梦幻西游》" class="headerlink" title="《梦幻西游》"></a><strong>《梦幻西游》</strong></h4><p>融合了几乎所有回合制游戏的优点。当时设计者对玩家体验并不是十分的关注，而梦幻西游在玩家体验上做到了非常极致的优化，在游戏生活中非常的便捷。同时它在玩法上已经扩充的非常丰富了，除了最原始的打怪升级之外还有许多丰富的任务活动来填充玩家的游戏时间，成为了回合制游戏标杆。</p>
-<p>梦幻西游的经济系统非常开放，玩家可以自由交易，还能做到经济平衡，玩家的产出和消耗基本是持平的状态。在经济系统平稳的前提下，玩家整个打怪收益会比较固定，玩家粘性也会更高，最重要的点就是 <strong>我的努力有回报</strong>。</p>
-<p>网易凭借梦幻西游在2006年直接成为了国内第一的网游公司，所有产品的总在线人数超过了两百万。</p>
-<h4 id="《魔兽世界》"><a href="#《魔兽世界》" class="headerlink" title="《魔兽世界》"></a><strong>《魔兽世界》</strong></h4><p>魔兽世界是对整个网游市场颠覆最大的一款游戏。它在2005年由九城代理进入国内，做的最大的颠覆是副本系统。副本系统对PvE玩家更加的友好，有施展自己拳脚的平台。因为副本的诞生，让整个游戏更深耕于PvE的一个玩法，而BOSS更多的技能设计，也让整个游戏的玩法变得更加有趣。</p>
-<p>装备绑定的设定对整个网游影响也很大。因为之前的装备是不绑定的，所有的极品装备都是可以在市场上流通的，直接的影响就是装备会贬值。</p>
-<ul>
-<li>阵营设定</li>
-<li>剧情任务</li>
-<li>开启语音社交时代</li>
-</ul>
-<p>早期魔兽跟无尽的任务十分相似，后面随着游戏的快餐化取消了许多反人类的硬核设定，而这些会在怀旧服中体现出来。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghbggrdqahj30r00f7juo.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.wowchina.com/zh-cn/news/18088331/%E9%AD%94%E5%85%BD%E4%B8%96%E7%95%8C%E5%85%A8%E6%96%B04k%E5%A3%81%E7%BA%B8">魔兽世界</a> 
-    </i>
-  </font>
-</div>
-
-
-
-<h4 id="《热血江湖》"><a href="#《热血江湖》" class="headerlink" title="《热血江湖》"></a><strong>《热血江湖》</strong></h4><p>首款大张旗鼓宣扬自己是免费游戏的一款游戏。在此之前的免费游戏没有找到很好的营收手段，同时“卖数值”会影响平衡，让非R玩家有很强的负面情绪。</p>
-<ul>
-<li>宣告网游正式进入免费时代</li>
-</ul>
-<h4 id="《征途》"><a href="#《征途》" class="headerlink" title="《征途》"></a><strong>《征途》</strong></h4><p>把游戏的商业化做到极致的一个产品，以至于没有一款产品可以超越它。在2006年上线后就超过了梦幻西游的在线人数，原因在于史玉柱在宣传方面下了更多的功夫。</p>
-<p>征途开创了一种新的社交方式，就是国战。每个服务器有十个国家，然后对于城主和国家的皇帝来说，他的行驶权利是非常大的，比如获得NPC的一部分收益；或者可以行使一部分GM权利，这是一个玩家身份地位一个非常好的体现。</p>
-<ul>
-<li>商业化和宣传</li>
-<li>新的PVP社交模式</li>
-<li>自动寻路开始普及</li>
-<li>网游开始快餐化</li>
-</ul>
-<h4 id="《魔域》"><a href="#《魔域》" class="headerlink" title="《魔域》"></a><strong>《魔域》</strong></h4><ul>
-<li>2006</li>
-<li>爽快战斗</li>
-<li>XP技能</li>
-<li>商人在游戏中作用巨大</li>
-<li>网络游戏快餐化</li>
-</ul>
-<h4 id="《剑侠情缘网络版叁》"><a href="#《剑侠情缘网络版叁》" class="headerlink" title="《剑侠情缘网络版叁》"></a><strong>《剑侠情缘网络版叁》</strong></h4><p>初期仿照魔兽世界，后面效果不佳对游戏进行改进，变成现在这样相对巅峰的状态。恶人谷与浩气盟的争斗让设计者重新发现PvP的玩家参与度是比较高的，最终演变为阵容的攻防战，鼓励玩家去攻击阵营的BOSS。</p>
-<p>萝莉体型也是剑网三首创的，吸引了一部分二次元玩家。这部分玩家的二次创作能力非常强，包括cosplay、同人漫画、同人歌曲等等。同人文化的发展也是剑网三的一大特色。</p>
-<ul>
-<li>阵容攻防战</li>
-<li>轻功系统</li>
-<li>同人文化</li>
-<li>剧情深化</li>
-</ul>
-<p>这些改进让剑网三走向了和魔兽世界完全不同的道路。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghbo6zmp6mj30zk0ffn4z.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://mp.weixin.qq.com/s/pLTjQMTOw6veVAn2R4mT0w">@白芷不是中药</a> 
-    </i>
-  </font>
-</div>
-
-
-
-
-<h3 id="MMORPG的分化"><a href="#MMORPG的分化" class="headerlink" title="MMORPG的分化"></a>MMORPG的分化</h3><p>MMO到2010年之后，它就处于一个非常尴尬的地位，因为其实玩法上面已经挖掘差不多了，很难找到一个新的玩法；其次游戏这时候已经孵化成非常多的品类了，玩家有了更多的选择。第一条出路就是多平台，就是可以向其他一些更便捷的平台迁移来降低这个游戏的体量，同时研发成本也会降低。</p>
-<h4 id="页游MMO兴起"><a href="#页游MMO兴起" class="headerlink" title="页游MMO兴起"></a>页游MMO兴起</h4><p>MMO页游的特点就是全自动，它的目标用户就是上班族白领，他们没有时间玩游戏，通过自动挂机的方式来进行任务，打怪升级。在有时间的时候做一些操作比如PK、充值。因为玩法过于简单迅速进入瓶颈期，玩法和品质均无法做到突破。</p>
-<ul>
-<li>洗量大行其道</li>
-<li>页游MMO最终只成为一个过渡形态</li>
-</ul>
-<h4 id="手游MMO兴起"><a href="#手游MMO兴起" class="headerlink" title="手游MMO兴起"></a>手游MMO兴起</h4><ul>
-<li>2014</li>
-<li>全民奇迹获得成功</li>
-<li>MMO手游开始兴起</li>
-<li>MMO品类正式从端游、页游，过渡到手游</li>
-</ul>
-<h4 id="梦幻西游手游"><a href="#梦幻西游手游" class="headerlink" title="梦幻西游手游"></a><strong>梦幻西游</strong>手游</h4><p>几乎移植了端游的所有玩法，在手游上毫无例外的获得了成功。在IOS畅销榜上面占第一名长达640天，没有任何一款新游戏可以撼动它的地位。</p>
-<ul>
-<li>端游IP移植手游的热潮开启</li>
-<li>后续<strong>热血传奇、剑侠情缘、天龙八部</strong>等游戏相继上线</li>
-</ul>
-<h4 id="《我叫MT4》"><a href="#《我叫MT4》" class="headerlink" title="《我叫MT4》"></a><strong>《我叫MT4》</strong></h4><p>在这款产品之前并没有一款魔兽世界玩法的游戏，弥补了该类的空白。</p>
-<ul>
-<li>魔兽玩法移植</li>
-<li>端游IP基本消耗殆尽</li>
-<li>手游MMO也将进入瓶颈</li>
-</ul>
-<h4 id="《激战2》"><a href="#《激战2》" class="headerlink" title="《激战2》"></a><strong>《激战2》</strong></h4><p>尝试开放世界，强调游戏探索。</p>
-<ul>
-<li>随机地图事件</li>
-<li>买断式收费</li>
-<li>跨服的纯公平PVP</li>
-<li>国服盗号事件</li>
-</ul>
-<h4 id="《楚留香》"><a href="#《楚留香》" class="headerlink" title="《楚留香》"></a><strong>《楚留香》</strong></h4><p>手游的开放世界尝试。</p>
-<ul>
-<li>开放世界的尝试</li>
-<li>硬件和网络不断发展</li>
-<li>手游MMO的机会比较大</li>
-</ul>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh17yayv6rj30mk0dkzw6.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://jianghu.163.com/?from=nietop">楚留香 一梦江湖</a> 
-    </i>
-  </font>
-</div>
-
-
-
-
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><ul>
-<li>画面品质、玩法乐趣、社交体系、经济体系都是绝对一款MMORPG是否成功的关键因素</li>
-<li>页游MMORPG在游戏本身以及比较难再做突破</li>
-<li>端游和手游MMO仍有比较大的发展前景</li>
-<li>未来MMORPG在玩法层面突破机会较大，高自由度、沙盒化的玩法可能是未来MMORPG爆发的方向</li>
-</ul>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh07sc7c5sj30xc08cmzg.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-     <a href="https://www.behance.net/harveydentmustdie">Milos Kostic</a>
-    </i>
-  </font>
-</div>
-
-]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>RPG</tag>
-        <tag>MMORPG</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>分析聚焦感情而设计的游戏品类</title>
-    <url>/archives/86c9b0ee.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh7yu5uj06j312w0lv7i7.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/101068479/Minecraft-Collection?tracking_source=search_projects_recommended%7Cminecraft">Minecraft Collection</a> by 
-      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a>
-    </i>
-  </font>
-</div>
-
-
-
-
-
-<h3 id=""><a href="#" class="headerlink" title=""></a><div align=center></h3>  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/110074175/Haokan_Newbrand_video?tracking_source=search_projects_recommended">Haokan_Newbrand_video</a> by 
-      <a href="https://www.behance.net/donerzozo">Donerzozo</a>
-    </i>
-  </font>
-</div>
-
-<p>本文主要分成四个部分，首先是关于聚焦情感而诞生的玩法品类，并以女性向游戏为例进行简要分析，提取出特征和关键要素；之后是关于聚焦情感而产生的设计方向，也就是独立游戏，提取出独立游戏的关键要素。</p>
-<a id="more"></a>
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>Kinhu</strong></p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li>HR专业，一名普通的游戏策划</li>
-<li>大三完成第一款独立游戏从而入行</li>
-<li>至今完成20多款游戏作品</li>
-<li>担任过 程序、美术、音乐、策划</li>
-<li>商业游戏界十多年工作经验</li>
-</ul>
-<h3 id="聚焦感情而诞生的玩法品类-女性向游戏"><a href="#聚焦感情而诞生的玩法品类-女性向游戏" class="headerlink" title="聚焦感情而诞生的玩法品类 - 女性向游戏"></a>聚焦感情而诞生的玩法品类 - 女性向游戏</h3><h4 id="一段有趣的对话"><a href="#一段有趣的对话" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
-<ul>
-<li>宫斗卡牌游戏</li>
-<li>策略性 玩法</li>
-<li>好多帅哥 很多漂亮的衣服</li>
-</ul>
-</blockquote>
-<h4 id="女性向游戏"><a href="#女性向游戏" class="headerlink" title="女性向游戏"></a>女性向游戏</h4><ul>
-<li>以女性<strong>精神诉求</strong>为<strong>出发点</strong>进行设计</li>
-<li>以女性<strong>基础需求</strong>作为<strong>核心</strong>进行设计</li>
-</ul>
-<h3 id="该品类的特征和关键要素-共性三要素"><a href="#该品类的特征和关键要素-共性三要素" class="headerlink" title="该品类的特征和关键要素 - 共性三要素"></a>该品类的特征和关键要素 - 共性三要素</h3><h4 id="共性产品提取出的女性关注焦点三要素"><a href="#共性产品提取出的女性关注焦点三要素" class="headerlink" title="共性产品提取出的女性关注焦点三要素"></a>共性产品提取出的女性关注焦点三要素</h4><ul>
-<li>恋爱</li>
-<li>时尚</li>
-<li>装扮</li>
-</ul>
-<h4 id="表现永远是女性向的第一门槛"><a href="#表现永远是女性向的第一门槛" class="headerlink" title="表现永远是女性向的第一门槛"></a>表现永远是女性向的第一门槛</h4><ul>
-<li><p>符合本国大众女性用户审美，排斥情绪最低</p>
-</li>
-<li><p>女性才愿意通过表现看到焦点</p>
-</li>
-</ul>
-<ul>
-<li><p>如果有合格的表现和焦点就能成功，那么这些游戏为何成功？</p>
-<p>女性的心理特点，才是女性向市场存在的核心</p>
-</li>
-</ul>
-<h5 id="女性心理特点抽取出三要素"><a href="#女性心理特点抽取出三要素" class="headerlink" title="女性心理特点抽取出三要素"></a>女性心理特点抽取出三要素</h5><h6 id="群体的归属"><a href="#群体的归属" class="headerlink" title="群体的归属"></a>群体的归属</h6><ul>
-<li>获得群体</li>
-<li>可融入的群体</li>
-<li>值得依赖的群体</li>
-<li>有爱的群体</li>
-</ul>
-<h6 id="纤细的情感"><a href="#纤细的情感" class="headerlink" title="纤细的情感"></a>纤细的情感</h6><ul>
-<li>细腻</li>
-<li>丰富</li>
-<li>多样</li>
-<li>真实</li>
-</ul>
-<h6 id="虚荣的攀比"><a href="#虚荣的攀比" class="headerlink" title="虚荣的攀比"></a>虚荣的攀比</h6><ul>
-<li>独占欲：限定 唯一</li>
-<li>精神上的击败：多 贵 好</li>
-<li>高忠诚度和对外洁癖</li>
-</ul>
-<p>女性的心理特点受到生理和社会观念等长期影响</p>
-<h4 id="聚焦女性情感，才能准确掌握女性向游戏的核心"><a href="#聚焦女性情感，才能准确掌握女性向游戏的核心" class="headerlink" title="聚焦女性情感，才能准确掌握女性向游戏的核心"></a>聚焦女性情感，才能准确掌握女性向游戏的核心</h4><h5 id="共性元素"><a href="#共性元素" class="headerlink" title="共性元素"></a>共性元素</h5><ul>
-<li>恋爱</li>
-<li>时尚 流行 娱乐</li>
-<li>美食</li>
-</ul>
-<h5 id="共性表现"><a href="#共性表现" class="headerlink" title="共性表现"></a>共性表现</h5><ul>
-<li>本国的大众审美</li>
-<li>拒绝另类</li>
-</ul>
-<ul>
-<li><p>共性体验</p>
-<p>同品类游戏中，操作体验轻度，内容体验重度，受到女性价值观认可度高</p>
-</li>
-</ul>
-<h3 id="聚焦感情而产生的设计方向-独立游戏"><a href="#聚焦感情而产生的设计方向-独立游戏" class="headerlink" title="聚焦感情而产生的设计方向 - 独立游戏"></a>聚焦感情而产生的设计方向 - 独立游戏</h3><h4 id="一段有趣的对话-1"><a href="#一段有趣的对话-1" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
-<ul>
-<li>我有一个不错的创意</li>
-<li>我看到的这些游戏里面有许多创意</li>
-<li>所以独立游戏等于创意，我应该可以作出不错的独立游戏</li>
-</ul>
-</blockquote>
-<h4 id="传统定义独立游戏"><a href="#传统定义独立游戏" class="headerlink" title="传统定义独立游戏"></a>传统定义独立游戏</h4><h5 id="不受商业投资的影响"><a href="#不受商业投资的影响" class="headerlink" title="不受商业投资的影响"></a>不受商业投资的影响</h5><ul>
-<li>自由创作 随性所欲</li>
-<li>没有Deadline KPI的项目</li>
-<li>远离你死我活的竞争</li>
-<li>自己做自己的老板</li>
-</ul>
-<h5 id="小团队"><a href="#小团队" class="headerlink" title="小团队"></a>小团队</h5><ul>
-<li>不超过10人的合作规模</li>
-<li>参与者之间是合作伙伴关系而非上下级</li>
-</ul>
-<h5 id="身兼数职"><a href="#身兼数职" class="headerlink" title="身兼数职"></a>身兼数职</h5><p>因为开发量和开发人数不成正比结果导致的</p>
-<h5 id="拥有独立精神的游戏"><a href="#拥有独立精神的游戏" class="headerlink" title="拥有独立精神的游戏"></a>拥有独立精神的游戏</h5><blockquote>
-<p><strong><em>Make Game For Fun</em></strong> </p>
-<p><strong><em>Fun Can Make Money</em></strong></p>
-<p><strong><em>独立之精神，自由之思想</em></strong></p>
-</blockquote>
-<p>在自由创作的情感诉求下所诞生的作品，不受固有玩法和类型的约束</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《我的战争》《万物》</strong> </li>
-</ul>
-</blockquote>
-<p>焦点是如何更好的传达设计师的情感诉求</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《replica》 《史丹利的寓言》</strong></li>
-</ul>
-</blockquote>
-<h3 id="如何利用聚焦的设计来脱颖而出-独立游戏的关键要素"><a href="#如何利用聚焦的设计来脱颖而出-独立游戏的关键要素" class="headerlink" title="如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素"></a>如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素</h3><h4 id="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"><a href="#残酷现实下迫使独立游戏在情感诉求上的表现更为张扬" class="headerlink" title="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"></a>残酷现实下迫使独立游戏在情感诉求上的表现更为张扬</h4><ul>
-<li><p>有限的宣传渠道</p>
-</li>
-<li><p>发行平台过于集中</p>
-</li>
-<li><p>成本控制的经验缺失</p>
-</li>
-<li><p>5%的完成率 1%的成功率</p>
-</li>
-</ul>
-<h4 id="从独立游戏开发进化方式分析出其设计的出发点"><a href="#从独立游戏开发进化方式分析出其设计的出发点" class="headerlink" title="从独立游戏开发进化方式分析出其设计的出发点"></a>从独立游戏开发进化方式分析出其设计的出发点</h4><h5 id="焦点式开发"><a href="#焦点式开发" class="headerlink" title="焦点式开发"></a>焦点式开发</h5><ul>
-<li>游戏创新 - 目标是可落地的</li>
-<li>游戏玩法 - 集中玩法设计，深挖玩法可衍生性</li>
-<li>游戏表现力 - 突围的方法</li>
-<li>成本控制 - 游戏保证完成</li>
-</ul>
-<p>聚焦情感所设计的游戏，不需要太过在意游戏玩法方式，<em>它可以是任意方式</em>。</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《传说之下（Undertale）》</strong></li>
-</ul>
-</blockquote>
-<p>越是贴近于生活的游戏创意，引起情感共鸣的成功可能性越高。</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《Papers Please》 《迷你小地铁》</strong></li>
-</ul>
-</blockquote>
-<p>足以让玩家衍生出情感创作的作品，是优秀独立游戏的特征。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh7z3ds8dwj31lz0u07wh.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.pixiv.net/artworks/64559533">日本語版公式リリース</a> by 
-      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
-    </i>
-  </font>
-</div>
-
-
-
-<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>弗兰克 - 奥哈拉，美国当代最著名、最有影响力的纽约派诗人之一，《动物》是一首挽歌式的作品，作者用它凭吊逝去的恋情。</p>
-<p>美国独立游戏峰会时一位独立游戏制作人将此诗发给了现场所有独立游戏人，以此诗借喻鼓励全世界的独立游戏制作人，勿忘独立游戏制作最初带给他们的美好及感动。</p>
-<blockquote>
-<p><em>你还记得从前那段 &emsp; 我们最初的模样吗</em><br><em>每天啃着一个苹果 &emsp; 一天一天地变胖</em><br><em>感慨着时光地流逝 &emsp; 偶尔用一些小伎俩</em><br><em>试着做一些小突破 &emsp; 我们整个过往经历</em><br><em>就像一顿丰盛晚餐 &emsp; 不需要去计算时间</em><br><em>仅仅用冰块和白水 &emsp; 就能调制出鸡尾酒</em><br><strong><em>只要你和我在一起 &emsp; 我不会希望快一些</em></strong><br><strong><em>我也不会一无所知 &emsp; 你就是我这生命中</em></strong><br><strong><em>&emsp;&emsp;&emsp;&emsp;&emsp;最美好的一个存在</em></strong><br>&emsp;</p>
-</blockquote>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a><br/>
-      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
-    </i>
-  </font>
-</div>
-
-]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>INDIE</tag>
       </tags>
   </entry>
   <entry>
@@ -2277,6 +2080,203 @@
       </categories>
       <tags>
         <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分析聚焦感情而设计的游戏品类</title>
+    <url>/archives/86c9b0ee.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh7yu5uj06j312w0lv7i7.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/101068479/Minecraft-Collection?tracking_source=search_projects_recommended%7Cminecraft">Minecraft Collection</a> by 
+      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+
+<h3 id=""><a href="#" class="headerlink" title=""></a><div align=center></h3>  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/110074175/Haokan_Newbrand_video?tracking_source=search_projects_recommended">Haokan_Newbrand_video</a> by 
+      <a href="https://www.behance.net/donerzozo">Donerzozo</a>
+    </i>
+  </font>
+</div>
+
+<p>本文主要分成四个部分，首先是关于聚焦情感而诞生的玩法品类，并以女性向游戏为例进行简要分析，提取出特征和关键要素；之后是关于聚焦情感而产生的设计方向，也就是独立游戏，提取出独立游戏的关键要素。</p>
+<a id="more"></a>
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>Kinhu</strong></p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+<li>HR专业，一名普通的游戏策划</li>
+<li>大三完成第一款独立游戏从而入行</li>
+<li>至今完成20多款游戏作品</li>
+<li>担任过 程序、美术、音乐、策划</li>
+<li>商业游戏界十多年工作经验</li>
+</ul>
+<h3 id="聚焦感情而诞生的玩法品类-女性向游戏"><a href="#聚焦感情而诞生的玩法品类-女性向游戏" class="headerlink" title="聚焦感情而诞生的玩法品类 - 女性向游戏"></a>聚焦感情而诞生的玩法品类 - 女性向游戏</h3><h4 id="一段有趣的对话"><a href="#一段有趣的对话" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
+<ul>
+<li>宫斗卡牌游戏</li>
+<li>策略性 玩法</li>
+<li>好多帅哥 很多漂亮的衣服</li>
+</ul>
+</blockquote>
+<h4 id="女性向游戏"><a href="#女性向游戏" class="headerlink" title="女性向游戏"></a>女性向游戏</h4><ul>
+<li>以女性<strong>精神诉求</strong>为<strong>出发点</strong>进行设计</li>
+<li>以女性<strong>基础需求</strong>作为<strong>核心</strong>进行设计</li>
+</ul>
+<h3 id="该品类的特征和关键要素-共性三要素"><a href="#该品类的特征和关键要素-共性三要素" class="headerlink" title="该品类的特征和关键要素 - 共性三要素"></a>该品类的特征和关键要素 - 共性三要素</h3><h4 id="共性产品提取出的女性关注焦点三要素"><a href="#共性产品提取出的女性关注焦点三要素" class="headerlink" title="共性产品提取出的女性关注焦点三要素"></a>共性产品提取出的女性关注焦点三要素</h4><ul>
+<li>恋爱</li>
+<li>时尚</li>
+<li>装扮</li>
+</ul>
+<h4 id="表现永远是女性向的第一门槛"><a href="#表现永远是女性向的第一门槛" class="headerlink" title="表现永远是女性向的第一门槛"></a>表现永远是女性向的第一门槛</h4><ul>
+<li><p>符合本国大众女性用户审美，排斥情绪最低</p>
+</li>
+<li><p>女性才愿意通过表现看到焦点</p>
+</li>
+</ul>
+<ul>
+<li><p>如果有合格的表现和焦点就能成功，那么这些游戏为何成功？</p>
+<p>女性的心理特点，才是女性向市场存在的核心</p>
+</li>
+</ul>
+<h5 id="女性心理特点抽取出三要素"><a href="#女性心理特点抽取出三要素" class="headerlink" title="女性心理特点抽取出三要素"></a>女性心理特点抽取出三要素</h5><h6 id="群体的归属"><a href="#群体的归属" class="headerlink" title="群体的归属"></a>群体的归属</h6><ul>
+<li>获得群体</li>
+<li>可融入的群体</li>
+<li>值得依赖的群体</li>
+<li>有爱的群体</li>
+</ul>
+<h6 id="纤细的情感"><a href="#纤细的情感" class="headerlink" title="纤细的情感"></a>纤细的情感</h6><ul>
+<li>细腻</li>
+<li>丰富</li>
+<li>多样</li>
+<li>真实</li>
+</ul>
+<h6 id="虚荣的攀比"><a href="#虚荣的攀比" class="headerlink" title="虚荣的攀比"></a>虚荣的攀比</h6><ul>
+<li>独占欲：限定 唯一</li>
+<li>精神上的击败：多 贵 好</li>
+<li>高忠诚度和对外洁癖</li>
+</ul>
+<p>女性的心理特点受到生理和社会观念等长期影响</p>
+<h4 id="聚焦女性情感，才能准确掌握女性向游戏的核心"><a href="#聚焦女性情感，才能准确掌握女性向游戏的核心" class="headerlink" title="聚焦女性情感，才能准确掌握女性向游戏的核心"></a>聚焦女性情感，才能准确掌握女性向游戏的核心</h4><h5 id="共性元素"><a href="#共性元素" class="headerlink" title="共性元素"></a>共性元素</h5><ul>
+<li>恋爱</li>
+<li>时尚 流行 娱乐</li>
+<li>美食</li>
+</ul>
+<h5 id="共性表现"><a href="#共性表现" class="headerlink" title="共性表现"></a>共性表现</h5><ul>
+<li>本国的大众审美</li>
+<li>拒绝另类</li>
+</ul>
+<ul>
+<li><p>共性体验</p>
+<p>同品类游戏中，操作体验轻度，内容体验重度，受到女性价值观认可度高</p>
+</li>
+</ul>
+<h3 id="聚焦感情而产生的设计方向-独立游戏"><a href="#聚焦感情而产生的设计方向-独立游戏" class="headerlink" title="聚焦感情而产生的设计方向 - 独立游戏"></a>聚焦感情而产生的设计方向 - 独立游戏</h3><h4 id="一段有趣的对话-1"><a href="#一段有趣的对话-1" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
+<ul>
+<li>我有一个不错的创意</li>
+<li>我看到的这些游戏里面有许多创意</li>
+<li>所以独立游戏等于创意，我应该可以作出不错的独立游戏</li>
+</ul>
+</blockquote>
+<h4 id="传统定义独立游戏"><a href="#传统定义独立游戏" class="headerlink" title="传统定义独立游戏"></a>传统定义独立游戏</h4><h5 id="不受商业投资的影响"><a href="#不受商业投资的影响" class="headerlink" title="不受商业投资的影响"></a>不受商业投资的影响</h5><ul>
+<li>自由创作 随性所欲</li>
+<li>没有Deadline KPI的项目</li>
+<li>远离你死我活的竞争</li>
+<li>自己做自己的老板</li>
+</ul>
+<h5 id="小团队"><a href="#小团队" class="headerlink" title="小团队"></a>小团队</h5><ul>
+<li>不超过10人的合作规模</li>
+<li>参与者之间是合作伙伴关系而非上下级</li>
+</ul>
+<h5 id="身兼数职"><a href="#身兼数职" class="headerlink" title="身兼数职"></a>身兼数职</h5><p>因为开发量和开发人数不成正比结果导致的</p>
+<h5 id="拥有独立精神的游戏"><a href="#拥有独立精神的游戏" class="headerlink" title="拥有独立精神的游戏"></a>拥有独立精神的游戏</h5><blockquote>
+<p><strong><em>Make Game For Fun</em></strong> </p>
+<p><strong><em>Fun Can Make Money</em></strong></p>
+<p><strong><em>独立之精神，自由之思想</em></strong></p>
+</blockquote>
+<p>在自由创作的情感诉求下所诞生的作品，不受固有玩法和类型的约束</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《我的战争》《万物》</strong> </li>
+</ul>
+</blockquote>
+<p>焦点是如何更好的传达设计师的情感诉求</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《replica》 《史丹利的寓言》</strong></li>
+</ul>
+</blockquote>
+<h3 id="如何利用聚焦的设计来脱颖而出-独立游戏的关键要素"><a href="#如何利用聚焦的设计来脱颖而出-独立游戏的关键要素" class="headerlink" title="如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素"></a>如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素</h3><h4 id="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"><a href="#残酷现实下迫使独立游戏在情感诉求上的表现更为张扬" class="headerlink" title="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"></a>残酷现实下迫使独立游戏在情感诉求上的表现更为张扬</h4><ul>
+<li><p>有限的宣传渠道</p>
+</li>
+<li><p>发行平台过于集中</p>
+</li>
+<li><p>成本控制的经验缺失</p>
+</li>
+<li><p>5%的完成率 1%的成功率</p>
+</li>
+</ul>
+<h4 id="从独立游戏开发进化方式分析出其设计的出发点"><a href="#从独立游戏开发进化方式分析出其设计的出发点" class="headerlink" title="从独立游戏开发进化方式分析出其设计的出发点"></a>从独立游戏开发进化方式分析出其设计的出发点</h4><h5 id="焦点式开发"><a href="#焦点式开发" class="headerlink" title="焦点式开发"></a>焦点式开发</h5><ul>
+<li>游戏创新 - 目标是可落地的</li>
+<li>游戏玩法 - 集中玩法设计，深挖玩法可衍生性</li>
+<li>游戏表现力 - 突围的方法</li>
+<li>成本控制 - 游戏保证完成</li>
+</ul>
+<p>聚焦情感所设计的游戏，不需要太过在意游戏玩法方式，<em>它可以是任意方式</em>。</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《传说之下（Undertale）》</strong></li>
+</ul>
+</blockquote>
+<p>越是贴近于生活的游戏创意，引起情感共鸣的成功可能性越高。</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《Papers Please》 《迷你小地铁》</strong></li>
+</ul>
+</blockquote>
+<p>足以让玩家衍生出情感创作的作品，是优秀独立游戏的特征。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh7z3ds8dwj31lz0u07wh.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.pixiv.net/artworks/64559533">日本語版公式リリース</a> by 
+      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>弗兰克 - 奥哈拉，美国当代最著名、最有影响力的纽约派诗人之一，《动物》是一首挽歌式的作品，作者用它凭吊逝去的恋情。</p>
+<p>美国独立游戏峰会时一位独立游戏制作人将此诗发给了现场所有独立游戏人，以此诗借喻鼓励全世界的独立游戏制作人，勿忘独立游戏制作最初带给他们的美好及感动。</p>
+<blockquote>
+<p><em>你还记得从前那段 &emsp; 我们最初的模样吗</em><br><em>每天啃着一个苹果 &emsp; 一天一天地变胖</em><br><em>感慨着时光地流逝 &emsp; 偶尔用一些小伎俩</em><br><em>试着做一些小突破 &emsp; 我们整个过往经历</em><br><em>就像一顿丰盛晚餐 &emsp; 不需要去计算时间</em><br><em>仅仅用冰块和白水 &emsp; 就能调制出鸡尾酒</em><br><strong><em>只要你和我在一起 &emsp; 我不会希望快一些</em></strong><br><strong><em>我也不会一无所知 &emsp; 你就是我这生命中</em></strong><br><strong><em>&emsp;&emsp;&emsp;&emsp;&emsp;最美好的一个存在</em></strong><br>&emsp;</p>
+</blockquote>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a><br/>
+      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
+    </i>
+  </font>
+</div>
+
+]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>INDIE</tag>
       </tags>
   </entry>
   <entry>
@@ -3434,24 +3434,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Leetcode题解</title>
-    <url>/archives/293466a9.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4mym0wp6j30xc0irn4o.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/110074175/Haokan_Newbrand_video?tracking_source=search_projects_recommended">Haokan_Newbrand_video</a> by 
-      <a href="https://www.behance.net/donerzozo">Donerzozo</a>
-    </i>
-  </font>
-</div>
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><a id="more"></a>
-
-]]></content>
-  </entry>
-  <entry>
     <title>48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</title>
     <url>/archives/6144e1a0.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh9djvu6vvj30m80cin3k.jpg"></p>
@@ -3557,6 +3539,24 @@
       </tags>
   </entry>
   <entry>
+    <title>Leetcode题解</title>
+    <url>/archives/293466a9.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4mym0wp6j30xc0irn4o.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/110074175/Haokan_Newbrand_video?tracking_source=search_projects_recommended">Haokan_Newbrand_video</a> by 
+      <a href="https://www.behance.net/donerzozo">Donerzozo</a>
+    </i>
+  </font>
+</div>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><a id="more"></a>
+
+]]></content>
+  </entry>
+  <entry>
     <title>LATEX现学现用抢救指南</title>
     <url>/archives/d27a4a46.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkb9od3oecj314g0mg755.jpg"></p>
@@ -3627,6 +3627,102 @@
         <tag>Write</tag>
         <tag>Latex</tag>
         <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手机是怎么知道你的位置的</title>
+    <url>/archives/a03a749.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkcy9nokcuj30u00w9hag.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/105968903/Space-Economics-Illustrations-Resources-Magazine?tracking_source=search_projects_recommended%7Csatellite">Space Economics Illustrations / Resources Magazine</a> by 
+      <a href="https://www.behance.net/jamesrdesign">James Round</a>
+    </i>
+  </font>
+</div>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
+<a id="more"></a>
+
+
+
+<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>今天不管大家走到哪里，拿出手机可以告诉自己走到哪里、走了多快。给自己定位这样一件事是整个人类历史上持续在问的一个问题。我们中国发明了四大发明之一的指南针，可以更方便的进行定位，而在今天我们有全球定位系统，并通过经纬度来表示自己的坐标。</p>
+<h3 id="全球定位系统：2-TO-4"><a href="#全球定位系统：2-TO-4" class="headerlink" title="全球定位系统：2 TO 4"></a>全球定位系统：2 TO 4</h3><p><em>GPS（Global Positioning System）</em></p>
+<ul>
+<li><p><strong>美国的GPS</strong></p>
+<p>GPS一共6条轨道，每条轨道4颗卫星，一共24颗卫星。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkdgum5vcqj30fi0ahmxm.jpg"></p>
+</li>
+</ul>
+<ul>
+<li><p><strong>苏联的GLONASS</strong></p>
+<p>GLONASS一共3条轨道，每条轨道8颗卫星，一共24颗卫星。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkdgwdsot0j30cv08xac9.jpg"></p>
+</li>
+</ul>
+<ul>
+<li><p><strong>欧盟的伽利略</strong></p>
+</li>
+<li><p><strong>中国的北斗</strong></p>
+</li>
+</ul>
+<h3 id="模型的构建与求解"><a href="#模型的构建与求解" class="headerlink" title="模型的构建与求解"></a>模型的构建与求解</h3><p>当我们遇到问题的时候，我们不要追求一个模型解决所有的问题。建模的共性在于在最初的阶段能否用非常简单的模型去讨论最简单基本的情形。</p>
+<h4 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h4><p>我们身处地球给自己的空间位置定位，除了地球表面基本的经度和纬度外，还有海拔高度。一个全球定位系统实现了全球覆盖之后，无论在地球的哪个位置，在头顶上能接收到信号的卫星大约在<strong>6～10颗</strong>左右。这些卫星在固定的频率上发送的信息有：<strong>发出信号的时刻、卫星的位置坐标</strong>。</p>
+<p>而我们接收了这些卫星的信号，怎么通过卫星的位置知道自己的位置呢？虽然自己的坐标是未知的，但是我们知道从卫星的位置走到自己的位置的距离如何去表达：</p>
+<blockquote>
+<p>$distance^2=(x-x_0)^2+(y-y_0)^2+(z-z_0)^2$ 其中 $x_0、y_0、z_0$ 为卫星坐标</p>
+</blockquote>
+<p>而距离我们可不可以算出来呢？可以，因为我们还有时间：电磁波是以光速传播到设备的，乘上时间便可以求出距离。以距离为桥梁，我们将两边联系在了一起：</p>
+<blockquote>
+<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=distance^2=[(t-t_0) \cdot c]^2$</p>
+<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=[(t-t_0) \cdot c]^2$</p>
+</blockquote>
+<h4 id="基本模型"><a href="#基本模型" class="headerlink" title="基本模型"></a>基本模型</h4><p>每有一颗卫星，就有一组方程； 使用者能接收几颗卫星，就有几组下面这样的信号量：</p>
+<blockquote>
+<p>$(x-3)^2+(y-2)^2+(z-3)^2-[(10010.00692286-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-3)^2+(z-1)^2-[(10013.34256381-t)\cdot c]^2=0$</p>
+<p>$(x-5)^2+(y-7)^2+(z-4)^2-[(10016.67820476-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-6)^2+(z-3)^2-[(10020.01384571-t)\cdot c]^2=0$</p>
+<p>$(x-7)^2+(y-6)^2+(z-7)^2-[(10023.34948666-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-4)^2+(z-9)^2-[(10030.02076857-t)\cdot c]^2=0$</p>
+</blockquote>
+<p>这样就列出了一个四元二次方程组，很容易求解。</p>
+<h4 id="求解原理"><a href="#求解原理" class="headerlink" title="求解原理"></a>求解原理</h4><p>四元二次方程组消掉高次项以后变成一个线性方程组：</p>
+<blockquote>
+<p>$\begin{bmatrix} 4 &amp; -4 &amp; -12 &amp; 3.59751 \\ 0 &amp; -2 &amp; -16 &amp; 2.99792 \\ 8 &amp; 6 &amp; -10 &amp; 2.39834 \\ 0 &amp; 6 &amp; -12 &amp; 1.79875 \\ 12 &amp; 4 &amp; -4 &amp; 1.19917 \end{bmatrix}\begin{bmatrix} x \\ y \\ z \\ t\end{bmatrix}=\begin{bmatrix}35971.1 \\ 29957.2 \\ 24031.4 \\ 17993.5 \\ 12059.7 \end{bmatrix}$</p>
+</blockquote>
+<p>如此简单的问题甚至不需要很大的计算机，一个计算器就可以算出来。全球定位系统看着一个很高大上的东西，其实它最基本的、最反映它本质的一个数学模型是非常简单的，当然这个模型并不能很好的解决现实问题，但确实是能体现出全球定位系统最核心的思想的模型。</p>
+<p>这样的模型直接投入使用空间上会有几十米量级的误差，不能满足我们日常的大部分需求，我们需要进一步改进。但正是这样简单的模型，在时间上通过卫星授时误差能达到毫秒量级。</p>
+<h3 id="模型的分析"><a href="#模型的分析" class="headerlink" title="模型的分析"></a>模型的分析</h3><h4 id="卫星时钟"><a href="#卫星时钟" class="headerlink" title="卫星时钟"></a>卫星时钟</h4><p>全球定位系统的使用者可以不知道自己的时间，但卫星上的时间必须要非常准确的，所以地面会有一个原子钟为卫星授时并校准。之前也提到过，$[(t-t_0) \cdot c]^2$ 因为有光速这样大量级的存在，时间上的微小误差会被放大到很大，从而影响到方程本身的求解。也就是说，<strong>时间的同步性</strong>是非常重要的。</p>
+<h4 id="轨道误差"><a href="#轨道误差" class="headerlink" title="轨道误差"></a>轨道误差</h4><p>卫星总体来讲会绕着地球不断地自转，但转的每一次都多多少少会有一些误差。而卫星发送的数据包是根据自己的轨道位置所计算得到的，但轨道本身是按预定轨道计算，其中自转过程未必严格按预定轨道执行从而产生空间信息的偏差。</p>
+<h4 id="电磁波延迟"><a href="#电磁波延迟" class="headerlink" title="电磁波延迟"></a>电磁波延迟</h4><p>发送电磁波穿过电离层和大气层会有延迟，在时间方面产生误差。</p>
+<h4 id="接收机噪声"><a href="#接收机噪声" class="headerlink" title="接收机噪声"></a>接收机噪声</h4><p>GPS接收机本身有噪声，设备之间也会有显著的区别。</p>
+<p>首先考虑一个方程的简单情况，观察空间位置对时间误差的敏感程度：$f_1=(x-3)^2-[(T_1+t_1)\cdot c]^2=0$敏感程度可以由导数来刻画，具体来讲是$x$ 关于 $t$ 的这个函数求导。考虑4个方程的情况：</p>
+<blockquote>
+<p>$f_1=(x-3)^2+(y-2)^2+(z-3)^2-[(T_1+t_1-t)\cdot c]^2=0$</p>
+<p>$f_2=(x-1)^2+(y-3)^2+(z-1)^2-[(T_2+t_2-t)\cdot c]^2=0$</p>
+<p>$f_3=(x-5)^2+(y-7)^2+(z-4)^2-[(T_3+t_3-t)\cdot c]^2=0$</p>
+<p>$f_4=(x-1)^2+(y-7)^2+(z-3)^2-[(T_4+t_4-t)\cdot c]^2=0$</p>
+</blockquote>
+<h3 id="问题的解决"><a href="#问题的解决" class="headerlink" title="问题的解决"></a>问题的解决</h3><p><strong>基本模型：</strong>可行，但达不到应用的要求（时间的精度、空间位置的精度）</p>
+<p><strong>科学问题到工程问题：</strong>科学原理可行到工程实现，需要技术方面的支持，而数学建模则更多的关注科学原理上可行性的问题</p>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/jamesrdesign">James Round</a>
+    </i>
+  </font>
+</div>]]></content>
+      <categories>
+        <category>数学建模(Mathematical Modeling)</category>
+      </categories>
+      <tags>
+        <tag>Math</tag>
+        <tag>Mooc</tag>
+        <tag>GPS</tag>
+        <tag>Mathematical Modeling</tag>
       </tags>
   </entry>
   <entry>
@@ -3815,104 +3911,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
+        <tag>Mathematical Modeling</tag>
         <tag>Population</tag>
-        <tag>Mathematical Modeling</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手机是怎么知道你的位置的</title>
-    <url>/archives/a03a749.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkcy9nokcuj30u00w9hag.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/105968903/Space-Economics-Illustrations-Resources-Magazine?tracking_source=search_projects_recommended%7Csatellite">Space Economics Illustrations / Resources Magazine</a> by 
-      <a href="https://www.behance.net/jamesrdesign">James Round</a>
-    </i>
-  </font>
-</div>
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
-<a id="more"></a>
-
-
-
-<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>今天不管大家走到哪里，拿出手机可以告诉自己走到哪里、走了多快。给自己定位这样一件事是整个人类历史上持续在问的一个问题。我们中国发明了四大发明之一的指南针，可以更方便的进行定位，而在今天我们有全球定位系统，并通过经纬度来表示自己的坐标。</p>
-<h3 id="全球定位系统：2-TO-4"><a href="#全球定位系统：2-TO-4" class="headerlink" title="全球定位系统：2 TO 4"></a>全球定位系统：2 TO 4</h3><p><em>GPS（Global Positioning System）</em></p>
-<ul>
-<li><p><strong>美国的GPS</strong></p>
-<p>GPS一共6条轨道，每条轨道4颗卫星，一共24颗卫星。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkdgum5vcqj30fi0ahmxm.jpg"></p>
-</li>
-</ul>
-<ul>
-<li><p><strong>苏联的GLONASS</strong></p>
-<p>GLONASS一共3条轨道，每条轨道8颗卫星，一共24颗卫星。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkdgwdsot0j30cv08xac9.jpg"></p>
-</li>
-</ul>
-<ul>
-<li><p><strong>欧盟的伽利略</strong></p>
-</li>
-<li><p><strong>中国的北斗</strong></p>
-</li>
-</ul>
-<h3 id="模型的构建与求解"><a href="#模型的构建与求解" class="headerlink" title="模型的构建与求解"></a>模型的构建与求解</h3><p>当我们遇到问题的时候，我们不要追求一个模型解决所有的问题。建模的共性在于在最初的阶段能否用非常简单的模型去讨论最简单基本的情形。</p>
-<h4 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h4><p>我们身处地球给自己的空间位置定位，除了地球表面基本的经度和纬度外，还有海拔高度。一个全球定位系统实现了全球覆盖之后，无论在地球的哪个位置，在头顶上能接收到信号的卫星大约在<strong>6～10颗</strong>左右。这些卫星在固定的频率上发送的信息有：<strong>发出信号的时刻、卫星的位置坐标</strong>。</p>
-<p>而我们接收了这些卫星的信号，怎么通过卫星的位置知道自己的位置呢？虽然自己的坐标是未知的，但是我们知道从卫星的位置走到自己的位置的距离如何去表达：</p>
-<blockquote>
-<p>$distance^2=(x-x_0)^2+(y-y_0)^2+(z-z_0)^2$ 其中 $x_0、y_0、z_0$ 为卫星坐标</p>
-</blockquote>
-<p>而距离我们可不可以算出来呢？可以，因为我们还有时间：电磁波是以光速传播到设备的，乘上时间便可以求出距离。以距离为桥梁，我们将两边联系在了一起：</p>
-<blockquote>
-<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=distance^2=[(t-t_0) \cdot c]^2$</p>
-<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=[(t-t_0) \cdot c]^2$</p>
-</blockquote>
-<h4 id="基本模型"><a href="#基本模型" class="headerlink" title="基本模型"></a>基本模型</h4><p>每有一颗卫星，就有一组方程； 使用者能接收几颗卫星，就有几组下面这样的信号量：</p>
-<blockquote>
-<p>$(x-3)^2+(y-2)^2+(z-3)^2-[(10010.00692286-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-3)^2+(z-1)^2-[(10013.34256381-t)\cdot c]^2=0$</p>
-<p>$(x-5)^2+(y-7)^2+(z-4)^2-[(10016.67820476-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-6)^2+(z-3)^2-[(10020.01384571-t)\cdot c]^2=0$</p>
-<p>$(x-7)^2+(y-6)^2+(z-7)^2-[(10023.34948666-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-4)^2+(z-9)^2-[(10030.02076857-t)\cdot c]^2=0$</p>
-</blockquote>
-<p>这样就列出了一个四元二次方程组，很容易求解。</p>
-<h4 id="求解原理"><a href="#求解原理" class="headerlink" title="求解原理"></a>求解原理</h4><p>四元二次方程组消掉高次项以后变成一个线性方程组：</p>
-<blockquote>
-<p>$\begin{bmatrix} 4 &amp; -4 &amp; -12 &amp; 3.59751 \\ 0 &amp; -2 &amp; -16 &amp; 2.99792 \\ 8 &amp; 6 &amp; -10 &amp; 2.39834 \\ 0 &amp; 6 &amp; -12 &amp; 1.79875 \\ 12 &amp; 4 &amp; -4 &amp; 1.19917 \end{bmatrix}\begin{bmatrix} x \\ y \\ z \\ t\end{bmatrix}=\begin{bmatrix}35971.1 \\ 29957.2 \\ 24031.4 \\ 17993.5 \\ 12059.7 \end{bmatrix}$</p>
-</blockquote>
-<p>如此简单的问题甚至不需要很大的计算机，一个计算器就可以算出来。全球定位系统看着一个很高大上的东西，其实它最基本的、最反映它本质的一个数学模型是非常简单的，当然这个模型并不能很好的解决现实问题，但确实是能体现出全球定位系统最核心的思想的模型。</p>
-<p>这样的模型直接投入使用空间上会有几十米量级的误差，不能满足我们日常的大部分需求，我们需要进一步改进。但正是这样简单的模型，在时间上通过卫星授时误差能达到毫秒量级。</p>
-<h3 id="模型的分析"><a href="#模型的分析" class="headerlink" title="模型的分析"></a>模型的分析</h3><h4 id="卫星时钟"><a href="#卫星时钟" class="headerlink" title="卫星时钟"></a>卫星时钟</h4><p>全球定位系统的使用者可以不知道自己的时间，但卫星上的时间必须要非常准确的，所以地面会有一个原子钟为卫星授时并校准。之前也提到过，$[(t-t_0) \cdot c]^2$ 因为有光速这样大量级的存在，时间上的微小误差会被放大到很大，从而影响到方程本身的求解。也就是说，<strong>时间的同步性</strong>是非常重要的。</p>
-<h4 id="轨道误差"><a href="#轨道误差" class="headerlink" title="轨道误差"></a>轨道误差</h4><p>卫星总体来讲会绕着地球不断地自转，但转的每一次都多多少少会有一些误差。而卫星发送的数据包是根据自己的轨道位置所计算得到的，但轨道本身是按预定轨道计算，其中自转过程未必严格按预定轨道执行从而产生空间信息的偏差。</p>
-<h4 id="电磁波延迟"><a href="#电磁波延迟" class="headerlink" title="电磁波延迟"></a>电磁波延迟</h4><p>发送电磁波穿过电离层和大气层会有延迟，在时间方面产生误差。</p>
-<h4 id="接收机噪声"><a href="#接收机噪声" class="headerlink" title="接收机噪声"></a>接收机噪声</h4><p>GPS接收机本身有噪声，设备之间也会有显著的区别。</p>
-<p>首先考虑一个方程的简单情况，观察空间位置对时间误差的敏感程度：$f_1=(x-3)^2-[(T_1+t_1)\cdot c]^2=0$敏感程度可以由导数来刻画，具体来讲是$x$ 关于 $t$ 的这个函数求导。考虑4个方程的情况：</p>
-<blockquote>
-<p>$f_1=(x-3)^2+(y-2)^2+(z-3)^2-[(T_1+t_1-t)\cdot c]^2=0$</p>
-<p>$f_2=(x-1)^2+(y-3)^2+(z-1)^2-[(T_2+t_2-t)\cdot c]^2=0$</p>
-<p>$f_3=(x-5)^2+(y-7)^2+(z-4)^2-[(T_3+t_3-t)\cdot c]^2=0$</p>
-<p>$f_4=(x-1)^2+(y-7)^2+(z-3)^2-[(T_4+t_4-t)\cdot c]^2=0$</p>
-</blockquote>
-<h3 id="问题的解决"><a href="#问题的解决" class="headerlink" title="问题的解决"></a>问题的解决</h3><p><strong>基本模型：</strong>可行，但达不到应用的要求（时间的精度、空间位置的精度）</p>
-<p><strong>科学问题到工程问题：</strong>科学原理可行到工程实现，需要技术方面的支持，而数学建模则更多的关注科学原理上可行性的问题</p>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/jamesrdesign">James Round</a>
-    </i>
-  </font>
-</div>]]></content>
-      <categories>
-        <category>数学建模(Mathematical Modeling)</category>
-      </categories>
-      <tags>
-        <tag>Math</tag>
-        <tag>Mooc</tag>
-        <tag>Mathematical Modeling</tag>
-        <tag>GPS</tag>
       </tags>
   </entry>
   <entry>
@@ -4131,7 +4131,8 @@
   <entry>
     <title>开始画像素画#1</title>
     <url>/archives/655d7201.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zfnfb9aj31hc0u00wn.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
 <a id="more"></a>
 
 
@@ -4239,7 +4240,8 @@
   <entry>
     <title>开始画像素画#2</title>
     <url>/archives/90b77012.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解像素绘画的流程，逐渐完善直到达到满意的效果。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zhhvzmzj31hc0u0434.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解像素绘画的流程，逐渐完善直到达到满意的效果。</p>
 <a id="more"></a>
 
 
@@ -4295,9 +4297,75 @@
       </tags>
   </entry>
   <entry>
+    <title>开始画像素画#3</title>
+    <url>/archives/90b77012.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zie8htlj31hc0u0dje.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解简单的 Aseprite 动画。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud6tcj7j30u008c74z.jpg"></p>
+<p>简单的 Aseprite 动画。这是系列的第 3 篇。</p>
+<h3 id="什么是动画？"><a href="#什么是动画？" class="headerlink" title="什么是动画？"></a>什么是动画？</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuggpz84g30dw05oab9.gif"></p>
+<p>动画是由一系列表现动作流程图像，按特定顺序播放，所引起的运动错觉。我们的工作就是让这个序列看起来尽可能让人信服。</p>
+<h3 id="时间轴"><a href="#时间轴" class="headerlink" title="时间轴"></a>时间轴</h3><p>首先我们要了解时间轴。它是一种在单个文件里表现多个图像的方法。每一列都是完整的图像，有一个编号，我们称之为帧。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudbdlr7j30dq02t0pm.jpg" alt="图片"></p>
+<p>新建帧的最简单方法是按 ALT + B。这会在当前选中帧的后面新建一个空白帧，然后选择它。你可以点击某帧来选中，或者按’,’,’.’改变选中帧，在键盘上找 &lt; 和 &gt;，比较好记。</p>
+<p>试着在不同帧上画些颜色，点击播放（Enter 键，回车）。也可以在预览窗口看，按 F7。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud72cy8j308w07idfl.jpg"></p>
+<p>你可能感觉“这么多快捷键我怎么记得住”，没关系。记住快捷键需要时间跟肌肉记忆，而且大部分也都可以只用鼠标完成。当你记不住某个快捷键，就在菜单里找找，或者查看 Aseprite 的官方键位参考图：<a href="https://www.aseprite.org/quickref/">https://www.aseprite.org/quickref/</a></p>
+<h3 id="一个非常简单的动画"><a href="#一个非常简单的动画" class="headerlink" title="一个非常简单的动画"></a>一个非常简单的动画</h3><p>画动画有非常多的技巧，比如应该按什么顺序绘制每帧，如何优化，不过我们暂时先讲我了解的最简单的一个技巧：一个“连续动作（straight-ahead）”的弹球动画。“连续动作”是指我们按顺序一帧一帧直接画，而不是先画出重要帧，再添加中间帧的方式。先建个 <code>32</code> 乘 <code>32</code> 的文件，随便选个调色盘。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudcea72j30pt03r741.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud855nnj30ig03va9t.jpg"></p>
+<p>动画第一帧我称之为“静止”。它既是概念图，定义动画的风格，也是这个序列的停止位置。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudekly7j30440440ba.jpg"></p>
+<p>你要注意这帧里添加的细节，因为下一帧也要保持相同的风格。</p>
+<p>接着复制这一帧（ALT + N），把它向上移动 <code>4</code> 像素，像这样：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudajda0j303u03w0b4.jpg"></p>
+<p>之后，继续向上 <code>3</code> 像素，<code>2</code> 像素，<code>1</code> 像素，多保持相同位置一帧，后面反过来一遍。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud8k43lj30gt029741.jpg"></p>
+<h3 id="节奏"><a href="#节奏" class="headerlink" title="节奏"></a>节奏</h3><p>尽管节奏的运用是个相当复杂的主题，甚至可以做一整期专门的教程，我现在简单的从技术方面讲一点，让你可以自己去试试。</p>
+<p>我们来添加一些节奏。球在落地后停一段时间，再跳起来。要增加某一帧的持续时间，右键 点击帧上的数字，选择帧属性（Frame Properties）。然后你可以输入你想要这帧持续的时间。我们试下 <code>300</code> 毫秒。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud9h0a1j308d05qdfm.jpg"></p>
+<p>你也可以选中多个帧，同时修改持续时间。对于一次性快速修改整个动画的速度很有帮助。</p>
+<h3 id="挤压和拉伸"><a href="#挤压和拉伸" class="headerlink" title="挤压和拉伸"></a>挤压和拉伸</h3><p>这里我们可以做的一个简单改进是添加一点挤压和拉伸，一种让动作看起来更流畅自然的技术。包括沿着运动方向拉伸或者压扁物体，同时保持整体面积。</p>
+<p>具体原理可以参考之前的教程：</p>
+<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MjIyOTc2Nw==&mid=2649561430&idx=1&sn=50924ed496f2b1a5e91c843bbc4c8384&chksm=beb0c9be89c740a8f0eb6ce3e7f98fc4a65e7bdba4cfe0738ee0e67594721cd5278f81a87de7&scene=21#wechat_redirect">链接：像素宝典 #8</a></p>
+<p>我们复制下第一帧，把它水平拉伸，垂直方向上压扁，保持整体体积。保持体积是很重要的，这样物体不会看起来变小或者变大了。当然这属于在我们更有经验之后可以尝试打破的规则，不过暂时还是遵守它。这帧也被称作“准备帧”，主要用来让下一帧发生的动作看起来更强烈。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud7nyyfj30bi0640kw.jpg"></p>
+<p>现在我们用同样方式复制并修改球落地时的帧，可以画的更加夸张点。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudd1yndj307m07l0f8.jpg"></p>
+<p>最后是垂直拉伸（同时水平挤压）跳起的第一帧和下落的最后一帧，当球速度最快的时候。这就完成了，我们看下结果：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudbt9f1j30mg07uwe9.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud9yqt4g305c05cmxc.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudaxnfug305c05cq31.gif"></p>
+<h3 id="保存动画"><a href="#保存动画" class="headerlink" title="保存动画"></a>保存动画</h3><p>尽管保存成 <code>.aseprite</code> 格式可以保存动画，你可能想要把动画导出，发到网上或者用到游戏里。</p>
+<p>网上，最简单的方式是保存成 <code>gif</code>，用 <code>FIle &gt; Export...</code> 命令。勾选 <code>Export for twitter</code>， 如果你想把最后一帧修改成 <code>1/4</code> 的持续时间，这样即使 Twitter 把它转成 MP4 也可以完美播放。</p>
+<p>当导出给游戏使用时，通常会保存成 png，动画一般会分解成一个精灵表或者图像序列。要保存成图像序列，选择导出为 png 格式，导出的文件后都带一个数字，像是“<code>bounce00.png</code>”。这回导出多个文件，像“<code>bounce01.png</code>”，“<code>bounce02.png</code>”等等。</p>
+<p>有的引擎需要精灵表的形式，不需要手工处理，只要选择 File&gt;Export Sprite Sheet，可以改改设置，有很多参数可选。</p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhude6qwbg305c05c747.gif" alt="图片"></p>
+<p>接下来我建议多试试时间轴，试着画点别的动画。你可以看看我其他的教程，选个感兴趣的跟着画画。</p>
+<p>另外也可以试试经典的初学者练习，画一个面粉袋走和跳的动画：<br><a href="https://www.youtube.com/watch?v=C8cbTGshkZw%E3%80%82">https://www.youtube.com/watch?v=C8cbTGshkZw。</a></p>
+<p>暂时保持低一点的分辨率和颜色数，不要太复杂了。</p>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开始画像素画#4</title>
     <url>/archives/ec50fbbd.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解明暗基础。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zj79coyj31hc0u00x5.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解明暗基础。</p>
 <a id="more"></a>
 
 
@@ -4379,73 +4447,10 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#3</title>
-    <url>/archives/90b77012.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解简单的 Aseprite 动画。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud6tcj7j30u008c74z.jpg"></p>
-<p>简单的 Aseprite 动画。这是系列的第 3 篇。</p>
-<h3 id="什么是动画？"><a href="#什么是动画？" class="headerlink" title="什么是动画？"></a>什么是动画？</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhuggpz84g30dw05oab9.gif"></p>
-<p>动画是由一系列表现动作流程图像，按特定顺序播放，所引起的运动错觉。我们的工作就是让这个序列看起来尽可能让人信服。</p>
-<h3 id="时间轴"><a href="#时间轴" class="headerlink" title="时间轴"></a>时间轴</h3><p>首先我们要了解时间轴。它是一种在单个文件里表现多个图像的方法。每一列都是完整的图像，有一个编号，我们称之为帧。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudbdlr7j30dq02t0pm.jpg" alt="图片"></p>
-<p>新建帧的最简单方法是按 ALT + B。这会在当前选中帧的后面新建一个空白帧，然后选择它。你可以点击某帧来选中，或者按’,’,’.’改变选中帧，在键盘上找 &lt; 和 &gt;，比较好记。</p>
-<p>试着在不同帧上画些颜色，点击播放（Enter 键，回车）。也可以在预览窗口看，按 F7。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud72cy8j308w07idfl.jpg"></p>
-<p>你可能感觉“这么多快捷键我怎么记得住”，没关系。记住快捷键需要时间跟肌肉记忆，而且大部分也都可以只用鼠标完成。当你记不住某个快捷键，就在菜单里找找，或者查看 Aseprite 的官方键位参考图：<a href="https://www.aseprite.org/quickref/">https://www.aseprite.org/quickref/</a></p>
-<h3 id="一个非常简单的动画"><a href="#一个非常简单的动画" class="headerlink" title="一个非常简单的动画"></a>一个非常简单的动画</h3><p>画动画有非常多的技巧，比如应该按什么顺序绘制每帧，如何优化，不过我们暂时先讲我了解的最简单的一个技巧：一个“连续动作（straight-ahead）”的弹球动画。“连续动作”是指我们按顺序一帧一帧直接画，而不是先画出重要帧，再添加中间帧的方式。先建个 <code>32</code> 乘 <code>32</code> 的文件，随便选个调色盘。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudcea72j30pt03r741.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud855nnj30ig03va9t.jpg"></p>
-<p>动画第一帧我称之为“静止”。它既是概念图，定义动画的风格，也是这个序列的停止位置。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudekly7j30440440ba.jpg"></p>
-<p>你要注意这帧里添加的细节，因为下一帧也要保持相同的风格。</p>
-<p>接着复制这一帧（ALT + N），把它向上移动 <code>4</code> 像素，像这样：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudajda0j303u03w0b4.jpg"></p>
-<p>之后，继续向上 <code>3</code> 像素，<code>2</code> 像素，<code>1</code> 像素，多保持相同位置一帧，后面反过来一遍。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud8k43lj30gt029741.jpg"></p>
-<h3 id="节奏"><a href="#节奏" class="headerlink" title="节奏"></a>节奏</h3><p>尽管节奏的运用是个相当复杂的主题，甚至可以做一整期专门的教程，我现在简单的从技术方面讲一点，让你可以自己去试试。</p>
-<p>我们来添加一些节奏。球在落地后停一段时间，再跳起来。要增加某一帧的持续时间，右键 点击帧上的数字，选择帧属性（Frame Properties）。然后你可以输入你想要这帧持续的时间。我们试下 <code>300</code> 毫秒。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud9h0a1j308d05qdfm.jpg"></p>
-<p>你也可以选中多个帧，同时修改持续时间。对于一次性快速修改整个动画的速度很有帮助。</p>
-<h3 id="挤压和拉伸"><a href="#挤压和拉伸" class="headerlink" title="挤压和拉伸"></a>挤压和拉伸</h3><p>这里我们可以做的一个简单改进是添加一点挤压和拉伸，一种让动作看起来更流畅自然的技术。包括沿着运动方向拉伸或者压扁物体，同时保持整体面积。</p>
-<p>具体原理可以参考之前的教程：</p>
-<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MjIyOTc2Nw==&mid=2649561430&idx=1&sn=50924ed496f2b1a5e91c843bbc4c8384&chksm=beb0c9be89c740a8f0eb6ce3e7f98fc4a65e7bdba4cfe0738ee0e67594721cd5278f81a87de7&scene=21#wechat_redirect">链接：像素宝典 #8</a></p>
-<p>我们复制下第一帧，把它水平拉伸，垂直方向上压扁，保持整体体积。保持体积是很重要的，这样物体不会看起来变小或者变大了。当然这属于在我们更有经验之后可以尝试打破的规则，不过暂时还是遵守它。这帧也被称作“准备帧”，主要用来让下一帧发生的动作看起来更强烈。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud7nyyfj30bi0640kw.jpg"></p>
-<p>现在我们用同样方式复制并修改球落地时的帧，可以画的更加夸张点。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudd1yndj307m07l0f8.jpg"></p>
-<p>最后是垂直拉伸（同时水平挤压）跳起的第一帧和下落的最后一帧，当球速度最快的时候。这就完成了，我们看下结果：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudbt9f1j30mg07uwe9.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhud9yqt4g305c05cmxc.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhudaxnfug305c05cq31.gif"></p>
-<h3 id="保存动画"><a href="#保存动画" class="headerlink" title="保存动画"></a>保存动画</h3><p>尽管保存成 <code>.aseprite</code> 格式可以保存动画，你可能想要把动画导出，发到网上或者用到游戏里。</p>
-<p>网上，最简单的方式是保存成 <code>gif</code>，用 <code>FIle &gt; Export...</code> 命令。勾选 <code>Export for twitter</code>， 如果你想把最后一帧修改成 <code>1/4</code> 的持续时间，这样即使 Twitter 把它转成 MP4 也可以完美播放。</p>
-<p>当导出给游戏使用时，通常会保存成 png，动画一般会分解成一个精灵表或者图像序列。要保存成图像序列，选择导出为 png 格式，导出的文件后都带一个数字，像是“<code>bounce00.png</code>”。这回导出多个文件，像“<code>bounce01.png</code>”，“<code>bounce02.png</code>”等等。</p>
-<p>有的引擎需要精灵表的形式，不需要手工处理，只要选择 File&gt;Export Sprite Sheet，可以改改设置，有很多参数可选。</p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhude6qwbg305c05c747.gif" alt="图片"></p>
-<p>接下来我建议多试试时间轴，试着画点别的动画。你可以看看我其他的教程，选个感兴趣的跟着画画。</p>
-<p>另外也可以试试经典的初学者练习，画一个面粉袋走和跳的动画：<br><a href="https://www.youtube.com/watch?v=C8cbTGshkZw%E3%80%82">https://www.youtube.com/watch?v=C8cbTGshkZw。</a></p>
-<p>暂时保持低一点的分辨率和颜色数，不要太复杂了。</p>
-]]></content>
-      <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开始画像素画#5</title>
     <url>/archives/9b57cb2b.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解关于抗锯齿与色带。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zjv505rj31hc0u0427.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解关于抗锯齿与色带。</p>
 <a id="more"></a>
 
 
@@ -4506,7 +4511,8 @@
   <entry>
     <title>开始画像素画#6</title>
     <url>/archives/25e9a91.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解颜色理论基础。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zkn8uthj31hc0u0dju.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解颜色理论基础。</p>
 <a id="more"></a>
 
 
@@ -4588,7 +4594,8 @@
   <entry>
     <title>开始画像素画#7</title>
     <url>/archives/7559aa07.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zm7aw4aj31hc0u0jv1.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
 <a id="more"></a>
 
 
@@ -4659,6 +4666,114 @@
       </tags>
   </entry>
   <entry>
+    <title>开始画像素画#8</title>
+    <url>/archives/e5e6b796.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zn1bbuvj31hc0u0423.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解文件格式和导出方法。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdd9dpvj30u008c74z.jpg"></p>
+<p>这个是系列的第 8 节。这篇技术细节比较多，可以跳过你不感兴趣的部分。</p>
+<p>本节主要是文件格式和导出方法。</p>
+<h3 id="Bitmap-and-vector-位图和矢量图"><a href="#Bitmap-and-vector-位图和矢量图" class="headerlink" title="Bitmap and vector 位图和矢量图"></a>Bitmap and vector 位图和矢量图</h3><p>我们先来讲讲图片在电脑上是如何保存的。简单来说，有两种 2d 的图像文件类型，位图和矢量图。</p>
+<p>矢量图是点、线坐标，以及颜色信息的集合，可以用来创作能缩放到任意分辨率的图像。它主要的缺点在于难以用在表现细节的图像上，像是照片，你几乎无法在像素级别进行控制。尽管我们能创建出看起来像是像素画的矢量图，或者把像素画导出成矢量图格式，但几乎没人这么做。也有些例外情况，比如说要把像素画打印到很大的板子上。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">circle</span> <span class="attr">cx</span>=<span class="string">&quot;50&quot;</span> <span class="attr">cy</span>=<span class="string">&quot;50&quot;</span> <span class="attr">r</span>=<span class="string">&quot;40&quot;</span> <span class="attr">stroke</span>=<span class="string">&quot;black&quot;</span> <span class="attr">stroke-width</span>=<span class="string">&quot;3&quot;</span> <span class="attr">fill</span>=<span class="string">&quot;red&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdbgy43j30330310pw.jpg"></p>
+<p>而位图图像，才是像素画能够存在的原因。位图把图像想象成很大的网格，打印在屏幕上，每个像素都单独存储。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdh3fwmj30jn0770s1.jpg"></p>
+<p>这样保存的文件有时候比较大。一个 <code>1080*1920</code> 的图，意味着包含了 <code>2.073.600</code> 个独立像素需要保存，所以有时候需要用高效算法来压缩一下。</p>
+<h3 id="Image-compression-图像压缩"><a href="#Image-compression-图像压缩" class="headerlink" title="Image compression 图像压缩"></a>Image compression 图像压缩</h3><p>图像压缩是为了减小图像文件的体积，但是依据使用算法的不同，有些算法可能会损坏原数据。</p>
+<p>压缩可以是有损或者无损的。有损压缩一般对于照片或者大幅插画是可以接受的，但是像素画就不可以。用 JPG 格式保存像素画会造成随机的颜色变化，图形虚影。在压缩像素画时，我们必须检查是否用的是无损压缩，比如 PNG 格式。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdcrltyj30en07lmx2.jpg"></p>
+<p>总的来说，你的编辑器提供的图像格式，比如 Aseprite 的.aseprite 格式，或者 GraphicGale 的.gal 格式，可以安全的保存所有的图层和元数据。</p>
+<h3 id="在-Aseprite-里保存"><a href="#在-Aseprite-里保存" class="headerlink" title="在 Aseprite 里保存"></a>在 Aseprite 里保存</h3><p>在 Aseprite 里用保存对话框进行保存（Ctrl + S，或者 Ctrl + Shift + S 做另存为新文件）</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdgjejzj30hz0avdg0.jpg"></p>
+<p>很直观，是吧？在这里保存为 <code>.aseprite</code> 格式，保存所有文件信息，以便你以后可以回来做修改。</p>
+<h3 id="导出预览"><a href="#导出预览" class="headerlink" title="导出预览"></a>导出预览</h3><p>在完成了你的精灵图之后，你可能想要发布到什么地方，或者发给谁，但如果直接保存成 <code>.png</code> 文件，会有两个不好的地方：第一，你的图像会保存成一个扁平的文件，就是说失去了图层和元数据，第二，你的 <code>png</code> 文件可能会长这样：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvf351jhj30180180bx.jpg"></p>
+<p>导出做预览的正确方式是用导出对话框，在“文件 -&gt; 导出”（<code>File</code> -&gt;<code> Export</code>）菜单</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdidzz7j30b809ua9u.jpg"></p>
+<p>这个对话框里有非常多有用的选项，我们一个个看一下：</p>
+<p><strong>Output File 输出文件</strong>：文件名。如果你直接输入想使用的文件格式，Aseprite 就可以保存为这个格式。推荐静态的图用“<code>.png</code>”，动画用“<code>.gif</code>”。</p>
+<p>这里不会把保存命令的默认格式也改掉，所以不用担心这里选择的格式以后会把所有东西都拍扁。</p>
+<p><strong>Resize 缩放</strong>：像素画对于目前的显示器来说通常都太小，所以需要缩放。Aseprite 提供了很多的分辨率供你选择。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdixafaj30ft0760oy.jpg"></p>
+<p>你可能注意到了，只能缩放成 <code>100%</code> 的整数倍，不能有小数，比如 <code>250%</code>。这是因为非整数倍的缩放会损坏像素画。这是个像素画的严重缺陷，并且没有什么办法能避免。记住缩放一定要用整数倍（<code>200%</code>，<code>300%</code> 等），不要用非整数倍（<code>130%</code>，<code>250%</code> 等等）。</p>
+<p>如果你一定要满足某个大小，试着缩放到最接近的最小的倍数，然后把画布延伸到你需要的尺寸。</p>
+<p>通常放大 <code>200%</code> 或者 <code>300%</code> 发布到网上足够了。</p>
+<p><strong>Layers 图层：</strong>当你导出文件时，他会被拍扁，就是失去所有图层信息。这个选项可以让你选择导出时需要包含哪个图层。</p>
+<p><strong>Frames 帧：</strong>后面会详细讲，这里就是指要导出哪些帧。如果你有不止一帧，那么会发生两件事：</p>
+<ul>
+<li>如果导出格式支持动画，比如 <code>gif</code>，那么就会导出动画到这个文件。</li>
+<li>如果导出格式不支持动画，比如 <code>png</code>，那么 Aseprite 就会保存到多个文件，每帧一个。<br>（编辑注：现在 <code>APNG</code> 动画格式其实也已经得到了广泛支持）</li>
+</ul>
+<p><strong>Animation direction 动画方向：</strong>这里可以看到常用的方向，比如向前，向后等等，选最适合你的。这里的含义很直观，你也可以自己试试。</p>
+<p><strong>Apply pixel ratio 应用像素比例：</strong>这个不常用，如果你用的不是方形像素，选这个会把它压扁成方形。如果不确定这个是什么也没关系，他不会改变什么东西。</p>
+<p><strong>Export for Twitter 导出到 twitter：</strong>勾选后会让最后一帧动画持续时间整个动画的一半长度，完美适合 twitter MP4 循环。</p>
+<h3 id="Saving-for-the-engine-保存给引擎"><a href="#Saving-for-the-engine-保存给引擎" class="headerlink" title="Saving for the engine 保存给引擎"></a>Saving for the engine 保存给引擎</h3><p>游戏引擎各不相同，每个都需要你做特定处理，不过这里是一些通用的原则：</p>
+<ul>
+<li>首先是文件格式：尽管有些引擎支持 <code>tiff</code>，<code>gif</code>，甚至是 <code>bmp</code>，最好还是用 <code>png</code>。轻量，解压相对迅速，透明支持的很好。别用 <code>jpg</code>，<code>mp4</code>，或者其他的有损压缩格式。</li>
+<li>除非你有什么原因，否则不要在导出给游戏引擎时对像素画做缩放。正常情况下精灵应该是由引擎来做缩放，所有文件都应该保持原有分辨率。</li>
+<li>动画应该保存成图片序列，或者精灵表（sprite sheet）。不要用任何的视频格式，除非你在做什么特别的。</li>
+</ul>
+<h3 id="Saving-an-image-sequence-保存图片序列"><a href="#Saving-an-image-sequence-保存图片序列" class="headerlink" title="Saving an image sequence 保存图片序列"></a>Saving an image sequence 保存图片序列</h3><p>当把动画保存为 <code>png</code> 时，Aseprite 会创建一个图片序列，看起来这样:</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdbuf77j30ep045dfm.jpg"></p>
+<p>一般这就行了，不过我喜欢文件名从 <code>0</code> 开始，而且我喜欢两位数字。这个很容易实现：在文件名这，只要输入文件名后面加上”<code>00</code>“。这里我把文件名写为 <code>alert00.png</code>，结果是这样：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdhjw9lj30fs023gld.jpg"></p>
+<p>另外一个有用的技巧是加多个标签。在 Aseprite 里，你可以选择多组帧加上标签。这样一个文件里可以保存多个动画。像这样：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvddrdl3j30kj03i3ya.jpg"></p>
+<p>这有助于整理，导出也很方便，只要输入 <code>boss_&#123;tag&#125;&#123;tagframe00&#125;.png</code>，aseeprite 会这样导出：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdccrpkj30j10dijsi.jpg"></p>
+<p>很方便吧？如果你想多几个或少几个 <code>0</code>，可以把 <code>&#123;tagframe00&#125;</code> 改成 <code>&#123;tagframe000&#125;</code> 或者直接 <code>&#123;tagframe&#125;</code>。</p>
+<h3 id="保存精灵表-sprite-sheet"><a href="#保存精灵表-sprite-sheet" class="headerlink" title="保存精灵表 sprite sheet"></a>保存精灵表 sprite sheet</h3><p>有些游戏引擎推荐用精灵表，而不是多张图片，我们可以用“文件&gt;导出精灵表”（<code>File</code> &gt; <code>Export Sprite Sheet</code>）命令自动导出。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdec521j30m10e3a9x.jpg"></p>
+<p>这里我们有多个选项，可以根据所用的引擎做调整。有些需要在精灵之间添加边距，提供 <code>JSON</code> 描述信息，其他的可能支持去除透明部分。<code>Extrude</code> 拉伸可以让所有瓦片的边界颜色向外延伸一个像素，避免 3D 瓦片的接缝，如果你用的是 3D 引擎的话。不确定就什么都不选就好。</p>
+<p>对于行和列的数量设置，如果引擎没有特殊要求，我建议选择“最适合纹理的尺寸”（<code>Best fit for texture</code>），让 Aseprite 自动计算尺寸。</p>
+<p>这里需要注意的是，不勾选“<code>Output file</code>”并提供文件名时，点击导出不会生成文件的。你也可以选择“<code>Open generated sprite sheet</code>”，这会打开一个新文件，你可以手工保存。</p>
+<h3 id="切割工具和命令行"><a href="#切割工具和命令行" class="headerlink" title="切割工具和命令行"></a>切割工具和命令行</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdi043kj309m06wjr5.jpg"></p>
+<p>最后一个技巧时用切割工具 slice。切割工具适合于把多个图放在同一个画布的时候。我喜欢在给游戏场景制作素材时用这个，我可以把素材放在旁边随时比对尺寸。</p>
+<p>首先要把精灵放到一个文件，挨着。别互相重叠到一个矩形区域就好。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdepvv0j30gg0cx749.jpg"></p>
+<p>接着选择切割工具，开始在每个物体上做选取，注意不要把其他物体的部分包括进来。之后你可以双击其中一个，或者右键点击查看属性，给它命名。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdfbb6uj30u00cg0vg.jpg"></p>
+<p>现在，用命令行！如果你主要做美术，这部分听起来可能有点吓人，但我保证，只要简单了解并设置好之后，这能够自动处理很多枯燥的导出工作。</p>
+<p>首先你需要把 Aseprite 添加到环境变量里，如果你不清楚这个，可以看看这个教程<a href="https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables">https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables</a> （百度什么的搜一下设置环境变量）。把 <code>Aseprite.exe</code> 加入到环境变量里。</p>
+<p>现在，保存好 Aseprite 文件，在同一个文件夹打开命令行工具。如果不知道怎么做的话，在 windows 下，Shift + 右键，选择在当前位置打开命令行。</p>
+<p>接着是有意思的地方了，用到的命令！直接输入下面这个，把 <code>myFile</code> 替换成你的文件名，按回车：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Aseprite.exe -b &#39;.\myFile.aseprite&#39; --save-as &#39;&#123;slice&#125;.png&#39;</span><br></pre></td></tr></table></figure>
+<p>我们分解一下这个的含义：</p>
+<ul>
+<li><code>Aseprite.exe</code> 用来启动 Aseprite</li>
+<li><code>-b</code> 表示我们是在批处理模式。不加这个的话 Aseprite 就打开了，我们不需要。</li>
+<li><code>‘.\myFile.aseprite’</code> 是需要处理的文件名和拓展名。这个是相对于当前路径的。</li>
+<li><code>--save-as</code> 是保存选中文件的命令，它也会根据你给的文件名里带的标签去格式化文件名。</li>
+<li><code>&#39;&#123;slice&#125;.png&#39;</code> 是导出文件名, <code>&#123;slice&#125;</code> 是个标签，它表示文件名会用切割的名称并切割出来。</li>
+</ul>
+<p>如果想了解更多命令行信息，Aseprite 有个不错的使用教程可以看看：</p>
+<p><a href="https://www.aseprite.org/docs/cli/#filename-format">https://www.aseprite.org/docs/cli/#filename-format</a></p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在你了解到如何正确的保存像素画了！当有不确定的地方时，参考以下几点：</p>
+<ul>
+<li>永远用整数倍缩放，不用小数，不缩小。</li>
+<li>Aseprite 可以自动保存出图片序列。</li>
+<li>别用 <code>jpg</code> 和 <code>mp4</code>，以及其他的有损压缩图像格式。</li>
+<li>不确定时，就用 <code>png</code>，别缩放。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>操作系统概述</title>
     <url>/archives/33c82dd4.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gky8z6eslsg312w0lwhdu.gif"></p>
@@ -4703,57 +4818,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#x79;&#x6f;&#110;&#103;&#x40;&#116;&#x73;&#x69;&#110;&#103;&#x68;&#117;&#x61;&#46;&#101;&#100;&#x75;&#x2e;&#99;&#x6e;">&#x78;&#x79;&#x6f;&#110;&#103;&#x40;&#116;&#x73;&#x69;&#110;&#103;&#x68;&#117;&#x61;&#46;&#101;&#100;&#x75;&#x2e;&#99;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#121;&#x6f;&#110;&#103;&#64;&#x74;&#115;&#x69;&#110;&#103;&#104;&#117;&#97;&#x2e;&#x65;&#100;&#117;&#46;&#x63;&#x6e;">&#x78;&#121;&#x6f;&#110;&#103;&#64;&#x74;&#115;&#x69;&#110;&#103;&#104;&#117;&#97;&#x2e;&#x65;&#100;&#117;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#x75;&#99;&#x68;&#x65;&#x6e;&#x40;&#x6d;&#97;&#105;&#108;&#x2e;&#x74;&#115;&#105;&#110;&#x67;&#104;&#x75;&#97;&#x2e;&#x65;&#100;&#x75;&#46;&#99;&#x6e;">&#x79;&#x75;&#99;&#x68;&#x65;&#x6e;&#x40;&#x6d;&#97;&#105;&#108;&#x2e;&#x74;&#115;&#105;&#110;&#x67;&#104;&#x75;&#97;&#x2e;&#x65;&#100;&#x75;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#x75;&#99;&#x68;&#x65;&#x6e;&#x40;&#x6d;&#97;&#105;&#x6c;&#46;&#116;&#x73;&#105;&#x6e;&#103;&#x68;&#117;&#x61;&#x2e;&#x65;&#100;&#x75;&#x2e;&#x63;&#x6e;">&#x79;&#x75;&#99;&#x68;&#x65;&#x6e;&#x40;&#x6d;&#97;&#105;&#x6c;&#46;&#116;&#x73;&#105;&#x6e;&#103;&#x68;&#117;&#x61;&#x2e;&#x65;&#100;&#x75;&#x2e;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#x74;&#x65;&#x72;&#x6e;&#x61;&#x6c;&#46;&#110;&#48;&#x38;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;">&#x65;&#x74;&#x65;&#x72;&#x6e;&#x61;&#x6c;&#46;&#110;&#48;&#x38;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x65;&#x74;&#101;&#114;&#x6e;&#x61;&#108;&#x2e;&#110;&#48;&#56;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#x65;&#x74;&#101;&#114;&#x6e;&#x61;&#108;&#x2e;&#110;&#48;&#56;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#98;&#x6a;&#x65;&#x63;&#116;&#x6b;&#117;&#x61;&#x6e;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;">&#x6f;&#98;&#x6a;&#x65;&#x63;&#116;&#x6b;&#117;&#x61;&#x6e;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x6f;&#x62;&#106;&#101;&#99;&#116;&#x6b;&#117;&#97;&#x6e;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x6f;&#x62;&#106;&#101;&#99;&#116;&#x6b;&#117;&#97;&#x6e;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#114;&#100;&#x66;&#x72;&#97;&#110;&#107;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;">&#99;&#114;&#100;&#x66;&#x72;&#97;&#110;&#107;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#99;&#x72;&#x64;&#102;&#114;&#97;&#x6e;&#107;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#99;&#x72;&#x64;&#102;&#114;&#97;&#x6e;&#107;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#97;&#x63;&#99;&#x6f;&#x72;&#97;&#119;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#116;&#97;&#x63;&#99;&#x6f;&#x72;&#97;&#119;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#116;&#x61;&#99;&#x63;&#x6f;&#x72;&#97;&#119;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#116;&#x61;&#99;&#x63;&#x6f;&#x72;&#97;&#119;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#105;&#110;&#121;&#x75;&#x6e;&#120;&#105;&#110;&#x67;&#x30;&#x30;&#48;&#x31;&#64;&#49;&#x36;&#51;&#46;&#99;&#111;&#x6d;">&#120;&#105;&#110;&#121;&#x75;&#x6e;&#120;&#105;&#110;&#x67;&#x30;&#x30;&#48;&#x31;&#64;&#49;&#x36;&#51;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#117;&#110;&#120;&#x69;&#110;&#x67;&#48;&#48;&#x30;&#49;&#x40;&#x31;&#x36;&#51;&#x2e;&#99;&#x6f;&#x6d;">&#x78;&#x69;&#x6e;&#121;&#117;&#110;&#120;&#x69;&#110;&#x67;&#48;&#48;&#x30;&#49;&#x40;&#x31;&#x36;&#51;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#x6e;&#111;&#99;&#117;&#105;&#108;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#x67;&#x6e;&#111;&#99;&#117;&#105;&#108;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#103;&#110;&#111;&#x63;&#117;&#105;&#x6c;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#103;&#110;&#111;&#x63;&#117;&#105;&#x6c;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#x79;&#x61;&#x69;&#114;&#x69;&#97;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x6d;&#x79;&#x61;&#x69;&#114;&#x69;&#97;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x6d;&#121;&#x61;&#x69;&#114;&#105;&#97;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x6d;&#121;&#x61;&#x69;&#114;&#105;&#97;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#x68;&#x61;&#x6e;&#103;&#114;&#97;&#105;&#110;&#x39;&#x31;&#49;&#64;&#x31;&#54;&#x33;&#46;&#x63;&#111;&#109;">&#x7a;&#x68;&#x61;&#x6e;&#103;&#114;&#97;&#105;&#110;&#x39;&#x31;&#49;&#64;&#x31;&#54;&#x33;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x7a;&#104;&#x61;&#110;&#103;&#114;&#x61;&#x69;&#x6e;&#x39;&#x31;&#x31;&#x40;&#49;&#54;&#51;&#x2e;&#x63;&#111;&#x6d;">&#x7a;&#104;&#x61;&#110;&#103;&#114;&#x61;&#x69;&#x6e;&#x39;&#x31;&#x31;&#x40;&#49;&#54;&#51;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#x67;&#x78;&#120;&#x31;&#x32;&#48;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;">&#103;&#x67;&#x78;&#120;&#x31;&#x32;&#48;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#103;&#x78;&#120;&#x31;&#50;&#48;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#103;&#103;&#x78;&#120;&#x31;&#50;&#48;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -4939,110 +5054,23 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#8</title>
-    <url>/archives/e5e6b796.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解文件格式和导出方法。</p>
+    <title>进程与线程</title>
+    <url>/archives/44cf1d42.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloe6t3mq4g312w0lwqva.gif"></p>
+<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
 <a id="more"></a>
 
 
 
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdd9dpvj30u008c74z.jpg"></p>
-<p>这个是系列的第 8 节。这篇技术细节比较多，可以跳过你不感兴趣的部分。</p>
-<p>本节主要是文件格式和导出方法。</p>
-<h3 id="Bitmap-and-vector-位图和矢量图"><a href="#Bitmap-and-vector-位图和矢量图" class="headerlink" title="Bitmap and vector 位图和矢量图"></a>Bitmap and vector 位图和矢量图</h3><p>我们先来讲讲图片在电脑上是如何保存的。简单来说，有两种 2d 的图像文件类型，位图和矢量图。</p>
-<p>矢量图是点、线坐标，以及颜色信息的集合，可以用来创作能缩放到任意分辨率的图像。它主要的缺点在于难以用在表现细节的图像上，像是照片，你几乎无法在像素级别进行控制。尽管我们能创建出看起来像是像素画的矢量图，或者把像素画导出成矢量图格式，但几乎没人这么做。也有些例外情况，比如说要把像素画打印到很大的板子上。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">circle</span> <span class="attr">cx</span>=<span class="string">&quot;50&quot;</span> <span class="attr">cy</span>=<span class="string">&quot;50&quot;</span> <span class="attr">r</span>=<span class="string">&quot;40&quot;</span> <span class="attr">stroke</span>=<span class="string">&quot;black&quot;</span> <span class="attr">stroke-width</span>=<span class="string">&quot;3&quot;</span> <span class="attr">fill</span>=<span class="string">&quot;red&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdbgy43j30330310pw.jpg"></p>
-<p>而位图图像，才是像素画能够存在的原因。位图把图像想象成很大的网格，打印在屏幕上，每个像素都单独存储。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdh3fwmj30jn0770s1.jpg"></p>
-<p>这样保存的文件有时候比较大。一个 <code>1080*1920</code> 的图，意味着包含了 <code>2.073.600</code> 个独立像素需要保存，所以有时候需要用高效算法来压缩一下。</p>
-<h3 id="Image-compression-图像压缩"><a href="#Image-compression-图像压缩" class="headerlink" title="Image compression 图像压缩"></a>Image compression 图像压缩</h3><p>图像压缩是为了减小图像文件的体积，但是依据使用算法的不同，有些算法可能会损坏原数据。</p>
-<p>压缩可以是有损或者无损的。有损压缩一般对于照片或者大幅插画是可以接受的，但是像素画就不可以。用 JPG 格式保存像素画会造成随机的颜色变化，图形虚影。在压缩像素画时，我们必须检查是否用的是无损压缩，比如 PNG 格式。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdcrltyj30en07lmx2.jpg"></p>
-<p>总的来说，你的编辑器提供的图像格式，比如 Aseprite 的.aseprite 格式，或者 GraphicGale 的.gal 格式，可以安全的保存所有的图层和元数据。</p>
-<h3 id="在-Aseprite-里保存"><a href="#在-Aseprite-里保存" class="headerlink" title="在 Aseprite 里保存"></a>在 Aseprite 里保存</h3><p>在 Aseprite 里用保存对话框进行保存（Ctrl + S，或者 Ctrl + Shift + S 做另存为新文件）</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdgjejzj30hz0avdg0.jpg"></p>
-<p>很直观，是吧？在这里保存为 <code>.aseprite</code> 格式，保存所有文件信息，以便你以后可以回来做修改。</p>
-<h3 id="导出预览"><a href="#导出预览" class="headerlink" title="导出预览"></a>导出预览</h3><p>在完成了你的精灵图之后，你可能想要发布到什么地方，或者发给谁，但如果直接保存成 <code>.png</code> 文件，会有两个不好的地方：第一，你的图像会保存成一个扁平的文件，就是说失去了图层和元数据，第二，你的 <code>png</code> 文件可能会长这样：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvf351jhj30180180bx.jpg"></p>
-<p>导出做预览的正确方式是用导出对话框，在“文件 -&gt; 导出”（<code>File</code> -&gt;<code> Export</code>）菜单</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdidzz7j30b809ua9u.jpg"></p>
-<p>这个对话框里有非常多有用的选项，我们一个个看一下：</p>
-<p><strong>Output File 输出文件</strong>：文件名。如果你直接输入想使用的文件格式，Aseprite 就可以保存为这个格式。推荐静态的图用“<code>.png</code>”，动画用“<code>.gif</code>”。</p>
-<p>这里不会把保存命令的默认格式也改掉，所以不用担心这里选择的格式以后会把所有东西都拍扁。</p>
-<p><strong>Resize 缩放</strong>：像素画对于目前的显示器来说通常都太小，所以需要缩放。Aseprite 提供了很多的分辨率供你选择。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdixafaj30ft0760oy.jpg"></p>
-<p>你可能注意到了，只能缩放成 <code>100%</code> 的整数倍，不能有小数，比如 <code>250%</code>。这是因为非整数倍的缩放会损坏像素画。这是个像素画的严重缺陷，并且没有什么办法能避免。记住缩放一定要用整数倍（<code>200%</code>，<code>300%</code> 等），不要用非整数倍（<code>130%</code>，<code>250%</code> 等等）。</p>
-<p>如果你一定要满足某个大小，试着缩放到最接近的最小的倍数，然后把画布延伸到你需要的尺寸。</p>
-<p>通常放大 <code>200%</code> 或者 <code>300%</code> 发布到网上足够了。</p>
-<p><strong>Layers 图层：</strong>当你导出文件时，他会被拍扁，就是失去所有图层信息。这个选项可以让你选择导出时需要包含哪个图层。</p>
-<p><strong>Frames 帧：</strong>后面会详细讲，这里就是指要导出哪些帧。如果你有不止一帧，那么会发生两件事：</p>
-<ul>
-<li>如果导出格式支持动画，比如 <code>gif</code>，那么就会导出动画到这个文件。</li>
-<li>如果导出格式不支持动画，比如 <code>png</code>，那么 Aseprite 就会保存到多个文件，每帧一个。<br>（编辑注：现在 <code>APNG</code> 动画格式其实也已经得到了广泛支持）</li>
-</ul>
-<p><strong>Animation direction 动画方向：</strong>这里可以看到常用的方向，比如向前，向后等等，选最适合你的。这里的含义很直观，你也可以自己试试。</p>
-<p><strong>Apply pixel ratio 应用像素比例：</strong>这个不常用，如果你用的不是方形像素，选这个会把它压扁成方形。如果不确定这个是什么也没关系，他不会改变什么东西。</p>
-<p><strong>Export for Twitter 导出到 twitter：</strong>勾选后会让最后一帧动画持续时间整个动画的一半长度，完美适合 twitter MP4 循环。</p>
-<h3 id="Saving-for-the-engine-保存给引擎"><a href="#Saving-for-the-engine-保存给引擎" class="headerlink" title="Saving for the engine 保存给引擎"></a>Saving for the engine 保存给引擎</h3><p>游戏引擎各不相同，每个都需要你做特定处理，不过这里是一些通用的原则：</p>
-<ul>
-<li>首先是文件格式：尽管有些引擎支持 <code>tiff</code>，<code>gif</code>，甚至是 <code>bmp</code>，最好还是用 <code>png</code>。轻量，解压相对迅速，透明支持的很好。别用 <code>jpg</code>，<code>mp4</code>，或者其他的有损压缩格式。</li>
-<li>除非你有什么原因，否则不要在导出给游戏引擎时对像素画做缩放。正常情况下精灵应该是由引擎来做缩放，所有文件都应该保持原有分辨率。</li>
-<li>动画应该保存成图片序列，或者精灵表（sprite sheet）。不要用任何的视频格式，除非你在做什么特别的。</li>
-</ul>
-<h3 id="Saving-an-image-sequence-保存图片序列"><a href="#Saving-an-image-sequence-保存图片序列" class="headerlink" title="Saving an image sequence 保存图片序列"></a>Saving an image sequence 保存图片序列</h3><p>当把动画保存为 <code>png</code> 时，Aseprite 会创建一个图片序列，看起来这样:</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdbuf77j30ep045dfm.jpg"></p>
-<p>一般这就行了，不过我喜欢文件名从 <code>0</code> 开始，而且我喜欢两位数字。这个很容易实现：在文件名这，只要输入文件名后面加上”<code>00</code>“。这里我把文件名写为 <code>alert00.png</code>，结果是这样：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdhjw9lj30fs023gld.jpg"></p>
-<p>另外一个有用的技巧是加多个标签。在 Aseprite 里，你可以选择多组帧加上标签。这样一个文件里可以保存多个动画。像这样：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvddrdl3j30kj03i3ya.jpg"></p>
-<p>这有助于整理，导出也很方便，只要输入 <code>boss_&#123;tag&#125;&#123;tagframe00&#125;.png</code>，aseeprite 会这样导出：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdccrpkj30j10dijsi.jpg"></p>
-<p>很方便吧？如果你想多几个或少几个 <code>0</code>，可以把 <code>&#123;tagframe00&#125;</code> 改成 <code>&#123;tagframe000&#125;</code> 或者直接 <code>&#123;tagframe&#125;</code>。</p>
-<h3 id="保存精灵表-sprite-sheet"><a href="#保存精灵表-sprite-sheet" class="headerlink" title="保存精灵表 sprite sheet"></a>保存精灵表 sprite sheet</h3><p>有些游戏引擎推荐用精灵表，而不是多张图片，我们可以用“文件&gt;导出精灵表”（<code>File</code> &gt; <code>Export Sprite Sheet</code>）命令自动导出。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdec521j30m10e3a9x.jpg"></p>
-<p>这里我们有多个选项，可以根据所用的引擎做调整。有些需要在精灵之间添加边距，提供 <code>JSON</code> 描述信息，其他的可能支持去除透明部分。<code>Extrude</code> 拉伸可以让所有瓦片的边界颜色向外延伸一个像素，避免 3D 瓦片的接缝，如果你用的是 3D 引擎的话。不确定就什么都不选就好。</p>
-<p>对于行和列的数量设置，如果引擎没有特殊要求，我建议选择“最适合纹理的尺寸”（<code>Best fit for texture</code>），让 Aseprite 自动计算尺寸。</p>
-<p>这里需要注意的是，不勾选“<code>Output file</code>”并提供文件名时，点击导出不会生成文件的。你也可以选择“<code>Open generated sprite sheet</code>”，这会打开一个新文件，你可以手工保存。</p>
-<h3 id="切割工具和命令行"><a href="#切割工具和命令行" class="headerlink" title="切割工具和命令行"></a>切割工具和命令行</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdi043kj309m06wjr5.jpg"></p>
-<p>最后一个技巧时用切割工具 slice。切割工具适合于把多个图放在同一个画布的时候。我喜欢在给游戏场景制作素材时用这个，我可以把素材放在旁边随时比对尺寸。</p>
-<p>首先要把精灵放到一个文件，挨着。别互相重叠到一个矩形区域就好。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdepvv0j30gg0cx749.jpg"></p>
-<p>接着选择切割工具，开始在每个物体上做选取，注意不要把其他物体的部分包括进来。之后你可以双击其中一个，或者右键点击查看属性，给它命名。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdfbb6uj30u00cg0vg.jpg"></p>
-<p>现在，用命令行！如果你主要做美术，这部分听起来可能有点吓人，但我保证，只要简单了解并设置好之后，这能够自动处理很多枯燥的导出工作。</p>
-<p>首先你需要把 Aseprite 添加到环境变量里，如果你不清楚这个，可以看看这个教程<a href="https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables">https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables</a> （百度什么的搜一下设置环境变量）。把 <code>Aseprite.exe</code> 加入到环境变量里。</p>
-<p>现在，保存好 Aseprite 文件，在同一个文件夹打开命令行工具。如果不知道怎么做的话，在 windows 下，Shift + 右键，选择在当前位置打开命令行。</p>
-<p>接着是有意思的地方了，用到的命令！直接输入下面这个，把 <code>myFile</code> 替换成你的文件名，按回车：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Aseprite.exe -b &#39;.\myFile.aseprite&#39; --save-as &#39;&#123;slice&#125;.png&#39;</span><br></pre></td></tr></table></figure>
-<p>我们分解一下这个的含义：</p>
-<ul>
-<li><code>Aseprite.exe</code> 用来启动 Aseprite</li>
-<li><code>-b</code> 表示我们是在批处理模式。不加这个的话 Aseprite 就打开了，我们不需要。</li>
-<li><code>‘.\myFile.aseprite’</code> 是需要处理的文件名和拓展名。这个是相对于当前路径的。</li>
-<li><code>--save-as</code> 是保存选中文件的命令，它也会根据你给的文件名里带的标签去格式化文件名。</li>
-<li><code>&#39;&#123;slice&#125;.png&#39;</code> 是导出文件名, <code>&#123;slice&#125;</code> 是个标签，它表示文件名会用切割的名称并切割出来。</li>
-</ul>
-<p>如果想了解更多命令行信息，Aseprite 有个不错的使用教程可以看看：</p>
-<p><a href="https://www.aseprite.org/docs/cli/#filename-format">https://www.aseprite.org/docs/cli/#filename-format</a></p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在你了解到如何正确的保存像素画了！当有不确定的地方时，参考以下几点：</p>
-<ul>
-<li>永远用整数倍缩放，不用小数，不缩小。</li>
-<li>Aseprite 可以自动保存出图片序列。</li>
-<li>别用 <code>jpg</code> 和 <code>mp4</code>，以及其他的有损压缩图像格式。</li>
-<li>不确定时，就用 <code>png</code>，别缩放。</li>
-</ul>
+
+
 ]]></content>
       <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
+        <category>操作系统 (Operating Systems)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
+        <tag>Mooc</tag>
+        <tag>OS</tag>
       </tags>
   </entry>
   <entry>
@@ -5132,26 +5160,6 @@
       <tags>
         <tag>Aseprite</tag>
         <tag>CMake</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>进程与线程</title>
-    <url>/archives/44cf1d42.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloe6t3mq4g312w0lwqva.gif"></p>
-<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
-<a id="more"></a>
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>操作系统 (Operating Systems)</category>
-      </categories>
-      <tags>
-        <tag>Mooc</tag>
-        <tag>OS</tag>
       </tags>
   </entry>
   <entry>
@@ -5641,7 +5649,8 @@
   <entry>
     <title>像素宝典#1</title>
     <url>/archives/5b27815c.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解简单的闪光效果、烟雾效果、攻击动画和跑步循环。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5yziapgij31hc0u0ak5.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解简单的闪光效果、烟雾效果、攻击动画和跑步循环。</p>
 <a id="more"></a>
 
 
@@ -5702,7 +5711,8 @@
   <entry>
     <title>像素宝典#2</title>
     <url>/archives/c22ed0e6.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解俯视跑步循环、闪电效果、故障效果和关卡设计流程。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5z43ozraj31hc0u0gvq.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解俯视跑步循环、闪电效果、故障效果和关卡设计流程。</p>
 <a id="more"></a>
 
 
@@ -5759,7 +5769,8 @@
   <entry>
     <title>像素宝典#3</title>
     <url>/archives/a2511f33.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解水、火的特效、无缝循环、植物和骷髅。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5z6hdoorj31hc0u0tiu.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解水、火的特效、无缝循环、植物和骷髅。</p>
 <a id="more"></a>
 
 
@@ -5818,7 +5829,8 @@
   <entry>
     <title>像素宝典#4</title>
     <url>/archives/2b4d75d3.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解角色设计、动画、像素运动、爆炸效果和怪异科技效果。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5z8d807nj31hc0u0wol.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解角色设计、动画、像素运动、爆炸效果和怪异科技效果。</p>
 <a id="more"></a>
 
 
@@ -5870,7 +5882,8 @@
   <entry>
     <title>像素宝典#5</title>
     <url>/archives/2b4d75d4.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解视差和深度、渲染技巧、动画缓冲、像素画流程和废墟画法。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zau6ukqj318g0p010m.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解视差和深度、渲染技巧、动画缓冲、像素画流程和废墟画法。</p>
 <a id="more"></a>
 
 
@@ -5943,7 +5956,8 @@
   <entry>
     <title>像素宝典#6</title>
     <url>/archives/c54314ff.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解各种特效和飞行动画。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zbxjud7j31hc0u0dpy.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解各种特效和飞行动画。</p>
 <a id="more"></a>
 
 
@@ -6008,7 +6022,8 @@
   <entry>
     <title>像素宝典#7</title>
     <url>/archives/b2442469.html</url>
-    <content><![CDATA[<p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解粘液、岩石构成、植物、城市背景以及像素画基础。</p>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zdb4ui8j318g0p046e.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解粘液、岩石构成、植物、城市背景以及像素画基础。</p>
 <a id="more"></a>
 
 
@@ -10332,14 +10347,119 @@
 <h3 id="列表和字典"><a href="#列表和字典" class="headerlink" title="列表和字典"></a>列表和字典</h3><p>在本章中我们将介绍两个泛型集合列表和字典，我们还将使用它们的方法，两者的工作原理类似于数组，但有一些明显区别。</p>
 <p>我们首先介绍<code>List</code>类，列表就像是大小动态变化的数组，这表示你不需要提前知道列表将包含多少个元素。在深入讲解之前，我们快速创建一个可以存储在列表中的类：</p>
 <figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"><span class="keyword">using</span> System.Collection;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">BadGuy</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="keyword">public</span> <span class="built_in">string</span> name;</span><br><span class="line">   <span class="keyword">public</span> <span class="built_in">int</span> power;</span><br><span class="line"></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">BadGuy</span>(<span class="params"><span class="built_in">string</span> newName,<span class="built_in">int</span> newPower</span>)</span></span><br><span class="line"><span class="function"></span>   &#123;</span><br><span class="line">      name = newName;</span><br><span class="line">      power = newPower;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>现在我们可以开始创建列表。<code>List</code>是泛型类，因此在任何修饰符之后我们输入类名后跟要存储在列表中的类型。在本例中我们输入<code>BadGuy</code>，然后为列表指定名称。由于列表是一个类，因此我们调用构造函数</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"><span class="keyword">using</span> System.Collection;</span><br><span class="line"><span class="keyword">using</span> System.Collection.Generic;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">SomeClass</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="function"><span class="keyword">void</span> <span class="title">Start</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>   &#123;</span><br><span class="line">      List&lt;badGuy&gt; badguys = <span class="keyword">new</span> List&lt;BadGuy&gt;();</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+<p>现在我们可以开始创建列表。<code>List</code>是泛型类，因此在任何修饰符之后我们输入类名后跟要存储在列表中的类型。在本例中我们输入<code>BadGuy</code>，然后为列表指定名称。由于列表是一个类，因此我们调用构造函数。</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"><span class="keyword">using</span> System.Collection;</span><br><span class="line"><span class="keyword">using</span> System.Collection.Generic;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">SomeClass</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="function"><span class="keyword">void</span> <span class="title">Start</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>   &#123;</span><br><span class="line">      List&lt;badGuy&gt; badguys = <span class="keyword">new</span> List&lt;BadGuy&gt;();</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>列表现在是空的，我们来为它分配内容。我们使用<code>Add</code>函数执行这个操作，这将在列表末尾添加新元素。<code>Add</code>函数的参数是要添加到列表的对象，在本例中我们将为<code>BadGuy</code>类调用构造函数，然后填充列表。</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"><span class="keyword">using</span> System.Collection;</span><br><span class="line"><span class="keyword">using</span> System.Collection.Generic;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">SomeClass</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="function"><span class="keyword">void</span> <span class="title">Start</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>   &#123;</span><br><span class="line">      List&lt;badGuy&gt; badguys = <span class="keyword">new</span> List&lt;BadGuy&gt;();</span><br><span class="line"></span><br><span class="line">      badguys.Add(<span class="keyword">new</span> BadGuy(<span class="string">&quot;Harvey&quot;</span>,<span class="number">50</span>));</span><br><span class="line">      badguys.Add(<span class="keyword">new</span> BadGuy(<span class="string">&quot;Magneto&quot;</span>,<span class="number">100</span>));</span><br><span class="line">      badguys.Add(<span class="keyword">new</span> BadGuy(<span class="string">&quot;Pip&quot;</span>,<span class="number">5</span>));</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>要访问列表项，可以像数组一样使用索引进行访问。它还有一个<code>count</code>属性，作用类似于数组的<code>length</code>属性。列表的<code>RemoveAt</code>和<code>Insert</code>等函数用于手动排列，<code>RemoveAt</code>用于列表中移除给定索引处的元素，这个元素上方的所有元素会下移一位；<code>Insert</code>需要一个索引和一个元素将这个索引之后的所有元素上移一位。</p>
+<p>列表的最强大函数之一是<code>Sort</code>，可用于按给定类型的任何变量对这个类型的列表进行排序，它依赖于类型来实现<code>IComparable</code>接口。我们回到<code>BadGuy</code>类进行实现，首先<code>IComparable</code>位于系统名称空间</p>
+]]></content>
       <categories>
         <category>Unity游戏引擎 (Unity Game Engine)</category>
       </categories>
       <tags>
         <tag>Unity</tag>
         <tag>C#</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>从苏宁电器到卡巴斯基--曲折考研路</title>
+    <url>/archives/f92a248.html</url>
+    <content><![CDATA[<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中的考研之旅。</p>
+<a id="more"></a>
+
+
+
+
+
+<h3 id="上篇"><a href="#上篇" class="headerlink" title="上篇"></a>上篇</h3><h4 id="利用考证来为考研热身"><a href="#利用考证来为考研热身" class="headerlink" title="利用考证来为考研热身"></a>利用考证来为考研热身</h4><p>由于我当时考研报考的是计算机专业，因此需要考四门内容：政治、数学一、英语一以及408计算机专业基础综合。为了让自己尽快进入状态，因此我打算在考研之前，自己考一些认证来为考研做一下热身。而政治以及数学是没有类似的认证考试的，所以我决定考关于英语和计算机的认证。</p>
+<h4 id="托业考试"><a href="#托业考试" class="headerlink" title="托业考试"></a>托业考试</h4><p>对于英语的热身，最好的选择莫过于四六级考试了。但是当时对于非在校大学生而言，是不能参加四六级考试的，后来我打听了一下，发现可以去考英语托业（TOEIC）。记得我本科的一个室友，大学期间就考了托业，考了五百多分。后来就凭着这个成绩，毕业后去挪威留学了。我了解了这个考试之后觉得不错，就买了教材并且报了名。不过这个考试还是比较贵的，前前后后花了我差不多一千块钱。这个考试的主要内容是英语在实际工作中的应用，因此考的知识还是比较实用的。我还想着，要是我的分数还不错的话，也许在我找工作的时还候能为我加分也说不定，希望可以填补我英语四级的空缺。</p>
+<p>托业考试分为听力和阅读，全都是选择题。由于全都是选择题，因此很多时候还是可以蒙答案的。没记错的话，应该是120分钟做200道题，所以时间还是比较紧迫的。我记得当时我将我手头上的教材练习册完完整整认认真真地做了两遍，这套比较贵的教材，也算是没有白买。做练习的时候，我的正确率平均来看大概也就是百分之六七十，其中当然有我擅长的题目，比如篇章阅读，这样的问题我基本能够全对。但是由于我的英语语法极差，因此选词填空类考核语法的题目，我就基本只能靠蒙了。而听力部分，如果太长太复杂，我也是搞不懂的。</p>
+<p>那时为了备考托业，好像也只看了两三个月的书，然后就匆匆忙忙地去考试了。我是在长春职业技术学院考场参加的考试，毕竟也是久疏战阵，许久不上考场，感觉发挥得也是一般，不过该做的我也做了。因为时间紧题目多，所以答题我是直接在答题卡上填写的。但是在同一个考场中，竟然有考生在到了交卷时间的时候，还没有涂答题卡，以为会专门有时间填的，也确实是天真。考完以后，我感觉自己应该能考个七百分以上吧，最好是能八百多。我觉得自己能七百以上，其实没有任何依据，只是美好的愿望。</p>
+<p>后来成绩下来了，打开成绩单之前，我内心是极其忐忑的。打开发现我考了710分，想想觉得还不错，但是没达到八百分，多多少少还是觉得有点可惜（因为有些外企要求800分以上）。尽管我现在已经忘了当时自己为什么那么自负，但是710分也是挺不错的一个成绩了。</p>
+<p>除了成绩单，还有一个职业英语四级的证书，这个我在考试之前是不知道的，心里还琢磨着，自己以后找工作，这个职业英语四级能不能替代CET-4呢？</p>
+<p>由于我考托业最终的目的是为考研英语热身，因此这个考试与考研英语有多大的关系还是有必要在这里说一下的。考研英语中没有听力，所以我备考托业时练习的听力也就完全没用了。另外二者的词汇范围也是比较不同，托业更专注于职业的商用英语，而考研英语的词汇则比较全面。另外考研英语有大量的阅读，而托业英语则是以简单的短文为主。并且考研英语还需要写作文，而托业是没有的。从这些方面来看，其实考托业对于考研英语的帮助几乎是没有的，但是对于实际工作的帮助还是挺大的。但我也是经历过了，才发现这一点的。</p>
+<h4 id="计算机四级——网络工程师"><a href="#计算机四级——网络工程师" class="headerlink" title="计算机四级——网络工程师"></a>计算机四级——网络工程师</h4><p>我相信很多朋友是没有听说过计算机四级的，了解得更多的也就是计算机二级，因为有些院校会把二级证与毕业证挂钩。尽管长春理工大学并不会要求二级证书，但是我本科时候还是考了二级C语言。和我同一批考过了的同学里面，有人再接再厉，又考了计算机三级的网络技术，并且考过了。于是她就成为了我们班里面计算机认证最高的人了。其实我觉得计算机三级还是挺难考的，笔试不简单，上机其实最难（以我当时的水平来看）。因为二级的话，上机更多的是以填空的形式存在的。到了三级，上机是需要完整地编写一个函数来实现相应的功能。这个函数说难可以很难（当然了，无法和ACM相比），说简单也可以很简单。由于比较开放，因此还是需要多多练习才能够通过的。我本科时候其实也想考，但是觉得上机有点难，加上对网络技术没什么感觉（对于三级的其他方向更没感觉），因此就没有再继续考了。</p>
+<p>后来也忘了是大三还是大四的时候，突然心血来潮要考计算机四级。当时的四级教材是一本很大很厚的书，内容差不多等同于软考的软件设计师了。并且还有上机题目，内容与三级类似。由于我根本就没有好好准备，所以考得一塌糊涂，不堪回首的往事就不细说了。而我这次再参加四级，它已经是改革了。首先是分了方向，比如网络、数据库之类的。尽管我都不感兴趣，但是由于408计算机专业基础综合里面是包含有计算机网络技术的，因此我就选择了四级的网络工程师方向。其次，四级已经取消了上机，只有笔试，那么这其实也就降低了难度。按照大纲的说法，上机（实际操作）的内容由笔试进行考察。当时我备考也是比较认真，买了两本参考书，一本教材一本题集。教材是看了两遍，习题集好像也是做了两遍。</p>
+<p>四级网络工程师的考试内容还是比较贴近于实际的，但是我对于需要死记硬背的内容，可能由于年纪大了，总也记不住，因此这类题只能靠蒙。也就是说，选择题基础知识部分，我准备得并不充分，是失分的重点区域。而关于网络设备设置的问题，属于大题，由习题集中的题目可知，这些问题框架往往不变，历年考试仅仅稍微变化一点问法而已，这类题我比较擅长。这些问题比较贴近实际，其中的知识可以运用于实际工作中，但是考完也就忘记了。</p>
+<p>类似于这种比较偏门的考试，全长春也就只有吉林大学可以报考。对于吉大我也是轻车熟路了，两次计算机四级还有一次实用日本语鉴定考试都是在吉大报考并参加考试的。我记得很清楚，考试那天，偌大的考场，只有五个人参加计算机四级考试。我们五个人中，包含有网络、软件以及数据库等考试方向，可见大家对于这个考试并不认可。我当年考试的试题，其实也就是历年题目稍微变化一点而已，我大题做得不错，但是选择题就基本只能靠猜了。考完也是觉得很忐忑，并没有十足的把握通过。</p>
+<p>公布成绩那天，我在理工大学图书馆上自习，说是当天发布成绩，但是我也几乎刷了一天的查分网页，直到晚上，成绩才公布。当时我是用手机刷的，本来流量就不多，我也是豁出去了。还好最终我的成绩是60分，刚刚及格，心里真的是美滋滋的，因为我感觉这个证书能够为我以后的求职增添筹码（尽管这个证书其实没什么用）。</p>
+<p>对比考研中的计算机网络的内容，二者的交集还是比较少的。我感觉四级更注重实际，而考研的计算机网络则是理论以及计算会多一些。事后来看，考计算机四级对考研的帮助几乎也是没有的。</p>
+<h4 id="软件设计师"><a href="#软件设计师" class="headerlink" title="软件设计师"></a>软件设计师</h4><p>说到软考的软件设计师考试，也是让我又爱又恨了。因为我本科时候，软考的程序员考试，是一次通过的（考试那天恰好是校运会，也不用傻傻地去加油助威了），然后就立刻买了软件设计师的教材来看，也买了不少的参考书，但是受限于我当时的水平，最终考试惨败。之后忘了是大三还是大四的时候，又考了一次，又是惨败，然后就没再考了。我之所以会向往获得这个证书，是因为按照官方的说法，这个证书是职称评定的关键，程序员相当于是初级职称，可以评技术员或助理工程师。而软件设计师则是中级职称，可以用来评工程师。如果能通过系统分析师考试，则是高级工程师职称（副高级）。尽管是虚名，但我还是想要把软设的考试拿下的，这样我就可以在别人面前吹牛说自己是工程师职称了，无奈天不遂人愿，自己水平有限，一直都考不过。</p>
+<p>我这次再考，最初的目的就是为了考研的备考，由于失败的经验太丰富了，所以我自己都不相信自己了。当时的备考就是做历年的真题（主要做下午题）。我当时通过论坛得知，全国大概有三个省份的软考，可以自主划定分数线。就是说假设你的分数没有达到国家线的标准，但是只要达到省线的标准（往往比国家线低几分），那么也会给你颁发证书，只不过这个证书只在该省有效，外省无效，国家也是不认的。尽管如此，有省证也总比啥也没有强。我当时就打听到辽宁省是这样的，所以我当时就是在沈阳报的名，也是在沈阳考试，那次我是在沈阳大学考的。</p>
+<p>软件设计师考试是分为上午场和下午场的，上午是75道选择题，75分，而下午则全是主观题，也是75分。上下午的考试分数需要分别通过国家线，考试才能算是通过。国家线一般是45分。上午的选择题我一向是比较擅长的，不需要怎么看书，我也能考得不错，至少上午场次考及格是没有任何问题的。但是下午场就比较麻烦了，每次我都是在程序填空问题上栽跟头，那么这次其实也不例外，程序填空题我还是不会，而这类题又不容易瞎蒙，所以我的策略就是程序填空尽量写，其它问题好好研究，争取全对，那么这样也能够把分数给挣回来。但前提是必须要把非程序填空题全做对才可以，对于我来说就实在是太难了。</p>
+<p>果然也是没有任何意外，成绩出来了，我再次倒在了下午场。上午场我考了五十多分（没咋看书竟然也及格了），下午场我考了42分，因为下午场没及格，所以我的整个考试就是不及格了。还好我这个分数过了辽宁省的分数线，因此我最终拿到了辽宁省的软件设计师证书，也算是安慰了我三连跪的心情。说到这里我很羡慕当时和我同一个考场，坐在离我不远位置的一个兄弟，他不论是上午场还是下午场，都是半小时交卷，我惊得目瞪口呆。总感觉他是一个枪手，老考生了，做这些题就跟玩儿似的。</p>
+<p>三次软设考试都没过，其实我也是不甘心的，后来研一的时候，在北京又考了一次，同样是下午场挂了。但是直到今天，我也是不想放弃的，估计我以后还会再考（尽管业内并不认可这个证书），但是我下次考也许会选择考网络工程师，换换口味也许就过了呢。或者我需要集齐七张准考证，召唤神龙，皇天不负有心人，才会通过吧。估计我这情况也是前无古人后无来者了，在长春、沈阳以及北京都参加过软考，也算是软考的忠实考生了。</p>
+<h4 id="考证的小结"><a href="#考证的小结" class="headerlink" title="考证的小结"></a>考证的小结</h4><p>总结一下，其实软考对于考研也是没什么帮助的，也就是个别的选择题部分，会有一些交集，但是这毕竟太少，完全可以忽略不计了。这么看来，我所参加的这三个为了考研而热身的考试，其实全都对考研没有实质性的帮助。但是拿到了三张证书，也就不算完全失败，还是有所收获的。</p>
+<p>回顾这些年，我感觉自己也算是一个考证小达人了（尽管这些证书啥用也没有）：比如日语，我就有J.TEST的F级证书（相当于日语四级）；英语到目前为止，有CET-4、CET-6以及TOEIC证书；计算机的话有二级C语言、四级网络工程师、程序员以及软件设计师（省级）证书；之前卖苹果时候还得到了销售员的许可证；后来读研又得了一个什么数据库的证书。我觉得我的这些证书除了后两个以外，其它的都是有一定的含金量的。我所说的含金量的标准，主要是看这个证书是不是凡是参加考试的人就会得到，这是有含金量和没有含金量的一个重要的界定标准。当然了，有了含金量之后，不同考试的含金量程度又会有所区别，那么这个就不详细讨论了。计算机领域里面，个别几个认证是非常有含金量的，我没考过，大家有兴趣的话，可以尝试一下。</p>
+<p>为什么我在这里要特别强调含金量也是有分水岭这件事呢？因为我在上本科的时候，大概是大三吧，我的很多同学也是想多考一些认证，以期望找工作的时候为自己加分。但是与管理类专业相关的认证真的是少之又少。此时他们听说上几届的某学长还是某学姐正是由于有了XX证书，从而得到了企业的青睐，在深圳上班，似乎混得不错。于是大家就一窝蜂的去考这个认证了，没记错的话是一个什么人力资源的考试。结果就是，不管你平时看没看书，那么凡是考的人全都通过了。想想也是，这种文科类的考试，本来就是自由发挥的，确实没必要看书。因为通过率是百分之百，所以我就把这个考试归到了没有任何含金量的那一类里面。包括当时我的室友们还考了一个什么管理类的认证，通过率也是百分之百，最后他们每人还发了一个非常非常精美的大证书（证书大小接近于8开纸了），这就更显得没有含金量了。我不相信有企业会因为这种证书而青睐应聘者，因此我也建议大家，可以考含金量低的证书，即便考不过，自己也是能学到东西的。而那些丝毫没有含金量的考试，最后即便能得到证书，也不过是一张废纸而已。</p>
+<h3 id="中篇"><a href="#中篇" class="headerlink" title="中篇"></a>中篇</h3><h4 id="回到理工大学备考"><a href="#回到理工大学备考" class="headerlink" title="回到理工大学备考"></a>回到理工大学备考</h4><p>从苏宁电器离职以后，我想要重新租个房子来备考，主要是希望能够有个良好的学习环境。思前想后，决定在长春理工大学周边租个房子住，然后每天去理工大学上自习。于是我在南湖小区找了个两室的房子，合租，我是次卧。和我同住的是两夫妇，他们还有个孩子，不过他俩的孩子估计是长期由老人带，所以我也没见过几次。租金一个月是几百块钱，直接交给那两夫妇。我住的次卧空荡荡的只有一张床以及一个很小的床头柜。夏天的时候晚上睡觉还能听到小强在床缝里面乱跑的声音，感觉这里真的还不如我在佳木斯睡阳台好。这个房子的厕所也很不好用，也不能洗澡，所以说我每天都是早出晚归，并不想在这里待太长时间，总体来说住得并不舒服。我觉得到处找房子实在是太麻烦，于是也就在这里将就了。其实最开始那两夫妇是不太想让我住在这里的，因为我说我是考研备考住这里，大概住半年，他俩觉得我住的时间太短，到时候还得再找新的租客，就很麻烦。我说其实到时候我还要准备复试，应该也会住在这里，这样的话就差不多一年的时间了，这样他俩才同意了。</p>
+<p>那个时候我大概每天七点就出门了，晚上一般也得九点多才回来。这么早出门主要是要去理工大学西区的图书馆占座，当时感觉大家真的是特别爱学习，图书馆也是经常爆满的。学校为了避免有人用书占座而人不来，图书管理员会推个小车，不定期地来收书清理桌子。记得有一次我上厕所，回来之后我的东西就被收走了，我还得去找管理员要。因此感觉那段时光就如同在打游击战一样。但是有些时候即便是很早就到了图书馆，可能也会没有座位了，尽管这种情况很少发生。此时当我跑完图书馆所有楼层的自习室发现都是满的以后，我也就只能无奈地去主教找教室学习了。其实我并不喜欢去主教，尽管那里空教室会比较多，但是教室里会比较冷，而且说不定什么时候就有人来这里上课，我这个无业游民就被赶走了。说到这里我想起来，有几次我还在上自习，我的手机就响了，是以前在我这里买过iPhone的顾客打电话来问我问题，一般我会很不耐烦地就直接让他们去店面解决了。到了后来，我已经离职了几个月了，有的顾客还会打电话过来，弄的我心情很不好，就直接说你打错了。现在想想，自己那么做真是不应该。</p>
+<p>我的一日三餐都是在学校食堂解决的，有时候也会去繁荣市场买饭包喝啤酒。直到今天我依旧怀念那家的饭包，它是我吃过的最好吃的饭包了，每次我都会额外加一根香肠一个鸡蛋，并且多加辣椒。以后如果有机会去长春，还得去品尝一下（也不知道还在不在了）。在学校吃饭是需要饭卡的，我去补办饭卡的时候，报上了我的学号，尽管毕业一年多了，没想到系统里面还有我的信息，因此补办也是很顺利。当时我最喜欢吃的是三食堂二楼的米线，我还没有毕业的时候，就很喜欢吃，味道很独特。除了米线，各式各样的盖饭还有炒饭也是不错的。除了吃饭还得喝水，理工大学在这方面还是比较特殊的，打热水只能去专门的水房，水房并不是24小时都开的，好像也就是中午左右才开，水房里面左右两边是两排水龙头，可以出热水。水房门口也是堆满了五颜六色的热水瓶，上面会贴有各式各样的小纸条（有的会直接写在壶上），简单的就是写上自己的名字和寝室号码，也有写得多的，主要意思就是诅咒偷水壶的人。当时我买了一个挺大的透明塑料水杯（大概700毫升），每天去水房打两三次，就够我一天喝的了。那个时候打水是需要水票的，打一大壶大概三五毛钱。看水房的阿姨见我的瓶子比较小（比别人几升装的大暖壶小），于是每次都让我免费打水了。</p>
+<p>由于我住的地方不能洗澡，因此我只能去学校的澡堂洗了。理工大学洗澡时间是有严格的规定的，好像和水房一样，也是中午左右才开，大概晚上六点就关了。因此我每次也就只能选择在下午洗澡，这样我就必须要离开自习室，相当于是放弃了我的座位，洗完澡回来的话还得重新找地方自习。我每次都是拎着浴筐，走十分钟的路，才能从住的地方走到澡堂。那个时候路还不好走，相当于是山间的崎岖小路，当然现在都重修了，宽敞且平整。在理工大学洗澡是需要买澡票的，每人五元（也好像是三元），其实这就比我后来在北工大的时候要贵很多了。因为北工大洗澡是将自己的一卡通（饭卡）插到淋浴头下面的感应装置上，费用是按照时间收取的，一般我洗一次也就是五六毛钱，仅相当于是理工大学的十分之一。而且长春的冬天还特别冷，每次洗完澡从澡堂出来，走回去，我的头发都会冻得像赛亚人一样，硬得扎手，也算是很有意思的经历了。</p>
+<p>由于说我在求学的道路上是经历过两所学校的，每间学校我都是待了四年（研究生其实是三年制，我之所以是四年，那是因为特殊原因，我这里先卖个关子）。因此我对于这两所学校的软硬件设施还是比较有发言权的，在以后的内容中，我会时不时地专门来对比一下这两所学校的优劣。</p>
+<p>再来讲一下我的学习。其实我全职备考的时候，离考研大概只剩下半年的时间了，而之前没有离职的时候，我学习的进度可以说是相当缓慢的。还在职的时候，我的政治、英语以及计算机专业课是一点都没有看的，仅仅看了一点蔡高厅的高数视频，只看到了不定积分的部分。全职考研之后，我还需要额外花时间来准备那三个认证考试。这三个考试的最后一门是十一月份结束的，所以在十一月份之前，关于考研的内容我也仅仅是接着看了看数学，考研余下几科，我是十一月份才开始准备的。由于那个时候离考研只剩下大概两个月的时间了，因此我只能通过做历年真题的方式来搏一把了。比如数学，高数仅看到了多重积分以前的部分，后面的内容一点也没看，线性代数和概率也是半懂不懂的。没办法，时间紧迫，只能做李永乐的历年真题了。英语的话也没专门背单词，买了考研一号的英语历年真题分析。其实我觉得考研一号是相当不错的参考书了，分析得非常详细非常到位，还是很有帮助的。计算机的话，由于当时改革没多久，所以也没多少历年的题目可供参考，参考书上也都是各种各样的押题，因此有很大的不确定性。政治的话我好像就没买练习册，只是看红宝书，因为江湖传闻，有的考了八十分的大牛，仅仅看了六遍红宝书，也没做什么题，这就凸显了看红宝书的重要性。总结一下来说，其实我的备考还是非常仓促的，完全是临时抱佛脚，能考上才怪。</p>
+<h4 id="我曾有梦"><a href="#我曾有梦" class="headerlink" title="我曾有梦"></a>我曾有梦</h4><p>我还没有离职的时候，就已经打算报考计算机专业了。尽管我在本科的时候，也在学计算机，并且考了几个证书，但即便如此，跨专业考研对于我来说难度还是很大的。特别是从09年左右开始，考研计算机专业课统一改成了408计算机专业基础综合（个别院校也会自主命题）。主要考察四门课的内容——数据结构、计算机组成原理、操作系统和计算机网络。其实依据这四门课出的试卷是非常难的，这应该是我到目前为止，所经历过的最难的考试了。别说我这种跨考的考生，相信即便是计算机专业出身的学生，考408也是困难重重的。因此现在回想起来，我当时选择报考计算机专业，确实是自不量力了。可谓是初生牛犊不怕虎，明知山有虎偏向虎山行。</p>
+<p>不自量力的事还有一件。我相信，对于每个人来说，不论是高考还是研究生考试，清华北大是所有人的梦想，这两所学校是众多考生的终极目标，那么对于我来说，也不例外。当我还没有离职的时候，就已经决定要考清华的计算机了。在我心中那就是最顶尖的学府里面的最顶尖的专业了，要考就考最好的。甚至我还想，如果能考上，那么我也许还能够参加清华的百年校庆。这是我美好的愿望，我也打算朝着这个目标而奋斗。那个时候，我总会去逛一些考研论坛，看看考研成功的前辈们的考研经历。主要看的就是考上清华的，或者跨考计算机成功的人的经历。比如那些跨专业考上清华计算机的前辈里面，有一部分，甚至还是当年的考研状元，他们的本科并不是知名院校，仅仅算是二本末流。他们的故事都很打动我，我觉得我也可以。不过我认为他们分享出来的经验，并不是人人都可以复制出来的，我总感觉他们就属于特别会考试的那一类人，高数和408都能考到非常高的分数，而我的话，实在是太笨，实在是学不明白，和他们相比实在是有差距。</p>
+<p>不过他们经历中的有些东西还是可以借鉴的。比如他们在考研期间看的一些励志的电影，像是《当幸福来敲门》这种，当年我也是看了好多遍。另外，我当时甚至每天还会抄写清华的校歌：“西山苍苍，东海茫茫，吾校庄严，岿然中央，东西文化，荟萃一堂，大同爰跻，祖国以光……”感觉清华虽是以工科为主的院校，但是的他们校歌却充满的中国风的特色，富有大气，是我见过的所有校歌歌词里面，写得最好的了。每天抄写歌词，也是令我心潮澎湃。</p>
+<p>当时，考清华就是我的梦，我也很清楚它的难度。尽管清华每年的分数线大概是370分左右，但是这个分数是不保险的，许多考了400+的大牛足够把考370的这些人在初试阶段就挤下去了。但是即便能够考400+，那也是不保险的，还得看复试的发挥。听说有考410的，因为复试不佳，于是就被刷下去了。历年的状元怎么都得考420左右，对于我来说，确实是太难了。如果我能够从大一就开始准备，也许还有微弱的希望，但是仅仅只有半年的时间，那也实在是太短了。感觉还是自己没有那么大的天赋，毕竟自己向来就是一个学渣。</p>
+<p>没记错的话，我当时是在九月末报的名，那天和我一起住的两夫妇都去上班了，于是我就借用了一下他们放在大厅的的电脑，快速地填写好资料，然后就提交了。当时在选择报考院校的时候，多多少少还是犹豫了一下的，但最终还是坚定的选择了清华，报考计算机科学与技术专业。具体的方向是需要在复试的时候确定的，我还想着，如果能够考上，我就会选择人工智能方向，不过这些也就是想一想而已。</p>
+<p>在网上报完名以后，是需要去现场进行信息确认的。到了那里，工作人员跟我说，除非我是吉林省在校大学生或者工作关系在吉林（户口在吉林也可以）才可以报考。我心想我一个无业游民，既没有上学，又没有工作，难道我将会因此而与考研失之交臂了？难道我还要回广东考试吗，可是重新报名已经来不及了啊。最后他又跟我说（似乎他遇到过不少我这种情况的），如果我的人事档案在长春，那也是可以报考的，去开一张档案证明就可以了。这可真是我的救命稻草，我的档案还真就在吉林省人才市场放着呢。赶紧打车去省人才，开档案证明，还补了一年的档案保管费（现在已经取消了）。仅仅是一张A4纸，上面简简单单地写了我的档案在省人才，再加上一个公章，就花了我几百块钱。对于没有工作的我来说，还是蛮心疼的。然后又是匆匆忙忙地打车回到现场确认点，那个工作人员似乎还记得我，也没仔细看我的档案证明，就直接放到脚底的资料收集箱，然后直接在系统里给我设置为现场确认通过了。看来我的报考也是一波三折，接下来就需要好好复习，准备考试了。</p>
+<h4 id="我的第一次考研"><a href="#我的第一次考研" class="headerlink" title="我的第一次考研"></a>我的第一次考研</h4><p>时间一天一天地过去，终于到了考研的日子了。我的考场在长春市第八中学，距离我住的地方大概有七八公里，还是挺远的，如果是坐公交的话，由于没有直达，还得倒几次车，这样一来，在路上就要花费大概一个小时了。幸好当时我在理工大学里面看到有小广告，有包车服务，收取一定的费用，每天早上在理工大学门口等我们，把我们送到考场，中午还可以在车里面休息。我觉得不错，于是也报了名。但是两天的考试，我也仅仅坐了两次，也就是第一天去以及最后一天回来，中午也没有在车上休息，而是直接打车回到住处吃饭包了，吃完饭稍微眯一会，再打车回到考场（其实当年长春打车还是挺不好打的，出租车太少了）。</p>
+<p>我记得很清楚，2011年1月中旬，考研的那两天，长春相当冷（零下二十度左右）。正是由于天气很冷，当时我们去得还比较早，在八中门口等了十多二十分钟，就这十多二十分钟，我感觉我的手就冻僵了。进了考场发了试卷，过了十多分钟，我的右手才有感觉，才拿起笔答题。当时简直是吓着我了，这要是由于手冻得没感觉了而放弃了考试，那可就实在是太亏太不幸了。也幸好第一门是政治，我还可以随性发挥，最后还剩下二十分钟的时候，我就已经答完了。自我感觉还不错，毕竟是文科，即便考得不好也会觉得自己考得不错的。</p>
+<p>下午考的是英语一，我觉得还是很有难度的。有意思的是，那次的小作文是向好友推荐一部自己喜欢的电影。其实我最喜欢看的是《肖申克的救赎》以及《飞跃疯人院》（至今为止这两部电影分别看了不下二十遍），可惜我不知道这两部电影的英文名怎么写，只能作罢。最后选择了《当幸福来敲门》（The Pursuit of Happiness），我当时的词汇量水平只能写出这个了。现在想想，小作文写向好友推荐《2012》应该是最好的选择了。</p>
+<p>第二天上午考的是数学一，我也是早早投降了。选择题和填空题纯粹瞎蒙，大题一道题也不会，写个解，然后随便列了几个公式。我也是发呆了好久，才终于熬到交卷。而下午的408也基本不会，但至少比数学的情况好一些。但是第二天的这两门考试，我能感觉到，确确实实是挂了。</p>
+<p>走出考场，很是感慨，我知道自己与清华是无缘了，准确来说是与所有院校无缘了。觉得自己还是备考时间不够，才会这样的。当时我已经做好了二战的准备了，还想着下次考试，中午一定要好好地睡一会，因为我这次考试，两个下午场我都在打瞌睡，实在是很痛苦，很影响发挥（即便不打瞌睡，也还是考不好的）。坐大巴回到理工大学，和当时在理工读研的本科时的室友一起吃了个饭，见了一面。第二天他还帮我把我住处的东西搬到了他的宿舍暂存，我也算是退了房，挺对不起那两夫妇的，复试是不可能的了，也就不会在那里住了。满心的无奈，然后就回家了。</p>
+<h3 id="下篇"><a href="#下篇" class="headerlink" title="下篇"></a>下篇</h3><h4 id="再见了，理工大学"><a href="#再见了，理工大学" class="headerlink" title="再见了，理工大学"></a>再见了，理工大学</h4><p>其实大家通过我之前对理工大学描述的口吻应该能看出来，我对于理工是存在有种种怨念的，毕竟理工大学从客观上来说，确实是有非常多的不尽如人意的地方。但是真的到我要离开的这一天，我还是觉得非常的伤感的。第一次伤感就是本科毕业搬离寝室的时候（前文提到过），而第二次就是这次考研结束，离开理工了。毕竟这次备考，每天都会来理工大学。而我这次因为备考而回来，感觉理工的西校区几乎和一年多以前没有什么变化，唯一的变化就是现在学校要翻修之前的沙土操场了，要植草（可能是人工草）并且铺设塑胶跑道。很是感慨，这些好事自己总也碰不到。小学时候，六年级要毕业了，学校才开始翻修操场（我家当时还捐了六百块钱）；高二的时候，学校也才给足球场种上新的草坪，但是由于需要保养，因此也一直不让我们用。不过这些东西有没有对我来说都无所谓，我也不是那么爱运动的人，只不过翻修之后，会让我觉得校园更加漂亮罢了。</p>
+<p>考研结束离开理工，真的不知道自己何时还会回来了。二次备考的时候，零星回去过几次，当时是2011年，再往后，我就一直没有机会回理工大学了。也就是直到我在签卡巴斯基之前，才有幸又回了一趟长春，又去了一趟学校。那是2016年的3月初，我要坐晚上的火车回北京，由于临近研究生毕业答辩，学院让我们提交一个关于毕业论文的报告，于是我就坐公交来到了理工大学，在西区一教的一楼找了一间教室，就开始写报告了。当时理工还没有开学，整个学校整个教学楼都是静悄悄的。写完报告之后，我又在学校里面逛了一大圈，觉得这里并没有修建什么新的东西，毕业将近七年的时间，感觉各项硬件设施也是暗淡了许多，整个校区感觉颓了很多（也许因为那天阴天）。然后我还走出学校后门转了一圈，这里建起了一些新式的住宅小区，新的居民楼也快要把理工大学包围了，要知道这里以前还是比较的脏乱差的。走了一大圈以后，我就坐上轻轨去书城那边吃炒面了（之前的故事提到过）。</p>
+<p>这次离开理工，也就真的不知道什么时候还能有机会回来走走了。我甚至还没有和理工大学合过影，我甚至还想去食堂再吃一顿米线或者是盖饭……但是这一切一切的遗憾，也许只能在未知的未来实现了。</p>
+<h4 id="决定二战"><a href="#决定二战" class="headerlink" title="决定二战"></a>决定二战</h4><p>故事回到2011年刚考完研的时候，过了两天我就回珠海了。当时我就和父母说自己这次考砸了，决定再考一次，我说第二次考，吸取了之前失败的经验教训，会更加有经验的。其实我当时心里面对于自己的二战也还是很没有底的，毕竟是离职考研，压力也是非常大的。不过我父母那时好像还是比较乐观，还是让我等考试成绩出来再说，也许考得不错呢。</p>
+<p>成绩很快就出来了，我政治52，英语一32，数学一31，专业课60，总分175。这个分数还是非常能够反映我当时的水平的，那么既然已经知道了成绩，就已经确定和研究生无缘了，这个分数，调剂自然也是不可能的了，所以也就只能够二战了。而对于我的二战，尽管我的父母并没有表示出反对的意见，但是我感觉他们也是无奈，也不想过多地干涉我的选择，既然我决定再考，那就允许我再考一次吧。</p>
+<p>再次考研，我觉得还是稍微务实一点比较好，主要是求稳，因为如果再报清华，万一又考不上，那可就糟糕了。最后我打算报考长春的高校，而计算机类专业实力最强的，莫过于吉林大学的计算机了。等到吉大的报考简章出来以后，我却发现他们的计算机类专业不招本科非理工类的考生。但是我发现他们的软件类专业，却没有这个限制。我为了确认这一点，赶紧打电话给他们的招生办来咨询这件事，结果他们的工作人员和我说，学院刚刚召开了会议（真是好巧），说软件类也不招收非理工专业出身的学生。这就彻底堵死了我报考吉林大学的道路，于是我就把目光转向了东北师范大学的软件工程专业，毕竟他们是没有限制的，所以二战，我最终报考了东北师范大学。</p>
+<p>其实我这辈子没机会去清华深造，多多少少还是有一些遗憾的。但是想到毕竟是自己的水平不行，因此也不会有太多的怨气。可是如果我没能来到卡巴斯基，那就确实会让我遗憾终生了。</p>
+<h4 id="为东北师范而备考"><a href="#为东北师范而备考" class="headerlink" title="为东北师范而备考"></a>为东北师范而备考</h4><p>第二次备考，我又回到了长春。那么这次我准备得就比上次要充分很多了。其实考东北师范大学的软件工程专业，相比于清华，是要容易很多的。因为四门考试科目分别是政治、英语一、数学二以及C程序设计与数据结构。我觉得数学二是要比数学一简单很多的，因为少了高数里面的一些麻烦的内容，并且还不考概率论与数理统计，而专业课仅仅考C语言的相关知识，这个我还是比较擅长的，不过没有历年的真题，心里还是有些没底的。</p>
+<p>这次备考，政治我还是以红宝书为主，另外又买了习题集以及配套参考书（后来想想这些真的没啥用）。英语的话，我买了新东方的单词书，把书上的所有单词都抄了两遍（后来想想也没啥用，抄完就忘）。数学又买了几本参考书，每天都会研究书上的题目。专业课的话，毕竟不难，我也就没有特别准备。每天的学习也都是按部就班，还是很平淡的。</p>
+<h4 id="不如试试考公务员"><a href="#不如试试考公务员" class="headerlink" title="不如试试考公务员"></a>不如试试考公务员</h4><p>尽管我现在觉得公务员并不是什么特别好的工作，但是当时我并不这样想。正好赶上一年一度的公务员考试，我大概看了下，觉得考试不难，所以决定试试。还想着如果我能够考上公务员，那也是不错的选择，不比读研差。当然最好的情况就是，研究生和公务员都考上了，那么这就是幸福的选择了。网上这样的人也不少。</p>
+<p>其实公务员考试的内容，最多也就是高中的知识，很简单，并不难。难的是题目量比较大，时间少，也就没有那么多的时间来让你认真考虑了。所以很多时候，包括计算题，只能依据自己的感觉以及经验来作答了。当时也是买了几本参考书，每天闲暇时候做一做书上的习题。我记得当时我把一本好几百页的历年真题认认真真地做了三遍，就觉得自己已经没什么问题了。但是下午的申论部分是几乎没看的，不过想想申论无非就是语文，我高中语文还不错，所以不看就不看吧。</p>
+<p>很快到了报考的日子，职位表也出来了。令我无奈的是，由于我本科学的是市场营销，而公务员考试对于专业是有特别严格的要求的，因此我当时也就只能够选择管理类或者和市场营销类相匹配的职位了。而这样的职位是少之又少的，试想，有什么样的职位是需要市场营销的人呢？但是最后还真是让我找到招营销专业出身的岗位了，是白山（也好像是白城）国税局的办税服务厅科员。没办法，都已经准备一段时间了，不能因为这件事而放弃啊，于是我也就报了这个职位。由于这个职位的报考条件比较宽泛，因此大概有一两千人来竞争这个职位，现实还是非常残酷的。当时我觉得，如果那时我没考上研究生，而公务员考上了，我应该真的会去上班，尽管工作地点是白山（也好像是白城），一个几乎没听说过的地方，毕竟我实在是没什么出路了。</p>
+<p>考试那天，上下午的考试，我觉得自己发挥得还是挺正常的，但是上午场的考试，由于时间紧迫，答案还是瞎蒙的比较多，这个时候才感觉到，自己尽管是做了三遍的历年真题，可惜并没有什么用。而下午场的考试，属于自由发挥，我也是自我感觉还不错。</p>
+<p>最后成绩出来了，我的成绩已经过了国家线，但是并没有收到复试通知。我的感觉是由于报考人数太多，过线的也很多，所以像我这种刚刚过线的，也就被淘汰了。我并不觉得可惜，毕竟考公务员仅仅是一个小小的插曲，成为公务员也并不是我的目标。</p>
+<h4 id="我的第二次考研"><a href="#我的第二次考研" class="headerlink" title="我的第二次考研"></a>我的第二次考研</h4><p>有了第一次考研的经验，那么我再考，在流程上也是轻车熟路了。先是网上报名，然后是现场确认。不过这次我是提前去省人才开好证明了，免得现场确认的工作人员又卡住我。但是尽管我做好了准备，现场还是被卡住了。因为那个人是新来的，他不知道报考人的档案在这里也是可以报考的（也有可能是政策变了），解释了半天，我说我去年就是这样报考的，也是颇费了一番周折之后，才完成我的这次报名工作。</p>
+<p>其实第二次考研，我依旧觉得自己是没有准备充分的，政治以及专业课，我觉得即便是不准备也没有多大问题，但是数学和英语依旧是没底的，特别是数学，尽管考的是数学二，但我毕竟是数学白痴，很多知识还是没有掌握的，题目稍微变一下我就不会了，即便如此，也就只能硬着头皮上了。记得当时我的房东阿姨知道我要考研，那天早上还特意为我准备了两个鸡蛋，希望我能考一百分，我内心也是觉得暖洋洋的。也希望自己一口气就考上。值得欣慰的是，尽管长春已经到了一月份，但是考研那两天的天气还不错，至少不会出现手冻僵的情况了，我当时还特意准备了毛手套，看来也是没必要用了。而我再次回到长春八中考试，心里面也是感慨万千的，不知道自己还有没有第三次的考研，从而再次回到八中呢？</p>
+<p>第一科政治，考得也还是很顺利，不同的是，上次在手僵了十多分钟的情况下，最后还剩二十分钟我就答完了，但是这次我也仅仅是还剩五分钟才答完试卷，毕竟是文科，也看不出好坏。下午考的是英语一，再次考，心里也稍微有点底了，但还是感觉难度超出了我的水平。第二天上午的数学二，其实我还是不会的，但至少不会像上次那么惨，大题部分多多少少还是回答了一些的。我感觉回答得最好的还是最后的专业课，C语言和数据结构毕竟不算难，尽管我没研究过东北师范大学的历年真题，但是在这个范围之内，不管怎么出题，也就是那些类型，也就是那么回事，也不会有什么创新的。同时我也觉得我那次的题目也并不难，好像也就是最后的大题不确定，其他的题目，自我感觉回答得还是挺好的。</p>
+<p>总体来说，我觉得这次考的比上次好，但是毕竟有失败的经验，因此对于像是英语以及数学（主要是数学）这两科，心里还是很没底的。心里想着，如果说这两科没问题的话，那么我应该就能考上了。毕竟东北师范大学也不是什么热门的高校，初试通过，那么复试也没啥问题了。而这次的考研结束之后，我也就回家了。</p>
+<h4 id="第二次考研的失利"><a href="#第二次考研的失利" class="headerlink" title="第二次考研的失利"></a>第二次考研的失利</h4><p>由于我自己感觉考的还可以，加上如果通过了初试，那么复试是很快就会到来的，因此还是很有必要提前准备一下东北师范大学的复试科目的。没记错的话，复试考的应该是数学分析，于是我就按照要求买了对应的教材以及练习题集，心里想着一旦出了成绩，我就第一时间开始学习。说到这里我想起来，之前考清华，在等待成绩的时候，我也是买了相应的复试教材，一本人工智能，一本多媒体。可惜的是，这两次买的书，到最后我一眼也没看，也都是卖废纸了。</p>
+<p>等待成绩的日子其实是很不好过的，出了成绩我甚至都没敢看。最终，我的政治是53分，英语一是52分，数学二是51分，专业课是111分，总分267分。对比来看，我这次的成绩比上次的进步是不少的，每科都比上次的多，尽管考的内容不一样。每门科目的分数都和我之前的预期差不多，并没有特别惊讶的。但可惜的是，我的数学仅仅只有51分，依旧没能过国家线，那么也就宣告了我第二次考研的失败。</p>
+<p>当时，考研第二次失败，令我感觉非常的迷茫。没有工作，毅然决然离职考研，自己这么做到底对不对呢？对自己当初的选择也是产生了疑问。这次又没考上，那么我接下来应该怎么办，是继续考，还是就此放弃，安安心心地找工作上班呢？毕竟经历了两次的考研，仅仅剩下数学这一门科目需要提高，也许再考一次也未尝不可。但这势必要再荒废一年的时间用于复习，这真的值得吗？我也是陷入了深深的矛盾之中。</p>
+<p>那个时候，我是极度自卑的，连老同学给我打电话我也不好意思接，生怕让他们知道我的现状，生怕被他们知道我现在混得很可怜，那样的话我就彻底抬不起头了。用“跌落谷底”一词来形容我当时的状态，一点也不过分。</p>
+<h3 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h3><h4 id="机遇"><a href="#机遇" class="headerlink" title="机遇"></a>机遇</h4><p>由于我的数学分数没有过国家线，同时也影响了总分，因此别说东北师范大学了，即便是那些普通高校，想调剂也是不可能的了。好在天无绝人之路，某天上网的时候，也忘了当时是怎么搜到的了，突然发现厦门大学的软件工程学院接收类似我这种的落榜考生。不过看了介绍发现，这是属于在职研究生性质的，毕业时只有学位证而没有毕业证，也就是说这个学位只有厦门大学认可，国家完全是可以不承认的，也就是所谓的单证（现在已经取消了）。而这种调剂只有一个专业方向，那就是“移动云计算”，说白了就是iOS以及Android开发。其实按照现在的眼光来看，懂得这种移动开发的程序员，绝对是吃香的，很多培训机构也在搞这方面的教学，业界需求也是很大，待遇往往也是非常高的。而厦门大学在2012年的时候（似乎更早）就开始培养这样的工程师，可见他们的眼光还是非常的独到的。</p>
+<p>可惜的是当时我对于这个方向一点也不感兴趣，当时也不理解这究竟有什么用，到底好不好找工作，主要是对软件开发方向心存恐惧，毕竟自己实在是不擅长写程序。其实现在来看，这些担忧完全是多余的。我研究生的一个室友，他的两个本科同学，觉得自己的工作不太好，就想转为移动开发的程序员，并且报了班。经过几个月的全职培训，即便不是计算机出身的，最后也能够达到不错的开发水平，也在北京签了还算不错的单位，待遇也很好（至少比之前的工作待遇好）。在北京，类似这种跨专业学习开发的，还是有很多人的，我现在也是比较看好移动开发方向。</p>
+<p>尽管对于移动云计算不感兴趣，但想想这毕竟是厦门大学，985名校，加上自己也没什么出路了，因此还是向他们发了调剂申请。</p>
+<p>由于我发现竟然存在单证这种培养模式，我在想别的院校会不会也招收单证的学生呢？我上网一搜，还真有不少。比如北京邮电大学、北京工业大学以及北京理工大学等。由于北理工的单证招收的是金融类软件开发方向，我更是不感兴趣（其实当时我对什么感兴趣，自己也不知道），就放弃了北理工。同时觉得自己应该广撒网，多申请调剂几所院校，这样成功率能大一些。于是也向北邮以及北工大提出了调剂请求。</p>
+<h4 id="单证的复试"><a href="#单证的复试" class="headerlink" title="单证的复试"></a>单证的复试</h4><p>三所高校里面，最开始通知我去复试的是厦门大学，我也是第一次去厦门，顺便还去鼓浪屿玩了一圈。我觉得假设我真的选择了厦门大学，那么唯一的不利因素应该就是交通了。因为那个时候，假设不坐飞机，坐火车的话，从广州到厦门好像只有两班车，没有高铁，都是要在火车上睡一觉，第二天才能到目的地的。由于在交通上没有更多的选择权，所以厦门在我心里面就打了折扣。</p>
+<p>但是厦门是一个很漂亮的城市。以前就总听说厦门大学风景优美，来到这里发现果然名不虚传。即便不是作为大学，它也是一个很棒的公园。但是软件学院距离主校区还有一段路程，大概两公里的样子，这段路是沿海的，所以风景也是不错，我甚至还畅想着以后每天上学放学，都可以来海边逛一逛了。</p>
+<p>来到软件学院，这里已经聚集了好多人，看来厦门大学也还是很吸引人的。由于人多，因此复试分为了两批。当时由于没人通知我，害得我差点错过了我的面试。关于面试其实没什么好说的，无非是走个形式，主要是我也忘记了当时都问了我什么东西。整个流程很快，很简单，面试结束后，我也就直接回珠海了。但是这里有件事还得说一下，就是由于厦门大学的这个单证研究生属于在职性质，因此按道理是需要在申请表上，盖上就职单位的公章的。由于我没有工作单位，因此我找的还是长春的省人才，也就是保留我档案的地方，让他们给我盖章（我还真是年年都去省人才，年年都找同一个人办事）。可是按照厦大的要求，单位盖的章需要盖在照片上，而省人才那个家伙说没干过这种事，不能够确定照片就是我本人。好说歹说他也不同意，所以最后就只能盖到照片旁边了。但是厦大招生办不认可这个申请表，一定要把章盖到照片上。没办法，后来也是托关系找朋友，用他们单位的公章给我盖上了，然后再把报名表寄到厦大，经过一番折腾，才算是彻底完事了。</p>
+<p>厦大给我的总体感觉还是非常棒的，但是如果来这里上学，却有一个硬伤，那就是由于我们属于在职的性质，因此我们不能够享受到正规研究生的待遇。比如，我们是周六周日上课的，周一到周五也就只能闲着了。按照招生办的说法，我们可以利用这个时间去打工实习。其次，学校是不给我们解决住宿问题的，因此我们也就只能自己想办法在外面租房子住。正是由于这些很不人性化的措施，使得我最终决定不去厦门大学了，尽管后来也收到了厦大的录取通知。邮件通知我被录取的时候，厦大还在邮件里面附上了书单，希望我们在入学前看看这些书，先打好基础。书单里面有诸如Java开发的经典技术类书籍，还有诸如《我是一只IT小小鸟》这一类的IT前辈的故事汇总以及面试技巧方面的书籍。厦大这么做还是很不错的，尽管我最终没去厦大，但是我还是买了书单里面非技术类的书籍，其中我最喜欢的莫过于《我是一只IT小小鸟》了，确实是鼓舞人心，书中的故事也说明了，即便是单证毕业，也会有很好的出路。</p>
+<p>接下来，北邮和北工大的复试通知也是接踵而至，二者的复试也没什么可说的，主要也是忘了。毕竟我当时也不懂什么技术，真要问我技术类的问题，我也只能回答不知道了。我听其他面试的同学说，其实面试官还是比较在意我们的本科院校排名的，主考官在问完我们的本科院校以后，他的助手就会赶紧查学校的排名。我心想这样的话我就更没啥竞争优势了，毕竟理工大学的全国排名大概是170左右。另外，北工大的复试还多了笔试环节，也就是看你在考研的时候哪科没过线，那么复试的时候就要重新考哪科了（学院自主命题）。由于我是数学挂了，所以我只要考高数就可以了。事先学院已经给我们发了几套卷子，我研究了几天，到复试的时候也就不怕了，甚至还找出了考卷上的错误。由于这两所学校是我最后的救命稻草，因此复试完我还追着招生办的人问到底什么时候出结果，他们也只是让我回去等，所以我内心还是很忐忑的。</p>
+<h4 id="选择"><a href="#选择" class="headerlink" title="选择"></a>选择</h4><p>我之前的担心纯属多余，北邮和北工大的录取通知也很快就到了，看来这些院校招收单证的学生，复试应该也就是走个形式而已。由于我之前已经把厦大给否定了，那么摆在我面前的就只剩下北工大和北邮了。这两所学校在研究生的培养上还是比较相似的，首先上课是周一到周五，住在学校的学生宿舍里面。还有一件事是厦大不能比的，那就是北工大和北邮允许单证转为双证，也就是转为正规硕士。前提是第二年需要再参加一次考研，报考本校本专业，只要能够考上，那么单证时修的学分还有交的学费都可以转到双证上，这样单证时候上的课并不白上，双证还是认可单证的课程的。这项政策这就很吸引我了，我还是很希望自己能够转为正规双证研究生的。</p>
+<p>这两所学校的学费都是四万，不同的是，北工大是三年制，而北邮是两年制的。考虑了很久，觉得北邮的名气似乎要比北工大高一些，于是就选择了北邮，痛快地交了第一年的学费两万块钱。当时北工大招生办还打电话问我去不去上学了，我因为已经决定去北邮了，所以在电话里面也就拒绝了。北邮还有一点让我觉得很不错的是，入学前给我们发了一封邮件，是关于联想在暑期招聘开发实习生的，我们北邮的学生只要报名，基本都能去实习了。但我当时实在是太菜，就没申请。我当时就觉得北邮很是为我们着想，心里面就给北邮加了不少分。</p>
+<h4 id="反悔"><a href="#反悔" class="headerlink" title="反悔"></a>反悔</h4><p>由于是去上学，所以我的行李还是不少的。软件学院在北邮的宏福校区，是距离北京市中心相当遥远的一个地方了。记得当时我自己提着一大堆的行李，先是从北京站坐地铁倒地铁，最后来到了天通苑北，接下来已经没有地铁了，只能坐快速公交。从北京站算起，全程三十公里，折腾了能有一个半小时，终于到了学校。可是校门距离宿舍还是有挺长的一段距离的，这一路可把我给累坏了。</p>
+<p>我是提前一天到的，没想到我竟然是第一个来的。虽说校区应该是新盖的，可是宿舍的条件实在是不敢恭维。宿舍里的设施全都是木头的，木头的桌椅，木头的上下铺。我躺在床上翻个身还嘎吱嘎吱地响个不停，这就很让我不满了。不过还是算了，既来之则安之吧。由于是新生开学，因此我们宿舍楼下就有很多小贩摆摊售卖生活用品。我下楼买了很多必需品，比如枕头、枕巾、床垫、床罩以及台灯之类，还有牙刷牙膏洗发水肥皂香皂等等。买东西还是很方便的，在这个校区，宿舍楼下宛如一个集市，特别是到了晚上，就变成了夜市，小店铺很多，很是热闹，我也是很喜欢这样的氛围。</p>
+<p>可是接下来我就要开始吐槽了，因为我买的生活用品很多都是假冒伪劣产品（当然这也是我在用了一段时间之后才发现的）。比如牙刷，用一次就脱一次毛，没多久就秃瓢了；比如香皂，遇水依旧保持石头的姿态，根本就不会融化；比如洗发水，明明是去屑类型的，洗完头反而更痒了（后来上网查才知道，出现这种情况说明洗发水是假的）；比如枕头，里面的填充材料没过多久就发霉变黑了；比如毛巾被，不论怎么洗都有一股怪味；比如台灯，发热特别严重，冬天都不用开暖气了……当然大家可能会问，我是不是专门挑便宜的买的，其实我选的都是正规大品牌，像是海飞丝以及舒肤佳这种，而且还是分别在不同的小商店里买的，没想到还是买到了假货（也不知道有没有真货）。其次，那天晚上我是几乎没睡的，因为毫不夸张地说，整晚我大概是打死了二十只蚊子。这种艰苦的条件实在是太让我崩溃了。睡不着，于是上网查了查北邮软件工程专业（双证）的招生说明，竟然发现它要考政治、数学一、英语一以及北邮自己出的专业课试卷，而北邮自己命题的专业课，难度竟然不亚于408！这就给了我这个学渣沉重的一击，即便是第二年再考，我觉得自己应该还是考不上的。以上种种不利因素加在一起，让我考虑了一整晚，最终决定，离开北邮，转去北工大上学。</p>
+<h4 id="最终还是来到了北工大"><a href="#最终还是来到了北工大" class="headerlink" title="最终还是来到了北工大"></a>最终还是来到了北工大</h4><p>第二天我起得很早，因为按照要求是要去主校区报到的。由于我之前已经是交了两万块钱的学费，所以我要走的话，也得是把钱要回来才行。我来到主校区，打听了好久，转了好几圈，并没有找到负责人，心里很是着急，千方百计地打听到了学院负责人的电话，听说她在宏福校区，我又赶紧回来。终于找到负责人，她们态度也还是挺好的，我说我家里有事，不想读研了，她很是理解，很爽快地就同意了我的要求，同时也收回了我的录取通知书，并让我去主校区办一张卡，到时候退款就打到这个卡里面。然后我又折腾回去办了卡，最后回到宏福校区已经是晚上了，我整理了我的所有行李，放在了刚认识的一个和我同一批考上北邮读研的朋友的宿舍，然后就赶到火车站，坐晚上的火车回家了。</p>
+<p>当然了，我之前已经是给北工大打了电话，确认我还可以回去上学，只要我按时去报到就可以了。庆幸北工大开学比北邮晚，否则我可能真的没学可上了。</p>
+<p>大概是在家待了一周吧，北工大要开学了，于是我也就提前一天回到了北京。当时我打听到，我的一个本科的同学，也在北工大软件学院读研究生（双证），还有一年就毕业了。我真的很惊讶，因为给我的感觉，他在本科时候，是一个非常纯粹的文科生，文笔极好，文章也曾经在比较知名的刊物上发表过。记得本科时我们有一门叫做《计算机应用基础》的课程，期末考的时候他的备考方法竟然是把整本书背下来。本科时候，他自己也说，自己对计算机技术是一窍不通的，因此也就只能通过死记硬背的方式来备考了。而他现在竟然来到了北工大的软院，令我很是觉得不可思议。他和我说，当时他是想考吉林大学的管理类专业，可是分数不够，后来知道北工大可以调剂（双证），于是就调剂过来了。在和他的交谈中，我也发现他对于软件开发技术确实是有自己独到的见解，俨然成为了软件开发的老手，说明北工大硕士研究生的培养方式，真的是可以改变一个人的，确实可以将一个文科生改造成优秀的软件工程师。这也令我对他刮目相看，我觉得自己也要利用读研的时间好好学习才可以（尽管我是单证），否则我真的就落后了（本来水平就不高）。当时我还问他，入学之后有没有项目可以做，他说每个老师都会有项目，这就让我放心了，只要有实际练手的机会，我就不愁自己的水平上不去（可惜最终结果事与愿违）。</p>
+<p>当时我的所有行李都还在北邮的宏福校区放着呢，我也赶紧去了那里，租了一辆车，把我的东西都拉到了北工大我的那个老同学的寝室。心里想着等分配寝室之后再搬走。本以为我也能住中蓝公寓，结果最后住在了北研楼。尽管离学校近了，但是住宿条件是没有中蓝好的，但是这也比北邮强。</p>
+<p>在我们单证的开学典礼上，学院领导花了很大的篇幅介绍了我们的一个单证学长，曾经的微软创新英雄，现在自主创业，也是北工大软件学院毕业生里面的名人了。意思是即便是单证，也不要失落，自己的未来掌握在自己的手中，和单双证无关。领导的话确实很鼓舞人心，相信当时我们每个人都暗暗下了决心，要认真钻研技术，将来做出一番成绩。</p>
+<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>至此，尽管我已经来读了研究生，但是我的考研故事还没有结束。我说了，我还是想要再考一次，成为正规的双证研究生的。毕竟我的高中同学以及本科同学里面，有不少硕士，特别是刚刚提到的那个纯文科出身的同学。我感觉我一个单证硕士在他们面前特别抬不起头，因此还是想要再努力一把，为自己的考研故事画上圆满的句号的。事不过三，也许我的第三次考研真的就能成功呢？</p>
+<p>那么接下来的故事，就完全围绕着北工大展开了，也是本系列故事发生的最后一个地方。在北工大经历的种种，也是令我难忘，也有着非常曲折的心路历程，来与大家分享。</p>
+]]></content>
+      <categories>
+        <category>姜晔传 (The Autobiography of Jiangye)</category>
+      </categories>
+      <tags>
+        <tag>Story</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -10737,106 +10857,6 @@
         <tag>Hexo</tag>
         <tag>Blog</tag>
         <tag>Fluid</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>从苏宁电器到卡巴斯基--曲折考研路</title>
-    <url>/archives/f92a248.html</url>
-    <content><![CDATA[<p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中的考研之旅。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="上篇"><a href="#上篇" class="headerlink" title="上篇"></a>上篇</h3><h4 id="利用考证来为考研热身"><a href="#利用考证来为考研热身" class="headerlink" title="利用考证来为考研热身"></a>利用考证来为考研热身</h4><p>由于我当时考研报考的是计算机专业，因此需要考四门内容：政治、数学一、英语一以及408计算机专业基础综合。为了让自己尽快进入状态，因此我打算在考研之前，自己考一些认证来为考研做一下热身。而政治以及数学是没有类似的认证考试的，所以我决定考关于英语和计算机的认证。</p>
-<h4 id="托业考试"><a href="#托业考试" class="headerlink" title="托业考试"></a>托业考试</h4><p>对于英语的热身，最好的选择莫过于四六级考试了。但是当时对于非在校大学生而言，是不能参加四六级考试的，后来我打听了一下，发现可以去考英语托业（TOEIC）。记得我本科的一个室友，大学期间就考了托业，考了五百多分。后来就凭着这个成绩，毕业后去挪威留学了。我了解了这个考试之后觉得不错，就买了教材并且报了名。不过这个考试还是比较贵的，前前后后花了我差不多一千块钱。这个考试的主要内容是英语在实际工作中的应用，因此考的知识还是比较实用的。我还想着，要是我的分数还不错的话，也许在我找工作的时还候能为我加分也说不定，希望可以填补我英语四级的空缺。</p>
-<p>托业考试分为听力和阅读，全都是选择题。由于全都是选择题，因此很多时候还是可以蒙答案的。没记错的话，应该是120分钟做200道题，所以时间还是比较紧迫的。我记得当时我将我手头上的教材练习册完完整整认认真真地做了两遍，这套比较贵的教材，也算是没有白买。做练习的时候，我的正确率平均来看大概也就是百分之六七十，其中当然有我擅长的题目，比如篇章阅读，这样的问题我基本能够全对。但是由于我的英语语法极差，因此选词填空类考核语法的题目，我就基本只能靠蒙了。而听力部分，如果太长太复杂，我也是搞不懂的。</p>
-<p>那时为了备考托业，好像也只看了两三个月的书，然后就匆匆忙忙地去考试了。我是在长春职业技术学院考场参加的考试，毕竟也是久疏战阵，许久不上考场，感觉发挥得也是一般，不过该做的我也做了。因为时间紧题目多，所以答题我是直接在答题卡上填写的。但是在同一个考场中，竟然有考生在到了交卷时间的时候，还没有涂答题卡，以为会专门有时间填的，也确实是天真。考完以后，我感觉自己应该能考个七百分以上吧，最好是能八百多。我觉得自己能七百以上，其实没有任何依据，只是美好的愿望。</p>
-<p>后来成绩下来了，打开成绩单之前，我内心是极其忐忑的。打开发现我考了710分，想想觉得还不错，但是没达到八百分，多多少少还是觉得有点可惜（因为有些外企要求800分以上）。尽管我现在已经忘了当时自己为什么那么自负，但是710分也是挺不错的一个成绩了。</p>
-<p>除了成绩单，还有一个职业英语四级的证书，这个我在考试之前是不知道的，心里还琢磨着，自己以后找工作，这个职业英语四级能不能替代CET-4呢？</p>
-<p>由于我考托业最终的目的是为考研英语热身，因此这个考试与考研英语有多大的关系还是有必要在这里说一下的。考研英语中没有听力，所以我备考托业时练习的听力也就完全没用了。另外二者的词汇范围也是比较不同，托业更专注于职业的商用英语，而考研英语的词汇则比较全面。另外考研英语有大量的阅读，而托业英语则是以简单的短文为主。并且考研英语还需要写作文，而托业是没有的。从这些方面来看，其实考托业对于考研英语的帮助几乎是没有的，但是对于实际工作的帮助还是挺大的。但我也是经历过了，才发现这一点的。</p>
-<h4 id="计算机四级——网络工程师"><a href="#计算机四级——网络工程师" class="headerlink" title="计算机四级——网络工程师"></a>计算机四级——网络工程师</h4><p>我相信很多朋友是没有听说过计算机四级的，了解得更多的也就是计算机二级，因为有些院校会把二级证与毕业证挂钩。尽管长春理工大学并不会要求二级证书，但是我本科时候还是考了二级C语言。和我同一批考过了的同学里面，有人再接再厉，又考了计算机三级的网络技术，并且考过了。于是她就成为了我们班里面计算机认证最高的人了。其实我觉得计算机三级还是挺难考的，笔试不简单，上机其实最难（以我当时的水平来看）。因为二级的话，上机更多的是以填空的形式存在的。到了三级，上机是需要完整地编写一个函数来实现相应的功能。这个函数说难可以很难（当然了，无法和ACM相比），说简单也可以很简单。由于比较开放，因此还是需要多多练习才能够通过的。我本科时候其实也想考，但是觉得上机有点难，加上对网络技术没什么感觉（对于三级的其他方向更没感觉），因此就没有再继续考了。</p>
-<p>后来也忘了是大三还是大四的时候，突然心血来潮要考计算机四级。当时的四级教材是一本很大很厚的书，内容差不多等同于软考的软件设计师了。并且还有上机题目，内容与三级类似。由于我根本就没有好好准备，所以考得一塌糊涂，不堪回首的往事就不细说了。而我这次再参加四级，它已经是改革了。首先是分了方向，比如网络、数据库之类的。尽管我都不感兴趣，但是由于408计算机专业基础综合里面是包含有计算机网络技术的，因此我就选择了四级的网络工程师方向。其次，四级已经取消了上机，只有笔试，那么这其实也就降低了难度。按照大纲的说法，上机（实际操作）的内容由笔试进行考察。当时我备考也是比较认真，买了两本参考书，一本教材一本题集。教材是看了两遍，习题集好像也是做了两遍。</p>
-<p>四级网络工程师的考试内容还是比较贴近于实际的，但是我对于需要死记硬背的内容，可能由于年纪大了，总也记不住，因此这类题只能靠蒙。也就是说，选择题基础知识部分，我准备得并不充分，是失分的重点区域。而关于网络设备设置的问题，属于大题，由习题集中的题目可知，这些问题框架往往不变，历年考试仅仅稍微变化一点问法而已，这类题我比较擅长。这些问题比较贴近实际，其中的知识可以运用于实际工作中，但是考完也就忘记了。</p>
-<p>类似于这种比较偏门的考试，全长春也就只有吉林大学可以报考。对于吉大我也是轻车熟路了，两次计算机四级还有一次实用日本语鉴定考试都是在吉大报考并参加考试的。我记得很清楚，考试那天，偌大的考场，只有五个人参加计算机四级考试。我们五个人中，包含有网络、软件以及数据库等考试方向，可见大家对于这个考试并不认可。我当年考试的试题，其实也就是历年题目稍微变化一点而已，我大题做得不错，但是选择题就基本只能靠猜了。考完也是觉得很忐忑，并没有十足的把握通过。</p>
-<p>公布成绩那天，我在理工大学图书馆上自习，说是当天发布成绩，但是我也几乎刷了一天的查分网页，直到晚上，成绩才公布。当时我是用手机刷的，本来流量就不多，我也是豁出去了。还好最终我的成绩是60分，刚刚及格，心里真的是美滋滋的，因为我感觉这个证书能够为我以后的求职增添筹码（尽管这个证书其实没什么用）。</p>
-<p>对比考研中的计算机网络的内容，二者的交集还是比较少的。我感觉四级更注重实际，而考研的计算机网络则是理论以及计算会多一些。事后来看，考计算机四级对考研的帮助几乎也是没有的。</p>
-<h4 id="软件设计师"><a href="#软件设计师" class="headerlink" title="软件设计师"></a>软件设计师</h4><p>说到软考的软件设计师考试，也是让我又爱又恨了。因为我本科时候，软考的程序员考试，是一次通过的（考试那天恰好是校运会，也不用傻傻地去加油助威了），然后就立刻买了软件设计师的教材来看，也买了不少的参考书，但是受限于我当时的水平，最终考试惨败。之后忘了是大三还是大四的时候，又考了一次，又是惨败，然后就没再考了。我之所以会向往获得这个证书，是因为按照官方的说法，这个证书是职称评定的关键，程序员相当于是初级职称，可以评技术员或助理工程师。而软件设计师则是中级职称，可以用来评工程师。如果能通过系统分析师考试，则是高级工程师职称（副高级）。尽管是虚名，但我还是想要把软设的考试拿下的，这样我就可以在别人面前吹牛说自己是工程师职称了，无奈天不遂人愿，自己水平有限，一直都考不过。</p>
-<p>我这次再考，最初的目的就是为了考研的备考，由于失败的经验太丰富了，所以我自己都不相信自己了。当时的备考就是做历年的真题（主要做下午题）。我当时通过论坛得知，全国大概有三个省份的软考，可以自主划定分数线。就是说假设你的分数没有达到国家线的标准，但是只要达到省线的标准（往往比国家线低几分），那么也会给你颁发证书，只不过这个证书只在该省有效，外省无效，国家也是不认的。尽管如此，有省证也总比啥也没有强。我当时就打听到辽宁省是这样的，所以我当时就是在沈阳报的名，也是在沈阳考试，那次我是在沈阳大学考的。</p>
-<p>软件设计师考试是分为上午场和下午场的，上午是75道选择题，75分，而下午则全是主观题，也是75分。上下午的考试分数需要分别通过国家线，考试才能算是通过。国家线一般是45分。上午的选择题我一向是比较擅长的，不需要怎么看书，我也能考得不错，至少上午场次考及格是没有任何问题的。但是下午场就比较麻烦了，每次我都是在程序填空问题上栽跟头，那么这次其实也不例外，程序填空题我还是不会，而这类题又不容易瞎蒙，所以我的策略就是程序填空尽量写，其它问题好好研究，争取全对，那么这样也能够把分数给挣回来。但前提是必须要把非程序填空题全做对才可以，对于我来说就实在是太难了。</p>
-<p>果然也是没有任何意外，成绩出来了，我再次倒在了下午场。上午场我考了五十多分（没咋看书竟然也及格了），下午场我考了42分，因为下午场没及格，所以我的整个考试就是不及格了。还好我这个分数过了辽宁省的分数线，因此我最终拿到了辽宁省的软件设计师证书，也算是安慰了我三连跪的心情。说到这里我很羡慕当时和我同一个考场，坐在离我不远位置的一个兄弟，他不论是上午场还是下午场，都是半小时交卷，我惊得目瞪口呆。总感觉他是一个枪手，老考生了，做这些题就跟玩儿似的。</p>
-<p>三次软设考试都没过，其实我也是不甘心的，后来研一的时候，在北京又考了一次，同样是下午场挂了。但是直到今天，我也是不想放弃的，估计我以后还会再考（尽管业内并不认可这个证书），但是我下次考也许会选择考网络工程师，换换口味也许就过了呢。或者我需要集齐七张准考证，召唤神龙，皇天不负有心人，才会通过吧。估计我这情况也是前无古人后无来者了，在长春、沈阳以及北京都参加过软考，也算是软考的忠实考生了。</p>
-<h4 id="考证的小结"><a href="#考证的小结" class="headerlink" title="考证的小结"></a>考证的小结</h4><p>总结一下，其实软考对于考研也是没什么帮助的，也就是个别的选择题部分，会有一些交集，但是这毕竟太少，完全可以忽略不计了。这么看来，我所参加的这三个为了考研而热身的考试，其实全都对考研没有实质性的帮助。但是拿到了三张证书，也就不算完全失败，还是有所收获的。</p>
-<p>回顾这些年，我感觉自己也算是一个考证小达人了（尽管这些证书啥用也没有）：比如日语，我就有J.TEST的F级证书（相当于日语四级）；英语到目前为止，有CET-4、CET-6以及TOEIC证书；计算机的话有二级C语言、四级网络工程师、程序员以及软件设计师（省级）证书；之前卖苹果时候还得到了销售员的许可证；后来读研又得了一个什么数据库的证书。我觉得我的这些证书除了后两个以外，其它的都是有一定的含金量的。我所说的含金量的标准，主要是看这个证书是不是凡是参加考试的人就会得到，这是有含金量和没有含金量的一个重要的界定标准。当然了，有了含金量之后，不同考试的含金量程度又会有所区别，那么这个就不详细讨论了。计算机领域里面，个别几个认证是非常有含金量的，我没考过，大家有兴趣的话，可以尝试一下。</p>
-<p>为什么我在这里要特别强调含金量也是有分水岭这件事呢？因为我在上本科的时候，大概是大三吧，我的很多同学也是想多考一些认证，以期望找工作的时候为自己加分。但是与管理类专业相关的认证真的是少之又少。此时他们听说上几届的某学长还是某学姐正是由于有了XX证书，从而得到了企业的青睐，在深圳上班，似乎混得不错。于是大家就一窝蜂的去考这个认证了，没记错的话是一个什么人力资源的考试。结果就是，不管你平时看没看书，那么凡是考的人全都通过了。想想也是，这种文科类的考试，本来就是自由发挥的，确实没必要看书。因为通过率是百分之百，所以我就把这个考试归到了没有任何含金量的那一类里面。包括当时我的室友们还考了一个什么管理类的认证，通过率也是百分之百，最后他们每人还发了一个非常非常精美的大证书（证书大小接近于8开纸了），这就更显得没有含金量了。我不相信有企业会因为这种证书而青睐应聘者，因此我也建议大家，可以考含金量低的证书，即便考不过，自己也是能学到东西的。而那些丝毫没有含金量的考试，最后即便能得到证书，也不过是一张废纸而已。</p>
-<h3 id="中篇"><a href="#中篇" class="headerlink" title="中篇"></a>中篇</h3><h4 id="回到理工大学备考"><a href="#回到理工大学备考" class="headerlink" title="回到理工大学备考"></a>回到理工大学备考</h4><p>从苏宁电器离职以后，我想要重新租个房子来备考，主要是希望能够有个良好的学习环境。思前想后，决定在长春理工大学周边租个房子住，然后每天去理工大学上自习。于是我在南湖小区找了个两室的房子，合租，我是次卧。和我同住的是两夫妇，他们还有个孩子，不过他俩的孩子估计是长期由老人带，所以我也没见过几次。租金一个月是几百块钱，直接交给那两夫妇。我住的次卧空荡荡的只有一张床以及一个很小的床头柜。夏天的时候晚上睡觉还能听到小强在床缝里面乱跑的声音，感觉这里真的还不如我在佳木斯睡阳台好。这个房子的厕所也很不好用，也不能洗澡，所以说我每天都是早出晚归，并不想在这里待太长时间，总体来说住得并不舒服。我觉得到处找房子实在是太麻烦，于是也就在这里将就了。其实最开始那两夫妇是不太想让我住在这里的，因为我说我是考研备考住这里，大概住半年，他俩觉得我住的时间太短，到时候还得再找新的租客，就很麻烦。我说其实到时候我还要准备复试，应该也会住在这里，这样的话就差不多一年的时间了，这样他俩才同意了。</p>
-<p>那个时候我大概每天七点就出门了，晚上一般也得九点多才回来。这么早出门主要是要去理工大学西区的图书馆占座，当时感觉大家真的是特别爱学习，图书馆也是经常爆满的。学校为了避免有人用书占座而人不来，图书管理员会推个小车，不定期地来收书清理桌子。记得有一次我上厕所，回来之后我的东西就被收走了，我还得去找管理员要。因此感觉那段时光就如同在打游击战一样。但是有些时候即便是很早就到了图书馆，可能也会没有座位了，尽管这种情况很少发生。此时当我跑完图书馆所有楼层的自习室发现都是满的以后，我也就只能无奈地去主教找教室学习了。其实我并不喜欢去主教，尽管那里空教室会比较多，但是教室里会比较冷，而且说不定什么时候就有人来这里上课，我这个无业游民就被赶走了。说到这里我想起来，有几次我还在上自习，我的手机就响了，是以前在我这里买过iPhone的顾客打电话来问我问题，一般我会很不耐烦地就直接让他们去店面解决了。到了后来，我已经离职了几个月了，有的顾客还会打电话过来，弄的我心情很不好，就直接说你打错了。现在想想，自己那么做真是不应该。</p>
-<p>我的一日三餐都是在学校食堂解决的，有时候也会去繁荣市场买饭包喝啤酒。直到今天我依旧怀念那家的饭包，它是我吃过的最好吃的饭包了，每次我都会额外加一根香肠一个鸡蛋，并且多加辣椒。以后如果有机会去长春，还得去品尝一下（也不知道还在不在了）。在学校吃饭是需要饭卡的，我去补办饭卡的时候，报上了我的学号，尽管毕业一年多了，没想到系统里面还有我的信息，因此补办也是很顺利。当时我最喜欢吃的是三食堂二楼的米线，我还没有毕业的时候，就很喜欢吃，味道很独特。除了米线，各式各样的盖饭还有炒饭也是不错的。除了吃饭还得喝水，理工大学在这方面还是比较特殊的，打热水只能去专门的水房，水房并不是24小时都开的，好像也就是中午左右才开，水房里面左右两边是两排水龙头，可以出热水。水房门口也是堆满了五颜六色的热水瓶，上面会贴有各式各样的小纸条（有的会直接写在壶上），简单的就是写上自己的名字和寝室号码，也有写得多的，主要意思就是诅咒偷水壶的人。当时我买了一个挺大的透明塑料水杯（大概700毫升），每天去水房打两三次，就够我一天喝的了。那个时候打水是需要水票的，打一大壶大概三五毛钱。看水房的阿姨见我的瓶子比较小（比别人几升装的大暖壶小），于是每次都让我免费打水了。</p>
-<p>由于我住的地方不能洗澡，因此我只能去学校的澡堂洗了。理工大学洗澡时间是有严格的规定的，好像和水房一样，也是中午左右才开，大概晚上六点就关了。因此我每次也就只能选择在下午洗澡，这样我就必须要离开自习室，相当于是放弃了我的座位，洗完澡回来的话还得重新找地方自习。我每次都是拎着浴筐，走十分钟的路，才能从住的地方走到澡堂。那个时候路还不好走，相当于是山间的崎岖小路，当然现在都重修了，宽敞且平整。在理工大学洗澡是需要买澡票的，每人五元（也好像是三元），其实这就比我后来在北工大的时候要贵很多了。因为北工大洗澡是将自己的一卡通（饭卡）插到淋浴头下面的感应装置上，费用是按照时间收取的，一般我洗一次也就是五六毛钱，仅相当于是理工大学的十分之一。而且长春的冬天还特别冷，每次洗完澡从澡堂出来，走回去，我的头发都会冻得像赛亚人一样，硬得扎手，也算是很有意思的经历了。</p>
-<p>由于说我在求学的道路上是经历过两所学校的，每间学校我都是待了四年（研究生其实是三年制，我之所以是四年，那是因为特殊原因，我这里先卖个关子）。因此我对于这两所学校的软硬件设施还是比较有发言权的，在以后的内容中，我会时不时地专门来对比一下这两所学校的优劣。</p>
-<p>再来讲一下我的学习。其实我全职备考的时候，离考研大概只剩下半年的时间了，而之前没有离职的时候，我学习的进度可以说是相当缓慢的。还在职的时候，我的政治、英语以及计算机专业课是一点都没有看的，仅仅看了一点蔡高厅的高数视频，只看到了不定积分的部分。全职考研之后，我还需要额外花时间来准备那三个认证考试。这三个考试的最后一门是十一月份结束的，所以在十一月份之前，关于考研的内容我也仅仅是接着看了看数学，考研余下几科，我是十一月份才开始准备的。由于那个时候离考研只剩下大概两个月的时间了，因此我只能通过做历年真题的方式来搏一把了。比如数学，高数仅看到了多重积分以前的部分，后面的内容一点也没看，线性代数和概率也是半懂不懂的。没办法，时间紧迫，只能做李永乐的历年真题了。英语的话也没专门背单词，买了考研一号的英语历年真题分析。其实我觉得考研一号是相当不错的参考书了，分析得非常详细非常到位，还是很有帮助的。计算机的话，由于当时改革没多久，所以也没多少历年的题目可供参考，参考书上也都是各种各样的押题，因此有很大的不确定性。政治的话我好像就没买练习册，只是看红宝书，因为江湖传闻，有的考了八十分的大牛，仅仅看了六遍红宝书，也没做什么题，这就凸显了看红宝书的重要性。总结一下来说，其实我的备考还是非常仓促的，完全是临时抱佛脚，能考上才怪。</p>
-<h4 id="我曾有梦"><a href="#我曾有梦" class="headerlink" title="我曾有梦"></a>我曾有梦</h4><p>我还没有离职的时候，就已经打算报考计算机专业了。尽管我在本科的时候，也在学计算机，并且考了几个证书，但即便如此，跨专业考研对于我来说难度还是很大的。特别是从09年左右开始，考研计算机专业课统一改成了408计算机专业基础综合（个别院校也会自主命题）。主要考察四门课的内容——数据结构、计算机组成原理、操作系统和计算机网络。其实依据这四门课出的试卷是非常难的，这应该是我到目前为止，所经历过的最难的考试了。别说我这种跨考的考生，相信即便是计算机专业出身的学生，考408也是困难重重的。因此现在回想起来，我当时选择报考计算机专业，确实是自不量力了。可谓是初生牛犊不怕虎，明知山有虎偏向虎山行。</p>
-<p>不自量力的事还有一件。我相信，对于每个人来说，不论是高考还是研究生考试，清华北大是所有人的梦想，这两所学校是众多考生的终极目标，那么对于我来说，也不例外。当我还没有离职的时候，就已经决定要考清华的计算机了。在我心中那就是最顶尖的学府里面的最顶尖的专业了，要考就考最好的。甚至我还想，如果能考上，那么我也许还能够参加清华的百年校庆。这是我美好的愿望，我也打算朝着这个目标而奋斗。那个时候，我总会去逛一些考研论坛，看看考研成功的前辈们的考研经历。主要看的就是考上清华的，或者跨考计算机成功的人的经历。比如那些跨专业考上清华计算机的前辈里面，有一部分，甚至还是当年的考研状元，他们的本科并不是知名院校，仅仅算是二本末流。他们的故事都很打动我，我觉得我也可以。不过我认为他们分享出来的经验，并不是人人都可以复制出来的，我总感觉他们就属于特别会考试的那一类人，高数和408都能考到非常高的分数，而我的话，实在是太笨，实在是学不明白，和他们相比实在是有差距。</p>
-<p>不过他们经历中的有些东西还是可以借鉴的。比如他们在考研期间看的一些励志的电影，像是《当幸福来敲门》这种，当年我也是看了好多遍。另外，我当时甚至每天还会抄写清华的校歌：“西山苍苍，东海茫茫，吾校庄严，岿然中央，东西文化，荟萃一堂，大同爰跻，祖国以光……”感觉清华虽是以工科为主的院校，但是的他们校歌却充满的中国风的特色，富有大气，是我见过的所有校歌歌词里面，写得最好的了。每天抄写歌词，也是令我心潮澎湃。</p>
-<p>当时，考清华就是我的梦，我也很清楚它的难度。尽管清华每年的分数线大概是370分左右，但是这个分数是不保险的，许多考了400+的大牛足够把考370的这些人在初试阶段就挤下去了。但是即便能够考400+，那也是不保险的，还得看复试的发挥。听说有考410的，因为复试不佳，于是就被刷下去了。历年的状元怎么都得考420左右，对于我来说，确实是太难了。如果我能够从大一就开始准备，也许还有微弱的希望，但是仅仅只有半年的时间，那也实在是太短了。感觉还是自己没有那么大的天赋，毕竟自己向来就是一个学渣。</p>
-<p>没记错的话，我当时是在九月末报的名，那天和我一起住的两夫妇都去上班了，于是我就借用了一下他们放在大厅的的电脑，快速地填写好资料，然后就提交了。当时在选择报考院校的时候，多多少少还是犹豫了一下的，但最终还是坚定的选择了清华，报考计算机科学与技术专业。具体的方向是需要在复试的时候确定的，我还想着，如果能够考上，我就会选择人工智能方向，不过这些也就是想一想而已。</p>
-<p>在网上报完名以后，是需要去现场进行信息确认的。到了那里，工作人员跟我说，除非我是吉林省在校大学生或者工作关系在吉林（户口在吉林也可以）才可以报考。我心想我一个无业游民，既没有上学，又没有工作，难道我将会因此而与考研失之交臂了？难道我还要回广东考试吗，可是重新报名已经来不及了啊。最后他又跟我说（似乎他遇到过不少我这种情况的），如果我的人事档案在长春，那也是可以报考的，去开一张档案证明就可以了。这可真是我的救命稻草，我的档案还真就在吉林省人才市场放着呢。赶紧打车去省人才，开档案证明，还补了一年的档案保管费（现在已经取消了）。仅仅是一张A4纸，上面简简单单地写了我的档案在省人才，再加上一个公章，就花了我几百块钱。对于没有工作的我来说，还是蛮心疼的。然后又是匆匆忙忙地打车回到现场确认点，那个工作人员似乎还记得我，也没仔细看我的档案证明，就直接放到脚底的资料收集箱，然后直接在系统里给我设置为现场确认通过了。看来我的报考也是一波三折，接下来就需要好好复习，准备考试了。</p>
-<h4 id="我的第一次考研"><a href="#我的第一次考研" class="headerlink" title="我的第一次考研"></a>我的第一次考研</h4><p>时间一天一天地过去，终于到了考研的日子了。我的考场在长春市第八中学，距离我住的地方大概有七八公里，还是挺远的，如果是坐公交的话，由于没有直达，还得倒几次车，这样一来，在路上就要花费大概一个小时了。幸好当时我在理工大学里面看到有小广告，有包车服务，收取一定的费用，每天早上在理工大学门口等我们，把我们送到考场，中午还可以在车里面休息。我觉得不错，于是也报了名。但是两天的考试，我也仅仅坐了两次，也就是第一天去以及最后一天回来，中午也没有在车上休息，而是直接打车回到住处吃饭包了，吃完饭稍微眯一会，再打车回到考场（其实当年长春打车还是挺不好打的，出租车太少了）。</p>
-<p>我记得很清楚，2011年1月中旬，考研的那两天，长春相当冷（零下二十度左右）。正是由于天气很冷，当时我们去得还比较早，在八中门口等了十多二十分钟，就这十多二十分钟，我感觉我的手就冻僵了。进了考场发了试卷，过了十多分钟，我的右手才有感觉，才拿起笔答题。当时简直是吓着我了，这要是由于手冻得没感觉了而放弃了考试，那可就实在是太亏太不幸了。也幸好第一门是政治，我还可以随性发挥，最后还剩下二十分钟的时候，我就已经答完了。自我感觉还不错，毕竟是文科，即便考得不好也会觉得自己考得不错的。</p>
-<p>下午考的是英语一，我觉得还是很有难度的。有意思的是，那次的小作文是向好友推荐一部自己喜欢的电影。其实我最喜欢看的是《肖申克的救赎》以及《飞跃疯人院》（至今为止这两部电影分别看了不下二十遍），可惜我不知道这两部电影的英文名怎么写，只能作罢。最后选择了《当幸福来敲门》（The Pursuit of Happiness），我当时的词汇量水平只能写出这个了。现在想想，小作文写向好友推荐《2012》应该是最好的选择了。</p>
-<p>第二天上午考的是数学一，我也是早早投降了。选择题和填空题纯粹瞎蒙，大题一道题也不会，写个解，然后随便列了几个公式。我也是发呆了好久，才终于熬到交卷。而下午的408也基本不会，但至少比数学的情况好一些。但是第二天的这两门考试，我能感觉到，确确实实是挂了。</p>
-<p>走出考场，很是感慨，我知道自己与清华是无缘了，准确来说是与所有院校无缘了。觉得自己还是备考时间不够，才会这样的。当时我已经做好了二战的准备了，还想着下次考试，中午一定要好好地睡一会，因为我这次考试，两个下午场我都在打瞌睡，实在是很痛苦，很影响发挥（即便不打瞌睡，也还是考不好的）。坐大巴回到理工大学，和当时在理工读研的本科时的室友一起吃了个饭，见了一面。第二天他还帮我把我住处的东西搬到了他的宿舍暂存，我也算是退了房，挺对不起那两夫妇的，复试是不可能的了，也就不会在那里住了。满心的无奈，然后就回家了。</p>
-<h3 id="下篇"><a href="#下篇" class="headerlink" title="下篇"></a>下篇</h3><h4 id="再见了，理工大学"><a href="#再见了，理工大学" class="headerlink" title="再见了，理工大学"></a>再见了，理工大学</h4><p>其实大家通过我之前对理工大学描述的口吻应该能看出来，我对于理工是存在有种种怨念的，毕竟理工大学从客观上来说，确实是有非常多的不尽如人意的地方。但是真的到我要离开的这一天，我还是觉得非常的伤感的。第一次伤感就是本科毕业搬离寝室的时候（前文提到过），而第二次就是这次考研结束，离开理工了。毕竟这次备考，每天都会来理工大学。而我这次因为备考而回来，感觉理工的西校区几乎和一年多以前没有什么变化，唯一的变化就是现在学校要翻修之前的沙土操场了，要植草（可能是人工草）并且铺设塑胶跑道。很是感慨，这些好事自己总也碰不到。小学时候，六年级要毕业了，学校才开始翻修操场（我家当时还捐了六百块钱）；高二的时候，学校也才给足球场种上新的草坪，但是由于需要保养，因此也一直不让我们用。不过这些东西有没有对我来说都无所谓，我也不是那么爱运动的人，只不过翻修之后，会让我觉得校园更加漂亮罢了。</p>
-<p>考研结束离开理工，真的不知道自己何时还会回来了。二次备考的时候，零星回去过几次，当时是2011年，再往后，我就一直没有机会回理工大学了。也就是直到我在签卡巴斯基之前，才有幸又回了一趟长春，又去了一趟学校。那是2016年的3月初，我要坐晚上的火车回北京，由于临近研究生毕业答辩，学院让我们提交一个关于毕业论文的报告，于是我就坐公交来到了理工大学，在西区一教的一楼找了一间教室，就开始写报告了。当时理工还没有开学，整个学校整个教学楼都是静悄悄的。写完报告之后，我又在学校里面逛了一大圈，觉得这里并没有修建什么新的东西，毕业将近七年的时间，感觉各项硬件设施也是暗淡了许多，整个校区感觉颓了很多（也许因为那天阴天）。然后我还走出学校后门转了一圈，这里建起了一些新式的住宅小区，新的居民楼也快要把理工大学包围了，要知道这里以前还是比较的脏乱差的。走了一大圈以后，我就坐上轻轨去书城那边吃炒面了（之前的故事提到过）。</p>
-<p>这次离开理工，也就真的不知道什么时候还能有机会回来走走了。我甚至还没有和理工大学合过影，我甚至还想去食堂再吃一顿米线或者是盖饭……但是这一切一切的遗憾，也许只能在未知的未来实现了。</p>
-<h4 id="决定二战"><a href="#决定二战" class="headerlink" title="决定二战"></a>决定二战</h4><p>故事回到2011年刚考完研的时候，过了两天我就回珠海了。当时我就和父母说自己这次考砸了，决定再考一次，我说第二次考，吸取了之前失败的经验教训，会更加有经验的。其实我当时心里面对于自己的二战也还是很没有底的，毕竟是离职考研，压力也是非常大的。不过我父母那时好像还是比较乐观，还是让我等考试成绩出来再说，也许考得不错呢。</p>
-<p>成绩很快就出来了，我政治52，英语一32，数学一31，专业课60，总分175。这个分数还是非常能够反映我当时的水平的，那么既然已经知道了成绩，就已经确定和研究生无缘了，这个分数，调剂自然也是不可能的了，所以也就只能够二战了。而对于我的二战，尽管我的父母并没有表示出反对的意见，但是我感觉他们也是无奈，也不想过多地干涉我的选择，既然我决定再考，那就允许我再考一次吧。</p>
-<p>再次考研，我觉得还是稍微务实一点比较好，主要是求稳，因为如果再报清华，万一又考不上，那可就糟糕了。最后我打算报考长春的高校，而计算机类专业实力最强的，莫过于吉林大学的计算机了。等到吉大的报考简章出来以后，我却发现他们的计算机类专业不招本科非理工类的考生。但是我发现他们的软件类专业，却没有这个限制。我为了确认这一点，赶紧打电话给他们的招生办来咨询这件事，结果他们的工作人员和我说，学院刚刚召开了会议（真是好巧），说软件类也不招收非理工专业出身的学生。这就彻底堵死了我报考吉林大学的道路，于是我就把目光转向了东北师范大学的软件工程专业，毕竟他们是没有限制的，所以二战，我最终报考了东北师范大学。</p>
-<p>其实我这辈子没机会去清华深造，多多少少还是有一些遗憾的。但是想到毕竟是自己的水平不行，因此也不会有太多的怨气。可是如果我没能来到卡巴斯基，那就确实会让我遗憾终生了。</p>
-<h4 id="为东北师范而备考"><a href="#为东北师范而备考" class="headerlink" title="为东北师范而备考"></a>为东北师范而备考</h4><p>第二次备考，我又回到了长春。那么这次我准备得就比上次要充分很多了。其实考东北师范大学的软件工程专业，相比于清华，是要容易很多的。因为四门考试科目分别是政治、英语一、数学二以及C程序设计与数据结构。我觉得数学二是要比数学一简单很多的，因为少了高数里面的一些麻烦的内容，并且还不考概率论与数理统计，而专业课仅仅考C语言的相关知识，这个我还是比较擅长的，不过没有历年的真题，心里还是有些没底的。</p>
-<p>这次备考，政治我还是以红宝书为主，另外又买了习题集以及配套参考书（后来想想这些真的没啥用）。英语的话，我买了新东方的单词书，把书上的所有单词都抄了两遍（后来想想也没啥用，抄完就忘）。数学又买了几本参考书，每天都会研究书上的题目。专业课的话，毕竟不难，我也就没有特别准备。每天的学习也都是按部就班，还是很平淡的。</p>
-<h4 id="不如试试考公务员"><a href="#不如试试考公务员" class="headerlink" title="不如试试考公务员"></a>不如试试考公务员</h4><p>尽管我现在觉得公务员并不是什么特别好的工作，但是当时我并不这样想。正好赶上一年一度的公务员考试，我大概看了下，觉得考试不难，所以决定试试。还想着如果我能够考上公务员，那也是不错的选择，不比读研差。当然最好的情况就是，研究生和公务员都考上了，那么这就是幸福的选择了。网上这样的人也不少。</p>
-<p>其实公务员考试的内容，最多也就是高中的知识，很简单，并不难。难的是题目量比较大，时间少，也就没有那么多的时间来让你认真考虑了。所以很多时候，包括计算题，只能依据自己的感觉以及经验来作答了。当时也是买了几本参考书，每天闲暇时候做一做书上的习题。我记得当时我把一本好几百页的历年真题认认真真地做了三遍，就觉得自己已经没什么问题了。但是下午的申论部分是几乎没看的，不过想想申论无非就是语文，我高中语文还不错，所以不看就不看吧。</p>
-<p>很快到了报考的日子，职位表也出来了。令我无奈的是，由于我本科学的是市场营销，而公务员考试对于专业是有特别严格的要求的，因此我当时也就只能够选择管理类或者和市场营销类相匹配的职位了。而这样的职位是少之又少的，试想，有什么样的职位是需要市场营销的人呢？但是最后还真是让我找到招营销专业出身的岗位了，是白山（也好像是白城）国税局的办税服务厅科员。没办法，都已经准备一段时间了，不能因为这件事而放弃啊，于是我也就报了这个职位。由于这个职位的报考条件比较宽泛，因此大概有一两千人来竞争这个职位，现实还是非常残酷的。当时我觉得，如果那时我没考上研究生，而公务员考上了，我应该真的会去上班，尽管工作地点是白山（也好像是白城），一个几乎没听说过的地方，毕竟我实在是没什么出路了。</p>
-<p>考试那天，上下午的考试，我觉得自己发挥得还是挺正常的，但是上午场的考试，由于时间紧迫，答案还是瞎蒙的比较多，这个时候才感觉到，自己尽管是做了三遍的历年真题，可惜并没有什么用。而下午场的考试，属于自由发挥，我也是自我感觉还不错。</p>
-<p>最后成绩出来了，我的成绩已经过了国家线，但是并没有收到复试通知。我的感觉是由于报考人数太多，过线的也很多，所以像我这种刚刚过线的，也就被淘汰了。我并不觉得可惜，毕竟考公务员仅仅是一个小小的插曲，成为公务员也并不是我的目标。</p>
-<h4 id="我的第二次考研"><a href="#我的第二次考研" class="headerlink" title="我的第二次考研"></a>我的第二次考研</h4><p>有了第一次考研的经验，那么我再考，在流程上也是轻车熟路了。先是网上报名，然后是现场确认。不过这次我是提前去省人才开好证明了，免得现场确认的工作人员又卡住我。但是尽管我做好了准备，现场还是被卡住了。因为那个人是新来的，他不知道报考人的档案在这里也是可以报考的（也有可能是政策变了），解释了半天，我说我去年就是这样报考的，也是颇费了一番周折之后，才完成我的这次报名工作。</p>
-<p>其实第二次考研，我依旧觉得自己是没有准备充分的，政治以及专业课，我觉得即便是不准备也没有多大问题，但是数学和英语依旧是没底的，特别是数学，尽管考的是数学二，但我毕竟是数学白痴，很多知识还是没有掌握的，题目稍微变一下我就不会了，即便如此，也就只能硬着头皮上了。记得当时我的房东阿姨知道我要考研，那天早上还特意为我准备了两个鸡蛋，希望我能考一百分，我内心也是觉得暖洋洋的。也希望自己一口气就考上。值得欣慰的是，尽管长春已经到了一月份，但是考研那两天的天气还不错，至少不会出现手冻僵的情况了，我当时还特意准备了毛手套，看来也是没必要用了。而我再次回到长春八中考试，心里面也是感慨万千的，不知道自己还有没有第三次的考研，从而再次回到八中呢？</p>
-<p>第一科政治，考得也还是很顺利，不同的是，上次在手僵了十多分钟的情况下，最后还剩二十分钟我就答完了，但是这次我也仅仅是还剩五分钟才答完试卷，毕竟是文科，也看不出好坏。下午考的是英语一，再次考，心里也稍微有点底了，但还是感觉难度超出了我的水平。第二天上午的数学二，其实我还是不会的，但至少不会像上次那么惨，大题部分多多少少还是回答了一些的。我感觉回答得最好的还是最后的专业课，C语言和数据结构毕竟不算难，尽管我没研究过东北师范大学的历年真题，但是在这个范围之内，不管怎么出题，也就是那些类型，也就是那么回事，也不会有什么创新的。同时我也觉得我那次的题目也并不难，好像也就是最后的大题不确定，其他的题目，自我感觉回答得还是挺好的。</p>
-<p>总体来说，我觉得这次考的比上次好，但是毕竟有失败的经验，因此对于像是英语以及数学（主要是数学）这两科，心里还是很没底的。心里想着，如果说这两科没问题的话，那么我应该就能考上了。毕竟东北师范大学也不是什么热门的高校，初试通过，那么复试也没啥问题了。而这次的考研结束之后，我也就回家了。</p>
-<h4 id="第二次考研的失利"><a href="#第二次考研的失利" class="headerlink" title="第二次考研的失利"></a>第二次考研的失利</h4><p>由于我自己感觉考的还可以，加上如果通过了初试，那么复试是很快就会到来的，因此还是很有必要提前准备一下东北师范大学的复试科目的。没记错的话，复试考的应该是数学分析，于是我就按照要求买了对应的教材以及练习题集，心里想着一旦出了成绩，我就第一时间开始学习。说到这里我想起来，之前考清华，在等待成绩的时候，我也是买了相应的复试教材，一本人工智能，一本多媒体。可惜的是，这两次买的书，到最后我一眼也没看，也都是卖废纸了。</p>
-<p>等待成绩的日子其实是很不好过的，出了成绩我甚至都没敢看。最终，我的政治是53分，英语一是52分，数学二是51分，专业课是111分，总分267分。对比来看，我这次的成绩比上次的进步是不少的，每科都比上次的多，尽管考的内容不一样。每门科目的分数都和我之前的预期差不多，并没有特别惊讶的。但可惜的是，我的数学仅仅只有51分，依旧没能过国家线，那么也就宣告了我第二次考研的失败。</p>
-<p>当时，考研第二次失败，令我感觉非常的迷茫。没有工作，毅然决然离职考研，自己这么做到底对不对呢？对自己当初的选择也是产生了疑问。这次又没考上，那么我接下来应该怎么办，是继续考，还是就此放弃，安安心心地找工作上班呢？毕竟经历了两次的考研，仅仅剩下数学这一门科目需要提高，也许再考一次也未尝不可。但这势必要再荒废一年的时间用于复习，这真的值得吗？我也是陷入了深深的矛盾之中。</p>
-<p>那个时候，我是极度自卑的，连老同学给我打电话我也不好意思接，生怕让他们知道我的现状，生怕被他们知道我现在混得很可怜，那样的话我就彻底抬不起头了。用“跌落谷底”一词来形容我当时的状态，一点也不过分。</p>
-<h3 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h3><h4 id="机遇"><a href="#机遇" class="headerlink" title="机遇"></a>机遇</h4><p>由于我的数学分数没有过国家线，同时也影响了总分，因此别说东北师范大学了，即便是那些普通高校，想调剂也是不可能的了。好在天无绝人之路，某天上网的时候，也忘了当时是怎么搜到的了，突然发现厦门大学的软件工程学院接收类似我这种的落榜考生。不过看了介绍发现，这是属于在职研究生性质的，毕业时只有学位证而没有毕业证，也就是说这个学位只有厦门大学认可，国家完全是可以不承认的，也就是所谓的单证（现在已经取消了）。而这种调剂只有一个专业方向，那就是“移动云计算”，说白了就是iOS以及Android开发。其实按照现在的眼光来看，懂得这种移动开发的程序员，绝对是吃香的，很多培训机构也在搞这方面的教学，业界需求也是很大，待遇往往也是非常高的。而厦门大学在2012年的时候（似乎更早）就开始培养这样的工程师，可见他们的眼光还是非常的独到的。</p>
-<p>可惜的是当时我对于这个方向一点也不感兴趣，当时也不理解这究竟有什么用，到底好不好找工作，主要是对软件开发方向心存恐惧，毕竟自己实在是不擅长写程序。其实现在来看，这些担忧完全是多余的。我研究生的一个室友，他的两个本科同学，觉得自己的工作不太好，就想转为移动开发的程序员，并且报了班。经过几个月的全职培训，即便不是计算机出身的，最后也能够达到不错的开发水平，也在北京签了还算不错的单位，待遇也很好（至少比之前的工作待遇好）。在北京，类似这种跨专业学习开发的，还是有很多人的，我现在也是比较看好移动开发方向。</p>
-<p>尽管对于移动云计算不感兴趣，但想想这毕竟是厦门大学，985名校，加上自己也没什么出路了，因此还是向他们发了调剂申请。</p>
-<p>由于我发现竟然存在单证这种培养模式，我在想别的院校会不会也招收单证的学生呢？我上网一搜，还真有不少。比如北京邮电大学、北京工业大学以及北京理工大学等。由于北理工的单证招收的是金融类软件开发方向，我更是不感兴趣（其实当时我对什么感兴趣，自己也不知道），就放弃了北理工。同时觉得自己应该广撒网，多申请调剂几所院校，这样成功率能大一些。于是也向北邮以及北工大提出了调剂请求。</p>
-<h4 id="单证的复试"><a href="#单证的复试" class="headerlink" title="单证的复试"></a>单证的复试</h4><p>三所高校里面，最开始通知我去复试的是厦门大学，我也是第一次去厦门，顺便还去鼓浪屿玩了一圈。我觉得假设我真的选择了厦门大学，那么唯一的不利因素应该就是交通了。因为那个时候，假设不坐飞机，坐火车的话，从广州到厦门好像只有两班车，没有高铁，都是要在火车上睡一觉，第二天才能到目的地的。由于在交通上没有更多的选择权，所以厦门在我心里面就打了折扣。</p>
-<p>但是厦门是一个很漂亮的城市。以前就总听说厦门大学风景优美，来到这里发现果然名不虚传。即便不是作为大学，它也是一个很棒的公园。但是软件学院距离主校区还有一段路程，大概两公里的样子，这段路是沿海的，所以风景也是不错，我甚至还畅想着以后每天上学放学，都可以来海边逛一逛了。</p>
-<p>来到软件学院，这里已经聚集了好多人，看来厦门大学也还是很吸引人的。由于人多，因此复试分为了两批。当时由于没人通知我，害得我差点错过了我的面试。关于面试其实没什么好说的，无非是走个形式，主要是我也忘记了当时都问了我什么东西。整个流程很快，很简单，面试结束后，我也就直接回珠海了。但是这里有件事还得说一下，就是由于厦门大学的这个单证研究生属于在职性质，因此按道理是需要在申请表上，盖上就职单位的公章的。由于我没有工作单位，因此我找的还是长春的省人才，也就是保留我档案的地方，让他们给我盖章（我还真是年年都去省人才，年年都找同一个人办事）。可是按照厦大的要求，单位盖的章需要盖在照片上，而省人才那个家伙说没干过这种事，不能够确定照片就是我本人。好说歹说他也不同意，所以最后就只能盖到照片旁边了。但是厦大招生办不认可这个申请表，一定要把章盖到照片上。没办法，后来也是托关系找朋友，用他们单位的公章给我盖上了，然后再把报名表寄到厦大，经过一番折腾，才算是彻底完事了。</p>
-<p>厦大给我的总体感觉还是非常棒的，但是如果来这里上学，却有一个硬伤，那就是由于我们属于在职的性质，因此我们不能够享受到正规研究生的待遇。比如，我们是周六周日上课的，周一到周五也就只能闲着了。按照招生办的说法，我们可以利用这个时间去打工实习。其次，学校是不给我们解决住宿问题的，因此我们也就只能自己想办法在外面租房子住。正是由于这些很不人性化的措施，使得我最终决定不去厦门大学了，尽管后来也收到了厦大的录取通知。邮件通知我被录取的时候，厦大还在邮件里面附上了书单，希望我们在入学前看看这些书，先打好基础。书单里面有诸如Java开发的经典技术类书籍，还有诸如《我是一只IT小小鸟》这一类的IT前辈的故事汇总以及面试技巧方面的书籍。厦大这么做还是很不错的，尽管我最终没去厦大，但是我还是买了书单里面非技术类的书籍，其中我最喜欢的莫过于《我是一只IT小小鸟》了，确实是鼓舞人心，书中的故事也说明了，即便是单证毕业，也会有很好的出路。</p>
-<p>接下来，北邮和北工大的复试通知也是接踵而至，二者的复试也没什么可说的，主要也是忘了。毕竟我当时也不懂什么技术，真要问我技术类的问题，我也只能回答不知道了。我听其他面试的同学说，其实面试官还是比较在意我们的本科院校排名的，主考官在问完我们的本科院校以后，他的助手就会赶紧查学校的排名。我心想这样的话我就更没啥竞争优势了，毕竟理工大学的全国排名大概是170左右。另外，北工大的复试还多了笔试环节，也就是看你在考研的时候哪科没过线，那么复试的时候就要重新考哪科了（学院自主命题）。由于我是数学挂了，所以我只要考高数就可以了。事先学院已经给我们发了几套卷子，我研究了几天，到复试的时候也就不怕了，甚至还找出了考卷上的错误。由于这两所学校是我最后的救命稻草，因此复试完我还追着招生办的人问到底什么时候出结果，他们也只是让我回去等，所以我内心还是很忐忑的。</p>
-<h4 id="选择"><a href="#选择" class="headerlink" title="选择"></a>选择</h4><p>我之前的担心纯属多余，北邮和北工大的录取通知也很快就到了，看来这些院校招收单证的学生，复试应该也就是走个形式而已。由于我之前已经把厦大给否定了，那么摆在我面前的就只剩下北工大和北邮了。这两所学校在研究生的培养上还是比较相似的，首先上课是周一到周五，住在学校的学生宿舍里面。还有一件事是厦大不能比的，那就是北工大和北邮允许单证转为双证，也就是转为正规硕士。前提是第二年需要再参加一次考研，报考本校本专业，只要能够考上，那么单证时修的学分还有交的学费都可以转到双证上，这样单证时候上的课并不白上，双证还是认可单证的课程的。这项政策这就很吸引我了，我还是很希望自己能够转为正规双证研究生的。</p>
-<p>这两所学校的学费都是四万，不同的是，北工大是三年制，而北邮是两年制的。考虑了很久，觉得北邮的名气似乎要比北工大高一些，于是就选择了北邮，痛快地交了第一年的学费两万块钱。当时北工大招生办还打电话问我去不去上学了，我因为已经决定去北邮了，所以在电话里面也就拒绝了。北邮还有一点让我觉得很不错的是，入学前给我们发了一封邮件，是关于联想在暑期招聘开发实习生的，我们北邮的学生只要报名，基本都能去实习了。但我当时实在是太菜，就没申请。我当时就觉得北邮很是为我们着想，心里面就给北邮加了不少分。</p>
-<h4 id="反悔"><a href="#反悔" class="headerlink" title="反悔"></a>反悔</h4><p>由于是去上学，所以我的行李还是不少的。软件学院在北邮的宏福校区，是距离北京市中心相当遥远的一个地方了。记得当时我自己提着一大堆的行李，先是从北京站坐地铁倒地铁，最后来到了天通苑北，接下来已经没有地铁了，只能坐快速公交。从北京站算起，全程三十公里，折腾了能有一个半小时，终于到了学校。可是校门距离宿舍还是有挺长的一段距离的，这一路可把我给累坏了。</p>
-<p>我是提前一天到的，没想到我竟然是第一个来的。虽说校区应该是新盖的，可是宿舍的条件实在是不敢恭维。宿舍里的设施全都是木头的，木头的桌椅，木头的上下铺。我躺在床上翻个身还嘎吱嘎吱地响个不停，这就很让我不满了。不过还是算了，既来之则安之吧。由于是新生开学，因此我们宿舍楼下就有很多小贩摆摊售卖生活用品。我下楼买了很多必需品，比如枕头、枕巾、床垫、床罩以及台灯之类，还有牙刷牙膏洗发水肥皂香皂等等。买东西还是很方便的，在这个校区，宿舍楼下宛如一个集市，特别是到了晚上，就变成了夜市，小店铺很多，很是热闹，我也是很喜欢这样的氛围。</p>
-<p>可是接下来我就要开始吐槽了，因为我买的生活用品很多都是假冒伪劣产品（当然这也是我在用了一段时间之后才发现的）。比如牙刷，用一次就脱一次毛，没多久就秃瓢了；比如香皂，遇水依旧保持石头的姿态，根本就不会融化；比如洗发水，明明是去屑类型的，洗完头反而更痒了（后来上网查才知道，出现这种情况说明洗发水是假的）；比如枕头，里面的填充材料没过多久就发霉变黑了；比如毛巾被，不论怎么洗都有一股怪味；比如台灯，发热特别严重，冬天都不用开暖气了……当然大家可能会问，我是不是专门挑便宜的买的，其实我选的都是正规大品牌，像是海飞丝以及舒肤佳这种，而且还是分别在不同的小商店里买的，没想到还是买到了假货（也不知道有没有真货）。其次，那天晚上我是几乎没睡的，因为毫不夸张地说，整晚我大概是打死了二十只蚊子。这种艰苦的条件实在是太让我崩溃了。睡不着，于是上网查了查北邮软件工程专业（双证）的招生说明，竟然发现它要考政治、数学一、英语一以及北邮自己出的专业课试卷，而北邮自己命题的专业课，难度竟然不亚于408！这就给了我这个学渣沉重的一击，即便是第二年再考，我觉得自己应该还是考不上的。以上种种不利因素加在一起，让我考虑了一整晚，最终决定，离开北邮，转去北工大上学。</p>
-<h4 id="最终还是来到了北工大"><a href="#最终还是来到了北工大" class="headerlink" title="最终还是来到了北工大"></a>最终还是来到了北工大</h4><p>第二天我起得很早，因为按照要求是要去主校区报到的。由于我之前已经是交了两万块钱的学费，所以我要走的话，也得是把钱要回来才行。我来到主校区，打听了好久，转了好几圈，并没有找到负责人，心里很是着急，千方百计地打听到了学院负责人的电话，听说她在宏福校区，我又赶紧回来。终于找到负责人，她们态度也还是挺好的，我说我家里有事，不想读研了，她很是理解，很爽快地就同意了我的要求，同时也收回了我的录取通知书，并让我去主校区办一张卡，到时候退款就打到这个卡里面。然后我又折腾回去办了卡，最后回到宏福校区已经是晚上了，我整理了我的所有行李，放在了刚认识的一个和我同一批考上北邮读研的朋友的宿舍，然后就赶到火车站，坐晚上的火车回家了。</p>
-<p>当然了，我之前已经是给北工大打了电话，确认我还可以回去上学，只要我按时去报到就可以了。庆幸北工大开学比北邮晚，否则我可能真的没学可上了。</p>
-<p>大概是在家待了一周吧，北工大要开学了，于是我也就提前一天回到了北京。当时我打听到，我的一个本科的同学，也在北工大软件学院读研究生（双证），还有一年就毕业了。我真的很惊讶，因为给我的感觉，他在本科时候，是一个非常纯粹的文科生，文笔极好，文章也曾经在比较知名的刊物上发表过。记得本科时我们有一门叫做《计算机应用基础》的课程，期末考的时候他的备考方法竟然是把整本书背下来。本科时候，他自己也说，自己对计算机技术是一窍不通的，因此也就只能通过死记硬背的方式来备考了。而他现在竟然来到了北工大的软院，令我很是觉得不可思议。他和我说，当时他是想考吉林大学的管理类专业，可是分数不够，后来知道北工大可以调剂（双证），于是就调剂过来了。在和他的交谈中，我也发现他对于软件开发技术确实是有自己独到的见解，俨然成为了软件开发的老手，说明北工大硕士研究生的培养方式，真的是可以改变一个人的，确实可以将一个文科生改造成优秀的软件工程师。这也令我对他刮目相看，我觉得自己也要利用读研的时间好好学习才可以（尽管我是单证），否则我真的就落后了（本来水平就不高）。当时我还问他，入学之后有没有项目可以做，他说每个老师都会有项目，这就让我放心了，只要有实际练手的机会，我就不愁自己的水平上不去（可惜最终结果事与愿违）。</p>
-<p>当时我的所有行李都还在北邮的宏福校区放着呢，我也赶紧去了那里，租了一辆车，把我的东西都拉到了北工大我的那个老同学的寝室。心里想着等分配寝室之后再搬走。本以为我也能住中蓝公寓，结果最后住在了北研楼。尽管离学校近了，但是住宿条件是没有中蓝好的，但是这也比北邮强。</p>
-<p>在我们单证的开学典礼上，学院领导花了很大的篇幅介绍了我们的一个单证学长，曾经的微软创新英雄，现在自主创业，也是北工大软件学院毕业生里面的名人了。意思是即便是单证，也不要失落，自己的未来掌握在自己的手中，和单双证无关。领导的话确实很鼓舞人心，相信当时我们每个人都暗暗下了决心，要认真钻研技术，将来做出一番成绩。</p>
-<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>至此，尽管我已经来读了研究生，但是我的考研故事还没有结束。我说了，我还是想要再考一次，成为正规的双证研究生的。毕竟我的高中同学以及本科同学里面，有不少硕士，特别是刚刚提到的那个纯文科出身的同学。我感觉我一个单证硕士在他们面前特别抬不起头，因此还是想要再努力一把，为自己的考研故事画上圆满的句号的。事不过三，也许我的第三次考研真的就能成功呢？</p>
-<p>那么接下来的故事，就完全围绕着北工大展开了，也是本系列故事发生的最后一个地方。在北工大经历的种种，也是令我难忘，也有着非常曲折的心路历程，来与大家分享。</p>
-]]></content>
-      <categories>
-        <category>姜晔传 (The Autobiography of Jiangye)</category>
-      </categories>
-      <tags>
-        <tag>Story</tag>
-        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
