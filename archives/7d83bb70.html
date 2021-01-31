@@ -30,7 +30,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gn4nztqqvjj30xc0egq44.jpg">
 <meta property="article:published_time" content="2021-01-13T12:04:58.000Z">
-<meta property="article:modified_time" content="2021-01-31T03:29:53.247Z">
+<meta property="article:modified_time" content="2021-01-31T03:52:57.526Z">
 <meta property="article:author" content="Yousazoe">
 <meta property="article:tag" content="Unity">
 <meta property="article:tag" content="C#">
@@ -258,13 +258,13 @@
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
               </span>
-              <span>27k</span>
+              <span>28k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
-              <span>49 分钟</span>
+              <span>50 分钟</span>
             </span>
 
         </div>
@@ -509,7 +509,11 @@
 
 <p>在属性<code>Target</code>中首先我们将目标字段设为正确值，然后停止任何移动协同程序。需要注意的是<code>StopCoroutine</code>仅适用于已通过字符串调用启动的协同程序，就像下一行一样。</p>
 <p>我们的移动协同程序与上个示例相似，它计算对象位置到给定目标位置的插值距离并移动直至二者接近。这样设置脚本的效果是将获得一个移动的游戏对象而不必使用逐帧轮询值的<code>Update</code>函数，轮询值会降低我们编写代码的效率，虽然有时必须要这么做，但我们应尽量避免。</p>
-<h3 id="四元数"><a href="#四元数" class="headerlink" title="四元数"></a>四元数</h3>
+<h3 id="四元数"><a href="#四元数" class="headerlink" title="四元数"></a>四元数</h3><p>在Unity中，转换旋转存储为四元数，它们类似于向量但有4个组件<code>x</code>、<code>y</code>、<code>z</code>和<code>w</code>，这些组件相互依赖并配合使用，从而定义对象可能需要的任何旋转。关于四元数的处理最值得注意的其中一个方面是由于<code>x</code>、<code>y</code>、<code>z</code>和<code>w</code>组件是配合使用的，因此不能仅调用个别组件，所幸Unity有许多内置函数可简化四元数的管理。有一种管理旋转的系统大家可能都有所耳闻，叫做欧拉角。Inspector中显示的旋转值就使用了这个系统，因为它更易于理解。</p>
+<p>欧拉角旋转基于围绕x、y和z轴的旋转，你可能会问既然欧拉角更容易理解那为什么Unity要使用四元数？特别是在Inspector中Unity要将四元数转换为欧拉角。可以这样说，欧拉角要遵从万向节锁，而万向节锁会妨碍增量旋转正常工作。幸运的是Unity将旋转存储为四元数，四元数不受万向节锁的影响，因此我们不会遇到这个问题。</p>
+<p>我们来看通过四元数类提供的某个功能，我们从<code>LookRotation</code>函数入手：</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> System.Collections;</span><br><span class="line"><span class="keyword">using</span> System.Collections.Generic;</span><br><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">LookAtScript</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">public</span> Transform target;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Update</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        Vector3 relativePos = target.position - transform.position;</span><br><span class="line">        transform.rotation = Quaternion.LookRotation(relativePos);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
     </div>
 
     
@@ -681,7 +685,7 @@
     <!--
       <span class="post-meta-item-text">站点总字数：</span>
     -->
-    <span title="站点总字数">635k</span>
+    <span title="站点总字数">636k</span>
 
   <!--
     <span class="post-meta-divider">|</span>
@@ -689,7 +693,7 @@
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">19:15</span>
+    <span title="站点阅读时长">19:17</span>
   -->
   
 </div>
