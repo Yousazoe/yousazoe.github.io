@@ -718,13 +718,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/LeetCode/</loc>
-    <lastmod>2021-02-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/tags/Write/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
@@ -887,6 +880,13 @@
   
   <url>
     <loc>http://yousazoe.top/tags/Github/</loc>
+    <lastmod>2021-02-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/LeetCode/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
