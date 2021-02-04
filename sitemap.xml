@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yousazoe.top/archives/3bcb4b40.html</loc>
+    <loc>http://yousazoe.top/archives/293466a9.html</loc>
     
     <lastmod>2021-02-04</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yousazoe.top/archives/293466a9.html</loc>
+    <loc>http://yousazoe.top/archives/3bcb4b40.html</loc>
     
     <lastmod>2021-02-04</lastmod>
     
@@ -520,14 +520,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/archives/21f5c0c6.html</loc>
+    <loc>http://yousazoe.top/archives/24a69431.html</loc>
     
     <lastmod>2020-12-07</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yousazoe.top/archives/24a69431.html</loc>
+    <loc>http://yousazoe.top/archives/21f5c0c6.html</loc>
     
     <lastmod>2020-12-07</lastmod>
     
@@ -712,6 +712,13 @@
   
   <url>
     <loc>http://yousazoe.top/tags/Unity/</loc>
+    <lastmod>2021-02-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/LeetCode/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
