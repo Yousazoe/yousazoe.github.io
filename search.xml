@@ -429,6 +429,19 @@
 <p>然后我们在站点的配置文件<code>_config.yml</code> 中添加配置，将 <code>nofollow</code> 设置为 <code>true</code>：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 外部链接优化</span></span><br><span class="line"><span class="attr">nofollow:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">site</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;exclude1.com&#x27;</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;exclude2.com&#x27;</span></span><br></pre></td></tr></table></figure>
 <p>其中 <code>exclude</code>（例外的链接，比如友链）将不会被加上 <code>nofollow</code> 属性。</p>
+<h3 id="侧栏标签云"><a href="#侧栏标签云" class="headerlink" title="侧栏标签云"></a>侧栏标签云</h3><h4 id="地址-8"><a href="#地址-8" class="headerlink" title="地址"></a>地址</h4><p><a href="https://github.com/D0n9X1n/hexo-tag-cloud">hexo-tag-cloud</a></p>
+<h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><ul>
+<li><p>进入到 hexo 的根目录，然后在 <code>package.json</code> 中添加依赖: <code>&quot;hexo-tag-cloud&quot;: &quot;2.1.*&quot;</code></p>
+</li>
+<li><p>然后执行 <code>npm install</code> 命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-tag-cloud</span><br></pre></td></tr></table></figure></li>
+<li><p>然后需要你去修改主题的 tagcloud 的模板，这个依据你的主题而定。</p>
+</li>
+</ul>
+<p>这里以 Next 主题为例，找到文件 <code>next/layout/_macro/sidebar.swig</code>, 然后添加如下内容。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;site-overview-wrap sidebar-panel&quot;</span>&gt;</span></span><br><span class="line">  &#123;&#123; partial(&#x27;_partials/sidebar/site-overview.swig&#x27;, &#123;&#125;, &#123;cache: theme.cache.enable&#125;) &#125;&#125;</span><br><span class="line"></span><br><span class="line">  &#123;&#123;- next_inject(&#x27;sidebar&#x27;) &#125;&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">&#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;&#123;&#123; url_for(&#x27;/js/tagcloud.js&#x27;) &#125;&#125;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;&#123;&#123; url_for(&#x27;/js/tagcanvas.js&#x27;) &#125;&#125;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h3</span> <span class="attr">class</span>=<span class="string">&quot;widget-title&quot;</span>&gt;</span>Tag Cloud<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width:100%&quot;</span>&gt;</span></span><br><span class="line">            &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">        <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&#123;%- if theme.back2top.enable and theme.back2top.sidebar %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;back-to-top motion-element&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;fa fa-arrow-up&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span>&gt;</span>0%<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure>
+
+
 ]]></content>
       <categories>
         <category>博客搭建 (Blog Building)</category>
@@ -844,7 +857,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#101;&#x6e;&#x78;&#x75;&#x40;&#116;&#x65;&#110;&#99;&#101;&#110;&#x74;&#x2e;&#99;&#111;&#x6d;">&#108;&#x65;&#101;&#x6e;&#x78;&#x75;&#x40;&#116;&#x65;&#110;&#99;&#101;&#110;&#x74;&#x2e;&#99;&#111;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#101;&#110;&#x78;&#x75;&#x40;&#x74;&#101;&#110;&#x63;&#101;&#x6e;&#x74;&#x2e;&#99;&#111;&#x6d;">&#x6c;&#x65;&#101;&#110;&#x78;&#x75;&#x40;&#x74;&#101;&#110;&#x63;&#101;&#x6e;&#x74;&#x2e;&#99;&#111;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -1827,285 +1840,6 @@
       </tags>
   </entry>
   <entry>
-    <title>图形技术发展&amp;动作游戏发展</title>
-    <url>/archives/21f5c0c6.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghr9b2xyjej30xc0ot42q.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="behance.net/gallery/102282989/Selected-works-2019-2020?tracking_source=best_of_behance">Selected works | 2019-2020</a> by 
-      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
-    </i>
-  </font>
-</div>
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文从图形技术的发展延伸到动作游戏的发展，讲述动作游戏这一品类。</p>
-<a id="more"></a>
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>任爽/Sionx</strong></p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-</ul>
-<p>###《吃豆人》游戏图形的起源</p>
-<ul>
-<li><p>动作游戏界定</p>
-<ul>
-<li>通过手眼的配合作出即时反馈的游戏统称为动作游戏</li>
-</ul>
-</li>
-<li><p>动作游戏品类</p>
-<ul>
-<li>平台跳跃</li>
-<li>横版过关</li>
-<li>动作射击</li>
-<li>动作冒险</li>
-<li>动作角色扮演</li>
-<li>格斗</li>
-</ul>
-</li>
-<li><p>2D时代</p>
-<ul>
-<li><p>FC</p>
-<ul>
-<li>1983年发售</li>
-<li>处理器 &emsp; 8位</li>
-<li>输出分辨率  &emsp; 256 x 240</li>
-<li>内存 &emsp; 2KB</li>
-</ul>
-</li>
-<li><p><strong>《吃豆人》</strong></p>
-<ul>
-<li>1980年发售</li>
-<li>16进制代码创建图像</li>
-</ul>
-</li>
-<li><p>2D为主</p>
-<ul>
-<li><p>类似摇杆的外设</p>
-</li>
-<li><p>SEGA Degitizer System</p>
-<ul>
-<li>有效改善2D图像制作效率问题 </li>
-</ul>
-</li>
-<li><p>SEGA Degitizer System 3</p>
-</li>
-<li><p>早期的动作游戏都以横版表现形式为主</p>
-<ul>
-<li>通过算法水平镜像使资源只需一套解决左右翻转问题</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《超级马里奥兄弟》</strong></p>
-<ul>
-<li>1985年发售</li>
-<li>平台跳跃的鼻祖<ul>
-<li>奠定基础规则</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《热血硬派》</strong></p>
-<ul>
-<li>1986年发售</li>
-<li>八方向移动对横版过关类游戏具有深远的影响力</li>
-</ul>
-</li>
-<li><p><strong>《合金弹头》</strong></p>
-<ul>
-<li>1996年SNK发售</li>
-<li>动作射击类的巅峰之作</li>
-</ul>
-</li>
-<li><p><strong>《真人快打》</strong></p>
-<ul>
-<li>1992年Midway发售</li>
-<li>最早出现以真人拍摄制作的格斗游戏</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="3D时代"><a href="#3D时代" class="headerlink" title="3D时代"></a>3D时代</h3><ul>
-<li><p>主机游戏机</p>
-<ul>
-<li>1994年发售</li>
-<li>处理器  &emsp; 32位</li>
-<li>输出分辨率  &emsp; 640 x 480px</li>
-<li>内存 &emsp; 2MB</li>
-<li>最高性价比机能去体验更好的视觉效果和游戏乐趣</li>
-</ul>
-</li>
-<li><p><strong>《玩具总动员》</strong></p>
-<ul>
-<li>1995年发售</li>
-<li>3D技术的普及<ul>
-<li>3D在表现和效率上体现出巨大优势</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《VR展示战士》</strong></p>
-<ul>
-<li>1994年发售</li>
-<li>第一款3D格斗游戏</li>
-</ul>
-</li>
-<li><p><strong>《超级马里奥64》</strong></p>
-<ul>
-<li>1994年发售</li>
-<li>第一步3D化的马里奥系列<ul>
-<li>平面 -&gt; 3D</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《古墓丽影》</strong></p>
-<ul>
-<li>1996年发售</li>
-<li>动作冒险类游戏在PC上获得成功<ul>
-<li>3D游戏和2D游戏完全拉开一个质的变化</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《生化危机》</strong></p>
-<ul>
-<li>1996年发售</li>
-<li>‘坦克式’移动<ul>
-<li>机能不足</li>
-<li>使用固定视角去切换场景</li>
-<li>不同真正的模型，贴图去处理中远景</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="次世代"><a href="#次世代" class="headerlink" title="次世代"></a>次世代</h3><ul>
-<li><p>次世代</p>
-<ul>
-<li>法线贴图</li>
-<li>高光贴图</li>
-<li>动作捕捉</li>
-<li>PBR</li>
-<li>即时渲染光影</li>
-</ul>
-</li>
-<li><p>PlayStation3</p>
-<ul>
-<li>处理器 &emsp; 18m PowerPC 3.2Hz</li>
-<li>输出分辨率 &emsp; 1080p</li>
-<li>内存 &emsp; 256MB</li>
-<li>显存 &emsp; Reality Synthesizer，R5X</li>
-</ul>
-</li>
-<li><p><strong>《暗黑破坏神2》</strong></p>
-<ul>
-<li>2000年发售</li>
-<li>三渲二技术<ul>
-<li>CG技术远远大于即时演算技术</li>
-<li>追求高画质体验</li>
-<li>2D序列帧</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《地下城与勇士》</strong></p>
-<ul>
-<li>2005年发售</li>
-<li>网络时代的横版动作游戏<ul>
-<li>数值成长体系</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《陇村正》</strong></p>
-<ul>
-<li>2009年发售</li>
-<li>2D不再局限于像素风格</li>
-<li>次世代制作的2D横版动作游戏延续</li>
-</ul>
-</li>
-<li><p><strong>《火影忍者：究极风暴4》</strong></p>
-<ul>
-<li>2016年发售</li>
-<li>卡通渲染技术的格斗游戏</li>
-</ul>
-</li>
-<li><p><strong>《塞尔达传说：荒野之息》</strong></p>
-<ul>
-<li>2017年发售</li>
-<li>物理特性让玩法拥有多样性</li>
-</ul>
-</li>
-<li><p><strong>《怪物猎人：世界》</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>独乐乐不如众乐乐</li>
-<li>1200+w以上的销量</li>
-</ul>
-</li>
-<li><p><strong>《荒野大镖客：救赎2》</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>融合电影化叙事等多种元素的动作冒险游戏</li>
-<li>追求极致的实时渲染<ul>
-<li>次世代最高顶级的画质表现力</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>次世代的动作明星</p>
-<ul>
-<li>奎托斯</li>
-<li>但丁</li>
-<li>贝优妮塔</li>
-</ul>
-</li>
-<li><p><strong>《只狼》</strong></p>
-<ul>
-<li>2019年发售</li>
-<li>突破传统的动作游戏节奏，鼓励主动进攻</li>
-<li>同时进攻获取最大收益</li>
-</ul>
-</li>
-<li><p>【游戏推荐】</p>
-<ul>
-<li><p><strong>《Cuphead》（茶杯头）</strong></p>
-<ul>
-<li>2017年发售</li>
-<li>2017 TGA最佳美术指导、最佳独立游戏</li>
-</ul>
-</li>
-<li><p><strong>《Celeste》（蔚蓝）</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>2018 TGA最佳独立游戏</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
-    </i>
-  </font>
-</div>]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>美国游戏市场概况</title>
     <url>/archives/24a69431.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghh8o4l8ovj312w0t6aea.jpg"></p>
@@ -2623,6 +2357,285 @@
 </div>
 
 ]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>图形技术发展&amp;动作游戏发展</title>
+    <url>/archives/21f5c0c6.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghr9b2xyjej30xc0ot42q.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="behance.net/gallery/102282989/Selected-works-2019-2020?tracking_source=best_of_behance">Selected works | 2019-2020</a> by 
+      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文从图形技术的发展延伸到动作游戏的发展，讲述动作游戏这一品类。</p>
+<a id="more"></a>
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>任爽/Sionx</strong></p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+</ul>
+<p>###《吃豆人》游戏图形的起源</p>
+<ul>
+<li><p>动作游戏界定</p>
+<ul>
+<li>通过手眼的配合作出即时反馈的游戏统称为动作游戏</li>
+</ul>
+</li>
+<li><p>动作游戏品类</p>
+<ul>
+<li>平台跳跃</li>
+<li>横版过关</li>
+<li>动作射击</li>
+<li>动作冒险</li>
+<li>动作角色扮演</li>
+<li>格斗</li>
+</ul>
+</li>
+<li><p>2D时代</p>
+<ul>
+<li><p>FC</p>
+<ul>
+<li>1983年发售</li>
+<li>处理器 &emsp; 8位</li>
+<li>输出分辨率  &emsp; 256 x 240</li>
+<li>内存 &emsp; 2KB</li>
+</ul>
+</li>
+<li><p><strong>《吃豆人》</strong></p>
+<ul>
+<li>1980年发售</li>
+<li>16进制代码创建图像</li>
+</ul>
+</li>
+<li><p>2D为主</p>
+<ul>
+<li><p>类似摇杆的外设</p>
+</li>
+<li><p>SEGA Degitizer System</p>
+<ul>
+<li>有效改善2D图像制作效率问题 </li>
+</ul>
+</li>
+<li><p>SEGA Degitizer System 3</p>
+</li>
+<li><p>早期的动作游戏都以横版表现形式为主</p>
+<ul>
+<li>通过算法水平镜像使资源只需一套解决左右翻转问题</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《超级马里奥兄弟》</strong></p>
+<ul>
+<li>1985年发售</li>
+<li>平台跳跃的鼻祖<ul>
+<li>奠定基础规则</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《热血硬派》</strong></p>
+<ul>
+<li>1986年发售</li>
+<li>八方向移动对横版过关类游戏具有深远的影响力</li>
+</ul>
+</li>
+<li><p><strong>《合金弹头》</strong></p>
+<ul>
+<li>1996年SNK发售</li>
+<li>动作射击类的巅峰之作</li>
+</ul>
+</li>
+<li><p><strong>《真人快打》</strong></p>
+<ul>
+<li>1992年Midway发售</li>
+<li>最早出现以真人拍摄制作的格斗游戏</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="3D时代"><a href="#3D时代" class="headerlink" title="3D时代"></a>3D时代</h3><ul>
+<li><p>主机游戏机</p>
+<ul>
+<li>1994年发售</li>
+<li>处理器  &emsp; 32位</li>
+<li>输出分辨率  &emsp; 640 x 480px</li>
+<li>内存 &emsp; 2MB</li>
+<li>最高性价比机能去体验更好的视觉效果和游戏乐趣</li>
+</ul>
+</li>
+<li><p><strong>《玩具总动员》</strong></p>
+<ul>
+<li>1995年发售</li>
+<li>3D技术的普及<ul>
+<li>3D在表现和效率上体现出巨大优势</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《VR展示战士》</strong></p>
+<ul>
+<li>1994年发售</li>
+<li>第一款3D格斗游戏</li>
+</ul>
+</li>
+<li><p><strong>《超级马里奥64》</strong></p>
+<ul>
+<li>1994年发售</li>
+<li>第一步3D化的马里奥系列<ul>
+<li>平面 -&gt; 3D</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《古墓丽影》</strong></p>
+<ul>
+<li>1996年发售</li>
+<li>动作冒险类游戏在PC上获得成功<ul>
+<li>3D游戏和2D游戏完全拉开一个质的变化</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《生化危机》</strong></p>
+<ul>
+<li>1996年发售</li>
+<li>‘坦克式’移动<ul>
+<li>机能不足</li>
+<li>使用固定视角去切换场景</li>
+<li>不同真正的模型，贴图去处理中远景</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="次世代"><a href="#次世代" class="headerlink" title="次世代"></a>次世代</h3><ul>
+<li><p>次世代</p>
+<ul>
+<li>法线贴图</li>
+<li>高光贴图</li>
+<li>动作捕捉</li>
+<li>PBR</li>
+<li>即时渲染光影</li>
+</ul>
+</li>
+<li><p>PlayStation3</p>
+<ul>
+<li>处理器 &emsp; 18m PowerPC 3.2Hz</li>
+<li>输出分辨率 &emsp; 1080p</li>
+<li>内存 &emsp; 256MB</li>
+<li>显存 &emsp; Reality Synthesizer，R5X</li>
+</ul>
+</li>
+<li><p><strong>《暗黑破坏神2》</strong></p>
+<ul>
+<li>2000年发售</li>
+<li>三渲二技术<ul>
+<li>CG技术远远大于即时演算技术</li>
+<li>追求高画质体验</li>
+<li>2D序列帧</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《地下城与勇士》</strong></p>
+<ul>
+<li>2005年发售</li>
+<li>网络时代的横版动作游戏<ul>
+<li>数值成长体系</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《陇村正》</strong></p>
+<ul>
+<li>2009年发售</li>
+<li>2D不再局限于像素风格</li>
+<li>次世代制作的2D横版动作游戏延续</li>
+</ul>
+</li>
+<li><p><strong>《火影忍者：究极风暴4》</strong></p>
+<ul>
+<li>2016年发售</li>
+<li>卡通渲染技术的格斗游戏</li>
+</ul>
+</li>
+<li><p><strong>《塞尔达传说：荒野之息》</strong></p>
+<ul>
+<li>2017年发售</li>
+<li>物理特性让玩法拥有多样性</li>
+</ul>
+</li>
+<li><p><strong>《怪物猎人：世界》</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>独乐乐不如众乐乐</li>
+<li>1200+w以上的销量</li>
+</ul>
+</li>
+<li><p><strong>《荒野大镖客：救赎2》</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>融合电影化叙事等多种元素的动作冒险游戏</li>
+<li>追求极致的实时渲染<ul>
+<li>次世代最高顶级的画质表现力</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>次世代的动作明星</p>
+<ul>
+<li>奎托斯</li>
+<li>但丁</li>
+<li>贝优妮塔</li>
+</ul>
+</li>
+<li><p><strong>《只狼》</strong></p>
+<ul>
+<li>2019年发售</li>
+<li>突破传统的动作游戏节奏，鼓励主动进攻</li>
+<li>同时进攻获取最大收益</li>
+</ul>
+</li>
+<li><p>【游戏推荐】</p>
+<ul>
+<li><p><strong>《Cuphead》（茶杯头）</strong></p>
+<ul>
+<li>2017年发售</li>
+<li>2017 TGA最佳美术指导、最佳独立游戏</li>
+</ul>
+</li>
+<li><p><strong>《Celeste》（蔚蓝）</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>2018 TGA最佳独立游戏</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
+    </i>
+  </font>
+</div>]]></content>
       <categories>
         <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
       </categories>
@@ -4886,57 +4899,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#121;&#x6f;&#110;&#x67;&#x40;&#116;&#115;&#x69;&#x6e;&#103;&#x68;&#x75;&#97;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#110;">&#120;&#121;&#x6f;&#110;&#x67;&#x40;&#116;&#115;&#x69;&#x6e;&#103;&#x68;&#x75;&#97;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#121;&#111;&#x6e;&#103;&#x40;&#x74;&#115;&#105;&#110;&#103;&#x68;&#117;&#x61;&#46;&#101;&#100;&#117;&#46;&#x63;&#110;">&#120;&#121;&#111;&#x6e;&#103;&#x40;&#x74;&#115;&#105;&#110;&#103;&#x68;&#117;&#x61;&#46;&#101;&#100;&#117;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#x75;&#99;&#x68;&#x65;&#x6e;&#64;&#109;&#97;&#105;&#x6c;&#46;&#116;&#x73;&#x69;&#x6e;&#103;&#104;&#117;&#97;&#x2e;&#101;&#100;&#117;&#x2e;&#x63;&#x6e;">&#121;&#x75;&#99;&#x68;&#x65;&#x6e;&#64;&#109;&#97;&#105;&#x6c;&#46;&#116;&#x73;&#x69;&#x6e;&#103;&#104;&#117;&#97;&#x2e;&#101;&#100;&#117;&#x2e;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#x75;&#x63;&#104;&#101;&#x6e;&#x40;&#x6d;&#x61;&#105;&#108;&#46;&#116;&#115;&#x69;&#110;&#103;&#x68;&#x75;&#x61;&#x2e;&#x65;&#100;&#x75;&#x2e;&#99;&#x6e;">&#x79;&#x75;&#x63;&#104;&#101;&#x6e;&#x40;&#x6d;&#x61;&#105;&#108;&#46;&#116;&#115;&#x69;&#110;&#103;&#x68;&#x75;&#x61;&#x2e;&#x65;&#100;&#x75;&#x2e;&#99;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#x74;&#101;&#114;&#x6e;&#x61;&#x6c;&#x2e;&#x6e;&#x30;&#56;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#x65;&#x74;&#101;&#114;&#x6e;&#x61;&#x6c;&#x2e;&#x6e;&#x30;&#56;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#101;&#x74;&#x65;&#114;&#110;&#97;&#x6c;&#x2e;&#x6e;&#x30;&#x38;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#101;&#x74;&#x65;&#114;&#110;&#97;&#x6c;&#x2e;&#x6e;&#x30;&#x38;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#98;&#106;&#101;&#x63;&#116;&#107;&#x75;&#x61;&#x6e;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#111;&#98;&#106;&#101;&#x63;&#116;&#107;&#x75;&#x61;&#x6e;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#98;&#106;&#x65;&#99;&#x74;&#107;&#x75;&#97;&#x6e;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#111;&#98;&#106;&#x65;&#99;&#x74;&#107;&#x75;&#97;&#x6e;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#114;&#100;&#102;&#x72;&#97;&#110;&#x6b;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#99;&#114;&#100;&#102;&#x72;&#97;&#110;&#x6b;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#x72;&#100;&#102;&#x72;&#x61;&#110;&#x6b;&#64;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;">&#99;&#x72;&#100;&#102;&#x72;&#x61;&#110;&#x6b;&#64;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#x61;&#99;&#x63;&#x6f;&#114;&#97;&#119;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#116;&#x61;&#99;&#x63;&#x6f;&#114;&#97;&#119;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x74;&#97;&#99;&#x63;&#x6f;&#114;&#97;&#119;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#x74;&#97;&#99;&#x63;&#x6f;&#114;&#97;&#119;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#105;&#x6e;&#x79;&#117;&#110;&#120;&#x69;&#x6e;&#103;&#48;&#x30;&#x30;&#x31;&#64;&#x31;&#54;&#x33;&#46;&#99;&#111;&#x6d;">&#120;&#105;&#x6e;&#x79;&#117;&#110;&#120;&#x69;&#x6e;&#103;&#48;&#x30;&#x30;&#x31;&#64;&#x31;&#54;&#x33;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#120;&#x69;&#110;&#x79;&#x75;&#110;&#120;&#105;&#110;&#x67;&#x30;&#x30;&#x30;&#49;&#64;&#49;&#x36;&#51;&#46;&#x63;&#x6f;&#109;">&#120;&#x69;&#110;&#x79;&#x75;&#110;&#120;&#105;&#110;&#x67;&#x30;&#x30;&#x30;&#49;&#64;&#49;&#x36;&#51;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#x6e;&#111;&#x63;&#117;&#105;&#108;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#x67;&#x6e;&#111;&#x63;&#117;&#105;&#108;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#x6e;&#111;&#99;&#x75;&#105;&#x6c;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#103;&#x6e;&#111;&#99;&#x75;&#105;&#x6c;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#121;&#97;&#x69;&#x72;&#105;&#x61;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#x6d;&#121;&#97;&#x69;&#x72;&#105;&#x61;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x6d;&#x79;&#97;&#x69;&#x72;&#x69;&#97;&#64;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#109;">&#x6d;&#x79;&#97;&#x69;&#x72;&#x69;&#97;&#64;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#x68;&#97;&#110;&#x67;&#x72;&#97;&#105;&#x6e;&#57;&#49;&#x31;&#x40;&#49;&#54;&#51;&#x2e;&#99;&#111;&#x6d;">&#122;&#x68;&#97;&#110;&#x67;&#x72;&#97;&#105;&#x6e;&#57;&#49;&#x31;&#x40;&#49;&#54;&#51;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#x68;&#x61;&#x6e;&#103;&#114;&#x61;&#x69;&#x6e;&#x39;&#49;&#49;&#64;&#49;&#x36;&#51;&#46;&#x63;&#x6f;&#109;">&#x7a;&#x68;&#x61;&#x6e;&#103;&#114;&#x61;&#x69;&#x6e;&#x39;&#49;&#49;&#64;&#49;&#x36;&#51;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#103;&#120;&#x78;&#49;&#50;&#48;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#103;&#103;&#120;&#x78;&#49;&#50;&#48;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x67;&#120;&#x78;&#x31;&#50;&#x30;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;">&#x67;&#x67;&#120;&#x78;&#x31;&#50;&#x30;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -5500,6 +5513,68 @@
       </tags>
   </entry>
   <entry>
+    <title>像素宝典#1</title>
+    <url>/archives/5b27815c.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5yziapgij31hc0u0ak5.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解简单的闪光效果、烟雾效果、攻击动画和跑步循环。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhstr5fj30u008c74z.jpg"></p>
+<h3 id="简单的闪光效果"><a href="#简单的闪光效果" class="headerlink" title="简单的闪光效果"></a>简单的闪光效果</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhu4pzrg30gg0hsqdi.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji9bylbg30gg0hs130.gif"></p>
+<p>这是个简单的闪光动画，最重要的就是时机的掌握。第三帧可以掠过大部分你想闪的区域。</p>
+<p>可以只用左边的简单效果，或者插入一个空白帧后，再加上右边的额外闪光效果。甚至是只用这个额外的部分，取决于实际的效果。</p>
+<h3 id="简单的攻击动画"><a href="#简单的攻击动画" class="headerlink" title="简单的攻击动画"></a>简单的攻击动画</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhwy03pg30e80e87it.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhyq5xhg30e80e8n9u.gif"></p>
+<p>这个稍微复杂点，如何画个最简洁的攻击动画</p>
+<p>做攻击动画最重要的一点就是让玩家输入后瞬间得到反馈。所以第一帧就要立即覆盖攻击判定区域，不要加预判动作，啥都别加。</p>
+<p>整个动作非常的快，还要确保他返回到空闲状态。我通常会额外加一点回弹（第八帧），让动作更有趣一点。</p>
+<blockquote>
+<p>风农：大家要注意这里说的是个简单的动画，如果你的目的是做出某种带有硬直的，或者有起手动作的动画，那肯定要加入一些预备动作的帧。</p>
+<p>其实这里的重点是给反馈，无论是视觉上的还是听觉上的，要迅速的给玩家一个输入的反馈。</p>
+</blockquote>
+<h3 id="烟雾"><a href="#烟雾" class="headerlink" title="烟雾"></a>烟雾</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji6rab1g30e80e8gp4.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji0bi5wg30e80e8qgs.gif"></p>
+<p>每次处理烟雾，水花，火焰这种复杂系统的动画时，我会把这个系统分解成零件，再把这些部分分别画出来。</p>
+<p>考虑一整团烟雾是如何运动的太复杂了，但是一个小的部分的运动相对来说简单一些。</p>
+<p>最后那个例子是个循环烟雾的效果，跟另外几个的区别在于，我差不多每 4 帧就多生成一些烟雾。并且在第一帧延续最后一帧的粒子效果。以后我会对这个循环动画做一期教程讲解。</p>
+<blockquote>
+<p>风农：最后那个循环动画，大家注意看，就是当烟雾快没了的时候，就再生成几个新的大块，同时最后一帧没有消散的粒子，在第一帧里延续下来。这样就循环起来了。拆开看更清楚。</p>
+</blockquote>
+<h3 id="攻击动画-tips"><a href="#攻击动画-tips" class="headerlink" title="攻击动画 tips"></a>攻击动画 tips</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji1yks4g30e609ctb7.gif"></p>
+<p>这个小 tip 是为了回答来自 Cam 的提问：</p>
+<p>“如果剑在角色身前，该怎么画剑的动画？有什么区别吗？剑停在身后的时候那个弧线比较好懂，我想知道在身前的话该怎么画。”</p>
+<p>好问题，如果剑在身前，直接把它往下移动看起来没什么力。有时候，剑，拳头，或者别的什么东西不在你想要的位置，你可能觉得要加个准备帧。这没错，<strong>但是这可以做个假</strong>。我通常会用个”风斩“，或者其他的模糊效果来模拟它。假装攻击是从你想要的位置发起的，而且极大的夸张了整个动作。玩家不会察觉到缺少了准备帧。另外一个技巧就是用长点的返回动画。</p>
+<p>还有，声明一下，上个教程虽然没提，但是我们做的是”玩家的动画“。敌人的动画是应该有准备帧的。有些游戏里玩家也有准备帧，（像恶魔城 Castlevania）。后面我会在进阶一点的攻击动画教程里详细讲，但一般是需要遵守这条法则的，除非你想让玩家感到无力，或者让敌人不好预测，这类东西。</p>
+<p>风农：教程里频繁出现 anticipation frame 这个词，我通常翻译为准备帧。这个概念可以在网上搜到，比如维基百科有个动画的 12 项基本法则，里面有这么一条：</p>
+<blockquote>
+<p>预期动作（Anticipation）</p>
+<p>物体从静止到开始动作前会有所谓的预期动作，可让观众能预知下个动作。例如从高空往下跳跃时会先弯曲膝盖再跳、正在跑步的人要停止跑步前会逐渐变慢步伐等等。在动画中适当加入预期动作不仅可增添生动性，亦可给予观众惊喜性。</p>
+</blockquote>
+<p>感兴趣的可以去看看另外一些法则，如果你需要示例比对，可以去看猫和老鼠，这些东西基本都是美式动漫的风格。</p>
+<h3 id="简单跑步循环"><a href="#简单跑步循环" class="headerlink" title="简单跑步循环"></a>简单跑步循环</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji7o366g30e80e8dlg.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji64j3ig30e80e8dr9.gif"></p>
+<p>大家好像非常想要个走/跑的教程，这就来了。走/跑的动画还是很复杂的，我尽力做出了我能做到的最简洁的动作。我计划对这个主题再做几个教程，关注不同的部位，比如手臂，腿，头部运动，倾斜度等等。</p>
+<p>对学习走/跑动画的同学，我最大的建议是<strong>注意头部的运动</strong>。即使手和腿的动作不太好，但只要头部动作够好，就可以让人信服。</p>
+<p>现在我解释下为什么选这个跑步循环。可能很多人不会喜欢这个“跳起”帧，更想用“过渡位置”帧，像这种：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji3an8cj302m02r0ak.jpg"></p>
+<p>这种也完全 ok。这里只是我能想到的最简单的方式，来做出适合 platformer 类型的跑步动作。走/跑的动画很能体现角色的个性，所以会有无数种方式来做。</p>
+<p>我倾向于“跳起”帧的原因是它非常容易复制，往下拉一两个像素，再稍微动动手和腿，就能得到个“下落”帧。我觉得这种方法做快跑动画非常高效。</p>
+<p>另一个原因是，如果第一帧是个跳跃，就感觉角色瞬间扎进了动作里，让动画更有活力。</p>
+]]></content>
+      <categories>
+        <category>像素宝典 (Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>PAT (Basic Level) Practice</title>
     <url>/archives/d04381bb.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghj9h9wmvbj30xc0irjwp.jpg"></p>
@@ -5732,68 +5807,6 @@
         <tag>C++</tag>
         <tag>PAT</tag>
         <tag>Online Judge</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>像素宝典#1</title>
-    <url>/archives/5b27815c.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5yziapgij31hc0u0ak5.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解简单的闪光效果、烟雾效果、攻击动画和跑步循环。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhstr5fj30u008c74z.jpg"></p>
-<h3 id="简单的闪光效果"><a href="#简单的闪光效果" class="headerlink" title="简单的闪光效果"></a>简单的闪光效果</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhu4pzrg30gg0hsqdi.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji9bylbg30gg0hs130.gif"></p>
-<p>这是个简单的闪光动画，最重要的就是时机的掌握。第三帧可以掠过大部分你想闪的区域。</p>
-<p>可以只用左边的简单效果，或者插入一个空白帧后，再加上右边的额外闪光效果。甚至是只用这个额外的部分，取决于实际的效果。</p>
-<h3 id="简单的攻击动画"><a href="#简单的攻击动画" class="headerlink" title="简单的攻击动画"></a>简单的攻击动画</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhwy03pg30e80e87it.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glijhyq5xhg30e80e8n9u.gif"></p>
-<p>这个稍微复杂点，如何画个最简洁的攻击动画</p>
-<p>做攻击动画最重要的一点就是让玩家输入后瞬间得到反馈。所以第一帧就要立即覆盖攻击判定区域，不要加预判动作，啥都别加。</p>
-<p>整个动作非常的快，还要确保他返回到空闲状态。我通常会额外加一点回弹（第八帧），让动作更有趣一点。</p>
-<blockquote>
-<p>风农：大家要注意这里说的是个简单的动画，如果你的目的是做出某种带有硬直的，或者有起手动作的动画，那肯定要加入一些预备动作的帧。</p>
-<p>其实这里的重点是给反馈，无论是视觉上的还是听觉上的，要迅速的给玩家一个输入的反馈。</p>
-</blockquote>
-<h3 id="烟雾"><a href="#烟雾" class="headerlink" title="烟雾"></a>烟雾</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji6rab1g30e80e8gp4.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji0bi5wg30e80e8qgs.gif"></p>
-<p>每次处理烟雾，水花，火焰这种复杂系统的动画时，我会把这个系统分解成零件，再把这些部分分别画出来。</p>
-<p>考虑一整团烟雾是如何运动的太复杂了，但是一个小的部分的运动相对来说简单一些。</p>
-<p>最后那个例子是个循环烟雾的效果，跟另外几个的区别在于，我差不多每 4 帧就多生成一些烟雾。并且在第一帧延续最后一帧的粒子效果。以后我会对这个循环动画做一期教程讲解。</p>
-<blockquote>
-<p>风农：最后那个循环动画，大家注意看，就是当烟雾快没了的时候，就再生成几个新的大块，同时最后一帧没有消散的粒子，在第一帧里延续下来。这样就循环起来了。拆开看更清楚。</p>
-</blockquote>
-<h3 id="攻击动画-tips"><a href="#攻击动画-tips" class="headerlink" title="攻击动画 tips"></a>攻击动画 tips</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji1yks4g30e609ctb7.gif"></p>
-<p>这个小 tip 是为了回答来自 Cam 的提问：</p>
-<p>“如果剑在角色身前，该怎么画剑的动画？有什么区别吗？剑停在身后的时候那个弧线比较好懂，我想知道在身前的话该怎么画。”</p>
-<p>好问题，如果剑在身前，直接把它往下移动看起来没什么力。有时候，剑，拳头，或者别的什么东西不在你想要的位置，你可能觉得要加个准备帧。这没错，<strong>但是这可以做个假</strong>。我通常会用个”风斩“，或者其他的模糊效果来模拟它。假装攻击是从你想要的位置发起的，而且极大的夸张了整个动作。玩家不会察觉到缺少了准备帧。另外一个技巧就是用长点的返回动画。</p>
-<p>还有，声明一下，上个教程虽然没提，但是我们做的是”玩家的动画“。敌人的动画是应该有准备帧的。有些游戏里玩家也有准备帧，（像恶魔城 Castlevania）。后面我会在进阶一点的攻击动画教程里详细讲，但一般是需要遵守这条法则的，除非你想让玩家感到无力，或者让敌人不好预测，这类东西。</p>
-<p>风农：教程里频繁出现 anticipation frame 这个词，我通常翻译为准备帧。这个概念可以在网上搜到，比如维基百科有个动画的 12 项基本法则，里面有这么一条：</p>
-<blockquote>
-<p>预期动作（Anticipation）</p>
-<p>物体从静止到开始动作前会有所谓的预期动作，可让观众能预知下个动作。例如从高空往下跳跃时会先弯曲膝盖再跳、正在跑步的人要停止跑步前会逐渐变慢步伐等等。在动画中适当加入预期动作不仅可增添生动性，亦可给予观众惊喜性。</p>
-</blockquote>
-<p>感兴趣的可以去看看另外一些法则，如果你需要示例比对，可以去看猫和老鼠，这些东西基本都是美式动漫的风格。</p>
-<h3 id="简单跑步循环"><a href="#简单跑步循环" class="headerlink" title="简单跑步循环"></a>简单跑步循环</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji7o366g30e80e8dlg.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji64j3ig30e80e8dr9.gif"></p>
-<p>大家好像非常想要个走/跑的教程，这就来了。走/跑的动画还是很复杂的，我尽力做出了我能做到的最简洁的动作。我计划对这个主题再做几个教程，关注不同的部位，比如手臂，腿，头部运动，倾斜度等等。</p>
-<p>对学习走/跑动画的同学，我最大的建议是<strong>注意头部的运动</strong>。即使手和腿的动作不太好，但只要头部动作够好，就可以让人信服。</p>
-<p>现在我解释下为什么选这个跑步循环。可能很多人不会喜欢这个“跳起”帧，更想用“过渡位置”帧，像这种：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gliji3an8cj302m02r0ak.jpg"></p>
-<p>这种也完全 ok。这里只是我能想到的最简单的方式，来做出适合 platformer 类型的跑步动作。走/跑的动画很能体现角色的个性，所以会有无数种方式来做。</p>
-<p>我倾向于“跳起”帧的原因是它非常容易复制，往下拉一两个像素，再稍微动动手和腿，就能得到个“下落”帧。我觉得这种方法做快跑动画非常高效。</p>
-<p>另一个原因是，如果第一帧是个跳跃，就感觉角色瞬间扎进了动作里，让动画更有活力。</p>
-]]></content>
-      <categories>
-        <category>像素宝典 (Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
       </tags>
   </entry>
   <entry>
@@ -6215,46 +6228,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Pico-8 精彩代码--触手效果解析</title>
-    <url>/archives/6b115460.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwbahzs4j30m80ci753.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现触手的效果。</p>
-<a id="more"></a>
-
-<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwapwcm0g30bp0bx7u5.gif"></p>
-<h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p><strong>作者：</strong>Luca@lucatron_<br><strong>来源：</strong>twitter</p>
-<p>整理过后 14 行代码：</p>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">c=&#123;<span class="number">10</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">0</span>&#125;</span><br><span class="line">fillp(<span class="number">0xa5a5</span>)<span class="function"><span class="keyword">function</span> <span class="title">_draw</span><span class="params">()</span></span> <span class="keyword">for</span> i=<span class="number">24576</span>,<span class="number">32767</span> <span class="keyword">do</span></span><br><span class="line">  poke(i,peek(i)/<span class="number">2</span>)</span><br><span class="line"> <span class="keyword">end</span></span><br><span class="line"> <span class="keyword">for</span> z=<span class="number">6</span>,<span class="number">1</span>,<span class="number">-.1</span> <span class="keyword">do</span></span><br><span class="line">  <span class="keyword">for</span> b=<span class="number">0</span>,<span class="number">7</span> <span class="keyword">do</span></span><br><span class="line">   b=b/<span class="number">8</span>+<span class="built_in">sin</span>(z/<span class="number">8</span>+t()/<span class="number">4</span>)/<span class="number">30</span></span><br><span class="line">   k=<span class="number">19</span>-<span class="built_in">sin</span>((<span class="number">6</span>-z)/<span class="number">20</span>)*<span class="number">40</span>*(<span class="number">.5</span>+<span class="built_in">sin</span>(t()/<span class="number">2</span>+z/<span class="number">9</span>+b*<span class="number">2</span>)/<span class="number">2</span>)</span><br><span class="line">   circfill(<span class="number">64</span>+<span class="built_in">cos</span>(b)*k,<span class="number">64</span>+<span class="built_in">sin</span>(b)*k,z*<span class="number">2.3</span>,c[flr(z)]+c[flr(z+<span class="number">.5</span>)]*<span class="number">16</span>)</span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"> endend</span><br></pre></td></tr></table></figure>
-<p>1-2 行，<code>c</code> 是触手的颜色，顶部到底部由明止暗。<code>fillp</code> 是填充样式，点阵图样填充，有种渐变的效果（在最后详细解释）。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwan0ucej30lk0bj752.jpg"></p>
-<p>4-6 行，是残影效果，这里没有用 <code>cls</code> 清空画布，直接将屏幕内存中的数值每帧减半，最终降为 <code>0</code> 透明，来实现透明效果</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwaoaasnj30kr0b3q3w.jpg"></p>
-<p>10-11 行，两个嵌套循环，外层的 <code>z</code> 表示，每个触手的层数，内层 <code>b</code> 表示触手的数量（<code>8</code> 个）。单个触手是由从下至上，大小递减，颜色逐渐变亮的圆组成，<code>z</code> 表示圆的位置，相当于 <code>z</code> 轴的坐标，从 <code>6-1</code> 共有 <code>60</code> 层。</p>
-<p>9 行，<code>b/8</code> 将八只触手映射到 <code>0-1</code>，pico8 中三角函数的参数取值 <code>0-1</code> 代表着 <code>0-360°</code>。在第 11 行的 <code>circlefill</code> 圆的绘制函数中，圆 B 的位置 <code>x,y =  64+cos(b)*k,64+sin(b)*k</code>。其中原点是屏幕的中心点 <code>64, 64</code>；角度 <code>b</code> 为每个触手映射的角度，<code>k</code> 为圆至屏幕中心的距离。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwamxxpqj30eg0e9aam.jpg"></p>
-<p>10 行 计算每个圆至屏幕中心的距离 <code>k</code>，我们先把圆的角度 <code>b</code> 从中去掉看下结果。<code>k=19-sin((6-z)/20)*40*(.5+sin(t()/2+z/9)/2)</code></p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwaozlqwg30bp0bx7u5.gif"></p>
-<p>将圆的 <code>z</code> 轴坐标 <code>z</code> 映射到至中心的距离 <code>k</code>，通过 <code>sin</code> 的映射使得，距离 <code>k</code> 根据 <code>z</code> 呈现正弦波的形状。</p>
-<p>最后把角度 <code>b</code> 加回去，<code>k=19-sin((6-z)/20)*40*(.5+sin(t()/2+z/9+b*2)/2)</code> 使得不同的触手在波形上拥有不同的位置。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwaqpv80g30bp0bwtmr.gif"></p>
-<p>第 11 行 <code>circlefill</code> 画圆，其中圆的半径 根据 <code>z</code> 轴距离变化，<code>z*2.3</code>。圆的颜色 <code>c[flr(z)]+c[flr(z+.5)]*16</code> 是两个颜色相加，利用高低位的不同颜色，再配合第 2 行的 <code>fillp</code> 实现两种颜色的填充图样。</p>
-<p>最后补充下 <code>fillp</code> 的用法。pico8 中用一个 <code>4*4</code> 的图来填充 <code>circ()</code> <code>circfill()</code> <code>rect()</code> <code>rectfill()</code> <code>pset()</code> <code>line()</code> 等函数画的图形。</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwanwm3yj30eg0e9aam.jpg"></p>
-<p>16 个像素点用上图表格里的数字代表，如果想让某个点不着色就将点对应的数值累加，将最终得到的值传给 <code>fillp</code>，比如只让对角线 <code>32768,1024,32,1</code> 没有颜色，<code>fillp(32768+1024+32+1)</code></p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwaq5pm4j30jb0a7my5.jpg"></p>
-<p>也可以 <code>7+8*16</code> 指定第二个颜色</p>
-]]></content>
-      <categories>
-        <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Lua</tag>
-        <tag>Pico-8</tag>
-        <tag>Game Engine</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Pico-8 精彩代码--漩涡效果解析</title>
     <url>/archives/2a6e7125.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4obfrjkrj30m80ciaat.jpg"></p>
@@ -6284,6 +6257,46 @@
 <figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">pset(x,y,(a+d/<span class="number">4</span>)%<span class="number">8</span>)</span><br></pre></td></tr></table></figure>
 <p>当把角度和距离加起来的时候神奇的图像就出现了，而且角度 <code>a</code> 必须于 <code>8</code> 的倍数相乘才可以对齐，不知道原理是什么，真的很神奇。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljxi3fnaxj30dq05ogli.jpg"></p>
+]]></content>
+      <categories>
+        <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Lua</tag>
+        <tag>Pico-8</tag>
+        <tag>Game Engine</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Pico-8 精彩代码--触手效果解析</title>
+    <url>/archives/6b115460.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwbahzs4j30m80ci753.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现触手的效果。</p>
+<a id="more"></a>
+
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwapwcm0g30bp0bx7u5.gif"></p>
+<h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p><strong>作者：</strong>Luca@lucatron_<br><strong>来源：</strong>twitter</p>
+<p>整理过后 14 行代码：</p>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">c=&#123;<span class="number">10</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">0</span>&#125;</span><br><span class="line">fillp(<span class="number">0xa5a5</span>)<span class="function"><span class="keyword">function</span> <span class="title">_draw</span><span class="params">()</span></span> <span class="keyword">for</span> i=<span class="number">24576</span>,<span class="number">32767</span> <span class="keyword">do</span></span><br><span class="line">  poke(i,peek(i)/<span class="number">2</span>)</span><br><span class="line"> <span class="keyword">end</span></span><br><span class="line"> <span class="keyword">for</span> z=<span class="number">6</span>,<span class="number">1</span>,<span class="number">-.1</span> <span class="keyword">do</span></span><br><span class="line">  <span class="keyword">for</span> b=<span class="number">0</span>,<span class="number">7</span> <span class="keyword">do</span></span><br><span class="line">   b=b/<span class="number">8</span>+<span class="built_in">sin</span>(z/<span class="number">8</span>+t()/<span class="number">4</span>)/<span class="number">30</span></span><br><span class="line">   k=<span class="number">19</span>-<span class="built_in">sin</span>((<span class="number">6</span>-z)/<span class="number">20</span>)*<span class="number">40</span>*(<span class="number">.5</span>+<span class="built_in">sin</span>(t()/<span class="number">2</span>+z/<span class="number">9</span>+b*<span class="number">2</span>)/<span class="number">2</span>)</span><br><span class="line">   circfill(<span class="number">64</span>+<span class="built_in">cos</span>(b)*k,<span class="number">64</span>+<span class="built_in">sin</span>(b)*k,z*<span class="number">2.3</span>,c[flr(z)]+c[flr(z+<span class="number">.5</span>)]*<span class="number">16</span>)</span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"> endend</span><br></pre></td></tr></table></figure>
+<p>1-2 行，<code>c</code> 是触手的颜色，顶部到底部由明止暗。<code>fillp</code> 是填充样式，点阵图样填充，有种渐变的效果（在最后详细解释）。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwan0ucej30lk0bj752.jpg"></p>
+<p>4-6 行，是残影效果，这里没有用 <code>cls</code> 清空画布，直接将屏幕内存中的数值每帧减半，最终降为 <code>0</code> 透明，来实现透明效果</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwaoaasnj30kr0b3q3w.jpg"></p>
+<p>10-11 行，两个嵌套循环，外层的 <code>z</code> 表示，每个触手的层数，内层 <code>b</code> 表示触手的数量（<code>8</code> 个）。单个触手是由从下至上，大小递减，颜色逐渐变亮的圆组成，<code>z</code> 表示圆的位置，相当于 <code>z</code> 轴的坐标，从 <code>6-1</code> 共有 <code>60</code> 层。</p>
+<p>9 行，<code>b/8</code> 将八只触手映射到 <code>0-1</code>，pico8 中三角函数的参数取值 <code>0-1</code> 代表着 <code>0-360°</code>。在第 11 行的 <code>circlefill</code> 圆的绘制函数中，圆 B 的位置 <code>x,y =  64+cos(b)*k,64+sin(b)*k</code>。其中原点是屏幕的中心点 <code>64, 64</code>；角度 <code>b</code> 为每个触手映射的角度，<code>k</code> 为圆至屏幕中心的距离。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwamxxpqj30eg0e9aam.jpg"></p>
+<p>10 行 计算每个圆至屏幕中心的距离 <code>k</code>，我们先把圆的角度 <code>b</code> 从中去掉看下结果。<code>k=19-sin((6-z)/20)*40*(.5+sin(t()/2+z/9)/2)</code></p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwaozlqwg30bp0bx7u5.gif"></p>
+<p>将圆的 <code>z</code> 轴坐标 <code>z</code> 映射到至中心的距离 <code>k</code>，通过 <code>sin</code> 的映射使得，距离 <code>k</code> 根据 <code>z</code> 呈现正弦波的形状。</p>
+<p>最后把角度 <code>b</code> 加回去，<code>k=19-sin((6-z)/20)*40*(.5+sin(t()/2+z/9+b*2)/2)</code> 使得不同的触手在波形上拥有不同的位置。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwaqpv80g30bp0bwtmr.gif"></p>
+<p>第 11 行 <code>circlefill</code> 画圆，其中圆的半径 根据 <code>z</code> 轴距离变化，<code>z*2.3</code>。圆的颜色 <code>c[flr(z)]+c[flr(z+.5)]*16</code> 是两个颜色相加，利用高低位的不同颜色，再配合第 2 行的 <code>fillp</code> 实现两种颜色的填充图样。</p>
+<p>最后补充下 <code>fillp</code> 的用法。pico8 中用一个 <code>4*4</code> 的图来填充 <code>circ()</code> <code>circfill()</code> <code>rect()</code> <code>rectfill()</code> <code>pset()</code> <code>line()</code> 等函数画的图形。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwanwm3yj30eg0e9aam.jpg"></p>
+<p>16 个像素点用上图表格里的数字代表，如果想让某个点不着色就将点对应的数值累加，将最终得到的值传给 <code>fillp</code>，比如只让对角线 <code>32768,1024,32,1</code> 没有颜色，<code>fillp(32768+1024+32+1)</code></p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwaq5pm4j30jb0a7my5.jpg"></p>
+<p>也可以 <code>7+8*16</code> 指定第二个颜色</p>
 ]]></content>
       <categories>
         <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
