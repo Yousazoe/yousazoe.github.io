@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yousazoe.top/archives/e3ea8760.html</loc>
+    
+    <lastmod>2021-02-05</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/archives/c12c9c40.html</loc>
     
     <lastmod>2021-02-05</lastmod>
@@ -443,13 +450,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/archives/e3ea8760.html</loc>
-    
-    <lastmod>2021-01-30</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/archives/6487e0f7.html</loc>
     
     <lastmod>2021-01-30</lastmod>
@@ -641,20 +641,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/RPG/</loc>
-    <lastmod>2021-02-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/MMORPG/</loc>
-    <lastmod>2021-02-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/tags/INDIE/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
@@ -677,6 +663,20 @@
   
   <url>
     <loc>http://yousazoe.top/tags/C/</loc>
+    <lastmod>2021-02-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/RPG/</loc>
+    <lastmod>2021-02-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/MMORPG/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -746,7 +746,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Population/</loc>
+    <loc>http://yousazoe.top/tags/GPS/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -760,14 +760,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/GPS/</loc>
-    <lastmod>2021-02-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Rocket/</loc>
+    <loc>http://yousazoe.top/tags/Population/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -782,6 +775,13 @@
   
   <url>
     <loc>http://yousazoe.top/tags/Aseprite/</loc>
+    <lastmod>2021-02-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/Rocket/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -865,14 +865,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Algorithm/</loc>
+    <loc>http://yousazoe.top/tags/Computer-Graphics/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Computer-Graphics/</loc>
+    <loc>http://yousazoe.top/tags/Algorithm/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -993,14 +993,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E5%83%8F%E7%B4%A0%E5%AE%9D%E5%85%B8-Pixel-Dictionary/</loc>
+    <loc>http://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%83%BD%E5%8A%9B%E8%80%83%E8%AF%95-Programing-Ability-Test/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%83%BD%E5%8A%9B%E8%80%83%E8%AF%95-Programing-Ability-Test/</loc>
+    <loc>http://yousazoe.top/categories/%E5%83%8F%E7%B4%A0%E5%AE%9D%E5%85%B8-Pixel-Dictionary/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1035,14 +1035,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-Data-Structure/</loc>
+    <loc>http://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%83%8F%E5%AD%A6-Foundations-of-Computer-Graphics/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%83%8F%E5%AD%A6-Foundations-of-Computer-Graphics/</loc>
+    <loc>http://yousazoe.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-Data-Structure/</loc>
     <lastmod>2021-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
