@@ -844,7 +844,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#101;&#x6e;&#120;&#117;&#64;&#116;&#x65;&#x6e;&#x63;&#x65;&#x6e;&#x74;&#46;&#99;&#111;&#x6d;">&#x6c;&#x65;&#101;&#x6e;&#120;&#117;&#64;&#116;&#x65;&#x6e;&#x63;&#x65;&#x6e;&#x74;&#46;&#99;&#111;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#101;&#x6e;&#x78;&#x75;&#x40;&#116;&#x65;&#110;&#99;&#101;&#110;&#x74;&#x2e;&#99;&#111;&#x6d;">&#108;&#x65;&#101;&#x6e;&#x78;&#x75;&#x40;&#116;&#x65;&#110;&#99;&#101;&#110;&#x74;&#x2e;&#99;&#111;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -1464,8 +1464,6 @@
 </blockquote>
 <p>  设计者想的很好，通过这种生态模式可以触发很多新的任务新的玩法给玩家。然而事实上玩家屠龙之后因为没有刷怪机制只能自相残杀，整个游戏变得非常混乱，生态系统宣告失败。</p>
 </li>
-</ul>
-<ul>
 <li><p>红名模式</p>
 <p>  首创杀人会变成红名，红名会获得惩罚。</p>
 </li>
@@ -1826,6 +1824,285 @@
       <tags>
         <tag>Game</tag>
         <tag>INDIE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>图形技术发展&amp;动作游戏发展</title>
+    <url>/archives/21f5c0c6.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghr9b2xyjej30xc0ot42q.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="behance.net/gallery/102282989/Selected-works-2019-2020?tracking_source=best_of_behance">Selected works | 2019-2020</a> by 
+      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文从图形技术的发展延伸到动作游戏的发展，讲述动作游戏这一品类。</p>
+<a id="more"></a>
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>任爽/Sionx</strong></p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+</ul>
+<p>###《吃豆人》游戏图形的起源</p>
+<ul>
+<li><p>动作游戏界定</p>
+<ul>
+<li>通过手眼的配合作出即时反馈的游戏统称为动作游戏</li>
+</ul>
+</li>
+<li><p>动作游戏品类</p>
+<ul>
+<li>平台跳跃</li>
+<li>横版过关</li>
+<li>动作射击</li>
+<li>动作冒险</li>
+<li>动作角色扮演</li>
+<li>格斗</li>
+</ul>
+</li>
+<li><p>2D时代</p>
+<ul>
+<li><p>FC</p>
+<ul>
+<li>1983年发售</li>
+<li>处理器 &emsp; 8位</li>
+<li>输出分辨率  &emsp; 256 x 240</li>
+<li>内存 &emsp; 2KB</li>
+</ul>
+</li>
+<li><p><strong>《吃豆人》</strong></p>
+<ul>
+<li>1980年发售</li>
+<li>16进制代码创建图像</li>
+</ul>
+</li>
+<li><p>2D为主</p>
+<ul>
+<li><p>类似摇杆的外设</p>
+</li>
+<li><p>SEGA Degitizer System</p>
+<ul>
+<li>有效改善2D图像制作效率问题 </li>
+</ul>
+</li>
+<li><p>SEGA Degitizer System 3</p>
+</li>
+<li><p>早期的动作游戏都以横版表现形式为主</p>
+<ul>
+<li>通过算法水平镜像使资源只需一套解决左右翻转问题</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《超级马里奥兄弟》</strong></p>
+<ul>
+<li>1985年发售</li>
+<li>平台跳跃的鼻祖<ul>
+<li>奠定基础规则</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《热血硬派》</strong></p>
+<ul>
+<li>1986年发售</li>
+<li>八方向移动对横版过关类游戏具有深远的影响力</li>
+</ul>
+</li>
+<li><p><strong>《合金弹头》</strong></p>
+<ul>
+<li>1996年SNK发售</li>
+<li>动作射击类的巅峰之作</li>
+</ul>
+</li>
+<li><p><strong>《真人快打》</strong></p>
+<ul>
+<li>1992年Midway发售</li>
+<li>最早出现以真人拍摄制作的格斗游戏</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="3D时代"><a href="#3D时代" class="headerlink" title="3D时代"></a>3D时代</h3><ul>
+<li><p>主机游戏机</p>
+<ul>
+<li>1994年发售</li>
+<li>处理器  &emsp; 32位</li>
+<li>输出分辨率  &emsp; 640 x 480px</li>
+<li>内存 &emsp; 2MB</li>
+<li>最高性价比机能去体验更好的视觉效果和游戏乐趣</li>
+</ul>
+</li>
+<li><p><strong>《玩具总动员》</strong></p>
+<ul>
+<li>1995年发售</li>
+<li>3D技术的普及<ul>
+<li>3D在表现和效率上体现出巨大优势</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《VR展示战士》</strong></p>
+<ul>
+<li>1994年发售</li>
+<li>第一款3D格斗游戏</li>
+</ul>
+</li>
+<li><p><strong>《超级马里奥64》</strong></p>
+<ul>
+<li>1994年发售</li>
+<li>第一步3D化的马里奥系列<ul>
+<li>平面 -&gt; 3D</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《古墓丽影》</strong></p>
+<ul>
+<li>1996年发售</li>
+<li>动作冒险类游戏在PC上获得成功<ul>
+<li>3D游戏和2D游戏完全拉开一个质的变化</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《生化危机》</strong></p>
+<ul>
+<li>1996年发售</li>
+<li>‘坦克式’移动<ul>
+<li>机能不足</li>
+<li>使用固定视角去切换场景</li>
+<li>不同真正的模型，贴图去处理中远景</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="次世代"><a href="#次世代" class="headerlink" title="次世代"></a>次世代</h3><ul>
+<li><p>次世代</p>
+<ul>
+<li>法线贴图</li>
+<li>高光贴图</li>
+<li>动作捕捉</li>
+<li>PBR</li>
+<li>即时渲染光影</li>
+</ul>
+</li>
+<li><p>PlayStation3</p>
+<ul>
+<li>处理器 &emsp; 18m PowerPC 3.2Hz</li>
+<li>输出分辨率 &emsp; 1080p</li>
+<li>内存 &emsp; 256MB</li>
+<li>显存 &emsp; Reality Synthesizer，R5X</li>
+</ul>
+</li>
+<li><p><strong>《暗黑破坏神2》</strong></p>
+<ul>
+<li>2000年发售</li>
+<li>三渲二技术<ul>
+<li>CG技术远远大于即时演算技术</li>
+<li>追求高画质体验</li>
+<li>2D序列帧</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《地下城与勇士》</strong></p>
+<ul>
+<li>2005年发售</li>
+<li>网络时代的横版动作游戏<ul>
+<li>数值成长体系</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《陇村正》</strong></p>
+<ul>
+<li>2009年发售</li>
+<li>2D不再局限于像素风格</li>
+<li>次世代制作的2D横版动作游戏延续</li>
+</ul>
+</li>
+<li><p><strong>《火影忍者：究极风暴4》</strong></p>
+<ul>
+<li>2016年发售</li>
+<li>卡通渲染技术的格斗游戏</li>
+</ul>
+</li>
+<li><p><strong>《塞尔达传说：荒野之息》</strong></p>
+<ul>
+<li>2017年发售</li>
+<li>物理特性让玩法拥有多样性</li>
+</ul>
+</li>
+<li><p><strong>《怪物猎人：世界》</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>独乐乐不如众乐乐</li>
+<li>1200+w以上的销量</li>
+</ul>
+</li>
+<li><p><strong>《荒野大镖客：救赎2》</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>融合电影化叙事等多种元素的动作冒险游戏</li>
+<li>追求极致的实时渲染<ul>
+<li>次世代最高顶级的画质表现力</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>次世代的动作明星</p>
+<ul>
+<li>奎托斯</li>
+<li>但丁</li>
+<li>贝优妮塔</li>
+</ul>
+</li>
+<li><p><strong>《只狼》</strong></p>
+<ul>
+<li>2019年发售</li>
+<li>突破传统的动作游戏节奏，鼓励主动进攻</li>
+<li>同时进攻获取最大收益</li>
+</ul>
+</li>
+<li><p>【游戏推荐】</p>
+<ul>
+<li><p><strong>《Cuphead》（茶杯头）</strong></p>
+<ul>
+<li>2017年发售</li>
+<li>2017 TGA最佳美术指导、最佳独立游戏</li>
+</ul>
+</li>
+<li><p><strong>《Celeste》（蔚蓝）</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>2018 TGA最佳独立游戏</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
+    </i>
+  </font>
+</div>]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
       </tags>
   </entry>
   <entry>
@@ -2354,285 +2631,6 @@
       </tags>
   </entry>
   <entry>
-    <title>图形技术发展&amp;动作游戏发展</title>
-    <url>/archives/21f5c0c6.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghr9b2xyjej30xc0ot42q.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="behance.net/gallery/102282989/Selected-works-2019-2020?tracking_source=best_of_behance">Selected works | 2019-2020</a> by 
-      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
-    </i>
-  </font>
-</div>
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文从图形技术的发展延伸到动作游戏的发展，讲述动作游戏这一品类。</p>
-<a id="more"></a>
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>任爽/Sionx</strong></p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-</ul>
-<p>###《吃豆人》游戏图形的起源</p>
-<ul>
-<li><p>动作游戏界定</p>
-<ul>
-<li>通过手眼的配合作出即时反馈的游戏统称为动作游戏</li>
-</ul>
-</li>
-<li><p>动作游戏品类</p>
-<ul>
-<li>平台跳跃</li>
-<li>横版过关</li>
-<li>动作射击</li>
-<li>动作冒险</li>
-<li>动作角色扮演</li>
-<li>格斗</li>
-</ul>
-</li>
-<li><p>2D时代</p>
-<ul>
-<li><p>FC</p>
-<ul>
-<li>1983年发售</li>
-<li>处理器 &emsp; 8位</li>
-<li>输出分辨率  &emsp; 256 x 240</li>
-<li>内存 &emsp; 2KB</li>
-</ul>
-</li>
-<li><p><strong>《吃豆人》</strong></p>
-<ul>
-<li>1980年发售</li>
-<li>16进制代码创建图像</li>
-</ul>
-</li>
-<li><p>2D为主</p>
-<ul>
-<li><p>类似摇杆的外设</p>
-</li>
-<li><p>SEGA Degitizer System</p>
-<ul>
-<li>有效改善2D图像制作效率问题 </li>
-</ul>
-</li>
-<li><p>SEGA Degitizer System 3</p>
-</li>
-<li><p>早期的动作游戏都以横版表现形式为主</p>
-<ul>
-<li>通过算法水平镜像使资源只需一套解决左右翻转问题</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《超级马里奥兄弟》</strong></p>
-<ul>
-<li>1985年发售</li>
-<li>平台跳跃的鼻祖<ul>
-<li>奠定基础规则</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《热血硬派》</strong></p>
-<ul>
-<li>1986年发售</li>
-<li>八方向移动对横版过关类游戏具有深远的影响力</li>
-</ul>
-</li>
-<li><p><strong>《合金弹头》</strong></p>
-<ul>
-<li>1996年SNK发售</li>
-<li>动作射击类的巅峰之作</li>
-</ul>
-</li>
-<li><p><strong>《真人快打》</strong></p>
-<ul>
-<li>1992年Midway发售</li>
-<li>最早出现以真人拍摄制作的格斗游戏</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="3D时代"><a href="#3D时代" class="headerlink" title="3D时代"></a>3D时代</h3><ul>
-<li><p>主机游戏机</p>
-<ul>
-<li>1994年发售</li>
-<li>处理器  &emsp; 32位</li>
-<li>输出分辨率  &emsp; 640 x 480px</li>
-<li>内存 &emsp; 2MB</li>
-<li>最高性价比机能去体验更好的视觉效果和游戏乐趣</li>
-</ul>
-</li>
-<li><p><strong>《玩具总动员》</strong></p>
-<ul>
-<li>1995年发售</li>
-<li>3D技术的普及<ul>
-<li>3D在表现和效率上体现出巨大优势</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《VR展示战士》</strong></p>
-<ul>
-<li>1994年发售</li>
-<li>第一款3D格斗游戏</li>
-</ul>
-</li>
-<li><p><strong>《超级马里奥64》</strong></p>
-<ul>
-<li>1994年发售</li>
-<li>第一步3D化的马里奥系列<ul>
-<li>平面 -&gt; 3D</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《古墓丽影》</strong></p>
-<ul>
-<li>1996年发售</li>
-<li>动作冒险类游戏在PC上获得成功<ul>
-<li>3D游戏和2D游戏完全拉开一个质的变化</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《生化危机》</strong></p>
-<ul>
-<li>1996年发售</li>
-<li>‘坦克式’移动<ul>
-<li>机能不足</li>
-<li>使用固定视角去切换场景</li>
-<li>不同真正的模型，贴图去处理中远景</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="次世代"><a href="#次世代" class="headerlink" title="次世代"></a>次世代</h3><ul>
-<li><p>次世代</p>
-<ul>
-<li>法线贴图</li>
-<li>高光贴图</li>
-<li>动作捕捉</li>
-<li>PBR</li>
-<li>即时渲染光影</li>
-</ul>
-</li>
-<li><p>PlayStation3</p>
-<ul>
-<li>处理器 &emsp; 18m PowerPC 3.2Hz</li>
-<li>输出分辨率 &emsp; 1080p</li>
-<li>内存 &emsp; 256MB</li>
-<li>显存 &emsp; Reality Synthesizer，R5X</li>
-</ul>
-</li>
-<li><p><strong>《暗黑破坏神2》</strong></p>
-<ul>
-<li>2000年发售</li>
-<li>三渲二技术<ul>
-<li>CG技术远远大于即时演算技术</li>
-<li>追求高画质体验</li>
-<li>2D序列帧</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《地下城与勇士》</strong></p>
-<ul>
-<li>2005年发售</li>
-<li>网络时代的横版动作游戏<ul>
-<li>数值成长体系</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《陇村正》</strong></p>
-<ul>
-<li>2009年发售</li>
-<li>2D不再局限于像素风格</li>
-<li>次世代制作的2D横版动作游戏延续</li>
-</ul>
-</li>
-<li><p><strong>《火影忍者：究极风暴4》</strong></p>
-<ul>
-<li>2016年发售</li>
-<li>卡通渲染技术的格斗游戏</li>
-</ul>
-</li>
-<li><p><strong>《塞尔达传说：荒野之息》</strong></p>
-<ul>
-<li>2017年发售</li>
-<li>物理特性让玩法拥有多样性</li>
-</ul>
-</li>
-<li><p><strong>《怪物猎人：世界》</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>独乐乐不如众乐乐</li>
-<li>1200+w以上的销量</li>
-</ul>
-</li>
-<li><p><strong>《荒野大镖客：救赎2》</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>融合电影化叙事等多种元素的动作冒险游戏</li>
-<li>追求极致的实时渲染<ul>
-<li>次世代最高顶级的画质表现力</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>次世代的动作明星</p>
-<ul>
-<li>奎托斯</li>
-<li>但丁</li>
-<li>贝优妮塔</li>
-</ul>
-</li>
-<li><p><strong>《只狼》</strong></p>
-<ul>
-<li>2019年发售</li>
-<li>突破传统的动作游戏节奏，鼓励主动进攻</li>
-<li>同时进攻获取最大收益</li>
-</ul>
-</li>
-<li><p>【游戏推荐】</p>
-<ul>
-<li><p><strong>《Cuphead》（茶杯头）</strong></p>
-<ul>
-<li>2017年发售</li>
-<li>2017 TGA最佳美术指导、最佳独立游戏</li>
-</ul>
-</li>
-<li><p><strong>《Celeste》（蔚蓝）</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>2018 TGA最佳独立游戏</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
-    </i>
-  </font>
-</div>]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2D游戏开发</title>
     <url>/archives/6487e0f7.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkrfcylq45j312w0gak12.jpg"></p>
@@ -2763,6 +2761,213 @@
       <tags>
         <tag>Reprint</tag>
         <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>随机数在游戏中的应用</title>
+    <url>/archives/71c35c5e.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gekvei5q74j30xc0j30ys.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/44248527/Tarot-cards-Game">Tarot-cards-Game</a> by 
+      <a href="https://www.behance.net/victoire">Victoire Douy</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本章讲的主题是随机数在游戏中的应用，主要目的是通过这节课给大家一下随机数的基本概念和游戏中常见的随机策略，介绍随机数生成器，能够指出一些容易用错的地方防止大家出错，还有就是介绍一些随机数使用上的小技巧与随机数分布与应用方面的东西。</p>
+<a id="more"></a>
+
+<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p>在游戏中使用随机数一般是为了增加一些随机性，防止过于重复。</p>
+<h4 id="随机数在游戏中的应用"><a href="#随机数在游戏中的应用" class="headerlink" title="随机数在游戏中的应用"></a>随机数在游戏中的应用</h4><h5 id="作为游戏玩法的一部分"><a href="#作为游戏玩法的一部分" class="headerlink" title="作为游戏玩法的一部分"></a>作为游戏玩法的一部分</h5><p>现在游戏中用到随机数除了增加一些随机性，还有很多方面，比如说玩网游的<code>扔骰子</code>、<code>抽卡</code>、<code>开宝箱</code>这些东西，都是作为游戏玩法的一部分。很多游戏里像<code>龙与地下城</code> <code>大富翁</code>这种游戏扔骰子本身就是游戏的一部分。</p>
+<h5 id="模拟自然现象"><a href="#模拟自然现象" class="headerlink" title="模拟自然现象"></a>模拟自然现象</h5><p>许多自然现象中都带有很大的随机性，例如火焰效果在做的时候会做一个叫粒子发射器的东西，用于发射很多像火焰每一片和一些小的火苗和特效这样的东西。这些粒子的运行轨迹、何时发射都带有很大的随机性，由一些随机数来控制。<br>与此相同的除了<code>火焰</code>还有<code>植被</code>、<code>生物群落</code>等。</p>
+<h5 id="离线渲染"><a href="#离线渲染" class="headerlink" title="离线渲染"></a>离线渲染</h5><p><code>离线渲染</code> <code>光线追踪</code>的做法就是从光源往外发射许多随机方向的射线，当这些射线打中一个物体表面的时候，它才会根据这个物体表面的性质随机决定去反弹还是吸收。经过这样很多次（几千万次）累计叠加，然后最终得到一张效果图像，它可以达到非常高的渲染质量。</p>
+<h5 id="随机生成的游戏内容"><a href="#随机生成的游戏内容" class="headerlink" title="随机生成的游戏内容"></a>随机生成的游戏内容</h5><p><code>我的世界</code> 的整个世界都是拿随机数生成的，由一个种子根据一定的随机数算法来生成整个世界。</p>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gekzwifkr9j30xc0go0u0.jpg"></p>
+<h4 id="两种伪随机概念"><a href="#两种伪随机概念" class="headerlink" title="两种伪随机概念"></a>两种伪随机概念</h4><h5 id="生成原理上的真随机与伪随机"><a href="#生成原理上的真随机与伪随机" class="headerlink" title="生成原理上的真随机与伪随机"></a>生成原理上的真随机与伪随机</h5><p>在电脑里没有真正的随机数。虽然电脑都是确定性的运算，没办法生成一些随机的运算。</p>
+<ul>
+<li><code>真随机</code> : 需要外部的随机性来源，如利用量子原理或者电路中的噪音来产生随机数。</li>
+<li><code>伪随机</code> : 用算法生成的”看似”随机的序列，数列本身是固定的，算法确定下来序列一定是一个确定的序列。</li>
+</ul>
+<p>实际运用随机数规模控制在2的31-32次方的范围。游戏中可以应用自如，但安全性方面还是不够。</p>
+<h5 id="应用层面的真随机与伪随机"><a href="#应用层面的真随机与伪随机" class="headerlink" title="应用层面的真随机与伪随机"></a>应用层面的真随机与伪随机</h5><ul>
+<li><code>真随机</code> : 每一次几率判断都是独立的。就跟抛硬币一样，前十次抛出正面在抛第十一次的时候正反概率还是50%。</li>
+<li><code>伪随机</code> : 指同一类的概率事件，彼此之间存在关联性，通常为了保证用户体验。比如连续抽十次卡都抽掉了游戏体验极差。王者荣耀通过幸运值让玩家保底。</li>
+</ul>
+<h4 id="游戏中常用随机策略"><a href="#游戏中常用随机策略" class="headerlink" title="游戏中常用随机策略"></a>游戏中常用随机策略</h4><h5 id="伪随机策略：保底法"><a href="#伪随机策略：保底法" class="headerlink" title="伪随机策略：保底法"></a>伪随机策略：保底法</h5><p>王者荣耀中的买五次必得四到五级铭文。<br>有些游戏即使不标出来，内部也会有这样的策略在里面，保证玩家不会得到一个太差的游戏体验。</p>
+<h5 id="伪随机策略：PRD-Pseudo-Random-Distribution"><a href="#伪随机策略：PRD-Pseudo-Random-Distribution" class="headerlink" title="伪随机策略：PRD(Pseudo Random Distribution)"></a>伪随机策略：PRD(Pseudo Random Distribution)</h5><p>最早在<code>war3</code>及<code>Dota</code>中暴击的算法，在<code>魂斗罗：归来</code>中使用。<br>如果这次没有抽中，则增加下次抽中的概率：</p>
+<ul>
+<li>第N次成功出发的几率为 <code>P(N) = C * N</code> 其中<code>C</code>为初始概率</li>
+<li>如果期望是25%的暴击率，则第一次暴击率～8.5%，第二次～17%，第三次～25.5%…</li>
+<li>一旦发生暴击则概率重置为～8.5%</li>
+</ul>
+<p>触发几率最高的是第三、四次，保证了第一、二次触发几率不会那么高，而到了第十次基本上肯定会发生一次暴击。该算法有效的把暴击分散开，不要太集中。</p>
+<h5 id="其它伪随机策略"><a href="#其它伪随机策略" class="headerlink" title="其它伪随机策略"></a>其它伪随机策略</h5><ul>
+<li><p>稀有道具的全服控制<br>一种特别稀有特别珍贵的道具，运营方希望它每天产生三个。但如果我通过概率来控制，很有可能出现今天一个人没打出来或者这一天有十几个人都打出来了，这样就不利于运营来控制游戏节奏。后台会增加一个计数器，一开始的时候概率会稍高一点，达到目标数量就会关掉再也不会出了。</p>
+</li>
+<li><p>洗牌算法<br>音乐播放如果现在有十首歌，采取随机的方式播放有可能出现某两首歌连续播放或者是某一首歌很久没出现。洗牌算法就是先把它们的顺序打乱，然后再按打乱之后的顺序来给它播放从而保证每首歌都能听到一遍。</p>
+</li>
+<li><p>二次随机</p>
+<ul>
+<li>第一次抽取决定是几级铭文</li>
+<li>第二次抽取决定是具体哪种铭文</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gekybanpzig30xc0hv0ue.gif"></p>
+<h3 id="随机数生成器"><a href="#随机数生成器" class="headerlink" title="随机数生成器"></a>随机数生成器</h3><h4 id="伪随机数生成器"><a href="#伪随机数生成器" class="headerlink" title="伪随机数生成器"></a>伪随机数生成器</h4><p><code>算法</code> + <code>种子</code>就能决定随机数的序列。下面介绍几种游戏中常用的算法：</p>
+<h5 id="线性同余"><a href="#线性同余" class="headerlink" title="线性同余"></a>线性同余</h5><ul>
+<li><p>递推公式<br>$$X_{n+1} = (aX_n + c)\bmod m$$</p>
+</li>
+<li><p>这个算法非常古老而且实现起来很简单，几乎在稍微老点的语言中内置的算法都是它，每种语言中对参数的使用有着不同的选择。</p>
+</li>
+<li><p>演示</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">m &#x3D; 9	a &#x3D; 2	c &#x3D; 0	seed &#x3D; 1</span><br><span class="line">output: 1 - seed</span><br><span class="line">        2 - (1*2+0)mod 9</span><br><span class="line">        4 - (2*2+0)mod 9 </span><br><span class="line">        8 - (4*2+0)mod 9</span><br><span class="line">        7 - (8*2+0)mod 9</span><br><span class="line">            ......</span><br></pre></td></tr></table></figure></li>
+<li><p>不同参数的比较</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">(1) m &#x3D; 9   a &#x3D; 2   c &#x3D; 0   seed &#x3D; 1</span><br><span class="line">    output: </span><br><span class="line">    1 - 2 - 4 - 8 - 7 - 5 - 1 ...</span><br><span class="line"></span><br><span class="line">(2) m &#x3D; 9   a &#x3D; 2   c &#x3D; 0   seed &#x3D; 3</span><br><span class="line">    output: </span><br><span class="line">    3 - 6 - 3 ...</span><br><span class="line"></span><br><span class="line">(3) m &#x3D; 9   a &#x3D; 4   c &#x3D; 1   seed &#x3D; 0</span><br><span class="line">    output: </span><br><span class="line">    0 - 1 - 5 - 3 - 4 - 8 - 6 - 7 - 2 - 0 ...</span><br></pre></td></tr></table></figure>
+<p>这说明<code>m</code>、<code>a</code>、<code>c</code>这三个值的取值非常重要，不能随手取一个。早期项目中为了实现随机数算法时从网络下载源码，为了防止别人猜到规律随意更改了参数，后面发现这样做是不行的，不能随意更改别人给定的参数。</p>
+</li>
+<li><p>要达到最大周期为m需要的条件：</p>
+<ul>
+<li><code>c</code>与<code>m</code>互质</li>
+<li><code>a-1</code>可以被<code>m</code>的所有质因数整除</li>
+<li>如果<code>m</code>是4的倍数，<code>a-1</code>也必须是4的倍数</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>要达到良好的随机性，参数<code>c</code>还应该满足：<ul>
+<li>是质数。</li>
+<li>接近 $(\frac{1}{2}-\frac{\sqrt{3}}{6})m$</li>
+</ul>
+</li>
+</ul>
+<p>在上面几个条件的约束下，可用的<code>m</code>、<code>a</code>、<code>c</code>就没有多少个了，所以在使用的时候尽量去找现成的参数，不要自己随便填一个数字进去。</p>
+<ul>
+<li>优缺点<ul>
+<li>实现简单，速度快</li>
+<li>所需内存小</li>
+<li>用作N维空间的点坐标时，这些点多位于某些超平面上，看起来有些规律，因此不适合于用作蒙特卡洛采样</li>
+<li>当<code>m</code>为2的幂时，低阶比特周期较短，可以通过舍弃低位来缓解</li>
+</ul>
+</li>
+</ul>
+<h5 id="梅森旋转"><a href="#梅森旋转" class="headerlink" title="梅森旋转"></a>梅森旋转</h5><p>Mersenne是Makoto Mastsumoto（松本）和Takuji Nishimura（西村）于1997年开发的伪随机数产生器：</p>
+<ul>
+<li>该算法周期很长，在1～623的维度之间可以均等分布</li>
+<li>速度非常快</li>
+<li>需要的空间比线性同余算法大（TinyMT 2.5KiB）</li>
+</ul>
+<h4 id="随机数种子"><a href="#随机数种子" class="headerlink" title="随机数种子"></a>随机数种子</h4><p>给定的种子决定了后续随机数序列，一般程序启动时用当前时间作为种子进行一次初始化。</p>
+<ul>
+<li><p>错误用法</p>
+<ul>
+<li>没有调用初始化<code>srand</code>，导致每次启动游戏获得的序列是一样的，失去了随机的意义。</li>
+<li>每次调用随机数<code>rand</code>之前都初始化<code>srand</code>，这样得出的结果就会很有一定规律不是特别随机，违背了初衷。</li>
+</ul>
+</li>
+<li><p>作用</p>
+<ul>
+<li>提供每次不一样的游戏体验（用启动时间作为种子）<ul>
+<li>例如<code>超级马里奥</code>这种游戏每次敌人出现的位置是固定的，玩的次数多了甚至可以背下来，但如果增加一些随机数就可以更有趣味性和挑战性。红白机早期是没办法取到时间的，它的随机数是用一些奇怪的算法加上例如按键的时间长短来实现的</li>
+</ul>
+</li>
+<li>在程序生成内容（Procedural Content Generation,PCG）中使用，用来确保两次计算结果相同<ul>
+<li>比如用程序生成<code>Minecraft</code>这种地图每次进入是根据同一个种子来生成的，不然每次进入地图都不一样。玩家可以在网站上分享seed，根据该seed会生成相同的世界。</li>
+</ul>
+</li>
+<li>在多人游戏中减小带宽占用（帧同步游戏机制）<ul>
+<li>两人对战时暴击是随机的，但两边要保证随机出来的值是一样的，所以需要一开始把一方的种子传过去。种子一样，之后的计算步骤保持一致就能保证两端是一样的。</li>
+</ul>
+</li>
+<li>使用非常小的录像文件来实现录像和回放功能（如游戏的录像机制）</li>
+</ul>
+</li>
+<li><p>帧同步中的随机数<br>在使用帧同步的游戏中，要求所有运算步骤严格依序执行</p>
+<ul>
+<li>通常会自行实现伪随机数生成器，第三方库无意的调用系统随机数很可能破坏同步状态。</li>
+<li>随机数种子需要同步，同步给第三方。</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gelg9u2n0nj30xc0dxgnj.jpg"></p>
+<h3 id="随机数分布与应用"><a href="#随机数分布与应用" class="headerlink" title="随机数分布与应用"></a>随机数分布与应用</h3><h4 id="均匀分布"><a href="#均匀分布" class="headerlink" title="均匀分布"></a>均匀分布</h4><ul>
+<li>VC的<code>rand()</code>函数范围是[0..32767]，如何取得一个[0..9999]的随机整数？<ul>
+<li><code>x = rand()%10000</code> 分布不均匀（左侧偏大），因为32767不能被10000整除</li>
+<li>拒绝采样法</li>
+</ul>
+</li>
+</ul>
+<h5 id="如何取得更大的随机数（0～1000000）"><a href="#如何取得更大的随机数（0～1000000）" class="headerlink" title="如何取得更大的随机数（0～1000000）"></a>如何取得更大的随机数（0～1000000）</h5><ul>
+<li><code>x = rand()*(RAND_MAX + 1) + rand()</code></li>
+<li>使用更好的随机数算法，比如梅森旋转</li>
+</ul>
+<h5 id="如何取得一个0～1的随机浮点数"><a href="#如何取得一个0～1的随机浮点数" class="headerlink" title="如何取得一个0～1的随机浮点数"></a>如何取得一个0～1的随机浮点数</h5><ul>
+<li><p><code>x = rand()/(float)RAND_MAX</code><br>不可以用<code>x = (rand()%10000)/10000.0f</code> 同样的原因也会导致分布不均匀</p>
+</li>
+<li><p>针对浮点数的存储格式来生成，随机填充尾数域得[1，2)范围的随机数。<br><code>符号位 - 指数域 - 尾数域(23bit)</code><br>将指数域写死，尾数域用0或1进行填充，最后生成的随机数再减去1就可以得到0到1之间的浮点随机数。</p>
+</li>
+</ul>
+<h4 id="正态分布"><a href="#正态分布" class="headerlink" title="正态分布"></a>正态分布</h4><p>在某些时候用于生成更符合自然界规律的随机分布，比如：<code>不同身高的人群</code>、<code>不同高度的树木</code>等。</p>
+<h5 id="如何获得符合正态分布的随机数"><a href="#如何获得符合正态分布的随机数" class="headerlink" title="如何获得符合正态分布的随机数"></a>如何获得符合正态分布的随机数</h5><ul>
+<li><p>拒绝采样法<br>采样两次分别用作x值和y值，只保留正态分布曲线以下的部分，输出的时候丢弃y值，只输出x值从而保证正态分布。缺点是浪费了太多的样本点。</p>
+</li>
+<li><p>Ziggurat：优化版拒绝采样<br>先生成一些符合正态分布且面积相等的矩形，然后对矩形进行随机：如果在正态分布曲线下方则保留；否则再用拒绝采样法来判断一次，最后只保留曲线以下部分。该算法的主要目的是为了减少无效的运算。</p>
+</li>
+<li><p>逆变换采样<br>利用正态分布CDF的反函数做 Inverse transform sampling<br>在y轴产生服从(0,1)均匀分布的随机数，水平向右投影到曲线上，然后垂直向下投影到x轴，这样在x轴上就得到了正态分布，拿正态分布的反函数来算。</p>
+</li>
+<li><p>Box-Muller算法<br>选取两个服从[0,1]上均匀分布的随机变量 U1、U2，使X、Y满足：</p>
+<p>$X = \cos(2 \pi U_1)\sqrt{-2 \ln U_2}$</p>
+<p>$Y = \sin(2 \pi U_1)\sqrt{-2 \ln U_2}$</p>
+<p>则X与Y服从均值为0，方差为1的高斯分布。</p>
+</li>
+<li><p>基于中心极限定理采样</p>
+<ul>
+<li>生成n个独立同分布的随机变量，求和即可</li>
+<li>当n趋近于无穷大时，它们和的分布都会趋近正态分布</li>
+</ul>
+</li>
+</ul>
+<h4 id="形状采样"><a href="#形状采样" class="headerlink" title="形状采样"></a>形状采样</h4><h5 id="取得在圆形内均匀分布的点"><a href="#取得在圆形内均匀分布的点" class="headerlink" title="取得在圆形内均匀分布的点"></a>取得在圆形内均匀分布的点</h5><ul>
+<li><p>拒绝采样</p>
+</li>
+<li><p>根据极坐标采样</p>
+<ul>
+<li><p>错误算法</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">x &#x3D; r * sin(theta)</span><br><span class="line">y &#x3D; r * cos(theta)</span><br></pre></td></tr></table></figure></li>
+<li><p>正确算法</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">x &#x3D; sqrt(r) * sin(theta)</span><br><span class="line">y &#x3D; sqrt(r) * cos(theta)</span><br></pre></td></tr></table></figure>
+
+
+
+
+</li>
+</ul>
+<h5 id="洗牌算法-Fisher-Yates-shuffle"><a href="#洗牌算法-Fisher-Yates-shuffle" class="headerlink" title="洗牌算法 Fisher-Yates shuffle"></a>洗牌算法 Fisher-Yates shuffle</h5></li>
+<li><p>选中第1个元素，将其与<code>n</code>个元素中的任意一个交换（包括第1个元素自己）。这时排序后的第1个元素已经确定</p>
+</li>
+<li><p>选中第2个元素，将其与<code>n-1</code>个元素中作任意一个交换（包括第2个元素自己）。</p>
+</li>
+<li><p>重复上面步骤，直到剩1个元素为止。</p>
+</li>
+</ul>
+<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gekzwflh2oj30xc0p0dot.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/victoire">Victoire Douy</a>
+    </i>
+  </font>
+</div>
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gekyba8kcdj30xc0got99.jpg)]]></content>
+      <categories>
+        <category>游戏程序设计 (Game Programming)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>Math</tag>
+        <tag>Random</tag>
       </tags>
   </entry>
   <entry>
@@ -2963,212 +3168,6 @@
       </categories>
       <tags>
         <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>随机数在游戏中的应用</title>
-    <url>/archives/71c35c5e.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gekvei5q74j30xc0j30ys.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/44248527/Tarot-cards-Game">Tarot-cards-Game</a> by 
-      <a href="https://www.behance.net/victoire">Victoire Douy</a>
-    </i>
-  </font>
-</div>
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本章讲的主题是随机数在游戏中的应用，主要目的是通过这节课给大家一下随机数的基本概念和游戏中常见的随机策略，介绍随机数生成器，能够指出一些容易用错的地方防止大家出错，还有就是介绍一些随机数使用上的小技巧与随机数分布与应用方面的东西。</p>
-<a id="more"></a>
-
-<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p>在游戏中使用随机数一般是为了增加一些随机性，防止过于重复。</p>
-<h4 id="随机数在游戏中的应用"><a href="#随机数在游戏中的应用" class="headerlink" title="随机数在游戏中的应用"></a>随机数在游戏中的应用</h4><h5 id="作为游戏玩法的一部分"><a href="#作为游戏玩法的一部分" class="headerlink" title="作为游戏玩法的一部分"></a>作为游戏玩法的一部分</h5><p>现在游戏中用到随机数除了增加一些随机性，还有很多方面，比如说玩网游的<code>扔骰子</code>、<code>抽卡</code>、<code>开宝箱</code>这些东西，都是作为游戏玩法的一部分。很多游戏里像<code>龙与地下城</code> <code>大富翁</code>这种游戏扔骰子本身就是游戏的一部分。</p>
-<h5 id="模拟自然现象"><a href="#模拟自然现象" class="headerlink" title="模拟自然现象"></a>模拟自然现象</h5><p>许多自然现象中都带有很大的随机性，例如火焰效果在做的时候会做一个叫粒子发射器的东西，用于发射很多像火焰每一片和一些小的火苗和特效这样的东西。这些粒子的运行轨迹、何时发射都带有很大的随机性，由一些随机数来控制。<br>与此相同的除了<code>火焰</code>还有<code>植被</code>、<code>生物群落</code>等。</p>
-<h5 id="离线渲染"><a href="#离线渲染" class="headerlink" title="离线渲染"></a>离线渲染</h5><p><code>离线渲染</code> <code>光线追踪</code>的做法就是从光源往外发射许多随机方向的射线，当这些射线打中一个物体表面的时候，它才会根据这个物体表面的性质随机决定去反弹还是吸收。经过这样很多次（几千万次）累计叠加，然后最终得到一张效果图像，它可以达到非常高的渲染质量。</p>
-<h5 id="随机生成的游戏内容"><a href="#随机生成的游戏内容" class="headerlink" title="随机生成的游戏内容"></a>随机生成的游戏内容</h5><p><code>我的世界</code> 的整个世界都是拿随机数生成的，由一个种子根据一定的随机数算法来生成整个世界。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gekzwifkr9j30xc0go0u0.jpg"></p>
-<h4 id="两种伪随机概念"><a href="#两种伪随机概念" class="headerlink" title="两种伪随机概念"></a>两种伪随机概念</h4><h5 id="生成原理上的真随机与伪随机"><a href="#生成原理上的真随机与伪随机" class="headerlink" title="生成原理上的真随机与伪随机"></a>生成原理上的真随机与伪随机</h5><p>在电脑里没有真正的随机数。虽然电脑都是确定性的运算，没办法生成一些随机的运算。</p>
-<ul>
-<li><code>真随机</code> : 需要外部的随机性来源，如利用量子原理或者电路中的噪音来产生随机数。</li>
-<li><code>伪随机</code> : 用算法生成的”看似”随机的序列，数列本身是固定的，算法确定下来序列一定是一个确定的序列。</li>
-</ul>
-<p>实际运用随机数规模控制在2的31-32次方的范围。游戏中可以应用自如，但安全性方面还是不够。</p>
-<h5 id="应用层面的真随机与伪随机"><a href="#应用层面的真随机与伪随机" class="headerlink" title="应用层面的真随机与伪随机"></a>应用层面的真随机与伪随机</h5><ul>
-<li><code>真随机</code> : 每一次几率判断都是独立的。就跟抛硬币一样，前十次抛出正面在抛第十一次的时候正反概率还是50%。</li>
-<li><code>伪随机</code> : 指同一类的概率事件，彼此之间存在关联性，通常为了保证用户体验。比如连续抽十次卡都抽掉了游戏体验极差。王者荣耀通过幸运值让玩家保底。</li>
-</ul>
-<h4 id="游戏中常用随机策略"><a href="#游戏中常用随机策略" class="headerlink" title="游戏中常用随机策略"></a>游戏中常用随机策略</h4><h5 id="伪随机策略：保底法"><a href="#伪随机策略：保底法" class="headerlink" title="伪随机策略：保底法"></a>伪随机策略：保底法</h5><p>王者荣耀中的买五次必得四到五级铭文。<br>有些游戏即使不标出来，内部也会有这样的策略在里面，保证玩家不会得到一个太差的游戏体验。</p>
-<h5 id="伪随机策略：PRD-Pseudo-Random-Distribution"><a href="#伪随机策略：PRD-Pseudo-Random-Distribution" class="headerlink" title="伪随机策略：PRD(Pseudo Random Distribution)"></a>伪随机策略：PRD(Pseudo Random Distribution)</h5><p>最早在<code>war3</code>及<code>Dota</code>中暴击的算法，在<code>魂斗罗：归来</code>中使用。<br>如果这次没有抽中，则增加下次抽中的概率：</p>
-<ul>
-<li>第N次成功出发的几率为 <code>P(N) = C * N</code> 其中<code>C</code>为初始概率</li>
-<li>如果期望是25%的暴击率，则第一次暴击率～8.5%，第二次～17%，第三次～25.5%…</li>
-<li>一旦发生暴击则概率重置为～8.5%</li>
-</ul>
-<p>触发几率最高的是第三、四次，保证了第一、二次触发几率不会那么高，而到了第十次基本上肯定会发生一次暴击。该算法有效的把暴击分散开，不要太集中。</p>
-<h5 id="其它伪随机策略"><a href="#其它伪随机策略" class="headerlink" title="其它伪随机策略"></a>其它伪随机策略</h5><ul>
-<li><p>稀有道具的全服控制<br>一种特别稀有特别珍贵的道具，运营方希望它每天产生三个。但如果我通过概率来控制，很有可能出现今天一个人没打出来或者这一天有十几个人都打出来了，这样就不利于运营来控制游戏节奏。后台会增加一个计数器，一开始的时候概率会稍高一点，达到目标数量就会关掉再也不会出了。</p>
-</li>
-<li><p>洗牌算法<br>音乐播放如果现在有十首歌，采取随机的方式播放有可能出现某两首歌连续播放或者是某一首歌很久没出现。洗牌算法就是先把它们的顺序打乱，然后再按打乱之后的顺序来给它播放从而保证每首歌都能听到一遍。</p>
-</li>
-<li><p>二次随机</p>
-<ul>
-<li>第一次抽取决定是几级铭文</li>
-<li>第二次抽取决定是具体哪种铭文</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gekybanpzig30xc0hv0ue.gif"></p>
-<h3 id="随机数生成器"><a href="#随机数生成器" class="headerlink" title="随机数生成器"></a>随机数生成器</h3><h4 id="伪随机数生成器"><a href="#伪随机数生成器" class="headerlink" title="伪随机数生成器"></a>伪随机数生成器</h4><p><code>算法</code> + <code>种子</code>就能决定随机数的序列。下面介绍几种游戏中常用的算法：</p>
-<h5 id="线性同余"><a href="#线性同余" class="headerlink" title="线性同余"></a>线性同余</h5><ul>
-<li><p>递推公式<br>$$X_{n+1} = (aX_n + c)\bmod m$$</p>
-</li>
-<li><p>这个算法非常古老而且实现起来很简单，几乎在稍微老点的语言中内置的算法都是它，每种语言中对参数的使用有着不同的选择。</p>
-</li>
-<li><p>演示</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">m &#x3D; 9	a &#x3D; 2	c &#x3D; 0	seed &#x3D; 1</span><br><span class="line">output: 1 - seed</span><br><span class="line">        2 - (1*2+0)mod 9</span><br><span class="line">        4 - (2*2+0)mod 9 </span><br><span class="line">        8 - (4*2+0)mod 9</span><br><span class="line">        7 - (8*2+0)mod 9</span><br><span class="line">            ......</span><br></pre></td></tr></table></figure></li>
-<li><p>不同参数的比较</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">(1) m &#x3D; 9   a &#x3D; 2   c &#x3D; 0   seed &#x3D; 1</span><br><span class="line">    output: </span><br><span class="line">    1 - 2 - 4 - 8 - 7 - 5 - 1 ...</span><br><span class="line"></span><br><span class="line">(2) m &#x3D; 9   a &#x3D; 2   c &#x3D; 0   seed &#x3D; 3</span><br><span class="line">    output: </span><br><span class="line">    3 - 6 - 3 ...</span><br><span class="line"></span><br><span class="line">(3) m &#x3D; 9   a &#x3D; 4   c &#x3D; 1   seed &#x3D; 0</span><br><span class="line">    output: </span><br><span class="line">    0 - 1 - 5 - 3 - 4 - 8 - 6 - 7 - 2 - 0 ...</span><br></pre></td></tr></table></figure>
-<p>这说明<code>m</code>、<code>a</code>、<code>c</code>这三个值的取值非常重要，不能随手取一个。早期项目中为了实现随机数算法时从网络下载源码，为了防止别人猜到规律随意更改了参数，后面发现这样做是不行的，不能随意更改别人给定的参数。</p>
-</li>
-<li><p>要达到最大周期为m需要的条件：</p>
-<ul>
-<li><code>c</code>与<code>m</code>互质</li>
-<li><code>a-1</code>可以被<code>m</code>的所有质因数整除</li>
-<li>如果<code>m</code>是4的倍数，<code>a-1</code>也必须是4的倍数</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>要达到良好的随机性，参数<code>c</code>还应该满足：<ul>
-<li>是质数。</li>
-<li>接近 $(\frac{1}{2}-\frac{\sqrt{3}}{6})m$</li>
-</ul>
-</li>
-</ul>
-<p>在上面几个条件的约束下，可用的<code>m</code>、<code>a</code>、<code>c</code>就没有多少个了，所以在使用的时候尽量去找现成的参数，不要自己随便填一个数字进去。</p>
-<ul>
-<li>优缺点<ul>
-<li>实现简单，速度快</li>
-<li>所需内存小</li>
-<li>用作N维空间的点坐标时，这些点多位于某些超平面上，看起来有些规律，因此不适合于用作蒙特卡洛采样</li>
-<li>当<code>m</code>为2的幂时，低阶比特周期较短，可以通过舍弃低位来缓解</li>
-</ul>
-</li>
-</ul>
-<h5 id="梅森旋转"><a href="#梅森旋转" class="headerlink" title="梅森旋转"></a>梅森旋转</h5><p>Mersenne是Makoto Mastsumoto（松本）和Takuji Nishimura（西村）于1997年开发的伪随机数产生器：</p>
-<ul>
-<li>该算法周期很长，在1～623的维度之间可以均等分布</li>
-<li>速度非常快</li>
-<li>需要的空间比线性同余算法大（TinyMT 2.5KiB）</li>
-</ul>
-<h4 id="随机数种子"><a href="#随机数种子" class="headerlink" title="随机数种子"></a>随机数种子</h4><p>给定的种子决定了后续随机数序列，一般程序启动时用当前时间作为种子进行一次初始化。</p>
-<ul>
-<li><p>错误用法</p>
-<ul>
-<li>没有调用初始化<code>srand</code>，导致每次启动游戏获得的序列是一样的，失去了随机的意义。</li>
-<li>每次调用随机数<code>rand</code>之前都初始化<code>srand</code>，这样得出的结果就会很有一定规律不是特别随机，违背了初衷。</li>
-</ul>
-</li>
-<li><p>作用</p>
-<ul>
-<li>提供每次不一样的游戏体验（用启动时间作为种子）<ul>
-<li>例如<code>超级马里奥</code>这种游戏每次敌人出现的位置是固定的，玩的次数多了甚至可以背下来，但如果增加一些随机数就可以更有趣味性和挑战性。红白机早期是没办法取到时间的，它的随机数是用一些奇怪的算法加上例如按键的时间长短来实现的</li>
-</ul>
-</li>
-<li>在程序生成内容（Procedural Content Generation,PCG）中使用，用来确保两次计算结果相同<ul>
-<li>比如用程序生成<code>Minecraft</code>这种地图每次进入是根据同一个种子来生成的，不然每次进入地图都不一样。玩家可以在网站上分享seed，根据该seed会生成相同的世界。</li>
-</ul>
-</li>
-<li>在多人游戏中减小带宽占用（帧同步游戏机制）<ul>
-<li>两人对战时暴击是随机的，但两边要保证随机出来的值是一样的，所以需要一开始把一方的种子传过去。种子一样，之后的计算步骤保持一致就能保证两端是一样的。</li>
-</ul>
-</li>
-<li>使用非常小的录像文件来实现录像和回放功能（如游戏的录像机制）</li>
-</ul>
-</li>
-<li><p>帧同步中的随机数<br>在使用帧同步的游戏中，要求所有运算步骤严格依序执行</p>
-<ul>
-<li>通常会自行实现伪随机数生成器，第三方库无意的调用系统随机数很可能破坏同步状态。</li>
-<li>随机数种子需要同步，同步给第三方。</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gelg9u2n0nj30xc0dxgnj.jpg"></p>
-<h3 id="随机数分布与应用"><a href="#随机数分布与应用" class="headerlink" title="随机数分布与应用"></a>随机数分布与应用</h3><h4 id="均匀分布"><a href="#均匀分布" class="headerlink" title="均匀分布"></a>均匀分布</h4><ul>
-<li>VC的<code>rand()</code>函数范围是[0..32767]，如何取得一个[0..9999]的随机整数？<ul>
-<li><code>x = rand()%10000</code> 分布不均匀（左侧偏大），因为32767不能被10000整除</li>
-<li>拒绝采样法</li>
-</ul>
-</li>
-</ul>
-<h5 id="如何取得更大的随机数（0～1000000）"><a href="#如何取得更大的随机数（0～1000000）" class="headerlink" title="如何取得更大的随机数（0～1000000）"></a>如何取得更大的随机数（0～1000000）</h5><ul>
-<li><code>x = rand()*(RAND_MAX + 1) + rand()</code></li>
-<li>使用更好的随机数算法，比如梅森旋转</li>
-</ul>
-<h5 id="如何取得一个0～1的随机浮点数"><a href="#如何取得一个0～1的随机浮点数" class="headerlink" title="如何取得一个0～1的随机浮点数"></a>如何取得一个0～1的随机浮点数</h5><ul>
-<li><p><code>x = rand()/(float)RAND_MAX</code><br>不可以用<code>x = (rand()%10000)/10000.0f</code> 同样的原因也会导致分布不均匀</p>
-</li>
-<li><p>针对浮点数的存储格式来生成，随机填充尾数域得[1，2)范围的随机数。<br><code>符号位 - 指数域 - 尾数域(23bit)</code><br>将指数域写死，尾数域用0或1进行填充，最后生成的随机数再减去1就可以得到0到1之间的浮点随机数。</p>
-</li>
-</ul>
-<h4 id="正态分布"><a href="#正态分布" class="headerlink" title="正态分布"></a>正态分布</h4><p>在某些时候用于生成更符合自然界规律的随机分布，比如：<code>不同身高的人群</code>、<code>不同高度的树木</code>等。</p>
-<h5 id="如何获得符合正态分布的随机数"><a href="#如何获得符合正态分布的随机数" class="headerlink" title="如何获得符合正态分布的随机数"></a>如何获得符合正态分布的随机数</h5><ul>
-<li><p>拒绝采样法<br>采样两次分别用作x值和y值，只保留正态分布曲线以下的部分，输出的时候丢弃y值，只输出x值从而保证正态分布。缺点是浪费了太多的样本点。</p>
-</li>
-<li><p>Ziggurat：优化版拒绝采样<br>先生成一些符合正态分布且面积相等的矩形，然后对矩形进行随机：如果在正态分布曲线下方则保留；否则再用拒绝采样法来判断一次，最后只保留曲线以下部分。该算法的主要目的是为了减少无效的运算。</p>
-</li>
-<li><p>逆变换采样<br>利用正态分布CDF的反函数做 Inverse transform sampling<br>在y轴产生服从(0,1)均匀分布的随机数，水平向右投影到曲线上，然后垂直向下投影到x轴，这样在x轴上就得到了正态分布，拿正态分布的反函数来算。</p>
-</li>
-<li><p>Box-Muller算法<br>选取两个服从[0,1]上均匀分布的随机变量 U1、U2，使X、Y满足：</p>
-<p>$X = \cos(2 \pi U_1)\sqrt{-2 \ln U_2}$</p>
-<p>$Y = \sin(2 \pi U_1)\sqrt{-2 \ln U_2}$</p>
-<p>则X与Y服从均值为0，方差为1的高斯分布。</p>
-</li>
-<li><p>基于中心极限定理采样</p>
-<ul>
-<li>生成n个独立同分布的随机变量，求和即可</li>
-<li>当n趋近于无穷大时，它们和的分布都会趋近正态分布</li>
-</ul>
-</li>
-</ul>
-<h4 id="形状采样"><a href="#形状采样" class="headerlink" title="形状采样"></a>形状采样</h4><h5 id="取得在圆形内均匀分布的点"><a href="#取得在圆形内均匀分布的点" class="headerlink" title="取得在圆形内均匀分布的点"></a>取得在圆形内均匀分布的点</h5><ul>
-<li><p>拒绝采样</p>
-</li>
-<li><p>根据极坐标采样</p>
-<ul>
-<li><p>错误算法</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">x &#x3D; r * sin(theta)</span><br><span class="line">y &#x3D; r * cos(theta)</span><br></pre></td></tr></table></figure></li>
-<li><p>正确算法</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">x &#x3D; sqrt(r) * sin(theta)</span><br><span class="line">y &#x3D; sqrt(r) * cos(theta)</span><br></pre></td></tr></table></figure>
-
-
-
-
-</li>
-</ul>
-</li>
-</ul>
-<h5 id="洗牌算法-Fisher-Yates-shuffle"><a href="#洗牌算法-Fisher-Yates-shuffle" class="headerlink" title="洗牌算法 Fisher-Yates shuffle"></a>洗牌算法 Fisher-Yates shuffle</h5><ul>
-<li>选中第1个元素，将其与<code>n</code>个元素中的任意一个交换（包括第1个元素自己）。这时排序后的第1个元素已经确定</li>
-<li>选中第2个元素，将其与<code>n-1</code>个元素中作任意一个交换（包括第2个元素自己）。</li>
-<li>重复上面步骤，直到剩1个元素为止。</li>
-</ul>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gekzwflh2oj30xc0p0dot.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/victoire">Victoire Douy</a>
-    </i>
-  </font>
-</div>
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gekyba8kcdj30xc0got99.jpg)]]></content>
-      <categories>
-        <category>游戏程序设计 (Game Programming)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>Math</tag>
-        <tag>Random</tag>
       </tags>
   </entry>
   <entry>
@@ -3901,14 +3900,10 @@
 <p>GPS一共6条轨道，每条轨道4颗卫星，一共24颗卫星。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkdgum5vcqj30fi0ahmxm.jpg"></p>
 </li>
-</ul>
-<ul>
 <li><p><strong>苏联的GLONASS</strong></p>
 <p>GLONASS一共3条轨道，每条轨道8颗卫星，一共24颗卫星。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkdgwdsot0j30cv08xac9.jpg"></p>
 </li>
-</ul>
-<ul>
 <li><p><strong>欧盟的伽利略</strong></p>
 </li>
 <li><p><strong>中国的北斗</strong></p>
@@ -4222,64 +4217,61 @@
 <h4 id="Aseprite"><a href="#Aseprite" class="headerlink" title="Aseprite"></a>Aseprite</h4><p>目前我最喜欢的像素画软件。非常的强大，特性很多又很方便用。这个教程都是用 Aseprite 来做的，但是我觉得转换到其他软件也不需要费很大功夫。你可以试试 Aseprite 的试用版，但是不能保存文件，用来练习我觉得还 OK。</p>
 <h4 id="创建文件"><a href="#创建文件" class="headerlink" title="创建文件"></a>创建文件</h4><p>点击主界面的“<code>New File</code>”，或者到 <code>FIle</code> &gt; <code>New File</code>，之后就可以开始画了。</p>
 <p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto9xfs3j307t0bqq2q.jpg"></p>
-</li>
-</ul>
-<p>  我们新建一个文件，<code>16</code> 乘 <code>16</code> 可能看起来太小，不过我觉得作为起始还是很好的。大的分辨率可能会让你分心，你现在应该聚焦在：理解每个像素和周边的关系。</p>
-<p>  颜色模式保持 <code>RGBA</code>，这是最简单直观的。一些像素画手喜欢用 <code>Indexed</code>（索引）模式，能用一些很酷的颜色技巧，但也有一些缺点。</p>
-<p>  背景选透明（transparent）或者白色（white），暂时没影响。高级选项（Advanced Options）不要选，以后你可以自己去试试。</p>
-<p>  现在就都准备 ok 了。</p>
-<h3 id="开始画！"><a href="#开始画！" class="headerlink" title="开始画！"></a>开始画！</h3><p>  界面上有很多工具和菜单，别着急，我们现在只需要用几个按钮。最主要的工具是铅笔（Pencil），应该一直保持 <code>1px</code> 宽度，这是我们在画布上画像素的工具。点击这个按钮，或者按 B，再去点击屏幕，就可以画上一个所选颜色的像素点。</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtodo3nvj30oh0k0dfx.jpg"></p>
-<p>  在左边你可以看到调色盘，有几个默认颜色。把这些换一下，换成简单点的集合。点击调色盘上面第三个按钮（预设，presets），选择 <code>ARQ4</code>（Endesga 所做的一个很棒的调色盘）。这就是你画第一个 sprite 会用的调色盘了。</p>
-<p>  现在用这里的 4 个颜色来试着画个杯子。</p>
-<p>  可以从我的设计里找灵感，也要试着画的个性一点。如果画错，按 ALT + 点击一个空白区域或者画布外，你就会选择一个透明的色，可以用来擦除像素。当然也可以点击橡皮（Eraser）或者按 E。</p>
-<p>  你可能注意到，在这么低的分辨率上画，跟常规绘画是不同的。所有东西都要计算好，没个像素的位置都是你需要做的决定。你需要适应这些。</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtobbn8oj309h09w0si.jpg"></p>
-<p>  你可以去试试其他的按钮。注意有些按钮点中后会打开更多选项。先不要用模糊工具（blur），他会增加很多颜色，我们还用不上。</p>
-<p>  现在，我们可以画更多 sprite，试试画骷髅，宝剑，人脸。这次不找像素画参考。如果你感觉这些在画布上画不开，完全正常，试着去把一些地方抽象成单像素再试试。在这么低的分辨率画画是很难的，有时候很想是解密。这里有一篇我之前给 Kano 写的，关于在低分辨率下画画的文章：<a href="https://kano.me/blog/my-thoughts-on-very-low-resolution/">https://kano.me/blog/my-thoughts-on-very-low-resolution/</a></p>
-<p>  这里是我画的几个 sprite，一定确保你画完自己的再看：</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto6xtqmj30lu0b1a9t.jpg"></p>
-<p>  这是个不错的练习，如果你想继续练习，试着带着这些限制画更多东西。</p>
-<h4 id="保存文件"><a href="#保存文件" class="headerlink" title="保存文件"></a>保存文件</h4><p>  按 CTRL+S 来保存文件，或者到 <code>File</code> &gt; <code>Save As...</code>，选文件名和保存路径，点击 <code>save</code>。</p>
-<p>  在试用版这个功能是禁用的！</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtod6vxsj30bh09r3ya.jpg"></p>
-<p>  Aseprite 可以保存很多的格式，我建议保存一个 ase 文件。就好像 PS 里你会留一个 psd 文件一样。当要导出到 web 或游戏里时，可以 CTRL+ALT+SHIFT+S，或者 <code>File</code> &gt; <code>Export</code>.</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtocrr05j30u00czq4t.jpg" alt="图片"></p>
-<p>  Aseprite 在导出界面有个很棒的 Resize 特性。它只会把你的 sprite 放大整数倍，完美。如果你要把 sprite 放大 107%，就会把所有像素都破坏掉，乱七八糟。但如果你缩放 200%，每个像素就会变成 2 倍宽和高，还是很整洁。</p>
-<h4 id="大点的画布"><a href="#大点的画布" class="headerlink" title="大点的画布"></a>大点的画布</h4><p>  现在你已经连接了基础，像创建保存文件，在画布上画画。我们试着画个大点的画布，<code>32</code> 乘 <code>32</code> 像素。调色盘也换大一点，试一试 <code>AAP-Micro12</code>（ AdigunPolack 制作）。这次画个铲子。</p>
-<p>  不像 <code>16</code> 乘 <code>16</code> 的 sprite，我们可以在这里画一些轮廓线，这是我的流程分解：</p>
-<h4 id="第一步：线条"><a href="#第一步：线条" class="headerlink" title="第一步：线条"></a>第一步：线条</h4><p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtoaeyuhj30gv0480gi.jpg" alt="图片"></p>
-<p>  这种线条风格我称为像素完美线，只有 <code>1</code> 像素宽，与其他像素对角线连接。当画这种线时，注意避免不必要的边，比如：</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto75iqtj307w0b90jk.jpg" alt="图片"></p>
-<p>  Aseprite 还有个很棒的笔刷特性可以自动处理这些：选中你的笔刷工具，再选中像素完美（pixel-perfect）。记得不画线的时候要把它勾掉，不然很烦人。</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtocc0hdj309y02g741.jpg" alt="图片"></p>
-<h4 id="第二步：基本颜色"><a href="#第二步：基本颜色" class="headerlink" title="第二步：基本颜色"></a>第二步：基本颜色</h4><p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtobselij30i704k0k1.jpg" alt="图片"></p>
-<p>  可选颜色少有个好处是不会被太多的选择淹没。这就是为什么用一大堆色也很难，如果你的调色盘里有个颜色，你没理由不好好利用起来。试着把它当成解密，多试验，即使是怪异的，非常规的组合，知道你找到你认为最合适这个区域的组合。</p>
-<h4 id="第三步：明暗"><a href="#第三步：明暗" class="headerlink" title="第三步：明暗"></a>第三步：明暗</h4><p>  用你的调色盘有创意的画出明暗。因为你只有非常受限的调色盘，你不会有每种不同亮度的色调，你必须随机应变。</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto8ka0gj308h06d0sh.jpg"> </p>
-<p>  这个例子里，我用的也是 <code>AAP-Mini12</code> 调色盘。当我画上这个绿老哥之后，我没有其他亮绿色可用了，所以我选了能用的最接近的色，也就是黄色。阴影也是一样，我选了蓝色，因为这是最接近的暗色。但如果我反过来呢？我可以用个亮蓝色和暗红色，对吧？其实不太行：</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto9lsp0j308o06a0sh.jpg"> </p>
-<p>  看起来好像很酷，但是明显有点不对劲。通常你得把冷色调用在阴影，暖色用在亮处，不然就看着怪。当然这也不是雷打不动的规则，有很多的例外。在你不确定的时候，就遵从它。</p>
-<h4 id="第四步：抗锯齿和优化"><a href="#第四步：抗锯齿和优化" class="headerlink" title="第四步：抗锯齿和优化"></a>第四步：抗锯齿和优化</h4><p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto824guj30gp0480kq.jpg" alt="图片"></p>
-<p>  这部分需要你试着把像素变得不那么“尖”。手工抗锯齿是个复杂的主题，估计我们要用一整篇文章来讨论，不过概念是，你可以用中间色来模拟“半个像素”，软化边界。但是不用过多的关心这个，现在你需要把 spirite 的尽量画的易于理解。</p>
-<p>  另外一个适合在这个阶段做的是干掉孤立像素减少噪点。孤立像素就是不属于任何大的同色的像素簇的像素，也不属于抗锯齿，比如：</p>
-<p>  <img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtob0n0wj30m70bo0si.jpg"></p>
-<p>  注意到左边的 <code>1</code> 像素小岛了吗？那些就是孤立像素，在我们把这些孤立像素和邻近的同色像素合并之后，能看出这个地球看起来好多了。</p>
-<p>  那么图里的那些星星呢？他们的存在是为了表示孤立像素也不是完全不好，这些星星就是想要的效果，画出一个噪点纹理，提高了背景的对比度。</p>
-<p>  不要无脑的删除孤立像素，要在过程中问自己：这个像素是不是需要单独存在？</p>
-<h3 id="接下来？"><a href="#接下来？" class="headerlink" title="接下来？"></a>接下来？</h3><p>  现在是时候去试试更多颜色和更大的分辨率了。但要慢慢来，比如 48 乘 48，16 个色等等。如果你是完全初学，我建议先别做动画，先聚焦于如何舒服的画出静态的画。</p>
-<p>  我选了几个我很喜欢的像素画教程，如果你想看看的话：</p>
+<p>我们新建一个文件，<code>16</code> 乘 <code>16</code> 可能看起来太小，不过我觉得作为起始还是很好的。大的分辨率可能会让你分心，你现在应该聚焦在：理解每个像素和周边的关系。</p>
+<p>颜色模式保持 <code>RGBA</code>，这是最简单直观的。一些像素画手喜欢用 <code>Indexed</code>（索引）模式，能用一些很酷的颜色技巧，但也有一些缺点。</p>
+<p>背景选透明（transparent）或者白色（white），暂时没影响。高级选项（Advanced Options）不要选，以后你可以自己去试试。</p>
+<p>现在就都准备 ok 了。</p>
+<h3 id="开始画！"><a href="#开始画！" class="headerlink" title="开始画！"></a>开始画！</h3><p>界面上有很多工具和菜单，别着急，我们现在只需要用几个按钮。最主要的工具是铅笔（Pencil），应该一直保持 <code>1px</code> 宽度，这是我们在画布上画像素的工具。点击这个按钮，或者按 B，再去点击屏幕，就可以画上一个所选颜色的像素点。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtodo3nvj30oh0k0dfx.jpg"></p>
+<p>在左边你可以看到调色盘，有几个默认颜色。把这些换一下，换成简单点的集合。点击调色盘上面第三个按钮（预设，presets），选择 <code>ARQ4</code>（Endesga 所做的一个很棒的调色盘）。这就是你画第一个 sprite 会用的调色盘了。</p>
+<p>现在用这里的 4 个颜色来试着画个杯子。</p>
+<p>可以从我的设计里找灵感，也要试着画的个性一点。如果画错，按 ALT + 点击一个空白区域或者画布外，你就会选择一个透明的色，可以用来擦除像素。当然也可以点击橡皮（Eraser）或者按 E。</p>
+<p>你可能注意到，在这么低的分辨率上画，跟常规绘画是不同的。所有东西都要计算好，没个像素的位置都是你需要做的决定。你需要适应这些。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtobbn8oj309h09w0si.jpg"></p>
+<p>你可以去试试其他的按钮。注意有些按钮点中后会打开更多选项。先不要用模糊工具（blur），他会增加很多颜色，我们还用不上。</p>
+<p>现在，我们可以画更多 sprite，试试画骷髅，宝剑，人脸。这次不找像素画参考。如果你感觉这些在画布上画不开，完全正常，试着去把一些地方抽象成单像素再试试。在这么低的分辨率画画是很难的，有时候很想是解密。这里有一篇我之前给 Kano 写的，关于在低分辨率下画画的文章：<a href="https://kano.me/blog/my-thoughts-on-very-low-resolution/">https://kano.me/blog/my-thoughts-on-very-low-resolution/</a></p>
+<p>这里是我画的几个 sprite，一定确保你画完自己的再看：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto6xtqmj30lu0b1a9t.jpg"></p>
+<p>这是个不错的练习，如果你想继续练习，试着带着这些限制画更多东西。</p>
+<h4 id="保存文件"><a href="#保存文件" class="headerlink" title="保存文件"></a>保存文件</h4><p>按 CTRL+S 来保存文件，或者到 <code>File</code> &gt; <code>Save As...</code>，选文件名和保存路径，点击 <code>save</code>。</p>
+<p>在试用版这个功能是禁用的！</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtod6vxsj30bh09r3ya.jpg"></p>
+<p>Aseprite 可以保存很多的格式，我建议保存一个 ase 文件。就好像 PS 里你会留一个 psd 文件一样。当要导出到 web 或游戏里时，可以 CTRL+ALT+SHIFT+S，或者 <code>File</code> &gt; <code>Export</code>.</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtocrr05j30u00czq4t.jpg" alt="图片"></p>
+<p>Aseprite 在导出界面有个很棒的 Resize 特性。它只会把你的 sprite 放大整数倍，完美。如果你要把 sprite 放大 107%，就会把所有像素都破坏掉，乱七八糟。但如果你缩放 200%，每个像素就会变成 2 倍宽和高，还是很整洁。</p>
+<h4 id="大点的画布"><a href="#大点的画布" class="headerlink" title="大点的画布"></a>大点的画布</h4><p>现在你已经连接了基础，像创建保存文件，在画布上画画。我们试着画个大点的画布，<code>32</code> 乘 <code>32</code> 像素。调色盘也换大一点，试一试 <code>AAP-Micro12</code>（ AdigunPolack 制作）。这次画个铲子。</p>
+<p>不像 <code>16</code> 乘 <code>16</code> 的 sprite，我们可以在这里画一些轮廓线，这是我的流程分解：</p>
+<h4 id="第一步：线条"><a href="#第一步：线条" class="headerlink" title="第一步：线条"></a>第一步：线条</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtoaeyuhj30gv0480gi.jpg" alt="图片"></p>
+<p>这种线条风格我称为像素完美线，只有 <code>1</code> 像素宽，与其他像素对角线连接。当画这种线时，注意避免不必要的边，比如：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto75iqtj307w0b90jk.jpg" alt="图片"></p>
+<p>Aseprite 还有个很棒的笔刷特性可以自动处理这些：选中你的笔刷工具，再选中像素完美（pixel-perfect）。记得不画线的时候要把它勾掉，不然很烦人。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtocc0hdj309y02g741.jpg" alt="图片"></p>
+<h4 id="第二步：基本颜色"><a href="#第二步：基本颜色" class="headerlink" title="第二步：基本颜色"></a>第二步：基本颜色</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtobselij30i704k0k1.jpg" alt="图片"></p>
+<p>可选颜色少有个好处是不会被太多的选择淹没。这就是为什么用一大堆色也很难，如果你的调色盘里有个颜色，你没理由不好好利用起来。试着把它当成解密，多试验，即使是怪异的，非常规的组合，知道你找到你认为最合适这个区域的组合。</p>
+<h4 id="第三步：明暗"><a href="#第三步：明暗" class="headerlink" title="第三步：明暗"></a>第三步：明暗</h4><p>用你的调色盘有创意的画出明暗。因为你只有非常受限的调色盘，你不会有每种不同亮度的色调，你必须随机应变。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto8ka0gj308h06d0sh.jpg"> </p>
+<p>这个例子里，我用的也是 <code>AAP-Mini12</code> 调色盘。当我画上这个绿老哥之后，我没有其他亮绿色可用了，所以我选了能用的最接近的色，也就是黄色。阴影也是一样，我选了蓝色，因为这是最接近的暗色。但如果我反过来呢？我可以用个亮蓝色和暗红色，对吧？其实不太行：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto9lsp0j308o06a0sh.jpg"> </p>
+<p>看起来好像很酷，但是明显有点不对劲。通常你得把冷色调用在阴影，暖色用在亮处，不然就看着怪。当然这也不是雷打不动的规则，有很多的例外。在你不确定的时候，就遵从它。</p>
+<h4 id="第四步：抗锯齿和优化"><a href="#第四步：抗锯齿和优化" class="headerlink" title="第四步：抗锯齿和优化"></a>第四步：抗锯齿和优化</h4><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhto824guj30gp0480kq.jpg" alt="图片"></p>
+<p>这部分需要你试着把像素变得不那么“尖”。手工抗锯齿是个复杂的主题，估计我们要用一整篇文章来讨论，不过概念是，你可以用中间色来模拟“半个像素”，软化边界。但是不用过多的关心这个，现在你需要把 spirite 的尽量画的易于理解。</p>
+<p>另外一个适合在这个阶段做的是干掉孤立像素减少噪点。孤立像素就是不属于任何大的同色的像素簇的像素，也不属于抗锯齿，比如：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhtob0n0wj30m70bo0si.jpg"></p>
+<p>注意到左边的 <code>1</code> 像素小岛了吗？那些就是孤立像素，在我们把这些孤立像素和邻近的同色像素合并之后，能看出这个地球看起来好多了。</p>
+<p>那么图里的那些星星呢？他们的存在是为了表示孤立像素也不是完全不好，这些星星就是想要的效果，画出一个噪点纹理，提高了背景的对比度。</p>
+<p>不要无脑的删除孤立像素，要在过程中问自己：这个像素是不是需要单独存在？</p>
+<h3 id="接下来？"><a href="#接下来？" class="headerlink" title="接下来？"></a>接下来？</h3><p>现在是时候去试试更多颜色和更大的分辨率了。但要慢慢来，比如 48 乘 48，16 个色等等。如果你是完全初学，我建议先别做动画，先聚焦于如何舒服的画出静态的画。</p>
+<p>我选了几个我很喜欢的像素画教程，如果你想看看的话：</p>
 <ul>
-<li><p>Pixel art tutorial by Cure<br><a href="http://pixeljoint.com/forum/forum_posts.asp?TID=11299&amp;PID=139318#139318">http://pixeljoint.com/forum/forum_posts.asp?TID=11299&amp;PID=139318#139318</a></p>
-</li>
-<li><p>Pixel art tutorial by Derek Yu<br><a href="http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial">http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial</a></p>
-</li>
-<li><p>Pixel art tutorial by Arne<br><a href="https://androidarts.com/pixtut/pixelart.htm">https://androidarts.com/pixtut/pixelart.htm</a></p>
+<li>Pixel art tutorial by Cure<br><a href="http://pixeljoint.com/forum/forum_posts.asp?TID=11299&amp;PID=139318#139318">http://pixeljoint.com/forum/forum_posts.asp?TID=11299&amp;PID=139318#139318</a></li>
+<li>Pixel art tutorial by Derek Yu<br><a href="http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial">http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial</a></li>
+<li>Pixel art tutorial by Arne<br><a href="https://androidarts.com/pixtut/pixelart.htm">https://androidarts.com/pixtut/pixelart.htm</a></li>
+</ul>
 <p>我自己也做了很多不同主题的教程，你可以在 patreon 页里看到（风农：就是我做的这个系列~）。</p>
-</li>
-<li><p>My Patreon page<br>patreon.com/saint11</p>
-</li>
-<li><p>A compiled list of all my tutorials<br><a href="http://blog.studiominiboss.com/pixelart">http://blog.studiominiboss.com/pixelart</a></p>
+<ul>
+<li>My Patreon page<br>patreon.com/saint11</li>
+<li>A compiled list of all my tutorials<br><a href="http://blog.studiominiboss.com/pixelart">http://blog.studiominiboss.com/pixelart</a></li>
+</ul>
 </li>
 </ul>
 ]]></content>
@@ -4565,80 +4557,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#7</title>
-    <url>/archives/7559aa07.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zm7aw4aj31hc0u0jv1.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8bd0hfj30u008c74z.jpg"></p>
-<p>系列第 7 篇。</p>
-<h3 id="什么是线条"><a href="#什么是线条" class="headerlink" title="什么是线条"></a>什么是线条</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv89ju74j30ei0d812e.jpg"></p>
-<p>线条是艺术领域最重要的工具之一。他们可以用来强调形状，对比。现实世界里我们看不到线条，但他们能帮助我们分隔空间，创造纹理，表现体积和方向。</p>
-<p>在像素美术中，屏幕上的空间非常受限。每个像素都很重要，绘制线条就变得很昂贵。因此，如果你在画非常低像素作品，不推荐使用线条。即使有一些富裕的空间，还是要谨慎的使用线条，试着不使用线条去完成。最少化线条的使用，是保持像素画整洁的好办法。</p>
-<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovDCt2BDcwjydRAsAavRfUE6DHsv5ia5XcbHnydHaaHo09AvG04kIS50Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
-<p>不必要的线可以用阴影或者高对比区域代替。将线条与暗影部分融合能让画面显得更统一，自然。</p>
-<h3 id="不必要的拐角"><a href="#不必要的拐角" class="headerlink" title="不必要的拐角"></a>不必要的拐角</h3><p>之前简单的解释过（第一节），这里再进一步讲一下。</p>
-<p>这种不必要的拐角，通常出现在手绘线条时。你可以手工去清理，也可以打开铅笔工具的“像素完美”（<code>pixel perfect</code>）功能来避免这些。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv88tzipj309w05c741.jpg"></p>
-<p>这个算法在画单像素线条时非常有用，不过不总是完美的，你还是应该知道如何手工去清理。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8cjbhrj30a205p0jc.jpg"></p>
-<p>查找模式很简单：每当你看到一个拐角（<code>3</code> 或 <code>4</code> 个像素组成的方形），思考一下这里是否应当是个拐角。如果这部分不是拐角，就去掉一个像素让他更圆。</p>
-<p>注意这跟锯齿是不同的，我在之前的章节（第二节）解释过锯齿，以及如何处理他们。修复拐角可能会创造出很多锯齿，所以通常这会是个多步过程：<code>绘制</code> &gt; <code>修复拐角</code> &gt; <code>修复锯齿</code>。</p>
-<h3 id="方形线"><a href="#方形线" class="headerlink" title="方形线"></a>方形线</h3><p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovZlINW3bgF8R1K5SK9yyhNaKCib7BiblqlicP8AkCzIBxyFMttmyIBNLKQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
-<p>单像素线条问题还有一种更风格化的解决办法。你可以到处加拐角，而不是尝试去移除他们。听起来没道理，但确实是种风格化的选择，很有趣，适合高度风格化的作品，因为它模拟了一种更粗的线条。</p>
-<p>处理过程基本一样，只是你需要找到每个对角链接的像素，把它变方，而不是去删掉拐角。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8a5yvaj309w05m0i1.jpg"></p>
-<p>注意这样做也会产生很多锯齿，别忘了处理他们。</p>
-<h3 id="Colored-lines-有色线条"><a href="#Colored-lines-有色线条" class="headerlink" title="Colored lines 有色线条"></a>Colored lines 有色线条</h3><p>有些时候，尤其是在较低分辨率，线条会吸引过多的注意。有个弱化这种效果的方法是，给线条添加临近颜色的深色版本。</p>
-<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDov1liczK25ftiam3YsickNl5yTnNicL81HKl91snwwbw5s4XwAS1yrCib8lWA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
-<p>过程很简单，回顾每条你画的线条，试着修改成临近颜色的深色版本。当你这么做之后，所选的颜色会让相应的区域显得变大了，所以线条的位置可能需要调整。有时候你可能不确定选哪个临近的颜色，有时候可能很容易确定。当你不确定的时候，就选更深的颜色。</p>
-<p>我依然喜欢保留最外层的黑色描边，看分辨率合适的话我甚至会加倍这个外层描边。但这只是我个人的选择，你可以自己考虑。</p>
-<h3 id="线条草图"><a href="#线条草图" class="headerlink" title="线条草图"></a>线条草图</h3><p>之前我们学过像素簇草图的画法，这次来试点别的。这种方法很适合于画角色以及画动画帧，因为画起来很快，而且聚焦于形状，而不是光和色（像像素簇草图那样）。</p>
-<p>我们来做个实际案例学习，把这节提到的都应用上。如果你想要跟着做，建议新建 64*64 分辨率的画布，用 AAP-64 调色板。</p>
-<p><strong>Step 1  — 草图</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv87ygl3j30fh078mwx.jpg"></p>
-<p>第一步先忽略各种像素画的规则，尽可能流畅的勾勒出形状。基本上跟在纸上或者其他数字化的，非像素的媒介一样。不要过多考虑之后如何清理线条。完成后可以稍作整理，去除明显的标志线，定义一些形状。</p>
-<p><strong>Step 2  — 线条清理</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvbdn60dj307j0770sh.jpg"></p>
-<p>现在开始做清理。把草图层设置成半透明，可以 右键 点击图层名称，选择属性，再调低透明度。现在可以在上面的图层去画。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8ao6foj30c007zq2q.jpg"></p>
-<p>这里的思路是画出最终的线条图。先聚焦在重点线条上，比如构成角色剪影和脸部的线条。先不要关心颜色和光影，如果想画的话可以画一点主阴影，重点还是把主要形状弄对。</p>
-<p><strong>Step 3  —  底色</strong></p>
-<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovve85R4AL3Ns9CkkPy3GZ91D8PLYmrl3Sc3WztQWvgHOec9h0XZDLrg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
-<p>很简单的一步，找到符合需求的颜色，用油漆桶填充进去。避免过于饱和和过亮的颜色。还不到画光影的时候，但是要考虑好画面应该如何被照亮，有些区域会被周围的颜色影响。</p>
-<p><strong>Step 4  —  光影</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv88aqv3j307p077gld.jpg"></p>
-<p>开始给画添加光影，添加明暗区域。试着想象光会如何照射到你画的物体上，相应的渲染。这一步找个参考图是个很好的办法。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvaibzjbj309z07h742.jpg"></p>
-<p>我喜欢在这一步通过给弧线加上较深的颜色，来尽量弱化黑色的描边，就好像是做抗锯齿。不过别做太过，不然线条看起来会模糊。</p>
-<p>这一步可以调整线条，但重点是光影。</p>
-<p><strong>Step 5  —  线条上色和抗锯齿</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8c2gduj307p07agld.jpg" alt="图片"></p>
-<p>之前提到过，过多的黑色描边可能会分散注意力。通过上色来弱化他们是个不错的方法。只要找到周围最近，最深的颜色，并把描边改成这个色的更深版本就行。</p>
-<p>如果这个描边是用来分隔明显的区域，比如脖子和脸颊，衣领和头发，你可以画很深色，甚至保留黑色。这也是为什么我喜欢保持黑色的角色外层描边。弱化的过渡一般用亮一点的线，比如鼻子的线条。</p>
-<p><strong>Step 6  — 打磨细节</strong></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvb2fvmtj307t076t8h.jpg"></p>
-<p>最后这步你需要确定所有线条都做过抗锯齿，所有阴影过渡都合理的软化过（或者没有！如果是硬过渡的话。），并添加上所有细节。</p>
-<p>添加背光，小的高亮，反射区域。因为所有东西都就位了，你可以衡量想要在画面添加多少细节。不要做得太过，注意别加入过多噪点。</p>
-<p>这就完成了！多去练习，并试着把前几节的概念也融入进来。</p>
-<p>Good luck!</p>
-]]></content>
-      <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开始画像素画#6</title>
     <url>/archives/25e9a91.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zkn8uthj31hc0u0dju.jpg"></p>
@@ -4710,6 +4628,80 @@
 <p>如果要做自己的调色盘，Adobe 有个很棒的工具：</p>
 <p><a href="https://color.adobe.com/create/color-wheel/">https://color.adobe.com/create/color-wheel/</a></p>
 <p>最后提一下：记住，处理颜色是个很主观的事情。这里提到的都不是雷打不动的规则，都是灵活的指导方针，不过我还是建议在你能更自信的打破这些规则之前，继续遵守他们。</p>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开始画像素画#7</title>
+    <url>/archives/7559aa07.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zm7aw4aj31hc0u0jv1.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8bd0hfj30u008c74z.jpg"></p>
+<p>系列第 7 篇。</p>
+<h3 id="什么是线条"><a href="#什么是线条" class="headerlink" title="什么是线条"></a>什么是线条</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv89ju74j30ei0d812e.jpg"></p>
+<p>线条是艺术领域最重要的工具之一。他们可以用来强调形状，对比。现实世界里我们看不到线条，但他们能帮助我们分隔空间，创造纹理，表现体积和方向。</p>
+<p>在像素美术中，屏幕上的空间非常受限。每个像素都很重要，绘制线条就变得很昂贵。因此，如果你在画非常低像素作品，不推荐使用线条。即使有一些富裕的空间，还是要谨慎的使用线条，试着不使用线条去完成。最少化线条的使用，是保持像素画整洁的好办法。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovDCt2BDcwjydRAsAavRfUE6DHsv5ia5XcbHnydHaaHo09AvG04kIS50Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>不必要的线可以用阴影或者高对比区域代替。将线条与暗影部分融合能让画面显得更统一，自然。</p>
+<h3 id="不必要的拐角"><a href="#不必要的拐角" class="headerlink" title="不必要的拐角"></a>不必要的拐角</h3><p>之前简单的解释过（第一节），这里再进一步讲一下。</p>
+<p>这种不必要的拐角，通常出现在手绘线条时。你可以手工去清理，也可以打开铅笔工具的“像素完美”（<code>pixel perfect</code>）功能来避免这些。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv88tzipj309w05c741.jpg"></p>
+<p>这个算法在画单像素线条时非常有用，不过不总是完美的，你还是应该知道如何手工去清理。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8cjbhrj30a205p0jc.jpg"></p>
+<p>查找模式很简单：每当你看到一个拐角（<code>3</code> 或 <code>4</code> 个像素组成的方形），思考一下这里是否应当是个拐角。如果这部分不是拐角，就去掉一个像素让他更圆。</p>
+<p>注意这跟锯齿是不同的，我在之前的章节（第二节）解释过锯齿，以及如何处理他们。修复拐角可能会创造出很多锯齿，所以通常这会是个多步过程：<code>绘制</code> &gt; <code>修复拐角</code> &gt; <code>修复锯齿</code>。</p>
+<h3 id="方形线"><a href="#方形线" class="headerlink" title="方形线"></a>方形线</h3><p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovZlINW3bgF8R1K5SK9yyhNaKCib7BiblqlicP8AkCzIBxyFMttmyIBNLKQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>单像素线条问题还有一种更风格化的解决办法。你可以到处加拐角，而不是尝试去移除他们。听起来没道理，但确实是种风格化的选择，很有趣，适合高度风格化的作品，因为它模拟了一种更粗的线条。</p>
+<p>处理过程基本一样，只是你需要找到每个对角链接的像素，把它变方，而不是去删掉拐角。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8a5yvaj309w05m0i1.jpg"></p>
+<p>注意这样做也会产生很多锯齿，别忘了处理他们。</p>
+<h3 id="Colored-lines-有色线条"><a href="#Colored-lines-有色线条" class="headerlink" title="Colored lines 有色线条"></a>Colored lines 有色线条</h3><p>有些时候，尤其是在较低分辨率，线条会吸引过多的注意。有个弱化这种效果的方法是，给线条添加临近颜色的深色版本。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDov1liczK25ftiam3YsickNl5yTnNicL81HKl91snwwbw5s4XwAS1yrCib8lWA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>过程很简单，回顾每条你画的线条，试着修改成临近颜色的深色版本。当你这么做之后，所选的颜色会让相应的区域显得变大了，所以线条的位置可能需要调整。有时候你可能不确定选哪个临近的颜色，有时候可能很容易确定。当你不确定的时候，就选更深的颜色。</p>
+<p>我依然喜欢保留最外层的黑色描边，看分辨率合适的话我甚至会加倍这个外层描边。但这只是我个人的选择，你可以自己考虑。</p>
+<h3 id="线条草图"><a href="#线条草图" class="headerlink" title="线条草图"></a>线条草图</h3><p>之前我们学过像素簇草图的画法，这次来试点别的。这种方法很适合于画角色以及画动画帧，因为画起来很快，而且聚焦于形状，而不是光和色（像像素簇草图那样）。</p>
+<p>我们来做个实际案例学习，把这节提到的都应用上。如果你想要跟着做，建议新建 64*64 分辨率的画布，用 AAP-64 调色板。</p>
+<p><strong>Step 1  — 草图</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv87ygl3j30fh078mwx.jpg"></p>
+<p>第一步先忽略各种像素画的规则，尽可能流畅的勾勒出形状。基本上跟在纸上或者其他数字化的，非像素的媒介一样。不要过多考虑之后如何清理线条。完成后可以稍作整理，去除明显的标志线，定义一些形状。</p>
+<p><strong>Step 2  — 线条清理</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvbdn60dj307j0770sh.jpg"></p>
+<p>现在开始做清理。把草图层设置成半透明，可以 右键 点击图层名称，选择属性，再调低透明度。现在可以在上面的图层去画。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8ao6foj30c007zq2q.jpg"></p>
+<p>这里的思路是画出最终的线条图。先聚焦在重点线条上，比如构成角色剪影和脸部的线条。先不要关心颜色和光影，如果想画的话可以画一点主阴影，重点还是把主要形状弄对。</p>
+<p><strong>Step 3  —  底色</strong></p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/VZ8kwNia656nTI2LBj3suic8XQ4Ec2mDovve85R4AL3Ns9CkkPy3GZ91D8PLYmrl3Sc3WztQWvgHOec9h0XZDLrg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1"></p>
+<p>很简单的一步，找到符合需求的颜色，用油漆桶填充进去。避免过于饱和和过亮的颜色。还不到画光影的时候，但是要考虑好画面应该如何被照亮，有些区域会被周围的颜色影响。</p>
+<p><strong>Step 4  —  光影</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv88aqv3j307p077gld.jpg"></p>
+<p>开始给画添加光影，添加明暗区域。试着想象光会如何照射到你画的物体上，相应的渲染。这一步找个参考图是个很好的办法。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvaibzjbj309z07h742.jpg"></p>
+<p>我喜欢在这一步通过给弧线加上较深的颜色，来尽量弱化黑色的描边，就好像是做抗锯齿。不过别做太过，不然线条看起来会模糊。</p>
+<p>这一步可以调整线条，但重点是光影。</p>
+<p><strong>Step 5  —  线条上色和抗锯齿</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhv8c2gduj307p07agld.jpg" alt="图片"></p>
+<p>之前提到过，过多的黑色描边可能会分散注意力。通过上色来弱化他们是个不错的方法。只要找到周围最近，最深的颜色，并把描边改成这个色的更深版本就行。</p>
+<p>如果这个描边是用来分隔明显的区域，比如脖子和脸颊，衣领和头发，你可以画很深色，甚至保留黑色。这也是为什么我喜欢保持黑色的角色外层描边。弱化的过渡一般用亮一点的线，比如鼻子的线条。</p>
+<p><strong>Step 6  — 打磨细节</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvb2fvmtj307t076t8h.jpg"></p>
+<p>最后这步你需要确定所有线条都做过抗锯齿，所有阴影过渡都合理的软化过（或者没有！如果是硬过渡的话。），并添加上所有细节。</p>
+<p>添加背光，小的高亮，反射区域。因为所有东西都就位了，你可以衡量想要在画面添加多少细节。不要做得太过，注意别加入过多噪点。</p>
+<p>这就完成了！多去练习，并试着把前几节的概念也融入进来。</p>
+<p>Good luck!</p>
 ]]></content>
       <categories>
         <category>开始画像素画 (Making Pixel Art)</category>
@@ -4830,6 +4822,26 @@
       </tags>
   </entry>
   <entry>
+    <title>进程与线程</title>
+    <url>/archives/44cf1d42.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloe6t3mq4g312w0lwqva.gif"></p>
+<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
+<a id="more"></a>
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>操作系统 (Operating Systems)</category>
+      </categories>
+      <tags>
+        <tag>Mooc</tag>
+        <tag>OS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>操作系统概述</title>
     <url>/archives/33c82dd4.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gky8z6eslsg312w0lwhdu.gif"></p>
@@ -4874,57 +4886,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#121;&#111;&#x6e;&#x67;&#64;&#x74;&#x73;&#105;&#110;&#x67;&#x68;&#117;&#97;&#x2e;&#x65;&#100;&#117;&#x2e;&#99;&#110;">&#x78;&#121;&#111;&#x6e;&#x67;&#64;&#x74;&#x73;&#105;&#110;&#x67;&#x68;&#117;&#97;&#x2e;&#x65;&#100;&#117;&#x2e;&#99;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#121;&#x6f;&#110;&#x67;&#x40;&#116;&#115;&#x69;&#x6e;&#103;&#x68;&#x75;&#97;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#110;">&#120;&#121;&#x6f;&#110;&#x67;&#x40;&#116;&#115;&#x69;&#x6e;&#103;&#x68;&#x75;&#97;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#117;&#x63;&#x68;&#x65;&#110;&#64;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#116;&#115;&#105;&#110;&#x67;&#104;&#117;&#97;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#110;">&#121;&#117;&#x63;&#x68;&#x65;&#110;&#64;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#116;&#115;&#105;&#110;&#x67;&#104;&#117;&#97;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#x75;&#99;&#x68;&#x65;&#x6e;&#64;&#109;&#97;&#105;&#x6c;&#46;&#116;&#x73;&#x69;&#x6e;&#103;&#104;&#117;&#97;&#x2e;&#101;&#100;&#117;&#x2e;&#x63;&#x6e;">&#121;&#x75;&#99;&#x68;&#x65;&#x6e;&#64;&#109;&#97;&#105;&#x6c;&#46;&#116;&#x73;&#x69;&#x6e;&#103;&#104;&#117;&#97;&#x2e;&#101;&#100;&#117;&#x2e;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#x74;&#x65;&#x72;&#110;&#x61;&#x6c;&#46;&#110;&#x30;&#56;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#101;&#x74;&#x65;&#x72;&#110;&#x61;&#x6c;&#46;&#110;&#x30;&#56;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x65;&#x74;&#101;&#114;&#x6e;&#x61;&#x6c;&#x2e;&#x6e;&#x30;&#56;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#x65;&#x74;&#101;&#114;&#x6e;&#x61;&#x6c;&#x2e;&#x6e;&#x30;&#56;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#x62;&#x6a;&#x65;&#99;&#116;&#x6b;&#x75;&#x61;&#x6e;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#x6f;&#x62;&#x6a;&#x65;&#99;&#116;&#x6b;&#x75;&#x61;&#x6e;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#98;&#106;&#101;&#x63;&#116;&#107;&#x75;&#x61;&#x6e;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#111;&#98;&#106;&#101;&#x63;&#116;&#107;&#x75;&#x61;&#x6e;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#114;&#x64;&#x66;&#114;&#x61;&#110;&#x6b;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x63;&#114;&#x64;&#x66;&#114;&#x61;&#110;&#x6b;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#114;&#100;&#102;&#x72;&#97;&#110;&#x6b;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#99;&#114;&#100;&#102;&#x72;&#97;&#110;&#x6b;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#x61;&#x63;&#x63;&#111;&#114;&#97;&#x77;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x74;&#x61;&#x63;&#x63;&#111;&#114;&#97;&#x77;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#116;&#x61;&#99;&#x63;&#x6f;&#114;&#97;&#119;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#116;&#x61;&#99;&#x63;&#x6f;&#114;&#97;&#119;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#x69;&#110;&#121;&#117;&#x6e;&#x78;&#x69;&#x6e;&#x67;&#48;&#x30;&#x30;&#x31;&#64;&#x31;&#x36;&#51;&#46;&#x63;&#x6f;&#109;">&#120;&#x69;&#110;&#121;&#117;&#x6e;&#x78;&#x69;&#x6e;&#x67;&#48;&#x30;&#x30;&#x31;&#64;&#x31;&#x36;&#51;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#120;&#105;&#x6e;&#x79;&#117;&#110;&#120;&#x69;&#x6e;&#103;&#48;&#x30;&#x30;&#x31;&#64;&#x31;&#54;&#x33;&#46;&#99;&#111;&#x6d;">&#120;&#105;&#x6e;&#x79;&#117;&#110;&#120;&#x69;&#x6e;&#103;&#48;&#x30;&#x30;&#x31;&#64;&#x31;&#54;&#x33;&#46;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#x6e;&#111;&#99;&#x75;&#105;&#108;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#103;&#x6e;&#111;&#99;&#x75;&#105;&#108;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#x6e;&#111;&#x63;&#117;&#105;&#108;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#x67;&#x6e;&#111;&#x63;&#117;&#105;&#108;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#x79;&#x61;&#105;&#114;&#105;&#x61;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x6d;&#x79;&#x61;&#105;&#114;&#105;&#x61;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x6d;&#121;&#97;&#x69;&#x72;&#105;&#x61;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#x6d;&#121;&#97;&#x69;&#x72;&#105;&#x61;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#104;&#x61;&#110;&#103;&#114;&#x61;&#x69;&#110;&#x39;&#49;&#49;&#64;&#x31;&#54;&#51;&#46;&#x63;&#x6f;&#x6d;">&#x7a;&#104;&#x61;&#110;&#103;&#114;&#x61;&#x69;&#110;&#x39;&#49;&#49;&#64;&#x31;&#54;&#51;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#122;&#x68;&#97;&#110;&#x67;&#x72;&#97;&#105;&#x6e;&#57;&#49;&#x31;&#x40;&#49;&#54;&#51;&#x2e;&#99;&#111;&#x6d;">&#122;&#x68;&#97;&#110;&#x67;&#x72;&#97;&#105;&#x6e;&#57;&#49;&#x31;&#x40;&#49;&#54;&#51;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#x67;&#120;&#120;&#x31;&#x32;&#48;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#103;&#x67;&#120;&#120;&#x31;&#x32;&#48;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#103;&#120;&#x78;&#49;&#50;&#48;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#103;&#103;&#120;&#x78;&#49;&#50;&#48;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -5101,26 +5113,6 @@
     </i>
   </font>
 </div>]]></content>
-      <categories>
-        <category>操作系统 (Operating Systems)</category>
-      </categories>
-      <tags>
-        <tag>Mooc</tag>
-        <tag>OS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>进程与线程</title>
-    <url>/archives/44cf1d42.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloe6t3mq4g312w0lwqva.gif"></p>
-<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
-<a id="more"></a>
-
-
-
-
-
-]]></content>
       <categories>
         <category>操作系统 (Operating Systems)</category>
       </categories>
@@ -6170,47 +6162,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Pico-8 精彩代码--漩涡效果解析</title>
-    <url>/archives/2a6e7125.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4obfrjkrj30m80ciaat.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现漩涡的效果。</p>
-<a id="more"></a>
-
-<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljxi27lo3g30ar0arx6q.gif"></p>
-<h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p><strong>作者：</strong>2DArray<br><strong>来源：</strong>twiiter</p>
-<p>神奇的漩涡效果，代码发布在作者的 twitter 上，整理下只有 11 行：</p>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">p=&#123;<span class="number">130</span>,<span class="number">141</span>,<span class="number">2</span>,<span class="number">136</span>,<span class="number">8</span>,<span class="number">137</span>,<span class="number">142</span>,<span class="number">9</span>&#125;<span class="keyword">for</span> i=<span class="number">1</span>,<span class="number">8</span> <span class="keyword">do</span></span><br><span class="line">pal(i<span class="number">-1</span>,p[i],<span class="number">1</span>)<span class="keyword">end</span>::_::</span><br><span class="line">x=rnd(<span class="number">128</span>)</span><br><span class="line">y=rnd(<span class="number">128</span>)</span><br><span class="line">d=<span class="built_in">sqrt</span>((x<span class="number">-64</span>)^<span class="number">2</span>+(y<span class="number">-64</span>)^<span class="number">2</span>)-t()*<span class="number">4</span></span><br><span class="line">a=<span class="built_in">atan2</span>(y<span class="number">-64</span>,x<span class="number">-64</span>)*<span class="number">16</span></span><br><span class="line">pset(x,y,(a+d/<span class="number">4</span>)%<span class="number">8</span>)<span class="keyword">goto</span> _</span><br></pre></td></tr></table></figure>
-<p>1-4 行代码是调色板映射代码，用来实现渐变的颜色。我们知道 pico8 只有 16 种颜色，16 种颜色很难配合出渐变的过渡效果。这里作者用到 pico8 隐藏的调色板，变量 <code>p</code> 中的 <code>130, 141, 136, 137, 142</code> 都是隐藏调色板的色号。这个隐藏的调色板在官方文档里也没有介绍，在论坛翻了了好久才找到，新旧两个调色板的对比，我做了个对比图：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljxixth3gj307d03ldfl.jpg"></p>
-<p>6-9 行定义了 4 个参数：</p>
-<ul>
-<li><code>x, y</code> 在屏幕范围内随机取值</li>
-<li><code>d</code> 是取的点 <code>(x, y)</code> 相对于 <code>(64, 64)</code> 即中心点的距离，后面的 <code>t()*4</code> 是为了使距离根据运行时间改变</li>
-<li><code>a</code> 是点 <code>(x, y)</code> 相对于中心点的角度，pico8 中 <code>atan2</code> 的返回值是 <code>0-1</code>，对应着 <code>0°-360°</code>。后面的 <code>*16</code> 将 <code>a</code> 的取值变成了 <code>0-16</code></li>
-</ul>
-<p>第 10 行 根据 <code>d</code> 和 <code>a</code> 的值将对应颜色填充到 <code>x, y</code>。我们可以分开来看下</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljxktdho3j30ej0eit8h.jpg"></p>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">pset(x,y,a%<span class="number">8</span>)</span><br></pre></td></tr></table></figure>
-<p>如果只用 <code>a</code> 来计算，会将屏幕按照点的到中间点的角度分割成 <code>16</code> 份，这个比较好理解，因为 <code>a</code> 的取值是 <code>0-16</code>，相当于把屏幕中的点映射到 <code>16</code> 个区域。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljxkq5wmrj30ec0ec742.jpg"></p>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">pset(x,y,(d/<span class="number">4</span>)%<span class="number">8</span>)</span><br></pre></td></tr></table></figure>
-<p><code>d</code> 是点到中心的距离，相同距离的圆形区域被填充同一个颜色。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljxl650bjj30ek0eign1.jpg"></p>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">pset(x,y,(a+d/<span class="number">4</span>)%<span class="number">8</span>)</span><br></pre></td></tr></table></figure>
-<p>当把角度和距离加起来的时候神奇的图像就出现了，而且角度 <code>a</code> 必须于 <code>8</code> 的倍数相乘才可以对齐，不知道原理是什么，真的很神奇。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljxi3fnaxj30dq05ogli.jpg"></p>
-]]></content>
-      <categories>
-        <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Lua</tag>
-        <tag>Pico-8</tag>
-        <tag>Game Engine</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Pico-8 精彩代码--植物生长效果解析</title>
     <url>/archives/9c0e841f.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gkqxm3p0xkj30m80cidgo.jpg"></p>
@@ -6292,6 +6243,47 @@
 <p>16 个像素点用上图表格里的数字代表，如果想让某个点不着色就将点对应的数值累加，将最终得到的值传给 <code>fillp</code>，比如只让对角线 <code>32768,1024,32,1</code> 没有颜色，<code>fillp(32768+1024+32+1)</code></p>
 <p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnbwaq5pm4j30jb0a7my5.jpg"></p>
 <p>也可以 <code>7+8*16</code> 指定第二个颜色</p>
+]]></content>
+      <categories>
+        <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Lua</tag>
+        <tag>Pico-8</tag>
+        <tag>Game Engine</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Pico-8 精彩代码--漩涡效果解析</title>
+    <url>/archives/2a6e7125.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4obfrjkrj30m80ciaat.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现漩涡的效果。</p>
+<a id="more"></a>
+
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljxi27lo3g30ar0arx6q.gif"></p>
+<h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p><strong>作者：</strong>2DArray<br><strong>来源：</strong>twiiter</p>
+<p>神奇的漩涡效果，代码发布在作者的 twitter 上，整理下只有 11 行：</p>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">p=&#123;<span class="number">130</span>,<span class="number">141</span>,<span class="number">2</span>,<span class="number">136</span>,<span class="number">8</span>,<span class="number">137</span>,<span class="number">142</span>,<span class="number">9</span>&#125;<span class="keyword">for</span> i=<span class="number">1</span>,<span class="number">8</span> <span class="keyword">do</span></span><br><span class="line">pal(i<span class="number">-1</span>,p[i],<span class="number">1</span>)<span class="keyword">end</span>::_::</span><br><span class="line">x=rnd(<span class="number">128</span>)</span><br><span class="line">y=rnd(<span class="number">128</span>)</span><br><span class="line">d=<span class="built_in">sqrt</span>((x<span class="number">-64</span>)^<span class="number">2</span>+(y<span class="number">-64</span>)^<span class="number">2</span>)-t()*<span class="number">4</span></span><br><span class="line">a=<span class="built_in">atan2</span>(y<span class="number">-64</span>,x<span class="number">-64</span>)*<span class="number">16</span></span><br><span class="line">pset(x,y,(a+d/<span class="number">4</span>)%<span class="number">8</span>)<span class="keyword">goto</span> _</span><br></pre></td></tr></table></figure>
+<p>1-4 行代码是调色板映射代码，用来实现渐变的颜色。我们知道 pico8 只有 16 种颜色，16 种颜色很难配合出渐变的过渡效果。这里作者用到 pico8 隐藏的调色板，变量 <code>p</code> 中的 <code>130, 141, 136, 137, 142</code> 都是隐藏调色板的色号。这个隐藏的调色板在官方文档里也没有介绍，在论坛翻了了好久才找到，新旧两个调色板的对比，我做了个对比图：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljxixth3gj307d03ldfl.jpg"></p>
+<p>6-9 行定义了 4 个参数：</p>
+<ul>
+<li><code>x, y</code> 在屏幕范围内随机取值</li>
+<li><code>d</code> 是取的点 <code>(x, y)</code> 相对于 <code>(64, 64)</code> 即中心点的距离，后面的 <code>t()*4</code> 是为了使距离根据运行时间改变</li>
+<li><code>a</code> 是点 <code>(x, y)</code> 相对于中心点的角度，pico8 中 <code>atan2</code> 的返回值是 <code>0-1</code>，对应着 <code>0°-360°</code>。后面的 <code>*16</code> 将 <code>a</code> 的取值变成了 <code>0-16</code></li>
+</ul>
+<p>第 10 行 根据 <code>d</code> 和 <code>a</code> 的值将对应颜色填充到 <code>x, y</code>。我们可以分开来看下</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljxktdho3j30ej0eit8h.jpg"></p>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">pset(x,y,a%<span class="number">8</span>)</span><br></pre></td></tr></table></figure>
+<p>如果只用 <code>a</code> 来计算，会将屏幕按照点的到中间点的角度分割成 <code>16</code> 份，这个比较好理解，因为 <code>a</code> 的取值是 <code>0-16</code>，相当于把屏幕中的点映射到 <code>16</code> 个区域。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljxkq5wmrj30ec0ec742.jpg"></p>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">pset(x,y,(d/<span class="number">4</span>)%<span class="number">8</span>)</span><br></pre></td></tr></table></figure>
+<p><code>d</code> 是点到中心的距离，相同距离的圆形区域被填充同一个颜色。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljxl650bjj30ek0eign1.jpg"></p>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">pset(x,y,(a+d/<span class="number">4</span>)%<span class="number">8</span>)</span><br></pre></td></tr></table></figure>
+<p>当把角度和距离加起来的时候神奇的图像就出现了，而且角度 <code>a</code> 必须于 <code>8</code> 的倍数相乘才可以对齐，不知道原理是什么，真的很神奇。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gljxi3fnaxj30dq05ogli.jpg"></p>
 ]]></content>
       <categories>
         <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
@@ -10026,9 +10018,8 @@
 <p>矩阵乘法不满足交换律。如果交换矩阵的次序，它甚至都不是一个合法的操作。</p>
 <blockquote>
 <ul>
-<li>Number of columns in first must = rows in second </li>
-</ul>
-<ul>
+<li><p>Number of columns in first must = rows in second </p>
+</li>
 <li><p>Non-commutative (AB and BA are different in general) </p>
 </li>
 <li><p>Associative and distributive </p>
@@ -12741,8 +12732,6 @@
 
 <h5 id="Sample-Input-2-6"><a href="#Sample-Input-2-6" class="headerlink" title="Sample Input 2"></a>Sample Input 2</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vanceknowledgetoad</span><br><span class="line">advanced</span><br></pre></td></tr></table></figure>
 <h5 id="Sample-Output-2-6"><a href="#Sample-Output-2-6" class="headerlink" title="Sample Output 2"></a>Sample Output 2</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">No</span><br></pre></td></tr></table></figure>
-
-
 
 
 <h5 id="問題を解く-31"><a href="#問題を解く-31" class="headerlink" title="問題を解く"></a>問題を解く</h5><p>本题要求我们从一个字符串中找到一个子串。我左思右想还是没有想到一个比较好的解决方法，于是求助于Solution找到一个较为便捷的方法：</p>
