@@ -313,6 +313,146 @@
       </tags>
   </entry>
   <entry>
+    <title>博客使用插件总结</title>
+    <url>/archives/c12c9c40.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4nnpskhxj311i0gywkf.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="http://theme-next.iissnan.com/">Hexo NexT</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这几天将博客主题从 Fluid 换回了 NexT，在重新安装插件的时候顺便记录了本博客当前使用的插件以及插件相关的主题美化，便于后续修改和供NexT主题读者参考。</p>
+<a id="more"></a>
+
+
+
+
+
+<h3 id="一键部署"><a href="#一键部署" class="headerlink" title="一键部署"></a>一键部署</h3><h4 id="地址"><a href="#地址" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/hexojs/hexo-deployer-git">hexo-deployer-git</a></li>
+</ul>
+<h4 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<p>然后修改站点配置文件<code>_config.yml</code> 中的配置：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span></span><br><span class="line">      <span class="attr">github:</span> <span class="string">git@github.com:Yousazoe/yousazoe.github.io.git</span></span><br><span class="line">      <span class="attr">coding:</span> <span class="string">git@e.coding.net:yousazoe/yousazoe/yousazoe.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+<h3 id="永久链接"><a href="#永久链接" class="headerlink" title="永久链接"></a>永久链接</h3><h4 id="地址-1"><a href="#地址-1" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/rozbo/hexo-abbrlink">hexo-abbrlink</a></li>
+</ul>
+<h4 id="安装配置-1"><a href="#安装配置-1" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+<p>然后我们可以在站点配置文件<code>_config.yml</code> 中修改为：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## If your site is put in a subdirectory, set url as &#x27;http://example.com/child&#x27; and root as &#x27;/child/&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">http://yousazoe.top</span></span><br><span class="line"><span class="attr">root:</span> <span class="string">/</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">archives/:abbrlink.html</span></span><br><span class="line"><span class="attr">abbrlink:</span></span><br><span class="line">  <span class="attr">alg:</span> <span class="string">crc32</span>  <span class="comment"># 算法：crc16(default) and crc32</span></span><br><span class="line">  <span class="attr">rep:</span> <span class="string">hex</span>    <span class="comment"># 进制：dec(default) and hex</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+<h3 id="文章推荐"><a href="#文章推荐" class="headerlink" title="文章推荐"></a>文章推荐</h3><p>这个可以帮助我们根据标签推荐相关文章，原版插件的使用要求编辑主题文件的，但是 NexT 主题集成了这个插件的配置，因此配置起来非常方便。</p>
+<h4 id="地址-2"><a href="#地址-2" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/tea3/hexo-related-popular-posts">hexo-related-popular-posts</a></li>
+</ul>
+<h4 id="安装配置-2"><a href="#安装配置-2" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
+<p>我们只需要在主题配置文件<code>_config.yml</code> 中修改：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="comment">#PPMixingRate: 0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="comment">#isImage: false</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
+
+
+<h3 id="站点地图"><a href="#站点地图" class="headerlink" title="站点地图"></a>站点地图</h3><h4 id="通用站点地图"><a href="#通用站点地图" class="headerlink" title="通用站点地图"></a>通用站点地图</h4><ul>
+<li>地址：<a href="https://github.com/hexojs/hexo-generator-sitemap">hexo-generator-sitemap</a></li>
+</ul>
+<p>安装配置：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
+<p>然后我们需要在 Hexo 站点配置文件<code>_config.yml</code> 中加入 sitemap 插件：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 通用站点地图</span></span><br><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br></pre></td></tr></table></figure>
+<h4 id="百度站点地图"><a href="#百度站点地图" class="headerlink" title="百度站点地图"></a>百度站点地图</h4><ul>
+<li>地址：<a href="https://github.com/coneycode/hexo-generator-baidu-sitemap">Sitemap generator</a></li>
+</ul>
+<p>安装配置：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
+<p>具体配置类似通用站点地图，当然也可以看官方提供的教程，下面是一个简单的配置，我们在 Hexo 站点配置文件<code>_config.yml</code> 中添加：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 百度站点地图</span></span><br><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure>
+
+
+<h3 id="百度推送"><a href="#百度推送" class="headerlink" title="百度推送"></a>百度推送</h3><h4 id="地址-3"><a href="#地址-3" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/huiwang/hexo-baidu-url-submit">hexo-baidu-url-submit</a></li>
+</ul>
+<h4 id="安装配置-3"><a href="#安装配置-3" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-baidu-url-submit --save</span><br></pre></td></tr></table></figure>
+<p>在站点配置文件<code>_config.yml</code> 中添加以下代码：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 百度主动推送</span></span><br><span class="line"><span class="attr">baidu_url_submit:</span></span><br><span class="line">  <span class="attr">count:</span> <span class="number">5</span> 				     <span class="comment">## 提交最新的1个链接</span></span><br><span class="line">  <span class="attr">host:</span> <span class="string">tding.top</span> 	     <span class="comment">## 百度站长平台中注册的域名</span></span><br><span class="line">  <span class="attr">token:</span> 	 <span class="comment">## 准入秘钥</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">baidu_urls.txt</span> 		 <span class="comment">## 文本文档的地址， 新链接会保存在此文本文档里</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+<h3 id="站点统计"><a href="#站点统计" class="headerlink" title="站点统计"></a>站点统计</h3><h4 id="地址-4"><a href="#地址-4" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/theme-next/hexo-symbols-count-time">hexo-symbols-count-times</a></li>
+</ul>
+<h4 id="安装配置-4"><a href="#安装配置-4" class="headerlink" title="安装配置"></a>安装配置</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-symbols-count-time --save</span><br></pre></td></tr></table></figure>
+<p>我们只需要在主题配置文件<code>_config.yml</code> 中修改：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Post wordcount display settings</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/hexo-symbols-count-time</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">false</span> <span class="comment"># 统计信息不换行显示</span></span><br><span class="line">  <span class="attr">item_text_post:</span> <span class="literal">false</span> <span class="comment"># 文章统计信息中是否显示“本文字数/阅读时长”等描述文字</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="string">ture</span> <span class="comment"># 站点统计信息中是否显示“本文字数/阅读时长”等描述文字</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">2</span> <span class="comment"># Average Word Length：平均字符长度</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span> <span class="comment"># Words Per Minute：阅读速度</span></span><br></pre></td></tr></table></figure>
+<p>汉字的平均字符长度为 1.5，如果在文章中使用纯中文进行写作（没有混杂英文），那么推荐设置 <code>awl: 2</code> 及 <code>wpm: 300</code>，但是如果文章中存在英文，建议设置 <code>awl: 4</code> 及 <code>wpm: 275</code>。</p>
+<h3 id="站内搜索"><a href="#站内搜索" class="headerlink" title="站内搜索"></a>站内搜索</h3><h4 id="地址-5"><a href="#地址-5" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/theme-next/hexo-generator-searchdb">hexo-generator-searchdb</a></li>
+</ul>
+<h4 id="安装配置-5"><a href="#安装配置-5" class="headerlink" title="安装配置"></a>安装配置</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+<p>在<strong>主题配置</strong>文件<code>themes\next_config.yml</code>中修改相关字段：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span> <span class="comment"># 每次输入改变都执行搜索</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">3</span> <span class="comment"># 每篇文章显示的搜索结果数量</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<p>在<strong>站点配置</strong>文件<code>_config.yml</code>中添加以下字段：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span> <span class="comment"># 指定搜索范围，可选 post | page | all</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span> <span class="comment"># 指定页面内容形式，可选 html | raw (Markdown) | excerpt | more</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
+
+
+<h3 id="静态资源压缩"><a href="#静态资源压缩" class="headerlink" title="静态资源压缩"></a>静态资源压缩</h3><h4 id="地址-6"><a href="#地址-6" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/rozbo/hexo-neat">hexo-neat</a></li>
+</ul>
+<h4 id="安装配置-6"><a href="#安装配置-6" class="headerlink" title="安装配置"></a>安装配置</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-neat --save</span><br></pre></td></tr></table></figure>
+<p>在<strong>站点配置</strong>文件<code>_config.yml</code>中添加以下字段：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># hexo-neat</span></span><br><span class="line"><span class="comment"># 博文压缩</span></span><br><span class="line"><span class="attr">neat_enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment"># 压缩html</span></span><br><span class="line"><span class="attr">neat_html:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line"><span class="comment"># 压缩css  </span></span><br><span class="line"><span class="attr">neat_css:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;**/*.min.css&#x27;</span></span><br><span class="line"><span class="comment"># 压缩js</span></span><br><span class="line"><span class="attr">neat_js:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">mangle:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">output:</span></span><br><span class="line">  <span class="attr">compress:</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;**/*.min.js&#x27;</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;**/jquery.fancybox.pack.js&#x27;</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;**/index.js&#x27;</span>  </span><br></pre></td></tr></table></figure>
+
+
+<h3 id="图片懒加载"><a href="#图片懒加载" class="headerlink" title="图片懒加载"></a>图片懒加载</h3><h4 id="地址-7"><a href="#地址-7" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href=""></a></li>
+</ul>
+<h4 id="安装配置-7"><a href="#安装配置-7" class="headerlink" title="安装配置"></a>安装配置</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-lazyload --save</span><br></pre></td></tr></table></figure>
+<p>在<strong>站点配置</strong>文件<code>_config.yml</code>中添加以下字段：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">lazyload:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># className: #可选 e.g. .J-lazyload-img</span></span><br><span class="line">  <span class="comment"># loadingImg: #可选 eg. ./images/loading.png</span></span><br></pre></td></tr></table></figure>
+
+
+<h3 id="外链优化"><a href="#外链优化" class="headerlink" title="外链优化"></a>外链优化</h3><p>减少出站链接能够有效防止权重分散，hexo 有很方便的自动为出站链接添加 <code>nofollow</code> 标签的插件。</p>
+<p>首先安装 <code>hexo-filter-nofollow</code> 插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-filter-nofollow --save</span><br></pre></td></tr></table></figure>
+<p>然后我们在站点的配置文件<code>_config.yml</code> 中添加配置，将 <code>nofollow</code> 设置为 <code>true</code>：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 外部链接优化</span></span><br><span class="line"><span class="attr">nofollow:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">site</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;exclude1.com&#x27;</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;exclude2.com&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>其中 <code>exclude</code>（例外的链接，比如友链）将不会被加上 <code>nofollow</code> 属性。</p>
+<h3 id="侧栏标签云"><a href="#侧栏标签云" class="headerlink" title="侧栏标签云"></a>侧栏标签云</h3><h4 id="地址-8"><a href="#地址-8" class="headerlink" title="地址"></a>地址</h4><p><a href="https://github.com/D0n9X1n/hexo-tag-cloud">hexo-tag-cloud</a></p>
+<h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><ul>
+<li><p>进入到 hexo 的根目录，然后在 <code>package.json</code> 中添加依赖: <code>&quot;hexo-tag-cloud&quot;: &quot;2.1.*&quot;</code></p>
+</li>
+<li><p>然后执行 <code>npm install</code> 命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-tag-cloud</span><br></pre></td></tr></table></figure></li>
+<li><p>然后需要你去修改主题的 tagcloud 的模板，这个依据你的主题而定。</p>
+</li>
+</ul>
+<p>这里以 Next 主题为例，找到文件 <code>next/layout/_macro/sidebar.swig</code>, 然后添加如下内容。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;site-overview-wrap sidebar-panel&quot;</span>&gt;</span></span><br><span class="line">  &#123;&#123; partial(&#x27;_partials/sidebar/site-overview.swig&#x27;, &#123;&#125;, &#123;cache: theme.cache.enable&#125;) &#125;&#125;</span><br><span class="line"></span><br><span class="line">  &#123;&#123;- next_inject(&#x27;sidebar&#x27;) &#125;&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">&#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;&#123;&#123; url_for(&#x27;/js/tagcloud.js&#x27;) &#125;&#125;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;&#123;&#123; url_for(&#x27;/js/tagcanvas.js&#x27;) &#125;&#125;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h3</span> <span class="attr">class</span>=<span class="string">&quot;widget-title&quot;</span>&gt;</span>Tag Cloud<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width:100%&quot;</span>&gt;</span></span><br><span class="line">            &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">        <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&#123;%- if theme.back2top.enable and theme.back2top.sidebar %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;back-to-top motion-element&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;fa fa-arrow-up&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span>&gt;</span>0%<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure>
+
+
+]]></content>
+      <categories>
+        <category>博客搭建 (Blog Building)</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>中国游戏市场简析</title>
     <url>/archives/undefined.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggxwpu9b5oj311i0p0n12.jpg"></p>
@@ -717,7 +857,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#101;&#x6e;&#x78;&#x75;&#64;&#116;&#x65;&#110;&#99;&#x65;&#x6e;&#116;&#x2e;&#99;&#111;&#x6d;">&#108;&#x65;&#101;&#x6e;&#x78;&#x75;&#64;&#116;&#x65;&#110;&#99;&#x65;&#x6e;&#116;&#x2e;&#99;&#111;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#x65;&#110;&#x78;&#117;&#64;&#116;&#101;&#110;&#x63;&#101;&#x6e;&#116;&#x2e;&#x63;&#x6f;&#x6d;">&#x6c;&#101;&#x65;&#110;&#x78;&#117;&#64;&#116;&#101;&#110;&#x63;&#101;&#x6e;&#116;&#x2e;&#x63;&#x6f;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -4756,6 +4896,114 @@
       </tags>
   </entry>
   <entry>
+    <title>开始画像素画#8</title>
+    <url>/archives/e5e6b796.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zn1bbuvj31hc0u0423.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解文件格式和导出方法。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdd9dpvj30u008c74z.jpg"></p>
+<p>这个是系列的第 8 节。这篇技术细节比较多，可以跳过你不感兴趣的部分。</p>
+<p>本节主要是文件格式和导出方法。</p>
+<h3 id="Bitmap-and-vector-位图和矢量图"><a href="#Bitmap-and-vector-位图和矢量图" class="headerlink" title="Bitmap and vector 位图和矢量图"></a>Bitmap and vector 位图和矢量图</h3><p>我们先来讲讲图片在电脑上是如何保存的。简单来说，有两种 2d 的图像文件类型，位图和矢量图。</p>
+<p>矢量图是点、线坐标，以及颜色信息的集合，可以用来创作能缩放到任意分辨率的图像。它主要的缺点在于难以用在表现细节的图像上，像是照片，你几乎无法在像素级别进行控制。尽管我们能创建出看起来像是像素画的矢量图，或者把像素画导出成矢量图格式，但几乎没人这么做。也有些例外情况，比如说要把像素画打印到很大的板子上。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">circle</span> <span class="attr">cx</span>=<span class="string">&quot;50&quot;</span> <span class="attr">cy</span>=<span class="string">&quot;50&quot;</span> <span class="attr">r</span>=<span class="string">&quot;40&quot;</span> <span class="attr">stroke</span>=<span class="string">&quot;black&quot;</span> <span class="attr">stroke-width</span>=<span class="string">&quot;3&quot;</span> <span class="attr">fill</span>=<span class="string">&quot;red&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdbgy43j30330310pw.jpg"></p>
+<p>而位图图像，才是像素画能够存在的原因。位图把图像想象成很大的网格，打印在屏幕上，每个像素都单独存储。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdh3fwmj30jn0770s1.jpg"></p>
+<p>这样保存的文件有时候比较大。一个 <code>1080*1920</code> 的图，意味着包含了 <code>2.073.600</code> 个独立像素需要保存，所以有时候需要用高效算法来压缩一下。</p>
+<h3 id="Image-compression-图像压缩"><a href="#Image-compression-图像压缩" class="headerlink" title="Image compression 图像压缩"></a>Image compression 图像压缩</h3><p>图像压缩是为了减小图像文件的体积，但是依据使用算法的不同，有些算法可能会损坏原数据。</p>
+<p>压缩可以是有损或者无损的。有损压缩一般对于照片或者大幅插画是可以接受的，但是像素画就不可以。用 JPG 格式保存像素画会造成随机的颜色变化，图形虚影。在压缩像素画时，我们必须检查是否用的是无损压缩，比如 PNG 格式。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdcrltyj30en07lmx2.jpg"></p>
+<p>总的来说，你的编辑器提供的图像格式，比如 Aseprite 的.aseprite 格式，或者 GraphicGale 的.gal 格式，可以安全的保存所有的图层和元数据。</p>
+<h3 id="在-Aseprite-里保存"><a href="#在-Aseprite-里保存" class="headerlink" title="在 Aseprite 里保存"></a>在 Aseprite 里保存</h3><p>在 Aseprite 里用保存对话框进行保存（Ctrl + S，或者 Ctrl + Shift + S 做另存为新文件）</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdgjejzj30hz0avdg0.jpg"></p>
+<p>很直观，是吧？在这里保存为 <code>.aseprite</code> 格式，保存所有文件信息，以便你以后可以回来做修改。</p>
+<h3 id="导出预览"><a href="#导出预览" class="headerlink" title="导出预览"></a>导出预览</h3><p>在完成了你的精灵图之后，你可能想要发布到什么地方，或者发给谁，但如果直接保存成 <code>.png</code> 文件，会有两个不好的地方：第一，你的图像会保存成一个扁平的文件，就是说失去了图层和元数据，第二，你的 <code>png</code> 文件可能会长这样：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvf351jhj30180180bx.jpg"></p>
+<p>导出做预览的正确方式是用导出对话框，在“文件 -&gt; 导出”（<code>File</code> -&gt;<code> Export</code>）菜单</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdidzz7j30b809ua9u.jpg"></p>
+<p>这个对话框里有非常多有用的选项，我们一个个看一下：</p>
+<p><strong>Output File 输出文件</strong>：文件名。如果你直接输入想使用的文件格式，Aseprite 就可以保存为这个格式。推荐静态的图用“<code>.png</code>”，动画用“<code>.gif</code>”。</p>
+<p>这里不会把保存命令的默认格式也改掉，所以不用担心这里选择的格式以后会把所有东西都拍扁。</p>
+<p><strong>Resize 缩放</strong>：像素画对于目前的显示器来说通常都太小，所以需要缩放。Aseprite 提供了很多的分辨率供你选择。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdixafaj30ft0760oy.jpg"></p>
+<p>你可能注意到了，只能缩放成 <code>100%</code> 的整数倍，不能有小数，比如 <code>250%</code>。这是因为非整数倍的缩放会损坏像素画。这是个像素画的严重缺陷，并且没有什么办法能避免。记住缩放一定要用整数倍（<code>200%</code>，<code>300%</code> 等），不要用非整数倍（<code>130%</code>，<code>250%</code> 等等）。</p>
+<p>如果你一定要满足某个大小，试着缩放到最接近的最小的倍数，然后把画布延伸到你需要的尺寸。</p>
+<p>通常放大 <code>200%</code> 或者 <code>300%</code> 发布到网上足够了。</p>
+<p><strong>Layers 图层：</strong>当你导出文件时，他会被拍扁，就是失去所有图层信息。这个选项可以让你选择导出时需要包含哪个图层。</p>
+<p><strong>Frames 帧：</strong>后面会详细讲，这里就是指要导出哪些帧。如果你有不止一帧，那么会发生两件事：</p>
+<ul>
+<li>如果导出格式支持动画，比如 <code>gif</code>，那么就会导出动画到这个文件。</li>
+<li>如果导出格式不支持动画，比如 <code>png</code>，那么 Aseprite 就会保存到多个文件，每帧一个。<br>（编辑注：现在 <code>APNG</code> 动画格式其实也已经得到了广泛支持）</li>
+</ul>
+<p><strong>Animation direction 动画方向：</strong>这里可以看到常用的方向，比如向前，向后等等，选最适合你的。这里的含义很直观，你也可以自己试试。</p>
+<p><strong>Apply pixel ratio 应用像素比例：</strong>这个不常用，如果你用的不是方形像素，选这个会把它压扁成方形。如果不确定这个是什么也没关系，他不会改变什么东西。</p>
+<p><strong>Export for Twitter 导出到 twitter：</strong>勾选后会让最后一帧动画持续时间整个动画的一半长度，完美适合 twitter MP4 循环。</p>
+<h3 id="Saving-for-the-engine-保存给引擎"><a href="#Saving-for-the-engine-保存给引擎" class="headerlink" title="Saving for the engine 保存给引擎"></a>Saving for the engine 保存给引擎</h3><p>游戏引擎各不相同，每个都需要你做特定处理，不过这里是一些通用的原则：</p>
+<ul>
+<li>首先是文件格式：尽管有些引擎支持 <code>tiff</code>，<code>gif</code>，甚至是 <code>bmp</code>，最好还是用 <code>png</code>。轻量，解压相对迅速，透明支持的很好。别用 <code>jpg</code>，<code>mp4</code>，或者其他的有损压缩格式。</li>
+<li>除非你有什么原因，否则不要在导出给游戏引擎时对像素画做缩放。正常情况下精灵应该是由引擎来做缩放，所有文件都应该保持原有分辨率。</li>
+<li>动画应该保存成图片序列，或者精灵表（sprite sheet）。不要用任何的视频格式，除非你在做什么特别的。</li>
+</ul>
+<h3 id="Saving-an-image-sequence-保存图片序列"><a href="#Saving-an-image-sequence-保存图片序列" class="headerlink" title="Saving an image sequence 保存图片序列"></a>Saving an image sequence 保存图片序列</h3><p>当把动画保存为 <code>png</code> 时，Aseprite 会创建一个图片序列，看起来这样:</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdbuf77j30ep045dfm.jpg"></p>
+<p>一般这就行了，不过我喜欢文件名从 <code>0</code> 开始，而且我喜欢两位数字。这个很容易实现：在文件名这，只要输入文件名后面加上”<code>00</code>“。这里我把文件名写为 <code>alert00.png</code>，结果是这样：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdhjw9lj30fs023gld.jpg"></p>
+<p>另外一个有用的技巧是加多个标签。在 Aseprite 里，你可以选择多组帧加上标签。这样一个文件里可以保存多个动画。像这样：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvddrdl3j30kj03i3ya.jpg"></p>
+<p>这有助于整理，导出也很方便，只要输入 <code>boss_&#123;tag&#125;&#123;tagframe00&#125;.png</code>，aseeprite 会这样导出：</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdccrpkj30j10dijsi.jpg"></p>
+<p>很方便吧？如果你想多几个或少几个 <code>0</code>，可以把 <code>&#123;tagframe00&#125;</code> 改成 <code>&#123;tagframe000&#125;</code> 或者直接 <code>&#123;tagframe&#125;</code>。</p>
+<h3 id="保存精灵表-sprite-sheet"><a href="#保存精灵表-sprite-sheet" class="headerlink" title="保存精灵表 sprite sheet"></a>保存精灵表 sprite sheet</h3><p>有些游戏引擎推荐用精灵表，而不是多张图片，我们可以用“文件&gt;导出精灵表”（<code>File</code> &gt; <code>Export Sprite Sheet</code>）命令自动导出。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdec521j30m10e3a9x.jpg"></p>
+<p>这里我们有多个选项，可以根据所用的引擎做调整。有些需要在精灵之间添加边距，提供 <code>JSON</code> 描述信息，其他的可能支持去除透明部分。<code>Extrude</code> 拉伸可以让所有瓦片的边界颜色向外延伸一个像素，避免 3D 瓦片的接缝，如果你用的是 3D 引擎的话。不确定就什么都不选就好。</p>
+<p>对于行和列的数量设置，如果引擎没有特殊要求，我建议选择“最适合纹理的尺寸”（<code>Best fit for texture</code>），让 Aseprite 自动计算尺寸。</p>
+<p>这里需要注意的是，不勾选“<code>Output file</code>”并提供文件名时，点击导出不会生成文件的。你也可以选择“<code>Open generated sprite sheet</code>”，这会打开一个新文件，你可以手工保存。</p>
+<h3 id="切割工具和命令行"><a href="#切割工具和命令行" class="headerlink" title="切割工具和命令行"></a>切割工具和命令行</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdi043kj309m06wjr5.jpg"></p>
+<p>最后一个技巧时用切割工具 slice。切割工具适合于把多个图放在同一个画布的时候。我喜欢在给游戏场景制作素材时用这个，我可以把素材放在旁边随时比对尺寸。</p>
+<p>首先要把精灵放到一个文件，挨着。别互相重叠到一个矩形区域就好。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdepvv0j30gg0cx749.jpg"></p>
+<p>接着选择切割工具，开始在每个物体上做选取，注意不要把其他物体的部分包括进来。之后你可以双击其中一个，或者右键点击查看属性，给它命名。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdfbb6uj30u00cg0vg.jpg"></p>
+<p>现在，用命令行！如果你主要做美术，这部分听起来可能有点吓人，但我保证，只要简单了解并设置好之后，这能够自动处理很多枯燥的导出工作。</p>
+<p>首先你需要把 Aseprite 添加到环境变量里，如果你不清楚这个，可以看看这个教程<a href="https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables">https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables</a> （百度什么的搜一下设置环境变量）。把 <code>Aseprite.exe</code> 加入到环境变量里。</p>
+<p>现在，保存好 Aseprite 文件，在同一个文件夹打开命令行工具。如果不知道怎么做的话，在 windows 下，Shift + 右键，选择在当前位置打开命令行。</p>
+<p>接着是有意思的地方了，用到的命令！直接输入下面这个，把 <code>myFile</code> 替换成你的文件名，按回车：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Aseprite.exe -b &#39;.\myFile.aseprite&#39; --save-as &#39;&#123;slice&#125;.png&#39;</span><br></pre></td></tr></table></figure>
+<p>我们分解一下这个的含义：</p>
+<ul>
+<li><code>Aseprite.exe</code> 用来启动 Aseprite</li>
+<li><code>-b</code> 表示我们是在批处理模式。不加这个的话 Aseprite 就打开了，我们不需要。</li>
+<li><code>‘.\myFile.aseprite’</code> 是需要处理的文件名和拓展名。这个是相对于当前路径的。</li>
+<li><code>--save-as</code> 是保存选中文件的命令，它也会根据你给的文件名里带的标签去格式化文件名。</li>
+<li><code>&#39;&#123;slice&#125;.png&#39;</code> 是导出文件名, <code>&#123;slice&#125;</code> 是个标签，它表示文件名会用切割的名称并切割出来。</li>
+</ul>
+<p>如果想了解更多命令行信息，Aseprite 有个不错的使用教程可以看看：</p>
+<p><a href="https://www.aseprite.org/docs/cli/#filename-format">https://www.aseprite.org/docs/cli/#filename-format</a></p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在你了解到如何正确的保存像素画了！当有不确定的地方时，参考以下几点：</p>
+<ul>
+<li>永远用整数倍缩放，不用小数，不缩小。</li>
+<li>Aseprite 可以自动保存出图片序列。</li>
+<li>别用 <code>jpg</code> 和 <code>mp4</code>，以及其他的有损压缩图像格式。</li>
+<li>不确定时，就用 <code>png</code>，别缩放。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>操作系统概述</title>
     <url>/archives/33c82dd4.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gky8z6eslsg312w0lwhdu.gif"></p>
@@ -4800,57 +5048,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#x79;&#x6f;&#x6e;&#103;&#64;&#x74;&#115;&#x69;&#x6e;&#103;&#104;&#x75;&#97;&#x2e;&#x65;&#100;&#x75;&#x2e;&#x63;&#x6e;">&#x78;&#x79;&#x6f;&#x6e;&#103;&#64;&#x74;&#115;&#x69;&#x6e;&#103;&#104;&#x75;&#97;&#x2e;&#x65;&#100;&#x75;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#121;&#111;&#110;&#x67;&#x40;&#x74;&#115;&#105;&#110;&#x67;&#104;&#117;&#x61;&#46;&#x65;&#100;&#117;&#46;&#x63;&#x6e;">&#120;&#121;&#111;&#110;&#x67;&#x40;&#x74;&#115;&#105;&#110;&#x67;&#104;&#117;&#x61;&#46;&#x65;&#100;&#117;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#117;&#x63;&#104;&#101;&#110;&#64;&#109;&#x61;&#x69;&#108;&#x2e;&#x74;&#x73;&#x69;&#x6e;&#103;&#104;&#117;&#97;&#x2e;&#x65;&#x64;&#117;&#x2e;&#99;&#x6e;">&#121;&#117;&#x63;&#104;&#101;&#110;&#64;&#109;&#x61;&#x69;&#108;&#x2e;&#x74;&#x73;&#x69;&#x6e;&#103;&#104;&#117;&#97;&#x2e;&#x65;&#x64;&#117;&#x2e;&#99;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#x75;&#x63;&#x68;&#101;&#x6e;&#x40;&#109;&#x61;&#105;&#x6c;&#x2e;&#116;&#x73;&#105;&#110;&#103;&#x68;&#x75;&#x61;&#x2e;&#101;&#100;&#x75;&#46;&#99;&#x6e;">&#121;&#x75;&#x63;&#x68;&#101;&#x6e;&#x40;&#109;&#x61;&#105;&#x6c;&#x2e;&#116;&#x73;&#105;&#110;&#103;&#x68;&#x75;&#x61;&#x2e;&#101;&#100;&#x75;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#116;&#x65;&#x72;&#110;&#x61;&#x6c;&#46;&#110;&#48;&#56;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#101;&#116;&#x65;&#x72;&#110;&#x61;&#x6c;&#46;&#110;&#48;&#56;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x65;&#x74;&#101;&#114;&#110;&#97;&#x6c;&#x2e;&#x6e;&#x30;&#56;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">&#x65;&#x74;&#101;&#114;&#110;&#97;&#x6c;&#x2e;&#x6e;&#x30;&#56;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#98;&#x6a;&#101;&#x63;&#x74;&#107;&#x75;&#97;&#x6e;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#109;">&#111;&#98;&#x6a;&#101;&#x63;&#x74;&#107;&#x75;&#97;&#x6e;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#111;&#98;&#x6a;&#101;&#x63;&#x74;&#107;&#x75;&#97;&#x6e;&#64;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;">&#111;&#98;&#x6a;&#101;&#x63;&#x74;&#107;&#x75;&#97;&#x6e;&#64;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#114;&#x64;&#102;&#114;&#x61;&#x6e;&#x6b;&#64;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#x63;&#114;&#x64;&#102;&#114;&#x61;&#x6e;&#x6b;&#64;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#114;&#100;&#102;&#x72;&#x61;&#x6e;&#x6b;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#99;&#114;&#100;&#102;&#x72;&#x61;&#x6e;&#x6b;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#x61;&#x63;&#x63;&#111;&#x72;&#97;&#119;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;">&#x74;&#x61;&#x63;&#x63;&#111;&#x72;&#97;&#119;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#116;&#x61;&#99;&#x63;&#x6f;&#x72;&#97;&#119;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#116;&#x61;&#99;&#x63;&#x6f;&#x72;&#97;&#119;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#105;&#110;&#121;&#x75;&#x6e;&#120;&#x69;&#110;&#x67;&#48;&#x30;&#48;&#x31;&#x40;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#109;">&#120;&#105;&#110;&#121;&#x75;&#x6e;&#120;&#x69;&#110;&#x67;&#48;&#x30;&#48;&#x31;&#x40;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x78;&#105;&#110;&#x79;&#x75;&#x6e;&#120;&#105;&#x6e;&#x67;&#x30;&#x30;&#48;&#49;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#x6d;">&#x78;&#105;&#110;&#x79;&#x75;&#x6e;&#120;&#105;&#x6e;&#x67;&#x30;&#x30;&#48;&#49;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#110;&#111;&#99;&#x75;&#x69;&#108;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;">&#103;&#110;&#111;&#99;&#x75;&#x69;&#108;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x6e;&#x6f;&#99;&#117;&#x69;&#108;&#64;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#x6e;&#x6f;&#99;&#117;&#x69;&#108;&#64;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#121;&#x61;&#105;&#114;&#105;&#97;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#109;&#121;&#x61;&#105;&#114;&#105;&#97;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x6d;&#x79;&#x61;&#x69;&#114;&#x69;&#97;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;">&#x6d;&#x79;&#x61;&#x69;&#114;&#x69;&#97;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#104;&#97;&#x6e;&#103;&#x72;&#x61;&#x69;&#110;&#x39;&#49;&#x31;&#x40;&#x31;&#x36;&#x33;&#46;&#99;&#111;&#109;">&#x7a;&#104;&#97;&#x6e;&#103;&#x72;&#x61;&#x69;&#110;&#x39;&#49;&#x31;&#x40;&#x31;&#x36;&#x33;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x7a;&#x68;&#x61;&#110;&#103;&#114;&#x61;&#x69;&#x6e;&#x39;&#49;&#x31;&#64;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#109;">&#x7a;&#x68;&#x61;&#110;&#103;&#114;&#x61;&#x69;&#x6e;&#x39;&#49;&#x31;&#64;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#103;&#120;&#x78;&#49;&#x32;&#x30;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;">&#x67;&#103;&#120;&#x78;&#49;&#x32;&#x30;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#103;&#x67;&#120;&#x78;&#x31;&#x32;&#x30;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;">&#103;&#x67;&#120;&#x78;&#x31;&#x32;&#x30;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -5649,6 +5897,26 @@
       </tags>
   </entry>
   <entry>
+    <title>进程与线程</title>
+    <url>/archives/44cf1d42.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloe6t3mq4g312w0lwqva.gif"></p>
+<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
+<a id="more"></a>
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>操作系统 (Operating Systems)</category>
+      </categories>
+      <tags>
+        <tag>Mooc</tag>
+        <tag>OS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>像素宝典#1</title>
     <url>/archives/5b27815c.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5yziapgij31hc0u0ak5.jpg"></p>
@@ -5956,6 +6224,60 @@
       </tags>
   </entry>
   <entry>
+    <title>像素宝典#7</title>
+    <url>/archives/b2442469.html</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zdb4ui8j318g0p046e.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解粘液、岩石构成、植物、城市背景以及像素画基础。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qfvi92oj30u008c3z7.jpg"></p>
+<h3 id="液体-粘液"><a href="#液体-粘液" class="headerlink" title="液体 / 粘液"></a>液体 / 粘液</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qetza7hg30e80e8qhl.gif"></p>
+<p>这期是关于粘液和其他浓稠液体！</p>
+<p>粘液的粒子分散的比水粒子要小，他们会在之间建立连接。还有，记得保持平滑的，圆的形状，不要有尖锐的角。</p>
+<p>感谢大家支持！</p>
+<h3 id="岩石构成"><a href="#岩石构成" class="headerlink" title="岩石构成"></a>岩石构成</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qewib7rg30e80e8e5k.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qg9jnrgg30e80e8khw.gif"></p>
+<p>第 31 个教程！（风农：这哥们的计数方式跟我计的不一样。）</p>
+<p>这期不是个特别科学的教程，不过这一般是我画时候的思路。</p>
+<p>画岩石的主要建议是<strong>找参考物</strong></p>
+<p>Pinterest 或者 google 图片都是不错的地方。</p>
+<p>感谢大家支持！</p>
+<h3 id="植物-2"><a href="#植物-2" class="headerlink" title="植物 2"></a>植物 2</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qeyrjeig30e80e8wy7.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qf78nveg30e80e8h5q.gif"></p>
+<p>这是植物教程的第二部分! </p>
+<p>第一部分在这：链接</p>
+<p>这次我集中讲草，还有一点关于木头的。</p>
+<p>草画起来很复杂，以至于每个画手都有自己的方式去简化它。这里说明了我常用的方式，不过还有很多跟我不一样的方式。我的是要有给眼睛休息的区域，和各处的细节区域。</p>
+<p>感谢大家支持！</p>
+<p><strong>风农：</strong>这哥们居然还用错词，莫名其妙弄了个 sulks 出来，怎么解释都跟上下文对不上，无奈去了原贴看了看评论，原来他把这词记错意思了(╬￣皿￣)</p>
+<h3 id="像素画基础-2"><a href="#像素画基础-2" class="headerlink" title="像素画基础 2"></a>像素画基础 2</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qhmeu7kg30e80e8gxf.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qf1j3gpg30e80e8gy8.gif"></p>
+<p>本来想讲更多点，不过没地方了:P</p>
+<p>色带（banding/color banding）问题以后再详细的讲。</p>
+<p>像素画里我都会尽量的“隐藏”方块。当像素排的过于整齐，看起来就太呆板，所以我会尽量多的打断直线。</p>
+<p>别忘了看第一部分: 链接</p>
+<p>感谢大家支持！</p>
+<h3 id="城市背景"><a href="#城市背景" class="headerlink" title="城市背景"></a>城市背景</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qf237ddg30e80e8x2m.gif"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qf3ibz2g30e80e8azu.gif"></p>
+<p>我决定分享下我画城市背景和瓦片的过程，而不是单纯的解释如何画单个东西。</p>
+<p>城市是“块状的”，但也有很多生命在其中，我会试着把这些展示出来。</p>
+<p>我会从原始的方块开始画，再逐渐添加细节，以及生命的迹象。</p>
+<p>感谢大家的支持，下节见。</p>
+<p><strong>风农：</strong>左上角是讲解如何画一个砖块的纹理。右边的框是画城市背景的几个步骤，字体颜色是跟随场景变化的。</p>
+]]></content>
+      <categories>
+        <category>像素宝典 (Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>像素宝典#6</title>
     <url>/archives/c54314ff.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zbxjud7j31hc0u0dpy.jpg"></p>
@@ -6011,60 +6333,6 @@
 <p>观看像素动画的时候，我们的眼睛一般聚焦到的是大块的形状。</p>
 <p>祝大家开心，还有感谢支持！</p>
 <p><strong>风农：</strong>这张图里有一点点是我补的，不然没办法替换文字了，因为没有分层信息，我只能靠想象力了，感觉效果还可以。</p>
-]]></content>
-      <categories>
-        <category>像素宝典 (Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>像素宝典#7</title>
-    <url>/archives/b2442469.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zdb4ui8j318g0p046e.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解粘液、岩石构成、植物、城市背景以及像素画基础。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qfvi92oj30u008c3z7.jpg"></p>
-<h3 id="液体-粘液"><a href="#液体-粘液" class="headerlink" title="液体 / 粘液"></a>液体 / 粘液</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qetza7hg30e80e8qhl.gif"></p>
-<p>这期是关于粘液和其他浓稠液体！</p>
-<p>粘液的粒子分散的比水粒子要小，他们会在之间建立连接。还有，记得保持平滑的，圆的形状，不要有尖锐的角。</p>
-<p>感谢大家支持！</p>
-<h3 id="岩石构成"><a href="#岩石构成" class="headerlink" title="岩石构成"></a>岩石构成</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qewib7rg30e80e8e5k.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qg9jnrgg30e80e8khw.gif"></p>
-<p>第 31 个教程！（风农：这哥们的计数方式跟我计的不一样。）</p>
-<p>这期不是个特别科学的教程，不过这一般是我画时候的思路。</p>
-<p>画岩石的主要建议是<strong>找参考物</strong></p>
-<p>Pinterest 或者 google 图片都是不错的地方。</p>
-<p>感谢大家支持！</p>
-<h3 id="植物-2"><a href="#植物-2" class="headerlink" title="植物 2"></a>植物 2</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qeyrjeig30e80e8wy7.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qf78nveg30e80e8h5q.gif"></p>
-<p>这是植物教程的第二部分! </p>
-<p>第一部分在这：链接</p>
-<p>这次我集中讲草，还有一点关于木头的。</p>
-<p>草画起来很复杂，以至于每个画手都有自己的方式去简化它。这里说明了我常用的方式，不过还有很多跟我不一样的方式。我的是要有给眼睛休息的区域，和各处的细节区域。</p>
-<p>感谢大家支持！</p>
-<p><strong>风农：</strong>这哥们居然还用错词，莫名其妙弄了个 sulks 出来，怎么解释都跟上下文对不上，无奈去了原贴看了看评论，原来他把这词记错意思了(╬￣皿￣)</p>
-<h3 id="像素画基础-2"><a href="#像素画基础-2" class="headerlink" title="像素画基础 2"></a>像素画基础 2</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qhmeu7kg30e80e8gxf.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qf1j3gpg30e80e8gy8.gif"></p>
-<p>本来想讲更多点，不过没地方了:P</p>
-<p>色带（banding/color banding）问题以后再详细的讲。</p>
-<p>像素画里我都会尽量的“隐藏”方块。当像素排的过于整齐，看起来就太呆板，所以我会尽量多的打断直线。</p>
-<p>别忘了看第一部分: 链接</p>
-<p>感谢大家支持！</p>
-<h3 id="城市背景"><a href="#城市背景" class="headerlink" title="城市背景"></a>城市背景</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qf237ddg30e80e8x2m.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qf3ibz2g30e80e8azu.gif"></p>
-<p>我决定分享下我画城市背景和瓦片的过程，而不是单纯的解释如何画单个东西。</p>
-<p>城市是“块状的”，但也有很多生命在其中，我会试着把这些展示出来。</p>
-<p>我会从原始的方块开始画，再逐渐添加细节，以及生命的迹象。</p>
-<p>感谢大家的支持，下节见。</p>
-<p><strong>风农：</strong>左上角是讲解如何画一个砖块的纹理。右边的框是画城市背景的几个步骤，字体颜色是跟随场景变化的。</p>
 ]]></content>
       <categories>
         <category>像素宝典 (Pixel Dictionary)</category>
@@ -6486,146 +6754,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客使用插件总结</title>
-    <url>/archives/c12c9c40.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4nnpskhxj311i0gywkf.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="http://theme-next.iissnan.com/">Hexo NexT</a>
-    </i>
-  </font>
-</div>
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这几天将博客主题从 Fluid 换回了 NexT，在重新安装插件的时候顺便记录了本博客当前使用的插件以及插件相关的主题美化，便于后续修改和供NexT主题读者参考。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="一键部署"><a href="#一键部署" class="headerlink" title="一键部署"></a>一键部署</h3><h4 id="地址"><a href="#地址" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href="https://github.com/hexojs/hexo-deployer-git">hexo-deployer-git</a></li>
-</ul>
-<h4 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-<p>然后修改站点配置文件<code>_config.yml</code> 中的配置：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span></span><br><span class="line">      <span class="attr">github:</span> <span class="string">git@github.com:Yousazoe/yousazoe.github.io.git</span></span><br><span class="line">      <span class="attr">coding:</span> <span class="string">git@e.coding.net:yousazoe/yousazoe/yousazoe.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-<h3 id="永久链接"><a href="#永久链接" class="headerlink" title="永久链接"></a>永久链接</h3><h4 id="地址-1"><a href="#地址-1" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href="https://github.com/rozbo/hexo-abbrlink">hexo-abbrlink</a></li>
-</ul>
-<h4 id="安装配置-1"><a href="#安装配置-1" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
-<p>然后我们可以在站点配置文件<code>_config.yml</code> 中修改为：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## If your site is put in a subdirectory, set url as &#x27;http://example.com/child&#x27; and root as &#x27;/child/&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">http://yousazoe.top</span></span><br><span class="line"><span class="attr">root:</span> <span class="string">/</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">archives/:abbrlink.html</span></span><br><span class="line"><span class="attr">abbrlink:</span></span><br><span class="line">  <span class="attr">alg:</span> <span class="string">crc32</span>  <span class="comment"># 算法：crc16(default) and crc32</span></span><br><span class="line">  <span class="attr">rep:</span> <span class="string">hex</span>    <span class="comment"># 进制：dec(default) and hex</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-<h3 id="文章推荐"><a href="#文章推荐" class="headerlink" title="文章推荐"></a>文章推荐</h3><p>这个可以帮助我们根据标签推荐相关文章，原版插件的使用要求编辑主题文件的，但是 NexT 主题集成了这个插件的配置，因此配置起来非常方便。</p>
-<h4 id="地址-2"><a href="#地址-2" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href="https://github.com/tea3/hexo-related-popular-posts">hexo-related-popular-posts</a></li>
-</ul>
-<h4 id="安装配置-2"><a href="#安装配置-2" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-related-popular-posts --save</span><br></pre></td></tr></table></figure>
-<p>我们只需要在主题配置文件<code>_config.yml</code> 中修改：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># Custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="comment">#PPMixingRate: 0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="comment">#isImage: false</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure>
-
-
-<h3 id="站点地图"><a href="#站点地图" class="headerlink" title="站点地图"></a>站点地图</h3><h4 id="通用站点地图"><a href="#通用站点地图" class="headerlink" title="通用站点地图"></a>通用站点地图</h4><ul>
-<li>地址：<a href="https://github.com/hexojs/hexo-generator-sitemap">hexo-generator-sitemap</a></li>
-</ul>
-<p>安装配置：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
-<p>然后我们需要在 Hexo 站点配置文件<code>_config.yml</code> 中加入 sitemap 插件：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 通用站点地图</span></span><br><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br></pre></td></tr></table></figure>
-<h4 id="百度站点地图"><a href="#百度站点地图" class="headerlink" title="百度站点地图"></a>百度站点地图</h4><ul>
-<li>地址：<a href="https://github.com/coneycode/hexo-generator-baidu-sitemap">Sitemap generator</a></li>
-</ul>
-<p>安装配置：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
-<p>具体配置类似通用站点地图，当然也可以看官方提供的教程，下面是一个简单的配置，我们在 Hexo 站点配置文件<code>_config.yml</code> 中添加：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 百度站点地图</span></span><br><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">baidusitemap.xml</span></span><br></pre></td></tr></table></figure>
-
-
-<h3 id="百度推送"><a href="#百度推送" class="headerlink" title="百度推送"></a>百度推送</h3><h4 id="地址-3"><a href="#地址-3" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href="https://github.com/huiwang/hexo-baidu-url-submit">hexo-baidu-url-submit</a></li>
-</ul>
-<h4 id="安装配置-3"><a href="#安装配置-3" class="headerlink" title="安装配置"></a>安装配置</h4><p>安装插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-baidu-url-submit --save</span><br></pre></td></tr></table></figure>
-<p>在站点配置文件<code>_config.yml</code> 中添加以下代码：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 百度主动推送</span></span><br><span class="line"><span class="attr">baidu_url_submit:</span></span><br><span class="line">  <span class="attr">count:</span> <span class="number">5</span> 				     <span class="comment">## 提交最新的1个链接</span></span><br><span class="line">  <span class="attr">host:</span> <span class="string">tding.top</span> 	     <span class="comment">## 百度站长平台中注册的域名</span></span><br><span class="line">  <span class="attr">token:</span> 	 <span class="comment">## 准入秘钥</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">baidu_urls.txt</span> 		 <span class="comment">## 文本文档的地址， 新链接会保存在此文本文档里</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-<h3 id="站点统计"><a href="#站点统计" class="headerlink" title="站点统计"></a>站点统计</h3><h4 id="地址-4"><a href="#地址-4" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href="https://github.com/theme-next/hexo-symbols-count-time">hexo-symbols-count-times</a></li>
-</ul>
-<h4 id="安装配置-4"><a href="#安装配置-4" class="headerlink" title="安装配置"></a>安装配置</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-symbols-count-time --save</span><br></pre></td></tr></table></figure>
-<p>我们只需要在主题配置文件<code>_config.yml</code> 中修改：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Post wordcount display settings</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/hexo-symbols-count-time</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">false</span> <span class="comment"># 统计信息不换行显示</span></span><br><span class="line">  <span class="attr">item_text_post:</span> <span class="literal">false</span> <span class="comment"># 文章统计信息中是否显示“本文字数/阅读时长”等描述文字</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="string">ture</span> <span class="comment"># 站点统计信息中是否显示“本文字数/阅读时长”等描述文字</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">2</span> <span class="comment"># Average Word Length：平均字符长度</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span> <span class="comment"># Words Per Minute：阅读速度</span></span><br></pre></td></tr></table></figure>
-<p>汉字的平均字符长度为 1.5，如果在文章中使用纯中文进行写作（没有混杂英文），那么推荐设置 <code>awl: 2</code> 及 <code>wpm: 300</code>，但是如果文章中存在英文，建议设置 <code>awl: 4</code> 及 <code>wpm: 275</code>。</p>
-<h3 id="站内搜索"><a href="#站内搜索" class="headerlink" title="站内搜索"></a>站内搜索</h3><h4 id="地址-5"><a href="#地址-5" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href="https://github.com/theme-next/hexo-generator-searchdb">hexo-generator-searchdb</a></li>
-</ul>
-<h4 id="安装配置-5"><a href="#安装配置-5" class="headerlink" title="安装配置"></a>安装配置</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
-<p>在<strong>主题配置</strong>文件<code>themes\next_config.yml</code>中修改相关字段：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">trigger:</span> <span class="string">auto</span> <span class="comment"># 每次输入改变都执行搜索</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">3</span> <span class="comment"># 每篇文章显示的搜索结果数量</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-<p>在<strong>站点配置</strong>文件<code>_config.yml</code>中添加以下字段：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span> <span class="comment"># 指定搜索范围，可选 post | page | all</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span> <span class="comment"># 指定页面内容形式，可选 html | raw (Markdown) | excerpt | more</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
-
-
-<h3 id="静态资源压缩"><a href="#静态资源压缩" class="headerlink" title="静态资源压缩"></a>静态资源压缩</h3><h4 id="地址-6"><a href="#地址-6" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href="https://github.com/rozbo/hexo-neat">hexo-neat</a></li>
-</ul>
-<h4 id="安装配置-6"><a href="#安装配置-6" class="headerlink" title="安装配置"></a>安装配置</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-neat --save</span><br></pre></td></tr></table></figure>
-<p>在<strong>站点配置</strong>文件<code>_config.yml</code>中添加以下字段：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># hexo-neat</span></span><br><span class="line"><span class="comment"># 博文压缩</span></span><br><span class="line"><span class="attr">neat_enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment"># 压缩html</span></span><br><span class="line"><span class="attr">neat_html:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line"><span class="comment"># 压缩css  </span></span><br><span class="line"><span class="attr">neat_css:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;**/*.min.css&#x27;</span></span><br><span class="line"><span class="comment"># 压缩js</span></span><br><span class="line"><span class="attr">neat_js:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">mangle:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">output:</span></span><br><span class="line">  <span class="attr">compress:</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;**/*.min.js&#x27;</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;**/jquery.fancybox.pack.js&#x27;</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;**/index.js&#x27;</span>  </span><br></pre></td></tr></table></figure>
-
-
-<h3 id="图片懒加载"><a href="#图片懒加载" class="headerlink" title="图片懒加载"></a>图片懒加载</h3><h4 id="地址-7"><a href="#地址-7" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href=""></a></li>
-</ul>
-<h4 id="安装配置-7"><a href="#安装配置-7" class="headerlink" title="安装配置"></a>安装配置</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-lazyload --save</span><br></pre></td></tr></table></figure>
-<p>在<strong>站点配置</strong>文件<code>_config.yml</code>中添加以下字段：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">lazyload:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># className: #可选 e.g. .J-lazyload-img</span></span><br><span class="line">  <span class="comment"># loadingImg: #可选 eg. ./images/loading.png</span></span><br></pre></td></tr></table></figure>
-
-
-<h3 id="外链优化"><a href="#外链优化" class="headerlink" title="外链优化"></a>外链优化</h3><p>减少出站链接能够有效防止权重分散，hexo 有很方便的自动为出站链接添加 <code>nofollow</code> 标签的插件。</p>
-<p>首先安装 <code>hexo-filter-nofollow</code> 插件：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-filter-nofollow --save</span><br></pre></td></tr></table></figure>
-<p>然后我们在站点的配置文件<code>_config.yml</code> 中添加配置，将 <code>nofollow</code> 设置为 <code>true</code>：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 外部链接优化</span></span><br><span class="line"><span class="attr">nofollow:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">site</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;exclude1.com&#x27;</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&#x27;exclude2.com&#x27;</span></span><br></pre></td></tr></table></figure>
-<p>其中 <code>exclude</code>（例外的链接，比如友链）将不会被加上 <code>nofollow</code> 属性。</p>
-<h3 id="侧栏标签云"><a href="#侧栏标签云" class="headerlink" title="侧栏标签云"></a>侧栏标签云</h3><h4 id="地址-8"><a href="#地址-8" class="headerlink" title="地址"></a>地址</h4><p><a href="https://github.com/D0n9X1n/hexo-tag-cloud">hexo-tag-cloud</a></p>
-<h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><ul>
-<li><p>进入到 hexo 的根目录，然后在 <code>package.json</code> 中添加依赖: <code>&quot;hexo-tag-cloud&quot;: &quot;2.1.*&quot;</code></p>
-</li>
-<li><p>然后执行 <code>npm install</code> 命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-tag-cloud</span><br></pre></td></tr></table></figure></li>
-<li><p>然后需要你去修改主题的 tagcloud 的模板，这个依据你的主题而定。</p>
-</li>
-</ul>
-<p>这里以 Next 主题为例，找到文件 <code>next/layout/_macro/sidebar.swig</code>, 然后添加如下内容。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;site-overview-wrap sidebar-panel&quot;</span>&gt;</span></span><br><span class="line">  &#123;&#123; partial(&#x27;_partials/sidebar/site-overview.swig&#x27;, &#123;&#125;, &#123;cache: theme.cache.enable&#125;) &#125;&#125;</span><br><span class="line"></span><br><span class="line">  &#123;&#123;- next_inject(&#x27;sidebar&#x27;) &#125;&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">&#123;% if site.tags.length &gt; 1 %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;&#123;&#123; url_for(&#x27;/js/tagcloud.js&#x27;) &#125;&#125;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;&#123;&#123; url_for(&#x27;/js/tagcanvas.js&#x27;) &#125;&#125;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h3</span> <span class="attr">class</span>=<span class="string">&quot;widget-title&quot;</span>&gt;</span>Tag Cloud<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width:100%&quot;</span>&gt;</span></span><br><span class="line">            &#123;&#123; list_tags() &#125;&#125;</span><br><span class="line">        <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&#123;%- if theme.back2top.enable and theme.back2top.sidebar %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;back-to-top motion-element&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;fa fa-arrow-up&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span>&gt;</span>0%<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure>
-
-
-]]></content>
-      <categories>
-        <category>博客搭建 (Blog Building)</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>NexT</tag>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>GoogleDinosaur--Unity2D游戏开发</title>
     <url>/archives/87cbf473.html</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn4o5qaa8ej31400u0mzn.jpg"></p>
@@ -6652,134 +6780,6 @@
         <tag>Game Develop</tag>
         <tag>Unity</tag>
         <tag>2D Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开始画像素画#8</title>
-    <url>/archives/e5e6b796.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zn1bbuvj31hc0u0423.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解文件格式和导出方法。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdd9dpvj30u008c74z.jpg"></p>
-<p>这个是系列的第 8 节。这篇技术细节比较多，可以跳过你不感兴趣的部分。</p>
-<p>本节主要是文件格式和导出方法。</p>
-<h3 id="Bitmap-and-vector-位图和矢量图"><a href="#Bitmap-and-vector-位图和矢量图" class="headerlink" title="Bitmap and vector 位图和矢量图"></a>Bitmap and vector 位图和矢量图</h3><p>我们先来讲讲图片在电脑上是如何保存的。简单来说，有两种 2d 的图像文件类型，位图和矢量图。</p>
-<p>矢量图是点、线坐标，以及颜色信息的集合，可以用来创作能缩放到任意分辨率的图像。它主要的缺点在于难以用在表现细节的图像上，像是照片，你几乎无法在像素级别进行控制。尽管我们能创建出看起来像是像素画的矢量图，或者把像素画导出成矢量图格式，但几乎没人这么做。也有些例外情况，比如说要把像素画打印到很大的板子上。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">circle</span> <span class="attr">cx</span>=<span class="string">&quot;50&quot;</span> <span class="attr">cy</span>=<span class="string">&quot;50&quot;</span> <span class="attr">r</span>=<span class="string">&quot;40&quot;</span> <span class="attr">stroke</span>=<span class="string">&quot;black&quot;</span> <span class="attr">stroke-width</span>=<span class="string">&quot;3&quot;</span> <span class="attr">fill</span>=<span class="string">&quot;red&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdbgy43j30330310pw.jpg"></p>
-<p>而位图图像，才是像素画能够存在的原因。位图把图像想象成很大的网格，打印在屏幕上，每个像素都单独存储。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdh3fwmj30jn0770s1.jpg"></p>
-<p>这样保存的文件有时候比较大。一个 <code>1080*1920</code> 的图，意味着包含了 <code>2.073.600</code> 个独立像素需要保存，所以有时候需要用高效算法来压缩一下。</p>
-<h3 id="Image-compression-图像压缩"><a href="#Image-compression-图像压缩" class="headerlink" title="Image compression 图像压缩"></a>Image compression 图像压缩</h3><p>图像压缩是为了减小图像文件的体积，但是依据使用算法的不同，有些算法可能会损坏原数据。</p>
-<p>压缩可以是有损或者无损的。有损压缩一般对于照片或者大幅插画是可以接受的，但是像素画就不可以。用 JPG 格式保存像素画会造成随机的颜色变化，图形虚影。在压缩像素画时，我们必须检查是否用的是无损压缩，比如 PNG 格式。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdcrltyj30en07lmx2.jpg"></p>
-<p>总的来说，你的编辑器提供的图像格式，比如 Aseprite 的.aseprite 格式，或者 GraphicGale 的.gal 格式，可以安全的保存所有的图层和元数据。</p>
-<h3 id="在-Aseprite-里保存"><a href="#在-Aseprite-里保存" class="headerlink" title="在 Aseprite 里保存"></a>在 Aseprite 里保存</h3><p>在 Aseprite 里用保存对话框进行保存（Ctrl + S，或者 Ctrl + Shift + S 做另存为新文件）</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdgjejzj30hz0avdg0.jpg"></p>
-<p>很直观，是吧？在这里保存为 <code>.aseprite</code> 格式，保存所有文件信息，以便你以后可以回来做修改。</p>
-<h3 id="导出预览"><a href="#导出预览" class="headerlink" title="导出预览"></a>导出预览</h3><p>在完成了你的精灵图之后，你可能想要发布到什么地方，或者发给谁，但如果直接保存成 <code>.png</code> 文件，会有两个不好的地方：第一，你的图像会保存成一个扁平的文件，就是说失去了图层和元数据，第二，你的 <code>png</code> 文件可能会长这样：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvf351jhj30180180bx.jpg"></p>
-<p>导出做预览的正确方式是用导出对话框，在“文件 -&gt; 导出”（<code>File</code> -&gt;<code> Export</code>）菜单</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdidzz7j30b809ua9u.jpg"></p>
-<p>这个对话框里有非常多有用的选项，我们一个个看一下：</p>
-<p><strong>Output File 输出文件</strong>：文件名。如果你直接输入想使用的文件格式，Aseprite 就可以保存为这个格式。推荐静态的图用“<code>.png</code>”，动画用“<code>.gif</code>”。</p>
-<p>这里不会把保存命令的默认格式也改掉，所以不用担心这里选择的格式以后会把所有东西都拍扁。</p>
-<p><strong>Resize 缩放</strong>：像素画对于目前的显示器来说通常都太小，所以需要缩放。Aseprite 提供了很多的分辨率供你选择。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdixafaj30ft0760oy.jpg"></p>
-<p>你可能注意到了，只能缩放成 <code>100%</code> 的整数倍，不能有小数，比如 <code>250%</code>。这是因为非整数倍的缩放会损坏像素画。这是个像素画的严重缺陷，并且没有什么办法能避免。记住缩放一定要用整数倍（<code>200%</code>，<code>300%</code> 等），不要用非整数倍（<code>130%</code>，<code>250%</code> 等等）。</p>
-<p>如果你一定要满足某个大小，试着缩放到最接近的最小的倍数，然后把画布延伸到你需要的尺寸。</p>
-<p>通常放大 <code>200%</code> 或者 <code>300%</code> 发布到网上足够了。</p>
-<p><strong>Layers 图层：</strong>当你导出文件时，他会被拍扁，就是失去所有图层信息。这个选项可以让你选择导出时需要包含哪个图层。</p>
-<p><strong>Frames 帧：</strong>后面会详细讲，这里就是指要导出哪些帧。如果你有不止一帧，那么会发生两件事：</p>
-<ul>
-<li>如果导出格式支持动画，比如 <code>gif</code>，那么就会导出动画到这个文件。</li>
-<li>如果导出格式不支持动画，比如 <code>png</code>，那么 Aseprite 就会保存到多个文件，每帧一个。<br>（编辑注：现在 <code>APNG</code> 动画格式其实也已经得到了广泛支持）</li>
-</ul>
-<p><strong>Animation direction 动画方向：</strong>这里可以看到常用的方向，比如向前，向后等等，选最适合你的。这里的含义很直观，你也可以自己试试。</p>
-<p><strong>Apply pixel ratio 应用像素比例：</strong>这个不常用，如果你用的不是方形像素，选这个会把它压扁成方形。如果不确定这个是什么也没关系，他不会改变什么东西。</p>
-<p><strong>Export for Twitter 导出到 twitter：</strong>勾选后会让最后一帧动画持续时间整个动画的一半长度，完美适合 twitter MP4 循环。</p>
-<h3 id="Saving-for-the-engine-保存给引擎"><a href="#Saving-for-the-engine-保存给引擎" class="headerlink" title="Saving for the engine 保存给引擎"></a>Saving for the engine 保存给引擎</h3><p>游戏引擎各不相同，每个都需要你做特定处理，不过这里是一些通用的原则：</p>
-<ul>
-<li>首先是文件格式：尽管有些引擎支持 <code>tiff</code>，<code>gif</code>，甚至是 <code>bmp</code>，最好还是用 <code>png</code>。轻量，解压相对迅速，透明支持的很好。别用 <code>jpg</code>，<code>mp4</code>，或者其他的有损压缩格式。</li>
-<li>除非你有什么原因，否则不要在导出给游戏引擎时对像素画做缩放。正常情况下精灵应该是由引擎来做缩放，所有文件都应该保持原有分辨率。</li>
-<li>动画应该保存成图片序列，或者精灵表（sprite sheet）。不要用任何的视频格式，除非你在做什么特别的。</li>
-</ul>
-<h3 id="Saving-an-image-sequence-保存图片序列"><a href="#Saving-an-image-sequence-保存图片序列" class="headerlink" title="Saving an image sequence 保存图片序列"></a>Saving an image sequence 保存图片序列</h3><p>当把动画保存为 <code>png</code> 时，Aseprite 会创建一个图片序列，看起来这样:</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdbuf77j30ep045dfm.jpg"></p>
-<p>一般这就行了，不过我喜欢文件名从 <code>0</code> 开始，而且我喜欢两位数字。这个很容易实现：在文件名这，只要输入文件名后面加上”<code>00</code>“。这里我把文件名写为 <code>alert00.png</code>，结果是这样：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdhjw9lj30fs023gld.jpg"></p>
-<p>另外一个有用的技巧是加多个标签。在 Aseprite 里，你可以选择多组帧加上标签。这样一个文件里可以保存多个动画。像这样：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvddrdl3j30kj03i3ya.jpg"></p>
-<p>这有助于整理，导出也很方便，只要输入 <code>boss_&#123;tag&#125;&#123;tagframe00&#125;.png</code>，aseeprite 会这样导出：</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdccrpkj30j10dijsi.jpg"></p>
-<p>很方便吧？如果你想多几个或少几个 <code>0</code>，可以把 <code>&#123;tagframe00&#125;</code> 改成 <code>&#123;tagframe000&#125;</code> 或者直接 <code>&#123;tagframe&#125;</code>。</p>
-<h3 id="保存精灵表-sprite-sheet"><a href="#保存精灵表-sprite-sheet" class="headerlink" title="保存精灵表 sprite sheet"></a>保存精灵表 sprite sheet</h3><p>有些游戏引擎推荐用精灵表，而不是多张图片，我们可以用“文件&gt;导出精灵表”（<code>File</code> &gt; <code>Export Sprite Sheet</code>）命令自动导出。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdec521j30m10e3a9x.jpg"></p>
-<p>这里我们有多个选项，可以根据所用的引擎做调整。有些需要在精灵之间添加边距，提供 <code>JSON</code> 描述信息，其他的可能支持去除透明部分。<code>Extrude</code> 拉伸可以让所有瓦片的边界颜色向外延伸一个像素，避免 3D 瓦片的接缝，如果你用的是 3D 引擎的话。不确定就什么都不选就好。</p>
-<p>对于行和列的数量设置，如果引擎没有特殊要求，我建议选择“最适合纹理的尺寸”（<code>Best fit for texture</code>），让 Aseprite 自动计算尺寸。</p>
-<p>这里需要注意的是，不勾选“<code>Output file</code>”并提供文件名时，点击导出不会生成文件的。你也可以选择“<code>Open generated sprite sheet</code>”，这会打开一个新文件，你可以手工保存。</p>
-<h3 id="切割工具和命令行"><a href="#切割工具和命令行" class="headerlink" title="切割工具和命令行"></a>切割工具和命令行</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdi043kj309m06wjr5.jpg"></p>
-<p>最后一个技巧时用切割工具 slice。切割工具适合于把多个图放在同一个画布的时候。我喜欢在给游戏场景制作素材时用这个，我可以把素材放在旁边随时比对尺寸。</p>
-<p>首先要把精灵放到一个文件，挨着。别互相重叠到一个矩形区域就好。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdepvv0j30gg0cx749.jpg"></p>
-<p>接着选择切割工具，开始在每个物体上做选取，注意不要把其他物体的部分包括进来。之后你可以双击其中一个，或者右键点击查看属性，给它命名。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glhvdfbb6uj30u00cg0vg.jpg"></p>
-<p>现在，用命令行！如果你主要做美术，这部分听起来可能有点吓人，但我保证，只要简单了解并设置好之后，这能够自动处理很多枯燥的导出工作。</p>
-<p>首先你需要把 Aseprite 添加到环境变量里，如果你不清楚这个，可以看看这个教程<a href="https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables">https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables</a> （百度什么的搜一下设置环境变量）。把 <code>Aseprite.exe</code> 加入到环境变量里。</p>
-<p>现在，保存好 Aseprite 文件，在同一个文件夹打开命令行工具。如果不知道怎么做的话，在 windows 下，Shift + 右键，选择在当前位置打开命令行。</p>
-<p>接着是有意思的地方了，用到的命令！直接输入下面这个，把 <code>myFile</code> 替换成你的文件名，按回车：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Aseprite.exe -b &#39;.\myFile.aseprite&#39; --save-as &#39;&#123;slice&#125;.png&#39;</span><br></pre></td></tr></table></figure>
-<p>我们分解一下这个的含义：</p>
-<ul>
-<li><code>Aseprite.exe</code> 用来启动 Aseprite</li>
-<li><code>-b</code> 表示我们是在批处理模式。不加这个的话 Aseprite 就打开了，我们不需要。</li>
-<li><code>‘.\myFile.aseprite’</code> 是需要处理的文件名和拓展名。这个是相对于当前路径的。</li>
-<li><code>--save-as</code> 是保存选中文件的命令，它也会根据你给的文件名里带的标签去格式化文件名。</li>
-<li><code>&#39;&#123;slice&#125;.png&#39;</code> 是导出文件名, <code>&#123;slice&#125;</code> 是个标签，它表示文件名会用切割的名称并切割出来。</li>
-</ul>
-<p>如果想了解更多命令行信息，Aseprite 有个不错的使用教程可以看看：</p>
-<p><a href="https://www.aseprite.org/docs/cli/#filename-format">https://www.aseprite.org/docs/cli/#filename-format</a></p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在你了解到如何正确的保存像素画了！当有不确定的地方时，参考以下几点：</p>
-<ul>
-<li>永远用整数倍缩放，不用小数，不缩小。</li>
-<li>Aseprite 可以自动保存出图片序列。</li>
-<li>别用 <code>jpg</code> 和 <code>mp4</code>，以及其他的有损压缩图像格式。</li>
-<li>不确定时，就用 <code>png</code>，别缩放。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>进程与线程</title>
-    <url>/archives/44cf1d42.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gloe6t3mq4g312w0lwqva.gif"></p>
-<p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
-<a id="more"></a>
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>操作系统 (Operating Systems)</category>
-      </categories>
-      <tags>
-        <tag>Mooc</tag>
-        <tag>OS</tag>
       </tags>
   </entry>
   <entry>
