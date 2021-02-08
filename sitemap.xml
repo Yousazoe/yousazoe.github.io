@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yousazoe.top/archives/8e968f45.html</loc>
+    
+    <lastmod>2021-02-08</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/archives/2b07a0e9.html</loc>
     
     <lastmod>2021-02-08</lastmod>
@@ -592,6 +599,27 @@
 
   
   <url>
+    <loc>http://yousazoe.top/tags/Story/</loc>
+    <lastmod>2021-02-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/Reprint/</loc>
+    <lastmod>2021-02-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/Celeste/</loc>
+    <lastmod>2021-02-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/tags/Hexo/</loc>
     <lastmod>2021-02-08</lastmod>
     <changefreq>daily</changefreq>
@@ -642,27 +670,6 @@
   
   <url>
     <loc>http://yousazoe.top/tags/INDIE/</loc>
-    <lastmod>2021-02-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Story/</loc>
-    <lastmod>2021-02-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Reprint/</loc>
-    <lastmod>2021-02-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Celeste/</loc>
     <lastmod>2021-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -865,14 +872,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Algorithm/</loc>
+    <loc>http://yousazoe.top/tags/Fluid/</loc>
     <lastmod>2021-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Fluid/</loc>
+    <loc>http://yousazoe.top/tags/Algorithm/</loc>
     <lastmod>2021-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -916,6 +923,13 @@
 
   
   <url>
+    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%B9%95%E5%90%8E-Behind-the-Game/</loc>
+    <lastmod>2021-02-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-Blog-Building/</loc>
     <lastmod>2021-02-08</lastmod>
     <changefreq>daily</changefreq>
@@ -924,13 +938,6 @@
   
   <url>
     <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%88%86%E6%9E%90%E4%B8%8E%E6%B5%8B%E8%AF%84-Game-Analysis-and-Evaluation/</loc>
-    <lastmod>2021-02-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%B9%95%E5%90%8E-Behind-the-Game/</loc>
     <lastmod>2021-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
