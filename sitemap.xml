@@ -662,6 +662,13 @@
   </url>
   
   <url>
+    <loc>http://yousazoe.top/tags/INDIE/</loc>
+    <lastmod>2021-02-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/tags/RPG/</loc>
     <lastmod>2021-02-10</lastmod>
     <changefreq>daily</changefreq>
@@ -676,7 +683,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/INDIE/</loc>
+    <loc>http://yousazoe.top/tags/C/</loc>
+    <lastmod>2021-02-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/Game-Engine/</loc>
     <lastmod>2021-02-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -691,20 +705,6 @@
   
   <url>
     <loc>http://yousazoe.top/tags/SEGA/</loc>
-    <lastmod>2021-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/C/</loc>
-    <lastmod>2021-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Game-Engine/</loc>
     <lastmod>2021-02-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -951,13 +951,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91-Game-Development/</loc>
-    <lastmod>2021-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91-Game-Engine-Series/</loc>
     <lastmod>2021-02-10</lastmod>
     <changefreq>daily</changefreq>
@@ -965,7 +958,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-Game-Programming/</loc>
+    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91-Game-Development/</loc>
     <lastmod>2021-02-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -973,6 +966,13 @@
   
   <url>
     <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%8F%B2%E5%AD%A6%E5%AE%B6-Gaming-Historian/</loc>
+    <lastmod>2021-02-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-Game-Programming/</loc>
     <lastmod>2021-02-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
