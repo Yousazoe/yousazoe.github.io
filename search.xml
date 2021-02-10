@@ -6224,13 +6224,13 @@
 <p>这节是关于 &lt;1 像素的运动，有些人也叫亚像素动画。因为移动少于一个像素是不可能的，所以这节其实是关于如何让像素动画尽可能的精美。</p>
 <p> 我觉得这应该是像素画里最难的东西了，我的主要建议就是慢点来，多练习。不用担心，这个就是非常难做好的，为了这个我通常都会重做好几次动画。我觉得这是正常的，最起码我希望是。</p>
 <h3 id="爆炸-1"><a href="#爆炸-1" class="headerlink" title="爆炸 1"></a>爆炸 1</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-00018-cn9178a6.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh77ezszg30e80e8doq.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh77ezszg30e80e8doq.gif"></p>
 <p>爆炸是我最喜欢画的主题之一了！里面有很多的粒子，我通常都会一个一个的处理。比如我会从头到尾画一个弹片，接着从头到尾画一团烟雾，等等。</p>
 <p>爆炸里有非常多的火和烟雾，我之前也做过教程，可以去看下。</p>
 <p>这是第 18 个教程了!（之前有几个可能他觉得不算，比如专辑那个。） 很高兴这个系列能走这么远，完全靠大家的支持！</p>
 <p>感谢所有支持这个系列的人！</p>
-<h3 id="机器和怪异科技"><a href="#机器和怪异科技" class="headerlink" title="机器和怪异科技"></a>机器和怪异科技</h3><p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glsh77uh87g30e80e87qz.gif"></p>
+<h3 id="机器和怪异科技"><a href="#机器和怪异科技" class="headerlink" title="机器和怪异科技"></a>机器和怪异科技</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-00019-cn9194P4.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh77uh87g30e80e87qz.gif"></p>
 <p>不好意思各位，本来应该昨天发，但是感冒太严重了。今天好点了。（风农：不是我。）</p>
 <p>这次是关于机器，我决定做个类似于“参考样式”的。你可以看着它来考虑想要加到自己机器上面的元素。</p>
 <p>也别忘了参考周围的东西，还有网上的，尤其是破损的机器。</p>
@@ -6248,24 +6248,24 @@
   <entry>
     <title>像素宝典#5</title>
     <url>/archives/2b4d75d4.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zau6ukqj318g0p010m.jpg"></p>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zau6ukqj318g0p010m.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解视差和深度、渲染技巧、动画缓冲、像素画流程和废墟画法。</p>
 <a id="more"></a>
 
 
 
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg6zwi43j30u008c74z.jpg"></p>
-<h3 id="视差和深度"><a href="#视差和深度" class="headerlink" title="视差和深度"></a>视差和深度</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg71rziog30e80e8hdt.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg71dlo7g30e80e8kjl.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glwg6zwi43j30u008c74z.jpg"></p>
+<h3 id="视差和深度"><a href="#视差和深度" class="headerlink" title="视差和深度"></a>视差和深度</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glwg71rziog30e80e8hdt.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glwg71dlo7g30e80e8kjl.gif"></p>
 <p>视差是游戏和编程里我很喜欢的技术。非常好实现，是 2D 游戏里表现深度的好办法。</p>
 <p>我还附带了一个 <code>.love</code> 的例子，包括一个 <code>.lua</code> 的源代码文件，你可以看看。</p>
 <p>要运行 <code>.love</code> 文件，需要先下载 Löve：<a href="https://love2d.org/">https://love2d.org/</a></p>
 <p><strong>parallax.love</strong>：<a href="https://www.patreon.com/file?h=7863658&amp;i=795078">https://www.patreon.com/file?h=7863658&amp;i=795078</a></p>
 <p><strong>main.lua</strong>：<a href="https://www.patreon.com/file?h=7863658&amp;i=795082">https://www.patreon.com/file?h=7863658&amp;i=795082</a></p>
 <p><strong>风农：</strong>这一期跟后面有几期他都用到了这个叫 love 的引擎，我完全没用过，所以大家就领会领会精神就好了，如果感兴趣也可以去研究一下。</p>
-<h3 id="渲染技巧"><a href="#渲染技巧" class="headerlink" title="渲染技巧"></a>渲染技巧</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg9vic3fg30e80e81hh.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg72oqtcg30e80e8b0l.gif"></p>
+<h3 id="渲染技巧"><a href="#渲染技巧" class="headerlink" title="渲染技巧"></a>渲染技巧</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glwg9vic3fg30e80e81hh.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glwg72oqtcg30e80e8b0l.gif"></p>
 <p>这一期是关于编程/美术的教程。</p>
 <p>稍微有点偏向编程，但是对于想了解我常用的，简单的渲染技巧的同学会有点用。</p>
 <p>希望这能帮助大家写自己的渲染代码。调整渲染能做到很多事情：精灵拖尾痕迹，故障效果，动态模糊等等。</p>
@@ -6277,32 +6277,31 @@
 <p>用这个时间数字，比如 <code>3</code> 秒，除以 <code>4</code>, 能得到商是 <code>0</code>，模/余数是 <code>3</code>。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">3&#x2F;4 &#x3D; 0 </span><br><span class="line">3%4 &#x3D; 3</span><br></pre></td></tr></table></figure>
 <p>大概是这么个意思吧。</p>
-<h3 id="动画缓冲"><a href="#动画缓冲" class="headerlink" title="动画缓冲"></a>动画缓冲</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg7361b6g30e80e8qc3.gif"></p>
-<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"><br>这节是编程和美术通用的。改变移动物体的速度能给动画增加个性，冲击力，让它更有趣。</p>
+<h3 id="动画缓冲"><a href="#动画缓冲" class="headerlink" title="动画缓冲"></a>动画缓冲</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glwg7361b6g30e80e8qc3.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-000220001JO.gif"></p>
+<p>这节是编程和美术通用的。改变移动物体的速度能给动画增加个性，冲击力，让它更有趣。</p>
 <p>对编程来说，使用补间动画时，别忘了加上缓冲函数。我特意给大家制作了一个简单的缓冲函数小抄，用的 Löve framework，（基于 Albano 的 glide  <a href="https://bitbucket.org/jacobalbano/glide%EF%BC%89%E3%80%82">https://bitbucket.org/jacobalbano/glide）。</a></p>
 <p><strong>风农：tween 在编程里一般指补间动画，意思是给两个位置，之间的运动由程序计算完成，所以说别忘了加上缓冲函数。有很多的库做这个。</strong></p>
 <p><strong>一定注意看那几个代表位置的白块，那个东西就能解释他说的理念。</strong></p>
 <p><strong>Easing.love</strong>：<a href="https://www.patreon.com/file?h=8030922&amp;i=825976">https://www.patreon.com/file?h=8030922&amp;i=825976</a></p>
 <p><strong>main.lua</strong>：<a href="https://www.patreon.com/file?h=8030922&amp;i=825977">https://www.patreon.com/file?h=8030922&amp;i=825977</a></p>
 <p>后面应该就没有这个什么 love 引擎的了。</p>
-<h3 id="像素画流程"><a href="#像素画流程" class="headerlink" title="像素画流程"></a>像素画流程</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg742sjjg30e80e8aig.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg76vvejg30e80e8119.gif"></p>
+<h3 id="像素画流程"><a href="#像素画流程" class="headerlink" title="像素画流程"></a>像素画流程</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glwg742sjjg30e80e8aig.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glwg76vvejg30e80e8119.gif"></p>
 <p>风农：这节图特别多，不过后面的静态图也都是动图里面的，只是拿出来，让大家慢慢看。</p>
 <p><strong>动图后面 9 幅图都是定时特别长的，不是你手机卡住了。</strong></p>
 <p>今天的教程稍有不同。因为要说的是流程，我决定用更传统的序列的形式。</p>
 <p>带着定时阅读文字比较有压力，所以这个帖子我加了静态帧。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwganhqevj30e80e8746.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg77dnzpj30e80e8q2u.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwgas8oknj30e80e8wee.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg76em1hj30e80e8jrb.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg77sbixj30e80e8glj.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg74kiltj30e80e80so.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg787tp9j30e80e8dfs.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg7607uij30e80e8jrc.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwgb1jhw2j30e80e8749.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glwganhqevj30e80e8746.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glwg76em1hj30e80e8jrb.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glwg77sbixj30e80e8glj.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glwg74kiltj30e80e80so.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glwg787tp9j30e80e8dfs.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glwg7607uij30e80e8jrc.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glwgb1jhw2j30e80e8749.jpg"></p>
 <p>感谢大家的支持，下节见。</p>
-<h3 id="废墟"><a href="#废墟" class="headerlink" title="废墟"></a>废墟</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glwg75jr6rg30e80e84qb.gif"></p>
-<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
+<h3 id="废墟"><a href="#废墟" class="headerlink" title="废墟"></a>废墟</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glwg75jr6rg30e80e84qb-20210210151305496.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-000240545GZ-20210210151253167.gif"></p>
 <p>这个教程是关于废墟或者是损毁的东西。更多的是一些参考和窍门。我的主要建议是不要做的太过。加太多的裂痕，或者太多的对比，会显得所有东西都很乱。</p>
 <p>图中提到的故障效果教程在之前的课程中可以找到</p>
 <p>今天开始我要去温哥华，再到旧金山参加 GDC，所以可能要有一两周断更了。不过之后马上更新。</p>
@@ -6322,22 +6321,22 @@
   <entry>
     <title>像素宝典#6</title>
     <url>/archives/c54314ff.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zbxjud7j31hc0u0dpy.jpg"></p>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zbxjud7j31hc0u0dpy.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解各种特效和飞行动画。</p>
 <a id="more"></a>
 
 
 
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm78a6los3j30u008c74z.jpg" alt="图片"></p>
-<h3 id="宇宙飞船推进器"><a href="#宇宙飞船推进器" class="headerlink" title="宇宙飞船推进器"></a>宇宙飞船推进器</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm78a8i99rg30e80e8qlp.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm78aatyglg30e80e8kbh.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78a6los3j30u008c74z.jpg"></p>
+<h3 id="宇宙飞船推进器"><a href="#宇宙飞船推进器" class="headerlink" title="宇宙飞船推进器"></a>宇宙飞船推进器</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78a8i99rg30e80e8qlp.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78aatyglg30e80e8kbh.gif"></p>
 <p>GDC 归来，新一期教程！（风农: 不是我去的 GDC。。。）</p>
 <p>总之，飞船的尾焰可以是任何你想要的样子，我举了一些例子和我自己工作时候的参考。</p>
 <p>希望大家喜欢！</p>
 <p>感谢大家的支持！</p>
-<h3 id="黑魔法特效"><a href="#黑魔法特效" class="headerlink" title="黑魔法特效"></a>黑魔法特效</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm78ag8adyg30e80e8k80.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm78a9fc2dg30e80e8tq4.gif"></p>
+<h3 id="黑魔法特效"><a href="#黑魔法特效" class="headerlink" title="黑魔法特效"></a>黑魔法特效</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78ag8adyg30e80e8k80.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78a9fc2dg30e80e8tq4.gif"></p>
 <p>这是一节非常抽象的教程，里面更多的是窍门和理念的集合，不是一步步教程。</p>
 <p>主要建议：找些参考或者是 gif 图片，一帧一帧的分析，找到你可以用的比较炫酷的图案。</p>
 <p>之前有些教程也对这个主题有帮助：</p>
@@ -6349,14 +6348,14 @@
 <li>骷髅</li>
 <li>火焰</li>
 </ul>
-<h3 id="肖像"><a href="#肖像" class="headerlink" title="肖像"></a>肖像</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm78agweuwg30e80e84qp.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm78acq9b1g30e80e84qp.gif"></p>
+<h3 id="肖像"><a href="#肖像" class="headerlink" title="肖像"></a>肖像</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78agweuwg30e80e84qp.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78acq9b1g30e80e84qp.gif"></p>
 <p>上周投票是个平局，我就选了个自己最想做的：肖像教程。</p>
 <p>我试着说明我自己的流程，放了一些基本的比例建议。</p>
 <p>尽量的保持简洁，大家可以拿来做个快速参考。</p>
 <p>画肖像完全是关于了解人体结构，多看参考，多学习人体素描很重要。</p>
-<h3 id="光魔法特效"><a href="#光魔法特效" class="headerlink" title="光魔法特效"></a>光魔法特效</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm78ahtyupg30e80e8an7.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm78adiy17g30e80e87if.gif"></p>
+<h3 id="光魔法特效"><a href="#光魔法特效" class="headerlink" title="光魔法特效"></a>光魔法特效</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78ahtyupg30e80e8an7.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78adiy17g30e80e87if.gif"></p>
 <p>又一节非常抽象的教程，里面更多的是窍门和理念的集合，不是一步步教程。</p>
 <p>主要建议跟之前的黑魔法一样：找些参考或者是 gif 图片，一帧一帧的分析，找到你可以用的比较炫酷的图案。</p>
 <p>下面是之前可能有帮助的教程：</p>
@@ -6367,8 +6366,8 @@
 <li>水</li>
 <li>像素画基础</li>
 </ul>
-<h3 id="翅膀-飞行"><a href="#翅膀-飞行" class="headerlink" title="翅膀 / 飞行"></a>翅膀 / 飞行</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm78aeehk0g30e80e81kx.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm78afk4d8g30e80e84qp.gif"></p>
+<h3 id="翅膀-飞行"><a href="#翅膀-飞行" class="headerlink" title="翅膀 / 飞行"></a>翅膀 / 飞行</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78aeehk0g30e80e81kx.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78afk4d8g30e80e84qp.gif"></p>
 <p>翅膀/飞行终于在投票里赢了一次：D 准确讲是平局，不过我猜我是能决定平局结果的吧？这期就是翅膀/飞行了！</p>
 <p>主要的建议：</p>
 <p><strong>重点看垂直运动和剪影</strong></p>
@@ -6388,42 +6387,43 @@
   <entry>
     <title>像素宝典#7</title>
     <url>/archives/b2442469.html</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn5zdb4ui8j318g0p046e.jpg"></p>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zdb4ui8j318g0p046e.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解粘液、岩石构成、植物、城市背景以及像素画基础。</p>
 <a id="more"></a>
 
 
 
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qfvi92oj30u008c3z7.jpg"></p>
-<h3 id="液体-粘液"><a href="#液体-粘液" class="headerlink" title="液体 / 粘液"></a>液体 / 粘液</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qetza7hg30e80e8qhl.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qfvi92oj30u008c3z7.jpg"></p>
+<h3 id="液体-粘液"><a href="#液体-粘液" class="headerlink" title="液体 / 粘液"></a>液体 / 粘液</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qetza7hg30e80e8qhl.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-000302032zg.gif"></p>
 <p>这期是关于粘液和其他浓稠液体！</p>
 <p>粘液的粒子分散的比水粒子要小，他们会在之间建立连接。还有，记得保持平滑的，圆的形状，不要有尖锐的角。</p>
 <p>感谢大家支持！</p>
-<h3 id="岩石构成"><a href="#岩石构成" class="headerlink" title="岩石构成"></a>岩石构成</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qewib7rg30e80e8e5k.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qg9jnrgg30e80e8khw.gif"></p>
+<h3 id="岩石构成"><a href="#岩石构成" class="headerlink" title="岩石构成"></a>岩石构成</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qewib7rg30e80e8e5k.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qg9jnrgg30e80e8khw.gif"></p>
 <p>第 31 个教程！（风农：这哥们的计数方式跟我计的不一样。）</p>
 <p>这期不是个特别科学的教程，不过这一般是我画时候的思路。</p>
 <p>画岩石的主要建议是<strong>找参考物</strong></p>
 <p>Pinterest 或者 google 图片都是不错的地方。</p>
 <p>感谢大家支持！</p>
-<h3 id="植物-2"><a href="#植物-2" class="headerlink" title="植物 2"></a>植物 2</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qeyrjeig30e80e8wy7.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qf78nveg30e80e8h5q.gif"></p>
+<h3 id="植物-2"><a href="#植物-2" class="headerlink" title="植物 2"></a>植物 2</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qeyrjeig30e80e8wy7.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf78nveg30e80e8h5q.gif"></p>
 <p>这是植物教程的第二部分! </p>
 <p>第一部分在这：链接</p>
 <p>这次我集中讲草，还有一点关于木头的。</p>
 <p>草画起来很复杂，以至于每个画手都有自己的方式去简化它。这里说明了我常用的方式，不过还有很多跟我不一样的方式。我的是要有给眼睛休息的区域，和各处的细节区域。</p>
 <p>感谢大家支持！</p>
 <p><strong>风农：</strong>这哥们居然还用错词，莫名其妙弄了个 sulks 出来，怎么解释都跟上下文对不上，无奈去了原贴看了看评论，原来他把这词记错意思了(╬￣皿￣)</p>
-<h3 id="像素画基础-2"><a href="#像素画基础-2" class="headerlink" title="像素画基础 2"></a>像素画基础 2</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qhmeu7kg30e80e8gxf.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qf1j3gpg30e80e8gy8.gif"></p>
+<h3 id="像素画基础-2"><a href="#像素画基础-2" class="headerlink" title="像素画基础 2"></a>像素画基础 2</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qhmeu7kg30e80e8gxf.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf1j3gpg30e80e8gy8.gif"></p>
 <p>本来想讲更多点，不过没地方了:P</p>
 <p>色带（banding/color banding）问题以后再详细的讲。</p>
 <p>像素画里我都会尽量的“隐藏”方块。当像素排的过于整齐，看起来就太呆板，所以我会尽量多的打断直线。</p>
 <p>别忘了看第一部分: 链接</p>
 <p>感谢大家支持！</p>
-<h3 id="城市背景"><a href="#城市背景" class="headerlink" title="城市背景"></a>城市背景</h3><p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qf237ddg30e80e8x2m.gif"></p>
-<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gm9qf3ibz2g30e80e8azu.gif"></p>
+<h3 id="城市背景"><a href="#城市背景" class="headerlink" title="城市背景"></a>城市背景</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf237ddg30e80e8x2m.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf3ibz2g30e80e8azu.gif"></p>
 <p>我决定分享下我画城市背景和瓦片的过程，而不是单纯的解释如何画单个东西。</p>
 <p>城市是“块状的”，但也有很多生命在其中，我会试着把这些展示出来。</p>
 <p>我会从原始的方块开始画，再逐渐添加细节，以及生命的迹象。</p>
