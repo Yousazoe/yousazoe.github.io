@@ -6851,9 +6851,10 @@
       </tags>
   </entry>
   <entry>
-    <title>Unity基本编译环境设置(代码自动补全)</title>
+    <title>Unity基本编译环境设置</title>
     <url>/archives/87cbf473.html</url>
-    <content><![CDATA[<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>有非常多的朋友加入到Unity游戏开发中，但是同时也有非常多的朋友卡在了一开始的配置环境部分。直接导致 MonoBehavior 白色，代码无法自动补全等问题。为了一次性解决新人都可能面对的问题，我决定写下这个指南希望你们都能顺利开始学习Unity游戏开发！</p>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/23b2522533cb0ccc023245cef36a75e64b7d2b0a.jpg@860w_482h-20210211170138902.webp"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>有非常多的朋友加入到Unity游戏开发中，但是同时也有非常多的朋友卡在了一开始的配置环境部分。直接导致 MonoBehavior 白色，代码无法自动补全等问题。为了一次性解决新人都可能面对的问题，我决定写下这个指南希望你们都能顺利开始学习Unity游戏开发！</p>
 <a id="more"></a>
 
 <blockquote>
