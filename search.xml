@@ -717,7 +717,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#101;&#x65;&#110;&#x78;&#117;&#x40;&#116;&#101;&#x6e;&#x63;&#x65;&#110;&#116;&#46;&#x63;&#111;&#x6d;">&#108;&#101;&#x65;&#110;&#x78;&#117;&#x40;&#116;&#101;&#x6e;&#x63;&#x65;&#110;&#116;&#46;&#x63;&#111;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#x65;&#x6e;&#x78;&#x75;&#64;&#116;&#x65;&#x6e;&#99;&#x65;&#110;&#x74;&#46;&#99;&#111;&#x6d;">&#x6c;&#101;&#x65;&#x6e;&#x78;&#x75;&#64;&#116;&#x65;&#x6e;&#99;&#x65;&#110;&#x74;&#46;&#99;&#111;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -4004,6 +4004,98 @@
       </tags>
   </entry>
   <entry>
+    <title>手机是怎么知道你的位置的</title>
+    <url>/archives/a03a749.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkcy9nokcuj30u00w9hag.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/105968903/Space-Economics-Illustrations-Resources-Magazine?tracking_source=search_projects_recommended%7Csatellite">Space Economics Illustrations / Resources Magazine</a> by 
+      <a href="https://www.behance.net/jamesrdesign">James Round</a>
+    </i>
+  </font>
+</div>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
+<a id="more"></a>
+
+
+
+<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>今天不管大家走到哪里，拿出手机可以告诉自己走到哪里、走了多快。给自己定位这样一件事是整个人类历史上持续在问的一个问题。我们中国发明了四大发明之一的指南针，可以更方便的进行定位，而在今天我们有全球定位系统，并通过经纬度来表示自己的坐标。</p>
+<h3 id="全球定位系统：2-TO-4"><a href="#全球定位系统：2-TO-4" class="headerlink" title="全球定位系统：2 TO 4"></a>全球定位系统：2 TO 4</h3><p><em>GPS（Global Positioning System）</em></p>
+<ul>
+<li><p><strong>美国的GPS</strong></p>
+<p>GPS一共6条轨道，每条轨道4颗卫星，一共24颗卫星。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkdgum5vcqj30fi0ahmxm.jpg"></p>
+</li>
+<li><p><strong>苏联的GLONASS</strong></p>
+<p>GLONASS一共3条轨道，每条轨道8颗卫星，一共24颗卫星。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkdgwdsot0j30cv08xac9.jpg"></p>
+</li>
+<li><p><strong>欧盟的伽利略</strong></p>
+</li>
+<li><p><strong>中国的北斗</strong></p>
+</li>
+</ul>
+<h3 id="模型的构建与求解"><a href="#模型的构建与求解" class="headerlink" title="模型的构建与求解"></a>模型的构建与求解</h3><p>当我们遇到问题的时候，我们不要追求一个模型解决所有的问题。建模的共性在于在最初的阶段能否用非常简单的模型去讨论最简单基本的情形。</p>
+<h4 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h4><p>我们身处地球给自己的空间位置定位，除了地球表面基本的经度和纬度外，还有海拔高度。一个全球定位系统实现了全球覆盖之后，无论在地球的哪个位置，在头顶上能接收到信号的卫星大约在<strong>6～10颗</strong>左右。这些卫星在固定的频率上发送的信息有：<strong>发出信号的时刻、卫星的位置坐标</strong>。</p>
+<p>而我们接收了这些卫星的信号，怎么通过卫星的位置知道自己的位置呢？虽然自己的坐标是未知的，但是我们知道从卫星的位置走到自己的位置的距离如何去表达：</p>
+<blockquote>
+<p>$distance^2=(x-x_0)^2+(y-y_0)^2+(z-z_0)^2$ 其中 $x_0、y_0、z_0$ 为卫星坐标</p>
+</blockquote>
+<p>而距离我们可不可以算出来呢？可以，因为我们还有时间：电磁波是以光速传播到设备的，乘上时间便可以求出距离。以距离为桥梁，我们将两边联系在了一起：</p>
+<blockquote>
+<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=distance^2=[(t-t_0) \cdot c]^2$</p>
+<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=[(t-t_0) \cdot c]^2$</p>
+</blockquote>
+<h4 id="基本模型"><a href="#基本模型" class="headerlink" title="基本模型"></a>基本模型</h4><p>每有一颗卫星，就有一组方程； 使用者能接收几颗卫星，就有几组下面这样的信号量：</p>
+<blockquote>
+<p>$(x-3)^2+(y-2)^2+(z-3)^2-[(10010.00692286-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-3)^2+(z-1)^2-[(10013.34256381-t)\cdot c]^2=0$</p>
+<p>$(x-5)^2+(y-7)^2+(z-4)^2-[(10016.67820476-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-6)^2+(z-3)^2-[(10020.01384571-t)\cdot c]^2=0$</p>
+<p>$(x-7)^2+(y-6)^2+(z-7)^2-[(10023.34948666-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-4)^2+(z-9)^2-[(10030.02076857-t)\cdot c]^2=0$</p>
+</blockquote>
+<p>这样就列出了一个四元二次方程组，很容易求解。</p>
+<h4 id="求解原理"><a href="#求解原理" class="headerlink" title="求解原理"></a>求解原理</h4><p>四元二次方程组消掉高次项以后变成一个线性方程组：</p>
+<blockquote>
+<p>$\begin{bmatrix} 4 &amp; -4 &amp; -12 &amp; 3.59751 \\ 0 &amp; -2 &amp; -16 &amp; 2.99792 \\ 8 &amp; 6 &amp; -10 &amp; 2.39834 \\ 0 &amp; 6 &amp; -12 &amp; 1.79875 \\ 12 &amp; 4 &amp; -4 &amp; 1.19917 \end{bmatrix}\begin{bmatrix} x \\ y \\ z \\ t\end{bmatrix}=\begin{bmatrix}35971.1 \\ 29957.2 \\ 24031.4 \\ 17993.5 \\ 12059.7 \end{bmatrix}$</p>
+</blockquote>
+<p>如此简单的问题甚至不需要很大的计算机，一个计算器就可以算出来。全球定位系统看着一个很高大上的东西，其实它最基本的、最反映它本质的一个数学模型是非常简单的，当然这个模型并不能很好的解决现实问题，但确实是能体现出全球定位系统最核心的思想的模型。</p>
+<p>这样的模型直接投入使用空间上会有几十米量级的误差，不能满足我们日常的大部分需求，我们需要进一步改进。但正是这样简单的模型，在时间上通过卫星授时误差能达到毫秒量级。</p>
+<h3 id="模型的分析"><a href="#模型的分析" class="headerlink" title="模型的分析"></a>模型的分析</h3><h4 id="卫星时钟"><a href="#卫星时钟" class="headerlink" title="卫星时钟"></a>卫星时钟</h4><p>全球定位系统的使用者可以不知道自己的时间，但卫星上的时间必须要非常准确的，所以地面会有一个原子钟为卫星授时并校准。之前也提到过，$[(t-t_0) \cdot c]^2$ 因为有光速这样大量级的存在，时间上的微小误差会被放大到很大，从而影响到方程本身的求解。也就是说，<strong>时间的同步性</strong>是非常重要的。</p>
+<h4 id="轨道误差"><a href="#轨道误差" class="headerlink" title="轨道误差"></a>轨道误差</h4><p>卫星总体来讲会绕着地球不断地自转，但转的每一次都多多少少会有一些误差。而卫星发送的数据包是根据自己的轨道位置所计算得到的，但轨道本身是按预定轨道计算，其中自转过程未必严格按预定轨道执行从而产生空间信息的偏差。</p>
+<h4 id="电磁波延迟"><a href="#电磁波延迟" class="headerlink" title="电磁波延迟"></a>电磁波延迟</h4><p>发送电磁波穿过电离层和大气层会有延迟，在时间方面产生误差。</p>
+<h4 id="接收机噪声"><a href="#接收机噪声" class="headerlink" title="接收机噪声"></a>接收机噪声</h4><p>GPS接收机本身有噪声，设备之间也会有显著的区别。</p>
+<p>首先考虑一个方程的简单情况，观察空间位置对时间误差的敏感程度：$f_1=(x-3)^2-[(T_1+t_1)\cdot c]^2=0$敏感程度可以由导数来刻画，具体来讲是$x$ 关于 $t$ 的这个函数求导。考虑4个方程的情况：</p>
+<blockquote>
+<p>$f_1=(x-3)^2+(y-2)^2+(z-3)^2-[(T_1+t_1-t)\cdot c]^2=0$</p>
+<p>$f_2=(x-1)^2+(y-3)^2+(z-1)^2-[(T_2+t_2-t)\cdot c]^2=0$</p>
+<p>$f_3=(x-5)^2+(y-7)^2+(z-4)^2-[(T_3+t_3-t)\cdot c]^2=0$</p>
+<p>$f_4=(x-1)^2+(y-7)^2+(z-3)^2-[(T_4+t_4-t)\cdot c]^2=0$</p>
+</blockquote>
+<h3 id="问题的解决"><a href="#问题的解决" class="headerlink" title="问题的解决"></a>问题的解决</h3><p><strong>基本模型：</strong>可行，但达不到应用的要求（时间的精度、空间位置的精度）</p>
+<p><strong>科学问题到工程问题：</strong>科学原理可行到工程实现，需要技术方面的支持，而数学建模则更多的关注科学原理上可行性的问题</p>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/jamesrdesign">James Round</a>
+    </i>
+  </font>
+</div>]]></content>
+      <categories>
+        <category>数学建模 (Mathematical Modeling)</category>
+      </categories>
+      <tags>
+        <tag>Math</tag>
+        <tag>Mooc</tag>
+        <tag>Mathematical Modeling</tag>
+        <tag>GPS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>火箭为什么是三级</title>
     <url>/archives/6ddbab03.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkxbjaai90j30u00u0npe.jpg"></p>
@@ -4214,98 +4306,6 @@
         <tag>Mooc</tag>
         <tag>Mathematical Modeling</tag>
         <tag>Rocket</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手机是怎么知道你的位置的</title>
-    <url>/archives/a03a749.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkcy9nokcuj30u00w9hag.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/105968903/Space-Economics-Illustrations-Resources-Magazine?tracking_source=search_projects_recommended%7Csatellite">Space Economics Illustrations / Resources Magazine</a> by 
-      <a href="https://www.behance.net/jamesrdesign">James Round</a>
-    </i>
-  </font>
-</div>
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
-<a id="more"></a>
-
-
-
-<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>今天不管大家走到哪里，拿出手机可以告诉自己走到哪里、走了多快。给自己定位这样一件事是整个人类历史上持续在问的一个问题。我们中国发明了四大发明之一的指南针，可以更方便的进行定位，而在今天我们有全球定位系统，并通过经纬度来表示自己的坐标。</p>
-<h3 id="全球定位系统：2-TO-4"><a href="#全球定位系统：2-TO-4" class="headerlink" title="全球定位系统：2 TO 4"></a>全球定位系统：2 TO 4</h3><p><em>GPS（Global Positioning System）</em></p>
-<ul>
-<li><p><strong>美国的GPS</strong></p>
-<p>GPS一共6条轨道，每条轨道4颗卫星，一共24颗卫星。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkdgum5vcqj30fi0ahmxm.jpg"></p>
-</li>
-<li><p><strong>苏联的GLONASS</strong></p>
-<p>GLONASS一共3条轨道，每条轨道8颗卫星，一共24颗卫星。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkdgwdsot0j30cv08xac9.jpg"></p>
-</li>
-<li><p><strong>欧盟的伽利略</strong></p>
-</li>
-<li><p><strong>中国的北斗</strong></p>
-</li>
-</ul>
-<h3 id="模型的构建与求解"><a href="#模型的构建与求解" class="headerlink" title="模型的构建与求解"></a>模型的构建与求解</h3><p>当我们遇到问题的时候，我们不要追求一个模型解决所有的问题。建模的共性在于在最初的阶段能否用非常简单的模型去讨论最简单基本的情形。</p>
-<h4 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h4><p>我们身处地球给自己的空间位置定位，除了地球表面基本的经度和纬度外，还有海拔高度。一个全球定位系统实现了全球覆盖之后，无论在地球的哪个位置，在头顶上能接收到信号的卫星大约在<strong>6～10颗</strong>左右。这些卫星在固定的频率上发送的信息有：<strong>发出信号的时刻、卫星的位置坐标</strong>。</p>
-<p>而我们接收了这些卫星的信号，怎么通过卫星的位置知道自己的位置呢？虽然自己的坐标是未知的，但是我们知道从卫星的位置走到自己的位置的距离如何去表达：</p>
-<blockquote>
-<p>$distance^2=(x-x_0)^2+(y-y_0)^2+(z-z_0)^2$ 其中 $x_0、y_0、z_0$ 为卫星坐标</p>
-</blockquote>
-<p>而距离我们可不可以算出来呢？可以，因为我们还有时间：电磁波是以光速传播到设备的，乘上时间便可以求出距离。以距离为桥梁，我们将两边联系在了一起：</p>
-<blockquote>
-<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=distance^2=[(t-t_0) \cdot c]^2$</p>
-<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=[(t-t_0) \cdot c]^2$</p>
-</blockquote>
-<h4 id="基本模型"><a href="#基本模型" class="headerlink" title="基本模型"></a>基本模型</h4><p>每有一颗卫星，就有一组方程； 使用者能接收几颗卫星，就有几组下面这样的信号量：</p>
-<blockquote>
-<p>$(x-3)^2+(y-2)^2+(z-3)^2-[(10010.00692286-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-3)^2+(z-1)^2-[(10013.34256381-t)\cdot c]^2=0$</p>
-<p>$(x-5)^2+(y-7)^2+(z-4)^2-[(10016.67820476-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-6)^2+(z-3)^2-[(10020.01384571-t)\cdot c]^2=0$</p>
-<p>$(x-7)^2+(y-6)^2+(z-7)^2-[(10023.34948666-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-4)^2+(z-9)^2-[(10030.02076857-t)\cdot c]^2=0$</p>
-</blockquote>
-<p>这样就列出了一个四元二次方程组，很容易求解。</p>
-<h4 id="求解原理"><a href="#求解原理" class="headerlink" title="求解原理"></a>求解原理</h4><p>四元二次方程组消掉高次项以后变成一个线性方程组：</p>
-<blockquote>
-<p>$\begin{bmatrix} 4 &amp; -4 &amp; -12 &amp; 3.59751 \\ 0 &amp; -2 &amp; -16 &amp; 2.99792 \\ 8 &amp; 6 &amp; -10 &amp; 2.39834 \\ 0 &amp; 6 &amp; -12 &amp; 1.79875 \\ 12 &amp; 4 &amp; -4 &amp; 1.19917 \end{bmatrix}\begin{bmatrix} x \\ y \\ z \\ t\end{bmatrix}=\begin{bmatrix}35971.1 \\ 29957.2 \\ 24031.4 \\ 17993.5 \\ 12059.7 \end{bmatrix}$</p>
-</blockquote>
-<p>如此简单的问题甚至不需要很大的计算机，一个计算器就可以算出来。全球定位系统看着一个很高大上的东西，其实它最基本的、最反映它本质的一个数学模型是非常简单的，当然这个模型并不能很好的解决现实问题，但确实是能体现出全球定位系统最核心的思想的模型。</p>
-<p>这样的模型直接投入使用空间上会有几十米量级的误差，不能满足我们日常的大部分需求，我们需要进一步改进。但正是这样简单的模型，在时间上通过卫星授时误差能达到毫秒量级。</p>
-<h3 id="模型的分析"><a href="#模型的分析" class="headerlink" title="模型的分析"></a>模型的分析</h3><h4 id="卫星时钟"><a href="#卫星时钟" class="headerlink" title="卫星时钟"></a>卫星时钟</h4><p>全球定位系统的使用者可以不知道自己的时间，但卫星上的时间必须要非常准确的，所以地面会有一个原子钟为卫星授时并校准。之前也提到过，$[(t-t_0) \cdot c]^2$ 因为有光速这样大量级的存在，时间上的微小误差会被放大到很大，从而影响到方程本身的求解。也就是说，<strong>时间的同步性</strong>是非常重要的。</p>
-<h4 id="轨道误差"><a href="#轨道误差" class="headerlink" title="轨道误差"></a>轨道误差</h4><p>卫星总体来讲会绕着地球不断地自转，但转的每一次都多多少少会有一些误差。而卫星发送的数据包是根据自己的轨道位置所计算得到的，但轨道本身是按预定轨道计算，其中自转过程未必严格按预定轨道执行从而产生空间信息的偏差。</p>
-<h4 id="电磁波延迟"><a href="#电磁波延迟" class="headerlink" title="电磁波延迟"></a>电磁波延迟</h4><p>发送电磁波穿过电离层和大气层会有延迟，在时间方面产生误差。</p>
-<h4 id="接收机噪声"><a href="#接收机噪声" class="headerlink" title="接收机噪声"></a>接收机噪声</h4><p>GPS接收机本身有噪声，设备之间也会有显著的区别。</p>
-<p>首先考虑一个方程的简单情况，观察空间位置对时间误差的敏感程度：$f_1=(x-3)^2-[(T_1+t_1)\cdot c]^2=0$敏感程度可以由导数来刻画，具体来讲是$x$ 关于 $t$ 的这个函数求导。考虑4个方程的情况：</p>
-<blockquote>
-<p>$f_1=(x-3)^2+(y-2)^2+(z-3)^2-[(T_1+t_1-t)\cdot c]^2=0$</p>
-<p>$f_2=(x-1)^2+(y-3)^2+(z-1)^2-[(T_2+t_2-t)\cdot c]^2=0$</p>
-<p>$f_3=(x-5)^2+(y-7)^2+(z-4)^2-[(T_3+t_3-t)\cdot c]^2=0$</p>
-<p>$f_4=(x-1)^2+(y-7)^2+(z-3)^2-[(T_4+t_4-t)\cdot c]^2=0$</p>
-</blockquote>
-<h3 id="问题的解决"><a href="#问题的解决" class="headerlink" title="问题的解决"></a>问题的解决</h3><p><strong>基本模型：</strong>可行，但达不到应用的要求（时间的精度、空间位置的精度）</p>
-<p><strong>科学问题到工程问题：</strong>科学原理可行到工程实现，需要技术方面的支持，而数学建模则更多的关注科学原理上可行性的问题</p>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/jamesrdesign">James Round</a>
-    </i>
-  </font>
-</div>]]></content>
-      <categories>
-        <category>数学建模 (Mathematical Modeling)</category>
-      </categories>
-      <tags>
-        <tag>Math</tag>
-        <tag>Mooc</tag>
-        <tag>Mathematical Modeling</tag>
-        <tag>GPS</tag>
       </tags>
   </entry>
   <entry>
@@ -4995,57 +4995,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#121;&#111;&#110;&#x67;&#64;&#116;&#x73;&#105;&#x6e;&#103;&#104;&#117;&#x61;&#x2e;&#x65;&#100;&#x75;&#46;&#99;&#110;">&#x78;&#121;&#111;&#110;&#x67;&#64;&#116;&#x73;&#105;&#x6e;&#103;&#104;&#117;&#x61;&#x2e;&#x65;&#100;&#x75;&#46;&#99;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#121;&#111;&#110;&#x67;&#64;&#116;&#x73;&#105;&#110;&#x67;&#104;&#117;&#97;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#x6e;">&#x78;&#121;&#111;&#110;&#x67;&#64;&#116;&#x73;&#105;&#110;&#x67;&#104;&#117;&#97;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#x75;&#99;&#104;&#101;&#110;&#64;&#109;&#x61;&#x69;&#108;&#x2e;&#x74;&#115;&#105;&#x6e;&#x67;&#104;&#117;&#x61;&#x2e;&#x65;&#100;&#x75;&#46;&#99;&#x6e;">&#x79;&#x75;&#99;&#104;&#101;&#110;&#64;&#109;&#x61;&#x69;&#108;&#x2e;&#x74;&#115;&#105;&#x6e;&#x67;&#104;&#117;&#x61;&#x2e;&#x65;&#100;&#x75;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#117;&#x63;&#104;&#101;&#x6e;&#64;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#116;&#115;&#x69;&#x6e;&#103;&#104;&#117;&#x61;&#x2e;&#x65;&#100;&#x75;&#x2e;&#99;&#x6e;">&#x79;&#117;&#x63;&#104;&#101;&#x6e;&#64;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#116;&#115;&#x69;&#x6e;&#103;&#104;&#117;&#x61;&#x2e;&#x65;&#100;&#x75;&#x2e;&#99;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#x74;&#101;&#114;&#x6e;&#97;&#x6c;&#46;&#x6e;&#x30;&#x38;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#101;&#x74;&#101;&#114;&#x6e;&#97;&#x6c;&#46;&#x6e;&#x30;&#x38;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#x74;&#101;&#114;&#x6e;&#x61;&#x6c;&#46;&#110;&#48;&#56;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#101;&#x74;&#101;&#114;&#x6e;&#x61;&#x6c;&#46;&#110;&#48;&#56;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#98;&#106;&#101;&#99;&#x74;&#x6b;&#x75;&#x61;&#110;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#x6f;&#98;&#106;&#101;&#99;&#x74;&#x6b;&#x75;&#x61;&#110;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#x62;&#106;&#x65;&#x63;&#116;&#107;&#117;&#97;&#x6e;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#111;&#x62;&#106;&#x65;&#x63;&#116;&#107;&#117;&#97;&#x6e;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#114;&#x64;&#102;&#114;&#97;&#x6e;&#x6b;&#64;&#x67;&#109;&#97;&#105;&#108;&#46;&#99;&#x6f;&#x6d;">&#99;&#114;&#x64;&#102;&#114;&#97;&#x6e;&#x6b;&#64;&#x67;&#109;&#97;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#114;&#x64;&#x66;&#114;&#97;&#x6e;&#x6b;&#64;&#x67;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;">&#x63;&#114;&#x64;&#x66;&#114;&#97;&#x6e;&#x6b;&#64;&#x67;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#97;&#x63;&#99;&#111;&#114;&#x61;&#119;&#64;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;">&#116;&#97;&#x63;&#99;&#111;&#114;&#x61;&#119;&#64;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#116;&#x61;&#x63;&#x63;&#x6f;&#x72;&#97;&#x77;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#116;&#x61;&#x63;&#x63;&#x6f;&#x72;&#97;&#x77;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#x69;&#x6e;&#121;&#117;&#110;&#x78;&#105;&#x6e;&#x67;&#48;&#x30;&#48;&#49;&#x40;&#x31;&#54;&#x33;&#46;&#99;&#111;&#x6d;">&#120;&#x69;&#x6e;&#121;&#117;&#110;&#x78;&#105;&#x6e;&#x67;&#48;&#x30;&#48;&#49;&#x40;&#x31;&#54;&#x33;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#120;&#105;&#x6e;&#x79;&#x75;&#110;&#120;&#105;&#x6e;&#x67;&#48;&#x30;&#48;&#49;&#64;&#x31;&#54;&#x33;&#x2e;&#x63;&#x6f;&#109;">&#120;&#105;&#x6e;&#x79;&#x75;&#110;&#120;&#105;&#x6e;&#x67;&#48;&#x30;&#48;&#49;&#64;&#x31;&#54;&#x33;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#110;&#111;&#99;&#117;&#x69;&#108;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x67;&#110;&#111;&#99;&#117;&#x69;&#108;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x6e;&#x6f;&#99;&#x75;&#x69;&#108;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#x67;&#x6e;&#x6f;&#99;&#x75;&#x69;&#108;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#121;&#x61;&#105;&#114;&#105;&#97;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#109;&#121;&#x61;&#105;&#114;&#105;&#97;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#121;&#97;&#x69;&#x72;&#105;&#97;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;">&#109;&#121;&#97;&#x69;&#x72;&#105;&#97;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#104;&#97;&#110;&#103;&#114;&#x61;&#x69;&#x6e;&#57;&#49;&#x31;&#x40;&#x31;&#x36;&#x33;&#x2e;&#99;&#x6f;&#x6d;">&#122;&#104;&#97;&#110;&#103;&#114;&#x61;&#x69;&#x6e;&#57;&#49;&#x31;&#x40;&#x31;&#x36;&#x33;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#122;&#x68;&#x61;&#x6e;&#103;&#114;&#97;&#x69;&#x6e;&#x39;&#49;&#x31;&#64;&#49;&#54;&#51;&#x2e;&#99;&#x6f;&#109;">&#122;&#x68;&#x61;&#x6e;&#103;&#114;&#97;&#x69;&#x6e;&#x39;&#49;&#x31;&#64;&#49;&#54;&#51;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#103;&#x78;&#120;&#x31;&#x32;&#48;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x67;&#103;&#x78;&#120;&#x31;&#x32;&#48;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#103;&#120;&#120;&#x31;&#x32;&#x30;&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;">&#x67;&#103;&#120;&#120;&#x31;&#x32;&#x30;&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -6179,6 +6179,61 @@
       </tags>
   </entry>
   <entry>
+    <title>像素宝典#7</title>
+    <url>/archives/b2442469.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zdb4ui8j318g0p046e.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解粘液、岩石构成、植物、城市背景以及像素画基础。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qfvi92oj30u008c3z7.jpg"></p>
+<h3 id="液体-粘液"><a href="#液体-粘液" class="headerlink" title="液体 / 粘液"></a>液体 / 粘液</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qetza7hg30e80e8qhl.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-000302032zg.gif"></p>
+<p>这期是关于粘液和其他浓稠液体！</p>
+<p>粘液的粒子分散的比水粒子要小，他们会在之间建立连接。还有，记得保持平滑的，圆的形状，不要有尖锐的角。</p>
+<p>感谢大家支持！</p>
+<h3 id="岩石构成"><a href="#岩石构成" class="headerlink" title="岩石构成"></a>岩石构成</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qewib7rg30e80e8e5k.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qg9jnrgg30e80e8khw.gif"></p>
+<p>第 31 个教程！（风农：这哥们的计数方式跟我计的不一样。）</p>
+<p>这期不是个特别科学的教程，不过这一般是我画时候的思路。</p>
+<p>画岩石的主要建议是<strong>找参考物</strong></p>
+<p>Pinterest 或者 google 图片都是不错的地方。</p>
+<p>感谢大家支持！</p>
+<h3 id="植物-2"><a href="#植物-2" class="headerlink" title="植物 2"></a>植物 2</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qeyrjeig30e80e8wy7.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf78nveg30e80e8h5q.gif"></p>
+<p>这是植物教程的第二部分! </p>
+<p>第一部分在这：链接</p>
+<p>这次我集中讲草，还有一点关于木头的。</p>
+<p>草画起来很复杂，以至于每个画手都有自己的方式去简化它。这里说明了我常用的方式，不过还有很多跟我不一样的方式。我的是要有给眼睛休息的区域，和各处的细节区域。</p>
+<p>感谢大家支持！</p>
+<p><strong>风农：</strong>这哥们居然还用错词，莫名其妙弄了个 sulks 出来，怎么解释都跟上下文对不上，无奈去了原贴看了看评论，原来他把这词记错意思了(╬￣皿￣)</p>
+<h3 id="像素画基础-2"><a href="#像素画基础-2" class="headerlink" title="像素画基础 2"></a>像素画基础 2</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qhmeu7kg30e80e8gxf.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf1j3gpg30e80e8gy8.gif"></p>
+<p>本来想讲更多点，不过没地方了:P</p>
+<p>色带（banding/color banding）问题以后再详细的讲。</p>
+<p>像素画里我都会尽量的“隐藏”方块。当像素排的过于整齐，看起来就太呆板，所以我会尽量多的打断直线。</p>
+<p>别忘了看第一部分: 链接</p>
+<p>感谢大家支持！</p>
+<h3 id="城市背景"><a href="#城市背景" class="headerlink" title="城市背景"></a>城市背景</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf237ddg30e80e8x2m.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf3ibz2g30e80e8azu.gif"></p>
+<p>我决定分享下我画城市背景和瓦片的过程，而不是单纯的解释如何画单个东西。</p>
+<p>城市是“块状的”，但也有很多生命在其中，我会试着把这些展示出来。</p>
+<p>我会从原始的方块开始画，再逐渐添加细节，以及生命的迹象。</p>
+<p>感谢大家的支持，下节见。</p>
+<p><strong>风农：</strong>左上角是讲解如何画一个砖块的纹理。右边的框是画城市背景的几个步骤，字体颜色是跟随场景变化的。</p>
+]]></content>
+      <categories>
+        <category>像素宝典 (Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>像素宝典#6</title>
     <url>/archives/c54314ff.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zbxjud7j31hc0u0dpy.jpg"></p>
@@ -6234,61 +6289,6 @@
 <p>观看像素动画的时候，我们的眼睛一般聚焦到的是大块的形状。</p>
 <p>祝大家开心，还有感谢支持！</p>
 <p><strong>风农：</strong>这张图里有一点点是我补的，不然没办法替换文字了，因为没有分层信息，我只能靠想象力了，感觉效果还可以。</p>
-]]></content>
-      <categories>
-        <category>像素宝典 (Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>像素宝典#7</title>
-    <url>/archives/b2442469.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zdb4ui8j318g0p046e.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解粘液、岩石构成、植物、城市背景以及像素画基础。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qfvi92oj30u008c3z7.jpg"></p>
-<h3 id="液体-粘液"><a href="#液体-粘液" class="headerlink" title="液体 / 粘液"></a>液体 / 粘液</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qetza7hg30e80e8qhl.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-000302032zg.gif"></p>
-<p>这期是关于粘液和其他浓稠液体！</p>
-<p>粘液的粒子分散的比水粒子要小，他们会在之间建立连接。还有，记得保持平滑的，圆的形状，不要有尖锐的角。</p>
-<p>感谢大家支持！</p>
-<h3 id="岩石构成"><a href="#岩石构成" class="headerlink" title="岩石构成"></a>岩石构成</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qewib7rg30e80e8e5k.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qg9jnrgg30e80e8khw.gif"></p>
-<p>第 31 个教程！（风农：这哥们的计数方式跟我计的不一样。）</p>
-<p>这期不是个特别科学的教程，不过这一般是我画时候的思路。</p>
-<p>画岩石的主要建议是<strong>找参考物</strong></p>
-<p>Pinterest 或者 google 图片都是不错的地方。</p>
-<p>感谢大家支持！</p>
-<h3 id="植物-2"><a href="#植物-2" class="headerlink" title="植物 2"></a>植物 2</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qeyrjeig30e80e8wy7.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf78nveg30e80e8h5q.gif"></p>
-<p>这是植物教程的第二部分! </p>
-<p>第一部分在这：链接</p>
-<p>这次我集中讲草，还有一点关于木头的。</p>
-<p>草画起来很复杂，以至于每个画手都有自己的方式去简化它。这里说明了我常用的方式，不过还有很多跟我不一样的方式。我的是要有给眼睛休息的区域，和各处的细节区域。</p>
-<p>感谢大家支持！</p>
-<p><strong>风农：</strong>这哥们居然还用错词，莫名其妙弄了个 sulks 出来，怎么解释都跟上下文对不上，无奈去了原贴看了看评论，原来他把这词记错意思了(╬￣皿￣)</p>
-<h3 id="像素画基础-2"><a href="#像素画基础-2" class="headerlink" title="像素画基础 2"></a>像素画基础 2</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qhmeu7kg30e80e8gxf.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf1j3gpg30e80e8gy8.gif"></p>
-<p>本来想讲更多点，不过没地方了:P</p>
-<p>色带（banding/color banding）问题以后再详细的讲。</p>
-<p>像素画里我都会尽量的“隐藏”方块。当像素排的过于整齐，看起来就太呆板，所以我会尽量多的打断直线。</p>
-<p>别忘了看第一部分: 链接</p>
-<p>感谢大家支持！</p>
-<h3 id="城市背景"><a href="#城市背景" class="headerlink" title="城市背景"></a>城市背景</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf237ddg30e80e8x2m.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf3ibz2g30e80e8azu.gif"></p>
-<p>我决定分享下我画城市背景和瓦片的过程，而不是单纯的解释如何画单个东西。</p>
-<p>城市是“块状的”，但也有很多生命在其中，我会试着把这些展示出来。</p>
-<p>我会从原始的方块开始画，再逐渐添加细节，以及生命的迹象。</p>
-<p>感谢大家的支持，下节见。</p>
-<p><strong>风农：</strong>左上角是讲解如何画一个砖块的纹理。右边的框是画城市背景的几个步骤，字体颜色是跟随场景变化的。</p>
 ]]></content>
       <categories>
         <category>像素宝典 (Pixel Dictionary)</category>
@@ -6499,6 +6499,80 @@
       </tags>
   </entry>
   <entry>
+    <title>Unity Student Plan申请指南</title>
+    <url>/archives/e8e3308a.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf3sypo104j31hc0u0ae8.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了Unity社区的优秀博主 <a href="https://unity.cn/u/michael-wang-2/?tab=article">Michael Wang</a> 的 <a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">Unity Student Plan申请指南！</a>，希望通过转载的方式可以帮助到对 Unity Pro 购买上有困难的在读学生申请「Unity Student Plan」，也希望有能力的读者朋友可以去支持一下原文作者，他有大量的优质 Unity 教学视频可供初学者学习。</p>
+<a id="more"></a>
+
+
+
+
+
+<p><strong>支持正版Unity从我做起！拒绝盗版，拒绝破解！</strong></p>
+<ul>
+<li><p>想使用 Unity 深色主题吗？</p>
+</li>
+<li><p>想更方便跟5位队友远程共同开发游戏吗？</p>
+</li>
+<li><p>想免费看「Unity Learn」上面的各种优质课程吗？</p>
+</li>
+<li><p>学生党没有钱购买 Plus / Pro 版吗？</p>
+</li>
+</ul>
+<p>这篇文章会帮助你成功加入「Unity Student Plan」这个超级增值计划当中。让你免费享受以上所有你曾经梦寐以求的服务！</p>
+<p>考虑到可能很多同学会在操作上有些疑惑，<a href="https://unity.cn/u/michael-wang-2/?tab=article">麦扣</a>含(超)泪(龄)特此制作<a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">中文指南</a>。点个收藏支持一下吧!</p>
+<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>直奔主题，详细内容查看官方正确网站：<a href="https://store.unity.com/academic/unity-student?_ga=2.192862250.1412877669.1590291680-1494240502.1590291680">点我申请</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvkhdfzj30u016h42m.jpg"></p>
+<h3 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤"></a>主要步骤</h3><p>打开上面的网站地址就可以看到上面的界面，主要分为3个主要步骤：</p>
+<p><strong>1. 授权 Unity 通过 Github 来确认你的学生身份</strong> </p>
+<p><strong>2. 申请学生开发包</strong> </p>
+<p><strong>3. 激活你的 Unity Student Plan</strong></p>
+<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><p>请先不要着急操作！还有一些前期的准备要做！请确认一下内容：</p>
+<ul>
+<li><strong>你是真实的学生身份（初中以上！惊不惊喜）</strong></li>
+<li><strong>你已经注册拥有 Unity ID</strong></li>
+<li><strong>你已经有 GitHub 账号并且已经 “Get student benefits”</strong></li>
+</ul>
+<p>如果你已经具备了以上的内容，那么你可以跳过后面的指南直接通过 Unity 官方网站申请。</p>
+<h3 id="Github-Student-Benefits"><a href="#Github-Student-Benefits" class="headerlink" title="Github Student Benefits"></a>Github Student Benefits</h3><p>*注意你需要有 Github 账号。<a href="https://education.github.com/benefits">点我跳转！</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvi91g4j31b90u0n2i.jpg"></p>
+<p><strong>GitHub官方网站提供了非常详细的注册指南，在这里就不赘述了。但是提供一些可能遇到的问题的小提示：</strong></p>
+<ul>
+<li>如果你有 .edu 的邮箱，那么请在你的申请页面添加这个教育邮箱。</li>
+<li>请尝试咨询学校如何申请 .edu 的邮箱。那么会让你飞快通过申请！</li>
+<li>如果无法申请邮箱 或者 你的学校不在列表当中（优先搜索英语名字），那么需要提供学生证的照片来验证，等候时间会变长，但是不带表你不能申请！！</li>
+<li>学生证等信息不在身边，可以访问<a href="https://my.chsi.com.cn/archive/index.jsp">「学信档案网站」</a>截图上传证明。</li>
+<li>保持好的心态，你一定会成功！</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpviz7ofj30oj0v1jtj.jpg"></p>
+<p>做完以上的操作你很可能看到这样的界面</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvk0chxj313n0ktjta.jpg"></p>
+<p><em>不要担心 4 days 很可能就是几个小时的事儿，30 days 也不一定非要等30天！请大家多多留意自己的邮箱，GitHub 总是会给你惊喜的。</em></p>
+<h3 id="Unity-Student-Plan"><a href="#Unity-Student-Plan" class="headerlink" title="Unity Student Plan"></a>Unity Student Plan</h3><p>当你收到了 GitHub 的确认邮件，那么恭喜你，你基本上成功了，现在你需要回到文章开头的 Unity Student Plan 申请的连接完成 3 个步骤。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvldizsj31go0l2gs1.jpg"></p>
+<ul>
+<li>Unity 发给你的<strong>邮件</strong>当中会详细描述你在哪里可以获得你的 Pro 专业版 使用权的<strong>激活码</strong>，使用激活码<strong>在HUB中激活你的证书</strong>。</li>
+<li>你会获得让所有人望眼欲穿的，价值 <strong>$489.93 的 Assets Pack 超优质资源包</strong>，跟我一样只能看看的请<a href="https://assetstore.unity.com/browse/student-plan-pack?_ga=2.131450953.776403174.1590049942-37205968.1582701932">点击这里</a>！</li>
+</ul>
+<p><strong>如果你成功申请了，别忘了回来给麦扣留言告诉我这个好消息，还有收藏这篇文章支持我！</strong></p>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
+<li>7月2日之前每周四晚上8:00，麦扣跟你一起学习做3D游戏：<a href="https://unity.cn/projects/unityling-ji-chu-zhi-bo-create-with-code-live-zhong-wen-5-7wan-ba-dian-kai-bo">详情及录播</a></li>
+<li>5月29日 Unity 资深技术专家高川老师直播带你了解 Unity Asset：<a href="https://unity.cn/projects/zhi-bo-yu-gao-unityzi-shen-ji-zhu-zhuan-jia-gao-chuan-wei-nin-xiang-jie-unity-assetde-yi-sheng">详情页面</a></li>
+<li>关注我的详细信息欢迎访问我的主页跳转：<a href="https://m-studio-m.github.io/">点我就对了</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Unity 游戏引擎 (Unity Game Engine)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Game</tag>
+        <tag>Game Engine</tag>
+        <tag>Unity</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>R语言数据分析方法论</title>
     <url>/archives/988a2d13.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gke2i5jecdg30xc0ir7wi.gif"></p>
@@ -6634,80 +6708,6 @@
         <tag>Mooc</tag>
         <tag>R</tag>
         <tag>Data Mining</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Unity Student Plan申请指南</title>
-    <url>/archives/e8e3308a.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf3sypo104j31hc0u0ae8.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了Unity社区的优秀博主 <a href="https://unity.cn/u/michael-wang-2/?tab=article">Michael Wang</a> 的 <a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">Unity Student Plan申请指南！</a>，希望通过转载的方式可以帮助到对 Unity Pro 购买上有困难的在读学生申请「Unity Student Plan」，也希望有能力的读者朋友可以去支持一下原文作者，他有大量的优质 Unity 教学视频可供初学者学习。</p>
-<a id="more"></a>
-
-
-
-
-
-<p><strong>支持正版Unity从我做起！拒绝盗版，拒绝破解！</strong></p>
-<ul>
-<li><p>想使用 Unity 深色主题吗？</p>
-</li>
-<li><p>想更方便跟5位队友远程共同开发游戏吗？</p>
-</li>
-<li><p>想免费看「Unity Learn」上面的各种优质课程吗？</p>
-</li>
-<li><p>学生党没有钱购买 Plus / Pro 版吗？</p>
-</li>
-</ul>
-<p>这篇文章会帮助你成功加入「Unity Student Plan」这个超级增值计划当中。让你免费享受以上所有你曾经梦寐以求的服务！</p>
-<p>考虑到可能很多同学会在操作上有些疑惑，<a href="https://unity.cn/u/michael-wang-2/?tab=article">麦扣</a>含(超)泪(龄)特此制作<a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">中文指南</a>。点个收藏支持一下吧!</p>
-<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>直奔主题，详细内容查看官方正确网站：<a href="https://store.unity.com/academic/unity-student?_ga=2.192862250.1412877669.1590291680-1494240502.1590291680">点我申请</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvkhdfzj30u016h42m.jpg"></p>
-<h3 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤"></a>主要步骤</h3><p>打开上面的网站地址就可以看到上面的界面，主要分为3个主要步骤：</p>
-<p><strong>1. 授权 Unity 通过 Github 来确认你的学生身份</strong> </p>
-<p><strong>2. 申请学生开发包</strong> </p>
-<p><strong>3. 激活你的 Unity Student Plan</strong></p>
-<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><p>请先不要着急操作！还有一些前期的准备要做！请确认一下内容：</p>
-<ul>
-<li><strong>你是真实的学生身份（初中以上！惊不惊喜）</strong></li>
-<li><strong>你已经注册拥有 Unity ID</strong></li>
-<li><strong>你已经有 GitHub 账号并且已经 “Get student benefits”</strong></li>
-</ul>
-<p>如果你已经具备了以上的内容，那么你可以跳过后面的指南直接通过 Unity 官方网站申请。</p>
-<h3 id="Github-Student-Benefits"><a href="#Github-Student-Benefits" class="headerlink" title="Github Student Benefits"></a>Github Student Benefits</h3><p>*注意你需要有 Github 账号。<a href="https://education.github.com/benefits">点我跳转！</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvi91g4j31b90u0n2i.jpg"></p>
-<p><strong>GitHub官方网站提供了非常详细的注册指南，在这里就不赘述了。但是提供一些可能遇到的问题的小提示：</strong></p>
-<ul>
-<li>如果你有 .edu 的邮箱，那么请在你的申请页面添加这个教育邮箱。</li>
-<li>请尝试咨询学校如何申请 .edu 的邮箱。那么会让你飞快通过申请！</li>
-<li>如果无法申请邮箱 或者 你的学校不在列表当中（优先搜索英语名字），那么需要提供学生证的照片来验证，等候时间会变长，但是不带表你不能申请！！</li>
-<li>学生证等信息不在身边，可以访问<a href="https://my.chsi.com.cn/archive/index.jsp">「学信档案网站」</a>截图上传证明。</li>
-<li>保持好的心态，你一定会成功！</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpviz7ofj30oj0v1jtj.jpg"></p>
-<p>做完以上的操作你很可能看到这样的界面</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvk0chxj313n0ktjta.jpg"></p>
-<p><em>不要担心 4 days 很可能就是几个小时的事儿，30 days 也不一定非要等30天！请大家多多留意自己的邮箱，GitHub 总是会给你惊喜的。</em></p>
-<h3 id="Unity-Student-Plan"><a href="#Unity-Student-Plan" class="headerlink" title="Unity Student Plan"></a>Unity Student Plan</h3><p>当你收到了 GitHub 的确认邮件，那么恭喜你，你基本上成功了，现在你需要回到文章开头的 Unity Student Plan 申请的连接完成 3 个步骤。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvldizsj31go0l2gs1.jpg"></p>
-<ul>
-<li>Unity 发给你的<strong>邮件</strong>当中会详细描述你在哪里可以获得你的 Pro 专业版 使用权的<strong>激活码</strong>，使用激活码<strong>在HUB中激活你的证书</strong>。</li>
-<li>你会获得让所有人望眼欲穿的，价值 <strong>$489.93 的 Assets Pack 超优质资源包</strong>，跟我一样只能看看的请<a href="https://assetstore.unity.com/browse/student-plan-pack?_ga=2.131450953.776403174.1590049942-37205968.1582701932">点击这里</a>！</li>
-</ul>
-<p><strong>如果你成功申请了，别忘了回来给麦扣留言告诉我这个好消息，还有收藏这篇文章支持我！</strong></p>
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
-<li>7月2日之前每周四晚上8:00，麦扣跟你一起学习做3D游戏：<a href="https://unity.cn/projects/unityling-ji-chu-zhi-bo-create-with-code-live-zhong-wen-5-7wan-ba-dian-kai-bo">详情及录播</a></li>
-<li>5月29日 Unity 资深技术专家高川老师直播带你了解 Unity Asset：<a href="https://unity.cn/projects/zhi-bo-yu-gao-unityzi-shen-ji-zhu-zhuan-jia-gao-chuan-wei-nin-xiang-jie-unity-assetde-yi-sheng">详情页面</a></li>
-<li>关注我的详细信息欢迎访问我的主页跳转：<a href="https://m-studio-m.github.io/">点我就对了</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Unity 游戏引擎 (Unity Game Engine)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Game</tag>
-        <tag>Game Engine</tag>
-        <tag>Unity</tag>
       </tags>
   </entry>
   <entry>
