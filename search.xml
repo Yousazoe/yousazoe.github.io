@@ -717,7 +717,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#x65;&#x6e;&#x78;&#x75;&#64;&#116;&#x65;&#x6e;&#99;&#x65;&#110;&#x74;&#46;&#99;&#111;&#x6d;">&#x6c;&#101;&#x65;&#x6e;&#x78;&#x75;&#64;&#116;&#x65;&#x6e;&#99;&#x65;&#110;&#x74;&#46;&#99;&#111;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#101;&#110;&#120;&#x75;&#x40;&#x74;&#101;&#110;&#x63;&#101;&#x6e;&#x74;&#x2e;&#99;&#x6f;&#x6d;">&#x6c;&#101;&#101;&#110;&#120;&#x75;&#x40;&#x74;&#101;&#110;&#x63;&#101;&#x6e;&#x74;&#x2e;&#99;&#x6f;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -2504,6 +2504,91 @@
       </tags>
   </entry>
   <entry>
+    <title>Project SetUp</title>
+    <url>/archives/2b07a0e9.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gne54jvymsj31000u0thh.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/35750281/The-quiet-room-Voxel-art">The quiet room - Voxel art</a> by 
+      <a href="https://www.behance.net/sircarma">Antoine Lendrevie</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列我们将从零开始开发一个自己的游戏引擎。这一节主要是关于引擎开发的前期准备和相关开发环境的配置。</p>
+<a id="more"></a>
+
+
+
+<h3 id="创建托管仓库"><a href="#创建托管仓库" class="headerlink" title="创建托管仓库"></a>创建托管仓库</h3><p>在Github中新建一个新的仓库，我们这里想用<code>Infinite</code>作为引擎的名字，意为“无限”，也希望大家可以用它来将无限的创意付诸实际：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230346928.png"></p>
+<p>创建好之后我们会有证书和自述文件，简单介绍一下自己的项目即可：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230413954.png"></p>
+<p>我们已经拥有了所有的这些，可以<code>git clone</code>并开始实际创建项目了。</p>
+<h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><p>打开<code>Visual Studio</code>，点击<code>File</code>-<code>New</code>-<code>Project</code>，然后创建一个空的C++项目：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230516025.png"></p>
+<p>现在我们打开它，就可以得到<code>Infinite</code>的解决方案了：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230539984.png"></p>
+<p>右键项目，在文件资源管理器中打开文件夹，我们发现在<code>Infinite</code>的文件夹中有一个名为<code>Infinite</code>的项目，因此Infinite到处都是。</p>
+<p>接下来我们打开命令提示行，进入该文件夹进行<code>git clone</code>将其克隆到一个并不在乎的文件夹中：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/Yousazoe/Infinite Git</span><br></pre></td></tr></table></figure>
+
+
+<p>进入文件夹<code>Git</code>显示隐藏文件（会多一个<code>.git</code>文件夹），将所有的一切拷贝到<code>Infinite</code>文件夹中，然后删除原来存放的<code>Git</code>文件夹，得到我们的最终结果。</p>
+<p>基本上，我们已经设法将git存储库的东西克隆到我们的项目文件夹中，比如可以看到我们通过github存储库创建的许可和自述文件，所以我们手动完成了将解决方案和git存储库放置在同一目录中。</p>
+<h3 id="静态库-or-动态库"><a href="#静态库-or-动态库" class="headerlink" title="静态库 or 动态库"></a>静态库 or 动态库</h3><p>我们继续进行实际的设置。回到<code>Visual Studio</code>，我们看到的是<code>Infinite</code>项目文件和解决方案，现在我们的解决方案将不仅包含引擎，实际上是Windows上将其构建为动态链接库，至少是一个dll文件。所以我们要实际执行的操作是创建一个可执行文件的应用程序项目，也就是Windows中的一个<code>.exe</code>文件，我们要将该引擎实际链接到这个<code>.exe</code>文件中。</p>
+<p>现在有两种方法可以做到这一点，可以使用静态库或自己使用动态库。我们选择dll动态库的原因是我们可以选择加载和卸载它，这主要是因为我们要拥有很多依赖关系必须链接到我们的库中。如果我们使用静态库基本上意味着我们拥有的依赖库实际上必须将其链接到我们的游戏中，而dll基本上就像是一个<code>.exe</code>文件，所以我们实际上可以将所有内容链接到它们中，这样我们的游戏将仅依赖于包含以下内容的单个dll文件：拥有它所需要的一切而不是拥有数量庞大的其他类型的库文件。</p>
+<p>本质上，我们最终要做的是将所有内容链接到引擎dll有关依赖项，这意味着它们都需要成为静态库，因此我们将所有这些静态库链接到引擎中dll，然后将引擎dll链接到我们的游戏中。</p>
+<h3 id="平台和配置"><a href="#平台和配置" class="headerlink" title="平台和配置"></a>平台和配置</h3><p>右键属性，进入配置管理器，我们有两种活动解决方案平台：<code>x86</code>和<code>x64</code>。现在我不是很想支持32位因为现在已经2021年了，32位不是我想考虑的平台，支持可能是出于一些遗留问题的原因可能是个好主意，但我选择拒绝支持。</p>
+<p>所以我们编辑删除<code>x86</code>平台，确定它已经消失了：</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50lr7khj30rs0j8tag.jpg"></p>
+<p>现在我们拥有一个平台<code>x64</code>，接着去修改所有配置中的配置类型，从<code>.exe</code>改为<code>.dll</code>：</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50kw6wpj30rs0j877b.jpg"></p>
+<p>另外需要修改的是输出目录和中间目录，<code>Visual Studio</code>默认的配置并不是最佳的，而我们想把解决方案目录中名为<code>bin</code>的文件夹中所有内容都转移到该位置：</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">- $(SolutionDir)$(Platform)\$(Configuration)\</span></span><br><span class="line"><span class="addition">+ $(SolutionDir)bin\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+ $(SolutionDir)bin\int\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br><span class="line">or</span><br><span class="line"><span class="addition">+ $(SolutionDir)bin-int\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br></pre></td></tr></table></figure>
+
+
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50h7wh0j30yk0j8421.jpg"></p>
+<p>下一件事就是右键单击解决方案文件上，点击添加，新建一个空的C++项目，我们将其命名为<code>Sandbox</code>沙盒。我们有我们的引擎，但是现在我们需要一个应用程序使用我们的引擎，因此我将其称为“沙盒”。</p>
+<p>之后对沙盒进行配置，和之前一样移除对32位平台的支持并更改输出目录和中间目录。需要注意的是和之前不同，沙盒的配置类型是一个<code>.exe</code>的应用程序，这里无需修改。</p>
+<h3 id="设置启动项"><a href="#设置启动项" class="headerlink" title="设置启动项"></a>设置启动项</h3><p>最后右键沙盒项目，设置为启动项目。在<code>Visual Studio</code>中保存更改，用其它文本编辑器（这里我用的<code>Atom</code>）打开解决方案文件<code>Infinite.sln</code>，把刚才的这个沙盒项目从列表中的第二事件调整为第一事件：</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">﻿</span><br><span class="line">Microsoft Visual Studio Solution File, Format Version 12.00</span><br><span class="line"># Visual Studio Version 16</span><br><span class="line">VisualStudioVersion = 16.0.30804.86</span><br><span class="line">MinimumVisualStudioVersion = 10.0.40219.1</span><br><span class="line"><span class="deletion">- Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Infinite&quot;, &quot;Infinite\Infinite.vcxproj&quot;, &quot;&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;&quot;</span></span><br><span class="line"><span class="deletion">- EndProject</span></span><br><span class="line">Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Sandbox&quot;, &quot;Sandbox\Sandbox.vcxproj&quot;, &quot;&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;&quot;</span><br><span class="line"><span class="deletion">- EndProject</span></span><br><span class="line"><span class="addition">+ Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Infinite&quot;, &quot;Infinite\Infinite.vcxproj&quot;, &quot;&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;&quot;</span></span><br><span class="line"><span class="addition">+ EndProject</span></span><br><span class="line">Global</span><br><span class="line">	GlobalSection(SolutionConfigurationPlatforms) = preSolution</span><br><span class="line">		Debug|x64 = Debug|x64</span><br><span class="line">		Release|x64 = Release|x64</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(ProjectConfigurationPlatforms) = postSolution</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Debug|x64.ActiveCfg = Debug|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Debug|x64.Build.0 = Debug|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Release|x64.ActiveCfg = Release|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Release|x64.Build.0 = Release|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Debug|x64.ActiveCfg = Debug|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Debug|x64.Build.0 = Debug|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Release|x64.ActiveCfg = Release|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Release|x64.Build.0 = Release|x64</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(SolutionProperties) = preSolution</span><br><span class="line">		HideSolutionNode = FALSE</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(ExtensibilityGlobals) = postSolution</span><br><span class="line">		SolutionGuid = &#123;93C2B59B-B64B-4873-9805-4CBCD84336E4&#125;</span><br><span class="line">	EndGlobalSection</span><br><span class="line">EndGlobal</span><br></pre></td></tr></table></figure>
+<p>这样沙盒会成为启动项目而不是<code>Infinite</code>，如果是<code>Infinite</code>则显然不会运行其dll文件。</p>
+<p>ok，现在我们已经构建一个基本的结构，那么我们来将两个项目链接在一起。右键单击沙盒，添加引用：</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50ea03ej30rs0j40tg.jpg"></p>
+<p>这意味着当<code>Infinite</code>实际编译并生成静态库文件时将链接到沙盒中。它会自动为我们链接引擎库文件，但为什么它是一个lib文件呢？这是因为当我们在<code>Visual Studio</code>编译dll文件时，它实际上会生成一个lib文件，其中会包含每种功能的种类，我们实际是从dll文件中导出。</p>
+<p>分别为两个项目新建名为<code>src</code>的文件夹，在<code>Infinite</code>中新建<code>Test.h</code>的头文件和<code>Test.cpp</code>的测试点并编写测试：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">	_declspec(dllexport) <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<p>以最基本的打印功能作为测试，输出信息<code>Welcome To Infinite Engine!</code>。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;Test.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Welcome To Infinite Engine!&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+<p>在沙盒项目中新建<code>Application.cpp</code>，对之前的代码进行测试：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">  _declspec(dllimport) <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  Infinite::Print();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>如果直接<code>Build</code>运行的话会报错缺少<code>Infinite.dll</code>，这部分的自动化我们之后再考虑，现在手动从文件夹中拖拽到沙盒中，再次运行打印出信息：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">&quot;Welcome To Infinite Engine!&quot;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>游戏引擎开发 (Game Engine Series)</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>Game Engine</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2D游戏开发</title>
     <url>/archives/6487e0f7.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkrfcylq45j312w0gak12.jpg"></p>
@@ -2595,94 +2680,9 @@
         <category>游戏开发 (Game Development)</category>
       </categories>
       <tags>
+        <tag>C++</tag>
         <tag>Game Develop</tag>
         <tag>SEGA</tag>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Project SetUp</title>
-    <url>/archives/2b07a0e9.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gne54jvymsj31000u0thh.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/35750281/The-quiet-room-Voxel-art">The quiet room - Voxel art</a> by 
-      <a href="https://www.behance.net/sircarma">Antoine Lendrevie</a>
-    </i>
-  </font>
-</div>
-
-
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列我们将从零开始开发一个自己的游戏引擎。这一节主要是关于引擎开发的前期准备和相关开发环境的配置。</p>
-<a id="more"></a>
-
-
-
-<h3 id="创建托管仓库"><a href="#创建托管仓库" class="headerlink" title="创建托管仓库"></a>创建托管仓库</h3><p>在Github中新建一个新的仓库，我们这里想用<code>Infinite</code>作为引擎的名字，意为“无限”，也希望大家可以用它来将无限的创意付诸实际：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230346928.png"></p>
-<p>创建好之后我们会有证书和自述文件，简单介绍一下自己的项目即可：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230413954.png"></p>
-<p>我们已经拥有了所有的这些，可以<code>git clone</code>并开始实际创建项目了。</p>
-<h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><p>打开<code>Visual Studio</code>，点击<code>File</code>-<code>New</code>-<code>Project</code>，然后创建一个空的C++项目：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230516025.png"></p>
-<p>现在我们打开它，就可以得到<code>Infinite</code>的解决方案了：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230539984.png"></p>
-<p>右键项目，在文件资源管理器中打开文件夹，我们发现在<code>Infinite</code>的文件夹中有一个名为<code>Infinite</code>的项目，因此Infinite到处都是。</p>
-<p>接下来我们打开命令提示行，进入该文件夹进行<code>git clone</code>将其克隆到一个并不在乎的文件夹中：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/Yousazoe/Infinite Git</span><br></pre></td></tr></table></figure>
-
-
-<p>进入文件夹<code>Git</code>显示隐藏文件（会多一个<code>.git</code>文件夹），将所有的一切拷贝到<code>Infinite</code>文件夹中，然后删除原来存放的<code>Git</code>文件夹，得到我们的最终结果。</p>
-<p>基本上，我们已经设法将git存储库的东西克隆到我们的项目文件夹中，比如可以看到我们通过github存储库创建的许可和自述文件，所以我们手动完成了将解决方案和git存储库放置在同一目录中。</p>
-<h3 id="静态库-or-动态库"><a href="#静态库-or-动态库" class="headerlink" title="静态库 or 动态库"></a>静态库 or 动态库</h3><p>我们继续进行实际的设置。回到<code>Visual Studio</code>，我们看到的是<code>Infinite</code>项目文件和解决方案，现在我们的解决方案将不仅包含引擎，实际上是Windows上将其构建为动态链接库，至少是一个dll文件。所以我们要实际执行的操作是创建一个可执行文件的应用程序项目，也就是Windows中的一个<code>.exe</code>文件，我们要将该引擎实际链接到这个<code>.exe</code>文件中。</p>
-<p>现在有两种方法可以做到这一点，可以使用静态库或自己使用动态库。我们选择dll动态库的原因是我们可以选择加载和卸载它，这主要是因为我们要拥有很多依赖关系必须链接到我们的库中。如果我们使用静态库基本上意味着我们拥有的依赖库实际上必须将其链接到我们的游戏中，而dll基本上就像是一个<code>.exe</code>文件，所以我们实际上可以将所有内容链接到它们中，这样我们的游戏将仅依赖于包含以下内容的单个dll文件：拥有它所需要的一切而不是拥有数量庞大的其他类型的库文件。</p>
-<p>本质上，我们最终要做的是将所有内容链接到引擎dll有关依赖项，这意味着它们都需要成为静态库，因此我们将所有这些静态库链接到引擎中dll，然后将引擎dll链接到我们的游戏中。</p>
-<h3 id="平台和配置"><a href="#平台和配置" class="headerlink" title="平台和配置"></a>平台和配置</h3><p>右键属性，进入配置管理器，我们有两种活动解决方案平台：<code>x86</code>和<code>x64</code>。现在我不是很想支持32位因为现在已经2021年了，32位不是我想考虑的平台，支持可能是出于一些遗留问题的原因可能是个好主意，但我选择拒绝支持。</p>
-<p>所以我们编辑删除<code>x86</code>平台，确定它已经消失了：</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50lr7khj30rs0j8tag.jpg"></p>
-<p>现在我们拥有一个平台<code>x64</code>，接着去修改所有配置中的配置类型，从<code>.exe</code>改为<code>.dll</code>：</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50kw6wpj30rs0j877b.jpg"></p>
-<p>另外需要修改的是输出目录和中间目录，<code>Visual Studio</code>默认的配置并不是最佳的，而我们想把解决方案目录中名为<code>bin</code>的文件夹中所有内容都转移到该位置：</p>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">- $(SolutionDir)$(Platform)\$(Configuration)\</span></span><br><span class="line"><span class="addition">+ $(SolutionDir)bin\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+ $(SolutionDir)bin\int\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br><span class="line">or</span><br><span class="line"><span class="addition">+ $(SolutionDir)bin-int\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br></pre></td></tr></table></figure>
-
-
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50h7wh0j30yk0j8421.jpg"></p>
-<p>下一件事就是右键单击解决方案文件上，点击添加，新建一个空的C++项目，我们将其命名为<code>Sandbox</code>沙盒。我们有我们的引擎，但是现在我们需要一个应用程序使用我们的引擎，因此我将其称为“沙盒”。</p>
-<p>之后对沙盒进行配置，和之前一样移除对32位平台的支持并更改输出目录和中间目录。需要注意的是和之前不同，沙盒的配置类型是一个<code>.exe</code>的应用程序，这里无需修改。</p>
-<h3 id="设置启动项"><a href="#设置启动项" class="headerlink" title="设置启动项"></a>设置启动项</h3><p>最后右键沙盒项目，设置为启动项目。在<code>Visual Studio</code>中保存更改，用其它文本编辑器（这里我用的<code>Atom</code>）打开解决方案文件<code>Infinite.sln</code>，把刚才的这个沙盒项目从列表中的第二事件调整为第一事件：</p>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">﻿</span><br><span class="line">Microsoft Visual Studio Solution File, Format Version 12.00</span><br><span class="line"># Visual Studio Version 16</span><br><span class="line">VisualStudioVersion = 16.0.30804.86</span><br><span class="line">MinimumVisualStudioVersion = 10.0.40219.1</span><br><span class="line"><span class="deletion">- Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Infinite&quot;, &quot;Infinite\Infinite.vcxproj&quot;, &quot;&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;&quot;</span></span><br><span class="line"><span class="deletion">- EndProject</span></span><br><span class="line">Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Sandbox&quot;, &quot;Sandbox\Sandbox.vcxproj&quot;, &quot;&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;&quot;</span><br><span class="line"><span class="deletion">- EndProject</span></span><br><span class="line"><span class="addition">+ Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Infinite&quot;, &quot;Infinite\Infinite.vcxproj&quot;, &quot;&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;&quot;</span></span><br><span class="line"><span class="addition">+ EndProject</span></span><br><span class="line">Global</span><br><span class="line">	GlobalSection(SolutionConfigurationPlatforms) = preSolution</span><br><span class="line">		Debug|x64 = Debug|x64</span><br><span class="line">		Release|x64 = Release|x64</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(ProjectConfigurationPlatforms) = postSolution</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Debug|x64.ActiveCfg = Debug|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Debug|x64.Build.0 = Debug|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Release|x64.ActiveCfg = Release|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Release|x64.Build.0 = Release|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Debug|x64.ActiveCfg = Debug|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Debug|x64.Build.0 = Debug|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Release|x64.ActiveCfg = Release|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Release|x64.Build.0 = Release|x64</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(SolutionProperties) = preSolution</span><br><span class="line">		HideSolutionNode = FALSE</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(ExtensibilityGlobals) = postSolution</span><br><span class="line">		SolutionGuid = &#123;93C2B59B-B64B-4873-9805-4CBCD84336E4&#125;</span><br><span class="line">	EndGlobalSection</span><br><span class="line">EndGlobal</span><br></pre></td></tr></table></figure>
-<p>这样沙盒会成为启动项目而不是<code>Infinite</code>，如果是<code>Infinite</code>则显然不会运行其dll文件。</p>
-<p>ok，现在我们已经构建一个基本的结构，那么我们来将两个项目链接在一起。右键单击沙盒，添加引用：</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50ea03ej30rs0j40tg.jpg"></p>
-<p>这意味着当<code>Infinite</code>实际编译并生成静态库文件时将链接到沙盒中。它会自动为我们链接引擎库文件，但为什么它是一个lib文件呢？这是因为当我们在<code>Visual Studio</code>编译dll文件时，它实际上会生成一个lib文件，其中会包含每种功能的种类，我们实际是从dll文件中导出。</p>
-<p>分别为两个项目新建名为<code>src</code>的文件夹，在<code>Infinite</code>中新建<code>Test.h</code>的头文件和<code>Test.cpp</code>的测试点并编写测试：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">	_declspec(dllexport) <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-<p>以最基本的打印功能作为测试，输出信息<code>Welcome To Infinite Engine!</code>。</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;Test.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Welcome To Infinite Engine!&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-
-<p>在沙盒项目中新建<code>Application.cpp</code>，对之前的代码进行测试：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">  _declspec(dllimport) <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  Infinite::Print();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>如果直接<code>Build</code>运行的话会报错缺少<code>Infinite.dll</code>，这部分的自动化我们之后再考虑，现在手动从文件夹中拖拽到沙盒中，再次运行打印出信息：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">&quot;Welcome To Infinite Engine!&quot;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>游戏引擎开发 (Game Engine Series)</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>Game Engine</tag>
       </tags>
   </entry>
   <entry>
@@ -2847,6 +2847,72 @@
 
 <p>再次运行，编译成功，输出结果与之前一致。</p>
 <p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnhki0y17gj30yf0hz74w-20210209212559716-20210209225727053.jpg"></p>
+]]></content>
+      <categories>
+        <category>游戏引擎开发 (Game Engine Series)</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>Game Engine</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Premake</title>
+    <url>/archives/9209cb4c.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/f1a64d28384331.55bd3bf689627.png"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/28384331/Factory-03?tracking_source=search_projects_recommended%7Cvoxel">Voxel Factory 03</a> by 
+      <a href="https://www.behance.net/pixego">pixego</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>上一次我们讨论日志记录时添加了一个名为<code>spdlog</code>的日志记录库。今天我们将以<code>premake</code>为基础重构项目文件。</p>
+<a id="more"></a>
+
+
+
+<h3 id="必要性"><a href="#必要性" class="headerlink" title="必要性"></a>必要性</h3><p>如果我们仅仅是用<code>Visual Studio</code>制作我们的项目，在目前的<code>Windows</code>平台上看来是ok的，但最大的问题是当我们不得不处理不同的平台例如<code>Mac</code>、<code>Linux</code>甚至<code>Android</code>或<code>IOS</code>，我们需要为特定的IDE生成不同的项目文件。</p>
+<p>我们要使用的工具叫做<code>Premake</code>。这里不使用<code>CMake</code>的原因是我认为非常复杂，虽然使用效果好但它有很多格式化的东西，这种复杂对于我们而言不是必要的；而<code>Premake</code>在编写预生成文件时使用<code>Lua</code>生成项目文件，功能强大并且易于初学者理解。一旦我们定义好<code>Premake</code>的格式，事实上我们就可以定义<code>Infinite</code>是什么，例如C++我们需要包含这些头文件、这些是包含目录、这些是我们想要链接的库……在<code>Lua</code>中定义好我们想要设置的配置，我们就可以只需运行<code>Premake</code>，它将为项目生成<code>Visual Sutdio</code>或<code>Xcode</code>的项目文件。</p>
+<p>这就是我们为什么要使用这种项目生成器的原因而不是手动处理所有事情。可以想象手动维护所有内容，每次添加新文件时相关文件都会同时添加到<code>Mac</code>和<code>Windows</code>，但是我们必须手动进行所有操作，这很痛苦。</p>
+<h3 id="premake-core"><a href="#premake-core" class="headerlink" title="premake-core"></a>premake-core</h3><p>在Github中下好发布版本，我选择的是<a href="https://github.com/premake/premake-core/releases/tag/v5.0.0-alpha15">Premake 5.0 alpha 15</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-12%20%E4%B8%8B%E5%8D%885.38.20.png"></p>
+<p>下载好之后复制该<code>.exe</code>文件，在最初始的<code>Infinite</code>目录中新建<code>vendor</code>文件夹，这个文件夹与<code>Infinite\Infinite\vendor</code>那个存储<code>spdlog</code>的文件夹稍有不同，此文件夹适用于项目解决方案中的一切。继续在<code>vendor</code>中创建文件夹<code>bin</code>，在<code>bin</code>中创建<code>premake</code>文件夹，复制粘贴刚才的<code>premake5.exe</code>文件以及许可证：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Infinite</span><br><span class="line">|__ vendor</span><br><span class="line">	|__ bin</span><br><span class="line">		|__ premake</span><br><span class="line">			|__ premake5.exe</span><br><span class="line">			|__ LICENSE.txt</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h3 id="premake5-lua"><a href="#premake5-lua" class="headerlink" title="premake5.lua"></a>premake5.lua</h3><p>回到最初始的<code>Infinite</code>目录，新建<code>premake5.lua</code>，编写代码：</p>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">workspace <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  architecture <span class="string">&quot;x64&quot;</span></span><br><span class="line">  startproject <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line"></span><br><span class="line">  configurations</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Debug&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Release&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Dist&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">outputdir = <span class="string">&quot;%&#123;cfg.buildcfg&#125;-%&#123;cfg.system&#125;-%&#123;cfg.architecture&#125;&quot;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<ul>
+<li>这里<code>workspace</code>可以当作解决方案；架构就是我们实际上想要处理的平台，我们选择<code>x64</code></li>
+<li>配置我们设置了三种：调试<code>Debug</code>、发布<code>Release</code>和发行<code>Dist</code></li>
+</ul>
+<h4 id="Infinite"><a href="#Infinite" class="headerlink" title="Infinite"></a>Infinite</h4><figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">project <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  location <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  kind <span class="string">&quot;SharedLib&quot;</span></span><br><span class="line">  language <span class="string">&quot;C++&quot;</span></span><br><span class="line"></span><br><span class="line">  targetdir (<span class="string">&quot;bin/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line">  objdir (<span class="string">&quot;bin-int/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line">  files</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.h&quot;</span>,</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.cpp&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  includedirs</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/vendor/spdlog/include&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;system:windows&quot;</span></span><br><span class="line">    cppdialect <span class="string">&quot;C++17&quot;</span></span><br><span class="line">    staticruntime <span class="string">&quot;On&quot;</span></span><br><span class="line">    systemversion <span class="string">&quot;latest&quot;</span></span><br><span class="line"></span><br><span class="line">    defines</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="string">&quot;IFN_PLATFORM_WINDOWS&quot;</span>,</span><br><span class="line">      <span class="string">&quot;IFN_BUILD_DLL&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    postbuildcommands</span><br><span class="line">    &#123;</span><br><span class="line">      (<span class="string">&quot;&#123;COPY&#125; %&#123;cfg.buildtarget.relpath&#125; ../bin/&quot;</span> .. outputdir .. <span class="string">&quot;/Sandbox&quot;</span>)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Debug&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DEBUG&quot;</span></span><br><span class="line">      symbols <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Release&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_RELEASE&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Dist&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DIST&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br></pre></td></tr></table></figure>
+
+
+<h4 id="Sandbox"><a href="#Sandbox" class="headerlink" title="Sandbox"></a>Sandbox</h4><figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">project <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line">  location <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line">  kind <span class="string">&quot;ConsoleApp&quot;</span></span><br><span class="line"></span><br><span class="line">  language <span class="string">&quot;C++&quot;</span></span><br><span class="line"></span><br><span class="line">  targetdir (<span class="string">&quot;bin/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line">  objdir (<span class="string">&quot;bin-int/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line">  files</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.h&quot;</span>,</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.cpp&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  includedirs</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Infinite/vendor/spdlog/include&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Infinite/src/Infinite&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  links</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;system:windows&quot;</span></span><br><span class="line">    cppdialect <span class="string">&quot;C++17&quot;</span></span><br><span class="line">    staticruntime <span class="string">&quot;On&quot;</span></span><br><span class="line">    systemversion <span class="string">&quot;latest&quot;</span></span><br><span class="line"></span><br><span class="line">    defines</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="string">&quot;IFN_PLATFORM_WINDOWS&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Debug&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DEBUG&quot;</span></span><br><span class="line">      symbols <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Release&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_RELEASE&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Dist&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DIST&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br></pre></td></tr></table></figure>
+
+
+<h4 id="完整源码"><a href="#完整源码" class="headerlink" title="完整源码"></a>完整源码</h4><figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">workspace <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  architecture <span class="string">&quot;x64&quot;</span></span><br><span class="line">  startproject <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line"></span><br><span class="line">  configurations</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Debug&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Release&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Dist&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">outputdir = <span class="string">&quot;%&#123;cfg.buildcfg&#125;-%&#123;cfg.system&#125;-%&#123;cfg.architecture&#125;&quot;</span></span><br><span class="line"></span><br><span class="line">project <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  location <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  kind <span class="string">&quot;SharedLib&quot;</span></span><br><span class="line">  language <span class="string">&quot;C++&quot;</span></span><br><span class="line"></span><br><span class="line">  targetdir (<span class="string">&quot;bin/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line">  objdir (<span class="string">&quot;bin-int/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line">  files</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.h&quot;</span>,</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.cpp&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  includedirs</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/vendor/spdlog/include&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;system:windows&quot;</span></span><br><span class="line">    cppdialect <span class="string">&quot;C++17&quot;</span></span><br><span class="line">    staticruntime <span class="string">&quot;On&quot;</span></span><br><span class="line">    systemversion <span class="string">&quot;latest&quot;</span></span><br><span class="line"></span><br><span class="line">    defines</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="string">&quot;IFN_PLATFORM_WINDOWS&quot;</span>,</span><br><span class="line">      <span class="string">&quot;IFN_BUILD_DLL&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    postbuildcommands</span><br><span class="line">    &#123;</span><br><span class="line">      (<span class="string">&quot;&#123;COPY&#125; %&#123;cfg.buildtarget.relpath&#125; ../bin/&quot;</span> .. outputdir .. <span class="string">&quot;/Sandbox&quot;</span>)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Debug&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DEBUG&quot;</span></span><br><span class="line">      symbols <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Release&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_RELEASE&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Dist&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DIST&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">project <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line">  location <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line">  kind <span class="string">&quot;ConsoleApp&quot;</span></span><br><span class="line"></span><br><span class="line">  language <span class="string">&quot;C++&quot;</span></span><br><span class="line"></span><br><span class="line">  targetdir (<span class="string">&quot;bin/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line">  objdir (<span class="string">&quot;bin-int/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line">  files</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.h&quot;</span>,</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.cpp&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  includedirs</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Infinite/vendor/spdlog/include&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Infinite/src/Infinite&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  links</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;system:windows&quot;</span></span><br><span class="line">    cppdialect <span class="string">&quot;C++17&quot;</span></span><br><span class="line">    staticruntime <span class="string">&quot;On&quot;</span></span><br><span class="line">    systemversion <span class="string">&quot;latest&quot;</span></span><br><span class="line"></span><br><span class="line">    defines</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="string">&quot;IFN_PLATFORM_WINDOWS&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Debug&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DEBUG&quot;</span></span><br><span class="line">      symbols <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Release&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_RELEASE&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Dist&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DIST&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br></pre></td></tr></table></figure>
+
+
+<h3 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h3><p>在<code>Infinite</code>目录中新建<code>GenerateProject.bat</code>：</p>
+<figure class="highlight bat"><table><tr><td class="code"><pre><span class="line"><span class="keyword">call</span> vendor\bin\premake\premake5.exe vs2019</span><br><span class="line"><span class="built_in">PAUSE</span></span><br></pre></td></tr></table></figure>
+<p>保存退出后我们只需点击此文件便可生成相应的项目，但在此之前我们需要把以下文件全部删除以更新：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Infinite</span><br><span class="line">|__ bin</span><br><span class="line">|__ bin-int</span><br><span class="line">|__ Infinite</span><br><span class="line">|   |__ Infinite.vcxproj</span><br><span class="line">|   |__ Infinite.vcxproj.filters</span><br><span class="line">|   |__ Infinite.vcxproj.user</span><br><span class="line">|__ Sandbox</span><br><span class="line">|   |__ Sandbox.vcxproj</span><br><span class="line">|   |-- Sandbox.vcxproj.user</span><br><span class="line">|__ Infinite.sln</span><br></pre></td></tr></table></figure>
+<p>这些文件<code>premake</code>都会帮你生成，所以不必担心。</p>
+<h3 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h3><p>理论上上述步骤完成后再次运行就成功了，但实际操作的时候遇到了以下两个问题;</p>
+<ul>
+<li>生成解决方案的目录混乱</li>
+<li>dll文件无法正常生成导致沙盒项目无法构建</li>
+</ul>
+<p>针对第二点我目前的参考了网络的一种解决方案，在<code>Infinite</code>属性中的生成后事件添加：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">xcopy &#x2F;y &quot;$(OutDir)Infinite.dll&quot; &quot;$(SolutionDir)bin\$(Configuration)-$(Platform)\Sandbox\&quot;</span><br></pre></td></tr></table></figure>
+<p>系统报错就会停止，但生成的dll文件在另一个平行的文件夹中，原因是<code>$(Configuration)-$(Platform)</code>和<code>%&#123;cfg.buildcfg&#125;-%&#123;cfg.system&#125;-%&#123;cfg.architecture&#125;</code>还是不一致，而我浏览了宏也没有找到合适的，最后只能用拖拽的方式暂时将<code>Infinite.dll</code>拖回<code>Sandbox&#39;</code>，勉强运行成功。</p>
 ]]></content>
       <categories>
         <category>游戏引擎开发 (Game Engine Series)</category>
@@ -3300,60 +3366,6 @@
       </tags>
   </entry>
   <entry>
-    <title>一个关于爱与生活的童话-Florence</title>
-    <url>/archives/9b487a14.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf5uxkndixj30go09djt1.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
-<a id="more"></a>
-
-<p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_3803bfdcbfa1ff4515505f920ed1c7993993b9f6.600x338.jpg?t=1589331032">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256774213/movie480.webm?t=1580836892" type="video/mp4">       </video></p>
-<h3 id="关于游戏"><a href="#关于游戏" class="headerlink" title="关于游戏"></a>关于游戏</h3><p>Florence 是一场持续约 30 分钟的心动体验。故事很简短，但意义很深远。</p>
-<p>25 岁的 Florence Yeoh 对生活感到困惑。她的生活是日复一日地工作、睡觉，以及在社交媒体上打发大量时间。直到有一天，她遇到了一位名叫 Krish 的大提琴手，他改变了她眼中的整个世界。</p>
-<p>透过一系列预先设定的游戏剧本，从调情到吵架，从互助成长到逐渐分歧，玩家将体验 Florence 与 Krish 这段感情的点点滴滴。 《Florence》的灵感来源于「Slice of Life」漫画小说和网路漫画，讲述了一个熟悉、青涩而又私密的爱情故事。</p>
-<h3 id="测评"><a href="#测评" class="headerlink" title="测评"></a>测评</h3><blockquote>
-<p>“Florence is a beautiful experience that isn’t afraid to tell an ordinary story. This isn’t an action-packed, heroic tale or a somber story filled with tragedy, but it still hits some of those notes in subdued ways. Florence is happy, distressing, and admirable in its reflection of young romance, and it left me with a sense of unexpected hopefulness.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.gameinformer.com/games/florence/b/ios/archive/2018/02/20/florence-game-informer-review.aspx">Game Informer</a></p>
-</blockquote>
-<br/>
-
-<blockquote>
-<p>“This short collection of small moments manages to cover a wide range of powerfully relatable emotional highs and lows, beautifully capturing what it’s like to fall in love for the first time.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.theguardian.com/games/2018/feb/23/florence-review-graphic-novel-style-game">The Guardian</a></p>
-</blockquote>
-<br/>
-
-<blockquote>
-<p>“The breathtaking Florence captures falling in love better than almost any game.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.polygon.com/2018/2/15/17014258/florence-game-review-ios-best-games-2018">Polygon</a></p>
-</blockquote>
-<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="玩法层面"><a href="#玩法层面" class="headerlink" title="玩法层面"></a>玩法层面</h4><p>游戏总体上偏向于叙事类的互动故事，玩家更注重故事本身，所以在玩法方面基本上是被弱化甚至是可以忽略。但是作为游戏，《Florence》的交互设计做的非常优秀，在后面会提到，在此不再赘述。</p>
-<h4 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h4><p>美术风格上绘图保持着非常高的质量，在同类游戏中处于中等偏上的水平。在游玩游戏的过程中，每一张图都可以当作壁纸，仿佛是在艺术长廊中欣赏一件件精美的画作。而且勾勒人物的线条非常简洁凝练，相较于写实风格更偏向卡通，但却拿捏的恰到好处。虽然游戏除了背景音乐完全没有人物配音，但美术上呈现出艺术上的张力，也能让画中的人物富有生机与活力。</p>
-<h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>交互设计也是《Florence》的一大亮点。</p>
-<p>从游戏一开始的拖拽牙刷来刷牙，到吃饭时点击食物来食用以及后面等等，交互的风格让我想到了锈湖推出的《白门》。除开游戏类型的不同，两者的交互设计非常相似，甚至《白门》的主人公一开始的洗漱和之后的吃饭几乎一模一样。在我的印象中，类似于洗漱吃饭这样的行为交互设计一般是通过按键的方式实现的，例如在饭桌前提示按下某个之前操作方式提到的交互键位，触发「洗漱」、「吃饭」、「睡觉」等，之后可能会有一段动画。回到游戏本身，作为叙事类游戏，《Florence》必然面临着游戏性不足的问题，而这种细腻独特的交互方式成功地拉长了总体的游戏时间，丰富了游戏的体验，让玩家参与其中而只不是“看漫画”。同样的，许多游戏大作采用固定交互键的方式也是节约了玩家的时间和精力，因为这些游戏本身不需要交互来给游戏“拖时间”。</p>
-<p>在交互的过程中，玩家感受到的不是僵硬地拖延游戏时间，而是情感被不断地牵动。令人印象非常深刻的是女主与男主交谈的几个片段。这个情节谈话的方式是将拼图拖拽到指定区域并拼好。双方刚开始聊天时，拼图有足足八块 ，形状也是千奇百怪。随着交谈的深入，拼图的数量也开始减少，难度开始不断降低，六块、四块、三块，到后面双方聊到火热，拼图也只剩下两块，画面中两个人的距离也在不断靠近。在接吻前，两块的拖拽甚至变成了轴对称的，只需要拖拽一块到区域内就完成了。在整个过程中，玩家对这种不断增进的感情实际上是感同身受的，情感已经借由交互带入到故事中：从刚开始聊天的羞涩，不断从脑中寻找话题，到之后双方开始互敞心扉，最后不断靠近并热切地接吻，玩家的情感也融入到情景之中。拼图的形式贯穿了整个游戏，随着剧情的发展，双方的争吵再次以拼图的形式呈现：拼图镶嵌的「角」从圆滑的「圆角」变成了锐利的「尖角」；如果拼接的速度不够快还可能输给对方；而到了夜里睡觉的时候，拼图拼出双方背对背躺着，却只能拼出两大块各自的拼图，两者因为「角」相互排斥拼不到一起。和拼图的效果相似的设计还有转动时针来表现时间的流逝、同居时放置物品和分居时收拾曾经放置的物品，都能给玩家带来很大的触动。</p>
-<p>丰富多样的交互可能会带来操作上的困难，但在整个游玩过程中，不同的交互都有相应的提示。交互方面唯一的遗憾是《Florence》作为跨平台的游戏，交互由触屏变成了鼠标的拖动，PC端的体验可能较手机端稍逊色一些。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf7df4nwl8j30go09dmyk.jpg"></p>
-<h4 id="剧情题材"><a href="#剧情题材" class="headerlink" title="剧情题材"></a>剧情题材</h4><p>故事的本身可能是《Florence》争议比较大的方面。一个女孩在日复一日麻木的生活与工作中偶然遇到自己心动的男孩，双方坠入爱河开始甜蜜幸福的生活，一起去追逐梦想。随着时间的流逝，在生活中女孩和男孩相互的不理解变成了争吵，最后不欢而散。女孩最后坚持了自己的梦想，成为了一名画家，但她依旧忘不了那个当初送给她颜料盒的那个人。</p>
-<p>有一些人认为剧情的真实性不够：女孩一见钟情，有懵懂的欣赏，有心动的害羞，有投机的聊天，这些都是校园恋爱的元素，放在前面铺垫过日复一日重复麻木单调工作的女孩身上显然是不合适的，而且之后的画画成名给人很突兀的感觉，逻辑上很难自洽：</p>
-<blockquote>
-<p>女孩幼年热爱绘画，二十来年不练，分手之后努力画了几年突然就绘画艺术家作品大卖了，我觉得真的好假啊，这种女孩是天才，是玛丽苏，是任何小说电视剧里的女主角，唯独不是普通人。一个「恋爱后分手，分手后成名」的恋爱故事，越品越感觉像是一个泡泡一样的童话”</p>
-<p> –<a href="https://www.taptap.com/user/50050544">Topas今天退休了吗</a></p>
-</blockquote>
-<p>在我看来，《Florence》与其说是一个故事，不如说是一个关于爱情的童话：与其在其中寻找现实中爱情的影子，不如放松下来，把它当作一本童话书或者一个绘本，静静欣赏那种单纯的美好。彼此激励一起为对方对梦想加油、无论做什么都是快乐而且有活力的、哪怕有吵架不久后还是原谅对方继续甜蜜、即使 Florence 失去了 Krish，她依旧选择了去热爱生活，去追逐自己的梦想，最后获得了成功。抛开合理性，这个剧情本身就已经超出了简单的甜甜的恋爱，立意上升到一个更高的层次：恋爱让自己变得更好。经历过这些，她明白了一个问题：我是谁？人的一生都在了解自己，女主也不例外。所以这款游戏的名字叫做“Florence”，不仅仅是说她经历了一切，更意味着，她经历的这一切，让她找回了自己。这可能才是游戏想真正表达的。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/ss_9e029df44296f3d21a61e96d0a7bea4447be2c14.600x338.jpg"></p>
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>希望通过恋爱，成为更好的自己。</p>
-<blockquote>
-<p>加速拨动的时钟 诉说我们之间的改变<br>争吵时 对话框的拼图角变得越来越尖锐<br>明明拼好了的拼图却发现无法组合在一起<br>拼到一起的照片碎片 却还是一直在分离<br>…….<br>不管你怎么念念不舍把碎片拖回来 不愿意点下一页<br>但想要离开的人终究会疏远 远去 成为人生中的一名过客</p>
-<p>曾经的你使我的生活有了色彩 让我对未来有了无限的憧憬</p>
-<p>可相片里躺在我身边的你 却依旧是我亲手擦去了你的存在</p>
-<p>感谢曾经所有美好的回忆 也感谢你把我放归与人海成就更好的自己</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>游戏追踪 (Game Tracker)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>跨越时空抚慰伤痛-Father and Son</title>
     <url>/archives/84339f66.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf9lwaptxij30zk0k0401.jpg"></p>
@@ -3510,6 +3522,60 @@
         <tag>Game</tag>
         <tag>RPG</tag>
         <tag>INDIE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一个关于爱与生活的童话-Florence</title>
+    <url>/archives/9b487a14.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf5uxkndixj30go09djt1.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
+<a id="more"></a>
+
+<p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_3803bfdcbfa1ff4515505f920ed1c7993993b9f6.600x338.jpg?t=1589331032">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256774213/movie480.webm?t=1580836892" type="video/mp4">       </video></p>
+<h3 id="关于游戏"><a href="#关于游戏" class="headerlink" title="关于游戏"></a>关于游戏</h3><p>Florence 是一场持续约 30 分钟的心动体验。故事很简短，但意义很深远。</p>
+<p>25 岁的 Florence Yeoh 对生活感到困惑。她的生活是日复一日地工作、睡觉，以及在社交媒体上打发大量时间。直到有一天，她遇到了一位名叫 Krish 的大提琴手，他改变了她眼中的整个世界。</p>
+<p>透过一系列预先设定的游戏剧本，从调情到吵架，从互助成长到逐渐分歧，玩家将体验 Florence 与 Krish 这段感情的点点滴滴。 《Florence》的灵感来源于「Slice of Life」漫画小说和网路漫画，讲述了一个熟悉、青涩而又私密的爱情故事。</p>
+<h3 id="测评"><a href="#测评" class="headerlink" title="测评"></a>测评</h3><blockquote>
+<p>“Florence is a beautiful experience that isn’t afraid to tell an ordinary story. This isn’t an action-packed, heroic tale or a somber story filled with tragedy, but it still hits some of those notes in subdued ways. Florence is happy, distressing, and admirable in its reflection of young romance, and it left me with a sense of unexpected hopefulness.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.gameinformer.com/games/florence/b/ios/archive/2018/02/20/florence-game-informer-review.aspx">Game Informer</a></p>
+</blockquote>
+<br/>
+
+<blockquote>
+<p>“This short collection of small moments manages to cover a wide range of powerfully relatable emotional highs and lows, beautifully capturing what it’s like to fall in love for the first time.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.theguardian.com/games/2018/feb/23/florence-review-graphic-novel-style-game">The Guardian</a></p>
+</blockquote>
+<br/>
+
+<blockquote>
+<p>“The breathtaking Florence captures falling in love better than almost any game.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.polygon.com/2018/2/15/17014258/florence-game-review-ios-best-games-2018">Polygon</a></p>
+</blockquote>
+<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="玩法层面"><a href="#玩法层面" class="headerlink" title="玩法层面"></a>玩法层面</h4><p>游戏总体上偏向于叙事类的互动故事，玩家更注重故事本身，所以在玩法方面基本上是被弱化甚至是可以忽略。但是作为游戏，《Florence》的交互设计做的非常优秀，在后面会提到，在此不再赘述。</p>
+<h4 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h4><p>美术风格上绘图保持着非常高的质量，在同类游戏中处于中等偏上的水平。在游玩游戏的过程中，每一张图都可以当作壁纸，仿佛是在艺术长廊中欣赏一件件精美的画作。而且勾勒人物的线条非常简洁凝练，相较于写实风格更偏向卡通，但却拿捏的恰到好处。虽然游戏除了背景音乐完全没有人物配音，但美术上呈现出艺术上的张力，也能让画中的人物富有生机与活力。</p>
+<h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>交互设计也是《Florence》的一大亮点。</p>
+<p>从游戏一开始的拖拽牙刷来刷牙，到吃饭时点击食物来食用以及后面等等，交互的风格让我想到了锈湖推出的《白门》。除开游戏类型的不同，两者的交互设计非常相似，甚至《白门》的主人公一开始的洗漱和之后的吃饭几乎一模一样。在我的印象中，类似于洗漱吃饭这样的行为交互设计一般是通过按键的方式实现的，例如在饭桌前提示按下某个之前操作方式提到的交互键位，触发「洗漱」、「吃饭」、「睡觉」等，之后可能会有一段动画。回到游戏本身，作为叙事类游戏，《Florence》必然面临着游戏性不足的问题，而这种细腻独特的交互方式成功地拉长了总体的游戏时间，丰富了游戏的体验，让玩家参与其中而只不是“看漫画”。同样的，许多游戏大作采用固定交互键的方式也是节约了玩家的时间和精力，因为这些游戏本身不需要交互来给游戏“拖时间”。</p>
+<p>在交互的过程中，玩家感受到的不是僵硬地拖延游戏时间，而是情感被不断地牵动。令人印象非常深刻的是女主与男主交谈的几个片段。这个情节谈话的方式是将拼图拖拽到指定区域并拼好。双方刚开始聊天时，拼图有足足八块 ，形状也是千奇百怪。随着交谈的深入，拼图的数量也开始减少，难度开始不断降低，六块、四块、三块，到后面双方聊到火热，拼图也只剩下两块，画面中两个人的距离也在不断靠近。在接吻前，两块的拖拽甚至变成了轴对称的，只需要拖拽一块到区域内就完成了。在整个过程中，玩家对这种不断增进的感情实际上是感同身受的，情感已经借由交互带入到故事中：从刚开始聊天的羞涩，不断从脑中寻找话题，到之后双方开始互敞心扉，最后不断靠近并热切地接吻，玩家的情感也融入到情景之中。拼图的形式贯穿了整个游戏，随着剧情的发展，双方的争吵再次以拼图的形式呈现：拼图镶嵌的「角」从圆滑的「圆角」变成了锐利的「尖角」；如果拼接的速度不够快还可能输给对方；而到了夜里睡觉的时候，拼图拼出双方背对背躺着，却只能拼出两大块各自的拼图，两者因为「角」相互排斥拼不到一起。和拼图的效果相似的设计还有转动时针来表现时间的流逝、同居时放置物品和分居时收拾曾经放置的物品，都能给玩家带来很大的触动。</p>
+<p>丰富多样的交互可能会带来操作上的困难，但在整个游玩过程中，不同的交互都有相应的提示。交互方面唯一的遗憾是《Florence》作为跨平台的游戏，交互由触屏变成了鼠标的拖动，PC端的体验可能较手机端稍逊色一些。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf7df4nwl8j30go09dmyk.jpg"></p>
+<h4 id="剧情题材"><a href="#剧情题材" class="headerlink" title="剧情题材"></a>剧情题材</h4><p>故事的本身可能是《Florence》争议比较大的方面。一个女孩在日复一日麻木的生活与工作中偶然遇到自己心动的男孩，双方坠入爱河开始甜蜜幸福的生活，一起去追逐梦想。随着时间的流逝，在生活中女孩和男孩相互的不理解变成了争吵，最后不欢而散。女孩最后坚持了自己的梦想，成为了一名画家，但她依旧忘不了那个当初送给她颜料盒的那个人。</p>
+<p>有一些人认为剧情的真实性不够：女孩一见钟情，有懵懂的欣赏，有心动的害羞，有投机的聊天，这些都是校园恋爱的元素，放在前面铺垫过日复一日重复麻木单调工作的女孩身上显然是不合适的，而且之后的画画成名给人很突兀的感觉，逻辑上很难自洽：</p>
+<blockquote>
+<p>女孩幼年热爱绘画，二十来年不练，分手之后努力画了几年突然就绘画艺术家作品大卖了，我觉得真的好假啊，这种女孩是天才，是玛丽苏，是任何小说电视剧里的女主角，唯独不是普通人。一个「恋爱后分手，分手后成名」的恋爱故事，越品越感觉像是一个泡泡一样的童话”</p>
+<p> –<a href="https://www.taptap.com/user/50050544">Topas今天退休了吗</a></p>
+</blockquote>
+<p>在我看来，《Florence》与其说是一个故事，不如说是一个关于爱情的童话：与其在其中寻找现实中爱情的影子，不如放松下来，把它当作一本童话书或者一个绘本，静静欣赏那种单纯的美好。彼此激励一起为对方对梦想加油、无论做什么都是快乐而且有活力的、哪怕有吵架不久后还是原谅对方继续甜蜜、即使 Florence 失去了 Krish，她依旧选择了去热爱生活，去追逐自己的梦想，最后获得了成功。抛开合理性，这个剧情本身就已经超出了简单的甜甜的恋爱，立意上升到一个更高的层次：恋爱让自己变得更好。经历过这些，她明白了一个问题：我是谁？人的一生都在了解自己，女主也不例外。所以这款游戏的名字叫做“Florence”，不仅仅是说她经历了一切，更意味着，她经历的这一切，让她找回了自己。这可能才是游戏想真正表达的。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/ss_9e029df44296f3d21a61e96d0a7bea4447be2c14.600x338.jpg"></p>
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>希望通过恋爱，成为更好的自己。</p>
+<blockquote>
+<p>加速拨动的时钟 诉说我们之间的改变<br>争吵时 对话框的拼图角变得越来越尖锐<br>明明拼好了的拼图却发现无法组合在一起<br>拼到一起的照片碎片 却还是一直在分离<br>…….<br>不管你怎么念念不舍把碎片拖回来 不愿意点下一页<br>但想要离开的人终究会疏远 远去 成为人生中的一名过客</p>
+<p>曾经的你使我的生活有了色彩 让我对未来有了无限的憧憬</p>
+<p>可相片里躺在我身边的你 却依旧是我亲手擦去了你的存在</p>
+<p>感谢曾经所有美好的回忆 也感谢你把我放归与人海成就更好的自己</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>游戏追踪 (Game Tracker)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
       </tags>
   </entry>
   <entry>
@@ -4951,6 +5017,35 @@
       </tags>
   </entry>
   <entry>
+    <title>进程与线程</title>
+    <url>/archives/44cf1d42.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloe6t3mq4g312w0lwqva.gif"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/107924435/MTVOS?tracking_source=search_projects_recommended%7COS">MTV.OS</a> by 
+      <a href="https://www.behance.net/charlx">Charl- x</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
+<a id="more"></a>
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>操作系统 (Operating Systems)</category>
+      </categories>
+      <tags>
+        <tag>Mooc</tag>
+        <tag>OS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>操作系统概述</title>
     <url>/archives/33c82dd4.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gky8z6eslsg312w0lwhdu.gif"></p>
@@ -4995,57 +5090,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#121;&#111;&#110;&#x67;&#64;&#116;&#x73;&#105;&#110;&#x67;&#104;&#117;&#97;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#x6e;">&#x78;&#121;&#111;&#110;&#x67;&#64;&#116;&#x73;&#105;&#110;&#x67;&#104;&#117;&#97;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#x79;&#x6f;&#x6e;&#103;&#64;&#x74;&#115;&#x69;&#x6e;&#x67;&#x68;&#x75;&#97;&#x2e;&#101;&#x64;&#117;&#46;&#x63;&#x6e;">&#120;&#x79;&#x6f;&#x6e;&#103;&#64;&#x74;&#115;&#x69;&#x6e;&#x67;&#x68;&#x75;&#97;&#x2e;&#101;&#x64;&#117;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#117;&#x63;&#104;&#101;&#x6e;&#64;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#116;&#115;&#x69;&#x6e;&#103;&#104;&#117;&#x61;&#x2e;&#x65;&#100;&#x75;&#x2e;&#99;&#x6e;">&#x79;&#117;&#x63;&#104;&#101;&#x6e;&#64;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#116;&#115;&#x69;&#x6e;&#103;&#104;&#117;&#x61;&#x2e;&#x65;&#100;&#x75;&#x2e;&#99;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#117;&#x63;&#104;&#101;&#x6e;&#64;&#x6d;&#x61;&#105;&#108;&#46;&#x74;&#x73;&#x69;&#110;&#103;&#x68;&#117;&#x61;&#x2e;&#x65;&#100;&#x75;&#46;&#x63;&#110;">&#121;&#117;&#x63;&#104;&#101;&#x6e;&#64;&#x6d;&#x61;&#105;&#108;&#46;&#x74;&#x73;&#x69;&#110;&#103;&#x68;&#117;&#x61;&#x2e;&#x65;&#100;&#x75;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#x74;&#101;&#114;&#x6e;&#x61;&#x6c;&#46;&#110;&#48;&#56;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#101;&#x74;&#101;&#114;&#x6e;&#x61;&#x6c;&#46;&#110;&#48;&#56;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#x74;&#x65;&#114;&#110;&#x61;&#x6c;&#46;&#x6e;&#x30;&#x38;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#101;&#x74;&#x65;&#114;&#110;&#x61;&#x6c;&#46;&#x6e;&#x30;&#x38;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#x62;&#106;&#x65;&#x63;&#116;&#107;&#117;&#97;&#x6e;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#111;&#x62;&#106;&#x65;&#x63;&#116;&#107;&#117;&#97;&#x6e;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#111;&#x62;&#x6a;&#x65;&#x63;&#x74;&#x6b;&#117;&#97;&#110;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#111;&#x6d;">&#111;&#x62;&#x6a;&#x65;&#x63;&#x74;&#x6b;&#117;&#97;&#110;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#114;&#x64;&#x66;&#114;&#97;&#x6e;&#x6b;&#64;&#x67;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;">&#x63;&#114;&#x64;&#x66;&#114;&#97;&#x6e;&#x6b;&#64;&#x67;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#x72;&#100;&#102;&#x72;&#97;&#110;&#x6b;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;">&#99;&#x72;&#100;&#102;&#x72;&#97;&#110;&#x6b;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#x61;&#x63;&#x63;&#x6f;&#x72;&#97;&#x77;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#116;&#x61;&#x63;&#x63;&#x6f;&#x72;&#97;&#x77;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x74;&#x61;&#x63;&#99;&#111;&#114;&#97;&#119;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x74;&#x61;&#x63;&#99;&#111;&#114;&#97;&#119;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#105;&#x6e;&#x79;&#x75;&#110;&#120;&#105;&#x6e;&#x67;&#48;&#x30;&#48;&#49;&#64;&#x31;&#54;&#x33;&#x2e;&#x63;&#x6f;&#109;">&#120;&#105;&#x6e;&#x79;&#x75;&#110;&#120;&#105;&#x6e;&#x67;&#48;&#x30;&#48;&#49;&#64;&#x31;&#54;&#x33;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#120;&#105;&#110;&#x79;&#x75;&#110;&#x78;&#105;&#110;&#103;&#48;&#48;&#48;&#x31;&#x40;&#x31;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#x6d;">&#120;&#105;&#110;&#x79;&#x75;&#110;&#x78;&#105;&#110;&#103;&#48;&#48;&#48;&#x31;&#x40;&#x31;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#x6e;&#x6f;&#99;&#x75;&#x69;&#108;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#x67;&#x6e;&#x6f;&#99;&#x75;&#x69;&#108;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#x6e;&#x6f;&#99;&#117;&#105;&#108;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#103;&#x6e;&#x6f;&#99;&#117;&#105;&#108;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#121;&#97;&#x69;&#x72;&#105;&#97;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;">&#109;&#121;&#97;&#x69;&#x72;&#105;&#97;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#109;&#x79;&#97;&#x69;&#114;&#105;&#x61;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#109;&#x79;&#97;&#x69;&#114;&#105;&#x61;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#x68;&#x61;&#x6e;&#103;&#114;&#97;&#x69;&#x6e;&#x39;&#49;&#x31;&#64;&#49;&#54;&#51;&#x2e;&#99;&#x6f;&#109;">&#122;&#x68;&#x61;&#x6e;&#103;&#114;&#97;&#x69;&#x6e;&#x39;&#49;&#x31;&#64;&#49;&#54;&#51;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x7a;&#x68;&#x61;&#x6e;&#103;&#114;&#97;&#x69;&#110;&#x39;&#x31;&#49;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#109;">&#x7a;&#x68;&#x61;&#x6e;&#103;&#114;&#97;&#x69;&#110;&#x39;&#x31;&#49;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#103;&#120;&#120;&#x31;&#x32;&#x30;&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;">&#x67;&#103;&#120;&#120;&#x31;&#x32;&#x30;&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#103;&#120;&#x78;&#49;&#50;&#x30;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#103;&#103;&#120;&#x78;&#49;&#50;&#x30;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -5231,35 +5326,6 @@
       </tags>
   </entry>
   <entry>
-    <title>进程与线程</title>
-    <url>/archives/44cf1d42.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloe6t3mq4g312w0lwqva.gif"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/107924435/MTVOS?tracking_source=search_projects_recommended%7COS">MTV.OS</a> by 
-      <a href="https://www.behance.net/charlx">Charl- x</a>
-    </i>
-  </font>
-</div>
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
-<a id="more"></a>
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>操作系统 (Operating Systems)</category>
-      </categories>
-      <tags>
-        <tag>Mooc</tag>
-        <tag>OS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Aseprite教学-Aseprite编译教程</title>
     <url>/archives/5d59087d.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nt7r5jxj314w0i3788.jpg"></p>
@@ -5346,6 +5412,51 @@
       <tags>
         <tag>Aseprite</tag>
         <tag>CMake</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Aseprite教学-色彩、造型和光照</title>
+    <url>/archives/c7d3ecc8.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文我们来聊聊颜色工具以及绘画中的造型和光照。</p>
+<a id="more"></a>
+
+
+
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu9pyqyj313g0m8ab0.jpg"></p>
+<p>颜色部分在左下角，虽然可能有些没用但了解一下也很好。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu4kakfj313g0m8gma.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu4whzuj313g0m83z6.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zucu0blj313g0m8q3m.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu5kay2j313g0m8wf3.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu6etbsj313g0m8q40.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glougm6pqwj313g0m80so.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloufxbssyj313g0m8aa3.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu7so6aj313g0m8jsj.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu8amcwj313g0m83z1.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug2x3jyj313g0m8aa3.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu9a5x6j313g0m83zq.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zubw296j313g0m8aap.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug1ytcgj313g0m80sn.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu8r5vnj313g0m80td.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zucfjuzj313g0m8gma.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zub1667j313g0m8dgj.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouftn7ydj313g0m8glj.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Course43.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug0op2vj313g0m8wef.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zua412dj313g0m8q3p.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug1bp77j313g0m8748.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zuber3jj313g0m8753.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloufz6c8aj313g0m8glk.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug038bej313g0m8jrc.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zuamdg6j313g0m8glk.jpg"></p>
+]]></content>
+      <categories>
+        <category>像素美工 (Pixel Art Designing)</category>
+      </categories>
+      <tags>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
       </tags>
   </entry>
   <entry>
@@ -5502,51 +5613,6 @@
   </font>
 </div>
 
-]]></content>
-      <categories>
-        <category>像素美工 (Pixel Art Designing)</category>
-      </categories>
-      <tags>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Aseprite教学-色彩、造型和光照</title>
-    <url>/archives/c7d3ecc8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文我们来聊聊颜色工具以及绘画中的造型和光照。</p>
-<a id="more"></a>
-
-
-
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu9pyqyj313g0m8ab0.jpg"></p>
-<p>颜色部分在左下角，虽然可能有些没用但了解一下也很好。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu4kakfj313g0m8gma.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu4whzuj313g0m83z6.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zucu0blj313g0m8q3m.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu5kay2j313g0m8wf3.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu6etbsj313g0m8q40.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glougm6pqwj313g0m80so.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloufxbssyj313g0m8aa3.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu7so6aj313g0m8jsj.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu8amcwj313g0m83z1.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug2x3jyj313g0m8aa3.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu9a5x6j313g0m83zq.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zubw296j313g0m8aap.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug1ytcgj313g0m80sn.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu8r5vnj313g0m80td.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zucfjuzj313g0m8gma.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zub1667j313g0m8dgj.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouftn7ydj313g0m8glj.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Course43.png"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug0op2vj313g0m8wef.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zua412dj313g0m8q3p.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug1bp77j313g0m8748.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zuber3jj313g0m8753.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloufz6c8aj313g0m8glk.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug038bej313g0m8jrc.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zuamdg6j313g0m8glk.jpg"></p>
 ]]></content>
       <categories>
         <category>像素美工 (Pixel Art Designing)</category>
@@ -6179,61 +6245,6 @@
       </tags>
   </entry>
   <entry>
-    <title>像素宝典#7</title>
-    <url>/archives/b2442469.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zdb4ui8j318g0p046e.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解粘液、岩石构成、植物、城市背景以及像素画基础。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qfvi92oj30u008c3z7.jpg"></p>
-<h3 id="液体-粘液"><a href="#液体-粘液" class="headerlink" title="液体 / 粘液"></a>液体 / 粘液</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qetza7hg30e80e8qhl.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-000302032zg.gif"></p>
-<p>这期是关于粘液和其他浓稠液体！</p>
-<p>粘液的粒子分散的比水粒子要小，他们会在之间建立连接。还有，记得保持平滑的，圆的形状，不要有尖锐的角。</p>
-<p>感谢大家支持！</p>
-<h3 id="岩石构成"><a href="#岩石构成" class="headerlink" title="岩石构成"></a>岩石构成</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qewib7rg30e80e8e5k.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qg9jnrgg30e80e8khw.gif"></p>
-<p>第 31 个教程！（风农：这哥们的计数方式跟我计的不一样。）</p>
-<p>这期不是个特别科学的教程，不过这一般是我画时候的思路。</p>
-<p>画岩石的主要建议是<strong>找参考物</strong></p>
-<p>Pinterest 或者 google 图片都是不错的地方。</p>
-<p>感谢大家支持！</p>
-<h3 id="植物-2"><a href="#植物-2" class="headerlink" title="植物 2"></a>植物 2</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qeyrjeig30e80e8wy7.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf78nveg30e80e8h5q.gif"></p>
-<p>这是植物教程的第二部分! </p>
-<p>第一部分在这：链接</p>
-<p>这次我集中讲草，还有一点关于木头的。</p>
-<p>草画起来很复杂，以至于每个画手都有自己的方式去简化它。这里说明了我常用的方式，不过还有很多跟我不一样的方式。我的是要有给眼睛休息的区域，和各处的细节区域。</p>
-<p>感谢大家支持！</p>
-<p><strong>风农：</strong>这哥们居然还用错词，莫名其妙弄了个 sulks 出来，怎么解释都跟上下文对不上，无奈去了原贴看了看评论，原来他把这词记错意思了(╬￣皿￣)</p>
-<h3 id="像素画基础-2"><a href="#像素画基础-2" class="headerlink" title="像素画基础 2"></a>像素画基础 2</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qhmeu7kg30e80e8gxf.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf1j3gpg30e80e8gy8.gif"></p>
-<p>本来想讲更多点，不过没地方了:P</p>
-<p>色带（banding/color banding）问题以后再详细的讲。</p>
-<p>像素画里我都会尽量的“隐藏”方块。当像素排的过于整齐，看起来就太呆板，所以我会尽量多的打断直线。</p>
-<p>别忘了看第一部分: 链接</p>
-<p>感谢大家支持！</p>
-<h3 id="城市背景"><a href="#城市背景" class="headerlink" title="城市背景"></a>城市背景</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf237ddg30e80e8x2m.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf3ibz2g30e80e8azu.gif"></p>
-<p>我决定分享下我画城市背景和瓦片的过程，而不是单纯的解释如何画单个东西。</p>
-<p>城市是“块状的”，但也有很多生命在其中，我会试着把这些展示出来。</p>
-<p>我会从原始的方块开始画，再逐渐添加细节，以及生命的迹象。</p>
-<p>感谢大家的支持，下节见。</p>
-<p><strong>风农：</strong>左上角是讲解如何画一个砖块的纹理。右边的框是画城市背景的几个步骤，字体颜色是跟随场景变化的。</p>
-]]></content>
-      <categories>
-        <category>像素宝典 (Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>像素宝典#6</title>
     <url>/archives/c54314ff.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zbxjud7j31hc0u0dpy.jpg"></p>
@@ -6289,6 +6300,61 @@
 <p>观看像素动画的时候，我们的眼睛一般聚焦到的是大块的形状。</p>
 <p>祝大家开心，还有感谢支持！</p>
 <p><strong>风农：</strong>这张图里有一点点是我补的，不然没办法替换文字了，因为没有分层信息，我只能靠想象力了，感觉效果还可以。</p>
+]]></content>
+      <categories>
+        <category>像素宝典 (Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>像素宝典#7</title>
+    <url>/archives/b2442469.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zdb4ui8j318g0p046e.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解粘液、岩石构成、植物、城市背景以及像素画基础。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qfvi92oj30u008c3z7.jpg"></p>
+<h3 id="液体-粘液"><a href="#液体-粘液" class="headerlink" title="液体 / 粘液"></a>液体 / 粘液</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qetza7hg30e80e8qhl.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-000302032zg.gif"></p>
+<p>这期是关于粘液和其他浓稠液体！</p>
+<p>粘液的粒子分散的比水粒子要小，他们会在之间建立连接。还有，记得保持平滑的，圆的形状，不要有尖锐的角。</p>
+<p>感谢大家支持！</p>
+<h3 id="岩石构成"><a href="#岩石构成" class="headerlink" title="岩石构成"></a>岩石构成</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qewib7rg30e80e8e5k.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qg9jnrgg30e80e8khw.gif"></p>
+<p>第 31 个教程！（风农：这哥们的计数方式跟我计的不一样。）</p>
+<p>这期不是个特别科学的教程，不过这一般是我画时候的思路。</p>
+<p>画岩石的主要建议是<strong>找参考物</strong></p>
+<p>Pinterest 或者 google 图片都是不错的地方。</p>
+<p>感谢大家支持！</p>
+<h3 id="植物-2"><a href="#植物-2" class="headerlink" title="植物 2"></a>植物 2</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qeyrjeig30e80e8wy7.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf78nveg30e80e8h5q.gif"></p>
+<p>这是植物教程的第二部分! </p>
+<p>第一部分在这：链接</p>
+<p>这次我集中讲草，还有一点关于木头的。</p>
+<p>草画起来很复杂，以至于每个画手都有自己的方式去简化它。这里说明了我常用的方式，不过还有很多跟我不一样的方式。我的是要有给眼睛休息的区域，和各处的细节区域。</p>
+<p>感谢大家支持！</p>
+<p><strong>风农：</strong>这哥们居然还用错词，莫名其妙弄了个 sulks 出来，怎么解释都跟上下文对不上，无奈去了原贴看了看评论，原来他把这词记错意思了(╬￣皿￣)</p>
+<h3 id="像素画基础-2"><a href="#像素画基础-2" class="headerlink" title="像素画基础 2"></a>像素画基础 2</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qhmeu7kg30e80e8gxf.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf1j3gpg30e80e8gy8.gif"></p>
+<p>本来想讲更多点，不过没地方了:P</p>
+<p>色带（banding/color banding）问题以后再详细的讲。</p>
+<p>像素画里我都会尽量的“隐藏”方块。当像素排的过于整齐，看起来就太呆板，所以我会尽量多的打断直线。</p>
+<p>别忘了看第一部分: 链接</p>
+<p>感谢大家支持！</p>
+<h3 id="城市背景"><a href="#城市背景" class="headerlink" title="城市背景"></a>城市背景</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf237ddg30e80e8x2m.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf3ibz2g30e80e8azu.gif"></p>
+<p>我决定分享下我画城市背景和瓦片的过程，而不是单纯的解释如何画单个东西。</p>
+<p>城市是“块状的”，但也有很多生命在其中，我会试着把这些展示出来。</p>
+<p>我会从原始的方块开始画，再逐渐添加细节，以及生命的迹象。</p>
+<p>感谢大家的支持，下节见。</p>
+<p><strong>风农：</strong>左上角是讲解如何画一个砖块的纹理。右边的框是画城市背景的几个步骤，字体颜色是跟随场景变化的。</p>
 ]]></content>
       <categories>
         <category>像素宝典 (Pixel Dictionary)</category>
@@ -6499,80 +6565,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Unity Student Plan申请指南</title>
-    <url>/archives/e8e3308a.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf3sypo104j31hc0u0ae8.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了Unity社区的优秀博主 <a href="https://unity.cn/u/michael-wang-2/?tab=article">Michael Wang</a> 的 <a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">Unity Student Plan申请指南！</a>，希望通过转载的方式可以帮助到对 Unity Pro 购买上有困难的在读学生申请「Unity Student Plan」，也希望有能力的读者朋友可以去支持一下原文作者，他有大量的优质 Unity 教学视频可供初学者学习。</p>
-<a id="more"></a>
-
-
-
-
-
-<p><strong>支持正版Unity从我做起！拒绝盗版，拒绝破解！</strong></p>
-<ul>
-<li><p>想使用 Unity 深色主题吗？</p>
-</li>
-<li><p>想更方便跟5位队友远程共同开发游戏吗？</p>
-</li>
-<li><p>想免费看「Unity Learn」上面的各种优质课程吗？</p>
-</li>
-<li><p>学生党没有钱购买 Plus / Pro 版吗？</p>
-</li>
-</ul>
-<p>这篇文章会帮助你成功加入「Unity Student Plan」这个超级增值计划当中。让你免费享受以上所有你曾经梦寐以求的服务！</p>
-<p>考虑到可能很多同学会在操作上有些疑惑，<a href="https://unity.cn/u/michael-wang-2/?tab=article">麦扣</a>含(超)泪(龄)特此制作<a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">中文指南</a>。点个收藏支持一下吧!</p>
-<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>直奔主题，详细内容查看官方正确网站：<a href="https://store.unity.com/academic/unity-student?_ga=2.192862250.1412877669.1590291680-1494240502.1590291680">点我申请</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvkhdfzj30u016h42m.jpg"></p>
-<h3 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤"></a>主要步骤</h3><p>打开上面的网站地址就可以看到上面的界面，主要分为3个主要步骤：</p>
-<p><strong>1. 授权 Unity 通过 Github 来确认你的学生身份</strong> </p>
-<p><strong>2. 申请学生开发包</strong> </p>
-<p><strong>3. 激活你的 Unity Student Plan</strong></p>
-<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><p>请先不要着急操作！还有一些前期的准备要做！请确认一下内容：</p>
-<ul>
-<li><strong>你是真实的学生身份（初中以上！惊不惊喜）</strong></li>
-<li><strong>你已经注册拥有 Unity ID</strong></li>
-<li><strong>你已经有 GitHub 账号并且已经 “Get student benefits”</strong></li>
-</ul>
-<p>如果你已经具备了以上的内容，那么你可以跳过后面的指南直接通过 Unity 官方网站申请。</p>
-<h3 id="Github-Student-Benefits"><a href="#Github-Student-Benefits" class="headerlink" title="Github Student Benefits"></a>Github Student Benefits</h3><p>*注意你需要有 Github 账号。<a href="https://education.github.com/benefits">点我跳转！</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvi91g4j31b90u0n2i.jpg"></p>
-<p><strong>GitHub官方网站提供了非常详细的注册指南，在这里就不赘述了。但是提供一些可能遇到的问题的小提示：</strong></p>
-<ul>
-<li>如果你有 .edu 的邮箱，那么请在你的申请页面添加这个教育邮箱。</li>
-<li>请尝试咨询学校如何申请 .edu 的邮箱。那么会让你飞快通过申请！</li>
-<li>如果无法申请邮箱 或者 你的学校不在列表当中（优先搜索英语名字），那么需要提供学生证的照片来验证，等候时间会变长，但是不带表你不能申请！！</li>
-<li>学生证等信息不在身边，可以访问<a href="https://my.chsi.com.cn/archive/index.jsp">「学信档案网站」</a>截图上传证明。</li>
-<li>保持好的心态，你一定会成功！</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpviz7ofj30oj0v1jtj.jpg"></p>
-<p>做完以上的操作你很可能看到这样的界面</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvk0chxj313n0ktjta.jpg"></p>
-<p><em>不要担心 4 days 很可能就是几个小时的事儿，30 days 也不一定非要等30天！请大家多多留意自己的邮箱，GitHub 总是会给你惊喜的。</em></p>
-<h3 id="Unity-Student-Plan"><a href="#Unity-Student-Plan" class="headerlink" title="Unity Student Plan"></a>Unity Student Plan</h3><p>当你收到了 GitHub 的确认邮件，那么恭喜你，你基本上成功了，现在你需要回到文章开头的 Unity Student Plan 申请的连接完成 3 个步骤。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvldizsj31go0l2gs1.jpg"></p>
-<ul>
-<li>Unity 发给你的<strong>邮件</strong>当中会详细描述你在哪里可以获得你的 Pro 专业版 使用权的<strong>激活码</strong>，使用激活码<strong>在HUB中激活你的证书</strong>。</li>
-<li>你会获得让所有人望眼欲穿的，价值 <strong>$489.93 的 Assets Pack 超优质资源包</strong>，跟我一样只能看看的请<a href="https://assetstore.unity.com/browse/student-plan-pack?_ga=2.131450953.776403174.1590049942-37205968.1582701932">点击这里</a>！</li>
-</ul>
-<p><strong>如果你成功申请了，别忘了回来给麦扣留言告诉我这个好消息，还有收藏这篇文章支持我！</strong></p>
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
-<li>7月2日之前每周四晚上8:00，麦扣跟你一起学习做3D游戏：<a href="https://unity.cn/projects/unityling-ji-chu-zhi-bo-create-with-code-live-zhong-wen-5-7wan-ba-dian-kai-bo">详情及录播</a></li>
-<li>5月29日 Unity 资深技术专家高川老师直播带你了解 Unity Asset：<a href="https://unity.cn/projects/zhi-bo-yu-gao-unityzi-shen-ji-zhu-zhuan-jia-gao-chuan-wei-nin-xiang-jie-unity-assetde-yi-sheng">详情页面</a></li>
-<li>关注我的详细信息欢迎访问我的主页跳转：<a href="https://m-studio-m.github.io/">点我就对了</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Unity 游戏引擎 (Unity Game Engine)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Game</tag>
-        <tag>Game Engine</tag>
-        <tag>Unity</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>R语言数据分析方法论</title>
     <url>/archives/988a2d13.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gke2i5jecdg30xc0ir7wi.gif"></p>
@@ -6708,6 +6700,80 @@
         <tag>Mooc</tag>
         <tag>R</tag>
         <tag>Data Mining</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Unity Student Plan申请指南</title>
+    <url>/archives/e8e3308a.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf3sypo104j31hc0u0ae8.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了Unity社区的优秀博主 <a href="https://unity.cn/u/michael-wang-2/?tab=article">Michael Wang</a> 的 <a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">Unity Student Plan申请指南！</a>，希望通过转载的方式可以帮助到对 Unity Pro 购买上有困难的在读学生申请「Unity Student Plan」，也希望有能力的读者朋友可以去支持一下原文作者，他有大量的优质 Unity 教学视频可供初学者学习。</p>
+<a id="more"></a>
+
+
+
+
+
+<p><strong>支持正版Unity从我做起！拒绝盗版，拒绝破解！</strong></p>
+<ul>
+<li><p>想使用 Unity 深色主题吗？</p>
+</li>
+<li><p>想更方便跟5位队友远程共同开发游戏吗？</p>
+</li>
+<li><p>想免费看「Unity Learn」上面的各种优质课程吗？</p>
+</li>
+<li><p>学生党没有钱购买 Plus / Pro 版吗？</p>
+</li>
+</ul>
+<p>这篇文章会帮助你成功加入「Unity Student Plan」这个超级增值计划当中。让你免费享受以上所有你曾经梦寐以求的服务！</p>
+<p>考虑到可能很多同学会在操作上有些疑惑，<a href="https://unity.cn/u/michael-wang-2/?tab=article">麦扣</a>含(超)泪(龄)特此制作<a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">中文指南</a>。点个收藏支持一下吧!</p>
+<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>直奔主题，详细内容查看官方正确网站：<a href="https://store.unity.com/academic/unity-student?_ga=2.192862250.1412877669.1590291680-1494240502.1590291680">点我申请</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvkhdfzj30u016h42m.jpg"></p>
+<h3 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤"></a>主要步骤</h3><p>打开上面的网站地址就可以看到上面的界面，主要分为3个主要步骤：</p>
+<p><strong>1. 授权 Unity 通过 Github 来确认你的学生身份</strong> </p>
+<p><strong>2. 申请学生开发包</strong> </p>
+<p><strong>3. 激活你的 Unity Student Plan</strong></p>
+<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><p>请先不要着急操作！还有一些前期的准备要做！请确认一下内容：</p>
+<ul>
+<li><strong>你是真实的学生身份（初中以上！惊不惊喜）</strong></li>
+<li><strong>你已经注册拥有 Unity ID</strong></li>
+<li><strong>你已经有 GitHub 账号并且已经 “Get student benefits”</strong></li>
+</ul>
+<p>如果你已经具备了以上的内容，那么你可以跳过后面的指南直接通过 Unity 官方网站申请。</p>
+<h3 id="Github-Student-Benefits"><a href="#Github-Student-Benefits" class="headerlink" title="Github Student Benefits"></a>Github Student Benefits</h3><p>*注意你需要有 Github 账号。<a href="https://education.github.com/benefits">点我跳转！</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvi91g4j31b90u0n2i.jpg"></p>
+<p><strong>GitHub官方网站提供了非常详细的注册指南，在这里就不赘述了。但是提供一些可能遇到的问题的小提示：</strong></p>
+<ul>
+<li>如果你有 .edu 的邮箱，那么请在你的申请页面添加这个教育邮箱。</li>
+<li>请尝试咨询学校如何申请 .edu 的邮箱。那么会让你飞快通过申请！</li>
+<li>如果无法申请邮箱 或者 你的学校不在列表当中（优先搜索英语名字），那么需要提供学生证的照片来验证，等候时间会变长，但是不带表你不能申请！！</li>
+<li>学生证等信息不在身边，可以访问<a href="https://my.chsi.com.cn/archive/index.jsp">「学信档案网站」</a>截图上传证明。</li>
+<li>保持好的心态，你一定会成功！</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpviz7ofj30oj0v1jtj.jpg"></p>
+<p>做完以上的操作你很可能看到这样的界面</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvk0chxj313n0ktjta.jpg"></p>
+<p><em>不要担心 4 days 很可能就是几个小时的事儿，30 days 也不一定非要等30天！请大家多多留意自己的邮箱，GitHub 总是会给你惊喜的。</em></p>
+<h3 id="Unity-Student-Plan"><a href="#Unity-Student-Plan" class="headerlink" title="Unity Student Plan"></a>Unity Student Plan</h3><p>当你收到了 GitHub 的确认邮件，那么恭喜你，你基本上成功了，现在你需要回到文章开头的 Unity Student Plan 申请的连接完成 3 个步骤。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvldizsj31go0l2gs1.jpg"></p>
+<ul>
+<li>Unity 发给你的<strong>邮件</strong>当中会详细描述你在哪里可以获得你的 Pro 专业版 使用权的<strong>激活码</strong>，使用激活码<strong>在HUB中激活你的证书</strong>。</li>
+<li>你会获得让所有人望眼欲穿的，价值 <strong>$489.93 的 Assets Pack 超优质资源包</strong>，跟我一样只能看看的请<a href="https://assetstore.unity.com/browse/student-plan-pack?_ga=2.131450953.776403174.1590049942-37205968.1582701932">点击这里</a>！</li>
+</ul>
+<p><strong>如果你成功申请了，别忘了回来给麦扣留言告诉我这个好消息，还有收藏这篇文章支持我！</strong></p>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
+<li>7月2日之前每周四晚上8:00，麦扣跟你一起学习做3D游戏：<a href="https://unity.cn/projects/unityling-ji-chu-zhi-bo-create-with-code-live-zhong-wen-5-7wan-ba-dian-kai-bo">详情及录播</a></li>
+<li>5月29日 Unity 资深技术专家高川老师直播带你了解 Unity Asset：<a href="https://unity.cn/projects/zhi-bo-yu-gao-unityzi-shen-ji-zhu-zhuan-jia-gao-chuan-wei-nin-xiang-jie-unity-assetde-yi-sheng">详情页面</a></li>
+<li>关注我的详细信息欢迎访问我的主页跳转：<a href="https://m-studio-m.github.io/">点我就对了</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Unity 游戏引擎 (Unity Game Engine)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Game</tag>
+        <tag>Game Engine</tag>
+        <tag>Unity</tag>
       </tags>
   </entry>
   <entry>
