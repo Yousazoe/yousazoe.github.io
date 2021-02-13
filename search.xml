@@ -313,300 +313,6 @@
       </tags>
   </entry>
   <entry>
-    <title>游戏分析方法</title>
-    <url>/archives/f40ec98b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggxxkrdi94j312w0ihn3n.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/60494431/Clash-Royale-Royal-Ghost">Clash Royale - Royal Ghost</a> by 
-      <a href="https://www.behance.net/dafortin">David Fortin</a>
-    </i>
-  </font>
-</div>
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文围绕游戏分析方法展开。游戏分析方法分为四个部分，首先是游戏分析方法是什么以及它的意义，也就是我们为什么要分析游戏方法；之后是关于游戏产品特性；再往下是关于游戏类型，即一个游戏品类的分析；最后是游戏类型趋势分析，游戏品类有什么变化和发展。</p>
-<a id="more"></a>
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#101;&#110;&#120;&#117;&#x40;&#x74;&#x65;&#110;&#x63;&#x65;&#110;&#116;&#x2e;&#x63;&#111;&#109;">&#108;&#x65;&#101;&#110;&#120;&#117;&#x40;&#x74;&#x65;&#110;&#x63;&#x65;&#110;&#116;&#x2e;&#x63;&#111;&#109;</a></strong> </li>
-</ul>
-<h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
-<blockquote>
-<p>eg. 产品类型，相较同类产品的突破</p>
-</blockquote>
-<h5 id="商业前景分析"><a href="#商业前景分析" class="headerlink" title="商业前景分析"></a>商业前景分析</h5><p>关注产品的商业潜力。</p>
-<blockquote>
-<p> eg. 目标用户数量，上线后预期市场表现</p>
-</blockquote>
-<h5 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h5><p>产品上线后调整的重要依据</p>
-<blockquote>
-<p>eg. 游戏上线后留存，游戏上线后收入</p>
-</blockquote>
-<h4 id="游戏特性分析对游戏从业人员和游戏项目意义重大"><a href="#游戏特性分析对游戏从业人员和游戏项目意义重大" class="headerlink" title="游戏特性分析对游戏从业人员和游戏项目意义重大"></a>游戏特性分析对游戏从业人员和游戏项目意义重大</h4><p>游戏特性分析是游戏从业人员熟悉和理解游戏的捷径。</p>
-<p>用户在熟悉和掌握游戏分析方法后，能够在遇到游戏产品时能够快速形成认知 。</p>
-<p>项目研发的各个环节彼此影响，只有完美结合，才能诞生顶级作品，<strong>对游戏的认知</strong>就是串联所有环节的一把<strong>钥匙。</strong></p>
-<p>游戏和程序部门对设计方案提出<strong>修改反馈</strong>。团队成员对游戏的认知越<strong>深刻全面</strong>，提出的修改反馈越<strong>及时准确</strong>，反之，则可能在资源和功能制作完成并进入**<em>整合阶段**</em>才会发现问题并提出修改反馈。</p>
-<h4 id="现代游戏特性分析需要分析方法的支持"><a href="#现代游戏特性分析需要分析方法的支持" class="headerlink" title="现代游戏特性分析需要分析方法的支持"></a>现代游戏特性分析需要分析方法的支持</h4><p>目前游戏产品的<strong>分析难度</strong>与<strong>复杂度</strong>逐渐变高，因此科学的分析方法的作用愈来愈大</p>
-<p>游戏特性分析与方法（简称游戏分析方法）的目的在于<strong>减少</strong>分析过程中的<strong>随意性</strong>和<strong>片面性</strong>，使得分析更加全面与深入</p>
-<p>现在的游戏通常较为复杂，呈现<strong>混合游戏类型</strong> </p>
-<blockquote>
-<p> eg. <code>荒野大镖客2</code>的内容和玩法极为丰富</p>
-</blockquote>
-<p>相同的游戏元素在不同的游戏类型中所占<strong>权重很大</strong></p>
-<blockquote>
-<p> eg. <code>突变元年</code> <code>伊甸之路</code></p>
-</blockquote>
-<h3 id="游戏产品特性分析方法"><a href="#游戏产品特性分析方法" class="headerlink" title="游戏产品特性分析方法"></a>游戏产品特性分析方法</h3><h4 id="游戏产品特性分析的基础：认真体验游，同时不断思考"><a href="#游戏产品特性分析的基础：认真体验游，同时不断思考" class="headerlink" title="游戏产品特性分析的基础：认真体验游，同时不断思考"></a>游戏产品特性分析的基础：认真体验游，同时不断思考</h4><p>想尽可能全面，准确，深入地对游戏进行分析，必须认真体验游戏，切忌只看视频和其他用户描述。</p>
-<p>在游戏分析过程中，用户逐渐熟悉和掌握游戏分析方法，甚至形成新的分析思路，从而在遇到游戏产品时能够<strong>快速形成认知</strong>。</p>
-<ul>
-<li>多玩同类游戏：在时间允许的情况下，尽可能多玩同类游戏</li>
-<li>随时记录：游戏时多做笔记，记录和跟踪你的游戏过程与思考</li>
-<li>归纳总结：体验游戏后有逻辑的归纳总结，包括自己对游戏的感想，关注点，同类游戏比较等等</li>
-</ul>
-<h4 id="分析游戏的第一步：通过多维度评估产品"><a href="#分析游戏的第一步：通过多维度评估产品" class="headerlink" title="分析游戏的第一步：通过多维度评估产品"></a>分析游戏的第一步：通过多维度评估产品</h4><p>下文列举了评估游戏的不同维度，这些维度代表了不同的切入角度和评判标准，通过这些维度评估，我们可以获得对一款游戏产品（以<code>皇室战争</code>为例）的全面理解：</p>
-<h5 id="玩法"><a href="#玩法" class="headerlink" title="玩法"></a>玩法</h5><ul>
-<li>创新性&emsp;在手游商创造性的体现出RTS玩法</li>
-<li>耐玩性&emsp;策略深度和变化性均较为出色</li>
-<li>契合度&emsp;玩法对题材的表达是否合适</li>
-</ul>
-<h5 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h5><ul>
-<li>辨识度&emsp;美术风格辨识度高</li>
-<li>美术质量&emsp;静态效果较好，动态效果尤为出色</li>
-<li>接受度&emsp;用户接受程度较高</li>
-</ul>
-<h5 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h5><ul>
-<li>操作方式&emsp;操作十分便捷</li>
-<li>信息呈现&emsp;信息呈现清晰，用户一目了然</li>
-</ul>
-<h5 id="题材"><a href="#题材" class="headerlink" title="题材"></a>题材</h5><ul>
-<li>新颖度&emsp;玩法新颖</li>
-<li>流行度 &emsp;有 <code>部落冲突</code> 的IP加成</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggyfvj8s6fj30xc0id15c.jpg"></p>
-<h4 id="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"><a href="#分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素" class="headerlink" title="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"></a>分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素</h4><h5 id="拆解产品主要元素"><a href="#拆解产品主要元素" class="headerlink" title="拆解产品主要元素"></a>拆解产品主要元素</h5><p>这款游戏最吸引人的地方在哪里？列出你认为最吸引人的3-4各方面，可以从玩法，美术，平台等方面考虑：</p>
-<ul>
-<li>卡组策略</li>
-<li>实时对抗</li>
-<li>移动平台</li>
-<li>临场指挥</li>
-</ul>
-<h5 id="归纳游戏产品类型"><a href="#归纳游戏产品类型" class="headerlink" title="归纳游戏产品类型"></a>归纳游戏产品类型</h5><p>根据游戏最主要的乐趣点进行类型界定：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">实时对抗 + 临场发挥 -&gt; RTS类型</span><br></pre></td></tr></table></figure>
-
-
-<h4 id="分析游戏第三步：将产品与所属类型的特性进行比较"><a href="#分析游戏第三步：将产品与所属类型的特性进行比较" class="headerlink" title="分析游戏第三步：将产品与所属类型的特性进行比较"></a>分析游戏第三步：将产品与所属类型的特性进行比较</h4><p>将产品与其所属类型的特性进行比较，分析产品继承，强化，甚至创造了哪些该类型的优点，同时解决了哪些该类型的缺点：</p>
-<h5 id="皇室战争"><a href="#皇室战争" class="headerlink" title="皇室战争"></a>皇室战争</h5><ul>
-<li>继承了什么品类的特点？</li>
-<li>在品类基础上有什么突破？</li>
-<li>解决了品类什么痛点？</li>
-</ul>
-<h5 id="RTS类型"><a href="#RTS类型" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
-<li>实时指挥的游戏运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-<li>门槛高，兴奋点滞后</li>
-<li>游戏负担重</li>
-</ul>
-<h5 id="皇室战争继承了RTS丰富策略实时对抗的优点"><a href="#皇室战争继承了RTS丰富策略实时对抗的优点" class="headerlink" title="皇室战争继承了RTS丰富策略实时对抗的优点"></a>皇室战争继承了RTS丰富策略实时对抗的优点</h5><ul>
-<li>卡牌相克明显</li>
-<li>组卡衍生战术多样性 </li>
-</ul>
-<blockquote>
-<p>eg. 巨人流，狗球流，自闭流…每个牌组只有8张牌，配卡方式多变，产生各种不同的战术</p>
-</blockquote>
-<ul>
-<li>实时操作与对抗</li>
-</ul>
-<blockquote>
-<p>eg. 实时操作单位，选择和改变策略；配合清晰合理的单位AI，营造初双方即时对抗博弈的体验</p>
-</blockquote>
-<h5 id="皇室战争-解决了RTS门槛高的问题"><a href="#皇室战争-解决了RTS门槛高的问题" class="headerlink" title="皇室战争 解决了RTS门槛高的问题"></a>皇室战争 解决了RTS门槛高的问题</h5><ul>
-<li>游戏时间短</li>
-</ul>
-<blockquote>
-<p>eg. 单局3-6分钟</p>
-</blockquote>
-<ul>
-<li>瞬时思考维度少</li>
-</ul>
-<blockquote>
-<p>eg. 恒大资源供给，简化内政，集中于战斗</p>
-</blockquote>
-<ul>
-<li>操作模式简单</li>
-</ul>
-<blockquote>
-<p>eg. 瞬时操作少，操作方式简单；在合适的时机，位置使用合适的卡牌</p>
-</blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggygkr3u8aj30xc0i3naz.jpg"></p>
-<h4 id="【小练习】-比较王者荣耀与RTS特性"><a href="#【小练习】-比较王者荣耀与RTS特性" class="headerlink" title="【小练习】 比较王者荣耀与RTS特性"></a>【小练习】 比较王者荣耀与RTS特性</h4><p>MOBA属于RTS的衍生类型，比较 <code>王者荣耀</code> 与RTS特性，分析其继承，强化，甚至创造了哪些RTS的优点，同时解决了哪些RTS的缺点：</p>
-<h5 id="王者荣耀"><a href="#王者荣耀" class="headerlink" title="王者荣耀"></a>王者荣耀</h5><ul>
-<li>继承了什么品类的特点？</li>
-<li>在品类基础上有什么突破？</li>
-<li>解决了品类什么痛点？</li>
-</ul>
-<h5 id="RTS类型-1"><a href="#RTS类型-1" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
-<li>实时指挥的游戏运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-<li>门槛高，兴奋点滞后</li>
-<li>游戏负担重</li>
-</ul>
-<h5 id="王者荣耀继承了RTS丰富策略实时对抗的优点"><a href="#王者荣耀继承了RTS丰富策略实时对抗的优点" class="headerlink" title="王者荣耀继承了RTS丰富策略实时对抗的优点"></a>王者荣耀继承了RTS丰富策略实时对抗的优点</h5><ul>
-<li>实时对抗的反馈与紧张+一定的战场模拟</li>
-<li>一定的策略深度（经济，成长，侦查，配合）</li>
-</ul>
-<h3 id="游戏类型特点分析方法"><a href="#游戏类型特点分析方法" class="headerlink" title="游戏类型特点分析方法"></a>游戏类型特点分析方法</h3><h4 id="分析游戏类型特点：总结同类型产品的共同点"><a href="#分析游戏类型特点：总结同类型产品的共同点" class="headerlink" title="分析游戏类型特点：总结同类型产品的共同点"></a>分析游戏类型特点：总结同类型产品的共同点</h4><h5 id="RTS同类型游戏"><a href="#RTS同类型游戏" class="headerlink" title="RTS同类型游戏"></a>RTS同类型游戏</h5><blockquote>
-<ul>
-<li><code>魔兽争霸3</code></li>
-<li><code>三国志大战</code></li>
-<li><code>全面战争:战锤2</code></li>
-<li><code>皇室战争</code></li>
-</ul>
-</blockquote>
-<h5 id="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"><a href="#一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性" class="headerlink" title="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"></a>一个游戏类型总会有各种各样的差异化产品，需要寻找它们的<strong>共性</strong></h5><blockquote>
-<p><code>魔兽争霸3</code></p>
-<ul>
-<li>PC平台 键鼠操作</li>
-<li>实时的‘内政-&gt;侦查-&gt;战斗’模式；矿点，商店等特殊地点的争夺贯穿整个游戏</li>
-</ul>
-<p><code>三国志大战</code></p>
-<ul>
-<li>街机平台 实体卡牌 + 触摸操作</li>
-<li>实时的‘资源-&gt;兵力-&gt;战斗’模式；地图区域的控制争夺贯穿整个游戏</li>
-</ul>
-<p><code>全面战争：战锤2</code></p>
-<ul>
-<li>PC平台 键鼠操作</li>
-<li>专注于实时的指挥与战斗；关键地形的争夺贯穿游戏过程</li>
-</ul>
-<p><code>皇室战争</code></p>
-<ul>
-<li>移动平台 触摸屏操作</li>
-<li>实时的 资源-&gt;兵力-&gt;战斗 模式</li>
-</ul>
-</blockquote>
-<p>共性：<strong>实时的运行机制和操作模式</strong> + <strong>丰富的策略与战场空间争夺元素</strong></p>
-<img src="https://img.3dmgame.com/UploadFiles/200908/20090831180642574.jpg" style="zoom:150%;" />
-
-
-
-<h5 id="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"><a href="#分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）" class="headerlink" title="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"></a>分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）</h5><ul>
-<li>回合制策略 - <code>文明6</code></li>
-<li>实时射击 - <code>绝地求生</code></li>
-</ul>
-<h5 id="分析游戏类型特点：寻找现实与游戏之间的映射"><a href="#分析游戏类型特点：寻找现实与游戏之间的映射" class="headerlink" title="分析游戏类型特点：寻找现实与游戏之间的映射"></a>分析游戏类型特点：寻找现实与游戏之间的映射</h5><p>很多游戏都可以视为对现实的一种映射，我们需要寻找 <strong>现实 &lt;–&gt; 游戏 的映射</strong></p>
-<blockquote>
-<p>格斗游戏</p>
-<ul>
-<li><code>VR战士</code> <code>街霸5</code> -&gt; 真实世界对战格斗</li>
-</ul>
-<p>射击</p>
-<ul>
-<li><code>绝地求生</code> <code>使命召唤系列</code> -&gt; 现实射击</li>
-</ul>
-<p>回合制策略</p>
-<ul>
-<li><code>文明6</code> <code>群星</code> -&gt; 国家管理与战争</li>
-</ul>
-<p>RTS</p>
-<ul>
-<li><code>全面战争：战锤2</code> <code>皇室战争 </code>-&gt; 战场指挥体验</li>
-</ul>
-</blockquote>
-<h5 id="通过多种方法总结游戏类型的特点"><a href="#通过多种方法总结游戏类型的特点" class="headerlink" title="通过多种方法总结游戏类型的特点"></a>通过多种方法总结游戏类型的特点</h5><p>RTS产品共性（优点）</p>
-<ul>
-<li>实时的运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-</ul>
-<p>RTS产品与其他类型产品差异（缺点）</p>
-<ul>
-<li>战场策略的实时还原</li>
-<li>门槛高，兴奋点滞后</li>
-</ul>
-<p>RTS产品与现实间的映射</p>
-<ul>
-<li>战场指挥体验</li>
-</ul>
-<h3 id="游戏类型趋势分析方法"><a href="#游戏类型趋势分析方法" class="headerlink" title="游戏类型趋势分析方法"></a>游戏类型趋势分析方法</h3><h4 id="分析游戏类型趋势：挑选重点产品进行对比"><a href="#分析游戏类型趋势：挑选重点产品进行对比" class="headerlink" title="分析游戏类型趋势：挑选重点产品进行对比"></a>分析游戏类型趋势：挑选重点产品进行对比</h4><p>在产品特性分析的基础上，我们库乐队特定游戏类型的发展趋势进行分析研究</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">挑选代表产品 -&gt; 总结每个产品的特点 -&gt; 比较产品</span><br></pre></td></tr></table></figure>
-
-
-
-
-<h4 id="比较产品，寻找类型发展趋势"><a href="#比较产品，寻找类型发展趋势" class="headerlink" title="比较产品，寻找类型发展趋势"></a>比较产品，寻找类型发展趋势</h4><blockquote>
-<p>时间轴</p>
-<ul>
-<li>2002 <code>魔兽争霸3</code> 内容非常全面 策略非常丰富 指挥体验完善 操作复杂 门槛高</li>
-<li>2005 强调战斗 策略丰富 指挥体验非常出色 门槛较高 新平台</li>
-<li>2006 <code>英雄连</code></li>
-<li>2009 <code>英雄联盟</code> 强调战斗和配合 策略丰富 操作方式简单 门槛低</li>
-<li>2010 <code>星际争霸2</code> 类似于WAR3的传统RTS</li>
-<li>2013 <code>横扫千星</code></li>
-<li>2015 <code>灰蛊</code> <code>王者荣耀</code> - 英雄联盟移动版</li>
-<li>2016 <code>奇点灰烬</code></li>
-<li>2017 强调战斗 战场策略丰富 指挥体验完善 操作较为复杂 门槛较高</li>
-</ul>
-</blockquote>
-<ul>
-<li>核心：实时的策略性，战场体验，指挥感仍是RTS的核心</li>
-<li>内容侧重：不追求内容面面俱到，而是集中于某些模块（例如战斗）</li>
-<li>门槛：门槛逐渐降低，游戏节奏逐渐加快</li>
-<li>平台：新平台出现扩大用户规模</li>
-<li>技术：新技术的应用改进RTS形态（例如新操作模式），使其满足新用户的需求</li>
-</ul>
-<p>###【课后作业】 分析特定产品</p>
-<p><strong>（1）Apex Legends</strong></p>
-<ul>
-<li>继承了什么大逃杀品类的特点</li>
-<li>在大逃杀品类基础上有什么突破</li>
-<li>解决了大逃杀品类的什么问题</li>
-</ul>
-<p><strong>（2）大逃杀类型特性</strong></p>
-<blockquote>
-<ul>
-<li><code>H1Z1</code></li>
-<li><code>绝地求生</code></li>
-<li><code>堡垒之夜</code></li>
-<li><code>黑色行动4</code></li>
-</ul>
-</blockquote>
-<p><strong>（3）只狼</strong></p>
-<ul>
-<li>继承了什么ACT品类的特点</li>
-<li>在ACT品类基础上有什么突破</li>
-<li>解决了ACT品类的什么问题</li>
-</ul>
-<p><strong>（4）ACT类型特性</strong></p>
-<blockquote>
-<ul>
-<li><code>鬼泣</code></li>
-<li><code>猎天使魔女</code></li>
-<li><code>黑暗之魂</code></li>
-<li><code>战神</code></li>
-</ul>
-</blockquote>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/dafortin">David Fortin</a>
-    </i>
-  </font>
-</div>]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>中国游戏市场简析</title>
     <url>/archives/undefined.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggxwpu9b5oj311i0p0n12.jpg"></p>
@@ -983,6 +689,300 @@
 <h4 id="海外厂商国内分公司"><a href="#海外厂商国内分公司" class="headerlink" title="海外厂商国内分公司"></a>海外厂商国内分公司</h4><p>承担总部赋予各种功能的中国分公司。<br>代表厂商有：<code>育碧</code> <code>EA</code> <code>暴雪</code> <code>光荣</code> <code>索尼</code>  </p>
 <h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>中国游戏行业是丰富、复杂的市场，但庞大的用户基数与持续需求，依然展露着中国市场的前景。不断进取的行业从业者，也将中国游戏往全球遍地开花</p>
 ]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>游戏分析方法</title>
+    <url>/archives/f40ec98b.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggxxkrdi94j312w0ihn3n.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/60494431/Clash-Royale-Royal-Ghost">Clash Royale - Royal Ghost</a> by 
+      <a href="https://www.behance.net/dafortin">David Fortin</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文围绕游戏分析方法展开。游戏分析方法分为四个部分，首先是游戏分析方法是什么以及它的意义，也就是我们为什么要分析游戏方法；之后是关于游戏产品特性；再往下是关于游戏类型，即一个游戏品类的分析；最后是游戏类型趋势分析，游戏品类有什么变化和发展。</p>
+<a id="more"></a>
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#101;&#101;&#x6e;&#x78;&#x75;&#64;&#x74;&#101;&#110;&#99;&#x65;&#110;&#x74;&#46;&#99;&#x6f;&#x6d;">&#108;&#101;&#101;&#x6e;&#x78;&#x75;&#64;&#x74;&#101;&#110;&#99;&#x65;&#110;&#x74;&#46;&#99;&#x6f;&#x6d;</a></strong> </li>
+</ul>
+<h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
+<blockquote>
+<p>eg. 产品类型，相较同类产品的突破</p>
+</blockquote>
+<h5 id="商业前景分析"><a href="#商业前景分析" class="headerlink" title="商业前景分析"></a>商业前景分析</h5><p>关注产品的商业潜力。</p>
+<blockquote>
+<p> eg. 目标用户数量，上线后预期市场表现</p>
+</blockquote>
+<h5 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h5><p>产品上线后调整的重要依据</p>
+<blockquote>
+<p>eg. 游戏上线后留存，游戏上线后收入</p>
+</blockquote>
+<h4 id="游戏特性分析对游戏从业人员和游戏项目意义重大"><a href="#游戏特性分析对游戏从业人员和游戏项目意义重大" class="headerlink" title="游戏特性分析对游戏从业人员和游戏项目意义重大"></a>游戏特性分析对游戏从业人员和游戏项目意义重大</h4><p>游戏特性分析是游戏从业人员熟悉和理解游戏的捷径。</p>
+<p>用户在熟悉和掌握游戏分析方法后，能够在遇到游戏产品时能够快速形成认知 。</p>
+<p>项目研发的各个环节彼此影响，只有完美结合，才能诞生顶级作品，<strong>对游戏的认知</strong>就是串联所有环节的一把<strong>钥匙。</strong></p>
+<p>游戏和程序部门对设计方案提出<strong>修改反馈</strong>。团队成员对游戏的认知越<strong>深刻全面</strong>，提出的修改反馈越<strong>及时准确</strong>，反之，则可能在资源和功能制作完成并进入**<em>整合阶段**</em>才会发现问题并提出修改反馈。</p>
+<h4 id="现代游戏特性分析需要分析方法的支持"><a href="#现代游戏特性分析需要分析方法的支持" class="headerlink" title="现代游戏特性分析需要分析方法的支持"></a>现代游戏特性分析需要分析方法的支持</h4><p>目前游戏产品的<strong>分析难度</strong>与<strong>复杂度</strong>逐渐变高，因此科学的分析方法的作用愈来愈大</p>
+<p>游戏特性分析与方法（简称游戏分析方法）的目的在于<strong>减少</strong>分析过程中的<strong>随意性</strong>和<strong>片面性</strong>，使得分析更加全面与深入</p>
+<p>现在的游戏通常较为复杂，呈现<strong>混合游戏类型</strong> </p>
+<blockquote>
+<p> eg. <code>荒野大镖客2</code>的内容和玩法极为丰富</p>
+</blockquote>
+<p>相同的游戏元素在不同的游戏类型中所占<strong>权重很大</strong></p>
+<blockquote>
+<p> eg. <code>突变元年</code> <code>伊甸之路</code></p>
+</blockquote>
+<h3 id="游戏产品特性分析方法"><a href="#游戏产品特性分析方法" class="headerlink" title="游戏产品特性分析方法"></a>游戏产品特性分析方法</h3><h4 id="游戏产品特性分析的基础：认真体验游，同时不断思考"><a href="#游戏产品特性分析的基础：认真体验游，同时不断思考" class="headerlink" title="游戏产品特性分析的基础：认真体验游，同时不断思考"></a>游戏产品特性分析的基础：认真体验游，同时不断思考</h4><p>想尽可能全面，准确，深入地对游戏进行分析，必须认真体验游戏，切忌只看视频和其他用户描述。</p>
+<p>在游戏分析过程中，用户逐渐熟悉和掌握游戏分析方法，甚至形成新的分析思路，从而在遇到游戏产品时能够<strong>快速形成认知</strong>。</p>
+<ul>
+<li>多玩同类游戏：在时间允许的情况下，尽可能多玩同类游戏</li>
+<li>随时记录：游戏时多做笔记，记录和跟踪你的游戏过程与思考</li>
+<li>归纳总结：体验游戏后有逻辑的归纳总结，包括自己对游戏的感想，关注点，同类游戏比较等等</li>
+</ul>
+<h4 id="分析游戏的第一步：通过多维度评估产品"><a href="#分析游戏的第一步：通过多维度评估产品" class="headerlink" title="分析游戏的第一步：通过多维度评估产品"></a>分析游戏的第一步：通过多维度评估产品</h4><p>下文列举了评估游戏的不同维度，这些维度代表了不同的切入角度和评判标准，通过这些维度评估，我们可以获得对一款游戏产品（以<code>皇室战争</code>为例）的全面理解：</p>
+<h5 id="玩法"><a href="#玩法" class="headerlink" title="玩法"></a>玩法</h5><ul>
+<li>创新性&emsp;在手游商创造性的体现出RTS玩法</li>
+<li>耐玩性&emsp;策略深度和变化性均较为出色</li>
+<li>契合度&emsp;玩法对题材的表达是否合适</li>
+</ul>
+<h5 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h5><ul>
+<li>辨识度&emsp;美术风格辨识度高</li>
+<li>美术质量&emsp;静态效果较好，动态效果尤为出色</li>
+<li>接受度&emsp;用户接受程度较高</li>
+</ul>
+<h5 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h5><ul>
+<li>操作方式&emsp;操作十分便捷</li>
+<li>信息呈现&emsp;信息呈现清晰，用户一目了然</li>
+</ul>
+<h5 id="题材"><a href="#题材" class="headerlink" title="题材"></a>题材</h5><ul>
+<li>新颖度&emsp;玩法新颖</li>
+<li>流行度 &emsp;有 <code>部落冲突</code> 的IP加成</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggyfvj8s6fj30xc0id15c.jpg"></p>
+<h4 id="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"><a href="#分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素" class="headerlink" title="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"></a>分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素</h4><h5 id="拆解产品主要元素"><a href="#拆解产品主要元素" class="headerlink" title="拆解产品主要元素"></a>拆解产品主要元素</h5><p>这款游戏最吸引人的地方在哪里？列出你认为最吸引人的3-4各方面，可以从玩法，美术，平台等方面考虑：</p>
+<ul>
+<li>卡组策略</li>
+<li>实时对抗</li>
+<li>移动平台</li>
+<li>临场指挥</li>
+</ul>
+<h5 id="归纳游戏产品类型"><a href="#归纳游戏产品类型" class="headerlink" title="归纳游戏产品类型"></a>归纳游戏产品类型</h5><p>根据游戏最主要的乐趣点进行类型界定：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">实时对抗 + 临场发挥 -&gt; RTS类型</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="分析游戏第三步：将产品与所属类型的特性进行比较"><a href="#分析游戏第三步：将产品与所属类型的特性进行比较" class="headerlink" title="分析游戏第三步：将产品与所属类型的特性进行比较"></a>分析游戏第三步：将产品与所属类型的特性进行比较</h4><p>将产品与其所属类型的特性进行比较，分析产品继承，强化，甚至创造了哪些该类型的优点，同时解决了哪些该类型的缺点：</p>
+<h5 id="皇室战争"><a href="#皇室战争" class="headerlink" title="皇室战争"></a>皇室战争</h5><ul>
+<li>继承了什么品类的特点？</li>
+<li>在品类基础上有什么突破？</li>
+<li>解决了品类什么痛点？</li>
+</ul>
+<h5 id="RTS类型"><a href="#RTS类型" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
+<li>实时指挥的游戏运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+<li>门槛高，兴奋点滞后</li>
+<li>游戏负担重</li>
+</ul>
+<h5 id="皇室战争继承了RTS丰富策略实时对抗的优点"><a href="#皇室战争继承了RTS丰富策略实时对抗的优点" class="headerlink" title="皇室战争继承了RTS丰富策略实时对抗的优点"></a>皇室战争继承了RTS丰富策略实时对抗的优点</h5><ul>
+<li>卡牌相克明显</li>
+<li>组卡衍生战术多样性 </li>
+</ul>
+<blockquote>
+<p>eg. 巨人流，狗球流，自闭流…每个牌组只有8张牌，配卡方式多变，产生各种不同的战术</p>
+</blockquote>
+<ul>
+<li>实时操作与对抗</li>
+</ul>
+<blockquote>
+<p>eg. 实时操作单位，选择和改变策略；配合清晰合理的单位AI，营造初双方即时对抗博弈的体验</p>
+</blockquote>
+<h5 id="皇室战争-解决了RTS门槛高的问题"><a href="#皇室战争-解决了RTS门槛高的问题" class="headerlink" title="皇室战争 解决了RTS门槛高的问题"></a>皇室战争 解决了RTS门槛高的问题</h5><ul>
+<li>游戏时间短</li>
+</ul>
+<blockquote>
+<p>eg. 单局3-6分钟</p>
+</blockquote>
+<ul>
+<li>瞬时思考维度少</li>
+</ul>
+<blockquote>
+<p>eg. 恒大资源供给，简化内政，集中于战斗</p>
+</blockquote>
+<ul>
+<li>操作模式简单</li>
+</ul>
+<blockquote>
+<p>eg. 瞬时操作少，操作方式简单；在合适的时机，位置使用合适的卡牌</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggygkr3u8aj30xc0i3naz.jpg"></p>
+<h4 id="【小练习】-比较王者荣耀与RTS特性"><a href="#【小练习】-比较王者荣耀与RTS特性" class="headerlink" title="【小练习】 比较王者荣耀与RTS特性"></a>【小练习】 比较王者荣耀与RTS特性</h4><p>MOBA属于RTS的衍生类型，比较 <code>王者荣耀</code> 与RTS特性，分析其继承，强化，甚至创造了哪些RTS的优点，同时解决了哪些RTS的缺点：</p>
+<h5 id="王者荣耀"><a href="#王者荣耀" class="headerlink" title="王者荣耀"></a>王者荣耀</h5><ul>
+<li>继承了什么品类的特点？</li>
+<li>在品类基础上有什么突破？</li>
+<li>解决了品类什么痛点？</li>
+</ul>
+<h5 id="RTS类型-1"><a href="#RTS类型-1" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
+<li>实时指挥的游戏运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+<li>门槛高，兴奋点滞后</li>
+<li>游戏负担重</li>
+</ul>
+<h5 id="王者荣耀继承了RTS丰富策略实时对抗的优点"><a href="#王者荣耀继承了RTS丰富策略实时对抗的优点" class="headerlink" title="王者荣耀继承了RTS丰富策略实时对抗的优点"></a>王者荣耀继承了RTS丰富策略实时对抗的优点</h5><ul>
+<li>实时对抗的反馈与紧张+一定的战场模拟</li>
+<li>一定的策略深度（经济，成长，侦查，配合）</li>
+</ul>
+<h3 id="游戏类型特点分析方法"><a href="#游戏类型特点分析方法" class="headerlink" title="游戏类型特点分析方法"></a>游戏类型特点分析方法</h3><h4 id="分析游戏类型特点：总结同类型产品的共同点"><a href="#分析游戏类型特点：总结同类型产品的共同点" class="headerlink" title="分析游戏类型特点：总结同类型产品的共同点"></a>分析游戏类型特点：总结同类型产品的共同点</h4><h5 id="RTS同类型游戏"><a href="#RTS同类型游戏" class="headerlink" title="RTS同类型游戏"></a>RTS同类型游戏</h5><blockquote>
+<ul>
+<li><code>魔兽争霸3</code></li>
+<li><code>三国志大战</code></li>
+<li><code>全面战争:战锤2</code></li>
+<li><code>皇室战争</code></li>
+</ul>
+</blockquote>
+<h5 id="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"><a href="#一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性" class="headerlink" title="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"></a>一个游戏类型总会有各种各样的差异化产品，需要寻找它们的<strong>共性</strong></h5><blockquote>
+<p><code>魔兽争霸3</code></p>
+<ul>
+<li>PC平台 键鼠操作</li>
+<li>实时的‘内政-&gt;侦查-&gt;战斗’模式；矿点，商店等特殊地点的争夺贯穿整个游戏</li>
+</ul>
+<p><code>三国志大战</code></p>
+<ul>
+<li>街机平台 实体卡牌 + 触摸操作</li>
+<li>实时的‘资源-&gt;兵力-&gt;战斗’模式；地图区域的控制争夺贯穿整个游戏</li>
+</ul>
+<p><code>全面战争：战锤2</code></p>
+<ul>
+<li>PC平台 键鼠操作</li>
+<li>专注于实时的指挥与战斗；关键地形的争夺贯穿游戏过程</li>
+</ul>
+<p><code>皇室战争</code></p>
+<ul>
+<li>移动平台 触摸屏操作</li>
+<li>实时的 资源-&gt;兵力-&gt;战斗 模式</li>
+</ul>
+</blockquote>
+<p>共性：<strong>实时的运行机制和操作模式</strong> + <strong>丰富的策略与战场空间争夺元素</strong></p>
+<img src="https://img.3dmgame.com/UploadFiles/200908/20090831180642574.jpg" style="zoom:150%;" />
+
+
+
+<h5 id="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"><a href="#分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）" class="headerlink" title="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"></a>分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）</h5><ul>
+<li>回合制策略 - <code>文明6</code></li>
+<li>实时射击 - <code>绝地求生</code></li>
+</ul>
+<h5 id="分析游戏类型特点：寻找现实与游戏之间的映射"><a href="#分析游戏类型特点：寻找现实与游戏之间的映射" class="headerlink" title="分析游戏类型特点：寻找现实与游戏之间的映射"></a>分析游戏类型特点：寻找现实与游戏之间的映射</h5><p>很多游戏都可以视为对现实的一种映射，我们需要寻找 <strong>现实 &lt;–&gt; 游戏 的映射</strong></p>
+<blockquote>
+<p>格斗游戏</p>
+<ul>
+<li><code>VR战士</code> <code>街霸5</code> -&gt; 真实世界对战格斗</li>
+</ul>
+<p>射击</p>
+<ul>
+<li><code>绝地求生</code> <code>使命召唤系列</code> -&gt; 现实射击</li>
+</ul>
+<p>回合制策略</p>
+<ul>
+<li><code>文明6</code> <code>群星</code> -&gt; 国家管理与战争</li>
+</ul>
+<p>RTS</p>
+<ul>
+<li><code>全面战争：战锤2</code> <code>皇室战争 </code>-&gt; 战场指挥体验</li>
+</ul>
+</blockquote>
+<h5 id="通过多种方法总结游戏类型的特点"><a href="#通过多种方法总结游戏类型的特点" class="headerlink" title="通过多种方法总结游戏类型的特点"></a>通过多种方法总结游戏类型的特点</h5><p>RTS产品共性（优点）</p>
+<ul>
+<li>实时的运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+</ul>
+<p>RTS产品与其他类型产品差异（缺点）</p>
+<ul>
+<li>战场策略的实时还原</li>
+<li>门槛高，兴奋点滞后</li>
+</ul>
+<p>RTS产品与现实间的映射</p>
+<ul>
+<li>战场指挥体验</li>
+</ul>
+<h3 id="游戏类型趋势分析方法"><a href="#游戏类型趋势分析方法" class="headerlink" title="游戏类型趋势分析方法"></a>游戏类型趋势分析方法</h3><h4 id="分析游戏类型趋势：挑选重点产品进行对比"><a href="#分析游戏类型趋势：挑选重点产品进行对比" class="headerlink" title="分析游戏类型趋势：挑选重点产品进行对比"></a>分析游戏类型趋势：挑选重点产品进行对比</h4><p>在产品特性分析的基础上，我们库乐队特定游戏类型的发展趋势进行分析研究</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">挑选代表产品 -&gt; 总结每个产品的特点 -&gt; 比较产品</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h4 id="比较产品，寻找类型发展趋势"><a href="#比较产品，寻找类型发展趋势" class="headerlink" title="比较产品，寻找类型发展趋势"></a>比较产品，寻找类型发展趋势</h4><blockquote>
+<p>时间轴</p>
+<ul>
+<li>2002 <code>魔兽争霸3</code> 内容非常全面 策略非常丰富 指挥体验完善 操作复杂 门槛高</li>
+<li>2005 强调战斗 策略丰富 指挥体验非常出色 门槛较高 新平台</li>
+<li>2006 <code>英雄连</code></li>
+<li>2009 <code>英雄联盟</code> 强调战斗和配合 策略丰富 操作方式简单 门槛低</li>
+<li>2010 <code>星际争霸2</code> 类似于WAR3的传统RTS</li>
+<li>2013 <code>横扫千星</code></li>
+<li>2015 <code>灰蛊</code> <code>王者荣耀</code> - 英雄联盟移动版</li>
+<li>2016 <code>奇点灰烬</code></li>
+<li>2017 强调战斗 战场策略丰富 指挥体验完善 操作较为复杂 门槛较高</li>
+</ul>
+</blockquote>
+<ul>
+<li>核心：实时的策略性，战场体验，指挥感仍是RTS的核心</li>
+<li>内容侧重：不追求内容面面俱到，而是集中于某些模块（例如战斗）</li>
+<li>门槛：门槛逐渐降低，游戏节奏逐渐加快</li>
+<li>平台：新平台出现扩大用户规模</li>
+<li>技术：新技术的应用改进RTS形态（例如新操作模式），使其满足新用户的需求</li>
+</ul>
+<p>###【课后作业】 分析特定产品</p>
+<p><strong>（1）Apex Legends</strong></p>
+<ul>
+<li>继承了什么大逃杀品类的特点</li>
+<li>在大逃杀品类基础上有什么突破</li>
+<li>解决了大逃杀品类的什么问题</li>
+</ul>
+<p><strong>（2）大逃杀类型特性</strong></p>
+<blockquote>
+<ul>
+<li><code>H1Z1</code></li>
+<li><code>绝地求生</code></li>
+<li><code>堡垒之夜</code></li>
+<li><code>黑色行动4</code></li>
+</ul>
+</blockquote>
+<p><strong>（3）只狼</strong></p>
+<ul>
+<li>继承了什么ACT品类的特点</li>
+<li>在ACT品类基础上有什么突破</li>
+<li>解决了ACT品类的什么问题</li>
+</ul>
+<p><strong>（4）ACT类型特性</strong></p>
+<blockquote>
+<ul>
+<li><code>鬼泣</code></li>
+<li><code>猎天使魔女</code></li>
+<li><code>黑暗之魂</code></li>
+<li><code>战神</code></li>
+</ul>
+</blockquote>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/dafortin">David Fortin</a>
+    </i>
+  </font>
+</div>]]></content>
       <categories>
         <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
       </categories>
@@ -2504,6 +2504,91 @@
       </tags>
   </entry>
   <entry>
+    <title>Project SetUp</title>
+    <url>/archives/2b07a0e9.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gne54jvymsj31000u0thh.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/35750281/The-quiet-room-Voxel-art">The quiet room - Voxel art</a> by 
+      <a href="https://www.behance.net/sircarma">Antoine Lendrevie</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列我们将从零开始开发一个自己的游戏引擎。这一节主要是关于引擎开发的前期准备和相关开发环境的配置。</p>
+<a id="more"></a>
+
+
+
+<h3 id="创建托管仓库"><a href="#创建托管仓库" class="headerlink" title="创建托管仓库"></a>创建托管仓库</h3><p>在Github中新建一个新的仓库，我们这里想用<code>Infinite</code>作为引擎的名字，意为“无限”，也希望大家可以用它来将无限的创意付诸实际：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230346928.png"></p>
+<p>创建好之后我们会有证书和自述文件，简单介绍一下自己的项目即可：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230413954.png"></p>
+<p>我们已经拥有了所有的这些，可以<code>git clone</code>并开始实际创建项目了。</p>
+<h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><p>打开<code>Visual Studio</code>，点击<code>File</code>-<code>New</code>-<code>Project</code>，然后创建一个空的C++项目：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230516025.png"></p>
+<p>现在我们打开它，就可以得到<code>Infinite</code>的解决方案了：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230539984.png"></p>
+<p>右键项目，在文件资源管理器中打开文件夹，我们发现在<code>Infinite</code>的文件夹中有一个名为<code>Infinite</code>的项目，因此Infinite到处都是。</p>
+<p>接下来我们打开命令提示行，进入该文件夹进行<code>git clone</code>将其克隆到一个并不在乎的文件夹中：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/Yousazoe/Infinite Git</span><br></pre></td></tr></table></figure>
+
+
+<p>进入文件夹<code>Git</code>显示隐藏文件（会多一个<code>.git</code>文件夹），将所有的一切拷贝到<code>Infinite</code>文件夹中，然后删除原来存放的<code>Git</code>文件夹，得到我们的最终结果。</p>
+<p>基本上，我们已经设法将git存储库的东西克隆到我们的项目文件夹中，比如可以看到我们通过github存储库创建的许可和自述文件，所以我们手动完成了将解决方案和git存储库放置在同一目录中。</p>
+<h3 id="静态库-or-动态库"><a href="#静态库-or-动态库" class="headerlink" title="静态库 or 动态库"></a>静态库 or 动态库</h3><p>我们继续进行实际的设置。回到<code>Visual Studio</code>，我们看到的是<code>Infinite</code>项目文件和解决方案，现在我们的解决方案将不仅包含引擎，实际上是Windows上将其构建为动态链接库，至少是一个dll文件。所以我们要实际执行的操作是创建一个可执行文件的应用程序项目，也就是Windows中的一个<code>.exe</code>文件，我们要将该引擎实际链接到这个<code>.exe</code>文件中。</p>
+<p>现在有两种方法可以做到这一点，可以使用静态库或自己使用动态库。我们选择dll动态库的原因是我们可以选择加载和卸载它，这主要是因为我们要拥有很多依赖关系必须链接到我们的库中。如果我们使用静态库基本上意味着我们拥有的依赖库实际上必须将其链接到我们的游戏中，而dll基本上就像是一个<code>.exe</code>文件，所以我们实际上可以将所有内容链接到它们中，这样我们的游戏将仅依赖于包含以下内容的单个dll文件：拥有它所需要的一切而不是拥有数量庞大的其他类型的库文件。</p>
+<p>本质上，我们最终要做的是将所有内容链接到引擎dll有关依赖项，这意味着它们都需要成为静态库，因此我们将所有这些静态库链接到引擎中dll，然后将引擎dll链接到我们的游戏中。</p>
+<h3 id="平台和配置"><a href="#平台和配置" class="headerlink" title="平台和配置"></a>平台和配置</h3><p>右键属性，进入配置管理器，我们有两种活动解决方案平台：<code>x86</code>和<code>x64</code>。现在我不是很想支持32位因为现在已经2021年了，32位不是我想考虑的平台，支持可能是出于一些遗留问题的原因可能是个好主意，但我选择拒绝支持。</p>
+<p>所以我们编辑删除<code>x86</code>平台，确定它已经消失了：</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50lr7khj30rs0j8tag.jpg"></p>
+<p>现在我们拥有一个平台<code>x64</code>，接着去修改所有配置中的配置类型，从<code>.exe</code>改为<code>.dll</code>：</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50kw6wpj30rs0j877b.jpg"></p>
+<p>另外需要修改的是输出目录和中间目录，<code>Visual Studio</code>默认的配置并不是最佳的，而我们想把解决方案目录中名为<code>bin</code>的文件夹中所有内容都转移到该位置：</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">- $(SolutionDir)$(Platform)\$(Configuration)\</span></span><br><span class="line"><span class="addition">+ $(SolutionDir)bin\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+ $(SolutionDir)bin\int\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br><span class="line">or</span><br><span class="line"><span class="addition">+ $(SolutionDir)bin-int\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br></pre></td></tr></table></figure>
+
+
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50h7wh0j30yk0j8421.jpg"></p>
+<p>下一件事就是右键单击解决方案文件上，点击添加，新建一个空的C++项目，我们将其命名为<code>Sandbox</code>沙盒。我们有我们的引擎，但是现在我们需要一个应用程序使用我们的引擎，因此我将其称为“沙盒”。</p>
+<p>之后对沙盒进行配置，和之前一样移除对32位平台的支持并更改输出目录和中间目录。需要注意的是和之前不同，沙盒的配置类型是一个<code>.exe</code>的应用程序，这里无需修改。</p>
+<h3 id="设置启动项"><a href="#设置启动项" class="headerlink" title="设置启动项"></a>设置启动项</h3><p>最后右键沙盒项目，设置为启动项目。在<code>Visual Studio</code>中保存更改，用其它文本编辑器（这里我用的<code>Atom</code>）打开解决方案文件<code>Infinite.sln</code>，把刚才的这个沙盒项目从列表中的第二事件调整为第一事件：</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">﻿</span><br><span class="line">Microsoft Visual Studio Solution File, Format Version 12.00</span><br><span class="line"># Visual Studio Version 16</span><br><span class="line">VisualStudioVersion = 16.0.30804.86</span><br><span class="line">MinimumVisualStudioVersion = 10.0.40219.1</span><br><span class="line"><span class="deletion">- Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Infinite&quot;, &quot;Infinite\Infinite.vcxproj&quot;, &quot;&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;&quot;</span></span><br><span class="line"><span class="deletion">- EndProject</span></span><br><span class="line">Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Sandbox&quot;, &quot;Sandbox\Sandbox.vcxproj&quot;, &quot;&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;&quot;</span><br><span class="line"><span class="deletion">- EndProject</span></span><br><span class="line"><span class="addition">+ Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Infinite&quot;, &quot;Infinite\Infinite.vcxproj&quot;, &quot;&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;&quot;</span></span><br><span class="line"><span class="addition">+ EndProject</span></span><br><span class="line">Global</span><br><span class="line">	GlobalSection(SolutionConfigurationPlatforms) = preSolution</span><br><span class="line">		Debug|x64 = Debug|x64</span><br><span class="line">		Release|x64 = Release|x64</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(ProjectConfigurationPlatforms) = postSolution</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Debug|x64.ActiveCfg = Debug|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Debug|x64.Build.0 = Debug|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Release|x64.ActiveCfg = Release|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Release|x64.Build.0 = Release|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Debug|x64.ActiveCfg = Debug|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Debug|x64.Build.0 = Debug|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Release|x64.ActiveCfg = Release|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Release|x64.Build.0 = Release|x64</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(SolutionProperties) = preSolution</span><br><span class="line">		HideSolutionNode = FALSE</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(ExtensibilityGlobals) = postSolution</span><br><span class="line">		SolutionGuid = &#123;93C2B59B-B64B-4873-9805-4CBCD84336E4&#125;</span><br><span class="line">	EndGlobalSection</span><br><span class="line">EndGlobal</span><br></pre></td></tr></table></figure>
+<p>这样沙盒会成为启动项目而不是<code>Infinite</code>，如果是<code>Infinite</code>则显然不会运行其dll文件。</p>
+<p>ok，现在我们已经构建一个基本的结构，那么我们来将两个项目链接在一起。右键单击沙盒，添加引用：</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50ea03ej30rs0j40tg.jpg"></p>
+<p>这意味着当<code>Infinite</code>实际编译并生成静态库文件时将链接到沙盒中。它会自动为我们链接引擎库文件，但为什么它是一个lib文件呢？这是因为当我们在<code>Visual Studio</code>编译dll文件时，它实际上会生成一个lib文件，其中会包含每种功能的种类，我们实际是从dll文件中导出。</p>
+<p>分别为两个项目新建名为<code>src</code>的文件夹，在<code>Infinite</code>中新建<code>Test.h</code>的头文件和<code>Test.cpp</code>的测试点并编写测试：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">	_declspec(dllexport) <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<p>以最基本的打印功能作为测试，输出信息<code>Welcome To Infinite Engine!</code>。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;Test.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Welcome To Infinite Engine!&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+<p>在沙盒项目中新建<code>Application.cpp</code>，对之前的代码进行测试：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">  _declspec(dllimport) <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  Infinite::Print();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>如果直接<code>Build</code>运行的话会报错缺少<code>Infinite.dll</code>，这部分的自动化我们之后再考虑，现在手动从文件夹中拖拽到沙盒中，再次运行打印出信息：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">&quot;Welcome To Infinite Engine!&quot;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>游戏引擎开发 (Game Engine Series)</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>Game Engine</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2D游戏开发</title>
     <url>/archives/6487e0f7.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkrfcylq45j312w0gak12.jpg"></p>
@@ -2595,94 +2680,9 @@
         <category>游戏开发 (Game Development)</category>
       </categories>
       <tags>
+        <tag>C++</tag>
         <tag>Game Develop</tag>
         <tag>SEGA</tag>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Project SetUp</title>
-    <url>/archives/2b07a0e9.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gne54jvymsj31000u0thh.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/35750281/The-quiet-room-Voxel-art">The quiet room - Voxel art</a> by 
-      <a href="https://www.behance.net/sircarma">Antoine Lendrevie</a>
-    </i>
-  </font>
-</div>
-
-
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列我们将从零开始开发一个自己的游戏引擎。这一节主要是关于引擎开发的前期准备和相关开发环境的配置。</p>
-<a id="more"></a>
-
-
-
-<h3 id="创建托管仓库"><a href="#创建托管仓库" class="headerlink" title="创建托管仓库"></a>创建托管仓库</h3><p>在Github中新建一个新的仓库，我们这里想用<code>Infinite</code>作为引擎的名字，意为“无限”，也希望大家可以用它来将无限的创意付诸实际：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230346928.png"></p>
-<p>创建好之后我们会有证书和自述文件，简单介绍一下自己的项目即可：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230413954.png"></p>
-<p>我们已经拥有了所有的这些，可以<code>git clone</code>并开始实际创建项目了。</p>
-<h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><p>打开<code>Visual Studio</code>，点击<code>File</code>-<code>New</code>-<code>Project</code>，然后创建一个空的C++项目：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230516025.png"></p>
-<p>现在我们打开它，就可以得到<code>Infinite</code>的解决方案了：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230539984.png"></p>
-<p>右键项目，在文件资源管理器中打开文件夹，我们发现在<code>Infinite</code>的文件夹中有一个名为<code>Infinite</code>的项目，因此Infinite到处都是。</p>
-<p>接下来我们打开命令提示行，进入该文件夹进行<code>git clone</code>将其克隆到一个并不在乎的文件夹中：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/Yousazoe/Infinite Git</span><br></pre></td></tr></table></figure>
-
-
-<p>进入文件夹<code>Git</code>显示隐藏文件（会多一个<code>.git</code>文件夹），将所有的一切拷贝到<code>Infinite</code>文件夹中，然后删除原来存放的<code>Git</code>文件夹，得到我们的最终结果。</p>
-<p>基本上，我们已经设法将git存储库的东西克隆到我们的项目文件夹中，比如可以看到我们通过github存储库创建的许可和自述文件，所以我们手动完成了将解决方案和git存储库放置在同一目录中。</p>
-<h3 id="静态库-or-动态库"><a href="#静态库-or-动态库" class="headerlink" title="静态库 or 动态库"></a>静态库 or 动态库</h3><p>我们继续进行实际的设置。回到<code>Visual Studio</code>，我们看到的是<code>Infinite</code>项目文件和解决方案，现在我们的解决方案将不仅包含引擎，实际上是Windows上将其构建为动态链接库，至少是一个dll文件。所以我们要实际执行的操作是创建一个可执行文件的应用程序项目，也就是Windows中的一个<code>.exe</code>文件，我们要将该引擎实际链接到这个<code>.exe</code>文件中。</p>
-<p>现在有两种方法可以做到这一点，可以使用静态库或自己使用动态库。我们选择dll动态库的原因是我们可以选择加载和卸载它，这主要是因为我们要拥有很多依赖关系必须链接到我们的库中。如果我们使用静态库基本上意味着我们拥有的依赖库实际上必须将其链接到我们的游戏中，而dll基本上就像是一个<code>.exe</code>文件，所以我们实际上可以将所有内容链接到它们中，这样我们的游戏将仅依赖于包含以下内容的单个dll文件：拥有它所需要的一切而不是拥有数量庞大的其他类型的库文件。</p>
-<p>本质上，我们最终要做的是将所有内容链接到引擎dll有关依赖项，这意味着它们都需要成为静态库，因此我们将所有这些静态库链接到引擎中dll，然后将引擎dll链接到我们的游戏中。</p>
-<h3 id="平台和配置"><a href="#平台和配置" class="headerlink" title="平台和配置"></a>平台和配置</h3><p>右键属性，进入配置管理器，我们有两种活动解决方案平台：<code>x86</code>和<code>x64</code>。现在我不是很想支持32位因为现在已经2021年了，32位不是我想考虑的平台，支持可能是出于一些遗留问题的原因可能是个好主意，但我选择拒绝支持。</p>
-<p>所以我们编辑删除<code>x86</code>平台，确定它已经消失了：</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50lr7khj30rs0j8tag.jpg"></p>
-<p>现在我们拥有一个平台<code>x64</code>，接着去修改所有配置中的配置类型，从<code>.exe</code>改为<code>.dll</code>：</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50kw6wpj30rs0j877b.jpg"></p>
-<p>另外需要修改的是输出目录和中间目录，<code>Visual Studio</code>默认的配置并不是最佳的，而我们想把解决方案目录中名为<code>bin</code>的文件夹中所有内容都转移到该位置：</p>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">- $(SolutionDir)$(Platform)\$(Configuration)\</span></span><br><span class="line"><span class="addition">+ $(SolutionDir)bin\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+ $(SolutionDir)bin\int\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br><span class="line">or</span><br><span class="line"><span class="addition">+ $(SolutionDir)bin-int\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br></pre></td></tr></table></figure>
-
-
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50h7wh0j30yk0j8421.jpg"></p>
-<p>下一件事就是右键单击解决方案文件上，点击添加，新建一个空的C++项目，我们将其命名为<code>Sandbox</code>沙盒。我们有我们的引擎，但是现在我们需要一个应用程序使用我们的引擎，因此我将其称为“沙盒”。</p>
-<p>之后对沙盒进行配置，和之前一样移除对32位平台的支持并更改输出目录和中间目录。需要注意的是和之前不同，沙盒的配置类型是一个<code>.exe</code>的应用程序，这里无需修改。</p>
-<h3 id="设置启动项"><a href="#设置启动项" class="headerlink" title="设置启动项"></a>设置启动项</h3><p>最后右键沙盒项目，设置为启动项目。在<code>Visual Studio</code>中保存更改，用其它文本编辑器（这里我用的<code>Atom</code>）打开解决方案文件<code>Infinite.sln</code>，把刚才的这个沙盒项目从列表中的第二事件调整为第一事件：</p>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">﻿</span><br><span class="line">Microsoft Visual Studio Solution File, Format Version 12.00</span><br><span class="line"># Visual Studio Version 16</span><br><span class="line">VisualStudioVersion = 16.0.30804.86</span><br><span class="line">MinimumVisualStudioVersion = 10.0.40219.1</span><br><span class="line"><span class="deletion">- Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Infinite&quot;, &quot;Infinite\Infinite.vcxproj&quot;, &quot;&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;&quot;</span></span><br><span class="line"><span class="deletion">- EndProject</span></span><br><span class="line">Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Sandbox&quot;, &quot;Sandbox\Sandbox.vcxproj&quot;, &quot;&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;&quot;</span><br><span class="line"><span class="deletion">- EndProject</span></span><br><span class="line"><span class="addition">+ Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Infinite&quot;, &quot;Infinite\Infinite.vcxproj&quot;, &quot;&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;&quot;</span></span><br><span class="line"><span class="addition">+ EndProject</span></span><br><span class="line">Global</span><br><span class="line">	GlobalSection(SolutionConfigurationPlatforms) = preSolution</span><br><span class="line">		Debug|x64 = Debug|x64</span><br><span class="line">		Release|x64 = Release|x64</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(ProjectConfigurationPlatforms) = postSolution</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Debug|x64.ActiveCfg = Debug|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Debug|x64.Build.0 = Debug|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Release|x64.ActiveCfg = Release|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Release|x64.Build.0 = Release|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Debug|x64.ActiveCfg = Debug|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Debug|x64.Build.0 = Debug|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Release|x64.ActiveCfg = Release|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Release|x64.Build.0 = Release|x64</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(SolutionProperties) = preSolution</span><br><span class="line">		HideSolutionNode = FALSE</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(ExtensibilityGlobals) = postSolution</span><br><span class="line">		SolutionGuid = &#123;93C2B59B-B64B-4873-9805-4CBCD84336E4&#125;</span><br><span class="line">	EndGlobalSection</span><br><span class="line">EndGlobal</span><br></pre></td></tr></table></figure>
-<p>这样沙盒会成为启动项目而不是<code>Infinite</code>，如果是<code>Infinite</code>则显然不会运行其dll文件。</p>
-<p>ok，现在我们已经构建一个基本的结构，那么我们来将两个项目链接在一起。右键单击沙盒，添加引用：</p>
-<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50ea03ej30rs0j40tg.jpg"></p>
-<p>这意味着当<code>Infinite</code>实际编译并生成静态库文件时将链接到沙盒中。它会自动为我们链接引擎库文件，但为什么它是一个lib文件呢？这是因为当我们在<code>Visual Studio</code>编译dll文件时，它实际上会生成一个lib文件，其中会包含每种功能的种类，我们实际是从dll文件中导出。</p>
-<p>分别为两个项目新建名为<code>src</code>的文件夹，在<code>Infinite</code>中新建<code>Test.h</code>的头文件和<code>Test.cpp</code>的测试点并编写测试：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">	_declspec(dllexport) <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-<p>以最基本的打印功能作为测试，输出信息<code>Welcome To Infinite Engine!</code>。</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;Test.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Welcome To Infinite Engine!&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-
-<p>在沙盒项目中新建<code>Application.cpp</code>，对之前的代码进行测试：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">  _declspec(dllimport) <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  Infinite::Print();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>如果直接<code>Build</code>运行的话会报错缺少<code>Infinite.dll</code>，这部分的自动化我们之后再考虑，现在手动从文件夹中拖拽到沙盒中，再次运行打印出信息：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">&quot;Welcome To Infinite Engine!&quot;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>游戏引擎开发 (Game Engine Series)</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>Game Engine</tag>
       </tags>
   </entry>
   <entry>
@@ -2970,6 +2970,119 @@
       <tags>
         <tag>Reprint</tag>
         <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《蔚蓝》的手感为何迷人？</title>
+    <url>/archives/d2e64879.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/11675ADD7255E759F0223337F7FF96255320FD71-20210212234920143.jpeg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://steamcommunity.com/id/DEL-chan">steam@DEL-chan</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《蔚蓝》是近年发布的最优秀平台跳跃游戏之一，这很大程度上归功于游戏主角玛德琳（Madeline）精准灵敏的操控感。本期节目，马克·布朗采访了《蔚蓝》主创马特·索尔森（Matt Thorson）和诺尔·贝瑞（Noel Berry），听他们谈谈游戏手感是如何造就的。</p>
+<a id="more"></a>
+
+<br/>
+
+<blockquote>
+<p>本文是观看完 <a href="https://www.youtube.com/channel/UCqJ-Xo29CKyLTjn6z2XwYAw">Game Maker’s Toolkit</a> 的 <a href="https://www.youtube.com/watch?v=yorTG9at90g&feature=youtu.be">Why Does Celeste Feel So Good to Play?</a> 后深受触动，决定整理一份文字版以供大家参考，中文制译可以移步 <a href="https://space.bilibili.com/180052141">卡姐Cara</a> 的 <a href="https://www.bilibili.com/video/BV1M441197sr">【游戏制作工具箱】《蔚蓝》的手感为何迷人？Why Does Celeste Feel So Good to Play?</a>，欢迎赞助作者：<a href="https://www.patreon.com/GameMakersToolkit">https://www.patreon.com/GameMakersToolkit</a> 和译者。</p>
+</blockquote>
+<br/>
+
+<p>如果要做平台游戏，你就得让主角操控感良好，因为粗糙的物理、迟钝的响应、飘忽的跳跃和不精确移动都是平台游戏的致命伤，所以把手感做好尤为重要。</p>
+<p>如果想找个范例，那你就该看看“玛德琳”，这位20多岁的登山爱好者闪耀于2018年获奖平台游戏《蔚蓝》：游戏手感紧凑、精准且灵敏，你能准确控制落点，让她流畅精准地穿梭平台之间。这不仅体现于超休闲关卡，还撑起了《蔚蓝》那些最硬核的挑战。这是怎么做到的？</p>
+<p>为了搞清这问题，我抽取了游戏代码，逐帧研究玛德琳的动画，我和速通玩家聊天，还采访了两个比谁都了解这游戏的人：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8812.09.16.png"></p>
+<p>“我是马特·索尔森《蔚蓝》总监及联合创作者。”</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8812.09.38.png"></p>
+<p>“我是诺尔·贝瑞，《蔚蓝》程序员及联合创作者。”</p>
+<p>那么这之后，我开始理解《蔚蓝》的手感为何迷人。</p>
+<h3 id="奔跑"><a href="#奔跑" class="headerlink" title="奔跑"></a>奔跑</h3><p>让我们回到一切最开始，看看玛德琳最基本的动作–奔跑。角色的“奔跑”分为三部分：加速、最高速和减速。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8812.13.12.png"></p>
+<p>比如从拨动摇杆算起角色要多久才达到最高速？松开摇杆后多久才停下来？</p>
+<p>这两条曲线的处理尤为重要，曲线偏短，角色会显得僵硬和机械感，比如《洛克人11》：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8812.18.49.png"></p>
+<p>曲线偏长，角色起步会显得沉重笨拙，比如《超级肉肉哥》：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8812.21.12.png"></p>
+<p>停下则脚底打滑、不受控，比如《超级马力欧兄弟3》：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8812.21.58.png"></p>
+<p>那一作总体手感不错，但马力欧有时像在冰上打滑。</p>
+<p>在《蔚蓝》中，玛德琳的加减速曲线都很短。她大约用6帧达到全速，差不多比“肉肉哥”快四倍，然后只用3帧停下，比《新超级马力欧兄弟U》的马力欧快九倍。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8812.27.51.png"></p>
+<p>这帧数恰好高得让玛德琳像人类：让你需要助跑才能跳得远，但也短得让她能及时响应你的操作，所以游戏中你很少会从平台边缘滑落。</p>
+<p>她的最高速也相对偏低。不同于马力欧和肉肉哥，她不能通过按键跑得更快，但这速度快得行云流水又慢得让人感觉掌控一切。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.38.54.png"></p>
+<h3 id="跳跃"><a href="#跳跃" class="headerlink" title="跳跃"></a>跳跃</h3><p>我们用类似方法来分析跳跃。</p>
+<p>首先，测量角色跳跃高度，看看相较于身高，这些角色能跳多高。</p>
+<p>《新超级马力欧兄弟U》中，马力欧能跳到身高4倍的位置：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.41.07.png"></p>
+<p>而肉肉哥能跳得更高，大约是身高6倍：</p>
+<p>![](/Users/apple/Desktop/屏幕快照 2021-02-13 上午11.42.07.png)</p>
+<p>然后，看看角色的跳跃曲线，即起跳、腾空和落地，曲线还显示了跳跃时长。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.43.31.png"></p>
+<p>肉肉哥跳得高而久，让角色显得有点漂：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.44.23.png"></p>
+<p>《毛线小精灵》的雅尼则跳得很低，腾空时间短，让人觉得这毛线玩偶出奇地沉重迟缓：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.45.21.png"></p>
+<p>玛德琳又一次偏向短促风格，她的起落非常快，但腾空时间较长，让你有机会调整落点。她只能跳到身高的3倍，跻身最矮跳跃之列：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.46.39.png"></p>
+<p>与奔跑相似，这些数值足以让她显得生动活泼却又不至于飘忽。</p>
+<p>当然，玛德琳的操控感还有更多秘诀，比如她能在空中迅速转向，毫不打滑；她还面对极大的空气阻力，如果你在半空中松开摇杆她会立即径直下落，这让精确着陆变得容易。</p>
+<p>然后还有更基础的游戏镜头设计。《蔚蓝》是个远视角游戏，有时整个房间会被纳入固定一屏，这意味着画面不会动来动去，让你更容易精确地跑跳。如果只有玛德琳在动，想去哪都会更简单。虽然开发者为此在角色和环境细节上妥协，但我想是值得的。</p>
+<p>玛德琳的运动是硬编码而成，在Visual Studio中基于微软XNA框架开发。开发者没用现有物理引擎比如Unity和Game Maker自带的那种，因为他们希望对玩家操作做出更精确响应。我问马特和诺尔，他们如何得出玛德琳那些运动数值：</p>
+<p>“很多都是直觉，因为我做过许多平台游戏。我会去想你想给玩家什么感觉，什么可行。”</p>
+<p>“许多都是试验得来，比如各种尝试，请别人来玩，看他们玩得怎样，然后发现‘噢那跟预期不同’，所以这个要调低，那个要改进……”</p>
+<p>“没错，这导致开发中变动很多，很多微调，甚至大改。”</p>
+<p>“比如考虑平台跳跃时那种节奏感，什么时候要停，什么时候要有流动感。机制调整是为了感觉更好。”</p>
+<p>这些是基本动作，但玛德琳不限于此。她在丈量山峰时还有两个动作可用：</p>
+<h3 id="攀爬"><a href="#攀爬" class="headerlink" title="攀爬"></a>攀爬</h3><p>一是“攀爬”：按住扳机键，她会附在墙上，然后往上爬，再蹬墙跳开。不同于肉肉哥不受控的滑墙，玛德琳会像胶水般粘墙。</p>
+<p>攀爬受限于一套体力系统，玛德琳有110点体力，不过这对玩家不可见而且体力损耗速率不一，取决于你是贴墙静止、攀爬还是爬墙跳。</p>
+<h3 id="突进"><a href="#突进" class="headerlink" title="突进"></a>突进</h3><p>另一个动作是“突进”：按下突进键，玛德琳会朝你摇杆的方向冲去。她只能在空中冲一次，这巧妙地表现为头发变蓝，你要么着地，要么捡一颗水晶才能再次充能。</p>
+<p>突进的确有些不可控，因为玛德琳会以最高速向某方位冲去，但这只限于突进的最初0.15秒，那之后，她会慢下来重回可控，所以你能取消突进惯性避免一头扎进尖刺，这赋予玩家更多微操和表达，相比《蔚蓝》的PICO-8原型尤为如此。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.51.31.png"></p>
+<h3 id="操纵感"><a href="#操纵感" class="headerlink" title="操纵感"></a>操纵感</h3><p>基于这三个机制：跳跃、攀爬和突进，《蔚蓝》成了一款资源管理解谜游戏。面对一段垂直空间，你要选择何时何地做何操作：这儿一跳，那儿一冲，上墙之后落地补充体力和突进再重新出发……</p>
+<p>每个动作有不同手感、速度和操控性，赋予游戏刺激且多变的节奏。其实，这些都在开发者计划中</p>
+<p>“《蔚蓝》很多障碍都能用多种方式通过，比如你能冲过也能爬过。然后你知道有些地方操作唯一或必须组合两种操作，不过突进几乎总是一种更冒险的选项，更难去操控。而攀爬则更按部就班，你可以更精确控制。”</p>
+<p>玛德琳的绝佳操控感不只源于数值，美术、动画和声效也功不可没。比如跳跃时的伸缩变形很能强调她躯体的活力；尘埃微粒的扬起、手柄的震动都在表现落地时的撞击；突进时的4帧暂停和轻微震屏都让这潇洒动作更显力量感；而角色的拖影和耀眼轨迹则强调着速度与方向。</p>
+<p>《蔚蓝》并非疯狂的Vlambeer式弹幕游戏（《废土之王》开发商），但这些微妙短暂的特效极大地提升了游戏观感，为你的操作带来丰富反馈。</p>
+<p>虽然《蔚蓝》有时很难乃至难上加难如果你追求草莓、卡式磁带和通关B面等等，但开发者其实对玩家非常宽容，代码中藏了数不清的技巧和特例让游戏不那么难。也许最出名的就是你离开平台几帧后才按跳跃依然能跃入空中，这被称为“土狼时间”，因《乐一通》动画而得名（华纳兄弟出品的经典动画片）因为角色冲出平台后，仍能在空中跑。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.53.05.png"></p>
+<p>但代码还藏了许多其它特例：冲向墙角不会让你碰壁，你会恰好踏上平台边缘；尖刺有个小“碰撞盒”，所以碰到最尖端不会死；这些红绿灯石块会推你一把哪怕你跳跃按得稍迟；如果你爬墙跳，但又迅速从墙上弹开，游戏会切为蹬墙跳，并补偿体力；如果在快要落地前按跳跃，游戏会记住按键并在落地后执行</p>
+<p>“因为那感觉太糟，如果你在触地前一帧按跳结果落地啥也没，你会觉得‘不，我按了跳的，明明按了’感觉像游戏坏了，像游戏忽略了操作，把按键吃了。你不想这样，你希望的是角色被完全掌控，一切被准确执行。如果搞砸了你应该去琢磨‘怎么破解障碍，怎么优化操作’，而不是‘我就差一帧，被游戏坑死了’。”</p>
+<p>“没错，就像你应该围绕玩家意图设计，而不是做一个要在正确时间按键的精确仿真器。”</p>
+<p>“这里还有个亮点，对于那些高玩那些非常厉害的人，他们会计较那几帧。哪怕告诉他们‘出了平台后你仍有3帧起跳’，这对于普通玩家会玩着更舒服，但对于高玩，他们会试着速通每一关或试着操作完美。他们会计较地说‘不，那额外几帧对我有用’、‘我能过一个本来过不去的缺口’，他们物尽其用。所以你仍有可能完美地玩，但对于休闲玩家体验更棒。”</p>
+<h3 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h3><p>说得好，确实有些玩家把游戏的运动设计发挥到极致。我邀请TGH，世界顶级《蔚蓝》速通玩家，解释他如何用一些高级技巧将游戏最难的关卡变成轻松优雅的舞蹈。</p>
+<p>![](<a href="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7">https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/屏幕快照</a> 2021-02-13 上午11.49.26.png)</p>
+<p>首先，是“冲跳”，即一个突进在最后一刻取消转为一个长跳，让突进惯性将你抛入空中，蹲下时施展这个，就能得到“压身冲跳”：跳得更矮但更快。你可以拓展两个技巧，稍微拉开冲和跳的间隔，玛德琳仿佛就能空中充能。</p>
+<p>“为了更高速度”TGH说“在拓展压身冲跳后你可以斜向下突进承接惯性，在某些情况下获得惊人速度。”这被称为“终极突进”，你也能沿墙上冲跳以获得更大高度和垂直速度，这被称为“冲墙跳”。</p>
+<p>游戏还有其它技巧。TGH说：“惊艳的是，这些技巧结合得如此行云流水，与关卡搭配得天衣无缝。”那是因为其中大多数技巧是开发者有意为之，游戏甚至还教了你。</p>
+<p>马特和诺尔认为玛德琳的手感必须好，哪怕没有设计巧妙的关卡供你探索。毕竟，这是他们给面向那些希望设计自己平台游戏角色的人们的一条重要建议。</p>
+<p>“确保每一刻都很舒服，这么一来当玩家拿着手柄坐那，关卡也许空无一物，但仅是操控角色就让他们感觉良好。”</p>
+<p>“也不是为了什么，就是确保操控角色要有趣。记得玩《阳光马力欧》时我绕着德尔皮克镇转了几小时，只因为有趣。”</p>
+<p>“你要做到能抛开一切，只需角色本身能做些精彩动作就有趣。”</p>
+<h3 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h3><p>但设计关卡并加入新机制，比如弹珠缓冲器、蹦床云、移动石块、狂风、愤怒的山庄老板其实都迫使开发者回到代码反复修改</p>
+<p>“我想说我们很早就确定玛德琳有哪些能力，但数值细节绝对会变，然后关卡也得变，牵一发动全身。所以基本上就是先大概做好主角设计，你知道不完美，你知道还得测试，但你也得有关卡来测。于是你做一堆关卡去测，然后你发现‘噢主角得做改动’然后你不得不修改20关。让游戏一部分影响其它部分，让它慢慢显露理想形态。”</p>
+<p>“你有时必须敢于抛弃些东西，比如‘这点子和方向很酷，但行不通’。就像一步步揭示游戏本质，因为你也在理解游戏，不断琢磨，所以哪怕抛弃什么也是一种学习过程，终究会让游戏更好。”</p>
+<p>“没错，这是完成游戏的必经之路，哪怕没变成游戏内容它也成了知识的一部分，帮你做出剩下的内容。”</p>
+<p>那么《蔚蓝》展示了实现出色操控的好办法，但这并非平台游戏的唯一办法，调整那些曲线会得到迥异的结果，比如《Inside》的写实动画：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.56.31.png"></p>
+<p>《N+》刺激的空中腾挪：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.57.17.png"></p>
+<p>或“索尼克”系列：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.57.59.png"></p>
+<p>它们重在加速和保持惯性，所以索尼克有个漫长的加速曲线很正常，与之对应你得费劲才能完全停下。</p>
+<p>不过我觉得考虑平台游戏角色设计时，玛德琳是个很好的起点，因为《蔚蓝》展现了这些要点：做好基本动作的运动曲线、引入新机制，提供截然不同的探索方式、用视听反馈来强调运动、在像素精度上保持宽容、用高阶动作来提升技巧上限……要敢于测试和调整，不惮于在追求完美的漫长征途中抛弃旧设计。</p>
+]]></content>
+      <categories>
+        <category>游戏制作工具箱 (Game Maker Toolkit)</category>
+      </categories>
+      <tags>
+        <tag>Celeste</tag>
       </tags>
   </entry>
   <entry>
@@ -5075,57 +5188,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#x79;&#111;&#110;&#103;&#x40;&#116;&#115;&#105;&#x6e;&#103;&#104;&#x75;&#97;&#x2e;&#101;&#100;&#x75;&#46;&#x63;&#110;">&#x78;&#x79;&#111;&#110;&#103;&#x40;&#116;&#115;&#105;&#x6e;&#103;&#104;&#x75;&#97;&#x2e;&#101;&#100;&#x75;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#x79;&#x6f;&#110;&#x67;&#x40;&#116;&#115;&#x69;&#x6e;&#103;&#x68;&#x75;&#97;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#110;">&#120;&#x79;&#x6f;&#110;&#x67;&#x40;&#116;&#115;&#x69;&#x6e;&#103;&#x68;&#x75;&#97;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#x75;&#x63;&#x68;&#x65;&#110;&#x40;&#109;&#97;&#105;&#108;&#x2e;&#x74;&#x73;&#105;&#110;&#x67;&#x68;&#117;&#97;&#46;&#101;&#x64;&#x75;&#x2e;&#x63;&#x6e;">&#121;&#x75;&#x63;&#x68;&#x65;&#110;&#x40;&#109;&#97;&#105;&#108;&#x2e;&#x74;&#x73;&#105;&#110;&#x67;&#x68;&#117;&#97;&#46;&#101;&#x64;&#x75;&#x2e;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#117;&#x63;&#104;&#x65;&#110;&#x40;&#x6d;&#97;&#105;&#x6c;&#46;&#116;&#x73;&#105;&#x6e;&#x67;&#104;&#x75;&#x61;&#46;&#x65;&#100;&#x75;&#46;&#99;&#110;">&#x79;&#117;&#x63;&#104;&#x65;&#110;&#x40;&#x6d;&#97;&#105;&#x6c;&#46;&#116;&#x73;&#105;&#x6e;&#x67;&#104;&#x75;&#x61;&#46;&#x65;&#100;&#x75;&#46;&#99;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#116;&#101;&#114;&#x6e;&#97;&#x6c;&#x2e;&#x6e;&#48;&#56;&#64;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#101;&#116;&#101;&#114;&#x6e;&#97;&#x6c;&#x2e;&#x6e;&#48;&#56;&#64;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x65;&#x74;&#x65;&#x72;&#110;&#97;&#x6c;&#x2e;&#110;&#48;&#x38;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x65;&#x74;&#x65;&#x72;&#110;&#97;&#x6c;&#x2e;&#110;&#48;&#x38;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#98;&#106;&#x65;&#x63;&#116;&#107;&#117;&#97;&#110;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;">&#x6f;&#98;&#106;&#x65;&#x63;&#116;&#107;&#117;&#97;&#110;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#111;&#x62;&#x6a;&#x65;&#99;&#x74;&#x6b;&#x75;&#x61;&#x6e;&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;">&#111;&#x62;&#x6a;&#x65;&#99;&#x74;&#x6b;&#x75;&#x61;&#x6e;&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#x72;&#x64;&#102;&#x72;&#x61;&#110;&#x6b;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#x6d;">&#99;&#x72;&#x64;&#102;&#x72;&#x61;&#110;&#x6b;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#114;&#x64;&#x66;&#x72;&#97;&#x6e;&#x6b;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x63;&#114;&#x64;&#x66;&#x72;&#97;&#x6e;&#x6b;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#x61;&#99;&#x63;&#x6f;&#x72;&#x61;&#119;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">&#116;&#x61;&#99;&#x63;&#x6f;&#x72;&#x61;&#119;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#116;&#97;&#99;&#99;&#111;&#x72;&#x61;&#119;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#116;&#97;&#99;&#99;&#111;&#x72;&#x61;&#119;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#x69;&#110;&#121;&#117;&#x6e;&#x78;&#105;&#110;&#x67;&#x30;&#x30;&#x30;&#x31;&#64;&#49;&#x36;&#x33;&#46;&#99;&#x6f;&#x6d;">&#120;&#x69;&#110;&#121;&#117;&#x6e;&#x78;&#105;&#110;&#x67;&#x30;&#x30;&#x30;&#x31;&#64;&#49;&#x36;&#x33;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#120;&#x69;&#x6e;&#x79;&#x75;&#x6e;&#x78;&#105;&#110;&#103;&#x30;&#48;&#x30;&#x31;&#64;&#49;&#54;&#x33;&#x2e;&#x63;&#111;&#x6d;">&#120;&#x69;&#x6e;&#x79;&#x75;&#x6e;&#x78;&#105;&#110;&#103;&#x30;&#48;&#x30;&#x31;&#64;&#49;&#54;&#x33;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#x6e;&#111;&#99;&#x75;&#105;&#x6c;&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">&#x67;&#x6e;&#111;&#99;&#x75;&#105;&#x6c;&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x6e;&#x6f;&#99;&#117;&#105;&#108;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x67;&#x6e;&#x6f;&#99;&#117;&#105;&#108;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#121;&#x61;&#x69;&#x72;&#105;&#x61;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;">&#109;&#121;&#x61;&#x69;&#x72;&#105;&#x61;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x6d;&#x79;&#97;&#105;&#x72;&#105;&#97;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#x6d;&#x79;&#97;&#105;&#x72;&#105;&#97;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#x68;&#x61;&#x6e;&#x67;&#x72;&#x61;&#105;&#x6e;&#x39;&#x31;&#x31;&#64;&#49;&#x36;&#51;&#x2e;&#99;&#111;&#x6d;">&#122;&#x68;&#x61;&#x6e;&#x67;&#x72;&#x61;&#105;&#x6e;&#x39;&#x31;&#x31;&#64;&#49;&#x36;&#51;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#x68;&#97;&#110;&#x67;&#114;&#97;&#105;&#x6e;&#x39;&#49;&#49;&#x40;&#49;&#x36;&#51;&#x2e;&#99;&#111;&#x6d;">&#x7a;&#x68;&#97;&#110;&#x67;&#114;&#97;&#105;&#x6e;&#x39;&#49;&#49;&#x40;&#49;&#x36;&#51;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#x67;&#x78;&#120;&#x31;&#x32;&#x30;&#64;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;">&#103;&#x67;&#x78;&#120;&#x31;&#x32;&#x30;&#64;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#103;&#x67;&#120;&#x78;&#x31;&#50;&#48;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#103;&#x67;&#120;&#x78;&#x31;&#50;&#48;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -5311,6 +5424,35 @@
       </tags>
   </entry>
   <entry>
+    <title>进程与线程</title>
+    <url>/archives/44cf1d42.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloe6t3mq4g312w0lwqva.gif"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/107924435/MTVOS?tracking_source=search_projects_recommended%7COS">MTV.OS</a> by 
+      <a href="https://www.behance.net/charlx">Charl- x</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
+<a id="more"></a>
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>操作系统 (Operating Systems)</category>
+      </categories>
+      <tags>
+        <tag>Mooc</tag>
+        <tag>OS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Aseprite教学-Aseprite编译教程</title>
     <url>/archives/5d59087d.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nt7r5jxj314w0i3788.jpg"></p>
@@ -5397,35 +5539,6 @@
       <tags>
         <tag>Aseprite</tag>
         <tag>CMake</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>进程与线程</title>
-    <url>/archives/44cf1d42.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloe6t3mq4g312w0lwqva.gif"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/107924435/MTVOS?tracking_source=search_projects_recommended%7COS">MTV.OS</a> by 
-      <a href="https://www.behance.net/charlx">Charl- x</a>
-    </i>
-  </font>
-</div>
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
-<a id="more"></a>
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>操作系统 (Operating Systems)</category>
-      </categories>
-      <tags>
-        <tag>Mooc</tag>
-        <tag>OS</tag>
       </tags>
   </entry>
   <entry>
@@ -14598,113 +14711,6 @@
       <tags>
         <tag>Story</tag>
         <tag>Reprint</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《蔚蓝》的手感为何迷人？</title>
-    <url>/archives/d2e64879.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/11675ADD7255E759F0223337F7FF96255320FD71-20210212234920143.jpeg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://steamcommunity.com/id/DEL-chan">steam@DEL-chan</a>
-    </i>
-  </font>
-</div>
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《蔚蓝》是近年发布的最优秀平台跳跃游戏之一，这很大程度上归功于游戏主角玛德琳（Madeline）精准灵敏的操控感。本期节目，马克·布朗采访了《蔚蓝》主创马特·索尔森（Matt Thorson）和诺尔·贝瑞（Noel Berry），听他们谈谈游戏手感是如何造就的。</p>
-<a id="more"></a>
-
-<br/>
-
-<blockquote>
-<p>本文是观看完 <a href="https://www.youtube.com/channel/UCqJ-Xo29CKyLTjn6z2XwYAw">Game Maker’s Toolkit</a> 的 <a href="https://www.youtube.com/watch?v=yorTG9at90g&feature=youtu.be">Why Does Celeste Feel So Good to Play?</a> 后深受触动，决定整理一份文字版以供大家参考，中文制译可以移步 <a href="https://space.bilibili.com/180052141">卡姐Cara</a> 的 <a href="https://www.bilibili.com/video/BV1M441197sr">【游戏制作工具箱】《蔚蓝》的手感为何迷人？Why Does Celeste Feel So Good to Play?</a>，欢迎赞助作者：<a href="https://www.patreon.com/GameMakersToolkit">https://www.patreon.com/GameMakersToolkit</a> 和译者。</p>
-</blockquote>
-<br/>
-
-<p>如果要做平台游戏，你就得让主角操控感良好，因为粗糙的物理、迟钝的响应、飘忽的跳跃和不精确移动都是平台游戏的致命伤，所以把手感做好尤为重要。</p>
-<p>如果想找个范例，那你就该看看“玛德琳”，这位20多岁的登山爱好者闪耀于2018年获奖平台游戏《蔚蓝》：游戏手感紧凑、精准且灵敏，你能准确控制落点，让她流畅精准地穿梭平台之间。这不仅体现于超休闲关卡，还撑起了《蔚蓝》那些最硬核的挑战。这是怎么做到的？</p>
-<p>为了搞清这问题，我抽取了游戏代码，逐帧研究玛德琳的动画，我和速通玩家聊天，还采访了两个比谁都了解这游戏的人：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8812.09.16.png"></p>
-<p>“我是马特·索尔森《蔚蓝》总监及联合创作者。”</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8812.09.38.png"></p>
-<p>“我是诺尔·贝瑞，《蔚蓝》程序员及联合创作者。”</p>
-<p>那么这之后，我开始理解《蔚蓝》的手感为何迷人。</p>
-<h3 id="奔跑"><a href="#奔跑" class="headerlink" title="奔跑"></a>奔跑</h3><p>让我们回到一切最开始，看看玛德琳最基本的动作–奔跑。角色的“奔跑”分为三部分：加速、最高速和减速。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8812.13.12.png"></p>
-<p>比如从拨动摇杆算起角色要多久才达到最高速？松开摇杆后多久才停下来？</p>
-<p>这两条曲线的处理尤为重要，曲线偏短，角色会显得僵硬和机械感，比如《洛克人11》：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8812.18.49.png"></p>
-<p>曲线偏长，角色起步会显得沉重笨拙，比如《超级肉肉哥》：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8812.21.12.png"></p>
-<p>停下则脚底打滑、不受控，比如《超级马力欧兄弟3》：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8812.21.58.png"></p>
-<p>那一作总体手感不错，但马力欧有时像在冰上打滑。</p>
-<p>在《蔚蓝》中，玛德琳的加减速曲线都很短。她大约用6帧达到全速，差不多比“肉肉哥”快四倍，然后只用3帧停下，比《新超级马力欧兄弟U》的马力欧快九倍。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8812.27.51.png"></p>
-<p>这帧数恰好高得让玛德琳像人类：让你需要助跑才能跳得远，但也短得让她能及时响应你的操作，所以游戏中你很少会从平台边缘滑落。</p>
-<p>她的最高速也相对偏低。不同于马力欧和肉肉哥，她不能通过按键跑得更快，但这速度快得行云流水又慢得让人感觉掌控一切。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.38.54.png"></p>
-<h3 id="跳跃"><a href="#跳跃" class="headerlink" title="跳跃"></a>跳跃</h3><p>我们用类似方法来分析跳跃。</p>
-<p>首先，测量角色跳跃高度，看看相较于身高，这些角色能跳多高。</p>
-<p>《新超级马力欧兄弟U》中，马力欧能跳到身高4倍的位置：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.41.07.png"></p>
-<p>而肉肉哥能跳得更高，大约是身高6倍：</p>
-<p>![](/Users/apple/Desktop/屏幕快照 2021-02-13 上午11.42.07.png)</p>
-<p>然后，看看角色的跳跃曲线，即起跳、腾空和落地，曲线还显示了跳跃时长。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.43.31.png"></p>
-<p>肉肉哥跳得高而久，让角色显得有点漂：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.44.23.png"></p>
-<p>《毛线小精灵》的雅尼则跳得很低，腾空时间短，让人觉得这毛线玩偶出奇地沉重迟缓：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.45.21.png"></p>
-<p>玛德琳又一次偏向短促风格，她的起落非常快，但腾空时间较长，让你有机会调整落点。她只能跳到身高的3倍，跻身最矮跳跃之列：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-13%20%E4%B8%8A%E5%8D%8811.46.39.png"></p>
-<p>与奔跑相似，这些数值足以让她显得生动活泼却又不至于飘忽。</p>
-<p>当然，玛德琳的操控感还有更多秘诀，比如她能在空中迅速转向，毫不打滑；她还面对极大的空气阻力，如果你在半空中松开摇杆她会立即径直下落，这让精确着陆变得容易。</p>
-<p>然后还有更基础的游戏镜头设计。《蔚蓝》是个远视角游戏，有时整个房间会被纳入固定一屏，这意味着画面不会动来动去，让你更容易精确地跑跳。如果只有玛德琳在动，想去哪都会更简单。虽然开发者为此在角色和环境细节上妥协，但我想是值得的。</p>
-<p>玛德琳的运动是硬编码而成，在Visual Studio中基于微软XNA框架开发。开发者没用现有物理引擎比如Unity和Game Maker自带的那种，因为他们希望对玩家操作做出更精确响应。我问马特和诺尔，他们如何得出玛德琳那些运动数值：</p>
-<p>“很多都是直觉，因为我做过许多平台游戏。我会去想你想给玩家什么感觉，什么可行。”</p>
-<p>“许多都是试验得来，比如各种尝试，请别人来玩，看他们玩得怎样，然后发现‘噢那跟预期不同’，所以这个要调低，那个要改进……”</p>
-<p>“没错，这导致开发中变动很多，很多微调，甚至大改。”</p>
-<p>“比如考虑平台跳跃时那种节奏感，什么时候要停，什么时候要有流动感。机制调整是为了感觉更好。”</p>
-<p>这些是基本动作，但玛德琳不限于此。她在丈量山峰时还有两个动作可用：</p>
-<h3 id="攀爬"><a href="#攀爬" class="headerlink" title="攀爬"></a>攀爬</h3><p>一是“攀爬”：按住扳机键，她会附在墙上，然后往上爬，再蹬墙跳开。不同于肉肉哥不受控的滑墙，玛德琳会像胶水般粘墙。</p>
-<p>攀爬受限于一套体力系统，玛德琳有110点体力，不过这对玩家不可见而且体力损耗速率不一，取决于你是贴墙静止、攀爬还是爬墙跳。</p>
-<h3 id="突进"><a href="#突进" class="headerlink" title="突进"></a>突进</h3><p>另一个动作是“突进”：按下突进键，玛德琳会朝你摇杆的方向冲去。她只能在空中冲一次，这巧妙地表现为头发变蓝，你要么着地，要么捡一颗水晶才能再次充能。</p>
-<p>突进的确有些不可控，因为玛德琳会以最高速向某方位冲去，但这只限于突进的最初0.15秒，那之后，她会慢下来重回可控，所以你能取消突进惯性避免一头扎进尖刺，这赋予玩家更多微操和表达，相比《蔚蓝》的PICO-8原型尤为如此。</p>
-<h3 id="操纵感"><a href="#操纵感" class="headerlink" title="操纵感"></a>操纵感</h3><p>基于这三个机制：跳跃、攀爬和突进，《蔚蓝》成了一款资源管理解谜游戏。面对一段垂直空间，你要选择何时何地做何操作：这儿一跳，那儿一冲，上墙之后落地补充体力和突进再重新出发……</p>
-<p>每个动作有不同手感、速度和操控性，赋予游戏刺激且多变的节奏。其实，这些都在开发者计划中</p>
-<p>“《蔚蓝》很多障碍都能用多种方式通过，比如你能冲过也能爬过。然后你知道有些地方操作唯一或必须组合两种操作，不过突进几乎总是一种更冒险的选项，更难去操控。而攀爬则更按部就班，你可以更精确控制。”</p>
-<p>玛德琳的绝佳操控感不只源于数值，美术、动画和声效也功不可没。比如跳跃时的伸缩变形很能强调她躯体的活力；尘埃微粒的扬起、手柄的震动都在表现落地时的撞击；突进时的4帧暂停和轻微震屏都让这潇洒动作更显力量感；而角色的拖影和耀眼轨迹则强调着速度与方向。</p>
-<p>《蔚蓝》并非疯狂的Vlambeer式弹幕游戏（《废土之王》开发商），但这些微妙短暂的特效极大地提升了游戏观感，为你的操作带来丰富反馈。</p>
-<p>虽然《蔚蓝》有时很难乃至难上加难如果你追求草莓、卡式磁带和通关B面等等，但开发者其实对玩家非常宽容，代码中藏了数不清的技巧和特例让游戏不那么难。也许最出名的就是你离开平台几帧后才按跳跃依然能跃入空中，这被称为“土狼时间”，因《乐一通》动画而得名（华纳兄弟出品的经典动画片）因为角色冲出平台后，仍能在空中跑。</p>
-<p>但代码还藏了许多其它特例：冲向墙角不会让你碰壁，你会恰好踏上平台边缘；尖刺有个小“碰撞盒”，所以碰到最尖端不会死；这些红绿灯石块会推你一把哪怕你跳跃按得稍迟；如果你爬墙跳，但又迅速从墙上弹开，游戏会切为蹬墙跳，并补偿体力；如果在快要落地前按跳跃，游戏会记住按键并在落地后执行</p>
-<p>“因为那感觉太糟，如果你在触地前一帧按跳结果落地啥也没，你会觉得‘不，我按了跳的，明明按了’感觉像游戏坏了，像游戏忽略了操作，把按键吃了。你不想这样，你希望的是角色被完全掌控，一切被准确执行。如果搞砸了你应该去琢磨‘怎么破解障碍，怎么优化操作’，而不是‘我就差一帧，被游戏坑死了’。”</p>
-<p>“没错，就像你应该围绕玩家意图设计，而不是做一个要在正确时间按键的精确仿真器。”</p>
-<p>“这里还有个亮点，对于那些高玩那些非常厉害的人，他们会计较那几帧。哪怕告诉他们‘出了平台后你仍有3帧起跳’，这对于普通玩家会玩着更舒服，但对于高玩，他们会试着速通每一关或试着操作完美。他们会计较地说‘不，那额外几帧对我有用’、‘我能过一个本来过不去的缺口’，他们物尽其用。所以你仍有可能完美地玩，但对于休闲玩家体验更棒。”</p>
-<h3 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h3><p>说得好，确实有些玩家把游戏的运动设计发挥到极致。我邀请TGH，世界顶级《蔚蓝》速通玩家，解释他如何用一些高级技巧将游戏最难的关卡变成轻松优雅的舞蹈。</p>
-<p>首先，是“冲跳”，即一个突进在最后一刻取消转为一个长跳，让突进惯性将你抛入空中，蹲下时施展这个，就能得到“压身冲跳”：跳得更矮但更快。你可以拓展两个技巧，稍微拉开冲和跳的间隔，玛德琳仿佛就能空中充能。</p>
-<p>“为了更高速度”TGH说“在拓展压身冲跳后你可以斜向下突进承接惯性，在某些情况下获得惊人速度。”这被称为“终极突进”，你也能沿墙上冲跳以获得更大高度和垂直速度，这被称为“冲墙跳”。</p>
-<p>游戏还有其它技巧。TGH说：“惊艳的是，这些技巧结合得如此行云流水，与关卡搭配得天衣无缝。”那是因为其中大多数技巧是开发者有意为之，游戏甚至还教了你。</p>
-<p>马特和诺尔认为玛德琳的手感必须好，哪怕没有设计巧妙的关卡供你探索。毕竟，这是他们给面向那些希望设计自己平台游戏角色的人们的一条重要建议。</p>
-<p>“确保每一刻都很舒服，这么一来当玩家拿着手柄坐那，关卡也许空无一物，但仅是操控角色就让他们感觉良好。”</p>
-<p>“也不是为了什么，就是确保操控角色要有趣。记得玩《阳光马力欧》时我绕着德尔皮克镇转了几小时，只因为有趣。”</p>
-<p>“你要做到能抛开一切，只需角色本身能做些精彩动作就有趣。”</p>
-<h3 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h3><p>但设计关卡并加入新机制，比如弹珠缓冲器、蹦床云、移动石块、狂风、愤怒的山庄老板其实都迫使开发者回到代码反复修改</p>
-<p>“我想说我们很早就确定玛德琳有哪些能力，但数值细节绝对会变，然后关卡也得变，牵一发动全身。所以基本上就是先大概做好主角设计，你知道不完美，你知道还得测试，但你也得有关卡来测。于是你做一堆关卡去测，然后你发现‘噢主角得做改动’然后你不得不修改20关。让游戏一部分影响其它部分，让它慢慢显露理想形态。”</p>
-<p>“你有时必须敢于抛弃些东西，比如‘这点子和方向很酷，但行不通’。就像一步步揭示游戏本质，因为你也在理解游戏，不断琢磨，所以哪怕抛弃什么也是一种学习过程，终究会让游戏更好。”</p>
-<p>“没错，这是完成游戏的必经之路，哪怕没变成游戏内容它也成了知识的一部分，帮你做出剩下的内容。”</p>
-<p>那么《蔚蓝》展示了实现出色操控的好办法，但这并非平台游戏的唯一办法，调整那些曲线会得到迥异的结果，比如《Inside》的写实动画：</p>
-<p>《N+》刺激的空中腾挪：</p>
-<p>或“索尼克”系列：</p>
-<p>它们重在加速和保持惯性，所以索尼克有个漫长的加速曲线很正常，与之对应你得费劲才能完全停下。</p>
-<p>不过我觉得考虑平台游戏角色设计时，玛德琳是个很好的起点，因为《蔚蓝》展现了这些要点：做好基本动作的运动曲线、引入新机制，提供截然不同的探索方式、用视听反馈来强调运动、在像素精度上保持宽容、用高阶动作来提升技巧上限……要敢于测试和调整，不惮于在追求完美的漫长征途中抛弃旧设计。</p>
-]]></content>
-      <categories>
-        <category>游戏制作工具箱 (Game Maker Toolkit)</category>
-      </categories>
-      <tags>
-        <tag>Celeste</tag>
       </tags>
   </entry>
 </search>
