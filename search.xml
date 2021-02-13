@@ -2787,7 +2787,7 @@
 
 
 
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>上次我们为程序定义了实际的切入点，今天我们来看一下日志记录以及如何使用。</p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列我们将从零开始开发一个自己的游戏引擎。上次我们为程序定义了实际的切入点，今天我们来看一下日志记录以及如何使用。</p>
 <a id="more"></a>
 
 
@@ -2871,7 +2871,7 @@
 
 
 
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>上一次我们讨论日志记录时添加了一个名为<code>spdlog</code>的日志记录库。今天我们将以<code>premake</code>为基础重构项目文件。</p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列我们将从零开始开发一个自己的游戏引擎。上一次我们讨论日志记录时添加了一个名为<code>spdlog</code>的日志记录库。今天我们将以<code>premake</code>为基础重构项目文件。</p>
 <a id="more"></a>
 
 
