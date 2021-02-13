@@ -3,7 +3,7 @@
   <entry>
     <title>《蔚蓝》的开发故事 The Story of Celeste&#39;s Development</title>
     <url>/archives/a20064d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nel48tcj31hr0u0121.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nel48tcj31hr0u0121.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -60,7 +60,7 @@
   <entry>
     <title>Hero-NexT主题配置</title>
     <url>/archives/3bcb4b40.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4n8vkpmgj30ma09u40a.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4n8vkpmgj30ma09u40a.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -315,7 +315,7 @@
   <entry>
     <title>中国游戏市场简析</title>
     <url>/archives/undefined.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggxwpu9b5oj311i0p0n12.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggxwpu9b5oj311i0p0n12.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本章内容围绕中国游戏市场简析展开，角度更倾向于内容发展而不是一些渠道平台方面的东西。总体上大概分四个部分讲述，首先简单科普一下中国游戏是怎么来的，之后介绍现存的平台和游戏特征和中国玩家的特征，最后来看看国内的游戏开发商到底是什么样子</p>
 <a id="more"></a>
 
@@ -699,7 +699,7 @@
   <entry>
     <title>游戏分析方法</title>
     <url>/archives/f40ec98b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggxxkrdi94j312w0ihn3n.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggxxkrdi94j312w0ihn3n.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -717,7 +717,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#x65;&#110;&#120;&#x75;&#x40;&#x74;&#x65;&#110;&#x63;&#101;&#110;&#116;&#x2e;&#99;&#x6f;&#109;">&#108;&#x65;&#x65;&#110;&#120;&#x75;&#x40;&#x74;&#x65;&#110;&#x63;&#101;&#110;&#116;&#x2e;&#99;&#x6f;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#101;&#101;&#110;&#120;&#x75;&#64;&#116;&#101;&#x6e;&#x63;&#101;&#x6e;&#116;&#46;&#x63;&#111;&#x6d;">&#108;&#101;&#101;&#110;&#120;&#x75;&#64;&#116;&#101;&#x6e;&#x63;&#101;&#x6e;&#116;&#46;&#x63;&#111;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -993,7 +993,7 @@
   <entry>
     <title>策略游戏如何成为时间杀手</title>
     <url>/archives/b542e368.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggzkai33lfj31hc0u0nlz.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggzkai33lfj31hc0u0nlz.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主要是针对策略游戏对大家进行一些简单的分享。首先是简单认识下策略游戏，第二是策略游戏的核心玩法到底乐趣在哪里，最后是简单看一看策略游戏的未来。</p>
 <a id="more"></a>
 
@@ -1293,7 +1293,7 @@
   <entry>
     <title>MMORPG的发展历程与简析</title>
     <url>/archives/ccbc93d7.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh07s1iq60j312w0a0adb.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh07s1iq60j312w0a0adb.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -1505,7 +1505,7 @@
   <entry>
     <title>分析聚焦感情而设计的游戏品类</title>
     <url>/archives/86c9b0ee.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh7yu5uj06j312w0lv7i7.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh7yu5uj06j312w0lv7i7.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -1700,9 +1700,288 @@
       </tags>
   </entry>
   <entry>
+    <title>图形技术发展&amp;动作游戏发展</title>
+    <url>/archives/21f5c0c6.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghr9b2xyjej30xc0ot42q.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="behance.net/gallery/102282989/Selected-works-2019-2020?tracking_source=best_of_behance">Selected works | 2019-2020</a> by 
+      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文从图形技术的发展延伸到动作游戏的发展，讲述动作游戏这一品类。</p>
+<a id="more"></a>
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>任爽/Sionx</strong></p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+</ul>
+<p>###《吃豆人》游戏图形的起源</p>
+<ul>
+<li><p>动作游戏界定</p>
+<ul>
+<li>通过手眼的配合作出即时反馈的游戏统称为动作游戏</li>
+</ul>
+</li>
+<li><p>动作游戏品类</p>
+<ul>
+<li>平台跳跃</li>
+<li>横版过关</li>
+<li>动作射击</li>
+<li>动作冒险</li>
+<li>动作角色扮演</li>
+<li>格斗</li>
+</ul>
+</li>
+<li><p>2D时代</p>
+<ul>
+<li><p>FC</p>
+<ul>
+<li>1983年发售</li>
+<li>处理器 &emsp; 8位</li>
+<li>输出分辨率  &emsp; 256 x 240</li>
+<li>内存 &emsp; 2KB</li>
+</ul>
+</li>
+<li><p><strong>《吃豆人》</strong></p>
+<ul>
+<li>1980年发售</li>
+<li>16进制代码创建图像</li>
+</ul>
+</li>
+<li><p>2D为主</p>
+<ul>
+<li><p>类似摇杆的外设</p>
+</li>
+<li><p>SEGA Degitizer System</p>
+<ul>
+<li>有效改善2D图像制作效率问题 </li>
+</ul>
+</li>
+<li><p>SEGA Degitizer System 3</p>
+</li>
+<li><p>早期的动作游戏都以横版表现形式为主</p>
+<ul>
+<li>通过算法水平镜像使资源只需一套解决左右翻转问题</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《超级马里奥兄弟》</strong></p>
+<ul>
+<li>1985年发售</li>
+<li>平台跳跃的鼻祖<ul>
+<li>奠定基础规则</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《热血硬派》</strong></p>
+<ul>
+<li>1986年发售</li>
+<li>八方向移动对横版过关类游戏具有深远的影响力</li>
+</ul>
+</li>
+<li><p><strong>《合金弹头》</strong></p>
+<ul>
+<li>1996年SNK发售</li>
+<li>动作射击类的巅峰之作</li>
+</ul>
+</li>
+<li><p><strong>《真人快打》</strong></p>
+<ul>
+<li>1992年Midway发售</li>
+<li>最早出现以真人拍摄制作的格斗游戏</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="3D时代"><a href="#3D时代" class="headerlink" title="3D时代"></a>3D时代</h3><ul>
+<li><p>主机游戏机</p>
+<ul>
+<li>1994年发售</li>
+<li>处理器  &emsp; 32位</li>
+<li>输出分辨率  &emsp; 640 x 480px</li>
+<li>内存 &emsp; 2MB</li>
+<li>最高性价比机能去体验更好的视觉效果和游戏乐趣</li>
+</ul>
+</li>
+<li><p><strong>《玩具总动员》</strong></p>
+<ul>
+<li>1995年发售</li>
+<li>3D技术的普及<ul>
+<li>3D在表现和效率上体现出巨大优势</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《VR展示战士》</strong></p>
+<ul>
+<li>1994年发售</li>
+<li>第一款3D格斗游戏</li>
+</ul>
+</li>
+<li><p><strong>《超级马里奥64》</strong></p>
+<ul>
+<li>1994年发售</li>
+<li>第一步3D化的马里奥系列<ul>
+<li>平面 -&gt; 3D</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《古墓丽影》</strong></p>
+<ul>
+<li>1996年发售</li>
+<li>动作冒险类游戏在PC上获得成功<ul>
+<li>3D游戏和2D游戏完全拉开一个质的变化</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《生化危机》</strong></p>
+<ul>
+<li>1996年发售</li>
+<li>‘坦克式’移动<ul>
+<li>机能不足</li>
+<li>使用固定视角去切换场景</li>
+<li>不同真正的模型，贴图去处理中远景</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="次世代"><a href="#次世代" class="headerlink" title="次世代"></a>次世代</h3><ul>
+<li><p>次世代</p>
+<ul>
+<li>法线贴图</li>
+<li>高光贴图</li>
+<li>动作捕捉</li>
+<li>PBR</li>
+<li>即时渲染光影</li>
+</ul>
+</li>
+<li><p>PlayStation3</p>
+<ul>
+<li>处理器 &emsp; 18m PowerPC 3.2Hz</li>
+<li>输出分辨率 &emsp; 1080p</li>
+<li>内存 &emsp; 256MB</li>
+<li>显存 &emsp; Reality Synthesizer，R5X</li>
+</ul>
+</li>
+<li><p><strong>《暗黑破坏神2》</strong></p>
+<ul>
+<li>2000年发售</li>
+<li>三渲二技术<ul>
+<li>CG技术远远大于即时演算技术</li>
+<li>追求高画质体验</li>
+<li>2D序列帧</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《地下城与勇士》</strong></p>
+<ul>
+<li>2005年发售</li>
+<li>网络时代的横版动作游戏<ul>
+<li>数值成长体系</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《陇村正》</strong></p>
+<ul>
+<li>2009年发售</li>
+<li>2D不再局限于像素风格</li>
+<li>次世代制作的2D横版动作游戏延续</li>
+</ul>
+</li>
+<li><p><strong>《火影忍者：究极风暴4》</strong></p>
+<ul>
+<li>2016年发售</li>
+<li>卡通渲染技术的格斗游戏</li>
+</ul>
+</li>
+<li><p><strong>《塞尔达传说：荒野之息》</strong></p>
+<ul>
+<li>2017年发售</li>
+<li>物理特性让玩法拥有多样性</li>
+</ul>
+</li>
+<li><p><strong>《怪物猎人：世界》</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>独乐乐不如众乐乐</li>
+<li>1200+w以上的销量</li>
+</ul>
+</li>
+<li><p><strong>《荒野大镖客：救赎2》</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>融合电影化叙事等多种元素的动作冒险游戏</li>
+<li>追求极致的实时渲染<ul>
+<li>次世代最高顶级的画质表现力</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>次世代的动作明星</p>
+<ul>
+<li>奎托斯</li>
+<li>但丁</li>
+<li>贝优妮塔</li>
+</ul>
+</li>
+<li><p><strong>《只狼》</strong></p>
+<ul>
+<li>2019年发售</li>
+<li>突破传统的动作游戏节奏，鼓励主动进攻</li>
+<li>同时进攻获取最大收益</li>
+</ul>
+</li>
+<li><p>【游戏推荐】</p>
+<ul>
+<li><p><strong>《Cuphead》（茶杯头）</strong></p>
+<ul>
+<li>2017年发售</li>
+<li>2017 TGA最佳美术指导、最佳独立游戏</li>
+</ul>
+</li>
+<li><p><strong>《Celeste》（蔚蓝）</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>2018 TGA最佳独立游戏</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
+    </i>
+  </font>
+</div>]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>美国游戏市场概况</title>
     <url>/archives/24a69431.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghh8o4l8ovj312w0t6aea.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghh8o4l8ovj312w0t6aea.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -2225,288 +2504,9 @@
       </tags>
   </entry>
   <entry>
-    <title>图形技术发展&amp;动作游戏发展</title>
-    <url>/archives/21f5c0c6.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghr9b2xyjej30xc0ot42q.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="behance.net/gallery/102282989/Selected-works-2019-2020?tracking_source=best_of_behance">Selected works | 2019-2020</a> by 
-      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
-    </i>
-  </font>
-</div>
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文从图形技术的发展延伸到动作游戏的发展，讲述动作游戏这一品类。</p>
-<a id="more"></a>
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>任爽/Sionx</strong></p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-</ul>
-<p>###《吃豆人》游戏图形的起源</p>
-<ul>
-<li><p>动作游戏界定</p>
-<ul>
-<li>通过手眼的配合作出即时反馈的游戏统称为动作游戏</li>
-</ul>
-</li>
-<li><p>动作游戏品类</p>
-<ul>
-<li>平台跳跃</li>
-<li>横版过关</li>
-<li>动作射击</li>
-<li>动作冒险</li>
-<li>动作角色扮演</li>
-<li>格斗</li>
-</ul>
-</li>
-<li><p>2D时代</p>
-<ul>
-<li><p>FC</p>
-<ul>
-<li>1983年发售</li>
-<li>处理器 &emsp; 8位</li>
-<li>输出分辨率  &emsp; 256 x 240</li>
-<li>内存 &emsp; 2KB</li>
-</ul>
-</li>
-<li><p><strong>《吃豆人》</strong></p>
-<ul>
-<li>1980年发售</li>
-<li>16进制代码创建图像</li>
-</ul>
-</li>
-<li><p>2D为主</p>
-<ul>
-<li><p>类似摇杆的外设</p>
-</li>
-<li><p>SEGA Degitizer System</p>
-<ul>
-<li>有效改善2D图像制作效率问题 </li>
-</ul>
-</li>
-<li><p>SEGA Degitizer System 3</p>
-</li>
-<li><p>早期的动作游戏都以横版表现形式为主</p>
-<ul>
-<li>通过算法水平镜像使资源只需一套解决左右翻转问题</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《超级马里奥兄弟》</strong></p>
-<ul>
-<li>1985年发售</li>
-<li>平台跳跃的鼻祖<ul>
-<li>奠定基础规则</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《热血硬派》</strong></p>
-<ul>
-<li>1986年发售</li>
-<li>八方向移动对横版过关类游戏具有深远的影响力</li>
-</ul>
-</li>
-<li><p><strong>《合金弹头》</strong></p>
-<ul>
-<li>1996年SNK发售</li>
-<li>动作射击类的巅峰之作</li>
-</ul>
-</li>
-<li><p><strong>《真人快打》</strong></p>
-<ul>
-<li>1992年Midway发售</li>
-<li>最早出现以真人拍摄制作的格斗游戏</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="3D时代"><a href="#3D时代" class="headerlink" title="3D时代"></a>3D时代</h3><ul>
-<li><p>主机游戏机</p>
-<ul>
-<li>1994年发售</li>
-<li>处理器  &emsp; 32位</li>
-<li>输出分辨率  &emsp; 640 x 480px</li>
-<li>内存 &emsp; 2MB</li>
-<li>最高性价比机能去体验更好的视觉效果和游戏乐趣</li>
-</ul>
-</li>
-<li><p><strong>《玩具总动员》</strong></p>
-<ul>
-<li>1995年发售</li>
-<li>3D技术的普及<ul>
-<li>3D在表现和效率上体现出巨大优势</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《VR展示战士》</strong></p>
-<ul>
-<li>1994年发售</li>
-<li>第一款3D格斗游戏</li>
-</ul>
-</li>
-<li><p><strong>《超级马里奥64》</strong></p>
-<ul>
-<li>1994年发售</li>
-<li>第一步3D化的马里奥系列<ul>
-<li>平面 -&gt; 3D</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《古墓丽影》</strong></p>
-<ul>
-<li>1996年发售</li>
-<li>动作冒险类游戏在PC上获得成功<ul>
-<li>3D游戏和2D游戏完全拉开一个质的变化</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《生化危机》</strong></p>
-<ul>
-<li>1996年发售</li>
-<li>‘坦克式’移动<ul>
-<li>机能不足</li>
-<li>使用固定视角去切换场景</li>
-<li>不同真正的模型，贴图去处理中远景</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="次世代"><a href="#次世代" class="headerlink" title="次世代"></a>次世代</h3><ul>
-<li><p>次世代</p>
-<ul>
-<li>法线贴图</li>
-<li>高光贴图</li>
-<li>动作捕捉</li>
-<li>PBR</li>
-<li>即时渲染光影</li>
-</ul>
-</li>
-<li><p>PlayStation3</p>
-<ul>
-<li>处理器 &emsp; 18m PowerPC 3.2Hz</li>
-<li>输出分辨率 &emsp; 1080p</li>
-<li>内存 &emsp; 256MB</li>
-<li>显存 &emsp; Reality Synthesizer，R5X</li>
-</ul>
-</li>
-<li><p><strong>《暗黑破坏神2》</strong></p>
-<ul>
-<li>2000年发售</li>
-<li>三渲二技术<ul>
-<li>CG技术远远大于即时演算技术</li>
-<li>追求高画质体验</li>
-<li>2D序列帧</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《地下城与勇士》</strong></p>
-<ul>
-<li>2005年发售</li>
-<li>网络时代的横版动作游戏<ul>
-<li>数值成长体系</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《陇村正》</strong></p>
-<ul>
-<li>2009年发售</li>
-<li>2D不再局限于像素风格</li>
-<li>次世代制作的2D横版动作游戏延续</li>
-</ul>
-</li>
-<li><p><strong>《火影忍者：究极风暴4》</strong></p>
-<ul>
-<li>2016年发售</li>
-<li>卡通渲染技术的格斗游戏</li>
-</ul>
-</li>
-<li><p><strong>《塞尔达传说：荒野之息》</strong></p>
-<ul>
-<li>2017年发售</li>
-<li>物理特性让玩法拥有多样性</li>
-</ul>
-</li>
-<li><p><strong>《怪物猎人：世界》</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>独乐乐不如众乐乐</li>
-<li>1200+w以上的销量</li>
-</ul>
-</li>
-<li><p><strong>《荒野大镖客：救赎2》</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>融合电影化叙事等多种元素的动作冒险游戏</li>
-<li>追求极致的实时渲染<ul>
-<li>次世代最高顶级的画质表现力</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>次世代的动作明星</p>
-<ul>
-<li>奎托斯</li>
-<li>但丁</li>
-<li>贝优妮塔</li>
-</ul>
-</li>
-<li><p><strong>《只狼》</strong></p>
-<ul>
-<li>2019年发售</li>
-<li>突破传统的动作游戏节奏，鼓励主动进攻</li>
-<li>同时进攻获取最大收益</li>
-</ul>
-</li>
-<li><p>【游戏推荐】</p>
-<ul>
-<li><p><strong>《Cuphead》（茶杯头）</strong></p>
-<ul>
-<li>2017年发售</li>
-<li>2017 TGA最佳美术指导、最佳独立游戏</li>
-</ul>
-</li>
-<li><p><strong>《Celeste》（蔚蓝）</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>2018 TGA最佳独立游戏</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
-    </i>
-  </font>
-</div>]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2D游戏开发</title>
     <url>/archives/6487e0f7.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkrfcylq45j312w0gak12.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkrfcylq45j312w0gak12.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -2603,7 +2603,7 @@
   <entry>
     <title>Project SetUp</title>
     <url>/archives/2b07a0e9.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gne54jvymsj31000u0thh.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gne54jvymsj31000u0thh.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -2688,7 +2688,7 @@
   <entry>
     <title>Entry Point</title>
     <url>/archives/8e968f45.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gng1yavr2gj31400u07wh.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gng1yavr2gj31400u07wh.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -2775,7 +2775,7 @@
   <entry>
     <title>Logging</title>
     <url>/archives/5285b66.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnhkcmtqlcj312w0p07wh.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnhkcmtqlcj312w0p07wh.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -2859,7 +2859,7 @@
   <entry>
     <title>Premake</title>
     <url>/archives/9209cb4c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/f1a64d28384331.55bd3bf689627.png"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/f1a64d28384331.55bd3bf689627.png"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -2937,7 +2937,7 @@
   <entry>
     <title>谁发明了方向键？</title>
     <url>/archives/ed19197d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4oa9rl0cj312w0lwjvf.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4oa9rl0cj312w0lwjvf.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>谁发明了方向键？它是如何工作的？为什么几乎在每一只手柄上都有它的身影？是不是所有方向键都是一个样？观看本期节目吧！</p>
 <a id="more"></a>
 
@@ -2975,7 +2975,7 @@
   <entry>
     <title>《蔚蓝》的手感为何迷人？</title>
     <url>/archives/d2e64879.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/11675ADD7255E759F0223337F7FF96255320FD71-20210212234920143.jpeg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/11675ADD7255E759F0223337F7FF96255320FD71-20210212234920143.jpeg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -3088,7 +3088,7 @@
   <entry>
     <title>《蔚蓝》的“辅助模式”为何特别？</title>
     <url>/archives/584cb21.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/(null)"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/(null)"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -3175,7 +3175,7 @@
   <entry>
     <title>随机数在游戏中的应用</title>
     <url>/archives/71c35c5e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekvei5q74j30xc0j30ys.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekvei5q74j30xc0j30ys.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -3382,7 +3382,7 @@
   <entry>
     <title>游戏性系统</title>
     <url>/archives/a79ad39b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf97mfku7fj30x30lp750.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf97mfku7fj30x30lp750.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -3582,7 +3582,7 @@
   <entry>
     <title>一个关于爱与生活的童话-Florence</title>
     <url>/archives/9b487a14.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf5uxkndixj30go09djt1.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf5uxkndixj30go09djt1.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
 <a id="more"></a>
 
@@ -3636,7 +3636,7 @@
   <entry>
     <title>跨越时空抚慰伤痛-Father and Son</title>
     <url>/archives/84339f66.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf9lwaptxij30zk0k0401.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf9lwaptxij30zk0k0401.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《父与子》由那不勒斯考古博物馆所发行，是一款以父子亲情为主题的冒险游戏，从那不勒斯国家考古博物馆，珍藏着人类最伟大的文物和珍宝，揭开这趟冒险之旅的序幕。剧情的主轴发展，开始于一个与父亲素为谋面的儿子迈克尔，透过穿越现在和过去，追溯已故父亲过往的考古旅程。你将亲自发掘那不勒斯的魅力，体验庞贝城在公元79年，维苏威火山喷发前几个小时的生离诀别，及探索古埃及的日常生活。积累的过去，造就了今日。</p>
 <a id="more"></a>
 
@@ -3692,7 +3692,7 @@
   <entry>
     <title>此时此刻，你充满了决心-Undertale</title>
     <url>/archives/795e3081.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggm00ecrbej30rs0iwhdt.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggm00ecrbej30rs0iwhdt.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -3795,7 +3795,7 @@
   <entry>
     <title>为什么要要登山？因为那里有山-Celeste</title>
     <url>/archives/75f72eb2.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9kpgb76dj31400p0q6v.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9kpgb76dj31400p0q6v.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>Madeline 攀登塞莱斯特山 （Celeste Mountain）的旅程中，帮助她克服内心深处的恐惧。勇敢面对数百个手工打造的挑战场景，揭开诡异的秘密，解开神秘山峰的谜团吧。</p>
 <a id="more"></a>
 
@@ -3918,7 +3918,7 @@
   <entry>
     <title>48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</title>
     <url>/archives/6144e1a0.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9djvu6vvj30m80cin3k.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9djvu6vvj30m80cin3k.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>Ludum Dare 是国外知名的独立游戏开发竞赛，首届比赛举办于2002年4月，迄今已走过足足35期，诞生了无数脍炙人口的经典作品。本文转载了INDIENOVA社区的博主 <a href="https://indienova.com/u/wizcas">Wizcas.陈小一</a> 的 <a href="https://indienova.com/indie-game-development/my-first-time-in-ludum-dare-38">48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</a>，与大家共同分享参加LD比赛的一些经验。</p>
 <a id="more"></a>
 
@@ -4023,7 +4023,7 @@
   <entry>
     <title>LATEX现学现用抢救指南</title>
     <url>/archives/d27a4a46.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkb9od3oecj314g0mg755.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkb9od3oecj314g0mg755.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文作为即忘即看的备忘文档，适用于各种编写博客需要专业数学公式但不熟悉的Latex的读者，所有内容摘自 <a href="http://mohu.org/info/symbols/symbols.htm">常用数学符号的 LaTeX 表示方法</a>。</p>
 <a id="more"></a>
 
@@ -4096,7 +4096,7 @@
   <entry>
     <title>马尔萨斯人口论与数学建模</title>
     <url>/archives/1492ea3c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk0dpddbq1j30xc0m80tg.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk0dpddbq1j30xc0m80tg.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -4286,7 +4286,7 @@
   <entry>
     <title>手机是怎么知道你的位置的</title>
     <url>/archives/a03a749.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkcy9nokcuj30u00w9hag.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkcy9nokcuj30u00w9hag.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -4378,7 +4378,7 @@
   <entry>
     <title>火箭为什么是三级</title>
     <url>/archives/6ddbab03.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkxbjaai90j30u00u0npe.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkxbjaai90j30u00u0npe.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -4591,7 +4591,7 @@
   <entry>
     <title>开始画像素画#1</title>
     <url>/archives/655d7201.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zfnfb9aj31hc0u00wn.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zfnfb9aj31hc0u00wn.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
 <a id="more"></a>
 
@@ -4697,7 +4697,7 @@
   <entry>
     <title>开始画像素画#2</title>
     <url>/archives/90b77012.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zhhvzmzj31hc0u0434.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zhhvzmzj31hc0u0434.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解像素绘画的流程，逐渐完善直到达到满意的效果。</p>
 <a id="more"></a>
 
@@ -4756,7 +4756,7 @@
   <entry>
     <title>开始画像素画#3</title>
     <url>/archives/90b77012.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zie8htlj31hc0u0dje.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zie8htlj31hc0u0dje.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解简单的 Aseprite 动画。</p>
 <a id="more"></a>
 
@@ -4821,7 +4821,7 @@
   <entry>
     <title>开始画像素画#4</title>
     <url>/archives/ec50fbbd.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zj79coyj31hc0u00x5.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zj79coyj31hc0u00x5.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解明暗基础。</p>
 <a id="more"></a>
 
@@ -4906,7 +4906,7 @@
   <entry>
     <title>开始画像素画#5</title>
     <url>/archives/9b57cb2b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zjv505rj31hc0u0427.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zjv505rj31hc0u0427.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解关于抗锯齿与色带。</p>
 <a id="more"></a>
 
@@ -4968,7 +4968,7 @@
   <entry>
     <title>开始画像素画#6</title>
     <url>/archives/25e9a91.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zkn8uthj31hc0u0dju.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zkn8uthj31hc0u0dju.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解颜色理论基础。</p>
 <a id="more"></a>
 
@@ -5051,7 +5051,7 @@
   <entry>
     <title>开始画像素画#7</title>
     <url>/archives/7559aa07.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zm7aw4aj31hc0u0jv1.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zm7aw4aj31hc0u0jv1.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
 <a id="more"></a>
 
@@ -5125,7 +5125,7 @@
   <entry>
     <title>开始画像素画#8</title>
     <url>/archives/e5e6b796.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zn1bbuvj31hc0u0423.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zn1bbuvj31hc0u0423.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解文件格式和导出方法。</p>
 <a id="more"></a>
 
@@ -5233,7 +5233,7 @@
   <entry>
     <title>操作系统概述</title>
     <url>/archives/33c82dd4.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gky8z6eslsg312w0lwhdu.gif"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gky8z6eslsg312w0lwhdu.gif"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -5275,57 +5275,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#121;&#x6f;&#x6e;&#103;&#x40;&#116;&#115;&#105;&#x6e;&#103;&#104;&#117;&#97;&#46;&#101;&#100;&#x75;&#46;&#x63;&#x6e;">&#120;&#121;&#x6f;&#x6e;&#103;&#x40;&#116;&#115;&#105;&#x6e;&#103;&#104;&#117;&#97;&#46;&#101;&#100;&#x75;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#121;&#x6f;&#110;&#x67;&#x40;&#116;&#115;&#x69;&#110;&#103;&#104;&#x75;&#x61;&#46;&#101;&#100;&#x75;&#46;&#99;&#110;">&#120;&#121;&#x6f;&#110;&#x67;&#x40;&#116;&#115;&#x69;&#110;&#103;&#104;&#x75;&#x61;&#46;&#101;&#100;&#x75;&#46;&#99;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#x75;&#x63;&#x68;&#x65;&#x6e;&#64;&#x6d;&#97;&#105;&#108;&#46;&#116;&#x73;&#105;&#x6e;&#x67;&#x68;&#117;&#97;&#x2e;&#101;&#100;&#x75;&#x2e;&#x63;&#110;">&#121;&#x75;&#x63;&#x68;&#x65;&#x6e;&#64;&#x6d;&#97;&#105;&#108;&#46;&#116;&#x73;&#105;&#x6e;&#x67;&#x68;&#117;&#97;&#x2e;&#101;&#100;&#x75;&#x2e;&#x63;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#117;&#99;&#104;&#x65;&#x6e;&#x40;&#109;&#97;&#105;&#x6c;&#x2e;&#116;&#115;&#105;&#x6e;&#103;&#104;&#x75;&#97;&#x2e;&#101;&#100;&#117;&#46;&#99;&#110;">&#x79;&#117;&#99;&#104;&#x65;&#x6e;&#x40;&#109;&#97;&#105;&#x6c;&#x2e;&#116;&#115;&#105;&#x6e;&#103;&#104;&#x75;&#97;&#x2e;&#101;&#100;&#117;&#46;&#99;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#x74;&#101;&#x72;&#x6e;&#x61;&#x6c;&#x2e;&#110;&#x30;&#x38;&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;">&#101;&#x74;&#101;&#x72;&#x6e;&#x61;&#x6c;&#x2e;&#110;&#x30;&#x38;&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#x74;&#x65;&#x72;&#110;&#x61;&#108;&#46;&#110;&#48;&#56;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#111;&#x6d;">&#101;&#x74;&#x65;&#x72;&#110;&#x61;&#108;&#46;&#110;&#48;&#56;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#x62;&#106;&#x65;&#99;&#116;&#107;&#x75;&#x61;&#x6e;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#111;&#x62;&#106;&#x65;&#99;&#116;&#107;&#x75;&#x61;&#x6e;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#111;&#x62;&#x6a;&#x65;&#x63;&#116;&#107;&#117;&#97;&#110;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#109;">&#111;&#x62;&#x6a;&#x65;&#x63;&#116;&#107;&#117;&#97;&#110;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#x72;&#x64;&#x66;&#114;&#x61;&#110;&#x6b;&#64;&#103;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;">&#x63;&#x72;&#x64;&#x66;&#114;&#x61;&#110;&#x6b;&#64;&#103;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#x72;&#x64;&#x66;&#x72;&#x61;&#110;&#x6b;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;">&#99;&#x72;&#x64;&#x66;&#x72;&#x61;&#110;&#x6b;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#x61;&#99;&#99;&#x6f;&#x72;&#x61;&#119;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">&#116;&#x61;&#99;&#99;&#x6f;&#x72;&#x61;&#119;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#116;&#x61;&#99;&#x63;&#x6f;&#114;&#x61;&#x77;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;">&#116;&#x61;&#99;&#x63;&#x6f;&#114;&#x61;&#x77;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#105;&#x6e;&#x79;&#x75;&#x6e;&#120;&#105;&#110;&#x67;&#48;&#x30;&#x30;&#x31;&#64;&#49;&#x36;&#51;&#46;&#x63;&#x6f;&#109;">&#120;&#105;&#x6e;&#x79;&#x75;&#x6e;&#120;&#105;&#110;&#x67;&#48;&#x30;&#x30;&#x31;&#64;&#49;&#x36;&#51;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x78;&#x69;&#x6e;&#x79;&#x75;&#110;&#120;&#x69;&#x6e;&#x67;&#x30;&#x30;&#x30;&#x31;&#x40;&#x31;&#x36;&#x33;&#46;&#x63;&#111;&#109;">&#x78;&#x69;&#x6e;&#x79;&#x75;&#110;&#120;&#x69;&#x6e;&#x67;&#x30;&#x30;&#x30;&#x31;&#x40;&#x31;&#x36;&#x33;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#x6e;&#111;&#x63;&#117;&#105;&#108;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#103;&#x6e;&#111;&#x63;&#117;&#105;&#108;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#x6e;&#111;&#x63;&#x75;&#105;&#108;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#103;&#x6e;&#111;&#x63;&#x75;&#105;&#108;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#121;&#x61;&#x69;&#114;&#x69;&#97;&#64;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x6d;&#121;&#x61;&#x69;&#114;&#x69;&#97;&#64;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#x79;&#97;&#105;&#114;&#105;&#97;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#109;&#x79;&#97;&#105;&#114;&#105;&#97;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#104;&#97;&#x6e;&#x67;&#114;&#x61;&#x69;&#x6e;&#x39;&#x31;&#49;&#64;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#x6d;">&#122;&#104;&#97;&#x6e;&#x67;&#114;&#x61;&#x69;&#x6e;&#x39;&#x31;&#49;&#64;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#104;&#97;&#110;&#x67;&#x72;&#97;&#x69;&#x6e;&#57;&#49;&#x31;&#x40;&#49;&#54;&#x33;&#x2e;&#x63;&#111;&#109;">&#x7a;&#104;&#97;&#110;&#x67;&#x72;&#97;&#x69;&#x6e;&#57;&#49;&#x31;&#x40;&#49;&#54;&#x33;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#x67;&#x78;&#120;&#x31;&#50;&#48;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#103;&#x67;&#x78;&#120;&#x31;&#50;&#48;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#103;&#x78;&#120;&#49;&#x32;&#x30;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;">&#x67;&#103;&#x78;&#120;&#49;&#x32;&#x30;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -5513,7 +5513,7 @@
   <entry>
     <title>进程与线程</title>
     <url>/archives/44cf1d42.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloe6t3mq4g312w0lwqva.gif"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloe6t3mq4g312w0lwqva.gif"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -5542,7 +5542,7 @@
   <entry>
     <title>Aseprite教学-Aseprite编译教程</title>
     <url>/archives/5d59087d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nt7r5jxj314w0i3788.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nt7r5jxj314w0i3788.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将根据官方文档介绍Aseprite的编译安装方法。</p>
 <a id="more"></a>
 
@@ -5631,7 +5631,7 @@
   <entry>
     <title>Aseprite教学-基本工具</title>
     <url>/archives/3df0cd57.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf5u3va259j30xc0irh5u.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf5u3va259j30xc0irh5u.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -5795,7 +5795,7 @@
   <entry>
     <title>Aseprite教学-色彩、造型和光照</title>
     <url>/archives/c7d3ecc8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文我们来聊聊颜色工具以及绘画中的造型和光照。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文我们来聊聊颜色工具以及绘画中的造型和光照。</p>
 <a id="more"></a>
 
 
@@ -5840,7 +5840,7 @@
   <entry>
     <title>Aseprite教学-动画</title>
     <url>/archives/88d7e2f9.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><a id="more"></a>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><a id="more"></a>
 
 
 
@@ -5880,7 +5880,7 @@
   <entry>
     <title>Aseprite教学-绘画技巧与常见问题</title>
     <url>/archives/4db0f4e3.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将列举像素绘画中的绘画技巧与常见问题。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将列举像素绘画中的绘画技巧与常见问题。</p>
 <a id="more"></a>
 
 <p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloustu5wwj313g0m8t8o.jpg"></p>
@@ -5920,7 +5920,7 @@
   <entry>
     <title>PAT (Basic Level) Practice</title>
     <url>/archives/d04381bb.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghj9h9wmvbj30xc0irjwp.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghj9h9wmvbj30xc0irjwp.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -6155,7 +6155,7 @@
   <entry>
     <title>像素宝典#1</title>
     <url>/archives/5b27815c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5yziapgij31hc0u0ak5.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5yziapgij31hc0u0ak5.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解简单的闪光效果、烟雾效果、攻击动画和跑步循环。</p>
 <a id="more"></a>
 
@@ -6217,7 +6217,7 @@
   <entry>
     <title>像素宝典#2</title>
     <url>/archives/c22ed0e6.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z43ozraj31hc0u0gvq.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z43ozraj31hc0u0gvq.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解俯视跑步循环、闪电效果、故障效果和关卡设计流程。</p>
 <a id="more"></a>
 
@@ -6273,69 +6273,9 @@
       </tags>
   </entry>
   <entry>
-    <title>像素宝典#3</title>
-    <url>/archives/a2511f33.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z6hdoorj31hc0u0tiu.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解水、火的特效、无缝循环、植物和骷髅。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmib88u5vj30u008c74z.jpg"></p>
-<h3 id="水"><a href="#水" class="headerlink" title="水"></a>水</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibewya6g30e80e8dy9.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmib97v9lg30e80e8qmm.gif"></p>
-<p>这估计是至今为止我做的最复杂的一节了，不过希望对大家有帮助！水也不是我的专长，所以为了这节我找了非常多资料。</p>
-<p>再次重申，这些都不是什么金科玉律，只是我自己画水时候的思路。这也不是真实世界里水的行为，只是这样我觉着更酷。</p>
-<p>画水对我来说就是关于流动。我总是注意去循环，让所有东西都一直在移动。</p>
-<p>感谢大家一如既往的支持，做这个系列我也很开心。这个系列走到现在都是靠各位 patreons（patreon 上的资助者）和大家的积极分享。</p>
-<h3 id="火"><a href="#火" class="headerlink" title="火"></a>火</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibgn0cag30e80e8aq8-20210210113920843.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibftf9dg30e80e84gh-20210210113911873.gif"></p>
-<p>火的教程来了！</p>
-<p>很难形容怎么去画火，所以这节文字特别多。我画的时候会结合自己的观察，也会参考其他人的作品。这也是学习画大部分东西的好办法。</p>
-<p>感谢每个人的支持，不论是资助还是帮忙分享！</p>
-<p>这个老哥这几节就迷上流动了，啥都是流动的。</p>
-<h3 id="无缝循环"><a href="#无缝循环" class="headerlink" title="无缝循环"></a>无缝循环</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibgeds8g30e80e845r.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-000122694wb.gif"></p>
-<p>这节有点抽象，我试着用自己做循环的过程给大家说明。</p>
-<p>我觉得学习做无缝循环的时候，练习是非常重要的。所以我建议大家多多练习。</p>
-<p>感谢大家的支持，下周见！</p>
-<p><strong>风农：左下角那个火焰，每个绿色的线代表的区间都是一个火苗生成到消散的区间。</strong></p>
-<p><strong>火苗生成是从最底层开始，最小只有一个绿色的点。</strong></p>
-<h3 id="植物-1"><a href="#植物-1" class="headerlink" title="植物 1"></a>植物 1</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibedsczg30e80e8k2j.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibdtzilg30e80e8k37.gif"></p>
-<p>这节与其说是教程，更像是一些技巧集合，和一些画蔬菜时候要注意的地方。</p>
-<p>我最大的建议是不要画噪点。加纹理是好的，但是纹理产生噪点太多的话画面会很怪。</p>
-<p>所以我都是先处理外形，再是光照，最后才是细节。</p>
-<p>我之前的像素画基础也是类似的集合，里面解释了孤立像素以及保持低数量的像素块。</p>
-<p>这期教程基本上是用的 Endesga （twitter.com/endesga）的 32 色调色盘。</p>
-<p>图片版：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibh44x8j30pk0g1wgm.jpg"></p>
-<h3 id="骷髅和骨头"><a href="#骷髅和骨头" class="headerlink" title="骷髅和骨头"></a>骷髅和骨头</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibd1fjbg30e80e81ky.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibfgxawg30e80e84qq.gif"></p>
-<p>这里是我画骷髅跟骨头时后的一些思路。</p>
-<p>大部分时候我感觉都是在跟低分辨率较劲，与其说是画画，更像是解密，但我还是很喜欢这个过程。</p>
-<p>下面是图里放不下的几个点：</p>
-<ul>
-<li>没什么比露天的肋骨更能说明“我已经死了”。用条纹图案在角色胸口画就可以。</li>
-<li>这完全是关于图形识别。人的思维总是想到处看到人脸，利用这点。</li>
-<li>跟其他情况不同，噪点在这里不是什么大问题，我通常会把所有东西都搞得很脏，腐蚀的厉害。</li>
-</ul>
-<p>感谢所有赞助者和大家的分享！</p>
-]]></content>
-      <categories>
-        <category>像素宝典 (Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>像素宝典#4</title>
     <url>/archives/2b4d75d3.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z8d807nj31hc0u0wol.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z8d807nj31hc0u0wol.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解角色设计、动画、像素运动、爆炸效果和怪异科技效果。</p>
 <a id="more"></a>
 
@@ -6388,7 +6328,7 @@
   <entry>
     <title>像素宝典#5</title>
     <url>/archives/2b4d75d4.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zau6ukqj318g0p010m.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zau6ukqj318g0p010m.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解视差和深度、渲染技巧、动画缓冲、像素画流程和废墟画法。</p>
 <a id="more"></a>
 
@@ -6459,9 +6399,69 @@
       </tags>
   </entry>
   <entry>
+    <title>像素宝典#3</title>
+    <url>/archives/a2511f33.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z6hdoorj31hc0u0tiu.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解水、火的特效、无缝循环、植物和骷髅。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmib88u5vj30u008c74z.jpg"></p>
+<h3 id="水"><a href="#水" class="headerlink" title="水"></a>水</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibewya6g30e80e8dy9.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmib97v9lg30e80e8qmm.gif"></p>
+<p>这估计是至今为止我做的最复杂的一节了，不过希望对大家有帮助！水也不是我的专长，所以为了这节我找了非常多资料。</p>
+<p>再次重申，这些都不是什么金科玉律，只是我自己画水时候的思路。这也不是真实世界里水的行为，只是这样我觉着更酷。</p>
+<p>画水对我来说就是关于流动。我总是注意去循环，让所有东西都一直在移动。</p>
+<p>感谢大家一如既往的支持，做这个系列我也很开心。这个系列走到现在都是靠各位 patreons（patreon 上的资助者）和大家的积极分享。</p>
+<h3 id="火"><a href="#火" class="headerlink" title="火"></a>火</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibgn0cag30e80e8aq8-20210210113920843.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibftf9dg30e80e84gh-20210210113911873.gif"></p>
+<p>火的教程来了！</p>
+<p>很难形容怎么去画火，所以这节文字特别多。我画的时候会结合自己的观察，也会参考其他人的作品。这也是学习画大部分东西的好办法。</p>
+<p>感谢每个人的支持，不论是资助还是帮忙分享！</p>
+<p>这个老哥这几节就迷上流动了，啥都是流动的。</p>
+<h3 id="无缝循环"><a href="#无缝循环" class="headerlink" title="无缝循环"></a>无缝循环</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibgeds8g30e80e845r.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-000122694wb.gif"></p>
+<p>这节有点抽象，我试着用自己做循环的过程给大家说明。</p>
+<p>我觉得学习做无缝循环的时候，练习是非常重要的。所以我建议大家多多练习。</p>
+<p>感谢大家的支持，下周见！</p>
+<p><strong>风农：左下角那个火焰，每个绿色的线代表的区间都是一个火苗生成到消散的区间。</strong></p>
+<p><strong>火苗生成是从最底层开始，最小只有一个绿色的点。</strong></p>
+<h3 id="植物-1"><a href="#植物-1" class="headerlink" title="植物 1"></a>植物 1</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibedsczg30e80e8k2j.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibdtzilg30e80e8k37.gif"></p>
+<p>这节与其说是教程，更像是一些技巧集合，和一些画蔬菜时候要注意的地方。</p>
+<p>我最大的建议是不要画噪点。加纹理是好的，但是纹理产生噪点太多的话画面会很怪。</p>
+<p>所以我都是先处理外形，再是光照，最后才是细节。</p>
+<p>我之前的像素画基础也是类似的集合，里面解释了孤立像素以及保持低数量的像素块。</p>
+<p>这期教程基本上是用的 Endesga （twitter.com/endesga）的 32 色调色盘。</p>
+<p>图片版：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibh44x8j30pk0g1wgm.jpg"></p>
+<h3 id="骷髅和骨头"><a href="#骷髅和骨头" class="headerlink" title="骷髅和骨头"></a>骷髅和骨头</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibd1fjbg30e80e81ky.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibfgxawg30e80e84qq.gif"></p>
+<p>这里是我画骷髅跟骨头时后的一些思路。</p>
+<p>大部分时候我感觉都是在跟低分辨率较劲，与其说是画画，更像是解密，但我还是很喜欢这个过程。</p>
+<p>下面是图里放不下的几个点：</p>
+<ul>
+<li>没什么比露天的肋骨更能说明“我已经死了”。用条纹图案在角色胸口画就可以。</li>
+<li>这完全是关于图形识别。人的思维总是想到处看到人脸，利用这点。</li>
+<li>跟其他情况不同，噪点在这里不是什么大问题，我通常会把所有东西都搞得很脏，腐蚀的厉害。</li>
+</ul>
+<p>感谢所有赞助者和大家的分享！</p>
+]]></content>
+      <categories>
+        <category>像素宝典 (Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>像素宝典#6</title>
     <url>/archives/c54314ff.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zbxjud7j31hc0u0dpy.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zbxjud7j31hc0u0dpy.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解各种特效和飞行动画。</p>
 <a id="more"></a>
 
@@ -6527,7 +6527,7 @@
   <entry>
     <title>像素宝典#7</title>
     <url>/archives/b2442469.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zdb4ui8j318g0p046e.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zdb4ui8j318g0p046e.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解粘液、岩石构成、植物、城市背景以及像素画基础。</p>
 <a id="more"></a>
 
@@ -6582,7 +6582,7 @@
   <entry>
     <title>Pico-8 精彩代码--植物生长效果解析</title>
     <url>/archives/9c0e841f.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkqxm3p0xkj30m80cidgo.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkqxm3p0xkj30m80cidgo.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。</p>
 <a id="more"></a>
 
@@ -6633,9 +6633,49 @@
       </tags>
   </entry>
   <entry>
+    <title>Pico-8 精彩代码--触手效果解析</title>
+    <url>/archives/6b115460.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwbahzs4j30m80ci753.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现触手的效果。</p>
+<a id="more"></a>
+
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwapwcm0g30bp0bx7u5.gif"></p>
+<h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p><strong>作者：</strong>Luca@lucatron_<br><strong>来源：</strong>twitter</p>
+<p>整理过后 14 行代码：</p>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">c=&#123;<span class="number">10</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">0</span>&#125;</span><br><span class="line">fillp(<span class="number">0xa5a5</span>)<span class="function"><span class="keyword">function</span> <span class="title">_draw</span><span class="params">()</span></span> <span class="keyword">for</span> i=<span class="number">24576</span>,<span class="number">32767</span> <span class="keyword">do</span></span><br><span class="line">  poke(i,peek(i)/<span class="number">2</span>)</span><br><span class="line"> <span class="keyword">end</span></span><br><span class="line"> <span class="keyword">for</span> z=<span class="number">6</span>,<span class="number">1</span>,<span class="number">-.1</span> <span class="keyword">do</span></span><br><span class="line">  <span class="keyword">for</span> b=<span class="number">0</span>,<span class="number">7</span> <span class="keyword">do</span></span><br><span class="line">   b=b/<span class="number">8</span>+<span class="built_in">sin</span>(z/<span class="number">8</span>+t()/<span class="number">4</span>)/<span class="number">30</span></span><br><span class="line">   k=<span class="number">19</span>-<span class="built_in">sin</span>((<span class="number">6</span>-z)/<span class="number">20</span>)*<span class="number">40</span>*(<span class="number">.5</span>+<span class="built_in">sin</span>(t()/<span class="number">2</span>+z/<span class="number">9</span>+b*<span class="number">2</span>)/<span class="number">2</span>)</span><br><span class="line">   circfill(<span class="number">64</span>+<span class="built_in">cos</span>(b)*k,<span class="number">64</span>+<span class="built_in">sin</span>(b)*k,z*<span class="number">2.3</span>,c[flr(z)]+c[flr(z+<span class="number">.5</span>)]*<span class="number">16</span>)</span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"> endend</span><br></pre></td></tr></table></figure>
+<p>1-2 行，<code>c</code> 是触手的颜色，顶部到底部由明止暗。<code>fillp</code> 是填充样式，点阵图样填充，有种渐变的效果（在最后详细解释）。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwan0ucej30lk0bj752.jpg"></p>
+<p>4-6 行，是残影效果，这里没有用 <code>cls</code> 清空画布，直接将屏幕内存中的数值每帧减半，最终降为 <code>0</code> 透明，来实现透明效果</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwaoaasnj30kr0b3q3w.jpg"></p>
+<p>10-11 行，两个嵌套循环，外层的 <code>z</code> 表示，每个触手的层数，内层 <code>b</code> 表示触手的数量（<code>8</code> 个）。单个触手是由从下至上，大小递减，颜色逐渐变亮的圆组成，<code>z</code> 表示圆的位置，相当于 <code>z</code> 轴的坐标，从 <code>6-1</code> 共有 <code>60</code> 层。</p>
+<p>9 行，<code>b/8</code> 将八只触手映射到 <code>0-1</code>，pico8 中三角函数的参数取值 <code>0-1</code> 代表着 <code>0-360°</code>。在第 11 行的 <code>circlefill</code> 圆的绘制函数中，圆 B 的位置 <code>x,y =  64+cos(b)*k,64+sin(b)*k</code>。其中原点是屏幕的中心点 <code>64, 64</code>；角度 <code>b</code> 为每个触手映射的角度，<code>k</code> 为圆至屏幕中心的距离。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwamxxpqj30eg0e9aam.jpg"></p>
+<p>10 行 计算每个圆至屏幕中心的距离 <code>k</code>，我们先把圆的角度 <code>b</code> 从中去掉看下结果。<code>k=19-sin((6-z)/20)*40*(.5+sin(t()/2+z/9)/2)</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwaozlqwg30bp0bx7u5.gif"></p>
+<p>将圆的 <code>z</code> 轴坐标 <code>z</code> 映射到至中心的距离 <code>k</code>，通过 <code>sin</code> 的映射使得，距离 <code>k</code> 根据 <code>z</code> 呈现正弦波的形状。</p>
+<p>最后把角度 <code>b</code> 加回去，<code>k=19-sin((6-z)/20)*40*(.5+sin(t()/2+z/9+b*2)/2)</code> 使得不同的触手在波形上拥有不同的位置。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwaqpv80g30bp0bwtmr.gif"></p>
+<p>第 11 行 <code>circlefill</code> 画圆，其中圆的半径 根据 <code>z</code> 轴距离变化，<code>z*2.3</code>。圆的颜色 <code>c[flr(z)]+c[flr(z+.5)]*16</code> 是两个颜色相加，利用高低位的不同颜色，再配合第 2 行的 <code>fillp</code> 实现两种颜色的填充图样。</p>
+<p>最后补充下 <code>fillp</code> 的用法。pico8 中用一个 <code>4*4</code> 的图来填充 <code>circ()</code> <code>circfill()</code> <code>rect()</code> <code>rectfill()</code> <code>pset()</code> <code>line()</code> 等函数画的图形。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwanwm3yj30eg0e9aam.jpg"></p>
+<p>16 个像素点用上图表格里的数字代表，如果想让某个点不着色就将点对应的数值累加，将最终得到的值传给 <code>fillp</code>，比如只让对角线 <code>32768,1024,32,1</code> 没有颜色，<code>fillp(32768+1024+32+1)</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwaq5pm4j30jb0a7my5.jpg"></p>
+<p>也可以 <code>7+8*16</code> 指定第二个颜色</p>
+]]></content>
+      <categories>
+        <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Game Engine</tag>
+        <tag>Lua</tag>
+        <tag>Pico-8</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Pico-8 精彩代码--漩涡效果解析</title>
     <url>/archives/2a6e7125.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4obfrjkrj30m80ciaat.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4obfrjkrj30m80ciaat.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现漩涡的效果。</p>
 <a id="more"></a>
 
@@ -6674,49 +6714,9 @@
       </tags>
   </entry>
   <entry>
-    <title>Pico-8 精彩代码--触手效果解析</title>
-    <url>/archives/6b115460.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwbahzs4j30m80ci753.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现触手的效果。</p>
-<a id="more"></a>
-
-<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwapwcm0g30bp0bx7u5.gif"></p>
-<h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p><strong>作者：</strong>Luca@lucatron_<br><strong>来源：</strong>twitter</p>
-<p>整理过后 14 行代码：</p>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">c=&#123;<span class="number">10</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">0</span>&#125;</span><br><span class="line">fillp(<span class="number">0xa5a5</span>)<span class="function"><span class="keyword">function</span> <span class="title">_draw</span><span class="params">()</span></span> <span class="keyword">for</span> i=<span class="number">24576</span>,<span class="number">32767</span> <span class="keyword">do</span></span><br><span class="line">  poke(i,peek(i)/<span class="number">2</span>)</span><br><span class="line"> <span class="keyword">end</span></span><br><span class="line"> <span class="keyword">for</span> z=<span class="number">6</span>,<span class="number">1</span>,<span class="number">-.1</span> <span class="keyword">do</span></span><br><span class="line">  <span class="keyword">for</span> b=<span class="number">0</span>,<span class="number">7</span> <span class="keyword">do</span></span><br><span class="line">   b=b/<span class="number">8</span>+<span class="built_in">sin</span>(z/<span class="number">8</span>+t()/<span class="number">4</span>)/<span class="number">30</span></span><br><span class="line">   k=<span class="number">19</span>-<span class="built_in">sin</span>((<span class="number">6</span>-z)/<span class="number">20</span>)*<span class="number">40</span>*(<span class="number">.5</span>+<span class="built_in">sin</span>(t()/<span class="number">2</span>+z/<span class="number">9</span>+b*<span class="number">2</span>)/<span class="number">2</span>)</span><br><span class="line">   circfill(<span class="number">64</span>+<span class="built_in">cos</span>(b)*k,<span class="number">64</span>+<span class="built_in">sin</span>(b)*k,z*<span class="number">2.3</span>,c[flr(z)]+c[flr(z+<span class="number">.5</span>)]*<span class="number">16</span>)</span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"> endend</span><br></pre></td></tr></table></figure>
-<p>1-2 行，<code>c</code> 是触手的颜色，顶部到底部由明止暗。<code>fillp</code> 是填充样式，点阵图样填充，有种渐变的效果（在最后详细解释）。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwan0ucej30lk0bj752.jpg"></p>
-<p>4-6 行，是残影效果，这里没有用 <code>cls</code> 清空画布，直接将屏幕内存中的数值每帧减半，最终降为 <code>0</code> 透明，来实现透明效果</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwaoaasnj30kr0b3q3w.jpg"></p>
-<p>10-11 行，两个嵌套循环，外层的 <code>z</code> 表示，每个触手的层数，内层 <code>b</code> 表示触手的数量（<code>8</code> 个）。单个触手是由从下至上，大小递减，颜色逐渐变亮的圆组成，<code>z</code> 表示圆的位置，相当于 <code>z</code> 轴的坐标，从 <code>6-1</code> 共有 <code>60</code> 层。</p>
-<p>9 行，<code>b/8</code> 将八只触手映射到 <code>0-1</code>，pico8 中三角函数的参数取值 <code>0-1</code> 代表着 <code>0-360°</code>。在第 11 行的 <code>circlefill</code> 圆的绘制函数中，圆 B 的位置 <code>x,y =  64+cos(b)*k,64+sin(b)*k</code>。其中原点是屏幕的中心点 <code>64, 64</code>；角度 <code>b</code> 为每个触手映射的角度，<code>k</code> 为圆至屏幕中心的距离。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwamxxpqj30eg0e9aam.jpg"></p>
-<p>10 行 计算每个圆至屏幕中心的距离 <code>k</code>，我们先把圆的角度 <code>b</code> 从中去掉看下结果。<code>k=19-sin((6-z)/20)*40*(.5+sin(t()/2+z/9)/2)</code></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwaozlqwg30bp0bx7u5.gif"></p>
-<p>将圆的 <code>z</code> 轴坐标 <code>z</code> 映射到至中心的距离 <code>k</code>，通过 <code>sin</code> 的映射使得，距离 <code>k</code> 根据 <code>z</code> 呈现正弦波的形状。</p>
-<p>最后把角度 <code>b</code> 加回去，<code>k=19-sin((6-z)/20)*40*(.5+sin(t()/2+z/9+b*2)/2)</code> 使得不同的触手在波形上拥有不同的位置。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwaqpv80g30bp0bwtmr.gif"></p>
-<p>第 11 行 <code>circlefill</code> 画圆，其中圆的半径 根据 <code>z</code> 轴距离变化，<code>z*2.3</code>。圆的颜色 <code>c[flr(z)]+c[flr(z+.5)]*16</code> 是两个颜色相加，利用高低位的不同颜色，再配合第 2 行的 <code>fillp</code> 实现两种颜色的填充图样。</p>
-<p>最后补充下 <code>fillp</code> 的用法。pico8 中用一个 <code>4*4</code> 的图来填充 <code>circ()</code> <code>circfill()</code> <code>rect()</code> <code>rectfill()</code> <code>pset()</code> <code>line()</code> 等函数画的图形。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwanwm3yj30eg0e9aam.jpg"></p>
-<p>16 个像素点用上图表格里的数字代表，如果想让某个点不着色就将点对应的数值累加，将最终得到的值传给 <code>fillp</code>，比如只让对角线 <code>32768,1024,32,1</code> 没有颜色，<code>fillp(32768+1024+32+1)</code></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwaq5pm4j30jb0a7my5.jpg"></p>
-<p>也可以 <code>7+8*16</code> 指定第二个颜色</p>
-]]></content>
-      <categories>
-        <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Game Engine</tag>
-        <tag>Lua</tag>
-        <tag>Pico-8</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Pico-8 精彩代码--摇曳树木效果解析</title>
     <url>/archives/31df4d37.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4octe663j30m80cidgj.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4octe663j30m80cidgj.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现摇曳的树木的效果。</p>
 <a id="more"></a>
 
@@ -6748,7 +6748,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--那年的那些顾客</title>
     <url>/archives/c35ec0ed.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在苏宁电器遇到的奇闻趣事。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在苏宁电器遇到的奇闻趣事。</p>
 <a id="more"></a>
 
 
@@ -6781,7 +6781,7 @@
   <entry>
     <title>Unity Student Plan申请指南</title>
     <url>/archives/e8e3308a.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf3sypo104j31hc0u0ae8.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf3sypo104j31hc0u0ae8.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了Unity社区的优秀博主 <a href="https://unity.cn/u/michael-wang-2/?tab=article">Michael Wang</a> 的 <a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">Unity Student Plan申请指南！</a>，希望通过转载的方式可以帮助到对 Unity Pro 购买上有困难的在读学生申请「Unity Student Plan」，也希望有能力的读者朋友可以去支持一下原文作者，他有大量的优质 Unity 教学视频可供初学者学习。</p>
 <a id="more"></a>
 
@@ -6855,7 +6855,7 @@
   <entry>
     <title>R语言数据分析方法论</title>
     <url>/archives/988a2d13.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gke2i5jecdg30xc0ir7wi.gif"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gke2i5jecdg30xc0ir7wi.gif"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -6993,7 +6993,7 @@
   <entry>
     <title>Unity基本编译环境设置</title>
     <url>/archives/87cbf473.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/23b2522533cb0ccc023245cef36a75e64b7d2b0a.jpg@860w_482h-20210211170138902.webp"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/23b2522533cb0ccc023245cef36a75e64b7d2b0a.jpg@860w_482h-20210211170138902.webp"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>有非常多的朋友加入到Unity游戏开发中，但是同时也有非常多的朋友卡在了一开始的配置环境部分。直接导致 MonoBehavior 白色，代码无法自动补全等问题。为了一次性解决新人都可能面对的问题，我决定写下这个指南希望你们都能顺利开始学习Unity游戏开发！</p>
 <a id="more"></a>
 
@@ -7070,7 +7070,7 @@
   <entry>
     <title>Hexo-Fluid写作指南</title>
     <url>/archives/f0a0db79.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4ofxtwutj313g0jo761.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4ofxtwutj313g0jo761.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文记录Hexo-Fluid主题的写作技巧，内容包含了Markdown、HTML和IMG三个大类。需要注意因为主题转变的原因部分标签无法使用，但对于博客写作仍有共同之处和参考价值。</p>
 <a id="more"></a>
 
@@ -7271,7 +7271,7 @@
   <entry>
     <title>博客使用插件总结</title>
     <url>/archives/c12c9c40.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nnpskhxj311i0gywkf.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nnpskhxj311i0gywkf.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -7876,7 +7876,7 @@
   <entry>
     <title>绪论</title>
     <url>/archives/43830010.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8znqrfhdg30xc0erqv6.gif"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8znqrfhdg30xc0erqv6.gif"></p>
 <p>本课程旨在围绕各类数据结构的设计与实现，揭示其中的规律原理与方法技巧；同时针对算法设计及其性能分析，使学生了解并掌握主要的套路与手段。本文将讲解数据结构入门的一些基本概念。</p>
 <a id="more"></a>
 
@@ -8404,7 +8404,7 @@
   <entry>
     <title>Foundations of Computer Graphics Unit1</title>
     <url>/archives/301329c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4odgcr3hj31hc0u074w.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4odgcr3hj31hc0u074w.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -8837,7 +8837,7 @@
   <entry>
     <title>Github个人首页美化</title>
     <url>/archives/d7f21a0b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4o7e7de2j30rs0bo404.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4o7e7de2j30rs0bo404.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将介绍如何从零开始美化自己的Github主页，让<code>Github Profile</code>展示更多有用的信息。</p>
 <a id="more"></a>
 
@@ -9069,7 +9069,7 @@
   <entry>
     <title>从C到C++简明教程</title>
     <url>/archives/293466a9.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4mym0wp6j30xc0irn4o.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4mym0wp6j30xc0irn4o.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -9261,7 +9261,7 @@
   <entry>
     <title>Markdown基本语法</title>
     <url>/archives/41c7ed62.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2lggm8g1j30xf0lp43o.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2lggm8g1j30xf0lp43o.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文作为即忘即看的Markdown基本语法备忘文档，适用于各种编写博客排版需要但不熟悉的Markdown的读者。Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。部分内容摘自 <a href="https://www.runoob.com/markdown/md-tutorial.html">菜鸟教程</a> 与<a href="https://markdown-zh.readthedocs.io/en/latest/">Markdown 中文文档</a></p>
 <a id="more"></a>
 
@@ -9936,7 +9936,7 @@
   <entry>
     <title>Markdown入门指南</title>
     <url>/archives/6f3ff15d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2tm1nc2nj31360go78r.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2tm1nc2nj31360go78r.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>有关 Markdown 的概述、工作原理、用途以及语法快速参考手册 / 速查表。</p>
 <a id="more"></a>
 
@@ -10124,7 +10124,7 @@
   <entry>
     <title>Pico-8—神奇的虚构游戏机</title>
     <url>/archives/18a71cc2.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk6mtusj1xj30sg0hs11h.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk6mtusj1xj30sg0hs11h.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>由<a href="https://pico-8.fandom.com/zh/wiki/LexaloffleGames">Lexaloffle Games</a>制作的<a href="https://pico-8.fandom.com/zh/wiki/Pico8">PICO-8</a>是一台梦幻可编程游戏主机，用来制作，分享和玩小游戏和其他计算机程序（卡带，或“卡”）。这个主机提供了简单的内置工具来创造你自己的卡带。</p>
 <a id="more"></a>
 
@@ -10225,7 +10225,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--我的创业梦</title>
     <url>/archives/1783f129.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在本科时期的一次创业实践与反思。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在本科时期的一次创业实践与反思。</p>
 <a id="more"></a>
 
 
@@ -10279,7 +10279,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--来到苏宁之前的过渡</title>
     <url>/archives/4f9e99c0.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师离开书馆来苏宁前应聘中石化的琐事。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师离开书馆来苏宁前应聘中石化的琐事。</p>
 <a id="more"></a>
 
 
@@ -10317,7 +10317,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--单证这一年</title>
     <url>/archives/1d133aa.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中在北工大读单证的生活。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中在北工大读单证的生活。</p>
 <a id="more"></a>
 
 
@@ -10378,7 +10378,7 @@
   <entry>
     <title>OnOff-Unity2D游戏开发</title>
     <url>/archives/2445f889.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4o2y46uwj311x0j6q3b.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4o2y46uwj311x0j6q3b.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主要面向对Unity有基本了解，并想学习制作一个完整的2D Platformer游戏的读者。在课程中会透过重新制作《On Off》这个小游戏，来为大家讲解关于2D人物的操纵以及动画转换，也包含了开始选单、音乐音效等在各游戏中都非常泛用的知识点。</p>
 <a id="more"></a>
 
@@ -10718,7 +10718,7 @@
   <entry>
     <title>Foundations of Computer Graphics Unit0</title>
     <url>/archives/7406020a.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkq5ou5zn2j31hc0u0my9.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkq5ou5zn2j31hc0u0my9.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -11147,7 +11147,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--我与卡巴斯基的邂逅</title>
     <url>/archives/392ae7ba.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师与病毒的故事以及与卡巴斯基的邂逅。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师与病毒的故事以及与卡巴斯基的邂逅。</p>
 <a id="more"></a>
 
 
@@ -11237,7 +11237,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--我在佳木斯的日子</title>
     <url>/archives/c2bd3756.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师协助书馆前往佳木斯的日子。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师协助书馆前往佳木斯的日子。</p>
 <a id="more"></a>
 
 
@@ -11304,7 +11304,7 @@
   <entry>
     <title>Hexo-Fluid博客建站记录</title>
     <url>/archives/e5b4d2d6.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4ofatf7fj31hc0u0wf8.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4ofatf7fj31hc0u0wf8.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将记录本博客Hexo-Fluid建站的全部过程，包括配置信息修改和功能拓展。虽然最后还是转回到了NexT主题，不过还是保留下来给其他初入Fluid主题想进行美化的读者留作参考。</p>
 <a id="more"></a>
 
@@ -11701,7 +11701,7 @@
   <entry>
     <title>俄罗斯方块的故事</title>
     <url>/archives/e3ea8760.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlgy1gj6mnu4wbnj30xc0lvdm6.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlgy1gj6mnu4wbnj30xc0lvdm6.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -11928,7 +11928,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--曲折考研路</title>
     <url>/archives/f92a248.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中的考研之旅。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中的考研之旅。</p>
 <a id="more"></a>
 
 
@@ -12028,7 +12028,7 @@
   <entry>
     <title>C#初级编程</title>
     <url>/archives/5342c81f.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4o4c5klrj30xc0egq44.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4o4c5klrj30xc0egq44.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本课程将通过Unity社区简单易学的讲解，从零基础开始介绍游戏开发编程，主要内容是C#的基本语法以及Unity内置函数的了解和使用。</p>
 <a id="more"></a>
 
@@ -12405,7 +12405,7 @@
   <entry>
     <title>C#中级编程</title>
     <url>/archives/7d83bb70.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nztqqvjj30xc0egq44.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nztqqvjj30xc0egq44.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本课程将通过Unity社区简单易学的讲解，在初级教程的基础上更近一步介绍游戏开发编程，了解面向对象思想的编程模式。</p>
 <a id="more"></a>
 
@@ -12752,7 +12752,7 @@
   <entry>
     <title>Introduction to Programming I</title>
     <url>/archives/c735be6b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nj407c6j311i0u0jwr.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nj407c6j311i0u0jwr.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
@@ -14215,7 +14215,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--我在苏宁电器当营业员</title>
     <url>/archives/d6ab9816.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在苏宁电器从就职到离职的故事。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在苏宁电器从就职到离职的故事。</p>
 <a id="more"></a>
 
 
@@ -14365,7 +14365,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--我的本科时光</title>
     <url>/archives/3e4e60a1.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在本科的时光。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师在本科的时光。</p>
 <a id="more"></a>
 
 
@@ -14536,7 +14536,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--难忘的三年硕士时光</title>
     <url>/archives/e3376a49.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中在北工大读研的学习生活。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师求学路途中在北工大读研的学习生活。</p>
 <a id="more"></a>
 
 
