@@ -816,6 +816,13 @@
   </url>
   
   <url>
+    <loc>http://yousazoe.top/tags/Rocket/</loc>
+    <lastmod>2021-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/tags/Pixel/</loc>
     <lastmod>2021-02-13</lastmod>
     <changefreq>daily</changefreq>
@@ -824,13 +831,6 @@
   
   <url>
     <loc>http://yousazoe.top/tags/Aseprite/</loc>
-    <lastmod>2021-02-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Rocket/</loc>
     <lastmod>2021-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
