@@ -697,6 +697,300 @@
       </tags>
   </entry>
   <entry>
+    <title>游戏分析方法</title>
+    <url>/archives/f40ec98b.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggxxkrdi94j312w0ihn3n.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/60494431/Clash-Royale-Royal-Ghost">Clash Royale - Royal Ghost</a> by 
+      <a href="https://www.behance.net/dafortin">David Fortin</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文围绕游戏分析方法展开。游戏分析方法分为四个部分，首先是游戏分析方法是什么以及它的意义，也就是我们为什么要分析游戏方法；之后是关于游戏产品特性；再往下是关于游戏类型，即一个游戏品类的分析；最后是游戏类型趋势分析，游戏品类有什么变化和发展。</p>
+<a id="more"></a>
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#101;&#x65;&#x6e;&#120;&#117;&#64;&#x74;&#101;&#110;&#x63;&#101;&#110;&#116;&#x2e;&#99;&#111;&#109;">&#108;&#101;&#x65;&#x6e;&#120;&#117;&#64;&#x74;&#101;&#110;&#x63;&#101;&#110;&#116;&#x2e;&#99;&#111;&#109;</a></strong> </li>
+</ul>
+<h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
+<blockquote>
+<p>eg. 产品类型，相较同类产品的突破</p>
+</blockquote>
+<h5 id="商业前景分析"><a href="#商业前景分析" class="headerlink" title="商业前景分析"></a>商业前景分析</h5><p>关注产品的商业潜力。</p>
+<blockquote>
+<p> eg. 目标用户数量，上线后预期市场表现</p>
+</blockquote>
+<h5 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h5><p>产品上线后调整的重要依据</p>
+<blockquote>
+<p>eg. 游戏上线后留存，游戏上线后收入</p>
+</blockquote>
+<h4 id="游戏特性分析对游戏从业人员和游戏项目意义重大"><a href="#游戏特性分析对游戏从业人员和游戏项目意义重大" class="headerlink" title="游戏特性分析对游戏从业人员和游戏项目意义重大"></a>游戏特性分析对游戏从业人员和游戏项目意义重大</h4><p>游戏特性分析是游戏从业人员熟悉和理解游戏的捷径。</p>
+<p>用户在熟悉和掌握游戏分析方法后，能够在遇到游戏产品时能够快速形成认知 。</p>
+<p>项目研发的各个环节彼此影响，只有完美结合，才能诞生顶级作品，<strong>对游戏的认知</strong>就是串联所有环节的一把<strong>钥匙。</strong></p>
+<p>游戏和程序部门对设计方案提出<strong>修改反馈</strong>。团队成员对游戏的认知越<strong>深刻全面</strong>，提出的修改反馈越<strong>及时准确</strong>，反之，则可能在资源和功能制作完成并进入**<em>整合阶段**</em>才会发现问题并提出修改反馈。</p>
+<h4 id="现代游戏特性分析需要分析方法的支持"><a href="#现代游戏特性分析需要分析方法的支持" class="headerlink" title="现代游戏特性分析需要分析方法的支持"></a>现代游戏特性分析需要分析方法的支持</h4><p>目前游戏产品的<strong>分析难度</strong>与<strong>复杂度</strong>逐渐变高，因此科学的分析方法的作用愈来愈大</p>
+<p>游戏特性分析与方法（简称游戏分析方法）的目的在于<strong>减少</strong>分析过程中的<strong>随意性</strong>和<strong>片面性</strong>，使得分析更加全面与深入</p>
+<p>现在的游戏通常较为复杂，呈现<strong>混合游戏类型</strong> </p>
+<blockquote>
+<p> eg. <code>荒野大镖客2</code>的内容和玩法极为丰富</p>
+</blockquote>
+<p>相同的游戏元素在不同的游戏类型中所占<strong>权重很大</strong></p>
+<blockquote>
+<p> eg. <code>突变元年</code> <code>伊甸之路</code></p>
+</blockquote>
+<h3 id="游戏产品特性分析方法"><a href="#游戏产品特性分析方法" class="headerlink" title="游戏产品特性分析方法"></a>游戏产品特性分析方法</h3><h4 id="游戏产品特性分析的基础：认真体验游，同时不断思考"><a href="#游戏产品特性分析的基础：认真体验游，同时不断思考" class="headerlink" title="游戏产品特性分析的基础：认真体验游，同时不断思考"></a>游戏产品特性分析的基础：认真体验游，同时不断思考</h4><p>想尽可能全面，准确，深入地对游戏进行分析，必须认真体验游戏，切忌只看视频和其他用户描述。</p>
+<p>在游戏分析过程中，用户逐渐熟悉和掌握游戏分析方法，甚至形成新的分析思路，从而在遇到游戏产品时能够<strong>快速形成认知</strong>。</p>
+<ul>
+<li>多玩同类游戏：在时间允许的情况下，尽可能多玩同类游戏</li>
+<li>随时记录：游戏时多做笔记，记录和跟踪你的游戏过程与思考</li>
+<li>归纳总结：体验游戏后有逻辑的归纳总结，包括自己对游戏的感想，关注点，同类游戏比较等等</li>
+</ul>
+<h4 id="分析游戏的第一步：通过多维度评估产品"><a href="#分析游戏的第一步：通过多维度评估产品" class="headerlink" title="分析游戏的第一步：通过多维度评估产品"></a>分析游戏的第一步：通过多维度评估产品</h4><p>下文列举了评估游戏的不同维度，这些维度代表了不同的切入角度和评判标准，通过这些维度评估，我们可以获得对一款游戏产品（以<code>皇室战争</code>为例）的全面理解：</p>
+<h5 id="玩法"><a href="#玩法" class="headerlink" title="玩法"></a>玩法</h5><ul>
+<li>创新性&emsp;在手游商创造性的体现出RTS玩法</li>
+<li>耐玩性&emsp;策略深度和变化性均较为出色</li>
+<li>契合度&emsp;玩法对题材的表达是否合适</li>
+</ul>
+<h5 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h5><ul>
+<li>辨识度&emsp;美术风格辨识度高</li>
+<li>美术质量&emsp;静态效果较好，动态效果尤为出色</li>
+<li>接受度&emsp;用户接受程度较高</li>
+</ul>
+<h5 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h5><ul>
+<li>操作方式&emsp;操作十分便捷</li>
+<li>信息呈现&emsp;信息呈现清晰，用户一目了然</li>
+</ul>
+<h5 id="题材"><a href="#题材" class="headerlink" title="题材"></a>题材</h5><ul>
+<li>新颖度&emsp;玩法新颖</li>
+<li>流行度 &emsp;有 <code>部落冲突</code> 的IP加成</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggyfvj8s6fj30xc0id15c.jpg"></p>
+<h4 id="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"><a href="#分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素" class="headerlink" title="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"></a>分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素</h4><h5 id="拆解产品主要元素"><a href="#拆解产品主要元素" class="headerlink" title="拆解产品主要元素"></a>拆解产品主要元素</h5><p>这款游戏最吸引人的地方在哪里？列出你认为最吸引人的3-4各方面，可以从玩法，美术，平台等方面考虑：</p>
+<ul>
+<li>卡组策略</li>
+<li>实时对抗</li>
+<li>移动平台</li>
+<li>临场指挥</li>
+</ul>
+<h5 id="归纳游戏产品类型"><a href="#归纳游戏产品类型" class="headerlink" title="归纳游戏产品类型"></a>归纳游戏产品类型</h5><p>根据游戏最主要的乐趣点进行类型界定：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">实时对抗 + 临场发挥 -&gt; RTS类型</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="分析游戏第三步：将产品与所属类型的特性进行比较"><a href="#分析游戏第三步：将产品与所属类型的特性进行比较" class="headerlink" title="分析游戏第三步：将产品与所属类型的特性进行比较"></a>分析游戏第三步：将产品与所属类型的特性进行比较</h4><p>将产品与其所属类型的特性进行比较，分析产品继承，强化，甚至创造了哪些该类型的优点，同时解决了哪些该类型的缺点：</p>
+<h5 id="皇室战争"><a href="#皇室战争" class="headerlink" title="皇室战争"></a>皇室战争</h5><ul>
+<li>继承了什么品类的特点？</li>
+<li>在品类基础上有什么突破？</li>
+<li>解决了品类什么痛点？</li>
+</ul>
+<h5 id="RTS类型"><a href="#RTS类型" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
+<li>实时指挥的游戏运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+<li>门槛高，兴奋点滞后</li>
+<li>游戏负担重</li>
+</ul>
+<h5 id="皇室战争继承了RTS丰富策略实时对抗的优点"><a href="#皇室战争继承了RTS丰富策略实时对抗的优点" class="headerlink" title="皇室战争继承了RTS丰富策略实时对抗的优点"></a>皇室战争继承了RTS丰富策略实时对抗的优点</h5><ul>
+<li>卡牌相克明显</li>
+<li>组卡衍生战术多样性 </li>
+</ul>
+<blockquote>
+<p>eg. 巨人流，狗球流，自闭流…每个牌组只有8张牌，配卡方式多变，产生各种不同的战术</p>
+</blockquote>
+<ul>
+<li>实时操作与对抗</li>
+</ul>
+<blockquote>
+<p>eg. 实时操作单位，选择和改变策略；配合清晰合理的单位AI，营造初双方即时对抗博弈的体验</p>
+</blockquote>
+<h5 id="皇室战争-解决了RTS门槛高的问题"><a href="#皇室战争-解决了RTS门槛高的问题" class="headerlink" title="皇室战争 解决了RTS门槛高的问题"></a>皇室战争 解决了RTS门槛高的问题</h5><ul>
+<li>游戏时间短</li>
+</ul>
+<blockquote>
+<p>eg. 单局3-6分钟</p>
+</blockquote>
+<ul>
+<li>瞬时思考维度少</li>
+</ul>
+<blockquote>
+<p>eg. 恒大资源供给，简化内政，集中于战斗</p>
+</blockquote>
+<ul>
+<li>操作模式简单</li>
+</ul>
+<blockquote>
+<p>eg. 瞬时操作少，操作方式简单；在合适的时机，位置使用合适的卡牌</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggygkr3u8aj30xc0i3naz.jpg"></p>
+<h4 id="【小练习】-比较王者荣耀与RTS特性"><a href="#【小练习】-比较王者荣耀与RTS特性" class="headerlink" title="【小练习】 比较王者荣耀与RTS特性"></a>【小练习】 比较王者荣耀与RTS特性</h4><p>MOBA属于RTS的衍生类型，比较 <code>王者荣耀</code> 与RTS特性，分析其继承，强化，甚至创造了哪些RTS的优点，同时解决了哪些RTS的缺点：</p>
+<h5 id="王者荣耀"><a href="#王者荣耀" class="headerlink" title="王者荣耀"></a>王者荣耀</h5><ul>
+<li>继承了什么品类的特点？</li>
+<li>在品类基础上有什么突破？</li>
+<li>解决了品类什么痛点？</li>
+</ul>
+<h5 id="RTS类型-1"><a href="#RTS类型-1" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
+<li>实时指挥的游戏运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+<li>门槛高，兴奋点滞后</li>
+<li>游戏负担重</li>
+</ul>
+<h5 id="王者荣耀继承了RTS丰富策略实时对抗的优点"><a href="#王者荣耀继承了RTS丰富策略实时对抗的优点" class="headerlink" title="王者荣耀继承了RTS丰富策略实时对抗的优点"></a>王者荣耀继承了RTS丰富策略实时对抗的优点</h5><ul>
+<li>实时对抗的反馈与紧张+一定的战场模拟</li>
+<li>一定的策略深度（经济，成长，侦查，配合）</li>
+</ul>
+<h3 id="游戏类型特点分析方法"><a href="#游戏类型特点分析方法" class="headerlink" title="游戏类型特点分析方法"></a>游戏类型特点分析方法</h3><h4 id="分析游戏类型特点：总结同类型产品的共同点"><a href="#分析游戏类型特点：总结同类型产品的共同点" class="headerlink" title="分析游戏类型特点：总结同类型产品的共同点"></a>分析游戏类型特点：总结同类型产品的共同点</h4><h5 id="RTS同类型游戏"><a href="#RTS同类型游戏" class="headerlink" title="RTS同类型游戏"></a>RTS同类型游戏</h5><blockquote>
+<ul>
+<li><code>魔兽争霸3</code></li>
+<li><code>三国志大战</code></li>
+<li><code>全面战争:战锤2</code></li>
+<li><code>皇室战争</code></li>
+</ul>
+</blockquote>
+<h5 id="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"><a href="#一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性" class="headerlink" title="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"></a>一个游戏类型总会有各种各样的差异化产品，需要寻找它们的<strong>共性</strong></h5><blockquote>
+<p><code>魔兽争霸3</code></p>
+<ul>
+<li>PC平台 键鼠操作</li>
+<li>实时的‘内政-&gt;侦查-&gt;战斗’模式；矿点，商店等特殊地点的争夺贯穿整个游戏</li>
+</ul>
+<p><code>三国志大战</code></p>
+<ul>
+<li>街机平台 实体卡牌 + 触摸操作</li>
+<li>实时的‘资源-&gt;兵力-&gt;战斗’模式；地图区域的控制争夺贯穿整个游戏</li>
+</ul>
+<p><code>全面战争：战锤2</code></p>
+<ul>
+<li>PC平台 键鼠操作</li>
+<li>专注于实时的指挥与战斗；关键地形的争夺贯穿游戏过程</li>
+</ul>
+<p><code>皇室战争</code></p>
+<ul>
+<li>移动平台 触摸屏操作</li>
+<li>实时的 资源-&gt;兵力-&gt;战斗 模式</li>
+</ul>
+</blockquote>
+<p>共性：<strong>实时的运行机制和操作模式</strong> + <strong>丰富的策略与战场空间争夺元素</strong></p>
+<img src="https://img.3dmgame.com/UploadFiles/200908/20090831180642574.jpg" style="zoom:150%;" />
+
+
+
+<h5 id="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"><a href="#分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）" class="headerlink" title="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"></a>分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）</h5><ul>
+<li>回合制策略 - <code>文明6</code></li>
+<li>实时射击 - <code>绝地求生</code></li>
+</ul>
+<h5 id="分析游戏类型特点：寻找现实与游戏之间的映射"><a href="#分析游戏类型特点：寻找现实与游戏之间的映射" class="headerlink" title="分析游戏类型特点：寻找现实与游戏之间的映射"></a>分析游戏类型特点：寻找现实与游戏之间的映射</h5><p>很多游戏都可以视为对现实的一种映射，我们需要寻找 <strong>现实 &lt;–&gt; 游戏 的映射</strong></p>
+<blockquote>
+<p>格斗游戏</p>
+<ul>
+<li><code>VR战士</code> <code>街霸5</code> -&gt; 真实世界对战格斗</li>
+</ul>
+<p>射击</p>
+<ul>
+<li><code>绝地求生</code> <code>使命召唤系列</code> -&gt; 现实射击</li>
+</ul>
+<p>回合制策略</p>
+<ul>
+<li><code>文明6</code> <code>群星</code> -&gt; 国家管理与战争</li>
+</ul>
+<p>RTS</p>
+<ul>
+<li><code>全面战争：战锤2</code> <code>皇室战争 </code>-&gt; 战场指挥体验</li>
+</ul>
+</blockquote>
+<h5 id="通过多种方法总结游戏类型的特点"><a href="#通过多种方法总结游戏类型的特点" class="headerlink" title="通过多种方法总结游戏类型的特点"></a>通过多种方法总结游戏类型的特点</h5><p>RTS产品共性（优点）</p>
+<ul>
+<li>实时的运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+</ul>
+<p>RTS产品与其他类型产品差异（缺点）</p>
+<ul>
+<li>战场策略的实时还原</li>
+<li>门槛高，兴奋点滞后</li>
+</ul>
+<p>RTS产品与现实间的映射</p>
+<ul>
+<li>战场指挥体验</li>
+</ul>
+<h3 id="游戏类型趋势分析方法"><a href="#游戏类型趋势分析方法" class="headerlink" title="游戏类型趋势分析方法"></a>游戏类型趋势分析方法</h3><h4 id="分析游戏类型趋势：挑选重点产品进行对比"><a href="#分析游戏类型趋势：挑选重点产品进行对比" class="headerlink" title="分析游戏类型趋势：挑选重点产品进行对比"></a>分析游戏类型趋势：挑选重点产品进行对比</h4><p>在产品特性分析的基础上，我们库乐队特定游戏类型的发展趋势进行分析研究</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">挑选代表产品 -&gt; 总结每个产品的特点 -&gt; 比较产品</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h4 id="比较产品，寻找类型发展趋势"><a href="#比较产品，寻找类型发展趋势" class="headerlink" title="比较产品，寻找类型发展趋势"></a>比较产品，寻找类型发展趋势</h4><blockquote>
+<p>时间轴</p>
+<ul>
+<li>2002 <code>魔兽争霸3</code> 内容非常全面 策略非常丰富 指挥体验完善 操作复杂 门槛高</li>
+<li>2005 强调战斗 策略丰富 指挥体验非常出色 门槛较高 新平台</li>
+<li>2006 <code>英雄连</code></li>
+<li>2009 <code>英雄联盟</code> 强调战斗和配合 策略丰富 操作方式简单 门槛低</li>
+<li>2010 <code>星际争霸2</code> 类似于WAR3的传统RTS</li>
+<li>2013 <code>横扫千星</code></li>
+<li>2015 <code>灰蛊</code> <code>王者荣耀</code> - 英雄联盟移动版</li>
+<li>2016 <code>奇点灰烬</code></li>
+<li>2017 强调战斗 战场策略丰富 指挥体验完善 操作较为复杂 门槛较高</li>
+</ul>
+</blockquote>
+<ul>
+<li>核心：实时的策略性，战场体验，指挥感仍是RTS的核心</li>
+<li>内容侧重：不追求内容面面俱到，而是集中于某些模块（例如战斗）</li>
+<li>门槛：门槛逐渐降低，游戏节奏逐渐加快</li>
+<li>平台：新平台出现扩大用户规模</li>
+<li>技术：新技术的应用改进RTS形态（例如新操作模式），使其满足新用户的需求</li>
+</ul>
+<p>###【课后作业】 分析特定产品</p>
+<p><strong>（1）Apex Legends</strong></p>
+<ul>
+<li>继承了什么大逃杀品类的特点</li>
+<li>在大逃杀品类基础上有什么突破</li>
+<li>解决了大逃杀品类的什么问题</li>
+</ul>
+<p><strong>（2）大逃杀类型特性</strong></p>
+<blockquote>
+<ul>
+<li><code>H1Z1</code></li>
+<li><code>绝地求生</code></li>
+<li><code>堡垒之夜</code></li>
+<li><code>黑色行动4</code></li>
+</ul>
+</blockquote>
+<p><strong>（3）只狼</strong></p>
+<ul>
+<li>继承了什么ACT品类的特点</li>
+<li>在ACT品类基础上有什么突破</li>
+<li>解决了ACT品类的什么问题</li>
+</ul>
+<p><strong>（4）ACT类型特性</strong></p>
+<blockquote>
+<ul>
+<li><code>鬼泣</code></li>
+<li><code>猎天使魔女</code></li>
+<li><code>黑暗之魂</code></li>
+<li><code>战神</code></li>
+</ul>
+</blockquote>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/dafortin">David Fortin</a>
+    </i>
+  </font>
+</div>]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>策略游戏如何成为时间杀手</title>
     <url>/archives/b542e368.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggzkai33lfj31hc0u0nlz.jpg"></p>
@@ -997,297 +1291,215 @@
       </tags>
   </entry>
   <entry>
-    <title>游戏分析方法</title>
-    <url>/archives/f40ec98b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggxxkrdi94j312w0ihn3n.jpg"></p>
+    <title>MMORPG的发展历程与简析</title>
+    <url>/archives/ccbc93d7.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh07s1iq60j312w0a0adb.jpg"></p>
 <div align=center>
   <font size="3">
     <i>
-      <a href="https://www.behance.net/gallery/60494431/Clash-Royale-Royal-Ghost">Clash Royale - Royal Ghost</a> by 
-      <a href="https://www.behance.net/dafortin">David Fortin</a>
+      <a href="https://www.behance.net/gallery/68766885/Black-potion">Black potion</a> by 
+      <a href="https://www.behance.net/harveydentmustdie">Milos Kostic</a>
     </i>
   </font>
 </div>
 
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文围绕游戏分析方法展开。游戏分析方法分为四个部分，首先是游戏分析方法是什么以及它的意义，也就是我们为什么要分析游戏方法；之后是关于游戏产品特性；再往下是关于游戏类型，即一个游戏品类的分析；最后是游戏类型趋势分析，游戏品类有什么变化和发展。</p>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主要讲解MMORPG游戏类型，通过MMORPG的主要发展过程、列举一些具有代表性的产品，分析其中的一些系统，以及如何改变市场发展方向。</p>
 <a id="more"></a>
 
 
 
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>李博</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#101;&#101;&#x6e;&#x78;&#x75;&#x40;&#116;&#101;&#110;&#x63;&#x65;&#110;&#x74;&#x2e;&#99;&#111;&#109;">&#108;&#101;&#101;&#x6e;&#x78;&#x75;&#x40;&#116;&#101;&#110;&#x63;&#x65;&#110;&#x74;&#x2e;&#99;&#111;&#109;</a></strong> </li>
+<li>2011年毕业于厦门大学</li>
+<li>2014年进入腾讯引进评估中心 </li>
 </ul>
-<h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
-<blockquote>
-<p>eg. 产品类型，相较同类产品的突破</p>
+<h3 id="MMORPG的兴起"><a href="#MMORPG的兴起" class="headerlink" title="MMORPG的兴起"></a>MMORPG的兴起</h3><h4 id="MMORPG的概念"><a href="#MMORPG的概念" class="headerlink" title="MMORPG的概念"></a>MMORPG的概念</h4><blockquote>
+<p> <strong>MMORPG</strong> – <strong>M</strong>assively <strong>M</strong>ultiplayer <strong>O</strong>nline <strong>R</strong>ole <strong>P</strong>laying <strong>G</strong>ame – 大型多人在线角色扮演游戏</p>
 </blockquote>
-<h5 id="商业前景分析"><a href="#商业前景分析" class="headerlink" title="商业前景分析"></a>商业前景分析</h5><p>关注产品的商业潜力。</p>
-<blockquote>
-<p> eg. 目标用户数量，上线后预期市场表现</p>
-</blockquote>
-<h5 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h5><p>产品上线后调整的重要依据</p>
-<blockquote>
-<p>eg. 游戏上线后留存，游戏上线后收入</p>
-</blockquote>
-<h4 id="游戏特性分析对游戏从业人员和游戏项目意义重大"><a href="#游戏特性分析对游戏从业人员和游戏项目意义重大" class="headerlink" title="游戏特性分析对游戏从业人员和游戏项目意义重大"></a>游戏特性分析对游戏从业人员和游戏项目意义重大</h4><p>游戏特性分析是游戏从业人员熟悉和理解游戏的捷径。</p>
-<p>用户在熟悉和掌握游戏分析方法后，能够在遇到游戏产品时能够快速形成认知 。</p>
-<p>项目研发的各个环节彼此影响，只有完美结合，才能诞生顶级作品，<strong>对游戏的认知</strong>就是串联所有环节的一把<strong>钥匙。</strong></p>
-<p>游戏和程序部门对设计方案提出<strong>修改反馈</strong>。团队成员对游戏的认知越<strong>深刻全面</strong>，提出的修改反馈越<strong>及时准确</strong>，反之，则可能在资源和功能制作完成并进入**<em>整合阶段**</em>才会发现问题并提出修改反馈。</p>
-<h4 id="现代游戏特性分析需要分析方法的支持"><a href="#现代游戏特性分析需要分析方法的支持" class="headerlink" title="现代游戏特性分析需要分析方法的支持"></a>现代游戏特性分析需要分析方法的支持</h4><p>目前游戏产品的<strong>分析难度</strong>与<strong>复杂度</strong>逐渐变高，因此科学的分析方法的作用愈来愈大</p>
-<p>游戏特性分析与方法（简称游戏分析方法）的目的在于<strong>减少</strong>分析过程中的<strong>随意性</strong>和<strong>片面性</strong>，使得分析更加全面与深入</p>
-<p>现在的游戏通常较为复杂，呈现<strong>混合游戏类型</strong> </p>
-<blockquote>
-<p> eg. <code>荒野大镖客2</code>的内容和玩法极为丰富</p>
-</blockquote>
-<p>相同的游戏元素在不同的游戏类型中所占<strong>权重很大</strong></p>
-<blockquote>
-<p> eg. <code>突变元年</code> <code>伊甸之路</code></p>
-</blockquote>
-<h3 id="游戏产品特性分析方法"><a href="#游戏产品特性分析方法" class="headerlink" title="游戏产品特性分析方法"></a>游戏产品特性分析方法</h3><h4 id="游戏产品特性分析的基础：认真体验游，同时不断思考"><a href="#游戏产品特性分析的基础：认真体验游，同时不断思考" class="headerlink" title="游戏产品特性分析的基础：认真体验游，同时不断思考"></a>游戏产品特性分析的基础：认真体验游，同时不断思考</h4><p>想尽可能全面，准确，深入地对游戏进行分析，必须认真体验游戏，切忌只看视频和其他用户描述。</p>
-<p>在游戏分析过程中，用户逐渐熟悉和掌握游戏分析方法，甚至形成新的分析思路，从而在遇到游戏产品时能够<strong>快速形成认知</strong>。</p>
+<p>与单机RPG一样，个人成长仍然是游戏的核心驱动力，但成长出口和成长方式有本质区别。社交系统给了玩家全新的体验。</p>
+<p>其实并不是所有产品都会在国内市场获得成功，但是每款产品都奠定了一个MMORPG的一个玩法品类或者是整个框架这样一个基础，所以后续的产品基本上没有逃出这三个产品的一个基本框架。</p>
+<h4 id="《网络传创世纪（Ultima-Online）》"><a href="#《网络传创世纪（Ultima-Online）》" class="headerlink" title="《网络传创世纪（Ultima Online）》"></a><strong>《网络传创世纪（Ultima Online）》</strong></h4><p>1996年（中国 1999年）上线，它是第一款图形网络游戏，在<strong>《网络创世纪》</strong>之前其实都是文字网游。但它本身并没有逃出文字网游的一些设定，虽然是图形化，但玩家在操作时还是要输入指令，后面出现了宏名指令之后让整个指令过程变得简单一些。</p>
+<p>这款游戏在玩法上是非常自由的，玩家在进入游戏时并不用选择职业，然后可以自己定义自己的发展方向。同时涉及了诸如家园系统、钓鱼系统、生活技能等等，这些大部分都被沿用到了今天。这款产品开创了整个网络游戏的一个框架，就是服务端和客户端的交互，客户端负责计算和展示，服务端进行存储。</p>
 <ul>
-<li>多玩同类游戏：在时间允许的情况下，尽可能多玩同类游戏</li>
-<li>随时记录：游戏时多做笔记，记录和跟踪你的游戏过程与思考</li>
-<li>归纳总结：体验游戏后有逻辑的归纳总结，包括自己对游戏的感想，关注点，同类游戏比较等等</li>
-</ul>
-<h4 id="分析游戏的第一步：通过多维度评估产品"><a href="#分析游戏的第一步：通过多维度评估产品" class="headerlink" title="分析游戏的第一步：通过多维度评估产品"></a>分析游戏的第一步：通过多维度评估产品</h4><p>下文列举了评估游戏的不同维度，这些维度代表了不同的切入角度和评判标准，通过这些维度评估，我们可以获得对一款游戏产品（以<code>皇室战争</code>为例）的全面理解：</p>
-<h5 id="玩法"><a href="#玩法" class="headerlink" title="玩法"></a>玩法</h5><ul>
-<li>创新性&emsp;在手游商创造性的体现出RTS玩法</li>
-<li>耐玩性&emsp;策略深度和变化性均较为出色</li>
-<li>契合度&emsp;玩法对题材的表达是否合适</li>
-</ul>
-<h5 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h5><ul>
-<li>辨识度&emsp;美术风格辨识度高</li>
-<li>美术质量&emsp;静态效果较好，动态效果尤为出色</li>
-<li>接受度&emsp;用户接受程度较高</li>
-</ul>
-<h5 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h5><ul>
-<li>操作方式&emsp;操作十分便捷</li>
-<li>信息呈现&emsp;信息呈现清晰，用户一目了然</li>
-</ul>
-<h5 id="题材"><a href="#题材" class="headerlink" title="题材"></a>题材</h5><ul>
-<li>新颖度&emsp;玩法新颖</li>
-<li>流行度 &emsp;有 <code>部落冲突</code> 的IP加成</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggyfvj8s6fj30xc0id15c.jpg"></p>
-<h4 id="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"><a href="#分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素" class="headerlink" title="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"></a>分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素</h4><h5 id="拆解产品主要元素"><a href="#拆解产品主要元素" class="headerlink" title="拆解产品主要元素"></a>拆解产品主要元素</h5><p>这款游戏最吸引人的地方在哪里？列出你认为最吸引人的3-4各方面，可以从玩法，美术，平台等方面考虑：</p>
-<ul>
-<li>卡组策略</li>
-<li>实时对抗</li>
-<li>移动平台</li>
-<li>临场指挥</li>
-</ul>
-<h5 id="归纳游戏产品类型"><a href="#归纳游戏产品类型" class="headerlink" title="归纳游戏产品类型"></a>归纳游戏产品类型</h5><p>根据游戏最主要的乐趣点进行类型界定：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">实时对抗 + 临场发挥 -&gt; RTS类型</span><br></pre></td></tr></table></figure>
-
-
-<h4 id="分析游戏第三步：将产品与所属类型的特性进行比较"><a href="#分析游戏第三步：将产品与所属类型的特性进行比较" class="headerlink" title="分析游戏第三步：将产品与所属类型的特性进行比较"></a>分析游戏第三步：将产品与所属类型的特性进行比较</h4><p>将产品与其所属类型的特性进行比较，分析产品继承，强化，甚至创造了哪些该类型的优点，同时解决了哪些该类型的缺点：</p>
-<h5 id="皇室战争"><a href="#皇室战争" class="headerlink" title="皇室战争"></a>皇室战争</h5><ul>
-<li>继承了什么品类的特点？</li>
-<li>在品类基础上有什么突破？</li>
-<li>解决了品类什么痛点？</li>
-</ul>
-<h5 id="RTS类型"><a href="#RTS类型" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
-<li>实时指挥的游戏运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-<li>门槛高，兴奋点滞后</li>
-<li>游戏负担重</li>
-</ul>
-<h5 id="皇室战争继承了RTS丰富策略实时对抗的优点"><a href="#皇室战争继承了RTS丰富策略实时对抗的优点" class="headerlink" title="皇室战争继承了RTS丰富策略实时对抗的优点"></a>皇室战争继承了RTS丰富策略实时对抗的优点</h5><ul>
-<li>卡牌相克明显</li>
-<li>组卡衍生战术多样性 </li>
-</ul>
+<li><p>游戏公会</p>
+</li>
+<li><p>家园系统</p>
+</li>
+<li><p>虚拟生态</p>
+<p>  现代的MMORPG网游的刷怪都是有固定或者有一个时间间隔的，而网络创世纪不会随机刷新。</p>
 <blockquote>
-<p>eg. 巨人流，狗球流，自闭流…每个牌组只有8张牌，配卡方式多变，产生各种不同的战术</p>
+<p> 在一个村庄有鹿的生活区域，如果玩家把鹿都杀光，该地区的龙就会因为缺少食物而去攻击人类的村庄，这个时候人类的村庄会弹出一个任务，让玩家去屠龙。</p>
 </blockquote>
-<ul>
-<li>实时操作与对抗</li>
+<p>  设计者想的很好，通过这种生态模式可以触发很多新的任务新的玩法给玩家。然而事实上玩家屠龙之后因为没有刷怪机制只能自相残杀，整个游戏变得非常混乱，生态系统宣告失败。</p>
+</li>
+<li><p>红名模式</p>
+<p>  首创杀人会变成红名，红名会获得惩罚。</p>
+</li>
+<li><p>不列颠之王遇刺事件</p>
+<p>  在内测的时候当时的总设计师理查德，作为一个GM账号进入游戏，游戏ID是不列颠之王。结果因为GM账号没有勾选无敌选项，他被一个盗贼玩家杀死了。</p>
+</li>
 </ul>
+<p>这几件事给人们带来的启示是游戏玩家的行为会不可预测的，限制玩家行为是非常重要的。而像<strong>网络创世纪</strong>这样开放自由的游戏在后面的产品中已经非常少见了。</p>
+<h4 id="《无尽的任务（Ever-Quest）》"><a href="#《无尽的任务（Ever-Quest）》" class="headerlink" title="《无尽的任务（Ever Quest）》"></a><strong>《无尽的任务（Ever Quest）》</strong></h4><p>1999年（中国 2003年）上线，简要的概括这款产品就是<strong>魔兽世界</strong>的前身。当时设计者在<strong>网络创世纪</strong>看到许多PvP的负面影响，所以定位是主攻PvE，系统非常出彩。比如它首创了仇恨系统，怪物会根据玩家对它不同的攻击来建立一个仇恨的列表，然后优先攻击仇恨列表第一个玩家。它的任务系统也是非常庞大的，给玩家非常多的选择。它也首创了raid系统，即大规模的团队PvE。还有一些职业的分化、buff、debuff、种族天赋都有所体现。</p>
+<p>但这款产品在2003年进入中国之后并没有获得成功。首先它作为3D游戏，国内的硬件环境并没有办法去支撑，大部分电脑是跑不动的；还有一点是过于硬核，设计者对游戏的真实性达到了偏执的程度，里面所有的设定都要跟现实世界比较相似。</p>
 <blockquote>
-<p>eg. 实时操作单位，选择和改变策略；配合清晰合理的单位AI，营造初双方即时对抗博弈的体验</p>
+<p>里面的夜晚真的就是夜晚，现在游戏的夜晚是天色变黑但能见度没有影响，但在EQ里面没有夜视能力的职业是基本什么都看不到。所以当时如果人类在晚上出生，他想出新手村可能要转几个小时才能出去。</p>
 </blockquote>
-<h5 id="皇室战争-解决了RTS门槛高的问题"><a href="#皇室战争-解决了RTS门槛高的问题" class="headerlink" title="皇室战争 解决了RTS门槛高的问题"></a>皇室战争 解决了RTS门槛高的问题</h5><ul>
-<li>游戏时间短</li>
+<h4 id="《石器时代（StoneAge）》"><a href="#《石器时代（StoneAge）》" class="headerlink" title="《石器时代（StoneAge）》"></a><strong>《石器时代（StoneAge）》</strong></h4><p>1999年在日本上线，2001中国上线并获得了成功。作为一个回合制游戏，在拨号上网的年代很契合中国的网络环境，即时制的游戏对于网络要求比较高；同时它的画面表现相对欧美玩家来讲更符合国内玩家的品味，相对轻松一些的卡通风格，接受度也更大一些。</p>
+<ul>
+<li>宠物系统</li>
+<li>社交行为</li>
+<li>直接影响回合制游戏的设定</li>
 </ul>
+<h3 id="MMORPG的发展"><a href="#MMORPG的发展" class="headerlink" title="MMORPG的发展"></a>MMORPG的发展</h3><p>发展的时期大概在2001年到2010年之间，这段时间算是MMORPG最辉煌的一个阶段，大作非常多，玩法的颠覆也非常多，社交体系的颠覆也比较多，包括商业化。商业化的改变非常巨大，中国在这一方面引领了世界。</p>
+<h4 id="《传奇》系列"><a href="#《传奇》系列" class="headerlink" title="《传奇》系列"></a><strong>《传奇》系列</strong></h4><p>传奇就跟它的名字一样，它就是一个传奇。它在2001年由盛大代理在国内上线 <strong>《传奇（热血传奇）》</strong>。</p>
+<p>传奇的玩法就是杀怪，玩家杀怪获得装备升级，升级之后变强了拿到更好的装备就可以挑战更高级的怪物，然后继续杀怪升级。游戏的探索价值比较高，当时没有门户网站，整个游戏是未知，需要玩家不断去探索。</p>
 <blockquote>
-<p>eg. 单局3-6分钟</p>
-</blockquote>
 <ul>
-<li>瞬时思考维度少</li>
-</ul>
-<blockquote>
-<p>eg. 恒大资源供给，简化内政，集中于战斗</p>
-</blockquote>
-<ul>
-<li>操作模式简单</li>
-</ul>
-<blockquote>
-<p>eg. 瞬时操作少，操作方式简单；在合适的时机，位置使用合适的卡牌</p>
-</blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggygkr3u8aj30xc0i3naz.jpg"></p>
-<h4 id="【小练习】-比较王者荣耀与RTS特性"><a href="#【小练习】-比较王者荣耀与RTS特性" class="headerlink" title="【小练习】 比较王者荣耀与RTS特性"></a>【小练习】 比较王者荣耀与RTS特性</h4><p>MOBA属于RTS的衍生类型，比较 <code>王者荣耀</code> 与RTS特性，分析其继承，强化，甚至创造了哪些RTS的优点，同时解决了哪些RTS的缺点：</p>
-<h5 id="王者荣耀"><a href="#王者荣耀" class="headerlink" title="王者荣耀"></a>王者荣耀</h5><ul>
-<li>继承了什么品类的特点？</li>
-<li>在品类基础上有什么突破？</li>
-<li>解决了品类什么痛点？</li>
-</ul>
-<h5 id="RTS类型-1"><a href="#RTS类型-1" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
-<li>实时指挥的游戏运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-<li>门槛高，兴奋点滞后</li>
-<li>游戏负担重</li>
-</ul>
-<h5 id="王者荣耀继承了RTS丰富策略实时对抗的优点"><a href="#王者荣耀继承了RTS丰富策略实时对抗的优点" class="headerlink" title="王者荣耀继承了RTS丰富策略实时对抗的优点"></a>王者荣耀继承了RTS丰富策略实时对抗的优点</h5><ul>
-<li>实时对抗的反馈与紧张+一定的战场模拟</li>
-<li>一定的策略深度（经济，成长，侦查，配合）</li>
-</ul>
-<h3 id="游戏类型特点分析方法"><a href="#游戏类型特点分析方法" class="headerlink" title="游戏类型特点分析方法"></a>游戏类型特点分析方法</h3><h4 id="分析游戏类型特点：总结同类型产品的共同点"><a href="#分析游戏类型特点：总结同类型产品的共同点" class="headerlink" title="分析游戏类型特点：总结同类型产品的共同点"></a>分析游戏类型特点：总结同类型产品的共同点</h4><h5 id="RTS同类型游戏"><a href="#RTS同类型游戏" class="headerlink" title="RTS同类型游戏"></a>RTS同类型游戏</h5><blockquote>
-<ul>
-<li><code>魔兽争霸3</code></li>
-<li><code>三国志大战</code></li>
-<li><code>全面战争:战锤2</code></li>
-<li><code>皇室战争</code></li>
+<li>2002 传奇私服出现</li>
+<li>2003 <strong>传奇世界</strong></li>
+<li>2011 传奇页游开始兴起</li>
+<li>2015 热血传奇手游上线</li>
 </ul>
 </blockquote>
-<h5 id="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"><a href="#一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性" class="headerlink" title="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"></a>一个游戏类型总会有各种各样的差异化产品，需要寻找它们的<strong>共性</strong></h5><blockquote>
-<p><code>魔兽争霸3</code></p>
+<h4 id="《梦幻西游》"><a href="#《梦幻西游》" class="headerlink" title="《梦幻西游》"></a><strong>《梦幻西游》</strong></h4><p>融合了几乎所有回合制游戏的优点。当时设计者对玩家体验并不是十分的关注，而梦幻西游在玩家体验上做到了非常极致的优化，在游戏生活中非常的便捷。同时它在玩法上已经扩充的非常丰富了，除了最原始的打怪升级之外还有许多丰富的任务活动来填充玩家的游戏时间，成为了回合制游戏标杆。</p>
+<p>梦幻西游的经济系统非常开放，玩家可以自由交易，还能做到经济平衡，玩家的产出和消耗基本是持平的状态。在经济系统平稳的前提下，玩家整个打怪收益会比较固定，玩家粘性也会更高，最重要的点就是 <strong>我的努力有回报</strong>。</p>
+<p>网易凭借梦幻西游在2006年直接成为了国内第一的网游公司，所有产品的总在线人数超过了两百万。</p>
+<h4 id="《魔兽世界》"><a href="#《魔兽世界》" class="headerlink" title="《魔兽世界》"></a><strong>《魔兽世界》</strong></h4><p>魔兽世界是对整个网游市场颠覆最大的一款游戏。它在2005年由九城代理进入国内，做的最大的颠覆是副本系统。副本系统对PvE玩家更加的友好，有施展自己拳脚的平台。因为副本的诞生，让整个游戏更深耕于PvE的一个玩法，而BOSS更多的技能设计，也让整个游戏的玩法变得更加有趣。</p>
+<p>装备绑定的设定对整个网游影响也很大。因为之前的装备是不绑定的，所有的极品装备都是可以在市场上流通的，直接的影响就是装备会贬值。</p>
 <ul>
-<li>PC平台 键鼠操作</li>
-<li>实时的‘内政-&gt;侦查-&gt;战斗’模式；矿点，商店等特殊地点的争夺贯穿整个游戏</li>
+<li>阵营设定</li>
+<li>剧情任务</li>
+<li>开启语音社交时代</li>
 </ul>
-<p><code>三国志大战</code></p>
-<ul>
-<li>街机平台 实体卡牌 + 触摸操作</li>
-<li>实时的‘资源-&gt;兵力-&gt;战斗’模式；地图区域的控制争夺贯穿整个游戏</li>
-</ul>
-<p><code>全面战争：战锤2</code></p>
-<ul>
-<li>PC平台 键鼠操作</li>
-<li>专注于实时的指挥与战斗；关键地形的争夺贯穿游戏过程</li>
-</ul>
-<p><code>皇室战争</code></p>
-<ul>
-<li>移动平台 触摸屏操作</li>
-<li>实时的 资源-&gt;兵力-&gt;战斗 模式</li>
-</ul>
-</blockquote>
-<p>共性：<strong>实时的运行机制和操作模式</strong> + <strong>丰富的策略与战场空间争夺元素</strong></p>
-<img src="https://img.3dmgame.com/UploadFiles/200908/20090831180642574.jpg" style="zoom:150%;" />
+<p>早期魔兽跟无尽的任务十分相似，后面随着游戏的快餐化取消了许多反人类的硬核设定，而这些会在怀旧服中体现出来。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghbggrdqahj30r00f7juo.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.wowchina.com/zh-cn/news/18088331/%E9%AD%94%E5%85%BD%E4%B8%96%E7%95%8C%E5%85%A8%E6%96%B04k%E5%A3%81%E7%BA%B8">魔兽世界</a> 
+    </i>
+  </font>
+</div>
 
 
 
-<h5 id="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"><a href="#分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）" class="headerlink" title="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"></a>分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）</h5><ul>
-<li>回合制策略 - <code>文明6</code></li>
-<li>实时射击 - <code>绝地求生</code></li>
-</ul>
-<h5 id="分析游戏类型特点：寻找现实与游戏之间的映射"><a href="#分析游戏类型特点：寻找现实与游戏之间的映射" class="headerlink" title="分析游戏类型特点：寻找现实与游戏之间的映射"></a>分析游戏类型特点：寻找现实与游戏之间的映射</h5><p>很多游戏都可以视为对现实的一种映射，我们需要寻找 <strong>现实 &lt;–&gt; 游戏 的映射</strong></p>
-<blockquote>
-<p>格斗游戏</p>
+<h4 id="《热血江湖》"><a href="#《热血江湖》" class="headerlink" title="《热血江湖》"></a><strong>《热血江湖》</strong></h4><p>首款大张旗鼓宣扬自己是免费游戏的一款游戏。在此之前的免费游戏没有找到很好的营收手段，同时“卖数值”会影响平衡，让非R玩家有很强的负面情绪。</p>
 <ul>
-<li><code>VR战士</code> <code>街霸5</code> -&gt; 真实世界对战格斗</li>
+<li>宣告网游正式进入免费时代</li>
 </ul>
-<p>射击</p>
+<h4 id="《征途》"><a href="#《征途》" class="headerlink" title="《征途》"></a><strong>《征途》</strong></h4><p>把游戏的商业化做到极致的一个产品，以至于没有一款产品可以超越它。在2006年上线后就超过了梦幻西游的在线人数，原因在于史玉柱在宣传方面下了更多的功夫。</p>
+<p>征途开创了一种新的社交方式，就是国战。每个服务器有十个国家，然后对于城主和国家的皇帝来说，他的行驶权利是非常大的，比如获得NPC的一部分收益；或者可以行使一部分GM权利，这是一个玩家身份地位一个非常好的体现。</p>
 <ul>
-<li><code>绝地求生</code> <code>使命召唤系列</code> -&gt; 现实射击</li>
+<li>商业化和宣传</li>
+<li>新的PVP社交模式</li>
+<li>自动寻路开始普及</li>
+<li>网游开始快餐化</li>
 </ul>
-<p>回合制策略</p>
+<h4 id="《魔域》"><a href="#《魔域》" class="headerlink" title="《魔域》"></a><strong>《魔域》</strong></h4><ul>
+<li>2006</li>
+<li>爽快战斗</li>
+<li>XP技能</li>
+<li>商人在游戏中作用巨大</li>
+<li>网络游戏快餐化</li>
+</ul>
+<h4 id="《剑侠情缘网络版叁》"><a href="#《剑侠情缘网络版叁》" class="headerlink" title="《剑侠情缘网络版叁》"></a><strong>《剑侠情缘网络版叁》</strong></h4><p>初期仿照魔兽世界，后面效果不佳对游戏进行改进，变成现在这样相对巅峰的状态。恶人谷与浩气盟的争斗让设计者重新发现PvP的玩家参与度是比较高的，最终演变为阵容的攻防战，鼓励玩家去攻击阵营的BOSS。</p>
+<p>萝莉体型也是剑网三首创的，吸引了一部分二次元玩家。这部分玩家的二次创作能力非常强，包括cosplay、同人漫画、同人歌曲等等。同人文化的发展也是剑网三的一大特色。</p>
 <ul>
-<li><code>文明6</code> <code>群星</code> -&gt; 国家管理与战争</li>
+<li>阵容攻防战</li>
+<li>轻功系统</li>
+<li>同人文化</li>
+<li>剧情深化</li>
 </ul>
-<p>RTS</p>
-<ul>
-<li><code>全面战争：战锤2</code> <code>皇室战争 </code>-&gt; 战场指挥体验</li>
-</ul>
-</blockquote>
-<h5 id="通过多种方法总结游戏类型的特点"><a href="#通过多种方法总结游戏类型的特点" class="headerlink" title="通过多种方法总结游戏类型的特点"></a>通过多种方法总结游戏类型的特点</h5><p>RTS产品共性（优点）</p>
-<ul>
-<li>实时的运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-</ul>
-<p>RTS产品与其他类型产品差异（缺点）</p>
-<ul>
-<li>战场策略的实时还原</li>
-<li>门槛高，兴奋点滞后</li>
-</ul>
-<p>RTS产品与现实间的映射</p>
-<ul>
-<li>战场指挥体验</li>
-</ul>
-<h3 id="游戏类型趋势分析方法"><a href="#游戏类型趋势分析方法" class="headerlink" title="游戏类型趋势分析方法"></a>游戏类型趋势分析方法</h3><h4 id="分析游戏类型趋势：挑选重点产品进行对比"><a href="#分析游戏类型趋势：挑选重点产品进行对比" class="headerlink" title="分析游戏类型趋势：挑选重点产品进行对比"></a>分析游戏类型趋势：挑选重点产品进行对比</h4><p>在产品特性分析的基础上，我们库乐队特定游戏类型的发展趋势进行分析研究</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">挑选代表产品 -&gt; 总结每个产品的特点 -&gt; 比较产品</span><br></pre></td></tr></table></figure>
+<p>这些改进让剑网三走向了和魔兽世界完全不同的道路。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghbo6zmp6mj30zk0ffn4z.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://mp.weixin.qq.com/s/pLTjQMTOw6veVAn2R4mT0w">@白芷不是中药</a> 
+    </i>
+  </font>
+</div>
 
 
 
 
-<h4 id="比较产品，寻找类型发展趋势"><a href="#比较产品，寻找类型发展趋势" class="headerlink" title="比较产品，寻找类型发展趋势"></a>比较产品，寻找类型发展趋势</h4><blockquote>
-<p>时间轴</p>
+<h3 id="MMORPG的分化"><a href="#MMORPG的分化" class="headerlink" title="MMORPG的分化"></a>MMORPG的分化</h3><p>MMO到2010年之后，它就处于一个非常尴尬的地位，因为其实玩法上面已经挖掘差不多了，很难找到一个新的玩法；其次游戏这时候已经孵化成非常多的品类了，玩家有了更多的选择。第一条出路就是多平台，就是可以向其他一些更便捷的平台迁移来降低这个游戏的体量，同时研发成本也会降低。</p>
+<h4 id="页游MMO兴起"><a href="#页游MMO兴起" class="headerlink" title="页游MMO兴起"></a>页游MMO兴起</h4><p>MMO页游的特点就是全自动，它的目标用户就是上班族白领，他们没有时间玩游戏，通过自动挂机的方式来进行任务，打怪升级。在有时间的时候做一些操作比如PK、充值。因为玩法过于简单迅速进入瓶颈期，玩法和品质均无法做到突破。</p>
 <ul>
-<li>2002 <code>魔兽争霸3</code> 内容非常全面 策略非常丰富 指挥体验完善 操作复杂 门槛高</li>
-<li>2005 强调战斗 策略丰富 指挥体验非常出色 门槛较高 新平台</li>
-<li>2006 <code>英雄连</code></li>
-<li>2009 <code>英雄联盟</code> 强调战斗和配合 策略丰富 操作方式简单 门槛低</li>
-<li>2010 <code>星际争霸2</code> 类似于WAR3的传统RTS</li>
-<li>2013 <code>横扫千星</code></li>
-<li>2015 <code>灰蛊</code> <code>王者荣耀</code> - 英雄联盟移动版</li>
-<li>2016 <code>奇点灰烬</code></li>
-<li>2017 强调战斗 战场策略丰富 指挥体验完善 操作较为复杂 门槛较高</li>
+<li>洗量大行其道</li>
+<li>页游MMO最终只成为一个过渡形态</li>
 </ul>
-</blockquote>
+<h4 id="手游MMO兴起"><a href="#手游MMO兴起" class="headerlink" title="手游MMO兴起"></a>手游MMO兴起</h4><ul>
+<li>2014</li>
+<li>全民奇迹获得成功</li>
+<li>MMO手游开始兴起</li>
+<li>MMO品类正式从端游、页游，过渡到手游</li>
+</ul>
+<h4 id="梦幻西游手游"><a href="#梦幻西游手游" class="headerlink" title="梦幻西游手游"></a><strong>梦幻西游</strong>手游</h4><p>几乎移植了端游的所有玩法，在手游上毫无例外的获得了成功。在IOS畅销榜上面占第一名长达640天，没有任何一款新游戏可以撼动它的地位。</p>
 <ul>
-<li>核心：实时的策略性，战场体验，指挥感仍是RTS的核心</li>
-<li>内容侧重：不追求内容面面俱到，而是集中于某些模块（例如战斗）</li>
-<li>门槛：门槛逐渐降低，游戏节奏逐渐加快</li>
-<li>平台：新平台出现扩大用户规模</li>
-<li>技术：新技术的应用改进RTS形态（例如新操作模式），使其满足新用户的需求</li>
+<li>端游IP移植手游的热潮开启</li>
+<li>后续<strong>热血传奇、剑侠情缘、天龙八部</strong>等游戏相继上线</li>
 </ul>
-<p>###【课后作业】 分析特定产品</p>
-<p><strong>（1）Apex Legends</strong></p>
+<h4 id="《我叫MT4》"><a href="#《我叫MT4》" class="headerlink" title="《我叫MT4》"></a><strong>《我叫MT4》</strong></h4><p>在这款产品之前并没有一款魔兽世界玩法的游戏，弥补了该类的空白。</p>
 <ul>
-<li>继承了什么大逃杀品类的特点</li>
-<li>在大逃杀品类基础上有什么突破</li>
-<li>解决了大逃杀品类的什么问题</li>
+<li>魔兽玩法移植</li>
+<li>端游IP基本消耗殆尽</li>
+<li>手游MMO也将进入瓶颈</li>
 </ul>
-<p><strong>（2）大逃杀类型特性</strong></p>
-<blockquote>
+<h4 id="《激战2》"><a href="#《激战2》" class="headerlink" title="《激战2》"></a><strong>《激战2》</strong></h4><p>尝试开放世界，强调游戏探索。</p>
 <ul>
-<li><code>H1Z1</code></li>
-<li><code>绝地求生</code></li>
-<li><code>堡垒之夜</code></li>
-<li><code>黑色行动4</code></li>
+<li>随机地图事件</li>
+<li>买断式收费</li>
+<li>跨服的纯公平PVP</li>
+<li>国服盗号事件</li>
 </ul>
-</blockquote>
-<p><strong>（3）只狼</strong></p>
+<h4 id="《楚留香》"><a href="#《楚留香》" class="headerlink" title="《楚留香》"></a><strong>《楚留香》</strong></h4><p>手游的开放世界尝试。</p>
 <ul>
-<li>继承了什么ACT品类的特点</li>
-<li>在ACT品类基础上有什么突破</li>
-<li>解决了ACT品类的什么问题</li>
+<li>开放世界的尝试</li>
+<li>硬件和网络不断发展</li>
+<li>手游MMO的机会比较大</li>
 </ul>
-<p><strong>（4）ACT类型特性</strong></p>
-<blockquote>
-<ul>
-<li><code>鬼泣</code></li>
-<li><code>猎天使魔女</code></li>
-<li><code>黑暗之魂</code></li>
-<li><code>战神</code></li>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh17yayv6rj30mk0dkzw6.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://jianghu.163.com/?from=nietop">楚留香 一梦江湖</a> 
+    </i>
+  </font>
+</div>
+
+
+
+
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><ul>
+<li>画面品质、玩法乐趣、社交体系、经济体系都是绝对一款MMORPG是否成功的关键因素</li>
+<li>页游MMORPG在游戏本身以及比较难再做突破</li>
+<li>端游和手游MMO仍有比较大的发展前景</li>
+<li>未来MMORPG在玩法层面突破机会较大，高自由度、沙盒化的玩法可能是未来MMORPG爆发的方向</li>
 </ul>
-</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh07sc7c5sj30xc08cmzg.jpg"></p>
 <div align=center>
   <font size="3">
     <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/dafortin">David Fortin</a>
+     <a href="https://www.behance.net/harveydentmustdie">Milos Kostic</a>
     </i>
   </font>
-</div>]]></content>
+</div>
+
+]]></content>
       <categories>
         <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
       </categories>
       <tags>
         <tag>Game</tag>
+        <tag>RPG</tag>
+        <tag>MMORPG</tag>
       </tags>
   </entry>
   <entry>
@@ -1474,497 +1686,6 @@
       <tags>
         <tag>Game</tag>
         <tag>INDIE</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MMORPG的发展历程与简析</title>
-    <url>/archives/ccbc93d7.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh07s1iq60j312w0a0adb.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/68766885/Black-potion">Black potion</a> by 
-      <a href="https://www.behance.net/harveydentmustdie">Milos Kostic</a>
-    </i>
-  </font>
-</div>
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主要讲解MMORPG游戏类型，通过MMORPG的主要发展过程、列举一些具有代表性的产品，分析其中的一些系统，以及如何改变市场发展方向。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>李博</strong> </p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li>2011年毕业于厦门大学</li>
-<li>2014年进入腾讯引进评估中心 </li>
-</ul>
-<h3 id="MMORPG的兴起"><a href="#MMORPG的兴起" class="headerlink" title="MMORPG的兴起"></a>MMORPG的兴起</h3><h4 id="MMORPG的概念"><a href="#MMORPG的概念" class="headerlink" title="MMORPG的概念"></a>MMORPG的概念</h4><blockquote>
-<p> <strong>MMORPG</strong> – <strong>M</strong>assively <strong>M</strong>ultiplayer <strong>O</strong>nline <strong>R</strong>ole <strong>P</strong>laying <strong>G</strong>ame – 大型多人在线角色扮演游戏</p>
-</blockquote>
-<p>与单机RPG一样，个人成长仍然是游戏的核心驱动力，但成长出口和成长方式有本质区别。社交系统给了玩家全新的体验。</p>
-<p>其实并不是所有产品都会在国内市场获得成功，但是每款产品都奠定了一个MMORPG的一个玩法品类或者是整个框架这样一个基础，所以后续的产品基本上没有逃出这三个产品的一个基本框架。</p>
-<h4 id="《网络传创世纪（Ultima-Online）》"><a href="#《网络传创世纪（Ultima-Online）》" class="headerlink" title="《网络传创世纪（Ultima Online）》"></a><strong>《网络传创世纪（Ultima Online）》</strong></h4><p>1996年（中国 1999年）上线，它是第一款图形网络游戏，在<strong>《网络创世纪》</strong>之前其实都是文字网游。但它本身并没有逃出文字网游的一些设定，虽然是图形化，但玩家在操作时还是要输入指令，后面出现了宏名指令之后让整个指令过程变得简单一些。</p>
-<p>这款游戏在玩法上是非常自由的，玩家在进入游戏时并不用选择职业，然后可以自己定义自己的发展方向。同时涉及了诸如家园系统、钓鱼系统、生活技能等等，这些大部分都被沿用到了今天。这款产品开创了整个网络游戏的一个框架，就是服务端和客户端的交互，客户端负责计算和展示，服务端进行存储。</p>
-<ul>
-<li><p>游戏公会</p>
-</li>
-<li><p>家园系统</p>
-</li>
-<li><p>虚拟生态</p>
-<p>  现代的MMORPG网游的刷怪都是有固定或者有一个时间间隔的，而网络创世纪不会随机刷新。</p>
-<blockquote>
-<p> 在一个村庄有鹿的生活区域，如果玩家把鹿都杀光，该地区的龙就会因为缺少食物而去攻击人类的村庄，这个时候人类的村庄会弹出一个任务，让玩家去屠龙。</p>
-</blockquote>
-<p>  设计者想的很好，通过这种生态模式可以触发很多新的任务新的玩法给玩家。然而事实上玩家屠龙之后因为没有刷怪机制只能自相残杀，整个游戏变得非常混乱，生态系统宣告失败。</p>
-</li>
-<li><p>红名模式</p>
-<p>  首创杀人会变成红名，红名会获得惩罚。</p>
-</li>
-<li><p>不列颠之王遇刺事件</p>
-<p>  在内测的时候当时的总设计师理查德，作为一个GM账号进入游戏，游戏ID是不列颠之王。结果因为GM账号没有勾选无敌选项，他被一个盗贼玩家杀死了。</p>
-</li>
-</ul>
-<p>这几件事给人们带来的启示是游戏玩家的行为会不可预测的，限制玩家行为是非常重要的。而像<strong>网络创世纪</strong>这样开放自由的游戏在后面的产品中已经非常少见了。</p>
-<h4 id="《无尽的任务（Ever-Quest）》"><a href="#《无尽的任务（Ever-Quest）》" class="headerlink" title="《无尽的任务（Ever Quest）》"></a><strong>《无尽的任务（Ever Quest）》</strong></h4><p>1999年（中国 2003年）上线，简要的概括这款产品就是<strong>魔兽世界</strong>的前身。当时设计者在<strong>网络创世纪</strong>看到许多PvP的负面影响，所以定位是主攻PvE，系统非常出彩。比如它首创了仇恨系统，怪物会根据玩家对它不同的攻击来建立一个仇恨的列表，然后优先攻击仇恨列表第一个玩家。它的任务系统也是非常庞大的，给玩家非常多的选择。它也首创了raid系统，即大规模的团队PvE。还有一些职业的分化、buff、debuff、种族天赋都有所体现。</p>
-<p>但这款产品在2003年进入中国之后并没有获得成功。首先它作为3D游戏，国内的硬件环境并没有办法去支撑，大部分电脑是跑不动的；还有一点是过于硬核，设计者对游戏的真实性达到了偏执的程度，里面所有的设定都要跟现实世界比较相似。</p>
-<blockquote>
-<p>里面的夜晚真的就是夜晚，现在游戏的夜晚是天色变黑但能见度没有影响，但在EQ里面没有夜视能力的职业是基本什么都看不到。所以当时如果人类在晚上出生，他想出新手村可能要转几个小时才能出去。</p>
-</blockquote>
-<h4 id="《石器时代（StoneAge）》"><a href="#《石器时代（StoneAge）》" class="headerlink" title="《石器时代（StoneAge）》"></a><strong>《石器时代（StoneAge）》</strong></h4><p>1999年在日本上线，2001中国上线并获得了成功。作为一个回合制游戏，在拨号上网的年代很契合中国的网络环境，即时制的游戏对于网络要求比较高；同时它的画面表现相对欧美玩家来讲更符合国内玩家的品味，相对轻松一些的卡通风格，接受度也更大一些。</p>
-<ul>
-<li>宠物系统</li>
-<li>社交行为</li>
-<li>直接影响回合制游戏的设定</li>
-</ul>
-<h3 id="MMORPG的发展"><a href="#MMORPG的发展" class="headerlink" title="MMORPG的发展"></a>MMORPG的发展</h3><p>发展的时期大概在2001年到2010年之间，这段时间算是MMORPG最辉煌的一个阶段，大作非常多，玩法的颠覆也非常多，社交体系的颠覆也比较多，包括商业化。商业化的改变非常巨大，中国在这一方面引领了世界。</p>
-<h4 id="《传奇》系列"><a href="#《传奇》系列" class="headerlink" title="《传奇》系列"></a><strong>《传奇》系列</strong></h4><p>传奇就跟它的名字一样，它就是一个传奇。它在2001年由盛大代理在国内上线 <strong>《传奇（热血传奇）》</strong>。</p>
-<p>传奇的玩法就是杀怪，玩家杀怪获得装备升级，升级之后变强了拿到更好的装备就可以挑战更高级的怪物，然后继续杀怪升级。游戏的探索价值比较高，当时没有门户网站，整个游戏是未知，需要玩家不断去探索。</p>
-<blockquote>
-<ul>
-<li>2002 传奇私服出现</li>
-<li>2003 <strong>传奇世界</strong></li>
-<li>2011 传奇页游开始兴起</li>
-<li>2015 热血传奇手游上线</li>
-</ul>
-</blockquote>
-<h4 id="《梦幻西游》"><a href="#《梦幻西游》" class="headerlink" title="《梦幻西游》"></a><strong>《梦幻西游》</strong></h4><p>融合了几乎所有回合制游戏的优点。当时设计者对玩家体验并不是十分的关注，而梦幻西游在玩家体验上做到了非常极致的优化，在游戏生活中非常的便捷。同时它在玩法上已经扩充的非常丰富了，除了最原始的打怪升级之外还有许多丰富的任务活动来填充玩家的游戏时间，成为了回合制游戏标杆。</p>
-<p>梦幻西游的经济系统非常开放，玩家可以自由交易，还能做到经济平衡，玩家的产出和消耗基本是持平的状态。在经济系统平稳的前提下，玩家整个打怪收益会比较固定，玩家粘性也会更高，最重要的点就是 <strong>我的努力有回报</strong>。</p>
-<p>网易凭借梦幻西游在2006年直接成为了国内第一的网游公司，所有产品的总在线人数超过了两百万。</p>
-<h4 id="《魔兽世界》"><a href="#《魔兽世界》" class="headerlink" title="《魔兽世界》"></a><strong>《魔兽世界》</strong></h4><p>魔兽世界是对整个网游市场颠覆最大的一款游戏。它在2005年由九城代理进入国内，做的最大的颠覆是副本系统。副本系统对PvE玩家更加的友好，有施展自己拳脚的平台。因为副本的诞生，让整个游戏更深耕于PvE的一个玩法，而BOSS更多的技能设计，也让整个游戏的玩法变得更加有趣。</p>
-<p>装备绑定的设定对整个网游影响也很大。因为之前的装备是不绑定的，所有的极品装备都是可以在市场上流通的，直接的影响就是装备会贬值。</p>
-<ul>
-<li>阵营设定</li>
-<li>剧情任务</li>
-<li>开启语音社交时代</li>
-</ul>
-<p>早期魔兽跟无尽的任务十分相似，后面随着游戏的快餐化取消了许多反人类的硬核设定，而这些会在怀旧服中体现出来。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghbggrdqahj30r00f7juo.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.wowchina.com/zh-cn/news/18088331/%E9%AD%94%E5%85%BD%E4%B8%96%E7%95%8C%E5%85%A8%E6%96%B04k%E5%A3%81%E7%BA%B8">魔兽世界</a> 
-    </i>
-  </font>
-</div>
-
-
-
-<h4 id="《热血江湖》"><a href="#《热血江湖》" class="headerlink" title="《热血江湖》"></a><strong>《热血江湖》</strong></h4><p>首款大张旗鼓宣扬自己是免费游戏的一款游戏。在此之前的免费游戏没有找到很好的营收手段，同时“卖数值”会影响平衡，让非R玩家有很强的负面情绪。</p>
-<ul>
-<li>宣告网游正式进入免费时代</li>
-</ul>
-<h4 id="《征途》"><a href="#《征途》" class="headerlink" title="《征途》"></a><strong>《征途》</strong></h4><p>把游戏的商业化做到极致的一个产品，以至于没有一款产品可以超越它。在2006年上线后就超过了梦幻西游的在线人数，原因在于史玉柱在宣传方面下了更多的功夫。</p>
-<p>征途开创了一种新的社交方式，就是国战。每个服务器有十个国家，然后对于城主和国家的皇帝来说，他的行驶权利是非常大的，比如获得NPC的一部分收益；或者可以行使一部分GM权利，这是一个玩家身份地位一个非常好的体现。</p>
-<ul>
-<li>商业化和宣传</li>
-<li>新的PVP社交模式</li>
-<li>自动寻路开始普及</li>
-<li>网游开始快餐化</li>
-</ul>
-<h4 id="《魔域》"><a href="#《魔域》" class="headerlink" title="《魔域》"></a><strong>《魔域》</strong></h4><ul>
-<li>2006</li>
-<li>爽快战斗</li>
-<li>XP技能</li>
-<li>商人在游戏中作用巨大</li>
-<li>网络游戏快餐化</li>
-</ul>
-<h4 id="《剑侠情缘网络版叁》"><a href="#《剑侠情缘网络版叁》" class="headerlink" title="《剑侠情缘网络版叁》"></a><strong>《剑侠情缘网络版叁》</strong></h4><p>初期仿照魔兽世界，后面效果不佳对游戏进行改进，变成现在这样相对巅峰的状态。恶人谷与浩气盟的争斗让设计者重新发现PvP的玩家参与度是比较高的，最终演变为阵容的攻防战，鼓励玩家去攻击阵营的BOSS。</p>
-<p>萝莉体型也是剑网三首创的，吸引了一部分二次元玩家。这部分玩家的二次创作能力非常强，包括cosplay、同人漫画、同人歌曲等等。同人文化的发展也是剑网三的一大特色。</p>
-<ul>
-<li>阵容攻防战</li>
-<li>轻功系统</li>
-<li>同人文化</li>
-<li>剧情深化</li>
-</ul>
-<p>这些改进让剑网三走向了和魔兽世界完全不同的道路。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1ghbo6zmp6mj30zk0ffn4z.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://mp.weixin.qq.com/s/pLTjQMTOw6veVAn2R4mT0w">@白芷不是中药</a> 
-    </i>
-  </font>
-</div>
-
-
-
-
-<h3 id="MMORPG的分化"><a href="#MMORPG的分化" class="headerlink" title="MMORPG的分化"></a>MMORPG的分化</h3><p>MMO到2010年之后，它就处于一个非常尴尬的地位，因为其实玩法上面已经挖掘差不多了，很难找到一个新的玩法；其次游戏这时候已经孵化成非常多的品类了，玩家有了更多的选择。第一条出路就是多平台，就是可以向其他一些更便捷的平台迁移来降低这个游戏的体量，同时研发成本也会降低。</p>
-<h4 id="页游MMO兴起"><a href="#页游MMO兴起" class="headerlink" title="页游MMO兴起"></a>页游MMO兴起</h4><p>MMO页游的特点就是全自动，它的目标用户就是上班族白领，他们没有时间玩游戏，通过自动挂机的方式来进行任务，打怪升级。在有时间的时候做一些操作比如PK、充值。因为玩法过于简单迅速进入瓶颈期，玩法和品质均无法做到突破。</p>
-<ul>
-<li>洗量大行其道</li>
-<li>页游MMO最终只成为一个过渡形态</li>
-</ul>
-<h4 id="手游MMO兴起"><a href="#手游MMO兴起" class="headerlink" title="手游MMO兴起"></a>手游MMO兴起</h4><ul>
-<li>2014</li>
-<li>全民奇迹获得成功</li>
-<li>MMO手游开始兴起</li>
-<li>MMO品类正式从端游、页游，过渡到手游</li>
-</ul>
-<h4 id="梦幻西游手游"><a href="#梦幻西游手游" class="headerlink" title="梦幻西游手游"></a><strong>梦幻西游</strong>手游</h4><p>几乎移植了端游的所有玩法，在手游上毫无例外的获得了成功。在IOS畅销榜上面占第一名长达640天，没有任何一款新游戏可以撼动它的地位。</p>
-<ul>
-<li>端游IP移植手游的热潮开启</li>
-<li>后续<strong>热血传奇、剑侠情缘、天龙八部</strong>等游戏相继上线</li>
-</ul>
-<h4 id="《我叫MT4》"><a href="#《我叫MT4》" class="headerlink" title="《我叫MT4》"></a><strong>《我叫MT4》</strong></h4><p>在这款产品之前并没有一款魔兽世界玩法的游戏，弥补了该类的空白。</p>
-<ul>
-<li>魔兽玩法移植</li>
-<li>端游IP基本消耗殆尽</li>
-<li>手游MMO也将进入瓶颈</li>
-</ul>
-<h4 id="《激战2》"><a href="#《激战2》" class="headerlink" title="《激战2》"></a><strong>《激战2》</strong></h4><p>尝试开放世界，强调游戏探索。</p>
-<ul>
-<li>随机地图事件</li>
-<li>买断式收费</li>
-<li>跨服的纯公平PVP</li>
-<li>国服盗号事件</li>
-</ul>
-<h4 id="《楚留香》"><a href="#《楚留香》" class="headerlink" title="《楚留香》"></a><strong>《楚留香》</strong></h4><p>手游的开放世界尝试。</p>
-<ul>
-<li>开放世界的尝试</li>
-<li>硬件和网络不断发展</li>
-<li>手游MMO的机会比较大</li>
-</ul>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh17yayv6rj30mk0dkzw6.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://jianghu.163.com/?from=nietop">楚留香 一梦江湖</a> 
-    </i>
-  </font>
-</div>
-
-
-
-
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><ul>
-<li>画面品质、玩法乐趣、社交体系、经济体系都是绝对一款MMORPG是否成功的关键因素</li>
-<li>页游MMORPG在游戏本身以及比较难再做突破</li>
-<li>端游和手游MMO仍有比较大的发展前景</li>
-<li>未来MMORPG在玩法层面突破机会较大，高自由度、沙盒化的玩法可能是未来MMORPG爆发的方向</li>
-</ul>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gh07sc7c5sj30xc08cmzg.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-     <a href="https://www.behance.net/harveydentmustdie">Milos Kostic</a>
-    </i>
-  </font>
-</div>
-
-]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>RPG</tag>
-        <tag>MMORPG</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>图形技术发展&amp;动作游戏发展</title>
-    <url>/archives/21f5c0c6.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghr9b2xyjej30xc0ot42q.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="behance.net/gallery/102282989/Selected-works-2019-2020?tracking_source=best_of_behance">Selected works | 2019-2020</a> by 
-      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
-    </i>
-  </font>
-</div>
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文从图形技术的发展延伸到动作游戏的发展，讲述动作游戏这一品类。</p>
-<a id="more"></a>
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>任爽/Sionx</strong></p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-</ul>
-<p>###《吃豆人》游戏图形的起源</p>
-<ul>
-<li><p>动作游戏界定</p>
-<ul>
-<li>通过手眼的配合作出即时反馈的游戏统称为动作游戏</li>
-</ul>
-</li>
-<li><p>动作游戏品类</p>
-<ul>
-<li>平台跳跃</li>
-<li>横版过关</li>
-<li>动作射击</li>
-<li>动作冒险</li>
-<li>动作角色扮演</li>
-<li>格斗</li>
-</ul>
-</li>
-<li><p>2D时代</p>
-<ul>
-<li><p>FC</p>
-<ul>
-<li>1983年发售</li>
-<li>处理器 &emsp; 8位</li>
-<li>输出分辨率  &emsp; 256 x 240</li>
-<li>内存 &emsp; 2KB</li>
-</ul>
-</li>
-<li><p><strong>《吃豆人》</strong></p>
-<ul>
-<li>1980年发售</li>
-<li>16进制代码创建图像</li>
-</ul>
-</li>
-<li><p>2D为主</p>
-<ul>
-<li><p>类似摇杆的外设</p>
-</li>
-<li><p>SEGA Degitizer System</p>
-<ul>
-<li>有效改善2D图像制作效率问题 </li>
-</ul>
-</li>
-<li><p>SEGA Degitizer System 3</p>
-</li>
-<li><p>早期的动作游戏都以横版表现形式为主</p>
-<ul>
-<li>通过算法水平镜像使资源只需一套解决左右翻转问题</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《超级马里奥兄弟》</strong></p>
-<ul>
-<li>1985年发售</li>
-<li>平台跳跃的鼻祖<ul>
-<li>奠定基础规则</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《热血硬派》</strong></p>
-<ul>
-<li>1986年发售</li>
-<li>八方向移动对横版过关类游戏具有深远的影响力</li>
-</ul>
-</li>
-<li><p><strong>《合金弹头》</strong></p>
-<ul>
-<li>1996年SNK发售</li>
-<li>动作射击类的巅峰之作</li>
-</ul>
-</li>
-<li><p><strong>《真人快打》</strong></p>
-<ul>
-<li>1992年Midway发售</li>
-<li>最早出现以真人拍摄制作的格斗游戏</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="3D时代"><a href="#3D时代" class="headerlink" title="3D时代"></a>3D时代</h3><ul>
-<li><p>主机游戏机</p>
-<ul>
-<li>1994年发售</li>
-<li>处理器  &emsp; 32位</li>
-<li>输出分辨率  &emsp; 640 x 480px</li>
-<li>内存 &emsp; 2MB</li>
-<li>最高性价比机能去体验更好的视觉效果和游戏乐趣</li>
-</ul>
-</li>
-<li><p><strong>《玩具总动员》</strong></p>
-<ul>
-<li>1995年发售</li>
-<li>3D技术的普及<ul>
-<li>3D在表现和效率上体现出巨大优势</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《VR展示战士》</strong></p>
-<ul>
-<li>1994年发售</li>
-<li>第一款3D格斗游戏</li>
-</ul>
-</li>
-<li><p><strong>《超级马里奥64》</strong></p>
-<ul>
-<li>1994年发售</li>
-<li>第一步3D化的马里奥系列<ul>
-<li>平面 -&gt; 3D</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《古墓丽影》</strong></p>
-<ul>
-<li>1996年发售</li>
-<li>动作冒险类游戏在PC上获得成功<ul>
-<li>3D游戏和2D游戏完全拉开一个质的变化</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《生化危机》</strong></p>
-<ul>
-<li>1996年发售</li>
-<li>‘坦克式’移动<ul>
-<li>机能不足</li>
-<li>使用固定视角去切换场景</li>
-<li>不同真正的模型，贴图去处理中远景</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="次世代"><a href="#次世代" class="headerlink" title="次世代"></a>次世代</h3><ul>
-<li><p>次世代</p>
-<ul>
-<li>法线贴图</li>
-<li>高光贴图</li>
-<li>动作捕捉</li>
-<li>PBR</li>
-<li>即时渲染光影</li>
-</ul>
-</li>
-<li><p>PlayStation3</p>
-<ul>
-<li>处理器 &emsp; 18m PowerPC 3.2Hz</li>
-<li>输出分辨率 &emsp; 1080p</li>
-<li>内存 &emsp; 256MB</li>
-<li>显存 &emsp; Reality Synthesizer，R5X</li>
-</ul>
-</li>
-<li><p><strong>《暗黑破坏神2》</strong></p>
-<ul>
-<li>2000年发售</li>
-<li>三渲二技术<ul>
-<li>CG技术远远大于即时演算技术</li>
-<li>追求高画质体验</li>
-<li>2D序列帧</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《地下城与勇士》</strong></p>
-<ul>
-<li>2005年发售</li>
-<li>网络时代的横版动作游戏<ul>
-<li>数值成长体系</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《陇村正》</strong></p>
-<ul>
-<li>2009年发售</li>
-<li>2D不再局限于像素风格</li>
-<li>次世代制作的2D横版动作游戏延续</li>
-</ul>
-</li>
-<li><p><strong>《火影忍者：究极风暴4》</strong></p>
-<ul>
-<li>2016年发售</li>
-<li>卡通渲染技术的格斗游戏</li>
-</ul>
-</li>
-<li><p><strong>《塞尔达传说：荒野之息》</strong></p>
-<ul>
-<li>2017年发售</li>
-<li>物理特性让玩法拥有多样性</li>
-</ul>
-</li>
-<li><p><strong>《怪物猎人：世界》</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>独乐乐不如众乐乐</li>
-<li>1200+w以上的销量</li>
-</ul>
-</li>
-<li><p><strong>《荒野大镖客：救赎2》</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>融合电影化叙事等多种元素的动作冒险游戏</li>
-<li>追求极致的实时渲染<ul>
-<li>次世代最高顶级的画质表现力</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>次世代的动作明星</p>
-<ul>
-<li>奎托斯</li>
-<li>但丁</li>
-<li>贝优妮塔</li>
-</ul>
-</li>
-<li><p><strong>《只狼》</strong></p>
-<ul>
-<li>2019年发售</li>
-<li>突破传统的动作游戏节奏，鼓励主动进攻</li>
-<li>同时进攻获取最大收益</li>
-</ul>
-</li>
-<li><p>【游戏推荐】</p>
-<ul>
-<li><p><strong>《Cuphead》（茶杯头）</strong></p>
-<ul>
-<li>2017年发售</li>
-<li>2017 TGA最佳美术指导、最佳独立游戏</li>
-</ul>
-</li>
-<li><p><strong>《Celeste》（蔚蓝）</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>2018 TGA最佳独立游戏</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
-    </i>
-  </font>
-</div>]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
       </tags>
   </entry>
   <entry>
@@ -2493,6 +2214,432 @@
       </tags>
   </entry>
   <entry>
+    <title>浅谈格斗游戏</title>
+    <url>/archives/33a24266.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/e34cce36864647.572bce43c7099.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/36864647/Street-Rumble?tracking_source=search_projects_recommended%7Ckungfu">Street Rumble</a> by 
+      <a href="https://www.behance.net/rocketboi">Malcolm Wope</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><a id="more"></a>
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><ul>
+<li>叶华夏<ul>
+<li><strong>格斗游戏玩家</strong></li>
+<li><strong>主持人、解说、教师</strong></li>
+<li><strong>游戏测评师</strong></li>
+</ul>
+</li>
+</ul>
+<h3 id="格斗游戏的定义与术语"><a href="#格斗游戏的定义与术语" class="headerlink" title="格斗游戏的定义与术语"></a>格斗游戏的定义与术语</h3><ul>
+<li>格斗游戏<ul>
+<li>Fight Technology Game(FTG) +动作游戏的一种</li>
+<li>格斗游戏在动作游戏的基础上，会被强烈要求更<em>精妙的任务判定</em>与<em>招式设定</em>（精确到帧），以达到公平竞争的目的</li>
+<li>动作游戏与格斗游戏关键性区别在于<em>操作</em>与<em>战斗策略</em></li>
+</ul>
+</li>
+<li>2D格斗游戏与3D格斗游戏<ul>
+<li>在格斗游戏中，2D与3D通常指游戏中角色的移动空间</li>
+<li>2D格斗只能前后上下移动</li>
+<li>3D格斗可以360度横移</li>
+<li>从感官来看，即使是3D人物建模的格斗游戏也可能是2D格斗</li>
+</ul>
+</li>
+<li>输入设备<ul>
+<li>摇杆</li>
+<li>手柄</li>
+</ul>
+</li>
+<li>格斗术语<ul>
+<li>立回<ul>
+<li>对战双方在攻击对方成功或者防御对方进攻之前所做的一切动作</li>
+</ul>
+</li>
+<li>确反<ul>
+<li>利用对方攻击之后无法行动的硬直来进行反击的行动</li>
+</ul>
+</li>
+<li>取消<ul>
+<li>重要连续技构成方式之一</li>
+</ul>
+</li>
+<li>确认<ul>
+<li>确认对手及我方的状态</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="知名格斗游戏"><a href="#知名格斗游戏" class="headerlink" title="知名格斗游戏"></a>知名格斗游戏</h3><ul>
+<li>SNK<ul>
+<li>拳皇系列</li>
+<li>侍魂系列</li>
+<li>饿狼传说系列</li>
+</ul>
+</li>
+<li>BANDAI NAMCO<ul>
+<li>铁拳系列</li>
+<li>刀魂系列</li>
+</ul>
+</li>
+<li>ARC SYSTEM WORKS<ul>
+<li>罪恶装备系列</li>
+<li>苍翼启示录系列</li>
+</ul>
+</li>
+<li>SEGA<ul>
+<li>VR战士系列</li>
+</ul>
+</li>
+<li>CAPCOM<ul>
+<li>街头霸王系列</li>
+<li>恶魔战士系列</li>
+</ul>
+</li>
+</ul>
+<h3 id="格斗游戏的发展与演变"><a href="#格斗游戏的发展与演变" class="headerlink" title="格斗游戏的发展与演变"></a>格斗游戏的发展与演变</h3><ul>
+<li><strong>《功夫》</strong><ul>
+<li>1985</li>
+<li>对格斗游戏的发展具有开创先河的意义</li>
+<li>其许多设定延续到后来，成为很多格斗游戏的标准规范</li>
+</ul>
+</li>
+<li><strong>《街头霸王》</strong><ul>
+<li>1987</li>
+<li>格斗游戏的开拓者</li>
+</ul>
+</li>
+<li><strong>《街头霸王2》</strong><ul>
+<li>1991</li>
+<li>格斗游戏的定义者</li>
+</ul>
+</li>
+<li><strong>《街头霸王3》</strong><ul>
+<li>1997</li>
+<li>格斗游戏的金字塔顶</li>
+</ul>
+</li>
+<li><strong>《街头霸王4》</strong><ul>
+<li>2008</li>
+</ul>
+</li>
+<li><strong>《街头霸王5》</strong><ul>
+<li>2016</li>
+</ul>
+</li>
+</ul>
+<h3 id="如何测评格斗游戏"><a href="#如何测评格斗游戏" class="headerlink" title="如何测评格斗游戏"></a>如何测评格斗游戏</h3><ul>
+<li>测评格斗游戏重点-平衡性（格斗游戏三要素）<ul>
+<li>动作设计 - 20%</li>
+<li>判定框 - 50%</li>
+<li>帧数表 - 30%</li>
+</ul>
+</li>
+<li>格斗游戏测评重点<ul>
+<li>角色动作设计是否丰富，决定了一款格斗游戏的肉体</li>
+<li>判定框设计是否精准，决定了一款格斗游戏的内在</li>
+<li>帧数表设计是否饱满，决定了一款格斗游戏的灵魂</li>
+</ul>
+</li>
+</ul>
+<h3 id="8-5-格斗游戏的魅力"><a href="#8-5-格斗游戏的魅力" class="headerlink" title="8.5 格斗游戏的魅力"></a>8.5 格斗游戏的魅力</h3><blockquote>
+<p><em>“ Fight Games is……something so GREAT! “</em></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>图形技术发展&amp;动作游戏发展</title>
+    <url>/archives/21f5c0c6.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghr9b2xyjej30xc0ot42q.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="behance.net/gallery/102282989/Selected-works-2019-2020?tracking_source=best_of_behance">Selected works | 2019-2020</a> by 
+      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文从图形技术的发展延伸到动作游戏的发展，讲述动作游戏这一品类。</p>
+<a id="more"></a>
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>任爽/Sionx</strong></p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+</ul>
+<p>###《吃豆人》游戏图形的起源</p>
+<ul>
+<li><p>动作游戏界定</p>
+<ul>
+<li>通过手眼的配合作出即时反馈的游戏统称为动作游戏</li>
+</ul>
+</li>
+<li><p>动作游戏品类</p>
+<ul>
+<li>平台跳跃</li>
+<li>横版过关</li>
+<li>动作射击</li>
+<li>动作冒险</li>
+<li>动作角色扮演</li>
+<li>格斗</li>
+</ul>
+</li>
+<li><p>2D时代</p>
+<ul>
+<li><p>FC</p>
+<ul>
+<li>1983年发售</li>
+<li>处理器 &emsp; 8位</li>
+<li>输出分辨率  &emsp; 256 x 240</li>
+<li>内存 &emsp; 2KB</li>
+</ul>
+</li>
+<li><p><strong>《吃豆人》</strong></p>
+<ul>
+<li>1980年发售</li>
+<li>16进制代码创建图像</li>
+</ul>
+</li>
+<li><p>2D为主</p>
+<ul>
+<li><p>类似摇杆的外设</p>
+</li>
+<li><p>SEGA Degitizer System</p>
+<ul>
+<li>有效改善2D图像制作效率问题 </li>
+</ul>
+</li>
+<li><p>SEGA Degitizer System 3</p>
+</li>
+<li><p>早期的动作游戏都以横版表现形式为主</p>
+<ul>
+<li>通过算法水平镜像使资源只需一套解决左右翻转问题</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《超级马里奥兄弟》</strong></p>
+<ul>
+<li>1985年发售</li>
+<li>平台跳跃的鼻祖<ul>
+<li>奠定基础规则</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《热血硬派》</strong></p>
+<ul>
+<li>1986年发售</li>
+<li>八方向移动对横版过关类游戏具有深远的影响力</li>
+</ul>
+</li>
+<li><p><strong>《合金弹头》</strong></p>
+<ul>
+<li>1996年SNK发售</li>
+<li>动作射击类的巅峰之作</li>
+</ul>
+</li>
+<li><p><strong>《真人快打》</strong></p>
+<ul>
+<li>1992年Midway发售</li>
+<li>最早出现以真人拍摄制作的格斗游戏</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="3D时代"><a href="#3D时代" class="headerlink" title="3D时代"></a>3D时代</h3><ul>
+<li><p>主机游戏机</p>
+<ul>
+<li>1994年发售</li>
+<li>处理器  &emsp; 32位</li>
+<li>输出分辨率  &emsp; 640 x 480px</li>
+<li>内存 &emsp; 2MB</li>
+<li>最高性价比机能去体验更好的视觉效果和游戏乐趣</li>
+</ul>
+</li>
+<li><p><strong>《玩具总动员》</strong></p>
+<ul>
+<li>1995年发售</li>
+<li>3D技术的普及<ul>
+<li>3D在表现和效率上体现出巨大优势</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《VR展示战士》</strong></p>
+<ul>
+<li>1994年发售</li>
+<li>第一款3D格斗游戏</li>
+</ul>
+</li>
+<li><p><strong>《超级马里奥64》</strong></p>
+<ul>
+<li>1994年发售</li>
+<li>第一步3D化的马里奥系列<ul>
+<li>平面 -&gt; 3D</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《古墓丽影》</strong></p>
+<ul>
+<li>1996年发售</li>
+<li>动作冒险类游戏在PC上获得成功<ul>
+<li>3D游戏和2D游戏完全拉开一个质的变化</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《生化危机》</strong></p>
+<ul>
+<li>1996年发售</li>
+<li>‘坦克式’移动<ul>
+<li>机能不足</li>
+<li>使用固定视角去切换场景</li>
+<li>不同真正的模型，贴图去处理中远景</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="次世代"><a href="#次世代" class="headerlink" title="次世代"></a>次世代</h3><ul>
+<li><p>次世代</p>
+<ul>
+<li>法线贴图</li>
+<li>高光贴图</li>
+<li>动作捕捉</li>
+<li>PBR</li>
+<li>即时渲染光影</li>
+</ul>
+</li>
+<li><p>PlayStation3</p>
+<ul>
+<li>处理器 &emsp; 18m PowerPC 3.2Hz</li>
+<li>输出分辨率 &emsp; 1080p</li>
+<li>内存 &emsp; 256MB</li>
+<li>显存 &emsp; Reality Synthesizer，R5X</li>
+</ul>
+</li>
+<li><p><strong>《暗黑破坏神2》</strong></p>
+<ul>
+<li>2000年发售</li>
+<li>三渲二技术<ul>
+<li>CG技术远远大于即时演算技术</li>
+<li>追求高画质体验</li>
+<li>2D序列帧</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《地下城与勇士》</strong></p>
+<ul>
+<li>2005年发售</li>
+<li>网络时代的横版动作游戏<ul>
+<li>数值成长体系</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《陇村正》</strong></p>
+<ul>
+<li>2009年发售</li>
+<li>2D不再局限于像素风格</li>
+<li>次世代制作的2D横版动作游戏延续</li>
+</ul>
+</li>
+<li><p><strong>《火影忍者：究极风暴4》</strong></p>
+<ul>
+<li>2016年发售</li>
+<li>卡通渲染技术的格斗游戏</li>
+</ul>
+</li>
+<li><p><strong>《塞尔达传说：荒野之息》</strong></p>
+<ul>
+<li>2017年发售</li>
+<li>物理特性让玩法拥有多样性</li>
+</ul>
+</li>
+<li><p><strong>《怪物猎人：世界》</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>独乐乐不如众乐乐</li>
+<li>1200+w以上的销量</li>
+</ul>
+</li>
+<li><p><strong>《荒野大镖客：救赎2》</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>融合电影化叙事等多种元素的动作冒险游戏</li>
+<li>追求极致的实时渲染<ul>
+<li>次世代最高顶级的画质表现力</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>次世代的动作明星</p>
+<ul>
+<li>奎托斯</li>
+<li>但丁</li>
+<li>贝优妮塔</li>
+</ul>
+</li>
+<li><p><strong>《只狼》</strong></p>
+<ul>
+<li>2019年发售</li>
+<li>突破传统的动作游戏节奏，鼓励主动进攻</li>
+<li>同时进攻获取最大收益</li>
+</ul>
+</li>
+<li><p>【游戏推荐】</p>
+<ul>
+<li><p><strong>《Cuphead》（茶杯头）</strong></p>
+<ul>
+<li>2017年发售</li>
+<li>2017 TGA最佳美术指导、最佳独立游戏</li>
+</ul>
+</li>
+<li><p><strong>《Celeste》（蔚蓝）</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>2018 TGA最佳独立游戏</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
+    </i>
+  </font>
+</div>]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2D游戏开发</title>
     <url>/archives/6487e0f7.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkrfcylq45j312w0gak12.jpg"></p>
@@ -2846,40 +2993,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Event System</title>
-    <url>/archives/fe6918d5.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Eq5wAQ1XMAU2cvz.jpeg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href=" https://twitter.com/m4ndrill">Twitter@m4ndrill</a>
-    </i>
-  </font>
-</div>
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>上一节我们对项目进行重构生成。这节我们将为我们的引擎创建一个事件系统，以便我们处理窗口事件。</p>
-<a id="more"></a>
-
-
-
-<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><p>我们希望当我们实际创建一个窗口时，我们可以非常轻松地处理所有事情。</p>
-<p>目前我们有一个叫<code>Application</code>做应用程序的东西，这意味着它实际上包含了使一切保持运行的循环并且一直不断更新我们的游戏。不仅如此，它还要作为事件的枢纽需要接收事件，最终将它们分派到一个<code>Layer</code>层中，现在的游戏层是我们以后会讨论的话题所以不会过多地提及它们，因为我们将为此有单独的章节。总之现在事件最终传播到层以便它们可以处理。</p>
-<p>根据我们的应用程序，需要有一个应用程序能够接收事件，所以我们来画一些窗口，然后看看这种交流将如何进行。我们的窗口类代表了我们实际构成的窗口，我们的应用程序就像人们熟知的Windows窗口一样，每次我们在此窗口收到事件时是否有人调整了大小、点击关闭按钮、某种鼠标移动事件等等。无论何时每当这些事情发生时，在我们的窗口库或Win32 API都会收到一个事件，然后一旦该事件发生在该窗口类中，我们需要一种将其传达给应用程序的方式。本质上就是窗口类收到一个事件回调，然后构造一个Infinite事件并以某种方式传播回去。</p>
-<p>但我们实际上并不想绑定我们的应用程序到窗口类，所以窗口类不应该知道我们的应用程序。所有的应用程序类都会创建一个窗口，所以我们实际上需要做的是将所有这些事件信息发送给应用程序。</p>
-<p>例如鼠标右击，我移动了鼠标并在某个位置单击了它，我们需要什么类型的信息呢？需要确定鼠标点击的X&amp;Y坐标以及哪个按钮被按下，然后我们可以处理该信息，这就是所谓的鼠标按下事件。</p>
-<h3 id="Event-h"><a href="#Event-h" class="headerlink" title="Event.h"></a>Event.h</h3><p>首先我们有一个事件类型的枚举类<code>EventType</code>，应用程序事件<code>ApplicationEvent.h</code>覆盖了所有这些事件：按键事件、鼠标事件等等这些内容</p>
-]]></content>
-      <categories>
-        <category>游戏引擎开发 (Game Engine Series)</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>Game Engine</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Premake</title>
     <url>/archives/9209cb4c.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/f1a64d28384331.55bd3bf689627.png"></p>
@@ -2948,6 +3061,40 @@
 <p>针对第二点我目前的参考了网络的一种解决方案，在<code>Infinite</code>属性中的生成后事件添加：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">xcopy &#x2F;y &quot;$(OutDir)Infinite.dll&quot; &quot;$(SolutionDir)bin\$(Configuration)-$(Platform)\Sandbox\&quot;</span><br></pre></td></tr></table></figure>
 <p>系统报错就会停止，但生成的dll文件在另一个平行的文件夹中，原因是<code>$(Configuration)-$(Platform)</code>和<code>%&#123;cfg.buildcfg&#125;-%&#123;cfg.system&#125;-%&#123;cfg.architecture&#125;</code>还是不一致，而我浏览了宏也没有找到合适的，最后只能用拖拽的方式暂时将<code>Infinite.dll</code>拖回<code>Sandbox&#39;</code>，勉强运行成功。</p>
+]]></content>
+      <categories>
+        <category>游戏引擎开发 (Game Engine Series)</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>Game Engine</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Event System</title>
+    <url>/archives/fe6918d5.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Eq5wAQ1XMAU2cvz.jpeg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href=" https://twitter.com/m4ndrill">Twitter@m4ndrill</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>上一节我们对项目进行重构生成。这节我们将为我们的引擎创建一个事件系统，以便我们处理窗口事件。</p>
+<a id="more"></a>
+
+
+
+<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><p>我们希望当我们实际创建一个窗口时，我们可以非常轻松地处理所有事情。</p>
+<p>目前我们有一个叫<code>Application</code>做应用程序的东西，这意味着它实际上包含了使一切保持运行的循环并且一直不断更新我们的游戏。不仅如此，它还要作为事件的枢纽需要接收事件，最终将它们分派到一个<code>Layer</code>层中，现在的游戏层是我们以后会讨论的话题所以不会过多地提及它们，因为我们将为此有单独的章节。总之现在事件最终传播到层以便它们可以处理。</p>
+<p>根据我们的应用程序，需要有一个应用程序能够接收事件，所以我们来画一些窗口，然后看看这种交流将如何进行。我们的窗口类代表了我们实际构成的窗口，我们的应用程序就像人们熟知的Windows窗口一样，每次我们在此窗口收到事件时是否有人调整了大小、点击关闭按钮、某种鼠标移动事件等等。无论何时每当这些事情发生时，在我们的窗口库或Win32 API都会收到一个事件，然后一旦该事件发生在该窗口类中，我们需要一种将其传达给应用程序的方式。本质上就是窗口类收到一个事件回调，然后构造一个Infinite事件并以某种方式传播回去。</p>
+<p>但我们实际上并不想绑定我们的应用程序到窗口类，所以窗口类不应该知道我们的应用程序。所有的应用程序类都会创建一个窗口，所以我们实际上需要做的是将所有这些事件信息发送给应用程序。</p>
+<p>例如鼠标右击，我移动了鼠标并在某个位置单击了它，我们需要什么类型的信息呢？需要确定鼠标点击的X&amp;Y坐标以及哪个按钮被按下，然后我们可以处理该信息，这就是所谓的鼠标按下事件。</p>
+<h3 id="Event-h"><a href="#Event-h" class="headerlink" title="Event.h"></a>Event.h</h3><p>首先我们有一个事件类型的枚举类<code>EventType</code>，应用程序事件<code>ApplicationEvent.h</code>覆盖了所有这些事件：按键事件、鼠标事件等等这些内容</p>
 ]]></content>
       <categories>
         <category>游戏引擎开发 (Game Engine Series)</category>
@@ -3403,6 +3550,60 @@
       </tags>
   </entry>
   <entry>
+    <title>一个关于爱与生活的童话-Florence</title>
+    <url>/archives/9b487a14.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf5uxkndixj30go09djt1.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
+<a id="more"></a>
+
+<p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_3803bfdcbfa1ff4515505f920ed1c7993993b9f6.600x338.jpg?t=1589331032">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256774213/movie480.webm?t=1580836892" type="video/mp4">       </video></p>
+<h3 id="关于游戏"><a href="#关于游戏" class="headerlink" title="关于游戏"></a>关于游戏</h3><p>Florence 是一场持续约 30 分钟的心动体验。故事很简短，但意义很深远。</p>
+<p>25 岁的 Florence Yeoh 对生活感到困惑。她的生活是日复一日地工作、睡觉，以及在社交媒体上打发大量时间。直到有一天，她遇到了一位名叫 Krish 的大提琴手，他改变了她眼中的整个世界。</p>
+<p>透过一系列预先设定的游戏剧本，从调情到吵架，从互助成长到逐渐分歧，玩家将体验 Florence 与 Krish 这段感情的点点滴滴。 《Florence》的灵感来源于「Slice of Life」漫画小说和网路漫画，讲述了一个熟悉、青涩而又私密的爱情故事。</p>
+<h3 id="测评"><a href="#测评" class="headerlink" title="测评"></a>测评</h3><blockquote>
+<p>“Florence is a beautiful experience that isn’t afraid to tell an ordinary story. This isn’t an action-packed, heroic tale or a somber story filled with tragedy, but it still hits some of those notes in subdued ways. Florence is happy, distressing, and admirable in its reflection of young romance, and it left me with a sense of unexpected hopefulness.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.gameinformer.com/games/florence/b/ios/archive/2018/02/20/florence-game-informer-review.aspx">Game Informer</a></p>
+</blockquote>
+<br/>
+
+<blockquote>
+<p>“This short collection of small moments manages to cover a wide range of powerfully relatable emotional highs and lows, beautifully capturing what it’s like to fall in love for the first time.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.theguardian.com/games/2018/feb/23/florence-review-graphic-novel-style-game">The Guardian</a></p>
+</blockquote>
+<br/>
+
+<blockquote>
+<p>“The breathtaking Florence captures falling in love better than almost any game.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.polygon.com/2018/2/15/17014258/florence-game-review-ios-best-games-2018">Polygon</a></p>
+</blockquote>
+<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="玩法层面"><a href="#玩法层面" class="headerlink" title="玩法层面"></a>玩法层面</h4><p>游戏总体上偏向于叙事类的互动故事，玩家更注重故事本身，所以在玩法方面基本上是被弱化甚至是可以忽略。但是作为游戏，《Florence》的交互设计做的非常优秀，在后面会提到，在此不再赘述。</p>
+<h4 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h4><p>美术风格上绘图保持着非常高的质量，在同类游戏中处于中等偏上的水平。在游玩游戏的过程中，每一张图都可以当作壁纸，仿佛是在艺术长廊中欣赏一件件精美的画作。而且勾勒人物的线条非常简洁凝练，相较于写实风格更偏向卡通，但却拿捏的恰到好处。虽然游戏除了背景音乐完全没有人物配音，但美术上呈现出艺术上的张力，也能让画中的人物富有生机与活力。</p>
+<h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>交互设计也是《Florence》的一大亮点。</p>
+<p>从游戏一开始的拖拽牙刷来刷牙，到吃饭时点击食物来食用以及后面等等，交互的风格让我想到了锈湖推出的《白门》。除开游戏类型的不同，两者的交互设计非常相似，甚至《白门》的主人公一开始的洗漱和之后的吃饭几乎一模一样。在我的印象中，类似于洗漱吃饭这样的行为交互设计一般是通过按键的方式实现的，例如在饭桌前提示按下某个之前操作方式提到的交互键位，触发「洗漱」、「吃饭」、「睡觉」等，之后可能会有一段动画。回到游戏本身，作为叙事类游戏，《Florence》必然面临着游戏性不足的问题，而这种细腻独特的交互方式成功地拉长了总体的游戏时间，丰富了游戏的体验，让玩家参与其中而只不是“看漫画”。同样的，许多游戏大作采用固定交互键的方式也是节约了玩家的时间和精力，因为这些游戏本身不需要交互来给游戏“拖时间”。</p>
+<p>在交互的过程中，玩家感受到的不是僵硬地拖延游戏时间，而是情感被不断地牵动。令人印象非常深刻的是女主与男主交谈的几个片段。这个情节谈话的方式是将拼图拖拽到指定区域并拼好。双方刚开始聊天时，拼图有足足八块 ，形状也是千奇百怪。随着交谈的深入，拼图的数量也开始减少，难度开始不断降低，六块、四块、三块，到后面双方聊到火热，拼图也只剩下两块，画面中两个人的距离也在不断靠近。在接吻前，两块的拖拽甚至变成了轴对称的，只需要拖拽一块到区域内就完成了。在整个过程中，玩家对这种不断增进的感情实际上是感同身受的，情感已经借由交互带入到故事中：从刚开始聊天的羞涩，不断从脑中寻找话题，到之后双方开始互敞心扉，最后不断靠近并热切地接吻，玩家的情感也融入到情景之中。拼图的形式贯穿了整个游戏，随着剧情的发展，双方的争吵再次以拼图的形式呈现：拼图镶嵌的「角」从圆滑的「圆角」变成了锐利的「尖角」；如果拼接的速度不够快还可能输给对方；而到了夜里睡觉的时候，拼图拼出双方背对背躺着，却只能拼出两大块各自的拼图，两者因为「角」相互排斥拼不到一起。和拼图的效果相似的设计还有转动时针来表现时间的流逝、同居时放置物品和分居时收拾曾经放置的物品，都能给玩家带来很大的触动。</p>
+<p>丰富多样的交互可能会带来操作上的困难，但在整个游玩过程中，不同的交互都有相应的提示。交互方面唯一的遗憾是《Florence》作为跨平台的游戏，交互由触屏变成了鼠标的拖动，PC端的体验可能较手机端稍逊色一些。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf7df4nwl8j30go09dmyk.jpg"></p>
+<h4 id="剧情题材"><a href="#剧情题材" class="headerlink" title="剧情题材"></a>剧情题材</h4><p>故事的本身可能是《Florence》争议比较大的方面。一个女孩在日复一日麻木的生活与工作中偶然遇到自己心动的男孩，双方坠入爱河开始甜蜜幸福的生活，一起去追逐梦想。随着时间的流逝，在生活中女孩和男孩相互的不理解变成了争吵，最后不欢而散。女孩最后坚持了自己的梦想，成为了一名画家，但她依旧忘不了那个当初送给她颜料盒的那个人。</p>
+<p>有一些人认为剧情的真实性不够：女孩一见钟情，有懵懂的欣赏，有心动的害羞，有投机的聊天，这些都是校园恋爱的元素，放在前面铺垫过日复一日重复麻木单调工作的女孩身上显然是不合适的，而且之后的画画成名给人很突兀的感觉，逻辑上很难自洽：</p>
+<blockquote>
+<p>女孩幼年热爱绘画，二十来年不练，分手之后努力画了几年突然就绘画艺术家作品大卖了，我觉得真的好假啊，这种女孩是天才，是玛丽苏，是任何小说电视剧里的女主角，唯独不是普通人。一个「恋爱后分手，分手后成名」的恋爱故事，越品越感觉像是一个泡泡一样的童话”</p>
+<p> –<a href="https://www.taptap.com/user/50050544">Topas今天退休了吗</a></p>
+</blockquote>
+<p>在我看来，《Florence》与其说是一个故事，不如说是一个关于爱情的童话：与其在其中寻找现实中爱情的影子，不如放松下来，把它当作一本童话书或者一个绘本，静静欣赏那种单纯的美好。彼此激励一起为对方对梦想加油、无论做什么都是快乐而且有活力的、哪怕有吵架不久后还是原谅对方继续甜蜜、即使 Florence 失去了 Krish，她依旧选择了去热爱生活，去追逐自己的梦想，最后获得了成功。抛开合理性，这个剧情本身就已经超出了简单的甜甜的恋爱，立意上升到一个更高的层次：恋爱让自己变得更好。经历过这些，她明白了一个问题：我是谁？人的一生都在了解自己，女主也不例外。所以这款游戏的名字叫做“Florence”，不仅仅是说她经历了一切，更意味着，她经历的这一切，让她找回了自己。这可能才是游戏想真正表达的。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/ss_9e029df44296f3d21a61e96d0a7bea4447be2c14.600x338.jpg"></p>
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>希望通过恋爱，成为更好的自己。</p>
+<blockquote>
+<p>加速拨动的时钟 诉说我们之间的改变<br>争吵时 对话框的拼图角变得越来越尖锐<br>明明拼好了的拼图却发现无法组合在一起<br>拼到一起的照片碎片 却还是一直在分离<br>…….<br>不管你怎么念念不舍把碎片拖回来 不愿意点下一页<br>但想要离开的人终究会疏远 远去 成为人生中的一名过客</p>
+<p>曾经的你使我的生活有了色彩 让我对未来有了无限的憧憬</p>
+<p>可相片里躺在我身边的你 却依旧是我亲手擦去了你的存在</p>
+<p>感谢曾经所有美好的回忆 也感谢你把我放归与人海成就更好的自己</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>游戏追踪 (Game Tracker)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>游戏性系统</title>
     <url>/archives/a79ad39b.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf97mfku7fj30x30lp750.jpg"></p>
@@ -3603,116 +3804,6 @@
       </tags>
   </entry>
   <entry>
-    <title>一个关于爱与生活的童话-Florence</title>
-    <url>/archives/9b487a14.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf5uxkndixj30go09djt1.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
-<a id="more"></a>
-
-<p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_3803bfdcbfa1ff4515505f920ed1c7993993b9f6.600x338.jpg?t=1589331032">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256774213/movie480.webm?t=1580836892" type="video/mp4">       </video></p>
-<h3 id="关于游戏"><a href="#关于游戏" class="headerlink" title="关于游戏"></a>关于游戏</h3><p>Florence 是一场持续约 30 分钟的心动体验。故事很简短，但意义很深远。</p>
-<p>25 岁的 Florence Yeoh 对生活感到困惑。她的生活是日复一日地工作、睡觉，以及在社交媒体上打发大量时间。直到有一天，她遇到了一位名叫 Krish 的大提琴手，他改变了她眼中的整个世界。</p>
-<p>透过一系列预先设定的游戏剧本，从调情到吵架，从互助成长到逐渐分歧，玩家将体验 Florence 与 Krish 这段感情的点点滴滴。 《Florence》的灵感来源于「Slice of Life」漫画小说和网路漫画，讲述了一个熟悉、青涩而又私密的爱情故事。</p>
-<h3 id="测评"><a href="#测评" class="headerlink" title="测评"></a>测评</h3><blockquote>
-<p>“Florence is a beautiful experience that isn’t afraid to tell an ordinary story. This isn’t an action-packed, heroic tale or a somber story filled with tragedy, but it still hits some of those notes in subdued ways. Florence is happy, distressing, and admirable in its reflection of young romance, and it left me with a sense of unexpected hopefulness.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.gameinformer.com/games/florence/b/ios/archive/2018/02/20/florence-game-informer-review.aspx">Game Informer</a></p>
-</blockquote>
-<br/>
-
-<blockquote>
-<p>“This short collection of small moments manages to cover a wide range of powerfully relatable emotional highs and lows, beautifully capturing what it’s like to fall in love for the first time.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.theguardian.com/games/2018/feb/23/florence-review-graphic-novel-style-game">The Guardian</a></p>
-</blockquote>
-<br/>
-
-<blockquote>
-<p>“The breathtaking Florence captures falling in love better than almost any game.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.polygon.com/2018/2/15/17014258/florence-game-review-ios-best-games-2018">Polygon</a></p>
-</blockquote>
-<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="玩法层面"><a href="#玩法层面" class="headerlink" title="玩法层面"></a>玩法层面</h4><p>游戏总体上偏向于叙事类的互动故事，玩家更注重故事本身，所以在玩法方面基本上是被弱化甚至是可以忽略。但是作为游戏，《Florence》的交互设计做的非常优秀，在后面会提到，在此不再赘述。</p>
-<h4 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h4><p>美术风格上绘图保持着非常高的质量，在同类游戏中处于中等偏上的水平。在游玩游戏的过程中，每一张图都可以当作壁纸，仿佛是在艺术长廊中欣赏一件件精美的画作。而且勾勒人物的线条非常简洁凝练，相较于写实风格更偏向卡通，但却拿捏的恰到好处。虽然游戏除了背景音乐完全没有人物配音，但美术上呈现出艺术上的张力，也能让画中的人物富有生机与活力。</p>
-<h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>交互设计也是《Florence》的一大亮点。</p>
-<p>从游戏一开始的拖拽牙刷来刷牙，到吃饭时点击食物来食用以及后面等等，交互的风格让我想到了锈湖推出的《白门》。除开游戏类型的不同，两者的交互设计非常相似，甚至《白门》的主人公一开始的洗漱和之后的吃饭几乎一模一样。在我的印象中，类似于洗漱吃饭这样的行为交互设计一般是通过按键的方式实现的，例如在饭桌前提示按下某个之前操作方式提到的交互键位，触发「洗漱」、「吃饭」、「睡觉」等，之后可能会有一段动画。回到游戏本身，作为叙事类游戏，《Florence》必然面临着游戏性不足的问题，而这种细腻独特的交互方式成功地拉长了总体的游戏时间，丰富了游戏的体验，让玩家参与其中而只不是“看漫画”。同样的，许多游戏大作采用固定交互键的方式也是节约了玩家的时间和精力，因为这些游戏本身不需要交互来给游戏“拖时间”。</p>
-<p>在交互的过程中，玩家感受到的不是僵硬地拖延游戏时间，而是情感被不断地牵动。令人印象非常深刻的是女主与男主交谈的几个片段。这个情节谈话的方式是将拼图拖拽到指定区域并拼好。双方刚开始聊天时，拼图有足足八块 ，形状也是千奇百怪。随着交谈的深入，拼图的数量也开始减少，难度开始不断降低，六块、四块、三块，到后面双方聊到火热，拼图也只剩下两块，画面中两个人的距离也在不断靠近。在接吻前，两块的拖拽甚至变成了轴对称的，只需要拖拽一块到区域内就完成了。在整个过程中，玩家对这种不断增进的感情实际上是感同身受的，情感已经借由交互带入到故事中：从刚开始聊天的羞涩，不断从脑中寻找话题，到之后双方开始互敞心扉，最后不断靠近并热切地接吻，玩家的情感也融入到情景之中。拼图的形式贯穿了整个游戏，随着剧情的发展，双方的争吵再次以拼图的形式呈现：拼图镶嵌的「角」从圆滑的「圆角」变成了锐利的「尖角」；如果拼接的速度不够快还可能输给对方；而到了夜里睡觉的时候，拼图拼出双方背对背躺着，却只能拼出两大块各自的拼图，两者因为「角」相互排斥拼不到一起。和拼图的效果相似的设计还有转动时针来表现时间的流逝、同居时放置物品和分居时收拾曾经放置的物品，都能给玩家带来很大的触动。</p>
-<p>丰富多样的交互可能会带来操作上的困难，但在整个游玩过程中，不同的交互都有相应的提示。交互方面唯一的遗憾是《Florence》作为跨平台的游戏，交互由触屏变成了鼠标的拖动，PC端的体验可能较手机端稍逊色一些。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf7df4nwl8j30go09dmyk.jpg"></p>
-<h4 id="剧情题材"><a href="#剧情题材" class="headerlink" title="剧情题材"></a>剧情题材</h4><p>故事的本身可能是《Florence》争议比较大的方面。一个女孩在日复一日麻木的生活与工作中偶然遇到自己心动的男孩，双方坠入爱河开始甜蜜幸福的生活，一起去追逐梦想。随着时间的流逝，在生活中女孩和男孩相互的不理解变成了争吵，最后不欢而散。女孩最后坚持了自己的梦想，成为了一名画家，但她依旧忘不了那个当初送给她颜料盒的那个人。</p>
-<p>有一些人认为剧情的真实性不够：女孩一见钟情，有懵懂的欣赏，有心动的害羞，有投机的聊天，这些都是校园恋爱的元素，放在前面铺垫过日复一日重复麻木单调工作的女孩身上显然是不合适的，而且之后的画画成名给人很突兀的感觉，逻辑上很难自洽：</p>
-<blockquote>
-<p>女孩幼年热爱绘画，二十来年不练，分手之后努力画了几年突然就绘画艺术家作品大卖了，我觉得真的好假啊，这种女孩是天才，是玛丽苏，是任何小说电视剧里的女主角，唯独不是普通人。一个「恋爱后分手，分手后成名」的恋爱故事，越品越感觉像是一个泡泡一样的童话”</p>
-<p> –<a href="https://www.taptap.com/user/50050544">Topas今天退休了吗</a></p>
-</blockquote>
-<p>在我看来，《Florence》与其说是一个故事，不如说是一个关于爱情的童话：与其在其中寻找现实中爱情的影子，不如放松下来，把它当作一本童话书或者一个绘本，静静欣赏那种单纯的美好。彼此激励一起为对方对梦想加油、无论做什么都是快乐而且有活力的、哪怕有吵架不久后还是原谅对方继续甜蜜、即使 Florence 失去了 Krish，她依旧选择了去热爱生活，去追逐自己的梦想，最后获得了成功。抛开合理性，这个剧情本身就已经超出了简单的甜甜的恋爱，立意上升到一个更高的层次：恋爱让自己变得更好。经历过这些，她明白了一个问题：我是谁？人的一生都在了解自己，女主也不例外。所以这款游戏的名字叫做“Florence”，不仅仅是说她经历了一切，更意味着，她经历的这一切，让她找回了自己。这可能才是游戏想真正表达的。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/ss_9e029df44296f3d21a61e96d0a7bea4447be2c14.600x338.jpg"></p>
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>希望通过恋爱，成为更好的自己。</p>
-<blockquote>
-<p>加速拨动的时钟 诉说我们之间的改变<br>争吵时 对话框的拼图角变得越来越尖锐<br>明明拼好了的拼图却发现无法组合在一起<br>拼到一起的照片碎片 却还是一直在分离<br>…….<br>不管你怎么念念不舍把碎片拖回来 不愿意点下一页<br>但想要离开的人终究会疏远 远去 成为人生中的一名过客</p>
-<p>曾经的你使我的生活有了色彩 让我对未来有了无限的憧憬</p>
-<p>可相片里躺在我身边的你 却依旧是我亲手擦去了你的存在</p>
-<p>感谢曾经所有美好的回忆 也感谢你把我放归与人海成就更好的自己</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>游戏追踪 (Game Tracker)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>跨越时空抚慰伤痛-Father and Son</title>
-    <url>/archives/84339f66.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf9lwaptxij30zk0k0401.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《父与子》由那不勒斯考古博物馆所发行，是一款以父子亲情为主题的冒险游戏，从那不勒斯国家考古博物馆，珍藏着人类最伟大的文物和珍宝，揭开这趟冒险之旅的序幕。剧情的主轴发展，开始于一个与父亲素为谋面的儿子迈克尔，透过穿越现在和过去，追溯已故父亲过往的考古旅程。你将亲自发掘那不勒斯的魅力，体验庞贝城在公元79年，维苏威火山喷发前几个小时的生离诀别，及探索古埃及的日常生活。积累的过去，造就了今日。</p>
-<a id="more"></a>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6guDCiNkZr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-
-
-<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>因为游戏基本上没有什么玩法，就是移动、对话和一些小交互，所以画面被有意的压缩，留下上下两处放置交互按键。每个图案都清晰的表示，点击即可交互。然而令人非常遗憾的是，虽然交互的按键不少，但真正意义上的交互却非常少，家中的咖啡机和座椅、街道的座位，虽然有交互动画，但并不能实质推进剧情内容，只是让玩家单纯的沉浸在游戏的环境中，造成一种审美的疲劳，从而使一些玩家开始厌倦这种没有意义的交互。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghyp8ctbcmj31ds0n0wib.jpg"></p>
-<h4 id="场景设计"><a href="#场景设计" class="headerlink" title="场景设计"></a>场景设计</h4><p>整个游戏的美术风格采用了厚实质朴的油画风格，辨识度非常之高。最初被吸引的原因也是和许多年前的一个游戏 《直到世界的尽头》的美术风格非常相近。这个游戏不仅是油画风格，包括交互和时间交织的设计，我觉得都是参考了那个游戏。</p>
-<p>回到游戏本身，场景应该是参照现实中的博物馆和那不勒斯的实景，很有异域风情的感觉：熙熙攘攘的街道、庄严肃穆的博物馆、摇摇欲坠的火山、月光下的告白……细腻的油画很容易让人沉浸其中，形形色色的人被简化成了颜色各异的人形模型，漫游在一座陌生的城市，与父亲之前的朋友聊天，欣赏着故时的艺术，遇到自己心仪的女孩。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghzyns7kw0j31ds0n0b2a.jpg"></p>
-<h4 id="剧情故事"><a href="#剧情故事" class="headerlink" title="剧情故事"></a>剧情故事</h4><p>故事这一方面可以说是相当的不满意了。</p>
-<p>游戏总体上分成了三条叙事线：第一条是主角拜访父亲的故居，了解父亲的工作并试图去谅解抛妻弃子的他；第二条是儿子到访博物馆时时空交织回火山爆发前的古城，作为丈夫想办法拯救自己的妻子和女儿；第三条是儿子谅解父亲后与陌生姑娘的偶遇邂逅穿插雕塑师（个人推测是当时米开朗基罗任命的波尔塔）与妻子的诀别。</p>
-<p>光看上面陈列的故事线，叙事应该是非常丰富多彩的，带给玩家的应该是令人无法释怀的感人故事，然而叙述的手法实在拙劣。第一条线的核心个人理解应该是儿子是如何体谅父亲的，然而玩家被大量没有营养的对话所充斥，与父亲的旧友聊天和对艺术的感悟并不足以让儿子理解父亲离开妻儿如此长的时间，至少我去代入的话是不会这样的。即使穿插着第二条火山爆发前古城的父亲保护了妻子和女儿，但依旧无法掩饰他作为父亲的失职。也许他是一位优秀敬业的考古学者，但一定不是一位称职的父亲。</p>
-<p>第二条线依旧非常简陋，在火山爆发前父亲在慌乱中寻找邻居家的钱来凑够船票，碰巧遇到了熟人。这里可以选择抢走他的钱或者放任他，我选择了后者。唯一给我触动的是在送完妻女后头上开始倒计时，人群四散奔跑，而我觉得会有出口或者交互地点，于是从最左侧的码头跑回了最右侧，但是什么也没有发生，倒计时仍在继续。当我尝试在从右侧向左侧跑动时，时间已经不够了，对女儿的承诺也随着火山灰的坠落一并消逝了。</p>
-<p>第三条线则显得更加突兀，主角在理解父亲后在街上偶遇了心动的女孩，在唯美的场景下说出许多我自认为故弄玄虚的话，交织着雕刻师与妻子的诀别。在重现历史的过程中插入爱情的元素感觉是很突兀的，因为对白的功底不足，情感渲染的也不是很到位。</p>
-<p>虽然标题是 “跨越时空抚慰伤痛”，但给我个人的感觉是缺少父亲“赎罪”的过程。仅仅以探究古代丰富多彩的故事的工作为借口而忽略对儿子的陪伴，身为一个父亲是不合格的，这样的理由不足以打动玩家。跨越时间的故事虽然也是和父爱相关，但一个是为了妻儿选择留下牺牲自己，而一个是为了自己所痴迷的东西忘记了作为父亲的职责。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/01.jpg"></p>
-<h3 id="文化溯源"><a href="#文化溯源" class="headerlink" title="文化溯源"></a>文化溯源</h3><h4 id="面包师-Terentius-Neo-和他妻子的壁画"><a href="#面包师-Terentius-Neo-和他妻子的壁画" class="headerlink" title="面包师 Terentius Neo 和他妻子的壁画"></a>面包师 Terentius Neo 和他妻子的壁画</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gfaa7ug22mj30ww0irwij.jpg"></p>
-<p>画上面包师及其妻子均手握书写工具，这表明他们是接受了教育的，纵使经济尚可，依旧努力掩饰自己出身卑微的情况。这幅双人肖像是在该地区发现的唯一此类画作，也是展览的亮点之一。展览策划人保罗·罗伯茨（Paul Roberts）认为，这幅画从独特的视角展现了公元1世纪庞贝城的居民生活：</p>
-<blockquote>
-<p>“作品显示这位面包师和妻子是优秀的罗马人，纸卷和铁笔显示他们受过教育，有修养。更重要的是，他们似乎是地位平等的伴侣。</p>
-</blockquote>
-<br/>
-
-<blockquote>
-<p>“她站在他前面一点，这不是怯懦女性的形象。在生意上，她是掌握账本的人。”</p>
-</blockquote>
-<h4 id="法尔内塞赫拉克勒斯-Ercole-Farnese"><a href="#法尔内塞赫拉克勒斯-Ercole-Farnese" class="headerlink" title="法尔内塞赫拉克勒斯 / Ercole Farnese"></a>法尔内塞赫拉克勒斯 / Ercole Farnese</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Lisippo_Ercole_Farnese.jpg"></p>
-<p>古罗马的皇帝怀着对赫拉克勒斯的崇敬，在罗马的卡拉卡拉浴场修建了该雕像。罗马灭亡后直至文艺复兴，人们开始对浴场进行考古挖掘。雕像的头部和躯干相继被发现，但双腿没有找到，于是文艺复兴运动主要的资助人之一红衣主教 <strong>法尔内塞</strong> 让米开朗基罗的学生波尔塔把雕像的这几部分运往罗马的 <strong>法尔内塞宫</strong>。米开朗基罗让波尔塔为雕像雕刻了一双新腿（双腿原件不久就被找到了），而自己在宫里的庭院中建了一个特殊的建筑来展示这个3米多高的巨人，雕像也因此命名为<strong>法尔内塞赫拉克勒斯（Farnese Hercules）</strong>，现收藏于 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a>。</p>
-<p>在希腊神话中，赫拉克勒斯是最伟大的英雄，他曾以顽强的战斗精神克服重重困难，完成了天神赋予他的十二件艰险的工作，还拯救了为人类盗火的普罗米修斯。赫拉克勒斯一生频于战斗，所有功绩都可圈可点，所以作者独具匠心地选取了他休息时的情节来表现这位伟大的英雄。雕像中人体呈曲线型，左腿支撑着身体的重量，左臂倚在支柱上，右臂背到身后。这种富有变化的姿态，形成了较为轻松的气氛。整个雕像给人一种平和但蕴含着力量的感觉，表现了一种雄浑的古典风格。雕像的形体块面结实饱满，虽然作品表现的是英雄赫拉克勒斯疲劳后休息的形象，但却依然让人感到似乎可以随时爆发出强大的能量。</p>
-<h4 id="庞贝古城"><a href="#庞贝古城" class="headerlink" title="庞贝古城"></a>庞贝古城</h4><p>庞贝城的起源可以上溯至公元前6世纪，在罗马人到来前，埃特鲁里亚、希腊和萨莫奈人先后在此统治。公元前4世纪，罗马人击败萨莫奈人，庞贝和坎帕尼亚的城邦纷纷加入罗马联盟，但仍然保持着相对独立的地位，由当地政府管辖，在外交和军事等方面则需要听从罗马的指令。公元前91年，同盟战争爆发，庞贝也是参战的意大利盟邦之一。战后，庞贝人获得了罗马公民权，但也成为罗马的殖民地，官方语言变成了拉丁语，并改用罗马的政治制度，开始每年选举双执法官。</p>
-<p>公元79年，庞贝遭遇灭顶之灾，维苏威火山喷发形成的火山灰，掩埋了它与附近的赫库兰尼姆、奥普隆蒂斯和斯塔比亚等城市。小普林尼的两封书信记录了这场灾难，他当年17岁，是火山爆发的见证者。在随后的岁月里，除了掘宝人的偶尔光顾（一所大房屋的门上留下了“此屋已凿”的字样），庞贝被世人遗忘了上千年。直到1592年，人们在挖掘运河时发现了带有古代壁画的墙壁，以及刻着“庞贝市议员”字样的石碑，这座城市才陆续被发掘。从18世纪末开始，发掘进展大大加快，不断有新的重要建筑被发现，庞贝城的面貌开始逐渐展现在世人眼前。</p>
-<p>今天，庞贝的城市布局已经相当清晰。根据考古学家朱塞佩·菲奥雷利的描绘，城中的每栋建筑都有了独立的编码，即便有的还尚未被命名。庞贝位于罗马以南240公里，在古代，普通旅行者从首都前往那里可能要花费三天，而信使骑快马可能只需一天。它所在的那不勒斯湾，在罗马时代就是贵族精英的度假胜地，许多名人在那里拥有别墅，比如恺撒就曾带领大批侍从造访政治家西塞罗的宅邸。通过贸易和罗马扩张带来的财富，庞贝成为一座繁荣的城市，建有圆形竞技场、两个剧场和四个浴场。庞贝还发掘了大量精美的壁画和工艺品，不仅体现了城市的富庶，更是古罗马时期生活的重要见证。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gi1wjbinunj30sg0lcgrf.jpg"></p>
-<h3 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h3><h4 id="存档"><a href="#存档" class="headerlink" title="存档"></a>存档</h4><p>在最初的场景中，由于一开始的交互内容包含了大量的艺术方面的知识，我会先主动退出游戏去查这些艺术品。但再次进入游戏后并没有回到之前的场景，而是直接重新开始。游戏过程中也没有找到手动存档的地方，这会导致玩的时候必须要玩到游戏指定的自动存档点才可以退出游戏，这对于喜欢刨根问底不断切屏追究游戏中的历史溯源的玩家是非常影响游戏体验的，而作为和博物馆联动的宣传游戏肩负着宣传的责任，上面的硬核玩家其实才是最有可能亲自到访 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a> 的受众。</p>
-<h4 id="本地化翻译"><a href="#本地化翻译" class="headerlink" title="本地化翻译"></a>本地化翻译</h4><p>从在家里父亲给儿子的信就能感觉到，文字中那种很奇怪的感觉：「让您重新看待你的人生」、「你计画去哪吗」……这种非常糟糕的本地化翻译就像每年四六级各种层出不穷的奇怪翻译一样，是这个游戏诟病的点之一。同样的，作为 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a> 已经出海的宣传游戏，海外的玩家如果看到如此糟糕的文本，游戏的体验要打折扣，想必对博物馆本身宣传的效果会适得其反。希望开发者和博物馆双方都能注重如何本土化文本的问题。</p>
-<h4 id="对话交流"><a href="#对话交流" class="headerlink" title="对话交流"></a>对话交流</h4><p>游戏中许多场景下的对话有一定的延迟和卡顿，在点击之后不能够及时反馈。这种延迟感对于游戏体验而言是致命的，会让我感到烦躁。同样的，对话的文本显得冗余繁杂，不够凝练，而且大部分对话都是对于父亲的看法，没有实质性推动游戏剧情的有效内容。</p>
-<h4 id="故事流程"><a href="#故事流程" class="headerlink" title="故事流程"></a>故事流程</h4><p>流程有一点问题。在火山爆发前去朋友家山上别墅找钱币购买船票时，在与另一个老人相遇之后回到客厅仍能再次挖掘钱币，再次上楼老人可以重复流程。在客厅的钱只够买两张船票，你可以再次选择保留自己的良心不去抢夺还是为了自己的孩子去抢夺老人。不知道是制作者有意为之给玩家重新选择的机会还是测试的时候没有发现，我觉得是前者。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gfaa68p2kzj31hc0u015n.jpg"></p>
-]]></content>
-      <categories>
-        <category>游戏追踪 (Game Tracker)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>Art</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>此时此刻，你充满了决心-Undertale</title>
     <url>/archives/795e3081.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggm00ecrbej30rs0iwhdt.jpg"></p>
@@ -3811,8 +3902,169 @@
       </categories>
       <tags>
         <tag>Game</tag>
-        <tag>INDIE</tag>
         <tag>RPG</tag>
+        <tag>INDIE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>跨越时空抚慰伤痛-Father and Son</title>
+    <url>/archives/84339f66.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf9lwaptxij30zk0k0401.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《父与子》由那不勒斯考古博物馆所发行，是一款以父子亲情为主题的冒险游戏，从那不勒斯国家考古博物馆，珍藏着人类最伟大的文物和珍宝，揭开这趟冒险之旅的序幕。剧情的主轴发展，开始于一个与父亲素为谋面的儿子迈克尔，透过穿越现在和过去，追溯已故父亲过往的考古旅程。你将亲自发掘那不勒斯的魅力，体验庞贝城在公元79年，维苏威火山喷发前几个小时的生离诀别，及探索古埃及的日常生活。积累的过去，造就了今日。</p>
+<a id="more"></a>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6guDCiNkZr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>因为游戏基本上没有什么玩法，就是移动、对话和一些小交互，所以画面被有意的压缩，留下上下两处放置交互按键。每个图案都清晰的表示，点击即可交互。然而令人非常遗憾的是，虽然交互的按键不少，但真正意义上的交互却非常少，家中的咖啡机和座椅、街道的座位，虽然有交互动画，但并不能实质推进剧情内容，只是让玩家单纯的沉浸在游戏的环境中，造成一种审美的疲劳，从而使一些玩家开始厌倦这种没有意义的交互。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghyp8ctbcmj31ds0n0wib.jpg"></p>
+<h4 id="场景设计"><a href="#场景设计" class="headerlink" title="场景设计"></a>场景设计</h4><p>整个游戏的美术风格采用了厚实质朴的油画风格，辨识度非常之高。最初被吸引的原因也是和许多年前的一个游戏 《直到世界的尽头》的美术风格非常相近。这个游戏不仅是油画风格，包括交互和时间交织的设计，我觉得都是参考了那个游戏。</p>
+<p>回到游戏本身，场景应该是参照现实中的博物馆和那不勒斯的实景，很有异域风情的感觉：熙熙攘攘的街道、庄严肃穆的博物馆、摇摇欲坠的火山、月光下的告白……细腻的油画很容易让人沉浸其中，形形色色的人被简化成了颜色各异的人形模型，漫游在一座陌生的城市，与父亲之前的朋友聊天，欣赏着故时的艺术，遇到自己心仪的女孩。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghzyns7kw0j31ds0n0b2a.jpg"></p>
+<h4 id="剧情故事"><a href="#剧情故事" class="headerlink" title="剧情故事"></a>剧情故事</h4><p>故事这一方面可以说是相当的不满意了。</p>
+<p>游戏总体上分成了三条叙事线：第一条是主角拜访父亲的故居，了解父亲的工作并试图去谅解抛妻弃子的他；第二条是儿子到访博物馆时时空交织回火山爆发前的古城，作为丈夫想办法拯救自己的妻子和女儿；第三条是儿子谅解父亲后与陌生姑娘的偶遇邂逅穿插雕塑师（个人推测是当时米开朗基罗任命的波尔塔）与妻子的诀别。</p>
+<p>光看上面陈列的故事线，叙事应该是非常丰富多彩的，带给玩家的应该是令人无法释怀的感人故事，然而叙述的手法实在拙劣。第一条线的核心个人理解应该是儿子是如何体谅父亲的，然而玩家被大量没有营养的对话所充斥，与父亲的旧友聊天和对艺术的感悟并不足以让儿子理解父亲离开妻儿如此长的时间，至少我去代入的话是不会这样的。即使穿插着第二条火山爆发前古城的父亲保护了妻子和女儿，但依旧无法掩饰他作为父亲的失职。也许他是一位优秀敬业的考古学者，但一定不是一位称职的父亲。</p>
+<p>第二条线依旧非常简陋，在火山爆发前父亲在慌乱中寻找邻居家的钱来凑够船票，碰巧遇到了熟人。这里可以选择抢走他的钱或者放任他，我选择了后者。唯一给我触动的是在送完妻女后头上开始倒计时，人群四散奔跑，而我觉得会有出口或者交互地点，于是从最左侧的码头跑回了最右侧，但是什么也没有发生，倒计时仍在继续。当我尝试在从右侧向左侧跑动时，时间已经不够了，对女儿的承诺也随着火山灰的坠落一并消逝了。</p>
+<p>第三条线则显得更加突兀，主角在理解父亲后在街上偶遇了心动的女孩，在唯美的场景下说出许多我自认为故弄玄虚的话，交织着雕刻师与妻子的诀别。在重现历史的过程中插入爱情的元素感觉是很突兀的，因为对白的功底不足，情感渲染的也不是很到位。</p>
+<p>虽然标题是 “跨越时空抚慰伤痛”，但给我个人的感觉是缺少父亲“赎罪”的过程。仅仅以探究古代丰富多彩的故事的工作为借口而忽略对儿子的陪伴，身为一个父亲是不合格的，这样的理由不足以打动玩家。跨越时间的故事虽然也是和父爱相关，但一个是为了妻儿选择留下牺牲自己，而一个是为了自己所痴迷的东西忘记了作为父亲的职责。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/01.jpg"></p>
+<h3 id="文化溯源"><a href="#文化溯源" class="headerlink" title="文化溯源"></a>文化溯源</h3><h4 id="面包师-Terentius-Neo-和他妻子的壁画"><a href="#面包师-Terentius-Neo-和他妻子的壁画" class="headerlink" title="面包师 Terentius Neo 和他妻子的壁画"></a>面包师 Terentius Neo 和他妻子的壁画</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gfaa7ug22mj30ww0irwij.jpg"></p>
+<p>画上面包师及其妻子均手握书写工具，这表明他们是接受了教育的，纵使经济尚可，依旧努力掩饰自己出身卑微的情况。这幅双人肖像是在该地区发现的唯一此类画作，也是展览的亮点之一。展览策划人保罗·罗伯茨（Paul Roberts）认为，这幅画从独特的视角展现了公元1世纪庞贝城的居民生活：</p>
+<blockquote>
+<p>“作品显示这位面包师和妻子是优秀的罗马人，纸卷和铁笔显示他们受过教育，有修养。更重要的是，他们似乎是地位平等的伴侣。</p>
+</blockquote>
+<br/>
+
+<blockquote>
+<p>“她站在他前面一点，这不是怯懦女性的形象。在生意上，她是掌握账本的人。”</p>
+</blockquote>
+<h4 id="法尔内塞赫拉克勒斯-Ercole-Farnese"><a href="#法尔内塞赫拉克勒斯-Ercole-Farnese" class="headerlink" title="法尔内塞赫拉克勒斯 / Ercole Farnese"></a>法尔内塞赫拉克勒斯 / Ercole Farnese</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Lisippo_Ercole_Farnese.jpg"></p>
+<p>古罗马的皇帝怀着对赫拉克勒斯的崇敬，在罗马的卡拉卡拉浴场修建了该雕像。罗马灭亡后直至文艺复兴，人们开始对浴场进行考古挖掘。雕像的头部和躯干相继被发现，但双腿没有找到，于是文艺复兴运动主要的资助人之一红衣主教 <strong>法尔内塞</strong> 让米开朗基罗的学生波尔塔把雕像的这几部分运往罗马的 <strong>法尔内塞宫</strong>。米开朗基罗让波尔塔为雕像雕刻了一双新腿（双腿原件不久就被找到了），而自己在宫里的庭院中建了一个特殊的建筑来展示这个3米多高的巨人，雕像也因此命名为<strong>法尔内塞赫拉克勒斯（Farnese Hercules）</strong>，现收藏于 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a>。</p>
+<p>在希腊神话中，赫拉克勒斯是最伟大的英雄，他曾以顽强的战斗精神克服重重困难，完成了天神赋予他的十二件艰险的工作，还拯救了为人类盗火的普罗米修斯。赫拉克勒斯一生频于战斗，所有功绩都可圈可点，所以作者独具匠心地选取了他休息时的情节来表现这位伟大的英雄。雕像中人体呈曲线型，左腿支撑着身体的重量，左臂倚在支柱上，右臂背到身后。这种富有变化的姿态，形成了较为轻松的气氛。整个雕像给人一种平和但蕴含着力量的感觉，表现了一种雄浑的古典风格。雕像的形体块面结实饱满，虽然作品表现的是英雄赫拉克勒斯疲劳后休息的形象，但却依然让人感到似乎可以随时爆发出强大的能量。</p>
+<h4 id="庞贝古城"><a href="#庞贝古城" class="headerlink" title="庞贝古城"></a>庞贝古城</h4><p>庞贝城的起源可以上溯至公元前6世纪，在罗马人到来前，埃特鲁里亚、希腊和萨莫奈人先后在此统治。公元前4世纪，罗马人击败萨莫奈人，庞贝和坎帕尼亚的城邦纷纷加入罗马联盟，但仍然保持着相对独立的地位，由当地政府管辖，在外交和军事等方面则需要听从罗马的指令。公元前91年，同盟战争爆发，庞贝也是参战的意大利盟邦之一。战后，庞贝人获得了罗马公民权，但也成为罗马的殖民地，官方语言变成了拉丁语，并改用罗马的政治制度，开始每年选举双执法官。</p>
+<p>公元79年，庞贝遭遇灭顶之灾，维苏威火山喷发形成的火山灰，掩埋了它与附近的赫库兰尼姆、奥普隆蒂斯和斯塔比亚等城市。小普林尼的两封书信记录了这场灾难，他当年17岁，是火山爆发的见证者。在随后的岁月里，除了掘宝人的偶尔光顾（一所大房屋的门上留下了“此屋已凿”的字样），庞贝被世人遗忘了上千年。直到1592年，人们在挖掘运河时发现了带有古代壁画的墙壁，以及刻着“庞贝市议员”字样的石碑，这座城市才陆续被发掘。从18世纪末开始，发掘进展大大加快，不断有新的重要建筑被发现，庞贝城的面貌开始逐渐展现在世人眼前。</p>
+<p>今天，庞贝的城市布局已经相当清晰。根据考古学家朱塞佩·菲奥雷利的描绘，城中的每栋建筑都有了独立的编码，即便有的还尚未被命名。庞贝位于罗马以南240公里，在古代，普通旅行者从首都前往那里可能要花费三天，而信使骑快马可能只需一天。它所在的那不勒斯湾，在罗马时代就是贵族精英的度假胜地，许多名人在那里拥有别墅，比如恺撒就曾带领大批侍从造访政治家西塞罗的宅邸。通过贸易和罗马扩张带来的财富，庞贝成为一座繁荣的城市，建有圆形竞技场、两个剧场和四个浴场。庞贝还发掘了大量精美的壁画和工艺品，不仅体现了城市的富庶，更是古罗马时期生活的重要见证。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gi1wjbinunj30sg0lcgrf.jpg"></p>
+<h3 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h3><h4 id="存档"><a href="#存档" class="headerlink" title="存档"></a>存档</h4><p>在最初的场景中，由于一开始的交互内容包含了大量的艺术方面的知识，我会先主动退出游戏去查这些艺术品。但再次进入游戏后并没有回到之前的场景，而是直接重新开始。游戏过程中也没有找到手动存档的地方，这会导致玩的时候必须要玩到游戏指定的自动存档点才可以退出游戏，这对于喜欢刨根问底不断切屏追究游戏中的历史溯源的玩家是非常影响游戏体验的，而作为和博物馆联动的宣传游戏肩负着宣传的责任，上面的硬核玩家其实才是最有可能亲自到访 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a> 的受众。</p>
+<h4 id="本地化翻译"><a href="#本地化翻译" class="headerlink" title="本地化翻译"></a>本地化翻译</h4><p>从在家里父亲给儿子的信就能感觉到，文字中那种很奇怪的感觉：「让您重新看待你的人生」、「你计画去哪吗」……这种非常糟糕的本地化翻译就像每年四六级各种层出不穷的奇怪翻译一样，是这个游戏诟病的点之一。同样的，作为 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a> 已经出海的宣传游戏，海外的玩家如果看到如此糟糕的文本，游戏的体验要打折扣，想必对博物馆本身宣传的效果会适得其反。希望开发者和博物馆双方都能注重如何本土化文本的问题。</p>
+<h4 id="对话交流"><a href="#对话交流" class="headerlink" title="对话交流"></a>对话交流</h4><p>游戏中许多场景下的对话有一定的延迟和卡顿，在点击之后不能够及时反馈。这种延迟感对于游戏体验而言是致命的，会让我感到烦躁。同样的，对话的文本显得冗余繁杂，不够凝练，而且大部分对话都是对于父亲的看法，没有实质性推动游戏剧情的有效内容。</p>
+<h4 id="故事流程"><a href="#故事流程" class="headerlink" title="故事流程"></a>故事流程</h4><p>流程有一点问题。在火山爆发前去朋友家山上别墅找钱币购买船票时，在与另一个老人相遇之后回到客厅仍能再次挖掘钱币，再次上楼老人可以重复流程。在客厅的钱只够买两张船票，你可以再次选择保留自己的良心不去抢夺还是为了自己的孩子去抢夺老人。不知道是制作者有意为之给玩家重新选择的机会还是测试的时候没有发现，我觉得是前者。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gfaa68p2kzj31hc0u015n.jpg"></p>
+]]></content>
+      <categories>
+        <category>游戏追踪 (Game Tracker)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>Art</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</title>
+    <url>/archives/6144e1a0.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9djvu6vvj30m80cin3k.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>Ludum Dare 是国外知名的独立游戏开发竞赛，首届比赛举办于2002年4月，迄今已走过足足35期，诞生了无数脍炙人口的经典作品。本文转载了INDIENOVA社区的博主 <a href="https://indienova.com/u/wizcas">Wizcas.陈小一</a> 的 <a href="https://indienova.com/indie-game-development/my-first-time-in-ludum-dare-38">48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</a>，与大家共同分享参加LD比赛的一些经验。</p>
+<a id="more"></a>
+
+
+
+<p>2017年4月24日16点23分。</p>
+<p>刚从床上爬起来的我肩颈酸痛，饥肠辘辘。昨夜难熬的腹泻和呕吐似乎已经消失了，想来应该是吃的药管用了。并不是因为贪睡——事实上，在刚刚结束的五个小时睡眠之前的48小时内，我在进行一场和自己的战斗。</p>
+<p>我是去年才知道Ludam Dare的。这是一个线上的游戏开发比赛，和Global Game Jam一样，参与者需要在限定的时间内根据给定的主题完成一个游戏原型。比赛分为两组，Compo和Jam，限定的时间分别为48小时和72小时。其中Compo的要求更为严格，参与者需要遵循这些规定：</p>
+<ul>
+<li>在48小时内提交游戏的可玩版本，48小时后有一小时的额外时间，用于打包和发布</li>
+<li>除了代码可以用第三方库或者基于自己以往的积累外，美术资源和声音资源必须是在这48小时之内完成的</li>
+<li>只允许单人参赛。</li>
+<li>必须公开源代码和游戏内使用的资源文件。</li>
+</ul>
+<p>而Jam组的要求则相对宽松一些：时间更为宽裕、可以组队参加、可以使用别人的美术资源（需要无法律风险）、不必公开代码。</p>
+<p>我选择了参加Compo组，想试试自己能够达到什么程度。虽然作为程序员已经有将近十年，但真正参与游戏开发也不过才两年多，我需要对自己的能力有一个了解。而且48小时内做出一款游戏难道不是一件很狂霸酷炫吊的事情吗？</p>
+<p>怀着这样的心情，我迎来了自己的第一次Ludum Dare（以下简称LD），也是这个活动创办的15周年纪念。</p>
+<h3 id="DAY-1-2017-4-22——选题"><a href="#DAY-1-2017-4-22——选题" class="headerlink" title="DAY 1 2017.4.22——选题"></a>DAY 1 2017.4.22——选题</h3><p>比赛主题发布是在中国时间的周六上午9:00，这也是比赛开始的时间。在此之前，LD官方网站上进行了为期两周的主题投票，这些主题是网站的注册用户提交的，而得票最高者即是本次比赛的主题。</p>
+<p>平时周末我都会起的比较晚，这次9:40就起了。虽然比赛已经开始了40分钟，但我更需要保存更多精力来应付这场战争。</p>
+<p>用手机打开官网，页面顶部赫然写着比赛主题：<strong>A Small World</strong>。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dwroc7cj30z30deq53.jpg"></p>
+<p>这是什么？</p>
+<p>我本来期待着看到更出人意料、更奇特的主题。这个主题看起来平淡无奇，甚至让人耳朵长茧。一时间我蒙圈了。</p>
+<p>这是第一个挑战。</p>
+<p>我调整了一下自己的心态，开始琢磨如何解读这个主题。好在LD对于主题的解读范围十分宽容，而且官方本身并不会限定你是否要使用这个主题——当然作为评判力量的其他玩家和开发者会更严格些。</p>
+<p>我并不打算做一个和地球/星球相关的游戏，这个角度已经被用烂了。既然是独立游戏挑战赛，当然是要做一些自己更喜欢、脑洞更大一点的游戏。在经过了20分钟的思考后，我决定做一款献给我们家主子“二狗子”的游戏，因为我的家对于她来说就是整个世界。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dz40f20j30dc07i0tf.jpg"></p>
+<p>大概的思路是，二狗子为了展现自己是这个世界统治者，决心收集世界中的所有“财宝”。但愚蠢的人类不会让她把东西都藏起来，因此二狗子必须要在人类的眼皮子底下获得这些财宝，而且不能被抓住。</p>
+<h4 id="开工"><a href="#开工" class="headerlink" title="开工"></a>开工</h4><p>有了思路便要尽快开始了。对于48小时，我仅有个模糊的概念——不能在对目标没有帮助的事情上浪费时间。最终的结果证明了整个开发节奏远比我想象的还要紧张。</p>
+<p>游戏的风格是斜45度角的RTT（Real-time tactics，即时战术游戏）游戏，代表作有《盟军敢死队》、《赏金奇兵》和最近的新作《影子战术》。和这些游戏不同的是，我的游戏的关卡很小，“敌人”也只有一个，但是在纵向上活动的范围会很大，毕竟猫是很善于跳跃的。</p>
+<p>首先要解决的是角色控制的问题。在3D场景中进行路径导航最简便的方法便是使用NavMesh计算移动路线，一般也都能获得不错的效果。在以往的项目中，我一直使用一个功能超级强大的名为A* Project的第三方库，但对于这个小项目，使用这种重型武器未免有些过了，毕竟我只需要简单场景的路径导航。我决定试试Unity自带的NavMesh模块，虽然并不很熟悉，但在项目中学习和尝试也是参加LD的意义所在。</p>
+<p>我搭建了一个简单的测试场景，花了两个多小时的时间学习Unity NavMesh并完成了鼠标点击控制角色移动的功能。午饭过后，又花了几个小时完成了敌人的视线检测、状态切换、索敌行为，以及小猫拿到宝物并藏到自己宝库里的编码工作。</p>
+<p>此时整个游戏流程已经初具雏形，虽然细节部分基本都没有经过打磨，但在我的计划里是打算将这些放到收尾阶段再进行的。</p>
+<p>抬头看表，已经是晚饭时间了。此时距离开始开发已经经过了大概7个小时，整个进度看起来很乐观，我甚至还录了一小段游戏原型视频上传到了YouTube，并在活动网站上发了个博客向其他人介绍我的进展。</p>
+<p>晚饭过后，我开始为游戏添加一些小细节，例如鼠标移到可交互物体上出现的提示框、在OffMesh路径节点上进行跳跃控制等，然后对之前完成的内容进行了一系列测试。在这个过程中，我还重构了一部分代码。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dxjd48sj30go09475p.jpg"></p>
+<h4 id="坑"><a href="#坑" class="headerlink" title="坑"></a>坑</h4><p>一切看起来都跟美好——直到我遇到了第一个自己给自己挖的坑。</p>
+<p>在此之前我并没有完整的AI开发经验，自己也没有成熟的AI框架，所以在开发敌人的控制脚本时，几乎是两眼一摸黑，按着感觉走。而当我要为敌人添加对猫叫声的反应时，噩梦来了。</p>
+<p>在一开始的设计中，敌人的行为只有巡逻、索敌、注视、追赶几种情况，基本是纯线性的过程，所以用几个<code>if...else</code>已经足够处理。而新增的行为“听见声音并前往调查”立刻使AI决策的复杂度上升了，更别提以后在AI层面进行扩展了。</p>
+<p>思前想后，我还是决定把AI部分重写。</p>
+<p>此时的我脑子已经开始发蒙，想到进度被耽搁和AI系统设计的种种细节更是头痛欲裂。抬头看表已经接近午夜，我必须得休息休息了。</p>
+<p>看了两集《武林外传》乐呵了一下后，我还是决定在睡觉前把AI做完，这样明天就可以专注于美术和关卡。</p>
+<p>AI系统我使用了状态机的设计：</p>
+<blockquote>
+<p>通过触发事件让敌人生成一个“想法”，然后敌人再根据当前最高优先级的“想法”来行动；行动结束后继续执行其他被放置的“想法”。</p>
+</blockquote>
+<p>通过将决策和行动独立成两个单独执行的层面，不仅可以让逻辑更清晰可控，而且也便于状态的切换和回溯。</p>
+<p>一夜无话。AI系统完成时已经是凌晨五点，天快亮了。在LD网站上发了一篇博客记录了自己一天的成果后，我拖着疲惫的身体爬上了床。设置好闹钟后我便失去了知觉。</p>
+<h3 id="DAY-2-2017-4-23"><a href="#DAY-2-2017-4-23" class="headerlink" title="DAY 2 2017.4.23"></a>DAY 2 2017.4.23</h3><p>闹钟催了几遍我才被叫醒。抓起手机看了眼，已经是上午十点，五个小时的睡眠使我的精神好了很多。我强打起精神从被窝里爬出来，毕竟还有一堆工作等着完成。</p>
+<h4 id="构建世界"><a href="#构建世界" class="headerlink" title="构建世界"></a>构建世界</h4><p>由于昨晚睡觉前已经完成了核心的游戏逻辑，今天把世界搭建好了应该就差不多了。</p>
+<p>嗯，至少当时的我是这么想的。</p>
+<p>考虑到自己的3D建模水平实在捉鸡，在有限的时间内我也不打算真的用Blender去一点一点抠模型了。</p>
+<p>我想起自己在Steam花68块钱买过一款名为Qubicle Voxel Editor的体素艺术软件，一直躺在库里还没下载过，就是为了有一天能派上用场。对于学了一点像素画的我来说，这种用方块拼成的世界既可行，又具有强烈的独立游戏风格。</p>
+<p>我一边看着官方的帮助文档，一边尝试着建模还原我住的小公寓。考虑到场景的可玩性和复杂度，我去掉了家里的厨房和厕所。建模、导出、改贴图、在场景中放置……一件件家具被创造出来，游戏场景也越来越充实。看着自己创造的小世界，一阵强烈的满足感袭来——我突然意识到这就是激励我开始做游戏的初衷，也是对“a small world”这个主题的最好诠释。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dy5qr54j30go093jse.jpg"></p>
+<p>随着对建模越来越熟练，更多物件被创造出来：猫咪玩具、散落的臭袜子、手机、猫咪二狗子……媳妇的“这不是满屏马赛克么”的吐槽并没有影响我对体素艺术的热情。</p>
+<p>二狗子的模型被做出来后，我曾一度打算在Blender中通过骨骼动画来完成猫的各种动作动画，然而时钟上无情的指针让我打消了这个念头——我没有时间再去学习怎么做骨骼动画了。最终我放弃了二狗子的四肢，用Unity自带的动画工具把它做成了一只像史莱姆一样跳来跳去的生物。</p>
+<p>此时已经超过半夜十二点了。做模型花了我五个多小时的时间，制作和绑定小猫的动画又花了我两三个小时的时间。</p>
+<p>期间为了换换脑子，我又进行了一些编码工作，主要是在沙发底下、床底下、堆着的纸盒上加上小猫的藏匿点，让二狗子能够在狭小的房间里躲开人类的视线。而我还没有完成关卡设计和财宝的摆放，没有制作游戏的UI和教程，也没有完整的测试过我的游戏。</p>
+<p>我感觉可能要熬夜才能完成了。</p>
+<h4 id="腹泻、呕吐、与时间战斗"><a href="#腹泻、呕吐、与时间战斗" class="headerlink" title="腹泻、呕吐、与时间战斗"></a>腹泻、呕吐、与时间战斗</h4><p>不知道是因为巨大的压力还是晚上吃了不干净的东西，我开始上吐下泻，困在厕所里迟迟不能出来。吞了六颗调理肠胃的药，我头晕眼花地跟领导请了假，说明了我的身体状况并申请周一休息一天。在身体状况稍微好转了一些后，我收到了公司领导同意的回复。强打起精神，我又坐回了电脑前。</p>
+<p>在被电脑屏幕和台灯照亮的黑暗中，我尽可能快地完成着收尾的开发工作，不时抬头看看表，然后为后面的工作粗略地分配着时间。</p>
+<p>为了给游戏配上猫叫的音效，我在半夜里举着手机满屋子追二狗子想让她叫一声，但是这小王八蛋估计是听懂了我的话，自始至终一声不吭。气急败坏的我最终只能自己学猫叫——而此时我才发现我的嗓子已经快出不来声了。</p>
+<p>窗外射进了清晨的曙光，我也终于进入了最终的测试阶段。我对于自己的成果并不满意：跳跃动画和位移的衔接并不流畅、UI过于简陋、人类的视线检测很不准确、模型碰撞的检测范围经常出现错误、没有用更合适的方式控制摄影机跟踪……但此时已经是早上七点多，距离提交只有不到两个小时了。我不得不放弃了很多细节调整，甚至放弃了忘了做的人类模型和动画，而只是用一个简陋胶囊体代替。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dyp2ww2j30go094405.jpg"></p>
+<p>时间一分一秒的走着，往往觉得只做了一个很小的调整和修复，但转头发现时间已经过去了二十多分钟。我感觉缓缓前行的时间像一台巨大的压路机向我逼来，而我必须在这恐怖的压力下拖着身躯在泥泞中奋力爬行。</p>
+<p>终于在8:59分时，我上传了全部代码和资源文件。</p>
+<h4 id="最后一小时"><a href="#最后一小时" class="headerlink" title="最后一小时"></a>最后一小时</h4><p>根据LD的规则，在开发时限到期后还有一个小时额外的打包提交时间。我直到这时才发现，网站上赫然写着：“我们建议您尽早提交，因为人们总是在最后一小时发现各种技术问题。”</p>
+<p>我竭力按捺住心中的草泥马，脑子发木地开始打包，同时祈祷着不要出幺蛾子。</p>
+<p>为了能让更多人不用下载即可玩到我的游戏，我决定发布WebGL版本。而当游戏打包完毕，在我的电脑上本地运行时，我却傻眼了：整个场景的光照效果和在编辑器中大相径庭，满屏幕充斥着屎的颜色，光照不足使场景模型的细节根本看不清。</p>
+<p>我马上意识到应该是光照贴图的锅，但这部分我仅仅有所了解，并不十分熟练。于是我赶紧回到编辑器中，开始尝试调整各种参数，一次次的打包测试，直至最终达到了基本满意的效果。</p>
+<p>进行这些调整花费了我近半小时的时间，我必须硬着头皮发布了，否则我将失去提交到Compo组的机会。</p>
+<p>接下来的事情比较顺利：我将游戏上传到了itch.io上，并在ldjam.com上发布了我的游戏项目，甚至还写了篇博客来记录自己当时的一些感受。</p>
+<p>9:45分左右，完成了全部提交工作的我长出一口气。我的肩颈火辣辣地疼着，眼皮重的抬不起来，巨大的疲惫让我感觉自己活在另一个次元。</p>
+<p>但是这些又有什么关系呢？毕竟我完成了我的第一次48小时极限开发，而这也绝对不会是最后一次。</p>
+<h3 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h3><p>经过48小时玩命一样的开发，我越发意识到自己在独立游戏开发过程中的不足之处：对于很多技术还是一知半解，而且有些喜欢钻牛角尖。这些问题在日常工作上是体现不出来的，充足的时间让我可以有一万种方法赶上进度。但在这压榨般的极限挑战中，任何错误都可能让你付出沉重的代价，一不小心就会失败——例如我对于游戏设计的把控能力不足、AI设计经验不足等，都使我进行了大量返工，并且很多设想中的游戏机制也没有来得及实现。这不得不说是一个遗憾。</p>
+<p>然而相对于比赛竞争，LD给我更大的启示是：永远不要低估你的极限，永远带着一颗拥抱学习和挑战的心。你永远不知道等待你的是什么，而作为独立游戏开发者，你能做的只有勇敢面对，即使前路迷雾重重。</p>
+<p>对于LD比赛，在下列方面我也深有体会：</p>
+<ul>
+<li>不要用传统商业游戏的思路来设计游戏，你会发现那根本不现实。LD讲求的是小而美。</li>
+<li>对自己的工作效率要有充分的了解，并且要给自己限定一个大致的时间表，以便合理安排时间精力。</li>
+<li>要注重平时的积累，临时抱佛脚不可取。即使要抱，也要能知道自己要抱的是哪位佛的脚，否则绝对抓瞎。</li>
+<li>做自己力所能及的事，不要尝试花太多的时间来做技术研究，更要学会做减法。</li>
+<li>在紧急情况下可以写一些丑陋的实现，但还是应该保持整洁的编码风格和设计思路。经常重构代码（比如我是完成一个模块就进行一次），这会使你在遇到问题时受益无穷。</li>
+</ul>
+<p>最后是我的游戏，欢迎大家体验吐槽。</p>
+<ul>
+<li><a href="https://ldjam.com/events/ludum-dare/38/$19648">Ludum Dare作品页面</a></li>
+<li><a href="https://wizcas.itch.io/ld38">游戏页面</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>游戏开发 (Game Development)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Game</tag>
+        <tag>Ludum Dare</tag>
+        <tag>Unity</tag>
       </tags>
   </entry>
   <entry>
@@ -3939,111 +4191,6 @@
       </tags>
   </entry>
   <entry>
-    <title>48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</title>
-    <url>/archives/6144e1a0.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9djvu6vvj30m80cin3k.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>Ludum Dare 是国外知名的独立游戏开发竞赛，首届比赛举办于2002年4月，迄今已走过足足35期，诞生了无数脍炙人口的经典作品。本文转载了INDIENOVA社区的博主 <a href="https://indienova.com/u/wizcas">Wizcas.陈小一</a> 的 <a href="https://indienova.com/indie-game-development/my-first-time-in-ludum-dare-38">48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</a>，与大家共同分享参加LD比赛的一些经验。</p>
-<a id="more"></a>
-
-
-
-<p>2017年4月24日16点23分。</p>
-<p>刚从床上爬起来的我肩颈酸痛，饥肠辘辘。昨夜难熬的腹泻和呕吐似乎已经消失了，想来应该是吃的药管用了。并不是因为贪睡——事实上，在刚刚结束的五个小时睡眠之前的48小时内，我在进行一场和自己的战斗。</p>
-<p>我是去年才知道Ludam Dare的。这是一个线上的游戏开发比赛，和Global Game Jam一样，参与者需要在限定的时间内根据给定的主题完成一个游戏原型。比赛分为两组，Compo和Jam，限定的时间分别为48小时和72小时。其中Compo的要求更为严格，参与者需要遵循这些规定：</p>
-<ul>
-<li>在48小时内提交游戏的可玩版本，48小时后有一小时的额外时间，用于打包和发布</li>
-<li>除了代码可以用第三方库或者基于自己以往的积累外，美术资源和声音资源必须是在这48小时之内完成的</li>
-<li>只允许单人参赛。</li>
-<li>必须公开源代码和游戏内使用的资源文件。</li>
-</ul>
-<p>而Jam组的要求则相对宽松一些：时间更为宽裕、可以组队参加、可以使用别人的美术资源（需要无法律风险）、不必公开代码。</p>
-<p>我选择了参加Compo组，想试试自己能够达到什么程度。虽然作为程序员已经有将近十年，但真正参与游戏开发也不过才两年多，我需要对自己的能力有一个了解。而且48小时内做出一款游戏难道不是一件很狂霸酷炫吊的事情吗？</p>
-<p>怀着这样的心情，我迎来了自己的第一次Ludum Dare（以下简称LD），也是这个活动创办的15周年纪念。</p>
-<h3 id="DAY-1-2017-4-22——选题"><a href="#DAY-1-2017-4-22——选题" class="headerlink" title="DAY 1 2017.4.22——选题"></a>DAY 1 2017.4.22——选题</h3><p>比赛主题发布是在中国时间的周六上午9:00，这也是比赛开始的时间。在此之前，LD官方网站上进行了为期两周的主题投票，这些主题是网站的注册用户提交的，而得票最高者即是本次比赛的主题。</p>
-<p>平时周末我都会起的比较晚，这次9:40就起了。虽然比赛已经开始了40分钟，但我更需要保存更多精力来应付这场战争。</p>
-<p>用手机打开官网，页面顶部赫然写着比赛主题：<strong>A Small World</strong>。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dwroc7cj30z30deq53.jpg"></p>
-<p>这是什么？</p>
-<p>我本来期待着看到更出人意料、更奇特的主题。这个主题看起来平淡无奇，甚至让人耳朵长茧。一时间我蒙圈了。</p>
-<p>这是第一个挑战。</p>
-<p>我调整了一下自己的心态，开始琢磨如何解读这个主题。好在LD对于主题的解读范围十分宽容，而且官方本身并不会限定你是否要使用这个主题——当然作为评判力量的其他玩家和开发者会更严格些。</p>
-<p>我并不打算做一个和地球/星球相关的游戏，这个角度已经被用烂了。既然是独立游戏挑战赛，当然是要做一些自己更喜欢、脑洞更大一点的游戏。在经过了20分钟的思考后，我决定做一款献给我们家主子“二狗子”的游戏，因为我的家对于她来说就是整个世界。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dz40f20j30dc07i0tf.jpg"></p>
-<p>大概的思路是，二狗子为了展现自己是这个世界统治者，决心收集世界中的所有“财宝”。但愚蠢的人类不会让她把东西都藏起来，因此二狗子必须要在人类的眼皮子底下获得这些财宝，而且不能被抓住。</p>
-<h4 id="开工"><a href="#开工" class="headerlink" title="开工"></a>开工</h4><p>有了思路便要尽快开始了。对于48小时，我仅有个模糊的概念——不能在对目标没有帮助的事情上浪费时间。最终的结果证明了整个开发节奏远比我想象的还要紧张。</p>
-<p>游戏的风格是斜45度角的RTT（Real-time tactics，即时战术游戏）游戏，代表作有《盟军敢死队》、《赏金奇兵》和最近的新作《影子战术》。和这些游戏不同的是，我的游戏的关卡很小，“敌人”也只有一个，但是在纵向上活动的范围会很大，毕竟猫是很善于跳跃的。</p>
-<p>首先要解决的是角色控制的问题。在3D场景中进行路径导航最简便的方法便是使用NavMesh计算移动路线，一般也都能获得不错的效果。在以往的项目中，我一直使用一个功能超级强大的名为A* Project的第三方库，但对于这个小项目，使用这种重型武器未免有些过了，毕竟我只需要简单场景的路径导航。我决定试试Unity自带的NavMesh模块，虽然并不很熟悉，但在项目中学习和尝试也是参加LD的意义所在。</p>
-<p>我搭建了一个简单的测试场景，花了两个多小时的时间学习Unity NavMesh并完成了鼠标点击控制角色移动的功能。午饭过后，又花了几个小时完成了敌人的视线检测、状态切换、索敌行为，以及小猫拿到宝物并藏到自己宝库里的编码工作。</p>
-<p>此时整个游戏流程已经初具雏形，虽然细节部分基本都没有经过打磨，但在我的计划里是打算将这些放到收尾阶段再进行的。</p>
-<p>抬头看表，已经是晚饭时间了。此时距离开始开发已经经过了大概7个小时，整个进度看起来很乐观，我甚至还录了一小段游戏原型视频上传到了YouTube，并在活动网站上发了个博客向其他人介绍我的进展。</p>
-<p>晚饭过后，我开始为游戏添加一些小细节，例如鼠标移到可交互物体上出现的提示框、在OffMesh路径节点上进行跳跃控制等，然后对之前完成的内容进行了一系列测试。在这个过程中，我还重构了一部分代码。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dxjd48sj30go09475p.jpg"></p>
-<h4 id="坑"><a href="#坑" class="headerlink" title="坑"></a>坑</h4><p>一切看起来都跟美好——直到我遇到了第一个自己给自己挖的坑。</p>
-<p>在此之前我并没有完整的AI开发经验，自己也没有成熟的AI框架，所以在开发敌人的控制脚本时，几乎是两眼一摸黑，按着感觉走。而当我要为敌人添加对猫叫声的反应时，噩梦来了。</p>
-<p>在一开始的设计中，敌人的行为只有巡逻、索敌、注视、追赶几种情况，基本是纯线性的过程，所以用几个<code>if...else</code>已经足够处理。而新增的行为“听见声音并前往调查”立刻使AI决策的复杂度上升了，更别提以后在AI层面进行扩展了。</p>
-<p>思前想后，我还是决定把AI部分重写。</p>
-<p>此时的我脑子已经开始发蒙，想到进度被耽搁和AI系统设计的种种细节更是头痛欲裂。抬头看表已经接近午夜，我必须得休息休息了。</p>
-<p>看了两集《武林外传》乐呵了一下后，我还是决定在睡觉前把AI做完，这样明天就可以专注于美术和关卡。</p>
-<p>AI系统我使用了状态机的设计：</p>
-<blockquote>
-<p>通过触发事件让敌人生成一个“想法”，然后敌人再根据当前最高优先级的“想法”来行动；行动结束后继续执行其他被放置的“想法”。</p>
-</blockquote>
-<p>通过将决策和行动独立成两个单独执行的层面，不仅可以让逻辑更清晰可控，而且也便于状态的切换和回溯。</p>
-<p>一夜无话。AI系统完成时已经是凌晨五点，天快亮了。在LD网站上发了一篇博客记录了自己一天的成果后，我拖着疲惫的身体爬上了床。设置好闹钟后我便失去了知觉。</p>
-<h3 id="DAY-2-2017-4-23"><a href="#DAY-2-2017-4-23" class="headerlink" title="DAY 2 2017.4.23"></a>DAY 2 2017.4.23</h3><p>闹钟催了几遍我才被叫醒。抓起手机看了眼，已经是上午十点，五个小时的睡眠使我的精神好了很多。我强打起精神从被窝里爬出来，毕竟还有一堆工作等着完成。</p>
-<h4 id="构建世界"><a href="#构建世界" class="headerlink" title="构建世界"></a>构建世界</h4><p>由于昨晚睡觉前已经完成了核心的游戏逻辑，今天把世界搭建好了应该就差不多了。</p>
-<p>嗯，至少当时的我是这么想的。</p>
-<p>考虑到自己的3D建模水平实在捉鸡，在有限的时间内我也不打算真的用Blender去一点一点抠模型了。</p>
-<p>我想起自己在Steam花68块钱买过一款名为Qubicle Voxel Editor的体素艺术软件，一直躺在库里还没下载过，就是为了有一天能派上用场。对于学了一点像素画的我来说，这种用方块拼成的世界既可行，又具有强烈的独立游戏风格。</p>
-<p>我一边看着官方的帮助文档，一边尝试着建模还原我住的小公寓。考虑到场景的可玩性和复杂度，我去掉了家里的厨房和厕所。建模、导出、改贴图、在场景中放置……一件件家具被创造出来，游戏场景也越来越充实。看着自己创造的小世界，一阵强烈的满足感袭来——我突然意识到这就是激励我开始做游戏的初衷，也是对“a small world”这个主题的最好诠释。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dy5qr54j30go093jse.jpg"></p>
-<p>随着对建模越来越熟练，更多物件被创造出来：猫咪玩具、散落的臭袜子、手机、猫咪二狗子……媳妇的“这不是满屏马赛克么”的吐槽并没有影响我对体素艺术的热情。</p>
-<p>二狗子的模型被做出来后，我曾一度打算在Blender中通过骨骼动画来完成猫的各种动作动画，然而时钟上无情的指针让我打消了这个念头——我没有时间再去学习怎么做骨骼动画了。最终我放弃了二狗子的四肢，用Unity自带的动画工具把它做成了一只像史莱姆一样跳来跳去的生物。</p>
-<p>此时已经超过半夜十二点了。做模型花了我五个多小时的时间，制作和绑定小猫的动画又花了我两三个小时的时间。</p>
-<p>期间为了换换脑子，我又进行了一些编码工作，主要是在沙发底下、床底下、堆着的纸盒上加上小猫的藏匿点，让二狗子能够在狭小的房间里躲开人类的视线。而我还没有完成关卡设计和财宝的摆放，没有制作游戏的UI和教程，也没有完整的测试过我的游戏。</p>
-<p>我感觉可能要熬夜才能完成了。</p>
-<h4 id="腹泻、呕吐、与时间战斗"><a href="#腹泻、呕吐、与时间战斗" class="headerlink" title="腹泻、呕吐、与时间战斗"></a>腹泻、呕吐、与时间战斗</h4><p>不知道是因为巨大的压力还是晚上吃了不干净的东西，我开始上吐下泻，困在厕所里迟迟不能出来。吞了六颗调理肠胃的药，我头晕眼花地跟领导请了假，说明了我的身体状况并申请周一休息一天。在身体状况稍微好转了一些后，我收到了公司领导同意的回复。强打起精神，我又坐回了电脑前。</p>
-<p>在被电脑屏幕和台灯照亮的黑暗中，我尽可能快地完成着收尾的开发工作，不时抬头看看表，然后为后面的工作粗略地分配着时间。</p>
-<p>为了给游戏配上猫叫的音效，我在半夜里举着手机满屋子追二狗子想让她叫一声，但是这小王八蛋估计是听懂了我的话，自始至终一声不吭。气急败坏的我最终只能自己学猫叫——而此时我才发现我的嗓子已经快出不来声了。</p>
-<p>窗外射进了清晨的曙光，我也终于进入了最终的测试阶段。我对于自己的成果并不满意：跳跃动画和位移的衔接并不流畅、UI过于简陋、人类的视线检测很不准确、模型碰撞的检测范围经常出现错误、没有用更合适的方式控制摄影机跟踪……但此时已经是早上七点多，距离提交只有不到两个小时了。我不得不放弃了很多细节调整，甚至放弃了忘了做的人类模型和动画，而只是用一个简陋胶囊体代替。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dyp2ww2j30go094405.jpg"></p>
-<p>时间一分一秒的走着，往往觉得只做了一个很小的调整和修复，但转头发现时间已经过去了二十多分钟。我感觉缓缓前行的时间像一台巨大的压路机向我逼来，而我必须在这恐怖的压力下拖着身躯在泥泞中奋力爬行。</p>
-<p>终于在8:59分时，我上传了全部代码和资源文件。</p>
-<h4 id="最后一小时"><a href="#最后一小时" class="headerlink" title="最后一小时"></a>最后一小时</h4><p>根据LD的规则，在开发时限到期后还有一个小时额外的打包提交时间。我直到这时才发现，网站上赫然写着：“我们建议您尽早提交，因为人们总是在最后一小时发现各种技术问题。”</p>
-<p>我竭力按捺住心中的草泥马，脑子发木地开始打包，同时祈祷着不要出幺蛾子。</p>
-<p>为了能让更多人不用下载即可玩到我的游戏，我决定发布WebGL版本。而当游戏打包完毕，在我的电脑上本地运行时，我却傻眼了：整个场景的光照效果和在编辑器中大相径庭，满屏幕充斥着屎的颜色，光照不足使场景模型的细节根本看不清。</p>
-<p>我马上意识到应该是光照贴图的锅，但这部分我仅仅有所了解，并不十分熟练。于是我赶紧回到编辑器中，开始尝试调整各种参数，一次次的打包测试，直至最终达到了基本满意的效果。</p>
-<p>进行这些调整花费了我近半小时的时间，我必须硬着头皮发布了，否则我将失去提交到Compo组的机会。</p>
-<p>接下来的事情比较顺利：我将游戏上传到了itch.io上，并在ldjam.com上发布了我的游戏项目，甚至还写了篇博客来记录自己当时的一些感受。</p>
-<p>9:45分左右，完成了全部提交工作的我长出一口气。我的肩颈火辣辣地疼着，眼皮重的抬不起来，巨大的疲惫让我感觉自己活在另一个次元。</p>
-<p>但是这些又有什么关系呢？毕竟我完成了我的第一次48小时极限开发，而这也绝对不会是最后一次。</p>
-<h3 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h3><p>经过48小时玩命一样的开发，我越发意识到自己在独立游戏开发过程中的不足之处：对于很多技术还是一知半解，而且有些喜欢钻牛角尖。这些问题在日常工作上是体现不出来的，充足的时间让我可以有一万种方法赶上进度。但在这压榨般的极限挑战中，任何错误都可能让你付出沉重的代价，一不小心就会失败——例如我对于游戏设计的把控能力不足、AI设计经验不足等，都使我进行了大量返工，并且很多设想中的游戏机制也没有来得及实现。这不得不说是一个遗憾。</p>
-<p>然而相对于比赛竞争，LD给我更大的启示是：永远不要低估你的极限，永远带着一颗拥抱学习和挑战的心。你永远不知道等待你的是什么，而作为独立游戏开发者，你能做的只有勇敢面对，即使前路迷雾重重。</p>
-<p>对于LD比赛，在下列方面我也深有体会：</p>
-<ul>
-<li>不要用传统商业游戏的思路来设计游戏，你会发现那根本不现实。LD讲求的是小而美。</li>
-<li>对自己的工作效率要有充分的了解，并且要给自己限定一个大致的时间表，以便合理安排时间精力。</li>
-<li>要注重平时的积累，临时抱佛脚不可取。即使要抱，也要能知道自己要抱的是哪位佛的脚，否则绝对抓瞎。</li>
-<li>做自己力所能及的事，不要尝试花太多的时间来做技术研究，更要学会做减法。</li>
-<li>在紧急情况下可以写一些丑陋的实现，但还是应该保持整洁的编码风格和设计思路。经常重构代码（比如我是完成一个模块就进行一次），这会使你在遇到问题时受益无穷。</li>
-</ul>
-<p>最后是我的游戏，欢迎大家体验吐槽。</p>
-<ul>
-<li><a href="https://ldjam.com/events/ludum-dare/38/$19648">Ludum Dare作品页面</a></li>
-<li><a href="https://wizcas.itch.io/ld38">游戏页面</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>游戏开发 (Game Development)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Game</tag>
-        <tag>Ludum Dare</tag>
-        <tag>Unity</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>LATEX现学现用抢救指南</title>
     <url>/archives/d27a4a46.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkb9od3oecj314g0mg755.jpg"></p>
@@ -4114,6 +4261,98 @@
         <tag>Write</tag>
         <tag>Latex</tag>
         <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手机是怎么知道你的位置的</title>
+    <url>/archives/a03a749.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkcy9nokcuj30u00w9hag.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/105968903/Space-Economics-Illustrations-Resources-Magazine?tracking_source=search_projects_recommended%7Csatellite">Space Economics Illustrations / Resources Magazine</a> by 
+      <a href="https://www.behance.net/jamesrdesign">James Round</a>
+    </i>
+  </font>
+</div>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
+<a id="more"></a>
+
+
+
+<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>今天不管大家走到哪里，拿出手机可以告诉自己走到哪里、走了多快。给自己定位这样一件事是整个人类历史上持续在问的一个问题。我们中国发明了四大发明之一的指南针，可以更方便的进行定位，而在今天我们有全球定位系统，并通过经纬度来表示自己的坐标。</p>
+<h3 id="全球定位系统：2-TO-4"><a href="#全球定位系统：2-TO-4" class="headerlink" title="全球定位系统：2 TO 4"></a>全球定位系统：2 TO 4</h3><p><em>GPS（Global Positioning System）</em></p>
+<ul>
+<li><p><strong>美国的GPS</strong></p>
+<p>GPS一共6条轨道，每条轨道4颗卫星，一共24颗卫星。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkdgum5vcqj30fi0ahmxm.jpg"></p>
+</li>
+<li><p><strong>苏联的GLONASS</strong></p>
+<p>GLONASS一共3条轨道，每条轨道8颗卫星，一共24颗卫星。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkdgwdsot0j30cv08xac9.jpg"></p>
+</li>
+<li><p><strong>欧盟的伽利略</strong></p>
+</li>
+<li><p><strong>中国的北斗</strong></p>
+</li>
+</ul>
+<h3 id="模型的构建与求解"><a href="#模型的构建与求解" class="headerlink" title="模型的构建与求解"></a>模型的构建与求解</h3><p>当我们遇到问题的时候，我们不要追求一个模型解决所有的问题。建模的共性在于在最初的阶段能否用非常简单的模型去讨论最简单基本的情形。</p>
+<h4 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h4><p>我们身处地球给自己的空间位置定位，除了地球表面基本的经度和纬度外，还有海拔高度。一个全球定位系统实现了全球覆盖之后，无论在地球的哪个位置，在头顶上能接收到信号的卫星大约在<strong>6～10颗</strong>左右。这些卫星在固定的频率上发送的信息有：<strong>发出信号的时刻、卫星的位置坐标</strong>。</p>
+<p>而我们接收了这些卫星的信号，怎么通过卫星的位置知道自己的位置呢？虽然自己的坐标是未知的，但是我们知道从卫星的位置走到自己的位置的距离如何去表达：</p>
+<blockquote>
+<p>$distance^2=(x-x_0)^2+(y-y_0)^2+(z-z_0)^2$ 其中 $x_0、y_0、z_0$ 为卫星坐标</p>
+</blockquote>
+<p>而距离我们可不可以算出来呢？可以，因为我们还有时间：电磁波是以光速传播到设备的，乘上时间便可以求出距离。以距离为桥梁，我们将两边联系在了一起：</p>
+<blockquote>
+<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=distance^2=[(t-t_0) \cdot c]^2$</p>
+<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=[(t-t_0) \cdot c]^2$</p>
+</blockquote>
+<h4 id="基本模型"><a href="#基本模型" class="headerlink" title="基本模型"></a>基本模型</h4><p>每有一颗卫星，就有一组方程； 使用者能接收几颗卫星，就有几组下面这样的信号量：</p>
+<blockquote>
+<p>$(x-3)^2+(y-2)^2+(z-3)^2-[(10010.00692286-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-3)^2+(z-1)^2-[(10013.34256381-t)\cdot c]^2=0$</p>
+<p>$(x-5)^2+(y-7)^2+(z-4)^2-[(10016.67820476-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-6)^2+(z-3)^2-[(10020.01384571-t)\cdot c]^2=0$</p>
+<p>$(x-7)^2+(y-6)^2+(z-7)^2-[(10023.34948666-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-4)^2+(z-9)^2-[(10030.02076857-t)\cdot c]^2=0$</p>
+</blockquote>
+<p>这样就列出了一个四元二次方程组，很容易求解。</p>
+<h4 id="求解原理"><a href="#求解原理" class="headerlink" title="求解原理"></a>求解原理</h4><p>四元二次方程组消掉高次项以后变成一个线性方程组：</p>
+<blockquote>
+<p>$\begin{bmatrix} 4 &amp; -4 &amp; -12 &amp; 3.59751 \\ 0 &amp; -2 &amp; -16 &amp; 2.99792 \\ 8 &amp; 6 &amp; -10 &amp; 2.39834 \\ 0 &amp; 6 &amp; -12 &amp; 1.79875 \\ 12 &amp; 4 &amp; -4 &amp; 1.19917 \end{bmatrix}\begin{bmatrix} x \\ y \\ z \\ t\end{bmatrix}=\begin{bmatrix}35971.1 \\ 29957.2 \\ 24031.4 \\ 17993.5 \\ 12059.7 \end{bmatrix}$</p>
+</blockquote>
+<p>如此简单的问题甚至不需要很大的计算机，一个计算器就可以算出来。全球定位系统看着一个很高大上的东西，其实它最基本的、最反映它本质的一个数学模型是非常简单的，当然这个模型并不能很好的解决现实问题，但确实是能体现出全球定位系统最核心的思想的模型。</p>
+<p>这样的模型直接投入使用空间上会有几十米量级的误差，不能满足我们日常的大部分需求，我们需要进一步改进。但正是这样简单的模型，在时间上通过卫星授时误差能达到毫秒量级。</p>
+<h3 id="模型的分析"><a href="#模型的分析" class="headerlink" title="模型的分析"></a>模型的分析</h3><h4 id="卫星时钟"><a href="#卫星时钟" class="headerlink" title="卫星时钟"></a>卫星时钟</h4><p>全球定位系统的使用者可以不知道自己的时间，但卫星上的时间必须要非常准确的，所以地面会有一个原子钟为卫星授时并校准。之前也提到过，$[(t-t_0) \cdot c]^2$ 因为有光速这样大量级的存在，时间上的微小误差会被放大到很大，从而影响到方程本身的求解。也就是说，<strong>时间的同步性</strong>是非常重要的。</p>
+<h4 id="轨道误差"><a href="#轨道误差" class="headerlink" title="轨道误差"></a>轨道误差</h4><p>卫星总体来讲会绕着地球不断地自转，但转的每一次都多多少少会有一些误差。而卫星发送的数据包是根据自己的轨道位置所计算得到的，但轨道本身是按预定轨道计算，其中自转过程未必严格按预定轨道执行从而产生空间信息的偏差。</p>
+<h4 id="电磁波延迟"><a href="#电磁波延迟" class="headerlink" title="电磁波延迟"></a>电磁波延迟</h4><p>发送电磁波穿过电离层和大气层会有延迟，在时间方面产生误差。</p>
+<h4 id="接收机噪声"><a href="#接收机噪声" class="headerlink" title="接收机噪声"></a>接收机噪声</h4><p>GPS接收机本身有噪声，设备之间也会有显著的区别。</p>
+<p>首先考虑一个方程的简单情况，观察空间位置对时间误差的敏感程度：$f_1=(x-3)^2-[(T_1+t_1)\cdot c]^2=0$敏感程度可以由导数来刻画，具体来讲是$x$ 关于 $t$ 的这个函数求导。考虑4个方程的情况：</p>
+<blockquote>
+<p>$f_1=(x-3)^2+(y-2)^2+(z-3)^2-[(T_1+t_1-t)\cdot c]^2=0$</p>
+<p>$f_2=(x-1)^2+(y-3)^2+(z-1)^2-[(T_2+t_2-t)\cdot c]^2=0$</p>
+<p>$f_3=(x-5)^2+(y-7)^2+(z-4)^2-[(T_3+t_3-t)\cdot c]^2=0$</p>
+<p>$f_4=(x-1)^2+(y-7)^2+(z-3)^2-[(T_4+t_4-t)\cdot c]^2=0$</p>
+</blockquote>
+<h3 id="问题的解决"><a href="#问题的解决" class="headerlink" title="问题的解决"></a>问题的解决</h3><p><strong>基本模型：</strong>可行，但达不到应用的要求（时间的精度、空间位置的精度）</p>
+<p><strong>科学问题到工程问题：</strong>科学原理可行到工程实现，需要技术方面的支持，而数学建模则更多的关注科学原理上可行性的问题</p>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/jamesrdesign">James Round</a>
+    </i>
+  </font>
+</div>]]></content>
+      <categories>
+        <category>数学建模 (Mathematical Modeling)</category>
+      </categories>
+      <tags>
+        <tag>Math</tag>
+        <tag>Mooc</tag>
+        <tag>GPS</tag>
+        <tag>Mathematical Modeling</tag>
       </tags>
   </entry>
   <entry>
@@ -4302,100 +4541,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
+        <tag>Mathematical Modeling</tag>
         <tag>Population</tag>
-        <tag>Mathematical Modeling</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手机是怎么知道你的位置的</title>
-    <url>/archives/a03a749.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkcy9nokcuj30u00w9hag.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/105968903/Space-Economics-Illustrations-Resources-Magazine?tracking_source=search_projects_recommended%7Csatellite">Space Economics Illustrations / Resources Magazine</a> by 
-      <a href="https://www.behance.net/jamesrdesign">James Round</a>
-    </i>
-  </font>
-</div>
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
-<a id="more"></a>
-
-
-
-<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>今天不管大家走到哪里，拿出手机可以告诉自己走到哪里、走了多快。给自己定位这样一件事是整个人类历史上持续在问的一个问题。我们中国发明了四大发明之一的指南针，可以更方便的进行定位，而在今天我们有全球定位系统，并通过经纬度来表示自己的坐标。</p>
-<h3 id="全球定位系统：2-TO-4"><a href="#全球定位系统：2-TO-4" class="headerlink" title="全球定位系统：2 TO 4"></a>全球定位系统：2 TO 4</h3><p><em>GPS（Global Positioning System）</em></p>
-<ul>
-<li><p><strong>美国的GPS</strong></p>
-<p>GPS一共6条轨道，每条轨道4颗卫星，一共24颗卫星。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkdgum5vcqj30fi0ahmxm.jpg"></p>
-</li>
-<li><p><strong>苏联的GLONASS</strong></p>
-<p>GLONASS一共3条轨道，每条轨道8颗卫星，一共24颗卫星。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkdgwdsot0j30cv08xac9.jpg"></p>
-</li>
-<li><p><strong>欧盟的伽利略</strong></p>
-</li>
-<li><p><strong>中国的北斗</strong></p>
-</li>
-</ul>
-<h3 id="模型的构建与求解"><a href="#模型的构建与求解" class="headerlink" title="模型的构建与求解"></a>模型的构建与求解</h3><p>当我们遇到问题的时候，我们不要追求一个模型解决所有的问题。建模的共性在于在最初的阶段能否用非常简单的模型去讨论最简单基本的情形。</p>
-<h4 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h4><p>我们身处地球给自己的空间位置定位，除了地球表面基本的经度和纬度外，还有海拔高度。一个全球定位系统实现了全球覆盖之后，无论在地球的哪个位置，在头顶上能接收到信号的卫星大约在<strong>6～10颗</strong>左右。这些卫星在固定的频率上发送的信息有：<strong>发出信号的时刻、卫星的位置坐标</strong>。</p>
-<p>而我们接收了这些卫星的信号，怎么通过卫星的位置知道自己的位置呢？虽然自己的坐标是未知的，但是我们知道从卫星的位置走到自己的位置的距离如何去表达：</p>
-<blockquote>
-<p>$distance^2=(x-x_0)^2+(y-y_0)^2+(z-z_0)^2$ 其中 $x_0、y_0、z_0$ 为卫星坐标</p>
-</blockquote>
-<p>而距离我们可不可以算出来呢？可以，因为我们还有时间：电磁波是以光速传播到设备的，乘上时间便可以求出距离。以距离为桥梁，我们将两边联系在了一起：</p>
-<blockquote>
-<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=distance^2=[(t-t_0) \cdot c]^2$</p>
-<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=[(t-t_0) \cdot c]^2$</p>
-</blockquote>
-<h4 id="基本模型"><a href="#基本模型" class="headerlink" title="基本模型"></a>基本模型</h4><p>每有一颗卫星，就有一组方程； 使用者能接收几颗卫星，就有几组下面这样的信号量：</p>
-<blockquote>
-<p>$(x-3)^2+(y-2)^2+(z-3)^2-[(10010.00692286-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-3)^2+(z-1)^2-[(10013.34256381-t)\cdot c]^2=0$</p>
-<p>$(x-5)^2+(y-7)^2+(z-4)^2-[(10016.67820476-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-6)^2+(z-3)^2-[(10020.01384571-t)\cdot c]^2=0$</p>
-<p>$(x-7)^2+(y-6)^2+(z-7)^2-[(10023.34948666-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-4)^2+(z-9)^2-[(10030.02076857-t)\cdot c]^2=0$</p>
-</blockquote>
-<p>这样就列出了一个四元二次方程组，很容易求解。</p>
-<h4 id="求解原理"><a href="#求解原理" class="headerlink" title="求解原理"></a>求解原理</h4><p>四元二次方程组消掉高次项以后变成一个线性方程组：</p>
-<blockquote>
-<p>$\begin{bmatrix} 4 &amp; -4 &amp; -12 &amp; 3.59751 \\ 0 &amp; -2 &amp; -16 &amp; 2.99792 \\ 8 &amp; 6 &amp; -10 &amp; 2.39834 \\ 0 &amp; 6 &amp; -12 &amp; 1.79875 \\ 12 &amp; 4 &amp; -4 &amp; 1.19917 \end{bmatrix}\begin{bmatrix} x \\ y \\ z \\ t\end{bmatrix}=\begin{bmatrix}35971.1 \\ 29957.2 \\ 24031.4 \\ 17993.5 \\ 12059.7 \end{bmatrix}$</p>
-</blockquote>
-<p>如此简单的问题甚至不需要很大的计算机，一个计算器就可以算出来。全球定位系统看着一个很高大上的东西，其实它最基本的、最反映它本质的一个数学模型是非常简单的，当然这个模型并不能很好的解决现实问题，但确实是能体现出全球定位系统最核心的思想的模型。</p>
-<p>这样的模型直接投入使用空间上会有几十米量级的误差，不能满足我们日常的大部分需求，我们需要进一步改进。但正是这样简单的模型，在时间上通过卫星授时误差能达到毫秒量级。</p>
-<h3 id="模型的分析"><a href="#模型的分析" class="headerlink" title="模型的分析"></a>模型的分析</h3><h4 id="卫星时钟"><a href="#卫星时钟" class="headerlink" title="卫星时钟"></a>卫星时钟</h4><p>全球定位系统的使用者可以不知道自己的时间，但卫星上的时间必须要非常准确的，所以地面会有一个原子钟为卫星授时并校准。之前也提到过，$[(t-t_0) \cdot c]^2$ 因为有光速这样大量级的存在，时间上的微小误差会被放大到很大，从而影响到方程本身的求解。也就是说，<strong>时间的同步性</strong>是非常重要的。</p>
-<h4 id="轨道误差"><a href="#轨道误差" class="headerlink" title="轨道误差"></a>轨道误差</h4><p>卫星总体来讲会绕着地球不断地自转，但转的每一次都多多少少会有一些误差。而卫星发送的数据包是根据自己的轨道位置所计算得到的，但轨道本身是按预定轨道计算，其中自转过程未必严格按预定轨道执行从而产生空间信息的偏差。</p>
-<h4 id="电磁波延迟"><a href="#电磁波延迟" class="headerlink" title="电磁波延迟"></a>电磁波延迟</h4><p>发送电磁波穿过电离层和大气层会有延迟，在时间方面产生误差。</p>
-<h4 id="接收机噪声"><a href="#接收机噪声" class="headerlink" title="接收机噪声"></a>接收机噪声</h4><p>GPS接收机本身有噪声，设备之间也会有显著的区别。</p>
-<p>首先考虑一个方程的简单情况，观察空间位置对时间误差的敏感程度：$f_1=(x-3)^2-[(T_1+t_1)\cdot c]^2=0$敏感程度可以由导数来刻画，具体来讲是$x$ 关于 $t$ 的这个函数求导。考虑4个方程的情况：</p>
-<blockquote>
-<p>$f_1=(x-3)^2+(y-2)^2+(z-3)^2-[(T_1+t_1-t)\cdot c]^2=0$</p>
-<p>$f_2=(x-1)^2+(y-3)^2+(z-1)^2-[(T_2+t_2-t)\cdot c]^2=0$</p>
-<p>$f_3=(x-5)^2+(y-7)^2+(z-4)^2-[(T_3+t_3-t)\cdot c]^2=0$</p>
-<p>$f_4=(x-1)^2+(y-7)^2+(z-3)^2-[(T_4+t_4-t)\cdot c]^2=0$</p>
-</blockquote>
-<h3 id="问题的解决"><a href="#问题的解决" class="headerlink" title="问题的解决"></a>问题的解决</h3><p><strong>基本模型：</strong>可行，但达不到应用的要求（时间的精度、空间位置的精度）</p>
-<p><strong>科学问题到工程问题：</strong>科学原理可行到工程实现，需要技术方面的支持，而数学建模则更多的关注科学原理上可行性的问题</p>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/jamesrdesign">James Round</a>
-    </i>
-  </font>
-</div>]]></content>
-      <categories>
-        <category>数学建模 (Mathematical Modeling)</category>
-      </categories>
-      <tags>
-        <tag>Math</tag>
-        <tag>Mooc</tag>
-        <tag>Mathematical Modeling</tag>
-        <tag>GPS</tag>
       </tags>
   </entry>
   <entry>
@@ -4718,65 +4865,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#2</title>
-    <url>/archives/90b77012.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zhhvzmzj31hc0u0434.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解像素绘画的流程，逐渐完善直到达到满意的效果。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7imh83j30u008c74z.jpg"></p>
-<p>相关链接：</p>
-<ul>
-<li>Pedro Medeiros@Patreon<br><a href="https://www.patreon.com/saint11">https://www.patreon.com/saint11</a></li>
-<li>风农@indienova<br><a href="https://indienova.com/u/fengnong">https://indienova.com/u/fengnong</a></li>
-<li>风农@bilibili 专栏<br><a href="https://www.bilibili.com/read/readlist/rl38114">https://www.bilibili.com/read/readlist/rl38114</a></li>
-</ul>
-<p>像素簇草图和绘画。</p>
-<p>系列的第二篇。</p>
-<p>这个教程会使用 Aseprite。这次我会教大家一个很像传统绘画流程的像素画技术。我一般叫它像素簇草图技术，因为我会从大的像素簇画起，再逐渐完善，直到达到我满意的效果。</p>
-<h3 id="什么是像素簇"><a href="#什么是像素簇" class="headerlink" title="什么是像素簇"></a>什么是像素簇</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7kk00zj30ln0axwec.jpg"></p>
-<p>一个簇，或者颜色簇，或者像素簇，就是一组连续的同色像素。对角线连接的像素算不算还有些争论。我认为也算，我把这种叫弱连接，会尽量避免，不过不会太担心这种。</p>
-<p>画像素画的时候，我的重点是尽量少出现像素簇，而且一定避免单像素的簇。这些单像素的也可以叫孤立像素，通常会让画面看起来有很多噪点，很乱。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7ix03cj30ra0e3q2q.jpg"></p>
-<p>有时候你需要把一个孤立像素删除，但有时候你可能还需要这个细节。对于后者，我有一些喜欢的形状可以代替这个孤立像素，就是饼干下面这些绿色形状。不过有些时候它也可以用，像是纹理，抗锯齿（以后的章节会讲），以及一些强细节，比如下面骷髅里的红色眼睛：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7jxpdvj307o07j0nc.jpg"></p>
-<h3 id="开始画"><a href="#开始画" class="headerlink" title="开始画"></a>开始画</h3><p>我们来画点什么。我要画一个小的场景，用 <code>DB32</code> 调色盘，分辨率用 <code>100</code> 乘以 <code>64</code> 像素。对这个练习我推荐用个手绘板，因为自然的线条对结果能有些帮助。</p>
-<p>如果你觉得这个场景有些复杂，可以自己去掉一些东西，比如建筑，或者人。实验新的技术时一定要画自己舒服的东西。如果觉得画布太大，或者太小，就自己改一下尺寸，不过我不建议小于 <code>64</code> 或者大于 <code>128</code>，暂时别。</p>
-<h4 id="第一步：大簇"><a href="#第一步：大簇" class="headerlink" title="第一步：大簇"></a>第一步：大簇</h4><p>上次我们是画了线条，再用颜色填充内部。这次我们直接开始画颜色。大致的画上你想画的东西，重点在选择颜色和氛围。自由的下笔，不要加细节。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7lcj7dj30nj085t8h.jpg"></p>
-<p>这个技术的思路是从大的色块开始，每一步逐渐改小。这是少数可以用 <code>2</code> 或者 <code>3</code> 个像素宽度的画笔的情况。可以按 + 或者 - 来调节笔刷大小。另外一种方式是画出一个簇的轮廓，再用油漆桶填充颜色，快捷键是 G。</p>
-<h4 id="第二步：改良"><a href="#第二步：改良" class="headerlink" title="第二步：改良"></a>第二步：改良</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7ktfnnj30ms0f0web.jpg"></p>
-<p>你可以看出我是从远处开始，像天空和山，然后添加了建筑，再添加了人物剪影。这是一种常见的绘画技巧，对像素画也很适用。这个思路是先准备好基础，再往上面放东西，用这种方法比较容易选择颜色，以及确定物体尺寸。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7lvuf3j30es07dq2t.jpg"></p>
-<p>像这类图我喜欢用图层，把天空，建筑，地面放到不同的图层。要新建图层，可以在时间轴上，右键点击“layer 1”这里，选择新建图层（<code>New Layer</code>）。你可以建任意多的图层，不过我会保持图层尽可能的少，不然会很乱。</p>
-<h4 id="第三步：修正锯齿，添加细节"><a href="#第三步：修正锯齿，添加细节" class="headerlink" title="第三步：修正锯齿，添加细节"></a>第三步：修正锯齿，添加细节</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7m739fj30gi0eba9u.jpg"></p>
-<p>什么算锯齿？好吧，听起来可能很复杂，但其实没有。</p>
-<p>锯齿指的是像素画里不必要的拐角，通常是手自然运动绘画时，缺少抗锯齿的副作用。</p>
-<p>想象你需要修正的边界是个楼梯，每一阶上的像素数量要有逻辑。我们要计算像素数，保证曲线接近于水平时，像素数量是逐渐增加的，当曲线接近垂直时是逐渐减少的。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7jfk5oj308y07f0sh.jpg"></p>
-<p>分解一下，每一条线或者簇的边界都应该遵从一些逻辑。你能看到在我的例子里，一个完美曲线中的各阶的像素数递增再递减。这就是曲线的行为，通常会遵守一些几何比例，以指数递增或者递减。</p>
-<p>锯齿就是这个逻辑里的错误点。是曲线中间突然增加或者减少的地方。数量可以增加或者减少的很快，只要曲线符合逻辑。</p>
-<p>修复的时候，把像素来回移动，让各阶保持一致，或者正确的增加减少。</p>
-<p>现在回到我们的画。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7nr5gej30p609ddfo.jpg"></p>
-<p>这里的思路就是“最后加上些细节”（<a href="https://knowyourmeme.com/photos/572078-how-to-draw-an-owl%EF%BC%89%EF%BC%8C%E4%B8%BB%E8%A6%81%E6%98%AF%E6%89%BE%E5%88%B0%E9%94%AF%E9%BD%BF%EF%BC%8C%E4%B8%80%E4%B8%AA%E4%B8%AA%E7%9A%84%E4%BF%AE%E5%A4%8D%E3%80%82%E5%9C%A8%E8%BF%99%E4%B8%AA%E8%BF%87%E7%A8%8B%E4%B8%AD%E6%88%91%E4%BC%9A%E4%B8%8D%E6%96%AD%E6%B7%BB%E5%8A%A0%E7%BB%86%E8%8A%82%EF%BC%8C%E5%A2%9E%E5%BC%BA%E5%AF%B9%E6%AF%94%EF%BC%8C%E4%BC%98%E5%8C%96%E5%85%89%E7%85%A7%E7%AD%89%E7%AD%89%E3%80%82%E4%B8%8D%E6%98%AF%E5%BE%88%E6%9C%89%E7%BB%84%E7%BB%87%E7%9A%84%E6%B5%81%E7%A8%8B%EF%BC%8C%E4%BD%86%E8%BF%98%E6%98%AF%E8%83%BD%E5%B8%AE%E6%88%91%E7%94%BB%E5%87%BA%E4%B8%80%E5%B9%85%E7%94%BB%E3%80%82">https://knowyourmeme.com/photos/572078-how-to-draw-an-owl），主要是找到锯齿，一个个的修复。在这个过程中我会不断添加细节，增强对比，优化光照等等。不是很有组织的流程，但还是能帮我画出一幅画。</a></p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>练习！如果一整个场景对你来说有些难，就从简单点的开始，像是石头，树墩。这个技术能产出很有机，很油画感的作品，很适合画背景或自然事物，比如植物，水，山。</p>
-]]></content>
-      <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开始画像素画#3</title>
     <url>/archives/90b77012.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zie8htlj31hc0u0dje.jpg"></p>
@@ -4830,6 +4918,65 @@
 <p>接下来我建议多试试时间轴，试着画点别的动画。你可以看看我其他的教程，选个感兴趣的跟着画画。</p>
 <p>另外也可以试试经典的初学者练习，画一个面粉袋走和跳的动画：<br><a href="https://www.youtube.com/watch?v=C8cbTGshkZw%E3%80%82">https://www.youtube.com/watch?v=C8cbTGshkZw。</a></p>
 <p>暂时保持低一点的分辨率和颜色数，不要太复杂了。</p>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开始画像素画#2</title>
+    <url>/archives/90b77012.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zhhvzmzj31hc0u0434.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解像素绘画的流程，逐渐完善直到达到满意的效果。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7imh83j30u008c74z.jpg"></p>
+<p>相关链接：</p>
+<ul>
+<li>Pedro Medeiros@Patreon<br><a href="https://www.patreon.com/saint11">https://www.patreon.com/saint11</a></li>
+<li>风农@indienova<br><a href="https://indienova.com/u/fengnong">https://indienova.com/u/fengnong</a></li>
+<li>风农@bilibili 专栏<br><a href="https://www.bilibili.com/read/readlist/rl38114">https://www.bilibili.com/read/readlist/rl38114</a></li>
+</ul>
+<p>像素簇草图和绘画。</p>
+<p>系列的第二篇。</p>
+<p>这个教程会使用 Aseprite。这次我会教大家一个很像传统绘画流程的像素画技术。我一般叫它像素簇草图技术，因为我会从大的像素簇画起，再逐渐完善，直到达到我满意的效果。</p>
+<h3 id="什么是像素簇"><a href="#什么是像素簇" class="headerlink" title="什么是像素簇"></a>什么是像素簇</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7kk00zj30ln0axwec.jpg"></p>
+<p>一个簇，或者颜色簇，或者像素簇，就是一组连续的同色像素。对角线连接的像素算不算还有些争论。我认为也算，我把这种叫弱连接，会尽量避免，不过不会太担心这种。</p>
+<p>画像素画的时候，我的重点是尽量少出现像素簇，而且一定避免单像素的簇。这些单像素的也可以叫孤立像素，通常会让画面看起来有很多噪点，很乱。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7ix03cj30ra0e3q2q.jpg"></p>
+<p>有时候你需要把一个孤立像素删除，但有时候你可能还需要这个细节。对于后者，我有一些喜欢的形状可以代替这个孤立像素，就是饼干下面这些绿色形状。不过有些时候它也可以用，像是纹理，抗锯齿（以后的章节会讲），以及一些强细节，比如下面骷髅里的红色眼睛：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7jxpdvj307o07j0nc.jpg"></p>
+<h3 id="开始画"><a href="#开始画" class="headerlink" title="开始画"></a>开始画</h3><p>我们来画点什么。我要画一个小的场景，用 <code>DB32</code> 调色盘，分辨率用 <code>100</code> 乘以 <code>64</code> 像素。对这个练习我推荐用个手绘板，因为自然的线条对结果能有些帮助。</p>
+<p>如果你觉得这个场景有些复杂，可以自己去掉一些东西，比如建筑，或者人。实验新的技术时一定要画自己舒服的东西。如果觉得画布太大，或者太小，就自己改一下尺寸，不过我不建议小于 <code>64</code> 或者大于 <code>128</code>，暂时别。</p>
+<h4 id="第一步：大簇"><a href="#第一步：大簇" class="headerlink" title="第一步：大簇"></a>第一步：大簇</h4><p>上次我们是画了线条，再用颜色填充内部。这次我们直接开始画颜色。大致的画上你想画的东西，重点在选择颜色和氛围。自由的下笔，不要加细节。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7lcj7dj30nj085t8h.jpg"></p>
+<p>这个技术的思路是从大的色块开始，每一步逐渐改小。这是少数可以用 <code>2</code> 或者 <code>3</code> 个像素宽度的画笔的情况。可以按 + 或者 - 来调节笔刷大小。另外一种方式是画出一个簇的轮廓，再用油漆桶填充颜色，快捷键是 G。</p>
+<h4 id="第二步：改良"><a href="#第二步：改良" class="headerlink" title="第二步：改良"></a>第二步：改良</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7ktfnnj30ms0f0web.jpg"></p>
+<p>你可以看出我是从远处开始，像天空和山，然后添加了建筑，再添加了人物剪影。这是一种常见的绘画技巧，对像素画也很适用。这个思路是先准备好基础，再往上面放东西，用这种方法比较容易选择颜色，以及确定物体尺寸。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7lvuf3j30es07dq2t.jpg"></p>
+<p>像这类图我喜欢用图层，把天空，建筑，地面放到不同的图层。要新建图层，可以在时间轴上，右键点击“layer 1”这里，选择新建图层（<code>New Layer</code>）。你可以建任意多的图层，不过我会保持图层尽可能的少，不然会很乱。</p>
+<h4 id="第三步：修正锯齿，添加细节"><a href="#第三步：修正锯齿，添加细节" class="headerlink" title="第三步：修正锯齿，添加细节"></a>第三步：修正锯齿，添加细节</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7m739fj30gi0eba9u.jpg"></p>
+<p>什么算锯齿？好吧，听起来可能很复杂，但其实没有。</p>
+<p>锯齿指的是像素画里不必要的拐角，通常是手自然运动绘画时，缺少抗锯齿的副作用。</p>
+<p>想象你需要修正的边界是个楼梯，每一阶上的像素数量要有逻辑。我们要计算像素数，保证曲线接近于水平时，像素数量是逐渐增加的，当曲线接近垂直时是逐渐减少的。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7jfk5oj308y07f0sh.jpg"></p>
+<p>分解一下，每一条线或者簇的边界都应该遵从一些逻辑。你能看到在我的例子里，一个完美曲线中的各阶的像素数递增再递减。这就是曲线的行为，通常会遵守一些几何比例，以指数递增或者递减。</p>
+<p>锯齿就是这个逻辑里的错误点。是曲线中间突然增加或者减少的地方。数量可以增加或者减少的很快，只要曲线符合逻辑。</p>
+<p>修复的时候，把像素来回移动，让各阶保持一致，或者正确的增加减少。</p>
+<p>现在回到我们的画。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7nr5gej30p609ddfo.jpg"></p>
+<p>这里的思路就是“最后加上些细节”（<a href="https://knowyourmeme.com/photos/572078-how-to-draw-an-owl%EF%BC%89%EF%BC%8C%E4%B8%BB%E8%A6%81%E6%98%AF%E6%89%BE%E5%88%B0%E9%94%AF%E9%BD%BF%EF%BC%8C%E4%B8%80%E4%B8%AA%E4%B8%AA%E7%9A%84%E4%BF%AE%E5%A4%8D%E3%80%82%E5%9C%A8%E8%BF%99%E4%B8%AA%E8%BF%87%E7%A8%8B%E4%B8%AD%E6%88%91%E4%BC%9A%E4%B8%8D%E6%96%AD%E6%B7%BB%E5%8A%A0%E7%BB%86%E8%8A%82%EF%BC%8C%E5%A2%9E%E5%BC%BA%E5%AF%B9%E6%AF%94%EF%BC%8C%E4%BC%98%E5%8C%96%E5%85%89%E7%85%A7%E7%AD%89%E7%AD%89%E3%80%82%E4%B8%8D%E6%98%AF%E5%BE%88%E6%9C%89%E7%BB%84%E7%BB%87%E7%9A%84%E6%B5%81%E7%A8%8B%EF%BC%8C%E4%BD%86%E8%BF%98%E6%98%AF%E8%83%BD%E5%B8%AE%E6%88%91%E7%94%BB%E5%87%BA%E4%B8%80%E5%B9%85%E7%94%BB%E3%80%82">https://knowyourmeme.com/photos/572078-how-to-draw-an-owl），主要是找到锯齿，一个个的修复。在这个过程中我会不断添加细节，增强对比，优化光照等等。不是很有组织的流程，但还是能帮我画出一幅画。</a></p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>练习！如果一整个场景对你来说有些难，就从简单点的开始，像是石头，树墩。这个技术能产出很有机，很油画感的作品，很适合画背景或自然事物，比如植物，水，山。</p>
 ]]></content>
       <categories>
         <category>开始画像素画 (Making Pixel Art)</category>
@@ -5298,57 +5445,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#x79;&#111;&#110;&#x67;&#x40;&#116;&#x73;&#105;&#110;&#103;&#104;&#117;&#x61;&#46;&#x65;&#100;&#x75;&#46;&#99;&#110;">&#120;&#x79;&#111;&#110;&#x67;&#x40;&#116;&#x73;&#105;&#110;&#103;&#104;&#117;&#x61;&#46;&#x65;&#100;&#x75;&#46;&#99;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#121;&#111;&#x6e;&#103;&#64;&#x74;&#115;&#x69;&#x6e;&#x67;&#104;&#x75;&#x61;&#46;&#x65;&#100;&#117;&#46;&#99;&#x6e;">&#x78;&#121;&#111;&#x6e;&#103;&#64;&#x74;&#115;&#x69;&#x6e;&#x67;&#104;&#x75;&#x61;&#46;&#x65;&#100;&#117;&#46;&#99;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#x75;&#x63;&#104;&#x65;&#x6e;&#64;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#116;&#x73;&#105;&#x6e;&#103;&#x68;&#117;&#97;&#x2e;&#x65;&#100;&#117;&#46;&#x63;&#110;">&#121;&#x75;&#x63;&#104;&#x65;&#x6e;&#64;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#116;&#x73;&#105;&#x6e;&#103;&#x68;&#117;&#97;&#x2e;&#x65;&#100;&#117;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#117;&#99;&#104;&#101;&#110;&#64;&#109;&#97;&#105;&#108;&#46;&#x74;&#x73;&#105;&#110;&#103;&#104;&#117;&#x61;&#46;&#101;&#x64;&#x75;&#46;&#x63;&#x6e;">&#121;&#117;&#99;&#104;&#101;&#110;&#64;&#109;&#97;&#105;&#108;&#46;&#x74;&#x73;&#105;&#110;&#103;&#104;&#117;&#x61;&#46;&#101;&#x64;&#x75;&#46;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#x74;&#x65;&#x72;&#110;&#x61;&#108;&#x2e;&#110;&#x30;&#x38;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#109;">&#101;&#x74;&#x65;&#x72;&#110;&#x61;&#108;&#x2e;&#110;&#x30;&#x38;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x65;&#x74;&#x65;&#x72;&#110;&#97;&#108;&#46;&#110;&#x30;&#x38;&#64;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x65;&#x74;&#x65;&#x72;&#110;&#97;&#108;&#46;&#110;&#x30;&#x38;&#64;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#98;&#106;&#x65;&#99;&#116;&#x6b;&#117;&#x61;&#x6e;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">&#x6f;&#98;&#106;&#x65;&#99;&#116;&#x6b;&#117;&#x61;&#x6e;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#111;&#x62;&#106;&#101;&#99;&#x74;&#107;&#117;&#x61;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#111;&#x62;&#106;&#101;&#99;&#x74;&#107;&#117;&#x61;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#x72;&#x64;&#102;&#x72;&#x61;&#110;&#x6b;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#99;&#x72;&#x64;&#102;&#x72;&#x61;&#110;&#x6b;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x63;&#x72;&#x64;&#102;&#x72;&#97;&#110;&#107;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#x63;&#x72;&#x64;&#102;&#x72;&#97;&#110;&#107;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#x61;&#99;&#x63;&#x6f;&#114;&#97;&#x77;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#x74;&#x61;&#99;&#x63;&#x6f;&#114;&#97;&#x77;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#116;&#97;&#x63;&#99;&#111;&#x72;&#97;&#119;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#116;&#97;&#x63;&#99;&#111;&#x72;&#97;&#119;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#105;&#110;&#121;&#x75;&#x6e;&#x78;&#x69;&#110;&#103;&#48;&#x30;&#48;&#x31;&#x40;&#x31;&#x36;&#51;&#46;&#x63;&#111;&#x6d;">&#120;&#105;&#110;&#121;&#x75;&#x6e;&#x78;&#x69;&#110;&#103;&#48;&#x30;&#48;&#x31;&#x40;&#x31;&#x36;&#51;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x78;&#105;&#x6e;&#x79;&#117;&#110;&#x78;&#x69;&#110;&#x67;&#x30;&#48;&#48;&#x31;&#x40;&#49;&#54;&#51;&#46;&#99;&#111;&#109;">&#x78;&#105;&#x6e;&#x79;&#117;&#110;&#x78;&#x69;&#110;&#x67;&#x30;&#48;&#48;&#x31;&#x40;&#49;&#54;&#51;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#110;&#111;&#x63;&#117;&#x69;&#x6c;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x67;&#110;&#111;&#x63;&#117;&#x69;&#x6c;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#110;&#x6f;&#x63;&#x75;&#105;&#x6c;&#64;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;">&#103;&#110;&#x6f;&#x63;&#x75;&#105;&#x6c;&#64;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#121;&#x61;&#105;&#114;&#105;&#x61;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#109;&#121;&#x61;&#105;&#114;&#105;&#x61;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#121;&#97;&#105;&#114;&#105;&#x61;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;">&#109;&#121;&#97;&#105;&#114;&#105;&#x61;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#x68;&#97;&#x6e;&#103;&#x72;&#x61;&#x69;&#110;&#x39;&#x31;&#x31;&#64;&#49;&#54;&#x33;&#x2e;&#x63;&#x6f;&#109;">&#x7a;&#x68;&#97;&#x6e;&#103;&#x72;&#x61;&#x69;&#110;&#x39;&#x31;&#x31;&#64;&#49;&#54;&#x33;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#122;&#104;&#x61;&#110;&#x67;&#114;&#x61;&#105;&#x6e;&#57;&#x31;&#x31;&#64;&#x31;&#x36;&#51;&#46;&#99;&#111;&#109;">&#122;&#104;&#x61;&#110;&#x67;&#114;&#x61;&#105;&#x6e;&#57;&#x31;&#x31;&#64;&#x31;&#x36;&#51;&#46;&#99;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#x67;&#120;&#x78;&#49;&#x32;&#x30;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#x67;&#120;&#x78;&#49;&#x32;&#x30;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#103;&#x67;&#x78;&#120;&#49;&#x32;&#48;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#103;&#x67;&#x78;&#120;&#49;&#x32;&#48;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -5941,6 +6088,68 @@
       </tags>
   </entry>
   <entry>
+    <title>像素宝典#1</title>
+    <url>/archives/5b27815c.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5yziapgij31hc0u0ak5.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解简单的闪光效果、烟雾效果、攻击动画和跑步循环。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glijhstr5fj30u008c74z.jpg"></p>
+<h3 id="简单的闪光效果"><a href="#简单的闪光效果" class="headerlink" title="简单的闪光效果"></a>简单的闪光效果</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glijhu4pzrg30gg0hsqdi.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji9bylbg30gg0hs130.gif"></p>
+<p>这是个简单的闪光动画，最重要的就是时机的掌握。第三帧可以掠过大部分你想闪的区域。</p>
+<p>可以只用左边的简单效果，或者插入一个空白帧后，再加上右边的额外闪光效果。甚至是只用这个额外的部分，取决于实际的效果。</p>
+<h3 id="简单的攻击动画"><a href="#简单的攻击动画" class="headerlink" title="简单的攻击动画"></a>简单的攻击动画</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glijhwy03pg30e80e87it.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glijhyq5xhg30e80e8n9u-20210210112914871.gif"></p>
+<p>这个稍微复杂点，如何画个最简洁的攻击动画</p>
+<p>做攻击动画最重要的一点就是让玩家输入后瞬间得到反馈。所以第一帧就要立即覆盖攻击判定区域，不要加预判动作，啥都别加。</p>
+<p>整个动作非常的快，还要确保他返回到空闲状态。我通常会额外加一点回弹（第八帧），让动作更有趣一点。</p>
+<blockquote>
+<p>风农：大家要注意这里说的是个简单的动画，如果你的目的是做出某种带有硬直的，或者有起手动作的动画，那肯定要加入一些预备动作的帧。</p>
+<p>其实这里的重点是给反馈，无论是视觉上的还是听觉上的，要迅速的给玩家一个输入的反馈。</p>
+</blockquote>
+<h3 id="烟雾"><a href="#烟雾" class="headerlink" title="烟雾"></a>烟雾</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji6rab1g30e80e8gp4-20210210112943160.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji0bi5wg30e80e8qgs.gif"></p>
+<p>每次处理烟雾，水花，火焰这种复杂系统的动画时，我会把这个系统分解成零件，再把这些部分分别画出来。</p>
+<p>考虑一整团烟雾是如何运动的太复杂了，但是一个小的部分的运动相对来说简单一些。</p>
+<p>最后那个例子是个循环烟雾的效果，跟另外几个的区别在于，我差不多每 4 帧就多生成一些烟雾。并且在第一帧延续最后一帧的粒子效果。以后我会对这个循环动画做一期教程讲解。</p>
+<blockquote>
+<p>风农：最后那个循环动画，大家注意看，就是当烟雾快没了的时候，就再生成几个新的大块，同时最后一帧没有消散的粒子，在第一帧里延续下来。这样就循环起来了。拆开看更清楚。</p>
+</blockquote>
+<h3 id="攻击动画-tips"><a href="#攻击动画-tips" class="headerlink" title="攻击动画 tips"></a>攻击动画 tips</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji1yks4g30e609ctb7.gif"></p>
+<p>这个小 tip 是为了回答来自 Cam 的提问：</p>
+<p>“如果剑在角色身前，该怎么画剑的动画？有什么区别吗？剑停在身后的时候那个弧线比较好懂，我想知道在身前的话该怎么画。”</p>
+<p>好问题，如果剑在身前，直接把它往下移动看起来没什么力。有时候，剑，拳头，或者别的什么东西不在你想要的位置，你可能觉得要加个准备帧。这没错，<strong>但是这可以做个假</strong>。我通常会用个”风斩“，或者其他的模糊效果来模拟它。假装攻击是从你想要的位置发起的，而且极大的夸张了整个动作。玩家不会察觉到缺少了准备帧。另外一个技巧就是用长点的返回动画。</p>
+<p>还有，声明一下，上个教程虽然没提，但是我们做的是”玩家的动画“。敌人的动画是应该有准备帧的。有些游戏里玩家也有准备帧，（像恶魔城 Castlevania）。后面我会在进阶一点的攻击动画教程里详细讲，但一般是需要遵守这条法则的，除非你想让玩家感到无力，或者让敌人不好预测，这类东西。</p>
+<p>风农：教程里频繁出现 anticipation frame 这个词，我通常翻译为准备帧。这个概念可以在网上搜到，比如维基百科有个动画的 12 项基本法则，里面有这么一条：</p>
+<blockquote>
+<p>预期动作（Anticipation）</p>
+<p>物体从静止到开始动作前会有所谓的预期动作，可让观众能预知下个动作。例如从高空往下跳跃时会先弯曲膝盖再跳、正在跑步的人要停止跑步前会逐渐变慢步伐等等。在动画中适当加入预期动作不仅可增添生动性，亦可给予观众惊喜性。</p>
+</blockquote>
+<p>感兴趣的可以去看看另外一些法则，如果你需要示例比对，可以去看猫和老鼠，这些东西基本都是美式动漫的风格。</p>
+<h3 id="简单跑步循环"><a href="#简单跑步循环" class="headerlink" title="简单跑步循环"></a>简单跑步循环</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji7o366g30e80e8dlg.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji64j3ig30e80e8dr9.gif"></p>
+<p>大家好像非常想要个走/跑的教程，这就来了。走/跑的动画还是很复杂的，我尽力做出了我能做到的最简洁的动作。我计划对这个主题再做几个教程，关注不同的部位，比如手臂，腿，头部运动，倾斜度等等。</p>
+<p>对学习走/跑动画的同学，我最大的建议是<strong>注意头部的运动</strong>。即使手和腿的动作不太好，但只要头部动作够好，就可以让人信服。</p>
+<p>现在我解释下为什么选这个跑步循环。可能很多人不会喜欢这个“跳起”帧，更想用“过渡位置”帧，像这种：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji3an8cj302m02r0ak.jpg"></p>
+<p>这种也完全 ok。这里只是我能想到的最简单的方式，来做出适合 platformer 类型的跑步动作。走/跑的动画很能体现角色的个性，所以会有无数种方式来做。</p>
+<p>我倾向于“跳起”帧的原因是它非常容易复制，往下拉一两个像素，再稍微动动手和腿，就能得到个“下落”帧。我觉得这种方法做快跑动画非常高效。</p>
+<p>另一个原因是，如果第一帧是个跳跃，就感觉角色瞬间扎进了动作里，让动画更有活力。</p>
+]]></content>
+      <categories>
+        <category>像素宝典 (Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>PAT (Basic Level) Practice</title>
     <url>/archives/d04381bb.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghj9h9wmvbj30xc0irjwp.jpg"></p>
@@ -6173,68 +6382,6 @@
         <tag>C++</tag>
         <tag>PAT</tag>
         <tag>Online Judge</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>像素宝典#1</title>
-    <url>/archives/5b27815c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5yziapgij31hc0u0ak5.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解简单的闪光效果、烟雾效果、攻击动画和跑步循环。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glijhstr5fj30u008c74z.jpg"></p>
-<h3 id="简单的闪光效果"><a href="#简单的闪光效果" class="headerlink" title="简单的闪光效果"></a>简单的闪光效果</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glijhu4pzrg30gg0hsqdi.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji9bylbg30gg0hs130.gif"></p>
-<p>这是个简单的闪光动画，最重要的就是时机的掌握。第三帧可以掠过大部分你想闪的区域。</p>
-<p>可以只用左边的简单效果，或者插入一个空白帧后，再加上右边的额外闪光效果。甚至是只用这个额外的部分，取决于实际的效果。</p>
-<h3 id="简单的攻击动画"><a href="#简单的攻击动画" class="headerlink" title="简单的攻击动画"></a>简单的攻击动画</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glijhwy03pg30e80e87it.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glijhyq5xhg30e80e8n9u-20210210112914871.gif"></p>
-<p>这个稍微复杂点，如何画个最简洁的攻击动画</p>
-<p>做攻击动画最重要的一点就是让玩家输入后瞬间得到反馈。所以第一帧就要立即覆盖攻击判定区域，不要加预判动作，啥都别加。</p>
-<p>整个动作非常的快，还要确保他返回到空闲状态。我通常会额外加一点回弹（第八帧），让动作更有趣一点。</p>
-<blockquote>
-<p>风农：大家要注意这里说的是个简单的动画，如果你的目的是做出某种带有硬直的，或者有起手动作的动画，那肯定要加入一些预备动作的帧。</p>
-<p>其实这里的重点是给反馈，无论是视觉上的还是听觉上的，要迅速的给玩家一个输入的反馈。</p>
-</blockquote>
-<h3 id="烟雾"><a href="#烟雾" class="headerlink" title="烟雾"></a>烟雾</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji6rab1g30e80e8gp4-20210210112943160.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji0bi5wg30e80e8qgs.gif"></p>
-<p>每次处理烟雾，水花，火焰这种复杂系统的动画时，我会把这个系统分解成零件，再把这些部分分别画出来。</p>
-<p>考虑一整团烟雾是如何运动的太复杂了，但是一个小的部分的运动相对来说简单一些。</p>
-<p>最后那个例子是个循环烟雾的效果，跟另外几个的区别在于，我差不多每 4 帧就多生成一些烟雾。并且在第一帧延续最后一帧的粒子效果。以后我会对这个循环动画做一期教程讲解。</p>
-<blockquote>
-<p>风农：最后那个循环动画，大家注意看，就是当烟雾快没了的时候，就再生成几个新的大块，同时最后一帧没有消散的粒子，在第一帧里延续下来。这样就循环起来了。拆开看更清楚。</p>
-</blockquote>
-<h3 id="攻击动画-tips"><a href="#攻击动画-tips" class="headerlink" title="攻击动画 tips"></a>攻击动画 tips</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji1yks4g30e609ctb7.gif"></p>
-<p>这个小 tip 是为了回答来自 Cam 的提问：</p>
-<p>“如果剑在角色身前，该怎么画剑的动画？有什么区别吗？剑停在身后的时候那个弧线比较好懂，我想知道在身前的话该怎么画。”</p>
-<p>好问题，如果剑在身前，直接把它往下移动看起来没什么力。有时候，剑，拳头，或者别的什么东西不在你想要的位置，你可能觉得要加个准备帧。这没错，<strong>但是这可以做个假</strong>。我通常会用个”风斩“，或者其他的模糊效果来模拟它。假装攻击是从你想要的位置发起的，而且极大的夸张了整个动作。玩家不会察觉到缺少了准备帧。另外一个技巧就是用长点的返回动画。</p>
-<p>还有，声明一下，上个教程虽然没提，但是我们做的是”玩家的动画“。敌人的动画是应该有准备帧的。有些游戏里玩家也有准备帧，（像恶魔城 Castlevania）。后面我会在进阶一点的攻击动画教程里详细讲，但一般是需要遵守这条法则的，除非你想让玩家感到无力，或者让敌人不好预测，这类东西。</p>
-<p>风农：教程里频繁出现 anticipation frame 这个词，我通常翻译为准备帧。这个概念可以在网上搜到，比如维基百科有个动画的 12 项基本法则，里面有这么一条：</p>
-<blockquote>
-<p>预期动作（Anticipation）</p>
-<p>物体从静止到开始动作前会有所谓的预期动作，可让观众能预知下个动作。例如从高空往下跳跃时会先弯曲膝盖再跳、正在跑步的人要停止跑步前会逐渐变慢步伐等等。在动画中适当加入预期动作不仅可增添生动性，亦可给予观众惊喜性。</p>
-</blockquote>
-<p>感兴趣的可以去看看另外一些法则，如果你需要示例比对，可以去看猫和老鼠，这些东西基本都是美式动漫的风格。</p>
-<h3 id="简单跑步循环"><a href="#简单跑步循环" class="headerlink" title="简单跑步循环"></a>简单跑步循环</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji7o366g30e80e8dlg.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji64j3ig30e80e8dr9.gif"></p>
-<p>大家好像非常想要个走/跑的教程，这就来了。走/跑的动画还是很复杂的，我尽力做出了我能做到的最简洁的动作。我计划对这个主题再做几个教程，关注不同的部位，比如手臂，腿，头部运动，倾斜度等等。</p>
-<p>对学习走/跑动画的同学，我最大的建议是<strong>注意头部的运动</strong>。即使手和腿的动作不太好，但只要头部动作够好，就可以让人信服。</p>
-<p>现在我解释下为什么选这个跑步循环。可能很多人不会喜欢这个“跳起”帧，更想用“过渡位置”帧，像这种：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji3an8cj302m02r0ak.jpg"></p>
-<p>这种也完全 ok。这里只是我能想到的最简单的方式，来做出适合 platformer 类型的跑步动作。走/跑的动画很能体现角色的个性，所以会有无数种方式来做。</p>
-<p>我倾向于“跳起”帧的原因是它非常容易复制，往下拉一两个像素，再稍微动动手和腿，就能得到个“下落”帧。我觉得这种方法做快跑动画非常高效。</p>
-<p>另一个原因是，如果第一帧是个跳跃，就感觉角色瞬间扎进了动作里，让动画更有活力。</p>
-]]></content>
-      <categories>
-        <category>像素宝典 (Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
       </tags>
   </entry>
   <entry>
@@ -6603,6 +6750,47 @@
       </tags>
   </entry>
   <entry>
+    <title>Pico-8 精彩代码--漩涡效果解析</title>
+    <url>/archives/2a6e7125.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4obfrjkrj30m80ciaat.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现漩涡的效果。</p>
+<a id="more"></a>
+
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljxi27lo3g30ar0arx6q.gif"></p>
+<h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p><strong>作者：</strong>2DArray<br><strong>来源：</strong>twiiter</p>
+<p>神奇的漩涡效果，代码发布在作者的 twitter 上，整理下只有 11 行：</p>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">p=&#123;<span class="number">130</span>,<span class="number">141</span>,<span class="number">2</span>,<span class="number">136</span>,<span class="number">8</span>,<span class="number">137</span>,<span class="number">142</span>,<span class="number">9</span>&#125;<span class="keyword">for</span> i=<span class="number">1</span>,<span class="number">8</span> <span class="keyword">do</span></span><br><span class="line">pal(i<span class="number">-1</span>,p[i],<span class="number">1</span>)<span class="keyword">end</span>::_::</span><br><span class="line">x=rnd(<span class="number">128</span>)</span><br><span class="line">y=rnd(<span class="number">128</span>)</span><br><span class="line">d=<span class="built_in">sqrt</span>((x<span class="number">-64</span>)^<span class="number">2</span>+(y<span class="number">-64</span>)^<span class="number">2</span>)-t()*<span class="number">4</span></span><br><span class="line">a=<span class="built_in">atan2</span>(y<span class="number">-64</span>,x<span class="number">-64</span>)*<span class="number">16</span></span><br><span class="line">pset(x,y,(a+d/<span class="number">4</span>)%<span class="number">8</span>)<span class="keyword">goto</span> _</span><br></pre></td></tr></table></figure>
+<p>1-4 行代码是调色板映射代码，用来实现渐变的颜色。我们知道 pico8 只有 16 种颜色，16 种颜色很难配合出渐变的过渡效果。这里作者用到 pico8 隐藏的调色板，变量 <code>p</code> 中的 <code>130, 141, 136, 137, 142</code> 都是隐藏调色板的色号。这个隐藏的调色板在官方文档里也没有介绍，在论坛翻了了好久才找到，新旧两个调色板的对比，我做了个对比图：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljxixth3gj307d03ldfl.jpg"></p>
+<p>6-9 行定义了 4 个参数：</p>
+<ul>
+<li><code>x, y</code> 在屏幕范围内随机取值</li>
+<li><code>d</code> 是取的点 <code>(x, y)</code> 相对于 <code>(64, 64)</code> 即中心点的距离，后面的 <code>t()*4</code> 是为了使距离根据运行时间改变</li>
+<li><code>a</code> 是点 <code>(x, y)</code> 相对于中心点的角度，pico8 中 <code>atan2</code> 的返回值是 <code>0-1</code>，对应着 <code>0°-360°</code>。后面的 <code>*16</code> 将 <code>a</code> 的取值变成了 <code>0-16</code></li>
+</ul>
+<p>第 10 行 根据 <code>d</code> 和 <code>a</code> 的值将对应颜色填充到 <code>x, y</code>。我们可以分开来看下</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljxktdho3j30ej0eit8h.jpg"></p>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">pset(x,y,a%<span class="number">8</span>)</span><br></pre></td></tr></table></figure>
+<p>如果只用 <code>a</code> 来计算，会将屏幕按照点的到中间点的角度分割成 <code>16</code> 份，这个比较好理解，因为 <code>a</code> 的取值是 <code>0-16</code>，相当于把屏幕中的点映射到 <code>16</code> 个区域。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljxkq5wmrj30ec0ec742.jpg"></p>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">pset(x,y,(d/<span class="number">4</span>)%<span class="number">8</span>)</span><br></pre></td></tr></table></figure>
+<p><code>d</code> 是点到中心的距离，相同距离的圆形区域被填充同一个颜色。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljxl650bjj30ek0eign1.jpg"></p>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">pset(x,y,(a+d/<span class="number">4</span>)%<span class="number">8</span>)</span><br></pre></td></tr></table></figure>
+<p>当把角度和距离加起来的时候神奇的图像就出现了，而且角度 <code>a</code> 必须于 <code>8</code> 的倍数相乘才可以对齐，不知道原理是什么，真的很神奇。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljxi3fnaxj30dq05ogli.jpg"></p>
+]]></content>
+      <categories>
+        <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Game Engine</tag>
+        <tag>Lua</tag>
+        <tag>Pico-8</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Pico-8 精彩代码--植物生长效果解析</title>
     <url>/archives/9c0e841f.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkqxm3p0xkj30m80cidgo.jpg"></p>
@@ -6644,47 +6832,6 @@
 <p>这样复杂的操作仅仅是为了打印一个字号比较大的 GROW 而已，因为自带的 <code>print</code> 函数不能设置字号。这样做会把  pico-8 中精灵编辑器中前 6 行的内容都覆盖掉，所以直接在精灵编辑器中编辑再显示在屏幕中是个更好的选择。这里作者肯定是为了简便才使用这种直接打字的方式。</p>
 <h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>这种随机遍历每个像素点来实现的特效会消耗大量的 cpu，用在游戏中的话还需要做相应的简化。虽然这种奇技淫巧看起来很难用到游戏里，但是这也是可以逐像素操作的 pico-8 魅力所在。当然在其他游戏引擎中，就可以用像素着色器（Shader）更有效率的实现这种算法，使其变得可用。作者使用 <code>u</code>, <code>v</code> 做变量名，应该也是 Shader 写法的影响。</p>
 <p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkr4eaxqy4g30dy05c0wm.gif"></p>
-]]></content>
-      <categories>
-        <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Game Engine</tag>
-        <tag>Lua</tag>
-        <tag>Pico-8</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Pico-8 精彩代码--漩涡效果解析</title>
-    <url>/archives/2a6e7125.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4obfrjkrj30m80ciaat.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现漩涡的效果。</p>
-<a id="more"></a>
-
-<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljxi27lo3g30ar0arx6q.gif"></p>
-<h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p><strong>作者：</strong>2DArray<br><strong>来源：</strong>twiiter</p>
-<p>神奇的漩涡效果，代码发布在作者的 twitter 上，整理下只有 11 行：</p>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">p=&#123;<span class="number">130</span>,<span class="number">141</span>,<span class="number">2</span>,<span class="number">136</span>,<span class="number">8</span>,<span class="number">137</span>,<span class="number">142</span>,<span class="number">9</span>&#125;<span class="keyword">for</span> i=<span class="number">1</span>,<span class="number">8</span> <span class="keyword">do</span></span><br><span class="line">pal(i<span class="number">-1</span>,p[i],<span class="number">1</span>)<span class="keyword">end</span>::_::</span><br><span class="line">x=rnd(<span class="number">128</span>)</span><br><span class="line">y=rnd(<span class="number">128</span>)</span><br><span class="line">d=<span class="built_in">sqrt</span>((x<span class="number">-64</span>)^<span class="number">2</span>+(y<span class="number">-64</span>)^<span class="number">2</span>)-t()*<span class="number">4</span></span><br><span class="line">a=<span class="built_in">atan2</span>(y<span class="number">-64</span>,x<span class="number">-64</span>)*<span class="number">16</span></span><br><span class="line">pset(x,y,(a+d/<span class="number">4</span>)%<span class="number">8</span>)<span class="keyword">goto</span> _</span><br></pre></td></tr></table></figure>
-<p>1-4 行代码是调色板映射代码，用来实现渐变的颜色。我们知道 pico8 只有 16 种颜色，16 种颜色很难配合出渐变的过渡效果。这里作者用到 pico8 隐藏的调色板，变量 <code>p</code> 中的 <code>130, 141, 136, 137, 142</code> 都是隐藏调色板的色号。这个隐藏的调色板在官方文档里也没有介绍，在论坛翻了了好久才找到，新旧两个调色板的对比，我做了个对比图：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljxixth3gj307d03ldfl.jpg"></p>
-<p>6-9 行定义了 4 个参数：</p>
-<ul>
-<li><code>x, y</code> 在屏幕范围内随机取值</li>
-<li><code>d</code> 是取的点 <code>(x, y)</code> 相对于 <code>(64, 64)</code> 即中心点的距离，后面的 <code>t()*4</code> 是为了使距离根据运行时间改变</li>
-<li><code>a</code> 是点 <code>(x, y)</code> 相对于中心点的角度，pico8 中 <code>atan2</code> 的返回值是 <code>0-1</code>，对应着 <code>0°-360°</code>。后面的 <code>*16</code> 将 <code>a</code> 的取值变成了 <code>0-16</code></li>
-</ul>
-<p>第 10 行 根据 <code>d</code> 和 <code>a</code> 的值将对应颜色填充到 <code>x, y</code>。我们可以分开来看下</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljxktdho3j30ej0eit8h.jpg"></p>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">pset(x,y,a%<span class="number">8</span>)</span><br></pre></td></tr></table></figure>
-<p>如果只用 <code>a</code> 来计算，会将屏幕按照点的到中间点的角度分割成 <code>16</code> 份，这个比较好理解，因为 <code>a</code> 的取值是 <code>0-16</code>，相当于把屏幕中的点映射到 <code>16</code> 个区域。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljxkq5wmrj30ec0ec742.jpg"></p>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">pset(x,y,(d/<span class="number">4</span>)%<span class="number">8</span>)</span><br></pre></td></tr></table></figure>
-<p><code>d</code> 是点到中心的距离，相同距离的圆形区域被填充同一个颜色。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljxl650bjj30ek0eign1.jpg"></p>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">pset(x,y,(a+d/<span class="number">4</span>)%<span class="number">8</span>)</span><br></pre></td></tr></table></figure>
-<p>当把角度和距离加起来的时候神奇的图像就出现了，而且角度 <code>a</code> 必须于 <code>8</code> 的倍数相乘才可以对齐，不知道原理是什么，真的很神奇。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljxi3fnaxj30dq05ogli.jpg"></p>
 ]]></content>
       <categories>
         <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
@@ -9282,6 +9429,194 @@
       </tags>
   </entry>
   <entry>
+    <title>Markdown入门指南</title>
+    <url>/archives/6f3ff15d.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2tm1nc2nj31360go78r.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>有关 Markdown 的概述、工作原理、用途以及语法快速参考手册 / 速查表。</p>
+<a id="more"></a>
+
+
+
+<h3 id="入门指南"><a href="#入门指南" class="headerlink" title="入门指南"></a>入门指南</h3><h4 id="Markdown-是什么？"><a href="#Markdown-是什么？" class="headerlink" title="Markdown 是什么？"></a>Markdown 是什么？</h4><p>Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添加格式化元素。Markdown 由 <a href="https://daringfireball.net/projects/markdown/">John Gruber</a> 于 2004 年创建，如今已成为世界上最受欢迎的标记语言之一。</p>
+<p>使用 Markdown 与使用 <a href="https://en.wikipedia.org/wiki/WYSIWYG">WYSIWYG</a> 编辑器不同。在 Microsoft Word 之类的应用程序中，单击按钮以设置单词和短语的格式，并且，更改立即可见。而 Markdown 与此不同，当你创建 Markdown 格式的文件时，可以在文本中添加 Markdown 语法，以指示哪些单词和短语看起来应该有所不同。</p>
+<p>例如，要表示标题，只须在短语前面添加一个井号即可（例如， <code># Heading One</code>）。或者要加粗一个短语，只须在短语前后各加两个星号即可（例如，<code>**this text is bold**</code>）。可能需要一段时间才能习惯在文本中看到 Markdown 语法，尤其是如果你已习惯了所见即所得的应用程序。以下屏幕截展示了 Markdown 文件在 <a href="https://atom.io/">Atom 文本编辑器</a> 中显示的效果。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2troxzhbj31360go78r.jpg"></p>
+<p>你可以使用文本编辑器为纯文本文件添加 Markdown 格式的元素。或者，你也可以安装针对 macOS、Windows、Linux、iOS 和 Android 操作系统的 Markdown 应用程序。或者还可以使用一些基于 Web 的应用程序用于 Markdown 编写。</p>
+<p>依赖于你所使用的应用程序，你可能无法实时预览格式化的文档。但是没关系。<a href="https://daringfireball.net/projects/markdown/">根据 Gruber 的说法</a>，Markdown 的语法被设计为可读性强且不显眼，因此即使 Markdown 文件中的文本未经过渲染也易于阅读。</p>
+<blockquote>
+<p>Markdown 语法的首要设计目标是尽可能易读。基于这个目标，Markdown 格式的文档能够以纯文本形式原样发布，而不会看起来像被填满了标签或格式化指令。</p>
+</blockquote>
+<h4 id="为什么要使用-Markdown？"><a href="#为什么要使用-Markdown？" class="headerlink" title="为什么要使用 Markdown？"></a>为什么要使用 Markdown？</h4><p>你可能想知道为什么人们使用 Markdown 而不是所用即所得（WYSIWYG）编辑器。当你可以通过按下界面中的按钮来设置文本格式时，为什么还要使用 Markdown 来书写呢？事实证明，人们使用 Markdown 而不是 WYSIWYG 编辑器的原因有两个：</p>
+<ul>
+<li>Markdown 处处可用。人们使用它来创建 <a href="https://www.markdown.xyz/getting-started/#websites">网站</a>、<a href="https://www.markdown.xyz/getting-started/#documents">文档</a>、<a href="https://www.markdown.xyz/getting-started/#notes">便签</a>、<a href="https://www.markdown.xyz/getting-started/#books">书籍</a>、<a href="https://www.markdown.xyz/getting-started/#presentations">演示文稿</a>、<a href="https://www.markdown.xyz/getting-started/#email">邮件</a> 和 <a href="https://www.markdown.xyz/getting-started/#documentation">技术文档</a>。</li>
+<li>Markdown 是可移植的。几乎可以使用任何应用程序打开包含 Markdown 格式的文本文件。如果你不喜欢当前使用的 Markdown 应用程序了，则可以将 Markdown 文件导入另一个 Markdown 应用程序中。这与 Microsoft Word 等文字处理应用程序形成了鲜明的对比，Microsoft Word 将你的内容锁定在专有文件格式中。</li>
+<li>Markdown 是独立于平台的。你可以在运行任何操作系统的任何设备上创建 Markdown 格式的文本。</li>
+<li>Markdown 能适应未来的变化。即使你正在使用的应用程序将来会在某个时候不能使用了，你仍然可以使用文本编辑器读取 Markdown 格式的文本。当涉及需要无限期保存的书籍、大学论文和其他里程碑式的文件时，这是一个重要的考虑因素。</li>
+<li>Markdown 无处不在。例如 Reddit 和 GitHub 等网站都支持 Markdown，许多桌面和基于 Web 的应用程序也都支持 Markdown。</li>
+</ul>
+<h4 id="工欲善其事，必先利其器"><a href="#工欲善其事，必先利其器" class="headerlink" title="工欲善其事，必先利其器"></a>工欲善其事，必先利其器</h4><p>Markdown 入门的最佳方式就是多使用它。由于有大量免费工具的存在，这比以前任何时候都更容易开始上手了。</p>
+<p>你甚至都不需要下载任何程序，就可以使用几种在线的 Markdown 编辑器来编写 Markdown。<a href="https://dillinger.io/">Dillinger</a> 是最好的在线 Markdown 编辑器之一。进入其站点就可以开始在左侧窗格中书写了。渲染后的文档在右侧窗格预览。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2trprsuuj30s90mugnd.jpg"></p>
+<p>阅读本指南时，你可以打开 Dillinger 网站。这样，你就可以一边学习 Markdown 语法一边练习了。熟悉 Markdown 之后，你可以在台式计算机或移动设备上安装支持 Markdown 的应用程序。</p>
+<h4 id="Markdown-的工作原理"><a href="#Markdown-的工作原理" class="headerlink" title="Markdown 的工作原理"></a>Markdown 的工作原理</h4><p>Dillinger 让 Markdown 的编写变得容易，因为它隐藏了幕后发生的事情，但是该过程的总体工作方式是值得探索的。</p>
+<p>在使用 Markdown 格式书写时，文本内容存储在带有 <code>.md</code> 或 <code>.markdown</code> 扩展名的纯文本文件中。那然后呢？你的 Markdown 格式的文件如何转换为 HTML 或可打印的文档呢？</p>
+<p>简单来说，你需要一个能够处理 Markdown 文件的 <em>Markdown 应用程序</em>。有许多应用程序可供选择，从简单的脚本到类似于 Microsoft Word 的桌面应用程序，应有尽有。尽管它们在视觉上有所不同，但所有应用程序都执行相同的操作。像 Dillinger 一样，它们都是将 Markdown 格式的文本转换为 HTML，以便可以在 Web 浏览器中显示。</p>
+<p>Markdown 应用程序使用一种称为 <em>Markdown 处理器</em>（也通常称为“解析器”或“实现”）的东西将获取到的 Markdown 格式的文本输出为 HTML 格式。此时，可以在 Web 浏览器中查看你的文档，或者将其与样式表组合并打印。你可以在下图看到此过程的直观表示。</p>
+<p><strong>注意：</strong> Markdown 应用程序和处理器是两个单独的组件。为了简洁起见，在下图中，我将它们组合为一个元素（即 “Markdown应用程序”）。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2trq3ugbj30c00ewwec.jpg"></p>
+<p>总而言之，这是一个四步的过程：</p>
+<ol>
+<li>使用文本编辑器或 Markdown 专用的应用程序创建 Markdown 文件。该文件应带有 <code>.md</code> 或 <code>.markdown</code> 扩展名。</li>
+<li>在 Markdown 应用程序中打开 Markdown 文件。</li>
+<li>使用 Markdown 应用程序将 Markdown 文件转换为 HTML 文档。</li>
+<li>在 web 浏览器中查看 HTML 文件，或使用 Markdown 应用程序将其转换为其他文件格式，例如 PDF。</li>
+</ol>
+<p>从你的角度来看，该过程将根据你使用的应用程序的不同而有所不同。例如，Dillinger 本质上将第 1-3 步组合到一个单一、无缝的界面中，你要做的就是在左窗格中键入内容，然后转换结果就在右窗格中就神奇地出现了。但是，如果你使用的是其他工具（例如带有静态网站生成器的文本编辑器），则会发现该过程更为明显。</p>
+<h4 id="Markdown-有什么用？"><a href="#Markdown-有什么用？" class="headerlink" title="Markdown 有什么用？"></a>Markdown 有什么用？</h4><p>Markdown 是做笔记、为网站创建内容以及生成可打印文档的快速、简便的方法。</p>
+<p>学习 Markdown 语法并不需要很长时间，一旦你知道如何使用它，你就可以在几乎所有地方使用 Markdown 进行书写了。大多数人使用 Markdown 来为网站创建内容，但是 Markdown 也可以很好地格式化从电子邮件到购物清单的所有内容。</p>
+<p>下面是一些你可以使用 Markdown 的场景。</p>
+<h5 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h5><p>Markdown 是为 web 而设计的，因此，市面上有很多专门用于创建网站内容的应用程序就不足为奇了。</p>
+<p>如果你您正在寻找利用 Markdown 文件创建网站的最简单方法，请参考 <a href="https://blot.im/">blot.im</a> 和 <a href="https://smallvictori.es/">smallvictori.es</a> 两个站点。在你注册某个服务之后，它们将在你的计算机上创建一个 Dropbox 文件夹。你只需将 Markdown 文件拖放到该文件夹中，然后嗖的一声，这些文件就在你的网站上了。再简单不过了。</p>
+<p>如果您熟悉 HTML、CSS和版本管理工具，请试试 Jekyll，这是一个广受欢迎的静态网站生成器，它能将 Markdown 文件并构建为 HTML 网站。这种方法的优势之一是 GitHub Pages 为 Jekyll 生成的网站提供免费托管服务。如果 Jekyll 不是你的理想之选，你可以在 其它大量可用的静态站点生成器 中选择一个。</p>
+<p><strong>注意：</strong> 此 <em>Markdown 指南</em> 就是用 Jekyll 创建的。你可以在 <a href="https://github.com/mattcone/markdown-guide">GitHub</a> 上查看其源码。</p>
+<p>如果你想使用内容管理系统（CMS）来支撑你的网站，请试试 <a href="https://www.markdown.xyz/tools/ghost/">Ghost</a>。这是一个免费的开源博客平台，具有出色的 Markdown 编辑器。如果你是 WordPress 用户，你将很高兴地知道 WordPress.com 上托管的网站都 <a href="https://en.support.wordpress.com/markdown/">支持 Markdown</a>。自托管的 WordPress 网站可以使用 <a href="https://jetpack.com/support/markdown/">Jetpack 插件</a>实现对 Markdown 的支持。</p>
+<h5 id="文件资料"><a href="#文件资料" class="headerlink" title="文件资料"></a>文件资料</h5><p>Markdown 并不具备像 Microsoft Word 这样的文字处理程序的所有功能，但是对于创建基本文件（例如作业和信件）来说已经足够了。你可以使用 Markdown 文档创作工具来创建 Markdown 格式的文档并将其导出为 PDF 或 HTML 格式。PDF 格式是关键，因为一旦有了 PDF 文档，您就可以使用它进行任何操作：打印、通过电子邮件发送或将其上传到网站。</p>
+<p>这是我推荐的一些Markdown文档创作工具：</p>
+<ul>
+<li>Mac: MacDown、iA Writer 或 Marked</li>
+<li>iOS / Android: iA Writer</li>
+<li>Windows: ghostwriter 或 Markdown Monster</li>
+<li>Linux: ReText 或 ghostwriter</li>
+<li>Web: Dillinger 或 StackEdit</li>
+</ul>
+<p>提示： iA Writer 提供了模板用于预览、打印和导出 Markdown 格式的文档。例如，“ Academic – MLA 样式”的模板会缩进段落并添加双倍行间距。</p>
+<h5 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h5><p>在几乎所有方面，Markdown 都是记笔记的理想语法。不幸的是，两个最受欢迎的笔记应用程序 <a href="https://evernote.com/">Evernote</a> 和 <a href="https://www.onenote.com/">OneNote</a> 目前都不支持 Markdown。好消息是，其他一些笔记应用程序 <em>是</em> 支持 Markdown 的：</p>
+<ul>
+<li>Simplenote 是适用于所有平台的免费、简单的笔记应用程序。</li>
+<li>Notable 是可以在各种平台上运行的笔记应用程序。</li>
+<li>Bear 是适用于 Mac 和 iOS 设备的类似 Evernote 的应用程序。默认情况下，它并不专门针对 Markdown 的，但是你可以启用 Markdown 兼容模式。</li>
+<li>Boostnote 自称是“专为程序员设计的开源笔记应用程序”。</li>
+</ul>
+<p>如果你无法放弃 Evernote，可以试试 <a href="https://marxi.co/">Marxico</a>，一个专门针对 Evernote 的基于订阅付费的 Markdown编辑器，或在 Evernote 网站上使用 <a href="https://www.markdown.xyz/tools/markdown-here/">Markdown Here</a> 插件。</p>
+<h5 id="书籍"><a href="#书籍" class="headerlink" title="书籍"></a>书籍</h5><p>想要自行出版小说？请试试 <a href="https://leanpub.com/">Leanpub</a>，该服务可将你的 Markdown 格式的文件转换为电子书。Leanpub 以 PDF、EPUB 和 MOBI 文件格式输出你的图书。如果你要创建纸版书籍，可以将 PDF 文件上传到类似 <a href="https://kdp.amazon.com/">Kindle Direct Publishing</a> 之类的服务提供商处。要了解有关使用 Markdown 编写和自行出版书籍的更多信息，请阅读 <a href="https://medium.com/techspiration-ideas-making-it-happen/how-i-wrote-and-published-my-novel-using-only-open-source-tools-5cdfbd7c00ca">此博文</a>。</p>
+<h5 id="演示文稿"><a href="#演示文稿" class="headerlink" title="演示文稿"></a>演示文稿</h5><p>信不信由你，你可以将 Markdown 格式的文件转换成演示文稿。在 Markdown 中创建演示文稿需要一点时间来适应，但是一旦你掌握了它，你就能体会到比使用 PowerPoint 或 Keynote 之类的应用程序更快、更容易。<a href="https://remarkjs.com/">Remark</a>（<a href="https://github.com/gnab/remark">GitHub 仓库</a>）和 <a href="https://jdan.github.io/cleaver/">Cleaver</a>（<a href="https://github.com/jdan/cleaver">GitHub 仓库</a>）一样，是一种基于浏览器的、流行的 Markdown 幻灯片工具。如果你使用的是 Mac，并且希望安装一个应用程序来使用的话，请试试 <a href="https://www.decksetapp.com/">Deckset</a> 或 <a href="https://marked2app.com/">Marked</a>。</p>
+<h5 id="邮件"><a href="#邮件" class="headerlink" title="邮件"></a>邮件</h5><p>如果你需要发送大量电子邮件，并且对大多数电子邮件提供商网站上可用的格式设置控件感到厌倦，那么你将很高兴地发现有一种使用 Markdown 编写电子邮件的简便方法：Markdown Here 是一个免费、开源的浏览器扩展程序，可将 Markdown 格式的文本转换为可用于发送的 HTML。</p>
+<h5 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h5><p>Markdown 非常适合技术文档。像 GitHub 这样的公司越来越多地转向使用 Markdown 来创建其文档了，请查看此 博文 以了解如何将 Markdown 格式的文档迁移到 Jekyll。如果你是为产品或服务编写文档，请试试以下的便捷工具：</p>
+<ul>
+<li>Read the Docs 可以将你所开源的 Markdown 文件生成文档网站。只需将你的 GitHub 仓库连接到他们的服务，然后你就可以将内容推送到该仓库中，Read the Docs 会完成其余的工作。他们还为 商业实体提供服务。</li>
+<li>MkDocs 是一个快速、简单的静态站点生成器，专门用于构建项目文档。文档源文件使用 Markdown 编写，并使用一个 YAML 配置文件进行配置。MkDocs 有多个 内置主题，包括移植自 Read the Docs 的文档主题。最新的一个主题是 MkDocs Material。</li>
+<li>Docusaurus 是一个静态网站生成器，专门用于创建文档网站。它支持翻译、搜索和版本控制。</li>
+<li>VuePress 是基于 Vue 构建的静态站点生成器，并针对编写技术文档进行了优化。</li>
+<li>Jekyll 前面已经提到过它了，但它也是将 Markdown 文件生成文档网站的一个不错的选择。如果你选择 Jekyll，请务必试试 Jekyll 文档主题。</li>
+</ul>
+<h4 id="Markdown-方言"><a href="#Markdown-方言" class="headerlink" title="Markdown 方言"></a>Markdown 方言</h4><p>使用 Markdown 的过程中，最令人困惑的地方是：实际上每个 Markdown 应用程序都实现了稍有不同的 Markdown 语法。Markdown 的这些变体通常被称为 <em>flavors（方言）</em>。掌握你的应用程序所实现的 Markdown 语法是你需要注意的。</p>
+<p>为了让你了解各 Markdown 方言的概念，将它们比作语言的方言（language dialects）可能会有所帮助。华雷斯城（Ciudad Juárez）的人说西班牙语，就像巴塞罗那（Barcelona）人一样，但是两个城市使用的方言之间有很大的不同。使用不同 Markdown 应用程序的人也是如此。Dillinger 支持的 Markdown 格式与 Ulysses 有着很大的不同。</p>
+<p>实际上，这意味着当一个应用程序说它支持 “Markdown” 时，你永远也不会确切地知到它的实际意思。它说的是仅支持基本语法？还是所有基本语法加扩展语法 ？或者是某些语法的组合呢？在你阅读其文档或开始使用该应用程序之前，你永远都不会知道。</p>
+<p>如果你只是新手，我能给你的最好建议就是选择一个具有良好 Markdown 支持的应用程序。这对保持 Markdown 文件的可移植性大有帮助。你可能需要在其它应用程序中保存或使用你的 Markdown 文件，要实现这一点，你应当从使用一个具有良好 Markdown 支持的应用程序开始。你可以在 Markdown 工具列表中找到合适的应用程序。</p>
+<h4 id="其它资源"><a href="#其它资源" class="headerlink" title="其它资源"></a>其它资源</h4><p>网上有很多资源用来学习 Markdown。以下列出一些：</p>
+<ul>
+<li><a href="https://daringfireball.net/projects/markdown/">John Gruber’s Markdown documentation</a>. Markdown 的创建者编写的原始指南。</li>
+<li><a href="https://www.markdowntutorial.com/">Markdown Tutorial</a>. 一个开源网站，你能用浏览器在这个网站上尝试 Markdown。</li>
+<li><a href="https://github.com/mundimark/awesome-markdown">Awesome Markdown</a>. Markdown 工具和学习资源列表。</li>
+<li><a href="https://dave.autonoma.ca/blog/2019/05/22/typesetting-markdown-part-1">Typesetting Markdown</a>. 这是一个系列教程，介绍了使用 <a href="https://pandoc.org/">pandoc</a> 和 <a href="https://www.contextgarden.net/">ConTeXt</a> 对 Markdown 文档进行排版的系统。</li>
+</ul>
+<h3 id="速查表"><a href="#速查表" class="headerlink" title="速查表"></a>速查表</h3><h4 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h4><p>这些是 John Gruber 的原始设计文档中列出的元素。所有 Markdown 应用程序都支持这些元素。</p>
+<table>
+<thead>
+<tr>
+<th>元素</th>
+<th>Markdown 语法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>标题（Heading）</td>
+<td><code># H1## H2### H3</code></td>
+</tr>
+<tr>
+<td>粗体（Bold）</td>
+<td><code>**bold text**</code></td>
+</tr>
+<tr>
+<td>斜体（Italic）</td>
+<td><code>*italicized text*</code></td>
+</tr>
+<tr>
+<td>引用块（Blockquote）</td>
+<td><code>&gt; blockquote</code></td>
+</tr>
+<tr>
+<td>有序列表（Ordered List）</td>
+<td><code>1. First item2. Second item3. Third item</code></td>
+</tr>
+<tr>
+<td>无序列表（Unordered List）</td>
+<td><code>- First item- Second item- Third item</code></td>
+</tr>
+<tr>
+<td>代码（Code）</td>
+<td><code>code</code></td>
+</tr>
+<tr>
+<td>分隔线（Horizontal Rule）</td>
+<td><code>---</code></td>
+</tr>
+<tr>
+<td>链接（Link）</td>
+<td><code>[title](https://www.example.com)</code></td>
+</tr>
+<tr>
+<td>图片（Image）</td>
+<td><code>![alt text](image.jpg)</code></td>
+</tr>
+</tbody></table>
+<h4 id="扩展语法"><a href="#扩展语法" class="headerlink" title="扩展语法"></a>扩展语法</h4><p>这些元素通过添加额外的功能扩展了基本语法。但是，并非所有 Markdown 应用程序都支持这些元素。</p>
+<table>
+<thead>
+<tr>
+<th>元素</th>
+<th>Markdown 语法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>表格（Table）</td>
+<td></td>
+</tr>
+<tr>
+<td>代码块（Fenced Code Block）</td>
+<td><code>&#123; &quot;firstName&quot;: &quot;John&quot;, &quot;lastName&quot;: &quot;Smith&quot;, &quot;age&quot;: 25&#125;</code></td>
+</tr>
+<tr>
+<td>脚注（Footnote）</td>
+<td><code>Here&#39;s a sentence with a footnote. [^1][^1]: This is the footnote.</code></td>
+</tr>
+<tr>
+<td>标题编号（Heading ID）</td>
+<td><code>### My Great Heading &#123; #custom-id&#125;</code></td>
+</tr>
+<tr>
+<td>定义列表（Definition List）</td>
+<td><code>term: definition</code></td>
+</tr>
+<tr>
+<td>删除线（Strikethrough）</td>
+<td><code>~~The world is flat.~~</code></td>
+</tr>
+<tr>
+<td>任务列表（Task List）</td>
+<td><code>- [x] Write the press release- [ ] Update the website- [ ] Contact the media</code></td>
+</tr>
+</tbody></table>
+<h4 id="Downloads"><a href="#Downloads" class="headerlink" title="Downloads"></a>Downloads</h4><p>You can download this cheat sheet as a Markdown file for use in your Markdown application.</p>
+]]></content>
+      <categories>
+        <category>写作技巧 (Write Skill)</category>
+      </categories>
+      <tags>
+        <tag>Write</tag>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown基本语法</title>
     <url>/archives/41c7ed62.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2lggm8g1j30xf0lp43o.jpg"></p>
@@ -9947,194 +10282,6 @@
 <h4 id="HTML-用法最佳实践"><a href="#HTML-用法最佳实践" class="headerlink" title="HTML 用法最佳实践"></a>HTML 用法最佳实践</h4><p>出于安全原因，并非所有 Markdown 应用程序都支持在 Markdown 文档中添加 HTML。如有疑问，请查看 Markdown 应用程序的文档。某些应用程序只支持 HTML 标签的子集。</p>
 <p>对于 HTML 的块级元素 <code>&lt;div&gt;</code>、<code>&lt;table&gt;</code>、<code>&lt;pre&gt;</code> 和 <code>&lt;p&gt;</code>，请在其前后使用空行（blank lines）与其它内容进行分隔。尽量不要使用制表符（tabs）或空格（spaces）对 HTML 标签做缩进，否则将影响格式。</p>
 <p>在 HTML 块级标签内不能使用 Markdown 语法。例如 <code>&lt;p&gt;italic and **bold**&lt;/p&gt;</code> 将不起作用。</p>
-]]></content>
-      <categories>
-        <category>写作技巧 (Write Skill)</category>
-      </categories>
-      <tags>
-        <tag>Write</tag>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown入门指南</title>
-    <url>/archives/6f3ff15d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2tm1nc2nj31360go78r.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>有关 Markdown 的概述、工作原理、用途以及语法快速参考手册 / 速查表。</p>
-<a id="more"></a>
-
-
-
-<h3 id="入门指南"><a href="#入门指南" class="headerlink" title="入门指南"></a>入门指南</h3><h4 id="Markdown-是什么？"><a href="#Markdown-是什么？" class="headerlink" title="Markdown 是什么？"></a>Markdown 是什么？</h4><p>Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添加格式化元素。Markdown 由 <a href="https://daringfireball.net/projects/markdown/">John Gruber</a> 于 2004 年创建，如今已成为世界上最受欢迎的标记语言之一。</p>
-<p>使用 Markdown 与使用 <a href="https://en.wikipedia.org/wiki/WYSIWYG">WYSIWYG</a> 编辑器不同。在 Microsoft Word 之类的应用程序中，单击按钮以设置单词和短语的格式，并且，更改立即可见。而 Markdown 与此不同，当你创建 Markdown 格式的文件时，可以在文本中添加 Markdown 语法，以指示哪些单词和短语看起来应该有所不同。</p>
-<p>例如，要表示标题，只须在短语前面添加一个井号即可（例如， <code># Heading One</code>）。或者要加粗一个短语，只须在短语前后各加两个星号即可（例如，<code>**this text is bold**</code>）。可能需要一段时间才能习惯在文本中看到 Markdown 语法，尤其是如果你已习惯了所见即所得的应用程序。以下屏幕截展示了 Markdown 文件在 <a href="https://atom.io/">Atom 文本编辑器</a> 中显示的效果。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2troxzhbj31360go78r.jpg"></p>
-<p>你可以使用文本编辑器为纯文本文件添加 Markdown 格式的元素。或者，你也可以安装针对 macOS、Windows、Linux、iOS 和 Android 操作系统的 Markdown 应用程序。或者还可以使用一些基于 Web 的应用程序用于 Markdown 编写。</p>
-<p>依赖于你所使用的应用程序，你可能无法实时预览格式化的文档。但是没关系。<a href="https://daringfireball.net/projects/markdown/">根据 Gruber 的说法</a>，Markdown 的语法被设计为可读性强且不显眼，因此即使 Markdown 文件中的文本未经过渲染也易于阅读。</p>
-<blockquote>
-<p>Markdown 语法的首要设计目标是尽可能易读。基于这个目标，Markdown 格式的文档能够以纯文本形式原样发布，而不会看起来像被填满了标签或格式化指令。</p>
-</blockquote>
-<h4 id="为什么要使用-Markdown？"><a href="#为什么要使用-Markdown？" class="headerlink" title="为什么要使用 Markdown？"></a>为什么要使用 Markdown？</h4><p>你可能想知道为什么人们使用 Markdown 而不是所用即所得（WYSIWYG）编辑器。当你可以通过按下界面中的按钮来设置文本格式时，为什么还要使用 Markdown 来书写呢？事实证明，人们使用 Markdown 而不是 WYSIWYG 编辑器的原因有两个：</p>
-<ul>
-<li>Markdown 处处可用。人们使用它来创建 <a href="https://www.markdown.xyz/getting-started/#websites">网站</a>、<a href="https://www.markdown.xyz/getting-started/#documents">文档</a>、<a href="https://www.markdown.xyz/getting-started/#notes">便签</a>、<a href="https://www.markdown.xyz/getting-started/#books">书籍</a>、<a href="https://www.markdown.xyz/getting-started/#presentations">演示文稿</a>、<a href="https://www.markdown.xyz/getting-started/#email">邮件</a> 和 <a href="https://www.markdown.xyz/getting-started/#documentation">技术文档</a>。</li>
-<li>Markdown 是可移植的。几乎可以使用任何应用程序打开包含 Markdown 格式的文本文件。如果你不喜欢当前使用的 Markdown 应用程序了，则可以将 Markdown 文件导入另一个 Markdown 应用程序中。这与 Microsoft Word 等文字处理应用程序形成了鲜明的对比，Microsoft Word 将你的内容锁定在专有文件格式中。</li>
-<li>Markdown 是独立于平台的。你可以在运行任何操作系统的任何设备上创建 Markdown 格式的文本。</li>
-<li>Markdown 能适应未来的变化。即使你正在使用的应用程序将来会在某个时候不能使用了，你仍然可以使用文本编辑器读取 Markdown 格式的文本。当涉及需要无限期保存的书籍、大学论文和其他里程碑式的文件时，这是一个重要的考虑因素。</li>
-<li>Markdown 无处不在。例如 Reddit 和 GitHub 等网站都支持 Markdown，许多桌面和基于 Web 的应用程序也都支持 Markdown。</li>
-</ul>
-<h4 id="工欲善其事，必先利其器"><a href="#工欲善其事，必先利其器" class="headerlink" title="工欲善其事，必先利其器"></a>工欲善其事，必先利其器</h4><p>Markdown 入门的最佳方式就是多使用它。由于有大量免费工具的存在，这比以前任何时候都更容易开始上手了。</p>
-<p>你甚至都不需要下载任何程序，就可以使用几种在线的 Markdown 编辑器来编写 Markdown。<a href="https://dillinger.io/">Dillinger</a> 是最好的在线 Markdown 编辑器之一。进入其站点就可以开始在左侧窗格中书写了。渲染后的文档在右侧窗格预览。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2trprsuuj30s90mugnd.jpg"></p>
-<p>阅读本指南时，你可以打开 Dillinger 网站。这样，你就可以一边学习 Markdown 语法一边练习了。熟悉 Markdown 之后，你可以在台式计算机或移动设备上安装支持 Markdown 的应用程序。</p>
-<h4 id="Markdown-的工作原理"><a href="#Markdown-的工作原理" class="headerlink" title="Markdown 的工作原理"></a>Markdown 的工作原理</h4><p>Dillinger 让 Markdown 的编写变得容易，因为它隐藏了幕后发生的事情，但是该过程的总体工作方式是值得探索的。</p>
-<p>在使用 Markdown 格式书写时，文本内容存储在带有 <code>.md</code> 或 <code>.markdown</code> 扩展名的纯文本文件中。那然后呢？你的 Markdown 格式的文件如何转换为 HTML 或可打印的文档呢？</p>
-<p>简单来说，你需要一个能够处理 Markdown 文件的 <em>Markdown 应用程序</em>。有许多应用程序可供选择，从简单的脚本到类似于 Microsoft Word 的桌面应用程序，应有尽有。尽管它们在视觉上有所不同，但所有应用程序都执行相同的操作。像 Dillinger 一样，它们都是将 Markdown 格式的文本转换为 HTML，以便可以在 Web 浏览器中显示。</p>
-<p>Markdown 应用程序使用一种称为 <em>Markdown 处理器</em>（也通常称为“解析器”或“实现”）的东西将获取到的 Markdown 格式的文本输出为 HTML 格式。此时，可以在 Web 浏览器中查看你的文档，或者将其与样式表组合并打印。你可以在下图看到此过程的直观表示。</p>
-<p><strong>注意：</strong> Markdown 应用程序和处理器是两个单独的组件。为了简洁起见，在下图中，我将它们组合为一个元素（即 “Markdown应用程序”）。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2trq3ugbj30c00ewwec.jpg"></p>
-<p>总而言之，这是一个四步的过程：</p>
-<ol>
-<li>使用文本编辑器或 Markdown 专用的应用程序创建 Markdown 文件。该文件应带有 <code>.md</code> 或 <code>.markdown</code> 扩展名。</li>
-<li>在 Markdown 应用程序中打开 Markdown 文件。</li>
-<li>使用 Markdown 应用程序将 Markdown 文件转换为 HTML 文档。</li>
-<li>在 web 浏览器中查看 HTML 文件，或使用 Markdown 应用程序将其转换为其他文件格式，例如 PDF。</li>
-</ol>
-<p>从你的角度来看，该过程将根据你使用的应用程序的不同而有所不同。例如，Dillinger 本质上将第 1-3 步组合到一个单一、无缝的界面中，你要做的就是在左窗格中键入内容，然后转换结果就在右窗格中就神奇地出现了。但是，如果你使用的是其他工具（例如带有静态网站生成器的文本编辑器），则会发现该过程更为明显。</p>
-<h4 id="Markdown-有什么用？"><a href="#Markdown-有什么用？" class="headerlink" title="Markdown 有什么用？"></a>Markdown 有什么用？</h4><p>Markdown 是做笔记、为网站创建内容以及生成可打印文档的快速、简便的方法。</p>
-<p>学习 Markdown 语法并不需要很长时间，一旦你知道如何使用它，你就可以在几乎所有地方使用 Markdown 进行书写了。大多数人使用 Markdown 来为网站创建内容，但是 Markdown 也可以很好地格式化从电子邮件到购物清单的所有内容。</p>
-<p>下面是一些你可以使用 Markdown 的场景。</p>
-<h5 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h5><p>Markdown 是为 web 而设计的，因此，市面上有很多专门用于创建网站内容的应用程序就不足为奇了。</p>
-<p>如果你您正在寻找利用 Markdown 文件创建网站的最简单方法，请参考 <a href="https://blot.im/">blot.im</a> 和 <a href="https://smallvictori.es/">smallvictori.es</a> 两个站点。在你注册某个服务之后，它们将在你的计算机上创建一个 Dropbox 文件夹。你只需将 Markdown 文件拖放到该文件夹中，然后嗖的一声，这些文件就在你的网站上了。再简单不过了。</p>
-<p>如果您熟悉 HTML、CSS和版本管理工具，请试试 Jekyll，这是一个广受欢迎的静态网站生成器，它能将 Markdown 文件并构建为 HTML 网站。这种方法的优势之一是 GitHub Pages 为 Jekyll 生成的网站提供免费托管服务。如果 Jekyll 不是你的理想之选，你可以在 其它大量可用的静态站点生成器 中选择一个。</p>
-<p><strong>注意：</strong> 此 <em>Markdown 指南</em> 就是用 Jekyll 创建的。你可以在 <a href="https://github.com/mattcone/markdown-guide">GitHub</a> 上查看其源码。</p>
-<p>如果你想使用内容管理系统（CMS）来支撑你的网站，请试试 <a href="https://www.markdown.xyz/tools/ghost/">Ghost</a>。这是一个免费的开源博客平台，具有出色的 Markdown 编辑器。如果你是 WordPress 用户，你将很高兴地知道 WordPress.com 上托管的网站都 <a href="https://en.support.wordpress.com/markdown/">支持 Markdown</a>。自托管的 WordPress 网站可以使用 <a href="https://jetpack.com/support/markdown/">Jetpack 插件</a>实现对 Markdown 的支持。</p>
-<h5 id="文件资料"><a href="#文件资料" class="headerlink" title="文件资料"></a>文件资料</h5><p>Markdown 并不具备像 Microsoft Word 这样的文字处理程序的所有功能，但是对于创建基本文件（例如作业和信件）来说已经足够了。你可以使用 Markdown 文档创作工具来创建 Markdown 格式的文档并将其导出为 PDF 或 HTML 格式。PDF 格式是关键，因为一旦有了 PDF 文档，您就可以使用它进行任何操作：打印、通过电子邮件发送或将其上传到网站。</p>
-<p>这是我推荐的一些Markdown文档创作工具：</p>
-<ul>
-<li>Mac: MacDown、iA Writer 或 Marked</li>
-<li>iOS / Android: iA Writer</li>
-<li>Windows: ghostwriter 或 Markdown Monster</li>
-<li>Linux: ReText 或 ghostwriter</li>
-<li>Web: Dillinger 或 StackEdit</li>
-</ul>
-<p>提示： iA Writer 提供了模板用于预览、打印和导出 Markdown 格式的文档。例如，“ Academic – MLA 样式”的模板会缩进段落并添加双倍行间距。</p>
-<h5 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h5><p>在几乎所有方面，Markdown 都是记笔记的理想语法。不幸的是，两个最受欢迎的笔记应用程序 <a href="https://evernote.com/">Evernote</a> 和 <a href="https://www.onenote.com/">OneNote</a> 目前都不支持 Markdown。好消息是，其他一些笔记应用程序 <em>是</em> 支持 Markdown 的：</p>
-<ul>
-<li>Simplenote 是适用于所有平台的免费、简单的笔记应用程序。</li>
-<li>Notable 是可以在各种平台上运行的笔记应用程序。</li>
-<li>Bear 是适用于 Mac 和 iOS 设备的类似 Evernote 的应用程序。默认情况下，它并不专门针对 Markdown 的，但是你可以启用 Markdown 兼容模式。</li>
-<li>Boostnote 自称是“专为程序员设计的开源笔记应用程序”。</li>
-</ul>
-<p>如果你无法放弃 Evernote，可以试试 <a href="https://marxi.co/">Marxico</a>，一个专门针对 Evernote 的基于订阅付费的 Markdown编辑器，或在 Evernote 网站上使用 <a href="https://www.markdown.xyz/tools/markdown-here/">Markdown Here</a> 插件。</p>
-<h5 id="书籍"><a href="#书籍" class="headerlink" title="书籍"></a>书籍</h5><p>想要自行出版小说？请试试 <a href="https://leanpub.com/">Leanpub</a>，该服务可将你的 Markdown 格式的文件转换为电子书。Leanpub 以 PDF、EPUB 和 MOBI 文件格式输出你的图书。如果你要创建纸版书籍，可以将 PDF 文件上传到类似 <a href="https://kdp.amazon.com/">Kindle Direct Publishing</a> 之类的服务提供商处。要了解有关使用 Markdown 编写和自行出版书籍的更多信息，请阅读 <a href="https://medium.com/techspiration-ideas-making-it-happen/how-i-wrote-and-published-my-novel-using-only-open-source-tools-5cdfbd7c00ca">此博文</a>。</p>
-<h5 id="演示文稿"><a href="#演示文稿" class="headerlink" title="演示文稿"></a>演示文稿</h5><p>信不信由你，你可以将 Markdown 格式的文件转换成演示文稿。在 Markdown 中创建演示文稿需要一点时间来适应，但是一旦你掌握了它，你就能体会到比使用 PowerPoint 或 Keynote 之类的应用程序更快、更容易。<a href="https://remarkjs.com/">Remark</a>（<a href="https://github.com/gnab/remark">GitHub 仓库</a>）和 <a href="https://jdan.github.io/cleaver/">Cleaver</a>（<a href="https://github.com/jdan/cleaver">GitHub 仓库</a>）一样，是一种基于浏览器的、流行的 Markdown 幻灯片工具。如果你使用的是 Mac，并且希望安装一个应用程序来使用的话，请试试 <a href="https://www.decksetapp.com/">Deckset</a> 或 <a href="https://marked2app.com/">Marked</a>。</p>
-<h5 id="邮件"><a href="#邮件" class="headerlink" title="邮件"></a>邮件</h5><p>如果你需要发送大量电子邮件，并且对大多数电子邮件提供商网站上可用的格式设置控件感到厌倦，那么你将很高兴地发现有一种使用 Markdown 编写电子邮件的简便方法：Markdown Here 是一个免费、开源的浏览器扩展程序，可将 Markdown 格式的文本转换为可用于发送的 HTML。</p>
-<h5 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h5><p>Markdown 非常适合技术文档。像 GitHub 这样的公司越来越多地转向使用 Markdown 来创建其文档了，请查看此 博文 以了解如何将 Markdown 格式的文档迁移到 Jekyll。如果你是为产品或服务编写文档，请试试以下的便捷工具：</p>
-<ul>
-<li>Read the Docs 可以将你所开源的 Markdown 文件生成文档网站。只需将你的 GitHub 仓库连接到他们的服务，然后你就可以将内容推送到该仓库中，Read the Docs 会完成其余的工作。他们还为 商业实体提供服务。</li>
-<li>MkDocs 是一个快速、简单的静态站点生成器，专门用于构建项目文档。文档源文件使用 Markdown 编写，并使用一个 YAML 配置文件进行配置。MkDocs 有多个 内置主题，包括移植自 Read the Docs 的文档主题。最新的一个主题是 MkDocs Material。</li>
-<li>Docusaurus 是一个静态网站生成器，专门用于创建文档网站。它支持翻译、搜索和版本控制。</li>
-<li>VuePress 是基于 Vue 构建的静态站点生成器，并针对编写技术文档进行了优化。</li>
-<li>Jekyll 前面已经提到过它了，但它也是将 Markdown 文件生成文档网站的一个不错的选择。如果你选择 Jekyll，请务必试试 Jekyll 文档主题。</li>
-</ul>
-<h4 id="Markdown-方言"><a href="#Markdown-方言" class="headerlink" title="Markdown 方言"></a>Markdown 方言</h4><p>使用 Markdown 的过程中，最令人困惑的地方是：实际上每个 Markdown 应用程序都实现了稍有不同的 Markdown 语法。Markdown 的这些变体通常被称为 <em>flavors（方言）</em>。掌握你的应用程序所实现的 Markdown 语法是你需要注意的。</p>
-<p>为了让你了解各 Markdown 方言的概念，将它们比作语言的方言（language dialects）可能会有所帮助。华雷斯城（Ciudad Juárez）的人说西班牙语，就像巴塞罗那（Barcelona）人一样，但是两个城市使用的方言之间有很大的不同。使用不同 Markdown 应用程序的人也是如此。Dillinger 支持的 Markdown 格式与 Ulysses 有着很大的不同。</p>
-<p>实际上，这意味着当一个应用程序说它支持 “Markdown” 时，你永远也不会确切地知到它的实际意思。它说的是仅支持基本语法？还是所有基本语法加扩展语法 ？或者是某些语法的组合呢？在你阅读其文档或开始使用该应用程序之前，你永远都不会知道。</p>
-<p>如果你只是新手，我能给你的最好建议就是选择一个具有良好 Markdown 支持的应用程序。这对保持 Markdown 文件的可移植性大有帮助。你可能需要在其它应用程序中保存或使用你的 Markdown 文件，要实现这一点，你应当从使用一个具有良好 Markdown 支持的应用程序开始。你可以在 Markdown 工具列表中找到合适的应用程序。</p>
-<h4 id="其它资源"><a href="#其它资源" class="headerlink" title="其它资源"></a>其它资源</h4><p>网上有很多资源用来学习 Markdown。以下列出一些：</p>
-<ul>
-<li><a href="https://daringfireball.net/projects/markdown/">John Gruber’s Markdown documentation</a>. Markdown 的创建者编写的原始指南。</li>
-<li><a href="https://www.markdowntutorial.com/">Markdown Tutorial</a>. 一个开源网站，你能用浏览器在这个网站上尝试 Markdown。</li>
-<li><a href="https://github.com/mundimark/awesome-markdown">Awesome Markdown</a>. Markdown 工具和学习资源列表。</li>
-<li><a href="https://dave.autonoma.ca/blog/2019/05/22/typesetting-markdown-part-1">Typesetting Markdown</a>. 这是一个系列教程，介绍了使用 <a href="https://pandoc.org/">pandoc</a> 和 <a href="https://www.contextgarden.net/">ConTeXt</a> 对 Markdown 文档进行排版的系统。</li>
-</ul>
-<h3 id="速查表"><a href="#速查表" class="headerlink" title="速查表"></a>速查表</h3><h4 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h4><p>这些是 John Gruber 的原始设计文档中列出的元素。所有 Markdown 应用程序都支持这些元素。</p>
-<table>
-<thead>
-<tr>
-<th>元素</th>
-<th>Markdown 语法</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>标题（Heading）</td>
-<td><code># H1## H2### H3</code></td>
-</tr>
-<tr>
-<td>粗体（Bold）</td>
-<td><code>**bold text**</code></td>
-</tr>
-<tr>
-<td>斜体（Italic）</td>
-<td><code>*italicized text*</code></td>
-</tr>
-<tr>
-<td>引用块（Blockquote）</td>
-<td><code>&gt; blockquote</code></td>
-</tr>
-<tr>
-<td>有序列表（Ordered List）</td>
-<td><code>1. First item2. Second item3. Third item</code></td>
-</tr>
-<tr>
-<td>无序列表（Unordered List）</td>
-<td><code>- First item- Second item- Third item</code></td>
-</tr>
-<tr>
-<td>代码（Code）</td>
-<td><code>code</code></td>
-</tr>
-<tr>
-<td>分隔线（Horizontal Rule）</td>
-<td><code>---</code></td>
-</tr>
-<tr>
-<td>链接（Link）</td>
-<td><code>[title](https://www.example.com)</code></td>
-</tr>
-<tr>
-<td>图片（Image）</td>
-<td><code>![alt text](image.jpg)</code></td>
-</tr>
-</tbody></table>
-<h4 id="扩展语法"><a href="#扩展语法" class="headerlink" title="扩展语法"></a>扩展语法</h4><p>这些元素通过添加额外的功能扩展了基本语法。但是，并非所有 Markdown 应用程序都支持这些元素。</p>
-<table>
-<thead>
-<tr>
-<th>元素</th>
-<th>Markdown 语法</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>表格（Table）</td>
-<td></td>
-</tr>
-<tr>
-<td>代码块（Fenced Code Block）</td>
-<td><code>&#123; &quot;firstName&quot;: &quot;John&quot;, &quot;lastName&quot;: &quot;Smith&quot;, &quot;age&quot;: 25&#125;</code></td>
-</tr>
-<tr>
-<td>脚注（Footnote）</td>
-<td><code>Here&#39;s a sentence with a footnote. [^1][^1]: This is the footnote.</code></td>
-</tr>
-<tr>
-<td>标题编号（Heading ID）</td>
-<td><code>### My Great Heading &#123; #custom-id&#125;</code></td>
-</tr>
-<tr>
-<td>定义列表（Definition List）</td>
-<td><code>term: definition</code></td>
-</tr>
-<tr>
-<td>删除线（Strikethrough）</td>
-<td><code>~~The world is flat.~~</code></td>
-</tr>
-<tr>
-<td>任务列表（Task List）</td>
-<td><code>- [x] Write the press release- [ ] Update the website- [ ] Contact the media</code></td>
-</tr>
-</tbody></table>
-<h4 id="Downloads"><a href="#Downloads" class="headerlink" title="Downloads"></a>Downloads</h4><p>You can download this cheat sheet as a Markdown file for use in your Markdown application.</p>
 ]]></content>
       <categories>
         <category>写作技巧 (Write Skill)</category>
