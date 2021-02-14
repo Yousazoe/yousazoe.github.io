@@ -717,7 +717,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#x65;&#110;&#120;&#x75;&#64;&#116;&#101;&#x6e;&#99;&#101;&#110;&#x74;&#x2e;&#x63;&#111;&#109;">&#x6c;&#x65;&#x65;&#110;&#120;&#x75;&#64;&#116;&#101;&#x6e;&#99;&#101;&#110;&#x74;&#x2e;&#x63;&#111;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#101;&#101;&#110;&#x78;&#117;&#x40;&#x74;&#x65;&#x6e;&#x63;&#x65;&#x6e;&#x74;&#46;&#x63;&#111;&#x6d;">&#108;&#101;&#101;&#110;&#x78;&#117;&#x40;&#x74;&#x65;&#x6e;&#x63;&#x65;&#x6e;&#x74;&#46;&#x63;&#111;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -1516,18 +1516,7 @@
 </div>
 
 
-
-
-
-<h3 id=""><a href="#" class="headerlink" title=""></a><div align=center></h3>  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/110074175/Haokan_Newbrand_video?tracking_source=search_projects_recommended">Haokan_Newbrand_video</a> by 
-      <a href="https://www.behance.net/donerzozo">Donerzozo</a>
-    </i>
-  </font>
-</div>
-
-<p>本文主要分成四个部分，首先是关于聚焦情感而诞生的玩法品类，并以女性向游戏为例进行简要分析，提取出特征和关键要素；之后是关于聚焦情感而产生的设计方向，也就是独立游戏，提取出独立游戏的关键要素。</p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主要分成四个部分，首先是关于聚焦情感而诞生的玩法品类，并以女性向游戏为例进行简要分析，提取出特征和关键要素；之后是关于聚焦情感而产生的设计方向，也就是独立游戏，提取出独立游戏的关键要素。</p>
 <a id="more"></a>
 
 
@@ -1697,6 +1686,285 @@
       <tags>
         <tag>Game</tag>
         <tag>INDIE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>图形技术发展&amp;动作游戏发展</title>
+    <url>/archives/21f5c0c6.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghr9b2xyjej30xc0ot42q.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="behance.net/gallery/102282989/Selected-works-2019-2020?tracking_source=best_of_behance">Selected works | 2019-2020</a> by 
+      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文从图形技术的发展延伸到动作游戏的发展，讲述动作游戏这一品类。</p>
+<a id="more"></a>
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>任爽/Sionx</strong></p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+</ul>
+<p>###《吃豆人》游戏图形的起源</p>
+<ul>
+<li><p>动作游戏界定</p>
+<ul>
+<li>通过手眼的配合作出即时反馈的游戏统称为动作游戏</li>
+</ul>
+</li>
+<li><p>动作游戏品类</p>
+<ul>
+<li>平台跳跃</li>
+<li>横版过关</li>
+<li>动作射击</li>
+<li>动作冒险</li>
+<li>动作角色扮演</li>
+<li>格斗</li>
+</ul>
+</li>
+<li><p>2D时代</p>
+<ul>
+<li><p>FC</p>
+<ul>
+<li>1983年发售</li>
+<li>处理器 &emsp; 8位</li>
+<li>输出分辨率  &emsp; 256 x 240</li>
+<li>内存 &emsp; 2KB</li>
+</ul>
+</li>
+<li><p><strong>《吃豆人》</strong></p>
+<ul>
+<li>1980年发售</li>
+<li>16进制代码创建图像</li>
+</ul>
+</li>
+<li><p>2D为主</p>
+<ul>
+<li><p>类似摇杆的外设</p>
+</li>
+<li><p>SEGA Degitizer System</p>
+<ul>
+<li>有效改善2D图像制作效率问题 </li>
+</ul>
+</li>
+<li><p>SEGA Degitizer System 3</p>
+</li>
+<li><p>早期的动作游戏都以横版表现形式为主</p>
+<ul>
+<li>通过算法水平镜像使资源只需一套解决左右翻转问题</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《超级马里奥兄弟》</strong></p>
+<ul>
+<li>1985年发售</li>
+<li>平台跳跃的鼻祖<ul>
+<li>奠定基础规则</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《热血硬派》</strong></p>
+<ul>
+<li>1986年发售</li>
+<li>八方向移动对横版过关类游戏具有深远的影响力</li>
+</ul>
+</li>
+<li><p><strong>《合金弹头》</strong></p>
+<ul>
+<li>1996年SNK发售</li>
+<li>动作射击类的巅峰之作</li>
+</ul>
+</li>
+<li><p><strong>《真人快打》</strong></p>
+<ul>
+<li>1992年Midway发售</li>
+<li>最早出现以真人拍摄制作的格斗游戏</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="3D时代"><a href="#3D时代" class="headerlink" title="3D时代"></a>3D时代</h3><ul>
+<li><p>主机游戏机</p>
+<ul>
+<li>1994年发售</li>
+<li>处理器  &emsp; 32位</li>
+<li>输出分辨率  &emsp; 640 x 480px</li>
+<li>内存 &emsp; 2MB</li>
+<li>最高性价比机能去体验更好的视觉效果和游戏乐趣</li>
+</ul>
+</li>
+<li><p><strong>《玩具总动员》</strong></p>
+<ul>
+<li>1995年发售</li>
+<li>3D技术的普及<ul>
+<li>3D在表现和效率上体现出巨大优势</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《VR展示战士》</strong></p>
+<ul>
+<li>1994年发售</li>
+<li>第一款3D格斗游戏</li>
+</ul>
+</li>
+<li><p><strong>《超级马里奥64》</strong></p>
+<ul>
+<li>1994年发售</li>
+<li>第一步3D化的马里奥系列<ul>
+<li>平面 -&gt; 3D</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《古墓丽影》</strong></p>
+<ul>
+<li>1996年发售</li>
+<li>动作冒险类游戏在PC上获得成功<ul>
+<li>3D游戏和2D游戏完全拉开一个质的变化</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《生化危机》</strong></p>
+<ul>
+<li>1996年发售</li>
+<li>‘坦克式’移动<ul>
+<li>机能不足</li>
+<li>使用固定视角去切换场景</li>
+<li>不同真正的模型，贴图去处理中远景</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="次世代"><a href="#次世代" class="headerlink" title="次世代"></a>次世代</h3><ul>
+<li><p>次世代</p>
+<ul>
+<li>法线贴图</li>
+<li>高光贴图</li>
+<li>动作捕捉</li>
+<li>PBR</li>
+<li>即时渲染光影</li>
+</ul>
+</li>
+<li><p>PlayStation3</p>
+<ul>
+<li>处理器 &emsp; 18m PowerPC 3.2Hz</li>
+<li>输出分辨率 &emsp; 1080p</li>
+<li>内存 &emsp; 256MB</li>
+<li>显存 &emsp; Reality Synthesizer，R5X</li>
+</ul>
+</li>
+<li><p><strong>《暗黑破坏神2》</strong></p>
+<ul>
+<li>2000年发售</li>
+<li>三渲二技术<ul>
+<li>CG技术远远大于即时演算技术</li>
+<li>追求高画质体验</li>
+<li>2D序列帧</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《地下城与勇士》</strong></p>
+<ul>
+<li>2005年发售</li>
+<li>网络时代的横版动作游戏<ul>
+<li>数值成长体系</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>《陇村正》</strong></p>
+<ul>
+<li>2009年发售</li>
+<li>2D不再局限于像素风格</li>
+<li>次世代制作的2D横版动作游戏延续</li>
+</ul>
+</li>
+<li><p><strong>《火影忍者：究极风暴4》</strong></p>
+<ul>
+<li>2016年发售</li>
+<li>卡通渲染技术的格斗游戏</li>
+</ul>
+</li>
+<li><p><strong>《塞尔达传说：荒野之息》</strong></p>
+<ul>
+<li>2017年发售</li>
+<li>物理特性让玩法拥有多样性</li>
+</ul>
+</li>
+<li><p><strong>《怪物猎人：世界》</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>独乐乐不如众乐乐</li>
+<li>1200+w以上的销量</li>
+</ul>
+</li>
+<li><p><strong>《荒野大镖客：救赎2》</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>融合电影化叙事等多种元素的动作冒险游戏</li>
+<li>追求极致的实时渲染<ul>
+<li>次世代最高顶级的画质表现力</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>次世代的动作明星</p>
+<ul>
+<li>奎托斯</li>
+<li>但丁</li>
+<li>贝优妮塔</li>
+</ul>
+</li>
+<li><p><strong>《只狼》</strong></p>
+<ul>
+<li>2019年发售</li>
+<li>突破传统的动作游戏节奏，鼓励主动进攻</li>
+<li>同时进攻获取最大收益</li>
+</ul>
+</li>
+<li><p>【游戏推荐】</p>
+<ul>
+<li><p><strong>《Cuphead》（茶杯头）</strong></p>
+<ul>
+<li>2017年发售</li>
+<li>2017 TGA最佳美术指导、最佳独立游戏</li>
+</ul>
+</li>
+<li><p><strong>《Celeste》（蔚蓝）</strong></p>
+<ul>
+<li>2018年发售</li>
+<li>2018 TGA最佳独立游戏</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
+    </i>
+  </font>
+</div>]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
       </tags>
   </entry>
   <entry>
@@ -2225,285 +2493,6 @@
       </tags>
   </entry>
   <entry>
-    <title>图形技术发展&amp;动作游戏发展</title>
-    <url>/archives/21f5c0c6.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghr9b2xyjej30xc0ot42q.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="behance.net/gallery/102282989/Selected-works-2019-2020?tracking_source=best_of_behance">Selected works | 2019-2020</a> by 
-      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
-    </i>
-  </font>
-</div>
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文从图形技术的发展延伸到动作游戏的发展，讲述动作游戏这一品类。</p>
-<a id="more"></a>
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>任爽/Sionx</strong></p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-</ul>
-<p>###《吃豆人》游戏图形的起源</p>
-<ul>
-<li><p>动作游戏界定</p>
-<ul>
-<li>通过手眼的配合作出即时反馈的游戏统称为动作游戏</li>
-</ul>
-</li>
-<li><p>动作游戏品类</p>
-<ul>
-<li>平台跳跃</li>
-<li>横版过关</li>
-<li>动作射击</li>
-<li>动作冒险</li>
-<li>动作角色扮演</li>
-<li>格斗</li>
-</ul>
-</li>
-<li><p>2D时代</p>
-<ul>
-<li><p>FC</p>
-<ul>
-<li>1983年发售</li>
-<li>处理器 &emsp; 8位</li>
-<li>输出分辨率  &emsp; 256 x 240</li>
-<li>内存 &emsp; 2KB</li>
-</ul>
-</li>
-<li><p><strong>《吃豆人》</strong></p>
-<ul>
-<li>1980年发售</li>
-<li>16进制代码创建图像</li>
-</ul>
-</li>
-<li><p>2D为主</p>
-<ul>
-<li><p>类似摇杆的外设</p>
-</li>
-<li><p>SEGA Degitizer System</p>
-<ul>
-<li>有效改善2D图像制作效率问题 </li>
-</ul>
-</li>
-<li><p>SEGA Degitizer System 3</p>
-</li>
-<li><p>早期的动作游戏都以横版表现形式为主</p>
-<ul>
-<li>通过算法水平镜像使资源只需一套解决左右翻转问题</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《超级马里奥兄弟》</strong></p>
-<ul>
-<li>1985年发售</li>
-<li>平台跳跃的鼻祖<ul>
-<li>奠定基础规则</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《热血硬派》</strong></p>
-<ul>
-<li>1986年发售</li>
-<li>八方向移动对横版过关类游戏具有深远的影响力</li>
-</ul>
-</li>
-<li><p><strong>《合金弹头》</strong></p>
-<ul>
-<li>1996年SNK发售</li>
-<li>动作射击类的巅峰之作</li>
-</ul>
-</li>
-<li><p><strong>《真人快打》</strong></p>
-<ul>
-<li>1992年Midway发售</li>
-<li>最早出现以真人拍摄制作的格斗游戏</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="3D时代"><a href="#3D时代" class="headerlink" title="3D时代"></a>3D时代</h3><ul>
-<li><p>主机游戏机</p>
-<ul>
-<li>1994年发售</li>
-<li>处理器  &emsp; 32位</li>
-<li>输出分辨率  &emsp; 640 x 480px</li>
-<li>内存 &emsp; 2MB</li>
-<li>最高性价比机能去体验更好的视觉效果和游戏乐趣</li>
-</ul>
-</li>
-<li><p><strong>《玩具总动员》</strong></p>
-<ul>
-<li>1995年发售</li>
-<li>3D技术的普及<ul>
-<li>3D在表现和效率上体现出巨大优势</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《VR展示战士》</strong></p>
-<ul>
-<li>1994年发售</li>
-<li>第一款3D格斗游戏</li>
-</ul>
-</li>
-<li><p><strong>《超级马里奥64》</strong></p>
-<ul>
-<li>1994年发售</li>
-<li>第一步3D化的马里奥系列<ul>
-<li>平面 -&gt; 3D</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《古墓丽影》</strong></p>
-<ul>
-<li>1996年发售</li>
-<li>动作冒险类游戏在PC上获得成功<ul>
-<li>3D游戏和2D游戏完全拉开一个质的变化</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《生化危机》</strong></p>
-<ul>
-<li>1996年发售</li>
-<li>‘坦克式’移动<ul>
-<li>机能不足</li>
-<li>使用固定视角去切换场景</li>
-<li>不同真正的模型，贴图去处理中远景</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="次世代"><a href="#次世代" class="headerlink" title="次世代"></a>次世代</h3><ul>
-<li><p>次世代</p>
-<ul>
-<li>法线贴图</li>
-<li>高光贴图</li>
-<li>动作捕捉</li>
-<li>PBR</li>
-<li>即时渲染光影</li>
-</ul>
-</li>
-<li><p>PlayStation3</p>
-<ul>
-<li>处理器 &emsp; 18m PowerPC 3.2Hz</li>
-<li>输出分辨率 &emsp; 1080p</li>
-<li>内存 &emsp; 256MB</li>
-<li>显存 &emsp; Reality Synthesizer，R5X</li>
-</ul>
-</li>
-<li><p><strong>《暗黑破坏神2》</strong></p>
-<ul>
-<li>2000年发售</li>
-<li>三渲二技术<ul>
-<li>CG技术远远大于即时演算技术</li>
-<li>追求高画质体验</li>
-<li>2D序列帧</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《地下城与勇士》</strong></p>
-<ul>
-<li>2005年发售</li>
-<li>网络时代的横版动作游戏<ul>
-<li>数值成长体系</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>《陇村正》</strong></p>
-<ul>
-<li>2009年发售</li>
-<li>2D不再局限于像素风格</li>
-<li>次世代制作的2D横版动作游戏延续</li>
-</ul>
-</li>
-<li><p><strong>《火影忍者：究极风暴4》</strong></p>
-<ul>
-<li>2016年发售</li>
-<li>卡通渲染技术的格斗游戏</li>
-</ul>
-</li>
-<li><p><strong>《塞尔达传说：荒野之息》</strong></p>
-<ul>
-<li>2017年发售</li>
-<li>物理特性让玩法拥有多样性</li>
-</ul>
-</li>
-<li><p><strong>《怪物猎人：世界》</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>独乐乐不如众乐乐</li>
-<li>1200+w以上的销量</li>
-</ul>
-</li>
-<li><p><strong>《荒野大镖客：救赎2》</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>融合电影化叙事等多种元素的动作冒险游戏</li>
-<li>追求极致的实时渲染<ul>
-<li>次世代最高顶级的画质表现力</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>次世代的动作明星</p>
-<ul>
-<li>奎托斯</li>
-<li>但丁</li>
-<li>贝优妮塔</li>
-</ul>
-</li>
-<li><p><strong>《只狼》</strong></p>
-<ul>
-<li>2019年发售</li>
-<li>突破传统的动作游戏节奏，鼓励主动进攻</li>
-<li>同时进攻获取最大收益</li>
-</ul>
-</li>
-<li><p>【游戏推荐】</p>
-<ul>
-<li><p><strong>《Cuphead》（茶杯头）</strong></p>
-<ul>
-<li>2017年发售</li>
-<li>2017 TGA最佳美术指导、最佳独立游戏</li>
-</ul>
-</li>
-<li><p><strong>《Celeste》（蔚蓝）</strong></p>
-<ul>
-<li>2018年发售</li>
-<li>2018 TGA最佳独立游戏</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
-    </i>
-  </font>
-</div>]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2D游戏开发</title>
     <url>/archives/6487e0f7.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkrfcylq45j312w0gak12.jpg"></p>
@@ -2686,6 +2675,84 @@
       </tags>
   </entry>
   <entry>
+    <title>Premake</title>
+    <url>/archives/9209cb4c.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/f1a64d28384331.55bd3bf689627.png"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/28384331/Factory-03?tracking_source=search_projects_recommended%7Cvoxel">Voxel Factory 03</a> by 
+      <a href="https://www.behance.net/pixego">pixego</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列我们将从零开始开发一个自己的游戏引擎。上一次我们讨论日志记录时添加了一个名为<code>spdlog</code>的日志记录库。今天我们将以<code>premake</code>为基础重构项目文件。</p>
+<a id="more"></a>
+
+
+
+<h3 id="必要性"><a href="#必要性" class="headerlink" title="必要性"></a>必要性</h3><p>如果我们仅仅是用<code>Visual Studio</code>制作我们的项目，在目前的<code>Windows</code>平台上看来是ok的，但最大的问题是当我们不得不处理不同的平台例如<code>Mac</code>、<code>Linux</code>甚至<code>Android</code>或<code>IOS</code>，我们需要为特定的IDE生成不同的项目文件。</p>
+<p>我们要使用的工具叫做<code>Premake</code>。这里不使用<code>CMake</code>的原因是我认为非常复杂，虽然使用效果好但它有很多格式化的东西，这种复杂对于我们而言不是必要的；而<code>Premake</code>在编写预生成文件时使用<code>Lua</code>生成项目文件，功能强大并且易于初学者理解。一旦我们定义好<code>Premake</code>的格式，事实上我们就可以定义<code>Infinite</code>是什么，例如C++我们需要包含这些头文件、这些是包含目录、这些是我们想要链接的库……在<code>Lua</code>中定义好我们想要设置的配置，我们就可以只需运行<code>Premake</code>，它将为项目生成<code>Visual Sutdio</code>或<code>Xcode</code>的项目文件。</p>
+<p>这就是我们为什么要使用这种项目生成器的原因而不是手动处理所有事情。可以想象手动维护所有内容，每次添加新文件时相关文件都会同时添加到<code>Mac</code>和<code>Windows</code>，但是我们必须手动进行所有操作，这很痛苦。</p>
+<h3 id="premake-core"><a href="#premake-core" class="headerlink" title="premake-core"></a>premake-core</h3><p>在Github中下好发布版本，我选择的是<a href="https://github.com/premake/premake-core/releases/tag/v5.0.0-alpha15">Premake 5.0 alpha 15</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-12%20%E4%B8%8B%E5%8D%885.38.20.png"></p>
+<p>下载好之后复制该<code>.exe</code>文件，在最初始的<code>Infinite</code>目录中新建<code>vendor</code>文件夹，这个文件夹与<code>Infinite\Infinite\vendor</code>那个存储<code>spdlog</code>的文件夹稍有不同，此文件夹适用于项目解决方案中的一切。继续在<code>vendor</code>中创建文件夹<code>bin</code>，在<code>bin</code>中创建<code>premake</code>文件夹，复制粘贴刚才的<code>premake5.exe</code>文件以及许可证：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Infinite</span><br><span class="line">|__ vendor</span><br><span class="line">	|__ bin</span><br><span class="line">		|__ premake</span><br><span class="line">			|__ premake5.exe</span><br><span class="line">			|__ LICENSE.txt</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h3 id="premake5-lua"><a href="#premake5-lua" class="headerlink" title="premake5.lua"></a>premake5.lua</h3><p>回到最初始的<code>Infinite</code>目录，新建<code>premake5.lua</code>，编写代码：</p>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">workspace <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  architecture <span class="string">&quot;x64&quot;</span></span><br><span class="line">  startproject <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line"></span><br><span class="line">  configurations</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Debug&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Release&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Dist&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">outputdir = <span class="string">&quot;%&#123;cfg.buildcfg&#125;-%&#123;cfg.system&#125;-%&#123;cfg.architecture&#125;&quot;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<ul>
+<li><code>workspace</code>可以当作解决方案；架构就是我们实际上想要处理的平台，我们选择<code>x64</code></li>
+<li>配置我们设置了三种：调试<code>Debug</code>、发布<code>Release</code>和发行<code>Dist</code></li>
+<li><code>outputdir</code>输出目录：<code>%&#123;cfg.buildcfg&#125;</code>即上面的配置；<code>%&#123;cfg.system&#125;</code>为系统；<code>&#123;cfg.architecture&#125;</code>是刚才的平台</li>
+</ul>
+<h4 id="Infinite"><a href="#Infinite" class="headerlink" title="Infinite"></a>Infinite</h4><p>此部分用于构建<code>Infinit/Infinite</code>：</p>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">project <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  location <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  kind <span class="string">&quot;SharedLib&quot;</span></span><br><span class="line">  language <span class="string">&quot;C++&quot;</span></span><br><span class="line"></span><br><span class="line">  targetdir (<span class="string">&quot;bin/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line">  objdir (<span class="string">&quot;bin-int/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line">  files</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.h&quot;</span>,</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.cpp&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  includedirs</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/vendor/spdlog/include&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;system:windows&quot;</span></span><br><span class="line">    cppdialect <span class="string">&quot;C++17&quot;</span></span><br><span class="line">    staticruntime <span class="string">&quot;On&quot;</span></span><br><span class="line">    systemversion <span class="string">&quot;latest&quot;</span></span><br><span class="line"></span><br><span class="line">    defines</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="string">&quot;IFN_PLATFORM_WINDOWS&quot;</span>,</span><br><span class="line">      <span class="string">&quot;IFN_BUILD_DLL&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    postbuildcommands</span><br><span class="line">    &#123;</span><br><span class="line">      (<span class="string">&quot;&#123;COPY&#125; %&#123;cfg.buildtarget.relpath&#125; ../bin/&quot;</span> .. outputdir .. <span class="string">&quot;/Sandbox&quot;</span>)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Debug&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DEBUG&quot;</span></span><br><span class="line">      symbols <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Release&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_RELEASE&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Dist&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DIST&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li><code>location</code>项目位置；<code>kind</code>项目类型；<code>language</code>语言为C++</li>
+<li><code>files</code>包含文件，列出我们现在想要的文件即<code>.h</code>与<code>.cpp</code></li>
+<li><code>includedirs</code>引入<code>spdlog</code></li>
+<li><code>filter</code>过滤器表示具有某种配置或程序属性</li>
+</ul>
+<h4 id="Sandbox"><a href="#Sandbox" class="headerlink" title="Sandbox"></a>Sandbox</h4><p>沙盒基本与<code>Infinite</code>一致，只需在一些地方稍作修改即可：</p>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">project <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line">  location <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line">  kind <span class="string">&quot;ConsoleApp&quot;</span></span><br><span class="line"></span><br><span class="line">  language <span class="string">&quot;C++&quot;</span></span><br><span class="line"></span><br><span class="line">  targetdir (<span class="string">&quot;bin/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line">  objdir (<span class="string">&quot;bin-int/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line">  files</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.h&quot;</span>,</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.cpp&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  includedirs</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Infinite/vendor/spdlog/include&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Infinite/src/Infinite&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  links</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;system:windows&quot;</span></span><br><span class="line">    cppdialect <span class="string">&quot;C++17&quot;</span></span><br><span class="line">    staticruntime <span class="string">&quot;On&quot;</span></span><br><span class="line">    systemversion <span class="string">&quot;latest&quot;</span></span><br><span class="line"></span><br><span class="line">    defines</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="string">&quot;IFN_PLATFORM_WINDOWS&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Debug&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DEBUG&quot;</span></span><br><span class="line">      symbols <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Release&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_RELEASE&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Dist&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DIST&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li><code>kind</code>项目类型变为<code>ConsleApp</code>控制台程序</li>
+<li><code>includedirs</code>引入<code>spdlog</code>与<code>Infinite</code></li>
+<li><code>links</code>链接器与<code>Infinite</code>相连</li>
+</ul>
+<h4 id="完整源码"><a href="#完整源码" class="headerlink" title="完整源码"></a>完整源码</h4><figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">workspace <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  architecture <span class="string">&quot;x64&quot;</span></span><br><span class="line">  startproject <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line"></span><br><span class="line">  configurations</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Debug&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Release&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Dist&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">outputdir = <span class="string">&quot;%&#123;cfg.buildcfg&#125;-%&#123;cfg.system&#125;-%&#123;cfg.architecture&#125;&quot;</span></span><br><span class="line"></span><br><span class="line">project <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  location <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  kind <span class="string">&quot;SharedLib&quot;</span></span><br><span class="line">  language <span class="string">&quot;C++&quot;</span></span><br><span class="line"></span><br><span class="line">  targetdir (<span class="string">&quot;bin/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line">  objdir (<span class="string">&quot;bin-int/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line">  files</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.h&quot;</span>,</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.cpp&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  includedirs</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/vendor/spdlog/include&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;system:windows&quot;</span></span><br><span class="line">    cppdialect <span class="string">&quot;C++17&quot;</span></span><br><span class="line">    staticruntime <span class="string">&quot;On&quot;</span></span><br><span class="line">    systemversion <span class="string">&quot;latest&quot;</span></span><br><span class="line"></span><br><span class="line">    defines</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="string">&quot;IFN_PLATFORM_WINDOWS&quot;</span>,</span><br><span class="line">      <span class="string">&quot;IFN_BUILD_DLL&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    postbuildcommands</span><br><span class="line">    &#123;</span><br><span class="line">      (<span class="string">&quot;&#123;COPY&#125; %&#123;cfg.buildtarget.relpath&#125; ../bin/&quot;</span> .. outputdir .. <span class="string">&quot;/Sandbox&quot;</span>)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Debug&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DEBUG&quot;</span></span><br><span class="line">      symbols <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Release&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_RELEASE&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Dist&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DIST&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">project <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line">  location <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line">  kind <span class="string">&quot;ConsoleApp&quot;</span></span><br><span class="line"></span><br><span class="line">  language <span class="string">&quot;C++&quot;</span></span><br><span class="line"></span><br><span class="line">  targetdir (<span class="string">&quot;bin/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line">  objdir (<span class="string">&quot;bin-int/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line">  files</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.h&quot;</span>,</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.cpp&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  includedirs</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Infinite/vendor/spdlog/include&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Infinite/src/Infinite&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  links</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;system:windows&quot;</span></span><br><span class="line">    cppdialect <span class="string">&quot;C++17&quot;</span></span><br><span class="line">    staticruntime <span class="string">&quot;On&quot;</span></span><br><span class="line">    systemversion <span class="string">&quot;latest&quot;</span></span><br><span class="line"></span><br><span class="line">    defines</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="string">&quot;IFN_PLATFORM_WINDOWS&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Debug&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DEBUG&quot;</span></span><br><span class="line">      symbols <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Release&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_RELEASE&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Dist&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DIST&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br></pre></td></tr></table></figure>
+
+
+<h3 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h3><p>在<code>Infinite</code>目录中新建<code>GenerateProject.bat</code>：</p>
+<figure class="highlight bat"><table><tr><td class="code"><pre><span class="line"><span class="keyword">call</span> vendor\bin\premake\premake5.exe vs2019</span><br><span class="line"><span class="built_in">PAUSE</span></span><br></pre></td></tr></table></figure>
+<p>保存退出后我们只需点击此文件便可生成相应的项目，但在此之前我们需要把以下文件全部删除以更新：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Infinite</span><br><span class="line">|__ bin</span><br><span class="line">|__ bin-int</span><br><span class="line">|__ Infinite</span><br><span class="line">|   |__ Infinite.vcxproj</span><br><span class="line">|   |__ Infinite.vcxproj.filters</span><br><span class="line">|   |__ Infinite.vcxproj.user</span><br><span class="line">|__ Sandbox</span><br><span class="line">|   |__ Sandbox.vcxproj</span><br><span class="line">|   |-- Sandbox.vcxproj.user</span><br><span class="line">|__ Infinite.sln</span><br></pre></td></tr></table></figure>
+<p>这些文件<code>premake</code>都会帮你生成，所以不必担心。</p>
+<h3 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h3><p>理论上上述步骤完成后再次运行就成功了，但实际操作的时候遇到了以下两个问题;</p>
+<ul>
+<li>生成解决方案的目录混乱</li>
+<li>dll文件无法正常生成导致沙盒项目无法构建</li>
+</ul>
+<p>针对第二点我目前的参考了网络的一种解决方案，在<code>Infinite</code>属性中的生成后事件添加：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">xcopy &#x2F;y &quot;$(OutDir)Infinite.dll&quot; &quot;$(SolutionDir)bin\$(Configuration)-$(Platform)\Sandbox\&quot;</span><br></pre></td></tr></table></figure>
+<p>系统报错就会停止，但生成的dll文件在另一个平行的文件夹中，原因是<code>$(Configuration)-$(Platform)</code>和<code>%&#123;cfg.buildcfg&#125;-%&#123;cfg.system&#125;-%&#123;cfg.architecture&#125;</code>还是不一致，而我浏览了宏也没有找到合适的，最后只能用拖拽的方式暂时将<code>Infinite.dll</code>拖回<code>Sandbox&#39;</code>，勉强运行成功。</p>
+]]></content>
+      <categories>
+        <category>游戏引擎开发 (Game Engine Series)</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>Game Engine</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Entry Point</title>
     <url>/archives/8e968f45.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gng1yavr2gj31400u07wh.jpg"></p>
@@ -2847,84 +2914,6 @@
 
 <p>再次运行，编译成功，输出结果与之前一致。</p>
 <p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnhki0y17gj30yf0hz74w-20210209212559716-20210209225727053.jpg"></p>
-]]></content>
-      <categories>
-        <category>游戏引擎开发 (Game Engine Series)</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>Game Engine</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Premake</title>
-    <url>/archives/9209cb4c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/f1a64d28384331.55bd3bf689627.png"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/28384331/Factory-03?tracking_source=search_projects_recommended%7Cvoxel">Voxel Factory 03</a> by 
-      <a href="https://www.behance.net/pixego">pixego</a>
-    </i>
-  </font>
-</div>
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列我们将从零开始开发一个自己的游戏引擎。上一次我们讨论日志记录时添加了一个名为<code>spdlog</code>的日志记录库。今天我们将以<code>premake</code>为基础重构项目文件。</p>
-<a id="more"></a>
-
-
-
-<h3 id="必要性"><a href="#必要性" class="headerlink" title="必要性"></a>必要性</h3><p>如果我们仅仅是用<code>Visual Studio</code>制作我们的项目，在目前的<code>Windows</code>平台上看来是ok的，但最大的问题是当我们不得不处理不同的平台例如<code>Mac</code>、<code>Linux</code>甚至<code>Android</code>或<code>IOS</code>，我们需要为特定的IDE生成不同的项目文件。</p>
-<p>我们要使用的工具叫做<code>Premake</code>。这里不使用<code>CMake</code>的原因是我认为非常复杂，虽然使用效果好但它有很多格式化的东西，这种复杂对于我们而言不是必要的；而<code>Premake</code>在编写预生成文件时使用<code>Lua</code>生成项目文件，功能强大并且易于初学者理解。一旦我们定义好<code>Premake</code>的格式，事实上我们就可以定义<code>Infinite</code>是什么，例如C++我们需要包含这些头文件、这些是包含目录、这些是我们想要链接的库……在<code>Lua</code>中定义好我们想要设置的配置，我们就可以只需运行<code>Premake</code>，它将为项目生成<code>Visual Sutdio</code>或<code>Xcode</code>的项目文件。</p>
-<p>这就是我们为什么要使用这种项目生成器的原因而不是手动处理所有事情。可以想象手动维护所有内容，每次添加新文件时相关文件都会同时添加到<code>Mac</code>和<code>Windows</code>，但是我们必须手动进行所有操作，这很痛苦。</p>
-<h3 id="premake-core"><a href="#premake-core" class="headerlink" title="premake-core"></a>premake-core</h3><p>在Github中下好发布版本，我选择的是<a href="https://github.com/premake/premake-core/releases/tag/v5.0.0-alpha15">Premake 5.0 alpha 15</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-02-12%20%E4%B8%8B%E5%8D%885.38.20.png"></p>
-<p>下载好之后复制该<code>.exe</code>文件，在最初始的<code>Infinite</code>目录中新建<code>vendor</code>文件夹，这个文件夹与<code>Infinite\Infinite\vendor</code>那个存储<code>spdlog</code>的文件夹稍有不同，此文件夹适用于项目解决方案中的一切。继续在<code>vendor</code>中创建文件夹<code>bin</code>，在<code>bin</code>中创建<code>premake</code>文件夹，复制粘贴刚才的<code>premake5.exe</code>文件以及许可证：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Infinite</span><br><span class="line">|__ vendor</span><br><span class="line">	|__ bin</span><br><span class="line">		|__ premake</span><br><span class="line">			|__ premake5.exe</span><br><span class="line">			|__ LICENSE.txt</span><br></pre></td></tr></table></figure>
-
-
-
-
-<h3 id="premake5-lua"><a href="#premake5-lua" class="headerlink" title="premake5.lua"></a>premake5.lua</h3><p>回到最初始的<code>Infinite</code>目录，新建<code>premake5.lua</code>，编写代码：</p>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">workspace <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  architecture <span class="string">&quot;x64&quot;</span></span><br><span class="line">  startproject <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line"></span><br><span class="line">  configurations</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Debug&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Release&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Dist&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">outputdir = <span class="string">&quot;%&#123;cfg.buildcfg&#125;-%&#123;cfg.system&#125;-%&#123;cfg.architecture&#125;&quot;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<ul>
-<li><code>workspace</code>可以当作解决方案；架构就是我们实际上想要处理的平台，我们选择<code>x64</code></li>
-<li>配置我们设置了三种：调试<code>Debug</code>、发布<code>Release</code>和发行<code>Dist</code></li>
-<li><code>outputdir</code>输出目录：<code>%&#123;cfg.buildcfg&#125;</code>即上面的配置；<code>%&#123;cfg.system&#125;</code>为系统；<code>&#123;cfg.architecture&#125;</code>是刚才的平台</li>
-</ul>
-<h4 id="Infinite"><a href="#Infinite" class="headerlink" title="Infinite"></a>Infinite</h4><p>此部分用于构建<code>Infinit/Infinite</code>：</p>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">project <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  location <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  kind <span class="string">&quot;SharedLib&quot;</span></span><br><span class="line">  language <span class="string">&quot;C++&quot;</span></span><br><span class="line"></span><br><span class="line">  targetdir (<span class="string">&quot;bin/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line">  objdir (<span class="string">&quot;bin-int/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line">  files</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.h&quot;</span>,</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.cpp&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  includedirs</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/vendor/spdlog/include&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;system:windows&quot;</span></span><br><span class="line">    cppdialect <span class="string">&quot;C++17&quot;</span></span><br><span class="line">    staticruntime <span class="string">&quot;On&quot;</span></span><br><span class="line">    systemversion <span class="string">&quot;latest&quot;</span></span><br><span class="line"></span><br><span class="line">    defines</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="string">&quot;IFN_PLATFORM_WINDOWS&quot;</span>,</span><br><span class="line">      <span class="string">&quot;IFN_BUILD_DLL&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    postbuildcommands</span><br><span class="line">    &#123;</span><br><span class="line">      (<span class="string">&quot;&#123;COPY&#125; %&#123;cfg.buildtarget.relpath&#125; ../bin/&quot;</span> .. outputdir .. <span class="string">&quot;/Sandbox&quot;</span>)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Debug&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DEBUG&quot;</span></span><br><span class="line">      symbols <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Release&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_RELEASE&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Dist&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DIST&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li><code>location</code>项目位置；<code>kind</code>项目类型；<code>language</code>语言为C++</li>
-<li><code>files</code>包含文件，列出我们现在想要的文件即<code>.h</code>与<code>.cpp</code></li>
-<li><code>includedirs</code>引入<code>spdlog</code></li>
-<li><code>filter</code>过滤器表示具有某种配置或程序属性</li>
-</ul>
-<h4 id="Sandbox"><a href="#Sandbox" class="headerlink" title="Sandbox"></a>Sandbox</h4><p>沙盒基本与<code>Infinite</code>一致，只需在一些地方稍作修改即可：</p>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">project <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line">  location <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line">  kind <span class="string">&quot;ConsoleApp&quot;</span></span><br><span class="line"></span><br><span class="line">  language <span class="string">&quot;C++&quot;</span></span><br><span class="line"></span><br><span class="line">  targetdir (<span class="string">&quot;bin/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line">  objdir (<span class="string">&quot;bin-int/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line">  files</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.h&quot;</span>,</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.cpp&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  includedirs</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Infinite/vendor/spdlog/include&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Infinite/src/Infinite&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  links</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;system:windows&quot;</span></span><br><span class="line">    cppdialect <span class="string">&quot;C++17&quot;</span></span><br><span class="line">    staticruntime <span class="string">&quot;On&quot;</span></span><br><span class="line">    systemversion <span class="string">&quot;latest&quot;</span></span><br><span class="line"></span><br><span class="line">    defines</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="string">&quot;IFN_PLATFORM_WINDOWS&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Debug&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DEBUG&quot;</span></span><br><span class="line">      symbols <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Release&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_RELEASE&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Dist&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DIST&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li><code>kind</code>项目类型变为<code>ConsleApp</code>控制台程序</li>
-<li><code>includedirs</code>引入<code>spdlog</code>与<code>Infinite</code></li>
-<li><code>links</code>链接器与<code>Infinite</code>相连</li>
-</ul>
-<h4 id="完整源码"><a href="#完整源码" class="headerlink" title="完整源码"></a>完整源码</h4><figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">workspace <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  architecture <span class="string">&quot;x64&quot;</span></span><br><span class="line">  startproject <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line"></span><br><span class="line">  configurations</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Debug&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Release&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Dist&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">outputdir = <span class="string">&quot;%&#123;cfg.buildcfg&#125;-%&#123;cfg.system&#125;-%&#123;cfg.architecture&#125;&quot;</span></span><br><span class="line"></span><br><span class="line">project <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  location <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  kind <span class="string">&quot;SharedLib&quot;</span></span><br><span class="line">  language <span class="string">&quot;C++&quot;</span></span><br><span class="line"></span><br><span class="line">  targetdir (<span class="string">&quot;bin/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line">  objdir (<span class="string">&quot;bin-int/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line">  files</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.h&quot;</span>,</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.cpp&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  includedirs</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/vendor/spdlog/include&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;system:windows&quot;</span></span><br><span class="line">    cppdialect <span class="string">&quot;C++17&quot;</span></span><br><span class="line">    staticruntime <span class="string">&quot;On&quot;</span></span><br><span class="line">    systemversion <span class="string">&quot;latest&quot;</span></span><br><span class="line"></span><br><span class="line">    defines</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="string">&quot;IFN_PLATFORM_WINDOWS&quot;</span>,</span><br><span class="line">      <span class="string">&quot;IFN_BUILD_DLL&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    postbuildcommands</span><br><span class="line">    &#123;</span><br><span class="line">      (<span class="string">&quot;&#123;COPY&#125; %&#123;cfg.buildtarget.relpath&#125; ../bin/&quot;</span> .. outputdir .. <span class="string">&quot;/Sandbox&quot;</span>)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Debug&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DEBUG&quot;</span></span><br><span class="line">      symbols <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Release&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_RELEASE&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Dist&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DIST&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">project <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line">  location <span class="string">&quot;Sandbox&quot;</span></span><br><span class="line">  kind <span class="string">&quot;ConsoleApp&quot;</span></span><br><span class="line"></span><br><span class="line">  language <span class="string">&quot;C++&quot;</span></span><br><span class="line"></span><br><span class="line">  targetdir (<span class="string">&quot;bin/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line">  objdir (<span class="string">&quot;bin-int/&quot;</span> .. outputdir .. <span class="string">&quot;/%&#123;prj.name&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line">  files</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.h&quot;</span>,</span><br><span class="line">    <span class="string">&quot;%&#123;prj.name&#125;/src/**.cpp&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  includedirs</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Infinite/vendor/spdlog/include&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Infinite/src/Infinite&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  links</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;Infinite&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;system:windows&quot;</span></span><br><span class="line">    cppdialect <span class="string">&quot;C++17&quot;</span></span><br><span class="line">    staticruntime <span class="string">&quot;On&quot;</span></span><br><span class="line">    systemversion <span class="string">&quot;latest&quot;</span></span><br><span class="line"></span><br><span class="line">    defines</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="string">&quot;IFN_PLATFORM_WINDOWS&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Debug&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DEBUG&quot;</span></span><br><span class="line">      symbols <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Release&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_RELEASE&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br><span class="line"></span><br><span class="line">  filter <span class="string">&quot;configurations:Dist&quot;</span></span><br><span class="line">      defines <span class="string">&quot;IFN_DIST&quot;</span></span><br><span class="line">      optimize <span class="string">&quot;On&quot;</span></span><br></pre></td></tr></table></figure>
-
-
-<h3 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h3><p>在<code>Infinite</code>目录中新建<code>GenerateProject.bat</code>：</p>
-<figure class="highlight bat"><table><tr><td class="code"><pre><span class="line"><span class="keyword">call</span> vendor\bin\premake\premake5.exe vs2019</span><br><span class="line"><span class="built_in">PAUSE</span></span><br></pre></td></tr></table></figure>
-<p>保存退出后我们只需点击此文件便可生成相应的项目，但在此之前我们需要把以下文件全部删除以更新：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Infinite</span><br><span class="line">|__ bin</span><br><span class="line">|__ bin-int</span><br><span class="line">|__ Infinite</span><br><span class="line">|   |__ Infinite.vcxproj</span><br><span class="line">|   |__ Infinite.vcxproj.filters</span><br><span class="line">|   |__ Infinite.vcxproj.user</span><br><span class="line">|__ Sandbox</span><br><span class="line">|   |__ Sandbox.vcxproj</span><br><span class="line">|   |-- Sandbox.vcxproj.user</span><br><span class="line">|__ Infinite.sln</span><br></pre></td></tr></table></figure>
-<p>这些文件<code>premake</code>都会帮你生成，所以不必担心。</p>
-<h3 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h3><p>理论上上述步骤完成后再次运行就成功了，但实际操作的时候遇到了以下两个问题;</p>
-<ul>
-<li>生成解决方案的目录混乱</li>
-<li>dll文件无法正常生成导致沙盒项目无法构建</li>
-</ul>
-<p>针对第二点我目前的参考了网络的一种解决方案，在<code>Infinite</code>属性中的生成后事件添加：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">xcopy &#x2F;y &quot;$(OutDir)Infinite.dll&quot; &quot;$(SolutionDir)bin\$(Configuration)-$(Platform)\Sandbox\&quot;</span><br></pre></td></tr></table></figure>
-<p>系统报错就会停止，但生成的dll文件在另一个平行的文件夹中，原因是<code>$(Configuration)-$(Platform)</code>和<code>%&#123;cfg.buildcfg&#125;-%&#123;cfg.system&#125;-%&#123;cfg.architecture&#125;</code>还是不一致，而我浏览了宏也没有找到合适的，最后只能用拖拽的方式暂时将<code>Infinite.dll</code>拖回<code>Sandbox&#39;</code>，勉强运行成功。</p>
 ]]></content>
       <categories>
         <category>游戏引擎开发 (Game Engine Series)</category>
@@ -3380,6 +3369,60 @@
       </tags>
   </entry>
   <entry>
+    <title>一个关于爱与生活的童话-Florence</title>
+    <url>/archives/9b487a14.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf5uxkndixj30go09djt1.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
+<a id="more"></a>
+
+<p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_3803bfdcbfa1ff4515505f920ed1c7993993b9f6.600x338.jpg?t=1589331032">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256774213/movie480.webm?t=1580836892" type="video/mp4">       </video></p>
+<h3 id="关于游戏"><a href="#关于游戏" class="headerlink" title="关于游戏"></a>关于游戏</h3><p>Florence 是一场持续约 30 分钟的心动体验。故事很简短，但意义很深远。</p>
+<p>25 岁的 Florence Yeoh 对生活感到困惑。她的生活是日复一日地工作、睡觉，以及在社交媒体上打发大量时间。直到有一天，她遇到了一位名叫 Krish 的大提琴手，他改变了她眼中的整个世界。</p>
+<p>透过一系列预先设定的游戏剧本，从调情到吵架，从互助成长到逐渐分歧，玩家将体验 Florence 与 Krish 这段感情的点点滴滴。 《Florence》的灵感来源于「Slice of Life」漫画小说和网路漫画，讲述了一个熟悉、青涩而又私密的爱情故事。</p>
+<h3 id="测评"><a href="#测评" class="headerlink" title="测评"></a>测评</h3><blockquote>
+<p>“Florence is a beautiful experience that isn’t afraid to tell an ordinary story. This isn’t an action-packed, heroic tale or a somber story filled with tragedy, but it still hits some of those notes in subdued ways. Florence is happy, distressing, and admirable in its reflection of young romance, and it left me with a sense of unexpected hopefulness.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.gameinformer.com/games/florence/b/ios/archive/2018/02/20/florence-game-informer-review.aspx">Game Informer</a></p>
+</blockquote>
+<br/>
+
+<blockquote>
+<p>“This short collection of small moments manages to cover a wide range of powerfully relatable emotional highs and lows, beautifully capturing what it’s like to fall in love for the first time.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.theguardian.com/games/2018/feb/23/florence-review-graphic-novel-style-game">The Guardian</a></p>
+</blockquote>
+<br/>
+
+<blockquote>
+<p>“The breathtaking Florence captures falling in love better than almost any game.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.polygon.com/2018/2/15/17014258/florence-game-review-ios-best-games-2018">Polygon</a></p>
+</blockquote>
+<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="玩法层面"><a href="#玩法层面" class="headerlink" title="玩法层面"></a>玩法层面</h4><p>游戏总体上偏向于叙事类的互动故事，玩家更注重故事本身，所以在玩法方面基本上是被弱化甚至是可以忽略。但是作为游戏，《Florence》的交互设计做的非常优秀，在后面会提到，在此不再赘述。</p>
+<h4 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h4><p>美术风格上绘图保持着非常高的质量，在同类游戏中处于中等偏上的水平。在游玩游戏的过程中，每一张图都可以当作壁纸，仿佛是在艺术长廊中欣赏一件件精美的画作。而且勾勒人物的线条非常简洁凝练，相较于写实风格更偏向卡通，但却拿捏的恰到好处。虽然游戏除了背景音乐完全没有人物配音，但美术上呈现出艺术上的张力，也能让画中的人物富有生机与活力。</p>
+<h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>交互设计也是《Florence》的一大亮点。</p>
+<p>从游戏一开始的拖拽牙刷来刷牙，到吃饭时点击食物来食用以及后面等等，交互的风格让我想到了锈湖推出的《白门》。除开游戏类型的不同，两者的交互设计非常相似，甚至《白门》的主人公一开始的洗漱和之后的吃饭几乎一模一样。在我的印象中，类似于洗漱吃饭这样的行为交互设计一般是通过按键的方式实现的，例如在饭桌前提示按下某个之前操作方式提到的交互键位，触发「洗漱」、「吃饭」、「睡觉」等，之后可能会有一段动画。回到游戏本身，作为叙事类游戏，《Florence》必然面临着游戏性不足的问题，而这种细腻独特的交互方式成功地拉长了总体的游戏时间，丰富了游戏的体验，让玩家参与其中而只不是“看漫画”。同样的，许多游戏大作采用固定交互键的方式也是节约了玩家的时间和精力，因为这些游戏本身不需要交互来给游戏“拖时间”。</p>
+<p>在交互的过程中，玩家感受到的不是僵硬地拖延游戏时间，而是情感被不断地牵动。令人印象非常深刻的是女主与男主交谈的几个片段。这个情节谈话的方式是将拼图拖拽到指定区域并拼好。双方刚开始聊天时，拼图有足足八块 ，形状也是千奇百怪。随着交谈的深入，拼图的数量也开始减少，难度开始不断降低，六块、四块、三块，到后面双方聊到火热，拼图也只剩下两块，画面中两个人的距离也在不断靠近。在接吻前，两块的拖拽甚至变成了轴对称的，只需要拖拽一块到区域内就完成了。在整个过程中，玩家对这种不断增进的感情实际上是感同身受的，情感已经借由交互带入到故事中：从刚开始聊天的羞涩，不断从脑中寻找话题，到之后双方开始互敞心扉，最后不断靠近并热切地接吻，玩家的情感也融入到情景之中。拼图的形式贯穿了整个游戏，随着剧情的发展，双方的争吵再次以拼图的形式呈现：拼图镶嵌的「角」从圆滑的「圆角」变成了锐利的「尖角」；如果拼接的速度不够快还可能输给对方；而到了夜里睡觉的时候，拼图拼出双方背对背躺着，却只能拼出两大块各自的拼图，两者因为「角」相互排斥拼不到一起。和拼图的效果相似的设计还有转动时针来表现时间的流逝、同居时放置物品和分居时收拾曾经放置的物品，都能给玩家带来很大的触动。</p>
+<p>丰富多样的交互可能会带来操作上的困难，但在整个游玩过程中，不同的交互都有相应的提示。交互方面唯一的遗憾是《Florence》作为跨平台的游戏，交互由触屏变成了鼠标的拖动，PC端的体验可能较手机端稍逊色一些。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf7df4nwl8j30go09dmyk.jpg"></p>
+<h4 id="剧情题材"><a href="#剧情题材" class="headerlink" title="剧情题材"></a>剧情题材</h4><p>故事的本身可能是《Florence》争议比较大的方面。一个女孩在日复一日麻木的生活与工作中偶然遇到自己心动的男孩，双方坠入爱河开始甜蜜幸福的生活，一起去追逐梦想。随着时间的流逝，在生活中女孩和男孩相互的不理解变成了争吵，最后不欢而散。女孩最后坚持了自己的梦想，成为了一名画家，但她依旧忘不了那个当初送给她颜料盒的那个人。</p>
+<p>有一些人认为剧情的真实性不够：女孩一见钟情，有懵懂的欣赏，有心动的害羞，有投机的聊天，这些都是校园恋爱的元素，放在前面铺垫过日复一日重复麻木单调工作的女孩身上显然是不合适的，而且之后的画画成名给人很突兀的感觉，逻辑上很难自洽：</p>
+<blockquote>
+<p>女孩幼年热爱绘画，二十来年不练，分手之后努力画了几年突然就绘画艺术家作品大卖了，我觉得真的好假啊，这种女孩是天才，是玛丽苏，是任何小说电视剧里的女主角，唯独不是普通人。一个「恋爱后分手，分手后成名」的恋爱故事，越品越感觉像是一个泡泡一样的童话”</p>
+<p> –<a href="https://www.taptap.com/user/50050544">Topas今天退休了吗</a></p>
+</blockquote>
+<p>在我看来，《Florence》与其说是一个故事，不如说是一个关于爱情的童话：与其在其中寻找现实中爱情的影子，不如放松下来，把它当作一本童话书或者一个绘本，静静欣赏那种单纯的美好。彼此激励一起为对方对梦想加油、无论做什么都是快乐而且有活力的、哪怕有吵架不久后还是原谅对方继续甜蜜、即使 Florence 失去了 Krish，她依旧选择了去热爱生活，去追逐自己的梦想，最后获得了成功。抛开合理性，这个剧情本身就已经超出了简单的甜甜的恋爱，立意上升到一个更高的层次：恋爱让自己变得更好。经历过这些，她明白了一个问题：我是谁？人的一生都在了解自己，女主也不例外。所以这款游戏的名字叫做“Florence”，不仅仅是说她经历了一切，更意味着，她经历的这一切，让她找回了自己。这可能才是游戏想真正表达的。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/ss_9e029df44296f3d21a61e96d0a7bea4447be2c14.600x338.jpg"></p>
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>希望通过恋爱，成为更好的自己。</p>
+<blockquote>
+<p>加速拨动的时钟 诉说我们之间的改变<br>争吵时 对话框的拼图角变得越来越尖锐<br>明明拼好了的拼图却发现无法组合在一起<br>拼到一起的照片碎片 却还是一直在分离<br>…….<br>不管你怎么念念不舍把碎片拖回来 不愿意点下一页<br>但想要离开的人终究会疏远 远去 成为人生中的一名过客</p>
+<p>曾经的你使我的生活有了色彩 让我对未来有了无限的憧憬</p>
+<p>可相片里躺在我身边的你 却依旧是我亲手擦去了你的存在</p>
+<p>感谢曾经所有美好的回忆 也感谢你把我放归与人海成就更好的自己</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>游戏追踪 (Game Tracker)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>游戏性系统</title>
     <url>/archives/a79ad39b.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf97mfku7fj30x30lp750.jpg"></p>
@@ -3574,60 +3617,6 @@
 ]]></content>
       <categories>
         <category>游戏程序设计 (Game Programming)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一个关于爱与生活的童话-Florence</title>
-    <url>/archives/9b487a14.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf5uxkndixj30go09djt1.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《Florence》是一本互动故事书，出自备受赞誉的《纪念碑谷》首席设计师之手，将一个女孩的初恋故事里令人心跳加速的高潮和令人心碎的低谷娓娓道来。</p>
-<a id="more"></a>
-
-<p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/1102130/ss_3803bfdcbfa1ff4515505f920ed1c7993993b9f6.600x338.jpg?t=1589331032">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256774213/movie480.webm?t=1580836892" type="video/mp4">       </video></p>
-<h3 id="关于游戏"><a href="#关于游戏" class="headerlink" title="关于游戏"></a>关于游戏</h3><p>Florence 是一场持续约 30 分钟的心动体验。故事很简短，但意义很深远。</p>
-<p>25 岁的 Florence Yeoh 对生活感到困惑。她的生活是日复一日地工作、睡觉，以及在社交媒体上打发大量时间。直到有一天，她遇到了一位名叫 Krish 的大提琴手，他改变了她眼中的整个世界。</p>
-<p>透过一系列预先设定的游戏剧本，从调情到吵架，从互助成长到逐渐分歧，玩家将体验 Florence 与 Krish 这段感情的点点滴滴。 《Florence》的灵感来源于「Slice of Life」漫画小说和网路漫画，讲述了一个熟悉、青涩而又私密的爱情故事。</p>
-<h3 id="测评"><a href="#测评" class="headerlink" title="测评"></a>测评</h3><blockquote>
-<p>“Florence is a beautiful experience that isn’t afraid to tell an ordinary story. This isn’t an action-packed, heroic tale or a somber story filled with tragedy, but it still hits some of those notes in subdued ways. Florence is happy, distressing, and admirable in its reflection of young romance, and it left me with a sense of unexpected hopefulness.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.gameinformer.com/games/florence/b/ios/archive/2018/02/20/florence-game-informer-review.aspx">Game Informer</a></p>
-</blockquote>
-<br/>
-
-<blockquote>
-<p>“This short collection of small moments manages to cover a wide range of powerfully relatable emotional highs and lows, beautifully capturing what it’s like to fall in love for the first time.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.theguardian.com/games/2018/feb/23/florence-review-graphic-novel-style-game">The Guardian</a></p>
-</blockquote>
-<br/>
-
-<blockquote>
-<p>“The breathtaking Florence captures falling in love better than almost any game.”<br><a href="https://steamcommunity.com/linkfilter/?url=https://www.polygon.com/2018/2/15/17014258/florence-game-review-ios-best-games-2018">Polygon</a></p>
-</blockquote>
-<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="玩法层面"><a href="#玩法层面" class="headerlink" title="玩法层面"></a>玩法层面</h4><p>游戏总体上偏向于叙事类的互动故事，玩家更注重故事本身，所以在玩法方面基本上是被弱化甚至是可以忽略。但是作为游戏，《Florence》的交互设计做的非常优秀，在后面会提到，在此不再赘述。</p>
-<h4 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h4><p>美术风格上绘图保持着非常高的质量，在同类游戏中处于中等偏上的水平。在游玩游戏的过程中，每一张图都可以当作壁纸，仿佛是在艺术长廊中欣赏一件件精美的画作。而且勾勒人物的线条非常简洁凝练，相较于写实风格更偏向卡通，但却拿捏的恰到好处。虽然游戏除了背景音乐完全没有人物配音，但美术上呈现出艺术上的张力，也能让画中的人物富有生机与活力。</p>
-<h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>交互设计也是《Florence》的一大亮点。</p>
-<p>从游戏一开始的拖拽牙刷来刷牙，到吃饭时点击食物来食用以及后面等等，交互的风格让我想到了锈湖推出的《白门》。除开游戏类型的不同，两者的交互设计非常相似，甚至《白门》的主人公一开始的洗漱和之后的吃饭几乎一模一样。在我的印象中，类似于洗漱吃饭这样的行为交互设计一般是通过按键的方式实现的，例如在饭桌前提示按下某个之前操作方式提到的交互键位，触发「洗漱」、「吃饭」、「睡觉」等，之后可能会有一段动画。回到游戏本身，作为叙事类游戏，《Florence》必然面临着游戏性不足的问题，而这种细腻独特的交互方式成功地拉长了总体的游戏时间，丰富了游戏的体验，让玩家参与其中而只不是“看漫画”。同样的，许多游戏大作采用固定交互键的方式也是节约了玩家的时间和精力，因为这些游戏本身不需要交互来给游戏“拖时间”。</p>
-<p>在交互的过程中，玩家感受到的不是僵硬地拖延游戏时间，而是情感被不断地牵动。令人印象非常深刻的是女主与男主交谈的几个片段。这个情节谈话的方式是将拼图拖拽到指定区域并拼好。双方刚开始聊天时，拼图有足足八块 ，形状也是千奇百怪。随着交谈的深入，拼图的数量也开始减少，难度开始不断降低，六块、四块、三块，到后面双方聊到火热，拼图也只剩下两块，画面中两个人的距离也在不断靠近。在接吻前，两块的拖拽甚至变成了轴对称的，只需要拖拽一块到区域内就完成了。在整个过程中，玩家对这种不断增进的感情实际上是感同身受的，情感已经借由交互带入到故事中：从刚开始聊天的羞涩，不断从脑中寻找话题，到之后双方开始互敞心扉，最后不断靠近并热切地接吻，玩家的情感也融入到情景之中。拼图的形式贯穿了整个游戏，随着剧情的发展，双方的争吵再次以拼图的形式呈现：拼图镶嵌的「角」从圆滑的「圆角」变成了锐利的「尖角」；如果拼接的速度不够快还可能输给对方；而到了夜里睡觉的时候，拼图拼出双方背对背躺着，却只能拼出两大块各自的拼图，两者因为「角」相互排斥拼不到一起。和拼图的效果相似的设计还有转动时针来表现时间的流逝、同居时放置物品和分居时收拾曾经放置的物品，都能给玩家带来很大的触动。</p>
-<p>丰富多样的交互可能会带来操作上的困难，但在整个游玩过程中，不同的交互都有相应的提示。交互方面唯一的遗憾是《Florence》作为跨平台的游戏，交互由触屏变成了鼠标的拖动，PC端的体验可能较手机端稍逊色一些。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf7df4nwl8j30go09dmyk.jpg"></p>
-<h4 id="剧情题材"><a href="#剧情题材" class="headerlink" title="剧情题材"></a>剧情题材</h4><p>故事的本身可能是《Florence》争议比较大的方面。一个女孩在日复一日麻木的生活与工作中偶然遇到自己心动的男孩，双方坠入爱河开始甜蜜幸福的生活，一起去追逐梦想。随着时间的流逝，在生活中女孩和男孩相互的不理解变成了争吵，最后不欢而散。女孩最后坚持了自己的梦想，成为了一名画家，但她依旧忘不了那个当初送给她颜料盒的那个人。</p>
-<p>有一些人认为剧情的真实性不够：女孩一见钟情，有懵懂的欣赏，有心动的害羞，有投机的聊天，这些都是校园恋爱的元素，放在前面铺垫过日复一日重复麻木单调工作的女孩身上显然是不合适的，而且之后的画画成名给人很突兀的感觉，逻辑上很难自洽：</p>
-<blockquote>
-<p>女孩幼年热爱绘画，二十来年不练，分手之后努力画了几年突然就绘画艺术家作品大卖了，我觉得真的好假啊，这种女孩是天才，是玛丽苏，是任何小说电视剧里的女主角，唯独不是普通人。一个「恋爱后分手，分手后成名」的恋爱故事，越品越感觉像是一个泡泡一样的童话”</p>
-<p> –<a href="https://www.taptap.com/user/50050544">Topas今天退休了吗</a></p>
-</blockquote>
-<p>在我看来，《Florence》与其说是一个故事，不如说是一个关于爱情的童话：与其在其中寻找现实中爱情的影子，不如放松下来，把它当作一本童话书或者一个绘本，静静欣赏那种单纯的美好。彼此激励一起为对方对梦想加油、无论做什么都是快乐而且有活力的、哪怕有吵架不久后还是原谅对方继续甜蜜、即使 Florence 失去了 Krish，她依旧选择了去热爱生活，去追逐自己的梦想，最后获得了成功。抛开合理性，这个剧情本身就已经超出了简单的甜甜的恋爱，立意上升到一个更高的层次：恋爱让自己变得更好。经历过这些，她明白了一个问题：我是谁？人的一生都在了解自己，女主也不例外。所以这款游戏的名字叫做“Florence”，不仅仅是说她经历了一切，更意味着，她经历的这一切，让她找回了自己。这可能才是游戏想真正表达的。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/ss_9e029df44296f3d21a61e96d0a7bea4447be2c14.600x338.jpg"></p>
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>希望通过恋爱，成为更好的自己。</p>
-<blockquote>
-<p>加速拨动的时钟 诉说我们之间的改变<br>争吵时 对话框的拼图角变得越来越尖锐<br>明明拼好了的拼图却发现无法组合在一起<br>拼到一起的照片碎片 却还是一直在分离<br>…….<br>不管你怎么念念不舍把碎片拖回来 不愿意点下一页<br>但想要离开的人终究会疏远 远去 成为人生中的一名过客</p>
-<p>曾经的你使我的生活有了色彩 让我对未来有了无限的憧憬</p>
-<p>可相片里躺在我身边的你 却依旧是我亲手擦去了你的存在</p>
-<p>感谢曾经所有美好的回忆 也感谢你把我放归与人海成就更好的自己</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
         <tag>Game</tag>
@@ -5275,57 +5264,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#121;&#x6f;&#110;&#103;&#x40;&#x74;&#x73;&#105;&#110;&#x67;&#x68;&#x75;&#97;&#46;&#x65;&#x64;&#x75;&#46;&#x63;&#x6e;">&#x78;&#121;&#x6f;&#110;&#103;&#x40;&#x74;&#x73;&#105;&#110;&#x67;&#x68;&#x75;&#97;&#46;&#x65;&#x64;&#x75;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#x79;&#111;&#x6e;&#103;&#64;&#116;&#115;&#105;&#110;&#x67;&#104;&#x75;&#97;&#46;&#x65;&#100;&#117;&#x2e;&#99;&#110;">&#120;&#x79;&#111;&#x6e;&#103;&#64;&#116;&#115;&#105;&#110;&#x67;&#104;&#x75;&#97;&#46;&#x65;&#100;&#117;&#x2e;&#99;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#x75;&#x63;&#x68;&#x65;&#110;&#x40;&#109;&#x61;&#x69;&#x6c;&#x2e;&#116;&#115;&#x69;&#110;&#103;&#x68;&#117;&#97;&#x2e;&#x65;&#x64;&#117;&#46;&#x63;&#x6e;">&#121;&#x75;&#x63;&#x68;&#x65;&#110;&#x40;&#109;&#x61;&#x69;&#x6c;&#x2e;&#116;&#115;&#x69;&#110;&#103;&#x68;&#117;&#97;&#x2e;&#x65;&#x64;&#117;&#46;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#x75;&#99;&#104;&#x65;&#110;&#64;&#109;&#x61;&#105;&#108;&#46;&#116;&#115;&#x69;&#110;&#x67;&#x68;&#117;&#x61;&#x2e;&#x65;&#100;&#117;&#x2e;&#x63;&#x6e;">&#121;&#x75;&#99;&#104;&#x65;&#110;&#64;&#109;&#x61;&#105;&#108;&#46;&#116;&#115;&#x69;&#110;&#x67;&#x68;&#117;&#x61;&#x2e;&#x65;&#100;&#117;&#x2e;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#x74;&#x65;&#x72;&#110;&#97;&#x6c;&#46;&#110;&#48;&#56;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;">&#x65;&#x74;&#x65;&#x72;&#110;&#97;&#x6c;&#46;&#110;&#48;&#56;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#101;&#x74;&#101;&#114;&#x6e;&#x61;&#108;&#x2e;&#x6e;&#x30;&#x38;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#101;&#x74;&#101;&#114;&#x6e;&#x61;&#108;&#x2e;&#x6e;&#x30;&#x38;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#98;&#x6a;&#101;&#99;&#116;&#107;&#117;&#x61;&#x6e;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#111;&#98;&#x6a;&#101;&#99;&#116;&#107;&#117;&#x61;&#x6e;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x6f;&#98;&#x6a;&#101;&#99;&#x74;&#x6b;&#117;&#x61;&#110;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#x6f;&#98;&#x6a;&#101;&#99;&#x74;&#x6b;&#117;&#x61;&#110;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#x72;&#x64;&#102;&#114;&#x61;&#x6e;&#x6b;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#x63;&#x72;&#x64;&#102;&#114;&#x61;&#x6e;&#x6b;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x63;&#114;&#100;&#102;&#114;&#97;&#x6e;&#x6b;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x63;&#114;&#100;&#102;&#114;&#97;&#x6e;&#x6b;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#x61;&#x63;&#x63;&#x6f;&#x72;&#x61;&#119;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#116;&#x61;&#x63;&#x63;&#x6f;&#x72;&#x61;&#119;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#116;&#x61;&#x63;&#x63;&#111;&#x72;&#97;&#119;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">&#116;&#x61;&#x63;&#x63;&#111;&#x72;&#97;&#119;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#117;&#110;&#x78;&#105;&#110;&#103;&#48;&#48;&#x30;&#49;&#64;&#x31;&#54;&#x33;&#x2e;&#99;&#111;&#109;">&#x78;&#x69;&#x6e;&#121;&#117;&#110;&#x78;&#105;&#110;&#103;&#48;&#48;&#x30;&#49;&#64;&#x31;&#54;&#x33;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#120;&#105;&#x6e;&#x67;&#48;&#48;&#x30;&#49;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#x6f;&#109;">&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#120;&#105;&#x6e;&#x67;&#48;&#48;&#x30;&#49;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#x6e;&#111;&#99;&#117;&#x69;&#x6c;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#103;&#x6e;&#111;&#99;&#117;&#x69;&#x6c;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#110;&#x6f;&#99;&#117;&#x69;&#108;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;">&#x67;&#110;&#x6f;&#99;&#117;&#x69;&#108;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#121;&#97;&#x69;&#114;&#105;&#97;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x6d;&#121;&#97;&#x69;&#114;&#105;&#97;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#x79;&#x61;&#105;&#x72;&#x69;&#97;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#109;&#x79;&#x61;&#105;&#x72;&#x69;&#97;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#x68;&#x61;&#110;&#103;&#114;&#97;&#105;&#x6e;&#57;&#49;&#x31;&#64;&#49;&#54;&#51;&#x2e;&#99;&#x6f;&#x6d;">&#x7a;&#x68;&#x61;&#110;&#103;&#114;&#97;&#105;&#x6e;&#57;&#49;&#x31;&#64;&#49;&#54;&#51;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#104;&#97;&#110;&#x67;&#x72;&#x61;&#x69;&#110;&#57;&#49;&#49;&#64;&#49;&#54;&#x33;&#46;&#99;&#x6f;&#x6d;">&#x7a;&#104;&#97;&#110;&#x67;&#x72;&#x61;&#x69;&#110;&#57;&#49;&#49;&#64;&#49;&#54;&#x33;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#103;&#120;&#x78;&#x31;&#50;&#48;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;">&#x67;&#103;&#120;&#x78;&#x31;&#50;&#48;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x67;&#120;&#120;&#x31;&#x32;&#48;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#x67;&#120;&#120;&#x31;&#x32;&#48;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -5629,51 +5618,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Aseprite教学-色彩、造型和光照</title>
-    <url>/archives/c7d3ecc8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文我们来聊聊颜色工具以及绘画中的造型和光照。</p>
-<a id="more"></a>
-
-
-
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu9pyqyj313g0m8ab0.jpg"></p>
-<p>颜色部分在左下角，虽然可能有些没用但了解一下也很好。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu4kakfj313g0m8gma.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu4whzuj313g0m83z6.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zucu0blj313g0m8q3m.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu5kay2j313g0m8wf3.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu6etbsj313g0m8q40.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glougm6pqwj313g0m80so.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloufxbssyj313g0m8aa3.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu7so6aj313g0m8jsj.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu8amcwj313g0m83z1.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug2x3jyj313g0m8aa3.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu9a5x6j313g0m83zq.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zubw296j313g0m8aap.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug1ytcgj313g0m80sn.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu8r5vnj313g0m80td.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zucfjuzj313g0m8gma.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zub1667j313g0m8dgj.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouftn7ydj313g0m8glj.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Course43.png"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug0op2vj313g0m8wef.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zua412dj313g0m8q3p.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug1bp77j313g0m8748.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zuber3jj313g0m8753.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloufz6c8aj313g0m8glk.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug038bej313g0m8jrc.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zuamdg6j313g0m8glk.jpg"></p>
-]]></content>
-      <categories>
-        <category>像素美工 (Pixel Art Designing)</category>
-      </categories>
-      <tags>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Aseprite教学-基本工具</title>
     <url>/archives/3df0cd57.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf5u3va259j30xc0irh5u.jpg"></p>
@@ -5827,6 +5771,51 @@
   </font>
 </div>
 
+]]></content>
+      <categories>
+        <category>像素美工 (Pixel Art Designing)</category>
+      </categories>
+      <tags>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Aseprite教学-色彩、造型和光照</title>
+    <url>/archives/c7d3ecc8.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文我们来聊聊颜色工具以及绘画中的造型和光照。</p>
+<a id="more"></a>
+
+
+
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu9pyqyj313g0m8ab0.jpg"></p>
+<p>颜色部分在左下角，虽然可能有些没用但了解一下也很好。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu4kakfj313g0m8gma.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu4whzuj313g0m83z6.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zucu0blj313g0m8q3m.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu5kay2j313g0m8wf3.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu6etbsj313g0m8q40.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glougm6pqwj313g0m80so.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloufxbssyj313g0m8aa3.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu7so6aj313g0m8jsj.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu8amcwj313g0m83z1.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug2x3jyj313g0m8aa3.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu9a5x6j313g0m83zq.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zubw296j313g0m8aap.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug1ytcgj313g0m80sn.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zu8r5vnj313g0m80td.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zucfjuzj313g0m8gma.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zub1667j313g0m8dgj.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouftn7ydj313g0m8glj.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Course43.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug0op2vj313g0m8wef.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zua412dj313g0m8q3p.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug1bp77j313g0m8748.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zuber3jj313g0m8753.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloufz6c8aj313g0m8glk.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloug038bej313g0m8jrc.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8zuamdg6j313g0m8glk.jpg"></p>
 ]]></content>
       <categories>
         <category>像素美工 (Pixel Art Designing)</category>
@@ -6215,6 +6204,64 @@
       </tags>
   </entry>
   <entry>
+    <title>像素宝典#2</title>
+    <url>/archives/c22ed0e6.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z43ozraj31hc0u0gvq.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解俯视跑步循环、闪电效果、故障效果和关卡设计流程。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth1mvn7j30u008c74z.jpg"></p>
+<h3 id="像素画基础-1"><a href="#像素画基础-1" class="headerlink" title="像素画基础 1"></a>像素画基础 1</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljtjoj81ag30e80e8e81.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljtjpfq75g30e80e8e81.gif"></p>
+<p>降噪是大家选出的主题！（在 patreon 上有投票）我在此基础上拓展了一下，结果就稍微复杂了些，而且加了其他方面的讲解，所以这节就叫像素画基础1了。</p>
+<p>还有些图里装不下的 tips：</p>
+<ul>
+<li>颜色总数不要过多。（保持 32 种以下）。</li>
+<li>大块的区域考虑用平直的颜色，让眼睛从细节区域出来后休息一下。</li>
+<li>如果你在尝试往很小的区域塞大量细节，考虑一下修改画面，改为更简洁的设计。</li>
+<li>别加入很多的圆柱或者圆形的东西，这些类型在像素画里很难描绘出来。立方体这种容易些。</li>
+<li>用轮廓表现出你想要的东西，内部区域细节少些。</li>
+</ul>
+<p>重申一下，我并不是说这些都是正确的做法，这只是我的做法。</p>
+<p>关于抖动：我不反对它，只是过多的抖动并不适合我的风格。我有时候也用，或者是调色盘颜色受限的时候。我算是个“抖动好奇者”，可能有一天我会发现一种我喜欢抖动。</p>
+<h3 id="俯视角跑步循环"><a href="#俯视角跑步循环" class="headerlink" title="俯视角跑步循环"></a>俯视角跑步循环</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth22dutg30e80e80xa.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth3spung30e80e8ael.gif"></p>
+<p>这不是俯视角跑步循环的唯一做法。我选这种是因为我通常这样画，而且这是我能想到最简单的方式。</p>
+<p>我一般重点关注 3 帧的跳跃帧和 2 帧的恢复帧，之后再用其他动画，像头发的运动，衣服等等来把这些都连起来。</p>
+<p>也可以只用一帧跳跃和一帧恢复做个超简洁动画，不过看起来不太顺滑。</p>
+<p>实话讲这个侧视角我自己也不太满意，我以后会再研究一下。</p>
+<p>感谢大家支持。</p>
+<h3 id="闪电"><a href="#闪电" class="headerlink" title="闪电"></a>闪电</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth31xq5g30e80e8tem.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth4c7j2g30e80e8ter.gif"></p>
+<p>我个人做闪电类的东西遵守的法则就是让所有东西都闪烁，非常闪。而且会做成 24 帧，看起来就比较顺滑。</p>
+<p>闪电是很快的，所以第一帧就应该是最大，然后逐渐消散。</p>
+<p>一开始我会把闪电画得很尖锐，然后消散过程中逐渐变柔和。尽管实际生活中闪电几乎没有这么尖锐的，但我发现在动画里这么画效果很好。</p>
+<p>画闪电类的东西我一般会加点烟雾，你可以参考之前的烟雾教程。</p>
+<h3 id="故障效果"><a href="#故障效果" class="headerlink" title="故障效果"></a>故障效果</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth2gk2ag30e80e8qeb.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth5ccmdg30e80e87fd.gif"></p>
+<p>我总会参考身边真实的故障效果。像商场里坏掉的显示器，商店的广告牌里的诡异故障效果，或者是我自己的显卡崩了的时候。</p>
+<p>我会去注意这个故障效果实际上是做了什么，是把所有东西都往左移？绿色显示不出来？还是所有东西都变成了乱七八糟的噪点？</p>
+<p>我会分析这些真实的故障效果，并把它们变得更好看，更酷。对我来说，目的就是达到它看起来不是真的，但又不会太假。</p>
+<h3 id="关卡设计流程"><a href="#关卡设计流程" class="headerlink" title="关卡设计流程"></a>关卡设计流程</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth3l2xag30e80e8tea.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth4yfjgg30e80e8grw.gif"></p>
+<p>关卡设计不是我的特长，而且这方面各人有不同的理解，所以这里的都是我设计关卡时候的想法，不是法则。</p>
+<p>对于我来说乐趣的核心就是学习。这也是为什么每次我在关卡里加了东西，都会问自己：“这里我是要教什么？”以及“我需要玩家做什么？”。</p>
+<p>另外一个重要的点就是节奏。我会在一些困难的区域之后，加上一些安全区域或者是强力道具，让玩家能缓口气，试试新东西。这就是曲线的凹点，这能让玩家感觉下一阶段变得更难，而不需要我们真的设计的特别难来打击玩家。</p>
+<p>非常感谢 Matt Thorson 对这一节内容的支持。</p>
+]]></content>
+      <categories>
+        <category>像素宝典 (Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>像素宝典#3</title>
     <url>/archives/a2511f33.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z6hdoorj31hc0u0tiu.jpg"></p>
@@ -6275,53 +6322,48 @@
       </tags>
   </entry>
   <entry>
-    <title>像素宝典#2</title>
-    <url>/archives/c22ed0e6.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z43ozraj31hc0u0gvq.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解俯视跑步循环、闪电效果、故障效果和关卡设计流程。</p>
+    <title>像素宝典#4</title>
+    <url>/archives/2b4d75d3.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z8d807nj31hc0u0wol.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解角色设计、动画、像素运动、爆炸效果和怪异科技效果。</p>
 <a id="more"></a>
 
 
 
+
+
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth1mvn7j30u008c74z.jpg"></p>
-<h3 id="像素画基础-1"><a href="#像素画基础-1" class="headerlink" title="像素画基础 1"></a>像素画基础 1</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljtjoj81ag30e80e8e81.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljtjpfq75g30e80e8e81.gif"></p>
-<p>降噪是大家选出的主题！（在 patreon 上有投票）我在此基础上拓展了一下，结果就稍微复杂了些，而且加了其他方面的讲解，所以这节就叫像素画基础1了。</p>
-<p>还有些图里装不下的 tips：</p>
-<ul>
-<li>颜色总数不要过多。（保持 32 种以下）。</li>
-<li>大块的区域考虑用平直的颜色，让眼睛从细节区域出来后休息一下。</li>
-<li>如果你在尝试往很小的区域塞大量细节，考虑一下修改画面，改为更简洁的设计。</li>
-<li>别加入很多的圆柱或者圆形的东西，这些类型在像素画里很难描绘出来。立方体这种容易些。</li>
-<li>用轮廓表现出你想要的东西，内部区域细节少些。</li>
-</ul>
-<p>重申一下，我并不是说这些都是正确的做法，这只是我的做法。</p>
-<p>关于抖动：我不反对它，只是过多的抖动并不适合我的风格。我有时候也用，或者是调色盘颜色受限的时候。我算是个“抖动好奇者”，可能有一天我会发现一种我喜欢抖动。</p>
-<h3 id="俯视角跑步循环"><a href="#俯视角跑步循环" class="headerlink" title="俯视角跑步循环"></a>俯视角跑步循环</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth22dutg30e80e80xa.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth3spung30e80e8ael.gif"></p>
-<p>这不是俯视角跑步循环的唯一做法。我选这种是因为我通常这样画，而且这是我能想到最简单的方式。</p>
-<p>我一般重点关注 3 帧的跳跃帧和 2 帧的恢复帧，之后再用其他动画，像头发的运动，衣服等等来把这些都连起来。</p>
-<p>也可以只用一帧跳跃和一帧恢复做个超简洁动画，不过看起来不太顺滑。</p>
-<p>实话讲这个侧视角我自己也不太满意，我以后会再研究一下。</p>
-<p>感谢大家支持。</p>
-<h3 id="闪电"><a href="#闪电" class="headerlink" title="闪电"></a>闪电</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth31xq5g30e80e8tem.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth4c7j2g30e80e8ter.gif"></p>
-<p>我个人做闪电类的东西遵守的法则就是让所有东西都闪烁，非常闪。而且会做成 24 帧，看起来就比较顺滑。</p>
-<p>闪电是很快的，所以第一帧就应该是最大，然后逐渐消散。</p>
-<p>一开始我会把闪电画得很尖锐，然后消散过程中逐渐变柔和。尽管实际生活中闪电几乎没有这么尖锐的，但我发现在动画里这么画效果很好。</p>
-<p>画闪电类的东西我一般会加点烟雾，你可以参考之前的烟雾教程。</p>
-<h3 id="故障效果"><a href="#故障效果" class="headerlink" title="故障效果"></a>故障效果</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth2gk2ag30e80e8qeb.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth5ccmdg30e80e87fd.gif"></p>
-<p>我总会参考身边真实的故障效果。像商场里坏掉的显示器，商店的广告牌里的诡异故障效果，或者是我自己的显卡崩了的时候。</p>
-<p>我会去注意这个故障效果实际上是做了什么，是把所有东西都往左移？绿色显示不出来？还是所有东西都变成了乱七八糟的噪点？</p>
-<p>我会分析这些真实的故障效果，并把它们变得更好看，更酷。对我来说，目的就是达到它看起来不是真的，但又不会太假。</p>
-<h3 id="关卡设计流程"><a href="#关卡设计流程" class="headerlink" title="关卡设计流程"></a>关卡设计流程</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth3l2xag30e80e8tea.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth4yfjgg30e80e8grw.gif"></p>
-<p>关卡设计不是我的特长，而且这方面各人有不同的理解，所以这里的都是我设计关卡时候的想法，不是法则。</p>
-<p>对于我来说乐趣的核心就是学习。这也是为什么每次我在关卡里加了东西，都会问自己：“这里我是要教什么？”以及“我需要玩家做什么？”。</p>
-<p>另外一个重要的点就是节奏。我会在一些困难的区域之后，加上一些安全区域或者是强力道具，让玩家能缓口气，试试新东西。这就是曲线的凹点，这能让玩家感觉下一阶段变得更难，而不需要我们真的设计的特别难来打击玩家。</p>
-<p>非常感谢 Matt Thorson 对这一节内容的支持。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh6yz1yrj30u008c74z.jpg"></p>
+<h3 id="角色设计-1"><a href="#角色设计-1" class="headerlink" title="角色设计 1"></a>角色设计 1</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh6zvcfhg30e80e81kx.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh7283bug30e80e81kx.gif"></p>
+<p>这节是关于角色剪影！</p>
+<p>我觉得剪影是角色设计里最重要的一环，在像素画里更是如此。</p>
+<p>画像素画大部分时候都是在低分辨率。正因为我们不能添加很多的细节，甚至不能用过多的颜色，剪影就必须传达些东西。</p>
+<p>画角色的时候我都会从剪影开始，不用特别精细，他只是大致形状的草稿，接着我就会问自己：“我想要这个角色传达出什么？我想要玩家看到角色时感受到什么？”</p>
+<p>剪影也可以是有欺骗性的，你可以做一个看起来安全的剪影，但是细节却变现出他其实很危险。都可以，只要你有自己的目的。</p>
+<p>感谢所有人的大力支持，这已经是教程的第三个月了！制作教程的过程很有趣，我自己也从中学到了很多。</p>
+<h3 id="动画计划"><a href="#动画计划" class="headerlink" title="动画计划"></a>动画计划</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh7408hxg30e80e8n63.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh75ds13g30e80e811z.gif"></p>
+<p>这节是关于我如何处理需要计划的复杂动画。我不知道这是不是“官方”做法，因为我从来没经历过科班培训，这只是我的工作方式：</p>
+<p>静态帧 ＞ 草图 &gt; 关键帧 &gt; 中间帧（及一些修改）</p>
+<p>我感觉最难的是关键帧，通常意味着你得想出低分辨率下看着还很酷的姿势。但是中间帧是最累的部分，需要做所有的调整，次级动画以及繁重的复制粘贴。</p>
+<p>感谢大家一如既往的支持！</p>
+<h3 id="lt-1-像素的运动"><a href="#lt-1-像素的运动" class="headerlink" title="&lt;1 像素的运动"></a>&lt;1 像素的运动</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh76bwvog30e80e8n4s.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh76u5iog30e80e87co.gif"></p>
+<p>这节是关于 &lt;1 像素的运动，有些人也叫亚像素动画。因为移动少于一个像素是不可能的，所以这节其实是关于如何让像素动画尽可能的精美。</p>
+<p> 我觉得这应该是像素画里最难的东西了，我的主要建议就是慢点来，多练习。不用担心，这个就是非常难做好的，为了这个我通常都会重做好几次动画。我觉得这是正常的，最起码我希望是。</p>
+<h3 id="爆炸-1"><a href="#爆炸-1" class="headerlink" title="爆炸 1"></a>爆炸 1</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-00018-cn9178a6.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh77ezszg30e80e8doq.gif"></p>
+<p>爆炸是我最喜欢画的主题之一了！里面有很多的粒子，我通常都会一个一个的处理。比如我会从头到尾画一个弹片，接着从头到尾画一团烟雾，等等。</p>
+<p>爆炸里有非常多的火和烟雾，我之前也做过教程，可以去看下。</p>
+<p>这是第 18 个教程了!（之前有几个可能他觉得不算，比如专辑那个。） 很高兴这个系列能走这么远，完全靠大家的支持！</p>
+<p>感谢所有支持这个系列的人！</p>
+<h3 id="机器和怪异科技"><a href="#机器和怪异科技" class="headerlink" title="机器和怪异科技"></a>机器和怪异科技</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-00019-cn9194P4.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh77uh87g30e80e87qz.gif"></p>
+<p>不好意思各位，本来应该昨天发，但是感冒太严重了。今天好点了。（风农：不是我。）</p>
+<p>这次是关于机器，我决定做个类似于“参考样式”的。你可以看着它来考虑想要加到自己机器上面的元素。</p>
+<p>也别忘了参考周围的东西，还有网上的，尤其是破损的机器。</p>
+<p>感谢大家的支持！</p>
 ]]></content>
       <categories>
         <category>像素宝典 (Pixel Dictionary)</category>
@@ -6406,114 +6448,6 @@
       </tags>
   </entry>
   <entry>
-    <title>像素宝典#4</title>
-    <url>/archives/2b4d75d3.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z8d807nj31hc0u0wol.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解角色设计、动画、像素运动、爆炸效果和怪异科技效果。</p>
-<a id="more"></a>
-
-
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh6yz1yrj30u008c74z.jpg"></p>
-<h3 id="角色设计-1"><a href="#角色设计-1" class="headerlink" title="角色设计 1"></a>角色设计 1</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh6zvcfhg30e80e81kx.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh7283bug30e80e81kx.gif"></p>
-<p>这节是关于角色剪影！</p>
-<p>我觉得剪影是角色设计里最重要的一环，在像素画里更是如此。</p>
-<p>画像素画大部分时候都是在低分辨率。正因为我们不能添加很多的细节，甚至不能用过多的颜色，剪影就必须传达些东西。</p>
-<p>画角色的时候我都会从剪影开始，不用特别精细，他只是大致形状的草稿，接着我就会问自己：“我想要这个角色传达出什么？我想要玩家看到角色时感受到什么？”</p>
-<p>剪影也可以是有欺骗性的，你可以做一个看起来安全的剪影，但是细节却变现出他其实很危险。都可以，只要你有自己的目的。</p>
-<p>感谢所有人的大力支持，这已经是教程的第三个月了！制作教程的过程很有趣，我自己也从中学到了很多。</p>
-<h3 id="动画计划"><a href="#动画计划" class="headerlink" title="动画计划"></a>动画计划</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh7408hxg30e80e8n63.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh75ds13g30e80e811z.gif"></p>
-<p>这节是关于我如何处理需要计划的复杂动画。我不知道这是不是“官方”做法，因为我从来没经历过科班培训，这只是我的工作方式：</p>
-<p>静态帧 ＞ 草图 &gt; 关键帧 &gt; 中间帧（及一些修改）</p>
-<p>我感觉最难的是关键帧，通常意味着你得想出低分辨率下看着还很酷的姿势。但是中间帧是最累的部分，需要做所有的调整，次级动画以及繁重的复制粘贴。</p>
-<p>感谢大家一如既往的支持！</p>
-<h3 id="lt-1-像素的运动"><a href="#lt-1-像素的运动" class="headerlink" title="&lt;1 像素的运动"></a>&lt;1 像素的运动</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh76bwvog30e80e8n4s.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh76u5iog30e80e87co.gif"></p>
-<p>这节是关于 &lt;1 像素的运动，有些人也叫亚像素动画。因为移动少于一个像素是不可能的，所以这节其实是关于如何让像素动画尽可能的精美。</p>
-<p> 我觉得这应该是像素画里最难的东西了，我的主要建议就是慢点来，多练习。不用担心，这个就是非常难做好的，为了这个我通常都会重做好几次动画。我觉得这是正常的，最起码我希望是。</p>
-<h3 id="爆炸-1"><a href="#爆炸-1" class="headerlink" title="爆炸 1"></a>爆炸 1</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-00018-cn9178a6.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh77ezszg30e80e8doq.gif"></p>
-<p>爆炸是我最喜欢画的主题之一了！里面有很多的粒子，我通常都会一个一个的处理。比如我会从头到尾画一个弹片，接着从头到尾画一团烟雾，等等。</p>
-<p>爆炸里有非常多的火和烟雾，我之前也做过教程，可以去看下。</p>
-<p>这是第 18 个教程了!（之前有几个可能他觉得不算，比如专辑那个。） 很高兴这个系列能走这么远，完全靠大家的支持！</p>
-<p>感谢所有支持这个系列的人！</p>
-<h3 id="机器和怪异科技"><a href="#机器和怪异科技" class="headerlink" title="机器和怪异科技"></a>机器和怪异科技</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-00019-cn9194P4.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glsh77uh87g30e80e87qz.gif"></p>
-<p>不好意思各位，本来应该昨天发，但是感冒太严重了。今天好点了。（风农：不是我。）</p>
-<p>这次是关于机器，我决定做个类似于“参考样式”的。你可以看着它来考虑想要加到自己机器上面的元素。</p>
-<p>也别忘了参考周围的东西，还有网上的，尤其是破损的机器。</p>
-<p>感谢大家的支持！</p>
-]]></content>
-      <categories>
-        <category>像素宝典 (Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>像素宝典#7</title>
-    <url>/archives/b2442469.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zdb4ui8j318g0p046e.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解粘液、岩石构成、植物、城市背景以及像素画基础。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qfvi92oj30u008c3z7.jpg"></p>
-<h3 id="液体-粘液"><a href="#液体-粘液" class="headerlink" title="液体 / 粘液"></a>液体 / 粘液</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qetza7hg30e80e8qhl.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-000302032zg.gif"></p>
-<p>这期是关于粘液和其他浓稠液体！</p>
-<p>粘液的粒子分散的比水粒子要小，他们会在之间建立连接。还有，记得保持平滑的，圆的形状，不要有尖锐的角。</p>
-<p>感谢大家支持！</p>
-<h3 id="岩石构成"><a href="#岩石构成" class="headerlink" title="岩石构成"></a>岩石构成</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qewib7rg30e80e8e5k.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qg9jnrgg30e80e8khw.gif"></p>
-<p>第 31 个教程！（风农：这哥们的计数方式跟我计的不一样。）</p>
-<p>这期不是个特别科学的教程，不过这一般是我画时候的思路。</p>
-<p>画岩石的主要建议是<strong>找参考物</strong></p>
-<p>Pinterest 或者 google 图片都是不错的地方。</p>
-<p>感谢大家支持！</p>
-<h3 id="植物-2"><a href="#植物-2" class="headerlink" title="植物 2"></a>植物 2</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qeyrjeig30e80e8wy7.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf78nveg30e80e8h5q.gif"></p>
-<p>这是植物教程的第二部分! </p>
-<p>第一部分在这：链接</p>
-<p>这次我集中讲草，还有一点关于木头的。</p>
-<p>草画起来很复杂，以至于每个画手都有自己的方式去简化它。这里说明了我常用的方式，不过还有很多跟我不一样的方式。我的是要有给眼睛休息的区域，和各处的细节区域。</p>
-<p>感谢大家支持！</p>
-<p><strong>风农：</strong>这哥们居然还用错词，莫名其妙弄了个 sulks 出来，怎么解释都跟上下文对不上，无奈去了原贴看了看评论，原来他把这词记错意思了(╬￣皿￣)</p>
-<h3 id="像素画基础-2"><a href="#像素画基础-2" class="headerlink" title="像素画基础 2"></a>像素画基础 2</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qhmeu7kg30e80e8gxf.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf1j3gpg30e80e8gy8.gif"></p>
-<p>本来想讲更多点，不过没地方了:P</p>
-<p>色带（banding/color banding）问题以后再详细的讲。</p>
-<p>像素画里我都会尽量的“隐藏”方块。当像素排的过于整齐，看起来就太呆板，所以我会尽量多的打断直线。</p>
-<p>别忘了看第一部分: 链接</p>
-<p>感谢大家支持！</p>
-<h3 id="城市背景"><a href="#城市背景" class="headerlink" title="城市背景"></a>城市背景</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf237ddg30e80e8x2m.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf3ibz2g30e80e8azu.gif"></p>
-<p>我决定分享下我画城市背景和瓦片的过程，而不是单纯的解释如何画单个东西。</p>
-<p>城市是“块状的”，但也有很多生命在其中，我会试着把这些展示出来。</p>
-<p>我会从原始的方块开始画，再逐渐添加细节，以及生命的迹象。</p>
-<p>感谢大家的支持，下节见。</p>
-<p><strong>风农：</strong>左上角是讲解如何画一个砖块的纹理。右边的框是画城市背景的几个步骤，字体颜色是跟随场景变化的。</p>
-]]></content>
-      <categories>
-        <category>像素宝典 (Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>像素宝典#6</title>
     <url>/archives/c54314ff.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zbxjud7j31hc0u0dpy.jpg"></p>
@@ -6569,6 +6503,61 @@
 <p>观看像素动画的时候，我们的眼睛一般聚焦到的是大块的形状。</p>
 <p>祝大家开心，还有感谢支持！</p>
 <p><strong>风农：</strong>这张图里有一点点是我补的，不然没办法替换文字了，因为没有分层信息，我只能靠想象力了，感觉效果还可以。</p>
+]]></content>
+      <categories>
+        <category>像素宝典 (Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>像素宝典#7</title>
+    <url>/archives/b2442469.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zdb4ui8j318g0p046e.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解粘液、岩石构成、植物、城市背景以及像素画基础。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qfvi92oj30u008c3z7.jpg"></p>
+<h3 id="液体-粘液"><a href="#液体-粘液" class="headerlink" title="液体 / 粘液"></a>液体 / 粘液</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qetza7hg30e80e8qhl.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-000302032zg.gif"></p>
+<p>这期是关于粘液和其他浓稠液体！</p>
+<p>粘液的粒子分散的比水粒子要小，他们会在之间建立连接。还有，记得保持平滑的，圆的形状，不要有尖锐的角。</p>
+<p>感谢大家支持！</p>
+<h3 id="岩石构成"><a href="#岩石构成" class="headerlink" title="岩石构成"></a>岩石构成</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qewib7rg30e80e8e5k.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qg9jnrgg30e80e8khw.gif"></p>
+<p>第 31 个教程！（风农：这哥们的计数方式跟我计的不一样。）</p>
+<p>这期不是个特别科学的教程，不过这一般是我画时候的思路。</p>
+<p>画岩石的主要建议是<strong>找参考物</strong></p>
+<p>Pinterest 或者 google 图片都是不错的地方。</p>
+<p>感谢大家支持！</p>
+<h3 id="植物-2"><a href="#植物-2" class="headerlink" title="植物 2"></a>植物 2</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qeyrjeig30e80e8wy7.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf78nveg30e80e8h5q.gif"></p>
+<p>这是植物教程的第二部分! </p>
+<p>第一部分在这：链接</p>
+<p>这次我集中讲草，还有一点关于木头的。</p>
+<p>草画起来很复杂，以至于每个画手都有自己的方式去简化它。这里说明了我常用的方式，不过还有很多跟我不一样的方式。我的是要有给眼睛休息的区域，和各处的细节区域。</p>
+<p>感谢大家支持！</p>
+<p><strong>风农：</strong>这哥们居然还用错词，莫名其妙弄了个 sulks 出来，怎么解释都跟上下文对不上，无奈去了原贴看了看评论，原来他把这词记错意思了(╬￣皿￣)</p>
+<h3 id="像素画基础-2"><a href="#像素画基础-2" class="headerlink" title="像素画基础 2"></a>像素画基础 2</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qhmeu7kg30e80e8gxf.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf1j3gpg30e80e8gy8.gif"></p>
+<p>本来想讲更多点，不过没地方了:P</p>
+<p>色带（banding/color banding）问题以后再详细的讲。</p>
+<p>像素画里我都会尽量的“隐藏”方块。当像素排的过于整齐，看起来就太呆板，所以我会尽量多的打断直线。</p>
+<p>别忘了看第一部分: 链接</p>
+<p>感谢大家支持！</p>
+<h3 id="城市背景"><a href="#城市背景" class="headerlink" title="城市背景"></a>城市背景</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf237ddg30e80e8x2m.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm9qf3ibz2g30e80e8azu.gif"></p>
+<p>我决定分享下我画城市背景和瓦片的过程，而不是单纯的解释如何画单个东西。</p>
+<p>城市是“块状的”，但也有很多生命在其中，我会试着把这些展示出来。</p>
+<p>我会从原始的方块开始画，再逐渐添加细节，以及生命的迹象。</p>
+<p>感谢大家的支持，下节见。</p>
+<p><strong>风农：</strong>左上角是讲解如何画一个砖块的纹理。右边的框是画城市背景的几个步骤，字体颜色是跟随场景变化的。</p>
 ]]></content>
       <categories>
         <category>像素宝典 (Pixel Dictionary)</category>
@@ -7269,6 +7258,534 @@
       </tags>
   </entry>
   <entry>
+    <title>绪论</title>
+    <url>/archives/43830010.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8znqrfhdg30xc0erqv6.gif"></p>
+<p>本课程旨在围绕各类数据结构的设计与实现，揭示其中的规律原理与方法技巧；同时针对算法设计及其性能分析，使学生了解并掌握主要的套路与手段。本文将讲解数据结构入门的一些基本概念。</p>
+<a id="more"></a>
+
+
+
+<h3 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h3><p>计算是数据结构的直接研究对象和内容，同时也是最终的研究目的和目标。具体说来，我们需要研究计算过程中所蕴含的本质的内在规律，也需要总结和挖掘出其中一般性的方法以及典型的技巧。最终所有这些需要服务于我们的研究目标，也就是实现有效和高效的计算，同时也需要在资源的消耗方面做到足够的低廉。推而广之，计算也可以看作是整个计算机科学的研究对象内容和目的。</p>
+<blockquote>
+<p><em>Computer science should be called computing science, for the same reason why surgery is not called knife science.</em></p>
+<p><em>– E.Dijkstra</em></p>
+</blockquote>
+<p>所谓的计算机科学，更准确的说应该称作计算科学。他在强调计算机只是一个工具和手段，而计算才是我们不应忘记的最终的研究目的和目标。</p>
+<h4 id="绳索计算机"><a href="#绳索计算机" class="headerlink" title="绳索计算机"></a>绳索计算机</h4><blockquote>
+<p>输入：任给直线l及其上一点A</p>
+<p>输出：经过A做l的一条垂线</p>
+</blockquote>
+<ul>
+<li>算法（2000 B.C. 古埃及人）</li>
+</ul>
+<blockquote>
+<p>取12段等长的绳索，首尾联接成环</p>
+<p>从A点起，将4段绳索沿l伸直并固定于B</p>
+<p>沿另一方向找到第3段绳索的终点C，移动点C，将剩余的3+5段绳索伸直</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggp6kpw906j30f00hbgu5.jpg"></p>
+<p>可以很容易的看出，12段绳索最终构成了一个勾三股四弦五的直角三角形，垂线也就显而易见了。而在这个过程中，12段绳索扮演的角色就是计算机。</p>
+<h4 id="尺规计算机及其算法"><a href="#尺规计算机及其算法" class="headerlink" title="尺规计算机及其算法"></a>尺规计算机及其算法</h4><blockquote>
+<p>任给平面上线段AB（输入），将其三等分（输出）</p>
+</blockquote>
+<ul>
+<li>算法：</li>
+</ul>
+<blockquote>
+<p>从A发出一条与AB不重合的射线p</p>
+<p>在p上取AC’ = C’D’ = D’B’</p>
+<p>联接B’B</p>
+<p>经D’做B’B的平行线，交AB于D</p>
+<p>经C’做B’B的平行线，交AB于C</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggp72casx7j30gt0br79e.jpg"></p>
+<h4 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h4><ul>
+<li><p>计算 = 信息处理</p>
+<p>借助某种工具，遵照一定规则，以明确而机械的形式进行</p>
+</li>
+<li><p>计算模型 = 计算机 = 信息处理工具</p>
+</li>
+<li><p>所谓算法，即特定计算模型下，旨在解决特定问题的指令序列</p>
+<ul>
+<li>输入    待处理的信息（问题）</li>
+<li>输出    经处理的信息（答案）</li>
+<li>正确性    的确可以解决指定的问题</li>
+<li>确定性    任一算法都可以描述为一个由基本操作组成的序列</li>
+<li>可行性    每一基本操作都可实现，且在常数时间内完成</li>
+<li>有穷性    对于任何输入，经过有穷次基本操作，都可以得到输出</li>
+</ul>
+</li>
+</ul>
+<p>对于可行性，宋丹丹和赵本山有一个很著名的小品《钟点工》，里面有一个脑筋急转弯是“如何把大象装到冰箱里去？”。最后她给出了三个步骤：</p>
+<blockquote>
+<ol>
+<li>把冰箱门打开</li>
+<li>把大象赶到冰箱里去</li>
+<li>关上冰箱门</li>
+</ol>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggp7pk1t09j30st0a9q8p.jpg"></p>
+<p>表面上看上面的过程已经构成了一个算法，因为它确实可以描述出来而且说的比较清楚。但是这里有一个致命的点，也就是这个小品的笑点所在，就是实际上它其中的动作有一条是不能兑现的：把大象赶到冰箱里去。所以这种算法是没有任何意义的，因为它是不可行的。</p>
+<h4 id="有穷性"><a href="#有穷性" class="headerlink" title="有穷性"></a>有穷性</h4><p>$$<br>序列 Hailstone(n)=\begin{cases} {1}&amp; n\leq1<br>\ {n} \cup Hailstone(n/2)&amp; n偶<br>\ {n} \cup Hailstone(3n+1)&amp; n奇\end{cases}<br>$$</p>
+<ul>
+<li><p>举例：</p>
+<blockquote>
+<p>$Hailstone(42)={42,21,64,32…，1}$</p>
+</blockquote>
+</li>
+<li><p>根据上面的表达式，我们可以写出如下的伪代码：</p>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">hailstone</span><span class="params">(<span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  	<span class="keyword">int</span> length = <span class="number">1</span>;</span><br><span class="line">  	<span class="keyword">while</span>(<span class="number">1</span> &lt; n)&#123;(n % <span class="number">2</span>)?n = <span class="number">3</span> * n + <span class="number">1</span>:n /= <span class="number">2</span>;length++; &#125;</span><br><span class="line">  	<span class="keyword">return</span> length;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>再次举例：</p>
+<blockquote>
+<p>$Hailstone(7)={7,22,11,34,17,52,26,13,40,20,10,5,16…，1}$</p>
+<p>$Hailstone(27)={27,82,41,124,62,31,94,47,142,71,214,107…，1}$</p>
+</blockquote>
+</li>
+</ul>
+<p>观察比较这几个列举的序列可以发现，变化规律不明显，序列的长度和输入本身没有必然的关系，呈现出非常强的随机性。我们再次回到之前写的伪代码，重新思考一下，这个序列是否满足有穷性。这不取决于程序，而是取决于序列本身： $对于任意的n，总有|Hailstone|&lt;\infty$</p>
+<p>而遗憾的是，到目前为止这个问题还没有结论，也就是说我们既不能证明对于任何的n序列必然都是有穷的，也没有找到一个反例。回到伪代码，我们这个看似非常正确而又简洁的程序未必是一个算法，也就是说，<strong>程序不等于算法</strong>。回忆在刚开始学习程序语言的时候，我们会经常遇到<strong>死循环或者栈溢出</strong>的情况，机器会非法退出。而<strong>死循环</strong>关联着<strong>有穷性</strong>的概念，需要我们特别留意。</p>
+<h4 id="好算法"><a href="#好算法" class="headerlink" title="好算法"></a>好算法</h4><ul>
+<li><p>正确：符合语法，能够编译、链接</p>
+<p>能够正确处理<strong>简单的、大规模的、一般性的、退化的、任意合法</strong>的输入</p>
+</li>
+<li><p>健壮：能辨别<strong>不合法</strong>的输入并做适当处理，而不致非正常退出</p>
+</li>
+<li><p>可读：<strong>结构化</strong> + <strong>准确命名</strong> + <strong>注释</strong> + …</p>
+</li>
+</ul>
+<p>然而上面这些固然也重要，但还不是最最重要的：</p>
+<ul>
+<li><strong>效率：速度尽可能快；存储空间尽可能少</strong></li>
+</ul>
+<blockquote>
+<p><em>Algorithms + Data Structures = Programs</em></p>
+<p><em>(Algorithms + Data Structures) x Efficiency = Computation</em></p>
+</blockquote>
+<hr>
+<h3 id="计算模型"><a href="#计算模型" class="headerlink" title="计算模型"></a>计算模型</h3><p>之前的算法与数据结构也可以简写为DSA。显然，不同的DSA的性能有好坏优劣之分，这种好坏和优劣完全是从它的效率而言的。然而“好坏”、“优劣”也只是定性的判断，我们需要定量的度量来分析。</p>
+<h4 id="性能测度"><a href="#性能测度" class="headerlink" title="性能测度"></a>性能测度</h4><blockquote>
+<p><em>To measure is to know.</em></p>
+<p><em>If you can not measure it,</em></p>
+<p><em>you can not improve it.</em></p>
+<p><em>– Lord Kelvin</em></p>
+</blockquote>
+<p>如果科学的使命是去了解这个世界，是去理解这个世界的规律，那么最终的形式往往是体现为对世界或是自然界的有效测量或者测度，算法也是一样。</p>
+<ol>
+<li>引入理想、统一、分层次的尺度</li>
+<li>运用该尺度，以测量DSA的性能</li>
+</ol>
+<h4 id="问题规模"><a href="#问题规模" class="headerlink" title="问题规模"></a>问题规模</h4><ul>
+<li>正确性：算法功能与问题要求一致？数学证明？</li>
+<li>成本：运行时间 + 所需存储空间 如何度量？如何比较？</li>
+</ul>
+<p>首先要证明DSA是正确的，过程中许多工具和方法都不是那么一目了然。然而在实际开发中，我们更关注成本（时间成本+空间成本）。通常而言，我们忽略</p>
+<ul>
+<li><p>考察：$T_A(P)=$ <strong>算法A</strong>求解问题<strong>实例P</strong>的计算成本</p>
+<p>意义不大，毕竟可能出现的问题实例太多</p>
+<p>如何归纳概括？<strong>划分等价类</strong></p>
+</li>
+<li><p>观察：问题实例的<strong>规模</strong>，往往是决定计算成本的主要因素</p>
+</li>
+</ul>
+<p>通常而言，规模接近，计算成本也接近；规模扩大，计算成本亦上升。</p>
+<h4 id="最坏情况"><a href="#最坏情况" class="headerlink" title="最坏情况"></a>最坏情况</h4><p>经过刚才等价类的划分，我们可以对定义进行改写：令$T_A(n)=$ 用算法A求解某一问题规模为n的实例，所需的计算成本。讨论特定算法A（及其对应的问题）时，简记为$T(n)$</p>
+<ul>
+<li>观察：同一问题等规模的不同实例，计算成本不尽相同，甚至有实质差别</li>
+</ul>
+<p>例如：</p>
+<blockquote>
+<p>在平面上的n个点中，找到所成三角形面积最小的三个点</p>
+<p>以蛮力算法为例，最坏情况下需列举所有$C_n^3$种组合</p>
+<p>但如果运气比较好，三点共线的情况可以直接结束，面积为0</p>
+</blockquote>
+<p>同样的例子还有Hailstone。显然我们不能寄托于最好的情况下，而是应该更多的关注一个算法的最坏情况。稳妥起见，取$T(n)=max{T(P)||P| = n}$ </p>
+<p>在规模同为n的所有实例中，只关注最坏（成本最高）者：在所有规模为n的问题实例中，将它们的计算成本进行总体的比较，并取出其中的最大值。</p>
+<h4 id="理想模型"><a href="#理想模型" class="headerlink" title="理想模型"></a>理想模型</h4><p>当同一个问题拥有多个算法的时候，如何评价其优劣？</p>
+<ul>
+<li><p>实验统计</p>
+<p>最直接的方法，但足以准确反映算法的真正效率？是骡子是马拉出来溜溜，谁用的时间越短、谁用的资源越少，谁就越优。</p>
+<p>这种想当然的想法不足够，因为测试总是不充分的。不同的算法可能更适应于不同<strong>规模/类型</strong>的输入；同一算法，可能由不同<strong>程序员</strong>、用不同程序<strong>语言</strong>、经不同<strong>编译器</strong>实现、运行于不同的<strong>体系结构</strong>、<strong>操作系统</strong>……如果测试在问题实例的规模以及类型等等方面覆盖的不够全面、不具有充分的代表性的话，那么这种测试本身就是带有偏见的，它的结论也就难以让人信服。</p>
+</li>
+</ul>
+<p>为了给出<strong>客观</strong>的评价，需要抽象出一个<strong>理想</strong>的平台或模型，不再依赖于上述种种具体的因素，从而直接而准确地描述、测量并评价算法。</p>
+<h4 id="图灵机"><a href="#图灵机" class="headerlink" title="图灵机"></a>图灵机</h4><ul>
+<li><p><code>Tape</code> 依次均匀地划分为单元格，各注有某一字符，默认为’#’</p>
+</li>
+<li><p><code>Alphabet</code> 字符的种类有限</p>
+</li>
+<li><p><code>Head</code> 总是对准某一单元格，并可读取和改写其中的字符。每经过一个节拍，可转向左侧或右侧的邻格</p>
+</li>
+<li><p><code>State</code> TM（Turing Machine）总是处于有限种状态中的某一种。每经过一个节拍，可（按照规则）转向另一种状态</p>
+</li>
+<li><p><code>Transition Function</code>：（<code>q</code>，<code>c</code>；<code>d</code>，<code>L/R</code>，<code>p</code>）</p>
+<p>若当前状态为<code>q</code>且当前字符为<code>c</code>，则将当前字符<strong>改写</strong>为<code>d</code>；<strong>转向</strong>左侧/右侧的邻格；<strong>转入</strong><code>p</code>状态；一旦转入特定的状态<code>h</code>，则<strong>停机</strong></p>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggrhdpxhkpj310y0a6tbn.jpg"></p>
+<h4 id="图灵机实例"><a href="#图灵机实例" class="headerlink" title="图灵机实例"></a>图灵机实例</h4><ul>
+<li><p>功能：将二进制非负整数加一</p>
+</li>
+<li><p>算法：全’1’的后缀反转为全’0’，原最低位的’0’或’#’翻转为’1’</p>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggrhtfknz5j30l10hpgs0.jpg"></p>
+<p>根据前面的分析，不难写出相应的指令：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">(&lt;, <span class="number">1</span>, <span class="number">0</span>, L, &lt;)	<span class="comment">//左行 1-&gt;0</span></span><br><span class="line">(&lt;, <span class="number">0</span>, <span class="number">1</span>, R, &gt;)	<span class="comment">//掉头 0-&gt;1</span></span><br><span class="line">(&lt;, #, <span class="number">1</span>, R, &gt;)	<span class="comment">//掉头 #-&gt;1</span></span><br><span class="line">(&gt;, <span class="number">0</span>, <span class="number">0</span>, R, &gt;)	<span class="comment">//右行 0-&gt;0</span></span><br><span class="line">(&gt;, #, #, L, h)	<span class="comment">//复位 #-&gt;end</span></span><br></pre></td></tr></table></figure>
+
+
+<h4 id="RAM模型"><a href="#RAM模型" class="headerlink" title="RAM模型"></a>RAM模型</h4><p>在可计算的意义上讲，RAM（Random Access Machine）和图灵机是完全对等的。</p>
+<ul>
+<li><p>寄存器顺序编号，总数没有限制</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">R[<span class="number">0</span>]，R[<span class="number">1</span>]，R[<span class="number">2</span>]，R[<span class="number">3</span>]，...</span><br></pre></td></tr></table></figure></li>
+<li><p>每一基本操作仅需常数时间</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">R[i] &lt;- c		<span class="comment">//常数赋值语句				</span></span><br><span class="line">R[i] &lt;- R[j]		<span class="comment">//数值复制</span></span><br><span class="line">R[i] &lt;- R[R[j]]		<span class="comment">//间接取址</span></span><br><span class="line">R[i] &lt;- R[j] + R[k]	<span class="comment">//基本运算 </span></span><br><span class="line">IF R[i] &gt; <span class="number">0</span> GOTO <span class="number">1</span>	<span class="comment">//条件判断跳转终止</span></span><br></pre></td></tr></table></figure>
+<p>与TM模型一样，RAM模型也是一般计算工具的简化与抽象，使我们可以独立于具体的平台，对算法的效率做出可信的比较与评判。</p>
+</li>
+</ul>
+<p>在这些模型中，算法的<strong>运行时间</strong>关联于算法需要执行的<strong>基本操作次数</strong>，$T(n)$ = 算法为求解规模为n的问题，所需执行的<strong>基本操作次数</strong>。</p>
+<h4 id="RAM实例"><a href="#RAM实例" class="headerlink" title="RAM实例"></a>RAM实例</h4><ul>
+<li><p>功能：向下取整的算法</p>
+<p>$\lfloor x \rfloor = max{x|dx &lt;= c}=max{x|dx &lt; 1 + c}$ $(0 &lt;= c，0 &lt; d)$</p>
+</li>
+<li><p>算法：反复地从 $R[0] = 1 + c$ 中减去 $R[1]=d$ 统计在下溢之前，所做减法的次数x</p>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">R[<span class="number">3</span>] &lt;- <span class="number">1</span>		<span class="comment">//increment</span></span><br><span class="line">R[<span class="number">0</span>] &lt;- R[<span class="number">0</span>] + R[<span class="number">3</span>]	<span class="comment">//c++</span></span><br><span class="line">R[<span class="number">0</span>] &lt;- R[<span class="number">0</span>] - R[<span class="number">3</span>]	<span class="comment">//c -= d</span></span><br><span class="line">R[<span class="number">2</span>] &lt;- R[<span class="number">2</span>] + R[<span class="number">3</span>]	<span class="comment">//x++</span></span><br><span class="line">IF R[<span class="number">0</span>] &gt; <span class="number">0</span> GOTO <span class="number">2</span>	<span class="comment">//if c &gt; 0 goto 2</span></span><br><span class="line">R[<span class="number">0</span>] &lt;- R[<span class="number">2</span>] - R[<span class="number">3</span>]	<span class="comment">//else x-- and</span></span><br><span class="line">STOP			<span class="comment">//retuen R[0] = x</span></span><br></pre></td></tr></table></figure>
+<p>按照算法我们最终可以得到下表：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggro6ht5q3j30dg0h6782.jpg"></p>
+<p>执行过程可以记录为一张表，表的行数即是所执行基本指令的总条数，能够客观度量算法的执行时间。</p>
+<p>图灵机、RAM等模型为度量算法性能提供了准确的尺度。</p>
+<hr>
+<h3 id="大O记号"><a href="#大O记号" class="headerlink" title="大O记号"></a>大O记号</h3><p>如果前面的计算模型是一把公正的直尺，那么大O记号就是直尺上的刻度。我们不需要刻意强调刻度的精细程度，只需要在定性和定量之间达到一个适度的折中，使得我们可以用更短的时间更迅速地抓住DSA性能的要害和主要方面。</p>
+<blockquote>
+<p><em>Mathematics is more in need</em></p>
+<p><em>of good notation than</em></p>
+<p><em>of new theorems.</em></p>
+<p><em>– Alan Turing</em></p>
+</blockquote>
+<p>记号的作用很类似于陶渊明的诗：</p>
+<blockquote>
+<p><em>好读书<strong>不求甚解</strong></em></p>
+<p><em>每有会意，便欣然忘食</em></p>
+<p><em>– 陶渊明</em></p>
+</blockquote>
+<h4 id="主流长远"><a href="#主流长远" class="headerlink" title="主流长远"></a>主流长远</h4><p>这里的不求甚解并不是说不去求解，而是说不要过多的拘泥于问题的细节和一些琐碎的部分。回到原先的问题：随着问题规模的增长，计算成本如何增长？注意这里关心<strong>足够大</strong>的问题，注重考查成本的增长趋势。</p>
+<ul>
+<li><p>渐进分析（Asymptotic analysis）：</p>
+<p>在问题问题规模足够大后，计算成本如何增长？当问题规模足够大之后，对于规模为n输入，算法：</p>
+<ul>
+<li>需执行的基本操作次数：$T(n)=?$</li>
+<li>需占用的存储单元数：$S(n)=?$</li>
+</ul>
+</li>
+</ul>
+<p>如果用一张图来表示，也就是用横轴表示问题的规模、纵轴表示相应的计算成本，那么数据结构和算法具体的任何一个组合，都可以得到这样一条曲线：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggs13nhz08j30x007udho.jpg"></p>
+<p>我们关心的并不是这条曲线局部的、细微的、包括暂时的一些趋势，而是看它主要的、长远的变化趋势。</p>
+<h4 id="大O记号-1"><a href="#大O记号-1" class="headerlink" title="大O记号"></a>大O记号</h4><p>大O记号（big-O notation）</p>
+<p>$T(n)=O(f(n))$  充要条件是 ${\exists}c &gt; 0$，当$n&gt;&gt;2$后，有$T(n)&lt;cf(n)$</p>
+<blockquote>
+<p>$\sqrt{5n \cdot [3n \cdot (n + 2) + 4] + 6} &lt; \sqrt{5n \cdot [6n^2 + 4] + 6}&lt;\sqrt{35n^2 + 6}&lt;6 \cdot n^1.5 = o(n^1.5)$</p>
+</blockquote>
+<p>与$T(n)$相比，$f(n)$更为简洁，但依然反映出前者的增长趋势。</p>
+<ul>
+<li>常系数可忽略：$O(f(n))=O(cf(n))$</li>
+<li>低次项可忽略：$O(n^a+n^b)=O(n^a)，a&gt;b&gt;0$</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggsm5u1p5pj30wv07btbj.jpg"></p>
+<p>可以认为大O记号是对计算成本的悲观估计。</p>
+<ul>
+<li><p>渐进分析：其他记号</p>
+<p>$T(n)=\Omega(f(n)):\exists c &gt; 0$，当$n &gt;&gt; 2$ 后，有$T(n)&gt;cf(n)$</p>
+<p>$T(n)=\theta(f(n)):\exists c_1 &gt; c_2 &gt; 0$，当 $n &gt;&gt; 2$ 后，有 $c_1 \cdot f(n)&gt;T(n)&gt;c_2 \cdot f(n)$</p>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggsmd3sdswj30x709u0x5.jpg"></p>
+<h4 id="高效解"><a href="#高效解" class="headerlink" title="高效解"></a>高效解</h4><p>在大O记号的直尺上，有许多相应的刻度:</p>
+<ol>
+<li>常数（constant function）</li>
+</ol>
+<p>包括常数、较大的常数以及按照通常的四则混合运算经过运算以后得到的常数。</p>
+<blockquote>
+<p>$2 = 2013 = 2013 \times 2013 = 2013^{2013} =O(1)$。</p>
+</blockquote>
+<p>这类算法的效率最高。</p>
+<p><strong>如果一段代码不含转向（循环、调用、递归等），必顺序执行，即是$O(1)$。</strong>当然包含循环、分支转向、递归调用的代码段仍然可能是$O(1)$，具体情况应具体分析。</p>
+<ol start="2">
+<li>对数 $O(\log^cn)$</li>
+</ol>
+<blockquote>
+<p>$\ln n$  |  $\lg n$  |  $ \log_{100}n$  |  $ \log_{2013}n$</p>
+</blockquote>
+<ul>
+<li><p>常底数无所谓</p>
+<p>在这里我们往往不再标明具体的底数，因为在底数为常数的情况下，具体是多少是无所谓的。</p>
+<p>$\forall a，b &gt; 0，\log_an =log_ab \cdot \log_bn = \theta(log_bn)$</p>
+</li>
+<li><p>常数次幂无所谓</p>
+<p>$\forall c &gt;0，\log n^c = c \cdot logn = \theta(logn)$</p>
+</li>
+<li><p>多项式形式（ploy-log function）</p>
+<p>参照大O处理方法，把低次项和常系数的项都忽略掉从而得到一个简明的多项形式。</p>
+<blockquote>
+<p> $123*\log^{321}n + log^{105}(n^2-n+1)=\theta(log^{321}n)$</p>
+</blockquote>
+</li>
+</ul>
+<p>这类算法非常有效，复杂度无线接近于常数。$\forall c &gt; 0,logn=O(n^c)$</p>
+<h4 id="有效解"><a href="#有效解" class="headerlink" title="有效解"></a>有效解</h4><ol start="3">
+<li><p>多项式（polynomial function）复杂度</p>
+<blockquote>
+<p>$100n + 200 = O(n)$<br>$(100n - 500)(20n^2 -300n +2013) = O(n \times n^2)$</p>
+<p>$(2013n^2 - 20)/(1990n - 1)=O(n^2/n)=O(n)$</p>
+</blockquote>
+</li>
+</ol>
+<p>一般的：$a_kn^k + a_{k-1}n^{k-1} + … + a_1n + a_0 = O(n^k)，a_k &gt;0$</p>
+<ul>
+<li><p>线性（linear function）：所有$O（n）$类函数</p>
+</li>
+<li><p>幂：$[(n^2013-24n^2009)^{1/3}+512n^567-1978n^123]^{1/11}=O(n^{61})$</p>
+</li>
+</ul>
+<p>这类算法的效率通常认为已可令人满意，<strong>凡多项式复杂度，均视为可解问题</strong>。</p>
+<h4 id="难解"><a href="#难解" class="headerlink" title="难解"></a>难解</h4><ol start="4">
+<li>指数（exponential function）复杂度：$T(n) = a^n$</li>
+</ol>
+<blockquote>
+<p>$\forall c &gt; 1，n^c=O(2^n)$</p>
+<p>​             $n^{100} = O(1.0000001^n) = O(2^n)$</p>
+<p>​            $1.0000001^n = \Omega(n^{1000})$</p>
+</blockquote>
+<p>这类算法的计算成本增长极快，通常被认为不可接受。从$O(n^c)$到$O(2^n)$，是从<strong>有效算法</strong>到<strong>无效算法</strong>的分水岭。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggspmy1x9gj30ah0bk40n.jpg"></p>
+<p>很多问题的$O(2^n)$算法往往显而易见，然而设计出$O(n^c)$算法却极其不易，伸直有时注定只能是徒劳无功。</p>
+<h4 id="2-Subset"><a href="#2-Subset" class="headerlink" title="2-Subset"></a>2-Subset</h4><ul>
+<li><p>问题描述</p>
+<p>S包含n个正整数，$\Sigma S = 2m$，S是否有子集T，满足$\Sigma T = m$</p>
+</li>
+<li><p>选举人制</p>
+<p>各州议会选出的选举人团投票，而不是由选民直接投票。</p>
+<p>50个州加1个特区，共<strong>538</strong>票。获得<strong>270</strong>张选举人票，即可当选。</p>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggt38qx8nxj30mh0f1dfv.jpg"></p>
+<p>若共有两位候选人，是否可能恰好各得<strong>269</strong>票？也就是说是否有一个办法能把所有的州按照选举人分成两部分，使得它们各自所积累起来的选举人票恰好是各自一半？</p>
+<ul>
+<li><p>直觉算法：逐一枚举S的每一子集，并统计其中元素的总和</p>
+<p>$|2^s|=2^{|s|}=2^n$，代表直觉算法需要迭代$2^n$轮，并（在最坏情况下）至少需要花费这么多的时间–不甚理想。</p>
+</li>
+<li><p>定理：<em>2-Subset is <strong>NP-complete</strong></em></p>
+<p>就目前的计算模型而言，<strong>不存在</strong>可在多项式时间内回答此问题的算法 – 就此意义而言，上述的直觉算法已属最优。</p>
+</li>
+</ul>
+<h3 id="算法分析"><a href="#算法分析" class="headerlink" title="算法分析"></a>算法分析</h3><blockquote>
+<p><em>He calculated just as men breathe,</em></p>
+<p><em>as eagles sustain themselves in the air.</em></p>
+<p><em>– Francois Arago</em></p>
+</blockquote>
+<p>算法分析的主要任务包括两个方面的内容：正确性（不变性 x 单调性）+ 复杂度</p>
+<p>C++等高级语言的<strong>基本指令</strong>，均等效于常数条RAM的<strong>基本指令</strong>；在渐进的意义上，二者大体相当：</p>
+<ul>
+<li>分支转向：<code>goto</code> 算法的灵魂；出于结构化考虑被隐藏</li>
+<li>迭代循环：<code>for()</code>、<code>while()</code>、… 本质都是<code>if</code>+<code>goto</code></li>
+<li>调用 + 递归（自我调用）：本质上也是<code>goto</code></li>
+</ul>
+<p>复杂度分析的主要方法：</p>
+<ul>
+<li>迭代：级数求和</li>
+<li>递归：递归跟踪 + 递推方程</li>
+<li>推测 + 验证</li>
+</ul>
+<h4 id="级数"><a href="#级数" class="headerlink" title="级数"></a>级数</h4><ul>
+<li><p><strong>算术</strong>级数：与<strong>末项平方</strong>同阶</p>
+<p>$T(n)=1+2+…+n=n(n+1)/2=O(n^2)$</p>
+</li>
+<li><p>幂方级数：比幂次高出<strong>一阶</strong>：$\Sigma^n_{k=0} \approx \int^n_0x^{d+1}dx=\frac {1}{d+1}x^{d+1}|^n_0=O(n^{d+1})$</p>
+<blockquote>
+<p>$T_2(n) = 1^2 + 2^2 + 3^2 + … + n^2 = n(n + 1)(2n + 1)/6=O(n^3)$</p>
+<p>$T_3(n)=1^3 + 2^3 +3^3 + … + n^3 = n^2(n + 1)^2/4 = O(n^4)$</p>
+<p>$T_4(n)=1^4 + 2^4 + 3^4 + … + n^4 = n(n+1)(2n+1)(3n^2+3n-1)/30=O(n^5)$</p>
+<p>…</p>
+</blockquote>
+</li>
+<li><p>几何级数（$a&gt;1$）：与<strong>末项</strong>同阶</p>
+<p>$T_a(n)=a^0+a^1+…+a^n=(a^{n+1}-1)/(a-1)=O(a^n)$</p>
+<blockquote>
+<p>$1+2+4+…+2^n=a^{n+1}-1=O(2^n+1)=O(2^n)$</p>
+</blockquote>
+</li>
+<li><p>收敛级数</p>
+<blockquote>
+<p>$1/1/2 + 1/2/3 + 1/3/4 + … +1/(n-1)/n=1-1/n=O(1)$</p>
+<p>$1 + 1/2^2 + … + 1/n^2 &lt; 1 + 1/2^2 + … = \pi^2/6 = O(1)$ </p>
+<p>$1/3 + 1/7 +1/8 +1/15 + 1/24 + 1/26 + 1/31 + 1/35 + … = 1 = O(1)$</p>
+</blockquote>
+</li>
+</ul>
+<h4 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; n;i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>;j &lt; n;j++)</span><br><span class="line">    <span class="number">010</span>peration(i,j);</span><br></pre></td></tr></table></figure>
+<p>算术级数：$\Sigma^{n-1}_{i=0}n=n+n+…+n=n*n=O(n^2)$</p>
+<p>我们可以用一个二维矩形来表示。i外循环的控制变量，j内循环的控制变量构成对应的两个维度。矩形中的每一个点都对应于内部这个$O(1)$的操作的一次执行，而整个二重循环其实就等效于这个矩形被填充的过程。因此我们可以建立联系，这段代码的时间复杂度就等于矩形的面积。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggu89jq57kj30a608eq3c.jpg"></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; n;i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>;j &lt; i;j++)</span><br><span class="line">    <span class="number">010</span>peration(i,j);</span><br></pre></td></tr></table></figure>
+<p>算术级数：$\Sigma^{n-1}_{i=0}i=0+1+…+(n-1)=\frac{n(n-1)}{2}=O(n^2)$</p>
+<p>该过程依然可以表述为一个二维图形。外循环控制变量i依然是从0一直变化到n，而内循环的控制变量j则呈一个算术级数，不断线性递增的规律。这段代码的执行时间应该等于这个被填充的三角形总体的面积。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggu8moosfij30ax080dgi.jpg"></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; n;i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>;j &lt; i;j +=<span class="number">2013</span>)</span><br><span class="line">    <span class="number">010</span>peration(i,j);</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggu8tlbk8mj309h086750.jpg"></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; n;i &lt;&lt;= <span class="number">1</span>)</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>;j &lt; i;j ++)</span><br><span class="line">    <span class="number">010</span>peration(i,j);</span><br></pre></td></tr></table></figure>
+<p>几何级数：</p>
+<p>$1 + 2 + 4 + … + 2 ^ {\lfloor{log_2(n-1)}\rfloor}=\Sigma^{\lfloor{log_2(n-1)}\rfloor}_{k=0}2^k (k = log_2n) = 2^{\lceil log_2n \rceil}-1=O(n)$</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggu98u38isj30cs09iaaw.jpg"></p>
+<h4 id="实例：非极端元素-起泡排序"><a href="#实例：非极端元素-起泡排序" class="headerlink" title="实例：非极端元素+起泡排序"></a>实例：非极端元素+起泡排序</h4><h5 id="非极端元素"><a href="#非极端元素" class="headerlink" title="非极端元素"></a>非极端元素</h5><ul>
+<li><p>问题：给定整数<strong>子集</strong>S，$|S|=n\geq3$ 找出元素$a\in S，a \neq max(S)$且$a \neq min(S)$</p>
+</li>
+<li><p>算法：</p>
+<ul>
+<li>从S中任取三个元素${x,y,z}$</li>
+<li>确定并排除其中的最小、最大者（不妨设$x = max{x,y,z},y=min{x,y,z}$）</li>
+<li>输出剩下的元素$z$</li>
+</ul>
+</li>
+<li><p>无论输入规模n多大，上述算法需要的执行时间都不变 $T(n)=O(1)=\Omega(1)=\Theta(1)$</p>
+</li>
+</ul>
+<h5 id="起泡排序"><a href="#起泡排序" class="headerlink" title="起泡排序"></a>起泡排序</h5><ul>
+<li><p>问题：给定n个整数，将它们按（非降）序排序</p>
+</li>
+<li><p>观察：<strong>有序</strong>/<strong>无序</strong>序列中，<strong>任意</strong>/<strong>总有</strong>一对相邻元素<strong>顺序</strong>/<strong>逆序</strong></p>
+</li>
+<li><p><strong>扫描交换</strong>：依次比较每一对相邻元素，如有必要，交换之。若整趟扫描都没有进行交换，则排序完成；否则再做一趟交换。</p>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">bubblesort</span><span class="params">(<span class="keyword">int</span> A[],<span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">bool</span> sorted = <span class="literal">false</span>; sorted != sorted;n--)</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>;i &lt; n;i++)</span><br><span class="line">      <span class="keyword">if</span>(A[i<span class="number">-1</span>] &gt; A[i])</span><br><span class="line">      &#123;</span><br><span class="line">        swap(A[i<span class="number">-1</span>],A[i]);</span><br><span class="line">        sorted = <span class="literal">false</span>;</span><br><span class="line">      &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gguaga9mbeg30my075wqv.gif"></p>
+<h4 id="正确性的方法"><a href="#正确性的方法" class="headerlink" title="正确性的方法"></a>正确性的方法</h4><p>该算法必然会结束？至多需要迭代多少趟？</p>
+<ul>
+<li><strong>不变性</strong>：经过<strong>k</strong>轮扫描交换后，最大的<strong>k</strong>个元素必然就位</li>
+<li><strong>单调性</strong>：经过<strong>k</strong>轮扫描交换后，问题规模缩减至<strong>n-k</strong></li>
+<li><strong>正确性</strong>：经过至多<strong>n</strong>趟扫描后，算法必然终止，且能给出正确解答</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gguce621vaj30we09qtfg.jpg"></p>
+<h4 id="封底估算"><a href="#封底估算" class="headerlink" title="封底估算"></a>封底估算</h4><p>考察对全国人口普查数据的排序 $n=10^9….$</p>
+<table>
+<thead>
+<tr>
+<th align="center">硬件/算法</th>
+<th align="center">普通PC</th>
+<th align="center">天河1A</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Bubblesort</td>
+<td align="center">30 yr</td>
+<td align="center">20 min</td>
+</tr>
+<tr>
+<td align="center">Mergesort</td>
+<td align="center">30 sec</td>
+<td align="center">0.03s</td>
+</tr>
+</tbody></table>
+<p>通过硬件的改进，我们可以从30年改进为20分钟；而算法上的改进我们可以从30年改进为30秒，效率上是巨大的提升。</p>
+<hr>
+<h3 id="迭代与递归"><a href="#迭代与递归" class="headerlink" title="迭代与递归"></a>迭代与递归</h3><p>在已经能够逐步了解和评判数据结构和算法的性能优劣之后，我们要慢慢学会如何设计一个高效的DSA。</p>
+<blockquote>
+<p><em>The control of a large force is</em></p>
+<p><em>the same principle as</em></p>
+<p><em>the control of a few men:</em></p>
+<p><em>it is merely a question of</em></p>
+<p><em>dividing up their numbers.</em></p>
+</blockquote>
+<ul>
+<li>问题：计算任意n个整数之和</li>
+<li>实现：逐一取出每个元素，累加之</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">SumI</span><span class="params">(<span class="keyword">int</span> A[],<span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">int</span> sum = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; n;i++)</span><br><span class="line">    sum += A[i];</span><br><span class="line">  <span class="keyword">return</span> sum;	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>无论A[ ]内容如何，都有：</p>
+<p>$T(n)=1+n*1+1=n+2=O(n)=\Omega(n)=\Theta(n)$</p>
+<h4 id="减而治之"><a href="#减而治之" class="headerlink" title="减而治之"></a>减而治之</h4><p>【Decrease-and-conquer】：为求解一个大规模问题，可以将其划分为两个子问题：其一<strong>平凡</strong>，另一规模<strong>缩减</strong>，分别求解子问题，由子问题的解，得到愿问题的解。</p>
+<h4 id="递归跟踪"><a href="#递归跟踪" class="headerlink" title="递归跟踪"></a>递归跟踪</h4><p>对于n个数求解这样一个问题，我们将它分解为一个规模缩小了一个单元的问题，另外剩下的一个问题本身是一个平凡的问题，可以直接求解得到。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">sum(<span class="keyword">int</span> A[],<span class="keyword">int</span> n)</span><br><span class="line">&#123;</span><br><span class="line">  <span class="keyword">return</span> </span><br><span class="line">    (n &lt; <span class="number">1</span>)?</span><br><span class="line">    <span class="number">0</span> : sum(A,n<span class="number">-1</span>) + A[n<span class="number">-1</span>];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>递归跟踪（recursion trace）分析</p>
+<p>检查每个<strong>递归实例</strong></p>
+<p>​        累积所需时间（调用语句本身，计入对应的子实例）</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">main() --&gt; sum(A,n) --&gt; sum(A,n-1) --&gt; sum(A,n-2) --recursive calls--&gt; sum(A,2) --&gt; sum(A,1) --&gt; sum(A,0)</span><br></pre></td></tr></table></figure>
+<p>本例中，单个递归实例自身只需$O(1)$时间，$T(n)=O(1)*(n+1)=O(n)$</p>
+<ul>
+<li>递归跟踪：直观形象，仅适用于简明的递归模式</li>
+<li>递推方程：间接抽象，更适用于复杂的递归模式</li>
+</ul>
+<h4 id="递推方程"><a href="#递推方程" class="headerlink" title="递推方程"></a>递推方程</h4><p>从递推的角度看，为求解sum（A，n），需：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">递归求解规模为n-1的问题sum(A,n-1)	&#x2F;&#x2F;T(n-1)</span><br><span class="line">再累加上A[n-1]			&#x2F;&#x2F;O(1)</span><br><span class="line">递归基：sum(A，0)			&#x2F;&#x2F;O(1)</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>递推方程：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">T(n) &#x3D; T(n-1)+O(1)	&#x2F;&#x2F;recurrence</span><br><span class="line">T(0) &#x3D; O(1)		&#x2F;&#x2F;base</span><br></pre></td></tr></table></figure></li>
+<li><p>求解：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">T(n) - n &#x3D; T(n-1) - (n-1) &#x3D; ...</span><br><span class="line">	&#x3D; T(2) - 2</span><br><span class="line">	&#x3D; T(1) - 1</span><br><span class="line">	&#x3D; T(0)</span><br><span class="line">T(n) &#x3D; O(1) + n &#x3D; O(n)</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<h4 id="数组倒置"><a href="#数组倒置" class="headerlink" title="数组倒置"></a>数组倒置</h4><p>任给数组A，将其前后颠倒</p>
+<ul>
+<li><p>统一接口</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">reverse</span><span class="params">(<span class="keyword">int</span>* A,<span class="keyword">int</span> lo,<span class="keyword">int</span> hi)</span></span>;</span><br></pre></td></tr></table></figure></li>
+<li><p>递归版</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(lo &lt; hi)	<span class="comment">//问题规模的奇偶性不变，需要两个递归基</span></span><br><span class="line">&#123; swap(A[lo],A[hi]); reverse(A,lo + <span class="number">1</span>,hi - <span class="number">1</span>); &#125;</span><br><span class="line"><span class="keyword">else</span> <span class="keyword">return</span>;	<span class="comment">//base case</span></span><br></pre></td></tr></table></figure>
+<p>通过代码可以知道第一次递归的问题规模由<code>n</code>变为了<code>n-2</code>与<code>lo</code>、<code>hi</code>，之后的递归以此类推。</p>
+</li>
+<li><p>迭代原始版</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(lo &lt; hi)</span><br><span class="line">&#123; swap(A[lo],A[hi]); lo++; hi--; <span class="keyword">goto</span> next; &#125;</span><br></pre></td></tr></table></figure></li>
+<li><p>迭代精简版</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(lo &lt; hi) swap(A[lo++],A[hi--]);</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<h4 id="分而治之"><a href="#分而治之" class="headerlink" title="分而治之"></a>分而治之</h4><p>【Divide-and-conquer】：为求解一个大规模的问题，可以将其划分为若干（通常是两个）子问题，规模大体<strong>相当</strong>；分别求解子问题；由子问题的解，得到愿问题的解。</p>
+<h4 id="二分递归：数组求和"><a href="#二分递归：数组求和" class="headerlink" title="二分递归：数组求和"></a>二分递归：数组求和</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">sum(<span class="keyword">int</span> A[],<span class="keyword">int</span> lo,<span class="keyword">int</span> hi)	<span class="comment">//入口形式为sum(A,0,n-1)</span></span><br><span class="line">&#123;</span><br><span class="line">  <span class="keyword">if</span>(lo == hi) <span class="keyword">return</span> A[lo];	<span class="comment">//base case</span></span><br><span class="line">  <span class="keyword">int</span> mi = (lo + hi) &gt;&gt; <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">return</span> sum(A,lo,mi) + sum(A,mi + <span class="number">1</span>,hi);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh87dsod9jj30r607wjtb.jpg"></p>
+<h5 id="递归跟踪-1"><a href="#递归跟踪-1" class="headerlink" title="递归跟踪"></a>递归跟踪</h5><p>以某个具体数值（0～7）为例，画出递归实例彼此调用的关系图：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh87insfhkj30zi0aln2s.jpg"></p>
+<p>可以发现，0到7的求和问题被化简为0到3的求和问题以及4到7的求和问题；后者又进而被划分为4到5以及6到7之间的求和问题……直到最后变成递归基的形式，也就是说<code>lo</code>分别等于<code>hi</code>。</p>
+<p>统计所有递归实例所需要的时间总和：如果把递归调用本身的语句去掉，里面并不包括任何形式的隐式的或者是显式的迭代。换而言之，每一个递归实例无论有效区间的长短，都是只需$O(1)$时间：</p>
+<p>$\begin{equation}\begin{split}<br>T(n)=  O(1) \cdot(2^0 + 2^1 + 2^2 + … + 2^{logn})=O(1) \cdot (2^{logn+1} - 1)=O(n)<br>\end{split}\end{equation}$</p>
+<p>从递推的角度看，为求解sum（A，lo，hi），需：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">递归求解sum(A,lo,mi)和sum(A,mi + 1,hi)	&#x2F;&#x2F;2*T(n&#x2F;2)</span><br><span class="line">进而将子问题的解累加			&#x2F;&#x2F;O(1)</span><br><span class="line">递归基：sum(A,lo,lo)			&#x2F;&#x2F;O(1)</span><br></pre></td></tr></table></figure>
+
+
+<h5 id="递推关系"><a href="#递推关系" class="headerlink" title="递推关系"></a>递推关系</h5><p>$T(n)=2*T(n/2)+O(1)$</p>
+<p>$T(1)=O(1)$</p>
+<h4 id="二分递归：Max2"><a href="#二分递归：Max2" class="headerlink" title="二分递归：Max2"></a>二分递归：Max2</h4><p>从数组区间$A[lo,hi)$中找出最大的两个整数$A[x1]$和$A[x2]$</p>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/KonstantinosPappas">Konstantinos Pappas</a>
+    </i>
+  </font>
+</div>]]></content>
+      <categories>
+        <category>数据结构 (Data Structure)</category>
+      </categories>
+      <tags>
+        <tag>Algorithm</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>博客使用插件总结</title>
     <url>/archives/c12c9c40.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nnpskhxj311i0gywkf.jpg"></p>
@@ -7871,534 +8388,6 @@
         <tag>Hexo</tag>
         <tag>NexT</tag>
         <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>绪论</title>
-    <url>/archives/43830010.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8znqrfhdg30xc0erqv6.gif"></p>
-<p>本课程旨在围绕各类数据结构的设计与实现，揭示其中的规律原理与方法技巧；同时针对算法设计及其性能分析，使学生了解并掌握主要的套路与手段。本文将讲解数据结构入门的一些基本概念。</p>
-<a id="more"></a>
-
-
-
-<h3 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h3><p>计算是数据结构的直接研究对象和内容，同时也是最终的研究目的和目标。具体说来，我们需要研究计算过程中所蕴含的本质的内在规律，也需要总结和挖掘出其中一般性的方法以及典型的技巧。最终所有这些需要服务于我们的研究目标，也就是实现有效和高效的计算，同时也需要在资源的消耗方面做到足够的低廉。推而广之，计算也可以看作是整个计算机科学的研究对象内容和目的。</p>
-<blockquote>
-<p><em>Computer science should be called computing science, for the same reason why surgery is not called knife science.</em></p>
-<p><em>– E.Dijkstra</em></p>
-</blockquote>
-<p>所谓的计算机科学，更准确的说应该称作计算科学。他在强调计算机只是一个工具和手段，而计算才是我们不应忘记的最终的研究目的和目标。</p>
-<h4 id="绳索计算机"><a href="#绳索计算机" class="headerlink" title="绳索计算机"></a>绳索计算机</h4><blockquote>
-<p>输入：任给直线l及其上一点A</p>
-<p>输出：经过A做l的一条垂线</p>
-</blockquote>
-<ul>
-<li>算法（2000 B.C. 古埃及人）</li>
-</ul>
-<blockquote>
-<p>取12段等长的绳索，首尾联接成环</p>
-<p>从A点起，将4段绳索沿l伸直并固定于B</p>
-<p>沿另一方向找到第3段绳索的终点C，移动点C，将剩余的3+5段绳索伸直</p>
-</blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggp6kpw906j30f00hbgu5.jpg"></p>
-<p>可以很容易的看出，12段绳索最终构成了一个勾三股四弦五的直角三角形，垂线也就显而易见了。而在这个过程中，12段绳索扮演的角色就是计算机。</p>
-<h4 id="尺规计算机及其算法"><a href="#尺规计算机及其算法" class="headerlink" title="尺规计算机及其算法"></a>尺规计算机及其算法</h4><blockquote>
-<p>任给平面上线段AB（输入），将其三等分（输出）</p>
-</blockquote>
-<ul>
-<li>算法：</li>
-</ul>
-<blockquote>
-<p>从A发出一条与AB不重合的射线p</p>
-<p>在p上取AC’ = C’D’ = D’B’</p>
-<p>联接B’B</p>
-<p>经D’做B’B的平行线，交AB于D</p>
-<p>经C’做B’B的平行线，交AB于C</p>
-</blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggp72casx7j30gt0br79e.jpg"></p>
-<h4 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h4><ul>
-<li><p>计算 = 信息处理</p>
-<p>借助某种工具，遵照一定规则，以明确而机械的形式进行</p>
-</li>
-<li><p>计算模型 = 计算机 = 信息处理工具</p>
-</li>
-<li><p>所谓算法，即特定计算模型下，旨在解决特定问题的指令序列</p>
-<ul>
-<li>输入    待处理的信息（问题）</li>
-<li>输出    经处理的信息（答案）</li>
-<li>正确性    的确可以解决指定的问题</li>
-<li>确定性    任一算法都可以描述为一个由基本操作组成的序列</li>
-<li>可行性    每一基本操作都可实现，且在常数时间内完成</li>
-<li>有穷性    对于任何输入，经过有穷次基本操作，都可以得到输出</li>
-</ul>
-</li>
-</ul>
-<p>对于可行性，宋丹丹和赵本山有一个很著名的小品《钟点工》，里面有一个脑筋急转弯是“如何把大象装到冰箱里去？”。最后她给出了三个步骤：</p>
-<blockquote>
-<ol>
-<li>把冰箱门打开</li>
-<li>把大象赶到冰箱里去</li>
-<li>关上冰箱门</li>
-</ol>
-</blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggp7pk1t09j30st0a9q8p.jpg"></p>
-<p>表面上看上面的过程已经构成了一个算法，因为它确实可以描述出来而且说的比较清楚。但是这里有一个致命的点，也就是这个小品的笑点所在，就是实际上它其中的动作有一条是不能兑现的：把大象赶到冰箱里去。所以这种算法是没有任何意义的，因为它是不可行的。</p>
-<h4 id="有穷性"><a href="#有穷性" class="headerlink" title="有穷性"></a>有穷性</h4><p>$$<br>序列 Hailstone(n)=\begin{cases} {1}&amp; n\leq1<br>\ {n} \cup Hailstone(n/2)&amp; n偶<br>\ {n} \cup Hailstone(3n+1)&amp; n奇\end{cases}<br>$$</p>
-<ul>
-<li><p>举例：</p>
-<blockquote>
-<p>$Hailstone(42)={42,21,64,32…，1}$</p>
-</blockquote>
-</li>
-<li><p>根据上面的表达式，我们可以写出如下的伪代码：</p>
-</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">hailstone</span><span class="params">(<span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  	<span class="keyword">int</span> length = <span class="number">1</span>;</span><br><span class="line">  	<span class="keyword">while</span>(<span class="number">1</span> &lt; n)&#123;(n % <span class="number">2</span>)?n = <span class="number">3</span> * n + <span class="number">1</span>:n /= <span class="number">2</span>;length++; &#125;</span><br><span class="line">  	<span class="keyword">return</span> length;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li><p>再次举例：</p>
-<blockquote>
-<p>$Hailstone(7)={7,22,11,34,17,52,26,13,40,20,10,5,16…，1}$</p>
-<p>$Hailstone(27)={27,82,41,124,62,31,94,47,142,71,214,107…，1}$</p>
-</blockquote>
-</li>
-</ul>
-<p>观察比较这几个列举的序列可以发现，变化规律不明显，序列的长度和输入本身没有必然的关系，呈现出非常强的随机性。我们再次回到之前写的伪代码，重新思考一下，这个序列是否满足有穷性。这不取决于程序，而是取决于序列本身： $对于任意的n，总有|Hailstone|&lt;\infty$</p>
-<p>而遗憾的是，到目前为止这个问题还没有结论，也就是说我们既不能证明对于任何的n序列必然都是有穷的，也没有找到一个反例。回到伪代码，我们这个看似非常正确而又简洁的程序未必是一个算法，也就是说，<strong>程序不等于算法</strong>。回忆在刚开始学习程序语言的时候，我们会经常遇到<strong>死循环或者栈溢出</strong>的情况，机器会非法退出。而<strong>死循环</strong>关联着<strong>有穷性</strong>的概念，需要我们特别留意。</p>
-<h4 id="好算法"><a href="#好算法" class="headerlink" title="好算法"></a>好算法</h4><ul>
-<li><p>正确：符合语法，能够编译、链接</p>
-<p>能够正确处理<strong>简单的、大规模的、一般性的、退化的、任意合法</strong>的输入</p>
-</li>
-<li><p>健壮：能辨别<strong>不合法</strong>的输入并做适当处理，而不致非正常退出</p>
-</li>
-<li><p>可读：<strong>结构化</strong> + <strong>准确命名</strong> + <strong>注释</strong> + …</p>
-</li>
-</ul>
-<p>然而上面这些固然也重要，但还不是最最重要的：</p>
-<ul>
-<li><strong>效率：速度尽可能快；存储空间尽可能少</strong></li>
-</ul>
-<blockquote>
-<p><em>Algorithms + Data Structures = Programs</em></p>
-<p><em>(Algorithms + Data Structures) x Efficiency = Computation</em></p>
-</blockquote>
-<hr>
-<h3 id="计算模型"><a href="#计算模型" class="headerlink" title="计算模型"></a>计算模型</h3><p>之前的算法与数据结构也可以简写为DSA。显然，不同的DSA的性能有好坏优劣之分，这种好坏和优劣完全是从它的效率而言的。然而“好坏”、“优劣”也只是定性的判断，我们需要定量的度量来分析。</p>
-<h4 id="性能测度"><a href="#性能测度" class="headerlink" title="性能测度"></a>性能测度</h4><blockquote>
-<p><em>To measure is to know.</em></p>
-<p><em>If you can not measure it,</em></p>
-<p><em>you can not improve it.</em></p>
-<p><em>– Lord Kelvin</em></p>
-</blockquote>
-<p>如果科学的使命是去了解这个世界，是去理解这个世界的规律，那么最终的形式往往是体现为对世界或是自然界的有效测量或者测度，算法也是一样。</p>
-<ol>
-<li>引入理想、统一、分层次的尺度</li>
-<li>运用该尺度，以测量DSA的性能</li>
-</ol>
-<h4 id="问题规模"><a href="#问题规模" class="headerlink" title="问题规模"></a>问题规模</h4><ul>
-<li>正确性：算法功能与问题要求一致？数学证明？</li>
-<li>成本：运行时间 + 所需存储空间 如何度量？如何比较？</li>
-</ul>
-<p>首先要证明DSA是正确的，过程中许多工具和方法都不是那么一目了然。然而在实际开发中，我们更关注成本（时间成本+空间成本）。通常而言，我们忽略</p>
-<ul>
-<li><p>考察：$T_A(P)=$ <strong>算法A</strong>求解问题<strong>实例P</strong>的计算成本</p>
-<p>意义不大，毕竟可能出现的问题实例太多</p>
-<p>如何归纳概括？<strong>划分等价类</strong></p>
-</li>
-<li><p>观察：问题实例的<strong>规模</strong>，往往是决定计算成本的主要因素</p>
-</li>
-</ul>
-<p>通常而言，规模接近，计算成本也接近；规模扩大，计算成本亦上升。</p>
-<h4 id="最坏情况"><a href="#最坏情况" class="headerlink" title="最坏情况"></a>最坏情况</h4><p>经过刚才等价类的划分，我们可以对定义进行改写：令$T_A(n)=$ 用算法A求解某一问题规模为n的实例，所需的计算成本。讨论特定算法A（及其对应的问题）时，简记为$T(n)$</p>
-<ul>
-<li>观察：同一问题等规模的不同实例，计算成本不尽相同，甚至有实质差别</li>
-</ul>
-<p>例如：</p>
-<blockquote>
-<p>在平面上的n个点中，找到所成三角形面积最小的三个点</p>
-<p>以蛮力算法为例，最坏情况下需列举所有$C_n^3$种组合</p>
-<p>但如果运气比较好，三点共线的情况可以直接结束，面积为0</p>
-</blockquote>
-<p>同样的例子还有Hailstone。显然我们不能寄托于最好的情况下，而是应该更多的关注一个算法的最坏情况。稳妥起见，取$T(n)=max{T(P)||P| = n}$ </p>
-<p>在规模同为n的所有实例中，只关注最坏（成本最高）者：在所有规模为n的问题实例中，将它们的计算成本进行总体的比较，并取出其中的最大值。</p>
-<h4 id="理想模型"><a href="#理想模型" class="headerlink" title="理想模型"></a>理想模型</h4><p>当同一个问题拥有多个算法的时候，如何评价其优劣？</p>
-<ul>
-<li><p>实验统计</p>
-<p>最直接的方法，但足以准确反映算法的真正效率？是骡子是马拉出来溜溜，谁用的时间越短、谁用的资源越少，谁就越优。</p>
-<p>这种想当然的想法不足够，因为测试总是不充分的。不同的算法可能更适应于不同<strong>规模/类型</strong>的输入；同一算法，可能由不同<strong>程序员</strong>、用不同程序<strong>语言</strong>、经不同<strong>编译器</strong>实现、运行于不同的<strong>体系结构</strong>、<strong>操作系统</strong>……如果测试在问题实例的规模以及类型等等方面覆盖的不够全面、不具有充分的代表性的话，那么这种测试本身就是带有偏见的，它的结论也就难以让人信服。</p>
-</li>
-</ul>
-<p>为了给出<strong>客观</strong>的评价，需要抽象出一个<strong>理想</strong>的平台或模型，不再依赖于上述种种具体的因素，从而直接而准确地描述、测量并评价算法。</p>
-<h4 id="图灵机"><a href="#图灵机" class="headerlink" title="图灵机"></a>图灵机</h4><ul>
-<li><p><code>Tape</code> 依次均匀地划分为单元格，各注有某一字符，默认为’#’</p>
-</li>
-<li><p><code>Alphabet</code> 字符的种类有限</p>
-</li>
-<li><p><code>Head</code> 总是对准某一单元格，并可读取和改写其中的字符。每经过一个节拍，可转向左侧或右侧的邻格</p>
-</li>
-<li><p><code>State</code> TM（Turing Machine）总是处于有限种状态中的某一种。每经过一个节拍，可（按照规则）转向另一种状态</p>
-</li>
-<li><p><code>Transition Function</code>：（<code>q</code>，<code>c</code>；<code>d</code>，<code>L/R</code>，<code>p</code>）</p>
-<p>若当前状态为<code>q</code>且当前字符为<code>c</code>，则将当前字符<strong>改写</strong>为<code>d</code>；<strong>转向</strong>左侧/右侧的邻格；<strong>转入</strong><code>p</code>状态；一旦转入特定的状态<code>h</code>，则<strong>停机</strong></p>
-</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggrhdpxhkpj310y0a6tbn.jpg"></p>
-<h4 id="图灵机实例"><a href="#图灵机实例" class="headerlink" title="图灵机实例"></a>图灵机实例</h4><ul>
-<li><p>功能：将二进制非负整数加一</p>
-</li>
-<li><p>算法：全’1’的后缀反转为全’0’，原最低位的’0’或’#’翻转为’1’</p>
-</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggrhtfknz5j30l10hpgs0.jpg"></p>
-<p>根据前面的分析，不难写出相应的指令：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">(&lt;, <span class="number">1</span>, <span class="number">0</span>, L, &lt;)	<span class="comment">//左行 1-&gt;0</span></span><br><span class="line">(&lt;, <span class="number">0</span>, <span class="number">1</span>, R, &gt;)	<span class="comment">//掉头 0-&gt;1</span></span><br><span class="line">(&lt;, #, <span class="number">1</span>, R, &gt;)	<span class="comment">//掉头 #-&gt;1</span></span><br><span class="line">(&gt;, <span class="number">0</span>, <span class="number">0</span>, R, &gt;)	<span class="comment">//右行 0-&gt;0</span></span><br><span class="line">(&gt;, #, #, L, h)	<span class="comment">//复位 #-&gt;end</span></span><br></pre></td></tr></table></figure>
-
-
-<h4 id="RAM模型"><a href="#RAM模型" class="headerlink" title="RAM模型"></a>RAM模型</h4><p>在可计算的意义上讲，RAM（Random Access Machine）和图灵机是完全对等的。</p>
-<ul>
-<li><p>寄存器顺序编号，总数没有限制</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">R[<span class="number">0</span>]，R[<span class="number">1</span>]，R[<span class="number">2</span>]，R[<span class="number">3</span>]，...</span><br></pre></td></tr></table></figure></li>
-<li><p>每一基本操作仅需常数时间</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">R[i] &lt;- c		<span class="comment">//常数赋值语句				</span></span><br><span class="line">R[i] &lt;- R[j]		<span class="comment">//数值复制</span></span><br><span class="line">R[i] &lt;- R[R[j]]		<span class="comment">//间接取址</span></span><br><span class="line">R[i] &lt;- R[j] + R[k]	<span class="comment">//基本运算 </span></span><br><span class="line">IF R[i] &gt; <span class="number">0</span> GOTO <span class="number">1</span>	<span class="comment">//条件判断跳转终止</span></span><br></pre></td></tr></table></figure>
-<p>与TM模型一样，RAM模型也是一般计算工具的简化与抽象，使我们可以独立于具体的平台，对算法的效率做出可信的比较与评判。</p>
-</li>
-</ul>
-<p>在这些模型中，算法的<strong>运行时间</strong>关联于算法需要执行的<strong>基本操作次数</strong>，$T(n)$ = 算法为求解规模为n的问题，所需执行的<strong>基本操作次数</strong>。</p>
-<h4 id="RAM实例"><a href="#RAM实例" class="headerlink" title="RAM实例"></a>RAM实例</h4><ul>
-<li><p>功能：向下取整的算法</p>
-<p>$\lfloor x \rfloor = max{x|dx &lt;= c}=max{x|dx &lt; 1 + c}$ $(0 &lt;= c，0 &lt; d)$</p>
-</li>
-<li><p>算法：反复地从 $R[0] = 1 + c$ 中减去 $R[1]=d$ 统计在下溢之前，所做减法的次数x</p>
-</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">R[<span class="number">3</span>] &lt;- <span class="number">1</span>		<span class="comment">//increment</span></span><br><span class="line">R[<span class="number">0</span>] &lt;- R[<span class="number">0</span>] + R[<span class="number">3</span>]	<span class="comment">//c++</span></span><br><span class="line">R[<span class="number">0</span>] &lt;- R[<span class="number">0</span>] - R[<span class="number">3</span>]	<span class="comment">//c -= d</span></span><br><span class="line">R[<span class="number">2</span>] &lt;- R[<span class="number">2</span>] + R[<span class="number">3</span>]	<span class="comment">//x++</span></span><br><span class="line">IF R[<span class="number">0</span>] &gt; <span class="number">0</span> GOTO <span class="number">2</span>	<span class="comment">//if c &gt; 0 goto 2</span></span><br><span class="line">R[<span class="number">0</span>] &lt;- R[<span class="number">2</span>] - R[<span class="number">3</span>]	<span class="comment">//else x-- and</span></span><br><span class="line">STOP			<span class="comment">//retuen R[0] = x</span></span><br></pre></td></tr></table></figure>
-<p>按照算法我们最终可以得到下表：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggro6ht5q3j30dg0h6782.jpg"></p>
-<p>执行过程可以记录为一张表，表的行数即是所执行基本指令的总条数，能够客观度量算法的执行时间。</p>
-<p>图灵机、RAM等模型为度量算法性能提供了准确的尺度。</p>
-<hr>
-<h3 id="大O记号"><a href="#大O记号" class="headerlink" title="大O记号"></a>大O记号</h3><p>如果前面的计算模型是一把公正的直尺，那么大O记号就是直尺上的刻度。我们不需要刻意强调刻度的精细程度，只需要在定性和定量之间达到一个适度的折中，使得我们可以用更短的时间更迅速地抓住DSA性能的要害和主要方面。</p>
-<blockquote>
-<p><em>Mathematics is more in need</em></p>
-<p><em>of good notation than</em></p>
-<p><em>of new theorems.</em></p>
-<p><em>– Alan Turing</em></p>
-</blockquote>
-<p>记号的作用很类似于陶渊明的诗：</p>
-<blockquote>
-<p><em>好读书<strong>不求甚解</strong></em></p>
-<p><em>每有会意，便欣然忘食</em></p>
-<p><em>– 陶渊明</em></p>
-</blockquote>
-<h4 id="主流长远"><a href="#主流长远" class="headerlink" title="主流长远"></a>主流长远</h4><p>这里的不求甚解并不是说不去求解，而是说不要过多的拘泥于问题的细节和一些琐碎的部分。回到原先的问题：随着问题规模的增长，计算成本如何增长？注意这里关心<strong>足够大</strong>的问题，注重考查成本的增长趋势。</p>
-<ul>
-<li><p>渐进分析（Asymptotic analysis）：</p>
-<p>在问题问题规模足够大后，计算成本如何增长？当问题规模足够大之后，对于规模为n输入，算法：</p>
-<ul>
-<li>需执行的基本操作次数：$T(n)=?$</li>
-<li>需占用的存储单元数：$S(n)=?$</li>
-</ul>
-</li>
-</ul>
-<p>如果用一张图来表示，也就是用横轴表示问题的规模、纵轴表示相应的计算成本，那么数据结构和算法具体的任何一个组合，都可以得到这样一条曲线：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggs13nhz08j30x007udho.jpg"></p>
-<p>我们关心的并不是这条曲线局部的、细微的、包括暂时的一些趋势，而是看它主要的、长远的变化趋势。</p>
-<h4 id="大O记号-1"><a href="#大O记号-1" class="headerlink" title="大O记号"></a>大O记号</h4><p>大O记号（big-O notation）</p>
-<p>$T(n)=O(f(n))$  充要条件是 ${\exists}c &gt; 0$，当$n&gt;&gt;2$后，有$T(n)&lt;cf(n)$</p>
-<blockquote>
-<p>$\sqrt{5n \cdot [3n \cdot (n + 2) + 4] + 6} &lt; \sqrt{5n \cdot [6n^2 + 4] + 6}&lt;\sqrt{35n^2 + 6}&lt;6 \cdot n^1.5 = o(n^1.5)$</p>
-</blockquote>
-<p>与$T(n)$相比，$f(n)$更为简洁，但依然反映出前者的增长趋势。</p>
-<ul>
-<li>常系数可忽略：$O(f(n))=O(cf(n))$</li>
-<li>低次项可忽略：$O(n^a+n^b)=O(n^a)，a&gt;b&gt;0$</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggsm5u1p5pj30wv07btbj.jpg"></p>
-<p>可以认为大O记号是对计算成本的悲观估计。</p>
-<ul>
-<li><p>渐进分析：其他记号</p>
-<p>$T(n)=\Omega(f(n)):\exists c &gt; 0$，当$n &gt;&gt; 2$ 后，有$T(n)&gt;cf(n)$</p>
-<p>$T(n)=\theta(f(n)):\exists c_1 &gt; c_2 &gt; 0$，当 $n &gt;&gt; 2$ 后，有 $c_1 \cdot f(n)&gt;T(n)&gt;c_2 \cdot f(n)$</p>
-</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggsmd3sdswj30x709u0x5.jpg"></p>
-<h4 id="高效解"><a href="#高效解" class="headerlink" title="高效解"></a>高效解</h4><p>在大O记号的直尺上，有许多相应的刻度:</p>
-<ol>
-<li>常数（constant function）</li>
-</ol>
-<p>包括常数、较大的常数以及按照通常的四则混合运算经过运算以后得到的常数。</p>
-<blockquote>
-<p>$2 = 2013 = 2013 \times 2013 = 2013^{2013} =O(1)$。</p>
-</blockquote>
-<p>这类算法的效率最高。</p>
-<p><strong>如果一段代码不含转向（循环、调用、递归等），必顺序执行，即是$O(1)$。</strong>当然包含循环、分支转向、递归调用的代码段仍然可能是$O(1)$，具体情况应具体分析。</p>
-<ol start="2">
-<li>对数 $O(\log^cn)$</li>
-</ol>
-<blockquote>
-<p>$\ln n$  |  $\lg n$  |  $ \log_{100}n$  |  $ \log_{2013}n$</p>
-</blockquote>
-<ul>
-<li><p>常底数无所谓</p>
-<p>在这里我们往往不再标明具体的底数，因为在底数为常数的情况下，具体是多少是无所谓的。</p>
-<p>$\forall a，b &gt; 0，\log_an =log_ab \cdot \log_bn = \theta(log_bn)$</p>
-</li>
-<li><p>常数次幂无所谓</p>
-<p>$\forall c &gt;0，\log n^c = c \cdot logn = \theta(logn)$</p>
-</li>
-<li><p>多项式形式（ploy-log function）</p>
-<p>参照大O处理方法，把低次项和常系数的项都忽略掉从而得到一个简明的多项形式。</p>
-<blockquote>
-<p> $123*\log^{321}n + log^{105}(n^2-n+1)=\theta(log^{321}n)$</p>
-</blockquote>
-</li>
-</ul>
-<p>这类算法非常有效，复杂度无线接近于常数。$\forall c &gt; 0,logn=O(n^c)$</p>
-<h4 id="有效解"><a href="#有效解" class="headerlink" title="有效解"></a>有效解</h4><ol start="3">
-<li><p>多项式（polynomial function）复杂度</p>
-<blockquote>
-<p>$100n + 200 = O(n)$<br>$(100n - 500)(20n^2 -300n +2013) = O(n \times n^2)$</p>
-<p>$(2013n^2 - 20)/(1990n - 1)=O(n^2/n)=O(n)$</p>
-</blockquote>
-</li>
-</ol>
-<p>一般的：$a_kn^k + a_{k-1}n^{k-1} + … + a_1n + a_0 = O(n^k)，a_k &gt;0$</p>
-<ul>
-<li><p>线性（linear function）：所有$O（n）$类函数</p>
-</li>
-<li><p>幂：$[(n^2013-24n^2009)^{1/3}+512n^567-1978n^123]^{1/11}=O(n^{61})$</p>
-</li>
-</ul>
-<p>这类算法的效率通常认为已可令人满意，<strong>凡多项式复杂度，均视为可解问题</strong>。</p>
-<h4 id="难解"><a href="#难解" class="headerlink" title="难解"></a>难解</h4><ol start="4">
-<li>指数（exponential function）复杂度：$T(n) = a^n$</li>
-</ol>
-<blockquote>
-<p>$\forall c &gt; 1，n^c=O(2^n)$</p>
-<p>​             $n^{100} = O(1.0000001^n) = O(2^n)$</p>
-<p>​            $1.0000001^n = \Omega(n^{1000})$</p>
-</blockquote>
-<p>这类算法的计算成本增长极快，通常被认为不可接受。从$O(n^c)$到$O(2^n)$，是从<strong>有效算法</strong>到<strong>无效算法</strong>的分水岭。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggspmy1x9gj30ah0bk40n.jpg"></p>
-<p>很多问题的$O(2^n)$算法往往显而易见，然而设计出$O(n^c)$算法却极其不易，伸直有时注定只能是徒劳无功。</p>
-<h4 id="2-Subset"><a href="#2-Subset" class="headerlink" title="2-Subset"></a>2-Subset</h4><ul>
-<li><p>问题描述</p>
-<p>S包含n个正整数，$\Sigma S = 2m$，S是否有子集T，满足$\Sigma T = m$</p>
-</li>
-<li><p>选举人制</p>
-<p>各州议会选出的选举人团投票，而不是由选民直接投票。</p>
-<p>50个州加1个特区，共<strong>538</strong>票。获得<strong>270</strong>张选举人票，即可当选。</p>
-</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggt38qx8nxj30mh0f1dfv.jpg"></p>
-<p>若共有两位候选人，是否可能恰好各得<strong>269</strong>票？也就是说是否有一个办法能把所有的州按照选举人分成两部分，使得它们各自所积累起来的选举人票恰好是各自一半？</p>
-<ul>
-<li><p>直觉算法：逐一枚举S的每一子集，并统计其中元素的总和</p>
-<p>$|2^s|=2^{|s|}=2^n$，代表直觉算法需要迭代$2^n$轮，并（在最坏情况下）至少需要花费这么多的时间–不甚理想。</p>
-</li>
-<li><p>定理：<em>2-Subset is <strong>NP-complete</strong></em></p>
-<p>就目前的计算模型而言，<strong>不存在</strong>可在多项式时间内回答此问题的算法 – 就此意义而言，上述的直觉算法已属最优。</p>
-</li>
-</ul>
-<h3 id="算法分析"><a href="#算法分析" class="headerlink" title="算法分析"></a>算法分析</h3><blockquote>
-<p><em>He calculated just as men breathe,</em></p>
-<p><em>as eagles sustain themselves in the air.</em></p>
-<p><em>– Francois Arago</em></p>
-</blockquote>
-<p>算法分析的主要任务包括两个方面的内容：正确性（不变性 x 单调性）+ 复杂度</p>
-<p>C++等高级语言的<strong>基本指令</strong>，均等效于常数条RAM的<strong>基本指令</strong>；在渐进的意义上，二者大体相当：</p>
-<ul>
-<li>分支转向：<code>goto</code> 算法的灵魂；出于结构化考虑被隐藏</li>
-<li>迭代循环：<code>for()</code>、<code>while()</code>、… 本质都是<code>if</code>+<code>goto</code></li>
-<li>调用 + 递归（自我调用）：本质上也是<code>goto</code></li>
-</ul>
-<p>复杂度分析的主要方法：</p>
-<ul>
-<li>迭代：级数求和</li>
-<li>递归：递归跟踪 + 递推方程</li>
-<li>推测 + 验证</li>
-</ul>
-<h4 id="级数"><a href="#级数" class="headerlink" title="级数"></a>级数</h4><ul>
-<li><p><strong>算术</strong>级数：与<strong>末项平方</strong>同阶</p>
-<p>$T(n)=1+2+…+n=n(n+1)/2=O(n^2)$</p>
-</li>
-<li><p>幂方级数：比幂次高出<strong>一阶</strong>：$\Sigma^n_{k=0} \approx \int^n_0x^{d+1}dx=\frac {1}{d+1}x^{d+1}|^n_0=O(n^{d+1})$</p>
-<blockquote>
-<p>$T_2(n) = 1^2 + 2^2 + 3^2 + … + n^2 = n(n + 1)(2n + 1)/6=O(n^3)$</p>
-<p>$T_3(n)=1^3 + 2^3 +3^3 + … + n^3 = n^2(n + 1)^2/4 = O(n^4)$</p>
-<p>$T_4(n)=1^4 + 2^4 + 3^4 + … + n^4 = n(n+1)(2n+1)(3n^2+3n-1)/30=O(n^5)$</p>
-<p>…</p>
-</blockquote>
-</li>
-<li><p>几何级数（$a&gt;1$）：与<strong>末项</strong>同阶</p>
-<p>$T_a(n)=a^0+a^1+…+a^n=(a^{n+1}-1)/(a-1)=O(a^n)$</p>
-<blockquote>
-<p>$1+2+4+…+2^n=a^{n+1}-1=O(2^n+1)=O(2^n)$</p>
-</blockquote>
-</li>
-<li><p>收敛级数</p>
-<blockquote>
-<p>$1/1/2 + 1/2/3 + 1/3/4 + … +1/(n-1)/n=1-1/n=O(1)$</p>
-<p>$1 + 1/2^2 + … + 1/n^2 &lt; 1 + 1/2^2 + … = \pi^2/6 = O(1)$ </p>
-<p>$1/3 + 1/7 +1/8 +1/15 + 1/24 + 1/26 + 1/31 + 1/35 + … = 1 = O(1)$</p>
-</blockquote>
-</li>
-</ul>
-<h4 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; n;i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>;j &lt; n;j++)</span><br><span class="line">    <span class="number">010</span>peration(i,j);</span><br></pre></td></tr></table></figure>
-<p>算术级数：$\Sigma^{n-1}_{i=0}n=n+n+…+n=n*n=O(n^2)$</p>
-<p>我们可以用一个二维矩形来表示。i外循环的控制变量，j内循环的控制变量构成对应的两个维度。矩形中的每一个点都对应于内部这个$O(1)$的操作的一次执行，而整个二重循环其实就等效于这个矩形被填充的过程。因此我们可以建立联系，这段代码的时间复杂度就等于矩形的面积。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggu89jq57kj30a608eq3c.jpg"></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; n;i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>;j &lt; i;j++)</span><br><span class="line">    <span class="number">010</span>peration(i,j);</span><br></pre></td></tr></table></figure>
-<p>算术级数：$\Sigma^{n-1}_{i=0}i=0+1+…+(n-1)=\frac{n(n-1)}{2}=O(n^2)$</p>
-<p>该过程依然可以表述为一个二维图形。外循环控制变量i依然是从0一直变化到n，而内循环的控制变量j则呈一个算术级数，不断线性递增的规律。这段代码的执行时间应该等于这个被填充的三角形总体的面积。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggu8moosfij30ax080dgi.jpg"></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; n;i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>;j &lt; i;j +=<span class="number">2013</span>)</span><br><span class="line">    <span class="number">010</span>peration(i,j);</span><br></pre></td></tr></table></figure>
-
-
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggu8tlbk8mj309h086750.jpg"></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; n;i &lt;&lt;= <span class="number">1</span>)</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>;j &lt; i;j ++)</span><br><span class="line">    <span class="number">010</span>peration(i,j);</span><br></pre></td></tr></table></figure>
-<p>几何级数：</p>
-<p>$1 + 2 + 4 + … + 2 ^ {\lfloor{log_2(n-1)}\rfloor}=\Sigma^{\lfloor{log_2(n-1)}\rfloor}_{k=0}2^k (k = log_2n) = 2^{\lceil log_2n \rceil}-1=O(n)$</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggu98u38isj30cs09iaaw.jpg"></p>
-<h4 id="实例：非极端元素-起泡排序"><a href="#实例：非极端元素-起泡排序" class="headerlink" title="实例：非极端元素+起泡排序"></a>实例：非极端元素+起泡排序</h4><h5 id="非极端元素"><a href="#非极端元素" class="headerlink" title="非极端元素"></a>非极端元素</h5><ul>
-<li><p>问题：给定整数<strong>子集</strong>S，$|S|=n\geq3$ 找出元素$a\in S，a \neq max(S)$且$a \neq min(S)$</p>
-</li>
-<li><p>算法：</p>
-<ul>
-<li>从S中任取三个元素${x,y,z}$</li>
-<li>确定并排除其中的最小、最大者（不妨设$x = max{x,y,z},y=min{x,y,z}$）</li>
-<li>输出剩下的元素$z$</li>
-</ul>
-</li>
-<li><p>无论输入规模n多大，上述算法需要的执行时间都不变 $T(n)=O(1)=\Omega(1)=\Theta(1)$</p>
-</li>
-</ul>
-<h5 id="起泡排序"><a href="#起泡排序" class="headerlink" title="起泡排序"></a>起泡排序</h5><ul>
-<li><p>问题：给定n个整数，将它们按（非降）序排序</p>
-</li>
-<li><p>观察：<strong>有序</strong>/<strong>无序</strong>序列中，<strong>任意</strong>/<strong>总有</strong>一对相邻元素<strong>顺序</strong>/<strong>逆序</strong></p>
-</li>
-<li><p><strong>扫描交换</strong>：依次比较每一对相邻元素，如有必要，交换之。若整趟扫描都没有进行交换，则排序完成；否则再做一趟交换。</p>
-</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">bubblesort</span><span class="params">(<span class="keyword">int</span> A[],<span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">bool</span> sorted = <span class="literal">false</span>; sorted != sorted;n--)</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>;i &lt; n;i++)</span><br><span class="line">      <span class="keyword">if</span>(A[i<span class="number">-1</span>] &gt; A[i])</span><br><span class="line">      &#123;</span><br><span class="line">        swap(A[i<span class="number">-1</span>],A[i]);</span><br><span class="line">        sorted = <span class="literal">false</span>;</span><br><span class="line">      &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gguaga9mbeg30my075wqv.gif"></p>
-<h4 id="正确性的方法"><a href="#正确性的方法" class="headerlink" title="正确性的方法"></a>正确性的方法</h4><p>该算法必然会结束？至多需要迭代多少趟？</p>
-<ul>
-<li><strong>不变性</strong>：经过<strong>k</strong>轮扫描交换后，最大的<strong>k</strong>个元素必然就位</li>
-<li><strong>单调性</strong>：经过<strong>k</strong>轮扫描交换后，问题规模缩减至<strong>n-k</strong></li>
-<li><strong>正确性</strong>：经过至多<strong>n</strong>趟扫描后，算法必然终止，且能给出正确解答</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gguce621vaj30we09qtfg.jpg"></p>
-<h4 id="封底估算"><a href="#封底估算" class="headerlink" title="封底估算"></a>封底估算</h4><p>考察对全国人口普查数据的排序 $n=10^9….$</p>
-<table>
-<thead>
-<tr>
-<th align="center">硬件/算法</th>
-<th align="center">普通PC</th>
-<th align="center">天河1A</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">Bubblesort</td>
-<td align="center">30 yr</td>
-<td align="center">20 min</td>
-</tr>
-<tr>
-<td align="center">Mergesort</td>
-<td align="center">30 sec</td>
-<td align="center">0.03s</td>
-</tr>
-</tbody></table>
-<p>通过硬件的改进，我们可以从30年改进为20分钟；而算法上的改进我们可以从30年改进为30秒，效率上是巨大的提升。</p>
-<hr>
-<h3 id="迭代与递归"><a href="#迭代与递归" class="headerlink" title="迭代与递归"></a>迭代与递归</h3><p>在已经能够逐步了解和评判数据结构和算法的性能优劣之后，我们要慢慢学会如何设计一个高效的DSA。</p>
-<blockquote>
-<p><em>The control of a large force is</em></p>
-<p><em>the same principle as</em></p>
-<p><em>the control of a few men:</em></p>
-<p><em>it is merely a question of</em></p>
-<p><em>dividing up their numbers.</em></p>
-</blockquote>
-<ul>
-<li>问题：计算任意n个整数之和</li>
-<li>实现：逐一取出每个元素，累加之</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">SumI</span><span class="params">(<span class="keyword">int</span> A[],<span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">int</span> sum = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; n;i++)</span><br><span class="line">    sum += A[i];</span><br><span class="line">  <span class="keyword">return</span> sum;	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>无论A[ ]内容如何，都有：</p>
-<p>$T(n)=1+n*1+1=n+2=O(n)=\Omega(n)=\Theta(n)$</p>
-<h4 id="减而治之"><a href="#减而治之" class="headerlink" title="减而治之"></a>减而治之</h4><p>【Decrease-and-conquer】：为求解一个大规模问题，可以将其划分为两个子问题：其一<strong>平凡</strong>，另一规模<strong>缩减</strong>，分别求解子问题，由子问题的解，得到愿问题的解。</p>
-<h4 id="递归跟踪"><a href="#递归跟踪" class="headerlink" title="递归跟踪"></a>递归跟踪</h4><p>对于n个数求解这样一个问题，我们将它分解为一个规模缩小了一个单元的问题，另外剩下的一个问题本身是一个平凡的问题，可以直接求解得到。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">sum(<span class="keyword">int</span> A[],<span class="keyword">int</span> n)</span><br><span class="line">&#123;</span><br><span class="line">  <span class="keyword">return</span> </span><br><span class="line">    (n &lt; <span class="number">1</span>)?</span><br><span class="line">    <span class="number">0</span> : sum(A,n<span class="number">-1</span>) + A[n<span class="number">-1</span>];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li><p>递归跟踪（recursion trace）分析</p>
-<p>检查每个<strong>递归实例</strong></p>
-<p>​        累积所需时间（调用语句本身，计入对应的子实例）</p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">main() --&gt; sum(A,n) --&gt; sum(A,n-1) --&gt; sum(A,n-2) --recursive calls--&gt; sum(A,2) --&gt; sum(A,1) --&gt; sum(A,0)</span><br></pre></td></tr></table></figure>
-<p>本例中，单个递归实例自身只需$O(1)$时间，$T(n)=O(1)*(n+1)=O(n)$</p>
-<ul>
-<li>递归跟踪：直观形象，仅适用于简明的递归模式</li>
-<li>递推方程：间接抽象，更适用于复杂的递归模式</li>
-</ul>
-<h4 id="递推方程"><a href="#递推方程" class="headerlink" title="递推方程"></a>递推方程</h4><p>从递推的角度看，为求解sum（A，n），需：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">递归求解规模为n-1的问题sum(A,n-1)	&#x2F;&#x2F;T(n-1)</span><br><span class="line">再累加上A[n-1]			&#x2F;&#x2F;O(1)</span><br><span class="line">递归基：sum(A，0)			&#x2F;&#x2F;O(1)</span><br></pre></td></tr></table></figure>
-<ul>
-<li><p>递推方程：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">T(n) &#x3D; T(n-1)+O(1)	&#x2F;&#x2F;recurrence</span><br><span class="line">T(0) &#x3D; O(1)		&#x2F;&#x2F;base</span><br></pre></td></tr></table></figure></li>
-<li><p>求解：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">T(n) - n &#x3D; T(n-1) - (n-1) &#x3D; ...</span><br><span class="line">	&#x3D; T(2) - 2</span><br><span class="line">	&#x3D; T(1) - 1</span><br><span class="line">	&#x3D; T(0)</span><br><span class="line">T(n) &#x3D; O(1) + n &#x3D; O(n)</span><br></pre></td></tr></table></figure>
-
-
-</li>
-</ul>
-<h4 id="数组倒置"><a href="#数组倒置" class="headerlink" title="数组倒置"></a>数组倒置</h4><p>任给数组A，将其前后颠倒</p>
-<ul>
-<li><p>统一接口</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">reverse</span><span class="params">(<span class="keyword">int</span>* A,<span class="keyword">int</span> lo,<span class="keyword">int</span> hi)</span></span>;</span><br></pre></td></tr></table></figure></li>
-<li><p>递归版</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(lo &lt; hi)	<span class="comment">//问题规模的奇偶性不变，需要两个递归基</span></span><br><span class="line">&#123; swap(A[lo],A[hi]); reverse(A,lo + <span class="number">1</span>,hi - <span class="number">1</span>); &#125;</span><br><span class="line"><span class="keyword">else</span> <span class="keyword">return</span>;	<span class="comment">//base case</span></span><br></pre></td></tr></table></figure>
-<p>通过代码可以知道第一次递归的问题规模由<code>n</code>变为了<code>n-2</code>与<code>lo</code>、<code>hi</code>，之后的递归以此类推。</p>
-</li>
-<li><p>迭代原始版</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(lo &lt; hi)</span><br><span class="line">&#123; swap(A[lo],A[hi]); lo++; hi--; <span class="keyword">goto</span> next; &#125;</span><br></pre></td></tr></table></figure></li>
-<li><p>迭代精简版</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(lo &lt; hi) swap(A[lo++],A[hi--]);</span><br></pre></td></tr></table></figure>
-
-
-</li>
-</ul>
-<h4 id="分而治之"><a href="#分而治之" class="headerlink" title="分而治之"></a>分而治之</h4><p>【Divide-and-conquer】：为求解一个大规模的问题，可以将其划分为若干（通常是两个）子问题，规模大体<strong>相当</strong>；分别求解子问题；由子问题的解，得到愿问题的解。</p>
-<h4 id="二分递归：数组求和"><a href="#二分递归：数组求和" class="headerlink" title="二分递归：数组求和"></a>二分递归：数组求和</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">sum(<span class="keyword">int</span> A[],<span class="keyword">int</span> lo,<span class="keyword">int</span> hi)	<span class="comment">//入口形式为sum(A,0,n-1)</span></span><br><span class="line">&#123;</span><br><span class="line">  <span class="keyword">if</span>(lo == hi) <span class="keyword">return</span> A[lo];	<span class="comment">//base case</span></span><br><span class="line">  <span class="keyword">int</span> mi = (lo + hi) &gt;&gt; <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">return</span> sum(A,lo,mi) + sum(A,mi + <span class="number">1</span>,hi);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh87dsod9jj30r607wjtb.jpg"></p>
-<h5 id="递归跟踪-1"><a href="#递归跟踪-1" class="headerlink" title="递归跟踪"></a>递归跟踪</h5><p>以某个具体数值（0～7）为例，画出递归实例彼此调用的关系图：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh87insfhkj30zi0aln2s.jpg"></p>
-<p>可以发现，0到7的求和问题被化简为0到3的求和问题以及4到7的求和问题；后者又进而被划分为4到5以及6到7之间的求和问题……直到最后变成递归基的形式，也就是说<code>lo</code>分别等于<code>hi</code>。</p>
-<p>统计所有递归实例所需要的时间总和：如果把递归调用本身的语句去掉，里面并不包括任何形式的隐式的或者是显式的迭代。换而言之，每一个递归实例无论有效区间的长短，都是只需$O(1)$时间：</p>
-<p>$\begin{equation}\begin{split}<br>T(n)=  O(1) \cdot(2^0 + 2^1 + 2^2 + … + 2^{logn})=O(1) \cdot (2^{logn+1} - 1)=O(n)<br>\end{split}\end{equation}$</p>
-<p>从递推的角度看，为求解sum（A，lo，hi），需：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">递归求解sum(A,lo,mi)和sum(A,mi + 1,hi)	&#x2F;&#x2F;2*T(n&#x2F;2)</span><br><span class="line">进而将子问题的解累加			&#x2F;&#x2F;O(1)</span><br><span class="line">递归基：sum(A,lo,lo)			&#x2F;&#x2F;O(1)</span><br></pre></td></tr></table></figure>
-
-
-<h5 id="递推关系"><a href="#递推关系" class="headerlink" title="递推关系"></a>递推关系</h5><p>$T(n)=2*T(n/2)+O(1)$</p>
-<p>$T(1)=O(1)$</p>
-<h4 id="二分递归：Max2"><a href="#二分递归：Max2" class="headerlink" title="二分递归：Max2"></a>二分递归：Max2</h4><p>从数组区间$A[lo,hi)$中找出最大的两个整数$A[x1]$和$A[x2]$</p>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/KonstantinosPappas">Konstantinos Pappas</a>
-    </i>
-  </font>
-</div>]]></content>
-      <categories>
-        <category>数据结构 (Data Structure)</category>
-      </categories>
-      <tags>
-        <tag>Algorithm</tag>
       </tags>
   </entry>
   <entry>
