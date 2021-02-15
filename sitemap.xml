@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yousazoe.top/archives/d521fef0.html</loc>
+    
+    <lastmod>2021-02-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/archives/d04381bb.html</loc>
     
     <lastmod>2021-02-15</lastmod>
@@ -136,13 +143,6 @@
   
   <url>
     <loc>http://yousazoe.top/archives/c735be6b.html</loc>
-    
-    <lastmod>2021-02-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/archives/d521fef0.html</loc>
     
     <lastmod>2021-02-15</lastmod>
     
@@ -732,13 +732,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Japan/</loc>
-    <lastmod>2021-02-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/tags/FPS/</loc>
     <lastmod>2021-02-15</lastmod>
     <changefreq>daily</changefreq>
@@ -803,6 +796,13 @@
   
   <url>
     <loc>http://yousazoe.top/tags/Reprint/</loc>
+    <lastmod>2021-02-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/Japan/</loc>
     <lastmod>2021-02-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
