@@ -53,7 +53,6 @@
       </categories>
       <tags>
         <tag>Story</tag>
-        <tag>Reprint</tag>
         <tag>Celeste</tag>
       </tags>
   </entry>
@@ -1077,6 +1076,7 @@
       </categories>
       <tags>
         <tag>Game</tag>
+        <tag>MOBA</tag>
       </tags>
   </entry>
   <entry>
@@ -1222,13 +1222,6 @@
       <tags>
         <tag>Game</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>韩国游戏市场简析</title>
-    <url>/archives/a83a12b8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><a id="more"></a>
-
-<h3 id="13-0-主讲人"><a href="#13-0-主讲人" class="headerlink" title="13.0 主讲人"></a>13.0 主讲人</h3><h3 id="13-1-韩国电竞"><a href="#13-1-韩国电竞" class="headerlink" title="13.1 韩国电竞"></a>13.1 韩国电竞</h3><h3 id="13-2-韩国网游"><a href="#13-2-韩国网游" class="headerlink" title="13.2 韩国网游"></a>13.2 韩国网游</h3><h3 id="13-3-韩国网游市场"><a href="#13-3-韩国网游市场" class="headerlink" title="13.3 韩国网游市场"></a>13.3 韩国网游市场</h3><h3 id="13-4-韩国网游发展史"><a href="#13-4-韩国网游发展史" class="headerlink" title="13.4 韩国网游发展史"></a>13.4 韩国网游发展史</h3>]]></content>
   </entry>
   <entry>
     <title>日本游戏市场简析</title>
@@ -1639,6 +1632,20 @@
       </categories>
       <tags>
         <tag>Game</tag>
+        <tag>Japan</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>韩国游戏市场简析</title>
+    <url>/archives/a83a12b8.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><a id="more"></a>
+
+<h3 id="13-0-主讲人"><a href="#13-0-主讲人" class="headerlink" title="13.0 主讲人"></a>13.0 主讲人</h3><h3 id="13-1-韩国电竞"><a href="#13-1-韩国电竞" class="headerlink" title="13.1 韩国电竞"></a>13.1 韩国电竞</h3><h3 id="13-2-韩国网游"><a href="#13-2-韩国网游" class="headerlink" title="13.2 韩国网游"></a>13.2 韩国网游</h3><h3 id="13-3-韩国网游市场"><a href="#13-3-韩国网游市场" class="headerlink" title="13.3 韩国网游市场"></a>13.3 韩国网游市场</h3><h3 id="13-4-韩国网游发展史"><a href="#13-4-韩国网游发展史" class="headerlink" title="13.4 韩国网游发展史"></a>13.4 韩国网游发展史</h3>]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
       </tags>
   </entry>
   <entry>
@@ -1654,23 +1661,24 @@
   </font>
 </div>
 
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><a id="more"></a>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本节来介绍西方游戏三大件“枪车球”中的“枪”，也就是射击游戏的历史。射击游戏对于整个游戏产业的意义在于它的早，1962年全世界第一款游戏就是射击游戏；并且营收很高，年收入达到100亿以上规模的游戏绝大多数都是射击类的。不仅如此，射击游戏的意义还在于推动了整个游戏行业的软件、硬件的发展。</p>
+<a id="more"></a>
 
-<h3 id="14-0-主讲人"><a href="#14-0-主讲人" class="headerlink" title="14.0 主讲人"></a>14.0 主讲人</h3><ul>
-<li>徐伟/Mario Hsu<ul>
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐伟/Mario Hsu</strong></p>
+<ul>
 <li><strong>Tecent Games Evaluation Center</strong></li>
 </ul>
+<h3 id="什么是射击游戏"><a href="#什么是射击游戏" class="headerlink" title="什么是射击游戏"></a>什么是射击游戏</h3><h4 id="What-is-Shooter？"><a href="#What-is-Shooter？" class="headerlink" title="What is Shooter？"></a>What is Shooter？</h4><ul>
+<li><p>Speed &amp; Reaction - 速度和反应能力</p>
 </li>
-</ul>
-<h3 id="14-1-什么是射击游戏"><a href="#14-1-什么是射击游戏" class="headerlink" title="14.1 什么是射击游戏"></a>14.1 什么是射击游戏</h3><ul>
-<li>What is Shooter？<ul>
-<li>Speed &amp; Reaction - 速度和反应能力</li>
-<li>Avatar - 角色</li>
-<li>Gun &amp; Ammunition - 武器</li>
-<li>Shoot - 射击</li>
-</ul>
+<li><p>Avatar - 角色</p>
 </li>
-<li>射击游戏为什么好玩？<ul>
+<li><p>Gun &amp; Ammunition - 武器</p>
+</li>
+<li><p>Shoot - 射击</p>
+</li>
+<li><p>射击游戏为什么好玩？</p>
+<ul>
 <li>BARTLE’S PLAYER TYPES<ul>
 <li>Killer - 杀手型玩家<ul>
 <li>与玩家PK对抗</li>
@@ -1695,7 +1703,8 @@
 </li>
 </ul>
 </li>
-<li>历史背景<ul>
+<li><p>历史背景</p>
+<ul>
 <li>西进运动</li>
 <li>枪支代表了美国人民的野性、不羁和刚强的开拓精神</li>
 </ul>
@@ -1827,6 +1836,13 @@
 <p><strong><em>Mario Hsu : “ Next generation starts when you say so! “</em></strong></p>
 </blockquote>
 ]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>FPS</tag>
+      </tags>
   </entry>
   <entry>
     <title>游戏分析方法</title>
@@ -1849,7 +1865,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#101;&#x6e;&#120;&#117;&#64;&#x74;&#x65;&#110;&#99;&#101;&#110;&#x74;&#46;&#99;&#111;&#109;">&#x6c;&#x65;&#101;&#x6e;&#120;&#117;&#64;&#x74;&#x65;&#110;&#99;&#101;&#110;&#x74;&#46;&#99;&#111;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#101;&#x65;&#x6e;&#x78;&#x75;&#64;&#x74;&#101;&#x6e;&#x63;&#x65;&#x6e;&#116;&#46;&#x63;&#x6f;&#109;">&#108;&#101;&#x65;&#x6e;&#x78;&#x75;&#64;&#x74;&#101;&#x6e;&#x63;&#x65;&#x6e;&#116;&#46;&#x63;&#x6f;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -4219,7 +4235,7 @@
       <tags>
         <tag>Game Develop</tag>
         <tag>SEGA</tag>
-        <tag>C++</tag>
+        <tag>Cpp</tag>
       </tags>
   </entry>
   <entry>
@@ -4303,7 +4319,7 @@
         <category>游戏引擎开发 (Game Engine Series)</category>
       </categories>
       <tags>
-        <tag>C++</tag>
+        <tag>Cpp</tag>
         <tag>Game Engine</tag>
       </tags>
   </entry>
@@ -4390,7 +4406,7 @@
         <category>游戏引擎开发 (Game Engine Series)</category>
       </categories>
       <tags>
-        <tag>C++</tag>
+        <tag>Cpp</tag>
         <tag>Game Engine</tag>
       </tags>
   </entry>
@@ -4474,7 +4490,7 @@
         <category>游戏引擎开发 (Game Engine Series)</category>
       </categories>
       <tags>
-        <tag>C++</tag>
+        <tag>Cpp</tag>
         <tag>Game Engine</tag>
       </tags>
   </entry>
@@ -4552,7 +4568,7 @@
         <category>游戏引擎开发 (Game Engine Series)</category>
       </categories>
       <tags>
-        <tag>C++</tag>
+        <tag>Cpp</tag>
         <tag>Game Engine</tag>
       </tags>
   </entry>
@@ -4586,7 +4602,7 @@
         <category>游戏引擎开发 (Game Engine Series)</category>
       </categories>
       <tags>
-        <tag>C++</tag>
+        <tag>Cpp</tag>
         <tag>Game Engine</tag>
       </tags>
   </entry>
@@ -4624,8 +4640,8 @@
         <category>游戏史学家 (Gaming Historian)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Game</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -5670,8 +5686,8 @@
         <category>游戏开发 (Game Development)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Game</tag>
+        <tag>Reprint</tag>
         <tag>Ludum Dare</tag>
         <tag>Unity</tag>
       </tags>
@@ -6245,65 +6261,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#2</title>
-    <url>/archives/90b77012.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zhhvzmzj31hc0u0434.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解像素绘画的流程，逐渐完善直到达到满意的效果。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7imh83j30u008c74z.jpg"></p>
-<p>相关链接：</p>
-<ul>
-<li>Pedro Medeiros@Patreon<br><a href="https://www.patreon.com/saint11">https://www.patreon.com/saint11</a></li>
-<li>风农@indienova<br><a href="https://indienova.com/u/fengnong">https://indienova.com/u/fengnong</a></li>
-<li>风农@bilibili 专栏<br><a href="https://www.bilibili.com/read/readlist/rl38114">https://www.bilibili.com/read/readlist/rl38114</a></li>
-</ul>
-<p>像素簇草图和绘画。</p>
-<p>系列的第二篇。</p>
-<p>这个教程会使用 Aseprite。这次我会教大家一个很像传统绘画流程的像素画技术。我一般叫它像素簇草图技术，因为我会从大的像素簇画起，再逐渐完善，直到达到我满意的效果。</p>
-<h3 id="什么是像素簇"><a href="#什么是像素簇" class="headerlink" title="什么是像素簇"></a>什么是像素簇</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7kk00zj30ln0axwec.jpg"></p>
-<p>一个簇，或者颜色簇，或者像素簇，就是一组连续的同色像素。对角线连接的像素算不算还有些争论。我认为也算，我把这种叫弱连接，会尽量避免，不过不会太担心这种。</p>
-<p>画像素画的时候，我的重点是尽量少出现像素簇，而且一定避免单像素的簇。这些单像素的也可以叫孤立像素，通常会让画面看起来有很多噪点，很乱。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7ix03cj30ra0e3q2q.jpg"></p>
-<p>有时候你需要把一个孤立像素删除，但有时候你可能还需要这个细节。对于后者，我有一些喜欢的形状可以代替这个孤立像素，就是饼干下面这些绿色形状。不过有些时候它也可以用，像是纹理，抗锯齿（以后的章节会讲），以及一些强细节，比如下面骷髅里的红色眼睛：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7jxpdvj307o07j0nc.jpg"></p>
-<h3 id="开始画"><a href="#开始画" class="headerlink" title="开始画"></a>开始画</h3><p>我们来画点什么。我要画一个小的场景，用 <code>DB32</code> 调色盘，分辨率用 <code>100</code> 乘以 <code>64</code> 像素。对这个练习我推荐用个手绘板，因为自然的线条对结果能有些帮助。</p>
-<p>如果你觉得这个场景有些复杂，可以自己去掉一些东西，比如建筑，或者人。实验新的技术时一定要画自己舒服的东西。如果觉得画布太大，或者太小，就自己改一下尺寸，不过我不建议小于 <code>64</code> 或者大于 <code>128</code>，暂时别。</p>
-<h4 id="第一步：大簇"><a href="#第一步：大簇" class="headerlink" title="第一步：大簇"></a>第一步：大簇</h4><p>上次我们是画了线条，再用颜色填充内部。这次我们直接开始画颜色。大致的画上你想画的东西，重点在选择颜色和氛围。自由的下笔，不要加细节。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7lcj7dj30nj085t8h.jpg"></p>
-<p>这个技术的思路是从大的色块开始，每一步逐渐改小。这是少数可以用 <code>2</code> 或者 <code>3</code> 个像素宽度的画笔的情况。可以按 + 或者 - 来调节笔刷大小。另外一种方式是画出一个簇的轮廓，再用油漆桶填充颜色，快捷键是 G。</p>
-<h4 id="第二步：改良"><a href="#第二步：改良" class="headerlink" title="第二步：改良"></a>第二步：改良</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7ktfnnj30ms0f0web.jpg"></p>
-<p>你可以看出我是从远处开始，像天空和山，然后添加了建筑，再添加了人物剪影。这是一种常见的绘画技巧，对像素画也很适用。这个思路是先准备好基础，再往上面放东西，用这种方法比较容易选择颜色，以及确定物体尺寸。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7lvuf3j30es07dq2t.jpg"></p>
-<p>像这类图我喜欢用图层，把天空，建筑，地面放到不同的图层。要新建图层，可以在时间轴上，右键点击“layer 1”这里，选择新建图层（<code>New Layer</code>）。你可以建任意多的图层，不过我会保持图层尽可能的少，不然会很乱。</p>
-<h4 id="第三步：修正锯齿，添加细节"><a href="#第三步：修正锯齿，添加细节" class="headerlink" title="第三步：修正锯齿，添加细节"></a>第三步：修正锯齿，添加细节</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7m739fj30gi0eba9u.jpg"></p>
-<p>什么算锯齿？好吧，听起来可能很复杂，但其实没有。</p>
-<p>锯齿指的是像素画里不必要的拐角，通常是手自然运动绘画时，缺少抗锯齿的副作用。</p>
-<p>想象你需要修正的边界是个楼梯，每一阶上的像素数量要有逻辑。我们要计算像素数，保证曲线接近于水平时，像素数量是逐渐增加的，当曲线接近垂直时是逐渐减少的。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7jfk5oj308y07f0sh.jpg"></p>
-<p>分解一下，每一条线或者簇的边界都应该遵从一些逻辑。你能看到在我的例子里，一个完美曲线中的各阶的像素数递增再递减。这就是曲线的行为，通常会遵守一些几何比例，以指数递增或者递减。</p>
-<p>锯齿就是这个逻辑里的错误点。是曲线中间突然增加或者减少的地方。数量可以增加或者减少的很快，只要曲线符合逻辑。</p>
-<p>修复的时候，把像素来回移动，让各阶保持一致，或者正确的增加减少。</p>
-<p>现在回到我们的画。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7nr5gej30p609ddfo.jpg"></p>
-<p>这里的思路就是“最后加上些细节”（<a href="https://knowyourmeme.com/photos/572078-how-to-draw-an-owl%EF%BC%89%EF%BC%8C%E4%B8%BB%E8%A6%81%E6%98%AF%E6%89%BE%E5%88%B0%E9%94%AF%E9%BD%BF%EF%BC%8C%E4%B8%80%E4%B8%AA%E4%B8%AA%E7%9A%84%E4%BF%AE%E5%A4%8D%E3%80%82%E5%9C%A8%E8%BF%99%E4%B8%AA%E8%BF%87%E7%A8%8B%E4%B8%AD%E6%88%91%E4%BC%9A%E4%B8%8D%E6%96%AD%E6%B7%BB%E5%8A%A0%E7%BB%86%E8%8A%82%EF%BC%8C%E5%A2%9E%E5%BC%BA%E5%AF%B9%E6%AF%94%EF%BC%8C%E4%BC%98%E5%8C%96%E5%85%89%E7%85%A7%E7%AD%89%E7%AD%89%E3%80%82%E4%B8%8D%E6%98%AF%E5%BE%88%E6%9C%89%E7%BB%84%E7%BB%87%E7%9A%84%E6%B5%81%E7%A8%8B%EF%BC%8C%E4%BD%86%E8%BF%98%E6%98%AF%E8%83%BD%E5%B8%AE%E6%88%91%E7%94%BB%E5%87%BA%E4%B8%80%E5%B9%85%E7%94%BB%E3%80%82">https://knowyourmeme.com/photos/572078-how-to-draw-an-owl），主要是找到锯齿，一个个的修复。在这个过程中我会不断添加细节，增强对比，优化光照等等。不是很有组织的流程，但还是能帮我画出一幅画。</a></p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>练习！如果一整个场景对你来说有些难，就从简单点的开始，像是石头，树墩。这个技术能产出很有机，很油画感的作品，很适合画背景或自然事物，比如植物，水，山。</p>
-]]></content>
-      <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开始画像素画#1</title>
     <url>/archives/655d7201.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zfnfb9aj31hc0u00wn.jpg"></p>
@@ -6398,6 +6355,65 @@
 </ul>
 </li>
 </ul>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开始画像素画#2</title>
+    <url>/archives/90b77012.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zhhvzmzj31hc0u0434.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解像素绘画的流程，逐渐完善直到达到满意的效果。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7imh83j30u008c74z.jpg"></p>
+<p>相关链接：</p>
+<ul>
+<li>Pedro Medeiros@Patreon<br><a href="https://www.patreon.com/saint11">https://www.patreon.com/saint11</a></li>
+<li>风农@indienova<br><a href="https://indienova.com/u/fengnong">https://indienova.com/u/fengnong</a></li>
+<li>风农@bilibili 专栏<br><a href="https://www.bilibili.com/read/readlist/rl38114">https://www.bilibili.com/read/readlist/rl38114</a></li>
+</ul>
+<p>像素簇草图和绘画。</p>
+<p>系列的第二篇。</p>
+<p>这个教程会使用 Aseprite。这次我会教大家一个很像传统绘画流程的像素画技术。我一般叫它像素簇草图技术，因为我会从大的像素簇画起，再逐渐完善，直到达到我满意的效果。</p>
+<h3 id="什么是像素簇"><a href="#什么是像素簇" class="headerlink" title="什么是像素簇"></a>什么是像素簇</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7kk00zj30ln0axwec.jpg"></p>
+<p>一个簇，或者颜色簇，或者像素簇，就是一组连续的同色像素。对角线连接的像素算不算还有些争论。我认为也算，我把这种叫弱连接，会尽量避免，不过不会太担心这种。</p>
+<p>画像素画的时候，我的重点是尽量少出现像素簇，而且一定避免单像素的簇。这些单像素的也可以叫孤立像素，通常会让画面看起来有很多噪点，很乱。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7ix03cj30ra0e3q2q.jpg"></p>
+<p>有时候你需要把一个孤立像素删除，但有时候你可能还需要这个细节。对于后者，我有一些喜欢的形状可以代替这个孤立像素，就是饼干下面这些绿色形状。不过有些时候它也可以用，像是纹理，抗锯齿（以后的章节会讲），以及一些强细节，比如下面骷髅里的红色眼睛：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7jxpdvj307o07j0nc.jpg"></p>
+<h3 id="开始画"><a href="#开始画" class="headerlink" title="开始画"></a>开始画</h3><p>我们来画点什么。我要画一个小的场景，用 <code>DB32</code> 调色盘，分辨率用 <code>100</code> 乘以 <code>64</code> 像素。对这个练习我推荐用个手绘板，因为自然的线条对结果能有些帮助。</p>
+<p>如果你觉得这个场景有些复杂，可以自己去掉一些东西，比如建筑，或者人。实验新的技术时一定要画自己舒服的东西。如果觉得画布太大，或者太小，就自己改一下尺寸，不过我不建议小于 <code>64</code> 或者大于 <code>128</code>，暂时别。</p>
+<h4 id="第一步：大簇"><a href="#第一步：大簇" class="headerlink" title="第一步：大簇"></a>第一步：大簇</h4><p>上次我们是画了线条，再用颜色填充内部。这次我们直接开始画颜色。大致的画上你想画的东西，重点在选择颜色和氛围。自由的下笔，不要加细节。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7lcj7dj30nj085t8h.jpg"></p>
+<p>这个技术的思路是从大的色块开始，每一步逐渐改小。这是少数可以用 <code>2</code> 或者 <code>3</code> 个像素宽度的画笔的情况。可以按 + 或者 - 来调节笔刷大小。另外一种方式是画出一个簇的轮廓，再用油漆桶填充颜色，快捷键是 G。</p>
+<h4 id="第二步：改良"><a href="#第二步：改良" class="headerlink" title="第二步：改良"></a>第二步：改良</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7ktfnnj30ms0f0web.jpg"></p>
+<p>你可以看出我是从远处开始，像天空和山，然后添加了建筑，再添加了人物剪影。这是一种常见的绘画技巧，对像素画也很适用。这个思路是先准备好基础，再往上面放东西，用这种方法比较容易选择颜色，以及确定物体尺寸。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7lvuf3j30es07dq2t.jpg"></p>
+<p>像这类图我喜欢用图层，把天空，建筑，地面放到不同的图层。要新建图层，可以在时间轴上，右键点击“layer 1”这里，选择新建图层（<code>New Layer</code>）。你可以建任意多的图层，不过我会保持图层尽可能的少，不然会很乱。</p>
+<h4 id="第三步：修正锯齿，添加细节"><a href="#第三步：修正锯齿，添加细节" class="headerlink" title="第三步：修正锯齿，添加细节"></a>第三步：修正锯齿，添加细节</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7m739fj30gi0eba9u.jpg"></p>
+<p>什么算锯齿？好吧，听起来可能很复杂，但其实没有。</p>
+<p>锯齿指的是像素画里不必要的拐角，通常是手自然运动绘画时，缺少抗锯齿的副作用。</p>
+<p>想象你需要修正的边界是个楼梯，每一阶上的像素数量要有逻辑。我们要计算像素数，保证曲线接近于水平时，像素数量是逐渐增加的，当曲线接近垂直时是逐渐减少的。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7jfk5oj308y07f0sh.jpg"></p>
+<p>分解一下，每一条线或者簇的边界都应该遵从一些逻辑。你能看到在我的例子里，一个完美曲线中的各阶的像素数递增再递减。这就是曲线的行为，通常会遵守一些几何比例，以指数递增或者递减。</p>
+<p>锯齿就是这个逻辑里的错误点。是曲线中间突然增加或者减少的地方。数量可以增加或者减少的很快，只要曲线符合逻辑。</p>
+<p>修复的时候，把像素来回移动，让各阶保持一致，或者正确的增加减少。</p>
+<p>现在回到我们的画。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7nr5gej30p609ddfo.jpg"></p>
+<p>这里的思路就是“最后加上些细节”（<a href="https://knowyourmeme.com/photos/572078-how-to-draw-an-owl%EF%BC%89%EF%BC%8C%E4%B8%BB%E8%A6%81%E6%98%AF%E6%89%BE%E5%88%B0%E9%94%AF%E9%BD%BF%EF%BC%8C%E4%B8%80%E4%B8%AA%E4%B8%AA%E7%9A%84%E4%BF%AE%E5%A4%8D%E3%80%82%E5%9C%A8%E8%BF%99%E4%B8%AA%E8%BF%87%E7%A8%8B%E4%B8%AD%E6%88%91%E4%BC%9A%E4%B8%8D%E6%96%AD%E6%B7%BB%E5%8A%A0%E7%BB%86%E8%8A%82%EF%BC%8C%E5%A2%9E%E5%BC%BA%E5%AF%B9%E6%AF%94%EF%BC%8C%E4%BC%98%E5%8C%96%E5%85%89%E7%85%A7%E7%AD%89%E7%AD%89%E3%80%82%E4%B8%8D%E6%98%AF%E5%BE%88%E6%9C%89%E7%BB%84%E7%BB%87%E7%9A%84%E6%B5%81%E7%A8%8B%EF%BC%8C%E4%BD%86%E8%BF%98%E6%98%AF%E8%83%BD%E5%B8%AE%E6%88%91%E7%94%BB%E5%87%BA%E4%B8%80%E5%B9%85%E7%94%BB%E3%80%82">https://knowyourmeme.com/photos/572078-how-to-draw-an-owl），主要是找到锯齿，一个个的修复。在这个过程中我会不断添加细节，增强对比，优化光照等等。不是很有组织的流程，但还是能帮我画出一幅画。</a></p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>练习！如果一整个场景对你来说有些难，就从简单点的开始，像是石头，树墩。这个技术能产出很有机，很油画感的作品，很适合画背景或自然事物，比如植物，水，山。</p>
 ]]></content>
       <categories>
         <category>开始画像素画 (Making Pixel Art)</category>
@@ -6931,57 +6947,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#121;&#x6f;&#110;&#103;&#64;&#x74;&#115;&#x69;&#x6e;&#103;&#104;&#117;&#97;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#110;">&#120;&#121;&#x6f;&#110;&#103;&#64;&#x74;&#115;&#x69;&#x6e;&#103;&#104;&#117;&#97;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#121;&#x6f;&#x6e;&#103;&#x40;&#116;&#x73;&#x69;&#110;&#x67;&#x68;&#x75;&#97;&#x2e;&#x65;&#100;&#x75;&#x2e;&#99;&#x6e;">&#x78;&#121;&#x6f;&#x6e;&#103;&#x40;&#116;&#x73;&#x69;&#110;&#x67;&#x68;&#x75;&#97;&#x2e;&#x65;&#100;&#x75;&#x2e;&#99;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#x75;&#99;&#x68;&#x65;&#110;&#64;&#109;&#x61;&#105;&#x6c;&#x2e;&#116;&#115;&#105;&#x6e;&#103;&#104;&#x75;&#x61;&#x2e;&#101;&#100;&#x75;&#46;&#99;&#x6e;">&#x79;&#x75;&#99;&#x68;&#x65;&#110;&#64;&#109;&#x61;&#105;&#x6c;&#x2e;&#116;&#115;&#105;&#x6e;&#103;&#104;&#x75;&#x61;&#x2e;&#101;&#100;&#x75;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#x75;&#x63;&#x68;&#101;&#110;&#x40;&#x6d;&#x61;&#105;&#108;&#x2e;&#x74;&#x73;&#105;&#x6e;&#x67;&#x68;&#x75;&#x61;&#x2e;&#101;&#100;&#x75;&#x2e;&#x63;&#110;">&#x79;&#x75;&#x63;&#x68;&#101;&#110;&#x40;&#x6d;&#x61;&#105;&#108;&#x2e;&#x74;&#x73;&#105;&#x6e;&#x67;&#x68;&#x75;&#x61;&#x2e;&#101;&#100;&#x75;&#x2e;&#x63;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#x74;&#x65;&#x72;&#x6e;&#97;&#x6c;&#x2e;&#x6e;&#x30;&#x38;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x65;&#x74;&#x65;&#x72;&#x6e;&#97;&#x6c;&#x2e;&#x6e;&#x30;&#x38;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#101;&#116;&#x65;&#x72;&#110;&#97;&#108;&#46;&#110;&#x30;&#56;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#101;&#116;&#x65;&#x72;&#110;&#97;&#108;&#46;&#110;&#x30;&#56;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#98;&#x6a;&#101;&#x63;&#x74;&#107;&#x75;&#x61;&#x6e;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#111;&#98;&#x6a;&#101;&#x63;&#x74;&#107;&#x75;&#x61;&#x6e;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x6f;&#x62;&#106;&#101;&#x63;&#x74;&#107;&#117;&#97;&#x6e;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x6f;&#x62;&#106;&#101;&#x63;&#x74;&#107;&#117;&#97;&#x6e;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#x72;&#x64;&#102;&#114;&#x61;&#x6e;&#107;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#99;&#x72;&#x64;&#102;&#114;&#x61;&#x6e;&#107;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#99;&#114;&#x64;&#102;&#x72;&#97;&#x6e;&#107;&#64;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#99;&#114;&#x64;&#102;&#x72;&#97;&#x6e;&#107;&#64;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#x61;&#x63;&#x63;&#111;&#114;&#x61;&#119;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#116;&#x61;&#x63;&#x63;&#111;&#114;&#x61;&#119;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#116;&#x61;&#x63;&#99;&#x6f;&#114;&#97;&#x77;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#109;">&#116;&#x61;&#x63;&#99;&#x6f;&#114;&#97;&#x77;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#x69;&#110;&#x79;&#117;&#x6e;&#120;&#105;&#x6e;&#103;&#48;&#x30;&#48;&#49;&#x40;&#x31;&#x36;&#x33;&#46;&#x63;&#x6f;&#x6d;">&#120;&#x69;&#110;&#x79;&#117;&#x6e;&#120;&#105;&#x6e;&#103;&#48;&#x30;&#48;&#49;&#x40;&#x31;&#x36;&#x33;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#120;&#105;&#110;&#121;&#117;&#110;&#x78;&#105;&#110;&#x67;&#x30;&#x30;&#x30;&#x31;&#x40;&#x31;&#54;&#51;&#x2e;&#99;&#x6f;&#x6d;">&#120;&#105;&#110;&#121;&#117;&#110;&#x78;&#105;&#110;&#x67;&#x30;&#x30;&#x30;&#x31;&#x40;&#x31;&#54;&#51;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#110;&#x6f;&#99;&#117;&#x69;&#108;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;">&#103;&#110;&#x6f;&#99;&#117;&#x69;&#108;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#110;&#111;&#x63;&#117;&#105;&#x6c;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;">&#x67;&#110;&#111;&#x63;&#117;&#105;&#x6c;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#121;&#x61;&#x69;&#114;&#x69;&#97;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#109;">&#109;&#121;&#x61;&#x69;&#114;&#x69;&#97;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#109;&#x79;&#x61;&#105;&#114;&#105;&#x61;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#109;&#x79;&#x61;&#105;&#114;&#105;&#x61;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#x68;&#97;&#110;&#x67;&#114;&#97;&#105;&#x6e;&#x39;&#49;&#x31;&#x40;&#49;&#x36;&#x33;&#46;&#99;&#111;&#x6d;">&#x7a;&#x68;&#97;&#110;&#x67;&#114;&#97;&#105;&#x6e;&#x39;&#49;&#x31;&#x40;&#49;&#x36;&#x33;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#122;&#x68;&#97;&#x6e;&#103;&#114;&#x61;&#105;&#110;&#57;&#x31;&#x31;&#64;&#49;&#54;&#x33;&#x2e;&#99;&#x6f;&#x6d;">&#122;&#x68;&#97;&#x6e;&#103;&#114;&#x61;&#105;&#110;&#57;&#x31;&#x31;&#64;&#49;&#54;&#x33;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#x67;&#x78;&#x78;&#49;&#x32;&#48;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x67;&#x67;&#x78;&#x78;&#49;&#x32;&#48;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#103;&#x78;&#x78;&#49;&#x32;&#48;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x67;&#103;&#x78;&#x78;&#49;&#x32;&#48;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -7803,67 +7819,9 @@
         <category>计算机程序设计能力考试 (Programing Ability Test)</category>
       </categories>
       <tags>
-        <tag>C++</tag>
+        <tag>Cpp</tag>
         <tag>PAT</tag>
         <tag>Online Judge</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>像素宝典#2</title>
-    <url>/archives/c22ed0e6.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z43ozraj31hc0u0gvq.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解俯视跑步循环、闪电效果、故障效果和关卡设计流程。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth1mvn7j30u008c74z.jpg"></p>
-<h3 id="像素画基础-1"><a href="#像素画基础-1" class="headerlink" title="像素画基础 1"></a>像素画基础 1</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljtjoj81ag30e80e8e81.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljtjpfq75g30e80e8e81.gif"></p>
-<p>降噪是大家选出的主题！（在 patreon 上有投票）我在此基础上拓展了一下，结果就稍微复杂了些，而且加了其他方面的讲解，所以这节就叫像素画基础1了。</p>
-<p>还有些图里装不下的 tips：</p>
-<ul>
-<li>颜色总数不要过多。（保持 32 种以下）。</li>
-<li>大块的区域考虑用平直的颜色，让眼睛从细节区域出来后休息一下。</li>
-<li>如果你在尝试往很小的区域塞大量细节，考虑一下修改画面，改为更简洁的设计。</li>
-<li>别加入很多的圆柱或者圆形的东西，这些类型在像素画里很难描绘出来。立方体这种容易些。</li>
-<li>用轮廓表现出你想要的东西，内部区域细节少些。</li>
-</ul>
-<p>重申一下，我并不是说这些都是正确的做法，这只是我的做法。</p>
-<p>关于抖动：我不反对它，只是过多的抖动并不适合我的风格。我有时候也用，或者是调色盘颜色受限的时候。我算是个“抖动好奇者”，可能有一天我会发现一种我喜欢抖动。</p>
-<h3 id="俯视角跑步循环"><a href="#俯视角跑步循环" class="headerlink" title="俯视角跑步循环"></a>俯视角跑步循环</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth22dutg30e80e80xa.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth3spung30e80e8ael.gif"></p>
-<p>这不是俯视角跑步循环的唯一做法。我选这种是因为我通常这样画，而且这是我能想到最简单的方式。</p>
-<p>我一般重点关注 3 帧的跳跃帧和 2 帧的恢复帧，之后再用其他动画，像头发的运动，衣服等等来把这些都连起来。</p>
-<p>也可以只用一帧跳跃和一帧恢复做个超简洁动画，不过看起来不太顺滑。</p>
-<p>实话讲这个侧视角我自己也不太满意，我以后会再研究一下。</p>
-<p>感谢大家支持。</p>
-<h3 id="闪电"><a href="#闪电" class="headerlink" title="闪电"></a>闪电</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth31xq5g30e80e8tem.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth4c7j2g30e80e8ter.gif"></p>
-<p>我个人做闪电类的东西遵守的法则就是让所有东西都闪烁，非常闪。而且会做成 24 帧，看起来就比较顺滑。</p>
-<p>闪电是很快的，所以第一帧就应该是最大，然后逐渐消散。</p>
-<p>一开始我会把闪电画得很尖锐，然后消散过程中逐渐变柔和。尽管实际生活中闪电几乎没有这么尖锐的，但我发现在动画里这么画效果很好。</p>
-<p>画闪电类的东西我一般会加点烟雾，你可以参考之前的烟雾教程。</p>
-<h3 id="故障效果"><a href="#故障效果" class="headerlink" title="故障效果"></a>故障效果</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth2gk2ag30e80e8qeb.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth5ccmdg30e80e87fd.gif"></p>
-<p>我总会参考身边真实的故障效果。像商场里坏掉的显示器，商店的广告牌里的诡异故障效果，或者是我自己的显卡崩了的时候。</p>
-<p>我会去注意这个故障效果实际上是做了什么，是把所有东西都往左移？绿色显示不出来？还是所有东西都变成了乱七八糟的噪点？</p>
-<p>我会分析这些真实的故障效果，并把它们变得更好看，更酷。对我来说，目的就是达到它看起来不是真的，但又不会太假。</p>
-<h3 id="关卡设计流程"><a href="#关卡设计流程" class="headerlink" title="关卡设计流程"></a>关卡设计流程</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth3l2xag30e80e8tea.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth4yfjgg30e80e8grw.gif"></p>
-<p>关卡设计不是我的特长，而且这方面各人有不同的理解，所以这里的都是我设计关卡时候的想法，不是法则。</p>
-<p>对于我来说乐趣的核心就是学习。这也是为什么每次我在关卡里加了东西，都会问自己：“这里我是要教什么？”以及“我需要玩家做什么？”。</p>
-<p>另外一个重要的点就是节奏。我会在一些困难的区域之后，加上一些安全区域或者是强力道具，让玩家能缓口气，试试新东西。这就是曲线的凹点，这能让玩家感觉下一阶段变得更难，而不需要我们真的设计的特别难来打击玩家。</p>
-<p>非常感谢 Matt Thorson 对这一节内容的支持。</p>
-]]></content>
-      <categories>
-        <category>像素宝典 (Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
       </tags>
   </entry>
   <entry>
@@ -7918,6 +7876,64 @@
 <p>这种也完全 ok。这里只是我能想到的最简单的方式，来做出适合 platformer 类型的跑步动作。走/跑的动画很能体现角色的个性，所以会有无数种方式来做。</p>
 <p>我倾向于“跳起”帧的原因是它非常容易复制，往下拉一两个像素，再稍微动动手和腿，就能得到个“下落”帧。我觉得这种方法做快跑动画非常高效。</p>
 <p>另一个原因是，如果第一帧是个跳跃，就感觉角色瞬间扎进了动作里，让动画更有活力。</p>
+]]></content>
+      <categories>
+        <category>像素宝典 (Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>像素宝典#2</title>
+    <url>/archives/c22ed0e6.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z43ozraj31hc0u0gvq.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解俯视跑步循环、闪电效果、故障效果和关卡设计流程。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth1mvn7j30u008c74z.jpg"></p>
+<h3 id="像素画基础-1"><a href="#像素画基础-1" class="headerlink" title="像素画基础 1"></a>像素画基础 1</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljtjoj81ag30e80e8e81.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljtjpfq75g30e80e8e81.gif"></p>
+<p>降噪是大家选出的主题！（在 patreon 上有投票）我在此基础上拓展了一下，结果就稍微复杂了些，而且加了其他方面的讲解，所以这节就叫像素画基础1了。</p>
+<p>还有些图里装不下的 tips：</p>
+<ul>
+<li>颜色总数不要过多。（保持 32 种以下）。</li>
+<li>大块的区域考虑用平直的颜色，让眼睛从细节区域出来后休息一下。</li>
+<li>如果你在尝试往很小的区域塞大量细节，考虑一下修改画面，改为更简洁的设计。</li>
+<li>别加入很多的圆柱或者圆形的东西，这些类型在像素画里很难描绘出来。立方体这种容易些。</li>
+<li>用轮廓表现出你想要的东西，内部区域细节少些。</li>
+</ul>
+<p>重申一下，我并不是说这些都是正确的做法，这只是我的做法。</p>
+<p>关于抖动：我不反对它，只是过多的抖动并不适合我的风格。我有时候也用，或者是调色盘颜色受限的时候。我算是个“抖动好奇者”，可能有一天我会发现一种我喜欢抖动。</p>
+<h3 id="俯视角跑步循环"><a href="#俯视角跑步循环" class="headerlink" title="俯视角跑步循环"></a>俯视角跑步循环</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth22dutg30e80e80xa.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth3spung30e80e8ael.gif"></p>
+<p>这不是俯视角跑步循环的唯一做法。我选这种是因为我通常这样画，而且这是我能想到最简单的方式。</p>
+<p>我一般重点关注 3 帧的跳跃帧和 2 帧的恢复帧，之后再用其他动画，像头发的运动，衣服等等来把这些都连起来。</p>
+<p>也可以只用一帧跳跃和一帧恢复做个超简洁动画，不过看起来不太顺滑。</p>
+<p>实话讲这个侧视角我自己也不太满意，我以后会再研究一下。</p>
+<p>感谢大家支持。</p>
+<h3 id="闪电"><a href="#闪电" class="headerlink" title="闪电"></a>闪电</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth31xq5g30e80e8tem.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth4c7j2g30e80e8ter.gif"></p>
+<p>我个人做闪电类的东西遵守的法则就是让所有东西都闪烁，非常闪。而且会做成 24 帧，看起来就比较顺滑。</p>
+<p>闪电是很快的，所以第一帧就应该是最大，然后逐渐消散。</p>
+<p>一开始我会把闪电画得很尖锐，然后消散过程中逐渐变柔和。尽管实际生活中闪电几乎没有这么尖锐的，但我发现在动画里这么画效果很好。</p>
+<p>画闪电类的东西我一般会加点烟雾，你可以参考之前的烟雾教程。</p>
+<h3 id="故障效果"><a href="#故障效果" class="headerlink" title="故障效果"></a>故障效果</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth2gk2ag30e80e8qeb.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth5ccmdg30e80e87fd.gif"></p>
+<p>我总会参考身边真实的故障效果。像商场里坏掉的显示器，商店的广告牌里的诡异故障效果，或者是我自己的显卡崩了的时候。</p>
+<p>我会去注意这个故障效果实际上是做了什么，是把所有东西都往左移？绿色显示不出来？还是所有东西都变成了乱七八糟的噪点？</p>
+<p>我会分析这些真实的故障效果，并把它们变得更好看，更酷。对我来说，目的就是达到它看起来不是真的，但又不会太假。</p>
+<h3 id="关卡设计流程"><a href="#关卡设计流程" class="headerlink" title="关卡设计流程"></a>关卡设计流程</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth3l2xag30e80e8tea.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth4yfjgg30e80e8grw.gif"></p>
+<p>关卡设计不是我的特长，而且这方面各人有不同的理解，所以这里的都是我设计关卡时候的想法，不是法则。</p>
+<p>对于我来说乐趣的核心就是学习。这也是为什么每次我在关卡里加了东西，都会问自己：“这里我是要教什么？”以及“我需要玩家做什么？”。</p>
+<p>另外一个重要的点就是节奏。我会在一些困难的区域之后，加上一些安全区域或者是强力道具，让玩家能缓口气，试试新东西。这就是曲线的凹点，这能让玩家感觉下一阶段变得更难，而不需要我们真的设计的特别难来打击玩家。</p>
+<p>非常感谢 Matt Thorson 对这一节内容的支持。</p>
 ]]></content>
       <categories>
         <category>像素宝典 (Pixel Dictionary)</category>
@@ -8283,7 +8299,6 @@
       </categories>
       <tags>
         <tag>Reprint</tag>
-        <tag>Game Engine</tag>
         <tag>Lua</tag>
         <tag>Pico-8</tag>
       </tags>
@@ -8324,39 +8339,6 @@
       </categories>
       <tags>
         <tag>Reprint</tag>
-        <tag>Game Engine</tag>
-        <tag>Lua</tag>
-        <tag>Pico-8</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Pico-8 精彩代码--摇曳树木效果解析</title>
-    <url>/archives/31df4d37.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4octe663j30m80cidgj.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现摇曳的树木的效果。</p>
-<a id="more"></a>
-
-<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glr5clytb2j30ao0aqaae.jpg"></p>
-<h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p><strong>作者：</strong> Luca Harris @lucatron_<br><strong>来源：</strong>twitter</p>
-<p>整理了一下作者的代码，共计15行：</p>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> i=<span class="number">0</span>,<span class="number">11</span> <span class="keyword">do</span></span><br><span class="line"> pal(i,(&#123;<span class="number">135</span>,<span class="number">10</span>,<span class="number">9</span>,<span class="number">137</span>,<span class="number">8</span>,<span class="number">136</span>,<span class="number">2</span>,<span class="number">130</span>,<span class="number">128</span>&#125;)[i+<span class="number">1</span>],<span class="number">1</span>)endfunction _draw() srand(<span class="number">3</span>)</span><br><span class="line"> rectfill(<span class="number">0</span>,<span class="number">0</span>,<span class="number">127</span>,<span class="number">40</span>,<span class="number">0</span>)</span><br><span class="line"> <span class="keyword">for</span> y=<span class="number">52</span>,<span class="number">170</span>,<span class="number">2</span> <span class="keyword">do</span></span><br><span class="line">  k=y/<span class="number">19</span><span class="number">-2</span></span><br><span class="line">  x=y*<span class="number">44</span>%<span class="number">138</span><span class="number">-4</span></span><br><span class="line">  h=<span class="number">40</span>+rnd(<span class="number">20</span>)</span><br><span class="line">  <span class="keyword">for</span> i=<span class="number">-20</span>,<span class="number">20</span> <span class="keyword">do</span></span><br><span class="line">   line(x+i*h/<span class="number">70</span>,y,x+<span class="built_in">sin</span>(t()/<span class="number">4</span>+x/<span class="number">500</span>+y/<span class="number">300</span>)/<span class="number">7</span>*h,y-h,i&gt;<span class="number">0</span> <span class="keyword">and</span> k+<span class="number">2</span> <span class="keyword">or</span> k)</span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"> endend</span><br></pre></td></tr></table></figure>
-<p>1-3 行， 将调色板的颜色映射，这里用到了第二块调色板的颜色，更好的表示渐变。关于第二块调色板的内容，在解析 2 里有详细说明。</p>
-<p>5 行， 初始随机数种子，在计算树木高度的时候详细解释为什么每次绘制要初始随机数</p>
-<p>6 行， 画背景，我们用 <code>cls()</code> 代替手动绘制背景，可以更好的测试</p>
-<p>7 行， 循环得到 <code>y</code>，<code>y</code> 值是树的 <code>y</code> 轴位置，从 <code>52-170</code>，每两个树之间相差 <code>2</code></p>
-<p>8 行， <code>k</code> 用来将树按照 <code>y</code> 值的顺序，映射到调色板的色值，实现近景到远景的颜色渐变</p>
-<p>9 行， 计算树的 <code>x</code> 坐标，根据 <code>y</code> 轴坐标的倍数与 <code>138</code> 取余，就把树木限制在 <code>0-138</code> 的范围内一排排的码好。</p>
-<p>10 行， 计算树木的高度 <code>h</code>，这里每棵树的高度是随机的，但是每帧绘制的时候同一棵树的高度是不变的，也就是每一帧绘制的时候 <code>rnd(20)</code> 会得到同一个随机值，这就得益于在第 5 行，绘制开始的时候重新初始化随机数种子，使得每帧获得随机数是一致的。</p>
-<p>11-13 行，绘制一棵树。pico8 没有直接绘制三角形的函数，这里用 40 根线段拼成了一个三角形。我们先看下简化的代码，<code>line(x+i,y,x,y-h,i&gt;0 and k+2 or k)</code> 。<code>i</code> 值（<code>-20</code> -&gt; <code>20</code>）是三角形底边的 <code>x</code> 轴偏移量，从线段 起点 <code>(x-20,y)</code> 终点 <code>(x,y-h)</code> 到  起点 <code>(x+20,y)</code> 终点 <code>(x,y-h)</code> 共计画了40 根线段组成了三角形，三角形的底边宽 <code>40</code>。简化的效果图如下。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glr5clytb2j30ao0aqaae.jpg"></p>
-<p><code>line(x+i*h/70,y,x+sin(t()/4+x/500+y/300)/7*h,y-h,i&gt;0 and k+2 or k)</code> 原代码计算起点时将偏移量 <code>i</code> 乘以树木的高度 <code>h/70</code> 用来表示，矮的树木拥有更窄的底边。计算终点时，树尖的 <code>x</code> 坐标根据时间，取正弦值，用来模拟来回摆动的效果，且越矮的树木摆动幅度越低。最后根据偏移量 <code>i</code> 来觉得颜色，<code>i&lt;0</code> 为树木左半边，<code>i&gt;0</code> 为树木右半边。</p>
-]]></content>
-      <categories>
-        <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Game Engine</tag>
         <tag>Lua</tag>
         <tag>Pico-8</tag>
       </tags>
@@ -8396,7 +8378,37 @@
       </categories>
       <tags>
         <tag>Reprint</tag>
-        <tag>Game Engine</tag>
+        <tag>Lua</tag>
+        <tag>Pico-8</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Pico-8 精彩代码--摇曳树木效果解析</title>
+    <url>/archives/31df4d37.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4octe663j30m80cidgj.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现摇曳的树木的效果。</p>
+<a id="more"></a>
+
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glr5clytb2j30ao0aqaae.jpg"></p>
+<h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p><strong>作者：</strong> Luca Harris @lucatron_<br><strong>来源：</strong>twitter</p>
+<p>整理了一下作者的代码，共计15行：</p>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> i=<span class="number">0</span>,<span class="number">11</span> <span class="keyword">do</span></span><br><span class="line"> pal(i,(&#123;<span class="number">135</span>,<span class="number">10</span>,<span class="number">9</span>,<span class="number">137</span>,<span class="number">8</span>,<span class="number">136</span>,<span class="number">2</span>,<span class="number">130</span>,<span class="number">128</span>&#125;)[i+<span class="number">1</span>],<span class="number">1</span>)endfunction _draw() srand(<span class="number">3</span>)</span><br><span class="line"> rectfill(<span class="number">0</span>,<span class="number">0</span>,<span class="number">127</span>,<span class="number">40</span>,<span class="number">0</span>)</span><br><span class="line"> <span class="keyword">for</span> y=<span class="number">52</span>,<span class="number">170</span>,<span class="number">2</span> <span class="keyword">do</span></span><br><span class="line">  k=y/<span class="number">19</span><span class="number">-2</span></span><br><span class="line">  x=y*<span class="number">44</span>%<span class="number">138</span><span class="number">-4</span></span><br><span class="line">  h=<span class="number">40</span>+rnd(<span class="number">20</span>)</span><br><span class="line">  <span class="keyword">for</span> i=<span class="number">-20</span>,<span class="number">20</span> <span class="keyword">do</span></span><br><span class="line">   line(x+i*h/<span class="number">70</span>,y,x+<span class="built_in">sin</span>(t()/<span class="number">4</span>+x/<span class="number">500</span>+y/<span class="number">300</span>)/<span class="number">7</span>*h,y-h,i&gt;<span class="number">0</span> <span class="keyword">and</span> k+<span class="number">2</span> <span class="keyword">or</span> k)</span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"> endend</span><br></pre></td></tr></table></figure>
+<p>1-3 行， 将调色板的颜色映射，这里用到了第二块调色板的颜色，更好的表示渐变。关于第二块调色板的内容，在解析 2 里有详细说明。</p>
+<p>5 行， 初始随机数种子，在计算树木高度的时候详细解释为什么每次绘制要初始随机数</p>
+<p>6 行， 画背景，我们用 <code>cls()</code> 代替手动绘制背景，可以更好的测试</p>
+<p>7 行， 循环得到 <code>y</code>，<code>y</code> 值是树的 <code>y</code> 轴位置，从 <code>52-170</code>，每两个树之间相差 <code>2</code></p>
+<p>8 行， <code>k</code> 用来将树按照 <code>y</code> 值的顺序，映射到调色板的色值，实现近景到远景的颜色渐变</p>
+<p>9 行， 计算树的 <code>x</code> 坐标，根据 <code>y</code> 轴坐标的倍数与 <code>138</code> 取余，就把树木限制在 <code>0-138</code> 的范围内一排排的码好。</p>
+<p>10 行， 计算树木的高度 <code>h</code>，这里每棵树的高度是随机的，但是每帧绘制的时候同一棵树的高度是不变的，也就是每一帧绘制的时候 <code>rnd(20)</code> 会得到同一个随机值，这就得益于在第 5 行，绘制开始的时候重新初始化随机数种子，使得每帧获得随机数是一致的。</p>
+<p>11-13 行，绘制一棵树。pico8 没有直接绘制三角形的函数，这里用 40 根线段拼成了一个三角形。我们先看下简化的代码，<code>line(x+i,y,x,y-h,i&gt;0 and k+2 or k)</code> 。<code>i</code> 值（<code>-20</code> -&gt; <code>20</code>）是三角形底边的 <code>x</code> 轴偏移量，从线段 起点 <code>(x-20,y)</code> 终点 <code>(x,y-h)</code> 到  起点 <code>(x+20,y)</code> 终点 <code>(x,y-h)</code> 共计画了40 根线段组成了三角形，三角形的底边宽 <code>40</code>。简化的效果图如下。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glr5clytb2j30ao0aqaae.jpg"></p>
+<p><code>line(x+i*h/70,y,x+sin(t()/4+x/500+y/300)/7*h,y-h,i&gt;0 and k+2 or k)</code> 原代码计算起点时将偏移量 <code>i</code> 乘以树木的高度 <code>h/70</code> 用来表示，矮的树木拥有更窄的底边。计算终点时，树尖的 <code>x</code> 坐标根据时间，取正弦值，用来模拟来回摆动的效果，且越矮的树木摆动幅度越低。最后根据偏移量 <code>i</code> 来觉得颜色，<code>i&lt;0</code> 为树木左半边，<code>i&gt;0</code> 为树木右半边。</p>
+]]></content>
+      <categories>
+        <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
         <tag>Lua</tag>
         <tag>Pico-8</tag>
       </tags>
@@ -8640,9 +8652,8 @@
         <category>Unity 游戏引擎 (Unity Game Engine)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Game</tag>
-        <tag>Game Engine</tag>
+        <tag>Reprint</tag>
         <tag>Unity</tag>
       </tags>
   </entry>
@@ -9533,7 +9544,7 @@
     <title>绪论</title>
     <url>/archives/43830010.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn8znqrfhdg30xc0erqv6.gif"></p>
-<p>本课程旨在围绕各类数据结构的设计与实现，揭示其中的规律原理与方法技巧；同时针对算法设计及其性能分析，使学生了解并掌握主要的套路与手段。本文将讲解数据结构入门的一些基本概念。</p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本课程旨在围绕各类数据结构的设计与实现，揭示其中的规律原理与方法技巧；同时针对算法设计及其性能分析，使学生了解并掌握主要的套路与手段。本文将讲解数据结构入门的一些基本概念。</p>
 <a id="more"></a>
 
 
@@ -10909,7 +10920,7 @@
         <category>LeetCode题解 (LeetCode Solution)</category>
       </categories>
       <tags>
-        <tag>C++</tag>
+        <tag>Cpp</tag>
         <tag>Algorithm</tag>
         <tag>LeetCode</tag>
       </tags>
@@ -11872,9 +11883,8 @@
         <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Game</tag>
-        <tag>Game Engine</tag>
+        <tag>Reprint</tag>
         <tag>Pico-8</tag>
       </tags>
   </entry>
@@ -12368,6 +12378,7 @@
       <tags>
         <tag>Game Develop</tag>
         <tag>Unity</tag>
+        <tag>Csharp</tag>
         <tag>2D Game</tag>
       </tags>
   </entry>
@@ -13577,8 +13588,8 @@
         <category>游戏史学家 (Gaming Historian)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Game</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -14055,7 +14066,7 @@
       </categories>
       <tags>
         <tag>Unity</tag>
-        <tag>C#</tag>
+        <tag>Csharp</tag>
       </tags>
   </entry>
   <entry>
@@ -14402,7 +14413,7 @@
       </categories>
       <tags>
         <tag>Unity</tag>
-        <tag>C#</tag>
+        <tag>Csharp</tag>
       </tags>
   </entry>
   <entry>
@@ -15862,7 +15873,7 @@
         <category>会津大学在线测评 (Aizu Online Judge)</category>
       </categories>
       <tags>
-        <tag>C++</tag>
+        <tag>Cpp</tag>
         <tag>Online Judge</tag>
         <tag>Algorithm</tag>
         <tag>AOJ</tag>
