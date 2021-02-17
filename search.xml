@@ -1863,7 +1863,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#101;&#110;&#120;&#117;&#x40;&#116;&#101;&#110;&#99;&#101;&#x6e;&#116;&#x2e;&#99;&#x6f;&#109;">&#x6c;&#101;&#101;&#110;&#120;&#117;&#x40;&#116;&#101;&#110;&#99;&#101;&#x6e;&#116;&#x2e;&#99;&#x6f;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#101;&#101;&#x6e;&#120;&#x75;&#x40;&#x74;&#101;&#110;&#x63;&#x65;&#x6e;&#116;&#46;&#99;&#x6f;&#109;">&#108;&#101;&#101;&#x6e;&#120;&#x75;&#x40;&#x74;&#101;&#110;&#x63;&#x65;&#x6e;&#116;&#46;&#99;&#x6f;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -3638,6 +3638,152 @@
       </tags>
   </entry>
   <entry>
+    <title>浅谈格斗游戏</title>
+    <url>/archives/33a24266.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/15959466966371.5b292fe8c6cab.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/66966371/PromaxGames-Sponsor-Titles">PromaxGames Sponsor Titles</a> by 
+      <a href="https://www.behance.net/BlakeFawley">Blake Fawley</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><a id="more"></a>
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>叶华夏</strong></p>
+<ul>
+<li><strong>格斗游戏玩家</strong></li>
+<li><strong>主持人、解说、教师</strong></li>
+<li><strong>游戏测评师</strong></li>
+</ul>
+<h3 id="格斗游戏的定义与术语"><a href="#格斗游戏的定义与术语" class="headerlink" title="格斗游戏的定义与术语"></a>格斗游戏的定义与术语</h3><ul>
+<li>格斗游戏<ul>
+<li>Fight Technology Game(FTG) +动作游戏的一种</li>
+<li>格斗游戏在动作游戏的基础上，会被强烈要求更<em>精妙的任务判定</em>与<em>招式设定</em>（精确到帧），以达到公平竞争的目的</li>
+<li>动作游戏与格斗游戏关键性区别在于<em>操作</em>与<em>战斗策略</em></li>
+</ul>
+</li>
+<li>2D格斗游戏与3D格斗游戏<ul>
+<li>在格斗游戏中，2D与3D通常指游戏中角色的移动空间</li>
+<li>2D格斗只能前后上下移动</li>
+<li>3D格斗可以360度横移</li>
+<li>从感官来看，即使是3D人物建模的格斗游戏也可能是2D格斗</li>
+</ul>
+</li>
+<li>输入设备<ul>
+<li>摇杆</li>
+<li>手柄</li>
+</ul>
+</li>
+<li>格斗术语<ul>
+<li>立回<ul>
+<li>对战双方在攻击对方成功或者防御对方进攻之前所做的一切动作</li>
+</ul>
+</li>
+<li>确反<ul>
+<li>利用对方攻击之后无法行动的硬直来进行反击的行动</li>
+</ul>
+</li>
+<li>取消<ul>
+<li>重要连续技构成方式之一</li>
+</ul>
+</li>
+<li>确认<ul>
+<li>确认对手及我方的状态</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="知名格斗游戏"><a href="#知名格斗游戏" class="headerlink" title="知名格斗游戏"></a>知名格斗游戏</h3><ul>
+<li>SNK<ul>
+<li>拳皇系列</li>
+<li>侍魂系列</li>
+<li>饿狼传说系列</li>
+</ul>
+</li>
+<li>BANDAI NAMCO<ul>
+<li>铁拳系列</li>
+<li>刀魂系列</li>
+</ul>
+</li>
+<li>ARC SYSTEM WORKS<ul>
+<li>罪恶装备系列</li>
+<li>苍翼启示录系列</li>
+</ul>
+</li>
+<li>SEGA<ul>
+<li>VR战士系列</li>
+</ul>
+</li>
+<li>CAPCOM<ul>
+<li>街头霸王系列</li>
+<li>恶魔战士系列</li>
+</ul>
+</li>
+</ul>
+<h3 id="格斗游戏的发展与演变"><a href="#格斗游戏的发展与演变" class="headerlink" title="格斗游戏的发展与演变"></a>格斗游戏的发展与演变</h3><ul>
+<li><strong>《功夫》</strong><ul>
+<li>1985</li>
+<li>对格斗游戏的发展具有开创先河的意义</li>
+<li>其许多设定延续到后来，成为很多格斗游戏的标准规范</li>
+</ul>
+</li>
+<li><strong>《街头霸王》</strong><ul>
+<li>1987</li>
+<li>格斗游戏的开拓者</li>
+</ul>
+</li>
+<li><strong>《街头霸王2》</strong><ul>
+<li>1991</li>
+<li>格斗游戏的定义者</li>
+</ul>
+</li>
+<li><strong>《街头霸王3》</strong><ul>
+<li>1997</li>
+<li>格斗游戏的金字塔顶</li>
+</ul>
+</li>
+<li><strong>《街头霸王4》</strong><ul>
+<li>2008</li>
+</ul>
+</li>
+<li><strong>《街头霸王5》</strong><ul>
+<li>2016</li>
+</ul>
+</li>
+</ul>
+<h3 id="如何测评格斗游戏"><a href="#如何测评格斗游戏" class="headerlink" title="如何测评格斗游戏"></a>如何测评格斗游戏</h3><ul>
+<li>测评格斗游戏重点-平衡性（格斗游戏三要素）<ul>
+<li>动作设计 - 20%</li>
+<li>判定框 - 50%</li>
+<li>帧数表 - 30%</li>
+</ul>
+</li>
+<li>格斗游戏测评重点<ul>
+<li>角色动作设计是否丰富，决定了一款格斗游戏的肉体</li>
+<li>判定框设计是否精准，决定了一款格斗游戏的内在</li>
+<li>帧数表设计是否饱满，决定了一款格斗游戏的灵魂</li>
+</ul>
+</li>
+</ul>
+<h3 id="8-5-格斗游戏的魅力"><a href="#8-5-格斗游戏的魅力" class="headerlink" title="8.5 格斗游戏的魅力"></a>8.5 格斗游戏的魅力</h3><blockquote>
+<p><em>“ Fight Games is……something so GREAT! “</em></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开放世界与沙盒游戏</title>
     <url>/archives/fe33f579.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/EuAHLCCVEAQwBlM.jpeg"></p>
@@ -4082,152 +4228,6 @@
         <tag>Game Develop</tag>
         <tag>SEGA</tag>
         <tag>Cpp</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>浅谈格斗游戏</title>
-    <url>/archives/33a24266.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/15959466966371.5b292fe8c6cab.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/66966371/PromaxGames-Sponsor-Titles">PromaxGames Sponsor Titles</a> by 
-      <a href="https://www.behance.net/BlakeFawley">Blake Fawley</a>
-    </i>
-  </font>
-</div>
-
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><a id="more"></a>
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>叶华夏</strong></p>
-<ul>
-<li><strong>格斗游戏玩家</strong></li>
-<li><strong>主持人、解说、教师</strong></li>
-<li><strong>游戏测评师</strong></li>
-</ul>
-<h3 id="格斗游戏的定义与术语"><a href="#格斗游戏的定义与术语" class="headerlink" title="格斗游戏的定义与术语"></a>格斗游戏的定义与术语</h3><ul>
-<li>格斗游戏<ul>
-<li>Fight Technology Game(FTG) +动作游戏的一种</li>
-<li>格斗游戏在动作游戏的基础上，会被强烈要求更<em>精妙的任务判定</em>与<em>招式设定</em>（精确到帧），以达到公平竞争的目的</li>
-<li>动作游戏与格斗游戏关键性区别在于<em>操作</em>与<em>战斗策略</em></li>
-</ul>
-</li>
-<li>2D格斗游戏与3D格斗游戏<ul>
-<li>在格斗游戏中，2D与3D通常指游戏中角色的移动空间</li>
-<li>2D格斗只能前后上下移动</li>
-<li>3D格斗可以360度横移</li>
-<li>从感官来看，即使是3D人物建模的格斗游戏也可能是2D格斗</li>
-</ul>
-</li>
-<li>输入设备<ul>
-<li>摇杆</li>
-<li>手柄</li>
-</ul>
-</li>
-<li>格斗术语<ul>
-<li>立回<ul>
-<li>对战双方在攻击对方成功或者防御对方进攻之前所做的一切动作</li>
-</ul>
-</li>
-<li>确反<ul>
-<li>利用对方攻击之后无法行动的硬直来进行反击的行动</li>
-</ul>
-</li>
-<li>取消<ul>
-<li>重要连续技构成方式之一</li>
-</ul>
-</li>
-<li>确认<ul>
-<li>确认对手及我方的状态</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="知名格斗游戏"><a href="#知名格斗游戏" class="headerlink" title="知名格斗游戏"></a>知名格斗游戏</h3><ul>
-<li>SNK<ul>
-<li>拳皇系列</li>
-<li>侍魂系列</li>
-<li>饿狼传说系列</li>
-</ul>
-</li>
-<li>BANDAI NAMCO<ul>
-<li>铁拳系列</li>
-<li>刀魂系列</li>
-</ul>
-</li>
-<li>ARC SYSTEM WORKS<ul>
-<li>罪恶装备系列</li>
-<li>苍翼启示录系列</li>
-</ul>
-</li>
-<li>SEGA<ul>
-<li>VR战士系列</li>
-</ul>
-</li>
-<li>CAPCOM<ul>
-<li>街头霸王系列</li>
-<li>恶魔战士系列</li>
-</ul>
-</li>
-</ul>
-<h3 id="格斗游戏的发展与演变"><a href="#格斗游戏的发展与演变" class="headerlink" title="格斗游戏的发展与演变"></a>格斗游戏的发展与演变</h3><ul>
-<li><strong>《功夫》</strong><ul>
-<li>1985</li>
-<li>对格斗游戏的发展具有开创先河的意义</li>
-<li>其许多设定延续到后来，成为很多格斗游戏的标准规范</li>
-</ul>
-</li>
-<li><strong>《街头霸王》</strong><ul>
-<li>1987</li>
-<li>格斗游戏的开拓者</li>
-</ul>
-</li>
-<li><strong>《街头霸王2》</strong><ul>
-<li>1991</li>
-<li>格斗游戏的定义者</li>
-</ul>
-</li>
-<li><strong>《街头霸王3》</strong><ul>
-<li>1997</li>
-<li>格斗游戏的金字塔顶</li>
-</ul>
-</li>
-<li><strong>《街头霸王4》</strong><ul>
-<li>2008</li>
-</ul>
-</li>
-<li><strong>《街头霸王5》</strong><ul>
-<li>2016</li>
-</ul>
-</li>
-</ul>
-<h3 id="如何测评格斗游戏"><a href="#如何测评格斗游戏" class="headerlink" title="如何测评格斗游戏"></a>如何测评格斗游戏</h3><ul>
-<li>测评格斗游戏重点-平衡性（格斗游戏三要素）<ul>
-<li>动作设计 - 20%</li>
-<li>判定框 - 50%</li>
-<li>帧数表 - 30%</li>
-</ul>
-</li>
-<li>格斗游戏测评重点<ul>
-<li>角色动作设计是否丰富，决定了一款格斗游戏的肉体</li>
-<li>判定框设计是否精准，决定了一款格斗游戏的内在</li>
-<li>帧数表设计是否饱满，决定了一款格斗游戏的灵魂</li>
-</ul>
-</li>
-</ul>
-<h3 id="8-5-格斗游戏的魅力"><a href="#8-5-格斗游戏的魅力" class="headerlink" title="8.5 格斗游戏的魅力"></a>8.5 格斗游戏的魅力</h3><blockquote>
-<p><em>“ Fight Games is……something so GREAT! “</em></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
       </tags>
   </entry>
   <entry>
@@ -6939,57 +6939,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#x79;&#111;&#110;&#103;&#64;&#116;&#115;&#x69;&#110;&#103;&#104;&#117;&#97;&#x2e;&#101;&#x64;&#x75;&#46;&#x63;&#110;">&#120;&#x79;&#111;&#110;&#103;&#64;&#116;&#115;&#x69;&#110;&#103;&#104;&#117;&#97;&#x2e;&#101;&#x64;&#x75;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#x79;&#111;&#x6e;&#103;&#64;&#x74;&#115;&#105;&#x6e;&#103;&#x68;&#117;&#97;&#46;&#x65;&#100;&#117;&#46;&#x63;&#110;">&#120;&#x79;&#111;&#x6e;&#103;&#64;&#x74;&#115;&#105;&#x6e;&#103;&#x68;&#117;&#97;&#46;&#x65;&#100;&#117;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#x75;&#99;&#x68;&#101;&#x6e;&#64;&#109;&#97;&#105;&#108;&#x2e;&#x74;&#x73;&#105;&#110;&#103;&#104;&#117;&#x61;&#46;&#101;&#x64;&#x75;&#46;&#99;&#x6e;">&#x79;&#x75;&#99;&#x68;&#101;&#x6e;&#64;&#109;&#97;&#105;&#108;&#x2e;&#x74;&#x73;&#105;&#110;&#103;&#104;&#117;&#x61;&#46;&#101;&#x64;&#x75;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#117;&#99;&#x68;&#x65;&#x6e;&#x40;&#x6d;&#x61;&#105;&#108;&#x2e;&#x74;&#115;&#105;&#x6e;&#x67;&#104;&#117;&#97;&#x2e;&#101;&#100;&#x75;&#46;&#x63;&#x6e;">&#x79;&#117;&#99;&#x68;&#x65;&#x6e;&#x40;&#x6d;&#x61;&#105;&#108;&#x2e;&#x74;&#115;&#105;&#x6e;&#x67;&#104;&#117;&#97;&#x2e;&#101;&#100;&#x75;&#46;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#x74;&#x65;&#114;&#110;&#x61;&#108;&#46;&#110;&#x30;&#56;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;">&#101;&#x74;&#x65;&#114;&#110;&#x61;&#108;&#46;&#110;&#x30;&#56;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#116;&#101;&#114;&#110;&#x61;&#108;&#x2e;&#x6e;&#48;&#x38;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#101;&#116;&#101;&#114;&#110;&#x61;&#108;&#x2e;&#x6e;&#48;&#x38;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#98;&#x6a;&#101;&#99;&#116;&#x6b;&#117;&#97;&#110;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#111;&#98;&#x6a;&#101;&#99;&#116;&#x6b;&#117;&#97;&#110;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#111;&#x62;&#106;&#101;&#x63;&#116;&#107;&#117;&#x61;&#x6e;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;">&#111;&#x62;&#106;&#101;&#x63;&#116;&#107;&#117;&#x61;&#x6e;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#114;&#x64;&#102;&#x72;&#x61;&#x6e;&#107;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#99;&#114;&#x64;&#102;&#x72;&#x61;&#x6e;&#107;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#99;&#114;&#100;&#102;&#x72;&#97;&#110;&#107;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;">&#99;&#114;&#100;&#102;&#x72;&#97;&#110;&#107;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#x61;&#99;&#x63;&#x6f;&#114;&#97;&#x77;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#116;&#x61;&#99;&#x63;&#x6f;&#114;&#97;&#x77;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#116;&#97;&#x63;&#x63;&#111;&#x72;&#97;&#119;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#116;&#97;&#x63;&#x63;&#111;&#x72;&#97;&#119;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#105;&#x6e;&#121;&#x75;&#110;&#x78;&#105;&#x6e;&#x67;&#x30;&#48;&#48;&#49;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#109;">&#120;&#105;&#x6e;&#121;&#x75;&#110;&#x78;&#105;&#x6e;&#x67;&#x30;&#48;&#48;&#49;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#120;&#105;&#110;&#121;&#x75;&#x6e;&#x78;&#x69;&#110;&#103;&#x30;&#x30;&#x30;&#49;&#64;&#49;&#54;&#x33;&#46;&#99;&#111;&#x6d;">&#120;&#105;&#110;&#121;&#x75;&#x6e;&#x78;&#x69;&#110;&#103;&#x30;&#x30;&#x30;&#49;&#64;&#49;&#54;&#x33;&#46;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#x6e;&#111;&#x63;&#117;&#x69;&#108;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;">&#x67;&#x6e;&#111;&#x63;&#117;&#x69;&#108;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#103;&#x6e;&#111;&#99;&#x75;&#x69;&#x6c;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">&#103;&#x6e;&#111;&#99;&#x75;&#x69;&#x6c;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#x79;&#x61;&#105;&#x72;&#x69;&#x61;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;">&#109;&#x79;&#x61;&#105;&#x72;&#x69;&#x61;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#109;&#121;&#x61;&#105;&#x72;&#x69;&#x61;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#109;&#121;&#x61;&#105;&#x72;&#x69;&#x61;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#x68;&#97;&#x6e;&#x67;&#x72;&#97;&#x69;&#110;&#x39;&#49;&#49;&#x40;&#49;&#54;&#51;&#46;&#99;&#111;&#x6d;">&#x7a;&#x68;&#97;&#x6e;&#x67;&#x72;&#97;&#x69;&#110;&#x39;&#49;&#49;&#x40;&#49;&#54;&#51;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#104;&#97;&#x6e;&#103;&#114;&#x61;&#x69;&#110;&#x39;&#49;&#49;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#109;">&#x7a;&#104;&#97;&#x6e;&#103;&#114;&#x61;&#x69;&#110;&#x39;&#49;&#49;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#103;&#x78;&#120;&#49;&#x32;&#48;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#103;&#103;&#x78;&#120;&#49;&#x32;&#48;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x67;&#x78;&#x78;&#x31;&#50;&#x30;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#x67;&#x67;&#x78;&#x78;&#x31;&#50;&#x30;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
