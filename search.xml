@@ -60,6 +60,17 @@
     <title>Hero-NexT写作技巧</title>
     <url>/archives/309a2d82.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/54f27e7fbe3b520.png"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.pixilart.com/art/desktop-54f27e7fbe3b520?ft=featured&ft_id=">Desktop</a> by 
+      <a href="https://www.pixilart.com/charly-fox">Charly-Fox</a>
+    </i>
+  </font>
+</div>
+
+
+
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文介绍了 Hexo-NexT 中常用的内置标签，包括 note 标签、label 标签、button 标签、tab 标签以及代码块的高级用法，通过使用写作标签可以快速编写样式丰富的文档片段。</p>
 <a id="more"></a>
 
@@ -75,7 +86,7 @@
 <h3 id="文本居中标签"><a href="#文本居中标签" class="headerlink" title="文本居中标签"></a>文本居中标签</h3><p>参考 <a href="https://theme-next.iissnan.com/tag-plugins.html">内置标签 文本居中的引用</a></p>
 <p>文本居中标签有以下三种写法：</p>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&lt;!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --&gt;</span><br><span class="line">&lt;!-- 其中 class=&quot;blockquote-center&quot; 是必须的 --&gt;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">class</span>=<span class="string">&quot;blockquote-center&quot;</span>&gt;</span></span>文本居中<span class="xml"><span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line">&lt;!-- 标签方式 --&gt;</span><br><span class="line">&#123;% centerquote %&#125;文本居中&#123;% endcenterquote %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- 标签别名 --&gt;</span><br><span class="line">&#123;% cq %&#125;文本居中&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h4><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">class</span>=<span class="string">&quot;blockquote-center&quot;</span>&gt;</span></span>文本居中<span class="xml"><span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<h4 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h4><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;文本居中&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
 <h4 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h4><blockquote class="blockquote-center">
             <i class="fa fa-quote-left"></i>
             <p>文本居中</p>
@@ -88,7 +99,7 @@
 
 
 <h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><p>书写方式：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">// <span class="code">``` [language] [title] [url] [link text]</span></span><br><span class="line"><span class="code">// code snippet</span></span><br><span class="line"><span class="code">// ```</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">​<span class="code">``` [language] [title] [url] [link text]</span></span><br><span class="line"><span class="code"> code snippet</span></span><br><span class="line"><span class="code">​```</span></span><br></pre></td></tr></table></figure>
 <p>其中，各参数意义如下：</p>
 <ul>
 <li>langugae：语言名称，引导渲染引擎正确解析并高亮显示关键字</li>
