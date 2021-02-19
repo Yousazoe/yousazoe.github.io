@@ -57,6 +57,492 @@
       </tags>
   </entry>
   <entry>
+    <title>Hero-NexT写作技巧</title>
+    <url>/archives/309a2d82.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/54f27e7fbe3b520.png"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文介绍了 Hexo-NexT 中常用的内置标签，包括 note 标签、label 标签、button 标签、tab 标签以及代码块的高级用法，通过使用写作标签可以快速编写样式丰富的文档片段。</p>
+<a id="more"></a>
+
+
+
+<h3 id="常用技巧"><a href="#常用技巧" class="headerlink" title="常用技巧"></a>常用技巧</h3><ul>
+<li>阅读更多： <code>&lt;!-- more--&gt;</code></li>
+<li>空格： 1 个空格字符 <code> </code>  1 个中文宽度 <code> </code></li>
+<li>换 行： <code>&lt;/br&gt;</code></li>
+<li>插入图片： <code>&lt;img src=&quot; &quot; width=&quot;600&quot; hegiht=&quot;400&quot; &gt;</code></li>
+<li>居中： <code>&lt;center&gt; &lt;/center&gt;</code></li>
+</ul>
+<h3 id="文本居中标签"><a href="#文本居中标签" class="headerlink" title="文本居中标签"></a>文本居中标签</h3><p>参考 <a href="https://theme-next.iissnan.com/tag-plugins.html">内置标签 文本居中的引用</a></p>
+<p>文本居中标签有以下三种写法：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&lt;!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --&gt;</span><br><span class="line">&lt;!-- 其中 class=&quot;blockquote-center&quot; 是必须的 --&gt;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">class</span>=<span class="string">&quot;blockquote-center&quot;</span>&gt;</span></span>文本居中<span class="xml"><span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line">&lt;!-- 标签方式 --&gt;</span><br><span class="line">&#123;% centerquote %&#125;文本居中&#123;% endcenterquote %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- 标签别名 --&gt;</span><br><span class="line">&#123;% cq %&#125;文本居中&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h4><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">class</span>=<span class="string">&quot;blockquote-center&quot;</span>&gt;</span></span>文本居中<span class="xml"><span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<h4 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h4><blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>文本居中</p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+
+
+
+
+
+<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><p>书写方式：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">// <span class="code">``` [language] [title] [url] [link text]</span></span><br><span class="line"><span class="code">// code snippet</span></span><br><span class="line"><span class="code">// ```</span></span><br></pre></td></tr></table></figure>
+<p>其中，各参数意义如下：</p>
+<ul>
+<li>langugae：语言名称，引导渲染引擎正确解析并高亮显示关键字</li>
+<li>title：代码块标题，将会显示在左上角</li>
+<li>url：链接地址，如果没有指定 link text 则会在右上角显示 link</li>
+<li>link text：链接名称，指定 url 后有效，将会显示在右上角</li>
+</ul>
+<p>如果不想填写 title，可以在 language 和 url 之间添加至少三个空格。</p>
+<h3 id="note-标签"><a href="#note-标签" class="headerlink" title="note 标签"></a>note 标签</h3><h4 id="修改主题配置文件"><a href="#修改主题配置文件" class="headerlink" title="修改主题配置文件"></a>修改主题配置文件</h4><p>打开主题配置文件 <code>config.yml</code>, 修改 note 标签 ：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># note 标签</span></span><br><span class="line"><span class="comment"># Note tag (bs-callout)</span></span><br><span class="line"><span class="attr">note:</span></span><br><span class="line">  <span class="comment"># Note tag style values:</span></span><br><span class="line">  <span class="comment">#  - simple    bs-callout old alert style. Default.</span></span><br><span class="line">  <span class="comment">#  - modern    bs-callout new (v2-v3) alert style.</span></span><br><span class="line">  <span class="comment">#  - flat      flat callout style with background, like on Mozilla or StackOverflow.</span></span><br><span class="line">  <span class="comment">#  - disabled  disable all CSS styles import of note tag.</span></span><br><span class="line">  <span class="attr">style:</span> <span class="string">flat</span></span><br><span class="line">  <span class="attr">icons:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">border_radius:</span> <span class="number">3</span></span><br><span class="line">  <span class="comment"># Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).</span></span><br><span class="line">  <span class="comment"># Offset also applied to label tag variables. This option can work with disabled note tag.</span></span><br><span class="line">  <span class="attr">light_bg_offset:</span> <span class="number">20</span><span class="string">%</span>  <span class="comment"># 默认背景减淡效果，以百分比计算</span></span><br></pre></td></tr></table></figure>
+<h4 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h4><p>通过 note 标签可以为段落添加背景色，语法如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% note [class] %&#125;</span><br><span class="line">文本内容 (支持行内标签)</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<p>支持的 class 种类包括 <code>default</code> <code>primary</code> <code>success</code> <code>info</code> <code>warning</code> <code>danger</code>，也可以不指定 class。</p>
+<h4 id="举例-1"><a href="#举例-1" class="headerlink" title="举例"></a>举例</h4><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% note default %&#125;</span><br><span class="line">default</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note primary %&#125;</span><br><span class="line">primary</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note success %&#125;</span><br><span class="line">success</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note info %&#125;</span><br><span class="line">info</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note warning %&#125;</span><br><span class="line">warning</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note danger %&#125;</span><br><span class="line">danger</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="效果-1"><a href="#效果-1" class="headerlink" title="效果"></a>效果</h4><div class="note default">
+            <p>default</p>
+          </div>
+
+<div class="note primary">
+            <p>primary</p>
+          </div>
+
+<div class="note success">
+            <p>success</p>
+          </div>
+
+<div class="note info">
+            <p>info</p>
+          </div>
+
+<div class="note warning">
+            <p>warning</p>
+          </div>
+
+<div class="note danger">
+            <p>danger</p>
+          </div>
+
+
+
+<h3 id="button-按钮"><a href="#button-按钮" class="headerlink" title="button 按钮"></a>button 按钮</h3><p>通过 button 标签可以快速添加带有主题样式的按钮，语法如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% button /path/to/url/, text, icon [class], title %&#125;</span><br><span class="line">也可简写为：</span><br><span class="line">&#123;% btn /path/to/url/, text, icon [class], title %&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="举例-2"><a href="#举例-2" class="headerlink" title="举例"></a>举例</h4><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% btn #, 文本 %&#125;</span><br><span class="line">&#123;% btn #, 文本 &amp; 标题, 标题 %&#125;</span><br><span class="line">&#123;% btn #, 文本 &amp; 图标, home %&#125;</span><br><span class="line">&#123;% btn #, 文本 &amp; 大图标 (固定宽度), home fa-fw fa-lg %&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="效果-2"><a href="#效果-2" class="headerlink" title="效果"></a>效果</h4><a class="btn" href="#">
+            <i class="fa fa-"></i>文本
+          </a>
+<a class="btn" href="#">
+            <i class="fa fa-标题"></i>文本 & 标题
+          </a>
+<a class="btn" href="#">
+            <i class="fa fa-home"></i>文本 & 图标
+          </a>
+<a class="btn" href="#">
+            <i class="fa fa-home fa-fw fa-lg"></i>文本 & 大图标 (固定宽度)
+          </a>
+
+
+
+
+
+<h3 id="tab-标签"><a href="#tab-标签" class="headerlink" title="tab 标签"></a>tab 标签</h3><p>tab 标签用于快速创建 tab 选项卡，语法如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% tabs [Unique name], [index] %&#125;</span><br><span class="line">  &lt;!-- tab [Tab caption]@[icon] --&gt;</span><br><span class="line">  标签页内容（支持行内标签）</span><br><span class="line">  &lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
+<p>其中，各参数意义如下：</p>
+<ul>
+<li>Unique name: 全局唯一的 Tab 名称，将作为各个标签页的 id 属性前缀</li>
+<li>index: 当前激活的标签页索引，如果未定义则默认选中显示第一个标签页，如果设为 - 1 则默认隐藏所有标签页</li>
+<li>Tab caption: 当前标签页的标题，如果不指定则会以 Unique name 加上索引作为标题</li>
+<li>icon: 在标签页标题中添加 Font awesome 图标</li>
+</ul>
+<h4 id="举例-3"><a href="#举例-3" class="headerlink" title="举例"></a>举例</h4><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% tabs Tab标签列表 %&#125;</span><br><span class="line">  &lt;!-- tab pixel1 --&gt;</span><br><span class="line"><span class="code">    标签页1文本内容</span></span><br><span class="line"><span class="code">	&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/794d75495aab27d.png&quot; width=&quot;600&quot; hegiht=&quot;400&quot; &gt;</span></span><br><span class="line"><span class="code">  &lt;!-- endtab --&gt;</span></span><br><span class="line"><span class="code">  &lt;!-- tab pixel2 --&gt;</span></span><br><span class="line"><span class="code">    标签页2文本内容</span></span><br><span class="line"><span class="code">	&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/9d7671802b187e8.png&quot; width=&quot;600&quot; hegiht=&quot;400&quot; &gt;</span></span><br><span class="line"><span class="code">  &lt;!-- endtab --&gt;</span></span><br><span class="line"><span class="code">  &lt;!-- tab pixel3 --&gt;</span></span><br><span class="line"><span class="code">    标签页3文本内容</span></span><br><span class="line"><span class="code">	&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/67d649a40eb458c-20210219153648077.png&quot; width=&quot;600&quot; hegiht=&quot;400&quot; &gt;</span></span><br><span class="line"><span class="code">  &lt;!-- endtab --&gt;</span></span><br><span class="line"><span class="code">  &lt;!-- tab pixel4 --&gt;</span></span><br><span class="line"><span class="code">    标签页4文本内容</span></span><br><span class="line"><span class="code">	&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/f3b36762798dec9.png&quot; width=&quot;600&quot; hegiht=&quot;400&quot; &gt;</span></span><br><span class="line"><span class="code">  &lt;!-- endtab --&gt;</span></span><br><span class="line"><span class="code">&#123;% endtabs %&#125;</span></span><br></pre></td></tr></table></figure>
+<h4 id="效果-3"><a href="#效果-3" class="headerlink" title="效果"></a>效果</h4><div class="tabs" id="tab标签列表"><ul class="nav-tabs"><li class="tab active"><a href="#tab标签列表-1">pixel1</a></li><li class="tab"><a href="#tab标签列表-2">pixel2</a></li><li class="tab"><a href="#tab标签列表-3">pixel3</a></li><li class="tab"><a href="#tab标签列表-4">pixel4</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab标签列表-1"><p>   标签页1文本内容<br><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/794d75495aab27d.png" width="600" hegiht="400" >
+ </p></div><div class="tab-pane" id="tab标签列表-2"><p>   标签页2文本内容<br><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/9d7671802b187e8.png" width="600" hegiht="400" >
+ </p></div><div class="tab-pane" id="tab标签列表-3"><p>   标签页3文本内容<br><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/67d649a40eb458c-20210219153648077.png" width="600" hegiht="400" >
+ </p></div><div class="tab-pane" id="tab标签列表-4"><p>   标签页4文本内容<br><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/f3b36762798dec9.png" width="600" hegiht="400" >
+ </p></div></div></div>
+<hr>
+]]></content>
+      <categories>
+        <category>写作技巧 (Write Skill)</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MOBA游戏历史与解析</title>
+    <url>/archives/b243f489.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/EpkYdedWMAEzKSw.jpeg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://twitter.com/mrtremorox/status/1340129641848320001/photo/1">Twitter@mrtremorox
+</a>
+    </i>
+  </font>
+</div>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>MOBA类游戏可以说是近年来大火的游戏类型了，从PC端的DOTA、LOL到手机端的王者荣耀，它已经进入我们的生活。今天我们将从它的发展历史入手，看看这个品类是如何一步步成为今天如此庞大的大家庭的。</p>
+<a id="more"></a>
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>牟博文</strong></p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong></li>
+<li>在电台任职2年 <strong>新闻主播</strong> 后转型游戏解说主持 现在在腾讯负责 <strong>游戏研究评测</strong></li>
+</ul>
+<h3 id="MOBA游戏发展史"><a href="#MOBA游戏发展史" class="headerlink" title="MOBA游戏发展史"></a>MOBA游戏发展史</h3><h4 id="什么是MOBA"><a href="#什么是MOBA" class="headerlink" title="什么是MOBA"></a>什么是MOBA</h4><p>市场上一些成功且著名的MOBA游戏：</p>
+<ul>
+<li><strong>《DOTA2》</strong></li>
+<li><strong>《LOL》</strong></li>
+<li><strong>《风暴英雄》</strong></li>
+<li><strong>《王者荣耀》</strong></li>
+<li><strong>《虚荣》</strong></li>
+</ul>
+<p>MOBA - <strong>M</strong>ultiplayer <strong>O</strong>nline <strong>B</strong>attle <strong>A</strong>rena</p>
+<ul>
+<li><p>多人在线战术竞技游戏</p>
+</li>
+<li><p>最早命名 <em>AOSLIKE / DOTALIKE / ARTS</em></p>
+</li>
+<li><p>坐标</p>
+<ul>
+<li><p>上手难度 轻度 –&gt; 重度</p>
+</li>
+<li><p>体验导向 强对抗（胜利为导向） –&gt; 弱对抗（游戏情感体验）</p>
+</li>
+<li><table>
+<thead>
+<tr>
+<th>游戏</th>
+<th>上手难度</th>
+<th>体验导向</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>风之旅人</td>
+<td>轻度</td>
+<td>弱对抗</td>
+</tr>
+<tr>
+<td>塞尔达传说</td>
+<td>重度</td>
+<td>弱对抗</td>
+</tr>
+<tr>
+<td>STICK FIGHT</td>
+<td>轻度</td>
+<td>强对抗</td>
+</tr>
+<tr>
+<td>LOL DOTA2 王者荣耀</td>
+<td>重度</td>
+<td>强对抗</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>源于游戏，超越游戏，融于生活</p>
+</li>
+</ul>
+<h4 id="MOBA发展史"><a href="#MOBA发展史" class="headerlink" title="MOBA发展史"></a>MOBA发展史</h4><h5 id="1998-2003-起源：从Aeon-of-Strife-到-Defence-of-the-Ancients"><a href="#1998-2003-起源：从Aeon-of-Strife-到-Defence-of-the-Ancients" class="headerlink" title="1998 - 2003 起源：从Aeon of Strife 到 Defence of the Ancients"></a>1998 - 2003 <em>起源：从Aeon of Strife 到 Defence of the Ancients</em></h5><ul>
+<li>1998.3.31 <strong>《星际争霸（StarCraft）》</strong> 发行<ul>
+<li><em>地图编辑器</em> 的发布</li>
+</ul>
+</li>
+<li>2000.5.25 MOD地图：Aeon of Strife出现</li>
+<li>2002.7.3 <strong>《魔兽争霸3:混沌之治（WarCraft3:Regin of Chaos）》</strong> 发行<ul>
+<li><em>英雄单位出现</em></li>
+</ul>
+</li>
+<li>2002.9.20 浩方对战游戏平台正式运行（中国）</li>
+<li>2003.7.1 Defence of the Ancients（Eul）</li>
+<li>2003.8.1 Dota Classic（Eul）</li>
+</ul>
+<h5 id="2004-2005-启蒙：Dota-Allstar-版本更迭"><a href="#2004-2005-启蒙：Dota-Allstar-版本更迭" class="headerlink" title="2004 - 2005 启蒙：Dota Allstar 版本更迭"></a>2004 - 2005 <em>启蒙：Dota Allstar 版本更迭</em></h5><ul>
+<li>2004.2.1 Defence of the Ancients Allstar(Guinsoo 鬼索，真名Steve Feak)<ul>
+<li>屠夫，宙斯，卡尔的设计者，有许多天马行空的设计思路，贡献了诸多英雄</li>
+</ul>
+</li>
+<li>2004.2 TDA-Clan成立<ul>
+<li><em>最早一代的MOBA战队联盟</em></li>
+</ul>
+</li>
+<li>2004.2 Dota-allstars.com成立（Pendragon 铅笔龙，真名Steve Mescon）<ul>
+<li><em>Dota玩家社区</em> 收集玩家意见反馈</li>
+</ul>
+</li>
+<li>2004.3 真三国无双v1.0（lovemoon03,亚洲最受欢迎的RPG地图）</li>
+<li>2004.5 Defence of the Ancients Allstar 5.0</li>
+<li>2004.12.2 澄海3C,BattleShips（HF平台第一个专用房间）</li>
+<li>2005.1 新加坡开始举办Dota线下比赛</li>
+<li>2005.1.1 Defence of the Ancients Allstar 6.00（Neichus）</li>
+</ul>
+<h5 id="2005-2007-发展：风靡世界的Dota"><a href="#2005-2007-发展：风靡世界的Dota" class="headerlink" title="2005 - 2007 发展：风靡世界的Dota"></a>2005 - 2007 <em>发展：风靡世界的Dota</em></h5><ul>
+<li>2005.5.1 Defence of the Ancients Allstar 6.02（IceFrog，冰蛙）<ul>
+<li>大量平衡性调整更新</li>
+</ul>
+</li>
+<li>2005.8 Heintje汉化了Defence of the Ancients Allstar 6.12</li>
+<li>2005.10.5 VS对战游戏平台正式运行</li>
+<li>2005.10 Dota Allstars出现在2005年暴雪嘉年华</li>
+<li>2005.11 GL战队成立（第一代MOBA战队）</li>
+<li>2006.3 RDL开赛，国内第一个大型线上赛事</li>
+<li>2006.9 第一届U9邀请赛</li>
+<li>2007.2.7 Defence of the Ancients Allstar 6.41 (加入AP模式)</li>
+<li>2007.3 CPL2006举办</li>
+<li>2007.6 WCG2007 Dota项目GL战队夺冠</li>
+</ul>
+<h5 id="2007-2009-利益风波：分道扬镳与伏笔"><a href="#2007-2009-利益风波：分道扬镳与伏笔" class="headerlink" title="2007 - 2009 利益风波：分道扬镳与伏笔"></a>2007 - 2009 <em>利益风波：分道扬镳与伏笔</em></h5><ul>
+<li>2007.1 Guinsoo加入Riot Game</li>
+<li>2007.4.7 S2公司向IceFrog请求许可制作一款基于DotaAllstars的游戏（HON）</li>
+<li>2008.8.7 Defence of the Ancients Allstar 6.55</li>
+<li>2008.9.1 Pendragon加入Riot Game</li>
+<li>2009.5.1 Pendragon事件<ul>
+<li>拉雷蛇作为赞助，IceFrog坚持社区纯洁性</li>
+</ul>
+</li>
+<li>2009.8.4 <strong>《魔兽争霸3:冰封王座（WarCraft3:Frozen Throne）》</strong> Patch 1.24a<ul>
+<li>魔兽的最后更新补丁，此后10年没有更新</li>
+<li>冰蛙无偿维护Dota1服务器直至2016年</li>
+</ul>
+</li>
+<li>2009.9 围绕Dota的版权之争开始（Blizzard Dota）<ul>
+<li>2012年判定暴雪拥有Dota所有模型的素材和英雄设计的版权，Dota商标判给Value公司</li>
+</ul>
+</li>
+<li>2009.10.27 <strong>《英雄联盟（LOL）》</strong> 开始测试</li>
+<li>2009.12.5 IceFrog与Value合作<ul>
+<li>制作Dota2</li>
+</ul>
+</li>
+</ul>
+<h5 id="2009-2015-红海：胜者通吃，败者离场"><a href="#2009-2015-红海：胜者通吃，败者离场" class="headerlink" title="2009 - 2015 红海：胜者通吃，败者离场"></a>2009 - 2015 <em>红海：胜者通吃，败者离场</em></h5><ul>
+<li><table>
+<thead>
+<tr>
+<th>游戏</th>
+<th>发行事件时间</th>
+<th>发行公司</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>《半神（DemiGod）》</td>
+<td>2009.4.14</td>
+<td>Stardock</td>
+</tr>
+<tr>
+<td>《梦三国》*</td>
+<td>2009.12.10</td>
+<td>杭州电魂</td>
+</tr>
+<tr>
+<td>《Avalon》</td>
+<td>2010.2.10</td>
+<td>娱美德研发（韩国）</td>
+</tr>
+<tr>
+<td>《超神英雄（HON）》</td>
+<td>2010.5.12</td>
+<td>S2 Games、Garena</td>
+</tr>
+<tr>
+<td>《天翼决》*</td>
+<td>2010.10.15</td>
+<td>盛大光翼</td>
+</tr>
+<tr>
+<td>《混沌与秩序》</td>
+<td>2011.4.27</td>
+<td>Gameloft</td>
+</tr>
+<tr>
+<td>《无尽英雄》</td>
+<td>2011.9.22</td>
+<td>上海狸猫网络</td>
+</tr>
+<tr>
+<td>《金戈铁马》</td>
+<td>2012.4.26</td>
+<td>起凡</td>
+</tr>
+<tr>
+<td>《至日竞技场（Solstice Arena）》</td>
+<td>2013.6.13</td>
+<td>Zynga</td>
+</tr>
+<tr>
+<td>《中土守护者（Guardians of Middle-earth）》</td>
+<td>2013.8.1</td>
+<td>Warner Bros</td>
+</tr>
+<tr>
+<td>《英雄三国（Heros of Kingdoms）》</td>
+<td>2013.9.11</td>
+<td>网易</td>
+</tr>
+<tr>
+<td>《英雄300》*</td>
+<td>2013.12.6</td>
+<td>跳跃网络</td>
+</tr>
+<tr>
+<td>《战灵》</td>
+<td>2014.3.11</td>
+<td>边锋</td>
+</tr>
+<tr>
+<td>《神之浩劫（SMITE）》</td>
+<td>2014.3.25</td>
+<td>Hi-Rez Studios</td>
+</tr>
+<tr>
+<td>《Vainglory（虚荣）》*</td>
+<td>2014.11.16</td>
+<td>Super Evil Megacorp</td>
+</tr>
+<tr>
+<td>《英魂之刃》*</td>
+<td>2015.1.16</td>
+<td>网龙</td>
+</tr>
+<tr>
+<td>《无限危机（Infinite Crisis）》</td>
+<td>2015.3.26</td>
+<td>Warner Bros、Guinsoo</td>
+</tr>
+<tr>
+<td>《风暴英雄（Heros of the Storm）》*</td>
+<td>2015.6.2</td>
+<td>Blizzard</td>
+</tr>
+</tbody></table>
+<p>* 代表目前国服仍在运营，其余均被淘汰</p>
+</li>
+<li><p>2010.4.22 <strong>《英雄联盟》</strong> 国服首次技术测试</p>
+</li>
+<li><p>2010.12.1 Pendragon注册了商标Dota-Allstars、Dota(五个月后暴雪提出异议)</p>
+</li>
+<li><p>2011.1.1 11对战平台正式运行，解决了MMR问题</p>
+<ul>
+<li>2012年9月最高在线突破80w</li>
+</ul>
+</li>
+<li><p>2011.6.20 S1（LOL World Championship）英雄联盟全球总决赛在瑞典举办</p>
+</li>
+<li><p>2011.8.17 TI1（The International）DOTA2第一届TI赛事在德国举办，奖金池100w美元</p>
+</li>
+<li><p>2011.9.22 <strong>《英雄联盟（LOL）》</strong> 国服开启公测</p>
+</li>
+<li><p>2013.9.25 <strong>《DOTA2》</strong> 国服开启开放测试</p>
+</li>
+<li><p>2015.6.9 Defence of the Ancients Allstar 6.83</p>
+<ul>
+<li>这时截止目前由icefrog所发布的最后一个基于War3的dota版本</li>
+</ul>
+</li>
+<li><p>【思考】为什么 <strong>《英雄联盟》</strong> 会取得最后的成功</p>
+<ul>
+<li>足够简单，门槛低</li>
+<li>案例分析：LOL对比DOTA2<ul>
+<li><em>反补操作</em><ul>
+<li>拉开玩家间的差距</li>
+<li>新手玩家体验非常糟糕</li>
+</ul>
+</li>
+<li><em>装备系统</em><ul>
+<li>LOL：直接购买 显示合成树</li>
+<li>DOTA：记忆合成公式和配方</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="2015-2018-移动化：历史重现"><a href="#2015-2018-移动化：历史重现" class="headerlink" title="2015 - 2018 移动化：历史重现"></a>2015 - 2018 <em>移动化：历史重现</em></h5><ul>
+<li><p>2015.8.18 <strong>《全民超神》</strong> 开始公测</p>
+</li>
+<li><p>2015.11.26 <strong>《王者荣耀》</strong> 开始公测</p>
+</li>
+<li><p>2015.12.26 <strong>《王者荣耀》</strong> 同时在线人数突破100w</p>
+</li>
+<li><p>2016.3.25 <strong>《自由之战》</strong> 开启公测</p>
+</li>
+<li><p>2016.7.11 <strong>《Mobile Legends：Bang Bang》</strong> 发行</p>
+</li>
+<li><p>2016.9.1 王者荣耀职业联赛KPL开启</p>
+</li>
+<li><p>2017.3.1 <strong>《小米超神》</strong> 开启公测</p>
+</li>
+<li><p>2017.7 <strong>《决战平安京》《超维对决》《非人学院》《代号M》</strong> 开启公测</p>
+</li>
+<li><p>【讨论】游戏鄙视链</p>
+<ul>
+<li><p>DOTA - LOL - 王者荣耀 - xxx</p>
+</li>
+<li><p>主机 - PC - PE - 页游</p>
+</li>
+<li><blockquote>
+<p><em>都是为了乐趣，没有什么本质区别。</em> 以史为鉴，发现游戏发展背后的客观规律才是我们应该做的。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="10-2-MOBA电子竞技与社群文化"><a href="#10-2-MOBA电子竞技与社群文化" class="headerlink" title="10.2 MOBA电子竞技与社群文化"></a>10.2 MOBA电子竞技与社群文化</h3><ul>
+<li>为什么大部分高薪电竞选手项目都是MOBA？<ul>
+<li>不好看</li>
+<li>不好玩</li>
+<li>MOBA的五人远比一人的赛事合作性和观赏性要强</li>
+<li>获胜之后的正向体验远比其它品类强</li>
+</ul>
+</li>
+<li>MOBA游戏辐射多个行业<ul>
+<li>俱乐部 &amp; 选手</li>
+<li>主播 &amp; 解说</li>
+<li>案例：<ul>
+<li>PDD捐赠希望小学</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>技术进步<ul>
+<li>验证AI的博弈性<ul>
+<li>OpenAI</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>【推荐】 纪录片：<em>《FREE TO PLAY》</em> 40min</li>
+</ul>
+<h3 id="MOBA游戏机制揭秘"><a href="#MOBA游戏机制揭秘" class="headerlink" title="MOBA游戏机制揭秘"></a>MOBA游戏机制揭秘</h3><ul>
+<li>战场设计<ul>
+<li>地图设计</li>
+<li>兵线与资源</li>
+<li>单局成长：等级与装备</li>
+<li>中立资源</li>
+<li>视野机制</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>MOBA</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>中国游戏市场简析</title>
     <url>/archives/undefined.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggxwpu9b5oj311i0p0n12.jpg"></p>
@@ -438,373 +924,6 @@
       </categories>
       <tags>
         <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MOBA游戏历史与解析</title>
-    <url>/archives/b243f489.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/EpkYdedWMAEzKSw.jpeg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://twitter.com/mrtremorox/status/1340129641848320001/photo/1">Twitter@mrtremorox
-</a>
-    </i>
-  </font>
-</div>
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>MOBA类游戏可以说是近年来大火的游戏类型了，从PC端的DOTA、LOL到手机端的王者荣耀，它已经进入我们的生活。今天我们将从它的发展历史入手，看看这个品类是如何一步步成为今天如此庞大的大家庭的。</p>
-<a id="more"></a>
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>牟博文</strong></p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong></li>
-<li>在电台任职2年 <strong>新闻主播</strong> 后转型游戏解说主持 现在在腾讯负责 <strong>游戏研究评测</strong></li>
-</ul>
-<h3 id="MOBA游戏发展史"><a href="#MOBA游戏发展史" class="headerlink" title="MOBA游戏发展史"></a>MOBA游戏发展史</h3><h4 id="什么是MOBA"><a href="#什么是MOBA" class="headerlink" title="什么是MOBA"></a>什么是MOBA</h4><p>市场上一些成功且著名的MOBA游戏：</p>
-<ul>
-<li><strong>《DOTA2》</strong></li>
-<li><strong>《LOL》</strong></li>
-<li><strong>《风暴英雄》</strong></li>
-<li><strong>《王者荣耀》</strong></li>
-<li><strong>《虚荣》</strong></li>
-</ul>
-<p>MOBA - <strong>M</strong>ultiplayer <strong>O</strong>nline <strong>B</strong>attle <strong>A</strong>rena</p>
-<ul>
-<li><p>多人在线战术竞技游戏</p>
-</li>
-<li><p>最早命名 <em>AOSLIKE / DOTALIKE / ARTS</em></p>
-</li>
-<li><p>坐标</p>
-<ul>
-<li><p>上手难度 轻度 –&gt; 重度</p>
-</li>
-<li><p>体验导向 强对抗（胜利为导向） –&gt; 弱对抗（游戏情感体验）</p>
-</li>
-<li><table>
-<thead>
-<tr>
-<th>游戏</th>
-<th>上手难度</th>
-<th>体验导向</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>风之旅人</td>
-<td>轻度</td>
-<td>弱对抗</td>
-</tr>
-<tr>
-<td>塞尔达传说</td>
-<td>重度</td>
-<td>弱对抗</td>
-</tr>
-<tr>
-<td>STICK FIGHT</td>
-<td>轻度</td>
-<td>强对抗</td>
-</tr>
-<tr>
-<td>LOL DOTA2 王者荣耀</td>
-<td>重度</td>
-<td>强对抗</td>
-</tr>
-</tbody></table>
-</li>
-</ul>
-</li>
-<li><p>源于游戏，超越游戏，融于生活</p>
-</li>
-</ul>
-<h4 id="MOBA发展史"><a href="#MOBA发展史" class="headerlink" title="MOBA发展史"></a>MOBA发展史</h4><h5 id="1998-2003-起源：从Aeon-of-Strife-到-Defence-of-the-Ancients"><a href="#1998-2003-起源：从Aeon-of-Strife-到-Defence-of-the-Ancients" class="headerlink" title="1998 - 2003 起源：从Aeon of Strife 到 Defence of the Ancients"></a>1998 - 2003 <em>起源：从Aeon of Strife 到 Defence of the Ancients</em></h5><ul>
-<li>1998.3.31 <strong>《星际争霸（StarCraft）》</strong> 发行<ul>
-<li><em>地图编辑器</em> 的发布</li>
-</ul>
-</li>
-<li>2000.5.25 MOD地图：Aeon of Strife出现</li>
-<li>2002.7.3 <strong>《魔兽争霸3:混沌之治（WarCraft3:Regin of Chaos）》</strong> 发行<ul>
-<li><em>英雄单位出现</em></li>
-</ul>
-</li>
-<li>2002.9.20 浩方对战游戏平台正式运行（中国）</li>
-<li>2003.7.1 Defence of the Ancients（Eul）</li>
-<li>2003.8.1 Dota Classic（Eul）</li>
-</ul>
-<h5 id="2004-2005-启蒙：Dota-Allstar-版本更迭"><a href="#2004-2005-启蒙：Dota-Allstar-版本更迭" class="headerlink" title="2004 - 2005 启蒙：Dota Allstar 版本更迭"></a>2004 - 2005 <em>启蒙：Dota Allstar 版本更迭</em></h5><ul>
-<li>2004.2.1 Defence of the Ancients Allstar(Guinsoo 鬼索，真名Steve Feak)<ul>
-<li>屠夫，宙斯，卡尔的设计者，有许多天马行空的设计思路，贡献了诸多英雄</li>
-</ul>
-</li>
-<li>2004.2 TDA-Clan成立<ul>
-<li><em>最早一代的MOBA战队联盟</em></li>
-</ul>
-</li>
-<li>2004.2 Dota-allstars.com成立（Pendragon 铅笔龙，真名Steve Mescon）<ul>
-<li><em>Dota玩家社区</em> 收集玩家意见反馈</li>
-</ul>
-</li>
-<li>2004.3 真三国无双v1.0（lovemoon03,亚洲最受欢迎的RPG地图）</li>
-<li>2004.5 Defence of the Ancients Allstar 5.0</li>
-<li>2004.12.2 澄海3C,BattleShips（HF平台第一个专用房间）</li>
-<li>2005.1 新加坡开始举办Dota线下比赛</li>
-<li>2005.1.1 Defence of the Ancients Allstar 6.00（Neichus）</li>
-</ul>
-<h5 id="2005-2007-发展：风靡世界的Dota"><a href="#2005-2007-发展：风靡世界的Dota" class="headerlink" title="2005 - 2007 发展：风靡世界的Dota"></a>2005 - 2007 <em>发展：风靡世界的Dota</em></h5><ul>
-<li>2005.5.1 Defence of the Ancients Allstar 6.02（IceFrog，冰蛙）<ul>
-<li>大量平衡性调整更新</li>
-</ul>
-</li>
-<li>2005.8 Heintje汉化了Defence of the Ancients Allstar 6.12</li>
-<li>2005.10.5 VS对战游戏平台正式运行</li>
-<li>2005.10 Dota Allstars出现在2005年暴雪嘉年华</li>
-<li>2005.11 GL战队成立（第一代MOBA战队）</li>
-<li>2006.3 RDL开赛，国内第一个大型线上赛事</li>
-<li>2006.9 第一届U9邀请赛</li>
-<li>2007.2.7 Defence of the Ancients Allstar 6.41 (加入AP模式)</li>
-<li>2007.3 CPL2006举办</li>
-<li>2007.6 WCG2007 Dota项目GL战队夺冠</li>
-</ul>
-<h5 id="2007-2009-利益风波：分道扬镳与伏笔"><a href="#2007-2009-利益风波：分道扬镳与伏笔" class="headerlink" title="2007 - 2009 利益风波：分道扬镳与伏笔"></a>2007 - 2009 <em>利益风波：分道扬镳与伏笔</em></h5><ul>
-<li>2007.1 Guinsoo加入Riot Game</li>
-<li>2007.4.7 S2公司向IceFrog请求许可制作一款基于DotaAllstars的游戏（HON）</li>
-<li>2008.8.7 Defence of the Ancients Allstar 6.55</li>
-<li>2008.9.1 Pendragon加入Riot Game</li>
-<li>2009.5.1 Pendragon事件<ul>
-<li>拉雷蛇作为赞助，IceFrog坚持社区纯洁性</li>
-</ul>
-</li>
-<li>2009.8.4 <strong>《魔兽争霸3:冰封王座（WarCraft3:Frozen Throne）》</strong> Patch 1.24a<ul>
-<li>魔兽的最后更新补丁，此后10年没有更新</li>
-<li>冰蛙无偿维护Dota1服务器直至2016年</li>
-</ul>
-</li>
-<li>2009.9 围绕Dota的版权之争开始（Blizzard Dota）<ul>
-<li>2012年判定暴雪拥有Dota所有模型的素材和英雄设计的版权，Dota商标判给Value公司</li>
-</ul>
-</li>
-<li>2009.10.27 <strong>《英雄联盟（LOL）》</strong> 开始测试</li>
-<li>2009.12.5 IceFrog与Value合作<ul>
-<li>制作Dota2</li>
-</ul>
-</li>
-</ul>
-<h5 id="2009-2015-红海：胜者通吃，败者离场"><a href="#2009-2015-红海：胜者通吃，败者离场" class="headerlink" title="2009 - 2015 红海：胜者通吃，败者离场"></a>2009 - 2015 <em>红海：胜者通吃，败者离场</em></h5><ul>
-<li><table>
-<thead>
-<tr>
-<th>游戏</th>
-<th>发行事件时间</th>
-<th>发行公司</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>《半神（DemiGod）》</td>
-<td>2009.4.14</td>
-<td>Stardock</td>
-</tr>
-<tr>
-<td>《梦三国》*</td>
-<td>2009.12.10</td>
-<td>杭州电魂</td>
-</tr>
-<tr>
-<td>《Avalon》</td>
-<td>2010.2.10</td>
-<td>娱美德研发（韩国）</td>
-</tr>
-<tr>
-<td>《超神英雄（HON）》</td>
-<td>2010.5.12</td>
-<td>S2 Games、Garena</td>
-</tr>
-<tr>
-<td>《天翼决》*</td>
-<td>2010.10.15</td>
-<td>盛大光翼</td>
-</tr>
-<tr>
-<td>《混沌与秩序》</td>
-<td>2011.4.27</td>
-<td>Gameloft</td>
-</tr>
-<tr>
-<td>《无尽英雄》</td>
-<td>2011.9.22</td>
-<td>上海狸猫网络</td>
-</tr>
-<tr>
-<td>《金戈铁马》</td>
-<td>2012.4.26</td>
-<td>起凡</td>
-</tr>
-<tr>
-<td>《至日竞技场（Solstice Arena）》</td>
-<td>2013.6.13</td>
-<td>Zynga</td>
-</tr>
-<tr>
-<td>《中土守护者（Guardians of Middle-earth）》</td>
-<td>2013.8.1</td>
-<td>Warner Bros</td>
-</tr>
-<tr>
-<td>《英雄三国（Heros of Kingdoms）》</td>
-<td>2013.9.11</td>
-<td>网易</td>
-</tr>
-<tr>
-<td>《英雄300》*</td>
-<td>2013.12.6</td>
-<td>跳跃网络</td>
-</tr>
-<tr>
-<td>《战灵》</td>
-<td>2014.3.11</td>
-<td>边锋</td>
-</tr>
-<tr>
-<td>《神之浩劫（SMITE）》</td>
-<td>2014.3.25</td>
-<td>Hi-Rez Studios</td>
-</tr>
-<tr>
-<td>《Vainglory（虚荣）》*</td>
-<td>2014.11.16</td>
-<td>Super Evil Megacorp</td>
-</tr>
-<tr>
-<td>《英魂之刃》*</td>
-<td>2015.1.16</td>
-<td>网龙</td>
-</tr>
-<tr>
-<td>《无限危机（Infinite Crisis）》</td>
-<td>2015.3.26</td>
-<td>Warner Bros、Guinsoo</td>
-</tr>
-<tr>
-<td>《风暴英雄（Heros of the Storm）》*</td>
-<td>2015.6.2</td>
-<td>Blizzard</td>
-</tr>
-</tbody></table>
-<p>* 代表目前国服仍在运营，其余均被淘汰</p>
-</li>
-<li><p>2010.4.22 <strong>《英雄联盟》</strong> 国服首次技术测试</p>
-</li>
-<li><p>2010.12.1 Pendragon注册了商标Dota-Allstars、Dota(五个月后暴雪提出异议)</p>
-</li>
-<li><p>2011.1.1 11对战平台正式运行，解决了MMR问题</p>
-<ul>
-<li>2012年9月最高在线突破80w</li>
-</ul>
-</li>
-<li><p>2011.6.20 S1（LOL World Championship）英雄联盟全球总决赛在瑞典举办</p>
-</li>
-<li><p>2011.8.17 TI1（The International）DOTA2第一届TI赛事在德国举办，奖金池100w美元</p>
-</li>
-<li><p>2011.9.22 <strong>《英雄联盟（LOL）》</strong> 国服开启公测</p>
-</li>
-<li><p>2013.9.25 <strong>《DOTA2》</strong> 国服开启开放测试</p>
-</li>
-<li><p>2015.6.9 Defence of the Ancients Allstar 6.83</p>
-<ul>
-<li>这时截止目前由icefrog所发布的最后一个基于War3的dota版本</li>
-</ul>
-</li>
-<li><p>【思考】为什么 <strong>《英雄联盟》</strong> 会取得最后的成功</p>
-<ul>
-<li>足够简单，门槛低</li>
-<li>案例分析：LOL对比DOTA2<ul>
-<li><em>反补操作</em><ul>
-<li>拉开玩家间的差距</li>
-<li>新手玩家体验非常糟糕</li>
-</ul>
-</li>
-<li><em>装备系统</em><ul>
-<li>LOL：直接购买 显示合成树</li>
-<li>DOTA：记忆合成公式和配方</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h5 id="2015-2018-移动化：历史重现"><a href="#2015-2018-移动化：历史重现" class="headerlink" title="2015 - 2018 移动化：历史重现"></a>2015 - 2018 <em>移动化：历史重现</em></h5><ul>
-<li><p>2015.8.18 <strong>《全民超神》</strong> 开始公测</p>
-</li>
-<li><p>2015.11.26 <strong>《王者荣耀》</strong> 开始公测</p>
-</li>
-<li><p>2015.12.26 <strong>《王者荣耀》</strong> 同时在线人数突破100w</p>
-</li>
-<li><p>2016.3.25 <strong>《自由之战》</strong> 开启公测</p>
-</li>
-<li><p>2016.7.11 <strong>《Mobile Legends：Bang Bang》</strong> 发行</p>
-</li>
-<li><p>2016.9.1 王者荣耀职业联赛KPL开启</p>
-</li>
-<li><p>2017.3.1 <strong>《小米超神》</strong> 开启公测</p>
-</li>
-<li><p>2017.7 <strong>《决战平安京》《超维对决》《非人学院》《代号M》</strong> 开启公测</p>
-</li>
-<li><p>【讨论】游戏鄙视链</p>
-<ul>
-<li><p>DOTA - LOL - 王者荣耀 - xxx</p>
-</li>
-<li><p>主机 - PC - PE - 页游</p>
-</li>
-<li><blockquote>
-<p><em>都是为了乐趣，没有什么本质区别。</em> 以史为鉴，发现游戏发展背后的客观规律才是我们应该做的。</p>
-</blockquote>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="10-2-MOBA电子竞技与社群文化"><a href="#10-2-MOBA电子竞技与社群文化" class="headerlink" title="10.2 MOBA电子竞技与社群文化"></a>10.2 MOBA电子竞技与社群文化</h3><ul>
-<li>为什么大部分高薪电竞选手项目都是MOBA？<ul>
-<li>不好看</li>
-<li>不好玩</li>
-<li>MOBA的五人远比一人的赛事合作性和观赏性要强</li>
-<li>获胜之后的正向体验远比其它品类强</li>
-</ul>
-</li>
-<li>MOBA游戏辐射多个行业<ul>
-<li>俱乐部 &amp; 选手</li>
-<li>主播 &amp; 解说</li>
-<li>案例：<ul>
-<li>PDD捐赠希望小学</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>技术进步<ul>
-<li>验证AI的博弈性<ul>
-<li>OpenAI</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>【推荐】 纪录片：<em>《FREE TO PLAY》</em> 40min</li>
-</ul>
-<h3 id="MOBA游戏机制揭秘"><a href="#MOBA游戏机制揭秘" class="headerlink" title="MOBA游戏机制揭秘"></a>MOBA游戏机制揭秘</h3><ul>
-<li>战场设计<ul>
-<li>地图设计</li>
-<li>兵线与资源</li>
-<li>单局成长：等级与装备</li>
-<li>中立资源</li>
-<li>视野机制</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>MOBA</tag>
       </tags>
   </entry>
   <entry>
@@ -1582,7 +1701,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#x65;&#110;&#120;&#x75;&#x40;&#x74;&#x65;&#110;&#99;&#101;&#110;&#x74;&#46;&#x63;&#x6f;&#109;">&#108;&#x65;&#x65;&#110;&#120;&#x75;&#x40;&#x74;&#x65;&#110;&#99;&#101;&#110;&#x74;&#46;&#x63;&#x6f;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#101;&#110;&#120;&#x75;&#64;&#116;&#101;&#110;&#x63;&#x65;&#x6e;&#116;&#46;&#99;&#111;&#109;">&#x6c;&#101;&#101;&#110;&#120;&#x75;&#64;&#116;&#101;&#110;&#x63;&#x65;&#x6e;&#116;&#46;&#99;&#111;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -2370,192 +2489,6 @@
       </tags>
   </entry>
   <entry>
-    <title>分析聚焦感情而设计的游戏品类</title>
-    <url>/archives/86c9b0ee.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh7yu5uj06j312w0lv7i7.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/101068479/Minecraft-Collection?tracking_source=search_projects_recommended%7Cminecraft">Minecraft Collection</a> by 
-      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a>
-    </i>
-  </font>
-</div>
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主要分成四个部分，首先是关于聚焦情感而诞生的玩法品类，并以女性向游戏为例进行简要分析，提取出特征和关键要素；之后是关于聚焦情感而产生的设计方向，也就是独立游戏，提取出独立游戏的关键要素。</p>
-<a id="more"></a>
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>Kinhu</strong></p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li>HR专业，一名普通的游戏策划</li>
-<li>大三完成第一款独立游戏从而入行</li>
-<li>至今完成20多款游戏作品</li>
-<li>担任过 程序、美术、音乐、策划</li>
-<li>商业游戏界十多年工作经验</li>
-</ul>
-<h3 id="聚焦感情而诞生的玩法品类-女性向游戏"><a href="#聚焦感情而诞生的玩法品类-女性向游戏" class="headerlink" title="聚焦感情而诞生的玩法品类 - 女性向游戏"></a>聚焦感情而诞生的玩法品类 - 女性向游戏</h3><h4 id="一段有趣的对话"><a href="#一段有趣的对话" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
-<ul>
-<li>宫斗卡牌游戏</li>
-<li>策略性 玩法</li>
-<li>好多帅哥 很多漂亮的衣服</li>
-</ul>
-</blockquote>
-<h4 id="女性向游戏"><a href="#女性向游戏" class="headerlink" title="女性向游戏"></a>女性向游戏</h4><ul>
-<li>以女性<strong>精神诉求</strong>为<strong>出发点</strong>进行设计</li>
-<li>以女性<strong>基础需求</strong>作为<strong>核心</strong>进行设计</li>
-</ul>
-<h3 id="该品类的特征和关键要素-共性三要素"><a href="#该品类的特征和关键要素-共性三要素" class="headerlink" title="该品类的特征和关键要素 - 共性三要素"></a>该品类的特征和关键要素 - 共性三要素</h3><h4 id="共性产品提取出的女性关注焦点三要素"><a href="#共性产品提取出的女性关注焦点三要素" class="headerlink" title="共性产品提取出的女性关注焦点三要素"></a>共性产品提取出的女性关注焦点三要素</h4><ul>
-<li>恋爱</li>
-<li>时尚</li>
-<li>装扮</li>
-</ul>
-<h4 id="表现永远是女性向的第一门槛"><a href="#表现永远是女性向的第一门槛" class="headerlink" title="表现永远是女性向的第一门槛"></a>表现永远是女性向的第一门槛</h4><ul>
-<li><p>符合本国大众女性用户审美，排斥情绪最低</p>
-</li>
-<li><p>女性才愿意通过表现看到焦点</p>
-</li>
-</ul>
-<ul>
-<li><p>如果有合格的表现和焦点就能成功，那么这些游戏为何成功？</p>
-<p>女性的心理特点，才是女性向市场存在的核心</p>
-</li>
-</ul>
-<h5 id="女性心理特点抽取出三要素"><a href="#女性心理特点抽取出三要素" class="headerlink" title="女性心理特点抽取出三要素"></a>女性心理特点抽取出三要素</h5><h6 id="群体的归属"><a href="#群体的归属" class="headerlink" title="群体的归属"></a>群体的归属</h6><ul>
-<li>获得群体</li>
-<li>可融入的群体</li>
-<li>值得依赖的群体</li>
-<li>有爱的群体</li>
-</ul>
-<h6 id="纤细的情感"><a href="#纤细的情感" class="headerlink" title="纤细的情感"></a>纤细的情感</h6><ul>
-<li>细腻</li>
-<li>丰富</li>
-<li>多样</li>
-<li>真实</li>
-</ul>
-<h6 id="虚荣的攀比"><a href="#虚荣的攀比" class="headerlink" title="虚荣的攀比"></a>虚荣的攀比</h6><ul>
-<li>独占欲：限定 唯一</li>
-<li>精神上的击败：多 贵 好</li>
-<li>高忠诚度和对外洁癖</li>
-</ul>
-<p>女性的心理特点受到生理和社会观念等长期影响</p>
-<h4 id="聚焦女性情感，才能准确掌握女性向游戏的核心"><a href="#聚焦女性情感，才能准确掌握女性向游戏的核心" class="headerlink" title="聚焦女性情感，才能准确掌握女性向游戏的核心"></a>聚焦女性情感，才能准确掌握女性向游戏的核心</h4><h5 id="共性元素"><a href="#共性元素" class="headerlink" title="共性元素"></a>共性元素</h5><ul>
-<li>恋爱</li>
-<li>时尚 流行 娱乐</li>
-<li>美食</li>
-</ul>
-<h5 id="共性表现"><a href="#共性表现" class="headerlink" title="共性表现"></a>共性表现</h5><ul>
-<li>本国的大众审美</li>
-<li>拒绝另类</li>
-</ul>
-<ul>
-<li><p>共性体验</p>
-<p>同品类游戏中，操作体验轻度，内容体验重度，受到女性价值观认可度高</p>
-</li>
-</ul>
-<h3 id="聚焦感情而产生的设计方向-独立游戏"><a href="#聚焦感情而产生的设计方向-独立游戏" class="headerlink" title="聚焦感情而产生的设计方向 - 独立游戏"></a>聚焦感情而产生的设计方向 - 独立游戏</h3><h4 id="一段有趣的对话-1"><a href="#一段有趣的对话-1" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
-<ul>
-<li>我有一个不错的创意</li>
-<li>我看到的这些游戏里面有许多创意</li>
-<li>所以独立游戏等于创意，我应该可以作出不错的独立游戏</li>
-</ul>
-</blockquote>
-<h4 id="传统定义独立游戏"><a href="#传统定义独立游戏" class="headerlink" title="传统定义独立游戏"></a>传统定义独立游戏</h4><h5 id="不受商业投资的影响"><a href="#不受商业投资的影响" class="headerlink" title="不受商业投资的影响"></a>不受商业投资的影响</h5><ul>
-<li>自由创作 随性所欲</li>
-<li>没有Deadline KPI的项目</li>
-<li>远离你死我活的竞争</li>
-<li>自己做自己的老板</li>
-</ul>
-<h5 id="小团队"><a href="#小团队" class="headerlink" title="小团队"></a>小团队</h5><ul>
-<li>不超过10人的合作规模</li>
-<li>参与者之间是合作伙伴关系而非上下级</li>
-</ul>
-<h5 id="身兼数职"><a href="#身兼数职" class="headerlink" title="身兼数职"></a>身兼数职</h5><p>因为开发量和开发人数不成正比结果导致的</p>
-<h5 id="拥有独立精神的游戏"><a href="#拥有独立精神的游戏" class="headerlink" title="拥有独立精神的游戏"></a>拥有独立精神的游戏</h5><blockquote>
-<p><strong><em>Make Game For Fun</em></strong> </p>
-<p><strong><em>Fun Can Make Money</em></strong></p>
-<p><strong><em>独立之精神，自由之思想</em></strong></p>
-</blockquote>
-<p>在自由创作的情感诉求下所诞生的作品，不受固有玩法和类型的约束</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《我的战争》《万物》</strong> </li>
-</ul>
-</blockquote>
-<p>焦点是如何更好的传达设计师的情感诉求</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《replica》 《史丹利的寓言》</strong></li>
-</ul>
-</blockquote>
-<h3 id="如何利用聚焦的设计来脱颖而出-独立游戏的关键要素"><a href="#如何利用聚焦的设计来脱颖而出-独立游戏的关键要素" class="headerlink" title="如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素"></a>如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素</h3><h4 id="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"><a href="#残酷现实下迫使独立游戏在情感诉求上的表现更为张扬" class="headerlink" title="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"></a>残酷现实下迫使独立游戏在情感诉求上的表现更为张扬</h4><ul>
-<li><p>有限的宣传渠道</p>
-</li>
-<li><p>发行平台过于集中</p>
-</li>
-<li><p>成本控制的经验缺失</p>
-</li>
-<li><p>5%的完成率 1%的成功率</p>
-</li>
-</ul>
-<h4 id="从独立游戏开发进化方式分析出其设计的出发点"><a href="#从独立游戏开发进化方式分析出其设计的出发点" class="headerlink" title="从独立游戏开发进化方式分析出其设计的出发点"></a>从独立游戏开发进化方式分析出其设计的出发点</h4><h5 id="焦点式开发"><a href="#焦点式开发" class="headerlink" title="焦点式开发"></a>焦点式开发</h5><ul>
-<li>游戏创新 - 目标是可落地的</li>
-<li>游戏玩法 - 集中玩法设计，深挖玩法可衍生性</li>
-<li>游戏表现力 - 突围的方法</li>
-<li>成本控制 - 游戏保证完成</li>
-</ul>
-<p>聚焦情感所设计的游戏，不需要太过在意游戏玩法方式，<em>它可以是任意方式</em>。</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《传说之下（Undertale）》</strong></li>
-</ul>
-</blockquote>
-<p>越是贴近于生活的游戏创意，引起情感共鸣的成功可能性越高。</p>
-<blockquote>
-<ul>
-<li>eg. <strong>《Papers Please》 《迷你小地铁》</strong></li>
-</ul>
-</blockquote>
-<p>足以让玩家衍生出情感创作的作品，是优秀独立游戏的特征。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh7z3ds8dwj31lz0u07wh.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.pixiv.net/artworks/64559533">日本語版公式リリース</a> by 
-      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
-    </i>
-  </font>
-</div>
-
-
-
-<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>弗兰克 - 奥哈拉，美国当代最著名、最有影响力的纽约派诗人之一，《动物》是一首挽歌式的作品，作者用它凭吊逝去的恋情。</p>
-<p>美国独立游戏峰会时一位独立游戏制作人将此诗发给了现场所有独立游戏人，以此诗借喻鼓励全世界的独立游戏制作人，勿忘独立游戏制作最初带给他们的美好及感动。</p>
-<blockquote>
-<p><em>你还记得从前那段 &emsp; 我们最初的模样吗</em><br><em>每天啃着一个苹果 &emsp; 一天一天地变胖</em><br><em>感慨着时光地流逝 &emsp; 偶尔用一些小伎俩</em><br><em>试着做一些小突破 &emsp; 我们整个过往经历</em><br><em>就像一顿丰盛晚餐 &emsp; 不需要去计算时间</em><br><em>仅仅用冰块和白水 &emsp; 就能调制出鸡尾酒</em><br><strong><em>只要你和我在一起 &emsp; 我不会希望快一些</em></strong><br><strong><em>我也不会一无所知 &emsp; 你就是我这生命中</em></strong><br><strong><em>&emsp;&emsp;&emsp;&emsp;&emsp;最美好的一个存在</em></strong><br>&emsp;</p>
-</blockquote>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a><br/>
-      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
-    </i>
-  </font>
-</div>
-
-]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>INDIE</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>美国游戏市场概况</title>
     <url>/archives/24a69431.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghh8o4l8ovj312w0t6aea.jpg"></p>
@@ -3078,6 +3011,192 @@
       </categories>
       <tags>
         <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分析聚焦感情而设计的游戏品类</title>
+    <url>/archives/86c9b0ee.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh7yu5uj06j312w0lv7i7.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/101068479/Minecraft-Collection?tracking_source=search_projects_recommended%7Cminecraft">Minecraft Collection</a> by 
+      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a>
+    </i>
+  </font>
+</div>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主要分成四个部分，首先是关于聚焦情感而诞生的玩法品类，并以女性向游戏为例进行简要分析，提取出特征和关键要素；之后是关于聚焦情感而产生的设计方向，也就是独立游戏，提取出独立游戏的关键要素。</p>
+<a id="more"></a>
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>Kinhu</strong></p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+<li>HR专业，一名普通的游戏策划</li>
+<li>大三完成第一款独立游戏从而入行</li>
+<li>至今完成20多款游戏作品</li>
+<li>担任过 程序、美术、音乐、策划</li>
+<li>商业游戏界十多年工作经验</li>
+</ul>
+<h3 id="聚焦感情而诞生的玩法品类-女性向游戏"><a href="#聚焦感情而诞生的玩法品类-女性向游戏" class="headerlink" title="聚焦感情而诞生的玩法品类 - 女性向游戏"></a>聚焦感情而诞生的玩法品类 - 女性向游戏</h3><h4 id="一段有趣的对话"><a href="#一段有趣的对话" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
+<ul>
+<li>宫斗卡牌游戏</li>
+<li>策略性 玩法</li>
+<li>好多帅哥 很多漂亮的衣服</li>
+</ul>
+</blockquote>
+<h4 id="女性向游戏"><a href="#女性向游戏" class="headerlink" title="女性向游戏"></a>女性向游戏</h4><ul>
+<li>以女性<strong>精神诉求</strong>为<strong>出发点</strong>进行设计</li>
+<li>以女性<strong>基础需求</strong>作为<strong>核心</strong>进行设计</li>
+</ul>
+<h3 id="该品类的特征和关键要素-共性三要素"><a href="#该品类的特征和关键要素-共性三要素" class="headerlink" title="该品类的特征和关键要素 - 共性三要素"></a>该品类的特征和关键要素 - 共性三要素</h3><h4 id="共性产品提取出的女性关注焦点三要素"><a href="#共性产品提取出的女性关注焦点三要素" class="headerlink" title="共性产品提取出的女性关注焦点三要素"></a>共性产品提取出的女性关注焦点三要素</h4><ul>
+<li>恋爱</li>
+<li>时尚</li>
+<li>装扮</li>
+</ul>
+<h4 id="表现永远是女性向的第一门槛"><a href="#表现永远是女性向的第一门槛" class="headerlink" title="表现永远是女性向的第一门槛"></a>表现永远是女性向的第一门槛</h4><ul>
+<li><p>符合本国大众女性用户审美，排斥情绪最低</p>
+</li>
+<li><p>女性才愿意通过表现看到焦点</p>
+</li>
+</ul>
+<ul>
+<li><p>如果有合格的表现和焦点就能成功，那么这些游戏为何成功？</p>
+<p>女性的心理特点，才是女性向市场存在的核心</p>
+</li>
+</ul>
+<h5 id="女性心理特点抽取出三要素"><a href="#女性心理特点抽取出三要素" class="headerlink" title="女性心理特点抽取出三要素"></a>女性心理特点抽取出三要素</h5><h6 id="群体的归属"><a href="#群体的归属" class="headerlink" title="群体的归属"></a>群体的归属</h6><ul>
+<li>获得群体</li>
+<li>可融入的群体</li>
+<li>值得依赖的群体</li>
+<li>有爱的群体</li>
+</ul>
+<h6 id="纤细的情感"><a href="#纤细的情感" class="headerlink" title="纤细的情感"></a>纤细的情感</h6><ul>
+<li>细腻</li>
+<li>丰富</li>
+<li>多样</li>
+<li>真实</li>
+</ul>
+<h6 id="虚荣的攀比"><a href="#虚荣的攀比" class="headerlink" title="虚荣的攀比"></a>虚荣的攀比</h6><ul>
+<li>独占欲：限定 唯一</li>
+<li>精神上的击败：多 贵 好</li>
+<li>高忠诚度和对外洁癖</li>
+</ul>
+<p>女性的心理特点受到生理和社会观念等长期影响</p>
+<h4 id="聚焦女性情感，才能准确掌握女性向游戏的核心"><a href="#聚焦女性情感，才能准确掌握女性向游戏的核心" class="headerlink" title="聚焦女性情感，才能准确掌握女性向游戏的核心"></a>聚焦女性情感，才能准确掌握女性向游戏的核心</h4><h5 id="共性元素"><a href="#共性元素" class="headerlink" title="共性元素"></a>共性元素</h5><ul>
+<li>恋爱</li>
+<li>时尚 流行 娱乐</li>
+<li>美食</li>
+</ul>
+<h5 id="共性表现"><a href="#共性表现" class="headerlink" title="共性表现"></a>共性表现</h5><ul>
+<li>本国的大众审美</li>
+<li>拒绝另类</li>
+</ul>
+<ul>
+<li><p>共性体验</p>
+<p>同品类游戏中，操作体验轻度，内容体验重度，受到女性价值观认可度高</p>
+</li>
+</ul>
+<h3 id="聚焦感情而产生的设计方向-独立游戏"><a href="#聚焦感情而产生的设计方向-独立游戏" class="headerlink" title="聚焦感情而产生的设计方向 - 独立游戏"></a>聚焦感情而产生的设计方向 - 独立游戏</h3><h4 id="一段有趣的对话-1"><a href="#一段有趣的对话-1" class="headerlink" title="一段有趣的对话"></a>一段有趣的对话</h4><blockquote>
+<ul>
+<li>我有一个不错的创意</li>
+<li>我看到的这些游戏里面有许多创意</li>
+<li>所以独立游戏等于创意，我应该可以作出不错的独立游戏</li>
+</ul>
+</blockquote>
+<h4 id="传统定义独立游戏"><a href="#传统定义独立游戏" class="headerlink" title="传统定义独立游戏"></a>传统定义独立游戏</h4><h5 id="不受商业投资的影响"><a href="#不受商业投资的影响" class="headerlink" title="不受商业投资的影响"></a>不受商业投资的影响</h5><ul>
+<li>自由创作 随性所欲</li>
+<li>没有Deadline KPI的项目</li>
+<li>远离你死我活的竞争</li>
+<li>自己做自己的老板</li>
+</ul>
+<h5 id="小团队"><a href="#小团队" class="headerlink" title="小团队"></a>小团队</h5><ul>
+<li>不超过10人的合作规模</li>
+<li>参与者之间是合作伙伴关系而非上下级</li>
+</ul>
+<h5 id="身兼数职"><a href="#身兼数职" class="headerlink" title="身兼数职"></a>身兼数职</h5><p>因为开发量和开发人数不成正比结果导致的</p>
+<h5 id="拥有独立精神的游戏"><a href="#拥有独立精神的游戏" class="headerlink" title="拥有独立精神的游戏"></a>拥有独立精神的游戏</h5><blockquote>
+<p><strong><em>Make Game For Fun</em></strong> </p>
+<p><strong><em>Fun Can Make Money</em></strong></p>
+<p><strong><em>独立之精神，自由之思想</em></strong></p>
+</blockquote>
+<p>在自由创作的情感诉求下所诞生的作品，不受固有玩法和类型的约束</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《我的战争》《万物》</strong> </li>
+</ul>
+</blockquote>
+<p>焦点是如何更好的传达设计师的情感诉求</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《replica》 《史丹利的寓言》</strong></li>
+</ul>
+</blockquote>
+<h3 id="如何利用聚焦的设计来脱颖而出-独立游戏的关键要素"><a href="#如何利用聚焦的设计来脱颖而出-独立游戏的关键要素" class="headerlink" title="如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素"></a>如何利用聚焦的设计来脱颖而出 - 独立游戏的关键要素</h3><h4 id="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"><a href="#残酷现实下迫使独立游戏在情感诉求上的表现更为张扬" class="headerlink" title="残酷现实下迫使独立游戏在情感诉求上的表现更为张扬"></a>残酷现实下迫使独立游戏在情感诉求上的表现更为张扬</h4><ul>
+<li><p>有限的宣传渠道</p>
+</li>
+<li><p>发行平台过于集中</p>
+</li>
+<li><p>成本控制的经验缺失</p>
+</li>
+<li><p>5%的完成率 1%的成功率</p>
+</li>
+</ul>
+<h4 id="从独立游戏开发进化方式分析出其设计的出发点"><a href="#从独立游戏开发进化方式分析出其设计的出发点" class="headerlink" title="从独立游戏开发进化方式分析出其设计的出发点"></a>从独立游戏开发进化方式分析出其设计的出发点</h4><h5 id="焦点式开发"><a href="#焦点式开发" class="headerlink" title="焦点式开发"></a>焦点式开发</h5><ul>
+<li>游戏创新 - 目标是可落地的</li>
+<li>游戏玩法 - 集中玩法设计，深挖玩法可衍生性</li>
+<li>游戏表现力 - 突围的方法</li>
+<li>成本控制 - 游戏保证完成</li>
+</ul>
+<p>聚焦情感所设计的游戏，不需要太过在意游戏玩法方式，<em>它可以是任意方式</em>。</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《传说之下（Undertale）》</strong></li>
+</ul>
+</blockquote>
+<p>越是贴近于生活的游戏创意，引起情感共鸣的成功可能性越高。</p>
+<blockquote>
+<ul>
+<li>eg. <strong>《Papers Please》 《迷你小地铁》</strong></li>
+</ul>
+</blockquote>
+<p>足以让玩家衍生出情感创作的作品，是优秀独立游戏的特征。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh7z3ds8dwj31lz0u07wh.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.pixiv.net/artworks/64559533">日本語版公式リリース</a> by 
+      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>弗兰克 - 奥哈拉，美国当代最著名、最有影响力的纽约派诗人之一，《动物》是一首挽歌式的作品，作者用它凭吊逝去的恋情。</p>
+<p>美国独立游戏峰会时一位独立游戏制作人将此诗发给了现场所有独立游戏人，以此诗借喻鼓励全世界的独立游戏制作人，勿忘独立游戏制作最初带给他们的美好及感动。</p>
+<blockquote>
+<p><em>你还记得从前那段 &emsp; 我们最初的模样吗</em><br><em>每天啃着一个苹果 &emsp; 一天一天地变胖</em><br><em>感慨着时光地流逝 &emsp; 偶尔用一些小伎俩</em><br><em>试着做一些小突破 &emsp; 我们整个过往经历</em><br><em>就像一顿丰盛晚餐 &emsp; 不需要去计算时间</em><br><em>仅仅用冰块和白水 &emsp; 就能调制出鸡尾酒</em><br><strong><em>只要你和我在一起 &emsp; 我不会希望快一些</em></strong><br><strong><em>我也不会一无所知 &emsp; 你就是我这生命中</em></strong><br><strong><em>&emsp;&emsp;&emsp;&emsp;&emsp;最美好的一个存在</em></strong><br>&emsp;</p>
+</blockquote>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a><br/>
+      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
+    </i>
+  </font>
+</div>
+
+]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>INDIE</tag>
       </tags>
   </entry>
   <entry>
@@ -6087,6 +6206,68 @@
       </tags>
   </entry>
   <entry>
+    <title>开始画像素画#5</title>
+    <url>/archives/9b57cb2b.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zjv505rj31hc0u0427.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解关于抗锯齿与色带。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxvnuszj30u008c74z.jpg"></p>
+<p>系列第 5 节。</p>
+<p>这节稍微复杂点，可能比其他的几篇更进阶点。</p>
+<p>如果不能一下看懂也没关系，很多都是我的个人观点，而且抗锯齿和色带问题在像素画社区里观点很多。</p>
+<p>开始我不会讲软件，而是重点讲解这些概念，在接下来部分我会推荐一些练习。</p>
+<h3 id="什么是锯齿，为什么大家不喜欢"><a href="#什么是锯齿，为什么大家不喜欢" class="headerlink" title="什么是锯齿，为什么大家不喜欢"></a>什么是锯齿，为什么大家不喜欢</h3><p>在像素画里的 anti-alias 的 alias 我们一般说的是锯齿，或者说台阶效果。一种在低分辨下很容易注意到的效果。这个效果本身没有好坏，有时甚至是某种故意追求的风格，但有时候也会让画面很难看懂。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxu5ffrj30dp07fjr5.jpg"></p>
+<p>上面的例子里能看到，第一个图有很多尖锐的边，尤其是火焰周围。有些区域甚至很难理解在发生什么。</p>
+<p>这是因为像素画是事物的低分辨率表现。如果你这样想，就可以区分出“有意的线”和实际像素。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxs0u51j30fi07kwe9.jpg"></p>
+<p>基本上整个像素画流程就包括了把线转化到低分辨率画布上，并<strong>决定哪些像素要填充</strong>。有些像素明显在线的范围内，所以要填充。有些明显在外面，就不用填充。问题是那些刚刚贴到线上或者一半在线上的，才是问题所在。抗锯齿就是用中间色来填充这些像素，来创造一种柔和过渡的错觉。</p>
+<h3 id="如何画抗锯齿"><a href="#如何画抗锯齿" class="headerlink" title="如何画抗锯齿"></a>如何画抗锯齿</h3><p>简单讲: 有时候画的线不能完全符合像素网格，就需要使用中间色来让它看起来好点。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxst7nsj306a09r741.jpg"></p>
+<p>这个问题没有单一的解决方法，你可以用多种方法表现“想要的线”，取决于你的分辨率，画风，以及可用的颜色有多少。</p>
+<p>使用中间混合颜色的像素，在远处看算是半个像素。你可以利用这个来把边角软化一点。</p>
+<p>一个画反锯齿的好方法是搜索任何比 <code>1-1</code> 长的台阶图案：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxyf0g9j30rp04j0qh.jpg"></p>
+<p>找到 <code>2</code> 个像素或者更长的台阶之后，可以开始柔化他们，通过在台阶末尾添加半色的像素。要添加的像素数量取决于台阶的长度，以及可用的颜色。有时候这样会让物体扩张太多，这样的话你可以用半色的像素替代一个（有时更多）原来图案里的像素。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxsa2xaj30rg04c0jq.jpg"></p>
+<p>改变颜色或者饱和度影响不大，只要你是正确的在插值颜色的亮度。这在使用非常小的调色盘时很有用。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxuo4saj30ak0aiq2p.jpg"></p>
+<p>在简单的斜坡上画这些就已经很复杂了，在真正的画上面复杂度更是几何级增加。小的画布上画抗锯齿会影响到其他东西，带来很多副作用。我们讲几个常见的。</p>
+<p><strong>太多抗锯齿</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxv3quwj30f00e7jr5.jpg"></p>
+<p>最常见的问题就是过度的做抗锯齿，导致所有东西都很模糊。通过使用更少的半色，更少的台阶，以及不要在 <code>45</code> 度的线（<code>1-1</code> 的台阶）或者直线上用抗锯齿，来避免这种情况。</p>
+<p><strong>抗锯齿太短</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxtkq1xj30oa0ae3yd.jpg"></p>
+<p>这是不太常见的情况，而且可能是有意为之，尤其是在受限的调色盘上，不过有时候抗锯齿的半色像素比台阶本身的长度短太多。记住一个长的台阶应该有个相对长的抗锯齿半色条纹。</p>
+<p><strong>半色亮度错误</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxwdze1j30gl0gn742.jpg"></p>
+<p>之前也提到了，半色可以用不同的颜色，只要亮度感觉是两种要混合颜色的桥梁就可以。这里出的问题就是没有考虑这一点，相对于背景把半色画的太暗，或者太亮。</p>
+<p>有时候，当背景比物体还亮，这可以用来模拟阴影，也算是有用。但记住这种情况下其实是在画明暗而不是画抗锯齿。</p>
+<p><strong>色带</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxx4ggpj30cu0bi0ni.jpg"></p>
+<p>色带问题是当我们画了几个颜色完全不同的色带时出现的。这通常是个问题，会让物体看起来很平，有时候模糊。</p>
+<p>在这个球体的例子里，我把色带压缩到很小的区域。我把这种方法称为色带压缩，之前的阴影教程了也提到了。</p>
+<p>斜坡上就没办法这么压缩了。所以我旋转了渐变的方向。这也可以画出不错的抗锯齿，原来的是方向画错了，导致的色带问题。要总是注意这点，水平的斜坡应该加水平的抗锯齿，垂直的斜坡加垂直的抗锯齿。</p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在我建议你去实际的试试我这里讲的东西。你可以先从简单的 <code>2-1</code> 黑色斜坡开始，再试试圆圈。保持低颜色数，画布不要超过 <code>48</code> 乘 <code>48</code>。</p>
+<p>在这之后，你可以试试更多颜色，真实的画些东西。还是从简单的开始，像是球体，苹果，之后再到复杂的形状，比如人。</p>
+<p>总是注意画面里画出的色带，或者可以改进的抗锯齿。记住每个像素都是个抉择，每个像素都应该让你的画更好，画的更可读。如果抗锯齿带来的效果弊大于利，就去掉它。</p>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开始画像素画#4</title>
     <url>/archives/ec50fbbd.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zj79coyj31hc0u00x5.jpg"></p>
@@ -6160,68 +6341,6 @@
 <h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>练习！找更多的照片和其他的照明示例，直接复制，越多越好。去实验，用很有限的调色盘，你能否用一个颜色代替其他颜色？学习是关键，放大图片，看看他们的像素是什么样的，缩放照片看看什么可行，什么不可行。</p>
 <p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhurprpryj30e60e6glf.jpg"></p>
 <p>注意观察周围，在街上走时，看看光在建筑上的效果，看看它如何穿过你的手指。没什么比观察日常生活更能教会你明和暗的知识了。</p>
-]]></content>
-      <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开始画像素画#5</title>
-    <url>/archives/9b57cb2b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zjv505rj31hc0u0427.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解关于抗锯齿与色带。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxvnuszj30u008c74z.jpg"></p>
-<p>系列第 5 节。</p>
-<p>这节稍微复杂点，可能比其他的几篇更进阶点。</p>
-<p>如果不能一下看懂也没关系，很多都是我的个人观点，而且抗锯齿和色带问题在像素画社区里观点很多。</p>
-<p>开始我不会讲软件，而是重点讲解这些概念，在接下来部分我会推荐一些练习。</p>
-<h3 id="什么是锯齿，为什么大家不喜欢"><a href="#什么是锯齿，为什么大家不喜欢" class="headerlink" title="什么是锯齿，为什么大家不喜欢"></a>什么是锯齿，为什么大家不喜欢</h3><p>在像素画里的 anti-alias 的 alias 我们一般说的是锯齿，或者说台阶效果。一种在低分辨下很容易注意到的效果。这个效果本身没有好坏，有时甚至是某种故意追求的风格，但有时候也会让画面很难看懂。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxu5ffrj30dp07fjr5.jpg"></p>
-<p>上面的例子里能看到，第一个图有很多尖锐的边，尤其是火焰周围。有些区域甚至很难理解在发生什么。</p>
-<p>这是因为像素画是事物的低分辨率表现。如果你这样想，就可以区分出“有意的线”和实际像素。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxs0u51j30fi07kwe9.jpg"></p>
-<p>基本上整个像素画流程就包括了把线转化到低分辨率画布上，并<strong>决定哪些像素要填充</strong>。有些像素明显在线的范围内，所以要填充。有些明显在外面，就不用填充。问题是那些刚刚贴到线上或者一半在线上的，才是问题所在。抗锯齿就是用中间色来填充这些像素，来创造一种柔和过渡的错觉。</p>
-<h3 id="如何画抗锯齿"><a href="#如何画抗锯齿" class="headerlink" title="如何画抗锯齿"></a>如何画抗锯齿</h3><p>简单讲: 有时候画的线不能完全符合像素网格，就需要使用中间色来让它看起来好点。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxst7nsj306a09r741.jpg"></p>
-<p>这个问题没有单一的解决方法，你可以用多种方法表现“想要的线”，取决于你的分辨率，画风，以及可用的颜色有多少。</p>
-<p>使用中间混合颜色的像素，在远处看算是半个像素。你可以利用这个来把边角软化一点。</p>
-<p>一个画反锯齿的好方法是搜索任何比 <code>1-1</code> 长的台阶图案：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxyf0g9j30rp04j0qh.jpg"></p>
-<p>找到 <code>2</code> 个像素或者更长的台阶之后，可以开始柔化他们，通过在台阶末尾添加半色的像素。要添加的像素数量取决于台阶的长度，以及可用的颜色。有时候这样会让物体扩张太多，这样的话你可以用半色的像素替代一个（有时更多）原来图案里的像素。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxsa2xaj30rg04c0jq.jpg"></p>
-<p>改变颜色或者饱和度影响不大，只要你是正确的在插值颜色的亮度。这在使用非常小的调色盘时很有用。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxuo4saj30ak0aiq2p.jpg"></p>
-<p>在简单的斜坡上画这些就已经很复杂了，在真正的画上面复杂度更是几何级增加。小的画布上画抗锯齿会影响到其他东西，带来很多副作用。我们讲几个常见的。</p>
-<p><strong>太多抗锯齿</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxv3quwj30f00e7jr5.jpg"></p>
-<p>最常见的问题就是过度的做抗锯齿，导致所有东西都很模糊。通过使用更少的半色，更少的台阶，以及不要在 <code>45</code> 度的线（<code>1-1</code> 的台阶）或者直线上用抗锯齿，来避免这种情况。</p>
-<p><strong>抗锯齿太短</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxtkq1xj30oa0ae3yd.jpg"></p>
-<p>这是不太常见的情况，而且可能是有意为之，尤其是在受限的调色盘上，不过有时候抗锯齿的半色像素比台阶本身的长度短太多。记住一个长的台阶应该有个相对长的抗锯齿半色条纹。</p>
-<p><strong>半色亮度错误</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxwdze1j30gl0gn742.jpg"></p>
-<p>之前也提到了，半色可以用不同的颜色，只要亮度感觉是两种要混合颜色的桥梁就可以。这里出的问题就是没有考虑这一点，相对于背景把半色画的太暗，或者太亮。</p>
-<p>有时候，当背景比物体还亮，这可以用来模拟阴影，也算是有用。但记住这种情况下其实是在画明暗而不是画抗锯齿。</p>
-<p><strong>色带</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxx4ggpj30cu0bi0ni.jpg"></p>
-<p>色带问题是当我们画了几个颜色完全不同的色带时出现的。这通常是个问题，会让物体看起来很平，有时候模糊。</p>
-<p>在这个球体的例子里，我把色带压缩到很小的区域。我把这种方法称为色带压缩，之前的阴影教程了也提到了。</p>
-<p>斜坡上就没办法这么压缩了。所以我旋转了渐变的方向。这也可以画出不错的抗锯齿，原来的是方向画错了，导致的色带问题。要总是注意这点，水平的斜坡应该加水平的抗锯齿，垂直的斜坡加垂直的抗锯齿。</p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在我建议你去实际的试试我这里讲的东西。你可以先从简单的 <code>2-1</code> 黑色斜坡开始，再试试圆圈。保持低颜色数，画布不要超过 <code>48</code> 乘 <code>48</code>。</p>
-<p>在这之后，你可以试试更多颜色，真实的画些东西。还是从简单的开始，像是球体，苹果，之后再到复杂的形状，比如人。</p>
-<p>总是注意画面里画出的色带，或者可以改进的抗锯齿。记住每个像素都是个抉择，每个像素都应该让你的画更好，画的更可读。如果抗锯齿带来的效果弊大于利，就去掉它。</p>
 ]]></content>
       <categories>
         <category>开始画像素画 (Making Pixel Art)</category>
@@ -6543,57 +6662,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#121;&#111;&#x6e;&#103;&#64;&#116;&#x73;&#105;&#110;&#x67;&#104;&#x75;&#x61;&#x2e;&#101;&#x64;&#x75;&#46;&#x63;&#110;">&#120;&#121;&#111;&#x6e;&#103;&#64;&#116;&#x73;&#105;&#110;&#x67;&#104;&#x75;&#x61;&#x2e;&#101;&#x64;&#x75;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#x79;&#111;&#x6e;&#103;&#64;&#x74;&#115;&#105;&#110;&#x67;&#104;&#x75;&#x61;&#46;&#101;&#100;&#x75;&#46;&#99;&#x6e;">&#120;&#x79;&#111;&#x6e;&#103;&#64;&#x74;&#115;&#105;&#110;&#x67;&#104;&#x75;&#x61;&#46;&#101;&#100;&#x75;&#46;&#99;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#x75;&#99;&#104;&#101;&#x6e;&#x40;&#x6d;&#97;&#x69;&#108;&#46;&#x74;&#115;&#105;&#x6e;&#103;&#104;&#x75;&#x61;&#x2e;&#x65;&#100;&#117;&#46;&#99;&#x6e;">&#x79;&#x75;&#99;&#104;&#101;&#x6e;&#x40;&#x6d;&#97;&#x69;&#108;&#46;&#x74;&#115;&#105;&#x6e;&#103;&#104;&#x75;&#x61;&#x2e;&#x65;&#100;&#117;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#117;&#x63;&#x68;&#x65;&#x6e;&#x40;&#109;&#97;&#x69;&#x6c;&#46;&#x74;&#115;&#x69;&#x6e;&#x67;&#104;&#x75;&#97;&#x2e;&#x65;&#x64;&#117;&#46;&#99;&#x6e;">&#121;&#117;&#x63;&#x68;&#x65;&#x6e;&#x40;&#109;&#97;&#x69;&#x6c;&#46;&#x74;&#115;&#x69;&#x6e;&#x67;&#104;&#x75;&#97;&#x2e;&#x65;&#x64;&#117;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#116;&#x65;&#x72;&#110;&#97;&#x6c;&#x2e;&#110;&#48;&#x38;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#101;&#116;&#x65;&#x72;&#110;&#97;&#x6c;&#x2e;&#110;&#48;&#x38;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#x74;&#x65;&#x72;&#110;&#97;&#x6c;&#x2e;&#110;&#48;&#x38;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#101;&#x74;&#x65;&#x72;&#110;&#97;&#x6c;&#x2e;&#110;&#48;&#x38;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#x62;&#106;&#x65;&#x63;&#x74;&#x6b;&#x75;&#97;&#x6e;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#x6f;&#x62;&#106;&#x65;&#x63;&#x74;&#x6b;&#x75;&#97;&#x6e;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x6f;&#98;&#106;&#x65;&#99;&#116;&#x6b;&#x75;&#97;&#x6e;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;">&#x6f;&#98;&#106;&#x65;&#99;&#116;&#x6b;&#x75;&#97;&#x6e;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#x72;&#100;&#x66;&#x72;&#97;&#110;&#107;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#x6f;&#109;">&#x63;&#x72;&#100;&#x66;&#x72;&#97;&#110;&#107;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#99;&#x72;&#x64;&#102;&#x72;&#97;&#110;&#x6b;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#99;&#x72;&#x64;&#102;&#x72;&#97;&#110;&#x6b;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#x61;&#99;&#99;&#x6f;&#x72;&#97;&#x77;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#x74;&#x61;&#99;&#99;&#x6f;&#x72;&#97;&#x77;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x74;&#97;&#x63;&#99;&#111;&#114;&#97;&#119;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;">&#x74;&#97;&#x63;&#99;&#111;&#114;&#97;&#119;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#120;&#105;&#110;&#x67;&#x30;&#48;&#x30;&#49;&#64;&#49;&#x36;&#x33;&#x2e;&#99;&#x6f;&#109;">&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#120;&#105;&#110;&#x67;&#x30;&#48;&#x30;&#49;&#64;&#49;&#x36;&#x33;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x78;&#x69;&#110;&#121;&#x75;&#110;&#120;&#x69;&#x6e;&#103;&#x30;&#x30;&#x30;&#49;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#111;&#109;">&#x78;&#x69;&#110;&#121;&#x75;&#110;&#120;&#x69;&#x6e;&#103;&#x30;&#x30;&#x30;&#49;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#x6e;&#111;&#99;&#x75;&#105;&#x6c;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#x67;&#x6e;&#111;&#99;&#x75;&#105;&#x6c;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#103;&#x6e;&#x6f;&#x63;&#x75;&#x69;&#x6c;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#103;&#x6e;&#x6f;&#x63;&#x75;&#x69;&#x6c;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#121;&#x61;&#x69;&#x72;&#x69;&#97;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x6d;&#121;&#x61;&#x69;&#x72;&#x69;&#97;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x6d;&#121;&#97;&#x69;&#x72;&#x69;&#97;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#x6d;&#121;&#97;&#x69;&#x72;&#x69;&#97;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#104;&#97;&#110;&#103;&#114;&#x61;&#105;&#110;&#57;&#49;&#x31;&#x40;&#49;&#x36;&#51;&#46;&#x63;&#111;&#x6d;">&#122;&#104;&#97;&#110;&#103;&#114;&#x61;&#105;&#110;&#57;&#49;&#x31;&#x40;&#49;&#x36;&#51;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#122;&#x68;&#97;&#110;&#x67;&#114;&#97;&#x69;&#110;&#57;&#49;&#49;&#64;&#x31;&#x36;&#x33;&#x2e;&#x63;&#111;&#x6d;">&#122;&#x68;&#97;&#110;&#x67;&#114;&#97;&#x69;&#110;&#57;&#49;&#49;&#64;&#x31;&#x36;&#x33;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#103;&#120;&#120;&#49;&#50;&#x30;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x67;&#103;&#120;&#120;&#49;&#50;&#x30;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#x67;&#120;&#x78;&#49;&#50;&#x30;&#64;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#103;&#x67;&#120;&#x78;&#49;&#50;&#x30;&#64;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -7106,46 +7225,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Aseprite教学-动画</title>
-    <url>/archives/88d7e2f9.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><a id="more"></a>
-
-
-
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukz3p07j313g0m8dfr.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul1wou3j313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukrnscmj313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukv9f17j313g0m8jra.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul2b2hij313g0m8gli.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouksphvbj313g0m8dfq.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukzl9ggj313g0m8gli.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul2q4r2j313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukw8s9cj313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukr1vkjj313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukzvf2oj313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukwqxqcj313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul4oipdj313g0m8gli.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul3q1tjj313g0m8dfq.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul52fhcj313g0m8gli.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul0e2x2j313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukxky4bj313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul44c0wj313g0m83yf.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul0yb3ej313g0m8a9z.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul19vjsj313g0m83yf.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul37d40j313g0m8dfr.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukycj5kj313g0m8a9z.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukugrr3j313g0m80sn.jpg"></p>
-]]></content>
-      <categories>
-        <category>像素美工 (Pixel Art Designing)</category>
-      </categories>
-      <tags>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Aseprite教学-绘画技巧与常见问题</title>
     <url>/archives/4db0f4e3.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将列举像素绘画中的绘画技巧与常见问题。</p>
@@ -7175,6 +7254,46 @@
 <p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousvoz8bj313g0m8t8o.jpg"></p>
 <p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousl4cu2j313g0m8q2w.jpg"></p>
 <p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousor05vj313g0m80sq.jpg"></p>
+]]></content>
+      <categories>
+        <category>像素美工 (Pixel Art Designing)</category>
+      </categories>
+      <tags>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Aseprite教学-动画</title>
+    <url>/archives/88d7e2f9.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><a id="more"></a>
+
+
+
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukz3p07j313g0m8dfr.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul1wou3j313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukrnscmj313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukv9f17j313g0m8jra.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul2b2hij313g0m8gli.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouksphvbj313g0m8dfq.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukzl9ggj313g0m8gli.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul2q4r2j313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukw8s9cj313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukr1vkjj313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukzvf2oj313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukwqxqcj313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul4oipdj313g0m8gli.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul3q1tjj313g0m8dfq.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul52fhcj313g0m8gli.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul0e2x2j313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukxky4bj313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul44c0wj313g0m83yf.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul0yb3ej313g0m8a9z.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul19vjsj313g0m83yf.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul37d40j313g0m8dfr.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukycj5kj313g0m8a9z.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukugrr3j313g0m80sn.jpg"></p>
 ]]></content>
       <categories>
         <category>像素美工 (Pixel Art Designing)</category>
@@ -8527,8 +8646,8 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
-        <tag>Fluid</tag>
         <tag>Blog</tag>
+        <tag>Fluid</tag>
       </tags>
   </entry>
   <entry>
@@ -8822,8 +8941,8 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
-        <tag>Blog</tag>
         <tag>NexT</tag>
+        <tag>Blog</tag>
       </tags>
   </entry>
   <entry>
@@ -9427,8 +9546,8 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
-        <tag>Blog</tag>
         <tag>NexT</tag>
+        <tag>Blog</tag>
       </tags>
   </entry>
   <entry>
@@ -13252,8 +13371,8 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
-        <tag>Fluid</tag>
         <tag>Blog</tag>
+        <tag>Fluid</tag>
       </tags>
   </entry>
   <entry>
