@@ -3622,116 +3622,91 @@
 <li><strong>主持人、解说、教师</strong></li>
 <li><strong>游戏测评师</strong></li>
 </ul>
-<h3 id="格斗游戏的定义与术语"><a href="#格斗游戏的定义与术语" class="headerlink" title="格斗游戏的定义与术语"></a>格斗游戏的定义与术语</h3><ul>
-<li>格斗游戏<ul>
+<h3 id="格斗游戏的定义与术语"><a href="#格斗游戏的定义与术语" class="headerlink" title="格斗游戏的定义与术语"></a>格斗游戏的定义与术语</h3><h4 id="格斗游戏"><a href="#格斗游戏" class="headerlink" title="格斗游戏"></a>格斗游戏</h4><ul>
 <li>Fight Technology Game(FTG) +动作游戏的一种</li>
 <li>格斗游戏在动作游戏的基础上，会被强烈要求更<em>精妙的任务判定</em>与<em>招式设定</em>（精确到帧），以达到公平竞争的目的</li>
 <li>动作游戏与格斗游戏关键性区别在于<em>操作</em>与<em>战斗策略</em></li>
 </ul>
+<h4 id="2D格斗游戏与3D格斗游戏"><a href="#2D格斗游戏与3D格斗游戏" class="headerlink" title="2D格斗游戏与3D格斗游戏"></a>2D格斗游戏与3D格斗游戏</h4><ul>
+<li><p>在格斗游戏中，2D与3D通常指游戏中角色的移动空间</p>
 </li>
-<li>2D格斗游戏与3D格斗游戏<ul>
-<li>在格斗游戏中，2D与3D通常指游戏中角色的移动空间</li>
-<li>2D格斗只能前后上下移动</li>
-<li>3D格斗可以360度横移</li>
-<li>从感官来看，即使是3D人物建模的格斗游戏也可能是2D格斗</li>
-</ul>
+<li><p>2D格斗只能前后上下移动</p>
 </li>
-<li>输入设备<ul>
+<li><p>3D格斗可以360度横移</p>
+</li>
+<li><p>从感官来看，即使是3D人物建模的格斗游戏也可能是2D格斗</p>
+</li>
+<li><p>输入设备</p>
+<ul>
 <li>摇杆</li>
 <li>手柄</li>
 </ul>
 </li>
-<li>格斗术语<ul>
-<li>立回<ul>
-<li>对战双方在攻击对方成功或者防御对方进攻之前所做的一切动作</li>
 </ul>
-</li>
-<li>确反<ul>
-<li>利用对方攻击之后无法行动的硬直来进行反击的行动</li>
+<h4 id="格斗术语"><a href="#格斗术语" class="headerlink" title="格斗术语"></a>格斗术语</h4><ul>
+<li>立回：对战双方在攻击对方成功或者防御对方进攻之前所做的一切动作</li>
+<li>确反：利用对方攻击之后无法行动的硬直来进行反击的行动</li>
+<li>取消：重要连续技构成方式之一</li>
+<li>确认：确认对手及我方的状态</li>
 </ul>
-</li>
-<li>取消<ul>
-<li>重要连续技构成方式之一</li>
-</ul>
-</li>
-<li>确认<ul>
-<li>确认对手及我方的状态</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="知名格斗游戏"><a href="#知名格斗游戏" class="headerlink" title="知名格斗游戏"></a>知名格斗游戏</h3><ul>
-<li>SNK<ul>
+<h3 id="知名格斗游戏"><a href="#知名格斗游戏" class="headerlink" title="知名格斗游戏"></a>知名格斗游戏</h3><h4 id="SNK"><a href="#SNK" class="headerlink" title="SNK"></a>SNK</h4><ul>
 <li>拳皇系列</li>
 <li>侍魂系列</li>
 <li>饿狼传说系列</li>
 </ul>
-</li>
-<li>BANDAI NAMCO<ul>
+<h4 id="BANDAI-NAMCO"><a href="#BANDAI-NAMCO" class="headerlink" title="BANDAI NAMCO"></a>BANDAI NAMCO</h4><ul>
 <li>铁拳系列</li>
 <li>刀魂系列</li>
 </ul>
-</li>
-<li>ARC SYSTEM WORKS<ul>
+<h4 id="ARC-SYSTEM-WORKS"><a href="#ARC-SYSTEM-WORKS" class="headerlink" title="ARC SYSTEM WORKS"></a>ARC SYSTEM WORKS</h4><ul>
 <li>罪恶装备系列</li>
 <li>苍翼启示录系列</li>
 </ul>
-</li>
-<li>SEGA<ul>
+<h4 id="SEGA"><a href="#SEGA" class="headerlink" title="SEGA"></a>SEGA</h4><ul>
 <li>VR战士系列</li>
 </ul>
-</li>
-<li>CAPCOM<ul>
+<h4 id="CAPCOM"><a href="#CAPCOM" class="headerlink" title="CAPCOM"></a>CAPCOM</h4><ul>
 <li>街头霸王系列</li>
 <li>恶魔战士系列</li>
 </ul>
-</li>
-</ul>
-<h3 id="格斗游戏的发展与演变"><a href="#格斗游戏的发展与演变" class="headerlink" title="格斗游戏的发展与演变"></a>格斗游戏的发展与演变</h3><ul>
-<li><strong>《功夫》</strong><ul>
+<h3 id="格斗游戏的发展与演变"><a href="#格斗游戏的发展与演变" class="headerlink" title="格斗游戏的发展与演变"></a>格斗游戏的发展与演变</h3><h4 id="《功夫》"><a href="#《功夫》" class="headerlink" title="《功夫》"></a><strong>《功夫》</strong></h4><ul>
 <li>1985</li>
 <li>对格斗游戏的发展具有开创先河的意义</li>
 <li>其许多设定延续到后来，成为很多格斗游戏的标准规范</li>
 </ul>
-</li>
-<li><strong>《街头霸王》</strong><ul>
+<h4 id="《街头霸王》"><a href="#《街头霸王》" class="headerlink" title="《街头霸王》"></a><strong>《街头霸王》</strong></h4><ul>
 <li>1987</li>
 <li>格斗游戏的开拓者</li>
 </ul>
-</li>
-<li><strong>《街头霸王2》</strong><ul>
+<h4 id="《街头霸王2》"><a href="#《街头霸王2》" class="headerlink" title="《街头霸王2》"></a><strong>《街头霸王2》</strong></h4><ul>
 <li>1991</li>
 <li>格斗游戏的定义者</li>
 </ul>
+<h4 id="《街头霸王3》"><a href="#《街头霸王3》" class="headerlink" title="《街头霸王3》"></a><strong>《街头霸王3》</strong></h4><ul>
+<li><p>1997</p>
 </li>
-<li><strong>《街头霸王3》</strong><ul>
-<li>1997</li>
-<li>格斗游戏的金字塔顶</li>
-</ul>
+<li><p>格斗游戏的金字塔顶</p>
 </li>
-<li><strong>《街头霸王4》</strong><ul>
+<li><p><strong>《街头霸王4》</strong></p>
+<ul>
 <li>2008</li>
 </ul>
 </li>
-<li><strong>《街头霸王5》</strong><ul>
+<li><p><strong>《街头霸王5》</strong></p>
+<ul>
 <li>2016</li>
 </ul>
 </li>
 </ul>
-<h3 id="如何测评格斗游戏"><a href="#如何测评格斗游戏" class="headerlink" title="如何测评格斗游戏"></a>如何测评格斗游戏</h3><ul>
-<li>测评格斗游戏重点-平衡性（格斗游戏三要素）<ul>
+<h3 id="如何测评格斗游戏"><a href="#如何测评格斗游戏" class="headerlink" title="如何测评格斗游戏"></a>如何测评格斗游戏</h3><h4 id="测评格斗游戏重点-平衡性（格斗游戏三要素）"><a href="#测评格斗游戏重点-平衡性（格斗游戏三要素）" class="headerlink" title="测评格斗游戏重点-平衡性（格斗游戏三要素）"></a>测评格斗游戏重点-平衡性（格斗游戏三要素）</h4><ul>
 <li>动作设计 - 20%</li>
 <li>判定框 - 50%</li>
 <li>帧数表 - 30%</li>
 </ul>
-</li>
-<li>格斗游戏测评重点<ul>
+<h4 id="格斗游戏测评重点"><a href="#格斗游戏测评重点" class="headerlink" title="格斗游戏测评重点"></a>格斗游戏测评重点</h4><ul>
 <li>角色动作设计是否丰富，决定了一款格斗游戏的肉体</li>
 <li>判定框设计是否精准，决定了一款格斗游戏的内在</li>
 <li>帧数表设计是否饱满，决定了一款格斗游戏的灵魂</li>
-</ul>
-</li>
 </ul>
 <h3 id="8-5-格斗游戏的魅力"><a href="#8-5-格斗游戏的魅力" class="headerlink" title="8.5 格斗游戏的魅力"></a>8.5 格斗游戏的魅力</h3><blockquote>
 <p><em>“ Fight Games is……something so GREAT! “</em></p>
@@ -3893,64 +3868,50 @@
 </ul>
 </li>
 </ul>
-<h4 id="怎么创造出具有无限可能的世界？"><a href="#怎么创造出具有无限可能的世界？" class="headerlink" title="怎么创造出具有无限可能的世界？"></a>怎么创造出具有无限可能的世界？</h4><ul>
-<li>设计沙盒游戏的原则<ul>
-<li>顶层设计<ul>
+<h4 id="怎么创造出具有无限可能的世界？"><a href="#怎么创造出具有无限可能的世界？" class="headerlink" title="怎么创造出具有无限可能的世界？"></a>怎么创造出具有无限可能的世界？</h4><p>设计沙盒游戏的原则：顶层设计</p>
+<ul>
 <li>从全局出发</li>
 <li>自上而下的设计方式</li>
 <li>先确定功能的必要性与优先级</li>
-</ul>
-</li>
-</ul>
-</li>
 </ul>
 <h4 id="跨时代的游戏：GTA-–-侠盗猎车手：圣安地列斯"><a href="#跨时代的游戏：GTA-–-侠盗猎车手：圣安地列斯" class="headerlink" title="跨时代的游戏：GTA –  侠盗猎车手：圣安地列斯"></a>跨时代的游戏：GTA –  <strong>侠盗猎车手：圣安地列斯</strong></h4><ul>
 <li>2004</li>
 <li>绝对自由的游戏模式</li>
 <li>前所未见的微缩世界、编剧和细节 + AI</li>
 <li>提供了一个可信而真实的互动世界</li>
-<li>GTA的顶层设计<ul>
-<li>目标：模拟真实的城市犯罪</li>
-<li>分解：真实的城市环境 + 逼真的NPC反应与互动</li>
 </ul>
-</li>
-<li>系统<ul>
+<h5 id="GTA的顶层设计"><a href="#GTA的顶层设计" class="headerlink" title="GTA的顶层设计"></a>GTA的顶层设计</h5><ul>
+<li>目标：模拟真实的城市犯罪</li>
+<li>分解：真实的城市环境 + 逼真的NPC反应与互动<h5 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h5></li>
 <li>巨大的城市群场景</li>
 <li>各类交通工具的模拟</li>
 <li>NPC的AI设计</li>
 <li>玩家角色的声望系统</li>
 </ul>
-</li>
-</ul>
 <h4 id="真人互动的巨大世界：EVE-–-星战前夜（EVE-Online）"><a href="#真人互动的巨大世界：EVE-–-星战前夜（EVE-Online）" class="headerlink" title="真人互动的巨大世界：EVE – 星战前夜（EVE Online）"></a>真人互动的巨大世界：EVE – <strong>星战前夜（EVE Online）</strong></h4><ul>
-<li>2003</li>
-<li>极强调玩家间互动，虚拟宇宙生态圈</li>
-<li>EVE的顶层设计<ul>
-<li>目标：模拟宇宙中的虚拟社会互动</li>
-<li>分解：社会活动 + 社会关系</li>
-</ul>
+<li><p>2003</p>
 </li>
-<li>系统<ul>
-<li>采集、生产建造</li>
-<li>交易、战争</li>
-<li>公会系统</li>
-</ul>
+<li><p>极强调玩家间互动，虚拟宇宙生态圈</p>
+<h5 id="EVE的顶层设计"><a href="#EVE的顶层设计" class="headerlink" title="EVE的顶层设计"></a>EVE的顶层设计</h5></li>
+<li><p>目标：模拟宇宙中的虚拟社会互动</p>
+</li>
+<li><p>分解：社会活动 + 社会关系</p>
+<h5 id="系统-1"><a href="#系统-1" class="headerlink" title="系统"></a>系统</h5></li>
+<li><p>采集、生产建造</p>
+</li>
+<li><p>交易、战争</p>
+</li>
+<li><p>公会系统</p>
 </li>
 </ul>
 <h4 id="创世神话：我的世界-–-《我的世界（Minecraft）》"><a href="#创世神话：我的世界-–-《我的世界（Minecraft）》" class="headerlink" title="创世神话：我的世界 – 《我的世界（Minecraft）》"></a>创世神话：我的世界 – <strong>《我的世界（Minecraft）》</strong></h4><ul>
 <li>2009</li>
-<li>只需要通过‘破坏’和‘建造’这两种行动，用一个个像素小方创造出一整个神奇世界</li>
-<li>我的世界的顶层设计<ul>
+<li>只需要通过‘破坏’和‘建造’这两种行动，用一个个像素小方创造出一整个神奇世界<h5 id="我的世界的顶层设计"><a href="#我的世界的顶层设计" class="headerlink" title="我的世界的顶层设计"></a>我的世界的顶层设计</h5></li>
 <li>目标：模拟创造世界的体验</li>
-<li>分解：对环境进行重塑 + 创造新生事物 + 制定运行规则</li>
-</ul>
-</li>
-<li>系统<ul>
+<li>分解：对环境进行重塑 + 创造新生事物 + 制定运行规则<h5 id="系统-2"><a href="#系统-2" class="headerlink" title="系统"></a>系统</h5></li>
 <li>破坏与建造</li>
 <li>合成系统</li>
 <li>红石系统</li>
-</ul>
-</li>
 </ul>
 <h4 id="奥卡姆剃刀"><a href="#奥卡姆剃刀" class="headerlink" title="奥卡姆剃刀"></a>奥卡姆剃刀</h4><ul>
 <li>如无必要，勿增实体</li>
@@ -3961,93 +3922,67 @@
 </ul>
 </li>
 </ul>
-<h3 id="各具特色的沙盒游戏"><a href="#各具特色的沙盒游戏" class="headerlink" title="各具特色的沙盒游戏"></a>各具特色的沙盒游戏</h3><h4 id="沙盒建设游戏"><a href="#沙盒建设游戏" class="headerlink" title="沙盒建设游戏"></a>沙盒建设游戏</h4><ul>
-<li>特点<ul>
+<h3 id="各具特色的沙盒游戏"><a href="#各具特色的沙盒游戏" class="headerlink" title="各具特色的沙盒游戏"></a>各具特色的沙盒游戏</h3><h4 id="沙盒建设游戏"><a href="#沙盒建设游戏" class="headerlink" title="沙盒建设游戏"></a>沙盒建设游戏</h4><h5 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h5><ul>
 <li>发挥玩家的创造力</li>
 <li>规则探索</li>
 <li>审美呈现</li>
 </ul>
-</li>
-<li>设计重点<ul>
+<h5 id="设计重点"><a href="#设计重点" class="headerlink" title="设计重点"></a>设计重点</h5><ul>
 <li>不同元素组合出新的元素</li>
 <li>组合规则的合理性</li>
 <li>游戏生态的平衡</li>
 </ul>
-</li>
-<li>代表作品：<ul>
+<h5 id="代表作品："><a href="#代表作品：" class="headerlink" title="代表作品："></a>代表作品：</h5><ul>
 <li><strong>我的世界</strong></li>
 <li><strong>异星工厂</strong></li>
 </ul>
-</li>
-</ul>
-<h4 id="沙盒冒险类游戏"><a href="#沙盒冒险类游戏" class="headerlink" title="沙盒冒险类游戏"></a>沙盒冒险类游戏</h4><ul>
-<li>特点<ul>
+<h4 id="沙盒冒险类游戏"><a href="#沙盒冒险类游戏" class="headerlink" title="沙盒冒险类游戏"></a>沙盒冒险类游戏</h4><h5 id="特点-1"><a href="#特点-1" class="headerlink" title="特点"></a>特点</h5><ul>
 <li>世界探索</li>
 <li>沉浸体验</li>
 <li>规则的理解与应用</li>
 </ul>
-</li>
-<li>设计重点<ul>
+<h5 id="设计重点-1"><a href="#设计重点-1" class="headerlink" title="设计重点"></a>设计重点</h5><ul>
 <li>世界的丰富度（包括美术呈现）</li>
 <li>玩家行为的自由度</li>
 <li>游戏玩法规则的可探索深度</li>
 </ul>
-</li>
-<li>代表作品：<ul>
+<h5 id="代表作品：-1"><a href="#代表作品：-1" class="headerlink" title="代表作品："></a>代表作品：</h5><ul>
 <li><strong>塞尔达传说：旷野之息</strong></li>
 <li><strong>刺客信条</strong></li>
 </ul>
-</li>
-</ul>
-<h4 id="生存模拟沙盒"><a href="#生存模拟沙盒" class="headerlink" title="生存模拟沙盒"></a>生存模拟沙盒</h4><ul>
-<li>特点<ul>
+<h4 id="生存模拟沙盒"><a href="#生存模拟沙盒" class="headerlink" title="生存模拟沙盒"></a>生存模拟沙盒</h4><h5 id="特点-2"><a href="#特点-2" class="headerlink" title="特点"></a>特点</h5><ul>
 <li>规则的理解与利用</li>
 <li>特殊世界观的沉浸体验</li>
 <li>挫败感与成就感</li>
 </ul>
-</li>
-<li>设计重点<ul>
+<h5 id="设计重点-2"><a href="#设计重点-2" class="headerlink" title="设计重点"></a>设计重点</h5><ul>
 <li>规则合理性</li>
 <li>世界观的特殊性</li>
 <li>难度把控</li>
 </ul>
-</li>
-</ul>
-<h4 id="多人沙盒生存"><a href="#多人沙盒生存" class="headerlink" title="多人沙盒生存"></a>多人沙盒生存</h4><ul>
-<li>特点<ul>
+<h4 id="多人沙盒生存"><a href="#多人沙盒生存" class="headerlink" title="多人沙盒生存"></a>多人沙盒生存</h4><h5 id="特点-3"><a href="#特点-3" class="headerlink" title="特点"></a>特点</h5><ul>
 <li>玩家间的合作</li>
 <li>竞争博弈策略</li>
 </ul>
-</li>
-<li>设计重点<ul>
+<h5 id="设计重点-3"><a href="#设计重点-3" class="headerlink" title="设计重点"></a>设计重点</h5><ul>
 <li>资源投放</li>
 <li>合作关系设计</li>
 <li>对抗节奏的干预把控</li>
 </ul>
-</li>
-<li>代表作品<ul>
+<h5 id="代表作品"><a href="#代表作品" class="headerlink" title="代表作品"></a>代表作品</h5><ul>
 <li><strong>方舟：生存进化</strong></li>
 <li><strong>DayZ</strong></li>
 </ul>
-</li>
-</ul>
-<h4 id="组装沙盒游戏"><a href="#组装沙盒游戏" class="headerlink" title="组装沙盒游戏"></a>组装沙盒游戏</h4><ul>
-<li>特点<ul>
+<h4 id="组装沙盒游戏"><a href="#组装沙盒游戏" class="headerlink" title="组装沙盒游戏"></a>组装沙盒游戏</h4><h5 id="特点-4"><a href="#特点-4" class="headerlink" title="特点"></a>特点</h5><ul>
 <li>发挥玩家的创造力</li>
 <li>规则探索</li>
-<li>审美呈现</li>
-</ul>
-</li>
-<li>设计重点<ul>
+<li>审美呈现<h5 id="设计重点-4"><a href="#设计重点-4" class="headerlink" title="设计重点"></a>设计重点</h5></li>
 <li>不同元素的特征呈现</li>
 <li>组合规则的合理性</li>
 </ul>
-</li>
-<li>代表作品<ul>
+<h5 id="代表作品-1"><a href="#代表作品-1" class="headerlink" title="代表作品"></a>代表作品</h5><ul>
 <li><strong>Besiege</strong></li>
 <li><strong>Robocraft</strong></li>
-</ul>
-</li>
 </ul>
 ]]></content>
       <categories>
