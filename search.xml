@@ -57,261 +57,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hero-NexT主题配置</title>
-    <url>/archives/3bcb4b40.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4n8vkpmgj30ma09u40a.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="http://theme-next.iissnan.com/">Hexo NexT</a>
-    </i>
-  </font>
-</div>
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文记录NexT博客的主题配置，本文记录了从站点配置Hexo重新安装到NexT主题自带的基础配置，不包含带有插件安装的主题美化。</p>
-<a id="more"></a>
-
-
-
-<h3 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
-
-
-
-
-<h3 id="获取NexT"><a href="#获取NexT" class="headerlink" title="获取NexT"></a>获取NexT</h3><h4 id="克隆最新版本"><a href="#克隆最新版本" class="headerlink" title="克隆最新版本"></a>克隆最新版本</h4><p>在终端窗口下，定位到 Hexo 站点目录下。使用 <code>Git</code> checkout 代码：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> your-hexo-site</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span></span><br></pre></td></tr></table></figure>
-
-
-<h4 id="下载稳定版本"><a href="#下载稳定版本" class="headerlink" title="下载稳定版本"></a>下载稳定版本</h4><ol>
-<li>前往 NexT 版本 <a href="https://github.com/iissnan/hexo-theme-next/releases">发布页面</a>。</li>
-<li>选择你所需要的版本，下载 Download 区域下的 Source Code (zip) 到本地。例如，下载 v0.4.0 版本：</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn173rzm2oj30o30art9c.jpg"></p>
-<ol start="3">
-<li>解压所下载的压缩包至站点的 themes 目录下， 并将 解压后的文件夹名称（<code>hexo-theme-next-0.4.0</code>）更改为 <code>next</code>。</li>
-</ol>
-<h3 id="站点配置"><a href="#站点配置" class="headerlink" title="站点配置"></a>站点配置</h3><p>与所有 Hexo 主题启用的模式一样。 当 克隆/下载 完成后，打开 <strong>站点配置文件</strong>， 找到 <code>theme</code> 字段，并将其值更改为 <code>next</code>。</p>
-<p>启用 NexT 主题</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
-<p>到此，NexT 主题安装完成。下一步我们将验证主题是否正确启用。在切换主题之后、验证之前， 我们最好使用 <code>hexo clean</code> 来清除 Hexo 的缓存。</p>
-<h4 id="验证主题"><a href="#验证主题" class="headerlink" title="验证主题"></a>验证主题</h4><p>首先启动 Hexo 本地站点，并开启调试模式（即加上 <code>--debug</code>），整个命令是 <code>hexo s --debug</code>。 在服务启动的过程，注意观察命令行输出是否有任何异常信息，如果你碰到问题，这些信息将帮助他人更好的定位错误。 当命令行输出中提示出：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
-<p>此时即可使用浏览器访问 <code>http://localhost:4000</code>，检查站点是否正确运行。</p>
-<h4 id="设置语言"><a href="#设置语言" class="headerlink" title="设置语言"></a>设置语言</h4><p>编辑 <strong>站点配置文件</strong>， 将 <code>language</code> 设置成你所需要的语言。建议明确设置你所需要的语言，例如选用简体中文，配置如下：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">language:</span> <span class="string">zh-Hans</span></span><br></pre></td></tr></table></figure>
-<p>目前 NexT 支持的语言如以下表格所示：</p>
-<table>
-<thead>
-<tr>
-<th align="left">语言</th>
-<th align="left">代码</th>
-<th align="left">设定示例</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">English</td>
-<td align="left"><code>en</code></td>
-<td align="left"><code>language: en</code></td>
-</tr>
-<tr>
-<td align="left">简体中文</td>
-<td align="left"><code>zh-Hans</code></td>
-<td align="left"><code>language: zh-Hans</code></td>
-</tr>
-<tr>
-<td align="left">Français</td>
-<td align="left"><code>fr-FR</code></td>
-<td align="left"><code>language: fr-FR</code></td>
-</tr>
-<tr>
-<td align="left">Português</td>
-<td align="left"><code>pt</code></td>
-<td align="left"><code>language: pt</code> or <code>language: pt-BR</code></td>
-</tr>
-<tr>
-<td align="left">繁體中文</td>
-<td align="left"><code>zh-hk</code> 或者 <code>zh-tw</code></td>
-<td align="left"><code>language: zh-hk</code></td>
-</tr>
-<tr>
-<td align="left">Русский язык</td>
-<td align="left"><code>ru</code></td>
-<td align="left"><code>language: ru</code></td>
-</tr>
-<tr>
-<td align="left">Deutsch</td>
-<td align="left"><code>de</code></td>
-<td align="left"><code>language: de</code></td>
-</tr>
-<tr>
-<td align="left">日本語</td>
-<td align="left"><code>ja</code></td>
-<td align="left"><code>language: ja</code></td>
-</tr>
-<tr>
-<td align="left">Indonesian</td>
-<td align="left"><code>id</code></td>
-<td align="left"><code>language: id</code></td>
-</tr>
-<tr>
-<td align="left">Korean</td>
-<td align="left"><code>ko</code></td>
-<td align="left"><code>language: ko</code></td>
-</tr>
-</tbody></table>
-<h3 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h3><h4 id="选择主题"><a href="#选择主题" class="headerlink" title="选择主题"></a>选择主题</h4><p>Scheme 是 NexT 提供的一种特性，借助于 Scheme，NexT 为你提供多种不同的外观。同时，几乎所有的配置都可以 在 Scheme 之间共用。目前 NexT 支持三种 Scheme，他们是：</p>
-<ul>
-<li>Muse - 默认 Scheme，这是 NexT 最初的版本，黑白主调，大量留白</li>
-<li>Mist - Muse 的紧凑版本，整洁有序的单栏外观</li>
-<li>Pisces - 双栏 Scheme，小家碧玉似的清新</li>
-</ul>
-<p>Scheme 的切换通过更改 <strong>主题配置文件</strong>，搜索 scheme 关键字。 你会看到有三行 scheme 的配置，将你需用启用的 scheme 前面注释 <code>#</code> 去除即可。</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Schemes</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">scheme:</span> <span class="string">Muse</span></span><br><span class="line"><span class="string">+</span> <span class="comment">#scheme: Muse</span></span><br><span class="line"><span class="comment">#scheme: Mist</span></span><br><span class="line"><span class="comment">#scheme: Pisces</span></span><br><span class="line"><span class="bullet">-</span> <span class="comment">#scheme: Gemini</span></span><br><span class="line"><span class="string">+</span> <span class="attr">scheme:</span> <span class="string">Gemini</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-<h4 id="设置侧栏"><a href="#设置侧栏" class="headerlink" title="设置侧栏"></a>设置侧栏</h4><p>默认情况下，侧栏仅在文章页面（拥有目录列表）时才显示，并放置于右侧位置。 可以通过修改 <strong>主题配置文件</strong> 中的 <code>sidebar</code> 字段来控制侧栏的行为。侧栏的设置包括两个部分，其一是侧栏的位置， 其二是侧栏显示的时机。</p>
-<ol>
-<li><p>设置侧栏的位置，修改 <code>sidebar.position</code> 的值，支持的选项有：</p>
-<ul>
-<li>left - 靠左放置</li>
-<li>right - 靠右放置</li>
-</ul>
-<p>目前仅 Pisces Scheme 支持 <code>position</code> 配置。影响版本<strong>5.0.0</strong>及更低版本。</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sidebar:</span></span><br><span class="line">  <span class="attr">position:</span> <span class="string">left</span></span><br></pre></td></tr></table></figure></li>
-<li><p>设置侧栏显示的时机，修改 <code>sidebar.display</code> 的值，支持的选项有：</p>
-<ul>
-<li><code>post</code> - 默认行为，在文章页面（拥有目录列表）时显示</li>
-<li><code>always</code> - 在所有页面中都显示</li>
-<li><code>hide</code> - 在所有页面中都隐藏（可以手动展开）</li>
-<li><code>remove</code> - 完全移除</li>
-</ul>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sidebar:</span></span><br><span class="line">  <span class="attr">display:</span> <span class="string">post</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-</li>
-</ol>
-<h4 id="添加「标签」页面"><a href="#添加「标签」页面" class="headerlink" title="添加「标签」页面"></a>添加「标签」页面</h4><p>新建「标签」页面，并在菜单中显示「标签」链接。「标签」页面将展示站点的所有标签，若你的所有文章都未包含标签，此页面将是空的。 </p>
-<h5 id="新建页面"><a href="#新建页面" class="headerlink" title="新建页面"></a>新建页面</h5><p>在终端窗口下，定位到 Hexo 站点目录下。使用 <code>hexo new page</code> 新建一个页面，命名为 <code>tags</code> ：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> your-hexo-site</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo new page tags</span></span><br></pre></td></tr></table></figure>
-<h5 id="设置页面类型"><a href="#设置页面类型" class="headerlink" title="设置页面类型"></a>设置页面类型</h5><p>编辑刚新建的页面，将页面的类型设置为 tags ，主题将自动为这个页面显示标签云。页面内容如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 标签</span><br><span class="line">date: 2014-12-22 12:39:04</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-
-<h4 id="添加「分类」页面"><a href="#添加「分类」页面" class="headerlink" title="添加「分类」页面"></a>添加「分类」页面</h4><p>新建「分类」页面，并在菜单中显示「分类」链接。「分类」页面将展示站点的所有分类，若你的所有文章都未包含分类，此页面将是空的。</p>
-<h5 id="新建页面-1"><a href="#新建页面-1" class="headerlink" title="新建页面"></a>新建页面</h5><p>在终端窗口下，定位到 Hexo 站点目录下。使用 <code>hexo new page</code> 新建一个页面，命名为 <code>categories</code> ：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> your-hexo-site</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo new page categories</span></span><br></pre></td></tr></table></figure>
-<h5 id="设置页面类型-1"><a href="#设置页面类型-1" class="headerlink" title="设置页面类型"></a>设置页面类型</h5><p>编辑刚新建的页面，将页面的 <code>type</code> 设置为 <code>categories</code> ，主题将自动为这个页面显示分类。页面内容如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 分类</span><br><span class="line">date: 2014-12-22 12:39:04</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-
-
-
-<h4 id="更改头像"><a href="#更改头像" class="headerlink" title="更改头像"></a>更改头像</h4><p>编辑主题配置文件，修改 <code>avatar</code>， 值设置成头像的链接地址。其中，头像的链接地址可以是：</p>
-<p>地址值完整的互联网 URL<code>http://example.com/avatar.png</code>站点内的地址将头像放置主题目录下的 <code>source/uploads/</code> （新建 uploads 目录若不存在） 配置为：<code>avatar: /uploads/avatar.png</code> 或者放置在 <code>source/images/</code> 目录下配置为：<code>avatar: /images/avatar.png</code>：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Sidebar Avatar</span></span><br><span class="line"><span class="attr">avatar:</span></span><br><span class="line">  <span class="comment"># Replace the default image and set the url here.</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">/images/cat.png</span></span><br><span class="line">  <span class="comment"># If true, the avatar will be dispalyed in circle.</span></span><br><span class="line">  <span class="attr">rounded:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># If true, the avatar will be rotated with the cursor.</span></span><br><span class="line">  <span class="attr">rotated:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-<h4 id="更改网站图标"><a href="#更改网站图标" class="headerlink" title="更改网站图标"></a>更改网站图标</h4><p>将默认的图片路径换为自己的路径或者链接：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">favicon:</span></span><br><span class="line"><span class="bullet">-</span>  <span class="attr">small:</span> <span class="string">/images/favicon-16x16-next.png</span></span><br><span class="line"><span class="bullet">-</span>  <span class="attr">medium:</span> <span class="string">/images/favicon-32x32-next.png</span></span><br><span class="line"><span class="bullet">-</span>  <span class="attr">apple_touch_icon:</span> <span class="string">/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="bullet">-</span>  <span class="attr">safari_pinned_tab:</span> <span class="string">/images/logo.svg</span></span><br><span class="line"><span class="string">+</span>  <span class="attr">small:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line"><span class="string">+</span>  <span class="attr">medium:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line"><span class="string">+</span>  <span class="attr">apple_touch_icon:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line"><span class="string">+</span>  <span class="attr">safari_pinned_tab:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line">	<span class="comment">#android_manifest: /images/manifest.json</span></span><br><span class="line">  <span class="comment">#ms_browserconfig: /images/browserconfig.xml</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-<h4 id="侧边栏社交信息"><a href="#侧边栏社交信息" class="headerlink" title="侧边栏社交信息"></a>侧边栏社交信息</h4><p>编辑主题配置文件<code>_config.yml</code>，修改<code>social</code>字段的值：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Social Links</span></span><br><span class="line"><span class="comment"># Usage: `Key: permalink || icon`</span></span><br><span class="line"><span class="comment"># Key is the link label showing to end users.</span></span><br><span class="line"><span class="comment"># Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.</span></span><br><span class="line"><span class="attr">social:</span></span><br><span class="line">  <span class="attr">GitHub:</span> <span class="string">https://github.com/Yousazoe</span> <span class="string">||</span> <span class="string">fab</span> <span class="string">fa-github</span></span><br><span class="line">  <span class="comment">#E-Mail: mailto:yourname@gmail.com || fa fa-envelope</span></span><br><span class="line">  <span class="comment">#Weibo: https://weibo.com/yourname || fab fa-weibo</span></span><br><span class="line">  <span class="comment">#Google: https://plus.google.com/yourname || fab fa-google</span></span><br><span class="line">  <span class="comment">#Twitter: https://twitter.com/yourname || fab fa-twitter</span></span><br><span class="line">  <span class="comment">#FB Page: https://www.facebook.com/yourname || fab fa-facebook</span></span><br><span class="line">  <span class="comment">#StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow</span></span><br><span class="line">  <span class="comment">#YouTube: https://youtube.com/yourname || fab fa-youtube</span></span><br><span class="line">  <span class="comment">#Instagram: https://instagram.com/yourname || fab fa-instagram</span></span><br><span class="line">  <span class="comment">#Skype: skype:yourname?call|chat || fab fa-skype</span></span><br><span class="line"></span><br><span class="line"><span class="attr">social_icons:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">icons_only:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">transition:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-<h4 id="代码高亮主题"><a href="#代码高亮主题" class="headerlink" title="代码高亮主题"></a>代码高亮主题</h4><p>NexT 使用 <a href="https://github.com/chriskempson/tomorrow-theme">Tomorrow Theme</a> 作为代码高亮，共有5款主题供你选择。 NexT 默认使用的是 白色的 <code>normal</code> 主题，可选的值有 <code>normal</code>，<code>night</code>， <code>night blue</code>， <code>night bright</code>， <code>night eighties</code>：</p>
-<table>
-<thead>
-<tr>
-<th><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3h06njcoj309d0ck74q.jpg"></th>
-<th><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3h07gs37j309d0ckmxm.jpg"></th>
-<th><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3h08bjtbj309d0ckaaj.jpg"></th>
-<th><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3h098mnij309d0ckaai.jpg"></th>
-<th><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3h0ac07kj309d0ckgm2.jpg"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<p>更改 <code>highlight_theme</code> 字段，将其值设定成你所喜爱的高亮主题，例如：</p>
-<p>高亮主题设置示例</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Code Highlight theme</span></span><br><span class="line"><span class="comment"># Available value: normal | night | night eighties | night blue | night bright</span></span><br><span class="line"><span class="comment"># https://github.com/chriskempson/tomorrow-theme</span></span><br><span class="line"><span class="attr">highlight_theme:</span> <span class="string">normal</span></span><br></pre></td></tr></table></figure>
-
-
-<h4 id="阅读进度条"><a href="#阅读进度条" class="headerlink" title="阅读进度条"></a>阅读进度条</h4><p>我们可以在主题配置文件<code>_config.yml</code> 中进行修改：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Reading progress bar</span></span><br><span class="line"><span class="attr">reading_progress:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="string">ture</span></span><br><span class="line">  <span class="comment"># Available values: top | bottom</span></span><br><span class="line">  <span class="attr">position:</span> <span class="string">top</span></span><br><span class="line">  <span class="attr">color:</span> <span class="string">&quot;#37c6c0&quot;</span></span><br><span class="line">  <span class="attr">height:</span> <span class="string">3px</span></span><br></pre></td></tr></table></figure>
-<p>注意：<strong>这个阅读进度条动画需要安装依赖</strong>，地址：<a href="https://github.com/theme-next/theme-next-reading-progress">Reading Progress for NexT</a>。</p>
-<ul>
-<li>方法 1：安装文件</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 进入主题目录</span></span><br><span class="line"><span class="built_in">cd</span> themes/next</span><br><span class="line"></span><br><span class="line"><span class="comment"># 从GitHub下载依赖文件</span></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/theme-next-reading-progress <span class="built_in">source</span>/lib/reading_progress</span><br></pre></td></tr></table></figure>
-<ul>
-<li>方法 2：启用 CDN</li>
-</ul>
-<p>我们可以在主题配置文件<code>_config.yml</code> 中修改：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">vendors:</span></span><br><span class="line">  <span class="attr">reading_progress:</span> <span class="string">//cdn.jsdelivr.net/gh/theme-next/theme-next-reading-progress@1/reading_progress.min.js</span></span><br></pre></td></tr></table></figure>
-
-
-<h4 id="阅读百分比-amp-底部返回"><a href="#阅读百分比-amp-底部返回" class="headerlink" title="阅读百分比&amp;底部返回"></a>阅读百分比&amp;底部返回</h4><p>在主题配置文件<code>_config.yml</code> 中修改：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">back2top:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="string">ture</span></span><br><span class="line">  <span class="comment"># Back to top in sidebar.</span></span><br><span class="line">  <span class="attr">sidebar:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Scroll percent label in b2t button.</span></span><br><span class="line">  <span class="attr">scrollpercent:</span> <span class="string">ture</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-<h4 id="动态彩带背景"><a href="#动态彩带背景" class="headerlink" title="动态彩带背景"></a>动态彩带背景</h4><p>我们可以在主题配置文件<code>_config.yml</code> 中修改：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># JavaScript 3D library.</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/theme-next-three</span></span><br><span class="line"><span class="attr">three:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">three_waves:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">canvas_lines:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">canvas_sphere:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-<p>接着替换原先的CDN：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Internal version: 1.0.0</span></span><br><span class="line"> <span class="comment"># three: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three.min.js</span></span><br><span class="line"> <span class="comment"># three_waves: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three-waves.min.js</span></span><br><span class="line"> <span class="comment"># canvas_lines: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_lines.min.js</span></span><br><span class="line"> <span class="comment"># canvas_sphere: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_sphere.min.js</span></span><br><span class="line"> <span class="attr">three:</span></span><br><span class="line"> <span class="attr">three_waves:</span></span><br><span class="line"> <span class="attr">canvas_lines:</span> <span class="string">//cdn.jsdelivr.net/gh/bynotes/texiao/source/js/caidai.js</span> <span class="comment"># 动态彩带</span></span><br><span class="line"> <span class="attr">canvas_sphere:</span></span><br></pre></td></tr></table></figure>
-
-
-<h4 id="边框圆角"><a href="#边框圆角" class="headerlink" title="边框圆角"></a>边框圆角</h4><p>在<code>themes/next-reloaded/source/css/_variables/Gemini.styl</code>中添加如下代码：</p>
-<figure class="highlight"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 修改主题页面布局为圆角</span></span><br><span class="line">$border-radius-inner = 15px 15px 15px 15px;</span><br><span class="line">$border-radius = 15px;</span><br></pre></td></tr></table></figure>
-
-
-<h4 id="公益404页面"><a href="#公益404页面" class="headerlink" title="公益404页面"></a>公益404页面</h4><p>腾讯公益404页面，寻找丢失儿童，让大家一起关注此项公益事业！效果如下 <a href="http://www.ixirong.com/404.html">http://www.ixirong.com/404.html</a></p>
-<p>使用方法，新建 404.html 页面，放到主题的 <code>source</code> 目录下，内容如下：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">HTML</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;content-type&quot;</span> <span class="attr">content</span>=<span class="string">&quot;text/html;charset=utf-8;&quot;</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge,chrome=1&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;robots&quot;</span> <span class="attr">content</span>=<span class="string">&quot;all&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;robots&quot;</span> <span class="attr">content</span>=<span class="string">&quot;index,follow&quot;</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/css&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/style/404style.css&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/plain&quot;</span> <span class="attr">src</span>=<span class="string">&quot;http://www.qq.com/404/search_children.js&quot;</span></span></span><br><span class="line"><span class="tag">          <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">homePageUrl</span>=<span class="string">&quot;/&quot;</span></span></span><br><span class="line"><span class="tag">          <span class="attr">homePageName</span>=<span class="string">&quot;回到我的主页&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/data.js&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/page.js&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-
-<h4 id="简繁体切换"><a href="#简繁体切换" class="headerlink" title="简繁体切换"></a>简繁体切换</h4><p>简体繁体切换的基本原理：首先建立一个简体字与繁体字相对应的映射表，然后遍历整个界面，把相应的简体字或者是繁体字映射为对应的字体即可。</p>
-<h5 id="Hexo-实现过程"><a href="#Hexo-实现过程" class="headerlink" title="Hexo 实现过程"></a>Hexo 实现过程</h5><ol>
-<li>首先，我们可以在<a href="https://tding.top/js/tw_cn.js">这里</a>右键另存下载简繁字体切换所需的 <code>tw_cn.js</code> 文件，我们把这个文件放到 <code>~/themes/next/source/js</code> 文件夹下。</li>
-<li><strong>修改模板</strong>，在我们想要显示简繁转换按钮的地方添加如下代码。例如，我在 NexT 主题的布局文件 <code>~/themes/next/layout/_partials/footer.swig</code> 里添加了如下代码：</li>
-</ol>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;translate-style&quot;</span>&gt;</span></span><br><span class="line">繁/简：<span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">&quot;translateLink&quot;</span> <span class="attr">href</span>=<span class="string">&quot;javascript:translatePage();&quot;</span>&gt;</span>繁体</span><br><span class="line"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tw_cn.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> defaultEncoding = <span class="number">2</span>; <span class="comment">//网站编写字体是否繁体，1-繁体，2-简体</span></span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> translateDelay = <span class="number">0</span>; <span class="comment">//延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0</span></span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> cookieDomain = <span class="string">&quot;https://tding.top/&quot;</span>; <span class="comment">//Cookie地址, 一定要设定, 通常为你的网址</span></span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> msgToTraditionalChinese = <span class="string">&quot;繁体&quot;</span>; <span class="comment">//此处可以更改为你想要显示的文字</span></span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> msgToSimplifiedChinese = <span class="string">&quot;简体&quot;</span>; <span class="comment">//同上，但两处均不建议更改</span></span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> translateButtonId = <span class="string">&quot;translateLink&quot;</span>; <span class="comment">//默认互换id</span></span></span><br><span class="line">translateInitilization();</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>读者可以在<strong>博客底部点击简体 / 繁体</strong>来看具体的切换字体效果。</p>
-<h5 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h5><ul>
-<li><a href="https://www.arao.me/website/hexo-support-jian-fan-language.html#more">三步让你的网站支持简体繁体切换</a></li>
-<li><a href="http://qingbo.site/2016/10/11/how-set-Chinese-Simplified-switch-to-Chinese-Traditional/">两步让你的网站支持简体繁体切换</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>博客搭建 (Blog Building)</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>NexT</tag>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>中国游戏市场简析</title>
     <url>/archives/undefined.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggxwpu9b5oj311i0p0n12.jpg"></p>
@@ -1837,7 +1582,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#101;&#110;&#120;&#117;&#64;&#x74;&#x65;&#110;&#x63;&#101;&#x6e;&#x74;&#x2e;&#x63;&#111;&#109;">&#108;&#x65;&#101;&#110;&#120;&#117;&#64;&#x74;&#x65;&#110;&#x63;&#101;&#x6e;&#x74;&#x2e;&#x63;&#111;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#x65;&#110;&#120;&#x75;&#x40;&#x74;&#x65;&#110;&#99;&#101;&#110;&#x74;&#46;&#x63;&#x6f;&#109;">&#108;&#x65;&#x65;&#110;&#120;&#x75;&#x40;&#x74;&#x65;&#110;&#99;&#101;&#110;&#x74;&#46;&#x63;&#x6f;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -6798,57 +6543,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#x79;&#111;&#110;&#x67;&#x40;&#x74;&#115;&#105;&#110;&#x67;&#104;&#117;&#x61;&#46;&#x65;&#x64;&#117;&#x2e;&#99;&#x6e;">&#120;&#x79;&#111;&#110;&#x67;&#x40;&#x74;&#115;&#105;&#110;&#x67;&#104;&#117;&#x61;&#46;&#x65;&#x64;&#117;&#x2e;&#99;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#121;&#111;&#x6e;&#103;&#64;&#116;&#x73;&#105;&#110;&#x67;&#104;&#x75;&#x61;&#x2e;&#101;&#x64;&#x75;&#46;&#x63;&#110;">&#120;&#121;&#111;&#x6e;&#103;&#64;&#116;&#x73;&#105;&#110;&#x67;&#104;&#x75;&#x61;&#x2e;&#101;&#x64;&#x75;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#117;&#x63;&#x68;&#x65;&#x6e;&#x40;&#109;&#x61;&#105;&#x6c;&#x2e;&#x74;&#x73;&#105;&#110;&#x67;&#x68;&#117;&#97;&#x2e;&#101;&#x64;&#x75;&#x2e;&#99;&#110;">&#x79;&#117;&#x63;&#x68;&#x65;&#x6e;&#x40;&#109;&#x61;&#105;&#x6c;&#x2e;&#x74;&#x73;&#105;&#110;&#x67;&#x68;&#117;&#97;&#x2e;&#101;&#x64;&#x75;&#x2e;&#99;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#x75;&#99;&#104;&#101;&#x6e;&#x40;&#x6d;&#97;&#x69;&#108;&#46;&#x74;&#115;&#105;&#x6e;&#103;&#104;&#x75;&#x61;&#x2e;&#x65;&#100;&#117;&#46;&#99;&#x6e;">&#x79;&#x75;&#99;&#104;&#101;&#x6e;&#x40;&#x6d;&#97;&#x69;&#108;&#46;&#x74;&#115;&#105;&#x6e;&#103;&#104;&#x75;&#x61;&#x2e;&#x65;&#100;&#117;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#116;&#101;&#114;&#x6e;&#97;&#x6c;&#46;&#x6e;&#x30;&#x38;&#64;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;">&#x65;&#116;&#101;&#114;&#x6e;&#97;&#x6c;&#46;&#x6e;&#x30;&#x38;&#64;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#101;&#116;&#x65;&#x72;&#110;&#97;&#x6c;&#x2e;&#110;&#48;&#x38;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#101;&#116;&#x65;&#x72;&#110;&#97;&#x6c;&#x2e;&#110;&#48;&#x38;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#98;&#106;&#101;&#x63;&#116;&#x6b;&#117;&#97;&#110;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#111;&#98;&#106;&#101;&#x63;&#116;&#x6b;&#117;&#97;&#110;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x6f;&#x62;&#106;&#x65;&#x63;&#x74;&#x6b;&#x75;&#97;&#x6e;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#x6f;&#x62;&#106;&#x65;&#x63;&#x74;&#x6b;&#x75;&#97;&#x6e;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#x72;&#x64;&#x66;&#x72;&#97;&#x6e;&#x6b;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#x63;&#x72;&#x64;&#x66;&#x72;&#97;&#x6e;&#x6b;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#x72;&#100;&#x66;&#x72;&#97;&#110;&#107;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#x6f;&#109;">&#x63;&#x72;&#100;&#x66;&#x72;&#97;&#110;&#107;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#x61;&#x63;&#99;&#x6f;&#x72;&#97;&#x77;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x74;&#x61;&#x63;&#99;&#x6f;&#x72;&#97;&#x77;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x74;&#x61;&#99;&#99;&#x6f;&#x72;&#97;&#x77;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#x74;&#x61;&#99;&#99;&#x6f;&#x72;&#97;&#x77;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#105;&#x6e;&#121;&#x75;&#110;&#x78;&#105;&#110;&#x67;&#x30;&#x30;&#48;&#x31;&#64;&#x31;&#54;&#x33;&#x2e;&#99;&#x6f;&#109;">&#x78;&#105;&#x6e;&#121;&#x75;&#110;&#x78;&#105;&#110;&#x67;&#x30;&#x30;&#48;&#x31;&#64;&#x31;&#54;&#x33;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#120;&#105;&#110;&#x67;&#x30;&#48;&#x30;&#49;&#64;&#49;&#x36;&#x33;&#x2e;&#99;&#x6f;&#109;">&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#120;&#105;&#110;&#x67;&#x30;&#48;&#x30;&#49;&#64;&#49;&#x36;&#x33;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#x6e;&#111;&#99;&#117;&#105;&#108;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;">&#x67;&#x6e;&#111;&#99;&#117;&#105;&#108;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x6e;&#111;&#99;&#x75;&#105;&#x6c;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#x67;&#x6e;&#111;&#99;&#x75;&#105;&#x6c;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#x79;&#97;&#x69;&#114;&#x69;&#x61;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#x6d;">&#x6d;&#x79;&#97;&#x69;&#114;&#x69;&#x61;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x6d;&#121;&#x61;&#x69;&#x72;&#x69;&#97;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x6d;&#121;&#x61;&#x69;&#x72;&#x69;&#97;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#104;&#97;&#x6e;&#x67;&#114;&#97;&#105;&#x6e;&#57;&#x31;&#49;&#64;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#109;">&#x7a;&#104;&#97;&#x6e;&#x67;&#114;&#97;&#105;&#x6e;&#57;&#x31;&#49;&#64;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#122;&#104;&#97;&#110;&#103;&#114;&#x61;&#105;&#110;&#57;&#49;&#x31;&#x40;&#49;&#x36;&#51;&#46;&#x63;&#111;&#x6d;">&#122;&#104;&#97;&#110;&#103;&#114;&#x61;&#105;&#110;&#57;&#49;&#x31;&#x40;&#49;&#x36;&#51;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#x67;&#x78;&#x78;&#49;&#50;&#48;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#103;&#x67;&#x78;&#x78;&#49;&#50;&#48;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#103;&#120;&#120;&#49;&#50;&#x30;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x67;&#103;&#120;&#120;&#49;&#50;&#x30;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -8777,13 +8522,308 @@
 <p><strong><a href="https://unsplash.com/">点击跳转到 Unsplash</a></strong></p>
 ]]></content>
       <categories>
-        <category>博客搭建 (Blog Building)</category>
         <category>写作技巧 (Write Skill)</category>
+        <category>博客搭建 (Blog Building)</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Fluid</tag>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hero-NexT主题配置</title>
+    <url>/archives/3bcb4b40.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4n8vkpmgj30ma09u40a.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="http://theme-next.iissnan.com/">Hexo NexT</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文记录NexT博客的主题配置，本文记录了从站点配置Hexo重新安装到NexT主题自带的基础配置，不包含带有插件安装的主题美化。</p>
+<a id="more"></a>
+
+
+
+<h3 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h3 id="获取NexT"><a href="#获取NexT" class="headerlink" title="获取NexT"></a>获取NexT</h3><h4 id="克隆最新版本"><a href="#克隆最新版本" class="headerlink" title="克隆最新版本"></a>克隆最新版本</h4><p>在终端窗口下，定位到 Hexo 站点目录下。使用 <code>Git</code> checkout 代码：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> your-hexo-site</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span></span><br></pre></td></tr></table></figure>
+
+
+<h4 id="下载稳定版本"><a href="#下载稳定版本" class="headerlink" title="下载稳定版本"></a>下载稳定版本</h4><ol>
+<li>前往 NexT 版本 <a href="https://github.com/iissnan/hexo-theme-next/releases">发布页面</a>。</li>
+<li>选择你所需要的版本，下载 Download 区域下的 Source Code (zip) 到本地。例如，下载 v0.4.0 版本：</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn173rzm2oj30o30art9c.jpg"></p>
+<ol start="3">
+<li>解压所下载的压缩包至站点的 themes 目录下， 并将 解压后的文件夹名称（<code>hexo-theme-next-0.4.0</code>）更改为 <code>next</code>。</li>
+</ol>
+<h3 id="站点配置"><a href="#站点配置" class="headerlink" title="站点配置"></a>站点配置</h3><p>与所有 Hexo 主题启用的模式一样。 当 克隆/下载 完成后，打开 <strong>站点配置文件</strong>， 找到 <code>theme</code> 字段，并将其值更改为 <code>next</code>。</p>
+<p>启用 NexT 主题</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
+<p>到此，NexT 主题安装完成。下一步我们将验证主题是否正确启用。在切换主题之后、验证之前， 我们最好使用 <code>hexo clean</code> 来清除 Hexo 的缓存。</p>
+<h4 id="验证主题"><a href="#验证主题" class="headerlink" title="验证主题"></a>验证主题</h4><p>首先启动 Hexo 本地站点，并开启调试模式（即加上 <code>--debug</code>），整个命令是 <code>hexo s --debug</code>。 在服务启动的过程，注意观察命令行输出是否有任何异常信息，如果你碰到问题，这些信息将帮助他人更好的定位错误。 当命令行输出中提示出：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
+<p>此时即可使用浏览器访问 <code>http://localhost:4000</code>，检查站点是否正确运行。</p>
+<h4 id="设置语言"><a href="#设置语言" class="headerlink" title="设置语言"></a>设置语言</h4><p>编辑 <strong>站点配置文件</strong>， 将 <code>language</code> 设置成你所需要的语言。建议明确设置你所需要的语言，例如选用简体中文，配置如下：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">language:</span> <span class="string">zh-Hans</span></span><br></pre></td></tr></table></figure>
+<p>目前 NexT 支持的语言如以下表格所示：</p>
+<table>
+<thead>
+<tr>
+<th align="left">语言</th>
+<th align="left">代码</th>
+<th align="left">设定示例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">English</td>
+<td align="left"><code>en</code></td>
+<td align="left"><code>language: en</code></td>
+</tr>
+<tr>
+<td align="left">简体中文</td>
+<td align="left"><code>zh-Hans</code></td>
+<td align="left"><code>language: zh-Hans</code></td>
+</tr>
+<tr>
+<td align="left">Français</td>
+<td align="left"><code>fr-FR</code></td>
+<td align="left"><code>language: fr-FR</code></td>
+</tr>
+<tr>
+<td align="left">Português</td>
+<td align="left"><code>pt</code></td>
+<td align="left"><code>language: pt</code> or <code>language: pt-BR</code></td>
+</tr>
+<tr>
+<td align="left">繁體中文</td>
+<td align="left"><code>zh-hk</code> 或者 <code>zh-tw</code></td>
+<td align="left"><code>language: zh-hk</code></td>
+</tr>
+<tr>
+<td align="left">Русский язык</td>
+<td align="left"><code>ru</code></td>
+<td align="left"><code>language: ru</code></td>
+</tr>
+<tr>
+<td align="left">Deutsch</td>
+<td align="left"><code>de</code></td>
+<td align="left"><code>language: de</code></td>
+</tr>
+<tr>
+<td align="left">日本語</td>
+<td align="left"><code>ja</code></td>
+<td align="left"><code>language: ja</code></td>
+</tr>
+<tr>
+<td align="left">Indonesian</td>
+<td align="left"><code>id</code></td>
+<td align="left"><code>language: id</code></td>
+</tr>
+<tr>
+<td align="left">Korean</td>
+<td align="left"><code>ko</code></td>
+<td align="left"><code>language: ko</code></td>
+</tr>
+</tbody></table>
+<h3 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h3><h4 id="选择主题"><a href="#选择主题" class="headerlink" title="选择主题"></a>选择主题</h4><p>Scheme 是 NexT 提供的一种特性，借助于 Scheme，NexT 为你提供多种不同的外观。同时，几乎所有的配置都可以 在 Scheme 之间共用。目前 NexT 支持三种 Scheme，他们是：</p>
+<ul>
+<li>Muse - 默认 Scheme，这是 NexT 最初的版本，黑白主调，大量留白</li>
+<li>Mist - Muse 的紧凑版本，整洁有序的单栏外观</li>
+<li>Pisces - 双栏 Scheme，小家碧玉似的清新</li>
+</ul>
+<p>Scheme 的切换通过更改 <strong>主题配置文件</strong>，搜索 scheme 关键字。 你会看到有三行 scheme 的配置，将你需用启用的 scheme 前面注释 <code>#</code> 去除即可。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Schemes</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">scheme:</span> <span class="string">Muse</span></span><br><span class="line"><span class="string">+</span> <span class="comment">#scheme: Muse</span></span><br><span class="line"><span class="comment">#scheme: Mist</span></span><br><span class="line"><span class="comment">#scheme: Pisces</span></span><br><span class="line"><span class="bullet">-</span> <span class="comment">#scheme: Gemini</span></span><br><span class="line"><span class="string">+</span> <span class="attr">scheme:</span> <span class="string">Gemini</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+<h4 id="设置侧栏"><a href="#设置侧栏" class="headerlink" title="设置侧栏"></a>设置侧栏</h4><p>默认情况下，侧栏仅在文章页面（拥有目录列表）时才显示，并放置于右侧位置。 可以通过修改 <strong>主题配置文件</strong> 中的 <code>sidebar</code> 字段来控制侧栏的行为。侧栏的设置包括两个部分，其一是侧栏的位置， 其二是侧栏显示的时机。</p>
+<ol>
+<li><p>设置侧栏的位置，修改 <code>sidebar.position</code> 的值，支持的选项有：</p>
+<ul>
+<li>left - 靠左放置</li>
+<li>right - 靠右放置</li>
+</ul>
+<p>目前仅 Pisces Scheme 支持 <code>position</code> 配置。影响版本<strong>5.0.0</strong>及更低版本。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sidebar:</span></span><br><span class="line">  <span class="attr">position:</span> <span class="string">left</span></span><br></pre></td></tr></table></figure></li>
+<li><p>设置侧栏显示的时机，修改 <code>sidebar.display</code> 的值，支持的选项有：</p>
+<ul>
+<li><code>post</code> - 默认行为，在文章页面（拥有目录列表）时显示</li>
+<li><code>always</code> - 在所有页面中都显示</li>
+<li><code>hide</code> - 在所有页面中都隐藏（可以手动展开）</li>
+<li><code>remove</code> - 完全移除</li>
+</ul>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sidebar:</span></span><br><span class="line">  <span class="attr">display:</span> <span class="string">post</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+</li>
+</ol>
+<h4 id="添加「标签」页面"><a href="#添加「标签」页面" class="headerlink" title="添加「标签」页面"></a>添加「标签」页面</h4><p>新建「标签」页面，并在菜单中显示「标签」链接。「标签」页面将展示站点的所有标签，若你的所有文章都未包含标签，此页面将是空的。 </p>
+<h5 id="新建页面"><a href="#新建页面" class="headerlink" title="新建页面"></a>新建页面</h5><p>在终端窗口下，定位到 Hexo 站点目录下。使用 <code>hexo new page</code> 新建一个页面，命名为 <code>tags</code> ：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> your-hexo-site</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo new page tags</span></span><br></pre></td></tr></table></figure>
+<h5 id="设置页面类型"><a href="#设置页面类型" class="headerlink" title="设置页面类型"></a>设置页面类型</h5><p>编辑刚新建的页面，将页面的类型设置为 tags ，主题将自动为这个页面显示标签云。页面内容如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 标签</span><br><span class="line">date: 2014-12-22 12:39:04</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="添加「分类」页面"><a href="#添加「分类」页面" class="headerlink" title="添加「分类」页面"></a>添加「分类」页面</h4><p>新建「分类」页面，并在菜单中显示「分类」链接。「分类」页面将展示站点的所有分类，若你的所有文章都未包含分类，此页面将是空的。</p>
+<h5 id="新建页面-1"><a href="#新建页面-1" class="headerlink" title="新建页面"></a>新建页面</h5><p>在终端窗口下，定位到 Hexo 站点目录下。使用 <code>hexo new page</code> 新建一个页面，命名为 <code>categories</code> ：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> your-hexo-site</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo new page categories</span></span><br></pre></td></tr></table></figure>
+<h5 id="设置页面类型-1"><a href="#设置页面类型-1" class="headerlink" title="设置页面类型"></a>设置页面类型</h5><p>编辑刚新建的页面，将页面的 <code>type</code> 设置为 <code>categories</code> ，主题将自动为这个页面显示分类。页面内容如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 分类</span><br><span class="line">date: 2014-12-22 12:39:04</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h4 id="更改头像"><a href="#更改头像" class="headerlink" title="更改头像"></a>更改头像</h4><p>编辑主题配置文件，修改 <code>avatar</code>， 值设置成头像的链接地址。其中，头像的链接地址可以是：</p>
+<p>地址值完整的互联网 URL<code>http://example.com/avatar.png</code>站点内的地址将头像放置主题目录下的 <code>source/uploads/</code> （新建 uploads 目录若不存在） 配置为：<code>avatar: /uploads/avatar.png</code> 或者放置在 <code>source/images/</code> 目录下配置为：<code>avatar: /images/avatar.png</code>：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Sidebar Avatar</span></span><br><span class="line"><span class="attr">avatar:</span></span><br><span class="line">  <span class="comment"># Replace the default image and set the url here.</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">/images/cat.png</span></span><br><span class="line">  <span class="comment"># If true, the avatar will be dispalyed in circle.</span></span><br><span class="line">  <span class="attr">rounded:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># If true, the avatar will be rotated with the cursor.</span></span><br><span class="line">  <span class="attr">rotated:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+<h4 id="更改网站图标"><a href="#更改网站图标" class="headerlink" title="更改网站图标"></a>更改网站图标</h4><p>将默认的图片路径换为自己的路径或者链接：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">favicon:</span></span><br><span class="line"><span class="bullet">-</span>  <span class="attr">small:</span> <span class="string">/images/favicon-16x16-next.png</span></span><br><span class="line"><span class="bullet">-</span>  <span class="attr">medium:</span> <span class="string">/images/favicon-32x32-next.png</span></span><br><span class="line"><span class="bullet">-</span>  <span class="attr">apple_touch_icon:</span> <span class="string">/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="bullet">-</span>  <span class="attr">safari_pinned_tab:</span> <span class="string">/images/logo.svg</span></span><br><span class="line"><span class="string">+</span>  <span class="attr">small:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line"><span class="string">+</span>  <span class="attr">medium:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line"><span class="string">+</span>  <span class="attr">apple_touch_icon:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line"><span class="string">+</span>  <span class="attr">safari_pinned_tab:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line">	<span class="comment">#android_manifest: /images/manifest.json</span></span><br><span class="line">  <span class="comment">#ms_browserconfig: /images/browserconfig.xml</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+<h4 id="侧边栏社交信息"><a href="#侧边栏社交信息" class="headerlink" title="侧边栏社交信息"></a>侧边栏社交信息</h4><p>编辑主题配置文件<code>_config.yml</code>，修改<code>social</code>字段的值：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Social Links</span></span><br><span class="line"><span class="comment"># Usage: `Key: permalink || icon`</span></span><br><span class="line"><span class="comment"># Key is the link label showing to end users.</span></span><br><span class="line"><span class="comment"># Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.</span></span><br><span class="line"><span class="attr">social:</span></span><br><span class="line">  <span class="attr">GitHub:</span> <span class="string">https://github.com/Yousazoe</span> <span class="string">||</span> <span class="string">fab</span> <span class="string">fa-github</span></span><br><span class="line">  <span class="comment">#E-Mail: mailto:yourname@gmail.com || fa fa-envelope</span></span><br><span class="line">  <span class="comment">#Weibo: https://weibo.com/yourname || fab fa-weibo</span></span><br><span class="line">  <span class="comment">#Google: https://plus.google.com/yourname || fab fa-google</span></span><br><span class="line">  <span class="comment">#Twitter: https://twitter.com/yourname || fab fa-twitter</span></span><br><span class="line">  <span class="comment">#FB Page: https://www.facebook.com/yourname || fab fa-facebook</span></span><br><span class="line">  <span class="comment">#StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow</span></span><br><span class="line">  <span class="comment">#YouTube: https://youtube.com/yourname || fab fa-youtube</span></span><br><span class="line">  <span class="comment">#Instagram: https://instagram.com/yourname || fab fa-instagram</span></span><br><span class="line">  <span class="comment">#Skype: skype:yourname?call|chat || fab fa-skype</span></span><br><span class="line"></span><br><span class="line"><span class="attr">social_icons:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">icons_only:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">transition:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+<h4 id="代码高亮主题"><a href="#代码高亮主题" class="headerlink" title="代码高亮主题"></a>代码高亮主题</h4><p>NexT 使用 <a href="https://github.com/chriskempson/tomorrow-theme">Tomorrow Theme</a> 作为代码高亮，共有5款主题供你选择。 NexT 默认使用的是 白色的 <code>normal</code> 主题，可选的值有 <code>normal</code>，<code>night</code>， <code>night blue</code>， <code>night bright</code>， <code>night eighties</code>：</p>
+<table>
+<thead>
+<tr>
+<th><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3h06njcoj309d0ck74q.jpg"></th>
+<th><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3h07gs37j309d0ckmxm.jpg"></th>
+<th><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3h08bjtbj309d0ckaaj.jpg"></th>
+<th><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3h098mnij309d0ckaai.jpg"></th>
+<th><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gn3h0ac07kj309d0ckgm2.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>更改 <code>highlight_theme</code> 字段，将其值设定成你所喜爱的高亮主题，例如：</p>
+<p>高亮主题设置示例</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Code Highlight theme</span></span><br><span class="line"><span class="comment"># Available value: normal | night | night eighties | night blue | night bright</span></span><br><span class="line"><span class="comment"># https://github.com/chriskempson/tomorrow-theme</span></span><br><span class="line"><span class="attr">highlight_theme:</span> <span class="string">normal</span></span><br></pre></td></tr></table></figure>
+
+
+<h4 id="阅读进度条"><a href="#阅读进度条" class="headerlink" title="阅读进度条"></a>阅读进度条</h4><p>我们可以在主题配置文件<code>_config.yml</code> 中进行修改：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Reading progress bar</span></span><br><span class="line"><span class="attr">reading_progress:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="string">ture</span></span><br><span class="line">  <span class="comment"># Available values: top | bottom</span></span><br><span class="line">  <span class="attr">position:</span> <span class="string">top</span></span><br><span class="line">  <span class="attr">color:</span> <span class="string">&quot;#37c6c0&quot;</span></span><br><span class="line">  <span class="attr">height:</span> <span class="string">3px</span></span><br></pre></td></tr></table></figure>
+<p>注意：<strong>这个阅读进度条动画需要安装依赖</strong>，地址：<a href="https://github.com/theme-next/theme-next-reading-progress">Reading Progress for NexT</a>。</p>
+<ul>
+<li>方法 1：安装文件</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 进入主题目录</span></span><br><span class="line"><span class="built_in">cd</span> themes/next</span><br><span class="line"></span><br><span class="line"><span class="comment"># 从GitHub下载依赖文件</span></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/theme-next-reading-progress <span class="built_in">source</span>/lib/reading_progress</span><br></pre></td></tr></table></figure>
+<ul>
+<li>方法 2：启用 CDN</li>
+</ul>
+<p>我们可以在主题配置文件<code>_config.yml</code> 中修改：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">vendors:</span></span><br><span class="line">  <span class="attr">reading_progress:</span> <span class="string">//cdn.jsdelivr.net/gh/theme-next/theme-next-reading-progress@1/reading_progress.min.js</span></span><br></pre></td></tr></table></figure>
+
+
+<h4 id="阅读百分比-amp-底部返回"><a href="#阅读百分比-amp-底部返回" class="headerlink" title="阅读百分比&amp;底部返回"></a>阅读百分比&amp;底部返回</h4><p>在主题配置文件<code>_config.yml</code> 中修改：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">back2top:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="string">ture</span></span><br><span class="line">  <span class="comment"># Back to top in sidebar.</span></span><br><span class="line">  <span class="attr">sidebar:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Scroll percent label in b2t button.</span></span><br><span class="line">  <span class="attr">scrollpercent:</span> <span class="string">ture</span></span><br></pre></td></tr></table></figure>
+
+
+<h4 id="更换字体镜像源"><a href="#更换字体镜像源" class="headerlink" title="更换字体镜像源"></a>更换字体镜像源</h4><p>打开主题配置文件 <code>config.yml</code>，更换为中科大字体镜像源，设置全局字体大小：</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">font:</span><br><span class="line"><span class="deletion">-  enable: false</span></span><br><span class="line"><span class="addition">+  enable: ture</span></span><br><span class="line"></span><br><span class="line">  # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).</span><br><span class="line"><span class="addition">+  host: //fonts.proxy.ustclug.org</span></span><br><span class="line"></span><br><span class="line">  # Font options:</span><br><span class="line">  # `external: true` will load this font family from `host` above.</span><br><span class="line">  # `family: Times New Roman`. Without any quotes.</span><br><span class="line">  # `size: x.x`. Use `em` as unit. Default: 1 (16px)</span><br><span class="line"></span><br><span class="line">  # Global font settings used for all elements inside &lt;body&gt;.</span><br><span class="line">  global:</span><br><span class="line">    external: true</span><br><span class="line">    family: Lato</span><br><span class="line">    size:</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h4 id="背景图片设置"><a href="#背景图片设置" class="headerlink" title="背景图片设置"></a>背景图片设置</h4><p>NexT 主题本身是没有背景图片的，显得有点单调，一个个性化的背景图片，会让博客变得美观不少。</p>
+<h5 id="设置背景图片"><a href="#设置背景图片" class="headerlink" title="设置背景图片"></a>设置背景图片</h5><p>将想要的背景图片放入 <code>themes/next/source/images</code>。打开 <code>themes/next/source/css/ _custom/custom.styl</code> 文件，这个是 Next 故意留给用户自己个性化定制一些样式的文件，添加以下代码即可：</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">    background:url(/images/yourbackground.jpg);</span><br><span class="line">    <span class="attribute">background-repeat</span>: no-repeat;</span><br><span class="line">    <span class="attribute">background-attachment</span>:fixed; <span class="comment">//不重复</span></span><br><span class="line">    <span class="attribute">background-size</span>: cover;      <span class="comment">//填充</span></span><br><span class="line">    <span class="attribute">background-position</span>:<span class="number">50%</span> <span class="number">50%</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><code>background:url</code> 为图片路径，也可以直接使用链接。</li>
+<li><code>background-repeat</code>：若果背景图片不能全屏，那么是否平铺显示，充满屏幕</li>
+<li><code>background-attachment</code>：背景是否随着网页上下滚动而滚动，fixed 为固定</li>
+<li><code>background-size</code>：图片展示大小，这里设置 100%，100% 的意义为：如果背景图片不能全屏，那么是否通过拉伸的方式将背景强制拉伸至全屏显示。</li>
+</ul>
+<h5 id="博客内容透明化"><a href="#博客内容透明化" class="headerlink" title="博客内容透明化"></a>博客内容透明化</h5><p>NexT 主题的博客文章均是不透明的，这样读者就不能好好欣赏背景图片了，下面的方法可以使博客内容透明化。在 <code>themes/next/source/css/_custom/custom.styl</code> 中添加以下内容：</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="comment">//博客内容透明化</span></span><br><span class="line"><span class="comment">//文章内容的透明度设置</span></span><br><span class="line"><span class="selector-class">.content-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.9</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//侧边框的透明度设置</span></span><br><span class="line"><span class="selector-class">.sidebar</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.9</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//菜单栏的透明度设置</span></span><br><span class="line"><span class="selector-class">.header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: rgba(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.9</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//搜索框（local-search）的透明度设置</span></span><br><span class="line"><span class="selector-class">.popup</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.9</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>注意：其中 <code>header-inner</code> 不能使用 opacity 进行配置。因为 <code>header-inner</code> 包含 <code>header.swig</code> 中的所有内容。若使用 opacity 进行配置，子结点会出很多问题。</p>
+<h5 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h5><ul>
+<li><a href="https://blog.bill.moe/hexo-theme-next-config-optimization/">Hexo-NexT 主题自定义配置高阶教程</a></li>
+<li><a href="https://tding.top/archives/761b6f4d.html">Hexo-NexT 设置博客背景图片</a></li>
+</ul>
+<h4 id="动态彩带背景"><a href="#动态彩带背景" class="headerlink" title="动态彩带背景"></a>动态彩带背景</h4><p>我们可以在主题配置文件<code>_config.yml</code> 中修改：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># JavaScript 3D library.</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/theme-next-three</span></span><br><span class="line"><span class="attr">three:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">three_waves:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">canvas_lines:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">canvas_sphere:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<p>接着替换原先的CDN：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Internal version: 1.0.0</span></span><br><span class="line"> <span class="comment"># three: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three.min.js</span></span><br><span class="line"> <span class="comment"># three_waves: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three-waves.min.js</span></span><br><span class="line"> <span class="comment"># canvas_lines: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_lines.min.js</span></span><br><span class="line"> <span class="comment"># canvas_sphere: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_sphere.min.js</span></span><br><span class="line"> <span class="attr">three:</span></span><br><span class="line"> <span class="attr">three_waves:</span></span><br><span class="line"> <span class="attr">canvas_lines:</span> <span class="string">//cdn.jsdelivr.net/gh/bynotes/texiao/source/js/caidai.js</span> <span class="comment"># 动态彩带</span></span><br><span class="line"> <span class="attr">canvas_sphere:</span></span><br></pre></td></tr></table></figure>
+
+
+<h4 id="边框圆角"><a href="#边框圆角" class="headerlink" title="边框圆角"></a>边框圆角</h4><p>在<code>themes/next-reloaded/source/css/_variables/Gemini.styl</code>中添加如下代码：</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 修改主题页面布局为圆角</span></span><br><span class="line">$border-radius-inner = 15px 15px 15px 15px;</span><br><span class="line">$border-radius = 15px;</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="公益404页面"><a href="#公益404页面" class="headerlink" title="公益404页面"></a>公益404页面</h4><p>腾讯公益404页面，寻找丢失儿童，让大家一起关注此项公益事业！效果如下 <a href="http://www.ixirong.com/404.html">http://www.ixirong.com/404.html</a></p>
+<p>使用方法，新建 404.html 页面，放到主题的 <code>source</code> 目录下，内容如下：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">HTML</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;content-type&quot;</span> <span class="attr">content</span>=<span class="string">&quot;text/html;charset=utf-8;&quot;</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge,chrome=1&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;robots&quot;</span> <span class="attr">content</span>=<span class="string">&quot;all&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;robots&quot;</span> <span class="attr">content</span>=<span class="string">&quot;index,follow&quot;</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/css&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/style/404style.css&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/plain&quot;</span> <span class="attr">src</span>=<span class="string">&quot;http://www.qq.com/404/search_children.js&quot;</span></span></span><br><span class="line"><span class="tag">          <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">homePageUrl</span>=<span class="string">&quot;/&quot;</span></span></span><br><span class="line"><span class="tag">          <span class="attr">homePageName</span>=<span class="string">&quot;回到我的主页&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/data.js&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://qzone.qq.com/gy/404/page.js&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+<h4 id="简繁体切换"><a href="#简繁体切换" class="headerlink" title="简繁体切换"></a>简繁体切换</h4><p>简体繁体切换的基本原理：首先建立一个简体字与繁体字相对应的映射表，然后遍历整个界面，把相应的简体字或者是繁体字映射为对应的字体即可。</p>
+<h5 id="Hexo-实现过程"><a href="#Hexo-实现过程" class="headerlink" title="Hexo 实现过程"></a>Hexo 实现过程</h5><ol>
+<li>首先，我们可以在<a href="https://tding.top/js/tw_cn.js">这里</a>右键另存下载简繁字体切换所需的 <code>tw_cn.js</code> 文件，我们把这个文件放到 <code>~/themes/next/source/js</code> 文件夹下。</li>
+<li><strong>修改模板</strong>，在我们想要显示简繁转换按钮的地方添加如下代码。例如，我在 NexT 主题的布局文件 <code>~/themes/next/layout/_partials/footer.swig</code> 里添加了如下代码：</li>
+</ol>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;translate-style&quot;</span>&gt;</span></span><br><span class="line">繁/简：<span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">&quot;translateLink&quot;</span> <span class="attr">href</span>=<span class="string">&quot;javascript:translatePage();&quot;</span>&gt;</span>繁体</span><br><span class="line"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/tw_cn.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> defaultEncoding = <span class="number">2</span>; <span class="comment">//网站编写字体是否繁体，1-繁体，2-简体</span></span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> translateDelay = <span class="number">0</span>; <span class="comment">//延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0</span></span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> cookieDomain = <span class="string">&quot;https://tding.top/&quot;</span>; <span class="comment">//Cookie地址, 一定要设定, 通常为你的网址</span></span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> msgToTraditionalChinese = <span class="string">&quot;繁体&quot;</span>; <span class="comment">//此处可以更改为你想要显示的文字</span></span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> msgToSimplifiedChinese = <span class="string">&quot;简体&quot;</span>; <span class="comment">//同上，但两处均不建议更改</span></span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> translateButtonId = <span class="string">&quot;translateLink&quot;</span>; <span class="comment">//默认互换id</span></span></span><br><span class="line">translateInitilization();</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>读者可以在<strong>博客底部点击简体 / 繁体</strong>来看具体的切换字体效果。</p>
+<h5 id="参考-1"><a href="#参考-1" class="headerlink" title="参考"></a>参考</h5><ul>
+<li><a href="https://www.arao.me/website/hexo-support-jian-fan-language.html#more">三步让你的网站支持简体繁体切换</a></li>
+<li><a href="http://qingbo.site/2016/10/11/how-set-Chinese-Simplified-switch-to-Chinese-Traditional/">两步让你的网站支持简体繁体切换</a></li>
+</ul>
+<h4 id="鼠标点击特效"><a href="#鼠标点击特效" class="headerlink" title="鼠标点击特效"></a>鼠标点击特效</h4><p>在主题配置文件 <code>config.yml</code> 中添加：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">cursor_effect:</span></span><br><span class="line">  <span class="attr">enabled:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">love</span>  <span class="comment"># fireworks：礼花 | explosion：爆炸 | love：浮出爱心 | text：浮出文字</span></span><br></pre></td></tr></table></figure>
+<p>新建 <code>themes\next\layout\custom.swig</code> 文件：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.cursor_effect %&#125;</span><br><span class="line">  &#123;% if theme.cursor_effect.type &#x3D;&#x3D; &quot;fireworks&quot; %&#125;</span><br><span class="line">	&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;js&#x2F;cursor&#x2F;fireworks.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">  &#123;% elseif theme.cursor_effect.type &#x3D;&#x3D; &quot;explosion&quot; %&#125;</span><br><span class="line">    &lt;canvas class&#x3D;&quot;fireworks&quot; style&#x3D;&quot;position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;&quot; &gt;&lt;&#x2F;canvas&gt;</span><br><span class="line">    &lt;script src&#x3D;&quot;&#x2F;&#x2F;cdn.bootcss.com&#x2F;animejs&#x2F;2.2.0&#x2F;anime.min.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">	&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;js&#x2F;cursor&#x2F;explosion.min.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">  &#123;% elseif theme.cursor_effect.type &#x3D;&#x3D; &quot;love&quot; %&#125;</span><br><span class="line">	&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;js&#x2F;cursor&#x2F;love.min.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">  &#123;% elseif theme.cursor_effect.type &#x3D;&#x3D; &quot;text&quot; %&#125;</span><br><span class="line">	&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;js&#x2F;cursor&#x2F;text.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">  &#123;% endif %&#125;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+<p>在 <code>themes\next\layout\layout.swig</code> 文件中添加：</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">......</span><br><span class="line"><span class="addition">+  &#123;% include &#x27;custom.swig&#x27; %&#125;</span></span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<h5 id="桃心效果"><a href="#桃心效果" class="headerlink" title="桃心效果"></a>桃心效果</h5><p>新建 <code>themes\next\source\js\cursor\love.min.js</code> 下文件：</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">! <span class="function"><span class="keyword">function</span>(<span class="params">e, t, a</span>) </span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">function</span> <span class="title">n</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    c(<span class="string">&quot;.heart&#123;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);&#125;.heart:after,.heart:before&#123;content: &#x27;&#x27;;width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;&#125;.heart:after&#123;top: -5px;&#125;.heart:before&#123;left: -5px;&#125;&quot;</span>), o(), r()</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">function</span> <span class="title">r</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> e = <span class="number">0</span>; e &lt; d.length; e++) d[e].alpha &lt;= <span class="number">0</span> ? (t.body.removeChild(d[e].el), d.splice(e, <span class="number">1</span>)) : (d[e].y--, d[e].scale += <span class="number">.004</span>, d[e].alpha -= <span class="number">.013</span>, d[e].el.style.cssText = <span class="string">&quot;left:&quot;</span> + d[e].x + <span class="string">&quot;px;top:&quot;</span> + d[e].y + <span class="string">&quot;px;opacity:&quot;</span> + d[e].alpha + <span class="string">&quot;;transform:scale(&quot;</span> + d[e].scale + <span class="string">&quot;,&quot;</span> + d[e].scale + <span class="string">&quot;) rotate(45deg);background:&quot;</span> + d[e].color + <span class="string">&quot;;z-index:99999&quot;</span>);</span><br><span class="line">    requestAnimationFrame(r)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">function</span> <span class="title">o</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> t = <span class="string">&quot;function&quot;</span> == <span class="keyword">typeof</span> e.onclick &amp;&amp; e.onclick;</span><br><span class="line">    e.onclick = <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</span><br><span class="line">      t &amp;&amp; t(), i(e)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">function</span> <span class="title">i</span>(<span class="params">e</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> a = t.createElement(<span class="string">&quot;div&quot;</span>);</span><br><span class="line">    a.className = <span class="string">&quot;heart&quot;</span>, d.push(&#123;</span><br><span class="line">      el: a,</span><br><span class="line">      x: e.clientX - <span class="number">5</span>,</span><br><span class="line">      y: e.clientY - <span class="number">5</span>,</span><br><span class="line">      scale: <span class="number">1</span>,</span><br><span class="line">      alpha: <span class="number">1</span>,</span><br><span class="line">      color: s()</span><br><span class="line">    &#125;), t.body.appendChild(a)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">function</span> <span class="title">c</span>(<span class="params">e</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> a = t.createElement(<span class="string">&quot;style&quot;</span>);</span><br><span class="line">    a.type = <span class="string">&quot;text/css&quot;</span>;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">      a.appendChild(t.createTextNode(e))</span><br><span class="line">    &#125; <span class="keyword">catch</span> (t) &#123;</span><br><span class="line">      a.styleSheet.cssText = e</span><br><span class="line">    &#125;</span><br><span class="line">    t.getElementsByTagName(<span class="string">&quot;head&quot;</span>)[<span class="number">0</span>].appendChild(a)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">function</span> <span class="title">s</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;rgb(&quot;</span> + ~~(<span class="number">255</span> * <span class="built_in">Math</span>.random()) + <span class="string">&quot;,&quot;</span> + ~~(<span class="number">255</span> * <span class="built_in">Math</span>.random()) + <span class="string">&quot;,&quot;</span> + ~~(<span class="number">255</span> * <span class="built_in">Math</span>.random()) + <span class="string">&quot;)&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">var</span> d = [];</span><br><span class="line">  e.requestAnimationFrame = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</span><br><span class="line">      <span class="built_in">setTimeout</span>(e, <span class="number">1e3</span> / <span class="number">60</span>)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;(), n()</span><br><span class="line">&#125;(<span class="built_in">window</span>, <span class="built_in">document</span>);</span><br></pre></td></tr></table></figure>
+
+
+<h5 id="礼花效果"><a href="#礼花效果" class="headerlink" title="礼花效果"></a>礼花效果</h5><p>新建 <code>themes\next\source\js\cursor\fireworks.js</code> 下文件：</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Circle</span> </span>&#123;</span><br><span class="line">  <span class="function"><span class="title">constructor</span>(<span class="params">&#123; origin, speed, color, angle, context &#125;</span>)</span> &#123;</span><br><span class="line">    <span class="built_in">this</span>.origin = origin</span><br><span class="line">    <span class="built_in">this</span>.position = &#123; ...this.origin &#125;</span><br><span class="line">    <span class="built_in">this</span>.color = color</span><br><span class="line">    <span class="built_in">this</span>.speed = speed</span><br><span class="line">    <span class="built_in">this</span>.angle = angle</span><br><span class="line">    <span class="built_in">this</span>.context = context</span><br><span class="line">    <span class="built_in">this</span>.renderCount = <span class="number">0</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="title">draw</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="built_in">this</span>.context.fillStyle = <span class="built_in">this</span>.color</span><br><span class="line">    <span class="built_in">this</span>.context.beginPath()</span><br><span class="line">    <span class="built_in">this</span>.context.arc(<span class="built_in">this</span>.position.x, <span class="built_in">this</span>.position.y, <span class="number">2</span>, <span class="number">0</span>, <span class="built_in">Math</span>.PI * <span class="number">2</span>)</span><br><span class="line">    <span class="built_in">this</span>.context.fill()</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="title">move</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="built_in">this</span>.position.x = (<span class="built_in">Math</span>.sin(<span class="built_in">this</span>.angle) * <span class="built_in">this</span>.speed) + <span class="built_in">this</span>.position.x</span><br><span class="line">    <span class="built_in">this</span>.position.y = (<span class="built_in">Math</span>.cos(<span class="built_in">this</span>.angle) * <span class="built_in">this</span>.speed) + <span class="built_in">this</span>.position.y + (<span class="built_in">this</span>.renderCount * <span class="number">0.3</span>)</span><br><span class="line">    <span class="built_in">this</span>.renderCount++</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Boom</span> </span>&#123;</span><br><span class="line">  <span class="title">constructor</span> (<span class="params">&#123; origin, context, circleCount = <span class="number">16</span>, area &#125;</span>) &#123;</span><br><span class="line">    <span class="built_in">this</span>.origin = origin</span><br><span class="line">    <span class="built_in">this</span>.context = context</span><br><span class="line">    <span class="built_in">this</span>.circleCount = circleCount</span><br><span class="line">    <span class="built_in">this</span>.area = area</span><br><span class="line">    <span class="built_in">this</span>.stop = <span class="literal">false</span></span><br><span class="line">    <span class="built_in">this</span>.circles = []</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="title">randomArray</span>(<span class="params">range</span>)</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> length = range.length</span><br><span class="line">    <span class="keyword">const</span> randomIndex = <span class="built_in">Math</span>.floor(length * <span class="built_in">Math</span>.random())</span><br><span class="line">    <span class="keyword">return</span> range[randomIndex]</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="title">randomColor</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> range = [<span class="string">&#x27;8&#x27;</span>, <span class="string">&#x27;9&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>, <span class="string">&#x27;D&#x27;</span>, <span class="string">&#x27;E&#x27;</span>, <span class="string">&#x27;F&#x27;</span>]</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;#&#x27;</span> + <span class="built_in">this</span>.randomArray(range) + <span class="built_in">this</span>.randomArray(range) + <span class="built_in">this</span>.randomArray(range) + <span class="built_in">this</span>.randomArray(range) + <span class="built_in">this</span>.randomArray(range) + <span class="built_in">this</span>.randomArray(range)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="title">randomRange</span>(<span class="params">start, end</span>)</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> (end - start) * <span class="built_in">Math</span>.random() + start</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="title">init</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; <span class="built_in">this</span>.circleCount; i++) &#123;</span><br><span class="line">      <span class="keyword">const</span> circle = <span class="keyword">new</span> Circle(&#123;</span><br><span class="line">        context: <span class="built_in">this</span>.context,</span><br><span class="line">        origin: <span class="built_in">this</span>.origin,</span><br><span class="line">        color: <span class="built_in">this</span>.randomColor(),</span><br><span class="line">        angle: <span class="built_in">this</span>.randomRange(<span class="built_in">Math</span>.PI - <span class="number">1</span>, <span class="built_in">Math</span>.PI + <span class="number">1</span>),</span><br><span class="line">        speed: <span class="built_in">this</span>.randomRange(<span class="number">1</span>, <span class="number">6</span>)</span><br><span class="line">      &#125;)</span><br><span class="line">      <span class="built_in">this</span>.circles.push(circle)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="title">move</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="built_in">this</span>.circles.forEach(<span class="function">(<span class="params">circle, index</span>) =&gt;</span> &#123;</span><br><span class="line">      <span class="keyword">if</span> (circle.position.x &gt; <span class="built_in">this</span>.area.width || circle.position.y &gt; <span class="built_in">this</span>.area.height) &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">this</span>.circles.splice(index, <span class="number">1</span>)</span><br><span class="line">      &#125;</span><br><span class="line">      circle.move()</span><br><span class="line">    &#125;)</span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">this</span>.circles.length == <span class="number">0</span>) &#123;</span><br><span class="line">      <span class="built_in">this</span>.stop = <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="title">draw</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="built_in">this</span>.circles.forEach(<span class="function"><span class="params">circle</span> =&gt;</span> circle.draw())</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">CursorSpecialEffects</span> </span>&#123;</span><br><span class="line">  <span class="function"><span class="title">constructor</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="built_in">this</span>.computerCanvas = <span class="built_in">document</span>.createElement(<span class="string">&#x27;canvas&#x27;</span>)</span><br><span class="line">    <span class="built_in">this</span>.renderCanvas = <span class="built_in">document</span>.createElement(<span class="string">&#x27;canvas&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="built_in">this</span>.computerContext = <span class="built_in">this</span>.computerCanvas.getContext(<span class="string">&#x27;2d&#x27;</span>)</span><br><span class="line">    <span class="built_in">this</span>.renderContext = <span class="built_in">this</span>.renderCanvas.getContext(<span class="string">&#x27;2d&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="built_in">this</span>.globalWidth = <span class="built_in">window</span>.innerWidth</span><br><span class="line">    <span class="built_in">this</span>.globalHeight = <span class="built_in">window</span>.innerHeight</span><br><span class="line"></span><br><span class="line">    <span class="built_in">this</span>.booms = []</span><br><span class="line">    <span class="built_in">this</span>.running = <span class="literal">false</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="title">handleMouseDown</span>(<span class="params">e</span>)</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> boom = <span class="keyword">new</span> Boom(&#123;</span><br><span class="line">      origin: &#123; <span class="attr">x</span>: e.clientX, <span class="attr">y</span>: e.clientY &#125;,</span><br><span class="line">      context: <span class="built_in">this</span>.computerContext,</span><br><span class="line">      area: &#123;</span><br><span class="line">        width: <span class="built_in">this</span>.globalWidth,</span><br><span class="line">        height: <span class="built_in">this</span>.globalHeight</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">    boom.init()</span><br><span class="line">    <span class="built_in">this</span>.booms.push(boom)</span><br><span class="line">    <span class="built_in">this</span>.running || <span class="built_in">this</span>.run()</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="title">handlePageHide</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="built_in">this</span>.booms = []</span><br><span class="line">    <span class="built_in">this</span>.running = <span class="literal">false</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="title">init</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> style = <span class="built_in">this</span>.renderCanvas.style</span><br><span class="line">    style.position = <span class="string">&#x27;fixed&#x27;</span></span><br><span class="line">    style.top = style.left = <span class="number">0</span></span><br><span class="line">    style.zIndex = <span class="string">&#x27;999999999999999999999999999999999999999999&#x27;</span></span><br><span class="line">    style.pointerEvents = <span class="string">&#x27;none&#x27;</span></span><br><span class="line"></span><br><span class="line">    style.width = <span class="built_in">this</span>.renderCanvas.width = <span class="built_in">this</span>.computerCanvas.width = <span class="built_in">this</span>.globalWidth</span><br><span class="line">    style.height = <span class="built_in">this</span>.renderCanvas.height = <span class="built_in">this</span>.computerCanvas.height = <span class="built_in">this</span>.globalHeight</span><br><span class="line"></span><br><span class="line">    <span class="built_in">document</span>.body.append(<span class="built_in">this</span>.renderCanvas)</span><br><span class="line"></span><br><span class="line">    <span class="built_in">window</span>.addEventListener(<span class="string">&#x27;mousedown&#x27;</span>, <span class="built_in">this</span>.handleMouseDown.bind(<span class="built_in">this</span>))</span><br><span class="line">    <span class="built_in">window</span>.addEventListener(<span class="string">&#x27;pagehide&#x27;</span>, <span class="built_in">this</span>.handlePageHide.bind(<span class="built_in">this</span>))</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="title">run</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="built_in">this</span>.running = <span class="literal">true</span></span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">this</span>.booms.length == <span class="number">0</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="built_in">this</span>.running = <span class="literal">false</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    requestAnimationFrame(<span class="built_in">this</span>.run.bind(<span class="built_in">this</span>))</span><br><span class="line"></span><br><span class="line">    <span class="built_in">this</span>.computerContext.clearRect(<span class="number">0</span>, <span class="number">0</span>, <span class="built_in">this</span>.globalWidth, <span class="built_in">this</span>.globalHeight)</span><br><span class="line">    <span class="built_in">this</span>.renderContext.clearRect(<span class="number">0</span>, <span class="number">0</span>, <span class="built_in">this</span>.globalWidth, <span class="built_in">this</span>.globalHeight)</span><br><span class="line"></span><br><span class="line">    <span class="built_in">this</span>.booms.forEach(<span class="function">(<span class="params">boom, index</span>) =&gt;</span> &#123;</span><br><span class="line">      <span class="keyword">if</span> (boom.stop) &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">this</span>.booms.splice(index, <span class="number">1</span>)</span><br><span class="line">      &#125;</span><br><span class="line">      boom.move()</span><br><span class="line">      boom.draw()</span><br><span class="line">    &#125;)</span><br><span class="line">    <span class="built_in">this</span>.renderContext.drawImage(<span class="built_in">this</span>.computerCanvas, <span class="number">0</span>, <span class="number">0</span>, <span class="built_in">this</span>.globalWidth, <span class="built_in">this</span>.globalHeight)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> cursorSpecialEffects = <span class="keyword">new</span> CursorSpecialEffects()</span><br><span class="line">cursorSpecialEffects.init()</span><br></pre></td></tr></table></figure>
+<h5 id="爆炸效果"><a href="#爆炸效果" class="headerlink" title="爆炸效果"></a>爆炸效果</h5><p>新建 <code>themes\next\source\js\cursor\explosion.min.js</code> 下文件：</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="meta">&quot;use strict&quot;</span>;<span class="function"><span class="keyword">function</span> <span class="title">updateCoords</span>(<span class="params">e</span>)</span>&#123;pointerX=(e.clientX||e.touches[<span class="number">0</span>].clientX)-canvasEl.getBoundingClientRect().left,pointerY=e.clientY||e.touches[<span class="number">0</span>].clientY-canvasEl.getBoundingClientRect().top&#125;<span class="function"><span class="keyword">function</span> <span class="title">setParticuleDirection</span>(<span class="params">e</span>)</span>&#123;<span class="keyword">var</span> t=anime.random(<span class="number">0</span>,<span class="number">360</span>)*<span class="built_in">Math</span>.PI/<span class="number">180</span>,a=anime.random(<span class="number">50</span>,<span class="number">180</span>),n=[-<span class="number">1</span>,<span class="number">1</span>][anime.random(<span class="number">0</span>,<span class="number">1</span>)]*a;<span class="keyword">return</span>&#123;<span class="attr">x</span>:e.x+n*<span class="built_in">Math</span>.cos(t),<span class="attr">y</span>:e.y+n*<span class="built_in">Math</span>.sin(t)&#125;&#125;<span class="function"><span class="keyword">function</span> <span class="title">createParticule</span>(<span class="params">e,t</span>)</span>&#123;<span class="keyword">var</span> a=&#123;&#125;;<span class="keyword">return</span> a.x=e,a.y=t,a.color=colors[anime.random(<span class="number">0</span>,colors.length-<span class="number">1</span>)],a.radius=anime.random(<span class="number">16</span>,<span class="number">32</span>),a.endPos=setParticuleDirection(a),a.draw=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;ctx.beginPath(),ctx.arc(a.x,a.y,a.radius,<span class="number">0</span>,<span class="number">2</span>*<span class="built_in">Math</span>.PI,!<span class="number">0</span>),ctx.fillStyle=a.color,ctx.fill()&#125;,a&#125;<span class="function"><span class="keyword">function</span> <span class="title">createCircle</span>(<span class="params">e,t</span>)</span>&#123;<span class="keyword">var</span> a=&#123;&#125;;<span class="keyword">return</span> a.x=e,a.y=t,a.color=<span class="string">&quot;#F00&quot;</span>,a.radius=<span class="number">0.1</span>,a.alpha=<span class="number">0.5</span>,a.lineWidth=<span class="number">6</span>,a.draw=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;ctx.globalAlpha=a.alpha,ctx.beginPath(),ctx.arc(a.x,a.y,a.radius,<span class="number">0</span>,<span class="number">2</span>*<span class="built_in">Math</span>.PI,!<span class="number">0</span>),ctx.lineWidth=a.lineWidth,ctx.strokeStyle=a.color,ctx.stroke(),ctx.globalAlpha=<span class="number">1</span>&#125;,a&#125;<span class="function"><span class="keyword">function</span> <span class="title">renderParticule</span>(<span class="params">e</span>)</span>&#123;<span class="keyword">for</span>(<span class="keyword">var</span> t=<span class="number">0</span>;t&lt;e.animatables.length;t++)&#123;e.animatables[t].target.draw()&#125;&#125;<span class="function"><span class="keyword">function</span> <span class="title">animateParticules</span>(<span class="params">e,t</span>)</span>&#123;<span class="keyword">for</span>(<span class="keyword">var</span> a=createCircle(e,t),n=[],i=<span class="number">0</span>;i&lt;numberOfParticules;i++)&#123;n.push(createParticule(e,t))&#125;anime.timeline().add(&#123;<span class="attr">targets</span>:n,<span class="attr">x</span>:<span class="function"><span class="keyword">function</span>(<span class="params">e</span>)</span>&#123;<span class="keyword">return</span> e.endPos.x&#125;,<span class="attr">y</span>:<span class="function"><span class="keyword">function</span>(<span class="params">e</span>)</span>&#123;<span class="keyword">return</span> e.endPos.y&#125;,<span class="attr">radius</span>:<span class="number">0.1</span>,<span class="attr">duration</span>:anime.random(<span class="number">1200</span>,<span class="number">1800</span>),<span class="attr">easing</span>:<span class="string">&quot;easeOutExpo&quot;</span>,<span class="attr">update</span>:renderParticule&#125;).add(&#123;<span class="attr">targets</span>:a,<span class="attr">radius</span>:anime.random(<span class="number">80</span>,<span class="number">160</span>),<span class="attr">lineWidth</span>:<span class="number">0</span>,<span class="attr">alpha</span>:&#123;<span class="attr">value</span>:<span class="number">0</span>,<span class="attr">easing</span>:<span class="string">&quot;linear&quot;</span>,<span class="attr">duration</span>:anime.random(<span class="number">600</span>,<span class="number">800</span>)&#125;,<span class="attr">duration</span>:anime.random(<span class="number">1200</span>,<span class="number">1800</span>),<span class="attr">easing</span>:<span class="string">&quot;easeOutExpo&quot;</span>,<span class="attr">update</span>:renderParticule,<span class="attr">offset</span>:<span class="number">0</span>&#125;)&#125;<span class="function"><span class="keyword">function</span> <span class="title">debounce</span>(<span class="params">e,t</span>)</span>&#123;<span class="keyword">var</span> a;<span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="keyword">var</span> n=<span class="built_in">this</span>,i=<span class="built_in">arguments</span>;<span class="built_in">clearTimeout</span>(a),a=<span class="built_in">setTimeout</span>(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;e.apply(n,i)&#125;,t)&#125;&#125;<span class="keyword">var</span> canvasEl=<span class="built_in">document</span>.querySelector(<span class="string">&quot;.fireworks&quot;</span>);<span class="keyword">if</span>(canvasEl)&#123;<span class="keyword">var</span> ctx=canvasEl.getContext(<span class="string">&quot;2d&quot;</span>),numberOfParticules=<span class="number">30</span>,pointerX=<span class="number">0</span>,pointerY=<span class="number">0</span>,tap=<span class="string">&quot;mousedown&quot;</span>,colors=[<span class="string">&quot;#FF1461&quot;</span>,<span class="string">&quot;#18FF92&quot;</span>,<span class="string">&quot;#5A87FF&quot;</span>,<span class="string">&quot;#FBF38C&quot;</span>],setCanvasSize=debounce(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;canvasEl.width=<span class="number">2</span>*<span class="built_in">window</span>.innerWidth,canvasEl.height=<span class="number">2</span>*<span class="built_in">window</span>.innerHeight,canvasEl.style.width=<span class="built_in">window</span>.innerWidth+<span class="string">&quot;px&quot;</span>,canvasEl.style.height=<span class="built_in">window</span>.innerHeight+<span class="string">&quot;px&quot;</span>,canvasEl.getContext(<span class="string">&quot;2d&quot;</span>).scale(<span class="number">2</span>,<span class="number">2</span>)&#125;,<span class="number">500</span>),render=anime(&#123;<span class="attr">duration</span>:<span class="number">1</span>/<span class="number">0</span>,<span class="attr">update</span>:<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;ctx.clearRect(<span class="number">0</span>,<span class="number">0</span>,canvasEl.width,canvasEl.height)&#125;&#125;);<span class="built_in">document</span>.addEventListener(tap,<span class="function"><span class="keyword">function</span>(<span class="params">e</span>)</span>&#123;<span class="string">&quot;sidebar&quot;</span>!==e.target.id&amp;&amp;<span class="string">&quot;toggle-sidebar&quot;</span>!==e.target.id&amp;&amp;<span class="string">&quot;A&quot;</span>!==e.target.nodeName&amp;&amp;<span class="string">&quot;IMG&quot;</span>!==e.target.nodeName&amp;&amp;(render.play(),updateCoords(e),animateParticules(pointerX,pointerY))&#125;,!<span class="number">1</span>),setCanvasSize(),<span class="built_in">window</span>.addEventListener(<span class="string">&quot;resize&quot;</span>,setCanvasSize,!<span class="number">1</span>)&#125;<span class="string">&quot;use strict&quot;</span>;<span class="function"><span class="keyword">function</span> <span class="title">updateCoords</span>(<span class="params">e</span>)</span>&#123;pointerX=(e.clientX||e.touches[<span class="number">0</span>].clientX)-canvasEl.getBoundingClientRect().left,pointerY=e.clientY||e.touches[<span class="number">0</span>].clientY-canvasEl.getBoundingClientRect().top&#125;<span class="function"><span class="keyword">function</span> <span class="title">setParticuleDirection</span>(<span class="params">e</span>)</span>&#123;<span class="keyword">var</span> t=anime.random(<span class="number">0</span>,<span class="number">360</span>)*<span class="built_in">Math</span>.PI/<span class="number">180</span>,a=anime.random(<span class="number">50</span>,<span class="number">180</span>),n=[-<span class="number">1</span>,<span class="number">1</span>][anime.random(<span class="number">0</span>,<span class="number">1</span>)]*a;<span class="keyword">return</span>&#123;<span class="attr">x</span>:e.x+n*<span class="built_in">Math</span>.cos(t),<span class="attr">y</span>:e.y+n*<span class="built_in">Math</span>.sin(t)&#125;&#125;<span class="function"><span class="keyword">function</span> <span class="title">createParticule</span>(<span class="params">e,t</span>)</span>&#123;<span class="keyword">var</span> a=&#123;&#125;;<span class="keyword">return</span> a.x=e,a.y=t,a.color=colors[anime.random(<span class="number">0</span>,colors.length-<span class="number">1</span>)],a.radius=anime.random(<span class="number">16</span>,<span class="number">32</span>),a.endPos=setParticuleDirection(a),a.draw=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;ctx.beginPath(),ctx.arc(a.x,a.y,a.radius,<span class="number">0</span>,<span class="number">2</span>*<span class="built_in">Math</span>.PI,!<span class="number">0</span>),ctx.fillStyle=a.color,ctx.fill()&#125;,a&#125;<span class="function"><span class="keyword">function</span> <span class="title">createCircle</span>(<span class="params">e,t</span>)</span>&#123;<span class="keyword">var</span> a=&#123;&#125;;<span class="keyword">return</span> a.x=e,a.y=t,a.color=<span class="string">&quot;#F00&quot;</span>,a.radius=<span class="number">0.1</span>,a.alpha=<span class="number">0.5</span>,a.lineWidth=<span class="number">6</span>,a.draw=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;ctx.globalAlpha=a.alpha,ctx.beginPath(),ctx.arc(a.x,a.y,a.radius,<span class="number">0</span>,<span class="number">2</span>*<span class="built_in">Math</span>.PI,!<span class="number">0</span>),ctx.lineWidth=a.lineWidth,ctx.strokeStyle=a.color,ctx.stroke(),ctx.globalAlpha=<span class="number">1</span>&#125;,a&#125;<span class="function"><span class="keyword">function</span> <span class="title">renderParticule</span>(<span class="params">e</span>)</span>&#123;<span class="keyword">for</span>(<span class="keyword">var</span> t=<span class="number">0</span>;t&lt;e.animatables.length;t++)&#123;e.animatables[t].target.draw()&#125;&#125;<span class="function"><span class="keyword">function</span> <span class="title">animateParticules</span>(<span class="params">e,t</span>)</span>&#123;<span class="keyword">for</span>(<span class="keyword">var</span> a=createCircle(e,t),n=[],i=<span class="number">0</span>;i&lt;numberOfParticules;i++)&#123;n.push(createParticule(e,t))&#125;anime.timeline().add(&#123;<span class="attr">targets</span>:n,<span class="attr">x</span>:<span class="function"><span class="keyword">function</span>(<span class="params">e</span>)</span>&#123;<span class="keyword">return</span> e.endPos.x&#125;,<span class="attr">y</span>:<span class="function"><span class="keyword">function</span>(<span class="params">e</span>)</span>&#123;<span class="keyword">return</span> e.endPos.y&#125;,<span class="attr">radius</span>:<span class="number">0.1</span>,<span class="attr">duration</span>:anime.random(<span class="number">1200</span>,<span class="number">1800</span>),<span class="attr">easing</span>:<span class="string">&quot;easeOutExpo&quot;</span>,<span class="attr">update</span>:renderParticule&#125;).add(&#123;<span class="attr">targets</span>:a,<span class="attr">radius</span>:anime.random(<span class="number">80</span>,<span class="number">160</span>),<span class="attr">lineWidth</span>:<span class="number">0</span>,<span class="attr">alpha</span>:&#123;<span class="attr">value</span>:<span class="number">0</span>,<span class="attr">easing</span>:<span class="string">&quot;linear&quot;</span>,<span class="attr">duration</span>:anime.random(<span class="number">600</span>,<span class="number">800</span>)&#125;,<span class="attr">duration</span>:anime.random(<span class="number">1200</span>,<span class="number">1800</span>),<span class="attr">easing</span>:<span class="string">&quot;easeOutExpo&quot;</span>,<span class="attr">update</span>:renderParticule,<span class="attr">offset</span>:<span class="number">0</span>&#125;)&#125;<span class="function"><span class="keyword">function</span> <span class="title">debounce</span>(<span class="params">e,t</span>)</span>&#123;<span class="keyword">var</span> a;<span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="keyword">var</span> n=<span class="built_in">this</span>,i=<span class="built_in">arguments</span>;<span class="built_in">clearTimeout</span>(a),a=<span class="built_in">setTimeout</span>(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;e.apply(n,i)&#125;,t)&#125;&#125;<span class="keyword">var</span> canvasEl=<span class="built_in">document</span>.querySelector(<span class="string">&quot;.fireworks&quot;</span>);<span class="keyword">if</span>(canvasEl)&#123;<span class="keyword">var</span> ctx=canvasEl.getContext(<span class="string">&quot;2d&quot;</span>),numberOfParticules=<span class="number">30</span>,pointerX=<span class="number">0</span>,pointerY=<span class="number">0</span>,tap=<span class="string">&quot;mousedown&quot;</span>,colors=[<span class="string">&quot;#FF1461&quot;</span>,<span class="string">&quot;#18FF92&quot;</span>,<span class="string">&quot;#5A87FF&quot;</span>,<span class="string">&quot;#FBF38C&quot;</span>],setCanvasSize=debounce(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;canvasEl.width=<span class="number">2</span>*<span class="built_in">window</span>.innerWidth,canvasEl.height=<span class="number">2</span>*<span class="built_in">window</span>.innerHeight,canvasEl.style.width=<span class="built_in">window</span>.innerWidth+<span class="string">&quot;px&quot;</span>,canvasEl.style.height=<span class="built_in">window</span>.innerHeight+<span class="string">&quot;px&quot;</span>,canvasEl.getContext(<span class="string">&quot;2d&quot;</span>).scale(<span class="number">2</span>,<span class="number">2</span>)&#125;,<span class="number">500</span>),render=anime(&#123;<span class="attr">duration</span>:<span class="number">1</span>/<span class="number">0</span>,<span class="attr">update</span>:<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;ctx.clearRect(<span class="number">0</span>,<span class="number">0</span>,canvasEl.width,canvasEl.height)&#125;&#125;);<span class="built_in">document</span>.addEventListener(tap,<span class="function"><span class="keyword">function</span>(<span class="params">e</span>)</span>&#123;<span class="string">&quot;sidebar&quot;</span>!==e.target.id&amp;&amp;<span class="string">&quot;toggle-sidebar&quot;</span>!==e.target.id&amp;&amp;<span class="string">&quot;A&quot;</span>!==e.target.nodeName&amp;&amp;<span class="string">&quot;IMG&quot;</span>!==e.target.nodeName&amp;&amp;(render.play(),updateCoords(e),animateParticules(pointerX,pointerY))&#125;,!<span class="number">1</span>),setCanvasSize(),<span class="built_in">window</span>.addEventListener(<span class="string">&quot;resize&quot;</span>,setCanvasSize,!<span class="number">1</span>)&#125;;</span><br></pre></td></tr></table></figure>
+
+
+<h5 id="文字效果"><a href="#文字效果" class="headerlink" title="文字效果"></a>文字效果</h5><p>新建 <code>themes\next\source\js\cursor\text.js</code> 文件：</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> a_idx = <span class="number">0</span>;</span><br><span class="line">jQuery(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span>(<span class="params">$</span>) </span>&#123;</span><br><span class="line">  $(<span class="string">&quot;body&quot;</span>).click(<span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> a = <span class="keyword">new</span> <span class="built_in">Array</span>(<span class="string">&quot;富强&quot;</span>, <span class="string">&quot;民主&quot;</span>, <span class="string">&quot;文明&quot;</span>, <span class="string">&quot;和谐&quot;</span>, <span class="string">&quot;自由&quot;</span>, <span class="string">&quot;平等&quot;</span>, <span class="string">&quot;公正&quot;</span> ,<span class="string">&quot;法治&quot;</span>, <span class="string">&quot;爱国&quot;</span>, <span class="string">&quot;敬业&quot;</span>, <span class="string">&quot;诚信&quot;</span>, <span class="string">&quot;友善&quot;</span>);</span><br><span class="line">    <span class="keyword">var</span> $i = $(<span class="string">&quot;&lt;span/&gt;&quot;</span>).text(a[a_idx]);</span><br><span class="line">    <span class="keyword">var</span> x = e.pageX,</span><br><span class="line">      y = e.pageY;</span><br><span class="line">    $i.css(&#123;</span><br><span class="line">      <span class="string">&quot;z-index&quot;</span>: <span class="number">99999</span>,</span><br><span class="line">      <span class="string">&quot;top&quot;</span>: y - <span class="number">28</span>,</span><br><span class="line">      <span class="string">&quot;left&quot;</span>: x - a[a_idx].length * <span class="number">8</span>,</span><br><span class="line">      <span class="string">&quot;position&quot;</span>: <span class="string">&quot;absolute&quot;</span>,</span><br><span class="line">      <span class="string">&quot;color&quot;</span>: <span class="string">&quot;#ff7a45&quot;</span></span><br><span class="line">    &#125;);</span><br><span class="line">    $(<span class="string">&quot;body&quot;</span>).append($i);</span><br><span class="line">    $i.animate(&#123;</span><br><span class="line">      <span class="string">&quot;top&quot;</span>: y - <span class="number">180</span>,</span><br><span class="line">      <span class="string">&quot;opacity&quot;</span>: <span class="number">0</span></span><br><span class="line">    &#125;, <span class="number">1500</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">      $i.remove();</span><br><span class="line">    &#125;);</span><br><span class="line">    a_idx = (a_idx + <span class="number">1</span>) % a.length;</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="网页标题欺诈"><a href="#网页标题欺诈" class="headerlink" title="网页标题欺诈"></a>网页标题欺诈</h4><p>打开主题配置文件 <code>config.yml</code>，添加以下内容：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># a trick on website title</span></span><br><span class="line"><span class="attr">title_trick:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">leave:</span> <span class="string">&quot;(つェ⊂)我藏好了哦~&quot;</span></span><br><span class="line">  <span class="attr">enter:</span> <span class="string">&quot;(*´∇｀*) 被你发现啦~&quot;</span></span><br></pre></td></tr></table></figure>
+<p>打开 <code>themes\next\layout\custom.swig</code> 文件，如果没有，则新建：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;# 搞怪网页标题 #&#125;</span><br><span class="line">&#123;% if theme.title_trick.enable %&#125;</span><br><span class="line">  &lt;script&gt;</span><br><span class="line">    var OriginTitile &#x3D; document.title;</span><br><span class="line">    var titleTime;</span><br><span class="line">    document.addEventListener(&#39;visibilitychange&#39;, function() &#123;</span><br><span class="line">      if (document.hidden) &#123;</span><br><span class="line">        document.title &#x3D; &#39;&#123;&#123; theme.title_trick.leave &#125;&#125;&#39; + OriginTitile;</span><br><span class="line">        clearTimeout(titleTime);</span><br><span class="line">      &#125; else &#123;</span><br><span class="line">        document.title &#x3D; &#39;&#123;&#123; theme.title_trick.enter &#125;&#125;&#39; + OriginTitile;</span><br><span class="line">        titleTime &#x3D; setTimeout(function() &#123;</span><br><span class="line">          document.title &#x3D; OriginTitile;</span><br><span class="line">        &#125;, 2000);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">  &lt;&#x2F;script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>博客搭建 (Blog Building)</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
         <tag>Blog</tag>
-        <tag>Fluid</tag>
+        <tag>NexT</tag>
       </tags>
   </entry>
   <entry>
@@ -9387,8 +9427,8 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
-        <tag>NexT</tag>
         <tag>Blog</tag>
+        <tag>NexT</tag>
       </tags>
   </entry>
   <entry>
@@ -13212,8 +13252,8 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
-        <tag>Blog</tag>
         <tag>Fluid</tag>
+        <tag>Blog</tag>
       </tags>
   </entry>
   <entry>
