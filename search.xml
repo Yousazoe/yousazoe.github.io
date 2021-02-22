@@ -1722,7 +1722,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#101;&#x65;&#110;&#120;&#117;&#64;&#x74;&#x65;&#110;&#99;&#101;&#x6e;&#x74;&#x2e;&#x63;&#x6f;&#109;">&#108;&#101;&#x65;&#110;&#120;&#117;&#64;&#x74;&#x65;&#110;&#99;&#101;&#x6e;&#x74;&#x2e;&#x63;&#x6f;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#101;&#x65;&#x6e;&#x78;&#x75;&#64;&#116;&#101;&#x6e;&#x63;&#101;&#x6e;&#x74;&#46;&#99;&#111;&#109;">&#108;&#101;&#x65;&#x6e;&#x78;&#x75;&#64;&#116;&#101;&#x6e;&#x63;&#101;&#x6e;&#x74;&#46;&#99;&#111;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -2294,6 +2294,219 @@
       <tags>
         <tag>Game</tag>
         <tag>RTS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MMORPG的发展历程与简析</title>
+    <url>/archives/ccbc93d7.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/bb577066966371.5b292fe8ca2fa.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/66966371/PromaxGames-Sponsor-Titles">PromaxGames Sponsor Titles</a> by 
+      <a href="https://www.behance.net/BlakeFawley">Blake Fawley</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主要讲解MMORPG游戏类型，通过MMORPG的主要发展过程、列举一些具有代表性的产品，分析其中的一些系统，以及如何改变市场发展方向。</p>
+<a id="more"></a>
+
+
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>李博</strong> </p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+<li>2011年毕业于厦门大学</li>
+<li>2014年进入腾讯引进评估中心 </li>
+</ul>
+<h3 id="MMORPG的兴起"><a href="#MMORPG的兴起" class="headerlink" title="MMORPG的兴起"></a>MMORPG的兴起</h3><h4 id="MMORPG的概念"><a href="#MMORPG的概念" class="headerlink" title="MMORPG的概念"></a>MMORPG的概念</h4><blockquote>
+<p> <strong>MMORPG</strong> – <strong>M</strong>assively <strong>M</strong>ultiplayer <strong>O</strong>nline <strong>R</strong>ole <strong>P</strong>laying <strong>G</strong>ame – 大型多人在线角色扮演游戏</p>
+</blockquote>
+<p>与单机RPG一样，个人成长仍然是游戏的核心驱动力，但成长出口和成长方式有本质区别。社交系统给了玩家全新的体验。</p>
+<p>其实并不是所有产品都会在国内市场获得成功，但是每款产品都奠定了一个MMORPG的一个玩法品类或者是整个框架这样一个基础，所以后续的产品基本上没有逃出这三个产品的一个基本框架。</p>
+<h4 id="《网络传创世纪（Ultima-Online）》"><a href="#《网络传创世纪（Ultima-Online）》" class="headerlink" title="《网络传创世纪（Ultima Online）》"></a><strong>《网络传创世纪（Ultima Online）》</strong></h4><p>1996年（中国 1999年）上线，它是第一款图形网络游戏，在<strong>《网络创世纪》</strong>之前其实都是文字网游。但它本身并没有逃出文字网游的一些设定，虽然是图形化，但玩家在操作时还是要输入指令，后面出现了宏名指令之后让整个指令过程变得简单一些。</p>
+<p>这款游戏在玩法上是非常自由的，玩家在进入游戏时并不用选择职业，然后可以自己定义自己的发展方向。同时涉及了诸如家园系统、钓鱼系统、生活技能等等，这些大部分都被沿用到了今天。这款产品开创了整个网络游戏的一个框架，就是服务端和客户端的交互，客户端负责计算和展示，服务端进行存储。</p>
+<ul>
+<li><p>游戏公会</p>
+</li>
+<li><p>家园系统</p>
+</li>
+<li><p>虚拟生态</p>
+<p>  现代的MMORPG网游的刷怪都是有固定或者有一个时间间隔的，而网络创世纪不会随机刷新。</p>
+<blockquote>
+<p> 在一个村庄有鹿的生活区域，如果玩家把鹿都杀光，该地区的龙就会因为缺少食物而去攻击人类的村庄，这个时候人类的村庄会弹出一个任务，让玩家去屠龙。</p>
+</blockquote>
+<p>  设计者想的很好，通过这种生态模式可以触发很多新的任务新的玩法给玩家。然而事实上玩家屠龙之后因为没有刷怪机制只能自相残杀，整个游戏变得非常混乱，生态系统宣告失败。</p>
+</li>
+<li><p>红名模式</p>
+<p>  首创杀人会变成红名，红名会获得惩罚。</p>
+</li>
+<li><p>不列颠之王遇刺事件</p>
+<p>  在内测的时候当时的总设计师理查德，作为一个GM账号进入游戏，游戏ID是不列颠之王。结果因为GM账号没有勾选无敌选项，他被一个盗贼玩家杀死了。</p>
+</li>
+</ul>
+<p>这几件事给人们带来的启示是游戏玩家的行为会不可预测的，限制玩家行为是非常重要的。而像<strong>网络创世纪</strong>这样开放自由的游戏在后面的产品中已经非常少见了。</p>
+<h4 id="《无尽的任务（Ever-Quest）》"><a href="#《无尽的任务（Ever-Quest）》" class="headerlink" title="《无尽的任务（Ever Quest）》"></a><strong>《无尽的任务（Ever Quest）》</strong></h4><p>1999年（中国 2003年）上线，简要的概括这款产品就是<strong>魔兽世界</strong>的前身。当时设计者在<strong>网络创世纪</strong>看到许多PvP的负面影响，所以定位是主攻PvE，系统非常出彩。比如它首创了仇恨系统，怪物会根据玩家对它不同的攻击来建立一个仇恨的列表，然后优先攻击仇恨列表第一个玩家。它的任务系统也是非常庞大的，给玩家非常多的选择。它也首创了raid系统，即大规模的团队PvE。还有一些职业的分化、buff、debuff、种族天赋都有所体现。</p>
+<p>但这款产品在2003年进入中国之后并没有获得成功。首先它作为3D游戏，国内的硬件环境并没有办法去支撑，大部分电脑是跑不动的；还有一点是过于硬核，设计者对游戏的真实性达到了偏执的程度，里面所有的设定都要跟现实世界比较相似。</p>
+<blockquote>
+<p>里面的夜晚真的就是夜晚，现在游戏的夜晚是天色变黑但能见度没有影响，但在EQ里面没有夜视能力的职业是基本什么都看不到。所以当时如果人类在晚上出生，他想出新手村可能要转几个小时才能出去。</p>
+</blockquote>
+<h4 id="《石器时代（StoneAge）》"><a href="#《石器时代（StoneAge）》" class="headerlink" title="《石器时代（StoneAge）》"></a><strong>《石器时代（StoneAge）》</strong></h4><p>1999年在日本上线，2001中国上线并获得了成功。作为一个回合制游戏，在拨号上网的年代很契合中国的网络环境，即时制的游戏对于网络要求比较高；同时它的画面表现相对欧美玩家来讲更符合国内玩家的品味，相对轻松一些的卡通风格，接受度也更大一些。</p>
+<ul>
+<li>宠物系统</li>
+<li>社交行为</li>
+<li>直接影响回合制游戏的设定</li>
+</ul>
+<h3 id="MMORPG的发展"><a href="#MMORPG的发展" class="headerlink" title="MMORPG的发展"></a>MMORPG的发展</h3><p>发展的时期大概在2001年到2010年之间，这段时间算是MMORPG最辉煌的一个阶段，大作非常多，玩法的颠覆也非常多，社交体系的颠覆也比较多，包括商业化。商业化的改变非常巨大，中国在这一方面引领了世界。</p>
+<h4 id="《传奇》系列"><a href="#《传奇》系列" class="headerlink" title="《传奇》系列"></a><strong>《传奇》系列</strong></h4><p>传奇就跟它的名字一样，它就是一个传奇。它在2001年由盛大代理在国内上线 <strong>《传奇（热血传奇）》</strong>。</p>
+<p>传奇的玩法就是杀怪，玩家杀怪获得装备升级，升级之后变强了拿到更好的装备就可以挑战更高级的怪物，然后继续杀怪升级。游戏的探索价值比较高，当时没有门户网站，整个游戏是未知，需要玩家不断去探索。</p>
+<blockquote>
+<ul>
+<li>2002 传奇私服出现</li>
+<li>2003 <strong>传奇世界</strong></li>
+<li>2011 传奇页游开始兴起</li>
+<li>2015 热血传奇手游上线</li>
+</ul>
+</blockquote>
+<h4 id="《梦幻西游》"><a href="#《梦幻西游》" class="headerlink" title="《梦幻西游》"></a><strong>《梦幻西游》</strong></h4><p>融合了几乎所有回合制游戏的优点。当时设计者对玩家体验并不是十分的关注，而梦幻西游在玩家体验上做到了非常极致的优化，在游戏生活中非常的便捷。同时它在玩法上已经扩充的非常丰富了，除了最原始的打怪升级之外还有许多丰富的任务活动来填充玩家的游戏时间，成为了回合制游戏标杆。</p>
+<p>梦幻西游的经济系统非常开放，玩家可以自由交易，还能做到经济平衡，玩家的产出和消耗基本是持平的状态。在经济系统平稳的前提下，玩家整个打怪收益会比较固定，玩家粘性也会更高，最重要的点就是 <strong>我的努力有回报</strong>。</p>
+<p>网易凭借梦幻西游在2006年直接成为了国内第一的网游公司，所有产品的总在线人数超过了两百万。</p>
+<h4 id="《魔兽世界》"><a href="#《魔兽世界》" class="headerlink" title="《魔兽世界》"></a><strong>《魔兽世界》</strong></h4><p>魔兽世界是对整个网游市场颠覆最大的一款游戏。它在2005年由九城代理进入国内，做的最大的颠覆是副本系统。副本系统对PvE玩家更加的友好，有施展自己拳脚的平台。因为副本的诞生，让整个游戏更深耕于PvE的一个玩法，而BOSS更多的技能设计，也让整个游戏的玩法变得更加有趣。</p>
+<p>装备绑定的设定对整个网游影响也很大。因为之前的装备是不绑定的，所有的极品装备都是可以在市场上流通的，直接的影响就是装备会贬值。</p>
+<ul>
+<li>阵营设定</li>
+<li>剧情任务</li>
+<li>开启语音社交时代</li>
+</ul>
+<p>早期魔兽跟无尽的任务十分相似，后面随着游戏的快餐化取消了许多反人类的硬核设定，而这些会在怀旧服中体现出来。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghbggrdqahj30r00f7juo.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.wowchina.com/zh-cn/news/18088331/%E9%AD%94%E5%85%BD%E4%B8%96%E7%95%8C%E5%85%A8%E6%96%B04k%E5%A3%81%E7%BA%B8">魔兽世界</a> 
+    </i>
+  </font>
+</div>
+
+
+
+<h4 id="《热血江湖》"><a href="#《热血江湖》" class="headerlink" title="《热血江湖》"></a><strong>《热血江湖》</strong></h4><p>首款大张旗鼓宣扬自己是免费游戏的一款游戏。在此之前的免费游戏没有找到很好的营收手段，同时“卖数值”会影响平衡，让非R玩家有很强的负面情绪。</p>
+<ul>
+<li>宣告网游正式进入免费时代</li>
+</ul>
+<h4 id="《征途》"><a href="#《征途》" class="headerlink" title="《征途》"></a><strong>《征途》</strong></h4><p>把游戏的商业化做到极致的一个产品，以至于没有一款产品可以超越它。在2006年上线后就超过了梦幻西游的在线人数，原因在于史玉柱在宣传方面下了更多的功夫。</p>
+<p>征途开创了一种新的社交方式，就是国战。每个服务器有十个国家，然后对于城主和国家的皇帝来说，他的行驶权利是非常大的，比如获得NPC的一部分收益；或者可以行使一部分GM权利，这是一个玩家身份地位一个非常好的体现。</p>
+<ul>
+<li>商业化和宣传</li>
+<li>新的PVP社交模式</li>
+<li>自动寻路开始普及</li>
+<li>网游开始快餐化</li>
+</ul>
+<h4 id="《魔域》"><a href="#《魔域》" class="headerlink" title="《魔域》"></a><strong>《魔域》</strong></h4><ul>
+<li>2006</li>
+<li>爽快战斗</li>
+<li>XP技能</li>
+<li>商人在游戏中作用巨大</li>
+<li>网络游戏快餐化</li>
+</ul>
+<h4 id="《剑侠情缘网络版叁》"><a href="#《剑侠情缘网络版叁》" class="headerlink" title="《剑侠情缘网络版叁》"></a><strong>《剑侠情缘网络版叁》</strong></h4><p>初期仿照魔兽世界，后面效果不佳对游戏进行改进，变成现在这样相对巅峰的状态。恶人谷与浩气盟的争斗让设计者重新发现PvP的玩家参与度是比较高的，最终演变为阵容的攻防战，鼓励玩家去攻击阵营的BOSS。</p>
+<p>萝莉体型也是剑网三首创的，吸引了一部分二次元玩家。这部分玩家的二次创作能力非常强，包括cosplay、同人漫画、同人歌曲等等。同人文化的发展也是剑网三的一大特色。</p>
+<ul>
+<li>阵容攻防战</li>
+<li>轻功系统</li>
+<li>同人文化</li>
+<li>剧情深化</li>
+</ul>
+<p>这些改进让剑网三走向了和魔兽世界完全不同的道路。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghbo6zmp6mj30zk0ffn4z.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://mp.weixin.qq.com/s/pLTjQMTOw6veVAn2R4mT0w">@白芷不是中药</a> 
+    </i>
+  </font>
+</div>
+
+
+
+
+<h3 id="MMORPG的分化"><a href="#MMORPG的分化" class="headerlink" title="MMORPG的分化"></a>MMORPG的分化</h3><p>MMO到2010年之后，它就处于一个非常尴尬的地位，因为其实玩法上面已经挖掘差不多了，很难找到一个新的玩法；其次游戏这时候已经孵化成非常多的品类了，玩家有了更多的选择。第一条出路就是多平台，就是可以向其他一些更便捷的平台迁移来降低这个游戏的体量，同时研发成本也会降低。</p>
+<h4 id="页游MMO兴起"><a href="#页游MMO兴起" class="headerlink" title="页游MMO兴起"></a>页游MMO兴起</h4><p>MMO页游的特点就是全自动，它的目标用户就是上班族白领，他们没有时间玩游戏，通过自动挂机的方式来进行任务，打怪升级。在有时间的时候做一些操作比如PK、充值。因为玩法过于简单迅速进入瓶颈期，玩法和品质均无法做到突破。</p>
+<ul>
+<li>洗量大行其道</li>
+<li>页游MMO最终只成为一个过渡形态</li>
+</ul>
+<h4 id="手游MMO兴起"><a href="#手游MMO兴起" class="headerlink" title="手游MMO兴起"></a>手游MMO兴起</h4><ul>
+<li>2014</li>
+<li>全民奇迹获得成功</li>
+<li>MMO手游开始兴起</li>
+<li>MMO品类正式从端游、页游，过渡到手游</li>
+</ul>
+<h4 id="梦幻西游手游"><a href="#梦幻西游手游" class="headerlink" title="梦幻西游手游"></a><strong>梦幻西游</strong>手游</h4><p>几乎移植了端游的所有玩法，在手游上毫无例外的获得了成功。在IOS畅销榜上面占第一名长达640天，没有任何一款新游戏可以撼动它的地位。</p>
+<ul>
+<li>端游IP移植手游的热潮开启</li>
+<li>后续<strong>热血传奇、剑侠情缘、天龙八部</strong>等游戏相继上线</li>
+</ul>
+<h4 id="《我叫MT4》"><a href="#《我叫MT4》" class="headerlink" title="《我叫MT4》"></a><strong>《我叫MT4》</strong></h4><p>在这款产品之前并没有一款魔兽世界玩法的游戏，弥补了该类的空白。</p>
+<ul>
+<li>魔兽玩法移植</li>
+<li>端游IP基本消耗殆尽</li>
+<li>手游MMO也将进入瓶颈</li>
+</ul>
+<h4 id="《激战2》"><a href="#《激战2》" class="headerlink" title="《激战2》"></a><strong>《激战2》</strong></h4><p>尝试开放世界，强调游戏探索。</p>
+<ul>
+<li>随机地图事件</li>
+<li>买断式收费</li>
+<li>跨服的纯公平PVP</li>
+<li>国服盗号事件</li>
+</ul>
+<h4 id="《楚留香》"><a href="#《楚留香》" class="headerlink" title="《楚留香》"></a><strong>《楚留香》</strong></h4><p>手游的开放世界尝试。</p>
+<ul>
+<li>开放世界的尝试</li>
+<li>硬件和网络不断发展</li>
+<li>手游MMO的机会比较大</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh17yayv6rj30mk0dkzw6.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://jianghu.163.com/?from=nietop">楚留香 一梦江湖</a> 
+    </i>
+  </font>
+</div>
+
+
+
+
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><ul>
+<li>画面品质、玩法乐趣、社交体系、经济体系都是绝对一款MMORPG是否成功的关键因素</li>
+<li>页游MMORPG在游戏本身以及比较难再做突破</li>
+<li>端游和手游MMO仍有比较大的发展前景</li>
+<li>未来MMORPG在玩法层面突破机会较大，高自由度、沙盒化的玩法可能是未来MMORPG爆发的方向</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh07sc7c5sj30xc08cmzg.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+     <a href="https://www.behance.net/harveydentmustdie">Milos Kostic</a>
+    </i>
+  </font>
+</div>
+
+]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>RPG</tag>
+        <tag>MMORPG</tag>
       </tags>
   </entry>
   <entry>
@@ -3005,219 +3218,6 @@
       </categories>
       <tags>
         <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MMORPG的发展历程与简析</title>
-    <url>/archives/ccbc93d7.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/bb577066966371.5b292fe8ca2fa.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/66966371/PromaxGames-Sponsor-Titles">PromaxGames Sponsor Titles</a> by 
-      <a href="https://www.behance.net/BlakeFawley">Blake Fawley</a>
-    </i>
-  </font>
-</div>
-
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文主要讲解MMORPG游戏类型，通过MMORPG的主要发展过程、列举一些具有代表性的产品，分析其中的一些系统，以及如何改变市场发展方向。</p>
-<a id="more"></a>
-
-
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>李博</strong> </p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li>2011年毕业于厦门大学</li>
-<li>2014年进入腾讯引进评估中心 </li>
-</ul>
-<h3 id="MMORPG的兴起"><a href="#MMORPG的兴起" class="headerlink" title="MMORPG的兴起"></a>MMORPG的兴起</h3><h4 id="MMORPG的概念"><a href="#MMORPG的概念" class="headerlink" title="MMORPG的概念"></a>MMORPG的概念</h4><blockquote>
-<p> <strong>MMORPG</strong> – <strong>M</strong>assively <strong>M</strong>ultiplayer <strong>O</strong>nline <strong>R</strong>ole <strong>P</strong>laying <strong>G</strong>ame – 大型多人在线角色扮演游戏</p>
-</blockquote>
-<p>与单机RPG一样，个人成长仍然是游戏的核心驱动力，但成长出口和成长方式有本质区别。社交系统给了玩家全新的体验。</p>
-<p>其实并不是所有产品都会在国内市场获得成功，但是每款产品都奠定了一个MMORPG的一个玩法品类或者是整个框架这样一个基础，所以后续的产品基本上没有逃出这三个产品的一个基本框架。</p>
-<h4 id="《网络传创世纪（Ultima-Online）》"><a href="#《网络传创世纪（Ultima-Online）》" class="headerlink" title="《网络传创世纪（Ultima Online）》"></a><strong>《网络传创世纪（Ultima Online）》</strong></h4><p>1996年（中国 1999年）上线，它是第一款图形网络游戏，在<strong>《网络创世纪》</strong>之前其实都是文字网游。但它本身并没有逃出文字网游的一些设定，虽然是图形化，但玩家在操作时还是要输入指令，后面出现了宏名指令之后让整个指令过程变得简单一些。</p>
-<p>这款游戏在玩法上是非常自由的，玩家在进入游戏时并不用选择职业，然后可以自己定义自己的发展方向。同时涉及了诸如家园系统、钓鱼系统、生活技能等等，这些大部分都被沿用到了今天。这款产品开创了整个网络游戏的一个框架，就是服务端和客户端的交互，客户端负责计算和展示，服务端进行存储。</p>
-<ul>
-<li><p>游戏公会</p>
-</li>
-<li><p>家园系统</p>
-</li>
-<li><p>虚拟生态</p>
-<p>  现代的MMORPG网游的刷怪都是有固定或者有一个时间间隔的，而网络创世纪不会随机刷新。</p>
-<blockquote>
-<p> 在一个村庄有鹿的生活区域，如果玩家把鹿都杀光，该地区的龙就会因为缺少食物而去攻击人类的村庄，这个时候人类的村庄会弹出一个任务，让玩家去屠龙。</p>
-</blockquote>
-<p>  设计者想的很好，通过这种生态模式可以触发很多新的任务新的玩法给玩家。然而事实上玩家屠龙之后因为没有刷怪机制只能自相残杀，整个游戏变得非常混乱，生态系统宣告失败。</p>
-</li>
-<li><p>红名模式</p>
-<p>  首创杀人会变成红名，红名会获得惩罚。</p>
-</li>
-<li><p>不列颠之王遇刺事件</p>
-<p>  在内测的时候当时的总设计师理查德，作为一个GM账号进入游戏，游戏ID是不列颠之王。结果因为GM账号没有勾选无敌选项，他被一个盗贼玩家杀死了。</p>
-</li>
-</ul>
-<p>这几件事给人们带来的启示是游戏玩家的行为会不可预测的，限制玩家行为是非常重要的。而像<strong>网络创世纪</strong>这样开放自由的游戏在后面的产品中已经非常少见了。</p>
-<h4 id="《无尽的任务（Ever-Quest）》"><a href="#《无尽的任务（Ever-Quest）》" class="headerlink" title="《无尽的任务（Ever Quest）》"></a><strong>《无尽的任务（Ever Quest）》</strong></h4><p>1999年（中国 2003年）上线，简要的概括这款产品就是<strong>魔兽世界</strong>的前身。当时设计者在<strong>网络创世纪</strong>看到许多PvP的负面影响，所以定位是主攻PvE，系统非常出彩。比如它首创了仇恨系统，怪物会根据玩家对它不同的攻击来建立一个仇恨的列表，然后优先攻击仇恨列表第一个玩家。它的任务系统也是非常庞大的，给玩家非常多的选择。它也首创了raid系统，即大规模的团队PvE。还有一些职业的分化、buff、debuff、种族天赋都有所体现。</p>
-<p>但这款产品在2003年进入中国之后并没有获得成功。首先它作为3D游戏，国内的硬件环境并没有办法去支撑，大部分电脑是跑不动的；还有一点是过于硬核，设计者对游戏的真实性达到了偏执的程度，里面所有的设定都要跟现实世界比较相似。</p>
-<blockquote>
-<p>里面的夜晚真的就是夜晚，现在游戏的夜晚是天色变黑但能见度没有影响，但在EQ里面没有夜视能力的职业是基本什么都看不到。所以当时如果人类在晚上出生，他想出新手村可能要转几个小时才能出去。</p>
-</blockquote>
-<h4 id="《石器时代（StoneAge）》"><a href="#《石器时代（StoneAge）》" class="headerlink" title="《石器时代（StoneAge）》"></a><strong>《石器时代（StoneAge）》</strong></h4><p>1999年在日本上线，2001中国上线并获得了成功。作为一个回合制游戏，在拨号上网的年代很契合中国的网络环境，即时制的游戏对于网络要求比较高；同时它的画面表现相对欧美玩家来讲更符合国内玩家的品味，相对轻松一些的卡通风格，接受度也更大一些。</p>
-<ul>
-<li>宠物系统</li>
-<li>社交行为</li>
-<li>直接影响回合制游戏的设定</li>
-</ul>
-<h3 id="MMORPG的发展"><a href="#MMORPG的发展" class="headerlink" title="MMORPG的发展"></a>MMORPG的发展</h3><p>发展的时期大概在2001年到2010年之间，这段时间算是MMORPG最辉煌的一个阶段，大作非常多，玩法的颠覆也非常多，社交体系的颠覆也比较多，包括商业化。商业化的改变非常巨大，中国在这一方面引领了世界。</p>
-<h4 id="《传奇》系列"><a href="#《传奇》系列" class="headerlink" title="《传奇》系列"></a><strong>《传奇》系列</strong></h4><p>传奇就跟它的名字一样，它就是一个传奇。它在2001年由盛大代理在国内上线 <strong>《传奇（热血传奇）》</strong>。</p>
-<p>传奇的玩法就是杀怪，玩家杀怪获得装备升级，升级之后变强了拿到更好的装备就可以挑战更高级的怪物，然后继续杀怪升级。游戏的探索价值比较高，当时没有门户网站，整个游戏是未知，需要玩家不断去探索。</p>
-<blockquote>
-<ul>
-<li>2002 传奇私服出现</li>
-<li>2003 <strong>传奇世界</strong></li>
-<li>2011 传奇页游开始兴起</li>
-<li>2015 热血传奇手游上线</li>
-</ul>
-</blockquote>
-<h4 id="《梦幻西游》"><a href="#《梦幻西游》" class="headerlink" title="《梦幻西游》"></a><strong>《梦幻西游》</strong></h4><p>融合了几乎所有回合制游戏的优点。当时设计者对玩家体验并不是十分的关注，而梦幻西游在玩家体验上做到了非常极致的优化，在游戏生活中非常的便捷。同时它在玩法上已经扩充的非常丰富了，除了最原始的打怪升级之外还有许多丰富的任务活动来填充玩家的游戏时间，成为了回合制游戏标杆。</p>
-<p>梦幻西游的经济系统非常开放，玩家可以自由交易，还能做到经济平衡，玩家的产出和消耗基本是持平的状态。在经济系统平稳的前提下，玩家整个打怪收益会比较固定，玩家粘性也会更高，最重要的点就是 <strong>我的努力有回报</strong>。</p>
-<p>网易凭借梦幻西游在2006年直接成为了国内第一的网游公司，所有产品的总在线人数超过了两百万。</p>
-<h4 id="《魔兽世界》"><a href="#《魔兽世界》" class="headerlink" title="《魔兽世界》"></a><strong>《魔兽世界》</strong></h4><p>魔兽世界是对整个网游市场颠覆最大的一款游戏。它在2005年由九城代理进入国内，做的最大的颠覆是副本系统。副本系统对PvE玩家更加的友好，有施展自己拳脚的平台。因为副本的诞生，让整个游戏更深耕于PvE的一个玩法，而BOSS更多的技能设计，也让整个游戏的玩法变得更加有趣。</p>
-<p>装备绑定的设定对整个网游影响也很大。因为之前的装备是不绑定的，所有的极品装备都是可以在市场上流通的，直接的影响就是装备会贬值。</p>
-<ul>
-<li>阵营设定</li>
-<li>剧情任务</li>
-<li>开启语音社交时代</li>
-</ul>
-<p>早期魔兽跟无尽的任务十分相似，后面随着游戏的快餐化取消了许多反人类的硬核设定，而这些会在怀旧服中体现出来。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghbggrdqahj30r00f7juo.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.wowchina.com/zh-cn/news/18088331/%E9%AD%94%E5%85%BD%E4%B8%96%E7%95%8C%E5%85%A8%E6%96%B04k%E5%A3%81%E7%BA%B8">魔兽世界</a> 
-    </i>
-  </font>
-</div>
-
-
-
-<h4 id="《热血江湖》"><a href="#《热血江湖》" class="headerlink" title="《热血江湖》"></a><strong>《热血江湖》</strong></h4><p>首款大张旗鼓宣扬自己是免费游戏的一款游戏。在此之前的免费游戏没有找到很好的营收手段，同时“卖数值”会影响平衡，让非R玩家有很强的负面情绪。</p>
-<ul>
-<li>宣告网游正式进入免费时代</li>
-</ul>
-<h4 id="《征途》"><a href="#《征途》" class="headerlink" title="《征途》"></a><strong>《征途》</strong></h4><p>把游戏的商业化做到极致的一个产品，以至于没有一款产品可以超越它。在2006年上线后就超过了梦幻西游的在线人数，原因在于史玉柱在宣传方面下了更多的功夫。</p>
-<p>征途开创了一种新的社交方式，就是国战。每个服务器有十个国家，然后对于城主和国家的皇帝来说，他的行驶权利是非常大的，比如获得NPC的一部分收益；或者可以行使一部分GM权利，这是一个玩家身份地位一个非常好的体现。</p>
-<ul>
-<li>商业化和宣传</li>
-<li>新的PVP社交模式</li>
-<li>自动寻路开始普及</li>
-<li>网游开始快餐化</li>
-</ul>
-<h4 id="《魔域》"><a href="#《魔域》" class="headerlink" title="《魔域》"></a><strong>《魔域》</strong></h4><ul>
-<li>2006</li>
-<li>爽快战斗</li>
-<li>XP技能</li>
-<li>商人在游戏中作用巨大</li>
-<li>网络游戏快餐化</li>
-</ul>
-<h4 id="《剑侠情缘网络版叁》"><a href="#《剑侠情缘网络版叁》" class="headerlink" title="《剑侠情缘网络版叁》"></a><strong>《剑侠情缘网络版叁》</strong></h4><p>初期仿照魔兽世界，后面效果不佳对游戏进行改进，变成现在这样相对巅峰的状态。恶人谷与浩气盟的争斗让设计者重新发现PvP的玩家参与度是比较高的，最终演变为阵容的攻防战，鼓励玩家去攻击阵营的BOSS。</p>
-<p>萝莉体型也是剑网三首创的，吸引了一部分二次元玩家。这部分玩家的二次创作能力非常强，包括cosplay、同人漫画、同人歌曲等等。同人文化的发展也是剑网三的一大特色。</p>
-<ul>
-<li>阵容攻防战</li>
-<li>轻功系统</li>
-<li>同人文化</li>
-<li>剧情深化</li>
-</ul>
-<p>这些改进让剑网三走向了和魔兽世界完全不同的道路。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghbo6zmp6mj30zk0ffn4z.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://mp.weixin.qq.com/s/pLTjQMTOw6veVAn2R4mT0w">@白芷不是中药</a> 
-    </i>
-  </font>
-</div>
-
-
-
-
-<h3 id="MMORPG的分化"><a href="#MMORPG的分化" class="headerlink" title="MMORPG的分化"></a>MMORPG的分化</h3><p>MMO到2010年之后，它就处于一个非常尴尬的地位，因为其实玩法上面已经挖掘差不多了，很难找到一个新的玩法；其次游戏这时候已经孵化成非常多的品类了，玩家有了更多的选择。第一条出路就是多平台，就是可以向其他一些更便捷的平台迁移来降低这个游戏的体量，同时研发成本也会降低。</p>
-<h4 id="页游MMO兴起"><a href="#页游MMO兴起" class="headerlink" title="页游MMO兴起"></a>页游MMO兴起</h4><p>MMO页游的特点就是全自动，它的目标用户就是上班族白领，他们没有时间玩游戏，通过自动挂机的方式来进行任务，打怪升级。在有时间的时候做一些操作比如PK、充值。因为玩法过于简单迅速进入瓶颈期，玩法和品质均无法做到突破。</p>
-<ul>
-<li>洗量大行其道</li>
-<li>页游MMO最终只成为一个过渡形态</li>
-</ul>
-<h4 id="手游MMO兴起"><a href="#手游MMO兴起" class="headerlink" title="手游MMO兴起"></a>手游MMO兴起</h4><ul>
-<li>2014</li>
-<li>全民奇迹获得成功</li>
-<li>MMO手游开始兴起</li>
-<li>MMO品类正式从端游、页游，过渡到手游</li>
-</ul>
-<h4 id="梦幻西游手游"><a href="#梦幻西游手游" class="headerlink" title="梦幻西游手游"></a><strong>梦幻西游</strong>手游</h4><p>几乎移植了端游的所有玩法，在手游上毫无例外的获得了成功。在IOS畅销榜上面占第一名长达640天，没有任何一款新游戏可以撼动它的地位。</p>
-<ul>
-<li>端游IP移植手游的热潮开启</li>
-<li>后续<strong>热血传奇、剑侠情缘、天龙八部</strong>等游戏相继上线</li>
-</ul>
-<h4 id="《我叫MT4》"><a href="#《我叫MT4》" class="headerlink" title="《我叫MT4》"></a><strong>《我叫MT4》</strong></h4><p>在这款产品之前并没有一款魔兽世界玩法的游戏，弥补了该类的空白。</p>
-<ul>
-<li>魔兽玩法移植</li>
-<li>端游IP基本消耗殆尽</li>
-<li>手游MMO也将进入瓶颈</li>
-</ul>
-<h4 id="《激战2》"><a href="#《激战2》" class="headerlink" title="《激战2》"></a><strong>《激战2》</strong></h4><p>尝试开放世界，强调游戏探索。</p>
-<ul>
-<li>随机地图事件</li>
-<li>买断式收费</li>
-<li>跨服的纯公平PVP</li>
-<li>国服盗号事件</li>
-</ul>
-<h4 id="《楚留香》"><a href="#《楚留香》" class="headerlink" title="《楚留香》"></a><strong>《楚留香》</strong></h4><p>手游的开放世界尝试。</p>
-<ul>
-<li>开放世界的尝试</li>
-<li>硬件和网络不断发展</li>
-<li>手游MMO的机会比较大</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh17yayv6rj30mk0dkzw6.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://jianghu.163.com/?from=nietop">楚留香 一梦江湖</a> 
-    </i>
-  </font>
-</div>
-
-
-
-
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><ul>
-<li>画面品质、玩法乐趣、社交体系、经济体系都是绝对一款MMORPG是否成功的关键因素</li>
-<li>页游MMORPG在游戏本身以及比较难再做突破</li>
-<li>端游和手游MMO仍有比较大的发展前景</li>
-<li>未来MMORPG在玩法层面突破机会较大，高自由度、沙盒化的玩法可能是未来MMORPG爆发的方向</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh07sc7c5sj30xc08cmzg.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-     <a href="https://www.behance.net/harveydentmustdie">Milos Kostic</a>
-    </i>
-  </font>
-</div>
-
-]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>RPG</tag>
-        <tag>MMORPG</tag>
       </tags>
   </entry>
   <entry>
@@ -5042,6 +5042,62 @@
       </tags>
   </entry>
   <entry>
+    <title>跨越时空抚慰伤痛-Father and Son</title>
+    <url>/archives/84339f66.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf9lwaptxij30zk0k0401.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《父与子》由那不勒斯考古博物馆所发行，是一款以父子亲情为主题的冒险游戏，从那不勒斯国家考古博物馆，珍藏着人类最伟大的文物和珍宝，揭开这趟冒险之旅的序幕。剧情的主轴发展，开始于一个与父亲素为谋面的儿子迈克尔，透过穿越现在和过去，追溯已故父亲过往的考古旅程。你将亲自发掘那不勒斯的魅力，体验庞贝城在公元79年，维苏威火山喷发前几个小时的生离诀别，及探索古埃及的日常生活。积累的过去，造就了今日。</p>
+<a id="more"></a>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6guDCiNkZr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>因为游戏基本上没有什么玩法，就是移动、对话和一些小交互，所以画面被有意的压缩，留下上下两处放置交互按键。每个图案都清晰的表示，点击即可交互。然而令人非常遗憾的是，虽然交互的按键不少，但真正意义上的交互却非常少，家中的咖啡机和座椅、街道的座位，虽然有交互动画，但并不能实质推进剧情内容，只是让玩家单纯的沉浸在游戏的环境中，造成一种审美的疲劳，从而使一些玩家开始厌倦这种没有意义的交互。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghyp8ctbcmj31ds0n0wib.jpg"></p>
+<h4 id="场景设计"><a href="#场景设计" class="headerlink" title="场景设计"></a>场景设计</h4><p>整个游戏的美术风格采用了厚实质朴的油画风格，辨识度非常之高。最初被吸引的原因也是和许多年前的一个游戏 《直到世界的尽头》的美术风格非常相近。这个游戏不仅是油画风格，包括交互和时间交织的设计，我觉得都是参考了那个游戏。</p>
+<p>回到游戏本身，场景应该是参照现实中的博物馆和那不勒斯的实景，很有异域风情的感觉：熙熙攘攘的街道、庄严肃穆的博物馆、摇摇欲坠的火山、月光下的告白……细腻的油画很容易让人沉浸其中，形形色色的人被简化成了颜色各异的人形模型，漫游在一座陌生的城市，与父亲之前的朋友聊天，欣赏着故时的艺术，遇到自己心仪的女孩。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghzyns7kw0j31ds0n0b2a.jpg"></p>
+<h4 id="剧情故事"><a href="#剧情故事" class="headerlink" title="剧情故事"></a>剧情故事</h4><p>故事这一方面可以说是相当的不满意了。</p>
+<p>游戏总体上分成了三条叙事线：第一条是主角拜访父亲的故居，了解父亲的工作并试图去谅解抛妻弃子的他；第二条是儿子到访博物馆时时空交织回火山爆发前的古城，作为丈夫想办法拯救自己的妻子和女儿；第三条是儿子谅解父亲后与陌生姑娘的偶遇邂逅穿插雕塑师（个人推测是当时米开朗基罗任命的波尔塔）与妻子的诀别。</p>
+<p>光看上面陈列的故事线，叙事应该是非常丰富多彩的，带给玩家的应该是令人无法释怀的感人故事，然而叙述的手法实在拙劣。第一条线的核心个人理解应该是儿子是如何体谅父亲的，然而玩家被大量没有营养的对话所充斥，与父亲的旧友聊天和对艺术的感悟并不足以让儿子理解父亲离开妻儿如此长的时间，至少我去代入的话是不会这样的。即使穿插着第二条火山爆发前古城的父亲保护了妻子和女儿，但依旧无法掩饰他作为父亲的失职。也许他是一位优秀敬业的考古学者，但一定不是一位称职的父亲。</p>
+<p>第二条线依旧非常简陋，在火山爆发前父亲在慌乱中寻找邻居家的钱来凑够船票，碰巧遇到了熟人。这里可以选择抢走他的钱或者放任他，我选择了后者。唯一给我触动的是在送完妻女后头上开始倒计时，人群四散奔跑，而我觉得会有出口或者交互地点，于是从最左侧的码头跑回了最右侧，但是什么也没有发生，倒计时仍在继续。当我尝试在从右侧向左侧跑动时，时间已经不够了，对女儿的承诺也随着火山灰的坠落一并消逝了。</p>
+<p>第三条线则显得更加突兀，主角在理解父亲后在街上偶遇了心动的女孩，在唯美的场景下说出许多我自认为故弄玄虚的话，交织着雕刻师与妻子的诀别。在重现历史的过程中插入爱情的元素感觉是很突兀的，因为对白的功底不足，情感渲染的也不是很到位。</p>
+<p>虽然标题是 “跨越时空抚慰伤痛”，但给我个人的感觉是缺少父亲“赎罪”的过程。仅仅以探究古代丰富多彩的故事的工作为借口而忽略对儿子的陪伴，身为一个父亲是不合格的，这样的理由不足以打动玩家。跨越时间的故事虽然也是和父爱相关，但一个是为了妻儿选择留下牺牲自己，而一个是为了自己所痴迷的东西忘记了作为父亲的职责。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/01.jpg"></p>
+<h3 id="文化溯源"><a href="#文化溯源" class="headerlink" title="文化溯源"></a>文化溯源</h3><h4 id="面包师-Terentius-Neo-和他妻子的壁画"><a href="#面包师-Terentius-Neo-和他妻子的壁画" class="headerlink" title="面包师 Terentius Neo 和他妻子的壁画"></a>面包师 Terentius Neo 和他妻子的壁画</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gfaa7ug22mj30ww0irwij.jpg"></p>
+<p>画上面包师及其妻子均手握书写工具，这表明他们是接受了教育的，纵使经济尚可，依旧努力掩饰自己出身卑微的情况。这幅双人肖像是在该地区发现的唯一此类画作，也是展览的亮点之一。展览策划人保罗·罗伯茨（Paul Roberts）认为，这幅画从独特的视角展现了公元1世纪庞贝城的居民生活：</p>
+<blockquote>
+<p>“作品显示这位面包师和妻子是优秀的罗马人，纸卷和铁笔显示他们受过教育，有修养。更重要的是，他们似乎是地位平等的伴侣。</p>
+</blockquote>
+<br/>
+
+<blockquote>
+<p>“她站在他前面一点，这不是怯懦女性的形象。在生意上，她是掌握账本的人。”</p>
+</blockquote>
+<h4 id="法尔内塞赫拉克勒斯-Ercole-Farnese"><a href="#法尔内塞赫拉克勒斯-Ercole-Farnese" class="headerlink" title="法尔内塞赫拉克勒斯 / Ercole Farnese"></a>法尔内塞赫拉克勒斯 / Ercole Farnese</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Lisippo_Ercole_Farnese.jpg"></p>
+<p>古罗马的皇帝怀着对赫拉克勒斯的崇敬，在罗马的卡拉卡拉浴场修建了该雕像。罗马灭亡后直至文艺复兴，人们开始对浴场进行考古挖掘。雕像的头部和躯干相继被发现，但双腿没有找到，于是文艺复兴运动主要的资助人之一红衣主教 <strong>法尔内塞</strong> 让米开朗基罗的学生波尔塔把雕像的这几部分运往罗马的 <strong>法尔内塞宫</strong>。米开朗基罗让波尔塔为雕像雕刻了一双新腿（双腿原件不久就被找到了），而自己在宫里的庭院中建了一个特殊的建筑来展示这个3米多高的巨人，雕像也因此命名为<strong>法尔内塞赫拉克勒斯（Farnese Hercules）</strong>，现收藏于 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a>。</p>
+<p>在希腊神话中，赫拉克勒斯是最伟大的英雄，他曾以顽强的战斗精神克服重重困难，完成了天神赋予他的十二件艰险的工作，还拯救了为人类盗火的普罗米修斯。赫拉克勒斯一生频于战斗，所有功绩都可圈可点，所以作者独具匠心地选取了他休息时的情节来表现这位伟大的英雄。雕像中人体呈曲线型，左腿支撑着身体的重量，左臂倚在支柱上，右臂背到身后。这种富有变化的姿态，形成了较为轻松的气氛。整个雕像给人一种平和但蕴含着力量的感觉，表现了一种雄浑的古典风格。雕像的形体块面结实饱满，虽然作品表现的是英雄赫拉克勒斯疲劳后休息的形象，但却依然让人感到似乎可以随时爆发出强大的能量。</p>
+<h4 id="庞贝古城"><a href="#庞贝古城" class="headerlink" title="庞贝古城"></a>庞贝古城</h4><p>庞贝城的起源可以上溯至公元前6世纪，在罗马人到来前，埃特鲁里亚、希腊和萨莫奈人先后在此统治。公元前4世纪，罗马人击败萨莫奈人，庞贝和坎帕尼亚的城邦纷纷加入罗马联盟，但仍然保持着相对独立的地位，由当地政府管辖，在外交和军事等方面则需要听从罗马的指令。公元前91年，同盟战争爆发，庞贝也是参战的意大利盟邦之一。战后，庞贝人获得了罗马公民权，但也成为罗马的殖民地，官方语言变成了拉丁语，并改用罗马的政治制度，开始每年选举双执法官。</p>
+<p>公元79年，庞贝遭遇灭顶之灾，维苏威火山喷发形成的火山灰，掩埋了它与附近的赫库兰尼姆、奥普隆蒂斯和斯塔比亚等城市。小普林尼的两封书信记录了这场灾难，他当年17岁，是火山爆发的见证者。在随后的岁月里，除了掘宝人的偶尔光顾（一所大房屋的门上留下了“此屋已凿”的字样），庞贝被世人遗忘了上千年。直到1592年，人们在挖掘运河时发现了带有古代壁画的墙壁，以及刻着“庞贝市议员”字样的石碑，这座城市才陆续被发掘。从18世纪末开始，发掘进展大大加快，不断有新的重要建筑被发现，庞贝城的面貌开始逐渐展现在世人眼前。</p>
+<p>今天，庞贝的城市布局已经相当清晰。根据考古学家朱塞佩·菲奥雷利的描绘，城中的每栋建筑都有了独立的编码，即便有的还尚未被命名。庞贝位于罗马以南240公里，在古代，普通旅行者从首都前往那里可能要花费三天，而信使骑快马可能只需一天。它所在的那不勒斯湾，在罗马时代就是贵族精英的度假胜地，许多名人在那里拥有别墅，比如恺撒就曾带领大批侍从造访政治家西塞罗的宅邸。通过贸易和罗马扩张带来的财富，庞贝成为一座繁荣的城市，建有圆形竞技场、两个剧场和四个浴场。庞贝还发掘了大量精美的壁画和工艺品，不仅体现了城市的富庶，更是古罗马时期生活的重要见证。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gi1wjbinunj30sg0lcgrf.jpg"></p>
+<h3 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h3><h4 id="存档"><a href="#存档" class="headerlink" title="存档"></a>存档</h4><p>在最初的场景中，由于一开始的交互内容包含了大量的艺术方面的知识，我会先主动退出游戏去查这些艺术品。但再次进入游戏后并没有回到之前的场景，而是直接重新开始。游戏过程中也没有找到手动存档的地方，这会导致玩的时候必须要玩到游戏指定的自动存档点才可以退出游戏，这对于喜欢刨根问底不断切屏追究游戏中的历史溯源的玩家是非常影响游戏体验的，而作为和博物馆联动的宣传游戏肩负着宣传的责任，上面的硬核玩家其实才是最有可能亲自到访 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a> 的受众。</p>
+<h4 id="本地化翻译"><a href="#本地化翻译" class="headerlink" title="本地化翻译"></a>本地化翻译</h4><p>从在家里父亲给儿子的信就能感觉到，文字中那种很奇怪的感觉：「让您重新看待你的人生」、「你计画去哪吗」……这种非常糟糕的本地化翻译就像每年四六级各种层出不穷的奇怪翻译一样，是这个游戏诟病的点之一。同样的，作为 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a> 已经出海的宣传游戏，海外的玩家如果看到如此糟糕的文本，游戏的体验要打折扣，想必对博物馆本身宣传的效果会适得其反。希望开发者和博物馆双方都能注重如何本土化文本的问题。</p>
+<h4 id="对话交流"><a href="#对话交流" class="headerlink" title="对话交流"></a>对话交流</h4><p>游戏中许多场景下的对话有一定的延迟和卡顿，在点击之后不能够及时反馈。这种延迟感对于游戏体验而言是致命的，会让我感到烦躁。同样的，对话的文本显得冗余繁杂，不够凝练，而且大部分对话都是对于父亲的看法，没有实质性推动游戏剧情的有效内容。</p>
+<h4 id="故事流程"><a href="#故事流程" class="headerlink" title="故事流程"></a>故事流程</h4><p>流程有一点问题。在火山爆发前去朋友家山上别墅找钱币购买船票时，在与另一个老人相遇之后回到客厅仍能再次挖掘钱币，再次上楼老人可以重复流程。在客厅的钱只够买两张船票，你可以再次选择保留自己的良心不去抢夺还是为了自己的孩子去抢夺老人。不知道是制作者有意为之给玩家重新选择的机会还是测试的时候没有发现，我觉得是前者。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gfaa68p2kzj31hc0u015n.jpg"></p>
+]]></content>
+      <categories>
+        <category>游戏追踪 (Game Tracker)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>Art</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>此时此刻，你充满了决心-Undertale</title>
     <url>/archives/795e3081.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggm00ecrbej30rs0iwhdt.jpg"></p>
@@ -5140,169 +5196,8 @@
       </categories>
       <tags>
         <tag>Game</tag>
-        <tag>INDIE</tag>
         <tag>RPG</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>跨越时空抚慰伤痛-Father and Son</title>
-    <url>/archives/84339f66.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf9lwaptxij30zk0k0401.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《父与子》由那不勒斯考古博物馆所发行，是一款以父子亲情为主题的冒险游戏，从那不勒斯国家考古博物馆，珍藏着人类最伟大的文物和珍宝，揭开这趟冒险之旅的序幕。剧情的主轴发展，开始于一个与父亲素为谋面的儿子迈克尔，透过穿越现在和过去，追溯已故父亲过往的考古旅程。你将亲自发掘那不勒斯的魅力，体验庞贝城在公元79年，维苏威火山喷发前几个小时的生离诀别，及探索古埃及的日常生活。积累的过去，造就了今日。</p>
-<a id="more"></a>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6guDCiNkZr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-
-
-<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h4><p>因为游戏基本上没有什么玩法，就是移动、对话和一些小交互，所以画面被有意的压缩，留下上下两处放置交互按键。每个图案都清晰的表示，点击即可交互。然而令人非常遗憾的是，虽然交互的按键不少，但真正意义上的交互却非常少，家中的咖啡机和座椅、街道的座位，虽然有交互动画，但并不能实质推进剧情内容，只是让玩家单纯的沉浸在游戏的环境中，造成一种审美的疲劳，从而使一些玩家开始厌倦这种没有意义的交互。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghyp8ctbcmj31ds0n0wib.jpg"></p>
-<h4 id="场景设计"><a href="#场景设计" class="headerlink" title="场景设计"></a>场景设计</h4><p>整个游戏的美术风格采用了厚实质朴的油画风格，辨识度非常之高。最初被吸引的原因也是和许多年前的一个游戏 《直到世界的尽头》的美术风格非常相近。这个游戏不仅是油画风格，包括交互和时间交织的设计，我觉得都是参考了那个游戏。</p>
-<p>回到游戏本身，场景应该是参照现实中的博物馆和那不勒斯的实景，很有异域风情的感觉：熙熙攘攘的街道、庄严肃穆的博物馆、摇摇欲坠的火山、月光下的告白……细腻的油画很容易让人沉浸其中，形形色色的人被简化成了颜色各异的人形模型，漫游在一座陌生的城市，与父亲之前的朋友聊天，欣赏着故时的艺术，遇到自己心仪的女孩。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ghzyns7kw0j31ds0n0b2a.jpg"></p>
-<h4 id="剧情故事"><a href="#剧情故事" class="headerlink" title="剧情故事"></a>剧情故事</h4><p>故事这一方面可以说是相当的不满意了。</p>
-<p>游戏总体上分成了三条叙事线：第一条是主角拜访父亲的故居，了解父亲的工作并试图去谅解抛妻弃子的他；第二条是儿子到访博物馆时时空交织回火山爆发前的古城，作为丈夫想办法拯救自己的妻子和女儿；第三条是儿子谅解父亲后与陌生姑娘的偶遇邂逅穿插雕塑师（个人推测是当时米开朗基罗任命的波尔塔）与妻子的诀别。</p>
-<p>光看上面陈列的故事线，叙事应该是非常丰富多彩的，带给玩家的应该是令人无法释怀的感人故事，然而叙述的手法实在拙劣。第一条线的核心个人理解应该是儿子是如何体谅父亲的，然而玩家被大量没有营养的对话所充斥，与父亲的旧友聊天和对艺术的感悟并不足以让儿子理解父亲离开妻儿如此长的时间，至少我去代入的话是不会这样的。即使穿插着第二条火山爆发前古城的父亲保护了妻子和女儿，但依旧无法掩饰他作为父亲的失职。也许他是一位优秀敬业的考古学者，但一定不是一位称职的父亲。</p>
-<p>第二条线依旧非常简陋，在火山爆发前父亲在慌乱中寻找邻居家的钱来凑够船票，碰巧遇到了熟人。这里可以选择抢走他的钱或者放任他，我选择了后者。唯一给我触动的是在送完妻女后头上开始倒计时，人群四散奔跑，而我觉得会有出口或者交互地点，于是从最左侧的码头跑回了最右侧，但是什么也没有发生，倒计时仍在继续。当我尝试在从右侧向左侧跑动时，时间已经不够了，对女儿的承诺也随着火山灰的坠落一并消逝了。</p>
-<p>第三条线则显得更加突兀，主角在理解父亲后在街上偶遇了心动的女孩，在唯美的场景下说出许多我自认为故弄玄虚的话，交织着雕刻师与妻子的诀别。在重现历史的过程中插入爱情的元素感觉是很突兀的，因为对白的功底不足，情感渲染的也不是很到位。</p>
-<p>虽然标题是 “跨越时空抚慰伤痛”，但给我个人的感觉是缺少父亲“赎罪”的过程。仅仅以探究古代丰富多彩的故事的工作为借口而忽略对儿子的陪伴，身为一个父亲是不合格的，这样的理由不足以打动玩家。跨越时间的故事虽然也是和父爱相关，但一个是为了妻儿选择留下牺牲自己，而一个是为了自己所痴迷的东西忘记了作为父亲的职责。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/01.jpg"></p>
-<h3 id="文化溯源"><a href="#文化溯源" class="headerlink" title="文化溯源"></a>文化溯源</h3><h4 id="面包师-Terentius-Neo-和他妻子的壁画"><a href="#面包师-Terentius-Neo-和他妻子的壁画" class="headerlink" title="面包师 Terentius Neo 和他妻子的壁画"></a>面包师 Terentius Neo 和他妻子的壁画</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gfaa7ug22mj30ww0irwij.jpg"></p>
-<p>画上面包师及其妻子均手握书写工具，这表明他们是接受了教育的，纵使经济尚可，依旧努力掩饰自己出身卑微的情况。这幅双人肖像是在该地区发现的唯一此类画作，也是展览的亮点之一。展览策划人保罗·罗伯茨（Paul Roberts）认为，这幅画从独特的视角展现了公元1世纪庞贝城的居民生活：</p>
-<blockquote>
-<p>“作品显示这位面包师和妻子是优秀的罗马人，纸卷和铁笔显示他们受过教育，有修养。更重要的是，他们似乎是地位平等的伴侣。</p>
-</blockquote>
-<br/>
-
-<blockquote>
-<p>“她站在他前面一点，这不是怯懦女性的形象。在生意上，她是掌握账本的人。”</p>
-</blockquote>
-<h4 id="法尔内塞赫拉克勒斯-Ercole-Farnese"><a href="#法尔内塞赫拉克勒斯-Ercole-Farnese" class="headerlink" title="法尔内塞赫拉克勒斯 / Ercole Farnese"></a>法尔内塞赫拉克勒斯 / Ercole Farnese</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Lisippo_Ercole_Farnese.jpg"></p>
-<p>古罗马的皇帝怀着对赫拉克勒斯的崇敬，在罗马的卡拉卡拉浴场修建了该雕像。罗马灭亡后直至文艺复兴，人们开始对浴场进行考古挖掘。雕像的头部和躯干相继被发现，但双腿没有找到，于是文艺复兴运动主要的资助人之一红衣主教 <strong>法尔内塞</strong> 让米开朗基罗的学生波尔塔把雕像的这几部分运往罗马的 <strong>法尔内塞宫</strong>。米开朗基罗让波尔塔为雕像雕刻了一双新腿（双腿原件不久就被找到了），而自己在宫里的庭院中建了一个特殊的建筑来展示这个3米多高的巨人，雕像也因此命名为<strong>法尔内塞赫拉克勒斯（Farnese Hercules）</strong>，现收藏于 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a>。</p>
-<p>在希腊神话中，赫拉克勒斯是最伟大的英雄，他曾以顽强的战斗精神克服重重困难，完成了天神赋予他的十二件艰险的工作，还拯救了为人类盗火的普罗米修斯。赫拉克勒斯一生频于战斗，所有功绩都可圈可点，所以作者独具匠心地选取了他休息时的情节来表现这位伟大的英雄。雕像中人体呈曲线型，左腿支撑着身体的重量，左臂倚在支柱上，右臂背到身后。这种富有变化的姿态，形成了较为轻松的气氛。整个雕像给人一种平和但蕴含着力量的感觉，表现了一种雄浑的古典风格。雕像的形体块面结实饱满，虽然作品表现的是英雄赫拉克勒斯疲劳后休息的形象，但却依然让人感到似乎可以随时爆发出强大的能量。</p>
-<h4 id="庞贝古城"><a href="#庞贝古城" class="headerlink" title="庞贝古城"></a>庞贝古城</h4><p>庞贝城的起源可以上溯至公元前6世纪，在罗马人到来前，埃特鲁里亚、希腊和萨莫奈人先后在此统治。公元前4世纪，罗马人击败萨莫奈人，庞贝和坎帕尼亚的城邦纷纷加入罗马联盟，但仍然保持着相对独立的地位，由当地政府管辖，在外交和军事等方面则需要听从罗马的指令。公元前91年，同盟战争爆发，庞贝也是参战的意大利盟邦之一。战后，庞贝人获得了罗马公民权，但也成为罗马的殖民地，官方语言变成了拉丁语，并改用罗马的政治制度，开始每年选举双执法官。</p>
-<p>公元79年，庞贝遭遇灭顶之灾，维苏威火山喷发形成的火山灰，掩埋了它与附近的赫库兰尼姆、奥普隆蒂斯和斯塔比亚等城市。小普林尼的两封书信记录了这场灾难，他当年17岁，是火山爆发的见证者。在随后的岁月里，除了掘宝人的偶尔光顾（一所大房屋的门上留下了“此屋已凿”的字样），庞贝被世人遗忘了上千年。直到1592年，人们在挖掘运河时发现了带有古代壁画的墙壁，以及刻着“庞贝市议员”字样的石碑，这座城市才陆续被发掘。从18世纪末开始，发掘进展大大加快，不断有新的重要建筑被发现，庞贝城的面貌开始逐渐展现在世人眼前。</p>
-<p>今天，庞贝的城市布局已经相当清晰。根据考古学家朱塞佩·菲奥雷利的描绘，城中的每栋建筑都有了独立的编码，即便有的还尚未被命名。庞贝位于罗马以南240公里，在古代，普通旅行者从首都前往那里可能要花费三天，而信使骑快马可能只需一天。它所在的那不勒斯湾，在罗马时代就是贵族精英的度假胜地，许多名人在那里拥有别墅，比如恺撒就曾带领大批侍从造访政治家西塞罗的宅邸。通过贸易和罗马扩张带来的财富，庞贝成为一座繁荣的城市，建有圆形竞技场、两个剧场和四个浴场。庞贝还发掘了大量精美的壁画和工艺品，不仅体现了城市的富庶，更是古罗马时期生活的重要见证。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gi1wjbinunj30sg0lcgrf.jpg"></p>
-<h3 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h3><h4 id="存档"><a href="#存档" class="headerlink" title="存档"></a>存档</h4><p>在最初的场景中，由于一开始的交互内容包含了大量的艺术方面的知识，我会先主动退出游戏去查这些艺术品。但再次进入游戏后并没有回到之前的场景，而是直接重新开始。游戏过程中也没有找到手动存档的地方，这会导致玩的时候必须要玩到游戏指定的自动存档点才可以退出游戏，这对于喜欢刨根问底不断切屏追究游戏中的历史溯源的玩家是非常影响游戏体验的，而作为和博物馆联动的宣传游戏肩负着宣传的责任，上面的硬核玩家其实才是最有可能亲自到访 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a> 的受众。</p>
-<h4 id="本地化翻译"><a href="#本地化翻译" class="headerlink" title="本地化翻译"></a>本地化翻译</h4><p>从在家里父亲给儿子的信就能感觉到，文字中那种很奇怪的感觉：「让您重新看待你的人生」、「你计画去哪吗」……这种非常糟糕的本地化翻译就像每年四六级各种层出不穷的奇怪翻译一样，是这个游戏诟病的点之一。同样的，作为 <a href="https://www.museoarcheologiconapoli.it/en/">那不勒斯国家考古博物馆</a> 已经出海的宣传游戏，海外的玩家如果看到如此糟糕的文本，游戏的体验要打折扣，想必对博物馆本身宣传的效果会适得其反。希望开发者和博物馆双方都能注重如何本土化文本的问题。</p>
-<h4 id="对话交流"><a href="#对话交流" class="headerlink" title="对话交流"></a>对话交流</h4><p>游戏中许多场景下的对话有一定的延迟和卡顿，在点击之后不能够及时反馈。这种延迟感对于游戏体验而言是致命的，会让我感到烦躁。同样的，对话的文本显得冗余繁杂，不够凝练，而且大部分对话都是对于父亲的看法，没有实质性推动游戏剧情的有效内容。</p>
-<h4 id="故事流程"><a href="#故事流程" class="headerlink" title="故事流程"></a>故事流程</h4><p>流程有一点问题。在火山爆发前去朋友家山上别墅找钱币购买船票时，在与另一个老人相遇之后回到客厅仍能再次挖掘钱币，再次上楼老人可以重复流程。在客厅的钱只够买两张船票，你可以再次选择保留自己的良心不去抢夺还是为了自己的孩子去抢夺老人。不知道是制作者有意为之给玩家重新选择的机会还是测试的时候没有发现，我觉得是前者。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gfaa68p2kzj31hc0u015n.jpg"></p>
-]]></content>
-      <categories>
-        <category>游戏追踪 (Game Tracker)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>Art</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</title>
-    <url>/archives/6144e1a0.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9djvu6vvj30m80cin3k.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>Ludum Dare 是国外知名的独立游戏开发竞赛，首届比赛举办于2002年4月，迄今已走过足足35期，诞生了无数脍炙人口的经典作品。本文转载了INDIENOVA社区的博主 <a href="https://indienova.com/u/wizcas">Wizcas.陈小一</a> 的 <a href="https://indienova.com/indie-game-development/my-first-time-in-ludum-dare-38">48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</a>，与大家共同分享参加LD比赛的一些经验。</p>
-<a id="more"></a>
-
-
-
-<p>2017年4月24日16点23分。</p>
-<p>刚从床上爬起来的我肩颈酸痛，饥肠辘辘。昨夜难熬的腹泻和呕吐似乎已经消失了，想来应该是吃的药管用了。并不是因为贪睡——事实上，在刚刚结束的五个小时睡眠之前的48小时内，我在进行一场和自己的战斗。</p>
-<p>我是去年才知道Ludam Dare的。这是一个线上的游戏开发比赛，和Global Game Jam一样，参与者需要在限定的时间内根据给定的主题完成一个游戏原型。比赛分为两组，Compo和Jam，限定的时间分别为48小时和72小时。其中Compo的要求更为严格，参与者需要遵循这些规定：</p>
-<ul>
-<li>在48小时内提交游戏的可玩版本，48小时后有一小时的额外时间，用于打包和发布</li>
-<li>除了代码可以用第三方库或者基于自己以往的积累外，美术资源和声音资源必须是在这48小时之内完成的</li>
-<li>只允许单人参赛。</li>
-<li>必须公开源代码和游戏内使用的资源文件。</li>
-</ul>
-<p>而Jam组的要求则相对宽松一些：时间更为宽裕、可以组队参加、可以使用别人的美术资源（需要无法律风险）、不必公开代码。</p>
-<p>我选择了参加Compo组，想试试自己能够达到什么程度。虽然作为程序员已经有将近十年，但真正参与游戏开发也不过才两年多，我需要对自己的能力有一个了解。而且48小时内做出一款游戏难道不是一件很狂霸酷炫吊的事情吗？</p>
-<p>怀着这样的心情，我迎来了自己的第一次Ludum Dare（以下简称LD），也是这个活动创办的15周年纪念。</p>
-<h3 id="DAY-1-2017-4-22——选题"><a href="#DAY-1-2017-4-22——选题" class="headerlink" title="DAY 1 2017.4.22——选题"></a>DAY 1 2017.4.22——选题</h3><p>比赛主题发布是在中国时间的周六上午9:00，这也是比赛开始的时间。在此之前，LD官方网站上进行了为期两周的主题投票，这些主题是网站的注册用户提交的，而得票最高者即是本次比赛的主题。</p>
-<p>平时周末我都会起的比较晚，这次9:40就起了。虽然比赛已经开始了40分钟，但我更需要保存更多精力来应付这场战争。</p>
-<p>用手机打开官网，页面顶部赫然写着比赛主题：<strong>A Small World</strong>。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dwroc7cj30z30deq53.jpg"></p>
-<p>这是什么？</p>
-<p>我本来期待着看到更出人意料、更奇特的主题。这个主题看起来平淡无奇，甚至让人耳朵长茧。一时间我蒙圈了。</p>
-<p>这是第一个挑战。</p>
-<p>我调整了一下自己的心态，开始琢磨如何解读这个主题。好在LD对于主题的解读范围十分宽容，而且官方本身并不会限定你是否要使用这个主题——当然作为评判力量的其他玩家和开发者会更严格些。</p>
-<p>我并不打算做一个和地球/星球相关的游戏，这个角度已经被用烂了。既然是独立游戏挑战赛，当然是要做一些自己更喜欢、脑洞更大一点的游戏。在经过了20分钟的思考后，我决定做一款献给我们家主子“二狗子”的游戏，因为我的家对于她来说就是整个世界。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dz40f20j30dc07i0tf.jpg"></p>
-<p>大概的思路是，二狗子为了展现自己是这个世界统治者，决心收集世界中的所有“财宝”。但愚蠢的人类不会让她把东西都藏起来，因此二狗子必须要在人类的眼皮子底下获得这些财宝，而且不能被抓住。</p>
-<h4 id="开工"><a href="#开工" class="headerlink" title="开工"></a>开工</h4><p>有了思路便要尽快开始了。对于48小时，我仅有个模糊的概念——不能在对目标没有帮助的事情上浪费时间。最终的结果证明了整个开发节奏远比我想象的还要紧张。</p>
-<p>游戏的风格是斜45度角的RTT（Real-time tactics，即时战术游戏）游戏，代表作有《盟军敢死队》、《赏金奇兵》和最近的新作《影子战术》。和这些游戏不同的是，我的游戏的关卡很小，“敌人”也只有一个，但是在纵向上活动的范围会很大，毕竟猫是很善于跳跃的。</p>
-<p>首先要解决的是角色控制的问题。在3D场景中进行路径导航最简便的方法便是使用NavMesh计算移动路线，一般也都能获得不错的效果。在以往的项目中，我一直使用一个功能超级强大的名为A* Project的第三方库，但对于这个小项目，使用这种重型武器未免有些过了，毕竟我只需要简单场景的路径导航。我决定试试Unity自带的NavMesh模块，虽然并不很熟悉，但在项目中学习和尝试也是参加LD的意义所在。</p>
-<p>我搭建了一个简单的测试场景，花了两个多小时的时间学习Unity NavMesh并完成了鼠标点击控制角色移动的功能。午饭过后，又花了几个小时完成了敌人的视线检测、状态切换、索敌行为，以及小猫拿到宝物并藏到自己宝库里的编码工作。</p>
-<p>此时整个游戏流程已经初具雏形，虽然细节部分基本都没有经过打磨，但在我的计划里是打算将这些放到收尾阶段再进行的。</p>
-<p>抬头看表，已经是晚饭时间了。此时距离开始开发已经经过了大概7个小时，整个进度看起来很乐观，我甚至还录了一小段游戏原型视频上传到了YouTube，并在活动网站上发了个博客向其他人介绍我的进展。</p>
-<p>晚饭过后，我开始为游戏添加一些小细节，例如鼠标移到可交互物体上出现的提示框、在OffMesh路径节点上进行跳跃控制等，然后对之前完成的内容进行了一系列测试。在这个过程中，我还重构了一部分代码。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dxjd48sj30go09475p.jpg"></p>
-<h4 id="坑"><a href="#坑" class="headerlink" title="坑"></a>坑</h4><p>一切看起来都跟美好——直到我遇到了第一个自己给自己挖的坑。</p>
-<p>在此之前我并没有完整的AI开发经验，自己也没有成熟的AI框架，所以在开发敌人的控制脚本时，几乎是两眼一摸黑，按着感觉走。而当我要为敌人添加对猫叫声的反应时，噩梦来了。</p>
-<p>在一开始的设计中，敌人的行为只有巡逻、索敌、注视、追赶几种情况，基本是纯线性的过程，所以用几个<code>if...else</code>已经足够处理。而新增的行为“听见声音并前往调查”立刻使AI决策的复杂度上升了，更别提以后在AI层面进行扩展了。</p>
-<p>思前想后，我还是决定把AI部分重写。</p>
-<p>此时的我脑子已经开始发蒙，想到进度被耽搁和AI系统设计的种种细节更是头痛欲裂。抬头看表已经接近午夜，我必须得休息休息了。</p>
-<p>看了两集《武林外传》乐呵了一下后，我还是决定在睡觉前把AI做完，这样明天就可以专注于美术和关卡。</p>
-<p>AI系统我使用了状态机的设计：</p>
-<blockquote>
-<p>通过触发事件让敌人生成一个“想法”，然后敌人再根据当前最高优先级的“想法”来行动；行动结束后继续执行其他被放置的“想法”。</p>
-</blockquote>
-<p>通过将决策和行动独立成两个单独执行的层面，不仅可以让逻辑更清晰可控，而且也便于状态的切换和回溯。</p>
-<p>一夜无话。AI系统完成时已经是凌晨五点，天快亮了。在LD网站上发了一篇博客记录了自己一天的成果后，我拖着疲惫的身体爬上了床。设置好闹钟后我便失去了知觉。</p>
-<h3 id="DAY-2-2017-4-23"><a href="#DAY-2-2017-4-23" class="headerlink" title="DAY 2 2017.4.23"></a>DAY 2 2017.4.23</h3><p>闹钟催了几遍我才被叫醒。抓起手机看了眼，已经是上午十点，五个小时的睡眠使我的精神好了很多。我强打起精神从被窝里爬出来，毕竟还有一堆工作等着完成。</p>
-<h4 id="构建世界"><a href="#构建世界" class="headerlink" title="构建世界"></a>构建世界</h4><p>由于昨晚睡觉前已经完成了核心的游戏逻辑，今天把世界搭建好了应该就差不多了。</p>
-<p>嗯，至少当时的我是这么想的。</p>
-<p>考虑到自己的3D建模水平实在捉鸡，在有限的时间内我也不打算真的用Blender去一点一点抠模型了。</p>
-<p>我想起自己在Steam花68块钱买过一款名为Qubicle Voxel Editor的体素艺术软件，一直躺在库里还没下载过，就是为了有一天能派上用场。对于学了一点像素画的我来说，这种用方块拼成的世界既可行，又具有强烈的独立游戏风格。</p>
-<p>我一边看着官方的帮助文档，一边尝试着建模还原我住的小公寓。考虑到场景的可玩性和复杂度，我去掉了家里的厨房和厕所。建模、导出、改贴图、在场景中放置……一件件家具被创造出来，游戏场景也越来越充实。看着自己创造的小世界，一阵强烈的满足感袭来——我突然意识到这就是激励我开始做游戏的初衷，也是对“a small world”这个主题的最好诠释。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dy5qr54j30go093jse.jpg"></p>
-<p>随着对建模越来越熟练，更多物件被创造出来：猫咪玩具、散落的臭袜子、手机、猫咪二狗子……媳妇的“这不是满屏马赛克么”的吐槽并没有影响我对体素艺术的热情。</p>
-<p>二狗子的模型被做出来后，我曾一度打算在Blender中通过骨骼动画来完成猫的各种动作动画，然而时钟上无情的指针让我打消了这个念头——我没有时间再去学习怎么做骨骼动画了。最终我放弃了二狗子的四肢，用Unity自带的动画工具把它做成了一只像史莱姆一样跳来跳去的生物。</p>
-<p>此时已经超过半夜十二点了。做模型花了我五个多小时的时间，制作和绑定小猫的动画又花了我两三个小时的时间。</p>
-<p>期间为了换换脑子，我又进行了一些编码工作，主要是在沙发底下、床底下、堆着的纸盒上加上小猫的藏匿点，让二狗子能够在狭小的房间里躲开人类的视线。而我还没有完成关卡设计和财宝的摆放，没有制作游戏的UI和教程，也没有完整的测试过我的游戏。</p>
-<p>我感觉可能要熬夜才能完成了。</p>
-<h4 id="腹泻、呕吐、与时间战斗"><a href="#腹泻、呕吐、与时间战斗" class="headerlink" title="腹泻、呕吐、与时间战斗"></a>腹泻、呕吐、与时间战斗</h4><p>不知道是因为巨大的压力还是晚上吃了不干净的东西，我开始上吐下泻，困在厕所里迟迟不能出来。吞了六颗调理肠胃的药，我头晕眼花地跟领导请了假，说明了我的身体状况并申请周一休息一天。在身体状况稍微好转了一些后，我收到了公司领导同意的回复。强打起精神，我又坐回了电脑前。</p>
-<p>在被电脑屏幕和台灯照亮的黑暗中，我尽可能快地完成着收尾的开发工作，不时抬头看看表，然后为后面的工作粗略地分配着时间。</p>
-<p>为了给游戏配上猫叫的音效，我在半夜里举着手机满屋子追二狗子想让她叫一声，但是这小王八蛋估计是听懂了我的话，自始至终一声不吭。气急败坏的我最终只能自己学猫叫——而此时我才发现我的嗓子已经快出不来声了。</p>
-<p>窗外射进了清晨的曙光，我也终于进入了最终的测试阶段。我对于自己的成果并不满意：跳跃动画和位移的衔接并不流畅、UI过于简陋、人类的视线检测很不准确、模型碰撞的检测范围经常出现错误、没有用更合适的方式控制摄影机跟踪……但此时已经是早上七点多，距离提交只有不到两个小时了。我不得不放弃了很多细节调整，甚至放弃了忘了做的人类模型和动画，而只是用一个简陋胶囊体代替。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dyp2ww2j30go094405.jpg"></p>
-<p>时间一分一秒的走着，往往觉得只做了一个很小的调整和修复，但转头发现时间已经过去了二十多分钟。我感觉缓缓前行的时间像一台巨大的压路机向我逼来，而我必须在这恐怖的压力下拖着身躯在泥泞中奋力爬行。</p>
-<p>终于在8:59分时，我上传了全部代码和资源文件。</p>
-<h4 id="最后一小时"><a href="#最后一小时" class="headerlink" title="最后一小时"></a>最后一小时</h4><p>根据LD的规则，在开发时限到期后还有一个小时额外的打包提交时间。我直到这时才发现，网站上赫然写着：“我们建议您尽早提交，因为人们总是在最后一小时发现各种技术问题。”</p>
-<p>我竭力按捺住心中的草泥马，脑子发木地开始打包，同时祈祷着不要出幺蛾子。</p>
-<p>为了能让更多人不用下载即可玩到我的游戏，我决定发布WebGL版本。而当游戏打包完毕，在我的电脑上本地运行时，我却傻眼了：整个场景的光照效果和在编辑器中大相径庭，满屏幕充斥着屎的颜色，光照不足使场景模型的细节根本看不清。</p>
-<p>我马上意识到应该是光照贴图的锅，但这部分我仅仅有所了解，并不十分熟练。于是我赶紧回到编辑器中，开始尝试调整各种参数，一次次的打包测试，直至最终达到了基本满意的效果。</p>
-<p>进行这些调整花费了我近半小时的时间，我必须硬着头皮发布了，否则我将失去提交到Compo组的机会。</p>
-<p>接下来的事情比较顺利：我将游戏上传到了itch.io上，并在ldjam.com上发布了我的游戏项目，甚至还写了篇博客来记录自己当时的一些感受。</p>
-<p>9:45分左右，完成了全部提交工作的我长出一口气。我的肩颈火辣辣地疼着，眼皮重的抬不起来，巨大的疲惫让我感觉自己活在另一个次元。</p>
-<p>但是这些又有什么关系呢？毕竟我完成了我的第一次48小时极限开发，而这也绝对不会是最后一次。</p>
-<h3 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h3><p>经过48小时玩命一样的开发，我越发意识到自己在独立游戏开发过程中的不足之处：对于很多技术还是一知半解，而且有些喜欢钻牛角尖。这些问题在日常工作上是体现不出来的，充足的时间让我可以有一万种方法赶上进度。但在这压榨般的极限挑战中，任何错误都可能让你付出沉重的代价，一不小心就会失败——例如我对于游戏设计的把控能力不足、AI设计经验不足等，都使我进行了大量返工，并且很多设想中的游戏机制也没有来得及实现。这不得不说是一个遗憾。</p>
-<p>然而相对于比赛竞争，LD给我更大的启示是：永远不要低估你的极限，永远带着一颗拥抱学习和挑战的心。你永远不知道等待你的是什么，而作为独立游戏开发者，你能做的只有勇敢面对，即使前路迷雾重重。</p>
-<p>对于LD比赛，在下列方面我也深有体会：</p>
-<ul>
-<li>不要用传统商业游戏的思路来设计游戏，你会发现那根本不现实。LD讲求的是小而美。</li>
-<li>对自己的工作效率要有充分的了解，并且要给自己限定一个大致的时间表，以便合理安排时间精力。</li>
-<li>要注重平时的积累，临时抱佛脚不可取。即使要抱，也要能知道自己要抱的是哪位佛的脚，否则绝对抓瞎。</li>
-<li>做自己力所能及的事，不要尝试花太多的时间来做技术研究，更要学会做减法。</li>
-<li>在紧急情况下可以写一些丑陋的实现，但还是应该保持整洁的编码风格和设计思路。经常重构代码（比如我是完成一个模块就进行一次），这会使你在遇到问题时受益无穷。</li>
-</ul>
-<p>最后是我的游戏，欢迎大家体验吐槽。</p>
-<ul>
-<li><a href="https://ldjam.com/events/ludum-dare/38/$19648">Ludum Dare作品页面</a></li>
-<li><a href="https://wizcas.itch.io/ld38">游戏页面</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>游戏开发 (Game Development)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>Reprint</tag>
-        <tag>Ludum Dare</tag>
-        <tag>Unity</tag>
+        <tag>INDIE</tag>
       </tags>
   </entry>
   <entry>
@@ -5429,6 +5324,111 @@
       </tags>
   </entry>
   <entry>
+    <title>48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</title>
+    <url>/archives/6144e1a0.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9djvu6vvj30m80cin3k.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>Ludum Dare 是国外知名的独立游戏开发竞赛，首届比赛举办于2002年4月，迄今已走过足足35期，诞生了无数脍炙人口的经典作品。本文转载了INDIENOVA社区的博主 <a href="https://indienova.com/u/wizcas">Wizcas.陈小一</a> 的 <a href="https://indienova.com/indie-game-development/my-first-time-in-ludum-dare-38">48小时里我做了什么：第一次极限游戏开发，Ludum Dare 38</a>，与大家共同分享参加LD比赛的一些经验。</p>
+<a id="more"></a>
+
+
+
+<p>2017年4月24日16点23分。</p>
+<p>刚从床上爬起来的我肩颈酸痛，饥肠辘辘。昨夜难熬的腹泻和呕吐似乎已经消失了，想来应该是吃的药管用了。并不是因为贪睡——事实上，在刚刚结束的五个小时睡眠之前的48小时内，我在进行一场和自己的战斗。</p>
+<p>我是去年才知道Ludam Dare的。这是一个线上的游戏开发比赛，和Global Game Jam一样，参与者需要在限定的时间内根据给定的主题完成一个游戏原型。比赛分为两组，Compo和Jam，限定的时间分别为48小时和72小时。其中Compo的要求更为严格，参与者需要遵循这些规定：</p>
+<ul>
+<li>在48小时内提交游戏的可玩版本，48小时后有一小时的额外时间，用于打包和发布</li>
+<li>除了代码可以用第三方库或者基于自己以往的积累外，美术资源和声音资源必须是在这48小时之内完成的</li>
+<li>只允许单人参赛。</li>
+<li>必须公开源代码和游戏内使用的资源文件。</li>
+</ul>
+<p>而Jam组的要求则相对宽松一些：时间更为宽裕、可以组队参加、可以使用别人的美术资源（需要无法律风险）、不必公开代码。</p>
+<p>我选择了参加Compo组，想试试自己能够达到什么程度。虽然作为程序员已经有将近十年，但真正参与游戏开发也不过才两年多，我需要对自己的能力有一个了解。而且48小时内做出一款游戏难道不是一件很狂霸酷炫吊的事情吗？</p>
+<p>怀着这样的心情，我迎来了自己的第一次Ludum Dare（以下简称LD），也是这个活动创办的15周年纪念。</p>
+<h3 id="DAY-1-2017-4-22——选题"><a href="#DAY-1-2017-4-22——选题" class="headerlink" title="DAY 1 2017.4.22——选题"></a>DAY 1 2017.4.22——选题</h3><p>比赛主题发布是在中国时间的周六上午9:00，这也是比赛开始的时间。在此之前，LD官方网站上进行了为期两周的主题投票，这些主题是网站的注册用户提交的，而得票最高者即是本次比赛的主题。</p>
+<p>平时周末我都会起的比较晚，这次9:40就起了。虽然比赛已经开始了40分钟，但我更需要保存更多精力来应付这场战争。</p>
+<p>用手机打开官网，页面顶部赫然写着比赛主题：<strong>A Small World</strong>。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dwroc7cj30z30deq53.jpg"></p>
+<p>这是什么？</p>
+<p>我本来期待着看到更出人意料、更奇特的主题。这个主题看起来平淡无奇，甚至让人耳朵长茧。一时间我蒙圈了。</p>
+<p>这是第一个挑战。</p>
+<p>我调整了一下自己的心态，开始琢磨如何解读这个主题。好在LD对于主题的解读范围十分宽容，而且官方本身并不会限定你是否要使用这个主题——当然作为评判力量的其他玩家和开发者会更严格些。</p>
+<p>我并不打算做一个和地球/星球相关的游戏，这个角度已经被用烂了。既然是独立游戏挑战赛，当然是要做一些自己更喜欢、脑洞更大一点的游戏。在经过了20分钟的思考后，我决定做一款献给我们家主子“二狗子”的游戏，因为我的家对于她来说就是整个世界。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dz40f20j30dc07i0tf.jpg"></p>
+<p>大概的思路是，二狗子为了展现自己是这个世界统治者，决心收集世界中的所有“财宝”。但愚蠢的人类不会让她把东西都藏起来，因此二狗子必须要在人类的眼皮子底下获得这些财宝，而且不能被抓住。</p>
+<h4 id="开工"><a href="#开工" class="headerlink" title="开工"></a>开工</h4><p>有了思路便要尽快开始了。对于48小时，我仅有个模糊的概念——不能在对目标没有帮助的事情上浪费时间。最终的结果证明了整个开发节奏远比我想象的还要紧张。</p>
+<p>游戏的风格是斜45度角的RTT（Real-time tactics，即时战术游戏）游戏，代表作有《盟军敢死队》、《赏金奇兵》和最近的新作《影子战术》。和这些游戏不同的是，我的游戏的关卡很小，“敌人”也只有一个，但是在纵向上活动的范围会很大，毕竟猫是很善于跳跃的。</p>
+<p>首先要解决的是角色控制的问题。在3D场景中进行路径导航最简便的方法便是使用NavMesh计算移动路线，一般也都能获得不错的效果。在以往的项目中，我一直使用一个功能超级强大的名为A* Project的第三方库，但对于这个小项目，使用这种重型武器未免有些过了，毕竟我只需要简单场景的路径导航。我决定试试Unity自带的NavMesh模块，虽然并不很熟悉，但在项目中学习和尝试也是参加LD的意义所在。</p>
+<p>我搭建了一个简单的测试场景，花了两个多小时的时间学习Unity NavMesh并完成了鼠标点击控制角色移动的功能。午饭过后，又花了几个小时完成了敌人的视线检测、状态切换、索敌行为，以及小猫拿到宝物并藏到自己宝库里的编码工作。</p>
+<p>此时整个游戏流程已经初具雏形，虽然细节部分基本都没有经过打磨，但在我的计划里是打算将这些放到收尾阶段再进行的。</p>
+<p>抬头看表，已经是晚饭时间了。此时距离开始开发已经经过了大概7个小时，整个进度看起来很乐观，我甚至还录了一小段游戏原型视频上传到了YouTube，并在活动网站上发了个博客向其他人介绍我的进展。</p>
+<p>晚饭过后，我开始为游戏添加一些小细节，例如鼠标移到可交互物体上出现的提示框、在OffMesh路径节点上进行跳跃控制等，然后对之前完成的内容进行了一系列测试。在这个过程中，我还重构了一部分代码。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dxjd48sj30go09475p.jpg"></p>
+<h4 id="坑"><a href="#坑" class="headerlink" title="坑"></a>坑</h4><p>一切看起来都跟美好——直到我遇到了第一个自己给自己挖的坑。</p>
+<p>在此之前我并没有完整的AI开发经验，自己也没有成熟的AI框架，所以在开发敌人的控制脚本时，几乎是两眼一摸黑，按着感觉走。而当我要为敌人添加对猫叫声的反应时，噩梦来了。</p>
+<p>在一开始的设计中，敌人的行为只有巡逻、索敌、注视、追赶几种情况，基本是纯线性的过程，所以用几个<code>if...else</code>已经足够处理。而新增的行为“听见声音并前往调查”立刻使AI决策的复杂度上升了，更别提以后在AI层面进行扩展了。</p>
+<p>思前想后，我还是决定把AI部分重写。</p>
+<p>此时的我脑子已经开始发蒙，想到进度被耽搁和AI系统设计的种种细节更是头痛欲裂。抬头看表已经接近午夜，我必须得休息休息了。</p>
+<p>看了两集《武林外传》乐呵了一下后，我还是决定在睡觉前把AI做完，这样明天就可以专注于美术和关卡。</p>
+<p>AI系统我使用了状态机的设计：</p>
+<blockquote>
+<p>通过触发事件让敌人生成一个“想法”，然后敌人再根据当前最高优先级的“想法”来行动；行动结束后继续执行其他被放置的“想法”。</p>
+</blockquote>
+<p>通过将决策和行动独立成两个单独执行的层面，不仅可以让逻辑更清晰可控，而且也便于状态的切换和回溯。</p>
+<p>一夜无话。AI系统完成时已经是凌晨五点，天快亮了。在LD网站上发了一篇博客记录了自己一天的成果后，我拖着疲惫的身体爬上了床。设置好闹钟后我便失去了知觉。</p>
+<h3 id="DAY-2-2017-4-23"><a href="#DAY-2-2017-4-23" class="headerlink" title="DAY 2 2017.4.23"></a>DAY 2 2017.4.23</h3><p>闹钟催了几遍我才被叫醒。抓起手机看了眼，已经是上午十点，五个小时的睡眠使我的精神好了很多。我强打起精神从被窝里爬出来，毕竟还有一堆工作等着完成。</p>
+<h4 id="构建世界"><a href="#构建世界" class="headerlink" title="构建世界"></a>构建世界</h4><p>由于昨晚睡觉前已经完成了核心的游戏逻辑，今天把世界搭建好了应该就差不多了。</p>
+<p>嗯，至少当时的我是这么想的。</p>
+<p>考虑到自己的3D建模水平实在捉鸡，在有限的时间内我也不打算真的用Blender去一点一点抠模型了。</p>
+<p>我想起自己在Steam花68块钱买过一款名为Qubicle Voxel Editor的体素艺术软件，一直躺在库里还没下载过，就是为了有一天能派上用场。对于学了一点像素画的我来说，这种用方块拼成的世界既可行，又具有强烈的独立游戏风格。</p>
+<p>我一边看着官方的帮助文档，一边尝试着建模还原我住的小公寓。考虑到场景的可玩性和复杂度，我去掉了家里的厨房和厕所。建模、导出、改贴图、在场景中放置……一件件家具被创造出来，游戏场景也越来越充实。看着自己创造的小世界，一阵强烈的满足感袭来——我突然意识到这就是激励我开始做游戏的初衷，也是对“a small world”这个主题的最好诠释。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dy5qr54j30go093jse.jpg"></p>
+<p>随着对建模越来越熟练，更多物件被创造出来：猫咪玩具、散落的臭袜子、手机、猫咪二狗子……媳妇的“这不是满屏马赛克么”的吐槽并没有影响我对体素艺术的热情。</p>
+<p>二狗子的模型被做出来后，我曾一度打算在Blender中通过骨骼动画来完成猫的各种动作动画，然而时钟上无情的指针让我打消了这个念头——我没有时间再去学习怎么做骨骼动画了。最终我放弃了二狗子的四肢，用Unity自带的动画工具把它做成了一只像史莱姆一样跳来跳去的生物。</p>
+<p>此时已经超过半夜十二点了。做模型花了我五个多小时的时间，制作和绑定小猫的动画又花了我两三个小时的时间。</p>
+<p>期间为了换换脑子，我又进行了一些编码工作，主要是在沙发底下、床底下、堆着的纸盒上加上小猫的藏匿点，让二狗子能够在狭小的房间里躲开人类的视线。而我还没有完成关卡设计和财宝的摆放，没有制作游戏的UI和教程，也没有完整的测试过我的游戏。</p>
+<p>我感觉可能要熬夜才能完成了。</p>
+<h4 id="腹泻、呕吐、与时间战斗"><a href="#腹泻、呕吐、与时间战斗" class="headerlink" title="腹泻、呕吐、与时间战斗"></a>腹泻、呕吐、与时间战斗</h4><p>不知道是因为巨大的压力还是晚上吃了不干净的东西，我开始上吐下泻，困在厕所里迟迟不能出来。吞了六颗调理肠胃的药，我头晕眼花地跟领导请了假，说明了我的身体状况并申请周一休息一天。在身体状况稍微好转了一些后，我收到了公司领导同意的回复。强打起精神，我又坐回了电脑前。</p>
+<p>在被电脑屏幕和台灯照亮的黑暗中，我尽可能快地完成着收尾的开发工作，不时抬头看看表，然后为后面的工作粗略地分配着时间。</p>
+<p>为了给游戏配上猫叫的音效，我在半夜里举着手机满屋子追二狗子想让她叫一声，但是这小王八蛋估计是听懂了我的话，自始至终一声不吭。气急败坏的我最终只能自己学猫叫——而此时我才发现我的嗓子已经快出不来声了。</p>
+<p>窗外射进了清晨的曙光，我也终于进入了最终的测试阶段。我对于自己的成果并不满意：跳跃动画和位移的衔接并不流畅、UI过于简陋、人类的视线检测很不准确、模型碰撞的检测范围经常出现错误、没有用更合适的方式控制摄影机跟踪……但此时已经是早上七点多，距离提交只有不到两个小时了。我不得不放弃了很多细节调整，甚至放弃了忘了做的人类模型和动画，而只是用一个简陋胶囊体代替。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh9dyp2ww2j30go094405.jpg"></p>
+<p>时间一分一秒的走着，往往觉得只做了一个很小的调整和修复，但转头发现时间已经过去了二十多分钟。我感觉缓缓前行的时间像一台巨大的压路机向我逼来，而我必须在这恐怖的压力下拖着身躯在泥泞中奋力爬行。</p>
+<p>终于在8:59分时，我上传了全部代码和资源文件。</p>
+<h4 id="最后一小时"><a href="#最后一小时" class="headerlink" title="最后一小时"></a>最后一小时</h4><p>根据LD的规则，在开发时限到期后还有一个小时额外的打包提交时间。我直到这时才发现，网站上赫然写着：“我们建议您尽早提交，因为人们总是在最后一小时发现各种技术问题。”</p>
+<p>我竭力按捺住心中的草泥马，脑子发木地开始打包，同时祈祷着不要出幺蛾子。</p>
+<p>为了能让更多人不用下载即可玩到我的游戏，我决定发布WebGL版本。而当游戏打包完毕，在我的电脑上本地运行时，我却傻眼了：整个场景的光照效果和在编辑器中大相径庭，满屏幕充斥着屎的颜色，光照不足使场景模型的细节根本看不清。</p>
+<p>我马上意识到应该是光照贴图的锅，但这部分我仅仅有所了解，并不十分熟练。于是我赶紧回到编辑器中，开始尝试调整各种参数，一次次的打包测试，直至最终达到了基本满意的效果。</p>
+<p>进行这些调整花费了我近半小时的时间，我必须硬着头皮发布了，否则我将失去提交到Compo组的机会。</p>
+<p>接下来的事情比较顺利：我将游戏上传到了itch.io上，并在ldjam.com上发布了我的游戏项目，甚至还写了篇博客来记录自己当时的一些感受。</p>
+<p>9:45分左右，完成了全部提交工作的我长出一口气。我的肩颈火辣辣地疼着，眼皮重的抬不起来，巨大的疲惫让我感觉自己活在另一个次元。</p>
+<p>但是这些又有什么关系呢？毕竟我完成了我的第一次48小时极限开发，而这也绝对不会是最后一次。</p>
+<h3 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h3><p>经过48小时玩命一样的开发，我越发意识到自己在独立游戏开发过程中的不足之处：对于很多技术还是一知半解，而且有些喜欢钻牛角尖。这些问题在日常工作上是体现不出来的，充足的时间让我可以有一万种方法赶上进度。但在这压榨般的极限挑战中，任何错误都可能让你付出沉重的代价，一不小心就会失败——例如我对于游戏设计的把控能力不足、AI设计经验不足等，都使我进行了大量返工，并且很多设想中的游戏机制也没有来得及实现。这不得不说是一个遗憾。</p>
+<p>然而相对于比赛竞争，LD给我更大的启示是：永远不要低估你的极限，永远带着一颗拥抱学习和挑战的心。你永远不知道等待你的是什么，而作为独立游戏开发者，你能做的只有勇敢面对，即使前路迷雾重重。</p>
+<p>对于LD比赛，在下列方面我也深有体会：</p>
+<ul>
+<li>不要用传统商业游戏的思路来设计游戏，你会发现那根本不现实。LD讲求的是小而美。</li>
+<li>对自己的工作效率要有充分的了解，并且要给自己限定一个大致的时间表，以便合理安排时间精力。</li>
+<li>要注重平时的积累，临时抱佛脚不可取。即使要抱，也要能知道自己要抱的是哪位佛的脚，否则绝对抓瞎。</li>
+<li>做自己力所能及的事，不要尝试花太多的时间来做技术研究，更要学会做减法。</li>
+<li>在紧急情况下可以写一些丑陋的实现，但还是应该保持整洁的编码风格和设计思路。经常重构代码（比如我是完成一个模块就进行一次），这会使你在遇到问题时受益无穷。</li>
+</ul>
+<p>最后是我的游戏，欢迎大家体验吐槽。</p>
+<ul>
+<li><a href="https://ldjam.com/events/ludum-dare/38/$19648">Ludum Dare作品页面</a></li>
+<li><a href="https://wizcas.itch.io/ld38">游戏页面</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>游戏开发 (Game Development)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>Reprint</tag>
+        <tag>Ludum Dare</tag>
+        <tag>Unity</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>LATEX现学现用抢救指南</title>
     <url>/archives/d27a4a46.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkb9od3oecj314g0mg755.jpg"></p>
@@ -5499,98 +5499,6 @@
         <tag>Write</tag>
         <tag>Latex</tag>
         <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手机是怎么知道你的位置的</title>
-    <url>/archives/a03a749.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkcy9nokcuj30u00w9hag.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/105968903/Space-Economics-Illustrations-Resources-Magazine?tracking_source=search_projects_recommended%7Csatellite">Space Economics Illustrations / Resources Magazine</a> by 
-      <a href="https://www.behance.net/jamesrdesign">James Round</a>
-    </i>
-  </font>
-</div>
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
-<a id="more"></a>
-
-
-
-<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>今天不管大家走到哪里，拿出手机可以告诉自己走到哪里、走了多快。给自己定位这样一件事是整个人类历史上持续在问的一个问题。我们中国发明了四大发明之一的指南针，可以更方便的进行定位，而在今天我们有全球定位系统，并通过经纬度来表示自己的坐标。</p>
-<h3 id="全球定位系统：2-TO-4"><a href="#全球定位系统：2-TO-4" class="headerlink" title="全球定位系统：2 TO 4"></a>全球定位系统：2 TO 4</h3><p><em>GPS（Global Positioning System）</em></p>
-<ul>
-<li><p><strong>美国的GPS</strong></p>
-<p>GPS一共6条轨道，每条轨道4颗卫星，一共24颗卫星。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkdgum5vcqj30fi0ahmxm.jpg"></p>
-</li>
-<li><p><strong>苏联的GLONASS</strong></p>
-<p>GLONASS一共3条轨道，每条轨道8颗卫星，一共24颗卫星。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkdgwdsot0j30cv08xac9.jpg"></p>
-</li>
-<li><p><strong>欧盟的伽利略</strong></p>
-</li>
-<li><p><strong>中国的北斗</strong></p>
-</li>
-</ul>
-<h3 id="模型的构建与求解"><a href="#模型的构建与求解" class="headerlink" title="模型的构建与求解"></a>模型的构建与求解</h3><p>当我们遇到问题的时候，我们不要追求一个模型解决所有的问题。建模的共性在于在最初的阶段能否用非常简单的模型去讨论最简单基本的情形。</p>
-<h4 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h4><p>我们身处地球给自己的空间位置定位，除了地球表面基本的经度和纬度外，还有海拔高度。一个全球定位系统实现了全球覆盖之后，无论在地球的哪个位置，在头顶上能接收到信号的卫星大约在<strong>6～10颗</strong>左右。这些卫星在固定的频率上发送的信息有：<strong>发出信号的时刻、卫星的位置坐标</strong>。</p>
-<p>而我们接收了这些卫星的信号，怎么通过卫星的位置知道自己的位置呢？虽然自己的坐标是未知的，但是我们知道从卫星的位置走到自己的位置的距离如何去表达：</p>
-<blockquote>
-<p>$distance^2=(x-x_0)^2+(y-y_0)^2+(z-z_0)^2$ 其中 $x_0、y_0、z_0$ 为卫星坐标</p>
-</blockquote>
-<p>而距离我们可不可以算出来呢？可以，因为我们还有时间：电磁波是以光速传播到设备的，乘上时间便可以求出距离。以距离为桥梁，我们将两边联系在了一起：</p>
-<blockquote>
-<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=distance^2=[(t-t_0) \cdot c]^2$</p>
-<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=[(t-t_0) \cdot c]^2$</p>
-</blockquote>
-<h4 id="基本模型"><a href="#基本模型" class="headerlink" title="基本模型"></a>基本模型</h4><p>每有一颗卫星，就有一组方程； 使用者能接收几颗卫星，就有几组下面这样的信号量：</p>
-<blockquote>
-<p>$(x-3)^2+(y-2)^2+(z-3)^2-[(10010.00692286-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-3)^2+(z-1)^2-[(10013.34256381-t)\cdot c]^2=0$</p>
-<p>$(x-5)^2+(y-7)^2+(z-4)^2-[(10016.67820476-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-6)^2+(z-3)^2-[(10020.01384571-t)\cdot c]^2=0$</p>
-<p>$(x-7)^2+(y-6)^2+(z-7)^2-[(10023.34948666-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-4)^2+(z-9)^2-[(10030.02076857-t)\cdot c]^2=0$</p>
-</blockquote>
-<p>这样就列出了一个四元二次方程组，很容易求解。</p>
-<h4 id="求解原理"><a href="#求解原理" class="headerlink" title="求解原理"></a>求解原理</h4><p>四元二次方程组消掉高次项以后变成一个线性方程组：</p>
-<blockquote>
-<p>$\begin{bmatrix} 4 &amp; -4 &amp; -12 &amp; 3.59751 \\ 0 &amp; -2 &amp; -16 &amp; 2.99792 \\ 8 &amp; 6 &amp; -10 &amp; 2.39834 \\ 0 &amp; 6 &amp; -12 &amp; 1.79875 \\ 12 &amp; 4 &amp; -4 &amp; 1.19917 \end{bmatrix}\begin{bmatrix} x \\ y \\ z \\ t\end{bmatrix}=\begin{bmatrix}35971.1 \\ 29957.2 \\ 24031.4 \\ 17993.5 \\ 12059.7 \end{bmatrix}$</p>
-</blockquote>
-<p>如此简单的问题甚至不需要很大的计算机，一个计算器就可以算出来。全球定位系统看着一个很高大上的东西，其实它最基本的、最反映它本质的一个数学模型是非常简单的，当然这个模型并不能很好的解决现实问题，但确实是能体现出全球定位系统最核心的思想的模型。</p>
-<p>这样的模型直接投入使用空间上会有几十米量级的误差，不能满足我们日常的大部分需求，我们需要进一步改进。但正是这样简单的模型，在时间上通过卫星授时误差能达到毫秒量级。</p>
-<h3 id="模型的分析"><a href="#模型的分析" class="headerlink" title="模型的分析"></a>模型的分析</h3><h4 id="卫星时钟"><a href="#卫星时钟" class="headerlink" title="卫星时钟"></a>卫星时钟</h4><p>全球定位系统的使用者可以不知道自己的时间，但卫星上的时间必须要非常准确的，所以地面会有一个原子钟为卫星授时并校准。之前也提到过，$[(t-t_0) \cdot c]^2$ 因为有光速这样大量级的存在，时间上的微小误差会被放大到很大，从而影响到方程本身的求解。也就是说，<strong>时间的同步性</strong>是非常重要的。</p>
-<h4 id="轨道误差"><a href="#轨道误差" class="headerlink" title="轨道误差"></a>轨道误差</h4><p>卫星总体来讲会绕着地球不断地自转，但转的每一次都多多少少会有一些误差。而卫星发送的数据包是根据自己的轨道位置所计算得到的，但轨道本身是按预定轨道计算，其中自转过程未必严格按预定轨道执行从而产生空间信息的偏差。</p>
-<h4 id="电磁波延迟"><a href="#电磁波延迟" class="headerlink" title="电磁波延迟"></a>电磁波延迟</h4><p>发送电磁波穿过电离层和大气层会有延迟，在时间方面产生误差。</p>
-<h4 id="接收机噪声"><a href="#接收机噪声" class="headerlink" title="接收机噪声"></a>接收机噪声</h4><p>GPS接收机本身有噪声，设备之间也会有显著的区别。</p>
-<p>首先考虑一个方程的简单情况，观察空间位置对时间误差的敏感程度：$f_1=(x-3)^2-[(T_1+t_1)\cdot c]^2=0$敏感程度可以由导数来刻画，具体来讲是$x$ 关于 $t$ 的这个函数求导。考虑4个方程的情况：</p>
-<blockquote>
-<p>$f_1=(x-3)^2+(y-2)^2+(z-3)^2-[(T_1+t_1-t)\cdot c]^2=0$</p>
-<p>$f_2=(x-1)^2+(y-3)^2+(z-1)^2-[(T_2+t_2-t)\cdot c]^2=0$</p>
-<p>$f_3=(x-5)^2+(y-7)^2+(z-4)^2-[(T_3+t_3-t)\cdot c]^2=0$</p>
-<p>$f_4=(x-1)^2+(y-7)^2+(z-3)^2-[(T_4+t_4-t)\cdot c]^2=0$</p>
-</blockquote>
-<h3 id="问题的解决"><a href="#问题的解决" class="headerlink" title="问题的解决"></a>问题的解决</h3><p><strong>基本模型：</strong>可行，但达不到应用的要求（时间的精度、空间位置的精度）</p>
-<p><strong>科学问题到工程问题：</strong>科学原理可行到工程实现，需要技术方面的支持，而数学建模则更多的关注科学原理上可行性的问题</p>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/jamesrdesign">James Round</a>
-    </i>
-  </font>
-</div>]]></content>
-      <categories>
-        <category>数学建模 (Mathematical Modeling)</category>
-      </categories>
-      <tags>
-        <tag>Math</tag>
-        <tag>Mooc</tag>
-        <tag>GPS</tag>
-        <tag>Mathematical Modeling</tag>
       </tags>
   </entry>
   <entry>
@@ -5779,114 +5687,100 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>Mathematical Modeling</tag>
         <tag>Population</tag>
+        <tag>Mathematical Modeling</tag>
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#1</title>
-    <url>/archives/655d7201.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zfnfb9aj31hc0u00wn.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
+    <title>手机是怎么知道你的位置的</title>
+    <url>/archives/a03a749.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkcy9nokcuj30u00w9hag.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/105968903/Space-Economics-Illustrations-Resources-Magazine?tracking_source=search_projects_recommended%7Csatellite">Space Economics Illustrations / Resources Magazine</a> by 
+      <a href="https://www.behance.net/jamesrdesign">James Round</a>
+    </i>
+  </font>
+</div>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
 <a id="more"></a>
 
 
 
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《<a href="https://indienova.com/game/celeste">塞莱斯特山（蔚蓝，Celeste）</a>》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过<a href="https://indienova.com/u/fengnong">风农</a>翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtmvjmb7j30u008c74z.jpg"></p>
+<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>今天不管大家走到哪里，拿出手机可以告诉自己走到哪里、走了多快。给自己定位这样一件事是整个人类历史上持续在问的一个问题。我们中国发明了四大发明之一的指南针，可以更方便的进行定位，而在今天我们有全球定位系统，并通过经纬度来表示自己的坐标。</p>
+<h3 id="全球定位系统：2-TO-4"><a href="#全球定位系统：2-TO-4" class="headerlink" title="全球定位系统：2 TO 4"></a>全球定位系统：2 TO 4</h3><p><em>GPS（Global Positioning System）</em></p>
 <ul>
-<li><p>相关链接：</p>
-<ul>
-<li>Pedro Medeiros@Patreon<br><a href="https://www.patreon.com/saint11">https://www.patreon.com/saint11</a></li>
-<li>风农@indienova<br><a href="https://indienova.com/u/fengnong">https://indienova.com/u/fengnong</a></li>
-<li>风农@bilibili 专栏<br><a href="https://www.bilibili.com/read/readlist/rl38114">https://www.bilibili.com/read/readlist/rl38114</a></li>
-</ul>
-<blockquote>
-<p>这是一个小的系列，算是专门为纯小白设计。</p>
-</blockquote>
-<p>完全小白起步指南</p>
-<p>这篇文章是关于如何开始画像素画，专为从来没用过像素画软件，或者刚开始学画的人设计。这里我只会讲解最基本的东西，如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
-<p>如果喜欢这篇文章，欢迎去 Patreon 支持我：patreon.com/saint11</p>
-<p>这是一个系列的第一篇。</p>
-<h3 id="开始之前"><a href="#开始之前" class="headerlink" title="开始之前"></a>开始之前</h3><p>在开始进入像素画世界之前，要记住，像素画只是一种艺术形式，就像抽象画，油画，铅笔画，雕塑或者他的亲戚镶嵌画一样。画好像素画，你需要能画好常规的画。就是说你也要学习结构，透视，光影，颜色理论，甚至艺术史，这些都是画好像素画的关键。</p>
-<h4 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h4><p>画好像素画不需要什么好的工具，你可以只用鼠标和免费软件就画的不错。我的设备有一个小的 Wacom 手绘板，一个好鼠标，一个键盘和我最喜欢的软件 Aseprite，总之你应该用你用着最舒服的。</p>
-<p>这里是一些很常用的像素画软件：</p>
-<ul>
-<li><strong>Aseprite：</strong>专业的编辑器，有很多提高效率的特性，收费。<br><a href="https://www.aseprite.org/">https://www.aseprite.org/</a></li>
-<li><strong>GraphicsGale：</strong>经典，很多游戏有用到。略复杂，但是好特性很多，免费<br><a href="https://graphicsgale.com/us/">https://graphicsgale.com/us/</a></li>
-<li><strong>Piskel：</strong>免费线上编辑器（风农：我之前翻译的视频教程里有讲）。<br><a href="https://www.piskelapp.com/">https://www.piskelapp.com/</a></li>
-<li><strong>Photoshop：</strong>强力图片编辑器，不是为像素画设计的，但设置好了也可以用，收费。</li>
-</ul>
-<h4 id="Aseprite"><a href="#Aseprite" class="headerlink" title="Aseprite"></a>Aseprite</h4><p>目前我最喜欢的像素画软件。非常的强大，特性很多又很方便用。这个教程都是用 Aseprite 来做的，但是我觉得转换到其他软件也不需要费很大功夫。你可以试试 Aseprite 的试用版，但是不能保存文件，用来练习我觉得还 OK。</p>
-<h4 id="创建文件"><a href="#创建文件" class="headerlink" title="创建文件"></a>创建文件</h4><p>点击主界面的“<code>New File</code>”，或者到 <code>FIle</code> &gt; <code>New File</code>，之后就可以开始画了。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhto9xfs3j307t0bqq2q.jpg"></p>
-<p>我们新建一个文件，<code>16</code> 乘 <code>16</code> 可能看起来太小，不过我觉得作为起始还是很好的。大的分辨率可能会让你分心，你现在应该聚焦在：理解每个像素和周边的关系。</p>
-<p>颜色模式保持 <code>RGBA</code>，这是最简单直观的。一些像素画手喜欢用 <code>Indexed</code>（索引）模式，能用一些很酷的颜色技巧，但也有一些缺点。</p>
-<p>背景选透明（transparent）或者白色（white），暂时没影响。高级选项（Advanced Options）不要选，以后你可以自己去试试。</p>
-<p>现在就都准备 ok 了。</p>
-<h3 id="开始画！"><a href="#开始画！" class="headerlink" title="开始画！"></a>开始画！</h3><p>界面上有很多工具和菜单，别着急，我们现在只需要用几个按钮。最主要的工具是铅笔（Pencil），应该一直保持 <code>1px</code> 宽度，这是我们在画布上画像素的工具。点击这个按钮，或者按 B，再去点击屏幕，就可以画上一个所选颜色的像素点。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtodo3nvj30oh0k0dfx.jpg"></p>
-<p>在左边你可以看到调色盘，有几个默认颜色。把这些换一下，换成简单点的集合。点击调色盘上面第三个按钮（预设，presets），选择 <code>ARQ4</code>（Endesga 所做的一个很棒的调色盘）。这就是你画第一个 sprite 会用的调色盘了。</p>
-<p>现在用这里的 4 个颜色来试着画个杯子。</p>
-<p>可以从我的设计里找灵感，也要试着画的个性一点。如果画错，按 ALT + 点击一个空白区域或者画布外，你就会选择一个透明的色，可以用来擦除像素。当然也可以点击橡皮（Eraser）或者按 E。</p>
-<p>你可能注意到，在这么低的分辨率上画，跟常规绘画是不同的。所有东西都要计算好，没个像素的位置都是你需要做的决定。你需要适应这些。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtobbn8oj309h09w0si.jpg"></p>
-<p>你可以去试试其他的按钮。注意有些按钮点中后会打开更多选项。先不要用模糊工具（blur），他会增加很多颜色，我们还用不上。</p>
-<p>现在，我们可以画更多 sprite，试试画骷髅，宝剑，人脸。这次不找像素画参考。如果你感觉这些在画布上画不开，完全正常，试着去把一些地方抽象成单像素再试试。在这么低的分辨率画画是很难的，有时候很想是解密。这里有一篇我之前给 Kano 写的，关于在低分辨率下画画的文章：<a href="https://kano.me/blog/my-thoughts-on-very-low-resolution/">https://kano.me/blog/my-thoughts-on-very-low-resolution/</a></p>
-<p>这里是我画的几个 sprite，一定确保你画完自己的再看：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhto6xtqmj30lu0b1a9t.jpg"></p>
-<p>这是个不错的练习，如果你想继续练习，试着带着这些限制画更多东西。</p>
-<h4 id="保存文件"><a href="#保存文件" class="headerlink" title="保存文件"></a>保存文件</h4><p>按 CTRL+S 来保存文件，或者到 <code>File</code> &gt; <code>Save As...</code>，选文件名和保存路径，点击 <code>save</code>。</p>
-<p>在试用版这个功能是禁用的！</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtod6vxsj30bh09r3ya.jpg"></p>
-<p>Aseprite 可以保存很多的格式，我建议保存一个 ase 文件。就好像 PS 里你会留一个 psd 文件一样。当要导出到 web 或游戏里时，可以 CTRL+ALT+SHIFT+S，或者 <code>File</code> &gt; <code>Export</code>.</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtocrr05j30u00czq4t.jpg" alt="图片"></p>
-<p>Aseprite 在导出界面有个很棒的 Resize 特性。它只会把你的 sprite 放大整数倍，完美。如果你要把 sprite 放大 107%，就会把所有像素都破坏掉，乱七八糟。但如果你缩放 200%，每个像素就会变成 2 倍宽和高，还是很整洁。</p>
-<h4 id="大点的画布"><a href="#大点的画布" class="headerlink" title="大点的画布"></a>大点的画布</h4><p>现在你已经连接了基础，像创建保存文件，在画布上画画。我们试着画个大点的画布，<code>32</code> 乘 <code>32</code> 像素。调色盘也换大一点，试一试 <code>AAP-Micro12</code>（ AdigunPolack 制作）。这次画个铲子。</p>
-<p>不像 <code>16</code> 乘 <code>16</code> 的 sprite，我们可以在这里画一些轮廓线，这是我的流程分解：</p>
-<h4 id="第一步：线条"><a href="#第一步：线条" class="headerlink" title="第一步：线条"></a>第一步：线条</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtoaeyuhj30gv0480gi.jpg"></p>
-<p>这种线条风格我称为像素完美线，只有 <code>1</code> 像素宽，与其他像素对角线连接。当画这种线时，注意避免不必要的边，比如：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhto75iqtj307w0b90jk.jpg"></p>
-<p>Aseprite 还有个很棒的笔刷特性可以自动处理这些：选中你的笔刷工具，再选中像素完美（pixel-perfect）。记得不画线的时候要把它勾掉，不然很烦人。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtocc0hdj309y02g741.jpg"></p>
-<h4 id="第二步：基本颜色"><a href="#第二步：基本颜色" class="headerlink" title="第二步：基本颜色"></a>第二步：基本颜色</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtobselij30i704k0k1.jpg"></p>
-<p>可选颜色少有个好处是不会被太多的选择淹没。这就是为什么用一大堆色也很难，如果你的调色盘里有个颜色，你没理由不好好利用起来。试着把它当成解密，多试验，即使是怪异的，非常规的组合，知道你找到你认为最合适这个区域的组合。</p>
-<h4 id="第三步：明暗"><a href="#第三步：明暗" class="headerlink" title="第三步：明暗"></a>第三步：明暗</h4><p>用你的调色盘有创意的画出明暗。因为你只有非常受限的调色盘，你不会有每种不同亮度的色调，你必须随机应变。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhto8ka0gj308h06d0sh.jpg"> </p>
-<p>这个例子里，我用的也是 <code>AAP-Mini12</code> 调色盘。当我画上这个绿老哥之后，我没有其他亮绿色可用了，所以我选了能用的最接近的色，也就是黄色。阴影也是一样，我选了蓝色，因为这是最接近的暗色。但如果我反过来呢？我可以用个亮蓝色和暗红色，对吧？其实不太行：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhto9lsp0j308o06a0sh.jpg"> </p>
-<p>看起来好像很酷，但是明显有点不对劲。通常你得把冷色调用在阴影，暖色用在亮处，不然就看着怪。当然这也不是雷打不动的规则，有很多的例外。在你不确定的时候，就遵从它。</p>
-<h4 id="第四步：抗锯齿和优化"><a href="#第四步：抗锯齿和优化" class="headerlink" title="第四步：抗锯齿和优化"></a>第四步：抗锯齿和优化</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhto824guj30gp0480kq.jpg"></p>
-<p>这部分需要你试着把像素变得不那么“尖”。手工抗锯齿是个复杂的主题，估计我们要用一整篇文章来讨论，不过概念是，你可以用中间色来模拟“半个像素”，软化边界。但是不用过多的关心这个，现在你需要把 spirite 的尽量画的易于理解。</p>
-<p>另外一个适合在这个阶段做的是干掉孤立像素减少噪点。孤立像素就是不属于任何大的同色的像素簇的像素，也不属于抗锯齿，比如：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtob0n0wj30m70bo0si.jpg"></p>
-<p>注意到左边的 <code>1</code> 像素小岛了吗？那些就是孤立像素，在我们把这些孤立像素和邻近的同色像素合并之后，能看出这个地球看起来好多了。</p>
-<p>那么图里的那些星星呢？他们的存在是为了表示孤立像素也不是完全不好，这些星星就是想要的效果，画出一个噪点纹理，提高了背景的对比度。</p>
-<p>不要无脑的删除孤立像素，要在过程中问自己：这个像素是不是需要单独存在？</p>
-<h3 id="接下来？"><a href="#接下来？" class="headerlink" title="接下来？"></a>接下来？</h3><p>现在是时候去试试更多颜色和更大的分辨率了。但要慢慢来，比如 48 乘 48，16 个色等等。如果你是完全初学，我建议先别做动画，先聚焦于如何舒服的画出静态的画。</p>
-<p>我选了几个我很喜欢的像素画教程，如果你想看看的话：</p>
-<ul>
-<li>Pixel art tutorial by Cure<br><a href="http://pixeljoint.com/forum/forum_posts.asp?TID=11299&amp;PID=139318#139318">http://pixeljoint.com/forum/forum_posts.asp?TID=11299&amp;PID=139318#139318</a></li>
-<li>Pixel art tutorial by Derek Yu<br><a href="http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial">http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial</a></li>
-<li>Pixel art tutorial by Arne<br><a href="https://androidarts.com/pixtut/pixelart.htm">https://androidarts.com/pixtut/pixelart.htm</a></li>
-</ul>
-<p>我自己也做了很多不同主题的教程，你可以在 patreon 页里看到（风农：就是我做的这个系列~）。</p>
-<ul>
-<li>My Patreon page<br>patreon.com/saint11</li>
-<li>A compiled list of all my tutorials<br><a href="http://blog.studiominiboss.com/pixelart">http://blog.studiominiboss.com/pixelart</a></li>
-</ul>
+<li><p><strong>美国的GPS</strong></p>
+<p>GPS一共6条轨道，每条轨道4颗卫星，一共24颗卫星。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkdgum5vcqj30fi0ahmxm.jpg"></p>
+</li>
+<li><p><strong>苏联的GLONASS</strong></p>
+<p>GLONASS一共3条轨道，每条轨道8颗卫星，一共24颗卫星。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkdgwdsot0j30cv08xac9.jpg"></p>
+</li>
+<li><p><strong>欧盟的伽利略</strong></p>
+</li>
+<li><p><strong>中国的北斗</strong></p>
 </li>
 </ul>
-]]></content>
+<h3 id="模型的构建与求解"><a href="#模型的构建与求解" class="headerlink" title="模型的构建与求解"></a>模型的构建与求解</h3><p>当我们遇到问题的时候，我们不要追求一个模型解决所有的问题。建模的共性在于在最初的阶段能否用非常简单的模型去讨论最简单基本的情形。</p>
+<h4 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h4><p>我们身处地球给自己的空间位置定位，除了地球表面基本的经度和纬度外，还有海拔高度。一个全球定位系统实现了全球覆盖之后，无论在地球的哪个位置，在头顶上能接收到信号的卫星大约在<strong>6～10颗</strong>左右。这些卫星在固定的频率上发送的信息有：<strong>发出信号的时刻、卫星的位置坐标</strong>。</p>
+<p>而我们接收了这些卫星的信号，怎么通过卫星的位置知道自己的位置呢？虽然自己的坐标是未知的，但是我们知道从卫星的位置走到自己的位置的距离如何去表达：</p>
+<blockquote>
+<p>$distance^2=(x-x_0)^2+(y-y_0)^2+(z-z_0)^2$ 其中 $x_0、y_0、z_0$ 为卫星坐标</p>
+</blockquote>
+<p>而距离我们可不可以算出来呢？可以，因为我们还有时间：电磁波是以光速传播到设备的，乘上时间便可以求出距离。以距离为桥梁，我们将两边联系在了一起：</p>
+<blockquote>
+<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=distance^2=[(t-t_0) \cdot c]^2$</p>
+<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=[(t-t_0) \cdot c]^2$</p>
+</blockquote>
+<h4 id="基本模型"><a href="#基本模型" class="headerlink" title="基本模型"></a>基本模型</h4><p>每有一颗卫星，就有一组方程； 使用者能接收几颗卫星，就有几组下面这样的信号量：</p>
+<blockquote>
+<p>$(x-3)^2+(y-2)^2+(z-3)^2-[(10010.00692286-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-3)^2+(z-1)^2-[(10013.34256381-t)\cdot c]^2=0$</p>
+<p>$(x-5)^2+(y-7)^2+(z-4)^2-[(10016.67820476-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-6)^2+(z-3)^2-[(10020.01384571-t)\cdot c]^2=0$</p>
+<p>$(x-7)^2+(y-6)^2+(z-7)^2-[(10023.34948666-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-4)^2+(z-9)^2-[(10030.02076857-t)\cdot c]^2=0$</p>
+</blockquote>
+<p>这样就列出了一个四元二次方程组，很容易求解。</p>
+<h4 id="求解原理"><a href="#求解原理" class="headerlink" title="求解原理"></a>求解原理</h4><p>四元二次方程组消掉高次项以后变成一个线性方程组：</p>
+<blockquote>
+<p>$\begin{bmatrix} 4 &amp; -4 &amp; -12 &amp; 3.59751 \\ 0 &amp; -2 &amp; -16 &amp; 2.99792 \\ 8 &amp; 6 &amp; -10 &amp; 2.39834 \\ 0 &amp; 6 &amp; -12 &amp; 1.79875 \\ 12 &amp; 4 &amp; -4 &amp; 1.19917 \end{bmatrix}\begin{bmatrix} x \\ y \\ z \\ t\end{bmatrix}=\begin{bmatrix}35971.1 \\ 29957.2 \\ 24031.4 \\ 17993.5 \\ 12059.7 \end{bmatrix}$</p>
+</blockquote>
+<p>如此简单的问题甚至不需要很大的计算机，一个计算器就可以算出来。全球定位系统看着一个很高大上的东西，其实它最基本的、最反映它本质的一个数学模型是非常简单的，当然这个模型并不能很好的解决现实问题，但确实是能体现出全球定位系统最核心的思想的模型。</p>
+<p>这样的模型直接投入使用空间上会有几十米量级的误差，不能满足我们日常的大部分需求，我们需要进一步改进。但正是这样简单的模型，在时间上通过卫星授时误差能达到毫秒量级。</p>
+<h3 id="模型的分析"><a href="#模型的分析" class="headerlink" title="模型的分析"></a>模型的分析</h3><h4 id="卫星时钟"><a href="#卫星时钟" class="headerlink" title="卫星时钟"></a>卫星时钟</h4><p>全球定位系统的使用者可以不知道自己的时间，但卫星上的时间必须要非常准确的，所以地面会有一个原子钟为卫星授时并校准。之前也提到过，$[(t-t_0) \cdot c]^2$ 因为有光速这样大量级的存在，时间上的微小误差会被放大到很大，从而影响到方程本身的求解。也就是说，<strong>时间的同步性</strong>是非常重要的。</p>
+<h4 id="轨道误差"><a href="#轨道误差" class="headerlink" title="轨道误差"></a>轨道误差</h4><p>卫星总体来讲会绕着地球不断地自转，但转的每一次都多多少少会有一些误差。而卫星发送的数据包是根据自己的轨道位置所计算得到的，但轨道本身是按预定轨道计算，其中自转过程未必严格按预定轨道执行从而产生空间信息的偏差。</p>
+<h4 id="电磁波延迟"><a href="#电磁波延迟" class="headerlink" title="电磁波延迟"></a>电磁波延迟</h4><p>发送电磁波穿过电离层和大气层会有延迟，在时间方面产生误差。</p>
+<h4 id="接收机噪声"><a href="#接收机噪声" class="headerlink" title="接收机噪声"></a>接收机噪声</h4><p>GPS接收机本身有噪声，设备之间也会有显著的区别。</p>
+<p>首先考虑一个方程的简单情况，观察空间位置对时间误差的敏感程度：$f_1=(x-3)^2-[(T_1+t_1)\cdot c]^2=0$敏感程度可以由导数来刻画，具体来讲是$x$ 关于 $t$ 的这个函数求导。考虑4个方程的情况：</p>
+<blockquote>
+<p>$f_1=(x-3)^2+(y-2)^2+(z-3)^2-[(T_1+t_1-t)\cdot c]^2=0$</p>
+<p>$f_2=(x-1)^2+(y-3)^2+(z-1)^2-[(T_2+t_2-t)\cdot c]^2=0$</p>
+<p>$f_3=(x-5)^2+(y-7)^2+(z-4)^2-[(T_3+t_3-t)\cdot c]^2=0$</p>
+<p>$f_4=(x-1)^2+(y-7)^2+(z-3)^2-[(T_4+t_4-t)\cdot c]^2=0$</p>
+</blockquote>
+<h3 id="问题的解决"><a href="#问题的解决" class="headerlink" title="问题的解决"></a>问题的解决</h3><p><strong>基本模型：</strong>可行，但达不到应用的要求（时间的精度、空间位置的精度）</p>
+<p><strong>科学问题到工程问题：</strong>科学原理可行到工程实现，需要技术方面的支持，而数学建模则更多的关注科学原理上可行性的问题</p>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/jamesrdesign">James Round</a>
+    </i>
+  </font>
+</div>]]></content>
       <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
+        <category>数学建模 (Mathematical Modeling)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
+        <tag>Math</tag>
+        <tag>Mooc</tag>
+        <tag>Mathematical Modeling</tag>
+        <tag>GPS</tag>
       </tags>
   </entry>
   <entry>
@@ -6103,59 +5997,100 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#3</title>
-    <url>/archives/90b77012.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zie8htlj31hc0u0dje.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解简单的 Aseprite 动画。</p>
+    <title>开始画像素画#1</title>
+    <url>/archives/655d7201.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zfnfb9aj31hc0u00wn.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
 <a id="more"></a>
 
 
 
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud6tcj7j30u008c74z.jpg"></p>
-<p>简单的 Aseprite 动画。这是系列的第 3 篇。</p>
-<h3 id="什么是动画？"><a href="#什么是动画？" class="headerlink" title="什么是动画？"></a>什么是动画？</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuggpz84g30dw05oab9.gif"></p>
-<p>动画是由一系列表现动作流程图像，按特定顺序播放，所引起的运动错觉。我们的工作就是让这个序列看起来尽可能让人信服。</p>
-<h3 id="时间轴"><a href="#时间轴" class="headerlink" title="时间轴"></a>时间轴</h3><p>首先我们要了解时间轴。它是一种在单个文件里表现多个图像的方法。每一列都是完整的图像，有一个编号，我们称之为帧。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudbdlr7j30dq02t0pm.jpg"></p>
-<p>新建帧的最简单方法是按 ALT + B。这会在当前选中帧的后面新建一个空白帧，然后选择它。你可以点击某帧来选中，或者按’,’,’.’改变选中帧，在键盘上找 &lt; 和 &gt;，比较好记。</p>
-<p>试着在不同帧上画些颜色，点击播放（Enter 键，回车）。也可以在预览窗口看，按 F7。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud72cy8j308w07idfl.jpg"></p>
-<p>你可能感觉“这么多快捷键我怎么记得住”，没关系。记住快捷键需要时间跟肌肉记忆，而且大部分也都可以只用鼠标完成。当你记不住某个快捷键，就在菜单里找找，或者查看 Aseprite 的官方键位参考图：<a href="https://www.aseprite.org/quickref/">https://www.aseprite.org/quickref/</a></p>
-<h3 id="一个非常简单的动画"><a href="#一个非常简单的动画" class="headerlink" title="一个非常简单的动画"></a>一个非常简单的动画</h3><p>画动画有非常多的技巧，比如应该按什么顺序绘制每帧，如何优化，不过我们暂时先讲我了解的最简单的一个技巧：一个“连续动作（straight-ahead）”的弹球动画。“连续动作”是指我们按顺序一帧一帧直接画，而不是先画出重要帧，再添加中间帧的方式。先建个 <code>32</code> 乘 <code>32</code> 的文件，随便选个调色盘。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudcea72j30pt03r741.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud855nnj30ig03va9t.jpg"></p>
-<p>动画第一帧我称之为“静止”。它既是概念图，定义动画的风格，也是这个序列的停止位置。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudekly7j30440440ba.jpg"></p>
-<p>你要注意这帧里添加的细节，因为下一帧也要保持相同的风格。</p>
-<p>接着复制这一帧（ALT + N），把它向上移动 <code>4</code> 像素，像这样：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudajda0j303u03w0b4.jpg"></p>
-<p>之后，继续向上 <code>3</code> 像素，<code>2</code> 像素，<code>1</code> 像素，多保持相同位置一帧，后面反过来一遍。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud8k43lj30gt029741.jpg"></p>
-<h3 id="节奏"><a href="#节奏" class="headerlink" title="节奏"></a>节奏</h3><p>尽管节奏的运用是个相当复杂的主题，甚至可以做一整期专门的教程，我现在简单的从技术方面讲一点，让你可以自己去试试。</p>
-<p>我们来添加一些节奏。球在落地后停一段时间，再跳起来。要增加某一帧的持续时间，右键 点击帧上的数字，选择帧属性（Frame Properties）。然后你可以输入你想要这帧持续的时间。我们试下 <code>300</code> 毫秒。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud9h0a1j308d05qdfm.jpg"></p>
-<p>你也可以选中多个帧，同时修改持续时间。对于一次性快速修改整个动画的速度很有帮助。</p>
-<h3 id="挤压和拉伸"><a href="#挤压和拉伸" class="headerlink" title="挤压和拉伸"></a>挤压和拉伸</h3><p>这里我们可以做的一个简单改进是添加一点挤压和拉伸，一种让动作看起来更流畅自然的技术。包括沿着运动方向拉伸或者压扁物体，同时保持整体面积。</p>
-<p>具体原理可以参考之前的教程：</p>
-<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MjIyOTc2Nw==&mid=2649561430&idx=1&sn=50924ed496f2b1a5e91c843bbc4c8384&chksm=beb0c9be89c740a8f0eb6ce3e7f98fc4a65e7bdba4cfe0738ee0e67594721cd5278f81a87de7&scene=21#wechat_redirect">链接：像素宝典 #8</a></p>
-<p>我们复制下第一帧，把它水平拉伸，垂直方向上压扁，保持整体体积。保持体积是很重要的，这样物体不会看起来变小或者变大了。当然这属于在我们更有经验之后可以尝试打破的规则，不过暂时还是遵守它。这帧也被称作“准备帧”，主要用来让下一帧发生的动作看起来更强烈。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud7nyyfj30bi0640kw.jpg"></p>
-<p>现在我们用同样方式复制并修改球落地时的帧，可以画的更加夸张点。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudd1yndj307m07l0f8.jpg"></p>
-<p>最后是垂直拉伸（同时水平挤压）跳起的第一帧和下落的最后一帧，当球速度最快的时候。这就完成了，我们看下结果：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudbt9f1j30mg07uwe9.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud9yqt4g305c05cmxc.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudaxnfug305c05cq31.gif"></p>
-<h3 id="保存动画"><a href="#保存动画" class="headerlink" title="保存动画"></a>保存动画</h3><p>尽管保存成 <code>.aseprite</code> 格式可以保存动画，你可能想要把动画导出，发到网上或者用到游戏里。</p>
-<p>网上，最简单的方式是保存成 <code>gif</code>，用 <code>FIle &gt; Export...</code> 命令。勾选 <code>Export for twitter</code>， 如果你想把最后一帧修改成 <code>1/4</code> 的持续时间，这样即使 Twitter 把它转成 MP4 也可以完美播放。</p>
-<p>当导出给游戏使用时，通常会保存成 png，动画一般会分解成一个精灵表或者图像序列。要保存成图像序列，选择导出为 png 格式，导出的文件后都带一个数字，像是“<code>bounce00.png</code>”。这回导出多个文件，像“<code>bounce01.png</code>”，“<code>bounce02.png</code>”等等。</p>
-<p>有的引擎需要精灵表的形式，不需要手工处理，只要选择 File&gt;Export Sprite Sheet，可以改改设置，有很多参数可选。</p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhude6qwbg305c05c747.gif"></p>
-<p>接下来我建议多试试时间轴，试着画点别的动画。你可以看看我其他的教程，选个感兴趣的跟着画画。</p>
-<p>另外也可以试试经典的初学者练习，画一个面粉袋走和跳的动画：<br><a href="https://www.youtube.com/watch?v=C8cbTGshkZw%E3%80%82">https://www.youtube.com/watch?v=C8cbTGshkZw。</a></p>
-<p>暂时保持低一点的分辨率和颜色数，不要太复杂了。</p>
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《<a href="https://indienova.com/game/celeste">塞莱斯特山（蔚蓝，Celeste）</a>》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过<a href="https://indienova.com/u/fengnong">风农</a>翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtmvjmb7j30u008c74z.jpg"></p>
+<ul>
+<li><p>相关链接：</p>
+<ul>
+<li>Pedro Medeiros@Patreon<br><a href="https://www.patreon.com/saint11">https://www.patreon.com/saint11</a></li>
+<li>风农@indienova<br><a href="https://indienova.com/u/fengnong">https://indienova.com/u/fengnong</a></li>
+<li>风农@bilibili 专栏<br><a href="https://www.bilibili.com/read/readlist/rl38114">https://www.bilibili.com/read/readlist/rl38114</a></li>
+</ul>
+<blockquote>
+<p>这是一个小的系列，算是专门为纯小白设计。</p>
+</blockquote>
+<p>完全小白起步指南</p>
+<p>这篇文章是关于如何开始画像素画，专为从来没用过像素画软件，或者刚开始学画的人设计。这里我只会讲解最基本的东西，如何创建文件，设置画布尺寸，以及如何利用受限的颜色。</p>
+<p>如果喜欢这篇文章，欢迎去 Patreon 支持我：patreon.com/saint11</p>
+<p>这是一个系列的第一篇。</p>
+<h3 id="开始之前"><a href="#开始之前" class="headerlink" title="开始之前"></a>开始之前</h3><p>在开始进入像素画世界之前，要记住，像素画只是一种艺术形式，就像抽象画，油画，铅笔画，雕塑或者他的亲戚镶嵌画一样。画好像素画，你需要能画好常规的画。就是说你也要学习结构，透视，光影，颜色理论，甚至艺术史，这些都是画好像素画的关键。</p>
+<h4 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h4><p>画好像素画不需要什么好的工具，你可以只用鼠标和免费软件就画的不错。我的设备有一个小的 Wacom 手绘板，一个好鼠标，一个键盘和我最喜欢的软件 Aseprite，总之你应该用你用着最舒服的。</p>
+<p>这里是一些很常用的像素画软件：</p>
+<ul>
+<li><strong>Aseprite：</strong>专业的编辑器，有很多提高效率的特性，收费。<br><a href="https://www.aseprite.org/">https://www.aseprite.org/</a></li>
+<li><strong>GraphicsGale：</strong>经典，很多游戏有用到。略复杂，但是好特性很多，免费<br><a href="https://graphicsgale.com/us/">https://graphicsgale.com/us/</a></li>
+<li><strong>Piskel：</strong>免费线上编辑器（风农：我之前翻译的视频教程里有讲）。<br><a href="https://www.piskelapp.com/">https://www.piskelapp.com/</a></li>
+<li><strong>Photoshop：</strong>强力图片编辑器，不是为像素画设计的，但设置好了也可以用，收费。</li>
+</ul>
+<h4 id="Aseprite"><a href="#Aseprite" class="headerlink" title="Aseprite"></a>Aseprite</h4><p>目前我最喜欢的像素画软件。非常的强大，特性很多又很方便用。这个教程都是用 Aseprite 来做的，但是我觉得转换到其他软件也不需要费很大功夫。你可以试试 Aseprite 的试用版，但是不能保存文件，用来练习我觉得还 OK。</p>
+<h4 id="创建文件"><a href="#创建文件" class="headerlink" title="创建文件"></a>创建文件</h4><p>点击主界面的“<code>New File</code>”，或者到 <code>FIle</code> &gt; <code>New File</code>，之后就可以开始画了。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhto9xfs3j307t0bqq2q.jpg"></p>
+<p>我们新建一个文件，<code>16</code> 乘 <code>16</code> 可能看起来太小，不过我觉得作为起始还是很好的。大的分辨率可能会让你分心，你现在应该聚焦在：理解每个像素和周边的关系。</p>
+<p>颜色模式保持 <code>RGBA</code>，这是最简单直观的。一些像素画手喜欢用 <code>Indexed</code>（索引）模式，能用一些很酷的颜色技巧，但也有一些缺点。</p>
+<p>背景选透明（transparent）或者白色（white），暂时没影响。高级选项（Advanced Options）不要选，以后你可以自己去试试。</p>
+<p>现在就都准备 ok 了。</p>
+<h3 id="开始画！"><a href="#开始画！" class="headerlink" title="开始画！"></a>开始画！</h3><p>界面上有很多工具和菜单，别着急，我们现在只需要用几个按钮。最主要的工具是铅笔（Pencil），应该一直保持 <code>1px</code> 宽度，这是我们在画布上画像素的工具。点击这个按钮，或者按 B，再去点击屏幕，就可以画上一个所选颜色的像素点。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtodo3nvj30oh0k0dfx.jpg"></p>
+<p>在左边你可以看到调色盘，有几个默认颜色。把这些换一下，换成简单点的集合。点击调色盘上面第三个按钮（预设，presets），选择 <code>ARQ4</code>（Endesga 所做的一个很棒的调色盘）。这就是你画第一个 sprite 会用的调色盘了。</p>
+<p>现在用这里的 4 个颜色来试着画个杯子。</p>
+<p>可以从我的设计里找灵感，也要试着画的个性一点。如果画错，按 ALT + 点击一个空白区域或者画布外，你就会选择一个透明的色，可以用来擦除像素。当然也可以点击橡皮（Eraser）或者按 E。</p>
+<p>你可能注意到，在这么低的分辨率上画，跟常规绘画是不同的。所有东西都要计算好，没个像素的位置都是你需要做的决定。你需要适应这些。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtobbn8oj309h09w0si.jpg"></p>
+<p>你可以去试试其他的按钮。注意有些按钮点中后会打开更多选项。先不要用模糊工具（blur），他会增加很多颜色，我们还用不上。</p>
+<p>现在，我们可以画更多 sprite，试试画骷髅，宝剑，人脸。这次不找像素画参考。如果你感觉这些在画布上画不开，完全正常，试着去把一些地方抽象成单像素再试试。在这么低的分辨率画画是很难的，有时候很想是解密。这里有一篇我之前给 Kano 写的，关于在低分辨率下画画的文章：<a href="https://kano.me/blog/my-thoughts-on-very-low-resolution/">https://kano.me/blog/my-thoughts-on-very-low-resolution/</a></p>
+<p>这里是我画的几个 sprite，一定确保你画完自己的再看：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhto6xtqmj30lu0b1a9t.jpg"></p>
+<p>这是个不错的练习，如果你想继续练习，试着带着这些限制画更多东西。</p>
+<h4 id="保存文件"><a href="#保存文件" class="headerlink" title="保存文件"></a>保存文件</h4><p>按 CTRL+S 来保存文件，或者到 <code>File</code> &gt; <code>Save As...</code>，选文件名和保存路径，点击 <code>save</code>。</p>
+<p>在试用版这个功能是禁用的！</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtod6vxsj30bh09r3ya.jpg"></p>
+<p>Aseprite 可以保存很多的格式，我建议保存一个 ase 文件。就好像 PS 里你会留一个 psd 文件一样。当要导出到 web 或游戏里时，可以 CTRL+ALT+SHIFT+S，或者 <code>File</code> &gt; <code>Export</code>.</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtocrr05j30u00czq4t.jpg" alt="图片"></p>
+<p>Aseprite 在导出界面有个很棒的 Resize 特性。它只会把你的 sprite 放大整数倍，完美。如果你要把 sprite 放大 107%，就会把所有像素都破坏掉，乱七八糟。但如果你缩放 200%，每个像素就会变成 2 倍宽和高，还是很整洁。</p>
+<h4 id="大点的画布"><a href="#大点的画布" class="headerlink" title="大点的画布"></a>大点的画布</h4><p>现在你已经连接了基础，像创建保存文件，在画布上画画。我们试着画个大点的画布，<code>32</code> 乘 <code>32</code> 像素。调色盘也换大一点，试一试 <code>AAP-Micro12</code>（ AdigunPolack 制作）。这次画个铲子。</p>
+<p>不像 <code>16</code> 乘 <code>16</code> 的 sprite，我们可以在这里画一些轮廓线，这是我的流程分解：</p>
+<h4 id="第一步：线条"><a href="#第一步：线条" class="headerlink" title="第一步：线条"></a>第一步：线条</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtoaeyuhj30gv0480gi.jpg"></p>
+<p>这种线条风格我称为像素完美线，只有 <code>1</code> 像素宽，与其他像素对角线连接。当画这种线时，注意避免不必要的边，比如：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhto75iqtj307w0b90jk.jpg"></p>
+<p>Aseprite 还有个很棒的笔刷特性可以自动处理这些：选中你的笔刷工具，再选中像素完美（pixel-perfect）。记得不画线的时候要把它勾掉，不然很烦人。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtocc0hdj309y02g741.jpg"></p>
+<h4 id="第二步：基本颜色"><a href="#第二步：基本颜色" class="headerlink" title="第二步：基本颜色"></a>第二步：基本颜色</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtobselij30i704k0k1.jpg"></p>
+<p>可选颜色少有个好处是不会被太多的选择淹没。这就是为什么用一大堆色也很难，如果你的调色盘里有个颜色，你没理由不好好利用起来。试着把它当成解密，多试验，即使是怪异的，非常规的组合，知道你找到你认为最合适这个区域的组合。</p>
+<h4 id="第三步：明暗"><a href="#第三步：明暗" class="headerlink" title="第三步：明暗"></a>第三步：明暗</h4><p>用你的调色盘有创意的画出明暗。因为你只有非常受限的调色盘，你不会有每种不同亮度的色调，你必须随机应变。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhto8ka0gj308h06d0sh.jpg"> </p>
+<p>这个例子里，我用的也是 <code>AAP-Mini12</code> 调色盘。当我画上这个绿老哥之后，我没有其他亮绿色可用了，所以我选了能用的最接近的色，也就是黄色。阴影也是一样，我选了蓝色，因为这是最接近的暗色。但如果我反过来呢？我可以用个亮蓝色和暗红色，对吧？其实不太行：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhto9lsp0j308o06a0sh.jpg"> </p>
+<p>看起来好像很酷，但是明显有点不对劲。通常你得把冷色调用在阴影，暖色用在亮处，不然就看着怪。当然这也不是雷打不动的规则，有很多的例外。在你不确定的时候，就遵从它。</p>
+<h4 id="第四步：抗锯齿和优化"><a href="#第四步：抗锯齿和优化" class="headerlink" title="第四步：抗锯齿和优化"></a>第四步：抗锯齿和优化</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhto824guj30gp0480kq.jpg"></p>
+<p>这部分需要你试着把像素变得不那么“尖”。手工抗锯齿是个复杂的主题，估计我们要用一整篇文章来讨论，不过概念是，你可以用中间色来模拟“半个像素”，软化边界。但是不用过多的关心这个，现在你需要把 spirite 的尽量画的易于理解。</p>
+<p>另外一个适合在这个阶段做的是干掉孤立像素减少噪点。孤立像素就是不属于任何大的同色的像素簇的像素，也不属于抗锯齿，比如：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhtob0n0wj30m70bo0si.jpg"></p>
+<p>注意到左边的 <code>1</code> 像素小岛了吗？那些就是孤立像素，在我们把这些孤立像素和邻近的同色像素合并之后，能看出这个地球看起来好多了。</p>
+<p>那么图里的那些星星呢？他们的存在是为了表示孤立像素也不是完全不好，这些星星就是想要的效果，画出一个噪点纹理，提高了背景的对比度。</p>
+<p>不要无脑的删除孤立像素，要在过程中问自己：这个像素是不是需要单独存在？</p>
+<h3 id="接下来？"><a href="#接下来？" class="headerlink" title="接下来？"></a>接下来？</h3><p>现在是时候去试试更多颜色和更大的分辨率了。但要慢慢来，比如 48 乘 48，16 个色等等。如果你是完全初学，我建议先别做动画，先聚焦于如何舒服的画出静态的画。</p>
+<p>我选了几个我很喜欢的像素画教程，如果你想看看的话：</p>
+<ul>
+<li>Pixel art tutorial by Cure<br><a href="http://pixeljoint.com/forum/forum_posts.asp?TID=11299&amp;PID=139318#139318">http://pixeljoint.com/forum/forum_posts.asp?TID=11299&amp;PID=139318#139318</a></li>
+<li>Pixel art tutorial by Derek Yu<br><a href="http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial">http://makegames.tumblr.com/post/42648699708/pixel-art-tutorial</a></li>
+<li>Pixel art tutorial by Arne<br><a href="https://androidarts.com/pixtut/pixelart.htm">https://androidarts.com/pixtut/pixelart.htm</a></li>
+</ul>
+<p>我自己也做了很多不同主题的教程，你可以在 patreon 页里看到（风农：就是我做的这个系列~）。</p>
+<ul>
+<li>My Patreon page<br>patreon.com/saint11</li>
+<li>A compiled list of all my tutorials<br><a href="http://blog.studiominiboss.com/pixelart">http://blog.studiominiboss.com/pixelart</a></li>
+</ul>
+</li>
+</ul>
 ]]></content>
       <categories>
         <category>开始画像素画 (Making Pixel Art)</category>
@@ -6227,56 +6162,59 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#5</title>
-    <url>/archives/9b57cb2b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zjv505rj31hc0u0427.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解关于抗锯齿与色带。</p>
+    <title>开始画像素画#3</title>
+    <url>/archives/90b77012.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zie8htlj31hc0u0dje.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解简单的 Aseprite 动画。</p>
 <a id="more"></a>
 
 
 
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
 <p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxvnuszj30u008c74z.jpg"></p>
-<p>系列第 5 节。</p>
-<p>这节稍微复杂点，可能比其他的几篇更进阶点。</p>
-<p>如果不能一下看懂也没关系，很多都是我的个人观点，而且抗锯齿和色带问题在像素画社区里观点很多。</p>
-<p>开始我不会讲软件，而是重点讲解这些概念，在接下来部分我会推荐一些练习。</p>
-<h3 id="什么是锯齿，为什么大家不喜欢"><a href="#什么是锯齿，为什么大家不喜欢" class="headerlink" title="什么是锯齿，为什么大家不喜欢"></a>什么是锯齿，为什么大家不喜欢</h3><p>在像素画里的 anti-alias 的 alias 我们一般说的是锯齿，或者说台阶效果。一种在低分辨下很容易注意到的效果。这个效果本身没有好坏，有时甚至是某种故意追求的风格，但有时候也会让画面很难看懂。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxu5ffrj30dp07fjr5.jpg"></p>
-<p>上面的例子里能看到，第一个图有很多尖锐的边，尤其是火焰周围。有些区域甚至很难理解在发生什么。</p>
-<p>这是因为像素画是事物的低分辨率表现。如果你这样想，就可以区分出“有意的线”和实际像素。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxs0u51j30fi07kwe9.jpg"></p>
-<p>基本上整个像素画流程就包括了把线转化到低分辨率画布上，并<strong>决定哪些像素要填充</strong>。有些像素明显在线的范围内，所以要填充。有些明显在外面，就不用填充。问题是那些刚刚贴到线上或者一半在线上的，才是问题所在。抗锯齿就是用中间色来填充这些像素，来创造一种柔和过渡的错觉。</p>
-<h3 id="如何画抗锯齿"><a href="#如何画抗锯齿" class="headerlink" title="如何画抗锯齿"></a>如何画抗锯齿</h3><p>简单讲: 有时候画的线不能完全符合像素网格，就需要使用中间色来让它看起来好点。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxst7nsj306a09r741.jpg"></p>
-<p>这个问题没有单一的解决方法，你可以用多种方法表现“想要的线”，取决于你的分辨率，画风，以及可用的颜色有多少。</p>
-<p>使用中间混合颜色的像素，在远处看算是半个像素。你可以利用这个来把边角软化一点。</p>
-<p>一个画反锯齿的好方法是搜索任何比 <code>1-1</code> 长的台阶图案：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxyf0g9j30rp04j0qh.jpg"></p>
-<p>找到 <code>2</code> 个像素或者更长的台阶之后，可以开始柔化他们，通过在台阶末尾添加半色的像素。要添加的像素数量取决于台阶的长度，以及可用的颜色。有时候这样会让物体扩张太多，这样的话你可以用半色的像素替代一个（有时更多）原来图案里的像素。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxsa2xaj30rg04c0jq.jpg"></p>
-<p>改变颜色或者饱和度影响不大，只要你是正确的在插值颜色的亮度。这在使用非常小的调色盘时很有用。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxuo4saj30ak0aiq2p.jpg"></p>
-<p>在简单的斜坡上画这些就已经很复杂了，在真正的画上面复杂度更是几何级增加。小的画布上画抗锯齿会影响到其他东西，带来很多副作用。我们讲几个常见的。</p>
-<p><strong>太多抗锯齿</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxv3quwj30f00e7jr5.jpg"></p>
-<p>最常见的问题就是过度的做抗锯齿，导致所有东西都很模糊。通过使用更少的半色，更少的台阶，以及不要在 <code>45</code> 度的线（<code>1-1</code> 的台阶）或者直线上用抗锯齿，来避免这种情况。</p>
-<p><strong>抗锯齿太短</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxtkq1xj30oa0ae3yd.jpg"></p>
-<p>这是不太常见的情况，而且可能是有意为之，尤其是在受限的调色盘上，不过有时候抗锯齿的半色像素比台阶本身的长度短太多。记住一个长的台阶应该有个相对长的抗锯齿半色条纹。</p>
-<p><strong>半色亮度错误</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxwdze1j30gl0gn742.jpg"></p>
-<p>之前也提到了，半色可以用不同的颜色，只要亮度感觉是两种要混合颜色的桥梁就可以。这里出的问题就是没有考虑这一点，相对于背景把半色画的太暗，或者太亮。</p>
-<p>有时候，当背景比物体还亮，这可以用来模拟阴影，也算是有用。但记住这种情况下其实是在画明暗而不是画抗锯齿。</p>
-<p><strong>色带</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxx4ggpj30cu0bi0ni.jpg"></p>
-<p>色带问题是当我们画了几个颜色完全不同的色带时出现的。这通常是个问题，会让物体看起来很平，有时候模糊。</p>
-<p>在这个球体的例子里，我把色带压缩到很小的区域。我把这种方法称为色带压缩，之前的阴影教程了也提到了。</p>
-<p>斜坡上就没办法这么压缩了。所以我旋转了渐变的方向。这也可以画出不错的抗锯齿，原来的是方向画错了，导致的色带问题。要总是注意这点，水平的斜坡应该加水平的抗锯齿，垂直的斜坡加垂直的抗锯齿。</p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在我建议你去实际的试试我这里讲的东西。你可以先从简单的 <code>2-1</code> 黑色斜坡开始，再试试圆圈。保持低颜色数，画布不要超过 <code>48</code> 乘 <code>48</code>。</p>
-<p>在这之后，你可以试试更多颜色，真实的画些东西。还是从简单的开始，像是球体，苹果，之后再到复杂的形状，比如人。</p>
-<p>总是注意画面里画出的色带，或者可以改进的抗锯齿。记住每个像素都是个抉择，每个像素都应该让你的画更好，画的更可读。如果抗锯齿带来的效果弊大于利，就去掉它。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud6tcj7j30u008c74z.jpg"></p>
+<p>简单的 Aseprite 动画。这是系列的第 3 篇。</p>
+<h3 id="什么是动画？"><a href="#什么是动画？" class="headerlink" title="什么是动画？"></a>什么是动画？</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuggpz84g30dw05oab9.gif"></p>
+<p>动画是由一系列表现动作流程图像，按特定顺序播放，所引起的运动错觉。我们的工作就是让这个序列看起来尽可能让人信服。</p>
+<h3 id="时间轴"><a href="#时间轴" class="headerlink" title="时间轴"></a>时间轴</h3><p>首先我们要了解时间轴。它是一种在单个文件里表现多个图像的方法。每一列都是完整的图像，有一个编号，我们称之为帧。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudbdlr7j30dq02t0pm.jpg"></p>
+<p>新建帧的最简单方法是按 ALT + B。这会在当前选中帧的后面新建一个空白帧，然后选择它。你可以点击某帧来选中，或者按’,’,’.’改变选中帧，在键盘上找 &lt; 和 &gt;，比较好记。</p>
+<p>试着在不同帧上画些颜色，点击播放（Enter 键，回车）。也可以在预览窗口看，按 F7。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud72cy8j308w07idfl.jpg"></p>
+<p>你可能感觉“这么多快捷键我怎么记得住”，没关系。记住快捷键需要时间跟肌肉记忆，而且大部分也都可以只用鼠标完成。当你记不住某个快捷键，就在菜单里找找，或者查看 Aseprite 的官方键位参考图：<a href="https://www.aseprite.org/quickref/">https://www.aseprite.org/quickref/</a></p>
+<h3 id="一个非常简单的动画"><a href="#一个非常简单的动画" class="headerlink" title="一个非常简单的动画"></a>一个非常简单的动画</h3><p>画动画有非常多的技巧，比如应该按什么顺序绘制每帧，如何优化，不过我们暂时先讲我了解的最简单的一个技巧：一个“连续动作（straight-ahead）”的弹球动画。“连续动作”是指我们按顺序一帧一帧直接画，而不是先画出重要帧，再添加中间帧的方式。先建个 <code>32</code> 乘 <code>32</code> 的文件，随便选个调色盘。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudcea72j30pt03r741.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud855nnj30ig03va9t.jpg"></p>
+<p>动画第一帧我称之为“静止”。它既是概念图，定义动画的风格，也是这个序列的停止位置。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudekly7j30440440ba.jpg"></p>
+<p>你要注意这帧里添加的细节，因为下一帧也要保持相同的风格。</p>
+<p>接着复制这一帧（ALT + N），把它向上移动 <code>4</code> 像素，像这样：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudajda0j303u03w0b4.jpg"></p>
+<p>之后，继续向上 <code>3</code> 像素，<code>2</code> 像素，<code>1</code> 像素，多保持相同位置一帧，后面反过来一遍。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud8k43lj30gt029741.jpg"></p>
+<h3 id="节奏"><a href="#节奏" class="headerlink" title="节奏"></a>节奏</h3><p>尽管节奏的运用是个相当复杂的主题，甚至可以做一整期专门的教程，我现在简单的从技术方面讲一点，让你可以自己去试试。</p>
+<p>我们来添加一些节奏。球在落地后停一段时间，再跳起来。要增加某一帧的持续时间，右键 点击帧上的数字，选择帧属性（Frame Properties）。然后你可以输入你想要这帧持续的时间。我们试下 <code>300</code> 毫秒。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud9h0a1j308d05qdfm.jpg"></p>
+<p>你也可以选中多个帧，同时修改持续时间。对于一次性快速修改整个动画的速度很有帮助。</p>
+<h3 id="挤压和拉伸"><a href="#挤压和拉伸" class="headerlink" title="挤压和拉伸"></a>挤压和拉伸</h3><p>这里我们可以做的一个简单改进是添加一点挤压和拉伸，一种让动作看起来更流畅自然的技术。包括沿着运动方向拉伸或者压扁物体，同时保持整体面积。</p>
+<p>具体原理可以参考之前的教程：</p>
+<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MjIyOTc2Nw==&mid=2649561430&idx=1&sn=50924ed496f2b1a5e91c843bbc4c8384&chksm=beb0c9be89c740a8f0eb6ce3e7f98fc4a65e7bdba4cfe0738ee0e67594721cd5278f81a87de7&scene=21#wechat_redirect">链接：像素宝典 #8</a></p>
+<p>我们复制下第一帧，把它水平拉伸，垂直方向上压扁，保持整体体积。保持体积是很重要的，这样物体不会看起来变小或者变大了。当然这属于在我们更有经验之后可以尝试打破的规则，不过暂时还是遵守它。这帧也被称作“准备帧”，主要用来让下一帧发生的动作看起来更强烈。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud7nyyfj30bi0640kw.jpg"></p>
+<p>现在我们用同样方式复制并修改球落地时的帧，可以画的更加夸张点。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudd1yndj307m07l0f8.jpg"></p>
+<p>最后是垂直拉伸（同时水平挤压）跳起的第一帧和下落的最后一帧，当球速度最快的时候。这就完成了，我们看下结果：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudbt9f1j30mg07uwe9.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud9yqt4g305c05cmxc.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudaxnfug305c05cq31.gif"></p>
+<h3 id="保存动画"><a href="#保存动画" class="headerlink" title="保存动画"></a>保存动画</h3><p>尽管保存成 <code>.aseprite</code> 格式可以保存动画，你可能想要把动画导出，发到网上或者用到游戏里。</p>
+<p>网上，最简单的方式是保存成 <code>gif</code>，用 <code>FIle &gt; Export...</code> 命令。勾选 <code>Export for twitter</code>， 如果你想把最后一帧修改成 <code>1/4</code> 的持续时间，这样即使 Twitter 把它转成 MP4 也可以完美播放。</p>
+<p>当导出给游戏使用时，通常会保存成 png，动画一般会分解成一个精灵表或者图像序列。要保存成图像序列，选择导出为 png 格式，导出的文件后都带一个数字，像是“<code>bounce00.png</code>”。这回导出多个文件，像“<code>bounce01.png</code>”，“<code>bounce02.png</code>”等等。</p>
+<p>有的引擎需要精灵表的形式，不需要手工处理，只要选择 File&gt;Export Sprite Sheet，可以改改设置，有很多参数可选。</p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhude6qwbg305c05c747.gif"></p>
+<p>接下来我建议多试试时间轴，试着画点别的动画。你可以看看我其他的教程，选个感兴趣的跟着画画。</p>
+<p>另外也可以试试经典的初学者练习，画一个面粉袋走和跳的动画：<br><a href="https://www.youtube.com/watch?v=C8cbTGshkZw%E3%80%82">https://www.youtube.com/watch?v=C8cbTGshkZw。</a></p>
+<p>暂时保持低一点的分辨率和颜色数，不要太复杂了。</p>
 ]]></content>
       <categories>
         <category>开始画像素画 (Making Pixel Art)</category>
@@ -6374,68 +6312,56 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#7</title>
-    <url>/archives/7559aa07.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zm7aw4aj31hc0u0jv1.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
+    <title>开始画像素画#5</title>
+    <url>/archives/9b57cb2b.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zjv505rj31hc0u0427.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解关于抗锯齿与色带。</p>
 <a id="more"></a>
 
 
 
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
 <p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8bd0hfj30u008c74z.jpg"></p>
-<p>系列第 7 篇。</p>
-<h3 id="什么是线条"><a href="#什么是线条" class="headerlink" title="什么是线条"></a>什么是线条</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv89ju74j30ei0d812e.jpg"></p>
-<p>线条是艺术领域最重要的工具之一。他们可以用来强调形状，对比。现实世界里我们看不到线条，但他们能帮助我们分隔空间，创造纹理，表现体积和方向。</p>
-<p>在像素美术中，屏幕上的空间非常受限。每个像素都很重要，绘制线条就变得很昂贵。因此，如果你在画非常低像素作品，不推荐使用线条。即使有一些富裕的空间，还是要谨慎的使用线条，试着不使用线条去完成。最少化线条的使用，是保持像素画整洁的好办法。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640.png"></p>
-<p>不必要的线可以用阴影或者高对比区域代替。将线条与暗影部分融合能让画面显得更统一，自然。</p>
-<h3 id="不必要的拐角"><a href="#不必要的拐角" class="headerlink" title="不必要的拐角"></a>不必要的拐角</h3><p>之前简单的解释过（第一节），这里再进一步讲一下。</p>
-<p>这种不必要的拐角，通常出现在手绘线条时。你可以手工去清理，也可以打开铅笔工具的“像素完美”（<code>pixel perfect</code>）功能来避免这些。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88tzipj309w05c741.jpg"></p>
-<p>这个算法在画单像素线条时非常有用，不过不总是完美的，你还是应该知道如何手工去清理。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8cjbhrj30a205p0jc.jpg"></p>
-<p>查找模式很简单：每当你看到一个拐角（<code>3</code> 或 <code>4</code> 个像素组成的方形），思考一下这里是否应当是个拐角。如果这部分不是拐角，就去掉一个像素让他更圆。</p>
-<p>注意这跟锯齿是不同的，我在之前的章节（第二节）解释过锯齿，以及如何处理他们。修复拐角可能会创造出很多锯齿，所以通常这会是个多步过程：<code>绘制</code> &gt; <code>修复拐角</code> &gt; <code>修复锯齿</code>。</p>
-<h3 id="方形线"><a href="#方形线" class="headerlink" title="方形线"></a>方形线</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102237778.png"></p>
-<p>单像素线条问题还有一种更风格化的解决办法。你可以到处加拐角，而不是尝试去移除他们。听起来没道理，但确实是种风格化的选择，很有趣，适合高度风格化的作品，因为它模拟了一种更粗的线条。</p>
-<p>处理过程基本一样，只是你需要找到每个对角链接的像素，把它变方，而不是去删掉拐角。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8a5yvaj309w05m0i1.jpg"></p>
-<p>注意这样做也会产生很多锯齿，别忘了处理他们。</p>
-<h3 id="Colored-lines-有色线条"><a href="#Colored-lines-有色线条" class="headerlink" title="Colored lines 有色线条"></a>Colored lines 有色线条</h3><p>有些时候，尤其是在较低分辨率，线条会吸引过多的注意。有个弱化这种效果的方法是，给线条添加临近颜色的深色版本。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102250162.png"></p>
-<p>过程很简单，回顾每条你画的线条，试着修改成临近颜色的深色版本。当你这么做之后，所选的颜色会让相应的区域显得变大了，所以线条的位置可能需要调整。有时候你可能不确定选哪个临近的颜色，有时候可能很容易确定。当你不确定的时候，就选更深的颜色。</p>
-<p>我依然喜欢保留最外层的黑色描边，看分辨率合适的话我甚至会加倍这个外层描边。但这只是我个人的选择，你可以自己考虑。</p>
-<h3 id="线条草图"><a href="#线条草图" class="headerlink" title="线条草图"></a>线条草图</h3><p>之前我们学过像素簇草图的画法，这次来试点别的。这种方法很适合于画角色以及画动画帧，因为画起来很快，而且聚焦于形状，而不是光和色（像像素簇草图那样）。</p>
-<p>我们来做个实际案例学习，把这节提到的都应用上。如果你想要跟着做，建议新建 64*64 分辨率的画布，用 AAP-64 调色板。</p>
-<p><strong>Step 1  — 草图</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv87ygl3j30fh078mwx.jpg"></p>
-<p>第一步先忽略各种像素画的规则，尽可能流畅的勾勒出形状。基本上跟在纸上或者其他数字化的，非像素的媒介一样。不要过多考虑之后如何清理线条。完成后可以稍作整理，去除明显的标志线，定义一些形状。</p>
-<p><strong>Step 2  — 线条清理</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvbdn60dj307j0770sh.jpg"></p>
-<p>现在开始做清理。把草图层设置成半透明，可以 右键 点击图层名称，选择属性，再调低透明度。现在可以在上面的图层去画。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8ao6foj30c007zq2q.jpg"></p>
-<p>这里的思路是画出最终的线条图。先聚焦在重点线条上，比如构成角色剪影和脸部的线条。先不要关心颜色和光影，如果想画的话可以画一点主阴影，重点还是把主要形状弄对。</p>
-<p><strong>Step 3  —  底色</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102322791.png"></p>
-<p>很简单的一步，找到符合需求的颜色，用油漆桶填充进去。避免过于饱和和过亮的颜色。还不到画光影的时候，但是要考虑好画面应该如何被照亮，有些区域会被周围的颜色影响。</p>
-<p><strong>Step 4  —  光影</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88aqv3j307p077gld.jpg"></p>
-<p>开始给画添加光影，添加明暗区域。试着想象光会如何照射到你画的物体上，相应的渲染。这一步找个参考图是个很好的办法。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvaibzjbj309z07h742.jpg"></p>
-<p>我喜欢在这一步通过给弧线加上较深的颜色，来尽量弱化黑色的描边，就好像是做抗锯齿。不过别做太过，不然线条看起来会模糊。</p>
-<p>这一步可以调整线条，但重点是光影。</p>
-<p><strong>Step 5  —  线条上色和抗锯齿</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8c2gduj307p07agld.jpg"></p>
-<p>之前提到过，过多的黑色描边可能会分散注意力。通过上色来弱化他们是个不错的方法。只要找到周围最近，最深的颜色，并把描边改成这个色的更深版本就行。</p>
-<p>如果这个描边是用来分隔明显的区域，比如脖子和脸颊，衣领和头发，你可以画很深色，甚至保留黑色。这也是为什么我喜欢保持黑色的角色外层描边。弱化的过渡一般用亮一点的线，比如鼻子的线条。</p>
-<p><strong>Step 6  — 打磨细节</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvb2fvmtj307t076t8h.jpg"></p>
-<p>最后这步你需要确定所有线条都做过抗锯齿，所有阴影过渡都合理的软化过（或者没有！如果是硬过渡的话。），并添加上所有细节。</p>
-<p>添加背光，小的高亮，反射区域。因为所有东西都就位了，你可以衡量想要在画面添加多少细节。不要做得太过，注意别加入过多噪点。</p>
-<p>这就完成了！多去练习，并试着把前几节的概念也融入进来。</p>
-<p>Good luck!</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxvnuszj30u008c74z.jpg"></p>
+<p>系列第 5 节。</p>
+<p>这节稍微复杂点，可能比其他的几篇更进阶点。</p>
+<p>如果不能一下看懂也没关系，很多都是我的个人观点，而且抗锯齿和色带问题在像素画社区里观点很多。</p>
+<p>开始我不会讲软件，而是重点讲解这些概念，在接下来部分我会推荐一些练习。</p>
+<h3 id="什么是锯齿，为什么大家不喜欢"><a href="#什么是锯齿，为什么大家不喜欢" class="headerlink" title="什么是锯齿，为什么大家不喜欢"></a>什么是锯齿，为什么大家不喜欢</h3><p>在像素画里的 anti-alias 的 alias 我们一般说的是锯齿，或者说台阶效果。一种在低分辨下很容易注意到的效果。这个效果本身没有好坏，有时甚至是某种故意追求的风格，但有时候也会让画面很难看懂。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxu5ffrj30dp07fjr5.jpg"></p>
+<p>上面的例子里能看到，第一个图有很多尖锐的边，尤其是火焰周围。有些区域甚至很难理解在发生什么。</p>
+<p>这是因为像素画是事物的低分辨率表现。如果你这样想，就可以区分出“有意的线”和实际像素。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxs0u51j30fi07kwe9.jpg"></p>
+<p>基本上整个像素画流程就包括了把线转化到低分辨率画布上，并<strong>决定哪些像素要填充</strong>。有些像素明显在线的范围内，所以要填充。有些明显在外面，就不用填充。问题是那些刚刚贴到线上或者一半在线上的，才是问题所在。抗锯齿就是用中间色来填充这些像素，来创造一种柔和过渡的错觉。</p>
+<h3 id="如何画抗锯齿"><a href="#如何画抗锯齿" class="headerlink" title="如何画抗锯齿"></a>如何画抗锯齿</h3><p>简单讲: 有时候画的线不能完全符合像素网格，就需要使用中间色来让它看起来好点。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxst7nsj306a09r741.jpg"></p>
+<p>这个问题没有单一的解决方法，你可以用多种方法表现“想要的线”，取决于你的分辨率，画风，以及可用的颜色有多少。</p>
+<p>使用中间混合颜色的像素，在远处看算是半个像素。你可以利用这个来把边角软化一点。</p>
+<p>一个画反锯齿的好方法是搜索任何比 <code>1-1</code> 长的台阶图案：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxyf0g9j30rp04j0qh.jpg"></p>
+<p>找到 <code>2</code> 个像素或者更长的台阶之后，可以开始柔化他们，通过在台阶末尾添加半色的像素。要添加的像素数量取决于台阶的长度，以及可用的颜色。有时候这样会让物体扩张太多，这样的话你可以用半色的像素替代一个（有时更多）原来图案里的像素。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxsa2xaj30rg04c0jq.jpg"></p>
+<p>改变颜色或者饱和度影响不大，只要你是正确的在插值颜色的亮度。这在使用非常小的调色盘时很有用。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxuo4saj30ak0aiq2p.jpg"></p>
+<p>在简单的斜坡上画这些就已经很复杂了，在真正的画上面复杂度更是几何级增加。小的画布上画抗锯齿会影响到其他东西，带来很多副作用。我们讲几个常见的。</p>
+<p><strong>太多抗锯齿</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxv3quwj30f00e7jr5.jpg"></p>
+<p>最常见的问题就是过度的做抗锯齿，导致所有东西都很模糊。通过使用更少的半色，更少的台阶，以及不要在 <code>45</code> 度的线（<code>1-1</code> 的台阶）或者直线上用抗锯齿，来避免这种情况。</p>
+<p><strong>抗锯齿太短</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxtkq1xj30oa0ae3yd.jpg"></p>
+<p>这是不太常见的情况，而且可能是有意为之，尤其是在受限的调色盘上，不过有时候抗锯齿的半色像素比台阶本身的长度短太多。记住一个长的台阶应该有个相对长的抗锯齿半色条纹。</p>
+<p><strong>半色亮度错误</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxwdze1j30gl0gn742.jpg"></p>
+<p>之前也提到了，半色可以用不同的颜色，只要亮度感觉是两种要混合颜色的桥梁就可以。这里出的问题就是没有考虑这一点，相对于背景把半色画的太暗，或者太亮。</p>
+<p>有时候，当背景比物体还亮，这可以用来模拟阴影，也算是有用。但记住这种情况下其实是在画明暗而不是画抗锯齿。</p>
+<p><strong>色带</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuxx4ggpj30cu0bi0ni.jpg"></p>
+<p>色带问题是当我们画了几个颜色完全不同的色带时出现的。这通常是个问题，会让物体看起来很平，有时候模糊。</p>
+<p>在这个球体的例子里，我把色带压缩到很小的区域。我把这种方法称为色带压缩，之前的阴影教程了也提到了。</p>
+<p>斜坡上就没办法这么压缩了。所以我旋转了渐变的方向。这也可以画出不错的抗锯齿，原来的是方向画错了，导致的色带问题。要总是注意这点，水平的斜坡应该加水平的抗锯齿，垂直的斜坡加垂直的抗锯齿。</p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在我建议你去实际的试试我这里讲的东西。你可以先从简单的 <code>2-1</code> 黑色斜坡开始，再试试圆圈。保持低颜色数，画布不要超过 <code>48</code> 乘 <code>48</code>。</p>
+<p>在这之后，你可以试试更多颜色，真实的画些东西。还是从简单的开始，像是球体，苹果，之后再到复杂的形状，比如人。</p>
+<p>总是注意画面里画出的色带，或者可以改进的抗锯齿。记住每个像素都是个抉择，每个像素都应该让你的画更好，画的更可读。如果抗锯齿带来的效果弊大于利，就去掉它。</p>
 ]]></content>
       <categories>
         <category>开始画像素画 (Making Pixel Art)</category>
@@ -6531,6 +6457,188 @@
       </tags>
   </entry>
   <entry>
+    <title>开始画像素画#7</title>
+    <url>/archives/7559aa07.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zm7aw4aj31hc0u0jv1.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8bd0hfj30u008c74z.jpg"></p>
+<p>系列第 7 篇。</p>
+<h3 id="什么是线条"><a href="#什么是线条" class="headerlink" title="什么是线条"></a>什么是线条</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv89ju74j30ei0d812e.jpg"></p>
+<p>线条是艺术领域最重要的工具之一。他们可以用来强调形状，对比。现实世界里我们看不到线条，但他们能帮助我们分隔空间，创造纹理，表现体积和方向。</p>
+<p>在像素美术中，屏幕上的空间非常受限。每个像素都很重要，绘制线条就变得很昂贵。因此，如果你在画非常低像素作品，不推荐使用线条。即使有一些富裕的空间，还是要谨慎的使用线条，试着不使用线条去完成。最少化线条的使用，是保持像素画整洁的好办法。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640.png"></p>
+<p>不必要的线可以用阴影或者高对比区域代替。将线条与暗影部分融合能让画面显得更统一，自然。</p>
+<h3 id="不必要的拐角"><a href="#不必要的拐角" class="headerlink" title="不必要的拐角"></a>不必要的拐角</h3><p>之前简单的解释过（第一节），这里再进一步讲一下。</p>
+<p>这种不必要的拐角，通常出现在手绘线条时。你可以手工去清理，也可以打开铅笔工具的“像素完美”（<code>pixel perfect</code>）功能来避免这些。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88tzipj309w05c741.jpg"></p>
+<p>这个算法在画单像素线条时非常有用，不过不总是完美的，你还是应该知道如何手工去清理。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8cjbhrj30a205p0jc.jpg"></p>
+<p>查找模式很简单：每当你看到一个拐角（<code>3</code> 或 <code>4</code> 个像素组成的方形），思考一下这里是否应当是个拐角。如果这部分不是拐角，就去掉一个像素让他更圆。</p>
+<p>注意这跟锯齿是不同的，我在之前的章节（第二节）解释过锯齿，以及如何处理他们。修复拐角可能会创造出很多锯齿，所以通常这会是个多步过程：<code>绘制</code> &gt; <code>修复拐角</code> &gt; <code>修复锯齿</code>。</p>
+<h3 id="方形线"><a href="#方形线" class="headerlink" title="方形线"></a>方形线</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102237778.png"></p>
+<p>单像素线条问题还有一种更风格化的解决办法。你可以到处加拐角，而不是尝试去移除他们。听起来没道理，但确实是种风格化的选择，很有趣，适合高度风格化的作品，因为它模拟了一种更粗的线条。</p>
+<p>处理过程基本一样，只是你需要找到每个对角链接的像素，把它变方，而不是去删掉拐角。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8a5yvaj309w05m0i1.jpg"></p>
+<p>注意这样做也会产生很多锯齿，别忘了处理他们。</p>
+<h3 id="Colored-lines-有色线条"><a href="#Colored-lines-有色线条" class="headerlink" title="Colored lines 有色线条"></a>Colored lines 有色线条</h3><p>有些时候，尤其是在较低分辨率，线条会吸引过多的注意。有个弱化这种效果的方法是，给线条添加临近颜色的深色版本。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102250162.png"></p>
+<p>过程很简单，回顾每条你画的线条，试着修改成临近颜色的深色版本。当你这么做之后，所选的颜色会让相应的区域显得变大了，所以线条的位置可能需要调整。有时候你可能不确定选哪个临近的颜色，有时候可能很容易确定。当你不确定的时候，就选更深的颜色。</p>
+<p>我依然喜欢保留最外层的黑色描边，看分辨率合适的话我甚至会加倍这个外层描边。但这只是我个人的选择，你可以自己考虑。</p>
+<h3 id="线条草图"><a href="#线条草图" class="headerlink" title="线条草图"></a>线条草图</h3><p>之前我们学过像素簇草图的画法，这次来试点别的。这种方法很适合于画角色以及画动画帧，因为画起来很快，而且聚焦于形状，而不是光和色（像像素簇草图那样）。</p>
+<p>我们来做个实际案例学习，把这节提到的都应用上。如果你想要跟着做，建议新建 64*64 分辨率的画布，用 AAP-64 调色板。</p>
+<p><strong>Step 1  — 草图</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv87ygl3j30fh078mwx.jpg"></p>
+<p>第一步先忽略各种像素画的规则，尽可能流畅的勾勒出形状。基本上跟在纸上或者其他数字化的，非像素的媒介一样。不要过多考虑之后如何清理线条。完成后可以稍作整理，去除明显的标志线，定义一些形状。</p>
+<p><strong>Step 2  — 线条清理</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvbdn60dj307j0770sh.jpg"></p>
+<p>现在开始做清理。把草图层设置成半透明，可以 右键 点击图层名称，选择属性，再调低透明度。现在可以在上面的图层去画。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8ao6foj30c007zq2q.jpg"></p>
+<p>这里的思路是画出最终的线条图。先聚焦在重点线条上，比如构成角色剪影和脸部的线条。先不要关心颜色和光影，如果想画的话可以画一点主阴影，重点还是把主要形状弄对。</p>
+<p><strong>Step 3  —  底色</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102322791.png"></p>
+<p>很简单的一步，找到符合需求的颜色，用油漆桶填充进去。避免过于饱和和过亮的颜色。还不到画光影的时候，但是要考虑好画面应该如何被照亮，有些区域会被周围的颜色影响。</p>
+<p><strong>Step 4  —  光影</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88aqv3j307p077gld.jpg"></p>
+<p>开始给画添加光影，添加明暗区域。试着想象光会如何照射到你画的物体上，相应的渲染。这一步找个参考图是个很好的办法。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvaibzjbj309z07h742.jpg"></p>
+<p>我喜欢在这一步通过给弧线加上较深的颜色，来尽量弱化黑色的描边，就好像是做抗锯齿。不过别做太过，不然线条看起来会模糊。</p>
+<p>这一步可以调整线条，但重点是光影。</p>
+<p><strong>Step 5  —  线条上色和抗锯齿</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8c2gduj307p07agld.jpg"></p>
+<p>之前提到过，过多的黑色描边可能会分散注意力。通过上色来弱化他们是个不错的方法。只要找到周围最近，最深的颜色，并把描边改成这个色的更深版本就行。</p>
+<p>如果这个描边是用来分隔明显的区域，比如脖子和脸颊，衣领和头发，你可以画很深色，甚至保留黑色。这也是为什么我喜欢保持黑色的角色外层描边。弱化的过渡一般用亮一点的线，比如鼻子的线条。</p>
+<p><strong>Step 6  — 打磨细节</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvb2fvmtj307t076t8h.jpg"></p>
+<p>最后这步你需要确定所有线条都做过抗锯齿，所有阴影过渡都合理的软化过（或者没有！如果是硬过渡的话。），并添加上所有细节。</p>
+<p>添加背光，小的高亮，反射区域。因为所有东西都就位了，你可以衡量想要在画面添加多少细节。不要做得太过，注意别加入过多噪点。</p>
+<p>这就完成了！多去练习，并试着把前几节的概念也融入进来。</p>
+<p>Good luck!</p>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开始画像素画#8</title>
+    <url>/archives/e5e6b796.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zn1bbuvj31hc0u0423.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解文件格式和导出方法。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdd9dpvj30u008c74z.jpg"></p>
+<p>这个是系列的第 8 节。这篇技术细节比较多，可以跳过你不感兴趣的部分。</p>
+<p>本节主要是文件格式和导出方法。</p>
+<h3 id="Bitmap-and-vector-位图和矢量图"><a href="#Bitmap-and-vector-位图和矢量图" class="headerlink" title="Bitmap and vector 位图和矢量图"></a>Bitmap and vector 位图和矢量图</h3><p>我们先来讲讲图片在电脑上是如何保存的。简单来说，有两种 2d 的图像文件类型，位图和矢量图。</p>
+<p>矢量图是点、线坐标，以及颜色信息的集合，可以用来创作能缩放到任意分辨率的图像。它主要的缺点在于难以用在表现细节的图像上，像是照片，你几乎无法在像素级别进行控制。尽管我们能创建出看起来像是像素画的矢量图，或者把像素画导出成矢量图格式，但几乎没人这么做。也有些例外情况，比如说要把像素画打印到很大的板子上。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">circle</span> <span class="attr">cx</span>=<span class="string">&quot;50&quot;</span> <span class="attr">cy</span>=<span class="string">&quot;50&quot;</span> <span class="attr">r</span>=<span class="string">&quot;40&quot;</span> <span class="attr">stroke</span>=<span class="string">&quot;black&quot;</span> <span class="attr">stroke-width</span>=<span class="string">&quot;3&quot;</span> <span class="attr">fill</span>=<span class="string">&quot;red&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdbgy43j30330310pw-20210210102433869.jpg"></p>
+<p>而位图图像，才是像素画能够存在的原因。位图把图像想象成很大的网格，打印在屏幕上，每个像素都单独存储。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdh3fwmj30jn0770s1-20210210102439241.jpg"></p>
+<p>这样保存的文件有时候比较大。一个 <code>1080*1920</code> 的图，意味着包含了 <code>2.073.600</code> 个独立像素需要保存，所以有时候需要用高效算法来压缩一下。</p>
+<h3 id="Image-compression-图像压缩"><a href="#Image-compression-图像压缩" class="headerlink" title="Image compression 图像压缩"></a>Image compression 图像压缩</h3><p>图像压缩是为了减小图像文件的体积，但是依据使用算法的不同，有些算法可能会损坏原数据。</p>
+<p>压缩可以是有损或者无损的。有损压缩一般对于照片或者大幅插画是可以接受的，但是像素画就不可以。用 JPG 格式保存像素画会造成随机的颜色变化，图形虚影。在压缩像素画时，我们必须检查是否用的是无损压缩，比如 PNG 格式。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdcrltyj30en07lmx2.jpg"></p>
+<p>总的来说，你的编辑器提供的图像格式，比如 Aseprite 的.aseprite 格式，或者 GraphicGale 的.gal 格式，可以安全的保存所有的图层和元数据。</p>
+<h3 id="在-Aseprite-里保存"><a href="#在-Aseprite-里保存" class="headerlink" title="在 Aseprite 里保存"></a>在 Aseprite 里保存</h3><p>在 Aseprite 里用保存对话框进行保存（Ctrl + S，或者 Ctrl + Shift + S 做另存为新文件）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdgjejzj30hz0avdg0.jpg"></p>
+<p>很直观，是吧？在这里保存为 <code>.aseprite</code> 格式，保存所有文件信息，以便你以后可以回来做修改。</p>
+<h3 id="导出预览"><a href="#导出预览" class="headerlink" title="导出预览"></a>导出预览</h3><p>在完成了你的精灵图之后，你可能想要发布到什么地方，或者发给谁，但如果直接保存成 <code>.png</code> 文件，会有两个不好的地方：第一，你的图像会保存成一个扁平的文件，就是说失去了图层和元数据，第二，你的 <code>png</code> 文件可能会长这样：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvf351jhj30180180bx.jpg"></p>
+<p>导出做预览的正确方式是用导出对话框，在“文件 -&gt; 导出”（<code>File</code> -&gt;<code> Export</code>）菜单</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdidzz7j30b809ua9u.jpg"></p>
+<p>这个对话框里有非常多有用的选项，我们一个个看一下：</p>
+<p><strong>Output File 输出文件</strong>：文件名。如果你直接输入想使用的文件格式，Aseprite 就可以保存为这个格式。推荐静态的图用“<code>.png</code>”，动画用“<code>.gif</code>”。</p>
+<p>这里不会把保存命令的默认格式也改掉，所以不用担心这里选择的格式以后会把所有东西都拍扁。</p>
+<p><strong>Resize 缩放</strong>：像素画对于目前的显示器来说通常都太小，所以需要缩放。Aseprite 提供了很多的分辨率供你选择。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdixafaj30ft0760oy.jpg"></p>
+<p>你可能注意到了，只能缩放成 <code>100%</code> 的整数倍，不能有小数，比如 <code>250%</code>。这是因为非整数倍的缩放会损坏像素画。这是个像素画的严重缺陷，并且没有什么办法能避免。记住缩放一定要用整数倍（<code>200%</code>，<code>300%</code> 等），不要用非整数倍（<code>130%</code>，<code>250%</code> 等等）。</p>
+<p>如果你一定要满足某个大小，试着缩放到最接近的最小的倍数，然后把画布延伸到你需要的尺寸。</p>
+<p>通常放大 <code>200%</code> 或者 <code>300%</code> 发布到网上足够了。</p>
+<p><strong>Layers 图层：</strong>当你导出文件时，他会被拍扁，就是失去所有图层信息。这个选项可以让你选择导出时需要包含哪个图层。</p>
+<p><strong>Frames 帧：</strong>后面会详细讲，这里就是指要导出哪些帧。如果你有不止一帧，那么会发生两件事：</p>
+<ul>
+<li>如果导出格式支持动画，比如 <code>gif</code>，那么就会导出动画到这个文件。</li>
+<li>如果导出格式不支持动画，比如 <code>png</code>，那么 Aseprite 就会保存到多个文件，每帧一个。<br>（编辑注：现在 <code>APNG</code> 动画格式其实也已经得到了广泛支持）</li>
+</ul>
+<p><strong>Animation direction 动画方向：</strong>这里可以看到常用的方向，比如向前，向后等等，选最适合你的。这里的含义很直观，你也可以自己试试。</p>
+<p><strong>Apply pixel ratio 应用像素比例：</strong>这个不常用，如果你用的不是方形像素，选这个会把它压扁成方形。如果不确定这个是什么也没关系，他不会改变什么东西。</p>
+<p><strong>Export for Twitter 导出到 twitter：</strong>勾选后会让最后一帧动画持续时间整个动画的一半长度，完美适合 twitter MP4 循环。</p>
+<h3 id="Saving-for-the-engine-保存给引擎"><a href="#Saving-for-the-engine-保存给引擎" class="headerlink" title="Saving for the engine 保存给引擎"></a>Saving for the engine 保存给引擎</h3><p>游戏引擎各不相同，每个都需要你做特定处理，不过这里是一些通用的原则：</p>
+<ul>
+<li>首先是文件格式：尽管有些引擎支持 <code>tiff</code>，<code>gif</code>，甚至是 <code>bmp</code>，最好还是用 <code>png</code>。轻量，解压相对迅速，透明支持的很好。别用 <code>jpg</code>，<code>mp4</code>，或者其他的有损压缩格式。</li>
+<li>除非你有什么原因，否则不要在导出给游戏引擎时对像素画做缩放。正常情况下精灵应该是由引擎来做缩放，所有文件都应该保持原有分辨率。</li>
+<li>动画应该保存成图片序列，或者精灵表（sprite sheet）。不要用任何的视频格式，除非你在做什么特别的。</li>
+</ul>
+<h3 id="Saving-an-image-sequence-保存图片序列"><a href="#Saving-an-image-sequence-保存图片序列" class="headerlink" title="Saving an image sequence 保存图片序列"></a>Saving an image sequence 保存图片序列</h3><p>当把动画保存为 <code>png</code> 时，Aseprite 会创建一个图片序列，看起来这样:</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdbuf77j30ep045dfm.jpg"></p>
+<p>一般这就行了，不过我喜欢文件名从 <code>0</code> 开始，而且我喜欢两位数字。这个很容易实现：在文件名这，只要输入文件名后面加上”<code>00</code>“。这里我把文件名写为 <code>alert00.png</code>，结果是这样：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdhjw9lj30fs023gld.jpg"></p>
+<p>另外一个有用的技巧是加多个标签。在 Aseprite 里，你可以选择多组帧加上标签。这样一个文件里可以保存多个动画。像这样：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvddrdl3j30kj03i3ya.jpg"></p>
+<p>这有助于整理，导出也很方便，只要输入 <code>boss_&#123;tag&#125;&#123;tagframe00&#125;.png</code>，aseeprite 会这样导出：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdccrpkj30j10dijsi.jpg"></p>
+<p>很方便吧？如果你想多几个或少几个 <code>0</code>，可以把 <code>&#123;tagframe00&#125;</code> 改成 <code>&#123;tagframe000&#125;</code> 或者直接 <code>&#123;tagframe&#125;</code>。</p>
+<h3 id="保存精灵表-sprite-sheet"><a href="#保存精灵表-sprite-sheet" class="headerlink" title="保存精灵表 sprite sheet"></a>保存精灵表 sprite sheet</h3><p>有些游戏引擎推荐用精灵表，而不是多张图片，我们可以用“文件&gt;导出精灵表”（<code>File</code> &gt; <code>Export Sprite Sheet</code>）命令自动导出。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdec521j30m10e3a9x.jpg"></p>
+<p>这里我们有多个选项，可以根据所用的引擎做调整。有些需要在精灵之间添加边距，提供 <code>JSON</code> 描述信息，其他的可能支持去除透明部分。<code>Extrude</code> 拉伸可以让所有瓦片的边界颜色向外延伸一个像素，避免 3D 瓦片的接缝，如果你用的是 3D 引擎的话。不确定就什么都不选就好。</p>
+<p>对于行和列的数量设置，如果引擎没有特殊要求，我建议选择“最适合纹理的尺寸”（<code>Best fit for texture</code>），让 Aseprite 自动计算尺寸。</p>
+<p>这里需要注意的是，不勾选“<code>Output file</code>”并提供文件名时，点击导出不会生成文件的。你也可以选择“<code>Open generated sprite sheet</code>”，这会打开一个新文件，你可以手工保存。</p>
+<h3 id="切割工具和命令行"><a href="#切割工具和命令行" class="headerlink" title="切割工具和命令行"></a>切割工具和命令行</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdi043kj309m06wjr5.jpg"></p>
+<p>最后一个技巧时用切割工具 slice。切割工具适合于把多个图放在同一个画布的时候。我喜欢在给游戏场景制作素材时用这个，我可以把素材放在旁边随时比对尺寸。</p>
+<p>首先要把精灵放到一个文件，挨着。别互相重叠到一个矩形区域就好。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdepvv0j30gg0cx749.jpg"></p>
+<p>接着选择切割工具，开始在每个物体上做选取，注意不要把其他物体的部分包括进来。之后你可以双击其中一个，或者右键点击查看属性，给它命名。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdfbb6uj30u00cg0vg.jpg"></p>
+<p>现在，用命令行！如果你主要做美术，这部分听起来可能有点吓人，但我保证，只要简单了解并设置好之后，这能够自动处理很多枯燥的导出工作。</p>
+<p>首先你需要把 Aseprite 添加到环境变量里，如果你不清楚这个，可以看看这个教程<a href="https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables">https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables</a> （百度什么的搜一下设置环境变量）。把 <code>Aseprite.exe</code> 加入到环境变量里。</p>
+<p>现在，保存好 Aseprite 文件，在同一个文件夹打开命令行工具。如果不知道怎么做的话，在 windows 下，Shift + 右键，选择在当前位置打开命令行。</p>
+<p>接着是有意思的地方了，用到的命令！直接输入下面这个，把 <code>myFile</code> 替换成你的文件名，按回车：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Aseprite.exe -b &#39;.\myFile.aseprite&#39; --save-as &#39;&#123;slice&#125;.png&#39;</span><br></pre></td></tr></table></figure>
+<p>我们分解一下这个的含义：</p>
+<ul>
+<li><code>Aseprite.exe</code> 用来启动 Aseprite</li>
+<li><code>-b</code> 表示我们是在批处理模式。不加这个的话 Aseprite 就打开了，我们不需要。</li>
+<li><code>‘.\myFile.aseprite’</code> 是需要处理的文件名和拓展名。这个是相对于当前路径的。</li>
+<li><code>--save-as</code> 是保存选中文件的命令，它也会根据你给的文件名里带的标签去格式化文件名。</li>
+<li><code>&#39;&#123;slice&#125;.png&#39;</code> 是导出文件名, <code>&#123;slice&#125;</code> 是个标签，它表示文件名会用切割的名称并切割出来。</li>
+</ul>
+<p>如果想了解更多命令行信息，Aseprite 有个不错的使用教程可以看看：</p>
+<p><a href="https://www.aseprite.org/docs/cli/#filename-format">https://www.aseprite.org/docs/cli/#filename-format</a></p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在你了解到如何正确的保存像素画了！当有不确定的地方时，参考以下几点：</p>
+<ul>
+<li>永远用整数倍缩放，不用小数，不缩小。</li>
+<li>Aseprite 可以自动保存出图片序列。</li>
+<li>别用 <code>jpg</code> 和 <code>mp4</code>，以及其他的有损压缩图像格式。</li>
+<li>不确定时，就用 <code>png</code>，别缩放。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>操作系统概述</title>
     <url>/archives/33c82dd4.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gky8z6eslsg312w0lwhdu.gif"></p>
@@ -6575,57 +6683,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#x79;&#x6f;&#110;&#x67;&#x40;&#x74;&#x73;&#x69;&#x6e;&#x67;&#x68;&#117;&#x61;&#x2e;&#x65;&#100;&#117;&#x2e;&#99;&#110;">&#120;&#x79;&#x6f;&#110;&#x67;&#x40;&#x74;&#x73;&#x69;&#x6e;&#x67;&#x68;&#117;&#x61;&#x2e;&#x65;&#100;&#117;&#x2e;&#99;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#x79;&#x6f;&#110;&#x67;&#64;&#116;&#115;&#x69;&#x6e;&#103;&#x68;&#117;&#97;&#x2e;&#x65;&#x64;&#x75;&#46;&#99;&#110;">&#x78;&#x79;&#x6f;&#110;&#x67;&#64;&#116;&#115;&#x69;&#x6e;&#103;&#x68;&#117;&#97;&#x2e;&#x65;&#x64;&#x75;&#46;&#99;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#117;&#99;&#x68;&#101;&#110;&#x40;&#109;&#97;&#x69;&#x6c;&#46;&#x74;&#115;&#105;&#110;&#103;&#104;&#117;&#x61;&#x2e;&#101;&#100;&#117;&#x2e;&#99;&#110;">&#x79;&#117;&#99;&#x68;&#101;&#110;&#x40;&#109;&#97;&#x69;&#x6c;&#46;&#x74;&#115;&#105;&#110;&#103;&#104;&#117;&#x61;&#x2e;&#101;&#100;&#117;&#x2e;&#99;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#117;&#99;&#x68;&#101;&#110;&#x40;&#109;&#97;&#x69;&#x6c;&#46;&#x74;&#115;&#x69;&#x6e;&#103;&#x68;&#117;&#97;&#x2e;&#x65;&#100;&#x75;&#46;&#99;&#110;">&#x79;&#117;&#99;&#x68;&#101;&#110;&#x40;&#109;&#97;&#x69;&#x6c;&#46;&#x74;&#115;&#x69;&#x6e;&#103;&#x68;&#117;&#97;&#x2e;&#x65;&#100;&#x75;&#46;&#99;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#x74;&#x65;&#114;&#x6e;&#97;&#x6c;&#46;&#110;&#x30;&#x38;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x65;&#x74;&#x65;&#114;&#x6e;&#97;&#x6c;&#46;&#110;&#x30;&#x38;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#116;&#101;&#x72;&#x6e;&#x61;&#108;&#46;&#x6e;&#x30;&#56;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">&#101;&#116;&#101;&#x72;&#x6e;&#x61;&#108;&#46;&#x6e;&#x30;&#56;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#98;&#x6a;&#x65;&#x63;&#x74;&#x6b;&#117;&#97;&#x6e;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x6f;&#98;&#x6a;&#x65;&#x63;&#x74;&#x6b;&#117;&#97;&#x6e;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x6f;&#x62;&#x6a;&#101;&#x63;&#116;&#x6b;&#x75;&#x61;&#110;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x6f;&#x62;&#x6a;&#101;&#x63;&#116;&#x6b;&#x75;&#x61;&#110;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#x72;&#x64;&#x66;&#114;&#97;&#110;&#107;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x63;&#x72;&#x64;&#x66;&#114;&#97;&#110;&#107;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x63;&#x72;&#x64;&#102;&#114;&#97;&#110;&#107;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;">&#x63;&#x72;&#x64;&#102;&#114;&#97;&#110;&#107;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#x61;&#99;&#x63;&#x6f;&#x72;&#97;&#119;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#116;&#x61;&#99;&#x63;&#x6f;&#x72;&#97;&#119;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#116;&#97;&#99;&#99;&#111;&#x72;&#x61;&#119;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">&#116;&#97;&#99;&#99;&#111;&#x72;&#x61;&#119;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#105;&#x6e;&#x79;&#x75;&#110;&#120;&#105;&#110;&#x67;&#x30;&#48;&#x30;&#49;&#x40;&#x31;&#x36;&#x33;&#46;&#99;&#111;&#x6d;">&#x78;&#105;&#x6e;&#x79;&#x75;&#110;&#120;&#105;&#110;&#x67;&#x30;&#48;&#x30;&#49;&#x40;&#x31;&#x36;&#x33;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x78;&#105;&#110;&#121;&#x75;&#x6e;&#120;&#105;&#x6e;&#x67;&#x30;&#48;&#x30;&#x31;&#x40;&#x31;&#x36;&#51;&#x2e;&#99;&#111;&#x6d;">&#x78;&#105;&#110;&#121;&#x75;&#x6e;&#120;&#105;&#x6e;&#x67;&#x30;&#48;&#x30;&#x31;&#x40;&#x31;&#x36;&#51;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#x6e;&#x6f;&#x63;&#117;&#105;&#108;&#64;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#x67;&#x6e;&#x6f;&#x63;&#117;&#105;&#108;&#64;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#110;&#x6f;&#x63;&#117;&#x69;&#108;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#x67;&#110;&#x6f;&#x63;&#117;&#x69;&#108;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#x79;&#x61;&#105;&#x72;&#x69;&#x61;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x6d;&#x79;&#x61;&#105;&#x72;&#x69;&#x61;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x6d;&#121;&#97;&#105;&#x72;&#x69;&#x61;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#x6d;&#121;&#97;&#105;&#x72;&#x69;&#x61;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#x68;&#x61;&#110;&#x67;&#x72;&#97;&#105;&#110;&#57;&#x31;&#49;&#64;&#x31;&#x36;&#x33;&#46;&#x63;&#x6f;&#109;">&#122;&#x68;&#x61;&#110;&#x67;&#x72;&#97;&#105;&#110;&#57;&#x31;&#49;&#64;&#x31;&#x36;&#x33;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x7a;&#104;&#x61;&#x6e;&#x67;&#114;&#x61;&#105;&#110;&#x39;&#49;&#x31;&#x40;&#x31;&#x36;&#51;&#46;&#x63;&#x6f;&#x6d;">&#x7a;&#104;&#x61;&#x6e;&#x67;&#114;&#x61;&#105;&#110;&#x39;&#49;&#x31;&#x40;&#x31;&#x36;&#51;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#103;&#x78;&#120;&#x31;&#x32;&#48;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#103;&#x78;&#120;&#x31;&#x32;&#48;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#x67;&#120;&#x78;&#49;&#x32;&#x30;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#103;&#x67;&#120;&#x78;&#49;&#x32;&#x30;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -6808,114 +6916,6 @@
       <tags>
         <tag>Mooc</tag>
         <tag>OS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开始画像素画#8</title>
-    <url>/archives/e5e6b796.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zn1bbuvj31hc0u0423.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解文件格式和导出方法。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdd9dpvj30u008c74z.jpg"></p>
-<p>这个是系列的第 8 节。这篇技术细节比较多，可以跳过你不感兴趣的部分。</p>
-<p>本节主要是文件格式和导出方法。</p>
-<h3 id="Bitmap-and-vector-位图和矢量图"><a href="#Bitmap-and-vector-位图和矢量图" class="headerlink" title="Bitmap and vector 位图和矢量图"></a>Bitmap and vector 位图和矢量图</h3><p>我们先来讲讲图片在电脑上是如何保存的。简单来说，有两种 2d 的图像文件类型，位图和矢量图。</p>
-<p>矢量图是点、线坐标，以及颜色信息的集合，可以用来创作能缩放到任意分辨率的图像。它主要的缺点在于难以用在表现细节的图像上，像是照片，你几乎无法在像素级别进行控制。尽管我们能创建出看起来像是像素画的矢量图，或者把像素画导出成矢量图格式，但几乎没人这么做。也有些例外情况，比如说要把像素画打印到很大的板子上。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">circle</span> <span class="attr">cx</span>=<span class="string">&quot;50&quot;</span> <span class="attr">cy</span>=<span class="string">&quot;50&quot;</span> <span class="attr">r</span>=<span class="string">&quot;40&quot;</span> <span class="attr">stroke</span>=<span class="string">&quot;black&quot;</span> <span class="attr">stroke-width</span>=<span class="string">&quot;3&quot;</span> <span class="attr">fill</span>=<span class="string">&quot;red&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdbgy43j30330310pw-20210210102433869.jpg"></p>
-<p>而位图图像，才是像素画能够存在的原因。位图把图像想象成很大的网格，打印在屏幕上，每个像素都单独存储。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdh3fwmj30jn0770s1-20210210102439241.jpg"></p>
-<p>这样保存的文件有时候比较大。一个 <code>1080*1920</code> 的图，意味着包含了 <code>2.073.600</code> 个独立像素需要保存，所以有时候需要用高效算法来压缩一下。</p>
-<h3 id="Image-compression-图像压缩"><a href="#Image-compression-图像压缩" class="headerlink" title="Image compression 图像压缩"></a>Image compression 图像压缩</h3><p>图像压缩是为了减小图像文件的体积，但是依据使用算法的不同，有些算法可能会损坏原数据。</p>
-<p>压缩可以是有损或者无损的。有损压缩一般对于照片或者大幅插画是可以接受的，但是像素画就不可以。用 JPG 格式保存像素画会造成随机的颜色变化，图形虚影。在压缩像素画时，我们必须检查是否用的是无损压缩，比如 PNG 格式。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdcrltyj30en07lmx2.jpg"></p>
-<p>总的来说，你的编辑器提供的图像格式，比如 Aseprite 的.aseprite 格式，或者 GraphicGale 的.gal 格式，可以安全的保存所有的图层和元数据。</p>
-<h3 id="在-Aseprite-里保存"><a href="#在-Aseprite-里保存" class="headerlink" title="在 Aseprite 里保存"></a>在 Aseprite 里保存</h3><p>在 Aseprite 里用保存对话框进行保存（Ctrl + S，或者 Ctrl + Shift + S 做另存为新文件）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdgjejzj30hz0avdg0.jpg"></p>
-<p>很直观，是吧？在这里保存为 <code>.aseprite</code> 格式，保存所有文件信息，以便你以后可以回来做修改。</p>
-<h3 id="导出预览"><a href="#导出预览" class="headerlink" title="导出预览"></a>导出预览</h3><p>在完成了你的精灵图之后，你可能想要发布到什么地方，或者发给谁，但如果直接保存成 <code>.png</code> 文件，会有两个不好的地方：第一，你的图像会保存成一个扁平的文件，就是说失去了图层和元数据，第二，你的 <code>png</code> 文件可能会长这样：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvf351jhj30180180bx.jpg"></p>
-<p>导出做预览的正确方式是用导出对话框，在“文件 -&gt; 导出”（<code>File</code> -&gt;<code> Export</code>）菜单</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdidzz7j30b809ua9u.jpg"></p>
-<p>这个对话框里有非常多有用的选项，我们一个个看一下：</p>
-<p><strong>Output File 输出文件</strong>：文件名。如果你直接输入想使用的文件格式，Aseprite 就可以保存为这个格式。推荐静态的图用“<code>.png</code>”，动画用“<code>.gif</code>”。</p>
-<p>这里不会把保存命令的默认格式也改掉，所以不用担心这里选择的格式以后会把所有东西都拍扁。</p>
-<p><strong>Resize 缩放</strong>：像素画对于目前的显示器来说通常都太小，所以需要缩放。Aseprite 提供了很多的分辨率供你选择。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdixafaj30ft0760oy.jpg"></p>
-<p>你可能注意到了，只能缩放成 <code>100%</code> 的整数倍，不能有小数，比如 <code>250%</code>。这是因为非整数倍的缩放会损坏像素画。这是个像素画的严重缺陷，并且没有什么办法能避免。记住缩放一定要用整数倍（<code>200%</code>，<code>300%</code> 等），不要用非整数倍（<code>130%</code>，<code>250%</code> 等等）。</p>
-<p>如果你一定要满足某个大小，试着缩放到最接近的最小的倍数，然后把画布延伸到你需要的尺寸。</p>
-<p>通常放大 <code>200%</code> 或者 <code>300%</code> 发布到网上足够了。</p>
-<p><strong>Layers 图层：</strong>当你导出文件时，他会被拍扁，就是失去所有图层信息。这个选项可以让你选择导出时需要包含哪个图层。</p>
-<p><strong>Frames 帧：</strong>后面会详细讲，这里就是指要导出哪些帧。如果你有不止一帧，那么会发生两件事：</p>
-<ul>
-<li>如果导出格式支持动画，比如 <code>gif</code>，那么就会导出动画到这个文件。</li>
-<li>如果导出格式不支持动画，比如 <code>png</code>，那么 Aseprite 就会保存到多个文件，每帧一个。<br>（编辑注：现在 <code>APNG</code> 动画格式其实也已经得到了广泛支持）</li>
-</ul>
-<p><strong>Animation direction 动画方向：</strong>这里可以看到常用的方向，比如向前，向后等等，选最适合你的。这里的含义很直观，你也可以自己试试。</p>
-<p><strong>Apply pixel ratio 应用像素比例：</strong>这个不常用，如果你用的不是方形像素，选这个会把它压扁成方形。如果不确定这个是什么也没关系，他不会改变什么东西。</p>
-<p><strong>Export for Twitter 导出到 twitter：</strong>勾选后会让最后一帧动画持续时间整个动画的一半长度，完美适合 twitter MP4 循环。</p>
-<h3 id="Saving-for-the-engine-保存给引擎"><a href="#Saving-for-the-engine-保存给引擎" class="headerlink" title="Saving for the engine 保存给引擎"></a>Saving for the engine 保存给引擎</h3><p>游戏引擎各不相同，每个都需要你做特定处理，不过这里是一些通用的原则：</p>
-<ul>
-<li>首先是文件格式：尽管有些引擎支持 <code>tiff</code>，<code>gif</code>，甚至是 <code>bmp</code>，最好还是用 <code>png</code>。轻量，解压相对迅速，透明支持的很好。别用 <code>jpg</code>，<code>mp4</code>，或者其他的有损压缩格式。</li>
-<li>除非你有什么原因，否则不要在导出给游戏引擎时对像素画做缩放。正常情况下精灵应该是由引擎来做缩放，所有文件都应该保持原有分辨率。</li>
-<li>动画应该保存成图片序列，或者精灵表（sprite sheet）。不要用任何的视频格式，除非你在做什么特别的。</li>
-</ul>
-<h3 id="Saving-an-image-sequence-保存图片序列"><a href="#Saving-an-image-sequence-保存图片序列" class="headerlink" title="Saving an image sequence 保存图片序列"></a>Saving an image sequence 保存图片序列</h3><p>当把动画保存为 <code>png</code> 时，Aseprite 会创建一个图片序列，看起来这样:</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdbuf77j30ep045dfm.jpg"></p>
-<p>一般这就行了，不过我喜欢文件名从 <code>0</code> 开始，而且我喜欢两位数字。这个很容易实现：在文件名这，只要输入文件名后面加上”<code>00</code>“。这里我把文件名写为 <code>alert00.png</code>，结果是这样：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdhjw9lj30fs023gld.jpg"></p>
-<p>另外一个有用的技巧是加多个标签。在 Aseprite 里，你可以选择多组帧加上标签。这样一个文件里可以保存多个动画。像这样：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvddrdl3j30kj03i3ya.jpg"></p>
-<p>这有助于整理，导出也很方便，只要输入 <code>boss_&#123;tag&#125;&#123;tagframe00&#125;.png</code>，aseeprite 会这样导出：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdccrpkj30j10dijsi.jpg"></p>
-<p>很方便吧？如果你想多几个或少几个 <code>0</code>，可以把 <code>&#123;tagframe00&#125;</code> 改成 <code>&#123;tagframe000&#125;</code> 或者直接 <code>&#123;tagframe&#125;</code>。</p>
-<h3 id="保存精灵表-sprite-sheet"><a href="#保存精灵表-sprite-sheet" class="headerlink" title="保存精灵表 sprite sheet"></a>保存精灵表 sprite sheet</h3><p>有些游戏引擎推荐用精灵表，而不是多张图片，我们可以用“文件&gt;导出精灵表”（<code>File</code> &gt; <code>Export Sprite Sheet</code>）命令自动导出。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdec521j30m10e3a9x.jpg"></p>
-<p>这里我们有多个选项，可以根据所用的引擎做调整。有些需要在精灵之间添加边距，提供 <code>JSON</code> 描述信息，其他的可能支持去除透明部分。<code>Extrude</code> 拉伸可以让所有瓦片的边界颜色向外延伸一个像素，避免 3D 瓦片的接缝，如果你用的是 3D 引擎的话。不确定就什么都不选就好。</p>
-<p>对于行和列的数量设置，如果引擎没有特殊要求，我建议选择“最适合纹理的尺寸”（<code>Best fit for texture</code>），让 Aseprite 自动计算尺寸。</p>
-<p>这里需要注意的是，不勾选“<code>Output file</code>”并提供文件名时，点击导出不会生成文件的。你也可以选择“<code>Open generated sprite sheet</code>”，这会打开一个新文件，你可以手工保存。</p>
-<h3 id="切割工具和命令行"><a href="#切割工具和命令行" class="headerlink" title="切割工具和命令行"></a>切割工具和命令行</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdi043kj309m06wjr5.jpg"></p>
-<p>最后一个技巧时用切割工具 slice。切割工具适合于把多个图放在同一个画布的时候。我喜欢在给游戏场景制作素材时用这个，我可以把素材放在旁边随时比对尺寸。</p>
-<p>首先要把精灵放到一个文件，挨着。别互相重叠到一个矩形区域就好。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdepvv0j30gg0cx749.jpg"></p>
-<p>接着选择切割工具，开始在每个物体上做选取，注意不要把其他物体的部分包括进来。之后你可以双击其中一个，或者右键点击查看属性，给它命名。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvdfbb6uj30u00cg0vg.jpg"></p>
-<p>现在，用命令行！如果你主要做美术，这部分听起来可能有点吓人，但我保证，只要简单了解并设置好之后，这能够自动处理很多枯燥的导出工作。</p>
-<p>首先你需要把 Aseprite 添加到环境变量里，如果你不清楚这个，可以看看这个教程<a href="https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables">https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables</a> （百度什么的搜一下设置环境变量）。把 <code>Aseprite.exe</code> 加入到环境变量里。</p>
-<p>现在，保存好 Aseprite 文件，在同一个文件夹打开命令行工具。如果不知道怎么做的话，在 windows 下，Shift + 右键，选择在当前位置打开命令行。</p>
-<p>接着是有意思的地方了，用到的命令！直接输入下面这个，把 <code>myFile</code> 替换成你的文件名，按回车：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Aseprite.exe -b &#39;.\myFile.aseprite&#39; --save-as &#39;&#123;slice&#125;.png&#39;</span><br></pre></td></tr></table></figure>
-<p>我们分解一下这个的含义：</p>
-<ul>
-<li><code>Aseprite.exe</code> 用来启动 Aseprite</li>
-<li><code>-b</code> 表示我们是在批处理模式。不加这个的话 Aseprite 就打开了，我们不需要。</li>
-<li><code>‘.\myFile.aseprite’</code> 是需要处理的文件名和拓展名。这个是相对于当前路径的。</li>
-<li><code>--save-as</code> 是保存选中文件的命令，它也会根据你给的文件名里带的标签去格式化文件名。</li>
-<li><code>&#39;&#123;slice&#125;.png&#39;</code> 是导出文件名, <code>&#123;slice&#125;</code> 是个标签，它表示文件名会用切割的名称并切割出来。</li>
-</ul>
-<p>如果想了解更多命令行信息，Aseprite 有个不错的使用教程可以看看：</p>
-<p><a href="https://www.aseprite.org/docs/cli/#filename-format">https://www.aseprite.org/docs/cli/#filename-format</a></p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在你了解到如何正确的保存像素画了！当有不确定的地方时，参考以下几点：</p>
-<ul>
-<li>永远用整数倍缩放，不用小数，不缩小。</li>
-<li>Aseprite 可以自动保存出图片序列。</li>
-<li>别用 <code>jpg</code> 和 <code>mp4</code>，以及其他的有损压缩图像格式。</li>
-<li>不确定时，就用 <code>png</code>，别缩放。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
       </tags>
   </entry>
   <entry>
@@ -7561,64 +7561,6 @@
       </tags>
   </entry>
   <entry>
-    <title>像素宝典#2</title>
-    <url>/archives/c22ed0e6.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z43ozraj31hc0u0gvq.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解俯视跑步循环、闪电效果、故障效果和关卡设计流程。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth1mvn7j30u008c74z.jpg"></p>
-<h3 id="像素画基础-1"><a href="#像素画基础-1" class="headerlink" title="像素画基础 1"></a>像素画基础 1</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljtjoj81ag30e80e8e81.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljtjpfq75g30e80e8e81.gif"></p>
-<p>降噪是大家选出的主题！（在 patreon 上有投票）我在此基础上拓展了一下，结果就稍微复杂了些，而且加了其他方面的讲解，所以这节就叫像素画基础1了。</p>
-<p>还有些图里装不下的 tips：</p>
-<ul>
-<li>颜色总数不要过多。（保持 32 种以下）。</li>
-<li>大块的区域考虑用平直的颜色，让眼睛从细节区域出来后休息一下。</li>
-<li>如果你在尝试往很小的区域塞大量细节，考虑一下修改画面，改为更简洁的设计。</li>
-<li>别加入很多的圆柱或者圆形的东西，这些类型在像素画里很难描绘出来。立方体这种容易些。</li>
-<li>用轮廓表现出你想要的东西，内部区域细节少些。</li>
-</ul>
-<p>重申一下，我并不是说这些都是正确的做法，这只是我的做法。</p>
-<p>关于抖动：我不反对它，只是过多的抖动并不适合我的风格。我有时候也用，或者是调色盘颜色受限的时候。我算是个“抖动好奇者”，可能有一天我会发现一种我喜欢抖动。</p>
-<h3 id="俯视角跑步循环"><a href="#俯视角跑步循环" class="headerlink" title="俯视角跑步循环"></a>俯视角跑步循环</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth22dutg30e80e80xa.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth3spung30e80e8ael.gif"></p>
-<p>这不是俯视角跑步循环的唯一做法。我选这种是因为我通常这样画，而且这是我能想到最简单的方式。</p>
-<p>我一般重点关注 3 帧的跳跃帧和 2 帧的恢复帧，之后再用其他动画，像头发的运动，衣服等等来把这些都连起来。</p>
-<p>也可以只用一帧跳跃和一帧恢复做个超简洁动画，不过看起来不太顺滑。</p>
-<p>实话讲这个侧视角我自己也不太满意，我以后会再研究一下。</p>
-<p>感谢大家支持。</p>
-<h3 id="闪电"><a href="#闪电" class="headerlink" title="闪电"></a>闪电</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth31xq5g30e80e8tem.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth4c7j2g30e80e8ter.gif"></p>
-<p>我个人做闪电类的东西遵守的法则就是让所有东西都闪烁，非常闪。而且会做成 24 帧，看起来就比较顺滑。</p>
-<p>闪电是很快的，所以第一帧就应该是最大，然后逐渐消散。</p>
-<p>一开始我会把闪电画得很尖锐，然后消散过程中逐渐变柔和。尽管实际生活中闪电几乎没有这么尖锐的，但我发现在动画里这么画效果很好。</p>
-<p>画闪电类的东西我一般会加点烟雾，你可以参考之前的烟雾教程。</p>
-<h3 id="故障效果"><a href="#故障效果" class="headerlink" title="故障效果"></a>故障效果</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth2gk2ag30e80e8qeb.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth5ccmdg30e80e87fd.gif"></p>
-<p>我总会参考身边真实的故障效果。像商场里坏掉的显示器，商店的广告牌里的诡异故障效果，或者是我自己的显卡崩了的时候。</p>
-<p>我会去注意这个故障效果实际上是做了什么，是把所有东西都往左移？绿色显示不出来？还是所有东西都变成了乱七八糟的噪点？</p>
-<p>我会分析这些真实的故障效果，并把它们变得更好看，更酷。对我来说，目的就是达到它看起来不是真的，但又不会太假。</p>
-<h3 id="关卡设计流程"><a href="#关卡设计流程" class="headerlink" title="关卡设计流程"></a>关卡设计流程</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth3l2xag30e80e8tea.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth4yfjgg30e80e8grw.gif"></p>
-<p>关卡设计不是我的特长，而且这方面各人有不同的理解，所以这里的都是我设计关卡时候的想法，不是法则。</p>
-<p>对于我来说乐趣的核心就是学习。这也是为什么每次我在关卡里加了东西，都会问自己：“这里我是要教什么？”以及“我需要玩家做什么？”。</p>
-<p>另外一个重要的点就是节奏。我会在一些困难的区域之后，加上一些安全区域或者是强力道具，让玩家能缓口气，试试新东西。这就是曲线的凹点，这能让玩家感觉下一阶段变得更难，而不需要我们真的设计的特别难来打击玩家。</p>
-<p>非常感谢 Matt Thorson 对这一节内容的支持。</p>
-]]></content>
-      <categories>
-        <category>像素宝典 (Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>像素宝典#1</title>
     <url>/archives/5b27815c.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5yziapgij31hc0u0ak5.jpg"></p>
@@ -7670,6 +7612,64 @@
 <p>这种也完全 ok。这里只是我能想到的最简单的方式，来做出适合 platformer 类型的跑步动作。走/跑的动画很能体现角色的个性，所以会有无数种方式来做。</p>
 <p>我倾向于“跳起”帧的原因是它非常容易复制，往下拉一两个像素，再稍微动动手和腿，就能得到个“下落”帧。我觉得这种方法做快跑动画非常高效。</p>
 <p>另一个原因是，如果第一帧是个跳跃，就感觉角色瞬间扎进了动作里，让动画更有活力。</p>
+]]></content>
+      <categories>
+        <category>像素宝典 (Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>像素宝典#2</title>
+    <url>/archives/c22ed0e6.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z43ozraj31hc0u0gvq.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解俯视跑步循环、闪电效果、故障效果和关卡设计流程。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth1mvn7j30u008c74z.jpg"></p>
+<h3 id="像素画基础-1"><a href="#像素画基础-1" class="headerlink" title="像素画基础 1"></a>像素画基础 1</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljtjoj81ag30e80e8e81.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljtjpfq75g30e80e8e81.gif"></p>
+<p>降噪是大家选出的主题！（在 patreon 上有投票）我在此基础上拓展了一下，结果就稍微复杂了些，而且加了其他方面的讲解，所以这节就叫像素画基础1了。</p>
+<p>还有些图里装不下的 tips：</p>
+<ul>
+<li>颜色总数不要过多。（保持 32 种以下）。</li>
+<li>大块的区域考虑用平直的颜色，让眼睛从细节区域出来后休息一下。</li>
+<li>如果你在尝试往很小的区域塞大量细节，考虑一下修改画面，改为更简洁的设计。</li>
+<li>别加入很多的圆柱或者圆形的东西，这些类型在像素画里很难描绘出来。立方体这种容易些。</li>
+<li>用轮廓表现出你想要的东西，内部区域细节少些。</li>
+</ul>
+<p>重申一下，我并不是说这些都是正确的做法，这只是我的做法。</p>
+<p>关于抖动：我不反对它，只是过多的抖动并不适合我的风格。我有时候也用，或者是调色盘颜色受限的时候。我算是个“抖动好奇者”，可能有一天我会发现一种我喜欢抖动。</p>
+<h3 id="俯视角跑步循环"><a href="#俯视角跑步循环" class="headerlink" title="俯视角跑步循环"></a>俯视角跑步循环</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth22dutg30e80e80xa.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth3spung30e80e8ael.gif"></p>
+<p>这不是俯视角跑步循环的唯一做法。我选这种是因为我通常这样画，而且这是我能想到最简单的方式。</p>
+<p>我一般重点关注 3 帧的跳跃帧和 2 帧的恢复帧，之后再用其他动画，像头发的运动，衣服等等来把这些都连起来。</p>
+<p>也可以只用一帧跳跃和一帧恢复做个超简洁动画，不过看起来不太顺滑。</p>
+<p>实话讲这个侧视角我自己也不太满意，我以后会再研究一下。</p>
+<p>感谢大家支持。</p>
+<h3 id="闪电"><a href="#闪电" class="headerlink" title="闪电"></a>闪电</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth31xq5g30e80e8tem.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth4c7j2g30e80e8ter.gif"></p>
+<p>我个人做闪电类的东西遵守的法则就是让所有东西都闪烁，非常闪。而且会做成 24 帧，看起来就比较顺滑。</p>
+<p>闪电是很快的，所以第一帧就应该是最大，然后逐渐消散。</p>
+<p>一开始我会把闪电画得很尖锐，然后消散过程中逐渐变柔和。尽管实际生活中闪电几乎没有这么尖锐的，但我发现在动画里这么画效果很好。</p>
+<p>画闪电类的东西我一般会加点烟雾，你可以参考之前的烟雾教程。</p>
+<h3 id="故障效果"><a href="#故障效果" class="headerlink" title="故障效果"></a>故障效果</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth2gk2ag30e80e8qeb.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth5ccmdg30e80e87fd.gif"></p>
+<p>我总会参考身边真实的故障效果。像商场里坏掉的显示器，商店的广告牌里的诡异故障效果，或者是我自己的显卡崩了的时候。</p>
+<p>我会去注意这个故障效果实际上是做了什么，是把所有东西都往左移？绿色显示不出来？还是所有东西都变成了乱七八糟的噪点？</p>
+<p>我会分析这些真实的故障效果，并把它们变得更好看，更酷。对我来说，目的就是达到它看起来不是真的，但又不会太假。</p>
+<h3 id="关卡设计流程"><a href="#关卡设计流程" class="headerlink" title="关卡设计流程"></a>关卡设计流程</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth3l2xag30e80e8tea.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljth4yfjgg30e80e8grw.gif"></p>
+<p>关卡设计不是我的特长，而且这方面各人有不同的理解，所以这里的都是我设计关卡时候的想法，不是法则。</p>
+<p>对于我来说乐趣的核心就是学习。这也是为什么每次我在关卡里加了东西，都会问自己：“这里我是要教什么？”以及“我需要玩家做什么？”。</p>
+<p>另外一个重要的点就是节奏。我会在一些困难的区域之后，加上一些安全区域或者是强力道具，让玩家能缓口气，试试新东西。这就是曲线的凹点，这能让玩家感觉下一阶段变得更难，而不需要我们真的设计的特别难来打击玩家。</p>
+<p>非常感谢 Matt Thorson 对这一节内容的支持。</p>
 ]]></content>
       <categories>
         <category>像素宝典 (Pixel Dictionary)</category>
@@ -8183,79 +8183,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Unity Student Plan申请指南</title>
-    <url>/archives/e8e3308a.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf3sypo104j31hc0u0ae8.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了Unity社区的优秀博主 <a href="https://unity.cn/u/michael-wang-2/?tab=article">Michael Wang</a> 的 <a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">Unity Student Plan申请指南！</a>，希望通过转载的方式可以帮助到对 Unity Pro 购买上有困难的在读学生申请「Unity Student Plan」，也希望有能力的读者朋友可以去支持一下原文作者，他有大量的优质 Unity 教学视频可供初学者学习。</p>
-<a id="more"></a>
-
-
-
-
-
-<p><strong>支持正版Unity从我做起！拒绝盗版，拒绝破解！</strong></p>
-<ul>
-<li><p>想使用 Unity 深色主题吗？</p>
-</li>
-<li><p>想更方便跟5位队友远程共同开发游戏吗？</p>
-</li>
-<li><p>想免费看「Unity Learn」上面的各种优质课程吗？</p>
-</li>
-<li><p>学生党没有钱购买 Plus / Pro 版吗？</p>
-</li>
-</ul>
-<p>这篇文章会帮助你成功加入「Unity Student Plan」这个超级增值计划当中。让你免费享受以上所有你曾经梦寐以求的服务！</p>
-<p>考虑到可能很多同学会在操作上有些疑惑，<a href="https://unity.cn/u/michael-wang-2/?tab=article">麦扣</a>含(超)泪(龄)特此制作<a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">中文指南</a>。点个收藏支持一下吧!</p>
-<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>直奔主题，详细内容查看官方正确网站：<a href="https://store.unity.com/academic/unity-student?_ga=2.192862250.1412877669.1590291680-1494240502.1590291680">点我申请</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvkhdfzj30u016h42m.jpg"></p>
-<h3 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤"></a>主要步骤</h3><p>打开上面的网站地址就可以看到上面的界面，主要分为3个主要步骤：</p>
-<p><strong>1. 授权 Unity 通过 Github 来确认你的学生身份</strong> </p>
-<p><strong>2. 申请学生开发包</strong> </p>
-<p><strong>3. 激活你的 Unity Student Plan</strong></p>
-<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><p>请先不要着急操作！还有一些前期的准备要做！请确认一下内容：</p>
-<ul>
-<li><strong>你是真实的学生身份（初中以上！惊不惊喜）</strong></li>
-<li><strong>你已经注册拥有 Unity ID</strong></li>
-<li><strong>你已经有 GitHub 账号并且已经 “Get student benefits”</strong></li>
-</ul>
-<p>如果你已经具备了以上的内容，那么你可以跳过后面的指南直接通过 Unity 官方网站申请。</p>
-<h3 id="Github-Student-Benefits"><a href="#Github-Student-Benefits" class="headerlink" title="Github Student Benefits"></a>Github Student Benefits</h3><p>*注意你需要有 Github 账号。<a href="https://education.github.com/benefits">点我跳转！</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvi91g4j31b90u0n2i.jpg"></p>
-<p><strong>GitHub官方网站提供了非常详细的注册指南，在这里就不赘述了。但是提供一些可能遇到的问题的小提示：</strong></p>
-<ul>
-<li>如果你有 .edu 的邮箱，那么请在你的申请页面添加这个教育邮箱。</li>
-<li>请尝试咨询学校如何申请 .edu 的邮箱。那么会让你飞快通过申请！</li>
-<li>如果无法申请邮箱 或者 你的学校不在列表当中（优先搜索英语名字），那么需要提供学生证的照片来验证，等候时间会变长，但是不带表你不能申请！！</li>
-<li>学生证等信息不在身边，可以访问<a href="https://my.chsi.com.cn/archive/index.jsp">「学信档案网站」</a>截图上传证明。</li>
-<li>保持好的心态，你一定会成功！</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpviz7ofj30oj0v1jtj.jpg"></p>
-<p>做完以上的操作你很可能看到这样的界面</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvk0chxj313n0ktjta.jpg"></p>
-<p><em>不要担心 4 days 很可能就是几个小时的事儿，30 days 也不一定非要等30天！请大家多多留意自己的邮箱，GitHub 总是会给你惊喜的。</em></p>
-<h3 id="Unity-Student-Plan"><a href="#Unity-Student-Plan" class="headerlink" title="Unity Student Plan"></a>Unity Student Plan</h3><p>当你收到了 GitHub 的确认邮件，那么恭喜你，你基本上成功了，现在你需要回到文章开头的 Unity Student Plan 申请的连接完成 3 个步骤。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvldizsj31go0l2gs1.jpg"></p>
-<ul>
-<li>Unity 发给你的<strong>邮件</strong>当中会详细描述你在哪里可以获得你的 Pro 专业版 使用权的<strong>激活码</strong>，使用激活码<strong>在HUB中激活你的证书</strong>。</li>
-<li>你会获得让所有人望眼欲穿的，价值 <strong>$489.93 的 Assets Pack 超优质资源包</strong>，跟我一样只能看看的请<a href="https://assetstore.unity.com/browse/student-plan-pack?_ga=2.131450953.776403174.1590049942-37205968.1582701932">点击这里</a>！</li>
-</ul>
-<p><strong>如果你成功申请了，别忘了回来给麦扣留言告诉我这个好消息，还有收藏这篇文章支持我！</strong></p>
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
-<li>7月2日之前每周四晚上8:00，麦扣跟你一起学习做3D游戏：<a href="https://unity.cn/projects/unityling-ji-chu-zhi-bo-create-with-code-live-zhong-wen-5-7wan-ba-dian-kai-bo">详情及录播</a></li>
-<li>5月29日 Unity 资深技术专家高川老师直播带你了解 Unity Asset：<a href="https://unity.cn/projects/zhi-bo-yu-gao-unityzi-shen-ji-zhu-zhuan-jia-gao-chuan-wei-nin-xiang-jie-unity-assetde-yi-sheng">详情页面</a></li>
-<li>关注我的详细信息欢迎访问我的主页跳转：<a href="https://m-studio-m.github.io/">点我就对了</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Unity 游戏引擎 (Unity Game Engine)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>Reprint</tag>
-        <tag>Unity</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>R语言数据分析方法论</title>
     <url>/archives/988a2d13.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gke2i5jecdg30xc0ir7wi.gif"></p>
@@ -8391,6 +8318,79 @@
         <tag>Mooc</tag>
         <tag>R</tag>
         <tag>Data Mining</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Unity Student Plan申请指南</title>
+    <url>/archives/e8e3308a.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf3sypo104j31hc0u0ae8.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了Unity社区的优秀博主 <a href="https://unity.cn/u/michael-wang-2/?tab=article">Michael Wang</a> 的 <a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">Unity Student Plan申请指南！</a>，希望通过转载的方式可以帮助到对 Unity Pro 购买上有困难的在读学生申请「Unity Student Plan」，也希望有能力的读者朋友可以去支持一下原文作者，他有大量的优质 Unity 教学视频可供初学者学习。</p>
+<a id="more"></a>
+
+
+
+
+
+<p><strong>支持正版Unity从我做起！拒绝盗版，拒绝破解！</strong></p>
+<ul>
+<li><p>想使用 Unity 深色主题吗？</p>
+</li>
+<li><p>想更方便跟5位队友远程共同开发游戏吗？</p>
+</li>
+<li><p>想免费看「Unity Learn」上面的各种优质课程吗？</p>
+</li>
+<li><p>学生党没有钱购买 Plus / Pro 版吗？</p>
+</li>
+</ul>
+<p>这篇文章会帮助你成功加入「Unity Student Plan」这个超级增值计划当中。让你免费享受以上所有你曾经梦寐以求的服务！</p>
+<p>考虑到可能很多同学会在操作上有些疑惑，<a href="https://unity.cn/u/michael-wang-2/?tab=article">麦扣</a>含(超)泪(龄)特此制作<a href="https://unity.cn/projects/unity-student-plan-shen-qing-zhi-nan">中文指南</a>。点个收藏支持一下吧!</p>
+<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>直奔主题，详细内容查看官方正确网站：<a href="https://store.unity.com/academic/unity-student?_ga=2.192862250.1412877669.1590291680-1494240502.1590291680">点我申请</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvkhdfzj30u016h42m.jpg"></p>
+<h3 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤"></a>主要步骤</h3><p>打开上面的网站地址就可以看到上面的界面，主要分为3个主要步骤：</p>
+<p><strong>1. 授权 Unity 通过 Github 来确认你的学生身份</strong> </p>
+<p><strong>2. 申请学生开发包</strong> </p>
+<p><strong>3. 激活你的 Unity Student Plan</strong></p>
+<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><p>请先不要着急操作！还有一些前期的准备要做！请确认一下内容：</p>
+<ul>
+<li><strong>你是真实的学生身份（初中以上！惊不惊喜）</strong></li>
+<li><strong>你已经注册拥有 Unity ID</strong></li>
+<li><strong>你已经有 GitHub 账号并且已经 “Get student benefits”</strong></li>
+</ul>
+<p>如果你已经具备了以上的内容，那么你可以跳过后面的指南直接通过 Unity 官方网站申请。</p>
+<h3 id="Github-Student-Benefits"><a href="#Github-Student-Benefits" class="headerlink" title="Github Student Benefits"></a>Github Student Benefits</h3><p>*注意你需要有 Github 账号。<a href="https://education.github.com/benefits">点我跳转！</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvi91g4j31b90u0n2i.jpg"></p>
+<p><strong>GitHub官方网站提供了非常详细的注册指南，在这里就不赘述了。但是提供一些可能遇到的问题的小提示：</strong></p>
+<ul>
+<li>如果你有 .edu 的邮箱，那么请在你的申请页面添加这个教育邮箱。</li>
+<li>请尝试咨询学校如何申请 .edu 的邮箱。那么会让你飞快通过申请！</li>
+<li>如果无法申请邮箱 或者 你的学校不在列表当中（优先搜索英语名字），那么需要提供学生证的照片来验证，等候时间会变长，但是不带表你不能申请！！</li>
+<li>学生证等信息不在身边，可以访问<a href="https://my.chsi.com.cn/archive/index.jsp">「学信档案网站」</a>截图上传证明。</li>
+<li>保持好的心态，你一定会成功！</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpviz7ofj30oj0v1jtj.jpg"></p>
+<p>做完以上的操作你很可能看到这样的界面</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvk0chxj313n0ktjta.jpg"></p>
+<p><em>不要担心 4 days 很可能就是几个小时的事儿，30 days 也不一定非要等30天！请大家多多留意自己的邮箱，GitHub 总是会给你惊喜的。</em></p>
+<h3 id="Unity-Student-Plan"><a href="#Unity-Student-Plan" class="headerlink" title="Unity Student Plan"></a>Unity Student Plan</h3><p>当你收到了 GitHub 的确认邮件，那么恭喜你，你基本上成功了，现在你需要回到文章开头的 Unity Student Plan 申请的连接完成 3 个步骤。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glbpvldizsj31go0l2gs1.jpg"></p>
+<ul>
+<li>Unity 发给你的<strong>邮件</strong>当中会详细描述你在哪里可以获得你的 Pro 专业版 使用权的<strong>激活码</strong>，使用激活码<strong>在HUB中激活你的证书</strong>。</li>
+<li>你会获得让所有人望眼欲穿的，价值 <strong>$489.93 的 Assets Pack 超优质资源包</strong>，跟我一样只能看看的请<a href="https://assetstore.unity.com/browse/student-plan-pack?_ga=2.131450953.776403174.1590049942-37205968.1582701932">点击这里</a>！</li>
+</ul>
+<p><strong>如果你成功申请了，别忘了回来给麦扣留言告诉我这个好消息，还有收藏这篇文章支持我！</strong></p>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
+<li>7月2日之前每周四晚上8:00，麦扣跟你一起学习做3D游戏：<a href="https://unity.cn/projects/unityling-ji-chu-zhi-bo-create-with-code-live-zhong-wen-5-7wan-ba-dian-kai-bo">详情及录播</a></li>
+<li>5月29日 Unity 资深技术专家高川老师直播带你了解 Unity Asset：<a href="https://unity.cn/projects/zhi-bo-yu-gao-unityzi-shen-ji-zhu-zhuan-jia-gao-chuan-wei-nin-xiang-jie-unity-assetde-yi-sheng">详情页面</a></li>
+<li>关注我的详细信息欢迎访问我的主页跳转：<a href="https://m-studio-m.github.io/">点我就对了</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Unity 游戏引擎 (Unity Game Engine)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>Reprint</tag>
+        <tag>Unity</tag>
       </tags>
   </entry>
   <entry>
@@ -10957,194 +10957,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Markdown入门指南</title>
-    <url>/archives/6f3ff15d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2tm1nc2nj31360go78r.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>有关 Markdown 的概述、工作原理、用途以及语法快速参考手册 / 速查表。</p>
-<a id="more"></a>
-
-
-
-<h3 id="入门指南"><a href="#入门指南" class="headerlink" title="入门指南"></a>入门指南</h3><h4 id="Markdown-是什么？"><a href="#Markdown-是什么？" class="headerlink" title="Markdown 是什么？"></a>Markdown 是什么？</h4><p>Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添加格式化元素。Markdown 由 <a href="https://daringfireball.net/projects/markdown/">John Gruber</a> 于 2004 年创建，如今已成为世界上最受欢迎的标记语言之一。</p>
-<p>使用 Markdown 与使用 <a href="https://en.wikipedia.org/wiki/WYSIWYG">WYSIWYG</a> 编辑器不同。在 Microsoft Word 之类的应用程序中，单击按钮以设置单词和短语的格式，并且，更改立即可见。而 Markdown 与此不同，当你创建 Markdown 格式的文件时，可以在文本中添加 Markdown 语法，以指示哪些单词和短语看起来应该有所不同。</p>
-<p>例如，要表示标题，只须在短语前面添加一个井号即可（例如， <code># Heading One</code>）。或者要加粗一个短语，只须在短语前后各加两个星号即可（例如，<code>**this text is bold**</code>）。可能需要一段时间才能习惯在文本中看到 Markdown 语法，尤其是如果你已习惯了所见即所得的应用程序。以下屏幕截展示了 Markdown 文件在 <a href="https://atom.io/">Atom 文本编辑器</a> 中显示的效果。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2troxzhbj31360go78r.jpg"></p>
-<p>你可以使用文本编辑器为纯文本文件添加 Markdown 格式的元素。或者，你也可以安装针对 macOS、Windows、Linux、iOS 和 Android 操作系统的 Markdown 应用程序。或者还可以使用一些基于 Web 的应用程序用于 Markdown 编写。</p>
-<p>依赖于你所使用的应用程序，你可能无法实时预览格式化的文档。但是没关系。<a href="https://daringfireball.net/projects/markdown/">根据 Gruber 的说法</a>，Markdown 的语法被设计为可读性强且不显眼，因此即使 Markdown 文件中的文本未经过渲染也易于阅读。</p>
-<blockquote>
-<p>Markdown 语法的首要设计目标是尽可能易读。基于这个目标，Markdown 格式的文档能够以纯文本形式原样发布，而不会看起来像被填满了标签或格式化指令。</p>
-</blockquote>
-<h4 id="为什么要使用-Markdown？"><a href="#为什么要使用-Markdown？" class="headerlink" title="为什么要使用 Markdown？"></a>为什么要使用 Markdown？</h4><p>你可能想知道为什么人们使用 Markdown 而不是所用即所得（WYSIWYG）编辑器。当你可以通过按下界面中的按钮来设置文本格式时，为什么还要使用 Markdown 来书写呢？事实证明，人们使用 Markdown 而不是 WYSIWYG 编辑器的原因有两个：</p>
-<ul>
-<li>Markdown 处处可用。人们使用它来创建 <a href="https://www.markdown.xyz/getting-started/#websites">网站</a>、<a href="https://www.markdown.xyz/getting-started/#documents">文档</a>、<a href="https://www.markdown.xyz/getting-started/#notes">便签</a>、<a href="https://www.markdown.xyz/getting-started/#books">书籍</a>、<a href="https://www.markdown.xyz/getting-started/#presentations">演示文稿</a>、<a href="https://www.markdown.xyz/getting-started/#email">邮件</a> 和 <a href="https://www.markdown.xyz/getting-started/#documentation">技术文档</a>。</li>
-<li>Markdown 是可移植的。几乎可以使用任何应用程序打开包含 Markdown 格式的文本文件。如果你不喜欢当前使用的 Markdown 应用程序了，则可以将 Markdown 文件导入另一个 Markdown 应用程序中。这与 Microsoft Word 等文字处理应用程序形成了鲜明的对比，Microsoft Word 将你的内容锁定在专有文件格式中。</li>
-<li>Markdown 是独立于平台的。你可以在运行任何操作系统的任何设备上创建 Markdown 格式的文本。</li>
-<li>Markdown 能适应未来的变化。即使你正在使用的应用程序将来会在某个时候不能使用了，你仍然可以使用文本编辑器读取 Markdown 格式的文本。当涉及需要无限期保存的书籍、大学论文和其他里程碑式的文件时，这是一个重要的考虑因素。</li>
-<li>Markdown 无处不在。例如 Reddit 和 GitHub 等网站都支持 Markdown，许多桌面和基于 Web 的应用程序也都支持 Markdown。</li>
-</ul>
-<h4 id="工欲善其事，必先利其器"><a href="#工欲善其事，必先利其器" class="headerlink" title="工欲善其事，必先利其器"></a>工欲善其事，必先利其器</h4><p>Markdown 入门的最佳方式就是多使用它。由于有大量免费工具的存在，这比以前任何时候都更容易开始上手了。</p>
-<p>你甚至都不需要下载任何程序，就可以使用几种在线的 Markdown 编辑器来编写 Markdown。<a href="https://dillinger.io/">Dillinger</a> 是最好的在线 Markdown 编辑器之一。进入其站点就可以开始在左侧窗格中书写了。渲染后的文档在右侧窗格预览。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2trprsuuj30s90mugnd.jpg"></p>
-<p>阅读本指南时，你可以打开 Dillinger 网站。这样，你就可以一边学习 Markdown 语法一边练习了。熟悉 Markdown 之后，你可以在台式计算机或移动设备上安装支持 Markdown 的应用程序。</p>
-<h4 id="Markdown-的工作原理"><a href="#Markdown-的工作原理" class="headerlink" title="Markdown 的工作原理"></a>Markdown 的工作原理</h4><p>Dillinger 让 Markdown 的编写变得容易，因为它隐藏了幕后发生的事情，但是该过程的总体工作方式是值得探索的。</p>
-<p>在使用 Markdown 格式书写时，文本内容存储在带有 <code>.md</code> 或 <code>.markdown</code> 扩展名的纯文本文件中。那然后呢？你的 Markdown 格式的文件如何转换为 HTML 或可打印的文档呢？</p>
-<p>简单来说，你需要一个能够处理 Markdown 文件的 <em>Markdown 应用程序</em>。有许多应用程序可供选择，从简单的脚本到类似于 Microsoft Word 的桌面应用程序，应有尽有。尽管它们在视觉上有所不同，但所有应用程序都执行相同的操作。像 Dillinger 一样，它们都是将 Markdown 格式的文本转换为 HTML，以便可以在 Web 浏览器中显示。</p>
-<p>Markdown 应用程序使用一种称为 <em>Markdown 处理器</em>（也通常称为“解析器”或“实现”）的东西将获取到的 Markdown 格式的文本输出为 HTML 格式。此时，可以在 Web 浏览器中查看你的文档，或者将其与样式表组合并打印。你可以在下图看到此过程的直观表示。</p>
-<p><strong>注意：</strong> Markdown 应用程序和处理器是两个单独的组件。为了简洁起见，在下图中，我将它们组合为一个元素（即 “Markdown应用程序”）。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2trq3ugbj30c00ewwec.jpg"></p>
-<p>总而言之，这是一个四步的过程：</p>
-<ol>
-<li>使用文本编辑器或 Markdown 专用的应用程序创建 Markdown 文件。该文件应带有 <code>.md</code> 或 <code>.markdown</code> 扩展名。</li>
-<li>在 Markdown 应用程序中打开 Markdown 文件。</li>
-<li>使用 Markdown 应用程序将 Markdown 文件转换为 HTML 文档。</li>
-<li>在 web 浏览器中查看 HTML 文件，或使用 Markdown 应用程序将其转换为其他文件格式，例如 PDF。</li>
-</ol>
-<p>从你的角度来看，该过程将根据你使用的应用程序的不同而有所不同。例如，Dillinger 本质上将第 1-3 步组合到一个单一、无缝的界面中，你要做的就是在左窗格中键入内容，然后转换结果就在右窗格中就神奇地出现了。但是，如果你使用的是其他工具（例如带有静态网站生成器的文本编辑器），则会发现该过程更为明显。</p>
-<h4 id="Markdown-有什么用？"><a href="#Markdown-有什么用？" class="headerlink" title="Markdown 有什么用？"></a>Markdown 有什么用？</h4><p>Markdown 是做笔记、为网站创建内容以及生成可打印文档的快速、简便的方法。</p>
-<p>学习 Markdown 语法并不需要很长时间，一旦你知道如何使用它，你就可以在几乎所有地方使用 Markdown 进行书写了。大多数人使用 Markdown 来为网站创建内容，但是 Markdown 也可以很好地格式化从电子邮件到购物清单的所有内容。</p>
-<p>下面是一些你可以使用 Markdown 的场景。</p>
-<h5 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h5><p>Markdown 是为 web 而设计的，因此，市面上有很多专门用于创建网站内容的应用程序就不足为奇了。</p>
-<p>如果你您正在寻找利用 Markdown 文件创建网站的最简单方法，请参考 <a href="https://blot.im/">blot.im</a> 和 <a href="https://smallvictori.es/">smallvictori.es</a> 两个站点。在你注册某个服务之后，它们将在你的计算机上创建一个 Dropbox 文件夹。你只需将 Markdown 文件拖放到该文件夹中，然后嗖的一声，这些文件就在你的网站上了。再简单不过了。</p>
-<p>如果您熟悉 HTML、CSS和版本管理工具，请试试 Jekyll，这是一个广受欢迎的静态网站生成器，它能将 Markdown 文件并构建为 HTML 网站。这种方法的优势之一是 GitHub Pages 为 Jekyll 生成的网站提供免费托管服务。如果 Jekyll 不是你的理想之选，你可以在 其它大量可用的静态站点生成器 中选择一个。</p>
-<p><strong>注意：</strong> 此 <em>Markdown 指南</em> 就是用 Jekyll 创建的。你可以在 <a href="https://github.com/mattcone/markdown-guide">GitHub</a> 上查看其源码。</p>
-<p>如果你想使用内容管理系统（CMS）来支撑你的网站，请试试 <a href="https://www.markdown.xyz/tools/ghost/">Ghost</a>。这是一个免费的开源博客平台，具有出色的 Markdown 编辑器。如果你是 WordPress 用户，你将很高兴地知道 WordPress.com 上托管的网站都 <a href="https://en.support.wordpress.com/markdown/">支持 Markdown</a>。自托管的 WordPress 网站可以使用 <a href="https://jetpack.com/support/markdown/">Jetpack 插件</a>实现对 Markdown 的支持。</p>
-<h5 id="文件资料"><a href="#文件资料" class="headerlink" title="文件资料"></a>文件资料</h5><p>Markdown 并不具备像 Microsoft Word 这样的文字处理程序的所有功能，但是对于创建基本文件（例如作业和信件）来说已经足够了。你可以使用 Markdown 文档创作工具来创建 Markdown 格式的文档并将其导出为 PDF 或 HTML 格式。PDF 格式是关键，因为一旦有了 PDF 文档，您就可以使用它进行任何操作：打印、通过电子邮件发送或将其上传到网站。</p>
-<p>这是我推荐的一些Markdown文档创作工具：</p>
-<ul>
-<li>Mac: MacDown、iA Writer 或 Marked</li>
-<li>iOS / Android: iA Writer</li>
-<li>Windows: ghostwriter 或 Markdown Monster</li>
-<li>Linux: ReText 或 ghostwriter</li>
-<li>Web: Dillinger 或 StackEdit</li>
-</ul>
-<p>提示： iA Writer 提供了模板用于预览、打印和导出 Markdown 格式的文档。例如，“ Academic – MLA 样式”的模板会缩进段落并添加双倍行间距。</p>
-<h5 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h5><p>在几乎所有方面，Markdown 都是记笔记的理想语法。不幸的是，两个最受欢迎的笔记应用程序 <a href="https://evernote.com/">Evernote</a> 和 <a href="https://www.onenote.com/">OneNote</a> 目前都不支持 Markdown。好消息是，其他一些笔记应用程序 <em>是</em> 支持 Markdown 的：</p>
-<ul>
-<li>Simplenote 是适用于所有平台的免费、简单的笔记应用程序。</li>
-<li>Notable 是可以在各种平台上运行的笔记应用程序。</li>
-<li>Bear 是适用于 Mac 和 iOS 设备的类似 Evernote 的应用程序。默认情况下，它并不专门针对 Markdown 的，但是你可以启用 Markdown 兼容模式。</li>
-<li>Boostnote 自称是“专为程序员设计的开源笔记应用程序”。</li>
-</ul>
-<p>如果你无法放弃 Evernote，可以试试 <a href="https://marxi.co/">Marxico</a>，一个专门针对 Evernote 的基于订阅付费的 Markdown编辑器，或在 Evernote 网站上使用 <a href="https://www.markdown.xyz/tools/markdown-here/">Markdown Here</a> 插件。</p>
-<h5 id="书籍"><a href="#书籍" class="headerlink" title="书籍"></a>书籍</h5><p>想要自行出版小说？请试试 <a href="https://leanpub.com/">Leanpub</a>，该服务可将你的 Markdown 格式的文件转换为电子书。Leanpub 以 PDF、EPUB 和 MOBI 文件格式输出你的图书。如果你要创建纸版书籍，可以将 PDF 文件上传到类似 <a href="https://kdp.amazon.com/">Kindle Direct Publishing</a> 之类的服务提供商处。要了解有关使用 Markdown 编写和自行出版书籍的更多信息，请阅读 <a href="https://medium.com/techspiration-ideas-making-it-happen/how-i-wrote-and-published-my-novel-using-only-open-source-tools-5cdfbd7c00ca">此博文</a>。</p>
-<h5 id="演示文稿"><a href="#演示文稿" class="headerlink" title="演示文稿"></a>演示文稿</h5><p>信不信由你，你可以将 Markdown 格式的文件转换成演示文稿。在 Markdown 中创建演示文稿需要一点时间来适应，但是一旦你掌握了它，你就能体会到比使用 PowerPoint 或 Keynote 之类的应用程序更快、更容易。<a href="https://remarkjs.com/">Remark</a>（<a href="https://github.com/gnab/remark">GitHub 仓库</a>）和 <a href="https://jdan.github.io/cleaver/">Cleaver</a>（<a href="https://github.com/jdan/cleaver">GitHub 仓库</a>）一样，是一种基于浏览器的、流行的 Markdown 幻灯片工具。如果你使用的是 Mac，并且希望安装一个应用程序来使用的话，请试试 <a href="https://www.decksetapp.com/">Deckset</a> 或 <a href="https://marked2app.com/">Marked</a>。</p>
-<h5 id="邮件"><a href="#邮件" class="headerlink" title="邮件"></a>邮件</h5><p>如果你需要发送大量电子邮件，并且对大多数电子邮件提供商网站上可用的格式设置控件感到厌倦，那么你将很高兴地发现有一种使用 Markdown 编写电子邮件的简便方法：Markdown Here 是一个免费、开源的浏览器扩展程序，可将 Markdown 格式的文本转换为可用于发送的 HTML。</p>
-<h5 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h5><p>Markdown 非常适合技术文档。像 GitHub 这样的公司越来越多地转向使用 Markdown 来创建其文档了，请查看此 博文 以了解如何将 Markdown 格式的文档迁移到 Jekyll。如果你是为产品或服务编写文档，请试试以下的便捷工具：</p>
-<ul>
-<li>Read the Docs 可以将你所开源的 Markdown 文件生成文档网站。只需将你的 GitHub 仓库连接到他们的服务，然后你就可以将内容推送到该仓库中，Read the Docs 会完成其余的工作。他们还为 商业实体提供服务。</li>
-<li>MkDocs 是一个快速、简单的静态站点生成器，专门用于构建项目文档。文档源文件使用 Markdown 编写，并使用一个 YAML 配置文件进行配置。MkDocs 有多个 内置主题，包括移植自 Read the Docs 的文档主题。最新的一个主题是 MkDocs Material。</li>
-<li>Docusaurus 是一个静态网站生成器，专门用于创建文档网站。它支持翻译、搜索和版本控制。</li>
-<li>VuePress 是基于 Vue 构建的静态站点生成器，并针对编写技术文档进行了优化。</li>
-<li>Jekyll 前面已经提到过它了，但它也是将 Markdown 文件生成文档网站的一个不错的选择。如果你选择 Jekyll，请务必试试 Jekyll 文档主题。</li>
-</ul>
-<h4 id="Markdown-方言"><a href="#Markdown-方言" class="headerlink" title="Markdown 方言"></a>Markdown 方言</h4><p>使用 Markdown 的过程中，最令人困惑的地方是：实际上每个 Markdown 应用程序都实现了稍有不同的 Markdown 语法。Markdown 的这些变体通常被称为 <em>flavors（方言）</em>。掌握你的应用程序所实现的 Markdown 语法是你需要注意的。</p>
-<p>为了让你了解各 Markdown 方言的概念，将它们比作语言的方言（language dialects）可能会有所帮助。华雷斯城（Ciudad Juárez）的人说西班牙语，就像巴塞罗那（Barcelona）人一样，但是两个城市使用的方言之间有很大的不同。使用不同 Markdown 应用程序的人也是如此。Dillinger 支持的 Markdown 格式与 Ulysses 有着很大的不同。</p>
-<p>实际上，这意味着当一个应用程序说它支持 “Markdown” 时，你永远也不会确切地知到它的实际意思。它说的是仅支持基本语法？还是所有基本语法加扩展语法 ？或者是某些语法的组合呢？在你阅读其文档或开始使用该应用程序之前，你永远都不会知道。</p>
-<p>如果你只是新手，我能给你的最好建议就是选择一个具有良好 Markdown 支持的应用程序。这对保持 Markdown 文件的可移植性大有帮助。你可能需要在其它应用程序中保存或使用你的 Markdown 文件，要实现这一点，你应当从使用一个具有良好 Markdown 支持的应用程序开始。你可以在 Markdown 工具列表中找到合适的应用程序。</p>
-<h4 id="其它资源"><a href="#其它资源" class="headerlink" title="其它资源"></a>其它资源</h4><p>网上有很多资源用来学习 Markdown。以下列出一些：</p>
-<ul>
-<li><a href="https://daringfireball.net/projects/markdown/">John Gruber’s Markdown documentation</a>. Markdown 的创建者编写的原始指南。</li>
-<li><a href="https://www.markdowntutorial.com/">Markdown Tutorial</a>. 一个开源网站，你能用浏览器在这个网站上尝试 Markdown。</li>
-<li><a href="https://github.com/mundimark/awesome-markdown">Awesome Markdown</a>. Markdown 工具和学习资源列表。</li>
-<li><a href="https://dave.autonoma.ca/blog/2019/05/22/typesetting-markdown-part-1">Typesetting Markdown</a>. 这是一个系列教程，介绍了使用 <a href="https://pandoc.org/">pandoc</a> 和 <a href="https://www.contextgarden.net/">ConTeXt</a> 对 Markdown 文档进行排版的系统。</li>
-</ul>
-<h3 id="速查表"><a href="#速查表" class="headerlink" title="速查表"></a>速查表</h3><h4 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h4><p>这些是 John Gruber 的原始设计文档中列出的元素。所有 Markdown 应用程序都支持这些元素。</p>
-<table>
-<thead>
-<tr>
-<th>元素</th>
-<th>Markdown 语法</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>标题（Heading）</td>
-<td><code># H1## H2### H3</code></td>
-</tr>
-<tr>
-<td>粗体（Bold）</td>
-<td><code>**bold text**</code></td>
-</tr>
-<tr>
-<td>斜体（Italic）</td>
-<td><code>*italicized text*</code></td>
-</tr>
-<tr>
-<td>引用块（Blockquote）</td>
-<td><code>&gt; blockquote</code></td>
-</tr>
-<tr>
-<td>有序列表（Ordered List）</td>
-<td><code>1. First item2. Second item3. Third item</code></td>
-</tr>
-<tr>
-<td>无序列表（Unordered List）</td>
-<td><code>- First item- Second item- Third item</code></td>
-</tr>
-<tr>
-<td>代码（Code）</td>
-<td><code>code</code></td>
-</tr>
-<tr>
-<td>分隔线（Horizontal Rule）</td>
-<td><code>---</code></td>
-</tr>
-<tr>
-<td>链接（Link）</td>
-<td><code>[title](https://www.example.com)</code></td>
-</tr>
-<tr>
-<td>图片（Image）</td>
-<td><code>![alt text](image.jpg)</code></td>
-</tr>
-</tbody></table>
-<h4 id="扩展语法"><a href="#扩展语法" class="headerlink" title="扩展语法"></a>扩展语法</h4><p>这些元素通过添加额外的功能扩展了基本语法。但是，并非所有 Markdown 应用程序都支持这些元素。</p>
-<table>
-<thead>
-<tr>
-<th>元素</th>
-<th>Markdown 语法</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>表格（Table）</td>
-<td></td>
-</tr>
-<tr>
-<td>代码块（Fenced Code Block）</td>
-<td><code>&#123; &quot;firstName&quot;: &quot;John&quot;, &quot;lastName&quot;: &quot;Smith&quot;, &quot;age&quot;: 25&#125;</code></td>
-</tr>
-<tr>
-<td>脚注（Footnote）</td>
-<td><code>Here&#39;s a sentence with a footnote. [^1][^1]: This is the footnote.</code></td>
-</tr>
-<tr>
-<td>标题编号（Heading ID）</td>
-<td><code>### My Great Heading &#123; #custom-id&#125;</code></td>
-</tr>
-<tr>
-<td>定义列表（Definition List）</td>
-<td><code>term: definition</code></td>
-</tr>
-<tr>
-<td>删除线（Strikethrough）</td>
-<td><code>~~The world is flat.~~</code></td>
-</tr>
-<tr>
-<td>任务列表（Task List）</td>
-<td><code>- [x] Write the press release- [ ] Update the website- [ ] Contact the media</code></td>
-</tr>
-</tbody></table>
-<h4 id="Downloads"><a href="#Downloads" class="headerlink" title="Downloads"></a>Downloads</h4><p>You can download this cheat sheet as a Markdown file for use in your Markdown application.</p>
-]]></content>
-      <categories>
-        <category>写作技巧 (Write Skill)</category>
-      </categories>
-      <tags>
-        <tag>Write</tag>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown基本语法</title>
     <url>/archives/41c7ed62.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2lggm8g1j30xf0lp43o.jpg"></p>
@@ -11810,6 +11622,194 @@
 <h4 id="HTML-用法最佳实践"><a href="#HTML-用法最佳实践" class="headerlink" title="HTML 用法最佳实践"></a>HTML 用法最佳实践</h4><p>出于安全原因，并非所有 Markdown 应用程序都支持在 Markdown 文档中添加 HTML。如有疑问，请查看 Markdown 应用程序的文档。某些应用程序只支持 HTML 标签的子集。</p>
 <p>对于 HTML 的块级元素 <code>&lt;div&gt;</code>、<code>&lt;table&gt;</code>、<code>&lt;pre&gt;</code> 和 <code>&lt;p&gt;</code>，请在其前后使用空行（blank lines）与其它内容进行分隔。尽量不要使用制表符（tabs）或空格（spaces）对 HTML 标签做缩进，否则将影响格式。</p>
 <p>在 HTML 块级标签内不能使用 Markdown 语法。例如 <code>&lt;p&gt;italic and **bold**&lt;/p&gt;</code> 将不起作用。</p>
+]]></content>
+      <categories>
+        <category>写作技巧 (Write Skill)</category>
+      </categories>
+      <tags>
+        <tag>Write</tag>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown入门指南</title>
+    <url>/archives/6f3ff15d.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2tm1nc2nj31360go78r.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>有关 Markdown 的概述、工作原理、用途以及语法快速参考手册 / 速查表。</p>
+<a id="more"></a>
+
+
+
+<h3 id="入门指南"><a href="#入门指南" class="headerlink" title="入门指南"></a>入门指南</h3><h4 id="Markdown-是什么？"><a href="#Markdown-是什么？" class="headerlink" title="Markdown 是什么？"></a>Markdown 是什么？</h4><p>Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添加格式化元素。Markdown 由 <a href="https://daringfireball.net/projects/markdown/">John Gruber</a> 于 2004 年创建，如今已成为世界上最受欢迎的标记语言之一。</p>
+<p>使用 Markdown 与使用 <a href="https://en.wikipedia.org/wiki/WYSIWYG">WYSIWYG</a> 编辑器不同。在 Microsoft Word 之类的应用程序中，单击按钮以设置单词和短语的格式，并且，更改立即可见。而 Markdown 与此不同，当你创建 Markdown 格式的文件时，可以在文本中添加 Markdown 语法，以指示哪些单词和短语看起来应该有所不同。</p>
+<p>例如，要表示标题，只须在短语前面添加一个井号即可（例如， <code># Heading One</code>）。或者要加粗一个短语，只须在短语前后各加两个星号即可（例如，<code>**this text is bold**</code>）。可能需要一段时间才能习惯在文本中看到 Markdown 语法，尤其是如果你已习惯了所见即所得的应用程序。以下屏幕截展示了 Markdown 文件在 <a href="https://atom.io/">Atom 文本编辑器</a> 中显示的效果。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2troxzhbj31360go78r.jpg"></p>
+<p>你可以使用文本编辑器为纯文本文件添加 Markdown 格式的元素。或者，你也可以安装针对 macOS、Windows、Linux、iOS 和 Android 操作系统的 Markdown 应用程序。或者还可以使用一些基于 Web 的应用程序用于 Markdown 编写。</p>
+<p>依赖于你所使用的应用程序，你可能无法实时预览格式化的文档。但是没关系。<a href="https://daringfireball.net/projects/markdown/">根据 Gruber 的说法</a>，Markdown 的语法被设计为可读性强且不显眼，因此即使 Markdown 文件中的文本未经过渲染也易于阅读。</p>
+<blockquote>
+<p>Markdown 语法的首要设计目标是尽可能易读。基于这个目标，Markdown 格式的文档能够以纯文本形式原样发布，而不会看起来像被填满了标签或格式化指令。</p>
+</blockquote>
+<h4 id="为什么要使用-Markdown？"><a href="#为什么要使用-Markdown？" class="headerlink" title="为什么要使用 Markdown？"></a>为什么要使用 Markdown？</h4><p>你可能想知道为什么人们使用 Markdown 而不是所用即所得（WYSIWYG）编辑器。当你可以通过按下界面中的按钮来设置文本格式时，为什么还要使用 Markdown 来书写呢？事实证明，人们使用 Markdown 而不是 WYSIWYG 编辑器的原因有两个：</p>
+<ul>
+<li>Markdown 处处可用。人们使用它来创建 <a href="https://www.markdown.xyz/getting-started/#websites">网站</a>、<a href="https://www.markdown.xyz/getting-started/#documents">文档</a>、<a href="https://www.markdown.xyz/getting-started/#notes">便签</a>、<a href="https://www.markdown.xyz/getting-started/#books">书籍</a>、<a href="https://www.markdown.xyz/getting-started/#presentations">演示文稿</a>、<a href="https://www.markdown.xyz/getting-started/#email">邮件</a> 和 <a href="https://www.markdown.xyz/getting-started/#documentation">技术文档</a>。</li>
+<li>Markdown 是可移植的。几乎可以使用任何应用程序打开包含 Markdown 格式的文本文件。如果你不喜欢当前使用的 Markdown 应用程序了，则可以将 Markdown 文件导入另一个 Markdown 应用程序中。这与 Microsoft Word 等文字处理应用程序形成了鲜明的对比，Microsoft Word 将你的内容锁定在专有文件格式中。</li>
+<li>Markdown 是独立于平台的。你可以在运行任何操作系统的任何设备上创建 Markdown 格式的文本。</li>
+<li>Markdown 能适应未来的变化。即使你正在使用的应用程序将来会在某个时候不能使用了，你仍然可以使用文本编辑器读取 Markdown 格式的文本。当涉及需要无限期保存的书籍、大学论文和其他里程碑式的文件时，这是一个重要的考虑因素。</li>
+<li>Markdown 无处不在。例如 Reddit 和 GitHub 等网站都支持 Markdown，许多桌面和基于 Web 的应用程序也都支持 Markdown。</li>
+</ul>
+<h4 id="工欲善其事，必先利其器"><a href="#工欲善其事，必先利其器" class="headerlink" title="工欲善其事，必先利其器"></a>工欲善其事，必先利其器</h4><p>Markdown 入门的最佳方式就是多使用它。由于有大量免费工具的存在，这比以前任何时候都更容易开始上手了。</p>
+<p>你甚至都不需要下载任何程序，就可以使用几种在线的 Markdown 编辑器来编写 Markdown。<a href="https://dillinger.io/">Dillinger</a> 是最好的在线 Markdown 编辑器之一。进入其站点就可以开始在左侧窗格中书写了。渲染后的文档在右侧窗格预览。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2trprsuuj30s90mugnd.jpg"></p>
+<p>阅读本指南时，你可以打开 Dillinger 网站。这样，你就可以一边学习 Markdown 语法一边练习了。熟悉 Markdown 之后，你可以在台式计算机或移动设备上安装支持 Markdown 的应用程序。</p>
+<h4 id="Markdown-的工作原理"><a href="#Markdown-的工作原理" class="headerlink" title="Markdown 的工作原理"></a>Markdown 的工作原理</h4><p>Dillinger 让 Markdown 的编写变得容易，因为它隐藏了幕后发生的事情，但是该过程的总体工作方式是值得探索的。</p>
+<p>在使用 Markdown 格式书写时，文本内容存储在带有 <code>.md</code> 或 <code>.markdown</code> 扩展名的纯文本文件中。那然后呢？你的 Markdown 格式的文件如何转换为 HTML 或可打印的文档呢？</p>
+<p>简单来说，你需要一个能够处理 Markdown 文件的 <em>Markdown 应用程序</em>。有许多应用程序可供选择，从简单的脚本到类似于 Microsoft Word 的桌面应用程序，应有尽有。尽管它们在视觉上有所不同，但所有应用程序都执行相同的操作。像 Dillinger 一样，它们都是将 Markdown 格式的文本转换为 HTML，以便可以在 Web 浏览器中显示。</p>
+<p>Markdown 应用程序使用一种称为 <em>Markdown 处理器</em>（也通常称为“解析器”或“实现”）的东西将获取到的 Markdown 格式的文本输出为 HTML 格式。此时，可以在 Web 浏览器中查看你的文档，或者将其与样式表组合并打印。你可以在下图看到此过程的直观表示。</p>
+<p><strong>注意：</strong> Markdown 应用程序和处理器是两个单独的组件。为了简洁起见，在下图中，我将它们组合为一个元素（即 “Markdown应用程序”）。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl2trq3ugbj30c00ewwec.jpg"></p>
+<p>总而言之，这是一个四步的过程：</p>
+<ol>
+<li>使用文本编辑器或 Markdown 专用的应用程序创建 Markdown 文件。该文件应带有 <code>.md</code> 或 <code>.markdown</code> 扩展名。</li>
+<li>在 Markdown 应用程序中打开 Markdown 文件。</li>
+<li>使用 Markdown 应用程序将 Markdown 文件转换为 HTML 文档。</li>
+<li>在 web 浏览器中查看 HTML 文件，或使用 Markdown 应用程序将其转换为其他文件格式，例如 PDF。</li>
+</ol>
+<p>从你的角度来看，该过程将根据你使用的应用程序的不同而有所不同。例如，Dillinger 本质上将第 1-3 步组合到一个单一、无缝的界面中，你要做的就是在左窗格中键入内容，然后转换结果就在右窗格中就神奇地出现了。但是，如果你使用的是其他工具（例如带有静态网站生成器的文本编辑器），则会发现该过程更为明显。</p>
+<h4 id="Markdown-有什么用？"><a href="#Markdown-有什么用？" class="headerlink" title="Markdown 有什么用？"></a>Markdown 有什么用？</h4><p>Markdown 是做笔记、为网站创建内容以及生成可打印文档的快速、简便的方法。</p>
+<p>学习 Markdown 语法并不需要很长时间，一旦你知道如何使用它，你就可以在几乎所有地方使用 Markdown 进行书写了。大多数人使用 Markdown 来为网站创建内容，但是 Markdown 也可以很好地格式化从电子邮件到购物清单的所有内容。</p>
+<p>下面是一些你可以使用 Markdown 的场景。</p>
+<h5 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h5><p>Markdown 是为 web 而设计的，因此，市面上有很多专门用于创建网站内容的应用程序就不足为奇了。</p>
+<p>如果你您正在寻找利用 Markdown 文件创建网站的最简单方法，请参考 <a href="https://blot.im/">blot.im</a> 和 <a href="https://smallvictori.es/">smallvictori.es</a> 两个站点。在你注册某个服务之后，它们将在你的计算机上创建一个 Dropbox 文件夹。你只需将 Markdown 文件拖放到该文件夹中，然后嗖的一声，这些文件就在你的网站上了。再简单不过了。</p>
+<p>如果您熟悉 HTML、CSS和版本管理工具，请试试 Jekyll，这是一个广受欢迎的静态网站生成器，它能将 Markdown 文件并构建为 HTML 网站。这种方法的优势之一是 GitHub Pages 为 Jekyll 生成的网站提供免费托管服务。如果 Jekyll 不是你的理想之选，你可以在 其它大量可用的静态站点生成器 中选择一个。</p>
+<p><strong>注意：</strong> 此 <em>Markdown 指南</em> 就是用 Jekyll 创建的。你可以在 <a href="https://github.com/mattcone/markdown-guide">GitHub</a> 上查看其源码。</p>
+<p>如果你想使用内容管理系统（CMS）来支撑你的网站，请试试 <a href="https://www.markdown.xyz/tools/ghost/">Ghost</a>。这是一个免费的开源博客平台，具有出色的 Markdown 编辑器。如果你是 WordPress 用户，你将很高兴地知道 WordPress.com 上托管的网站都 <a href="https://en.support.wordpress.com/markdown/">支持 Markdown</a>。自托管的 WordPress 网站可以使用 <a href="https://jetpack.com/support/markdown/">Jetpack 插件</a>实现对 Markdown 的支持。</p>
+<h5 id="文件资料"><a href="#文件资料" class="headerlink" title="文件资料"></a>文件资料</h5><p>Markdown 并不具备像 Microsoft Word 这样的文字处理程序的所有功能，但是对于创建基本文件（例如作业和信件）来说已经足够了。你可以使用 Markdown 文档创作工具来创建 Markdown 格式的文档并将其导出为 PDF 或 HTML 格式。PDF 格式是关键，因为一旦有了 PDF 文档，您就可以使用它进行任何操作：打印、通过电子邮件发送或将其上传到网站。</p>
+<p>这是我推荐的一些Markdown文档创作工具：</p>
+<ul>
+<li>Mac: MacDown、iA Writer 或 Marked</li>
+<li>iOS / Android: iA Writer</li>
+<li>Windows: ghostwriter 或 Markdown Monster</li>
+<li>Linux: ReText 或 ghostwriter</li>
+<li>Web: Dillinger 或 StackEdit</li>
+</ul>
+<p>提示： iA Writer 提供了模板用于预览、打印和导出 Markdown 格式的文档。例如，“ Academic – MLA 样式”的模板会缩进段落并添加双倍行间距。</p>
+<h5 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h5><p>在几乎所有方面，Markdown 都是记笔记的理想语法。不幸的是，两个最受欢迎的笔记应用程序 <a href="https://evernote.com/">Evernote</a> 和 <a href="https://www.onenote.com/">OneNote</a> 目前都不支持 Markdown。好消息是，其他一些笔记应用程序 <em>是</em> 支持 Markdown 的：</p>
+<ul>
+<li>Simplenote 是适用于所有平台的免费、简单的笔记应用程序。</li>
+<li>Notable 是可以在各种平台上运行的笔记应用程序。</li>
+<li>Bear 是适用于 Mac 和 iOS 设备的类似 Evernote 的应用程序。默认情况下，它并不专门针对 Markdown 的，但是你可以启用 Markdown 兼容模式。</li>
+<li>Boostnote 自称是“专为程序员设计的开源笔记应用程序”。</li>
+</ul>
+<p>如果你无法放弃 Evernote，可以试试 <a href="https://marxi.co/">Marxico</a>，一个专门针对 Evernote 的基于订阅付费的 Markdown编辑器，或在 Evernote 网站上使用 <a href="https://www.markdown.xyz/tools/markdown-here/">Markdown Here</a> 插件。</p>
+<h5 id="书籍"><a href="#书籍" class="headerlink" title="书籍"></a>书籍</h5><p>想要自行出版小说？请试试 <a href="https://leanpub.com/">Leanpub</a>，该服务可将你的 Markdown 格式的文件转换为电子书。Leanpub 以 PDF、EPUB 和 MOBI 文件格式输出你的图书。如果你要创建纸版书籍，可以将 PDF 文件上传到类似 <a href="https://kdp.amazon.com/">Kindle Direct Publishing</a> 之类的服务提供商处。要了解有关使用 Markdown 编写和自行出版书籍的更多信息，请阅读 <a href="https://medium.com/techspiration-ideas-making-it-happen/how-i-wrote-and-published-my-novel-using-only-open-source-tools-5cdfbd7c00ca">此博文</a>。</p>
+<h5 id="演示文稿"><a href="#演示文稿" class="headerlink" title="演示文稿"></a>演示文稿</h5><p>信不信由你，你可以将 Markdown 格式的文件转换成演示文稿。在 Markdown 中创建演示文稿需要一点时间来适应，但是一旦你掌握了它，你就能体会到比使用 PowerPoint 或 Keynote 之类的应用程序更快、更容易。<a href="https://remarkjs.com/">Remark</a>（<a href="https://github.com/gnab/remark">GitHub 仓库</a>）和 <a href="https://jdan.github.io/cleaver/">Cleaver</a>（<a href="https://github.com/jdan/cleaver">GitHub 仓库</a>）一样，是一种基于浏览器的、流行的 Markdown 幻灯片工具。如果你使用的是 Mac，并且希望安装一个应用程序来使用的话，请试试 <a href="https://www.decksetapp.com/">Deckset</a> 或 <a href="https://marked2app.com/">Marked</a>。</p>
+<h5 id="邮件"><a href="#邮件" class="headerlink" title="邮件"></a>邮件</h5><p>如果你需要发送大量电子邮件，并且对大多数电子邮件提供商网站上可用的格式设置控件感到厌倦，那么你将很高兴地发现有一种使用 Markdown 编写电子邮件的简便方法：Markdown Here 是一个免费、开源的浏览器扩展程序，可将 Markdown 格式的文本转换为可用于发送的 HTML。</p>
+<h5 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h5><p>Markdown 非常适合技术文档。像 GitHub 这样的公司越来越多地转向使用 Markdown 来创建其文档了，请查看此 博文 以了解如何将 Markdown 格式的文档迁移到 Jekyll。如果你是为产品或服务编写文档，请试试以下的便捷工具：</p>
+<ul>
+<li>Read the Docs 可以将你所开源的 Markdown 文件生成文档网站。只需将你的 GitHub 仓库连接到他们的服务，然后你就可以将内容推送到该仓库中，Read the Docs 会完成其余的工作。他们还为 商业实体提供服务。</li>
+<li>MkDocs 是一个快速、简单的静态站点生成器，专门用于构建项目文档。文档源文件使用 Markdown 编写，并使用一个 YAML 配置文件进行配置。MkDocs 有多个 内置主题，包括移植自 Read the Docs 的文档主题。最新的一个主题是 MkDocs Material。</li>
+<li>Docusaurus 是一个静态网站生成器，专门用于创建文档网站。它支持翻译、搜索和版本控制。</li>
+<li>VuePress 是基于 Vue 构建的静态站点生成器，并针对编写技术文档进行了优化。</li>
+<li>Jekyll 前面已经提到过它了，但它也是将 Markdown 文件生成文档网站的一个不错的选择。如果你选择 Jekyll，请务必试试 Jekyll 文档主题。</li>
+</ul>
+<h4 id="Markdown-方言"><a href="#Markdown-方言" class="headerlink" title="Markdown 方言"></a>Markdown 方言</h4><p>使用 Markdown 的过程中，最令人困惑的地方是：实际上每个 Markdown 应用程序都实现了稍有不同的 Markdown 语法。Markdown 的这些变体通常被称为 <em>flavors（方言）</em>。掌握你的应用程序所实现的 Markdown 语法是你需要注意的。</p>
+<p>为了让你了解各 Markdown 方言的概念，将它们比作语言的方言（language dialects）可能会有所帮助。华雷斯城（Ciudad Juárez）的人说西班牙语，就像巴塞罗那（Barcelona）人一样，但是两个城市使用的方言之间有很大的不同。使用不同 Markdown 应用程序的人也是如此。Dillinger 支持的 Markdown 格式与 Ulysses 有着很大的不同。</p>
+<p>实际上，这意味着当一个应用程序说它支持 “Markdown” 时，你永远也不会确切地知到它的实际意思。它说的是仅支持基本语法？还是所有基本语法加扩展语法 ？或者是某些语法的组合呢？在你阅读其文档或开始使用该应用程序之前，你永远都不会知道。</p>
+<p>如果你只是新手，我能给你的最好建议就是选择一个具有良好 Markdown 支持的应用程序。这对保持 Markdown 文件的可移植性大有帮助。你可能需要在其它应用程序中保存或使用你的 Markdown 文件，要实现这一点，你应当从使用一个具有良好 Markdown 支持的应用程序开始。你可以在 Markdown 工具列表中找到合适的应用程序。</p>
+<h4 id="其它资源"><a href="#其它资源" class="headerlink" title="其它资源"></a>其它资源</h4><p>网上有很多资源用来学习 Markdown。以下列出一些：</p>
+<ul>
+<li><a href="https://daringfireball.net/projects/markdown/">John Gruber’s Markdown documentation</a>. Markdown 的创建者编写的原始指南。</li>
+<li><a href="https://www.markdowntutorial.com/">Markdown Tutorial</a>. 一个开源网站，你能用浏览器在这个网站上尝试 Markdown。</li>
+<li><a href="https://github.com/mundimark/awesome-markdown">Awesome Markdown</a>. Markdown 工具和学习资源列表。</li>
+<li><a href="https://dave.autonoma.ca/blog/2019/05/22/typesetting-markdown-part-1">Typesetting Markdown</a>. 这是一个系列教程，介绍了使用 <a href="https://pandoc.org/">pandoc</a> 和 <a href="https://www.contextgarden.net/">ConTeXt</a> 对 Markdown 文档进行排版的系统。</li>
+</ul>
+<h3 id="速查表"><a href="#速查表" class="headerlink" title="速查表"></a>速查表</h3><h4 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h4><p>这些是 John Gruber 的原始设计文档中列出的元素。所有 Markdown 应用程序都支持这些元素。</p>
+<table>
+<thead>
+<tr>
+<th>元素</th>
+<th>Markdown 语法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>标题（Heading）</td>
+<td><code># H1## H2### H3</code></td>
+</tr>
+<tr>
+<td>粗体（Bold）</td>
+<td><code>**bold text**</code></td>
+</tr>
+<tr>
+<td>斜体（Italic）</td>
+<td><code>*italicized text*</code></td>
+</tr>
+<tr>
+<td>引用块（Blockquote）</td>
+<td><code>&gt; blockquote</code></td>
+</tr>
+<tr>
+<td>有序列表（Ordered List）</td>
+<td><code>1. First item2. Second item3. Third item</code></td>
+</tr>
+<tr>
+<td>无序列表（Unordered List）</td>
+<td><code>- First item- Second item- Third item</code></td>
+</tr>
+<tr>
+<td>代码（Code）</td>
+<td><code>code</code></td>
+</tr>
+<tr>
+<td>分隔线（Horizontal Rule）</td>
+<td><code>---</code></td>
+</tr>
+<tr>
+<td>链接（Link）</td>
+<td><code>[title](https://www.example.com)</code></td>
+</tr>
+<tr>
+<td>图片（Image）</td>
+<td><code>![alt text](image.jpg)</code></td>
+</tr>
+</tbody></table>
+<h4 id="扩展语法"><a href="#扩展语法" class="headerlink" title="扩展语法"></a>扩展语法</h4><p>这些元素通过添加额外的功能扩展了基本语法。但是，并非所有 Markdown 应用程序都支持这些元素。</p>
+<table>
+<thead>
+<tr>
+<th>元素</th>
+<th>Markdown 语法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>表格（Table）</td>
+<td></td>
+</tr>
+<tr>
+<td>代码块（Fenced Code Block）</td>
+<td><code>&#123; &quot;firstName&quot;: &quot;John&quot;, &quot;lastName&quot;: &quot;Smith&quot;, &quot;age&quot;: 25&#125;</code></td>
+</tr>
+<tr>
+<td>脚注（Footnote）</td>
+<td><code>Here&#39;s a sentence with a footnote. [^1][^1]: This is the footnote.</code></td>
+</tr>
+<tr>
+<td>标题编号（Heading ID）</td>
+<td><code>### My Great Heading &#123; #custom-id&#125;</code></td>
+</tr>
+<tr>
+<td>定义列表（Definition List）</td>
+<td><code>term: definition</code></td>
+</tr>
+<tr>
+<td>删除线（Strikethrough）</td>
+<td><code>~~The world is flat.~~</code></td>
+</tr>
+<tr>
+<td>任务列表（Task List）</td>
+<td><code>- [x] Write the press release- [ ] Update the website- [ ] Contact the media</code></td>
+</tr>
+</tbody></table>
+<h4 id="Downloads"><a href="#Downloads" class="headerlink" title="Downloads"></a>Downloads</h4><p>You can download this cheat sheet as a Markdown file for use in your Markdown application.</p>
 ]]></content>
       <categories>
         <category>写作技巧 (Write Skill)</category>
