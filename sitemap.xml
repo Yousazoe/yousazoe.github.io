@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yousazoe.top/archives/43830010.html</loc>
+    
+    <lastmod>2021-02-24</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/archives/309a2d82.html</loc>
     
     <lastmod>2021-02-24</lastmod>
@@ -1032,6 +1039,13 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>http://yousazoe.top/tags/Compilers/</loc>
+    <lastmod>2021-02-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
@@ -1204,6 +1218,13 @@
   
   <url>
     <loc>http://yousazoe.top/categories/%E4%BC%9A%E6%B4%A5%E5%A4%A7%E5%AD%A6%E5%9C%A8%E7%BA%BF%E6%B5%8B%E8%AF%84-Aizu-Online-Judge/</loc>
+    <lastmod>2021-02-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/categories/object-Object/</loc>
     <lastmod>2021-02-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
