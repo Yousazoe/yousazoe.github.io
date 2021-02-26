@@ -1896,6 +1896,302 @@
       </tags>
   </entry>
   <entry>
+    <title>游戏分析方法</title>
+    <url>/archives/f40ec98b.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggxxkrdi94j312w0ihn3n.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/60494431/Clash-Royale-Royal-Ghost">Clash Royale - Royal Ghost</a> by 
+      <a href="https://www.behance.net/dafortin">David Fortin</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文围绕游戏分析方法展开。游戏分析方法分为四个部分，首先是游戏分析方法是什么以及它的意义，也就是我们为什么要分析游戏方法；之后是关于游戏产品特性；再往下是关于游戏类型，即一个游戏品类的分析；最后是游戏类型趋势分析，游戏品类有什么变化和发展。</p>
+<span id="more"></span>
+
+
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
+<ul>
+<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#101;&#x65;&#110;&#x78;&#x75;&#64;&#116;&#101;&#x6e;&#x63;&#101;&#110;&#x74;&#46;&#x63;&#x6f;&#109;">&#108;&#101;&#x65;&#110;&#x78;&#x75;&#64;&#116;&#101;&#x6e;&#x63;&#101;&#110;&#x74;&#46;&#x63;&#x6f;&#109;</a></strong> </li>
+</ul>
+<h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
+<blockquote>
+<p>eg. 产品类型，相较同类产品的突破</p>
+</blockquote>
+<h5 id="商业前景分析"><a href="#商业前景分析" class="headerlink" title="商业前景分析"></a>商业前景分析</h5><p>关注产品的商业潜力。</p>
+<blockquote>
+<p> eg. 目标用户数量，上线后预期市场表现</p>
+</blockquote>
+<h5 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h5><p>产品上线后调整的重要依据</p>
+<blockquote>
+<p>eg. 游戏上线后留存，游戏上线后收入</p>
+</blockquote>
+<h4 id="游戏特性分析对游戏从业人员和游戏项目意义重大"><a href="#游戏特性分析对游戏从业人员和游戏项目意义重大" class="headerlink" title="游戏特性分析对游戏从业人员和游戏项目意义重大"></a>游戏特性分析对游戏从业人员和游戏项目意义重大</h4><p>游戏特性分析是游戏从业人员熟悉和理解游戏的捷径。</p>
+<p>用户在熟悉和掌握游戏分析方法后，能够在遇到游戏产品时能够快速形成认知 。</p>
+<p>项目研发的各个环节彼此影响，只有完美结合，才能诞生顶级作品，<strong>对游戏的认知</strong>就是串联所有环节的一把<strong>钥匙。</strong></p>
+<p>游戏和程序部门对设计方案提出<strong>修改反馈</strong>。团队成员对游戏的认知越<strong>深刻全面</strong>，提出的修改反馈越<strong>及时准确</strong>，反之，则可能在资源和功能制作完成并进入**<em>整合阶段**</em>才会发现问题并提出修改反馈。</p>
+<h4 id="现代游戏特性分析需要分析方法的支持"><a href="#现代游戏特性分析需要分析方法的支持" class="headerlink" title="现代游戏特性分析需要分析方法的支持"></a>现代游戏特性分析需要分析方法的支持</h4><p>目前游戏产品的<strong>分析难度</strong>与<strong>复杂度</strong>逐渐变高，因此科学的分析方法的作用愈来愈大</p>
+<p>游戏特性分析与方法（简称游戏分析方法）的目的在于<strong>减少</strong>分析过程中的<strong>随意性</strong>和<strong>片面性</strong>，使得分析更加全面与深入</p>
+<p>现在的游戏通常较为复杂，呈现<strong>混合游戏类型</strong> </p>
+<blockquote>
+<p> eg. <code>荒野大镖客2</code>的内容和玩法极为丰富</p>
+</blockquote>
+<p>相同的游戏元素在不同的游戏类型中所占<strong>权重很大</strong></p>
+<blockquote>
+<p> eg. <code>突变元年</code> <code>伊甸之路</code></p>
+</blockquote>
+<h3 id="游戏产品特性分析方法"><a href="#游戏产品特性分析方法" class="headerlink" title="游戏产品特性分析方法"></a>游戏产品特性分析方法</h3><h4 id="游戏产品特性分析的基础：认真体验游，同时不断思考"><a href="#游戏产品特性分析的基础：认真体验游，同时不断思考" class="headerlink" title="游戏产品特性分析的基础：认真体验游，同时不断思考"></a>游戏产品特性分析的基础：认真体验游，同时不断思考</h4><p>想尽可能全面，准确，深入地对游戏进行分析，必须认真体验游戏，切忌只看视频和其他用户描述。</p>
+<p>在游戏分析过程中，用户逐渐熟悉和掌握游戏分析方法，甚至形成新的分析思路，从而在遇到游戏产品时能够<strong>快速形成认知</strong>。</p>
+<ul>
+<li>多玩同类游戏：在时间允许的情况下，尽可能多玩同类游戏</li>
+<li>随时记录：游戏时多做笔记，记录和跟踪你的游戏过程与思考</li>
+<li>归纳总结：体验游戏后有逻辑的归纳总结，包括自己对游戏的感想，关注点，同类游戏比较等等</li>
+</ul>
+<h4 id="分析游戏的第一步：通过多维度评估产品"><a href="#分析游戏的第一步：通过多维度评估产品" class="headerlink" title="分析游戏的第一步：通过多维度评估产品"></a>分析游戏的第一步：通过多维度评估产品</h4><p>下文列举了评估游戏的不同维度，这些维度代表了不同的切入角度和评判标准，通过这些维度评估，我们可以获得对一款游戏产品（以<code>皇室战争</code>为例）的全面理解：</p>
+<h5 id="玩法"><a href="#玩法" class="headerlink" title="玩法"></a>玩法</h5><ul>
+<li>创新性&emsp;在手游商创造性的体现出RTS玩法</li>
+<li>耐玩性&emsp;策略深度和变化性均较为出色</li>
+<li>契合度&emsp;玩法对题材的表达是否合适</li>
+</ul>
+<h5 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h5><ul>
+<li>辨识度&emsp;美术风格辨识度高</li>
+<li>美术质量&emsp;静态效果较好，动态效果尤为出色</li>
+<li>接受度&emsp;用户接受程度较高</li>
+</ul>
+<h5 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h5><ul>
+<li>操作方式&emsp;操作十分便捷</li>
+<li>信息呈现&emsp;信息呈现清晰，用户一目了然</li>
+</ul>
+<h5 id="题材"><a href="#题材" class="headerlink" title="题材"></a>题材</h5><ul>
+<li>新颖度&emsp;玩法新颖</li>
+<li>流行度 &emsp;有 <code>部落冲突</code> 的IP加成</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggyfvj8s6fj30xc0id15c.jpg"></p>
+<h4 id="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"><a href="#分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素" class="headerlink" title="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"></a>分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素</h4><h5 id="拆解产品主要元素"><a href="#拆解产品主要元素" class="headerlink" title="拆解产品主要元素"></a>拆解产品主要元素</h5><p>这款游戏最吸引人的地方在哪里？列出你认为最吸引人的3-4各方面，可以从玩法，美术，平台等方面考虑：</p>
+<ul>
+<li>卡组策略</li>
+<li>实时对抗</li>
+<li>移动平台</li>
+<li>临场指挥</li>
+</ul>
+<h5 id="归纳游戏产品类型"><a href="#归纳游戏产品类型" class="headerlink" title="归纳游戏产品类型"></a>归纳游戏产品类型</h5><p>根据游戏最主要的乐趣点进行类型界定：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">实时对抗 + 临场发挥 -&gt; RTS类型</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="分析游戏第三步：将产品与所属类型的特性进行比较"><a href="#分析游戏第三步：将产品与所属类型的特性进行比较" class="headerlink" title="分析游戏第三步：将产品与所属类型的特性进行比较"></a>分析游戏第三步：将产品与所属类型的特性进行比较</h4><p>将产品与其所属类型的特性进行比较，分析产品继承，强化，甚至创造了哪些该类型的优点，同时解决了哪些该类型的缺点：</p>
+<h5 id="皇室战争"><a href="#皇室战争" class="headerlink" title="皇室战争"></a>皇室战争</h5><ul>
+<li>继承了什么品类的特点？</li>
+<li>在品类基础上有什么突破？</li>
+<li>解决了品类什么痛点？</li>
+</ul>
+<h5 id="RTS类型"><a href="#RTS类型" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
+<li>实时指挥的游戏运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+<li>门槛高，兴奋点滞后</li>
+<li>游戏负担重</li>
+</ul>
+<h5 id="皇室战争继承了RTS丰富策略实时对抗的优点"><a href="#皇室战争继承了RTS丰富策略实时对抗的优点" class="headerlink" title="皇室战争继承了RTS丰富策略实时对抗的优点"></a>皇室战争继承了RTS丰富策略实时对抗的优点</h5><ul>
+<li>卡牌相克明显</li>
+<li>组卡衍生战术多样性 </li>
+</ul>
+<blockquote>
+<p>eg. 巨人流，狗球流，自闭流…每个牌组只有8张牌，配卡方式多变，产生各种不同的战术</p>
+</blockquote>
+<ul>
+<li>实时操作与对抗</li>
+</ul>
+<blockquote>
+<p>eg. 实时操作单位，选择和改变策略；配合清晰合理的单位AI，营造初双方即时对抗博弈的体验</p>
+</blockquote>
+<h5 id="皇室战争-解决了RTS门槛高的问题"><a href="#皇室战争-解决了RTS门槛高的问题" class="headerlink" title="皇室战争 解决了RTS门槛高的问题"></a>皇室战争 解决了RTS门槛高的问题</h5><ul>
+<li>游戏时间短</li>
+</ul>
+<blockquote>
+<p>eg. 单局3-6分钟</p>
+</blockquote>
+<ul>
+<li>瞬时思考维度少</li>
+</ul>
+<blockquote>
+<p>eg. 恒大资源供给，简化内政，集中于战斗</p>
+</blockquote>
+<ul>
+<li>操作模式简单</li>
+</ul>
+<blockquote>
+<p>eg. 瞬时操作少，操作方式简单；在合适的时机，位置使用合适的卡牌</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggygkr3u8aj30xc0i3naz.jpg"></p>
+<h4 id="【小练习】-比较王者荣耀与RTS特性"><a href="#【小练习】-比较王者荣耀与RTS特性" class="headerlink" title="【小练习】 比较王者荣耀与RTS特性"></a>【小练习】 比较王者荣耀与RTS特性</h4><p>MOBA属于RTS的衍生类型，比较 <code>王者荣耀</code> 与RTS特性，分析其继承，强化，甚至创造了哪些RTS的优点，同时解决了哪些RTS的缺点：</p>
+<h5 id="王者荣耀"><a href="#王者荣耀" class="headerlink" title="王者荣耀"></a>王者荣耀</h5><ul>
+<li>继承了什么品类的特点？</li>
+<li>在品类基础上有什么突破？</li>
+<li>解决了品类什么痛点？</li>
+</ul>
+<h5 id="RTS类型-1"><a href="#RTS类型-1" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
+<li>实时指挥的游戏运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+<li>门槛高，兴奋点滞后</li>
+<li>游戏负担重</li>
+</ul>
+<h5 id="王者荣耀继承了RTS丰富策略实时对抗的优点"><a href="#王者荣耀继承了RTS丰富策略实时对抗的优点" class="headerlink" title="王者荣耀继承了RTS丰富策略实时对抗的优点"></a>王者荣耀继承了RTS丰富策略实时对抗的优点</h5><ul>
+<li>实时对抗的反馈与紧张+一定的战场模拟</li>
+<li>一定的策略深度（经济，成长，侦查，配合）</li>
+</ul>
+<h3 id="游戏类型特点分析方法"><a href="#游戏类型特点分析方法" class="headerlink" title="游戏类型特点分析方法"></a>游戏类型特点分析方法</h3><h4 id="分析游戏类型特点：总结同类型产品的共同点"><a href="#分析游戏类型特点：总结同类型产品的共同点" class="headerlink" title="分析游戏类型特点：总结同类型产品的共同点"></a>分析游戏类型特点：总结同类型产品的共同点</h4><h5 id="RTS同类型游戏"><a href="#RTS同类型游戏" class="headerlink" title="RTS同类型游戏"></a>RTS同类型游戏</h5><blockquote>
+<ul>
+<li><code>魔兽争霸3</code></li>
+<li><code>三国志大战</code></li>
+<li><code>全面战争:战锤2</code></li>
+<li><code>皇室战争</code></li>
+</ul>
+</blockquote>
+<h5 id="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"><a href="#一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性" class="headerlink" title="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"></a>一个游戏类型总会有各种各样的差异化产品，需要寻找它们的<strong>共性</strong></h5><blockquote>
+<p><code>魔兽争霸3</code></p>
+<ul>
+<li>PC平台 键鼠操作</li>
+<li>实时的‘内政-&gt;侦查-&gt;战斗’模式；矿点，商店等特殊地点的争夺贯穿整个游戏</li>
+</ul>
+<p><code>三国志大战</code></p>
+<ul>
+<li>街机平台 实体卡牌 + 触摸操作</li>
+<li>实时的‘资源-&gt;兵力-&gt;战斗’模式；地图区域的控制争夺贯穿整个游戏</li>
+</ul>
+<p><code>全面战争：战锤2</code></p>
+<ul>
+<li>PC平台 键鼠操作</li>
+<li>专注于实时的指挥与战斗；关键地形的争夺贯穿游戏过程</li>
+</ul>
+<p><code>皇室战争</code></p>
+<ul>
+<li>移动平台 触摸屏操作</li>
+<li>实时的 资源-&gt;兵力-&gt;战斗 模式</li>
+</ul>
+</blockquote>
+<p>共性：<strong>实时的运行机制和操作模式</strong> + <strong>丰富的策略与战场空间争夺元素</strong></p>
+<img src="https://img.3dmgame.com/UploadFiles/200908/20090831180642574.jpg" style="zoom:150%;" />
+
+
+
+<h5 id="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"><a href="#分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）" class="headerlink" title="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"></a>分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）</h5><ul>
+<li>回合制策略 - <code>文明6</code></li>
+<li>实时射击 - <code>绝地求生</code></li>
+</ul>
+<h5 id="分析游戏类型特点：寻找现实与游戏之间的映射"><a href="#分析游戏类型特点：寻找现实与游戏之间的映射" class="headerlink" title="分析游戏类型特点：寻找现实与游戏之间的映射"></a>分析游戏类型特点：寻找现实与游戏之间的映射</h5><p>很多游戏都可以视为对现实的一种映射，我们需要寻找 <strong>现实 &lt;–&gt; 游戏 的映射</strong></p>
+<blockquote>
+<p>格斗游戏</p>
+<ul>
+<li><code>VR战士</code> <code>街霸5</code> -&gt; 真实世界对战格斗</li>
+</ul>
+<p>射击</p>
+<ul>
+<li><code>绝地求生</code> <code>使命召唤系列</code> -&gt; 现实射击</li>
+</ul>
+<p>回合制策略</p>
+<ul>
+<li><code>文明6</code> <code>群星</code> -&gt; 国家管理与战争</li>
+</ul>
+<p>RTS</p>
+<ul>
+<li><code>全面战争：战锤2</code> <code>皇室战争 </code>-&gt; 战场指挥体验</li>
+</ul>
+</blockquote>
+<h5 id="通过多种方法总结游戏类型的特点"><a href="#通过多种方法总结游戏类型的特点" class="headerlink" title="通过多种方法总结游戏类型的特点"></a>通过多种方法总结游戏类型的特点</h5><p>RTS产品共性（优点）</p>
+<ul>
+<li>实时的运行机制和操作模式</li>
+<li>丰富的战场空间与时间争夺要素</li>
+<li>对于大规模策略战斗的高度还原</li>
+</ul>
+<p>RTS产品与其他类型产品差异（缺点）</p>
+<ul>
+<li>战场策略的实时还原</li>
+<li>门槛高，兴奋点滞后</li>
+</ul>
+<p>RTS产品与现实间的映射</p>
+<ul>
+<li>战场指挥体验</li>
+</ul>
+<h3 id="游戏类型趋势分析方法"><a href="#游戏类型趋势分析方法" class="headerlink" title="游戏类型趋势分析方法"></a>游戏类型趋势分析方法</h3><h4 id="分析游戏类型趋势：挑选重点产品进行对比"><a href="#分析游戏类型趋势：挑选重点产品进行对比" class="headerlink" title="分析游戏类型趋势：挑选重点产品进行对比"></a>分析游戏类型趋势：挑选重点产品进行对比</h4><p>在产品特性分析的基础上，我们库乐队特定游戏类型的发展趋势进行分析研究</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">挑选代表产品 -&gt; 总结每个产品的特点 -&gt; 比较产品</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h4 id="比较产品，寻找类型发展趋势"><a href="#比较产品，寻找类型发展趋势" class="headerlink" title="比较产品，寻找类型发展趋势"></a>比较产品，寻找类型发展趋势</h4><blockquote>
+<p>时间轴</p>
+<ul>
+<li>2002 <code>魔兽争霸3</code> 内容非常全面 策略非常丰富 指挥体验完善 操作复杂 门槛高</li>
+<li>2005 强调战斗 策略丰富 指挥体验非常出色 门槛较高 新平台</li>
+<li>2006 <code>英雄连</code></li>
+<li>2009 <code>英雄联盟</code> 强调战斗和配合 策略丰富 操作方式简单 门槛低</li>
+<li>2010 <code>星际争霸2</code> 类似于WAR3的传统RTS</li>
+<li>2013 <code>横扫千星</code></li>
+<li>2015 <code>灰蛊</code> <code>王者荣耀</code> - 英雄联盟移动版</li>
+<li>2016 <code>奇点灰烬</code></li>
+<li>2017 强调战斗 战场策略丰富 指挥体验完善 操作较为复杂 门槛较高</li>
+</ul>
+</blockquote>
+<ul>
+<li>核心：实时的策略性，战场体验，指挥感仍是RTS的核心</li>
+<li>内容侧重：不追求内容面面俱到，而是集中于某些模块（例如战斗）</li>
+<li>门槛：门槛逐渐降低，游戏节奏逐渐加快</li>
+<li>平台：新平台出现扩大用户规模</li>
+<li>技术：新技术的应用改进RTS形态（例如新操作模式），使其满足新用户的需求</li>
+</ul>
+<p>###【课后作业】 分析特定产品</p>
+<p><strong>（1）Apex Legends</strong></p>
+<ul>
+<li>继承了什么大逃杀品类的特点</li>
+<li>在大逃杀品类基础上有什么突破</li>
+<li>解决了大逃杀品类的什么问题</li>
+</ul>
+<p><strong>（2）大逃杀类型特性</strong></p>
+<blockquote>
+<ul>
+<li><code>H1Z1</code></li>
+<li><code>绝地求生</code></li>
+<li><code>堡垒之夜</code></li>
+<li><code>黑色行动4</code></li>
+</ul>
+</blockquote>
+<p><strong>（3）只狼</strong></p>
+<ul>
+<li>继承了什么ACT品类的特点</li>
+<li>在ACT品类基础上有什么突破</li>
+<li>解决了ACT品类的什么问题</li>
+</ul>
+<p><strong>（4）ACT类型特性</strong></p>
+<blockquote>
+<ul>
+<li><code>鬼泣</code></li>
+<li><code>猎天使魔女</code></li>
+<li><code>黑暗之魂</code></li>
+<li><code>战神</code></li>
+</ul>
+</blockquote>
+<br/>
+
+<center><a class="btn" href="https://github.com/Yousazoe/yousazoe.github.io/raw/master/pdf/GAE2.pdf">
+            <i class="fas fa-download"></i>游戏分析方法
+          </a></center>
+
+]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>策略游戏如何成为时间杀手</title>
     <url>/archives/b542e368.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggzkai33lfj31hc0u0nlz.jpg"></p>
@@ -2206,302 +2502,6 @@
       <tags>
         <tag>Game</tag>
         <tag>RTS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>游戏分析方法</title>
-    <url>/archives/f40ec98b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggxxkrdi94j312w0ihn3n.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/60494431/Clash-Royale-Royal-Ghost">Clash Royale - Royal Ghost</a> by 
-      <a href="https://www.behance.net/dafortin">David Fortin</a>
-    </i>
-  </font>
-</div>
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文围绕游戏分析方法展开。游戏分析方法分为四个部分，首先是游戏分析方法是什么以及它的意义，也就是我们为什么要分析游戏方法；之后是关于游戏产品特性；再往下是关于游戏类型，即一个游戏品类的分析；最后是游戏类型趋势分析，游戏品类有什么变化和发展。</p>
-<span id="more"></span>
-
-
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
-<ul>
-<li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#x65;&#110;&#120;&#117;&#x40;&#116;&#x65;&#x6e;&#x63;&#101;&#110;&#x74;&#46;&#x63;&#x6f;&#109;">&#108;&#x65;&#x65;&#110;&#120;&#117;&#x40;&#116;&#x65;&#x6e;&#x63;&#101;&#110;&#x74;&#46;&#x63;&#x6f;&#109;</a></strong> </li>
-</ul>
-<h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
-<blockquote>
-<p>eg. 产品类型，相较同类产品的突破</p>
-</blockquote>
-<h5 id="商业前景分析"><a href="#商业前景分析" class="headerlink" title="商业前景分析"></a>商业前景分析</h5><p>关注产品的商业潜力。</p>
-<blockquote>
-<p> eg. 目标用户数量，上线后预期市场表现</p>
-</blockquote>
-<h5 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h5><p>产品上线后调整的重要依据</p>
-<blockquote>
-<p>eg. 游戏上线后留存，游戏上线后收入</p>
-</blockquote>
-<h4 id="游戏特性分析对游戏从业人员和游戏项目意义重大"><a href="#游戏特性分析对游戏从业人员和游戏项目意义重大" class="headerlink" title="游戏特性分析对游戏从业人员和游戏项目意义重大"></a>游戏特性分析对游戏从业人员和游戏项目意义重大</h4><p>游戏特性分析是游戏从业人员熟悉和理解游戏的捷径。</p>
-<p>用户在熟悉和掌握游戏分析方法后，能够在遇到游戏产品时能够快速形成认知 。</p>
-<p>项目研发的各个环节彼此影响，只有完美结合，才能诞生顶级作品，<strong>对游戏的认知</strong>就是串联所有环节的一把<strong>钥匙。</strong></p>
-<p>游戏和程序部门对设计方案提出<strong>修改反馈</strong>。团队成员对游戏的认知越<strong>深刻全面</strong>，提出的修改反馈越<strong>及时准确</strong>，反之，则可能在资源和功能制作完成并进入**<em>整合阶段**</em>才会发现问题并提出修改反馈。</p>
-<h4 id="现代游戏特性分析需要分析方法的支持"><a href="#现代游戏特性分析需要分析方法的支持" class="headerlink" title="现代游戏特性分析需要分析方法的支持"></a>现代游戏特性分析需要分析方法的支持</h4><p>目前游戏产品的<strong>分析难度</strong>与<strong>复杂度</strong>逐渐变高，因此科学的分析方法的作用愈来愈大</p>
-<p>游戏特性分析与方法（简称游戏分析方法）的目的在于<strong>减少</strong>分析过程中的<strong>随意性</strong>和<strong>片面性</strong>，使得分析更加全面与深入</p>
-<p>现在的游戏通常较为复杂，呈现<strong>混合游戏类型</strong> </p>
-<blockquote>
-<p> eg. <code>荒野大镖客2</code>的内容和玩法极为丰富</p>
-</blockquote>
-<p>相同的游戏元素在不同的游戏类型中所占<strong>权重很大</strong></p>
-<blockquote>
-<p> eg. <code>突变元年</code> <code>伊甸之路</code></p>
-</blockquote>
-<h3 id="游戏产品特性分析方法"><a href="#游戏产品特性分析方法" class="headerlink" title="游戏产品特性分析方法"></a>游戏产品特性分析方法</h3><h4 id="游戏产品特性分析的基础：认真体验游，同时不断思考"><a href="#游戏产品特性分析的基础：认真体验游，同时不断思考" class="headerlink" title="游戏产品特性分析的基础：认真体验游，同时不断思考"></a>游戏产品特性分析的基础：认真体验游，同时不断思考</h4><p>想尽可能全面，准确，深入地对游戏进行分析，必须认真体验游戏，切忌只看视频和其他用户描述。</p>
-<p>在游戏分析过程中，用户逐渐熟悉和掌握游戏分析方法，甚至形成新的分析思路，从而在遇到游戏产品时能够<strong>快速形成认知</strong>。</p>
-<ul>
-<li>多玩同类游戏：在时间允许的情况下，尽可能多玩同类游戏</li>
-<li>随时记录：游戏时多做笔记，记录和跟踪你的游戏过程与思考</li>
-<li>归纳总结：体验游戏后有逻辑的归纳总结，包括自己对游戏的感想，关注点，同类游戏比较等等</li>
-</ul>
-<h4 id="分析游戏的第一步：通过多维度评估产品"><a href="#分析游戏的第一步：通过多维度评估产品" class="headerlink" title="分析游戏的第一步：通过多维度评估产品"></a>分析游戏的第一步：通过多维度评估产品</h4><p>下文列举了评估游戏的不同维度，这些维度代表了不同的切入角度和评判标准，通过这些维度评估，我们可以获得对一款游戏产品（以<code>皇室战争</code>为例）的全面理解：</p>
-<h5 id="玩法"><a href="#玩法" class="headerlink" title="玩法"></a>玩法</h5><ul>
-<li>创新性&emsp;在手游商创造性的体现出RTS玩法</li>
-<li>耐玩性&emsp;策略深度和变化性均较为出色</li>
-<li>契合度&emsp;玩法对题材的表达是否合适</li>
-</ul>
-<h5 id="视觉美术"><a href="#视觉美术" class="headerlink" title="视觉美术"></a>视觉美术</h5><ul>
-<li>辨识度&emsp;美术风格辨识度高</li>
-<li>美术质量&emsp;静态效果较好，动态效果尤为出色</li>
-<li>接受度&emsp;用户接受程度较高</li>
-</ul>
-<h5 id="交互设计"><a href="#交互设计" class="headerlink" title="交互设计"></a>交互设计</h5><ul>
-<li>操作方式&emsp;操作十分便捷</li>
-<li>信息呈现&emsp;信息呈现清晰，用户一目了然</li>
-</ul>
-<h5 id="题材"><a href="#题材" class="headerlink" title="题材"></a>题材</h5><ul>
-<li>新颖度&emsp;玩法新颖</li>
-<li>流行度 &emsp;有 <code>部落冲突</code> 的IP加成</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggyfvj8s6fj30xc0id15c.jpg"></p>
-<h4 id="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"><a href="#分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素" class="headerlink" title="分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素"></a>分析游戏第二步：以主要乐趣为切入点，拆解产品主要元素</h4><h5 id="拆解产品主要元素"><a href="#拆解产品主要元素" class="headerlink" title="拆解产品主要元素"></a>拆解产品主要元素</h5><p>这款游戏最吸引人的地方在哪里？列出你认为最吸引人的3-4各方面，可以从玩法，美术，平台等方面考虑：</p>
-<ul>
-<li>卡组策略</li>
-<li>实时对抗</li>
-<li>移动平台</li>
-<li>临场指挥</li>
-</ul>
-<h5 id="归纳游戏产品类型"><a href="#归纳游戏产品类型" class="headerlink" title="归纳游戏产品类型"></a>归纳游戏产品类型</h5><p>根据游戏最主要的乐趣点进行类型界定：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">实时对抗 + 临场发挥 -&gt; RTS类型</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="分析游戏第三步：将产品与所属类型的特性进行比较"><a href="#分析游戏第三步：将产品与所属类型的特性进行比较" class="headerlink" title="分析游戏第三步：将产品与所属类型的特性进行比较"></a>分析游戏第三步：将产品与所属类型的特性进行比较</h4><p>将产品与其所属类型的特性进行比较，分析产品继承，强化，甚至创造了哪些该类型的优点，同时解决了哪些该类型的缺点：</p>
-<h5 id="皇室战争"><a href="#皇室战争" class="headerlink" title="皇室战争"></a>皇室战争</h5><ul>
-<li>继承了什么品类的特点？</li>
-<li>在品类基础上有什么突破？</li>
-<li>解决了品类什么痛点？</li>
-</ul>
-<h5 id="RTS类型"><a href="#RTS类型" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
-<li>实时指挥的游戏运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-<li>门槛高，兴奋点滞后</li>
-<li>游戏负担重</li>
-</ul>
-<h5 id="皇室战争继承了RTS丰富策略实时对抗的优点"><a href="#皇室战争继承了RTS丰富策略实时对抗的优点" class="headerlink" title="皇室战争继承了RTS丰富策略实时对抗的优点"></a>皇室战争继承了RTS丰富策略实时对抗的优点</h5><ul>
-<li>卡牌相克明显</li>
-<li>组卡衍生战术多样性 </li>
-</ul>
-<blockquote>
-<p>eg. 巨人流，狗球流，自闭流…每个牌组只有8张牌，配卡方式多变，产生各种不同的战术</p>
-</blockquote>
-<ul>
-<li>实时操作与对抗</li>
-</ul>
-<blockquote>
-<p>eg. 实时操作单位，选择和改变策略；配合清晰合理的单位AI，营造初双方即时对抗博弈的体验</p>
-</blockquote>
-<h5 id="皇室战争-解决了RTS门槛高的问题"><a href="#皇室战争-解决了RTS门槛高的问题" class="headerlink" title="皇室战争 解决了RTS门槛高的问题"></a>皇室战争 解决了RTS门槛高的问题</h5><ul>
-<li>游戏时间短</li>
-</ul>
-<blockquote>
-<p>eg. 单局3-6分钟</p>
-</blockquote>
-<ul>
-<li>瞬时思考维度少</li>
-</ul>
-<blockquote>
-<p>eg. 恒大资源供给，简化内政，集中于战斗</p>
-</blockquote>
-<ul>
-<li>操作模式简单</li>
-</ul>
-<blockquote>
-<p>eg. 瞬时操作少，操作方式简单；在合适的时机，位置使用合适的卡牌</p>
-</blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggygkr3u8aj30xc0i3naz.jpg"></p>
-<h4 id="【小练习】-比较王者荣耀与RTS特性"><a href="#【小练习】-比较王者荣耀与RTS特性" class="headerlink" title="【小练习】 比较王者荣耀与RTS特性"></a>【小练习】 比较王者荣耀与RTS特性</h4><p>MOBA属于RTS的衍生类型，比较 <code>王者荣耀</code> 与RTS特性，分析其继承，强化，甚至创造了哪些RTS的优点，同时解决了哪些RTS的缺点：</p>
-<h5 id="王者荣耀"><a href="#王者荣耀" class="headerlink" title="王者荣耀"></a>王者荣耀</h5><ul>
-<li>继承了什么品类的特点？</li>
-<li>在品类基础上有什么突破？</li>
-<li>解决了品类什么痛点？</li>
-</ul>
-<h5 id="RTS类型-1"><a href="#RTS类型-1" class="headerlink" title="RTS类型"></a>RTS类型</h5><ul>
-<li>实时指挥的游戏运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-<li>门槛高，兴奋点滞后</li>
-<li>游戏负担重</li>
-</ul>
-<h5 id="王者荣耀继承了RTS丰富策略实时对抗的优点"><a href="#王者荣耀继承了RTS丰富策略实时对抗的优点" class="headerlink" title="王者荣耀继承了RTS丰富策略实时对抗的优点"></a>王者荣耀继承了RTS丰富策略实时对抗的优点</h5><ul>
-<li>实时对抗的反馈与紧张+一定的战场模拟</li>
-<li>一定的策略深度（经济，成长，侦查，配合）</li>
-</ul>
-<h3 id="游戏类型特点分析方法"><a href="#游戏类型特点分析方法" class="headerlink" title="游戏类型特点分析方法"></a>游戏类型特点分析方法</h3><h4 id="分析游戏类型特点：总结同类型产品的共同点"><a href="#分析游戏类型特点：总结同类型产品的共同点" class="headerlink" title="分析游戏类型特点：总结同类型产品的共同点"></a>分析游戏类型特点：总结同类型产品的共同点</h4><h5 id="RTS同类型游戏"><a href="#RTS同类型游戏" class="headerlink" title="RTS同类型游戏"></a>RTS同类型游戏</h5><blockquote>
-<ul>
-<li><code>魔兽争霸3</code></li>
-<li><code>三国志大战</code></li>
-<li><code>全面战争:战锤2</code></li>
-<li><code>皇室战争</code></li>
-</ul>
-</blockquote>
-<h5 id="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"><a href="#一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性" class="headerlink" title="一个游戏类型总会有各种各样的差异化产品，需要寻找它们的共性"></a>一个游戏类型总会有各种各样的差异化产品，需要寻找它们的<strong>共性</strong></h5><blockquote>
-<p><code>魔兽争霸3</code></p>
-<ul>
-<li>PC平台 键鼠操作</li>
-<li>实时的‘内政-&gt;侦查-&gt;战斗’模式；矿点，商店等特殊地点的争夺贯穿整个游戏</li>
-</ul>
-<p><code>三国志大战</code></p>
-<ul>
-<li>街机平台 实体卡牌 + 触摸操作</li>
-<li>实时的‘资源-&gt;兵力-&gt;战斗’模式；地图区域的控制争夺贯穿整个游戏</li>
-</ul>
-<p><code>全面战争：战锤2</code></p>
-<ul>
-<li>PC平台 键鼠操作</li>
-<li>专注于实时的指挥与战斗；关键地形的争夺贯穿游戏过程</li>
-</ul>
-<p><code>皇室战争</code></p>
-<ul>
-<li>移动平台 触摸屏操作</li>
-<li>实时的 资源-&gt;兵力-&gt;战斗 模式</li>
-</ul>
-</blockquote>
-<p>共性：<strong>实时的运行机制和操作模式</strong> + <strong>丰富的策略与战场空间争夺元素</strong></p>
-<img src="https://img.3dmgame.com/UploadFiles/200908/20090831180642574.jpg" style="zoom:150%;" />
-
-
-
-<h5 id="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"><a href="#分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）" class="headerlink" title="分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）"></a>分析游戏类型特点：比较相近类型产品的不同点（策略，实时射击）</h5><ul>
-<li>回合制策略 - <code>文明6</code></li>
-<li>实时射击 - <code>绝地求生</code></li>
-</ul>
-<h5 id="分析游戏类型特点：寻找现实与游戏之间的映射"><a href="#分析游戏类型特点：寻找现实与游戏之间的映射" class="headerlink" title="分析游戏类型特点：寻找现实与游戏之间的映射"></a>分析游戏类型特点：寻找现实与游戏之间的映射</h5><p>很多游戏都可以视为对现实的一种映射，我们需要寻找 <strong>现实 &lt;–&gt; 游戏 的映射</strong></p>
-<blockquote>
-<p>格斗游戏</p>
-<ul>
-<li><code>VR战士</code> <code>街霸5</code> -&gt; 真实世界对战格斗</li>
-</ul>
-<p>射击</p>
-<ul>
-<li><code>绝地求生</code> <code>使命召唤系列</code> -&gt; 现实射击</li>
-</ul>
-<p>回合制策略</p>
-<ul>
-<li><code>文明6</code> <code>群星</code> -&gt; 国家管理与战争</li>
-</ul>
-<p>RTS</p>
-<ul>
-<li><code>全面战争：战锤2</code> <code>皇室战争 </code>-&gt; 战场指挥体验</li>
-</ul>
-</blockquote>
-<h5 id="通过多种方法总结游戏类型的特点"><a href="#通过多种方法总结游戏类型的特点" class="headerlink" title="通过多种方法总结游戏类型的特点"></a>通过多种方法总结游戏类型的特点</h5><p>RTS产品共性（优点）</p>
-<ul>
-<li>实时的运行机制和操作模式</li>
-<li>丰富的战场空间与时间争夺要素</li>
-<li>对于大规模策略战斗的高度还原</li>
-</ul>
-<p>RTS产品与其他类型产品差异（缺点）</p>
-<ul>
-<li>战场策略的实时还原</li>
-<li>门槛高，兴奋点滞后</li>
-</ul>
-<p>RTS产品与现实间的映射</p>
-<ul>
-<li>战场指挥体验</li>
-</ul>
-<h3 id="游戏类型趋势分析方法"><a href="#游戏类型趋势分析方法" class="headerlink" title="游戏类型趋势分析方法"></a>游戏类型趋势分析方法</h3><h4 id="分析游戏类型趋势：挑选重点产品进行对比"><a href="#分析游戏类型趋势：挑选重点产品进行对比" class="headerlink" title="分析游戏类型趋势：挑选重点产品进行对比"></a>分析游戏类型趋势：挑选重点产品进行对比</h4><p>在产品特性分析的基础上，我们库乐队特定游戏类型的发展趋势进行分析研究</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">挑选代表产品 -&gt; 总结每个产品的特点 -&gt; 比较产品</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h4 id="比较产品，寻找类型发展趋势"><a href="#比较产品，寻找类型发展趋势" class="headerlink" title="比较产品，寻找类型发展趋势"></a>比较产品，寻找类型发展趋势</h4><blockquote>
-<p>时间轴</p>
-<ul>
-<li>2002 <code>魔兽争霸3</code> 内容非常全面 策略非常丰富 指挥体验完善 操作复杂 门槛高</li>
-<li>2005 强调战斗 策略丰富 指挥体验非常出色 门槛较高 新平台</li>
-<li>2006 <code>英雄连</code></li>
-<li>2009 <code>英雄联盟</code> 强调战斗和配合 策略丰富 操作方式简单 门槛低</li>
-<li>2010 <code>星际争霸2</code> 类似于WAR3的传统RTS</li>
-<li>2013 <code>横扫千星</code></li>
-<li>2015 <code>灰蛊</code> <code>王者荣耀</code> - 英雄联盟移动版</li>
-<li>2016 <code>奇点灰烬</code></li>
-<li>2017 强调战斗 战场策略丰富 指挥体验完善 操作较为复杂 门槛较高</li>
-</ul>
-</blockquote>
-<ul>
-<li>核心：实时的策略性，战场体验，指挥感仍是RTS的核心</li>
-<li>内容侧重：不追求内容面面俱到，而是集中于某些模块（例如战斗）</li>
-<li>门槛：门槛逐渐降低，游戏节奏逐渐加快</li>
-<li>平台：新平台出现扩大用户规模</li>
-<li>技术：新技术的应用改进RTS形态（例如新操作模式），使其满足新用户的需求</li>
-</ul>
-<p>###【课后作业】 分析特定产品</p>
-<p><strong>（1）Apex Legends</strong></p>
-<ul>
-<li>继承了什么大逃杀品类的特点</li>
-<li>在大逃杀品类基础上有什么突破</li>
-<li>解决了大逃杀品类的什么问题</li>
-</ul>
-<p><strong>（2）大逃杀类型特性</strong></p>
-<blockquote>
-<ul>
-<li><code>H1Z1</code></li>
-<li><code>绝地求生</code></li>
-<li><code>堡垒之夜</code></li>
-<li><code>黑色行动4</code></li>
-</ul>
-</blockquote>
-<p><strong>（3）只狼</strong></p>
-<ul>
-<li>继承了什么ACT品类的特点</li>
-<li>在ACT品类基础上有什么突破</li>
-<li>解决了ACT品类的什么问题</li>
-</ul>
-<p><strong>（4）ACT类型特性</strong></p>
-<blockquote>
-<ul>
-<li><code>鬼泣</code></li>
-<li><code>猎天使魔女</code></li>
-<li><code>黑暗之魂</code></li>
-<li><code>战神</code></li>
-</ul>
-</blockquote>
-<br/>
-
-<center><a class="btn" href="https://github.com/Yousazoe/yousazoe.github.io/raw/master/pdf/GAE2.pdf">
-            <i class="fas fa-download"></i>游戏分析方法
-          </a></center>
-
-]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
       </tags>
   </entry>
   <entry>
@@ -5773,22 +5773,11 @@
 <h3 id="两数之和"><a href="#两数之和" class="headerlink" title="两数之和"></a>两数之和</h3><p>给定一个整数数组 <code>nums</code> 和一个整数目标值 <code>target</code>，请你在该数组中找出 <strong>和为目标值</strong> 的那 <strong>两个</strong> 整数，并返回它们的数组下标。</p>
 <p>你可以假设每种输入只会对应一个答案。但是，数组中同一个元素不能使用两遍。</p>
 <p>你可以按任意顺序返回答案。</p>
-<h4 id="示例-1"><a href="#示例-1" class="headerlink" title="示例 1"></a>示例 1</h4><h5 id="输入"><a href="#输入" class="headerlink" title="输入"></a>输入</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">nums = [<span class="number">2</span>,<span class="number">7</span>,<span class="number">11</span>,<span class="number">15</span>], target = <span class="number">9</span></span><br></pre></td></tr></table></figure>
+<h4 id="示例-1"><a href="#示例-1" class="headerlink" title="示例 1"></a>示例 1</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：nums &#x3D; [2,7,11,15], target &#x3D; 9</span><br><span class="line">输出：[0,1]</span><br><span class="line">解释：因为 nums[0] + nums[1] &#x3D;&#x3D; 9 ，返回 [0, 1] 。</span><br></pre></td></tr></table></figure>
 
-<h5 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">[<span class="number">0</span>,<span class="number">1</span>]</span><br></pre></td></tr></table></figure>
+<h4 id="示例-2"><a href="#示例-2" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：nums &#x3D; [3,2,4], target &#x3D; 6</span><br><span class="line">输出：[1,2]</span><br></pre></td></tr></table></figure>
 
-<h5 id="解释"><a href="#解释" class="headerlink" title="解释"></a>解释</h5><p>因为 nums[0] + nums[1] == 9 ，返回 [0, 1] 。</p>
-<h4 id="示例-2"><a href="#示例-2" class="headerlink" title="示例 2"></a>示例 2</h4><h5 id="输入-1"><a href="#输入-1" class="headerlink" title="输入"></a>输入</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">nums = [<span class="number">3</span>,<span class="number">2</span>,<span class="number">4</span>], target = <span class="number">6</span></span><br></pre></td></tr></table></figure>
-
-
-<h5 id="输出-1"><a href="#输出-1" class="headerlink" title="输出"></a>输出</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">[<span class="number">1</span>,<span class="number">2</span>]</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="示例-3"><a href="#示例-3" class="headerlink" title="示例 3"></a>示例 3</h4><h5 id="输入-2"><a href="#输入-2" class="headerlink" title="输入"></a>输入</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">nums = [<span class="number">3</span>,<span class="number">3</span>], target = <span class="number">6</span></span><br></pre></td></tr></table></figure>
-
-
-<h5 id="输出-2"><a href="#输出-2" class="headerlink" title="输出"></a>输出</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">[<span class="number">0</span>,<span class="number">1</span>]</span><br></pre></td></tr></table></figure>
+<h4 id="示例-3"><a href="#示例-3" class="headerlink" title="示例 3"></a>示例 3</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：nums &#x3D; [3,3], target &#x3D; 6</span><br><span class="line">输出：[0,1]</span><br></pre></td></tr></table></figure>
 
 <h4 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h4><ul>
 <li>2 &lt;= nums.length &lt;= 103</li>
@@ -5807,22 +5796,11 @@
 <p>请你将两个数相加，并以相同形式返回一个表示和的链表。</p>
 <p>你可以假设除了数字 0 之外，这两个数都不会以 0 开头。</p>
 <h4 id="示例1"><a href="#示例1" class="headerlink" title="示例1"></a>示例1</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/addtwonumber1.jpg"></p>
-<h5 id="输入-3"><a href="#输入-3" class="headerlink" title="输入"></a>输入</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">l1 = [<span class="number">2</span>,<span class="number">4</span>,<span class="number">3</span>], l2 = [<span class="number">5</span>,<span class="number">6</span>,<span class="number">4</span>]</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：l1 &#x3D; [2,4,3], l2 &#x3D; [5,6,4]</span><br><span class="line">输出：[7,0,8]</span><br><span class="line">解释：342 + 465 &#x3D; 807.</span><br></pre></td></tr></table></figure>
 
-<h5 id="输出-3"><a href="#输出-3" class="headerlink" title="输出"></a>输出</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">[<span class="number">7</span>,<span class="number">0</span>,<span class="number">8</span>]</span><br></pre></td></tr></table></figure>
+<h4 id="示例-2-1"><a href="#示例-2-1" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：l1 &#x3D; [0], l2 &#x3D; [0]</span><br><span class="line">输出：[0]</span><br></pre></td></tr></table></figure>
 
-<h5 id="解释-1"><a href="#解释-1" class="headerlink" title="解释"></a>解释</h5><p>342 + 465 = 807.</p>
-<h4 id="示例2"><a href="#示例2" class="headerlink" title="示例2"></a>示例2</h4><h5 id="输入-4"><a href="#输入-4" class="headerlink" title="输入"></a>输入</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">l1 = [<span class="number">0</span>], l2 = [<span class="number">0</span>]</span><br></pre></td></tr></table></figure>
-
-<h5 id="输出-4"><a href="#输出-4" class="headerlink" title="输出"></a>输出</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">[<span class="number">0</span>]</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="示例3"><a href="#示例3" class="headerlink" title="示例3"></a>示例3</h4><h5 id="输入-5"><a href="#输入-5" class="headerlink" title="输入"></a>输入</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">l1 = [<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>], l2 = [<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>]</span><br></pre></td></tr></table></figure>
-
-<h5 id="输出-5"><a href="#输出-5" class="headerlink" title="输出"></a>输出</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">[<span class="number">8</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">9</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">1</span>]</span><br></pre></td></tr></table></figure>
-
-
+<h4 id="示例-3-1"><a href="#示例-3-1" class="headerlink" title="示例 3"></a>示例 3</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：l1 &#x3D; [9,9,9,9,9,9,9], l2 &#x3D; [9,9,9,9]</span><br><span class="line">输出：[8,9,9,9,0,0,0,1]</span><br></pre></td></tr></table></figure>
 
 <h4 id="提示-1"><a href="#提示-1" class="headerlink" title="提示"></a>提示</h4><ul>
 <li>每个链表中的节点数在范围 <code>[1, 100]</code> 内</li>
@@ -5854,6 +5832,31 @@
 <li>结果输出实际上是从<code>l3-&gt;next</code>开始的，最初始的节点并没有派上用场</li>
 </ul>
 <figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">/**</span><br><span class="line"> * Definition for singly-linked list.</span><br><span class="line"> * struct ListNode &#123;</span><br><span class="line"> *     int val;</span><br><span class="line"> *     ListNode *next;</span><br><span class="line"> *     ListNode() : val(0), next(nullptr) &#123;&#125;</span><br><span class="line"> *     ListNode(int x) : val(x), next(nullptr) &#123;&#125;</span><br><span class="line"> *     ListNode(int x, ListNode *next) : val(x), next(next) &#123;&#125;</span><br><span class="line"> * &#125;;</span><br><span class="line"> */</span><br><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) &#123;</span><br><span class="line">        int len1 = 0,len2 = 0;</span><br><span class="line">        ListNode* p = l1;</span><br><span class="line">        ListNode* q = l2;</span><br><span class="line">        </span><br><span class="line">        while(p-&gt;next != NULL)&#123;</span><br><span class="line">            len1++;</span><br><span class="line">            p = p-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        while(q-&gt;next != NULL)&#123;</span><br><span class="line">            len2++;</span><br><span class="line">            q = q-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        ListNode* zero = len1 &gt; len2 ? q : p;</span><br><span class="line"><span class="deletion">-       for(int i = 0;i &lt; len1 - len2;i++)&#123;</span></span><br><span class="line"><span class="addition">+       for(int i = 0;i &lt; abs(len1 - len2);i++)&#123;</span></span><br><span class="line">            zero-&gt;next = new ListNode(0);</span><br><span class="line">            zero = zero-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        p = l1;</span><br><span class="line">        q = l2;</span><br><span class="line">        int carry = 0,sum = 0;</span><br><span class="line">        ListNode* l3 = new ListNode(0);</span><br><span class="line">        ListNode* r = l3;</span><br><span class="line"></span><br><span class="line">        while(p != NULL &amp;&amp; q != NULL)&#123;</span><br><span class="line">            sum = carry + p-&gt;val + q-&gt;val;</span><br><span class="line">            r-&gt;next = new ListNode(sum%10);</span><br><span class="line">            carry = sum &gt;= 10 ? 1 : 0;</span><br><span class="line">            r = r-&gt;next;</span><br><span class="line">            p = p-&gt;next;</span><br><span class="line">            q = q-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"><span class="addition">+        if(carry)&#123;</span></span><br><span class="line"><span class="addition">+            r-&gt;next = new ListNode(1);</span></span><br><span class="line"><span class="addition">+            r = r-&gt;next;</span></span><br><span class="line"><span class="addition">+        &#125;</span></span><br><span class="line"></span><br><span class="line"><span class="deletion">-        return l3;</span></span><br><span class="line"><span class="addition">+        return l3-&gt;next;</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h3 id="无重复字符的最长子串"><a href="#无重复字符的最长子串" class="headerlink" title="无重复字符的最长子串"></a>无重复字符的最长子串</h3><p>给定一个字符串，请你找出其中不含有重复字符的 <strong>最长子串</strong> 的长度。</p>
+<h4 id="示例-1-1"><a href="#示例-1-1" class="headerlink" title="示例 1"></a>示例 1</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: s &#x3D; &quot;abcabcbb&quot;</span><br><span class="line">输出: 3 </span><br><span class="line">解释: 因为无重复字符的最长子串是 &quot;abc&quot;，所以其长度为 3。</span><br></pre></td></tr></table></figure>
+
+<h4 id="示例-2-2"><a href="#示例-2-2" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: s &#x3D; &quot;bbbbb&quot;</span><br><span class="line">输出: 1</span><br><span class="line">解释: 因为无重复字符的最长子串是 &quot;b&quot;，所以其长度为 1。</span><br></pre></td></tr></table></figure>
+
+<h4 id="示例-3-2"><a href="#示例-3-2" class="headerlink" title="示例 3"></a>示例 3</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: s &#x3D; &quot;pwwkew&quot;</span><br><span class="line">输出: 3</span><br><span class="line">解释: 因为无重复字符的最长子串是 &quot;wke&quot;，所以其长度为 3。</span><br><span class="line">     请注意，你的答案必须是 子串 的长度，&quot;pwke&quot; 是一个子序列，不是子串。</span><br></pre></td></tr></table></figure>
+
+<h4 id="示例-4"><a href="#示例-4" class="headerlink" title="示例 4"></a>示例 4</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: s &#x3D; &quot;&quot;</span><br><span class="line">输出: 0</span><br></pre></td></tr></table></figure>
+
+<h4 id="提示-2"><a href="#提示-2" class="headerlink" title="提示"></a>提示</h4><ul>
+<li>0 &lt;= s.length &lt;= $5 * 10^4$</li>
+<li><code>s</code> 由英文字母、数字、符号和空格组成</li>
+</ul>
+<h4 id="默认模板-1"><a href="#默认模板-1" class="headerlink" title="默认模板"></a>默认模板</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">lengthOfLongestSubstring</span><span class="params">(<span class="built_in">string</span> s)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h4 id="题解-2"><a href="#题解-2" class="headerlink" title="题解"></a>题解</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
@@ -6608,6 +6611,71 @@
       </tags>
   </entry>
   <entry>
+    <title>开始画像素画#3</title>
+    <url>/archives/90b77012.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zie8htlj31hc0u0dje.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解简单的 Aseprite 动画。</p>
+<span id="more"></span>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud6tcj7j30u008c74z.jpg"></p>
+<p>简单的 Aseprite 动画。这是系列的第 3 篇。</p>
+<h3 id="什么是动画？"><a href="#什么是动画？" class="headerlink" title="什么是动画？"></a>什么是动画？</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuggpz84g30dw05oab9.gif"></p>
+<p>动画是由一系列表现动作流程图像，按特定顺序播放，所引起的运动错觉。我们的工作就是让这个序列看起来尽可能让人信服。</p>
+<h3 id="时间轴"><a href="#时间轴" class="headerlink" title="时间轴"></a>时间轴</h3><p>首先我们要了解时间轴。它是一种在单个文件里表现多个图像的方法。每一列都是完整的图像，有一个编号，我们称之为帧。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudbdlr7j30dq02t0pm.jpg"></p>
+<p>新建帧的最简单方法是按 ALT + B。这会在当前选中帧的后面新建一个空白帧，然后选择它。你可以点击某帧来选中，或者按’,’,’.’改变选中帧，在键盘上找 &lt; 和 &gt;，比较好记。</p>
+<p>试着在不同帧上画些颜色，点击播放（Enter 键，回车）。也可以在预览窗口看，按 F7。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud72cy8j308w07idfl.jpg"></p>
+<p>你可能感觉“这么多快捷键我怎么记得住”，没关系。记住快捷键需要时间跟肌肉记忆，而且大部分也都可以只用鼠标完成。当你记不住某个快捷键，就在菜单里找找，或者查看 Aseprite 的官方键位参考图：<a href="https://www.aseprite.org/quickref/">https://www.aseprite.org/quickref/</a></p>
+<h3 id="一个非常简单的动画"><a href="#一个非常简单的动画" class="headerlink" title="一个非常简单的动画"></a>一个非常简单的动画</h3><p>画动画有非常多的技巧，比如应该按什么顺序绘制每帧，如何优化，不过我们暂时先讲我了解的最简单的一个技巧：一个“连续动作（straight-ahead）”的弹球动画。“连续动作”是指我们按顺序一帧一帧直接画，而不是先画出重要帧，再添加中间帧的方式。先建个 <code>32</code> 乘 <code>32</code> 的文件，随便选个调色盘。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudcea72j30pt03r741.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud855nnj30ig03va9t.jpg"></p>
+<p>动画第一帧我称之为“静止”。它既是概念图，定义动画的风格，也是这个序列的停止位置。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudekly7j30440440ba.jpg"></p>
+<p>你要注意这帧里添加的细节，因为下一帧也要保持相同的风格。</p>
+<p>接着复制这一帧（ALT + N），把它向上移动 <code>4</code> 像素，像这样：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudajda0j303u03w0b4.jpg"></p>
+<p>之后，继续向上 <code>3</code> 像素，<code>2</code> 像素，<code>1</code> 像素，多保持相同位置一帧，后面反过来一遍。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud8k43lj30gt029741.jpg"></p>
+<h3 id="节奏"><a href="#节奏" class="headerlink" title="节奏"></a>节奏</h3><p>尽管节奏的运用是个相当复杂的主题，甚至可以做一整期专门的教程，我现在简单的从技术方面讲一点，让你可以自己去试试。</p>
+<p>我们来添加一些节奏。球在落地后停一段时间，再跳起来。要增加某一帧的持续时间，右键 点击帧上的数字，选择帧属性（Frame Properties）。然后你可以输入你想要这帧持续的时间。我们试下 <code>300</code> 毫秒。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud9h0a1j308d05qdfm.jpg"></p>
+<p>你也可以选中多个帧，同时修改持续时间。对于一次性快速修改整个动画的速度很有帮助。</p>
+<h3 id="挤压和拉伸"><a href="#挤压和拉伸" class="headerlink" title="挤压和拉伸"></a>挤压和拉伸</h3><p>这里我们可以做的一个简单改进是添加一点挤压和拉伸，一种让动作看起来更流畅自然的技术。包括沿着运动方向拉伸或者压扁物体，同时保持整体面积。</p>
+<p>具体原理可以参考之前的教程：</p>
+<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MjIyOTc2Nw==&mid=2649561430&idx=1&sn=50924ed496f2b1a5e91c843bbc4c8384&chksm=beb0c9be89c740a8f0eb6ce3e7f98fc4a65e7bdba4cfe0738ee0e67594721cd5278f81a87de7&scene=21#wechat_redirect">链接：像素宝典 #8</a></p>
+<p>我们复制下第一帧，把它水平拉伸，垂直方向上压扁，保持整体体积。保持体积是很重要的，这样物体不会看起来变小或者变大了。当然这属于在我们更有经验之后可以尝试打破的规则，不过暂时还是遵守它。这帧也被称作“准备帧”，主要用来让下一帧发生的动作看起来更强烈。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud7nyyfj30bi0640kw.jpg"></p>
+<p>现在我们用同样方式复制并修改球落地时的帧，可以画的更加夸张点。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudd1yndj307m07l0f8.jpg"></p>
+<p>最后是垂直拉伸（同时水平挤压）跳起的第一帧和下落的最后一帧，当球速度最快的时候。这就完成了，我们看下结果：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudbt9f1j30mg07uwe9.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud9yqt4g305c05cmxc.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudaxnfug305c05cq31.gif"></p>
+<h3 id="保存动画"><a href="#保存动画" class="headerlink" title="保存动画"></a>保存动画</h3><p>尽管保存成 <code>.aseprite</code> 格式可以保存动画，你可能想要把动画导出，发到网上或者用到游戏里。</p>
+<p>网上，最简单的方式是保存成 <code>gif</code>，用 <code>FIle &gt; Export...</code> 命令。勾选 <code>Export for twitter</code>， 如果你想把最后一帧修改成 <code>1/4</code> 的持续时间，这样即使 Twitter 把它转成 MP4 也可以完美播放。</p>
+<p>当导出给游戏使用时，通常会保存成 png，动画一般会分解成一个精灵表或者图像序列。要保存成图像序列，选择导出为 png 格式，导出的文件后都带一个数字，像是“<code>bounce00.png</code>”。这回导出多个文件，像“<code>bounce01.png</code>”，“<code>bounce02.png</code>”等等。</p>
+<p>有的引擎需要精灵表的形式，不需要手工处理，只要选择 File&gt;Export Sprite Sheet，可以改改设置，有很多参数可选。</p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhude6qwbg305c05c747.gif"></p>
+<p>接下来我建议多试试时间轴，试着画点别的动画。你可以看看我其他的教程，选个感兴趣的跟着画画。</p>
+<p>另外也可以试试经典的初学者练习，画一个面粉袋走和跳的动画：<br><a href="https://www.youtube.com/watch?v=C8cbTGshkZw%E3%80%82">https://www.youtube.com/watch?v=C8cbTGshkZw。</a></p>
+<p>暂时保持低一点的分辨率和颜色数，不要太复杂了。</p>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开始画像素画#4</title>
     <url>/archives/ec50fbbd.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zj79coyj31hc0u00x5.jpg"></p>
@@ -6681,71 +6749,6 @@
 <h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>练习！找更多的照片和其他的照明示例，直接复制，越多越好。去实验，用很有限的调色盘，你能否用一个颜色代替其他颜色？学习是关键，放大图片，看看他们的像素是什么样的，缩放照片看看什么可行，什么不可行。</p>
 <p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhurprpryj30e60e6glf.jpg"></p>
 <p>注意观察周围，在街上走时，看看光在建筑上的效果，看看它如何穿过你的手指。没什么比观察日常生活更能教会你明和暗的知识了。</p>
-]]></content>
-      <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开始画像素画#3</title>
-    <url>/archives/90b77012.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zie8htlj31hc0u0dje.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解简单的 Aseprite 动画。</p>
-<span id="more"></span>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud6tcj7j30u008c74z.jpg"></p>
-<p>简单的 Aseprite 动画。这是系列的第 3 篇。</p>
-<h3 id="什么是动画？"><a href="#什么是动画？" class="headerlink" title="什么是动画？"></a>什么是动画？</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuggpz84g30dw05oab9.gif"></p>
-<p>动画是由一系列表现动作流程图像，按特定顺序播放，所引起的运动错觉。我们的工作就是让这个序列看起来尽可能让人信服。</p>
-<h3 id="时间轴"><a href="#时间轴" class="headerlink" title="时间轴"></a>时间轴</h3><p>首先我们要了解时间轴。它是一种在单个文件里表现多个图像的方法。每一列都是完整的图像，有一个编号，我们称之为帧。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudbdlr7j30dq02t0pm.jpg"></p>
-<p>新建帧的最简单方法是按 ALT + B。这会在当前选中帧的后面新建一个空白帧，然后选择它。你可以点击某帧来选中，或者按’,’,’.’改变选中帧，在键盘上找 &lt; 和 &gt;，比较好记。</p>
-<p>试着在不同帧上画些颜色，点击播放（Enter 键，回车）。也可以在预览窗口看，按 F7。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud72cy8j308w07idfl.jpg"></p>
-<p>你可能感觉“这么多快捷键我怎么记得住”，没关系。记住快捷键需要时间跟肌肉记忆，而且大部分也都可以只用鼠标完成。当你记不住某个快捷键，就在菜单里找找，或者查看 Aseprite 的官方键位参考图：<a href="https://www.aseprite.org/quickref/">https://www.aseprite.org/quickref/</a></p>
-<h3 id="一个非常简单的动画"><a href="#一个非常简单的动画" class="headerlink" title="一个非常简单的动画"></a>一个非常简单的动画</h3><p>画动画有非常多的技巧，比如应该按什么顺序绘制每帧，如何优化，不过我们暂时先讲我了解的最简单的一个技巧：一个“连续动作（straight-ahead）”的弹球动画。“连续动作”是指我们按顺序一帧一帧直接画，而不是先画出重要帧，再添加中间帧的方式。先建个 <code>32</code> 乘 <code>32</code> 的文件，随便选个调色盘。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudcea72j30pt03r741.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud855nnj30ig03va9t.jpg"></p>
-<p>动画第一帧我称之为“静止”。它既是概念图，定义动画的风格，也是这个序列的停止位置。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudekly7j30440440ba.jpg"></p>
-<p>你要注意这帧里添加的细节，因为下一帧也要保持相同的风格。</p>
-<p>接着复制这一帧（ALT + N），把它向上移动 <code>4</code> 像素，像这样：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudajda0j303u03w0b4.jpg"></p>
-<p>之后，继续向上 <code>3</code> 像素，<code>2</code> 像素，<code>1</code> 像素，多保持相同位置一帧，后面反过来一遍。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud8k43lj30gt029741.jpg"></p>
-<h3 id="节奏"><a href="#节奏" class="headerlink" title="节奏"></a>节奏</h3><p>尽管节奏的运用是个相当复杂的主题，甚至可以做一整期专门的教程，我现在简单的从技术方面讲一点，让你可以自己去试试。</p>
-<p>我们来添加一些节奏。球在落地后停一段时间，再跳起来。要增加某一帧的持续时间，右键 点击帧上的数字，选择帧属性（Frame Properties）。然后你可以输入你想要这帧持续的时间。我们试下 <code>300</code> 毫秒。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud9h0a1j308d05qdfm.jpg"></p>
-<p>你也可以选中多个帧，同时修改持续时间。对于一次性快速修改整个动画的速度很有帮助。</p>
-<h3 id="挤压和拉伸"><a href="#挤压和拉伸" class="headerlink" title="挤压和拉伸"></a>挤压和拉伸</h3><p>这里我们可以做的一个简单改进是添加一点挤压和拉伸，一种让动作看起来更流畅自然的技术。包括沿着运动方向拉伸或者压扁物体，同时保持整体面积。</p>
-<p>具体原理可以参考之前的教程：</p>
-<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MjIyOTc2Nw==&mid=2649561430&idx=1&sn=50924ed496f2b1a5e91c843bbc4c8384&chksm=beb0c9be89c740a8f0eb6ce3e7f98fc4a65e7bdba4cfe0738ee0e67594721cd5278f81a87de7&scene=21#wechat_redirect">链接：像素宝典 #8</a></p>
-<p>我们复制下第一帧，把它水平拉伸，垂直方向上压扁，保持整体体积。保持体积是很重要的，这样物体不会看起来变小或者变大了。当然这属于在我们更有经验之后可以尝试打破的规则，不过暂时还是遵守它。这帧也被称作“准备帧”，主要用来让下一帧发生的动作看起来更强烈。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud7nyyfj30bi0640kw.jpg"></p>
-<p>现在我们用同样方式复制并修改球落地时的帧，可以画的更加夸张点。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudd1yndj307m07l0f8.jpg"></p>
-<p>最后是垂直拉伸（同时水平挤压）跳起的第一帧和下落的最后一帧，当球速度最快的时候。这就完成了，我们看下结果：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudbt9f1j30mg07uwe9.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud9yqt4g305c05cmxc.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudaxnfug305c05cq31.gif"></p>
-<h3 id="保存动画"><a href="#保存动画" class="headerlink" title="保存动画"></a>保存动画</h3><p>尽管保存成 <code>.aseprite</code> 格式可以保存动画，你可能想要把动画导出，发到网上或者用到游戏里。</p>
-<p>网上，最简单的方式是保存成 <code>gif</code>，用 <code>FIle &gt; Export...</code> 命令。勾选 <code>Export for twitter</code>， 如果你想把最后一帧修改成 <code>1/4</code> 的持续时间，这样即使 Twitter 把它转成 MP4 也可以完美播放。</p>
-<p>当导出给游戏使用时，通常会保存成 png，动画一般会分解成一个精灵表或者图像序列。要保存成图像序列，选择导出为 png 格式，导出的文件后都带一个数字，像是“<code>bounce00.png</code>”。这回导出多个文件，像“<code>bounce01.png</code>”，“<code>bounce02.png</code>”等等。</p>
-<p>有的引擎需要精灵表的形式，不需要手工处理，只要选择 File&gt;Export Sprite Sheet，可以改改设置，有很多参数可选。</p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhude6qwbg305c05c747.gif"></p>
-<p>接下来我建议多试试时间轴，试着画点别的动画。你可以看看我其他的教程，选个感兴趣的跟着画画。</p>
-<p>另外也可以试试经典的初学者练习，画一个面粉袋走和跳的动画：<br><a href="https://www.youtube.com/watch?v=C8cbTGshkZw%E3%80%82">https://www.youtube.com/watch?v=C8cbTGshkZw。</a></p>
-<p>暂时保持低一点的分辨率和颜色数，不要太复杂了。</p>
 ]]></content>
       <categories>
         <category>开始画像素画 (Making Pixel Art)</category>
@@ -7087,136 +7090,6 @@
       </tags>
   </entry>
   <entry>
-    <title>进程与线程</title>
-    <url>/archives/44cf1d42.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloe6t3mq4g312w0lwqva.gif"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/107924435/MTVOS?tracking_source=search_projects_recommended%7COS">MTV.OS</a> by 
-      <a href="https://www.behance.net/charlx">Charl- x</a>
-    </i>
-  </font>
-</div>
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
-<span id="more"></span>
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>操作系统 (Operating Systems)</category>
-      </categories>
-      <tags>
-        <tag>Mooc</tag>
-        <tag>OS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Aseprite教学-Aseprite编译教程</title>
-    <url>/archives/5d59087d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nt7r5jxj314w0i3788.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将根据官方文档介绍Aseprite的编译安装方法。</p>
-<span id="more"></span>
-
-
-
-
-
-<h3 id="官方说明文档"><a href="#官方说明文档" class="headerlink" title="官方说明文档"></a>官方说明文档</h3><h4 id="Platforms"><a href="#Platforms" class="headerlink" title="Platforms"></a>Platforms</h4><p>You should be able to compile Aseprite successfully on the following platforms:</p>
-<ul>
-<li>Windows 10 + <a href="https://imgur.com/a/7zs51IT">Visual Studio Community 2019 + Windows 10.0.18362.0 SDK</a> (we don’t support <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#mingw">MinGW</a>)</li>
-<li>macOS 10.15.3 Mojave + Xcode 11.2.1 + macOS 10.15 SDK (older version might work)</li>
-<li>Linux + gcc 9.2 or clang 9.0</li>
-</ul>
-<h4 id="Get-the-source-code"><a href="#Get-the-source-code" class="headerlink" title="Get the source code"></a>Get the source code</h4><p>You can get the source code downloading a <code>Aseprite-v1.x-Source.zip</code> file from the latest Aseprite release (<em>in that case please follow the compilation instructions inside the <code>.zip</code> file</em>):</p>
-<p><a href="https://github.com/aseprite/aseprite/releases">https://github.com/aseprite/aseprite/releases</a></p>
-<p>Or you can clone the repository and all its submodules using the following command:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone --recursive https:&#x2F;&#x2F;github.com&#x2F;aseprite&#x2F;aseprite.git</span><br></pre></td></tr></table></figure>
-
-<p>To update an existing clone you can use the following commands:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">git pull</span><br><span class="line">git submodule update --init --recursive</span><br></pre></td></tr></table></figure>
-
-<p>You can use <a href="https://git-for-windows.github.io/">Git for Windows</a> to clone the repository on Windows.</p>
-<h4 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h4><p>To compile Aseprite you will need:</p>
-<ul>
-<li>The latest version of <a href="https://cmake.org/">CMake</a> (3.14 or greater)</li>
-<li><a href="https://ninja-build.org/">Ninja</a> build system</li>
-<li>And a compiled version of the <code>aseprite-m81</code> branch of the <a href="https://github.com/aseprite/skia#readme">Skia library</a>. There are <a href="https://github.com/aseprite/skia/releases">pre-built packages available</a>. You can get some extra information in the <a href="https://github.com/aseprite/laf#dependencies"><em>laf</em> dependencies</a> page.</li>
-</ul>
-<h5 id="Windows-dependencies"><a href="#Windows-dependencies" class="headerlink" title="Windows dependencies"></a>Windows dependencies</h5><ul>
-<li>Windows 10 (we don’t support cross-compiling)</li>
-<li><a href="https://visualstudio.microsoft.com/downloads/">Visual Studio Community 2019</a> (we don’t support <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#mingw">MinGW</a>)</li>
-<li>The <a href="https://imgur.com/a/7zs51IT">Desktop development with C++ item + Windows 10.0.18362.0 SDK</a> from the Visual Studio installer</li>
-</ul>
-<h5 id="macOS-dependencies"><a href="#macOS-dependencies" class="headerlink" title="macOS dependencies"></a>macOS dependencies</h5><p>On macOS you will need macOS 10.15 SDK and Xcode 11.2.1 (older versions might work).</p>
-<h5 id="Linux-dependencies"><a href="#Linux-dependencies" class="headerlink" title="Linux dependencies"></a>Linux dependencies</h5><p>You will need the following dependencies on Ubuntu/Debian:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-get install -y g++ cmake ninja-build libx11-dev libxcursor-dev libxi-dev libgl1-mesa-dev libfontconfig1-dev</span><br></pre></td></tr></table></figure>
-
-<p>On Fedora:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo dnf install -y gcc-c++ cmake ninja-build libX11-devel libXcursor-devel libXi-devel mesa-libGL-devel fontconfig-devel</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="Compiling"><a href="#Compiling" class="headerlink" title="Compiling"></a>Compiling</h4><ol>
-<li><p><a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#get-the-source-code">Get Aseprite code</a>, put it in a folder like <code>C:\aseprite</code>, and create a <code>build</code> directory inside to leave all the files that are result of the compilation process (<code>.exe</code>, <code>.lib</code>, <code>.obj</code>, <code>.a</code>, <code>.o</code>, etc).</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite</span><br><span class="line">mkdir build</span><br></pre></td></tr></table></figure>
-
-<p>In this way, if you want to start with a fresh copy of Aseprite source code, you can remove the <code>build</code> directory and start again.</p>
-</li>
-<li><p>Enter in the new directory and execute <code>cmake</code>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite\build</span><br><span class="line">cmake -G Ninja -DLAF_BACKEND&#x3D;skia ..</span><br></pre></td></tr></table></figure>
-
-<p>Here <code>cmake</code> needs different options depending on your platform. You must check the details for <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#windows-details">Windows</a>, <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#macos-details">macOS</a>, and <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#linux-details">Linux</a>. Some <code>cmake</code> options can be modified using tools like <a href="https://cmake.org/cmake/help/latest/manual/ccmake.1.html"><code>ccmake</code></a> or <a href="https://cmake.org/cmake/help/latest/manual/cmake-gui.1.html"><code>cmake-gui</code></a>.</p>
-</li>
-<li><p>After you have executed and configured <code>cmake</code>, you have to compile the project:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite\build</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>When <code>ninja</code> finishes the compilation, you can find the executable inside <code>C:\aseprite\build\bin\aseprite.exe</code>.</p>
-</li>
-</ol>
-<h5 id="Windows-details"><a href="#Windows-details" class="headerlink" title="Windows details"></a>Windows details</h5><p>Open a <a href="https://docs.microsoft.com/en-us/dotnet/framework/tools/developer-command-prompt-for-vs">developer command prompt</a> or in the command line (<code>cmd.exe</code>) call:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">call &quot;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat&quot; -arch&#x3D;x64</span><br></pre></td></tr></table></figure>
-
-<p>And then</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo -DLAF_BACKEND&#x3D;skia -DSKIA_DIR&#x3D;C:\deps\skia -DSKIA_LIBRARY_DIR&#x3D;C:\deps\skia\out\Release-x64 -DSKIA_LIBRARY&#x3D;C:\deps\skia\out\Release-x64\skia.lib -G Ninja ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
-
-<p>In this case, <code>C:\deps\skia</code> is the directory where Skia was compiled or uncompressed.</p>
-<h6 id="MinGW"><a href="#MinGW" class="headerlink" title="MinGW"></a>MinGW</h6><p>We don’t support MinGW compiler and it might bring some problems into the compilation process. If you see that the detected C++ compiler by cmake is <code>C:\MinGW\bin\c++.exe</code> or something similar, you have to get rid of MinGW path (<code>C:\MinGW\bin</code>) from the <code>PATH</code> environment variable and run cmake again from scratch, so the Visual Studio C++ compiler (<code>cl.exe</code>) is used instead.</p>
-<p>You can define the <code>CMAKE_IGNORE_PATH</code> variable when running cmake for the first time in case that you don’t know or don’t want to modify the <code>PATH</code> variable, e.g.:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cmake -DCMAKE_IGNORE_PATH&#x3D;C:\MinGW\bin ...</span><br></pre></td></tr></table></figure>
-
-<p>More information in <a href="https://github.com/aseprite/aseprite/issues/2449">issue #2449</a></p>
-<h5 id="macOS-details"><a href="#macOS-details" class="headerlink" title="macOS details"></a>macOS details</h5><p>Run <code>cmake</code> with the following parameters and then <code>ninja</code>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake \</span><br><span class="line">  -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo \</span><br><span class="line">  -DCMAKE_OSX_ARCHITECTURES&#x3D;x86_64 \</span><br><span class="line">  -DCMAKE_OSX_DEPLOYMENT_TARGET&#x3D;10.9 \</span><br><span class="line">  -DCMAKE_OSX_SYSROOT&#x3D;&#x2F;Applications&#x2F;Xcode.app&#x2F;Contents&#x2F;Developer&#x2F;Platforms&#x2F;MacOSX.platform&#x2F;Developer&#x2F;SDKs&#x2F;MacOSX10.15.sdk \</span><br><span class="line">  -DLAF_BACKEND&#x3D;skia \</span><br><span class="line">  -DSKIA_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia \</span><br><span class="line">  -DSKIA_LIBRARY_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64 \</span><br><span class="line">  -DSKIA_LIBRARY&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64&#x2F;libskia.a \</span><br><span class="line">  -G Ninja \</span><br><span class="line">  ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
-
-<p>In this case, <code>$HOME/deps/skia</code> is the directory where Skia was compiled or downloaded. Make sure that <code>CMAKE_OSX_SYSROOT</code> is pointing to the correct SDK directory (in this case <code>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk</code>), but it could be different in your Mac.</p>
-<h5 id="Issues-with-Retina-displays"><a href="#Issues-with-Retina-displays" class="headerlink" title="Issues with Retina displays"></a>Issues with Retina displays</h5><p>If you have a Retina display, check the following issue:</p>
-<p><a href="https://github.com/aseprite/aseprite/issues/589">https://github.com/aseprite/aseprite/issues/589</a></p>
-<h5 id="Linux-details"><a href="#Linux-details" class="headerlink" title="Linux details"></a>Linux details</h5><p>Run <code>cmake</code> with the following parameters and then <code>ninja</code>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake \</span><br><span class="line">  -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo \</span><br><span class="line">  -DLAF_BACKEND&#x3D;skia \</span><br><span class="line">  -DSKIA_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia \</span><br><span class="line">  -DSKIA_LIBRARY_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64 \</span><br><span class="line">  -DSKIA_LIBRARY&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64&#x2F;libskia.a \</span><br><span class="line">  -G Ninja \</span><br><span class="line">  ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
-
-<p>In this case, <code>$HOME/deps/skia</code> is the directory where Skia was compiled or uncompressed.</p>
-<h4 id="Using-shared-third-party-libraries"><a href="#Using-shared-third-party-libraries" class="headerlink" title="Using shared third party libraries"></a>Using shared third party libraries</h4><p>If you don’t want to use the embedded code of third party libraries (i.e. to use your installed versions), you can disable static linking configuring each <code>USE_SHARED_</code> option.</p>
-<p>After running <code>cmake -G</code>, you can edit <code>build/CMakeCache.txt</code> file, and enable the <code>USE_SHARED_</code> flag (set its value to <code>ON</code>) of the library that you want to be linked dynamically.</p>
-<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
-<li><a href="http://macappstore.org/aseprite/">Install Aseprite on Mac OSX</a></li>
-<li><a href="https://www.bestgcc.cn/20181204194300.html">Mac 编译安装 Aseprite</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/156775243">【Aseprite】像素绘制软件编译（白嫖）教程</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>像素美工 (Pixel Art Designing)</category>
-      </categories>
-      <tags>
-        <tag>Aseprite</tag>
-        <tag>CMake</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>操作系统概述</title>
     <url>/archives/33c82dd4.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gky8z6eslsg312w0lwhdu.gif"></p>
@@ -7261,57 +7134,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#x79;&#111;&#110;&#x67;&#x40;&#x74;&#115;&#x69;&#x6e;&#x67;&#104;&#117;&#97;&#x2e;&#101;&#x64;&#x75;&#46;&#x63;&#110;">&#x78;&#x79;&#111;&#110;&#x67;&#x40;&#x74;&#115;&#x69;&#x6e;&#x67;&#104;&#117;&#97;&#x2e;&#101;&#x64;&#x75;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#x79;&#x6f;&#x6e;&#x67;&#64;&#x74;&#x73;&#105;&#110;&#103;&#x68;&#x75;&#97;&#46;&#101;&#100;&#x75;&#x2e;&#x63;&#x6e;">&#120;&#x79;&#x6f;&#x6e;&#x67;&#64;&#x74;&#x73;&#105;&#110;&#103;&#x68;&#x75;&#97;&#46;&#101;&#100;&#x75;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#117;&#x63;&#104;&#101;&#x6e;&#x40;&#109;&#97;&#105;&#108;&#46;&#116;&#x73;&#x69;&#110;&#103;&#x68;&#117;&#x61;&#46;&#x65;&#x64;&#x75;&#x2e;&#99;&#110;">&#x79;&#117;&#x63;&#104;&#101;&#x6e;&#x40;&#109;&#97;&#105;&#108;&#46;&#116;&#x73;&#x69;&#110;&#103;&#x68;&#117;&#x61;&#46;&#x65;&#x64;&#x75;&#x2e;&#99;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#x75;&#x63;&#104;&#101;&#110;&#x40;&#109;&#97;&#105;&#x6c;&#x2e;&#x74;&#x73;&#x69;&#110;&#x67;&#104;&#117;&#97;&#46;&#101;&#x64;&#x75;&#46;&#x63;&#110;">&#x79;&#x75;&#x63;&#104;&#101;&#110;&#x40;&#109;&#97;&#105;&#x6c;&#x2e;&#x74;&#x73;&#x69;&#110;&#x67;&#104;&#117;&#97;&#46;&#101;&#x64;&#x75;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#116;&#x65;&#x72;&#x6e;&#x61;&#x6c;&#46;&#x6e;&#48;&#x38;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#101;&#116;&#x65;&#x72;&#x6e;&#x61;&#x6c;&#46;&#x6e;&#48;&#x38;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#x74;&#x65;&#114;&#x6e;&#97;&#108;&#46;&#110;&#48;&#x38;&#64;&#103;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#101;&#x74;&#x65;&#114;&#x6e;&#97;&#108;&#46;&#110;&#48;&#x38;&#64;&#103;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#x62;&#x6a;&#x65;&#99;&#x74;&#107;&#x75;&#97;&#x6e;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#99;&#111;&#x6d;">&#x6f;&#x62;&#x6a;&#x65;&#99;&#x74;&#107;&#x75;&#97;&#x6e;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#98;&#106;&#101;&#99;&#x74;&#x6b;&#x75;&#x61;&#x6e;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#111;&#98;&#106;&#101;&#99;&#x74;&#x6b;&#x75;&#x61;&#x6e;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#x72;&#x64;&#x66;&#x72;&#x61;&#110;&#107;&#64;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#99;&#x72;&#x64;&#x66;&#x72;&#x61;&#110;&#107;&#64;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#99;&#x72;&#x64;&#x66;&#114;&#97;&#x6e;&#107;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#109;">&#99;&#x72;&#x64;&#x66;&#114;&#97;&#x6e;&#107;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#x61;&#x63;&#x63;&#111;&#x72;&#x61;&#x77;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">&#116;&#x61;&#x63;&#x63;&#111;&#x72;&#x61;&#x77;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x74;&#97;&#99;&#x63;&#111;&#x72;&#97;&#x77;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x74;&#97;&#99;&#x63;&#111;&#x72;&#97;&#x77;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#105;&#110;&#x79;&#117;&#x6e;&#x78;&#105;&#110;&#x67;&#x30;&#x30;&#48;&#49;&#x40;&#49;&#54;&#51;&#x2e;&#99;&#111;&#109;">&#x78;&#105;&#110;&#x79;&#117;&#x6e;&#x78;&#105;&#110;&#x67;&#x30;&#x30;&#48;&#49;&#x40;&#49;&#54;&#51;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#117;&#x6e;&#120;&#x69;&#110;&#103;&#x30;&#x30;&#48;&#x31;&#x40;&#49;&#54;&#51;&#46;&#99;&#111;&#109;">&#x78;&#x69;&#x6e;&#121;&#117;&#x6e;&#120;&#x69;&#110;&#103;&#x30;&#x30;&#48;&#x31;&#x40;&#49;&#54;&#51;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#110;&#111;&#99;&#x75;&#x69;&#x6c;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#103;&#110;&#111;&#99;&#x75;&#x69;&#x6c;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#x6e;&#111;&#99;&#x75;&#x69;&#108;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x67;&#x6e;&#111;&#99;&#x75;&#x69;&#108;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#121;&#x61;&#105;&#x72;&#105;&#x61;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#109;&#121;&#x61;&#105;&#x72;&#105;&#x61;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#x79;&#97;&#x69;&#114;&#105;&#97;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#109;&#x79;&#97;&#x69;&#114;&#105;&#97;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#104;&#x61;&#110;&#x67;&#114;&#97;&#105;&#110;&#x39;&#49;&#x31;&#x40;&#49;&#x36;&#51;&#46;&#99;&#111;&#x6d;">&#122;&#104;&#x61;&#110;&#x67;&#114;&#97;&#105;&#110;&#x39;&#49;&#x31;&#x40;&#49;&#x36;&#51;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#x68;&#97;&#x6e;&#x67;&#114;&#97;&#x69;&#110;&#57;&#x31;&#x31;&#x40;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#109;">&#x7a;&#x68;&#97;&#x6e;&#x67;&#114;&#97;&#x69;&#110;&#57;&#x31;&#x31;&#x40;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#103;&#120;&#x78;&#49;&#x32;&#48;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#103;&#103;&#120;&#x78;&#49;&#x32;&#48;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#103;&#120;&#120;&#49;&#x32;&#48;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#103;&#103;&#120;&#120;&#49;&#x32;&#48;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -7494,6 +7367,136 @@
       <tags>
         <tag>Mooc</tag>
         <tag>OS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>进程与线程</title>
+    <url>/archives/44cf1d42.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloe6t3mq4g312w0lwqva.gif"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/107924435/MTVOS?tracking_source=search_projects_recommended%7COS">MTV.OS</a> by 
+      <a href="https://www.behance.net/charlx">Charl- x</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
+<span id="more"></span>
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>操作系统 (Operating Systems)</category>
+      </categories>
+      <tags>
+        <tag>Mooc</tag>
+        <tag>OS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Aseprite教学-Aseprite编译教程</title>
+    <url>/archives/5d59087d.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nt7r5jxj314w0i3788.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将根据官方文档介绍Aseprite的编译安装方法。</p>
+<span id="more"></span>
+
+
+
+
+
+<h3 id="官方说明文档"><a href="#官方说明文档" class="headerlink" title="官方说明文档"></a>官方说明文档</h3><h4 id="Platforms"><a href="#Platforms" class="headerlink" title="Platforms"></a>Platforms</h4><p>You should be able to compile Aseprite successfully on the following platforms:</p>
+<ul>
+<li>Windows 10 + <a href="https://imgur.com/a/7zs51IT">Visual Studio Community 2019 + Windows 10.0.18362.0 SDK</a> (we don’t support <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#mingw">MinGW</a>)</li>
+<li>macOS 10.15.3 Mojave + Xcode 11.2.1 + macOS 10.15 SDK (older version might work)</li>
+<li>Linux + gcc 9.2 or clang 9.0</li>
+</ul>
+<h4 id="Get-the-source-code"><a href="#Get-the-source-code" class="headerlink" title="Get the source code"></a>Get the source code</h4><p>You can get the source code downloading a <code>Aseprite-v1.x-Source.zip</code> file from the latest Aseprite release (<em>in that case please follow the compilation instructions inside the <code>.zip</code> file</em>):</p>
+<p><a href="https://github.com/aseprite/aseprite/releases">https://github.com/aseprite/aseprite/releases</a></p>
+<p>Or you can clone the repository and all its submodules using the following command:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone --recursive https:&#x2F;&#x2F;github.com&#x2F;aseprite&#x2F;aseprite.git</span><br></pre></td></tr></table></figure>
+
+<p>To update an existing clone you can use the following commands:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">git pull</span><br><span class="line">git submodule update --init --recursive</span><br></pre></td></tr></table></figure>
+
+<p>You can use <a href="https://git-for-windows.github.io/">Git for Windows</a> to clone the repository on Windows.</p>
+<h4 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h4><p>To compile Aseprite you will need:</p>
+<ul>
+<li>The latest version of <a href="https://cmake.org/">CMake</a> (3.14 or greater)</li>
+<li><a href="https://ninja-build.org/">Ninja</a> build system</li>
+<li>And a compiled version of the <code>aseprite-m81</code> branch of the <a href="https://github.com/aseprite/skia#readme">Skia library</a>. There are <a href="https://github.com/aseprite/skia/releases">pre-built packages available</a>. You can get some extra information in the <a href="https://github.com/aseprite/laf#dependencies"><em>laf</em> dependencies</a> page.</li>
+</ul>
+<h5 id="Windows-dependencies"><a href="#Windows-dependencies" class="headerlink" title="Windows dependencies"></a>Windows dependencies</h5><ul>
+<li>Windows 10 (we don’t support cross-compiling)</li>
+<li><a href="https://visualstudio.microsoft.com/downloads/">Visual Studio Community 2019</a> (we don’t support <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#mingw">MinGW</a>)</li>
+<li>The <a href="https://imgur.com/a/7zs51IT">Desktop development with C++ item + Windows 10.0.18362.0 SDK</a> from the Visual Studio installer</li>
+</ul>
+<h5 id="macOS-dependencies"><a href="#macOS-dependencies" class="headerlink" title="macOS dependencies"></a>macOS dependencies</h5><p>On macOS you will need macOS 10.15 SDK and Xcode 11.2.1 (older versions might work).</p>
+<h5 id="Linux-dependencies"><a href="#Linux-dependencies" class="headerlink" title="Linux dependencies"></a>Linux dependencies</h5><p>You will need the following dependencies on Ubuntu/Debian:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-get install -y g++ cmake ninja-build libx11-dev libxcursor-dev libxi-dev libgl1-mesa-dev libfontconfig1-dev</span><br></pre></td></tr></table></figure>
+
+<p>On Fedora:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo dnf install -y gcc-c++ cmake ninja-build libX11-devel libXcursor-devel libXi-devel mesa-libGL-devel fontconfig-devel</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="Compiling"><a href="#Compiling" class="headerlink" title="Compiling"></a>Compiling</h4><ol>
+<li><p><a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#get-the-source-code">Get Aseprite code</a>, put it in a folder like <code>C:\aseprite</code>, and create a <code>build</code> directory inside to leave all the files that are result of the compilation process (<code>.exe</code>, <code>.lib</code>, <code>.obj</code>, <code>.a</code>, <code>.o</code>, etc).</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite</span><br><span class="line">mkdir build</span><br></pre></td></tr></table></figure>
+
+<p>In this way, if you want to start with a fresh copy of Aseprite source code, you can remove the <code>build</code> directory and start again.</p>
+</li>
+<li><p>Enter in the new directory and execute <code>cmake</code>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite\build</span><br><span class="line">cmake -G Ninja -DLAF_BACKEND&#x3D;skia ..</span><br></pre></td></tr></table></figure>
+
+<p>Here <code>cmake</code> needs different options depending on your platform. You must check the details for <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#windows-details">Windows</a>, <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#macos-details">macOS</a>, and <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#linux-details">Linux</a>. Some <code>cmake</code> options can be modified using tools like <a href="https://cmake.org/cmake/help/latest/manual/ccmake.1.html"><code>ccmake</code></a> or <a href="https://cmake.org/cmake/help/latest/manual/cmake-gui.1.html"><code>cmake-gui</code></a>.</p>
+</li>
+<li><p>After you have executed and configured <code>cmake</code>, you have to compile the project:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite\build</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>When <code>ninja</code> finishes the compilation, you can find the executable inside <code>C:\aseprite\build\bin\aseprite.exe</code>.</p>
+</li>
+</ol>
+<h5 id="Windows-details"><a href="#Windows-details" class="headerlink" title="Windows details"></a>Windows details</h5><p>Open a <a href="https://docs.microsoft.com/en-us/dotnet/framework/tools/developer-command-prompt-for-vs">developer command prompt</a> or in the command line (<code>cmd.exe</code>) call:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">call &quot;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat&quot; -arch&#x3D;x64</span><br></pre></td></tr></table></figure>
+
+<p>And then</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo -DLAF_BACKEND&#x3D;skia -DSKIA_DIR&#x3D;C:\deps\skia -DSKIA_LIBRARY_DIR&#x3D;C:\deps\skia\out\Release-x64 -DSKIA_LIBRARY&#x3D;C:\deps\skia\out\Release-x64\skia.lib -G Ninja ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
+
+<p>In this case, <code>C:\deps\skia</code> is the directory where Skia was compiled or uncompressed.</p>
+<h6 id="MinGW"><a href="#MinGW" class="headerlink" title="MinGW"></a>MinGW</h6><p>We don’t support MinGW compiler and it might bring some problems into the compilation process. If you see that the detected C++ compiler by cmake is <code>C:\MinGW\bin\c++.exe</code> or something similar, you have to get rid of MinGW path (<code>C:\MinGW\bin</code>) from the <code>PATH</code> environment variable and run cmake again from scratch, so the Visual Studio C++ compiler (<code>cl.exe</code>) is used instead.</p>
+<p>You can define the <code>CMAKE_IGNORE_PATH</code> variable when running cmake for the first time in case that you don’t know or don’t want to modify the <code>PATH</code> variable, e.g.:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cmake -DCMAKE_IGNORE_PATH&#x3D;C:\MinGW\bin ...</span><br></pre></td></tr></table></figure>
+
+<p>More information in <a href="https://github.com/aseprite/aseprite/issues/2449">issue #2449</a></p>
+<h5 id="macOS-details"><a href="#macOS-details" class="headerlink" title="macOS details"></a>macOS details</h5><p>Run <code>cmake</code> with the following parameters and then <code>ninja</code>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake \</span><br><span class="line">  -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo \</span><br><span class="line">  -DCMAKE_OSX_ARCHITECTURES&#x3D;x86_64 \</span><br><span class="line">  -DCMAKE_OSX_DEPLOYMENT_TARGET&#x3D;10.9 \</span><br><span class="line">  -DCMAKE_OSX_SYSROOT&#x3D;&#x2F;Applications&#x2F;Xcode.app&#x2F;Contents&#x2F;Developer&#x2F;Platforms&#x2F;MacOSX.platform&#x2F;Developer&#x2F;SDKs&#x2F;MacOSX10.15.sdk \</span><br><span class="line">  -DLAF_BACKEND&#x3D;skia \</span><br><span class="line">  -DSKIA_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia \</span><br><span class="line">  -DSKIA_LIBRARY_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64 \</span><br><span class="line">  -DSKIA_LIBRARY&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64&#x2F;libskia.a \</span><br><span class="line">  -G Ninja \</span><br><span class="line">  ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
+
+<p>In this case, <code>$HOME/deps/skia</code> is the directory where Skia was compiled or downloaded. Make sure that <code>CMAKE_OSX_SYSROOT</code> is pointing to the correct SDK directory (in this case <code>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk</code>), but it could be different in your Mac.</p>
+<h5 id="Issues-with-Retina-displays"><a href="#Issues-with-Retina-displays" class="headerlink" title="Issues with Retina displays"></a>Issues with Retina displays</h5><p>If you have a Retina display, check the following issue:</p>
+<p><a href="https://github.com/aseprite/aseprite/issues/589">https://github.com/aseprite/aseprite/issues/589</a></p>
+<h5 id="Linux-details"><a href="#Linux-details" class="headerlink" title="Linux details"></a>Linux details</h5><p>Run <code>cmake</code> with the following parameters and then <code>ninja</code>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake \</span><br><span class="line">  -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo \</span><br><span class="line">  -DLAF_BACKEND&#x3D;skia \</span><br><span class="line">  -DSKIA_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia \</span><br><span class="line">  -DSKIA_LIBRARY_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64 \</span><br><span class="line">  -DSKIA_LIBRARY&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64&#x2F;libskia.a \</span><br><span class="line">  -G Ninja \</span><br><span class="line">  ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
+
+<p>In this case, <code>$HOME/deps/skia</code> is the directory where Skia was compiled or uncompressed.</p>
+<h4 id="Using-shared-third-party-libraries"><a href="#Using-shared-third-party-libraries" class="headerlink" title="Using shared third party libraries"></a>Using shared third party libraries</h4><p>If you don’t want to use the embedded code of third party libraries (i.e. to use your installed versions), you can disable static linking configuring each <code>USE_SHARED_</code> option.</p>
+<p>After running <code>cmake -G</code>, you can edit <code>build/CMakeCache.txt</code> file, and enable the <code>USE_SHARED_</code> flag (set its value to <code>ON</code>) of the library that you want to be linked dynamically.</p>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
+<li><a href="http://macappstore.org/aseprite/">Install Aseprite on Mac OSX</a></li>
+<li><a href="https://www.bestgcc.cn/20181204194300.html">Mac 编译安装 Aseprite</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/156775243">【Aseprite】像素绘制软件编译（白嫖）教程</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>像素美工 (Pixel Art Designing)</category>
+      </categories>
+      <tags>
+        <tag>Aseprite</tag>
+        <tag>CMake</tag>
       </tags>
   </entry>
   <entry>
@@ -8036,55 +8039,57 @@
       </tags>
   </entry>
   <entry>
-    <title>像素宝典#3</title>
-    <url>/archives/a2511f33.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z6hdoorj31hc0u0tiu.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解水、火的特效、无缝循环、植物和骷髅。</p>
+    <title>像素宝典#1</title>
+    <url>/archives/5b27815c.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5yziapgij31hc0u0ak5.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解简单的闪光效果、烟雾效果、攻击动画和跑步循环。</p>
 <span id="more"></span>
 
 
 
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmib88u5vj30u008c74z.jpg"></p>
-<h3 id="水"><a href="#水" class="headerlink" title="水"></a>水</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibewya6g30e80e8dy9.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmib97v9lg30e80e8qmm.gif"></p>
-<p>这估计是至今为止我做的最复杂的一节了，不过希望对大家有帮助！水也不是我的专长，所以为了这节我找了非常多资料。</p>
-<p>再次重申，这些都不是什么金科玉律，只是我自己画水时候的思路。这也不是真实世界里水的行为，只是这样我觉着更酷。</p>
-<p>画水对我来说就是关于流动。我总是注意去循环，让所有东西都一直在移动。</p>
-<p>感谢大家一如既往的支持，做这个系列我也很开心。这个系列走到现在都是靠各位 patreons（patreon 上的资助者）和大家的积极分享。</p>
-<h3 id="火"><a href="#火" class="headerlink" title="火"></a>火</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibgn0cag30e80e8aq8-20210210113920843.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibftf9dg30e80e84gh-20210210113911873.gif"></p>
-<p>火的教程来了！</p>
-<p>很难形容怎么去画火，所以这节文字特别多。我画的时候会结合自己的观察，也会参考其他人的作品。这也是学习画大部分东西的好办法。</p>
-<p>感谢每个人的支持，不论是资助还是帮忙分享！</p>
-<p>这个老哥这几节就迷上流动了，啥都是流动的。</p>
-<h3 id="无缝循环"><a href="#无缝循环" class="headerlink" title="无缝循环"></a>无缝循环</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibgeds8g30e80e845r.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-000122694wb.gif"></p>
-<p>这节有点抽象，我试着用自己做循环的过程给大家说明。</p>
-<p>我觉得学习做无缝循环的时候，练习是非常重要的。所以我建议大家多多练习。</p>
-<p>感谢大家的支持，下周见！</p>
-<p><strong>风农：左下角那个火焰，每个绿色的线代表的区间都是一个火苗生成到消散的区间。</strong></p>
-<p><strong>火苗生成是从最底层开始，最小只有一个绿色的点。</strong></p>
-<h3 id="植物-1"><a href="#植物-1" class="headerlink" title="植物 1"></a>植物 1</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibedsczg30e80e8k2j.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibdtzilg30e80e8k37.gif"></p>
-<p>这节与其说是教程，更像是一些技巧集合，和一些画蔬菜时候要注意的地方。</p>
-<p>我最大的建议是不要画噪点。加纹理是好的，但是纹理产生噪点太多的话画面会很怪。</p>
-<p>所以我都是先处理外形，再是光照，最后才是细节。</p>
-<p>我之前的像素画基础也是类似的集合，里面解释了孤立像素以及保持低数量的像素块。</p>
-<p>这期教程基本上是用的 Endesga （twitter.com/endesga）的 32 色调色盘。</p>
-<p>图片版：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibh44x8j30pk0g1wgm.jpg"></p>
-<h3 id="骷髅和骨头"><a href="#骷髅和骨头" class="headerlink" title="骷髅和骨头"></a>骷髅和骨头</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibd1fjbg30e80e81ky.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibfgxawg30e80e84qq.gif"></p>
-<p>这里是我画骷髅跟骨头时后的一些思路。</p>
-<p>大部分时候我感觉都是在跟低分辨率较劲，与其说是画画，更像是解密，但我还是很喜欢这个过程。</p>
-<p>下面是图里放不下的几个点：</p>
-<ul>
-<li>没什么比露天的肋骨更能说明“我已经死了”。用条纹图案在角色胸口画就可以。</li>
-<li>这完全是关于图形识别。人的思维总是想到处看到人脸，利用这点。</li>
-<li>跟其他情况不同，噪点在这里不是什么大问题，我通常会把所有东西都搞得很脏，腐蚀的厉害。</li>
-</ul>
-<p>感谢所有赞助者和大家的分享！</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glijhstr5fj30u008c74z.jpg"></p>
+<h3 id="简单的闪光效果"><a href="#简单的闪光效果" class="headerlink" title="简单的闪光效果"></a>简单的闪光效果</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glijhu4pzrg30gg0hsqdi.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji9bylbg30gg0hs130.gif"></p>
+<p>这是个简单的闪光动画，最重要的就是时机的掌握。第三帧可以掠过大部分你想闪的区域。</p>
+<p>可以只用左边的简单效果，或者插入一个空白帧后，再加上右边的额外闪光效果。甚至是只用这个额外的部分，取决于实际的效果。</p>
+<h3 id="简单的攻击动画"><a href="#简单的攻击动画" class="headerlink" title="简单的攻击动画"></a>简单的攻击动画</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glijhwy03pg30e80e87it.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glijhyq5xhg30e80e8n9u-20210210112914871.gif"></p>
+<p>这个稍微复杂点，如何画个最简洁的攻击动画</p>
+<p>做攻击动画最重要的一点就是让玩家输入后瞬间得到反馈。所以第一帧就要立即覆盖攻击判定区域，不要加预判动作，啥都别加。</p>
+<p>整个动作非常的快，还要确保他返回到空闲状态。我通常会额外加一点回弹（第八帧），让动作更有趣一点。</p>
+<blockquote>
+<p>风农：大家要注意这里说的是个简单的动画，如果你的目的是做出某种带有硬直的，或者有起手动作的动画，那肯定要加入一些预备动作的帧。</p>
+<p>其实这里的重点是给反馈，无论是视觉上的还是听觉上的，要迅速的给玩家一个输入的反馈。</p>
+</blockquote>
+<h3 id="烟雾"><a href="#烟雾" class="headerlink" title="烟雾"></a>烟雾</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji6rab1g30e80e8gp4-20210210112943160.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji0bi5wg30e80e8qgs.gif"></p>
+<p>每次处理烟雾，水花，火焰这种复杂系统的动画时，我会把这个系统分解成零件，再把这些部分分别画出来。</p>
+<p>考虑一整团烟雾是如何运动的太复杂了，但是一个小的部分的运动相对来说简单一些。</p>
+<p>最后那个例子是个循环烟雾的效果，跟另外几个的区别在于，我差不多每 4 帧就多生成一些烟雾。并且在第一帧延续最后一帧的粒子效果。以后我会对这个循环动画做一期教程讲解。</p>
+<blockquote>
+<p>风农：最后那个循环动画，大家注意看，就是当烟雾快没了的时候，就再生成几个新的大块，同时最后一帧没有消散的粒子，在第一帧里延续下来。这样就循环起来了。拆开看更清楚。</p>
+</blockquote>
+<h3 id="攻击动画-tips"><a href="#攻击动画-tips" class="headerlink" title="攻击动画 tips"></a>攻击动画 tips</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji1yks4g30e609ctb7.gif"></p>
+<p>这个小 tip 是为了回答来自 Cam 的提问：</p>
+<p>“如果剑在角色身前，该怎么画剑的动画？有什么区别吗？剑停在身后的时候那个弧线比较好懂，我想知道在身前的话该怎么画。”</p>
+<p>好问题，如果剑在身前，直接把它往下移动看起来没什么力。有时候，剑，拳头，或者别的什么东西不在你想要的位置，你可能觉得要加个准备帧。这没错，<strong>但是这可以做个假</strong>。我通常会用个”风斩“，或者其他的模糊效果来模拟它。假装攻击是从你想要的位置发起的，而且极大的夸张了整个动作。玩家不会察觉到缺少了准备帧。另外一个技巧就是用长点的返回动画。</p>
+<p>还有，声明一下，上个教程虽然没提，但是我们做的是”玩家的动画“。敌人的动画是应该有准备帧的。有些游戏里玩家也有准备帧，（像恶魔城 Castlevania）。后面我会在进阶一点的攻击动画教程里详细讲，但一般是需要遵守这条法则的，除非你想让玩家感到无力，或者让敌人不好预测，这类东西。</p>
+<p>风农：教程里频繁出现 anticipation frame 这个词，我通常翻译为准备帧。这个概念可以在网上搜到，比如维基百科有个动画的 12 项基本法则，里面有这么一条：</p>
+<blockquote>
+<p>预期动作（Anticipation）</p>
+<p>物体从静止到开始动作前会有所谓的预期动作，可让观众能预知下个动作。例如从高空往下跳跃时会先弯曲膝盖再跳、正在跑步的人要停止跑步前会逐渐变慢步伐等等。在动画中适当加入预期动作不仅可增添生动性，亦可给予观众惊喜性。</p>
+</blockquote>
+<p>感兴趣的可以去看看另外一些法则，如果你需要示例比对，可以去看猫和老鼠，这些东西基本都是美式动漫的风格。</p>
+<h3 id="简单跑步循环"><a href="#简单跑步循环" class="headerlink" title="简单跑步循环"></a>简单跑步循环</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji7o366g30e80e8dlg.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji64j3ig30e80e8dr9.gif"></p>
+<p>大家好像非常想要个走/跑的教程，这就来了。走/跑的动画还是很复杂的，我尽力做出了我能做到的最简洁的动作。我计划对这个主题再做几个教程，关注不同的部位，比如手臂，腿，头部运动，倾斜度等等。</p>
+<p>对学习走/跑动画的同学，我最大的建议是<strong>注意头部的运动</strong>。即使手和腿的动作不太好，但只要头部动作够好，就可以让人信服。</p>
+<p>现在我解释下为什么选这个跑步循环。可能很多人不会喜欢这个“跳起”帧，更想用“过渡位置”帧，像这种：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji3an8cj302m02r0ak.jpg"></p>
+<p>这种也完全 ok。这里只是我能想到的最简单的方式，来做出适合 platformer 类型的跑步动作。走/跑的动画很能体现角色的个性，所以会有无数种方式来做。</p>
+<p>我倾向于“跳起”帧的原因是它非常容易复制，往下拉一两个像素，再稍微动动手和腿，就能得到个“下落”帧。我觉得这种方法做快跑动画非常高效。</p>
+<p>另一个原因是，如果第一帧是个跳跃，就感觉角色瞬间扎进了动作里，让动画更有活力。</p>
 ]]></content>
       <categories>
         <category>像素宝典 (Pixel Dictionary)</category>
@@ -8143,6 +8148,66 @@
 <p>对于我来说乐趣的核心就是学习。这也是为什么每次我在关卡里加了东西，都会问自己：“这里我是要教什么？”以及“我需要玩家做什么？”。</p>
 <p>另外一个重要的点就是节奏。我会在一些困难的区域之后，加上一些安全区域或者是强力道具，让玩家能缓口气，试试新东西。这就是曲线的凹点，这能让玩家感觉下一阶段变得更难，而不需要我们真的设计的特别难来打击玩家。</p>
 <p>非常感谢 Matt Thorson 对这一节内容的支持。</p>
+]]></content>
+      <categories>
+        <category>像素宝典 (Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>像素宝典#3</title>
+    <url>/archives/a2511f33.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z6hdoorj31hc0u0tiu.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解水、火的特效、无缝循环、植物和骷髅。</p>
+<span id="more"></span>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmib88u5vj30u008c74z.jpg"></p>
+<h3 id="水"><a href="#水" class="headerlink" title="水"></a>水</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibewya6g30e80e8dy9.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmib97v9lg30e80e8qmm.gif"></p>
+<p>这估计是至今为止我做的最复杂的一节了，不过希望对大家有帮助！水也不是我的专长，所以为了这节我找了非常多资料。</p>
+<p>再次重申，这些都不是什么金科玉律，只是我自己画水时候的思路。这也不是真实世界里水的行为，只是这样我觉着更酷。</p>
+<p>画水对我来说就是关于流动。我总是注意去循环，让所有东西都一直在移动。</p>
+<p>感谢大家一如既往的支持，做这个系列我也很开心。这个系列走到现在都是靠各位 patreons（patreon 上的资助者）和大家的积极分享。</p>
+<h3 id="火"><a href="#火" class="headerlink" title="火"></a>火</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibgn0cag30e80e8aq8-20210210113920843.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibftf9dg30e80e84gh-20210210113911873.gif"></p>
+<p>火的教程来了！</p>
+<p>很难形容怎么去画火，所以这节文字特别多。我画的时候会结合自己的观察，也会参考其他人的作品。这也是学习画大部分东西的好办法。</p>
+<p>感谢每个人的支持，不论是资助还是帮忙分享！</p>
+<p>这个老哥这几节就迷上流动了，啥都是流动的。</p>
+<h3 id="无缝循环"><a href="#无缝循环" class="headerlink" title="无缝循环"></a>无缝循环</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibgeds8g30e80e845r.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-000122694wb.gif"></p>
+<p>这节有点抽象，我试着用自己做循环的过程给大家说明。</p>
+<p>我觉得学习做无缝循环的时候，练习是非常重要的。所以我建议大家多多练习。</p>
+<p>感谢大家的支持，下周见！</p>
+<p><strong>风农：左下角那个火焰，每个绿色的线代表的区间都是一个火苗生成到消散的区间。</strong></p>
+<p><strong>火苗生成是从最底层开始，最小只有一个绿色的点。</strong></p>
+<h3 id="植物-1"><a href="#植物-1" class="headerlink" title="植物 1"></a>植物 1</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibedsczg30e80e8k2j.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibdtzilg30e80e8k37.gif"></p>
+<p>这节与其说是教程，更像是一些技巧集合，和一些画蔬菜时候要注意的地方。</p>
+<p>我最大的建议是不要画噪点。加纹理是好的，但是纹理产生噪点太多的话画面会很怪。</p>
+<p>所以我都是先处理外形，再是光照，最后才是细节。</p>
+<p>我之前的像素画基础也是类似的集合，里面解释了孤立像素以及保持低数量的像素块。</p>
+<p>这期教程基本上是用的 Endesga （twitter.com/endesga）的 32 色调色盘。</p>
+<p>图片版：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibh44x8j30pk0g1wgm.jpg"></p>
+<h3 id="骷髅和骨头"><a href="#骷髅和骨头" class="headerlink" title="骷髅和骨头"></a>骷髅和骨头</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibd1fjbg30e80e81ky.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibfgxawg30e80e84qq.gif"></p>
+<p>这里是我画骷髅跟骨头时后的一些思路。</p>
+<p>大部分时候我感觉都是在跟低分辨率较劲，与其说是画画，更像是解密，但我还是很喜欢这个过程。</p>
+<p>下面是图里放不下的几个点：</p>
+<ul>
+<li>没什么比露天的肋骨更能说明“我已经死了”。用条纹图案在角色胸口画就可以。</li>
+<li>这完全是关于图形识别。人的思维总是想到处看到人脸，利用这点。</li>
+<li>跟其他情况不同，噪点在这里不是什么大问题，我通常会把所有东西都搞得很脏，腐蚀的厉害。</li>
+</ul>
+<p>感谢所有赞助者和大家的分享！</p>
 ]]></content>
       <categories>
         <category>像素宝典 (Pixel Dictionary)</category>
@@ -8889,68 +8954,6 @@
       <tags>
         <tag>Game Develop</tag>
         <tag>Unity</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>像素宝典#1</title>
-    <url>/archives/5b27815c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5yziapgij31hc0u0ak5.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解简单的闪光效果、烟雾效果、攻击动画和跑步循环。</p>
-<span id="more"></span>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glijhstr5fj30u008c74z.jpg"></p>
-<h3 id="简单的闪光效果"><a href="#简单的闪光效果" class="headerlink" title="简单的闪光效果"></a>简单的闪光效果</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glijhu4pzrg30gg0hsqdi.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji9bylbg30gg0hs130.gif"></p>
-<p>这是个简单的闪光动画，最重要的就是时机的掌握。第三帧可以掠过大部分你想闪的区域。</p>
-<p>可以只用左边的简单效果，或者插入一个空白帧后，再加上右边的额外闪光效果。甚至是只用这个额外的部分，取决于实际的效果。</p>
-<h3 id="简单的攻击动画"><a href="#简单的攻击动画" class="headerlink" title="简单的攻击动画"></a>简单的攻击动画</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glijhwy03pg30e80e87it.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glijhyq5xhg30e80e8n9u-20210210112914871.gif"></p>
-<p>这个稍微复杂点，如何画个最简洁的攻击动画</p>
-<p>做攻击动画最重要的一点就是让玩家输入后瞬间得到反馈。所以第一帧就要立即覆盖攻击判定区域，不要加预判动作，啥都别加。</p>
-<p>整个动作非常的快，还要确保他返回到空闲状态。我通常会额外加一点回弹（第八帧），让动作更有趣一点。</p>
-<blockquote>
-<p>风农：大家要注意这里说的是个简单的动画，如果你的目的是做出某种带有硬直的，或者有起手动作的动画，那肯定要加入一些预备动作的帧。</p>
-<p>其实这里的重点是给反馈，无论是视觉上的还是听觉上的，要迅速的给玩家一个输入的反馈。</p>
-</blockquote>
-<h3 id="烟雾"><a href="#烟雾" class="headerlink" title="烟雾"></a>烟雾</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji6rab1g30e80e8gp4-20210210112943160.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji0bi5wg30e80e8qgs.gif"></p>
-<p>每次处理烟雾，水花，火焰这种复杂系统的动画时，我会把这个系统分解成零件，再把这些部分分别画出来。</p>
-<p>考虑一整团烟雾是如何运动的太复杂了，但是一个小的部分的运动相对来说简单一些。</p>
-<p>最后那个例子是个循环烟雾的效果，跟另外几个的区别在于，我差不多每 4 帧就多生成一些烟雾。并且在第一帧延续最后一帧的粒子效果。以后我会对这个循环动画做一期教程讲解。</p>
-<blockquote>
-<p>风农：最后那个循环动画，大家注意看，就是当烟雾快没了的时候，就再生成几个新的大块，同时最后一帧没有消散的粒子，在第一帧里延续下来。这样就循环起来了。拆开看更清楚。</p>
-</blockquote>
-<h3 id="攻击动画-tips"><a href="#攻击动画-tips" class="headerlink" title="攻击动画 tips"></a>攻击动画 tips</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji1yks4g30e609ctb7.gif"></p>
-<p>这个小 tip 是为了回答来自 Cam 的提问：</p>
-<p>“如果剑在角色身前，该怎么画剑的动画？有什么区别吗？剑停在身后的时候那个弧线比较好懂，我想知道在身前的话该怎么画。”</p>
-<p>好问题，如果剑在身前，直接把它往下移动看起来没什么力。有时候，剑，拳头，或者别的什么东西不在你想要的位置，你可能觉得要加个准备帧。这没错，<strong>但是这可以做个假</strong>。我通常会用个”风斩“，或者其他的模糊效果来模拟它。假装攻击是从你想要的位置发起的，而且极大的夸张了整个动作。玩家不会察觉到缺少了准备帧。另外一个技巧就是用长点的返回动画。</p>
-<p>还有，声明一下，上个教程虽然没提，但是我们做的是”玩家的动画“。敌人的动画是应该有准备帧的。有些游戏里玩家也有准备帧，（像恶魔城 Castlevania）。后面我会在进阶一点的攻击动画教程里详细讲，但一般是需要遵守这条法则的，除非你想让玩家感到无力，或者让敌人不好预测，这类东西。</p>
-<p>风农：教程里频繁出现 anticipation frame 这个词，我通常翻译为准备帧。这个概念可以在网上搜到，比如维基百科有个动画的 12 项基本法则，里面有这么一条：</p>
-<blockquote>
-<p>预期动作（Anticipation）</p>
-<p>物体从静止到开始动作前会有所谓的预期动作，可让观众能预知下个动作。例如从高空往下跳跃时会先弯曲膝盖再跳、正在跑步的人要停止跑步前会逐渐变慢步伐等等。在动画中适当加入预期动作不仅可增添生动性，亦可给予观众惊喜性。</p>
-</blockquote>
-<p>感兴趣的可以去看看另外一些法则，如果你需要示例比对，可以去看猫和老鼠，这些东西基本都是美式动漫的风格。</p>
-<h3 id="简单跑步循环"><a href="#简单跑步循环" class="headerlink" title="简单跑步循环"></a>简单跑步循环</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji7o366g30e80e8dlg.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji64j3ig30e80e8dr9.gif"></p>
-<p>大家好像非常想要个走/跑的教程，这就来了。走/跑的动画还是很复杂的，我尽力做出了我能做到的最简洁的动作。我计划对这个主题再做几个教程，关注不同的部位，比如手臂，腿，头部运动，倾斜度等等。</p>
-<p>对学习走/跑动画的同学，我最大的建议是<strong>注意头部的运动</strong>。即使手和腿的动作不太好，但只要头部动作够好，就可以让人信服。</p>
-<p>现在我解释下为什么选这个跑步循环。可能很多人不会喜欢这个“跳起”帧，更想用“过渡位置”帧，像这种：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gliji3an8cj302m02r0ak.jpg"></p>
-<p>这种也完全 ok。这里只是我能想到的最简单的方式，来做出适合 platformer 类型的跑步动作。走/跑的动画很能体现角色的个性，所以会有无数种方式来做。</p>
-<p>我倾向于“跳起”帧的原因是它非常容易复制，往下拉一两个像素，再稍微动动手和腿，就能得到个“下落”帧。我觉得这种方法做快跑动画非常高效。</p>
-<p>另一个原因是，如果第一帧是个跳跃，就感觉角色瞬间扎进了动作里，让动画更有活力。</p>
-]]></content>
-      <categories>
-        <category>像素宝典 (Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
       </tags>
   </entry>
   <entry>
