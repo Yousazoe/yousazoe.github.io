@@ -1916,7 +1916,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#101;&#x65;&#110;&#x78;&#x75;&#64;&#116;&#101;&#x6e;&#x63;&#101;&#110;&#x74;&#46;&#x63;&#x6f;&#109;">&#108;&#101;&#x65;&#110;&#x78;&#x75;&#64;&#116;&#101;&#x6e;&#x63;&#101;&#110;&#x74;&#46;&#x63;&#x6f;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#x65;&#110;&#120;&#x75;&#x40;&#116;&#x65;&#110;&#x63;&#x65;&#110;&#116;&#46;&#99;&#111;&#109;">&#x6c;&#x65;&#x65;&#110;&#120;&#x75;&#x40;&#116;&#x65;&#110;&#x63;&#x65;&#110;&#116;&#46;&#99;&#111;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -5748,127 +5748,6 @@
       </tags>
   </entry>
   <entry>
-    <title>LeetCode刷题记录</title>
-    <url>/archives/ba8c707b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/beb27864152259.5ac8b75847ad9.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/64152259/Keyclack-posters">Keyclack posters</a> by 
-      <a href="https://www.behance.net/MChahin">Mohamed Chahin</a>
-    </i>
-  </font>
-</div>
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>力扣提供海量题库，帮助你高效提升编程技能，轻松拿下世界 IT 名企 Dream Offer。本文作为博主的LeetCode刷题记录，包含基于C++的解题思路与完整代码以供参考学习。</p>
-<span id="more"></span>
-
-
-
-<blockquote>
-<p>来源：力扣（LeetCode）<br>链接：<a href="https://leetcode-cn.com/">https://leetcode-cn.com</a><br>著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。</p>
-</blockquote>
-<h3 id="两数之和"><a href="#两数之和" class="headerlink" title="两数之和"></a>两数之和</h3><p>给定一个整数数组 <code>nums</code> 和一个整数目标值 <code>target</code>，请你在该数组中找出 <strong>和为目标值</strong> 的那 <strong>两个</strong> 整数，并返回它们的数组下标。</p>
-<p>你可以假设每种输入只会对应一个答案。但是，数组中同一个元素不能使用两遍。</p>
-<p>你可以按任意顺序返回答案。</p>
-<h4 id="示例-1"><a href="#示例-1" class="headerlink" title="示例 1"></a>示例 1</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：nums &#x3D; [2,7,11,15], target &#x3D; 9</span><br><span class="line">输出：[0,1]</span><br><span class="line">解释：因为 nums[0] + nums[1] &#x3D;&#x3D; 9 ，返回 [0, 1] 。</span><br></pre></td></tr></table></figure>
-
-<h4 id="示例-2"><a href="#示例-2" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：nums &#x3D; [3,2,4], target &#x3D; 6</span><br><span class="line">输出：[1,2]</span><br></pre></td></tr></table></figure>
-
-<h4 id="示例-3"><a href="#示例-3" class="headerlink" title="示例 3"></a>示例 3</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：nums &#x3D; [3,3], target &#x3D; 6</span><br><span class="line">输出：[0,1]</span><br></pre></td></tr></table></figure>
-
-<h4 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h4><ul>
-<li>2 &lt;= nums.length &lt;= 103</li>
-<li>$-10^9$ &lt;= nums[i] &lt;= $10^9$</li>
-<li>$-10^9$ &lt;= target &lt;= $10^9$</li>
-<li>只会存在一个有效答案</li>
-</ul>
-<h4 id="默认模板"><a href="#默认模板" class="headerlink" title="默认模板"></a>默认模板</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; <span class="title">twoSum</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums, <span class="keyword">int</span> target)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<h4 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h4><h5 id="暴力枚举"><a href="#暴力枚举" class="headerlink" title="暴力枚举"></a>暴力枚举</h5><p>这道题很像AOJ中的一道题，那时候我就用的这种二次循环的遍历方式枚举每一种情况。需要注意到每一个位于 <code>x</code> 之前的元素都已经和 <code>x</code> 匹配过，因此不需要再进行匹配。而每一个元素不能被使用两次，所以我们只需要在 <code>x</code> 后面的元素中寻找 <code>target - x</code>。</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; <span class="title">twoSum</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums, <span class="keyword">int</span> target)</span> </span>&#123;</span><br><span class="line">        <span class="function"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; <span class="title">v</span><span class="params">(<span class="number">2</span>)</span></span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; nums.size();i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j = i + <span class="number">1</span>;j &lt; nums.size();j++)&#123;</span><br><span class="line">                <span class="keyword">if</span>(nums[i] + nums[j] == target)&#123;</span><br><span class="line">                    v[<span class="number">0</span>] = i;</span><br><span class="line">                    v[<span class="number">1</span>] = j;</span><br><span class="line">                    <span class="keyword">return</span> v;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> v;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="两数相加"><a href="#两数相加" class="headerlink" title="两数相加"></a>两数相加</h3><p>给你两个 <strong>非空</strong> 的链表，表示两个非负的整数。它们每位数字都是按照 <strong>逆序</strong> 的方式存储的，并且每个节点只能存储 <strong>一位</strong> 数字。</p>
-<p>请你将两个数相加，并以相同形式返回一个表示和的链表。</p>
-<p>你可以假设除了数字 0 之外，这两个数都不会以 0 开头。</p>
-<h4 id="示例1"><a href="#示例1" class="headerlink" title="示例1"></a>示例1</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/addtwonumber1.jpg"></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：l1 &#x3D; [2,4,3], l2 &#x3D; [5,6,4]</span><br><span class="line">输出：[7,0,8]</span><br><span class="line">解释：342 + 465 &#x3D; 807.</span><br></pre></td></tr></table></figure>
-
-<h4 id="示例-2-1"><a href="#示例-2-1" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：l1 &#x3D; [0], l2 &#x3D; [0]</span><br><span class="line">输出：[0]</span><br></pre></td></tr></table></figure>
-
-<h4 id="示例-3-1"><a href="#示例-3-1" class="headerlink" title="示例 3"></a>示例 3</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：l1 &#x3D; [9,9,9,9,9,9,9], l2 &#x3D; [9,9,9,9]</span><br><span class="line">输出：[8,9,9,9,0,0,0,1]</span><br></pre></td></tr></table></figure>
-
-<h4 id="提示-1"><a href="#提示-1" class="headerlink" title="提示"></a>提示</h4><ul>
-<li>每个链表中的节点数在范围 <code>[1, 100]</code> 内</li>
-<li><code>0 &lt;= Node.val &lt;= 9</code></li>
-<li>题目数据保证列表表示的数字不含前导零</li>
-</ul>
-<h4 id="模板"><a href="#模板" class="headerlink" title="模板"></a>模板</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * struct ListNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     ListNode *next;</span></span><br><span class="line"><span class="comment"> *     ListNode() : val(0), next(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x) : val(x), next(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x, ListNode *next) : val(x), next(next) &#123;&#125;</span></span><br><span class="line"><span class="comment"> * &#125;;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">addTwoNumbers</span><span class="params">(ListNode* l1, ListNode* l2)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h4 id="题解-1"><a href="#题解-1" class="headerlink" title="题解"></a>题解</h4><p>这道题涉及到了链表的知识。我一开始的想法是先把链表遍历导出到比较方便访问的数据结构比如<code>vector</code>然后再倒置最后相加，后面开始写伪代码的时候困难重重，比较难实现所以就放弃了这个思路。</p>
-<p>之后参考了精选解题的思路，对于两个链表节点个数不同的情况我们可以选择将节点数较小的那个表补零，比如<code>l1=[2,0,4,3]</code>、<code>l2=[5,6,8]</code>，此时<code>l2</code>少一个节点，那么我们就可以对<code>l2</code>补零为<code>[5,6,8,0]</code>使之节点数相同。</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> len1 = <span class="number">0</span>,len2 = <span class="number">0</span>;</span><br><span class="line">ListNode* p = l1;</span><br><span class="line">ListNode* q = l2;</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span>(p-&gt;next != <span class="literal">NULL</span>)&#123;</span><br><span class="line">  len1++;</span><br><span class="line">  p = p-&gt;next;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span>(q-&gt;next != <span class="literal">NULL</span>)&#123;</span><br><span class="line">  len2++;</span><br><span class="line">  q = q-&gt;next;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">ListNode* zero = len1 &gt; len2 ? q : p;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; len1 - len2;i++)&#123;</span><br><span class="line">  zero-&gt;next = <span class="keyword">new</span> ListNode(<span class="number">0</span>);</span><br><span class="line">  zero = zero-&gt;next;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>在<code>l1</code>与<code>l2</code>位数相同后该考虑的就是相加的问题，这个其实就简单很多了，设置一个用于进位的<code>carry</code>负责下一位的进制，而对于输出的链表<code>l3</code>而言<code>sum%10</code>就是它在该位置上的值。</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * struct ListNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     ListNode *next;</span></span><br><span class="line"><span class="comment"> *     ListNode() : val(0), next(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x) : val(x), next(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x, ListNode *next) : val(x), next(next) &#123;&#125;</span></span><br><span class="line"><span class="comment"> * &#125;;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">addTwoNumbers</span><span class="params">(ListNode* l1, ListNode* l2)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> len1 = <span class="number">0</span>,len2 = <span class="number">0</span>;</span><br><span class="line">        ListNode* p = l1;</span><br><span class="line">        ListNode* q = l2;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">while</span>(p-&gt;next != <span class="literal">NULL</span>)&#123;</span><br><span class="line">            len1++;</span><br><span class="line">            p = p-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span>(q-&gt;next != <span class="literal">NULL</span>)&#123;</span><br><span class="line">            len2++;</span><br><span class="line">            q = q-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        ListNode* zero = len1 &gt; len2 ? q : p;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; len1 - len2;i++)&#123;</span><br><span class="line">            zero-&gt;next = <span class="keyword">new</span> ListNode(<span class="number">0</span>);</span><br><span class="line">            zero = zero-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        p = l1;</span><br><span class="line">        q = l2;</span><br><span class="line">        <span class="keyword">int</span> carry = <span class="number">0</span>,sum = <span class="number">0</span>;</span><br><span class="line">        ListNode* l3 = <span class="keyword">new</span> ListNode(<span class="number">0</span>);</span><br><span class="line">        ListNode* r = l3;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span>(p != <span class="literal">NULL</span> &amp;&amp; q != <span class="literal">NULL</span>)&#123;</span><br><span class="line">            sum = carry + p-&gt;val + q-&gt;val;</span><br><span class="line">            r-&gt;next = <span class="keyword">new</span> ListNode(sum%<span class="number">10</span>);</span><br><span class="line">            carry = sum &gt;= <span class="number">10</span> ? <span class="number">1</span> : <span class="number">0</span>;</span><br><span class="line">            r = r-&gt;next;</span><br><span class="line">            p = p-&gt;next;</span><br><span class="line">            q = q-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> l3;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-
-
-<p>然而满怀欣喜的提交后倒在了<strong>1138</strong> 样例中，大家不妨先不往下翻，先带入该样例看看哪里出了问题。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line">[2,4,9]</span><br><span class="line">[5,6,4,9]</span><br><span class="line">输出：</span><br><span class="line">[7,0,4,1]</span><br><span class="line">预期：</span><br><span class="line">[7,0,4,0,1]</span><br></pre></td></tr></table></figure>
-
-<p>一检查源码问题可太多了：</p>
-<ul>
-<li>补零没有使用绝对值函数<code>abs()</code>，导致如果<code>len1&lt;len2</code>不会补零而实际上我们需要补零</li>
-<li>没有考虑最后一位的情况，如果还有进制会导致结果出错（少一个最高位位的1）</li>
-<li>结果输出实际上是从<code>l3-&gt;next</code>开始的，最初始的节点并没有派上用场</li>
-</ul>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">/**</span><br><span class="line"> * Definition for singly-linked list.</span><br><span class="line"> * struct ListNode &#123;</span><br><span class="line"> *     int val;</span><br><span class="line"> *     ListNode *next;</span><br><span class="line"> *     ListNode() : val(0), next(nullptr) &#123;&#125;</span><br><span class="line"> *     ListNode(int x) : val(x), next(nullptr) &#123;&#125;</span><br><span class="line"> *     ListNode(int x, ListNode *next) : val(x), next(next) &#123;&#125;</span><br><span class="line"> * &#125;;</span><br><span class="line"> */</span><br><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) &#123;</span><br><span class="line">        int len1 = 0,len2 = 0;</span><br><span class="line">        ListNode* p = l1;</span><br><span class="line">        ListNode* q = l2;</span><br><span class="line">        </span><br><span class="line">        while(p-&gt;next != NULL)&#123;</span><br><span class="line">            len1++;</span><br><span class="line">            p = p-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        while(q-&gt;next != NULL)&#123;</span><br><span class="line">            len2++;</span><br><span class="line">            q = q-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        ListNode* zero = len1 &gt; len2 ? q : p;</span><br><span class="line"><span class="deletion">-       for(int i = 0;i &lt; len1 - len2;i++)&#123;</span></span><br><span class="line"><span class="addition">+       for(int i = 0;i &lt; abs(len1 - len2);i++)&#123;</span></span><br><span class="line">            zero-&gt;next = new ListNode(0);</span><br><span class="line">            zero = zero-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        p = l1;</span><br><span class="line">        q = l2;</span><br><span class="line">        int carry = 0,sum = 0;</span><br><span class="line">        ListNode* l3 = new ListNode(0);</span><br><span class="line">        ListNode* r = l3;</span><br><span class="line"></span><br><span class="line">        while(p != NULL &amp;&amp; q != NULL)&#123;</span><br><span class="line">            sum = carry + p-&gt;val + q-&gt;val;</span><br><span class="line">            r-&gt;next = new ListNode(sum%10);</span><br><span class="line">            carry = sum &gt;= 10 ? 1 : 0;</span><br><span class="line">            r = r-&gt;next;</span><br><span class="line">            p = p-&gt;next;</span><br><span class="line">            q = q-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"><span class="addition">+        if(carry)&#123;</span></span><br><span class="line"><span class="addition">+            r-&gt;next = new ListNode(1);</span></span><br><span class="line"><span class="addition">+            r = r-&gt;next;</span></span><br><span class="line"><span class="addition">+        &#125;</span></span><br><span class="line"></span><br><span class="line"><span class="deletion">-        return l3;</span></span><br><span class="line"><span class="addition">+        return l3-&gt;next;</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h3 id="无重复字符的最长子串"><a href="#无重复字符的最长子串" class="headerlink" title="无重复字符的最长子串"></a>无重复字符的最长子串</h3><p>给定一个字符串，请你找出其中不含有重复字符的 <strong>最长子串</strong> 的长度。</p>
-<h4 id="示例-1-1"><a href="#示例-1-1" class="headerlink" title="示例 1"></a>示例 1</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: s &#x3D; &quot;abcabcbb&quot;</span><br><span class="line">输出: 3 </span><br><span class="line">解释: 因为无重复字符的最长子串是 &quot;abc&quot;，所以其长度为 3。</span><br></pre></td></tr></table></figure>
-
-<h4 id="示例-2-2"><a href="#示例-2-2" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: s &#x3D; &quot;bbbbb&quot;</span><br><span class="line">输出: 1</span><br><span class="line">解释: 因为无重复字符的最长子串是 &quot;b&quot;，所以其长度为 1。</span><br></pre></td></tr></table></figure>
-
-<h4 id="示例-3-2"><a href="#示例-3-2" class="headerlink" title="示例 3"></a>示例 3</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: s &#x3D; &quot;pwwkew&quot;</span><br><span class="line">输出: 3</span><br><span class="line">解释: 因为无重复字符的最长子串是 &quot;wke&quot;，所以其长度为 3。</span><br><span class="line">     请注意，你的答案必须是 子串 的长度，&quot;pwke&quot; 是一个子序列，不是子串。</span><br></pre></td></tr></table></figure>
-
-<h4 id="示例-4"><a href="#示例-4" class="headerlink" title="示例 4"></a>示例 4</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: s &#x3D; &quot;&quot;</span><br><span class="line">输出: 0</span><br></pre></td></tr></table></figure>
-
-<h4 id="提示-2"><a href="#提示-2" class="headerlink" title="提示"></a>提示</h4><ul>
-<li>0 &lt;= s.length &lt;= $5 * 10^4$</li>
-<li><code>s</code> 由英文字母、数字、符号和空格组成</li>
-</ul>
-<h4 id="默认模板-1"><a href="#默认模板-1" class="headerlink" title="默认模板"></a>默认模板</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">lengthOfLongestSubstring</span><span class="params">(<span class="built_in">string</span> s)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h4 id="题解-2"><a href="#题解-2" class="headerlink" title="题解"></a>题解</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>LeetCode题解 (LeetCode Solution)</category>
-      </categories>
-      <tags>
-        <tag>Cpp</tag>
-        <tag>LeetCode</tag>
-        <tag>Algorithm</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>LATEX现学现用抢救指南</title>
     <url>/archives/d27a4a46.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkb9od3oecj314g0mg755.jpg"></p>
@@ -6552,6 +6431,127 @@
       </tags>
   </entry>
   <entry>
+    <title>LeetCode刷题记录</title>
+    <url>/archives/ba8c707b.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/beb27864152259.5ac8b75847ad9.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/64152259/Keyclack-posters">Keyclack posters</a> by 
+      <a href="https://www.behance.net/MChahin">Mohamed Chahin</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>力扣提供海量题库，帮助你高效提升编程技能，轻松拿下世界 IT 名企 Dream Offer。本文作为博主的LeetCode刷题记录，包含基于C++的解题思路与完整代码以供参考学习。</p>
+<span id="more"></span>
+
+
+
+<blockquote>
+<p>来源：力扣（LeetCode）<br>链接：<a href="https://leetcode-cn.com/">https://leetcode-cn.com</a><br>著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。</p>
+</blockquote>
+<h3 id="两数之和"><a href="#两数之和" class="headerlink" title="两数之和"></a>两数之和</h3><p>给定一个整数数组 <code>nums</code> 和一个整数目标值 <code>target</code>，请你在该数组中找出 <strong>和为目标值</strong> 的那 <strong>两个</strong> 整数，并返回它们的数组下标。</p>
+<p>你可以假设每种输入只会对应一个答案。但是，数组中同一个元素不能使用两遍。</p>
+<p>你可以按任意顺序返回答案。</p>
+<h4 id="示例-1"><a href="#示例-1" class="headerlink" title="示例 1"></a>示例 1</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：nums &#x3D; [2,7,11,15], target &#x3D; 9</span><br><span class="line">输出：[0,1]</span><br><span class="line">解释：因为 nums[0] + nums[1] &#x3D;&#x3D; 9 ，返回 [0, 1] 。</span><br></pre></td></tr></table></figure>
+
+<h4 id="示例-2"><a href="#示例-2" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：nums &#x3D; [3,2,4], target &#x3D; 6</span><br><span class="line">输出：[1,2]</span><br></pre></td></tr></table></figure>
+
+<h4 id="示例-3"><a href="#示例-3" class="headerlink" title="示例 3"></a>示例 3</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：nums &#x3D; [3,3], target &#x3D; 6</span><br><span class="line">输出：[0,1]</span><br></pre></td></tr></table></figure>
+
+<h4 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h4><ul>
+<li>2 &lt;= nums.length &lt;= 103</li>
+<li>$-10^9$ &lt;= nums[i] &lt;= $10^9$</li>
+<li>$-10^9$ &lt;= target &lt;= $10^9$</li>
+<li>只会存在一个有效答案</li>
+</ul>
+<h4 id="默认模板"><a href="#默认模板" class="headerlink" title="默认模板"></a>默认模板</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; <span class="title">twoSum</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums, <span class="keyword">int</span> target)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<h4 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h4><h5 id="暴力枚举"><a href="#暴力枚举" class="headerlink" title="暴力枚举"></a>暴力枚举</h5><p>这道题很像AOJ中的一道题，那时候我就用的这种二次循环的遍历方式枚举每一种情况。需要注意到每一个位于 <code>x</code> 之前的元素都已经和 <code>x</code> 匹配过，因此不需要再进行匹配。而每一个元素不能被使用两次，所以我们只需要在 <code>x</code> 后面的元素中寻找 <code>target - x</code>。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; <span class="title">twoSum</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums, <span class="keyword">int</span> target)</span> </span>&#123;</span><br><span class="line">        <span class="function"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; <span class="title">v</span><span class="params">(<span class="number">2</span>)</span></span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; nums.size();i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j = i + <span class="number">1</span>;j &lt; nums.size();j++)&#123;</span><br><span class="line">                <span class="keyword">if</span>(nums[i] + nums[j] == target)&#123;</span><br><span class="line">                    v[<span class="number">0</span>] = i;</span><br><span class="line">                    v[<span class="number">1</span>] = j;</span><br><span class="line">                    <span class="keyword">return</span> v;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> v;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="两数相加"><a href="#两数相加" class="headerlink" title="两数相加"></a>两数相加</h3><p>给你两个 <strong>非空</strong> 的链表，表示两个非负的整数。它们每位数字都是按照 <strong>逆序</strong> 的方式存储的，并且每个节点只能存储 <strong>一位</strong> 数字。</p>
+<p>请你将两个数相加，并以相同形式返回一个表示和的链表。</p>
+<p>你可以假设除了数字 0 之外，这两个数都不会以 0 开头。</p>
+<h4 id="示例1"><a href="#示例1" class="headerlink" title="示例1"></a>示例1</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/addtwonumber1.jpg"></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：l1 &#x3D; [2,4,3], l2 &#x3D; [5,6,4]</span><br><span class="line">输出：[7,0,8]</span><br><span class="line">解释：342 + 465 &#x3D; 807.</span><br></pre></td></tr></table></figure>
+
+<h4 id="示例-2-1"><a href="#示例-2-1" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：l1 &#x3D; [0], l2 &#x3D; [0]</span><br><span class="line">输出：[0]</span><br></pre></td></tr></table></figure>
+
+<h4 id="示例-3-1"><a href="#示例-3-1" class="headerlink" title="示例 3"></a>示例 3</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：l1 &#x3D; [9,9,9,9,9,9,9], l2 &#x3D; [9,9,9,9]</span><br><span class="line">输出：[8,9,9,9,0,0,0,1]</span><br></pre></td></tr></table></figure>
+
+<h4 id="提示-1"><a href="#提示-1" class="headerlink" title="提示"></a>提示</h4><ul>
+<li>每个链表中的节点数在范围 <code>[1, 100]</code> 内</li>
+<li><code>0 &lt;= Node.val &lt;= 9</code></li>
+<li>题目数据保证列表表示的数字不含前导零</li>
+</ul>
+<h4 id="模板"><a href="#模板" class="headerlink" title="模板"></a>模板</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * struct ListNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     ListNode *next;</span></span><br><span class="line"><span class="comment"> *     ListNode() : val(0), next(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x) : val(x), next(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x, ListNode *next) : val(x), next(next) &#123;&#125;</span></span><br><span class="line"><span class="comment"> * &#125;;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">addTwoNumbers</span><span class="params">(ListNode* l1, ListNode* l2)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h4 id="题解-1"><a href="#题解-1" class="headerlink" title="题解"></a>题解</h4><p>这道题涉及到了链表的知识。我一开始的想法是先把链表遍历导出到比较方便访问的数据结构比如<code>vector</code>然后再倒置最后相加，后面开始写伪代码的时候困难重重，比较难实现所以就放弃了这个思路。</p>
+<p>之后参考了精选解题的思路，对于两个链表节点个数不同的情况我们可以选择将节点数较小的那个表补零，比如<code>l1=[2,0,4,3]</code>、<code>l2=[5,6,8]</code>，此时<code>l2</code>少一个节点，那么我们就可以对<code>l2</code>补零为<code>[5,6,8,0]</code>使之节点数相同。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> len1 = <span class="number">0</span>,len2 = <span class="number">0</span>;</span><br><span class="line">ListNode* p = l1;</span><br><span class="line">ListNode* q = l2;</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span>(p-&gt;next != <span class="literal">NULL</span>)&#123;</span><br><span class="line">  len1++;</span><br><span class="line">  p = p-&gt;next;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span>(q-&gt;next != <span class="literal">NULL</span>)&#123;</span><br><span class="line">  len2++;</span><br><span class="line">  q = q-&gt;next;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">ListNode* zero = len1 &gt; len2 ? q : p;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; len1 - len2;i++)&#123;</span><br><span class="line">  zero-&gt;next = <span class="keyword">new</span> ListNode(<span class="number">0</span>);</span><br><span class="line">  zero = zero-&gt;next;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在<code>l1</code>与<code>l2</code>位数相同后该考虑的就是相加的问题，这个其实就简单很多了，设置一个用于进位的<code>carry</code>负责下一位的进制，而对于输出的链表<code>l3</code>而言<code>sum%10</code>就是它在该位置上的值。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * struct ListNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     ListNode *next;</span></span><br><span class="line"><span class="comment"> *     ListNode() : val(0), next(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x) : val(x), next(nullptr) &#123;&#125;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x, ListNode *next) : val(x), next(next) &#123;&#125;</span></span><br><span class="line"><span class="comment"> * &#125;;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">addTwoNumbers</span><span class="params">(ListNode* l1, ListNode* l2)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> len1 = <span class="number">0</span>,len2 = <span class="number">0</span>;</span><br><span class="line">        ListNode* p = l1;</span><br><span class="line">        ListNode* q = l2;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">while</span>(p-&gt;next != <span class="literal">NULL</span>)&#123;</span><br><span class="line">            len1++;</span><br><span class="line">            p = p-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span>(q-&gt;next != <span class="literal">NULL</span>)&#123;</span><br><span class="line">            len2++;</span><br><span class="line">            q = q-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        ListNode* zero = len1 &gt; len2 ? q : p;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; len1 - len2;i++)&#123;</span><br><span class="line">            zero-&gt;next = <span class="keyword">new</span> ListNode(<span class="number">0</span>);</span><br><span class="line">            zero = zero-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        p = l1;</span><br><span class="line">        q = l2;</span><br><span class="line">        <span class="keyword">int</span> carry = <span class="number">0</span>,sum = <span class="number">0</span>;</span><br><span class="line">        ListNode* l3 = <span class="keyword">new</span> ListNode(<span class="number">0</span>);</span><br><span class="line">        ListNode* r = l3;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span>(p != <span class="literal">NULL</span> &amp;&amp; q != <span class="literal">NULL</span>)&#123;</span><br><span class="line">            sum = carry + p-&gt;val + q-&gt;val;</span><br><span class="line">            r-&gt;next = <span class="keyword">new</span> ListNode(sum%<span class="number">10</span>);</span><br><span class="line">            carry = sum &gt;= <span class="number">10</span> ? <span class="number">1</span> : <span class="number">0</span>;</span><br><span class="line">            r = r-&gt;next;</span><br><span class="line">            p = p-&gt;next;</span><br><span class="line">            q = q-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> l3;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>然而满怀欣喜的提交后倒在了<strong>1138</strong> 样例中，大家不妨先不往下翻，先带入该样例看看哪里出了问题。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line">[2,4,9]</span><br><span class="line">[5,6,4,9]</span><br><span class="line">输出：</span><br><span class="line">[7,0,4,1]</span><br><span class="line">预期：</span><br><span class="line">[7,0,4,0,1]</span><br></pre></td></tr></table></figure>
+
+<p>一检查源码问题可太多了：</p>
+<ul>
+<li>补零没有使用绝对值函数<code>abs()</code>，导致如果<code>len1&lt;len2</code>不会补零而实际上我们需要补零</li>
+<li>没有考虑最后一位的情况，如果还有进制会导致结果出错（少一个最高位位的1）</li>
+<li>结果输出实际上是从<code>l3-&gt;next</code>开始的，最初始的节点并没有派上用场</li>
+</ul>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">/**</span><br><span class="line"> * Definition for singly-linked list.</span><br><span class="line"> * struct ListNode &#123;</span><br><span class="line"> *     int val;</span><br><span class="line"> *     ListNode *next;</span><br><span class="line"> *     ListNode() : val(0), next(nullptr) &#123;&#125;</span><br><span class="line"> *     ListNode(int x) : val(x), next(nullptr) &#123;&#125;</span><br><span class="line"> *     ListNode(int x, ListNode *next) : val(x), next(next) &#123;&#125;</span><br><span class="line"> * &#125;;</span><br><span class="line"> */</span><br><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) &#123;</span><br><span class="line">        int len1 = 0,len2 = 0;</span><br><span class="line">        ListNode* p = l1;</span><br><span class="line">        ListNode* q = l2;</span><br><span class="line">        </span><br><span class="line">        while(p-&gt;next != NULL)&#123;</span><br><span class="line">            len1++;</span><br><span class="line">            p = p-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        while(q-&gt;next != NULL)&#123;</span><br><span class="line">            len2++;</span><br><span class="line">            q = q-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        ListNode* zero = len1 &gt; len2 ? q : p;</span><br><span class="line"><span class="deletion">-       for(int i = 0;i &lt; len1 - len2;i++)&#123;</span></span><br><span class="line"><span class="addition">+       for(int i = 0;i &lt; abs(len1 - len2);i++)&#123;</span></span><br><span class="line">            zero-&gt;next = new ListNode(0);</span><br><span class="line">            zero = zero-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        p = l1;</span><br><span class="line">        q = l2;</span><br><span class="line">        int carry = 0,sum = 0;</span><br><span class="line">        ListNode* l3 = new ListNode(0);</span><br><span class="line">        ListNode* r = l3;</span><br><span class="line"></span><br><span class="line">        while(p != NULL &amp;&amp; q != NULL)&#123;</span><br><span class="line">            sum = carry + p-&gt;val + q-&gt;val;</span><br><span class="line">            r-&gt;next = new ListNode(sum%10);</span><br><span class="line">            carry = sum &gt;= 10 ? 1 : 0;</span><br><span class="line">            r = r-&gt;next;</span><br><span class="line">            p = p-&gt;next;</span><br><span class="line">            q = q-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line"><span class="addition">+        if(carry)&#123;</span></span><br><span class="line"><span class="addition">+            r-&gt;next = new ListNode(1);</span></span><br><span class="line"><span class="addition">+            r = r-&gt;next;</span></span><br><span class="line"><span class="addition">+        &#125;</span></span><br><span class="line"></span><br><span class="line"><span class="deletion">-        return l3;</span></span><br><span class="line"><span class="addition">+        return l3-&gt;next;</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h3 id="无重复字符的最长子串"><a href="#无重复字符的最长子串" class="headerlink" title="无重复字符的最长子串"></a>无重复字符的最长子串</h3><p>给定一个字符串，请你找出其中不含有重复字符的 <strong>最长子串</strong> 的长度。</p>
+<h4 id="示例-1-1"><a href="#示例-1-1" class="headerlink" title="示例 1"></a>示例 1</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: s &#x3D; &quot;abcabcbb&quot;</span><br><span class="line">输出: 3 </span><br><span class="line">解释: 因为无重复字符的最长子串是 &quot;abc&quot;，所以其长度为 3。</span><br></pre></td></tr></table></figure>
+
+<h4 id="示例-2-2"><a href="#示例-2-2" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: s &#x3D; &quot;bbbbb&quot;</span><br><span class="line">输出: 1</span><br><span class="line">解释: 因为无重复字符的最长子串是 &quot;b&quot;，所以其长度为 1。</span><br></pre></td></tr></table></figure>
+
+<h4 id="示例-3-2"><a href="#示例-3-2" class="headerlink" title="示例 3"></a>示例 3</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: s &#x3D; &quot;pwwkew&quot;</span><br><span class="line">输出: 3</span><br><span class="line">解释: 因为无重复字符的最长子串是 &quot;wke&quot;，所以其长度为 3。</span><br><span class="line">     请注意，你的答案必须是 子串 的长度，&quot;pwke&quot; 是一个子序列，不是子串。</span><br></pre></td></tr></table></figure>
+
+<h4 id="示例-4"><a href="#示例-4" class="headerlink" title="示例 4"></a>示例 4</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: s &#x3D; &quot;&quot;</span><br><span class="line">输出: 0</span><br></pre></td></tr></table></figure>
+
+<h4 id="提示-2"><a href="#提示-2" class="headerlink" title="提示"></a>提示</h4><ul>
+<li>0 &lt;= s.length &lt;= $5 * 10^4$</li>
+<li><code>s</code> 由英文字母、数字、符号和空格组成</li>
+</ul>
+<h4 id="默认模板-1"><a href="#默认模板-1" class="headerlink" title="默认模板"></a>默认模板</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">lengthOfLongestSubstring</span><span class="params">(<span class="built_in">string</span> s)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h4 id="题解-2"><a href="#题解-2" class="headerlink" title="题解"></a>题解</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>LeetCode题解 (LeetCode Solution)</category>
+      </categories>
+      <tags>
+        <tag>Cpp</tag>
+        <tag>LeetCode</tag>
+        <tag>Algorithm</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开始画像素画#2</title>
     <url>/archives/90b77012.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zhhvzmzj31hc0u0434.jpg"></p>
@@ -7134,57 +7134,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#x79;&#x6f;&#x6e;&#x67;&#64;&#x74;&#x73;&#105;&#110;&#103;&#x68;&#x75;&#97;&#46;&#101;&#100;&#x75;&#x2e;&#x63;&#x6e;">&#120;&#x79;&#x6f;&#x6e;&#x67;&#64;&#x74;&#x73;&#105;&#110;&#103;&#x68;&#x75;&#97;&#46;&#101;&#100;&#x75;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#x79;&#x6f;&#110;&#x67;&#x40;&#116;&#x73;&#x69;&#110;&#x67;&#x68;&#x75;&#x61;&#x2e;&#101;&#x64;&#x75;&#x2e;&#99;&#x6e;">&#x78;&#x79;&#x6f;&#110;&#x67;&#x40;&#116;&#x73;&#x69;&#110;&#x67;&#x68;&#x75;&#x61;&#x2e;&#101;&#x64;&#x75;&#x2e;&#99;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#x75;&#x63;&#104;&#101;&#110;&#x40;&#109;&#97;&#105;&#x6c;&#x2e;&#x74;&#x73;&#x69;&#110;&#x67;&#104;&#117;&#97;&#46;&#101;&#x64;&#x75;&#46;&#x63;&#110;">&#x79;&#x75;&#x63;&#104;&#101;&#110;&#x40;&#109;&#97;&#105;&#x6c;&#x2e;&#x74;&#x73;&#x69;&#110;&#x67;&#104;&#117;&#97;&#46;&#101;&#x64;&#x75;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#117;&#99;&#104;&#101;&#x6e;&#64;&#109;&#x61;&#105;&#108;&#x2e;&#116;&#115;&#105;&#x6e;&#x67;&#x68;&#x75;&#97;&#46;&#x65;&#x64;&#x75;&#46;&#x63;&#110;">&#x79;&#117;&#99;&#104;&#101;&#x6e;&#64;&#109;&#x61;&#105;&#108;&#x2e;&#116;&#115;&#105;&#x6e;&#x67;&#x68;&#x75;&#97;&#46;&#x65;&#x64;&#x75;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#x74;&#x65;&#114;&#x6e;&#97;&#108;&#46;&#110;&#48;&#x38;&#64;&#103;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#101;&#x74;&#x65;&#114;&#x6e;&#97;&#108;&#46;&#110;&#48;&#x38;&#64;&#103;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x65;&#116;&#101;&#114;&#110;&#97;&#x6c;&#46;&#110;&#48;&#x38;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x65;&#116;&#101;&#114;&#110;&#97;&#x6c;&#46;&#110;&#48;&#x38;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#98;&#106;&#101;&#99;&#x74;&#x6b;&#x75;&#x61;&#x6e;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#111;&#98;&#106;&#101;&#99;&#x74;&#x6b;&#x75;&#x61;&#x6e;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x6f;&#98;&#x6a;&#x65;&#x63;&#116;&#107;&#x75;&#97;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#x6f;&#98;&#x6a;&#x65;&#x63;&#116;&#107;&#x75;&#97;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#x72;&#x64;&#x66;&#114;&#97;&#x6e;&#107;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#109;">&#99;&#x72;&#x64;&#x66;&#114;&#97;&#x6e;&#107;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#99;&#x72;&#x64;&#102;&#114;&#x61;&#110;&#107;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#99;&#x72;&#x64;&#102;&#114;&#x61;&#110;&#107;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#97;&#99;&#x63;&#111;&#x72;&#97;&#x77;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x74;&#97;&#99;&#x63;&#111;&#x72;&#97;&#x77;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#116;&#x61;&#99;&#99;&#111;&#x72;&#97;&#119;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;">&#116;&#x61;&#99;&#99;&#111;&#x72;&#97;&#119;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#117;&#x6e;&#120;&#x69;&#110;&#103;&#x30;&#x30;&#48;&#x31;&#x40;&#49;&#54;&#51;&#46;&#99;&#111;&#109;">&#x78;&#x69;&#x6e;&#121;&#117;&#x6e;&#120;&#x69;&#110;&#103;&#x30;&#x30;&#48;&#x31;&#x40;&#49;&#54;&#51;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x78;&#105;&#x6e;&#121;&#x75;&#110;&#120;&#x69;&#110;&#x67;&#x30;&#48;&#48;&#49;&#64;&#x31;&#54;&#51;&#46;&#99;&#111;&#109;">&#x78;&#105;&#x6e;&#121;&#x75;&#110;&#120;&#x69;&#110;&#x67;&#x30;&#48;&#48;&#49;&#64;&#x31;&#54;&#51;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#x6e;&#111;&#99;&#x75;&#x69;&#108;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x67;&#x6e;&#111;&#99;&#x75;&#x69;&#108;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#x6e;&#x6f;&#99;&#x75;&#105;&#x6c;&#64;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#103;&#x6e;&#x6f;&#99;&#x75;&#105;&#x6c;&#64;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#x79;&#97;&#x69;&#114;&#105;&#97;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#109;&#x79;&#97;&#x69;&#114;&#105;&#97;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x6d;&#x79;&#97;&#105;&#114;&#x69;&#97;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x6d;&#x79;&#97;&#105;&#114;&#x69;&#97;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#x68;&#97;&#x6e;&#x67;&#114;&#97;&#x69;&#110;&#57;&#x31;&#x31;&#x40;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#109;">&#x7a;&#x68;&#97;&#x6e;&#x67;&#114;&#97;&#x69;&#110;&#57;&#x31;&#x31;&#x40;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#122;&#x68;&#x61;&#x6e;&#x67;&#x72;&#x61;&#105;&#x6e;&#x39;&#x31;&#x31;&#64;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#109;">&#122;&#x68;&#x61;&#x6e;&#x67;&#x72;&#x61;&#105;&#x6e;&#x39;&#x31;&#x31;&#64;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#103;&#120;&#120;&#49;&#x32;&#48;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#103;&#103;&#120;&#120;&#49;&#x32;&#48;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#103;&#103;&#120;&#x78;&#49;&#50;&#48;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#109;">&#103;&#103;&#120;&#x78;&#49;&#50;&#48;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
