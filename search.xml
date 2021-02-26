@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>《蔚蓝》的开发故事 The Story of Celeste&#39;s Development</title>
+    <url>/archives/a20064d.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nel48tcj31hr0u0121.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://twitter.com/CherryStarArt">Twitter@CherryStarArt</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文采访了《蔚蓝》联合开发者诺尔·贝瑞（Noel Berry）谈谈游戏背后的开发历程和故事。</p>
+<span id="more"></span>
+
+
+
+<blockquote>
+<p>本文是观看完 <a href="https://www.youtube.com/channel/UC0fDG3byEcMtbOqPMymDNbw">Noclip</a> 的 <a href="https://www.youtube.com/watch?v=c3mbELVqAmo&feature=youtu.be">The Story of Celeste’s Development</a> 后深受触动，决定整理一份文字版以供大家参考，中文制译可以移步 <a href="https://space.bilibili.com/180052141">卡姐Cara</a> 的 <a href="https://www.bilibili.com/video/BV1fJ41137HE">【游戏幕后】《蔚蓝》的开发故事 The Story of Celeste’s Development | Noclip</a>，欢迎赞助作者：<a href="https://patreon.com/noclip">https://patreon.com/noclip</a> 和译者。</p>
+</blockquote>
+<h3 id="立项"><a href="#立项" class="headerlink" title="立项"></a>立项</h3><p>完整版《蔚蓝》有丰富的剧情和氛围，PICO-8版却没有。最初的构想很简单，某人要爬一座山，过程会很难。我们想做款硬核平台游戏，但是PICO-8有很多限制：我们只能做30屏、用16种颜色……于是我们想做点好玩的。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm6b40229j311y0lcwlm.jpg"></p>
+<p>PICO-8版完成后我们发到网上，很多人喜欢玩，尤其是速通玩家，他们曾在GDQ（快速通关慈善活动，一年举办两次）上玩。几个月后，忘了哪天，我们决定不如稍微扩展下游戏，就是两三个月能完工那种。</p>
+<p>我们开始在保留主角和“山”等元素的基础上为游戏世界构思新内容。我们想好了，就花三个月，做款体量更大、我们更熟悉的游戏。</p>
+<h3 id="团队合作"><a href="#团队合作" class="headerlink" title="团队合作"></a>团队合作</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm6q1krf4j311y0lc79s.jpg"></p>
+<p>对，我先和马特(Matt Thorson)搭档，我俩鼓捣了几个月，后面佩德罗（Pedro Medeiros）和阿莫拉（Amora Bettany）加入，他们就是和马特合作《塔倒》的美术，所以我们都很熟。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm6uv1usqj311y0lcwzq.jpg"></p>
+<p>我曾和他们合作过几年，做我那款要折了的《天烈》。与此同时，我们开始与莉娜（Lena Raine）接洽，我们在SoundCloud（一个原创音乐分享平台）上听她的音乐，之前也在GDC见过她，我们很喜欢她SoundCloud上的作品还有她的专辑，于是联系她，问她有没兴趣加入。</p>
+<p>负责音效的是Power Up Audio，他们是马特《塔倒》音效的原班人马，也参与过我的《天烈》。所以成员大都来自温哥华，都是我们认识很久或很欣赏的人。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm6v8v3g6j311y0lctsp.jpg"></p>
+<h3 id="关卡与剧情设计"><a href="#关卡与剧情设计" class="headerlink" title="关卡与剧情设计"></a>关卡与剧情设计</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm70wmqdhj311y0lcb24.jpg"></p>
+<p>我觉得第一章就是我们曾设想的只用几个月做出的样子，它充分展示了游戏核心。我们很快就决定加入更多章节，深入探索创意，因为我觉得它有很大的挖掘空间，游戏就此展开，各章节轮廓也逐渐成形。但我们做到了第三章都还没想好游戏主旨，甚至都没确定故事的脉络。我们知道要更多情节，比如开头取笑你的老奶奶。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm76jarv9j311y0lctpe.jpg"></p>
+<p>但我们不知道剧情走向，所以直到第三章故事脉络才定下来。于是我们回头重写某些对话直到满意为止。马特主导这项工作，他对此很有想法，也很专注。</p>
+<p>尽管黑化版玛德琳作为分身，是主角的阴暗面，但她最初只是游戏机制，纯粹来自有趣的玩法设计，然后故事慢慢成形。直至我们开始明确游戏的核心和主旨时，他们才把她作为角色加入进去。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm7bkxeq8j311y0lc1ex.jpg"></p>
+<p>一般来说，马特负责起草关卡，其他人则负责打磨美工，处理杂事。我们一边规划故事走向，马特则会同时画关卡草图。有时他进度超前，我们就会讨论这里要什么氛围，把设计充实，这样一直做到第六章。</p>
+<h3 id="游戏手感"><a href="#游戏手感" class="headerlink" title="游戏手感"></a>游戏手感</h3><p>对，我觉得最重要的是确保玩家一上手就觉得有趣，动作游戏更应如此，你要把操纵感做好，让玩家秒懂。当然，这需要很多迭代才能实现，不可能一蹴而就。</p>
+<p>我们大量观摩人们试玩，每当发现奇怪或不对劲的地方就回去反复调整，直到觉得人们能尽力玩得行云流水。你没法奢求完美，没法把所有瑕疵打磨掉，否则太无趣了，但我还是觉得要有很好的上手感，因为游戏的精华在于流畅。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm83nyuu3j311y0lce4v.jpg"></p>
+<p>大量的可玩测试很重要，因为游戏不是总能玩得顺，这游戏当然不是老少皆宜，但我们尽可能做好，让难度曲线尽量平滑，对玩家循循善诱，你会感到不断提升进步。</p>
+<p>而平台游戏有个好处，你可以找人检验阶段性成果，问他们感觉如何。他们只需试玩几关就能有所感觉。我们每次会请朋友玩上几小时，我们一边看一边修改，实时更新：“好吧，这里不行”、“你等等，我们改一下”……然后提交，让那边更新，再让游戏自动重载，就可以重试了。</p>
+<p>如果不亲自看，虽然你可能想到哪些地方会卡人也能处理好，但我觉得，最好还是去观察人们的情绪，看他们遇到的问题，亲眼所见会有用的多。我觉得，玩家很多反馈，比如口头上的也很好，但动作游戏讲究“感觉”，所以更好的是观察他们的操作，找出可行和不可行而不是听玩家说“这好、这不好”你却不知道原因。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm84llu9cj311y0lcqjj.jpg"></p>
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>我们想过《蔚蓝》会成功，但从没想到它会这么成功。每个人都付出了很多心血，它是我们通力合作的结果，但马特……我绝对奉他为游戏总监，我是他开发期间的室友，我们每天都在客厅讨论《蔚蓝》。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm85mpkkmj311y0lc1kx.jpg"></p>
+<p>我个人的目标除了做出一款好游戏我还希望通过游戏养活自己，现在做到了，真好。希望我们能继续做出人们喜欢的游戏。</p>
+]]></content>
+      <categories>
+        <category>游戏幕后 (Behind the Game)</category>
+      </categories>
+      <tags>
+        <tag>Story</tag>
+        <tag>Celeste</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hero-NexT写作技巧</title>
     <url>/archives/309a2d82.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/54f27e7fbe3b520.png"></p>
@@ -1860,7 +1916,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#x65;&#110;&#120;&#x75;&#x40;&#x74;&#101;&#110;&#x63;&#x65;&#110;&#116;&#46;&#x63;&#x6f;&#x6d;">&#x6c;&#x65;&#x65;&#110;&#120;&#x75;&#x40;&#x74;&#101;&#110;&#x63;&#x65;&#110;&#116;&#46;&#x63;&#x6f;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#x65;&#x6e;&#x78;&#x75;&#x40;&#116;&#101;&#x6e;&#99;&#x65;&#x6e;&#116;&#46;&#x63;&#111;&#x6d;">&#x6c;&#x65;&#x65;&#x6e;&#x78;&#x75;&#x40;&#116;&#101;&#x6e;&#99;&#x65;&#x6e;&#116;&#46;&#x63;&#111;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -4848,207 +4904,6 @@
       </tags>
   </entry>
   <entry>
-    <title>随机数在游戏中的应用</title>
-    <url>/archives/71c35c5e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekvei5q74j30xc0j30ys.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/44248527/Tarot-cards-Game">Tarot-cards-Game</a> by 
-      <a href="https://www.behance.net/victoire">Victoire Douy</a>
-    </i>
-  </font>
-</div>
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本章讲的主题是随机数在游戏中的应用，主要目的是通过这节课给大家一下随机数的基本概念和游戏中常见的随机策略，介绍随机数生成器，能够指出一些容易用错的地方防止大家出错，还有就是介绍一些随机数使用上的小技巧与随机数分布与应用方面的东西。</p>
-<span id="more"></span>
-
-<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p>在游戏中使用随机数一般是为了增加一些随机性，防止过于重复。</p>
-<h4 id="随机数在游戏中的应用"><a href="#随机数在游戏中的应用" class="headerlink" title="随机数在游戏中的应用"></a>随机数在游戏中的应用</h4><h5 id="作为游戏玩法的一部分"><a href="#作为游戏玩法的一部分" class="headerlink" title="作为游戏玩法的一部分"></a>作为游戏玩法的一部分</h5><p>现在游戏中用到随机数除了增加一些随机性，还有很多方面，比如说玩网游的<code>扔骰子</code>、<code>抽卡</code>、<code>开宝箱</code>这些东西，都是作为游戏玩法的一部分。很多游戏里像<code>龙与地下城</code> <code>大富翁</code>这种游戏扔骰子本身就是游戏的一部分。</p>
-<h5 id="模拟自然现象"><a href="#模拟自然现象" class="headerlink" title="模拟自然现象"></a>模拟自然现象</h5><p>许多自然现象中都带有很大的随机性，例如火焰效果在做的时候会做一个叫粒子发射器的东西，用于发射很多像火焰每一片和一些小的火苗和特效这样的东西。这些粒子的运行轨迹、何时发射都带有很大的随机性，由一些随机数来控制。<br>与此相同的除了<code>火焰</code>还有<code>植被</code>、<code>生物群落</code>等。</p>
-<h5 id="离线渲染"><a href="#离线渲染" class="headerlink" title="离线渲染"></a>离线渲染</h5><p><code>离线渲染</code> <code>光线追踪</code>的做法就是从光源往外发射许多随机方向的射线，当这些射线打中一个物体表面的时候，它才会根据这个物体表面的性质随机决定去反弹还是吸收。经过这样很多次（几千万次）累计叠加，然后最终得到一张效果图像，它可以达到非常高的渲染质量。</p>
-<h5 id="随机生成的游戏内容"><a href="#随机生成的游戏内容" class="headerlink" title="随机生成的游戏内容"></a>随机生成的游戏内容</h5><p><code>我的世界</code> 的整个世界都是拿随机数生成的，由一个种子根据一定的随机数算法来生成整个世界。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekzwifkr9j30xc0go0u0.jpg"></p>
-<h4 id="两种伪随机概念"><a href="#两种伪随机概念" class="headerlink" title="两种伪随机概念"></a>两种伪随机概念</h4><h5 id="生成原理上的真随机与伪随机"><a href="#生成原理上的真随机与伪随机" class="headerlink" title="生成原理上的真随机与伪随机"></a>生成原理上的真随机与伪随机</h5><p>在电脑里没有真正的随机数。虽然电脑都是确定性的运算，没办法生成一些随机的运算。</p>
-<ul>
-<li><code>真随机</code> : 需要外部的随机性来源，如利用量子原理或者电路中的噪音来产生随机数。</li>
-<li><code>伪随机</code> : 用算法生成的”看似”随机的序列，数列本身是固定的，算法确定下来序列一定是一个确定的序列。</li>
-</ul>
-<p>实际运用随机数规模控制在2的31-32次方的范围。游戏中可以应用自如，但安全性方面还是不够。</p>
-<h5 id="应用层面的真随机与伪随机"><a href="#应用层面的真随机与伪随机" class="headerlink" title="应用层面的真随机与伪随机"></a>应用层面的真随机与伪随机</h5><ul>
-<li><code>真随机</code> : 每一次几率判断都是独立的。就跟抛硬币一样，前十次抛出正面在抛第十一次的时候正反概率还是50%。</li>
-<li><code>伪随机</code> : 指同一类的概率事件，彼此之间存在关联性，通常为了保证用户体验。比如连续抽十次卡都抽掉了游戏体验极差。王者荣耀通过幸运值让玩家保底。</li>
-</ul>
-<h4 id="游戏中常用随机策略"><a href="#游戏中常用随机策略" class="headerlink" title="游戏中常用随机策略"></a>游戏中常用随机策略</h4><h5 id="伪随机策略：保底法"><a href="#伪随机策略：保底法" class="headerlink" title="伪随机策略：保底法"></a>伪随机策略：保底法</h5><p>王者荣耀中的买五次必得四到五级铭文。<br>有些游戏即使不标出来，内部也会有这样的策略在里面，保证玩家不会得到一个太差的游戏体验。</p>
-<h5 id="伪随机策略：PRD-Pseudo-Random-Distribution"><a href="#伪随机策略：PRD-Pseudo-Random-Distribution" class="headerlink" title="伪随机策略：PRD(Pseudo Random Distribution)"></a>伪随机策略：PRD(Pseudo Random Distribution)</h5><p>最早在<code>war3</code>及<code>Dota</code>中暴击的算法，在<code>魂斗罗：归来</code>中使用。<br>如果这次没有抽中，则增加下次抽中的概率：</p>
-<ul>
-<li>第N次成功出发的几率为 <code>P(N) = C * N</code> 其中<code>C</code>为初始概率</li>
-<li>如果期望是25%的暴击率，则第一次暴击率～8.5%，第二次～17%，第三次～25.5%…</li>
-<li>一旦发生暴击则概率重置为～8.5%</li>
-</ul>
-<p>触发几率最高的是第三、四次，保证了第一、二次触发几率不会那么高，而到了第十次基本上肯定会发生一次暴击。该算法有效的把暴击分散开，不要太集中。</p>
-<h5 id="其它伪随机策略"><a href="#其它伪随机策略" class="headerlink" title="其它伪随机策略"></a>其它伪随机策略</h5><ul>
-<li><p>稀有道具的全服控制<br>一种特别稀有特别珍贵的道具，运营方希望它每天产生三个。但如果我通过概率来控制，很有可能出现今天一个人没打出来或者这一天有十几个人都打出来了，这样就不利于运营来控制游戏节奏。后台会增加一个计数器，一开始的时候概率会稍高一点，达到目标数量就会关掉再也不会出了。</p>
-</li>
-<li><p>洗牌算法<br>音乐播放如果现在有十首歌，采取随机的方式播放有可能出现某两首歌连续播放或者是某一首歌很久没出现。洗牌算法就是先把它们的顺序打乱，然后再按打乱之后的顺序来给它播放从而保证每首歌都能听到一遍。</p>
-</li>
-<li><p>二次随机</p>
-<ul>
-<li>第一次抽取决定是几级铭文</li>
-<li>第二次抽取决定是具体哪种铭文</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekybanpzig30xc0hv0ue.gif"></p>
-<h3 id="随机数生成器"><a href="#随机数生成器" class="headerlink" title="随机数生成器"></a>随机数生成器</h3><h4 id="伪随机数生成器"><a href="#伪随机数生成器" class="headerlink" title="伪随机数生成器"></a>伪随机数生成器</h4><p><code>算法</code> + <code>种子</code>就能决定随机数的序列。下面介绍几种游戏中常用的算法：</p>
-<h5 id="线性同余"><a href="#线性同余" class="headerlink" title="线性同余"></a>线性同余</h5><ul>
-<li><p>递推公式<br>$$X_{n+1} = (aX_n + c)\bmod m$$</p>
-</li>
-<li><p>这个算法非常古老而且实现起来很简单，几乎在稍微老点的语言中内置的算法都是它，每种语言中对参数的使用有着不同的选择。</p>
-</li>
-<li><p>演示</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">m &#x3D; 9	a &#x3D; 2	c &#x3D; 0	seed &#x3D; 1</span><br><span class="line">output: 1 - seed</span><br><span class="line">        2 - (1*2+0)mod 9</span><br><span class="line">        4 - (2*2+0)mod 9 </span><br><span class="line">        8 - (4*2+0)mod 9</span><br><span class="line">        7 - (8*2+0)mod 9</span><br><span class="line">            ......</span><br></pre></td></tr></table></figure></li>
-<li><p>不同参数的比较</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">(1) m &#x3D; 9   a &#x3D; 2   c &#x3D; 0   seed &#x3D; 1</span><br><span class="line">    output: </span><br><span class="line">    1 - 2 - 4 - 8 - 7 - 5 - 1 ...</span><br><span class="line"></span><br><span class="line">(2) m &#x3D; 9   a &#x3D; 2   c &#x3D; 0   seed &#x3D; 3</span><br><span class="line">    output: </span><br><span class="line">    3 - 6 - 3 ...</span><br><span class="line"></span><br><span class="line">(3) m &#x3D; 9   a &#x3D; 4   c &#x3D; 1   seed &#x3D; 0</span><br><span class="line">    output: </span><br><span class="line">    0 - 1 - 5 - 3 - 4 - 8 - 6 - 7 - 2 - 0 ...</span><br></pre></td></tr></table></figure>
-<p>这说明<code>m</code>、<code>a</code>、<code>c</code>这三个值的取值非常重要，不能随手取一个。早期项目中为了实现随机数算法时从网络下载源码，为了防止别人猜到规律随意更改了参数，后面发现这样做是不行的，不能随意更改别人给定的参数。</p>
-</li>
-<li><p>要达到最大周期为m需要的条件：</p>
-<ul>
-<li><code>c</code>与<code>m</code>互质</li>
-<li><code>a-1</code>可以被<code>m</code>的所有质因数整除</li>
-<li>如果<code>m</code>是4的倍数，<code>a-1</code>也必须是4的倍数</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>要达到良好的随机性，参数<code>c</code>还应该满足：<ul>
-<li>是质数。</li>
-<li>接近 $(\frac{1}{2}-\frac{\sqrt{3}}{6})m$</li>
-</ul>
-</li>
-</ul>
-<p>在上面几个条件的约束下，可用的<code>m</code>、<code>a</code>、<code>c</code>就没有多少个了，所以在使用的时候尽量去找现成的参数，不要自己随便填一个数字进去。</p>
-<ul>
-<li>优缺点<ul>
-<li>实现简单，速度快</li>
-<li>所需内存小</li>
-<li>用作N维空间的点坐标时，这些点多位于某些超平面上，看起来有些规律，因此不适合于用作蒙特卡洛采样</li>
-<li>当<code>m</code>为2的幂时，低阶比特周期较短，可以通过舍弃低位来缓解</li>
-</ul>
-</li>
-</ul>
-<h5 id="梅森旋转"><a href="#梅森旋转" class="headerlink" title="梅森旋转"></a>梅森旋转</h5><p>Mersenne是Makoto Mastsumoto（松本）和Takuji Nishimura（西村）于1997年开发的伪随机数产生器：</p>
-<ul>
-<li>该算法周期很长，在1～623的维度之间可以均等分布</li>
-<li>速度非常快</li>
-<li>需要的空间比线性同余算法大（TinyMT 2.5KiB）</li>
-</ul>
-<h4 id="随机数种子"><a href="#随机数种子" class="headerlink" title="随机数种子"></a>随机数种子</h4><p>给定的种子决定了后续随机数序列，一般程序启动时用当前时间作为种子进行一次初始化。</p>
-<ul>
-<li><p>错误用法</p>
-<ul>
-<li>没有调用初始化<code>srand</code>，导致每次启动游戏获得的序列是一样的，失去了随机的意义。</li>
-<li>每次调用随机数<code>rand</code>之前都初始化<code>srand</code>，这样得出的结果就会很有一定规律不是特别随机，违背了初衷。</li>
-</ul>
-</li>
-<li><p>作用</p>
-<ul>
-<li>提供每次不一样的游戏体验（用启动时间作为种子）<ul>
-<li>例如<code>超级马里奥</code>这种游戏每次敌人出现的位置是固定的，玩的次数多了甚至可以背下来，但如果增加一些随机数就可以更有趣味性和挑战性。红白机早期是没办法取到时间的，它的随机数是用一些奇怪的算法加上例如按键的时间长短来实现的</li>
-</ul>
-</li>
-<li>在程序生成内容（Procedural Content Generation,PCG）中使用，用来确保两次计算结果相同<ul>
-<li>比如用程序生成<code>Minecraft</code>这种地图每次进入是根据同一个种子来生成的，不然每次进入地图都不一样。玩家可以在网站上分享seed，根据该seed会生成相同的世界。</li>
-</ul>
-</li>
-<li>在多人游戏中减小带宽占用（帧同步游戏机制）<ul>
-<li>两人对战时暴击是随机的，但两边要保证随机出来的值是一样的，所以需要一开始把一方的种子传过去。种子一样，之后的计算步骤保持一致就能保证两端是一样的。</li>
-</ul>
-</li>
-<li>使用非常小的录像文件来实现录像和回放功能（如游戏的录像机制）</li>
-</ul>
-</li>
-<li><p>帧同步中的随机数<br>在使用帧同步的游戏中，要求所有运算步骤严格依序执行</p>
-<ul>
-<li>通常会自行实现伪随机数生成器，第三方库无意的调用系统随机数很可能破坏同步状态。</li>
-<li>随机数种子需要同步，同步给第三方。</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gelg9u2n0nj30xc0dxgnj.jpg"></p>
-<h3 id="随机数分布与应用"><a href="#随机数分布与应用" class="headerlink" title="随机数分布与应用"></a>随机数分布与应用</h3><h4 id="均匀分布"><a href="#均匀分布" class="headerlink" title="均匀分布"></a>均匀分布</h4><ul>
-<li>VC的<code>rand()</code>函数范围是[0..32767]，如何取得一个[0..9999]的随机整数？<ul>
-<li><code>x = rand()%10000</code> 分布不均匀（左侧偏大），因为32767不能被10000整除</li>
-<li>拒绝采样法</li>
-</ul>
-</li>
-</ul>
-<h5 id="如何取得更大的随机数（0～1000000）"><a href="#如何取得更大的随机数（0～1000000）" class="headerlink" title="如何取得更大的随机数（0～1000000）"></a>如何取得更大的随机数（0～1000000）</h5><ul>
-<li><code>x = rand()*(RAND_MAX + 1) + rand()</code></li>
-<li>使用更好的随机数算法，比如梅森旋转</li>
-</ul>
-<h5 id="如何取得一个0～1的随机浮点数"><a href="#如何取得一个0～1的随机浮点数" class="headerlink" title="如何取得一个0～1的随机浮点数"></a>如何取得一个0～1的随机浮点数</h5><ul>
-<li><p><code>x = rand()/(float)RAND_MAX</code><br>不可以用<code>x = (rand()%10000)/10000.0f</code> 同样的原因也会导致分布不均匀</p>
-</li>
-<li><p>针对浮点数的存储格式来生成，随机填充尾数域得[1，2)范围的随机数。<br><code>符号位 - 指数域 - 尾数域(23bit)</code><br>将指数域写死，尾数域用0或1进行填充，最后生成的随机数再减去1就可以得到0到1之间的浮点随机数。</p>
-</li>
-</ul>
-<h4 id="正态分布"><a href="#正态分布" class="headerlink" title="正态分布"></a>正态分布</h4><p>在某些时候用于生成更符合自然界规律的随机分布，比如：<code>不同身高的人群</code>、<code>不同高度的树木</code>等。</p>
-<h5 id="如何获得符合正态分布的随机数"><a href="#如何获得符合正态分布的随机数" class="headerlink" title="如何获得符合正态分布的随机数"></a>如何获得符合正态分布的随机数</h5><ul>
-<li><p>拒绝采样法<br>采样两次分别用作x值和y值，只保留正态分布曲线以下的部分，输出的时候丢弃y值，只输出x值从而保证正态分布。缺点是浪费了太多的样本点。</p>
-</li>
-<li><p>Ziggurat：优化版拒绝采样<br>先生成一些符合正态分布且面积相等的矩形，然后对矩形进行随机：如果在正态分布曲线下方则保留；否则再用拒绝采样法来判断一次，最后只保留曲线以下部分。该算法的主要目的是为了减少无效的运算。</p>
-</li>
-<li><p>逆变换采样<br>利用正态分布CDF的反函数做 Inverse transform sampling<br>在y轴产生服从(0,1)均匀分布的随机数，水平向右投影到曲线上，然后垂直向下投影到x轴，这样在x轴上就得到了正态分布，拿正态分布的反函数来算。</p>
-</li>
-<li><p>Box-Muller算法<br>选取两个服从[0,1]上均匀分布的随机变量 U1、U2，使X、Y满足：</p>
-<p>$X = \cos(2 \pi U_1)\sqrt{-2 \ln U_2}$</p>
-<p>$Y = \sin(2 \pi U_1)\sqrt{-2 \ln U_2}$</p>
-<p>则X与Y服从均值为0，方差为1的高斯分布。</p>
-</li>
-<li><p>基于中心极限定理采样</p>
-<ul>
-<li>生成n个独立同分布的随机变量，求和即可</li>
-<li>当n趋近于无穷大时，它们和的分布都会趋近正态分布</li>
-</ul>
-</li>
-</ul>
-<h4 id="形状采样"><a href="#形状采样" class="headerlink" title="形状采样"></a>形状采样</h4><h5 id="取得在圆形内均匀分布的点"><a href="#取得在圆形内均匀分布的点" class="headerlink" title="取得在圆形内均匀分布的点"></a>取得在圆形内均匀分布的点</h5><ul>
-<li><p>拒绝采样</p>
-</li>
-<li><p>根据极坐标采样</p>
-<ul>
-<li><p>错误算法</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">x &#x3D; r * sin(theta)</span><br><span class="line">y &#x3D; r * cos(theta)</span><br></pre></td></tr></table></figure></li>
-<li><p>正确算法</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">x &#x3D; sqrt(r) * sin(theta)</span><br><span class="line">y &#x3D; sqrt(r) * cos(theta)</span><br></pre></td></tr></table></figure>
-
-
-
-
-</li>
-</ul>
-<h5 id="洗牌算法-Fisher-Yates-shuffle"><a href="#洗牌算法-Fisher-Yates-shuffle" class="headerlink" title="洗牌算法 Fisher-Yates shuffle"></a>洗牌算法 Fisher-Yates shuffle</h5></li>
-<li><p>选中第1个元素，将其与<code>n</code>个元素中的任意一个交换（包括第1个元素自己）。这时排序后的第1个元素已经确定</p>
-</li>
-<li><p>选中第2个元素，将其与<code>n-1</code>个元素中作任意一个交换（包括第2个元素自己）。</p>
-</li>
-<li><p>重复上面步骤，直到剩1个元素为止。</p>
-</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekzwflh2oj30xc0p0dot.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekyba8kcdj30xc0got99.jpg"></p>
-]]></content>
-      <categories>
-        <category>游戏程序设计 (Game Programming)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>Math</tag>
-        <tag>Random</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>游戏性系统</title>
     <url>/archives/a79ad39b.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf97mfku7fj30x30lp750.jpg"></p>
@@ -5248,6 +5103,207 @@
       </categories>
       <tags>
         <tag>Game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>随机数在游戏中的应用</title>
+    <url>/archives/71c35c5e.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekvei5q74j30xc0j30ys.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/44248527/Tarot-cards-Game">Tarot-cards-Game</a> by 
+      <a href="https://www.behance.net/victoire">Victoire Douy</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本章讲的主题是随机数在游戏中的应用，主要目的是通过这节课给大家一下随机数的基本概念和游戏中常见的随机策略，介绍随机数生成器，能够指出一些容易用错的地方防止大家出错，还有就是介绍一些随机数使用上的小技巧与随机数分布与应用方面的东西。</p>
+<span id="more"></span>
+
+<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p>在游戏中使用随机数一般是为了增加一些随机性，防止过于重复。</p>
+<h4 id="随机数在游戏中的应用"><a href="#随机数在游戏中的应用" class="headerlink" title="随机数在游戏中的应用"></a>随机数在游戏中的应用</h4><h5 id="作为游戏玩法的一部分"><a href="#作为游戏玩法的一部分" class="headerlink" title="作为游戏玩法的一部分"></a>作为游戏玩法的一部分</h5><p>现在游戏中用到随机数除了增加一些随机性，还有很多方面，比如说玩网游的<code>扔骰子</code>、<code>抽卡</code>、<code>开宝箱</code>这些东西，都是作为游戏玩法的一部分。很多游戏里像<code>龙与地下城</code> <code>大富翁</code>这种游戏扔骰子本身就是游戏的一部分。</p>
+<h5 id="模拟自然现象"><a href="#模拟自然现象" class="headerlink" title="模拟自然现象"></a>模拟自然现象</h5><p>许多自然现象中都带有很大的随机性，例如火焰效果在做的时候会做一个叫粒子发射器的东西，用于发射很多像火焰每一片和一些小的火苗和特效这样的东西。这些粒子的运行轨迹、何时发射都带有很大的随机性，由一些随机数来控制。<br>与此相同的除了<code>火焰</code>还有<code>植被</code>、<code>生物群落</code>等。</p>
+<h5 id="离线渲染"><a href="#离线渲染" class="headerlink" title="离线渲染"></a>离线渲染</h5><p><code>离线渲染</code> <code>光线追踪</code>的做法就是从光源往外发射许多随机方向的射线，当这些射线打中一个物体表面的时候，它才会根据这个物体表面的性质随机决定去反弹还是吸收。经过这样很多次（几千万次）累计叠加，然后最终得到一张效果图像，它可以达到非常高的渲染质量。</p>
+<h5 id="随机生成的游戏内容"><a href="#随机生成的游戏内容" class="headerlink" title="随机生成的游戏内容"></a>随机生成的游戏内容</h5><p><code>我的世界</code> 的整个世界都是拿随机数生成的，由一个种子根据一定的随机数算法来生成整个世界。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekzwifkr9j30xc0go0u0.jpg"></p>
+<h4 id="两种伪随机概念"><a href="#两种伪随机概念" class="headerlink" title="两种伪随机概念"></a>两种伪随机概念</h4><h5 id="生成原理上的真随机与伪随机"><a href="#生成原理上的真随机与伪随机" class="headerlink" title="生成原理上的真随机与伪随机"></a>生成原理上的真随机与伪随机</h5><p>在电脑里没有真正的随机数。虽然电脑都是确定性的运算，没办法生成一些随机的运算。</p>
+<ul>
+<li><code>真随机</code> : 需要外部的随机性来源，如利用量子原理或者电路中的噪音来产生随机数。</li>
+<li><code>伪随机</code> : 用算法生成的”看似”随机的序列，数列本身是固定的，算法确定下来序列一定是一个确定的序列。</li>
+</ul>
+<p>实际运用随机数规模控制在2的31-32次方的范围。游戏中可以应用自如，但安全性方面还是不够。</p>
+<h5 id="应用层面的真随机与伪随机"><a href="#应用层面的真随机与伪随机" class="headerlink" title="应用层面的真随机与伪随机"></a>应用层面的真随机与伪随机</h5><ul>
+<li><code>真随机</code> : 每一次几率判断都是独立的。就跟抛硬币一样，前十次抛出正面在抛第十一次的时候正反概率还是50%。</li>
+<li><code>伪随机</code> : 指同一类的概率事件，彼此之间存在关联性，通常为了保证用户体验。比如连续抽十次卡都抽掉了游戏体验极差。王者荣耀通过幸运值让玩家保底。</li>
+</ul>
+<h4 id="游戏中常用随机策略"><a href="#游戏中常用随机策略" class="headerlink" title="游戏中常用随机策略"></a>游戏中常用随机策略</h4><h5 id="伪随机策略：保底法"><a href="#伪随机策略：保底法" class="headerlink" title="伪随机策略：保底法"></a>伪随机策略：保底法</h5><p>王者荣耀中的买五次必得四到五级铭文。<br>有些游戏即使不标出来，内部也会有这样的策略在里面，保证玩家不会得到一个太差的游戏体验。</p>
+<h5 id="伪随机策略：PRD-Pseudo-Random-Distribution"><a href="#伪随机策略：PRD-Pseudo-Random-Distribution" class="headerlink" title="伪随机策略：PRD(Pseudo Random Distribution)"></a>伪随机策略：PRD(Pseudo Random Distribution)</h5><p>最早在<code>war3</code>及<code>Dota</code>中暴击的算法，在<code>魂斗罗：归来</code>中使用。<br>如果这次没有抽中，则增加下次抽中的概率：</p>
+<ul>
+<li>第N次成功出发的几率为 <code>P(N) = C * N</code> 其中<code>C</code>为初始概率</li>
+<li>如果期望是25%的暴击率，则第一次暴击率～8.5%，第二次～17%，第三次～25.5%…</li>
+<li>一旦发生暴击则概率重置为～8.5%</li>
+</ul>
+<p>触发几率最高的是第三、四次，保证了第一、二次触发几率不会那么高，而到了第十次基本上肯定会发生一次暴击。该算法有效的把暴击分散开，不要太集中。</p>
+<h5 id="其它伪随机策略"><a href="#其它伪随机策略" class="headerlink" title="其它伪随机策略"></a>其它伪随机策略</h5><ul>
+<li><p>稀有道具的全服控制<br>一种特别稀有特别珍贵的道具，运营方希望它每天产生三个。但如果我通过概率来控制，很有可能出现今天一个人没打出来或者这一天有十几个人都打出来了，这样就不利于运营来控制游戏节奏。后台会增加一个计数器，一开始的时候概率会稍高一点，达到目标数量就会关掉再也不会出了。</p>
+</li>
+<li><p>洗牌算法<br>音乐播放如果现在有十首歌，采取随机的方式播放有可能出现某两首歌连续播放或者是某一首歌很久没出现。洗牌算法就是先把它们的顺序打乱，然后再按打乱之后的顺序来给它播放从而保证每首歌都能听到一遍。</p>
+</li>
+<li><p>二次随机</p>
+<ul>
+<li>第一次抽取决定是几级铭文</li>
+<li>第二次抽取决定是具体哪种铭文</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekybanpzig30xc0hv0ue.gif"></p>
+<h3 id="随机数生成器"><a href="#随机数生成器" class="headerlink" title="随机数生成器"></a>随机数生成器</h3><h4 id="伪随机数生成器"><a href="#伪随机数生成器" class="headerlink" title="伪随机数生成器"></a>伪随机数生成器</h4><p><code>算法</code> + <code>种子</code>就能决定随机数的序列。下面介绍几种游戏中常用的算法：</p>
+<h5 id="线性同余"><a href="#线性同余" class="headerlink" title="线性同余"></a>线性同余</h5><ul>
+<li><p>递推公式<br>$$X_{n+1} = (aX_n + c)\bmod m$$</p>
+</li>
+<li><p>这个算法非常古老而且实现起来很简单，几乎在稍微老点的语言中内置的算法都是它，每种语言中对参数的使用有着不同的选择。</p>
+</li>
+<li><p>演示</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">m &#x3D; 9	a &#x3D; 2	c &#x3D; 0	seed &#x3D; 1</span><br><span class="line">output: 1 - seed</span><br><span class="line">        2 - (1*2+0)mod 9</span><br><span class="line">        4 - (2*2+0)mod 9 </span><br><span class="line">        8 - (4*2+0)mod 9</span><br><span class="line">        7 - (8*2+0)mod 9</span><br><span class="line">            ......</span><br></pre></td></tr></table></figure></li>
+<li><p>不同参数的比较</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">(1) m &#x3D; 9   a &#x3D; 2   c &#x3D; 0   seed &#x3D; 1</span><br><span class="line">    output: </span><br><span class="line">    1 - 2 - 4 - 8 - 7 - 5 - 1 ...</span><br><span class="line"></span><br><span class="line">(2) m &#x3D; 9   a &#x3D; 2   c &#x3D; 0   seed &#x3D; 3</span><br><span class="line">    output: </span><br><span class="line">    3 - 6 - 3 ...</span><br><span class="line"></span><br><span class="line">(3) m &#x3D; 9   a &#x3D; 4   c &#x3D; 1   seed &#x3D; 0</span><br><span class="line">    output: </span><br><span class="line">    0 - 1 - 5 - 3 - 4 - 8 - 6 - 7 - 2 - 0 ...</span><br></pre></td></tr></table></figure>
+<p>这说明<code>m</code>、<code>a</code>、<code>c</code>这三个值的取值非常重要，不能随手取一个。早期项目中为了实现随机数算法时从网络下载源码，为了防止别人猜到规律随意更改了参数，后面发现这样做是不行的，不能随意更改别人给定的参数。</p>
+</li>
+<li><p>要达到最大周期为m需要的条件：</p>
+<ul>
+<li><code>c</code>与<code>m</code>互质</li>
+<li><code>a-1</code>可以被<code>m</code>的所有质因数整除</li>
+<li>如果<code>m</code>是4的倍数，<code>a-1</code>也必须是4的倍数</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>要达到良好的随机性，参数<code>c</code>还应该满足：<ul>
+<li>是质数。</li>
+<li>接近 $(\frac{1}{2}-\frac{\sqrt{3}}{6})m$</li>
+</ul>
+</li>
+</ul>
+<p>在上面几个条件的约束下，可用的<code>m</code>、<code>a</code>、<code>c</code>就没有多少个了，所以在使用的时候尽量去找现成的参数，不要自己随便填一个数字进去。</p>
+<ul>
+<li>优缺点<ul>
+<li>实现简单，速度快</li>
+<li>所需内存小</li>
+<li>用作N维空间的点坐标时，这些点多位于某些超平面上，看起来有些规律，因此不适合于用作蒙特卡洛采样</li>
+<li>当<code>m</code>为2的幂时，低阶比特周期较短，可以通过舍弃低位来缓解</li>
+</ul>
+</li>
+</ul>
+<h5 id="梅森旋转"><a href="#梅森旋转" class="headerlink" title="梅森旋转"></a>梅森旋转</h5><p>Mersenne是Makoto Mastsumoto（松本）和Takuji Nishimura（西村）于1997年开发的伪随机数产生器：</p>
+<ul>
+<li>该算法周期很长，在1～623的维度之间可以均等分布</li>
+<li>速度非常快</li>
+<li>需要的空间比线性同余算法大（TinyMT 2.5KiB）</li>
+</ul>
+<h4 id="随机数种子"><a href="#随机数种子" class="headerlink" title="随机数种子"></a>随机数种子</h4><p>给定的种子决定了后续随机数序列，一般程序启动时用当前时间作为种子进行一次初始化。</p>
+<ul>
+<li><p>错误用法</p>
+<ul>
+<li>没有调用初始化<code>srand</code>，导致每次启动游戏获得的序列是一样的，失去了随机的意义。</li>
+<li>每次调用随机数<code>rand</code>之前都初始化<code>srand</code>，这样得出的结果就会很有一定规律不是特别随机，违背了初衷。</li>
+</ul>
+</li>
+<li><p>作用</p>
+<ul>
+<li>提供每次不一样的游戏体验（用启动时间作为种子）<ul>
+<li>例如<code>超级马里奥</code>这种游戏每次敌人出现的位置是固定的，玩的次数多了甚至可以背下来，但如果增加一些随机数就可以更有趣味性和挑战性。红白机早期是没办法取到时间的，它的随机数是用一些奇怪的算法加上例如按键的时间长短来实现的</li>
+</ul>
+</li>
+<li>在程序生成内容（Procedural Content Generation,PCG）中使用，用来确保两次计算结果相同<ul>
+<li>比如用程序生成<code>Minecraft</code>这种地图每次进入是根据同一个种子来生成的，不然每次进入地图都不一样。玩家可以在网站上分享seed，根据该seed会生成相同的世界。</li>
+</ul>
+</li>
+<li>在多人游戏中减小带宽占用（帧同步游戏机制）<ul>
+<li>两人对战时暴击是随机的，但两边要保证随机出来的值是一样的，所以需要一开始把一方的种子传过去。种子一样，之后的计算步骤保持一致就能保证两端是一样的。</li>
+</ul>
+</li>
+<li>使用非常小的录像文件来实现录像和回放功能（如游戏的录像机制）</li>
+</ul>
+</li>
+<li><p>帧同步中的随机数<br>在使用帧同步的游戏中，要求所有运算步骤严格依序执行</p>
+<ul>
+<li>通常会自行实现伪随机数生成器，第三方库无意的调用系统随机数很可能破坏同步状态。</li>
+<li>随机数种子需要同步，同步给第三方。</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gelg9u2n0nj30xc0dxgnj.jpg"></p>
+<h3 id="随机数分布与应用"><a href="#随机数分布与应用" class="headerlink" title="随机数分布与应用"></a>随机数分布与应用</h3><h4 id="均匀分布"><a href="#均匀分布" class="headerlink" title="均匀分布"></a>均匀分布</h4><ul>
+<li>VC的<code>rand()</code>函数范围是[0..32767]，如何取得一个[0..9999]的随机整数？<ul>
+<li><code>x = rand()%10000</code> 分布不均匀（左侧偏大），因为32767不能被10000整除</li>
+<li>拒绝采样法</li>
+</ul>
+</li>
+</ul>
+<h5 id="如何取得更大的随机数（0～1000000）"><a href="#如何取得更大的随机数（0～1000000）" class="headerlink" title="如何取得更大的随机数（0～1000000）"></a>如何取得更大的随机数（0～1000000）</h5><ul>
+<li><code>x = rand()*(RAND_MAX + 1) + rand()</code></li>
+<li>使用更好的随机数算法，比如梅森旋转</li>
+</ul>
+<h5 id="如何取得一个0～1的随机浮点数"><a href="#如何取得一个0～1的随机浮点数" class="headerlink" title="如何取得一个0～1的随机浮点数"></a>如何取得一个0～1的随机浮点数</h5><ul>
+<li><p><code>x = rand()/(float)RAND_MAX</code><br>不可以用<code>x = (rand()%10000)/10000.0f</code> 同样的原因也会导致分布不均匀</p>
+</li>
+<li><p>针对浮点数的存储格式来生成，随机填充尾数域得[1，2)范围的随机数。<br><code>符号位 - 指数域 - 尾数域(23bit)</code><br>将指数域写死，尾数域用0或1进行填充，最后生成的随机数再减去1就可以得到0到1之间的浮点随机数。</p>
+</li>
+</ul>
+<h4 id="正态分布"><a href="#正态分布" class="headerlink" title="正态分布"></a>正态分布</h4><p>在某些时候用于生成更符合自然界规律的随机分布，比如：<code>不同身高的人群</code>、<code>不同高度的树木</code>等。</p>
+<h5 id="如何获得符合正态分布的随机数"><a href="#如何获得符合正态分布的随机数" class="headerlink" title="如何获得符合正态分布的随机数"></a>如何获得符合正态分布的随机数</h5><ul>
+<li><p>拒绝采样法<br>采样两次分别用作x值和y值，只保留正态分布曲线以下的部分，输出的时候丢弃y值，只输出x值从而保证正态分布。缺点是浪费了太多的样本点。</p>
+</li>
+<li><p>Ziggurat：优化版拒绝采样<br>先生成一些符合正态分布且面积相等的矩形，然后对矩形进行随机：如果在正态分布曲线下方则保留；否则再用拒绝采样法来判断一次，最后只保留曲线以下部分。该算法的主要目的是为了减少无效的运算。</p>
+</li>
+<li><p>逆变换采样<br>利用正态分布CDF的反函数做 Inverse transform sampling<br>在y轴产生服从(0,1)均匀分布的随机数，水平向右投影到曲线上，然后垂直向下投影到x轴，这样在x轴上就得到了正态分布，拿正态分布的反函数来算。</p>
+</li>
+<li><p>Box-Muller算法<br>选取两个服从[0,1]上均匀分布的随机变量 U1、U2，使X、Y满足：</p>
+<p>$X = \cos(2 \pi U_1)\sqrt{-2 \ln U_2}$</p>
+<p>$Y = \sin(2 \pi U_1)\sqrt{-2 \ln U_2}$</p>
+<p>则X与Y服从均值为0，方差为1的高斯分布。</p>
+</li>
+<li><p>基于中心极限定理采样</p>
+<ul>
+<li>生成n个独立同分布的随机变量，求和即可</li>
+<li>当n趋近于无穷大时，它们和的分布都会趋近正态分布</li>
+</ul>
+</li>
+</ul>
+<h4 id="形状采样"><a href="#形状采样" class="headerlink" title="形状采样"></a>形状采样</h4><h5 id="取得在圆形内均匀分布的点"><a href="#取得在圆形内均匀分布的点" class="headerlink" title="取得在圆形内均匀分布的点"></a>取得在圆形内均匀分布的点</h5><ul>
+<li><p>拒绝采样</p>
+</li>
+<li><p>根据极坐标采样</p>
+<ul>
+<li><p>错误算法</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">x &#x3D; r * sin(theta)</span><br><span class="line">y &#x3D; r * cos(theta)</span><br></pre></td></tr></table></figure></li>
+<li><p>正确算法</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">x &#x3D; sqrt(r) * sin(theta)</span><br><span class="line">y &#x3D; sqrt(r) * cos(theta)</span><br></pre></td></tr></table></figure>
+
+
+
+
+</li>
+</ul>
+<h5 id="洗牌算法-Fisher-Yates-shuffle"><a href="#洗牌算法-Fisher-Yates-shuffle" class="headerlink" title="洗牌算法 Fisher-Yates shuffle"></a>洗牌算法 Fisher-Yates shuffle</h5></li>
+<li><p>选中第1个元素，将其与<code>n</code>个元素中的任意一个交换（包括第1个元素自己）。这时排序后的第1个元素已经确定</p>
+</li>
+<li><p>选中第2个元素，将其与<code>n-1</code>个元素中作任意一个交换（包括第2个元素自己）。</p>
+</li>
+<li><p>重复上面步骤，直到剩1个元素为止。</p>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekzwflh2oj30xc0p0dot.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekyba8kcdj30xc0got99.jpg"></p>
+]]></content>
+      <categories>
+        <category>游戏程序设计 (Game Programming)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>Math</tag>
+        <tag>Random</tag>
       </tags>
   </entry>
   <entry>
@@ -5581,9 +5637,9 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
+        <tag>Celeste</tag>
         <tag>Game</tag>
         <tag>INDIE</tag>
-        <tag>Celeste</tag>
       </tags>
   </entry>
   <entry>
@@ -5837,196 +5893,6 @@
       </tags>
   </entry>
   <entry>
-    <title>马尔萨斯人口论与数学建模</title>
-    <url>/archives/1492ea3c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk0dpddbq1j30xc0m80tg.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/100474895/World-Population-Day_Advertisment?tracking_source=search_projects_recommended%7CPopulation">World Population Day_Advertisment</a> by 
-      <a href="https://www.behance.net/vibinks">vibin ks</a>
-    </i>
-  </font>
-</div>
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文基于马尔萨斯的人口论，探讨人类社会人口的增长趋势并列举多种变体人口增长模型，同时领悟数学建模的主要思想和具体步骤，加深学习和理解。</p>
-<span id="more"></span>
-
-
-
-<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><blockquote>
-<p> <strong>群体的增长能不能预测？</strong></p>
-</blockquote>
-<p>例如当前全球人口有72亿，我们能否预测30年后地球上有多少人呢？未来的趋势又是如何呢？</p>
-<table>
-<thead>
-<tr>
-<th align="center">年度</th>
-<th align="center">人口总量</th>
-<th align="center">增长率%</th>
-<th align="center">年度净变化率</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">1960</td>
-<td align="center">3,039,332,401</td>
-<td align="center">1.33</td>
-<td align="center">40,781,960</td>
-</tr>
-<tr>
-<td align="center">1961</td>
-<td align="center">3,080,114,361</td>
-<td align="center">1.80</td>
-<td align="center">56,083,390</td>
-</tr>
-<tr>
-<td align="center">1962</td>
-<td align="center">3,136,197,751</td>
-<td align="center">2.19</td>
-<td align="center">69,508,948</td>
-</tr>
-<tr>
-<td align="center">1963</td>
-<td align="center">3,205,706,699</td>
-<td align="center">2.19</td>
-<td align="center">71,110,065</td>
-</tr>
-<tr>
-<td align="center">1964</td>
-<td align="center">3,276,816,764</td>
-<td align="center">2.08</td>
-<td align="center">69,021,089</td>
-</tr>
-<tr>
-<td align="center">…</td>
-<td align="center">……</td>
-<td align="center">…</td>
-<td align="center">……</td>
-</tr>
-</tbody></table>
-<p>对于上面的人口统计数据集，当然可以选择使用统计回归模型 <strong>（数据型）</strong>。这无疑可以是一个选择，但这里我们更多的想讨论机理型的数学模型 <strong>（机理型）</strong>。两种类型的模型中机理型更侧重于问题的分析和解决，数据型更注重于数据的结果。</p>
-<h3 id="群体的增长趋势是什么？"><a href="#群体的增长趋势是什么？" class="headerlink" title="群体的增长趋势是什么？"></a>群体的增长趋势是什么？</h3><h4 id="马尔萨斯人口论"><a href="#马尔萨斯人口论" class="headerlink" title="马尔萨斯人口论"></a>马尔萨斯人口论</h4><h5 id="马尔萨斯"><a href="#马尔萨斯" class="headerlink" title="马尔萨斯"></a>马尔萨斯</h5><p>马尔萨斯(1766—1834)，英国牧师，被称为西方思想史上最富有争议的经济学家、 人口学家，以他1798年出版的<em>《人口原理》</em> 而闻名于世。</p>
-<h5 id="基本论题"><a href="#基本论题" class="headerlink" title="基本论题"></a>基本论题</h5><p>人类食物供给增长趋势无法跟上人口增长的趋势</p>
-<h5 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h5><ul>
-<li>食物为人类生存所必需</li>
-<li>两性间的情欲是必然，而且几乎会保持现状</li>
-</ul>
-<h5 id="基本论述"><a href="#基本论述" class="headerlink" title="基本论述"></a>基本论述</h5><p>马尔萨斯认为：</p>
-<ul>
-<li><p>人口有 <strong>几何增长</strong> 的趋势（即按 <strong>指数</strong> 函数增长的趋势），如级数（1，2，4，8，16，… ）</p>
-</li>
-<li><p>食物供应只有 <strong>算术增长</strong> 的趋势（即按 <strong>线性</strong> 函数增长的趋势），如级数（1，2，3，4，5，… ）</p>
-</li>
-</ul>
-<p>这样两种增长方式显然是不匹配的，所以他的结论是：<strong>人口会有无限的增长的趋势，直至食物供应的极限为止</strong></p>
-<h5 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h5><p>要控制人口的无节制增长。</p>
-<h3 id="马尔萨斯人口模型"><a href="#马尔萨斯人口模型" class="headerlink" title="马尔萨斯人口模型"></a>马尔萨斯人口模型</h3><p>在马尔萨斯的著作里并没有数学化的论述，甚为遗憾。<strong>公理的表述方式，则看出欧几里得对西方文化的影响</strong>。这里我们按马尔萨斯的想法和原则，数学化这个问题：</p>
-<p>$P(t)$  $t$ 时刻的人口数量</p>
-<p>我们的问题始终是：</p>
-<blockquote>
-<ol>
-<li><strong>已知当前或过去某个时刻的人口数量，预测未来某个时刻的人口？</strong></li>
-<li><strong>遥远未来的趋势（$t$ 趋于无穷）？</strong></li>
-</ol>
-</blockquote>
-<h4 id="高尔斯的推导"><a href="#高尔斯的推导" class="headerlink" title="高尔斯的推导"></a>高尔斯的推导</h4><p>蒂莫西·高尔斯在《数学》里也讨论了人口预测问题：“人口可以表示为一组数对 $(t,P(t))$ 。其中 $t$ 表示时间，$P(t)$ 表示时刻 $ t $ 的人口规模。另外我们要用到两个数 $b$ 和 $d$ 来表示出生率和死亡率。”</p>
-<p>假如2002年初人口总数是 $p$, 则2002年出生的人数和死亡的人数就分别是 $bp$ 和 $dp$, 所以2003年初的人口总数将是 $p+bp-dp=(1+b-d)p=(1+r)p$ ，这里的 $r$ 就是自然增长率。</p>
-<p>高尔斯这个模型是离散的，但是人口的增长是时刻变化而不是离散的，如果当前人口量是 $P(t)$，经过一个 $\Delta t$ 的时间人口量达到 $P(t+\Delta t)$，则此时有 $P(t+\Delta t)-P(t)=rP(t)\Delta t$ 。接着取极限使 $\Delta t$ 趋近于0：$P(t+dt)-P(t)=rP(t)dt$  </p>
-<blockquote>
-<p>$\frac{dP(t)}{dt}=rP(t)$   –&gt;   $P(t_0)=P_0$   –&gt;  $P(t)=P_0e^{r(t-t_0)}$</p>
-</blockquote>
-<p>最后我们发现人口数量函数是一个指数函数。通过推导出的上式我们解决了第一个问题，即已知当前或过去某个时刻的人口数量，预测未来某个时刻的人口只要带入当前人口就可以求解；而第二个问题由于是指数函数，这样的函数在 $t$ 趋于无穷时是快速趋于无穷的，所以马尔萨斯的论断是有理由的（他也确实使用欧洲的人口数据对模型进行验证）。</p>
-<h4 id="回顾"><a href="#回顾" class="headerlink" title="回顾"></a>回顾</h4><p>首先我们面对一个<strong>现实问题</strong>：人口会是怎么增长的；接着把现实问题<strong>表达为数学模型</strong>，并<strong>分析、求解模型</strong>；之后模型解变为<strong>问题的解决方案</strong>；最后解决方案回到现实问题，通过数据对模型进行验证。如果与现实并不符合，也可能需要修改数学模型与求解过程。马尔萨斯也是基于这个模型对人口进行论断：要控制人口的无节制增长。</p>
-<h3 id="Logistic模型"><a href="#Logistic模型" class="headerlink" title="Logistic模型"></a>Logistic模型</h3><p>高尔斯推导的微分方程固然不错，可事实上自然增长率 $r$ 不是常量，它也在时刻变化中。在马尔萨斯那个年代，因为人口数量还不是特别多，所以人口受资源的约束还没有那么大，可以维持自然增长，自然增长率可以是一个常数。但现在的情况下 **自然增长率一定会是时间的函数 $r(t)$**。当人口量增长到一定量的时候，人口数量一定会关联自然增长率，所以可以通过人口总量让自然增长率成为 $t$ 的函数 ：$r(t)=r(P(t))$</p>
-<p>Logistic模型中自然增长率 $r$ 依旧可以认为是一个常数，但是这个常数现在我们需要对它进行校正。下式可以发现相比高尔斯的模型多了一个参数 $K$，直观意义是地球最多能养活多少人，也就是 <strong>环境承载量</strong>。不同的社会学家和人口学家对这个问题没有统一的意见，但他们的共识是 <strong>$K$ 这个参数一定是存在的</strong>。</p>
-<blockquote>
-<p>$r(t)=r(P(t))=r(1-\frac{P(t)}{K})$</p>
-</blockquote>
-<h4 id="基本共识"><a href="#基本共识" class="headerlink" title="基本共识"></a>基本共识</h4><p>地球能养活的人一定是有限的</p>
-<h4 id="比较"><a href="#比较" class="headerlink" title="比较"></a>比较</h4><p>在这个共识下引入参数 $K$ 让Logistic模型比马尔萨斯更好一些。但马尔萨斯那个年代 $P(t)$ 远比 $K$ 要小，$\frac{P(t)}{K}$ 趋近于0 ，最后可以得到 $r(t)=r$，也就是马尔萨斯的猜想，没有什么问题。但到了19-20世纪的地球，后面的这一项 $\frac{P(t)}{K}$ 就变的不可以忽略了，马尔萨斯的模型因为太简单而不能解决现实问题，所以虽然引入参数让模型变得更加复杂，但也更符合实际情况。</p>
-<h4 id="推导"><a href="#推导" class="headerlink" title="推导"></a>推导</h4><blockquote>
-<p>$\frac{dN(t)}{dt}=r(1-\frac{N(t)}{K})N(t)$  </p>
-<p>$N(t_0)=N_0$</p>
-</blockquote>
-<p>$N(t)$表示时间 $t$ 处人口的数量，换个符号以区别于马尔萨斯模型</p>
-<blockquote>
-<p>$N(t)=\frac{K}{1+Ce^{-r(t-t_0)}}$</p>
-<p>$C=\frac{K-P_0}{P_0}$</p>
-</blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9yk47wlkj30ev08sq3j.jpg"></p>
-<p>回到之前的两个问题，第一个问题依然可以直接计算代入即可；第二个问题中令 $t$ 趋于无穷预测未来趋势，作图可以发现$K$ 是一个渐进线：如果初值比 $K$ 值小，人口会以“S”型曲线增长直至达到 $K$ 值饱和； 如果初值已经超过 $K$ 值，它会比较快速的下降到 $K$ 值之后稳定。</p>
-<h4 id="模型离散化"><a href="#模型离散化" class="headerlink" title="模型离散化"></a>模型离散化</h4><p>将微分方程再化为差分方程，考虑这个模型的离散化：</p>
-<blockquote>
-<p> $\frac{dN}{dt}=rN(1-\frac{N}{K})$  –&gt;  $\frac{\Delta N}{\Delta t}=rN(1-\frac{N}{K})$</p>
-<p> $\Delta N = N_{t+1}-N_t$</p>
-<p> $\Delta t = 1$</p>
-</blockquote>
-<p>这里差分方程的时间离散步长取为其，每一代就是一个时间步。</p>
-<blockquote>
-<p>$N_{t+1}-N_t=rN_t(1-\frac{N_t}{K})$</p>
-<p>$N_{t+1}=(1+r)N_t-\frac{r}{K}N_t^{2}$</p>
-</blockquote>
-<p>取定参数 $K$ ，考虑不同的参数 $r$ </p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9yjjz3r2j30gn08k3zt.jpg"></p>
-<p>可以发现 $t$ 越来越大时愈发趋近于 $K$ 。让我们再看一看 $r$ 变大一点的效果：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9yj5csmcj30fl080dhk.jpg"></p>
-<p>我们可以发现在极限状态下呈现出一定的周期性，极限也不一定是之前稳态的 $K$ 了，更像是一种平均值，所以严格来说它并没有极限，或者说是2周期的解，每两步就回来。那如果 $r$ 继续增大呢？</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9ylqp2m0j30gb07otaz.jpg"></p>
-<p>我们可以观察到它还是周期的，但不再是2周期的了，而是4周期的。那我们继续让 $r$ 增大：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9ygqasbdj30gh085ac9.jpg"></p>
-<p>随着 $r$ 的不断增大，最后甚至会出现“混沌”的状态：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9z26wrn9j30fj07576t.jpg"></p>
-<p>也就是说如果对这个问题做一个小的扰乱比如初始值，整个曲线后面变化会非常大，也可以说是对初值敏感的依赖（“混沌”的标准）。所以从离散化的模型我们可以得到这么丰富的现象，结果非常意外。</p>
-<h3 id="Leslie模型"><a href="#Leslie模型" class="headerlink" title="Leslie模型"></a>Leslie模型</h3><p>言归正传回到原来的问题，之前的两个模型都只考虑了 <strong>人口总量</strong> 的问题，而忽视了 <strong>人口分布</strong> 的问题：人口总量一样、人口分布不一样。这个问题的核心在于<strong>只有人口总量一个是否可以足够刻画人口</strong>，而 <strong>年龄分布</strong> 的引入显然是对人口更完整的刻画。</p>
-<p>假如现在以年为单位，年龄对人口进行切分：$N_t=\begin{pmatrix} n_0 \\ n_1 \\ … \\ n_s \end{pmatrix}_t$</p>
-<blockquote>
-<p>$n_{0,t+1}=F_0n_{0,t}+F_1n_{1,t}+…+F_sn_{s,t}$</p>
-<p>$n_{1,t+1}=p_0n_{0,t}$</p>
-<p>……</p>
-<p>$n_{s,t+1}=p_{s-1}n_{s-1,t}$</p>
-</blockquote>
-<p>上式中我们不只关心人口的总量，还要注意不同年龄段人口的分布。由于模型是离散的，所以自然可以写成矩阵的形式：</p>
-<blockquote>
-<p>$N_{n+1}=LN_t$</p>
-<p>$L = \begin{pmatrix} F_0 &amp; F_1 &amp; F_2 &amp; … &amp; F_s \\ p_0 &amp; 0 &amp; 0 &amp; … &amp; 0 \\ 0 &amp; p_1 &amp; 0 &amp; … &amp; 0 \\ 0 &amp; 0 &amp; … &amp; p_{s-1} &amp; 0\end{pmatrix}$</p>
-</blockquote>
-<p>该模型的复杂在于需要更多的参数：马尔萨斯需要1个参数、Logistic模型需要2个参数，而到了Leslie模型，我们需要更多的参数–人口分段的两倍。当有太多人为的参数的时候会出现许多不完全客观的东西，不可避免会带有主观性。那么利用数学模型去认知问题其实很重要的是 <strong>理性的手段带来更好的客观性</strong>。当这样的参数越来越多的时候，客观性就会受到损害。但也正是因为之前简单的模型无法解决今天越来越复杂的问题，我们才会去考虑更复杂的模型。</p>
-<p>回到之前反复研究的两个问题，在这些参数都比较好得到的情况下只需要乘上矩阵就可以得到下一年或者下一个时刻的，可以完美解决。而对于第二个问题，假设已知矩阵的特征值（$\lambda_0，\lambda_1，…，\lambda_s$）和相应的特征向量（$\nu_0,\nu_1，…，\nu_s$），如果初始人口设为 $N_0$，则有 ：</p>
-<blockquote>
-<p>$N_0=c_0v_0+\sum^S_{i=1}c_i(\lambda_i)^t\nu_t$</p>
-<p>$N_t=c_0(\lambda_0)^t\nu_0+\sum^S_{i=1}c_i(\lambda_i)^t\nu_i$</p>
-</blockquote>
-<p>当 $t$ 趋于无穷时，如果 $\lambda_0&gt;|\lambda_i| \space i = 1，2，…,s$，则有 $\lim_{t \to \infty}N_t \propto c_0(\lambda_0)^t \nu_0$,所以渐进状态是由首特征大小和对应的特征向量决定的，$|\lambda_0|&gt;1$ 人口会越来越多；$|\lambda_0|&lt;1$ 会逐渐走向灭亡；$|\lambda_0|=1$则会进入一个稳态。</p>
-<h3 id="更复杂的模型"><a href="#更复杂的模型" class="headerlink" title="更复杂的模型"></a>更复杂的模型</h3><p>对于更复杂的问题是否要采用更复杂的模型，具体还是要看需求。Leslie模型是离散的，我们可以考虑将模型重新连续化。这样我们需要考虑这样一个函数：它是 $t$ 的函数，同时也应该是年龄的多元函数 $P(a,t)$。我们也需要将之前的切分年龄段参数变成连续的分布函数： <code>出生率-年龄</code>函数 和 <code>存活率-年龄</code> 函数。</p>
-<p>真的问题都不是无病呻吟，如果可以解决问题，模型越简洁越好，没有复杂化的必要。模型变得越来越复杂，是因为有这种需求，这种需求不可避免的要做更复杂的模型，我们才去改进。回到人口问题本身，即使我们已经考虑到了年龄的影响因素，我们仍有许多影响因素没有考虑进来：</p>
-<ul>
-<li>地域差异</li>
-<li>移民的影响</li>
-</ul>
-<p>对于这种情况最好使用 <strong>随机模型</strong>，在模型中体现出过程的随机性。</p>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/vibinks">vibin ks</a>
-    </i>
-  </font>
-</div>
-
-
-
-]]></content>
-      <categories>
-        <category>数学建模 (Mathematical Modeling)</category>
-      </categories>
-      <tags>
-        <tag>Math</tag>
-        <tag>Mooc</tag>
-        <tag>Population</tag>
-        <tag>Mathematical Modeling</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>手机是怎么知道你的位置的</title>
     <url>/archives/a03a749.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkcy9nokcuj30u00w9hag.jpg"></p>
@@ -6114,8 +5980,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>Mathematical Modeling</tag>
         <tag>GPS</tag>
+        <tag>Mathematical Modeling</tag>
       </tags>
   </entry>
   <entry>
@@ -6332,6 +6198,196 @@
       </tags>
   </entry>
   <entry>
+    <title>马尔萨斯人口论与数学建模</title>
+    <url>/archives/1492ea3c.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk0dpddbq1j30xc0m80tg.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/100474895/World-Population-Day_Advertisment?tracking_source=search_projects_recommended%7CPopulation">World Population Day_Advertisment</a> by 
+      <a href="https://www.behance.net/vibinks">vibin ks</a>
+    </i>
+  </font>
+</div>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文基于马尔萨斯的人口论，探讨人类社会人口的增长趋势并列举多种变体人口增长模型，同时领悟数学建模的主要思想和具体步骤，加深学习和理解。</p>
+<span id="more"></span>
+
+
+
+<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><blockquote>
+<p> <strong>群体的增长能不能预测？</strong></p>
+</blockquote>
+<p>例如当前全球人口有72亿，我们能否预测30年后地球上有多少人呢？未来的趋势又是如何呢？</p>
+<table>
+<thead>
+<tr>
+<th align="center">年度</th>
+<th align="center">人口总量</th>
+<th align="center">增长率%</th>
+<th align="center">年度净变化率</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1960</td>
+<td align="center">3,039,332,401</td>
+<td align="center">1.33</td>
+<td align="center">40,781,960</td>
+</tr>
+<tr>
+<td align="center">1961</td>
+<td align="center">3,080,114,361</td>
+<td align="center">1.80</td>
+<td align="center">56,083,390</td>
+</tr>
+<tr>
+<td align="center">1962</td>
+<td align="center">3,136,197,751</td>
+<td align="center">2.19</td>
+<td align="center">69,508,948</td>
+</tr>
+<tr>
+<td align="center">1963</td>
+<td align="center">3,205,706,699</td>
+<td align="center">2.19</td>
+<td align="center">71,110,065</td>
+</tr>
+<tr>
+<td align="center">1964</td>
+<td align="center">3,276,816,764</td>
+<td align="center">2.08</td>
+<td align="center">69,021,089</td>
+</tr>
+<tr>
+<td align="center">…</td>
+<td align="center">……</td>
+<td align="center">…</td>
+<td align="center">……</td>
+</tr>
+</tbody></table>
+<p>对于上面的人口统计数据集，当然可以选择使用统计回归模型 <strong>（数据型）</strong>。这无疑可以是一个选择，但这里我们更多的想讨论机理型的数学模型 <strong>（机理型）</strong>。两种类型的模型中机理型更侧重于问题的分析和解决，数据型更注重于数据的结果。</p>
+<h3 id="群体的增长趋势是什么？"><a href="#群体的增长趋势是什么？" class="headerlink" title="群体的增长趋势是什么？"></a>群体的增长趋势是什么？</h3><h4 id="马尔萨斯人口论"><a href="#马尔萨斯人口论" class="headerlink" title="马尔萨斯人口论"></a>马尔萨斯人口论</h4><h5 id="马尔萨斯"><a href="#马尔萨斯" class="headerlink" title="马尔萨斯"></a>马尔萨斯</h5><p>马尔萨斯(1766—1834)，英国牧师，被称为西方思想史上最富有争议的经济学家、 人口学家，以他1798年出版的<em>《人口原理》</em> 而闻名于世。</p>
+<h5 id="基本论题"><a href="#基本论题" class="headerlink" title="基本论题"></a>基本论题</h5><p>人类食物供给增长趋势无法跟上人口增长的趋势</p>
+<h5 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h5><ul>
+<li>食物为人类生存所必需</li>
+<li>两性间的情欲是必然，而且几乎会保持现状</li>
+</ul>
+<h5 id="基本论述"><a href="#基本论述" class="headerlink" title="基本论述"></a>基本论述</h5><p>马尔萨斯认为：</p>
+<ul>
+<li><p>人口有 <strong>几何增长</strong> 的趋势（即按 <strong>指数</strong> 函数增长的趋势），如级数（1，2，4，8，16，… ）</p>
+</li>
+<li><p>食物供应只有 <strong>算术增长</strong> 的趋势（即按 <strong>线性</strong> 函数增长的趋势），如级数（1，2，3，4，5，… ）</p>
+</li>
+</ul>
+<p>这样两种增长方式显然是不匹配的，所以他的结论是：<strong>人口会有无限的增长的趋势，直至食物供应的极限为止</strong></p>
+<h5 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h5><p>要控制人口的无节制增长。</p>
+<h3 id="马尔萨斯人口模型"><a href="#马尔萨斯人口模型" class="headerlink" title="马尔萨斯人口模型"></a>马尔萨斯人口模型</h3><p>在马尔萨斯的著作里并没有数学化的论述，甚为遗憾。<strong>公理的表述方式，则看出欧几里得对西方文化的影响</strong>。这里我们按马尔萨斯的想法和原则，数学化这个问题：</p>
+<p>$P(t)$  $t$ 时刻的人口数量</p>
+<p>我们的问题始终是：</p>
+<blockquote>
+<ol>
+<li><strong>已知当前或过去某个时刻的人口数量，预测未来某个时刻的人口？</strong></li>
+<li><strong>遥远未来的趋势（$t$ 趋于无穷）？</strong></li>
+</ol>
+</blockquote>
+<h4 id="高尔斯的推导"><a href="#高尔斯的推导" class="headerlink" title="高尔斯的推导"></a>高尔斯的推导</h4><p>蒂莫西·高尔斯在《数学》里也讨论了人口预测问题：“人口可以表示为一组数对 $(t,P(t))$ 。其中 $t$ 表示时间，$P(t)$ 表示时刻 $ t $ 的人口规模。另外我们要用到两个数 $b$ 和 $d$ 来表示出生率和死亡率。”</p>
+<p>假如2002年初人口总数是 $p$, 则2002年出生的人数和死亡的人数就分别是 $bp$ 和 $dp$, 所以2003年初的人口总数将是 $p+bp-dp=(1+b-d)p=(1+r)p$ ，这里的 $r$ 就是自然增长率。</p>
+<p>高尔斯这个模型是离散的，但是人口的增长是时刻变化而不是离散的，如果当前人口量是 $P(t)$，经过一个 $\Delta t$ 的时间人口量达到 $P(t+\Delta t)$，则此时有 $P(t+\Delta t)-P(t)=rP(t)\Delta t$ 。接着取极限使 $\Delta t$ 趋近于0：$P(t+dt)-P(t)=rP(t)dt$  </p>
+<blockquote>
+<p>$\frac{dP(t)}{dt}=rP(t)$   –&gt;   $P(t_0)=P_0$   –&gt;  $P(t)=P_0e^{r(t-t_0)}$</p>
+</blockquote>
+<p>最后我们发现人口数量函数是一个指数函数。通过推导出的上式我们解决了第一个问题，即已知当前或过去某个时刻的人口数量，预测未来某个时刻的人口只要带入当前人口就可以求解；而第二个问题由于是指数函数，这样的函数在 $t$ 趋于无穷时是快速趋于无穷的，所以马尔萨斯的论断是有理由的（他也确实使用欧洲的人口数据对模型进行验证）。</p>
+<h4 id="回顾"><a href="#回顾" class="headerlink" title="回顾"></a>回顾</h4><p>首先我们面对一个<strong>现实问题</strong>：人口会是怎么增长的；接着把现实问题<strong>表达为数学模型</strong>，并<strong>分析、求解模型</strong>；之后模型解变为<strong>问题的解决方案</strong>；最后解决方案回到现实问题，通过数据对模型进行验证。如果与现实并不符合，也可能需要修改数学模型与求解过程。马尔萨斯也是基于这个模型对人口进行论断：要控制人口的无节制增长。</p>
+<h3 id="Logistic模型"><a href="#Logistic模型" class="headerlink" title="Logistic模型"></a>Logistic模型</h3><p>高尔斯推导的微分方程固然不错，可事实上自然增长率 $r$ 不是常量，它也在时刻变化中。在马尔萨斯那个年代，因为人口数量还不是特别多，所以人口受资源的约束还没有那么大，可以维持自然增长，自然增长率可以是一个常数。但现在的情况下 **自然增长率一定会是时间的函数 $r(t)$**。当人口量增长到一定量的时候，人口数量一定会关联自然增长率，所以可以通过人口总量让自然增长率成为 $t$ 的函数 ：$r(t)=r(P(t))$</p>
+<p>Logistic模型中自然增长率 $r$ 依旧可以认为是一个常数，但是这个常数现在我们需要对它进行校正。下式可以发现相比高尔斯的模型多了一个参数 $K$，直观意义是地球最多能养活多少人，也就是 <strong>环境承载量</strong>。不同的社会学家和人口学家对这个问题没有统一的意见，但他们的共识是 <strong>$K$ 这个参数一定是存在的</strong>。</p>
+<blockquote>
+<p>$r(t)=r(P(t))=r(1-\frac{P(t)}{K})$</p>
+</blockquote>
+<h4 id="基本共识"><a href="#基本共识" class="headerlink" title="基本共识"></a>基本共识</h4><p>地球能养活的人一定是有限的</p>
+<h4 id="比较"><a href="#比较" class="headerlink" title="比较"></a>比较</h4><p>在这个共识下引入参数 $K$ 让Logistic模型比马尔萨斯更好一些。但马尔萨斯那个年代 $P(t)$ 远比 $K$ 要小，$\frac{P(t)}{K}$ 趋近于0 ，最后可以得到 $r(t)=r$，也就是马尔萨斯的猜想，没有什么问题。但到了19-20世纪的地球，后面的这一项 $\frac{P(t)}{K}$ 就变的不可以忽略了，马尔萨斯的模型因为太简单而不能解决现实问题，所以虽然引入参数让模型变得更加复杂，但也更符合实际情况。</p>
+<h4 id="推导"><a href="#推导" class="headerlink" title="推导"></a>推导</h4><blockquote>
+<p>$\frac{dN(t)}{dt}=r(1-\frac{N(t)}{K})N(t)$  </p>
+<p>$N(t_0)=N_0$</p>
+</blockquote>
+<p>$N(t)$表示时间 $t$ 处人口的数量，换个符号以区别于马尔萨斯模型</p>
+<blockquote>
+<p>$N(t)=\frac{K}{1+Ce^{-r(t-t_0)}}$</p>
+<p>$C=\frac{K-P_0}{P_0}$</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9yk47wlkj30ev08sq3j.jpg"></p>
+<p>回到之前的两个问题，第一个问题依然可以直接计算代入即可；第二个问题中令 $t$ 趋于无穷预测未来趋势，作图可以发现$K$ 是一个渐进线：如果初值比 $K$ 值小，人口会以“S”型曲线增长直至达到 $K$ 值饱和； 如果初值已经超过 $K$ 值，它会比较快速的下降到 $K$ 值之后稳定。</p>
+<h4 id="模型离散化"><a href="#模型离散化" class="headerlink" title="模型离散化"></a>模型离散化</h4><p>将微分方程再化为差分方程，考虑这个模型的离散化：</p>
+<blockquote>
+<p> $\frac{dN}{dt}=rN(1-\frac{N}{K})$  –&gt;  $\frac{\Delta N}{\Delta t}=rN(1-\frac{N}{K})$</p>
+<p> $\Delta N = N_{t+1}-N_t$</p>
+<p> $\Delta t = 1$</p>
+</blockquote>
+<p>这里差分方程的时间离散步长取为其，每一代就是一个时间步。</p>
+<blockquote>
+<p>$N_{t+1}-N_t=rN_t(1-\frac{N_t}{K})$</p>
+<p>$N_{t+1}=(1+r)N_t-\frac{r}{K}N_t^{2}$</p>
+</blockquote>
+<p>取定参数 $K$ ，考虑不同的参数 $r$ </p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9yjjz3r2j30gn08k3zt.jpg"></p>
+<p>可以发现 $t$ 越来越大时愈发趋近于 $K$ 。让我们再看一看 $r$ 变大一点的效果：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9yj5csmcj30fl080dhk.jpg"></p>
+<p>我们可以发现在极限状态下呈现出一定的周期性，极限也不一定是之前稳态的 $K$ 了，更像是一种平均值，所以严格来说它并没有极限，或者说是2周期的解，每两步就回来。那如果 $r$ 继续增大呢？</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9ylqp2m0j30gb07otaz.jpg"></p>
+<p>我们可以观察到它还是周期的，但不再是2周期的了，而是4周期的。那我们继续让 $r$ 增大：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9ygqasbdj30gh085ac9.jpg"></p>
+<p>随着 $r$ 的不断增大，最后甚至会出现“混沌”的状态：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9z26wrn9j30fj07576t.jpg"></p>
+<p>也就是说如果对这个问题做一个小的扰乱比如初始值，整个曲线后面变化会非常大，也可以说是对初值敏感的依赖（“混沌”的标准）。所以从离散化的模型我们可以得到这么丰富的现象，结果非常意外。</p>
+<h3 id="Leslie模型"><a href="#Leslie模型" class="headerlink" title="Leslie模型"></a>Leslie模型</h3><p>言归正传回到原来的问题，之前的两个模型都只考虑了 <strong>人口总量</strong> 的问题，而忽视了 <strong>人口分布</strong> 的问题：人口总量一样、人口分布不一样。这个问题的核心在于<strong>只有人口总量一个是否可以足够刻画人口</strong>，而 <strong>年龄分布</strong> 的引入显然是对人口更完整的刻画。</p>
+<p>假如现在以年为单位，年龄对人口进行切分：$N_t=\begin{pmatrix} n_0 \\ n_1 \\ … \\ n_s \end{pmatrix}_t$</p>
+<blockquote>
+<p>$n_{0,t+1}=F_0n_{0,t}+F_1n_{1,t}+…+F_sn_{s,t}$</p>
+<p>$n_{1,t+1}=p_0n_{0,t}$</p>
+<p>……</p>
+<p>$n_{s,t+1}=p_{s-1}n_{s-1,t}$</p>
+</blockquote>
+<p>上式中我们不只关心人口的总量，还要注意不同年龄段人口的分布。由于模型是离散的，所以自然可以写成矩阵的形式：</p>
+<blockquote>
+<p>$N_{n+1}=LN_t$</p>
+<p>$L = \begin{pmatrix} F_0 &amp; F_1 &amp; F_2 &amp; … &amp; F_s \\ p_0 &amp; 0 &amp; 0 &amp; … &amp; 0 \\ 0 &amp; p_1 &amp; 0 &amp; … &amp; 0 \\ 0 &amp; 0 &amp; … &amp; p_{s-1} &amp; 0\end{pmatrix}$</p>
+</blockquote>
+<p>该模型的复杂在于需要更多的参数：马尔萨斯需要1个参数、Logistic模型需要2个参数，而到了Leslie模型，我们需要更多的参数–人口分段的两倍。当有太多人为的参数的时候会出现许多不完全客观的东西，不可避免会带有主观性。那么利用数学模型去认知问题其实很重要的是 <strong>理性的手段带来更好的客观性</strong>。当这样的参数越来越多的时候，客观性就会受到损害。但也正是因为之前简单的模型无法解决今天越来越复杂的问题，我们才会去考虑更复杂的模型。</p>
+<p>回到之前反复研究的两个问题，在这些参数都比较好得到的情况下只需要乘上矩阵就可以得到下一年或者下一个时刻的，可以完美解决。而对于第二个问题，假设已知矩阵的特征值（$\lambda_0，\lambda_1，…，\lambda_s$）和相应的特征向量（$\nu_0,\nu_1，…，\nu_s$），如果初始人口设为 $N_0$，则有 ：</p>
+<blockquote>
+<p>$N_0=c_0v_0+\sum^S_{i=1}c_i(\lambda_i)^t\nu_t$</p>
+<p>$N_t=c_0(\lambda_0)^t\nu_0+\sum^S_{i=1}c_i(\lambda_i)^t\nu_i$</p>
+</blockquote>
+<p>当 $t$ 趋于无穷时，如果 $\lambda_0&gt;|\lambda_i| \space i = 1，2，…,s$，则有 $\lim_{t \to \infty}N_t \propto c_0(\lambda_0)^t \nu_0$,所以渐进状态是由首特征大小和对应的特征向量决定的，$|\lambda_0|&gt;1$ 人口会越来越多；$|\lambda_0|&lt;1$ 会逐渐走向灭亡；$|\lambda_0|=1$则会进入一个稳态。</p>
+<h3 id="更复杂的模型"><a href="#更复杂的模型" class="headerlink" title="更复杂的模型"></a>更复杂的模型</h3><p>对于更复杂的问题是否要采用更复杂的模型，具体还是要看需求。Leslie模型是离散的，我们可以考虑将模型重新连续化。这样我们需要考虑这样一个函数：它是 $t$ 的函数，同时也应该是年龄的多元函数 $P(a,t)$。我们也需要将之前的切分年龄段参数变成连续的分布函数： <code>出生率-年龄</code>函数 和 <code>存活率-年龄</code> 函数。</p>
+<p>真的问题都不是无病呻吟，如果可以解决问题，模型越简洁越好，没有复杂化的必要。模型变得越来越复杂，是因为有这种需求，这种需求不可避免的要做更复杂的模型，我们才去改进。回到人口问题本身，即使我们已经考虑到了年龄的影响因素，我们仍有许多影响因素没有考虑进来：</p>
+<ul>
+<li>地域差异</li>
+<li>移民的影响</li>
+</ul>
+<p>对于这种情况最好使用 <strong>随机模型</strong>，在模型中体现出过程的随机性。</p>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/vibinks">vibin ks</a>
+    </i>
+  </font>
+</div>
+
+
+
+]]></content>
+      <categories>
+        <category>数学建模 (Mathematical Modeling)</category>
+      </categories>
+      <tags>
+        <tag>Math</tag>
+        <tag>Mooc</tag>
+        <tag>Mathematical Modeling</tag>
+        <tag>Population</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开始画像素画#1</title>
     <url>/archives/655d7201.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zfnfb9aj31hc0u00wn.jpg"></p>
@@ -6497,71 +6553,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#3</title>
-    <url>/archives/90b77012.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zie8htlj31hc0u0dje.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解简单的 Aseprite 动画。</p>
-<span id="more"></span>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud6tcj7j30u008c74z.jpg"></p>
-<p>简单的 Aseprite 动画。这是系列的第 3 篇。</p>
-<h3 id="什么是动画？"><a href="#什么是动画？" class="headerlink" title="什么是动画？"></a>什么是动画？</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuggpz84g30dw05oab9.gif"></p>
-<p>动画是由一系列表现动作流程图像，按特定顺序播放，所引起的运动错觉。我们的工作就是让这个序列看起来尽可能让人信服。</p>
-<h3 id="时间轴"><a href="#时间轴" class="headerlink" title="时间轴"></a>时间轴</h3><p>首先我们要了解时间轴。它是一种在单个文件里表现多个图像的方法。每一列都是完整的图像，有一个编号，我们称之为帧。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudbdlr7j30dq02t0pm.jpg"></p>
-<p>新建帧的最简单方法是按 ALT + B。这会在当前选中帧的后面新建一个空白帧，然后选择它。你可以点击某帧来选中，或者按’,’,’.’改变选中帧，在键盘上找 &lt; 和 &gt;，比较好记。</p>
-<p>试着在不同帧上画些颜色，点击播放（Enter 键，回车）。也可以在预览窗口看，按 F7。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud72cy8j308w07idfl.jpg"></p>
-<p>你可能感觉“这么多快捷键我怎么记得住”，没关系。记住快捷键需要时间跟肌肉记忆，而且大部分也都可以只用鼠标完成。当你记不住某个快捷键，就在菜单里找找，或者查看 Aseprite 的官方键位参考图：<a href="https://www.aseprite.org/quickref/">https://www.aseprite.org/quickref/</a></p>
-<h3 id="一个非常简单的动画"><a href="#一个非常简单的动画" class="headerlink" title="一个非常简单的动画"></a>一个非常简单的动画</h3><p>画动画有非常多的技巧，比如应该按什么顺序绘制每帧，如何优化，不过我们暂时先讲我了解的最简单的一个技巧：一个“连续动作（straight-ahead）”的弹球动画。“连续动作”是指我们按顺序一帧一帧直接画，而不是先画出重要帧，再添加中间帧的方式。先建个 <code>32</code> 乘 <code>32</code> 的文件，随便选个调色盘。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudcea72j30pt03r741.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud855nnj30ig03va9t.jpg"></p>
-<p>动画第一帧我称之为“静止”。它既是概念图，定义动画的风格，也是这个序列的停止位置。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudekly7j30440440ba.jpg"></p>
-<p>你要注意这帧里添加的细节，因为下一帧也要保持相同的风格。</p>
-<p>接着复制这一帧（ALT + N），把它向上移动 <code>4</code> 像素，像这样：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudajda0j303u03w0b4.jpg"></p>
-<p>之后，继续向上 <code>3</code> 像素，<code>2</code> 像素，<code>1</code> 像素，多保持相同位置一帧，后面反过来一遍。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud8k43lj30gt029741.jpg"></p>
-<h3 id="节奏"><a href="#节奏" class="headerlink" title="节奏"></a>节奏</h3><p>尽管节奏的运用是个相当复杂的主题，甚至可以做一整期专门的教程，我现在简单的从技术方面讲一点，让你可以自己去试试。</p>
-<p>我们来添加一些节奏。球在落地后停一段时间，再跳起来。要增加某一帧的持续时间，右键 点击帧上的数字，选择帧属性（Frame Properties）。然后你可以输入你想要这帧持续的时间。我们试下 <code>300</code> 毫秒。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud9h0a1j308d05qdfm.jpg"></p>
-<p>你也可以选中多个帧，同时修改持续时间。对于一次性快速修改整个动画的速度很有帮助。</p>
-<h3 id="挤压和拉伸"><a href="#挤压和拉伸" class="headerlink" title="挤压和拉伸"></a>挤压和拉伸</h3><p>这里我们可以做的一个简单改进是添加一点挤压和拉伸，一种让动作看起来更流畅自然的技术。包括沿着运动方向拉伸或者压扁物体，同时保持整体面积。</p>
-<p>具体原理可以参考之前的教程：</p>
-<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MjIyOTc2Nw==&mid=2649561430&idx=1&sn=50924ed496f2b1a5e91c843bbc4c8384&chksm=beb0c9be89c740a8f0eb6ce3e7f98fc4a65e7bdba4cfe0738ee0e67594721cd5278f81a87de7&scene=21#wechat_redirect">链接：像素宝典 #8</a></p>
-<p>我们复制下第一帧，把它水平拉伸，垂直方向上压扁，保持整体体积。保持体积是很重要的，这样物体不会看起来变小或者变大了。当然这属于在我们更有经验之后可以尝试打破的规则，不过暂时还是遵守它。这帧也被称作“准备帧”，主要用来让下一帧发生的动作看起来更强烈。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud7nyyfj30bi0640kw.jpg"></p>
-<p>现在我们用同样方式复制并修改球落地时的帧，可以画的更加夸张点。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudd1yndj307m07l0f8.jpg"></p>
-<p>最后是垂直拉伸（同时水平挤压）跳起的第一帧和下落的最后一帧，当球速度最快的时候。这就完成了，我们看下结果：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudbt9f1j30mg07uwe9.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud9yqt4g305c05cmxc.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudaxnfug305c05cq31.gif"></p>
-<h3 id="保存动画"><a href="#保存动画" class="headerlink" title="保存动画"></a>保存动画</h3><p>尽管保存成 <code>.aseprite</code> 格式可以保存动画，你可能想要把动画导出，发到网上或者用到游戏里。</p>
-<p>网上，最简单的方式是保存成 <code>gif</code>，用 <code>FIle &gt; Export...</code> 命令。勾选 <code>Export for twitter</code>， 如果你想把最后一帧修改成 <code>1/4</code> 的持续时间，这样即使 Twitter 把它转成 MP4 也可以完美播放。</p>
-<p>当导出给游戏使用时，通常会保存成 png，动画一般会分解成一个精灵表或者图像序列。要保存成图像序列，选择导出为 png 格式，导出的文件后都带一个数字，像是“<code>bounce00.png</code>”。这回导出多个文件，像“<code>bounce01.png</code>”，“<code>bounce02.png</code>”等等。</p>
-<p>有的引擎需要精灵表的形式，不需要手工处理，只要选择 File&gt;Export Sprite Sheet，可以改改设置，有很多参数可选。</p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhude6qwbg305c05c747.gif"></p>
-<p>接下来我建议多试试时间轴，试着画点别的动画。你可以看看我其他的教程，选个感兴趣的跟着画画。</p>
-<p>另外也可以试试经典的初学者练习，画一个面粉袋走和跳的动画：<br><a href="https://www.youtube.com/watch?v=C8cbTGshkZw%E3%80%82">https://www.youtube.com/watch?v=C8cbTGshkZw。</a></p>
-<p>暂时保持低一点的分辨率和颜色数，不要太复杂了。</p>
-]]></content>
-      <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开始画像素画#4</title>
     <url>/archives/ec50fbbd.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zj79coyj31hc0u00x5.jpg"></p>
@@ -6709,6 +6700,71 @@
       </tags>
   </entry>
   <entry>
+    <title>开始画像素画#3</title>
+    <url>/archives/90b77012.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zie8htlj31hc0u0dje.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解简单的 Aseprite 动画。</p>
+<span id="more"></span>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud6tcj7j30u008c74z.jpg"></p>
+<p>简单的 Aseprite 动画。这是系列的第 3 篇。</p>
+<h3 id="什么是动画？"><a href="#什么是动画？" class="headerlink" title="什么是动画？"></a>什么是动画？</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuggpz84g30dw05oab9.gif"></p>
+<p>动画是由一系列表现动作流程图像，按特定顺序播放，所引起的运动错觉。我们的工作就是让这个序列看起来尽可能让人信服。</p>
+<h3 id="时间轴"><a href="#时间轴" class="headerlink" title="时间轴"></a>时间轴</h3><p>首先我们要了解时间轴。它是一种在单个文件里表现多个图像的方法。每一列都是完整的图像，有一个编号，我们称之为帧。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudbdlr7j30dq02t0pm.jpg"></p>
+<p>新建帧的最简单方法是按 ALT + B。这会在当前选中帧的后面新建一个空白帧，然后选择它。你可以点击某帧来选中，或者按’,’,’.’改变选中帧，在键盘上找 &lt; 和 &gt;，比较好记。</p>
+<p>试着在不同帧上画些颜色，点击播放（Enter 键，回车）。也可以在预览窗口看，按 F7。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud72cy8j308w07idfl.jpg"></p>
+<p>你可能感觉“这么多快捷键我怎么记得住”，没关系。记住快捷键需要时间跟肌肉记忆，而且大部分也都可以只用鼠标完成。当你记不住某个快捷键，就在菜单里找找，或者查看 Aseprite 的官方键位参考图：<a href="https://www.aseprite.org/quickref/">https://www.aseprite.org/quickref/</a></p>
+<h3 id="一个非常简单的动画"><a href="#一个非常简单的动画" class="headerlink" title="一个非常简单的动画"></a>一个非常简单的动画</h3><p>画动画有非常多的技巧，比如应该按什么顺序绘制每帧，如何优化，不过我们暂时先讲我了解的最简单的一个技巧：一个“连续动作（straight-ahead）”的弹球动画。“连续动作”是指我们按顺序一帧一帧直接画，而不是先画出重要帧，再添加中间帧的方式。先建个 <code>32</code> 乘 <code>32</code> 的文件，随便选个调色盘。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudcea72j30pt03r741.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud855nnj30ig03va9t.jpg"></p>
+<p>动画第一帧我称之为“静止”。它既是概念图，定义动画的风格，也是这个序列的停止位置。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudekly7j30440440ba.jpg"></p>
+<p>你要注意这帧里添加的细节，因为下一帧也要保持相同的风格。</p>
+<p>接着复制这一帧（ALT + N），把它向上移动 <code>4</code> 像素，像这样：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudajda0j303u03w0b4.jpg"></p>
+<p>之后，继续向上 <code>3</code> 像素，<code>2</code> 像素，<code>1</code> 像素，多保持相同位置一帧，后面反过来一遍。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud8k43lj30gt029741.jpg"></p>
+<h3 id="节奏"><a href="#节奏" class="headerlink" title="节奏"></a>节奏</h3><p>尽管节奏的运用是个相当复杂的主题，甚至可以做一整期专门的教程，我现在简单的从技术方面讲一点，让你可以自己去试试。</p>
+<p>我们来添加一些节奏。球在落地后停一段时间，再跳起来。要增加某一帧的持续时间，右键 点击帧上的数字，选择帧属性（Frame Properties）。然后你可以输入你想要这帧持续的时间。我们试下 <code>300</code> 毫秒。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud9h0a1j308d05qdfm.jpg"></p>
+<p>你也可以选中多个帧，同时修改持续时间。对于一次性快速修改整个动画的速度很有帮助。</p>
+<h3 id="挤压和拉伸"><a href="#挤压和拉伸" class="headerlink" title="挤压和拉伸"></a>挤压和拉伸</h3><p>这里我们可以做的一个简单改进是添加一点挤压和拉伸，一种让动作看起来更流畅自然的技术。包括沿着运动方向拉伸或者压扁物体，同时保持整体面积。</p>
+<p>具体原理可以参考之前的教程：</p>
+<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MjIyOTc2Nw==&mid=2649561430&idx=1&sn=50924ed496f2b1a5e91c843bbc4c8384&chksm=beb0c9be89c740a8f0eb6ce3e7f98fc4a65e7bdba4cfe0738ee0e67594721cd5278f81a87de7&scene=21#wechat_redirect">链接：像素宝典 #8</a></p>
+<p>我们复制下第一帧，把它水平拉伸，垂直方向上压扁，保持整体体积。保持体积是很重要的，这样物体不会看起来变小或者变大了。当然这属于在我们更有经验之后可以尝试打破的规则，不过暂时还是遵守它。这帧也被称作“准备帧”，主要用来让下一帧发生的动作看起来更强烈。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud7nyyfj30bi0640kw.jpg"></p>
+<p>现在我们用同样方式复制并修改球落地时的帧，可以画的更加夸张点。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudd1yndj307m07l0f8.jpg"></p>
+<p>最后是垂直拉伸（同时水平挤压）跳起的第一帧和下落的最后一帧，当球速度最快的时候。这就完成了，我们看下结果：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudbt9f1j30mg07uwe9.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud9yqt4g305c05cmxc.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudaxnfug305c05cq31.gif"></p>
+<h3 id="保存动画"><a href="#保存动画" class="headerlink" title="保存动画"></a>保存动画</h3><p>尽管保存成 <code>.aseprite</code> 格式可以保存动画，你可能想要把动画导出，发到网上或者用到游戏里。</p>
+<p>网上，最简单的方式是保存成 <code>gif</code>，用 <code>FIle &gt; Export...</code> 命令。勾选 <code>Export for twitter</code>， 如果你想把最后一帧修改成 <code>1/4</code> 的持续时间，这样即使 Twitter 把它转成 MP4 也可以完美播放。</p>
+<p>当导出给游戏使用时，通常会保存成 png，动画一般会分解成一个精灵表或者图像序列。要保存成图像序列，选择导出为 png 格式，导出的文件后都带一个数字，像是“<code>bounce00.png</code>”。这回导出多个文件，像“<code>bounce01.png</code>”，“<code>bounce02.png</code>”等等。</p>
+<p>有的引擎需要精灵表的形式，不需要手工处理，只要选择 File&gt;Export Sprite Sheet，可以改改设置，有很多参数可选。</p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhude6qwbg305c05c747.gif"></p>
+<p>接下来我建议多试试时间轴，试着画点别的动画。你可以看看我其他的教程，选个感兴趣的跟着画画。</p>
+<p>另外也可以试试经典的初学者练习，画一个面粉袋走和跳的动画：<br><a href="https://www.youtube.com/watch?v=C8cbTGshkZw%E3%80%82">https://www.youtube.com/watch?v=C8cbTGshkZw。</a></p>
+<p>暂时保持低一点的分辨率和颜色数，不要太复杂了。</p>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开始画像素画#6</title>
     <url>/archives/25e9a91.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zkn8uthj31hc0u0dju.jpg"></p>
@@ -6780,80 +6836,6 @@
 <p>如果要做自己的调色盘，Adobe 有个很棒的工具：</p>
 <p><a href="https://color.adobe.com/create/color-wheel/">https://color.adobe.com/create/color-wheel/</a></p>
 <p>最后提一下：记住，处理颜色是个很主观的事情。这里提到的都不是雷打不动的规则，都是灵活的指导方针，不过我还是建议在你能更自信的打破这些规则之前，继续遵守他们。</p>
-]]></content>
-      <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开始画像素画#7</title>
-    <url>/archives/7559aa07.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zm7aw4aj31hc0u0jv1.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
-<span id="more"></span>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8bd0hfj30u008c74z.jpg"></p>
-<p>系列第 7 篇。</p>
-<h3 id="什么是线条"><a href="#什么是线条" class="headerlink" title="什么是线条"></a>什么是线条</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv89ju74j30ei0d812e.jpg"></p>
-<p>线条是艺术领域最重要的工具之一。他们可以用来强调形状，对比。现实世界里我们看不到线条，但他们能帮助我们分隔空间，创造纹理，表现体积和方向。</p>
-<p>在像素美术中，屏幕上的空间非常受限。每个像素都很重要，绘制线条就变得很昂贵。因此，如果你在画非常低像素作品，不推荐使用线条。即使有一些富裕的空间，还是要谨慎的使用线条，试着不使用线条去完成。最少化线条的使用，是保持像素画整洁的好办法。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640.png"></p>
-<p>不必要的线可以用阴影或者高对比区域代替。将线条与暗影部分融合能让画面显得更统一，自然。</p>
-<h3 id="不必要的拐角"><a href="#不必要的拐角" class="headerlink" title="不必要的拐角"></a>不必要的拐角</h3><p>之前简单的解释过（第一节），这里再进一步讲一下。</p>
-<p>这种不必要的拐角，通常出现在手绘线条时。你可以手工去清理，也可以打开铅笔工具的“像素完美”（<code>pixel perfect</code>）功能来避免这些。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88tzipj309w05c741.jpg"></p>
-<p>这个算法在画单像素线条时非常有用，不过不总是完美的，你还是应该知道如何手工去清理。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8cjbhrj30a205p0jc.jpg"></p>
-<p>查找模式很简单：每当你看到一个拐角（<code>3</code> 或 <code>4</code> 个像素组成的方形），思考一下这里是否应当是个拐角。如果这部分不是拐角，就去掉一个像素让他更圆。</p>
-<p>注意这跟锯齿是不同的，我在之前的章节（第二节）解释过锯齿，以及如何处理他们。修复拐角可能会创造出很多锯齿，所以通常这会是个多步过程：<code>绘制</code> &gt; <code>修复拐角</code> &gt; <code>修复锯齿</code>。</p>
-<h3 id="方形线"><a href="#方形线" class="headerlink" title="方形线"></a>方形线</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102237778.png"></p>
-<p>单像素线条问题还有一种更风格化的解决办法。你可以到处加拐角，而不是尝试去移除他们。听起来没道理，但确实是种风格化的选择，很有趣，适合高度风格化的作品，因为它模拟了一种更粗的线条。</p>
-<p>处理过程基本一样，只是你需要找到每个对角链接的像素，把它变方，而不是去删掉拐角。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8a5yvaj309w05m0i1.jpg"></p>
-<p>注意这样做也会产生很多锯齿，别忘了处理他们。</p>
-<h3 id="Colored-lines-有色线条"><a href="#Colored-lines-有色线条" class="headerlink" title="Colored lines 有色线条"></a>Colored lines 有色线条</h3><p>有些时候，尤其是在较低分辨率，线条会吸引过多的注意。有个弱化这种效果的方法是，给线条添加临近颜色的深色版本。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102250162.png"></p>
-<p>过程很简单，回顾每条你画的线条，试着修改成临近颜色的深色版本。当你这么做之后，所选的颜色会让相应的区域显得变大了，所以线条的位置可能需要调整。有时候你可能不确定选哪个临近的颜色，有时候可能很容易确定。当你不确定的时候，就选更深的颜色。</p>
-<p>我依然喜欢保留最外层的黑色描边，看分辨率合适的话我甚至会加倍这个外层描边。但这只是我个人的选择，你可以自己考虑。</p>
-<h3 id="线条草图"><a href="#线条草图" class="headerlink" title="线条草图"></a>线条草图</h3><p>之前我们学过像素簇草图的画法，这次来试点别的。这种方法很适合于画角色以及画动画帧，因为画起来很快，而且聚焦于形状，而不是光和色（像像素簇草图那样）。</p>
-<p>我们来做个实际案例学习，把这节提到的都应用上。如果你想要跟着做，建议新建 64*64 分辨率的画布，用 AAP-64 调色板。</p>
-<p><strong>Step 1  — 草图</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv87ygl3j30fh078mwx.jpg"></p>
-<p>第一步先忽略各种像素画的规则，尽可能流畅的勾勒出形状。基本上跟在纸上或者其他数字化的，非像素的媒介一样。不要过多考虑之后如何清理线条。完成后可以稍作整理，去除明显的标志线，定义一些形状。</p>
-<p><strong>Step 2  — 线条清理</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvbdn60dj307j0770sh.jpg"></p>
-<p>现在开始做清理。把草图层设置成半透明，可以 右键 点击图层名称，选择属性，再调低透明度。现在可以在上面的图层去画。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8ao6foj30c007zq2q.jpg"></p>
-<p>这里的思路是画出最终的线条图。先聚焦在重点线条上，比如构成角色剪影和脸部的线条。先不要关心颜色和光影，如果想画的话可以画一点主阴影，重点还是把主要形状弄对。</p>
-<p><strong>Step 3  —  底色</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102322791.png"></p>
-<p>很简单的一步，找到符合需求的颜色，用油漆桶填充进去。避免过于饱和和过亮的颜色。还不到画光影的时候，但是要考虑好画面应该如何被照亮，有些区域会被周围的颜色影响。</p>
-<p><strong>Step 4  —  光影</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88aqv3j307p077gld.jpg"></p>
-<p>开始给画添加光影，添加明暗区域。试着想象光会如何照射到你画的物体上，相应的渲染。这一步找个参考图是个很好的办法。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvaibzjbj309z07h742.jpg"></p>
-<p>我喜欢在这一步通过给弧线加上较深的颜色，来尽量弱化黑色的描边，就好像是做抗锯齿。不过别做太过，不然线条看起来会模糊。</p>
-<p>这一步可以调整线条，但重点是光影。</p>
-<p><strong>Step 5  —  线条上色和抗锯齿</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8c2gduj307p07agld.jpg"></p>
-<p>之前提到过，过多的黑色描边可能会分散注意力。通过上色来弱化他们是个不错的方法。只要找到周围最近，最深的颜色，并把描边改成这个色的更深版本就行。</p>
-<p>如果这个描边是用来分隔明显的区域，比如脖子和脸颊，衣领和头发，你可以画很深色，甚至保留黑色。这也是为什么我喜欢保持黑色的角色外层描边。弱化的过渡一般用亮一点的线，比如鼻子的线条。</p>
-<p><strong>Step 6  — 打磨细节</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvb2fvmtj307t076t8h.jpg"></p>
-<p>最后这步你需要确定所有线条都做过抗锯齿，所有阴影过渡都合理的软化过（或者没有！如果是硬过渡的话。），并添加上所有细节。</p>
-<p>添加背光，小的高亮，反射区域。因为所有东西都就位了，你可以衡量想要在画面添加多少细节。不要做得太过，注意别加入过多噪点。</p>
-<p>这就完成了！多去练习，并试着把前几节的概念也融入进来。</p>
-<p>Good luck!</p>
 ]]></content>
       <categories>
         <category>开始画像素画 (Making Pixel Art)</category>
@@ -7020,57 +7002,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#x79;&#111;&#110;&#103;&#x40;&#x74;&#x73;&#105;&#110;&#103;&#104;&#x75;&#x61;&#x2e;&#101;&#x64;&#x75;&#46;&#x63;&#x6e;">&#120;&#x79;&#111;&#110;&#103;&#x40;&#x74;&#x73;&#105;&#110;&#103;&#104;&#x75;&#x61;&#x2e;&#101;&#x64;&#x75;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#x79;&#x6f;&#x6e;&#103;&#64;&#116;&#115;&#105;&#x6e;&#x67;&#104;&#x75;&#x61;&#46;&#101;&#100;&#x75;&#x2e;&#x63;&#110;">&#x78;&#x79;&#x6f;&#x6e;&#103;&#64;&#116;&#115;&#105;&#x6e;&#x67;&#104;&#x75;&#x61;&#46;&#101;&#100;&#x75;&#x2e;&#x63;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#x75;&#x63;&#104;&#x65;&#110;&#64;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#116;&#115;&#105;&#x6e;&#x67;&#104;&#117;&#x61;&#x2e;&#101;&#x64;&#x75;&#46;&#x63;&#110;">&#121;&#x75;&#x63;&#104;&#x65;&#110;&#64;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#116;&#115;&#105;&#x6e;&#x67;&#104;&#117;&#x61;&#x2e;&#101;&#x64;&#x75;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#117;&#99;&#104;&#x65;&#x6e;&#64;&#109;&#97;&#x69;&#108;&#x2e;&#x74;&#115;&#105;&#x6e;&#x67;&#x68;&#x75;&#x61;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#x6e;">&#121;&#117;&#99;&#104;&#x65;&#x6e;&#64;&#109;&#97;&#x69;&#108;&#x2e;&#x74;&#115;&#105;&#x6e;&#x67;&#x68;&#x75;&#x61;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#x74;&#x65;&#x72;&#x6e;&#x61;&#x6c;&#46;&#x6e;&#x30;&#56;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;">&#x65;&#x74;&#x65;&#x72;&#x6e;&#x61;&#x6c;&#46;&#x6e;&#x30;&#56;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x65;&#116;&#x65;&#114;&#110;&#x61;&#x6c;&#x2e;&#x6e;&#x30;&#x38;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#x65;&#116;&#x65;&#114;&#110;&#x61;&#x6c;&#x2e;&#x6e;&#x30;&#x38;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#98;&#x6a;&#x65;&#99;&#x74;&#107;&#x75;&#97;&#x6e;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#x6f;&#98;&#x6a;&#x65;&#99;&#x74;&#107;&#x75;&#97;&#x6e;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#98;&#x6a;&#x65;&#99;&#116;&#107;&#x75;&#x61;&#110;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#111;&#98;&#x6a;&#x65;&#99;&#116;&#107;&#x75;&#x61;&#110;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#114;&#100;&#x66;&#114;&#97;&#110;&#107;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#x63;&#114;&#100;&#x66;&#114;&#97;&#110;&#107;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#114;&#100;&#102;&#x72;&#x61;&#x6e;&#x6b;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#99;&#114;&#100;&#102;&#x72;&#x61;&#x6e;&#x6b;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#97;&#99;&#x63;&#111;&#114;&#97;&#x77;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;">&#x74;&#97;&#99;&#x63;&#111;&#114;&#97;&#x77;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#116;&#97;&#x63;&#99;&#111;&#x72;&#97;&#119;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#116;&#97;&#x63;&#99;&#111;&#x72;&#97;&#119;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#x75;&#110;&#x78;&#x69;&#x6e;&#103;&#x30;&#x30;&#x30;&#x31;&#64;&#49;&#54;&#x33;&#46;&#x63;&#111;&#x6d;">&#x78;&#x69;&#x6e;&#121;&#x75;&#110;&#x78;&#x69;&#x6e;&#103;&#x30;&#x30;&#x30;&#x31;&#64;&#49;&#54;&#x33;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x78;&#105;&#110;&#x79;&#x75;&#110;&#x78;&#x69;&#x6e;&#103;&#x30;&#48;&#48;&#x31;&#64;&#49;&#x36;&#x33;&#46;&#99;&#x6f;&#x6d;">&#x78;&#105;&#110;&#x79;&#x75;&#110;&#x78;&#x69;&#x6e;&#103;&#x30;&#48;&#48;&#x31;&#64;&#49;&#x36;&#x33;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#x6e;&#x6f;&#99;&#x75;&#x69;&#x6c;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#x67;&#x6e;&#x6f;&#99;&#x75;&#x69;&#x6c;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#103;&#110;&#111;&#x63;&#x75;&#x69;&#x6c;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#103;&#110;&#111;&#x63;&#x75;&#x69;&#x6c;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#121;&#x61;&#x69;&#x72;&#105;&#97;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;">&#109;&#121;&#x61;&#x69;&#x72;&#105;&#97;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x6d;&#121;&#x61;&#105;&#x72;&#x69;&#97;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#x6d;&#121;&#x61;&#105;&#x72;&#x69;&#97;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#104;&#x61;&#110;&#103;&#114;&#97;&#x69;&#x6e;&#57;&#x31;&#49;&#64;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#x6d;">&#x7a;&#104;&#x61;&#110;&#103;&#114;&#97;&#x69;&#x6e;&#57;&#x31;&#49;&#64;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#x68;&#97;&#x6e;&#103;&#x72;&#97;&#x69;&#110;&#x39;&#49;&#49;&#x40;&#x31;&#54;&#51;&#46;&#x63;&#x6f;&#109;">&#x7a;&#x68;&#97;&#x6e;&#103;&#x72;&#97;&#x69;&#110;&#x39;&#49;&#49;&#x40;&#x31;&#54;&#51;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#103;&#x78;&#120;&#x31;&#50;&#48;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#103;&#103;&#x78;&#120;&#x31;&#50;&#48;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#103;&#120;&#x78;&#x31;&#x32;&#48;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#103;&#103;&#120;&#x78;&#x31;&#x32;&#48;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -7550,46 +7532,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Aseprite教学-动画</title>
-    <url>/archives/88d7e2f9.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><span id="more"></span>
-
-
-
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukz3p07j313g0m8dfr.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul1wou3j313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukrnscmj313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukv9f17j313g0m8jra.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul2b2hij313g0m8gli.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouksphvbj313g0m8dfq.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukzl9ggj313g0m8gli.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul2q4r2j313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukw8s9cj313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukr1vkjj313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukzvf2oj313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukwqxqcj313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul4oipdj313g0m8gli.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul3q1tjj313g0m8dfq.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul52fhcj313g0m8gli.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul0e2x2j313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukxky4bj313g0m8mx2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul44c0wj313g0m83yf.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul0yb3ej313g0m8a9z.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul19vjsj313g0m83yf.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul37d40j313g0m8dfr.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukycj5kj313g0m8a9z.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukugrr3j313g0m80sn.jpg"></p>
-]]></content>
-      <categories>
-        <category>像素美工 (Pixel Art Designing)</category>
-      </categories>
-      <tags>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Aseprite教学-色彩、造型和光照</title>
     <url>/archives/c7d3ecc8.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文我们来聊聊颜色工具以及绘画中的造型和光照。</p>
@@ -7635,35 +7577,109 @@
       </tags>
   </entry>
   <entry>
-    <title>Aseprite教学-绘画技巧与常见问题</title>
-    <url>/archives/4db0f4e3.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将列举像素绘画中的绘画技巧与常见问题。</p>
+    <title>开始画像素画#7</title>
+    <url>/archives/7559aa07.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zm7aw4aj31hc0u0jv1.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
 <span id="more"></span>
 
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloustu5wwj313g0m8t8o.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousqzobbj313g0m8mx4.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouslixtaj313g0m8a9z.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousmhk7xj313g0m8dfr.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloustbouoj313g0m8q2v.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouso82xsj313g0m8748.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousj5qdkj313g0m8mx4.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousnq36ej313g0m8glj.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloussxygdj313g0m80so.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousnf3qpj313g0m8748.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousq1ligj313g0m8q2v.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousv94ozj313g0m80so.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouspquv1j313g0m8q2w.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousubkvpj313g0m8jre.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousk0956j313g0m8mx6.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousjhj1sj313g0m8748.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouskphbjj313g0m8t8o.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousrguphj313g0m83yh.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousuvjirj313g0m8mx4.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousp3k5qj313g0m8mx4.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloussa7axj313g0m8aa1.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousvoz8bj313g0m8t8o.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousl4cu2j313g0m8q2w.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousor05vj313g0m80sq.jpg"></p>
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8bd0hfj30u008c74z.jpg"></p>
+<p>系列第 7 篇。</p>
+<h3 id="什么是线条"><a href="#什么是线条" class="headerlink" title="什么是线条"></a>什么是线条</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv89ju74j30ei0d812e.jpg"></p>
+<p>线条是艺术领域最重要的工具之一。他们可以用来强调形状，对比。现实世界里我们看不到线条，但他们能帮助我们分隔空间，创造纹理，表现体积和方向。</p>
+<p>在像素美术中，屏幕上的空间非常受限。每个像素都很重要，绘制线条就变得很昂贵。因此，如果你在画非常低像素作品，不推荐使用线条。即使有一些富裕的空间，还是要谨慎的使用线条，试着不使用线条去完成。最少化线条的使用，是保持像素画整洁的好办法。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640.png"></p>
+<p>不必要的线可以用阴影或者高对比区域代替。将线条与暗影部分融合能让画面显得更统一，自然。</p>
+<h3 id="不必要的拐角"><a href="#不必要的拐角" class="headerlink" title="不必要的拐角"></a>不必要的拐角</h3><p>之前简单的解释过（第一节），这里再进一步讲一下。</p>
+<p>这种不必要的拐角，通常出现在手绘线条时。你可以手工去清理，也可以打开铅笔工具的“像素完美”（<code>pixel perfect</code>）功能来避免这些。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88tzipj309w05c741.jpg"></p>
+<p>这个算法在画单像素线条时非常有用，不过不总是完美的，你还是应该知道如何手工去清理。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8cjbhrj30a205p0jc.jpg"></p>
+<p>查找模式很简单：每当你看到一个拐角（<code>3</code> 或 <code>4</code> 个像素组成的方形），思考一下这里是否应当是个拐角。如果这部分不是拐角，就去掉一个像素让他更圆。</p>
+<p>注意这跟锯齿是不同的，我在之前的章节（第二节）解释过锯齿，以及如何处理他们。修复拐角可能会创造出很多锯齿，所以通常这会是个多步过程：<code>绘制</code> &gt; <code>修复拐角</code> &gt; <code>修复锯齿</code>。</p>
+<h3 id="方形线"><a href="#方形线" class="headerlink" title="方形线"></a>方形线</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102237778.png"></p>
+<p>单像素线条问题还有一种更风格化的解决办法。你可以到处加拐角，而不是尝试去移除他们。听起来没道理，但确实是种风格化的选择，很有趣，适合高度风格化的作品，因为它模拟了一种更粗的线条。</p>
+<p>处理过程基本一样，只是你需要找到每个对角链接的像素，把它变方，而不是去删掉拐角。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8a5yvaj309w05m0i1.jpg"></p>
+<p>注意这样做也会产生很多锯齿，别忘了处理他们。</p>
+<h3 id="Colored-lines-有色线条"><a href="#Colored-lines-有色线条" class="headerlink" title="Colored lines 有色线条"></a>Colored lines 有色线条</h3><p>有些时候，尤其是在较低分辨率，线条会吸引过多的注意。有个弱化这种效果的方法是，给线条添加临近颜色的深色版本。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102250162.png"></p>
+<p>过程很简单，回顾每条你画的线条，试着修改成临近颜色的深色版本。当你这么做之后，所选的颜色会让相应的区域显得变大了，所以线条的位置可能需要调整。有时候你可能不确定选哪个临近的颜色，有时候可能很容易确定。当你不确定的时候，就选更深的颜色。</p>
+<p>我依然喜欢保留最外层的黑色描边，看分辨率合适的话我甚至会加倍这个外层描边。但这只是我个人的选择，你可以自己考虑。</p>
+<h3 id="线条草图"><a href="#线条草图" class="headerlink" title="线条草图"></a>线条草图</h3><p>之前我们学过像素簇草图的画法，这次来试点别的。这种方法很适合于画角色以及画动画帧，因为画起来很快，而且聚焦于形状，而不是光和色（像像素簇草图那样）。</p>
+<p>我们来做个实际案例学习，把这节提到的都应用上。如果你想要跟着做，建议新建 64*64 分辨率的画布，用 AAP-64 调色板。</p>
+<p><strong>Step 1  — 草图</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv87ygl3j30fh078mwx.jpg"></p>
+<p>第一步先忽略各种像素画的规则，尽可能流畅的勾勒出形状。基本上跟在纸上或者其他数字化的，非像素的媒介一样。不要过多考虑之后如何清理线条。完成后可以稍作整理，去除明显的标志线，定义一些形状。</p>
+<p><strong>Step 2  — 线条清理</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvbdn60dj307j0770sh.jpg"></p>
+<p>现在开始做清理。把草图层设置成半透明，可以 右键 点击图层名称，选择属性，再调低透明度。现在可以在上面的图层去画。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8ao6foj30c007zq2q.jpg"></p>
+<p>这里的思路是画出最终的线条图。先聚焦在重点线条上，比如构成角色剪影和脸部的线条。先不要关心颜色和光影，如果想画的话可以画一点主阴影，重点还是把主要形状弄对。</p>
+<p><strong>Step 3  —  底色</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102322791.png"></p>
+<p>很简单的一步，找到符合需求的颜色，用油漆桶填充进去。避免过于饱和和过亮的颜色。还不到画光影的时候，但是要考虑好画面应该如何被照亮，有些区域会被周围的颜色影响。</p>
+<p><strong>Step 4  —  光影</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88aqv3j307p077gld.jpg"></p>
+<p>开始给画添加光影，添加明暗区域。试着想象光会如何照射到你画的物体上，相应的渲染。这一步找个参考图是个很好的办法。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvaibzjbj309z07h742.jpg"></p>
+<p>我喜欢在这一步通过给弧线加上较深的颜色，来尽量弱化黑色的描边，就好像是做抗锯齿。不过别做太过，不然线条看起来会模糊。</p>
+<p>这一步可以调整线条，但重点是光影。</p>
+<p><strong>Step 5  —  线条上色和抗锯齿</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8c2gduj307p07agld.jpg"></p>
+<p>之前提到过，过多的黑色描边可能会分散注意力。通过上色来弱化他们是个不错的方法。只要找到周围最近，最深的颜色，并把描边改成这个色的更深版本就行。</p>
+<p>如果这个描边是用来分隔明显的区域，比如脖子和脸颊，衣领和头发，你可以画很深色，甚至保留黑色。这也是为什么我喜欢保持黑色的角色外层描边。弱化的过渡一般用亮一点的线，比如鼻子的线条。</p>
+<p><strong>Step 6  — 打磨细节</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvb2fvmtj307t076t8h.jpg"></p>
+<p>最后这步你需要确定所有线条都做过抗锯齿，所有阴影过渡都合理的软化过（或者没有！如果是硬过渡的话。），并添加上所有细节。</p>
+<p>添加背光，小的高亮，反射区域。因为所有东西都就位了，你可以衡量想要在画面添加多少细节。不要做得太过，注意别加入过多噪点。</p>
+<p>这就完成了！多去练习，并试着把前几节的概念也融入进来。</p>
+<p>Good luck!</p>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Aseprite教学-动画</title>
+    <url>/archives/88d7e2f9.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><span id="more"></span>
+
+
+
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukz3p07j313g0m8dfr.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul1wou3j313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukrnscmj313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukv9f17j313g0m8jra.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul2b2hij313g0m8gli.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouksphvbj313g0m8dfq.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukzl9ggj313g0m8gli.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul2q4r2j313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukw8s9cj313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukr1vkjj313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukzvf2oj313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukwqxqcj313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul4oipdj313g0m8gli.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul3q1tjj313g0m8dfq.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul52fhcj313g0m8gli.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul0e2x2j313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukxky4bj313g0m8mx2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul44c0wj313g0m83yf.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul0yb3ej313g0m8a9z.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul19vjsj313g0m83yf.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul37d40j313g0m8dfr.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukycj5kj313g0m8a9z.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukugrr3j313g0m80sn.jpg"></p>
 ]]></content>
       <categories>
         <category>像素美工 (Pixel Art Designing)</category>
@@ -7922,6 +7938,46 @@
         <tag>Cpp</tag>
         <tag>PAT</tag>
         <tag>Online Judge</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Aseprite教学-绘画技巧与常见问题</title>
+    <url>/archives/4db0f4e3.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将列举像素绘画中的绘画技巧与常见问题。</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloustu5wwj313g0m8t8o.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousqzobbj313g0m8mx4.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouslixtaj313g0m8a9z.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousmhk7xj313g0m8dfr.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloustbouoj313g0m8q2v.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouso82xsj313g0m8748.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousj5qdkj313g0m8mx4.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousnq36ej313g0m8glj.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloussxygdj313g0m80so.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousnf3qpj313g0m8748.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousq1ligj313g0m8q2v.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousv94ozj313g0m80so.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouspquv1j313g0m8q2w.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousubkvpj313g0m8jre.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousk0956j313g0m8mx6.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousjhj1sj313g0m8748.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouskphbjj313g0m8t8o.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousrguphj313g0m83yh.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousuvjirj313g0m8mx4.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousp3k5qj313g0m8mx4.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloussa7axj313g0m8aa1.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousvoz8bj313g0m8t8o.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousl4cu2j313g0m8q2w.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousor05vj313g0m80sq.jpg"></p>
+]]></content>
+      <categories>
+        <category>像素美工 (Pixel Art Designing)</category>
+      </categories>
+      <tags>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
       </tags>
   </entry>
   <entry>
@@ -8550,8 +8606,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Story</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -8843,59 +8899,238 @@
       </tags>
   </entry>
   <entry>
-    <title>《蔚蓝》的开发故事 The Story of Celeste&#39;s Development</title>
-    <url>/archives/a20064d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nel48tcj31hr0u0121.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://twitter.com/CherryStarArt">Twitter@CherryStarArt</a>
-    </i>
-  </font>
-</div>
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文采访了《蔚蓝》联合开发者诺尔·贝瑞（Noel Berry）谈谈游戏背后的开发历程和故事。</p>
+    <title>Hexo-Fluid写作指南</title>
+    <url>/archives/f0a0db79.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4ofxtwutj313g0jo761.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文记录Hexo-Fluid主题的写作技巧，内容包含了Markdown、HTML和IMG三个大类。需要注意因为主题转变的原因部分标签无法使用，但对于博客写作仍有共同之处和参考价值。</p>
 <span id="more"></span>
 
 
 
-<blockquote>
-<p>本文是观看完 <a href="https://www.youtube.com/channel/UC0fDG3byEcMtbOqPMymDNbw">Noclip</a> 的 <a href="https://www.youtube.com/watch?v=c3mbELVqAmo&feature=youtu.be">The Story of Celeste’s Development</a> 后深受触动，决定整理一份文字版以供大家参考，中文制译可以移步 <a href="https://space.bilibili.com/180052141">卡姐Cara</a> 的 <a href="https://www.bilibili.com/video/BV1fJ41137HE">【游戏幕后】《蔚蓝》的开发故事 The Story of Celeste’s Development | Noclip</a>，欢迎赞助作者：<a href="https://patreon.com/noclip">https://patreon.com/noclip</a> 和译者。</p>
-</blockquote>
-<h3 id="立项"><a href="#立项" class="headerlink" title="立项"></a>立项</h3><p>完整版《蔚蓝》有丰富的剧情和氛围，PICO-8版却没有。最初的构想很简单，某人要爬一座山，过程会很难。我们想做款硬核平台游戏，但是PICO-8有很多限制：我们只能做30屏、用16种颜色……于是我们想做点好玩的。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm6b40229j311y0lcwlm.jpg"></p>
-<p>PICO-8版完成后我们发到网上，很多人喜欢玩，尤其是速通玩家，他们曾在GDQ（快速通关慈善活动，一年举办两次）上玩。几个月后，忘了哪天，我们决定不如稍微扩展下游戏，就是两三个月能完工那种。</p>
-<p>我们开始在保留主角和“山”等元素的基础上为游戏世界构思新内容。我们想好了，就花三个月，做款体量更大、我们更熟悉的游戏。</p>
-<h3 id="团队合作"><a href="#团队合作" class="headerlink" title="团队合作"></a>团队合作</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm6q1krf4j311y0lc79s.jpg"></p>
-<p>对，我先和马特(Matt Thorson)搭档，我俩鼓捣了几个月，后面佩德罗（Pedro Medeiros）和阿莫拉（Amora Bettany）加入，他们就是和马特合作《塔倒》的美术，所以我们都很熟。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm6uv1usqj311y0lcwzq.jpg"></p>
-<p>我曾和他们合作过几年，做我那款要折了的《天烈》。与此同时，我们开始与莉娜（Lena Raine）接洽，我们在SoundCloud（一个原创音乐分享平台）上听她的音乐，之前也在GDC见过她，我们很喜欢她SoundCloud上的作品还有她的专辑，于是联系她，问她有没兴趣加入。</p>
-<p>负责音效的是Power Up Audio，他们是马特《塔倒》音效的原班人马，也参与过我的《天烈》。所以成员大都来自温哥华，都是我们认识很久或很欣赏的人。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm6v8v3g6j311y0lctsp.jpg"></p>
-<h3 id="关卡与剧情设计"><a href="#关卡与剧情设计" class="headerlink" title="关卡与剧情设计"></a>关卡与剧情设计</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm70wmqdhj311y0lcb24.jpg"></p>
-<p>我觉得第一章就是我们曾设想的只用几个月做出的样子，它充分展示了游戏核心。我们很快就决定加入更多章节，深入探索创意，因为我觉得它有很大的挖掘空间，游戏就此展开，各章节轮廓也逐渐成形。但我们做到了第三章都还没想好游戏主旨，甚至都没确定故事的脉络。我们知道要更多情节，比如开头取笑你的老奶奶。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm76jarv9j311y0lctpe.jpg"></p>
-<p>但我们不知道剧情走向，所以直到第三章故事脉络才定下来。于是我们回头重写某些对话直到满意为止。马特主导这项工作，他对此很有想法，也很专注。</p>
-<p>尽管黑化版玛德琳作为分身，是主角的阴暗面，但她最初只是游戏机制，纯粹来自有趣的玩法设计，然后故事慢慢成形。直至我们开始明确游戏的核心和主旨时，他们才把她作为角色加入进去。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm7bkxeq8j311y0lc1ex.jpg"></p>
-<p>一般来说，马特负责起草关卡，其他人则负责打磨美工，处理杂事。我们一边规划故事走向，马特则会同时画关卡草图。有时他进度超前，我们就会讨论这里要什么氛围，把设计充实，这样一直做到第六章。</p>
-<h3 id="游戏手感"><a href="#游戏手感" class="headerlink" title="游戏手感"></a>游戏手感</h3><p>对，我觉得最重要的是确保玩家一上手就觉得有趣，动作游戏更应如此，你要把操纵感做好，让玩家秒懂。当然，这需要很多迭代才能实现，不可能一蹴而就。</p>
-<p>我们大量观摩人们试玩，每当发现奇怪或不对劲的地方就回去反复调整，直到觉得人们能尽力玩得行云流水。你没法奢求完美，没法把所有瑕疵打磨掉，否则太无趣了，但我还是觉得要有很好的上手感，因为游戏的精华在于流畅。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm83nyuu3j311y0lce4v.jpg"></p>
-<p>大量的可玩测试很重要，因为游戏不是总能玩得顺，这游戏当然不是老少皆宜，但我们尽可能做好，让难度曲线尽量平滑，对玩家循循善诱，你会感到不断提升进步。</p>
-<p>而平台游戏有个好处，你可以找人检验阶段性成果，问他们感觉如何。他们只需试玩几关就能有所感觉。我们每次会请朋友玩上几小时，我们一边看一边修改，实时更新：“好吧，这里不行”、“你等等，我们改一下”……然后提交，让那边更新，再让游戏自动重载，就可以重试了。</p>
-<p>如果不亲自看，虽然你可能想到哪些地方会卡人也能处理好，但我觉得，最好还是去观察人们的情绪，看他们遇到的问题，亲眼所见会有用的多。我觉得，玩家很多反馈，比如口头上的也很好，但动作游戏讲究“感觉”，所以更好的是观察他们的操作，找出可行和不可行而不是听玩家说“这好、这不好”你却不知道原因。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm84llu9cj311y0lcqjj.jpg"></p>
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>我们想过《蔚蓝》会成功，但从没想到它会这么成功。每个人都付出了很多心血，它是我们通力合作的结果，但马特……我绝对奉他为游戏总监，我是他开发期间的室友，我们每天都在客厅讨论《蔚蓝》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmm85mpkkmj311y0lc1kx.jpg"></p>
-<p>我个人的目标除了做出一款好游戏我还希望通过游戏养活自己，现在做到了，真好。希望我们能继续做出人们喜欢的游戏。</p>
+
+
+<h3 id="MarkDown"><a href="#MarkDown" class="headerlink" title="MarkDown"></a>MarkDown</h3><h4 id="文章在首页的封面图"><a href="#文章在首页的封面图" class="headerlink" title="文章在首页的封面图"></a>文章在首页的封面图</h4><p>对于单篇文章，在文章开头 <a href="https://hexo.io/zh-cn/docs/front-matter">Front-matter (opens new window)</a>中配置 <code>index_img</code> 属性。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">文章标题</span></span><br><span class="line"><span class="attr">tags:</span> [<span class="string">Hexo</span>, <span class="string">Fluid</span>]</span><br><span class="line"><span class="attr">index_img:</span> <span class="string">/img/example.jpg</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2019-10-10 10:00:00</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="string">以下是文章内容</span></span><br></pre></td></tr></table></figure>
+
+<p>和 Banner 配置相同，<code>/img/example.jpg</code> 对应的是存放在 <code>/source/img/example.jpg</code> 目录下的图片（目录也可自定义，但必须在 source 目录下）。</p>
+<p>也可以使用外链 Url 的绝对路径。</p>
+<p>如果想统一给文章设置一个默认图片（文章不设置 <code>index_img</code> 则默认使用这张图片），可在<strong>主题配置</strong>中设置：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post:</span></span><br><span class="line">  <span class="attr">default_index_img:</span> <span class="string">/img/example.jpg</span></span><br></pre></td></tr></table></figure>
+
+<p>当 <code>default_index_img</code> 和 <code>index_img</code> 都为空时，该文章在首页将不显示图片。</p>
+<h4 id="文章页顶部大图"><a href="#文章页顶部大图" class="headerlink" title="文章页顶部大图"></a>文章页顶部大图</h4><p>默认显示<strong>主题配置</strong>中的 <code>post.banner_img</code>，如需要设置单个文章的 Banner，在 <a href="https://hexo.io/zh-cn/docs/front-matter">Front-matter (opens new window)</a>中指定 <code>banner_img</code> 属性。</p>
+<p>本地图片存放位置同上。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">文章标题</span></span><br><span class="line"><span class="attr">tags:</span> [<span class="string">Hexo</span>, <span class="string">Fluid</span>]</span><br><span class="line"><span class="attr">index_img:</span> <span class="string">/img/example.jpg</span></span><br><span class="line"><span class="attr">banner_img:</span> <span class="string">/img/post_banner.jpg</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2019-10-10 10:00:00</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="string">以下是文章内容</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="文章内容图片"><a href="#文章内容图片" class="headerlink" title="文章内容图片"></a>文章内容图片</h4><p>本地图片存放位置同上。</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![](/img/example.jpg)</span><br></pre></td></tr></table></figure>
+
+<h4 id="日期-字数-阅读时长-阅读数"><a href="#日期-字数-阅读时长-阅读数" class="headerlink" title="日期/字数/阅读时长/阅读数"></a>日期/字数/阅读时长/阅读数</h4><p>显示在文章页大标题下的文章信息，除了作者和阅读次数，其他功能都是默认开启的。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post:</span></span><br><span class="line">  <span class="attr">meta:</span></span><br><span class="line">    <span class="attr">author:</span>  <span class="comment"># 作者，优先根据 front-matter 里 author 字段，其次是 hexo 配置中 author 值</span></span><br><span class="line">      <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">date:</span>  <span class="comment"># 文章日期，优先根据 front-matter 里 date 字段，其次是 md 文件日期</span></span><br><span class="line">      <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">      <span class="attr">format:</span> <span class="string">&quot;dddd, MMMM Do YYYY, h:mm a&quot;</span>  <span class="comment"># 格式参照 ISO-8601 日期格式化</span></span><br><span class="line">    <span class="attr">wordcount:</span>  <span class="comment"># 字数统计</span></span><br><span class="line">      <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">      <span class="attr">format:</span> <span class="string">&quot;&#123;&#125; 字&quot;</span>  <span class="comment"># 显示的文本，&#123;&#125;是数字的占位符（必须包含)，下同</span></span><br><span class="line">    <span class="attr">min2read:</span>  <span class="comment"># 阅读时间</span></span><br><span class="line">      <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">      <span class="attr">format:</span> <span class="string">&quot;&#123;&#125; 分钟&quot;</span></span><br><span class="line">    <span class="attr">views:</span>  <span class="comment"># 阅读次数</span></span><br><span class="line">      <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">source:</span> <span class="string">&quot;leancloud&quot;</span>  <span class="comment"># 统计数据来源，可选：leancloud | busuanzi   注意不蒜子会间歇抽风</span></span><br><span class="line">      <span class="attr">format:</span> <span class="string">&quot;&#123;&#125; 次&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>TIP</p>
+<p>日期格式必须遵循 ISO-8601 规范，否则无法正常显示；</p>
+<p>其他格式必须包括 <code>&#123;&#125;</code> 符号代替数字，文字可自由设置。</p>
+<h4 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h4><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">code:</span></span><br><span class="line">  <span class="attr">copy_btn:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">highlight:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">lib:</span> <span class="string">&quot;highlightjs&quot;</span></span><br><span class="line">    <span class="attr">highlightjs:</span></span><br><span class="line">      <span class="attr">style:</span> <span class="string">&#x27;Github Gist&#x27;</span></span><br><span class="line">      <span class="attr">bg_color:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">prismjs:</span></span><br><span class="line">      <span class="attr">style:</span> <span class="string">&quot;default&quot;</span></span><br><span class="line">      <span class="attr">preprocess:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<p><code>copy_btn</code>: 是否开启复制代码的按钮</p>
+<p><code>highlight</code>: 是否开启代码高亮</p>
+<p><code>lib</code>: 选择生成高亮的库，可选项: highlightjs、prismjs，对应下面两组配置，高亮的配置说明具体见<strong>主题配置</strong>中的注释</p>
+<p>WARNING</p>
+<p>高亮暂不支持行号</p>
+<h4 id="评论"><a href="#评论" class="headerlink" title="评论"></a>评论</h4><p>开启评论需要在<strong>主题配置</strong>中开启并指定评论模块：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post:</span></span><br><span class="line">  <span class="attr">comments:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">disqus</span></span><br></pre></td></tr></table></figure>
+
+<p>然后在下方还要设置对应评论模块的参数，比如 disqus 对应设置：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">disqus:</span></span><br><span class="line">  <span class="attr">shortname:</span> <span class="string">fluid</span></span><br></pre></td></tr></table></figure>
+
+<p>当前支持 Valine、Disqus、Gitalk、Utterances、畅言、来必力(livere)、Remark42、twikoo，使用和参数设置需要自行查询各自的文档（文档地址在配置注释里）。</p>
+<p>若需要自定义添加其他评论系统，请自行在 <code>fluid/layout/_partial/comments/</code> 目录内创建 ejs 文件，参照自带的 ejs 填入评论服务商提供的代码，再修改 <code>post.comments.type</code> 为对应文件名。</p>
+<p>TIP</p>
+<p>国内用户推荐使用 Valine 或者 Utterances</p>
+<p>如果设置后评论模块没有显示，说明配置没有完成，或者配置有误出现报错（请在浏览器控制台查看具体报错）</p>
+<p>如果想在某个文章页关闭评论，或者想在某个自定义页面开启评论，可以通过在 <a href="https://hexo.io/zh-cn/docs/front-matter">Front-matter (opens new window)</a>设置 <code>comment: bool</code> 来控制，例如在关于页开启评论：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">关于页</span></span><br><span class="line"><span class="attr">layout:</span> <span class="string">about</span></span><br><span class="line"><span class="attr">index_img:</span> <span class="string">/img/example.jpg</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2019-10-10 10:00:00</span></span><br><span class="line"><span class="attr">comment:</span> <span class="literal">true</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="string">以下是正文内容</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h4><p>主题内置了脚注语法支持，可以在文章末尾自动生成带有锚点的脚注，该功能在<strong>主题配置</strong>中默认开启：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post:</span></span><br><span class="line">  <span class="attr">footnote:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">header:</span> <span class="string">&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>脚注语法如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">这是一句话[^1]</span><br><span class="line">[<span class="symbol">^1</span>]: <span class="link">这是对应的脚注</span></span><br></pre></td></tr></table></figure>
+
+<p>更优雅的使用方式，是将脚注写在文末，比如：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">正文</span><br><span class="line"></span><br><span class="line"><span class="section">## 参考</span></span><br><span class="line">[<span class="symbol">^1</span>]: <span class="link">参考资料1</span></span><br><span class="line">[<span class="symbol">^2</span>]: <span class="link">参考资料2</span></span><br></pre></td></tr></table></figure>
+
+<p>当然你也可以通过修改上方配置项 <code>header</code> 来自动加入节标题，如下所示：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post:</span></span><br><span class="line">  <span class="attr">footnote:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">header:</span> <span class="string">&#x27;&lt;h2&gt;参考&lt;/h2&gt;&#x27;</span>  <span class="comment"># 等同于手动写 `## 参考`</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="Tag-插件"><a href="#Tag-插件" class="headerlink" title="Tag 插件"></a>Tag 插件</h4><p>WARNING</p>
+<p>所有 Tag 仍在测试中，后续版本可能会修改</p>
+<h4 id="便签"><a href="#便签" class="headerlink" title="便签"></a>便签</h4><p>在 markdown 中加入如下的代码来使用便签：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% note success %&#125;</span><br><span class="line">文字 或者 <span class="code">`markdown`</span> 均可</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>或者使用 HTML 形式：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">class</span>=<span class="string">&quot;note note-primary&quot;</span>&gt;</span>标签<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>可选便签：</p>
+<p>primary</p>
+<p>secondary</p>
+<p>success</p>
+<p>danger</p>
+<p>warning</p>
+<p>info</p>
+<p>light</p>
+<p>WARNING</p>
+<p>使用时 <code>&#123;% note primary %&#125;` 和 `&#123;% endnote %&#125;</code> 需单独一行，否则会出现问题</p>
+<h5 id="行内标签"><a href="#行内标签" class="headerlink" title="行内标签"></a>行内标签</h5><p>在 markdown 中加入如下的代码来使用 Label：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% label primary @text %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>或者使用 HTML 形式：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;label label-primary&quot;</span>&gt;</span>Label<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>可选 Label：</p>
+<p>primary default info success warning danger</p>
+<p>WARNING</p>
+<p>若使用 <code>&#123;% label primary @text %&#125;</code>，text 不能以 @ 开头</p>
+<h5 id="勾选框"><a href="#勾选框" class="headerlink" title="勾选框"></a>勾选框</h5><p>在 markdown 中加入如下的代码来使用 Checkbox：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% cb text, checked?, incline? %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>text：显示的文字<br>checked：默认是否已勾选，默认 false<br>incline: 是否内联（可以理解为后面的文字是否换行），默认 false</p>
+<h5 id="按钮"><a href="#按钮" class="headerlink" title="按钮"></a>按钮</h5><p>你可以在 markdown 中加入如下的代码来使用 Button：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% btn url, text, title %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>或者使用 HTML 形式：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;btn&quot;</span> <span class="attr">href</span>=<span class="string">&quot;url&quot;</span> <span class="attr">title</span>=<span class="string">&quot;title&quot;</span>&gt;</span>text<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>url：跳转链接<br>text：显示的文字<br>title：鼠标悬停时显示的文字（可选）</p>
+<p><a href="javascript:;">text</a></p>
+<h5 id="组图"><a href="#组图" class="headerlink" title="组图"></a>组图</h5><p>如果想把多张图片按一定布局组合显示，你可以在 markdown 中按如下格式：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% gi total n1-n2-... %&#125;</span><br><span class="line">  ![](url)</span><br><span class="line">  ![](url)</span><br><span class="line">  ![](url)</span><br><span class="line">  ![](url)</span><br><span class="line">  ![](url)</span><br><span class="line">&#123;% endgi %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>total：图片总数量，对应中间包含的图片 url 数量<br>n1-n2-…：每行的图片数量，可以省略，默认单行最多 3 张图，求和必须相等于 total，否则按默认样式</p>
+<p>如下图为 <code>&#123;% gi 5 3-2 %&#125;</code> 示例，代表共 5 张图，第一行 3 张图，第二行 2 张图。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glawxszspnj31d40t8txa.jpg"></p>
+<h4 id="LaTeX-数学公式"><a href="#LaTeX-数学公式" class="headerlink" title="LaTeX 数学公式"></a>LaTeX 数学公式</h4><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">Hexo 5.0 以上，可尝试 Hexo 官方的 [hexo-math](https://github.com/hexojs/hexo-math) 插件，支持更多定制化参数，使用方式参照仓库内的文档，以下介绍的是主题内置的 LaTeX 功能。</span><br></pre></td></tr></table></figure>
+
+<p>当需要使用 <a href="https://www.latex-project.org/help/documentation/">LaTeX (opens new window)</a>语法的数学公式时，可手动开启本功能，需要完成三步操作：</p>
+<p><strong>1. 设置主题配置</strong></p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post:</span></span><br><span class="line">  <span class="attr">math:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">specific:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">engine:</span> <span class="string">mathjax</span></span><br></pre></td></tr></table></figure>
+
+<p><code>specific</code>: 建议开启。当为 true 时，只有在文章 <a href="https://hexo.io/zh-cn/docs/front-matter">Front-matter (opens new window)</a>里指定 <code>math: true</code> 才会在文章页启动公式转换，以便在页面不包含公式时提高加载速度。</p>
+<p><code>engine</code>: 公式渲染引擎，目前支持 <code>mathjax</code> 或 <code>katex</code>。</p>
+<p><strong>2. 更换 Markdown 渲染器</strong></p>
+<p>由于 Hexo 默认的 Markdown 渲染器不支持复杂公式，所以必须更换渲染器。</p>
+<p>先卸载原有渲染器：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br></pre></td></tr></table></figure>
+
+<p>然后根据上方配置不同的 <code>engine</code>，推荐更换如下渲染器：</p>
+<p>mathjax: <code>npm install hexo-renderer-kramed --save</code></p>
+<p>katex: <code>npm install @upupming/hexo-renderer-markdown-it-plus --save</code></p>
+<p><strong>3. 安装完成后执行 <code>hexo clean</code></strong></p>
+<p>WARNING</p>
+<p>不可同时安装多个渲染器，如果更换公式引擎，对应渲染器也要一并更换。</p>
+<p>如果公式没有被正确渲染，请仔细检查是否符合上面三步操作。</p>
+<p>另外不同的渲染器，可能会导致一些 Markdown 语法不支持。</p>
+<p>自定义页面默认不加载渲染，如需使用，需在 Front-matter 中指定 <code>math: true</code></p>
+<p>TIP</p>
+<p>不同的公式引擎有不同的优缺点。</p>
+<p><strong>MathJax</strong></p>
+<p>优点</p>
+<ul>
+<li>对 LaTeX 语法支持全面</li>
+<li>右键点击公式有扩展功能</li>
+</ul>
+<p>缺点</p>
+<ul>
+<li>需要加载 JS，页面加载会比较慢，并且有渲染变化</li>
+<li>kramed 渲染器对内联公式的转义字符 <code>\</code> 支持不足</li>
+</ul>
+<p><strong>KaTeX</strong></p>
+<p>优点</p>
+<ul>
+<li>没有 JS 不会影响页面加载</li>
+<li>渲染器效果好 (相对 kramed 对 MathJax 的内联公式)</li>
+</ul>
+<p>缺点</p>
+<ul>
+<li>小部分 LaTeX 不支持</li>
+</ul>
+<h4 id="Mermaid-流程图"><a href="#Mermaid-流程图" class="headerlink" title="Mermaid 流程图"></a>Mermaid 流程图</h4><p>当需要使用 <a href="http://mermaid-js.github.io/mermaid/#/">Mermaid (opens new window)</a>渲染流程图时，可手动开启本功能：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post:</span></span><br><span class="line">  <span class="attr">mermaid:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">specific:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">options:</span></span><br></pre></td></tr></table></figure>
+
+<p><code>specific</code>: 建议开启。当为 true 时，只有在文章 <a href="https://hexo.io/zh-cn/docs/front-matter">Front-matter (opens new window)</a>里指定 <code>mermaid: true</code> 才会在文章页启动流程图渲染，以便在页面不包含流程图时提高加载速度。</p>
+<p><code>options</code>: 官方 API 的配置项，具体可见 <a href="http://mermaid-js.github.io/mermaid/#/mermaidAPI">mermaidAPI.js(opens new window)</a></p>
+<p>TIP</p>
+<p>自定义页面默认不加载，如需使用，需在 Front-matter 中指定 <code>mermaid: true</code></p>
+<p>使用 Mermaid 可以通过内置的 Tag 书写：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% mermaid %&#125;</span><br><span class="line">gantt</span><br><span class="line">dateFormat  YYYY-MM-DD</span><br><span class="line">title Adding GANTT diagram to mermaid</span><br><span class="line"></span><br><span class="line">section A section</span><br><span class="line">Completed task            :done,    des1, 2014-01-06,2014-01-08</span><br><span class="line">Active task               :active,  des2, 2014-01-09, 3d</span><br><span class="line">Future task               :         des3, after des2, 5d</span><br><span class="line">Future task2               :         des4, after des3, 5d</span><br><span class="line">&#123;% endmermaid %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>也可以通过代码块书写：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#96;&#96;&#96;mermaid</span><br><span class="line">classDiagram</span><br><span class="line">Class01 &lt;|-- AveryLongClass : Cool</span><br><span class="line">Class03 *-- Class04</span><br><span class="line">Class05 o-- Class06</span><br><span class="line">Class07 .. Class08</span><br><span class="line">Class09 --&gt; C2 : Where am i?</span><br><span class="line">Class09 --* C3</span><br><span class="line">Class09 --|&gt; Class07</span><br><span class="line">Class07 : equals()</span><br><span class="line">Class07 : Object[] elementData</span><br><span class="line">Class01 : size()</span><br><span class="line">Class01 : int chimp</span><br><span class="line">Class01 : int gorilla</span><br><span class="line">Class08 &lt;--&gt; C2: Cool label</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><p>我们可以在 Markdown 中插入一些简单的 HTML 代码或 CSS 片段来获得更多扩展，使得文章内容更具有多样性。以下演示几个简单功能。</p>
+<p>跳转位置演示（跳转位置设置点）</p>
+<h4 id="文字颜色"><a href="#文字颜色" class="headerlink" title="文字颜色"></a>文字颜色</h4><p><span  style="color: #519D9E; ">#519D9E颜色演示</span></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span>  <span class="attr">style</span>=<span class="string">&quot;color: #519D9E; &quot;</span>&gt;</span>#519D9E颜色演示<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="文字大小"><a href="#文字大小" class="headerlink" title="文字大小"></a>文字大小</h4><p><span  style="font-size:0.7em;">0.7em 文字大小演示</span></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span>  <span class="attr">style</span>=<span class="string">&quot;font-size:0.7em;&quot;</span>&gt;</span>0.7em 文字大小演示<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="文字位置"><a href="#文字位置" class="headerlink" title="文字位置"></a>文字位置</h4><p style="text-align:center">内容居中演示</p>
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center&quot;</span>&gt;</span>内容居中演示<span class="tag">&lt;/<span class="name">p</span>&gt;</span> # 可以修改 text-align 参数来设置文字位置。</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="页内跳转"><a href="#页内跳转" class="headerlink" title="页内跳转"></a>页内跳转</h4><p><a href="#demo">点击到达跳转位置演示</a><br><a id="demo">跳转位置演示（跳转位置设置点）</a> </p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#demo&quot;</span>&gt;</span>点击到达跳转位置演示<span class="tag">&lt;/<span class="name">a</span>&gt;</span> # 在需要跳转的地方添加此代码。</span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">&quot;demo&quot;</span>&gt;</span>跳转位置演示（跳转位置设置点）<span class="tag">&lt;/<span class="name">a</span>&gt;</span> # 在跳转位置添加次代码。</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="综合演示"><a href="#综合演示" class="headerlink" title="综合演示"></a>综合演示</h4><p style="text-align:center;color:#8EC0E4;font-size:1.5em;font-weight: bold;">
+综合演示
+<br>
+优雅使用 Fluid 写文章
+</p>
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center;color:#8EC0E4;font-size:1.5em;font-weight: bold;&quot;</span>&gt;</span></span><br><span class="line">综合演示</span><br><span class="line"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">优雅使用 Fluid 写文章</span><br><span class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="iframe-页面镶套"><a href="#iframe-页面镶套" class="headerlink" title="iframe 页面镶套"></a>iframe 页面镶套</h4><p>iframe 页面镶套可以帮助我们更好的展示一个页面。比如以下演示页面。</p>
+<iframe src="https://hexo.fluid-dev.com/" width="100%" height="650" name="topFrame" scrolling="yes" noresize="noresize" frameborder="0" id="topFrame" style="box-sizing: border-box; color: rgb(44, 62, 80); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"></iframe>
+
+
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;https://hexo.fluid-dev.com/&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;500&quot;</span> <span class="attr">name</span>=<span class="string">&quot;topFrame&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;yes&quot;</span>  <span class="attr">noresize</span>=<span class="string">&quot;noresize&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;0&quot;</span> <span class="attr">id</span>=<span class="string">&quot;topFrame&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>一些参数说明，<code>width=&quot;100%&quot;</code> 为宽度自适应，高度请根据实际需求跳转，<strong>注意移动端页面是否匹配。</strong> <code>scrolling</code> 为滚动条参数。<code>frameborder</code> 为边框参数。<code>noresize</code> 属性规定用户无法调整框架的大小。</p>
+<h4 id="details-标签"><a href="#details-标签" class="headerlink" title="details 标签"></a>details 标签</h4><p>用于展示代码较多需要折叠或折叠相关内容，以下为演示。<code>summary</code> 填写显示名称。</p>
+<details style="box-sizing: border-box; display: block; margin-top: 0px; margin-bottom: 16px; cursor: pointer; color: rgb(44, 62, 80); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"><summary style="box-sizing: border-box; display: list-item; cursor: pointer; outline: none;">Demo</summary></details>
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">details</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">summary</span>&gt;</span>Demo<span class="tag">&lt;/<span class="name">summary</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>好友申请备注：fluid<span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>提问之前请先仔细查阅用户文档<span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">width</span>=<span class="string">&quot;200&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/fluid-dev/static@master/hexo-theme-fluid/wechat.png&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;wechat&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">details</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="善用-Tag-组件"><a href="#善用-Tag-组件" class="headerlink" title="善用 Tag 组件"></a>善用 Tag 组件</h4><p>Fluid 内置了许多 Tag 组件，包含便签、行内标签（已知不会出现间隔，谨慎使用）、勾选框、按钮和组图，可以使用这些组件来丰富文章内容，具体点击查看官方文档查看，**<a href="https://hexo.fluid-dev.com/docs/guide/#tag-%E6%8F%92%E4%BB%B6">点击跳转到 Fluid Doc</a>**。</p>
+<h3 id="IMG"><a href="#IMG" class="headerlink" title="IMG"></a>IMG</h3><p>众所周知，<strong>博客好不好看，配图占一半</strong>。这里给大家推荐几个我常用找配图的地方。<strong>另外，请遵循相关网站的版权协议。</strong></p>
+<h4 id="Wallpaper-Hub"><a href="#Wallpaper-Hub" class="headerlink" title="Wallpaper Hub"></a>Wallpaper Hub</h4><p><a href="https://cdn.vince.pub/blog-file/photo/2020-04-17_175244.png"><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glj5j8dw79j317c0rf7wh.jpg" alt="Wallpaper Hub"></a></p>
+<p><strong><a href="https://wallpaperhub.app/">点击跳转到 Wallpaper Hub</a></strong></p>
+<h4 id="Wallhaven"><a href="#Wallhaven" class="headerlink" title="Wallhaven"></a>Wallhaven</h4><p><a href="https://cdn.vince.pub/blog-file/photo/2020-04-17_174841.png"><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glj5j97imbj317c0rfb29.jpg" alt="Wallhaven"></a></p>
+<p><strong><a href="https://wallhaven.cc/">点击跳转到 Wallhaven</a></strong></p>
+<h4 id="Unsplash"><a href="#Unsplash" class="headerlink" title="Unsplash"></a>Unsplash</h4><p><a href="https://cdn.vince.pub/blog-file/photo/2020-05-14_000557.png"><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glj5ja00g5j317c0rf7wh.jpg" alt="Unsplash"></a></p>
+<p><strong><a href="https://unsplash.com/">点击跳转到 Unsplash</a></strong></p>
 ]]></content>
       <categories>
-        <category>游戏幕后 (Behind the Game)</category>
+        <category>写作技巧 (Write Skill)</category>
+        <category>博客搭建 (Blog Building)</category>
       </categories>
       <tags>
-        <tag>Celeste</tag>
-        <tag>Story</tag>
+        <tag>Hexo</tag>
+        <tag>Blog</tag>
+        <tag>Fluid</tag>
       </tags>
   </entry>
   <entry>
@@ -12401,8 +12636,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Story</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -12439,8 +12674,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Story</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -12500,8 +12735,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Story</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -12876,241 +13111,6 @@
         <tag>Unity</tag>
         <tag>Csharp</tag>
         <tag>2D Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo-Fluid写作指南</title>
-    <url>/archives/f0a0db79.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4ofxtwutj313g0jo761.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文记录Hexo-Fluid主题的写作技巧，内容包含了Markdown、HTML和IMG三个大类。需要注意因为主题转变的原因部分标签无法使用，但对于博客写作仍有共同之处和参考价值。</p>
-<span id="more"></span>
-
-
-
-
-
-<h3 id="MarkDown"><a href="#MarkDown" class="headerlink" title="MarkDown"></a>MarkDown</h3><h4 id="文章在首页的封面图"><a href="#文章在首页的封面图" class="headerlink" title="文章在首页的封面图"></a>文章在首页的封面图</h4><p>对于单篇文章，在文章开头 <a href="https://hexo.io/zh-cn/docs/front-matter">Front-matter (opens new window)</a>中配置 <code>index_img</code> 属性。</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">文章标题</span></span><br><span class="line"><span class="attr">tags:</span> [<span class="string">Hexo</span>, <span class="string">Fluid</span>]</span><br><span class="line"><span class="attr">index_img:</span> <span class="string">/img/example.jpg</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2019-10-10 10:00:00</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="string">以下是文章内容</span></span><br></pre></td></tr></table></figure>
-
-<p>和 Banner 配置相同，<code>/img/example.jpg</code> 对应的是存放在 <code>/source/img/example.jpg</code> 目录下的图片（目录也可自定义，但必须在 source 目录下）。</p>
-<p>也可以使用外链 Url 的绝对路径。</p>
-<p>如果想统一给文章设置一个默认图片（文章不设置 <code>index_img</code> 则默认使用这张图片），可在<strong>主题配置</strong>中设置：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post:</span></span><br><span class="line">  <span class="attr">default_index_img:</span> <span class="string">/img/example.jpg</span></span><br></pre></td></tr></table></figure>
-
-<p>当 <code>default_index_img</code> 和 <code>index_img</code> 都为空时，该文章在首页将不显示图片。</p>
-<h4 id="文章页顶部大图"><a href="#文章页顶部大图" class="headerlink" title="文章页顶部大图"></a>文章页顶部大图</h4><p>默认显示<strong>主题配置</strong>中的 <code>post.banner_img</code>，如需要设置单个文章的 Banner，在 <a href="https://hexo.io/zh-cn/docs/front-matter">Front-matter (opens new window)</a>中指定 <code>banner_img</code> 属性。</p>
-<p>本地图片存放位置同上。</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">文章标题</span></span><br><span class="line"><span class="attr">tags:</span> [<span class="string">Hexo</span>, <span class="string">Fluid</span>]</span><br><span class="line"><span class="attr">index_img:</span> <span class="string">/img/example.jpg</span></span><br><span class="line"><span class="attr">banner_img:</span> <span class="string">/img/post_banner.jpg</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2019-10-10 10:00:00</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="string">以下是文章内容</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="文章内容图片"><a href="#文章内容图片" class="headerlink" title="文章内容图片"></a>文章内容图片</h4><p>本地图片存放位置同上。</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![](/img/example.jpg)</span><br></pre></td></tr></table></figure>
-
-<h4 id="日期-字数-阅读时长-阅读数"><a href="#日期-字数-阅读时长-阅读数" class="headerlink" title="日期/字数/阅读时长/阅读数"></a>日期/字数/阅读时长/阅读数</h4><p>显示在文章页大标题下的文章信息，除了作者和阅读次数，其他功能都是默认开启的。</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post:</span></span><br><span class="line">  <span class="attr">meta:</span></span><br><span class="line">    <span class="attr">author:</span>  <span class="comment"># 作者，优先根据 front-matter 里 author 字段，其次是 hexo 配置中 author 值</span></span><br><span class="line">      <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">date:</span>  <span class="comment"># 文章日期，优先根据 front-matter 里 date 字段，其次是 md 文件日期</span></span><br><span class="line">      <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">      <span class="attr">format:</span> <span class="string">&quot;dddd, MMMM Do YYYY, h:mm a&quot;</span>  <span class="comment"># 格式参照 ISO-8601 日期格式化</span></span><br><span class="line">    <span class="attr">wordcount:</span>  <span class="comment"># 字数统计</span></span><br><span class="line">      <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">      <span class="attr">format:</span> <span class="string">&quot;&#123;&#125; 字&quot;</span>  <span class="comment"># 显示的文本，&#123;&#125;是数字的占位符（必须包含)，下同</span></span><br><span class="line">    <span class="attr">min2read:</span>  <span class="comment"># 阅读时间</span></span><br><span class="line">      <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">      <span class="attr">format:</span> <span class="string">&quot;&#123;&#125; 分钟&quot;</span></span><br><span class="line">    <span class="attr">views:</span>  <span class="comment"># 阅读次数</span></span><br><span class="line">      <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">      <span class="attr">source:</span> <span class="string">&quot;leancloud&quot;</span>  <span class="comment"># 统计数据来源，可选：leancloud | busuanzi   注意不蒜子会间歇抽风</span></span><br><span class="line">      <span class="attr">format:</span> <span class="string">&quot;&#123;&#125; 次&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>TIP</p>
-<p>日期格式必须遵循 ISO-8601 规范，否则无法正常显示；</p>
-<p>其他格式必须包括 <code>&#123;&#125;</code> 符号代替数字，文字可自由设置。</p>
-<h4 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h4><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">code:</span></span><br><span class="line">  <span class="attr">copy_btn:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">highlight:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">lib:</span> <span class="string">&quot;highlightjs&quot;</span></span><br><span class="line">    <span class="attr">highlightjs:</span></span><br><span class="line">      <span class="attr">style:</span> <span class="string">&#x27;Github Gist&#x27;</span></span><br><span class="line">      <span class="attr">bg_color:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">prismjs:</span></span><br><span class="line">      <span class="attr">style:</span> <span class="string">&quot;default&quot;</span></span><br><span class="line">      <span class="attr">preprocess:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<p><code>copy_btn</code>: 是否开启复制代码的按钮</p>
-<p><code>highlight</code>: 是否开启代码高亮</p>
-<p><code>lib</code>: 选择生成高亮的库，可选项: highlightjs、prismjs，对应下面两组配置，高亮的配置说明具体见<strong>主题配置</strong>中的注释</p>
-<p>WARNING</p>
-<p>高亮暂不支持行号</p>
-<h4 id="评论"><a href="#评论" class="headerlink" title="评论"></a>评论</h4><p>开启评论需要在<strong>主题配置</strong>中开启并指定评论模块：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post:</span></span><br><span class="line">  <span class="attr">comments:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">disqus</span></span><br></pre></td></tr></table></figure>
-
-<p>然后在下方还要设置对应评论模块的参数，比如 disqus 对应设置：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">disqus:</span></span><br><span class="line">  <span class="attr">shortname:</span> <span class="string">fluid</span></span><br></pre></td></tr></table></figure>
-
-<p>当前支持 Valine、Disqus、Gitalk、Utterances、畅言、来必力(livere)、Remark42、twikoo，使用和参数设置需要自行查询各自的文档（文档地址在配置注释里）。</p>
-<p>若需要自定义添加其他评论系统，请自行在 <code>fluid/layout/_partial/comments/</code> 目录内创建 ejs 文件，参照自带的 ejs 填入评论服务商提供的代码，再修改 <code>post.comments.type</code> 为对应文件名。</p>
-<p>TIP</p>
-<p>国内用户推荐使用 Valine 或者 Utterances</p>
-<p>如果设置后评论模块没有显示，说明配置没有完成，或者配置有误出现报错（请在浏览器控制台查看具体报错）</p>
-<p>如果想在某个文章页关闭评论，或者想在某个自定义页面开启评论，可以通过在 <a href="https://hexo.io/zh-cn/docs/front-matter">Front-matter (opens new window)</a>设置 <code>comment: bool</code> 来控制，例如在关于页开启评论：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">关于页</span></span><br><span class="line"><span class="attr">layout:</span> <span class="string">about</span></span><br><span class="line"><span class="attr">index_img:</span> <span class="string">/img/example.jpg</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2019-10-10 10:00:00</span></span><br><span class="line"><span class="attr">comment:</span> <span class="literal">true</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="string">以下是正文内容</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h4><p>主题内置了脚注语法支持，可以在文章末尾自动生成带有锚点的脚注，该功能在<strong>主题配置</strong>中默认开启：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post:</span></span><br><span class="line">  <span class="attr">footnote:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">header:</span> <span class="string">&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
-
-<p>脚注语法如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">这是一句话[^1]</span><br><span class="line">[<span class="symbol">^1</span>]: <span class="link">这是对应的脚注</span></span><br></pre></td></tr></table></figure>
-
-<p>更优雅的使用方式，是将脚注写在文末，比如：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">正文</span><br><span class="line"></span><br><span class="line"><span class="section">## 参考</span></span><br><span class="line">[<span class="symbol">^1</span>]: <span class="link">参考资料1</span></span><br><span class="line">[<span class="symbol">^2</span>]: <span class="link">参考资料2</span></span><br></pre></td></tr></table></figure>
-
-<p>当然你也可以通过修改上方配置项 <code>header</code> 来自动加入节标题，如下所示：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post:</span></span><br><span class="line">  <span class="attr">footnote:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">header:</span> <span class="string">&#x27;&lt;h2&gt;参考&lt;/h2&gt;&#x27;</span>  <span class="comment"># 等同于手动写 `## 参考`</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="Tag-插件"><a href="#Tag-插件" class="headerlink" title="Tag 插件"></a>Tag 插件</h4><p>WARNING</p>
-<p>所有 Tag 仍在测试中，后续版本可能会修改</p>
-<h4 id="便签"><a href="#便签" class="headerlink" title="便签"></a>便签</h4><p>在 markdown 中加入如下的代码来使用便签：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% note success %&#125;</span><br><span class="line">文字 或者 <span class="code">`markdown`</span> 均可</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>或者使用 HTML 形式：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">class</span>=<span class="string">&quot;note note-primary&quot;</span>&gt;</span>标签<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>可选便签：</p>
-<p>primary</p>
-<p>secondary</p>
-<p>success</p>
-<p>danger</p>
-<p>warning</p>
-<p>info</p>
-<p>light</p>
-<p>WARNING</p>
-<p>使用时 <code>&#123;% note primary %&#125;` 和 `&#123;% endnote %&#125;</code> 需单独一行，否则会出现问题</p>
-<h5 id="行内标签"><a href="#行内标签" class="headerlink" title="行内标签"></a>行内标签</h5><p>在 markdown 中加入如下的代码来使用 Label：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% label primary @text %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>或者使用 HTML 形式：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;label label-primary&quot;</span>&gt;</span>Label<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>可选 Label：</p>
-<p>primary default info success warning danger</p>
-<p>WARNING</p>
-<p>若使用 <code>&#123;% label primary @text %&#125;</code>，text 不能以 @ 开头</p>
-<h5 id="勾选框"><a href="#勾选框" class="headerlink" title="勾选框"></a>勾选框</h5><p>在 markdown 中加入如下的代码来使用 Checkbox：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% cb text, checked?, incline? %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>text：显示的文字<br>checked：默认是否已勾选，默认 false<br>incline: 是否内联（可以理解为后面的文字是否换行），默认 false</p>
-<h5 id="按钮"><a href="#按钮" class="headerlink" title="按钮"></a>按钮</h5><p>你可以在 markdown 中加入如下的代码来使用 Button：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% btn url, text, title %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>或者使用 HTML 形式：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;btn&quot;</span> <span class="attr">href</span>=<span class="string">&quot;url&quot;</span> <span class="attr">title</span>=<span class="string">&quot;title&quot;</span>&gt;</span>text<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>url：跳转链接<br>text：显示的文字<br>title：鼠标悬停时显示的文字（可选）</p>
-<p><a href="javascript:;">text</a></p>
-<h5 id="组图"><a href="#组图" class="headerlink" title="组图"></a>组图</h5><p>如果想把多张图片按一定布局组合显示，你可以在 markdown 中按如下格式：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% gi total n1-n2-... %&#125;</span><br><span class="line">  ![](url)</span><br><span class="line">  ![](url)</span><br><span class="line">  ![](url)</span><br><span class="line">  ![](url)</span><br><span class="line">  ![](url)</span><br><span class="line">&#123;% endgi %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>total：图片总数量，对应中间包含的图片 url 数量<br>n1-n2-…：每行的图片数量，可以省略，默认单行最多 3 张图，求和必须相等于 total，否则按默认样式</p>
-<p>如下图为 <code>&#123;% gi 5 3-2 %&#125;</code> 示例，代表共 5 张图，第一行 3 张图，第二行 2 张图。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glawxszspnj31d40t8txa.jpg"></p>
-<h4 id="LaTeX-数学公式"><a href="#LaTeX-数学公式" class="headerlink" title="LaTeX 数学公式"></a>LaTeX 数学公式</h4><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">Hexo 5.0 以上，可尝试 Hexo 官方的 [hexo-math](https://github.com/hexojs/hexo-math) 插件，支持更多定制化参数，使用方式参照仓库内的文档，以下介绍的是主题内置的 LaTeX 功能。</span><br></pre></td></tr></table></figure>
-
-<p>当需要使用 <a href="https://www.latex-project.org/help/documentation/">LaTeX (opens new window)</a>语法的数学公式时，可手动开启本功能，需要完成三步操作：</p>
-<p><strong>1. 设置主题配置</strong></p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post:</span></span><br><span class="line">  <span class="attr">math:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">specific:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">engine:</span> <span class="string">mathjax</span></span><br></pre></td></tr></table></figure>
-
-<p><code>specific</code>: 建议开启。当为 true 时，只有在文章 <a href="https://hexo.io/zh-cn/docs/front-matter">Front-matter (opens new window)</a>里指定 <code>math: true</code> 才会在文章页启动公式转换，以便在页面不包含公式时提高加载速度。</p>
-<p><code>engine</code>: 公式渲染引擎，目前支持 <code>mathjax</code> 或 <code>katex</code>。</p>
-<p><strong>2. 更换 Markdown 渲染器</strong></p>
-<p>由于 Hexo 默认的 Markdown 渲染器不支持复杂公式，所以必须更换渲染器。</p>
-<p>先卸载原有渲染器：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br></pre></td></tr></table></figure>
-
-<p>然后根据上方配置不同的 <code>engine</code>，推荐更换如下渲染器：</p>
-<p>mathjax: <code>npm install hexo-renderer-kramed --save</code></p>
-<p>katex: <code>npm install @upupming/hexo-renderer-markdown-it-plus --save</code></p>
-<p><strong>3. 安装完成后执行 <code>hexo clean</code></strong></p>
-<p>WARNING</p>
-<p>不可同时安装多个渲染器，如果更换公式引擎，对应渲染器也要一并更换。</p>
-<p>如果公式没有被正确渲染，请仔细检查是否符合上面三步操作。</p>
-<p>另外不同的渲染器，可能会导致一些 Markdown 语法不支持。</p>
-<p>自定义页面默认不加载渲染，如需使用，需在 Front-matter 中指定 <code>math: true</code></p>
-<p>TIP</p>
-<p>不同的公式引擎有不同的优缺点。</p>
-<p><strong>MathJax</strong></p>
-<p>优点</p>
-<ul>
-<li>对 LaTeX 语法支持全面</li>
-<li>右键点击公式有扩展功能</li>
-</ul>
-<p>缺点</p>
-<ul>
-<li>需要加载 JS，页面加载会比较慢，并且有渲染变化</li>
-<li>kramed 渲染器对内联公式的转义字符 <code>\</code> 支持不足</li>
-</ul>
-<p><strong>KaTeX</strong></p>
-<p>优点</p>
-<ul>
-<li>没有 JS 不会影响页面加载</li>
-<li>渲染器效果好 (相对 kramed 对 MathJax 的内联公式)</li>
-</ul>
-<p>缺点</p>
-<ul>
-<li>小部分 LaTeX 不支持</li>
-</ul>
-<h4 id="Mermaid-流程图"><a href="#Mermaid-流程图" class="headerlink" title="Mermaid 流程图"></a>Mermaid 流程图</h4><p>当需要使用 <a href="http://mermaid-js.github.io/mermaid/#/">Mermaid (opens new window)</a>渲染流程图时，可手动开启本功能：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post:</span></span><br><span class="line">  <span class="attr">mermaid:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">specific:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">options:</span></span><br></pre></td></tr></table></figure>
-
-<p><code>specific</code>: 建议开启。当为 true 时，只有在文章 <a href="https://hexo.io/zh-cn/docs/front-matter">Front-matter (opens new window)</a>里指定 <code>mermaid: true</code> 才会在文章页启动流程图渲染，以便在页面不包含流程图时提高加载速度。</p>
-<p><code>options</code>: 官方 API 的配置项，具体可见 <a href="http://mermaid-js.github.io/mermaid/#/mermaidAPI">mermaidAPI.js(opens new window)</a></p>
-<p>TIP</p>
-<p>自定义页面默认不加载，如需使用，需在 Front-matter 中指定 <code>mermaid: true</code></p>
-<p>使用 Mermaid 可以通过内置的 Tag 书写：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% mermaid %&#125;</span><br><span class="line">gantt</span><br><span class="line">dateFormat  YYYY-MM-DD</span><br><span class="line">title Adding GANTT diagram to mermaid</span><br><span class="line"></span><br><span class="line">section A section</span><br><span class="line">Completed task            :done,    des1, 2014-01-06,2014-01-08</span><br><span class="line">Active task               :active,  des2, 2014-01-09, 3d</span><br><span class="line">Future task               :         des3, after des2, 5d</span><br><span class="line">Future task2               :         des4, after des3, 5d</span><br><span class="line">&#123;% endmermaid %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>也可以通过代码块书写：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#96;&#96;&#96;mermaid</span><br><span class="line">classDiagram</span><br><span class="line">Class01 &lt;|-- AveryLongClass : Cool</span><br><span class="line">Class03 *-- Class04</span><br><span class="line">Class05 o-- Class06</span><br><span class="line">Class07 .. Class08</span><br><span class="line">Class09 --&gt; C2 : Where am i?</span><br><span class="line">Class09 --* C3</span><br><span class="line">Class09 --|&gt; Class07</span><br><span class="line">Class07 : equals()</span><br><span class="line">Class07 : Object[] elementData</span><br><span class="line">Class01 : size()</span><br><span class="line">Class01 : int chimp</span><br><span class="line">Class01 : int gorilla</span><br><span class="line">Class08 &lt;--&gt; C2: Cool label</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><p>我们可以在 Markdown 中插入一些简单的 HTML 代码或 CSS 片段来获得更多扩展，使得文章内容更具有多样性。以下演示几个简单功能。</p>
-<p>跳转位置演示（跳转位置设置点）</p>
-<h4 id="文字颜色"><a href="#文字颜色" class="headerlink" title="文字颜色"></a>文字颜色</h4><p><span  style="color: #519D9E; ">#519D9E颜色演示</span></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span>  <span class="attr">style</span>=<span class="string">&quot;color: #519D9E; &quot;</span>&gt;</span>#519D9E颜色演示<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="文字大小"><a href="#文字大小" class="headerlink" title="文字大小"></a>文字大小</h4><p><span  style="font-size:0.7em;">0.7em 文字大小演示</span></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span>  <span class="attr">style</span>=<span class="string">&quot;font-size:0.7em;&quot;</span>&gt;</span>0.7em 文字大小演示<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="文字位置"><a href="#文字位置" class="headerlink" title="文字位置"></a>文字位置</h4><p style="text-align:center">内容居中演示</p>
-
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center&quot;</span>&gt;</span>内容居中演示<span class="tag">&lt;/<span class="name">p</span>&gt;</span> # 可以修改 text-align 参数来设置文字位置。</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="页内跳转"><a href="#页内跳转" class="headerlink" title="页内跳转"></a>页内跳转</h4><p><a href="#demo">点击到达跳转位置演示</a><br><a id="demo">跳转位置演示（跳转位置设置点）</a> </p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#demo&quot;</span>&gt;</span>点击到达跳转位置演示<span class="tag">&lt;/<span class="name">a</span>&gt;</span> # 在需要跳转的地方添加此代码。</span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">&quot;demo&quot;</span>&gt;</span>跳转位置演示（跳转位置设置点）<span class="tag">&lt;/<span class="name">a</span>&gt;</span> # 在跳转位置添加次代码。</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="综合演示"><a href="#综合演示" class="headerlink" title="综合演示"></a>综合演示</h4><p style="text-align:center;color:#8EC0E4;font-size:1.5em;font-weight: bold;">
-综合演示
-<br>
-优雅使用 Fluid 写文章
-</p>
-
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center;color:#8EC0E4;font-size:1.5em;font-weight: bold;&quot;</span>&gt;</span></span><br><span class="line">综合演示</span><br><span class="line"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">优雅使用 Fluid 写文章</span><br><span class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="iframe-页面镶套"><a href="#iframe-页面镶套" class="headerlink" title="iframe 页面镶套"></a>iframe 页面镶套</h4><p>iframe 页面镶套可以帮助我们更好的展示一个页面。比如以下演示页面。</p>
-<iframe src="https://hexo.fluid-dev.com/" width="100%" height="650" name="topFrame" scrolling="yes" noresize="noresize" frameborder="0" id="topFrame" style="box-sizing: border-box; color: rgb(44, 62, 80); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"></iframe>
-
-
-
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;https://hexo.fluid-dev.com/&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;500&quot;</span> <span class="attr">name</span>=<span class="string">&quot;topFrame&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;yes&quot;</span>  <span class="attr">noresize</span>=<span class="string">&quot;noresize&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;0&quot;</span> <span class="attr">id</span>=<span class="string">&quot;topFrame&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>一些参数说明，<code>width=&quot;100%&quot;</code> 为宽度自适应，高度请根据实际需求跳转，<strong>注意移动端页面是否匹配。</strong> <code>scrolling</code> 为滚动条参数。<code>frameborder</code> 为边框参数。<code>noresize</code> 属性规定用户无法调整框架的大小。</p>
-<h4 id="details-标签"><a href="#details-标签" class="headerlink" title="details 标签"></a>details 标签</h4><p>用于展示代码较多需要折叠或折叠相关内容，以下为演示。<code>summary</code> 填写显示名称。</p>
-<details style="box-sizing: border-box; display: block; margin-top: 0px; margin-bottom: 16px; cursor: pointer; color: rgb(44, 62, 80); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"><summary style="box-sizing: border-box; display: list-item; cursor: pointer; outline: none;">Demo</summary></details>
-
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">details</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">summary</span>&gt;</span>Demo<span class="tag">&lt;/<span class="name">summary</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>好友申请备注：fluid<span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>提问之前请先仔细查阅用户文档<span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">width</span>=<span class="string">&quot;200&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/fluid-dev/static@master/hexo-theme-fluid/wechat.png&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;wechat&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">details</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="善用-Tag-组件"><a href="#善用-Tag-组件" class="headerlink" title="善用 Tag 组件"></a>善用 Tag 组件</h4><p>Fluid 内置了许多 Tag 组件，包含便签、行内标签（已知不会出现间隔，谨慎使用）、勾选框、按钮和组图，可以使用这些组件来丰富文章内容，具体点击查看官方文档查看，**<a href="https://hexo.fluid-dev.com/docs/guide/#tag-%E6%8F%92%E4%BB%B6">点击跳转到 Fluid Doc</a>**。</p>
-<h3 id="IMG"><a href="#IMG" class="headerlink" title="IMG"></a>IMG</h3><p>众所周知，<strong>博客好不好看，配图占一半</strong>。这里给大家推荐几个我常用找配图的地方。<strong>另外，请遵循相关网站的版权协议。</strong></p>
-<h4 id="Wallpaper-Hub"><a href="#Wallpaper-Hub" class="headerlink" title="Wallpaper Hub"></a>Wallpaper Hub</h4><p><a href="https://cdn.vince.pub/blog-file/photo/2020-04-17_175244.png"><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glj5j8dw79j317c0rf7wh.jpg" alt="Wallpaper Hub"></a></p>
-<p><strong><a href="https://wallpaperhub.app/">点击跳转到 Wallpaper Hub</a></strong></p>
-<h4 id="Wallhaven"><a href="#Wallhaven" class="headerlink" title="Wallhaven"></a>Wallhaven</h4><p><a href="https://cdn.vince.pub/blog-file/photo/2020-04-17_174841.png"><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glj5j97imbj317c0rfb29.jpg" alt="Wallhaven"></a></p>
-<p><strong><a href="https://wallhaven.cc/">点击跳转到 Wallhaven</a></strong></p>
-<h4 id="Unsplash"><a href="#Unsplash" class="headerlink" title="Unsplash"></a>Unsplash</h4><p><a href="https://cdn.vince.pub/blog-file/photo/2020-05-14_000557.png"><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1glj5ja00g5j317c0rf7wh.jpg" alt="Unsplash"></a></p>
-<p><strong><a href="https://unsplash.com/">点击跳转到 Unsplash</a></strong></p>
-]]></content>
-      <categories>
-        <category>写作技巧 (Write Skill)</category>
-        <category>博客搭建 (Blog Building)</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Blog</tag>
-        <tag>Fluid</tag>
       </tags>
   </entry>
   <entry>
@@ -13628,8 +13628,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Story</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -13695,8 +13695,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Story</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -14486,8 +14486,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Story</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -17240,8 +17240,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Story</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -17411,8 +17411,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Story</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -17678,8 +17678,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Story</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
 </search>
