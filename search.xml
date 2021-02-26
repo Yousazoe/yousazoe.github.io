@@ -57,63 +57,6 @@
       </tags>
   </entry>
   <entry>
-    <title>编译原理绪论</title>
-    <url>/archives/8fa1c6be.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/f1f795100276265.Y3JvcCw0MDg1LDMxOTUsMjAyLDY0Nw.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/100276265/Retro-Computers?tracking_source=search_projects_recommended%7Ccomputer">Retro Computers</a> by 
-      <a href="https://www.behance.net/AnnSophieDeSteur">Ann-Sophie De Steur</a>
-    </i>
-  </font>
-</div>
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>编译原理旨在介绍编译程序构造的一般原理和基本方法。内容包括语言和文法、词法分析、语法分析、语法制导翻译、中间代码生成、存储管理、代码优化和目标代码生成，本节主要是对这门课有一个整体把握。</p>
-<a id="more"></a>
-
-<h3 id="什么叫编译程序"><a href="#什么叫编译程序" class="headerlink" title="什么叫编译程序"></a>什么叫编译程序</h3><p><strong>编译程序</strong>（编译器），它<strong>读入</strong>用某种语言编写的 源程序，并<strong>翻译</strong>成一个<strong>与之等价</strong>的另一种语言编 写的源程序。</p>
-<h3 id="编译过程概述"><a href="#编译过程概述" class="headerlink" title="编译过程概述"></a>编译过程概述</h3><p>编译程序的工作，从输入源程序开始，到输出目标程序结束，与自然语言之间的翻译有很多相似之处。</p>
-<p>一段英文翻译成中文，需经下列步骤: <strong>I am a experienced teacher.</strong> </p>
-<ul>
-<li>识别出句子中的单词：<strong>词法分析</strong></li>
-<li>分析句子的语法结构：<strong>语法分析</strong></li>
-<li>根据句子的含义进行初步分析：<strong>语义分析及中间代码生成</strong></li>
-<li>对译文进行修饰：<strong>代码优化</strong></li>
-<li>写出最后的译文：<strong>目标代码生成</strong></li>
-</ul>
-<h4 id="词法分析"><a href="#词法分析" class="headerlink" title="词法分析"></a>词法分析</h4><p>计算圆柱体表面积的程序片断如下: </p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">float</span> r，h，s;</span><br><span class="line">s = <span class="number">2</span>*<span class="number">3.1416</span> * r *(r+h);</span><br></pre></td></tr></table></figure>
-<p>上述源程序通过<strong>词法分析</strong>识别出如下单词符号： </p>
-<ul>
-<li>关键字： <code>float</code> </li>
-<li>标识符： <code>r</code>、<code>h</code>、<code>s</code></li>
-<li>常数： 3.1416、2 </li>
-<li>算符： <code>*</code>、<code>+</code> </li>
-<li>界符 ：<code>(</code>、<code>)</code>、<code>;</code>、<code>，</code>、<code>=</code></li>
-</ul>
-<p>词法分析是对构成源程序的<strong>字符串</strong>从左到右进行扫描和分解，根据语言的<strong>词法规则</strong>识别出一个一个具有独立意义的单词（也称<strong>单词符号</strong>, 简称符号）。</p>
-<p><strong>词法规则</strong>是单词符号的形成规则,它规定了哪样的字符串构成一个单词符号。</p>
-<h4 id="语法分析"><a href="#语法分析" class="headerlink" title="语法分析"></a>语法分析</h4><p>语法分析的任务是在词法分析的基础上, 根据语言的<strong>语法规则</strong>从<strong>单词符号串</strong>中识别出各种<strong>语法单位</strong>（如表达式、说明、语句等） ,并进行<strong>语法检查</strong>, 即检查各种语法单位在语法结构上的正确性。</p>
-<p>语言的<strong>语法规则</strong>规定了如何从单词符号形成，<strong>语法规则</strong>是语法单位的形成规则。</p>
-<h4 id="语义分析和中间代码生成"><a href="#语义分析和中间代码生成" class="headerlink" title="语义分析和中间代码生成"></a>语义分析和中间代码生成</h4><p><strong>语义分析</strong>的任务是首先对每种语法单位进行静态的语义审查，然后分析其含义，并用另一种语 言形式 (比源语言更接近于目标语言的一种中间代 码或直接用目标语言 ) 来描述这种语义。</p>
-<h4 id="代码优化"><a href="#代码优化" class="headerlink" title="代码优化"></a>代码优化</h4><p>代码优化的任务是对前阶段产生的中间代码进<strong>等价变换</strong>，以期获得更为<strong>高效即省时间和空间的目标代码</strong>。将$s=2<em>3.1416</em>r*(h+r)$翻译成如下形式的四元式经局部优化后得：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">(*,6.28,r,T2)</span><br><span class="line">(+,h,r,T3)</span><br><span class="line">(*,T2,T3,s)</span><br><span class="line">(&#x3D;,T4, ,s)</span><br></pre></td></tr></table></figure>
-
-
-
-
-<h4 id="目标代码生成"><a href="#目标代码生成" class="headerlink" title="目标代码生成"></a>目标代码生成</h4><p>主要任务：<strong>将中间代码变换成特定机器上的绝对指令代码</strong>或可重定位的汇编指令代码。主要与硬件系 统结构和指令含义有关。</p>
-]]></content>
-      <categories>
-        <category>编译原理 (Compilers Principles, Techniques, and Tools)</category>
-      </categories>
-      <tags>
-        <tag>Compilers</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hero-NexT写作技巧</title>
     <url>/archives/309a2d82.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/54f27e7fbe3b520.png"></p>
@@ -244,8 +187,65 @@
       </tags>
   </entry>
   <entry>
+    <title>编译原理绪论</title>
+    <url>/archives/8fa1c6be.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/f1f795100276265.Y3JvcCw0MDg1LDMxOTUsMjAyLDY0Nw.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/100276265/Retro-Computers?tracking_source=search_projects_recommended%7Ccomputer">Retro Computers</a> by 
+      <a href="https://www.behance.net/AnnSophieDeSteur">Ann-Sophie De Steur</a>
+    </i>
+  </font>
+</div>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>编译原理旨在介绍编译程序构造的一般原理和基本方法。内容包括语言和文法、词法分析、语法分析、语法制导翻译、中间代码生成、存储管理、代码优化和目标代码生成，本节主要是对这门课有一个整体把握。</p>
+<a id="more"></a>
+
+<h3 id="什么叫编译程序"><a href="#什么叫编译程序" class="headerlink" title="什么叫编译程序"></a>什么叫编译程序</h3><p><strong>编译程序</strong>（编译器），它<strong>读入</strong>用某种语言编写的 源程序，并<strong>翻译</strong>成一个<strong>与之等价</strong>的另一种语言编 写的源程序。</p>
+<h3 id="编译过程概述"><a href="#编译过程概述" class="headerlink" title="编译过程概述"></a>编译过程概述</h3><p>编译程序的工作，从输入源程序开始，到输出目标程序结束，与自然语言之间的翻译有很多相似之处。</p>
+<p>一段英文翻译成中文，需经下列步骤: <strong>I am a experienced teacher.</strong> </p>
+<ul>
+<li>识别出句子中的单词：<strong>词法分析</strong></li>
+<li>分析句子的语法结构：<strong>语法分析</strong></li>
+<li>根据句子的含义进行初步分析：<strong>语义分析及中间代码生成</strong></li>
+<li>对译文进行修饰：<strong>代码优化</strong></li>
+<li>写出最后的译文：<strong>目标代码生成</strong></li>
+</ul>
+<h4 id="词法分析"><a href="#词法分析" class="headerlink" title="词法分析"></a>词法分析</h4><p>计算圆柱体表面积的程序片断如下: </p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">float</span> r，h，s;</span><br><span class="line">s = <span class="number">2</span>*<span class="number">3.1416</span> * r *(r+h);</span><br></pre></td></tr></table></figure>
+<p>上述源程序通过<strong>词法分析</strong>识别出如下单词符号： </p>
+<ul>
+<li>关键字： <code>float</code> </li>
+<li>标识符： <code>r</code>、<code>h</code>、<code>s</code></li>
+<li>常数： 3.1416、2 </li>
+<li>算符： <code>*</code>、<code>+</code> </li>
+<li>界符 ：<code>(</code>、<code>)</code>、<code>;</code>、<code>，</code>、<code>=</code></li>
+</ul>
+<p>词法分析是对构成源程序的<strong>字符串</strong>从左到右进行扫描和分解，根据语言的<strong>词法规则</strong>识别出一个一个具有独立意义的单词（也称<strong>单词符号</strong>, 简称符号）。</p>
+<p><strong>词法规则</strong>是单词符号的形成规则,它规定了哪样的字符串构成一个单词符号。</p>
+<h4 id="语法分析"><a href="#语法分析" class="headerlink" title="语法分析"></a>语法分析</h4><p>语法分析的任务是在词法分析的基础上, 根据语言的<strong>语法规则</strong>从<strong>单词符号串</strong>中识别出各种<strong>语法单位</strong>（如表达式、说明、语句等） ,并进行<strong>语法检查</strong>, 即检查各种语法单位在语法结构上的正确性。</p>
+<p>语言的<strong>语法规则</strong>规定了如何从单词符号形成，<strong>语法规则</strong>是语法单位的形成规则。</p>
+<h4 id="语义分析和中间代码生成"><a href="#语义分析和中间代码生成" class="headerlink" title="语义分析和中间代码生成"></a>语义分析和中间代码生成</h4><p><strong>语义分析</strong>的任务是首先对每种语法单位进行静态的语义审查，然后分析其含义，并用另一种语 言形式 (比源语言更接近于目标语言的一种中间代 码或直接用目标语言 ) 来描述这种语义。</p>
+<h4 id="代码优化"><a href="#代码优化" class="headerlink" title="代码优化"></a>代码优化</h4><p>代码优化的任务是对前阶段产生的中间代码进<strong>等价变换</strong>，以期获得更为<strong>高效即省时间和空间的目标代码</strong>。将$s=2<em>3.1416</em>r*(h+r)$翻译成如下形式的四元式经局部优化后得：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">(*,6.28,r,T2)</span><br><span class="line">(+,h,r,T3)</span><br><span class="line">(*,T2,T3,s)</span><br><span class="line">(&#x3D;,T4, ,s)</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h4 id="目标代码生成"><a href="#目标代码生成" class="headerlink" title="目标代码生成"></a>目标代码生成</h4><p>主要任务：<strong>将中间代码变换成特定机器上的绝对指令代码</strong>或可重定位的汇编指令代码。主要与硬件系 统结构和指令含义有关。</p>
+]]></content>
+      <categories>
+        <category>编译原理 (Compilers Principles, Techniques, and Tools)</category>
+      </categories>
+      <tags>
+        <tag>Compilers</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>中国游戏市场简析</title>
-    <url>/archives/undefined.html</url>
+    <url>/archives/bae9d248.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggxwpu9b5oj311i0p0n12.jpg"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本章内容围绕中国游戏市场简析展开，角度更倾向于内容发展而不是一些渠道平台方面的东西。总体上大概分四个部分讲述，首先简单科普一下中国游戏是怎么来的，之后介绍现存的平台和游戏特征和中国玩家的特征，最后来看看国内的游戏开发商到底是什么样子</p>
 <a id="more"></a>
@@ -619,6 +619,12 @@
 <p>代表厂商有：<code>维塔士</code> （<code>鬼泣</code>）<code>皿鎏</code>（<code>FARCRY5</code>）</p>
 <h4 id="海外厂商国内分公司"><a href="#海外厂商国内分公司" class="headerlink" title="海外厂商国内分公司"></a>海外厂商国内分公司</h4><p>承担总部赋予各种功能的中国分公司。<br>代表厂商有：<code>育碧</code> <code>EA</code> <code>暴雪</code> <code>光荣</code> <code>索尼</code>  </p>
 <h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>中国游戏行业是丰富、复杂的市场，但庞大的用户基数与持续需求，依然展露着中国市场的前景。不断进取的行业从业者，也将中国游戏往全球遍地开花</p>
+<br/>
+
+<center><a class="btn" href="https://github.com/Yousazoe/yousazoe.github.io/raw/master/pdf/GAE1.pdf">
+            <i class="fas fa-download"></i>中国游戏市场简析
+          </a></center>
+
 ]]></content>
       <categories>
         <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
@@ -1619,6 +1625,209 @@
       </tags>
   </entry>
   <entry>
+    <title>射击游戏终极发展史</title>
+    <url>/archives/d521fef0.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/39f21566966371.5b292fe8c58e5.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/66966371/PromaxGames-Sponsor-Titles">PromaxGames Sponsor Titles</a> by 
+      <a href="https://www.behance.net/BlakeFawley">Blake Fawley</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本节来介绍射击游戏的历史。射击游戏对于整个游戏产业的意义在于它的早，1962年全世界第一款游戏就是射击游戏；并且射击游戏营收很高，年收入达到100亿以上规模的游戏绝大多数都是射击类的。不仅如此，射击游戏的意义还在于推动了整个游戏行业的软件、硬件的发展。</p>
+<a id="more"></a>
+
+<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐伟/Mario Hsu</strong></p>
+<ul>
+<li><strong>Tecent Games Evaluation Center</strong></li>
+</ul>
+<h3 id="什么是射击游戏"><a href="#什么是射击游戏" class="headerlink" title="什么是射击游戏"></a>什么是射击游戏</h3><h4 id="What-is-Shooter？"><a href="#What-is-Shooter？" class="headerlink" title="What is Shooter？"></a>What is Shooter？</h4><p>射击游戏是动作游戏的一种，考验玩家的速度和反应能力；同时必须要有一个角色，可以是人或其他东西；而且还要有一个武器可以开火。有了这些我们在游戏里需要做的就是开枪射击。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0003.jpg"></p>
+<ul>
+<li>Speed &amp; Reaction - 速度和反应能力</li>
+<li>Avatar - 角色</li>
+<li>Gun &amp; Ammunition - 武器</li>
+<li>Shoot - 射击</li>
+</ul>
+<h4 id="射击游戏为什么好玩？"><a href="#射击游戏为什么好玩？" class="headerlink" title="射击游戏为什么好玩？"></a>射击游戏为什么好玩？</h4><h5 id="BARTLE’S-PLAYER-TYPES"><a href="#BARTLE’S-PLAYER-TYPES" class="headerlink" title="BARTLE’S PLAYER TYPES"></a>BARTLE’S PLAYER TYPES</h5><p>Bartle模型将玩家分为了四个类别：</p>
+<ul>
+<li>Killer - 杀手型玩家<ul>
+<li>与玩家PK对抗</li>
+</ul>
+</li>
+<li>Achiever - 成就型玩家<ul>
+<li>白金党</li>
+</ul>
+</li>
+<li>Socializer - 社交型玩家<ul>
+<li>网络游戏</li>
+<li>与朋友一起玩</li>
+<li>加入游戏社区</li>
+</ul>
+</li>
+<li>Explorer - 探索型玩家<ul>
+<li>彩蛋</li>
+<li>最速通关方式</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Artboard%201%20part%202.png?width=3307&name=Artboard%201%20part%202.png"></p>
+<h5 id="历史背景"><a href="#历史背景" class="headerlink" title="历史背景"></a>历史背景</h5><ul>
+<li>西进运动</li>
+<li>枪支代表了美国人民的野性、不羁和刚强的开拓精神，跟摇滚乐、汉堡成为了美国主流精神中不可或缺的一个部分</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/800px-American_Progress_(John_Gast_painting).jpg"></p>
+<h3 id="射击游戏的历史"><a href="#射击游戏的历史" class="headerlink" title="射击游戏的历史"></a>射击游戏的历史</h3><p>射击游戏随着历史的演进，它的表现形式和玩法也是不断的进化。在这个过程中产生了三个非常重要的分支：</p>
+<h4 id="SHOOT-EM-UP"><a href="#SHOOT-EM-UP" class="headerlink" title="SHOOT EM UP"></a>SHOOT EM UP</h4><h5 id="Spacewar"><a href="#Spacewar" class="headerlink" title="Spacewar"></a>Spacewar</h5><ul>
+<li>1962</li>
+<li>Steve Russel</li>
+<li>#MIT #DECPDPI</li>
+<li>Gabe Newell ：开始 -&gt; 运行 -&gt; steam://run/480</li>
+</ul>
+<p>世界上第一款射击游戏，1962年由Steve Russel在麻省理工学院在一个阴极射线显示管电脑上开发的。</p>
+<p>游戏的规则非常简单，玩家操纵自己的宇宙飞船，可以控制朝向、发射子弹以及向前推进。但是这个空间它存在引力、加速度和惯性这些设定，所以在射击对方的太空船时应避免碰撞到星球。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0012.jpg"></p>
+<p>感兴趣的话这里有一个小彩蛋，在Windows上点击<code>开始</code> -&gt; <code>运行</code> -&gt; <code>steam://run/480</code>，就可以免费下载到初代的《Spacewar》。</p>
+<h5 id="Space-Invaders"><a href="#Space-Invaders" class="headerlink" title="Space Invaders"></a>Space Invaders</h5><ul>
+<li>1978</li>
+<li>Tomohiro Nishikado</li>
+<li>#Hiscore #8080</li>
+</ul>
+<p>鼎鼎大名的太空侵略者，是1978年由日本开发者Tomohiro Nishikado（西友角宏）开发的一款游戏，游戏率先引入了积分排行榜的概念。</p>
+<p>这款游戏是为8080芯片开发的，后面延伸成为任天堂的红白机以及国内的小霸王所使用的芯片。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0014.jpg"></p>
+<h5 id="简易分类"><a href="#简易分类" class="headerlink" title="简易分类"></a>简易分类</h5><ul>
+<li>fixed shooters 固定视角 - 小蜜蜂</li>
+<li>scrolling shooters 卷轴式 - 铁板阵</li>
+<li>top - down shooters 顶视角/双摇杆</li>
+<li>run and gun 魂斗罗</li>
+<li>rail shooters 轨道式 - 太空哈利</li>
+<li>Is ometric shooters 俯视角</li>
+</ul>
+<h4 id="SHOOT-GALLERY"><a href="#SHOOT-GALLERY" class="headerlink" title="SHOOT GALLERY"></a>SHOOT GALLERY</h4><p>这类游戏我们一般在线下游乐场会比较常见，可以拿一把仿真的塑料手枪然后对应屏幕上瞄准的点进行射击。</p>
+<p>第一人称视角还是有沉浸感的，但它的不足在于你不能操纵里面的角色不能走动，路线是设计好的，你只能沿着预定的路线消灭沿途的敌人，所以游戏自由度还是差了一些。</p>
+<h5 id="Duck-Hunt"><a href="#Duck-Hunt" class="headerlink" title="Duck Hunt"></a>Duck Hunt</h5><ul>
+<li>1984</li>
+<li>Nintendo</li>
+<li>#NES Zapper</li>
+</ul>
+<p>光枪类游戏昙花一现，现在只能沦为商城的配设了。但按照射击游戏的历史发展顺序，我们还是来介绍一款名作《打鸭子》。这是在1984年任天堂为它的红白机光枪专门设计的一款游戏，游戏规则就是打中屏幕中来回飞行的鸭子，你的猎犬会非常高兴。</p>
+<p>有趣的是如果把子弹打光或速度太慢了，这只狗会嘲笑你，表情也很气人。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/screen-6.jpg?fakeurl=1&type=.jpg"></p>
+<h4 id="FPS-TPS"><a href="#FPS-TPS" class="headerlink" title="FPS/TPS"></a>FPS/TPS</h4><p>历史来到了90年代，视频游戏产业蓬勃发展，有越来越多的行业先驱们开始尝试把游戏从2D走向3D化，这也成为了主视角射击游戏诞生的契机。</p>
+<h5 id="SLOT1"><a href="#SLOT1" class="headerlink" title="SLOT1"></a>SLOT1</h5><h6 id="Wolfenstein-3D"><a href="#Wolfenstein-3D" class="headerlink" title="Wolfenstein 3D"></a>Wolfenstein 3D</h6><ul>
+<li>1992</li>
+<li>id software</li>
+<li>#First</li>
+</ul>
+<p>世界上第一款真正的FPS游戏：《德军总部3D》，它是1992年id software研发的，是公认的FPS第一款游戏。游戏虽然还使用了这种2D的美术资源，但它已经做出了3D体验的雏形。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/latest.png"></p>
+<h6 id="Doom"><a href="#Doom" class="headerlink" title="Doom"></a>Doom</h6><ul>
+<li>1993</li>
+<li>id software</li>
+<li>#Blood &amp; Gore</li>
+</ul>
+<p>在1993年这家工作室又开发了《毁灭战士》系列，与1996年《雷神之锤》成为三大镇山之宝，这三款游戏奠定了90年代FPS游戏 <strong>简单、粗暴、爽快</strong> 的特征。</p>
+<p>工作室创始人也是业界的一个传奇，他在大学时觉得大学教的东西理论太枯燥，就跟教授说要么给他项目做要么退学，后面就真的退学了，之后创建了id software开始制作FPS游戏。同时他也是VR眼镜Oculus的创始人。</p>
+<h6 id="Quake"><a href="#Quake" class="headerlink" title="Quake"></a>Quake</h6><ul>
+<li>1996</li>
+<li>id software</li>
+<li>#Blood &amp; Gore</li>
+</ul>
+<p>这三款游戏除了《Quake》其余两部还在不断推出续作。《Doom》的画面虽然得到很大的进化，还是不忘初心保持了最初的爽快：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0022.jpg"></p>
+<h5 id="SLOT2"><a href="#SLOT2" class="headerlink" title="SLOT2"></a>SLOT2</h5><p>我们时间上来到1998年，诞生了三大FPS系列：</p>
+<ul>
+<li><strong>Rainbow six   Half life   Unreal</strong></li>
+<li>1998</li>
+<li>Ubisoft   Vaule   Epic Games</li>
+<li>#Tactical   #Multiplayer   #UE</li>
+</ul>
+<h6 id="Rainbow-six"><a href="#Rainbow-six" class="headerlink" title="Rainbow six"></a>Rainbow six</h6><p>《彩虹六号》是由育碧开发的战术射击游戏。这个不同于刚才《Doom》呈现出来的大肆杀戮，这种战术类的游戏需要大家去细心规划潜入的路线，悄无声息的解决目标。它的伤害设定也非常真实，如果被打一枪基本上就结束了。</p>
+<p>这个系列的最新作是《彩虹六号：围攻》，在steam上玩家也非常多，里面的进攻和防守方式都很有创造性，感兴趣的可以去了解一下。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Rainbow-Six-23.jpg"></p>
+<h6 id="Half-life"><a href="#Half-life" class="headerlink" title="Half life"></a>Half life</h6><p>同年推出的《半条命》也非常的有名，开发商是Valve（也是steam平台的运营商）。这款游戏它的意义在于它的Mod特别厉害，包括反恐精英也是它的Mod。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/halflife_alyx_11a.jpg"></p>
+<h6 id="Unreal"><a href="#Unreal" class="headerlink" title="Unreal"></a>Unreal</h6><p>虚幻为了展示自己的游戏引擎制作的游戏，包括PUBG也是虚幻引擎构建的，去年推出了第五代引擎的概念视频，画面效果非常好。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/UE5.jpg"></p>
+<h5 id="SLOT3"><a href="#SLOT3" class="headerlink" title="SLOT3"></a>SLOT3</h5><p>这时FPS多人对战如日中天，但是还是有开发者没有忘记去创造更好的单人体验。</p>
+<h6 id="Medal-of-honor"><a href="#Medal-of-honor" class="headerlink" title="Medal of honor"></a>Medal of honor</h6><ul>
+<li>1999</li>
+<li>Dreamworks</li>
+<li>#WW2</li>
+</ul>
+<p>《荣誉勋章》是1999年由Dreamworks这个工作室以二次世界大战为蓝本开发的一款游戏。虽然这个系列没有走太远，但从这个团队走出来的人缔造出两个最伟大的FPS系列，其中之一就是《战地》。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/medal-of-honor-above-and-beyond-3.jpg"></p>
+<h6 id="Battlefield-1942"><a href="#Battlefield-1942" class="headerlink" title="Battlefield 1942"></a>Battlefield 1942</h6><ul>
+<li>2002</li>
+<li>DICE</li>
+<li>#WW2</li>
+</ul>
+<p>Dreamworks和微软合作成立了DICE，所有的《战地》都是它开发的。到目前为止该系列已经销售超过8500万套，营收接近43亿美金。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/01Yc0h4LvUUtMUftqHRZm2g-3..1569472407.jpg"></p>
+<h6 id="Halo"><a href="#Halo" class="headerlink" title="Halo"></a>Halo</h6><ul>
+<li>2001</li>
+<li>Bungie</li>
+<li>#Sci-Fi</li>
+</ul>
+<p>写实和战争外当然少不了科幻，代表作就是《光环》。这款游戏你除了可以打外星人还有一个很有趣的东西是可以捡外星人的武器，在其他FPS游戏中是很少见的。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/6c42c91d-5a78-429f-b444-e862cdb8681c.jpg?n=Halo-MCC-2019_Multi-Feature-1084_Halo-Reach_1920x720.jpg"></p>
+<h5 id="SLOT4"><a href="#SLOT4" class="headerlink" title="SLOT4"></a>SLOT4</h5><h6 id="Call-of-duty"><a href="#Call-of-duty" class="headerlink" title="Call of duty"></a>Call of duty</h6><ul>
+<li>2003</li>
+<li>Infinity Ward</li>
+<li>#Epic Story</li>
+</ul>
+<p>《使命召唤》最大的特点是玩家不再是孤零零出任务，而是拥有战友和队友共同浴血沙场。从人情感角度它更深刻刻画了战争的残酷还有人之间的友谊以及荣耀的时刻。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/mw-home-pillar-mp.jpg"></p>
+<h5 id="SLOT5"><a href="#SLOT5" class="headerlink" title="SLOT5"></a>SLOT5</h5><p>虽然射击游戏这时已经百花齐放了，但同质性也越来越严重直到《孤岛惊魂》的出现打破这个局面。育碧开发这一款带有开放世界要素的射击游戏，这个设定打破了之前线性通关的方式，自由度非常的高。</p>
+<ul>
+<li><strong>Left 4 dead   Borderlands</strong></li>
+<li>2008   2009</li>
+<li>Value   Gearbox</li>
+<li>#Survival   #RPG</li>
+</ul>
+<p>把多人合作再提升一个台阶的是《无主之地》，它在2009年由Gearbox开发。玩家除了可以打枪战外还可以体验刷刷刷的乐趣。</p>
+<h5 id="SLOT6"><a href="#SLOT6" class="headerlink" title="SLOT6"></a>SLOT6</h5><ul>
+<li><strong>Titan Fall   Destiny</strong></li>
+<li>2014   2014</li>
+<li>Respawn   Bungie</li>
+<li>#Mech   #MMO</li>
+</ul>
+<h6 id="Titan-Fall"><a href="#Titan-Fall" class="headerlink" title="Titan Fall"></a>Titan Fall</h6><p>这时《泰坦天降》这款游戏诞生了，在2014年由Respawn工作室开发的一款机甲对战游戏，给了玩家能操纵的机器人的能力。这个游戏里面有很多不同的机甲：敏捷型、坦克型、输出型、狙击型等等，可以在里面体验强大的压迫感。</p>
+<h6 id="Destiny"><a href="#Destiny" class="headerlink" title="Destiny"></a>Destiny</h6><p>除了在题材上进行创新，也有在社交方面别出心裁的《命运》，次世代的画面配上网游般的气氛，也有精彩的BOSS战。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/destinations_5_tangled_shore.jpg"></p>
+<h5 id="SLOT7"><a href="#SLOT7" class="headerlink" title="SLOT7"></a>SLOT7</h5><ul>
+<li><strong>Overwatch   PUBG   Fortnite   Apex</strong></li>
+<li>2016   2017   2018   2019</li>
+<li>Blizzard   Bluehole   Epic Games   Respawn</li>
+<li>#MOBA   #Battle Royal</li>
+</ul>
+<h6 id="overwatch"><a href="#overwatch" class="headerlink" title="overwatch"></a>overwatch</h6><p>近两年在《魔兽世界》大获成功后暴雪立项“泰坦”，7年研发时间让项目赶不上时代忍痛割爱取消。后来有一个小团队用这个遗产创造出了《守望先锋》，将FPS与MOBA的玩法进行融合，是一个里程碑式的作品。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/5e9e5e93269479.5e6031c7e3314.png"></p>
+<h6 id="PUBG"><a href="#PUBG" class="headerlink" title="PUBG"></a>PUBG</h6><p>在2017年生存类游戏在steam上非常火，H1Z1这种硬核生存游戏玩家非常喜欢。那个时候借着日本电影《大逃杀》的灵感韩国蓝洞在虚幻4引擎上打造了一个全新Battle Royal的游戏，也就是我们熟悉的吃鸡。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/PUBG-mobile-1.jpg"></p>
+<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><blockquote>
+<p><strong><em>Mario Hsu : “ Next generation starts when you say so! “</em></strong></p>
+</blockquote>
+<br/>
+
+<center><a class="btn" href="https://github.com/Yousazoe/yousazoe.github.io/raw/master/pdf/GAE14.pdf">
+            <i class="fas fa-download"></i>射击游戏终极发展史
+          </a></center>
+
+]]></content>
+      <categories>
+        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>FPS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>游戏分析方法</title>
     <url>/archives/f40ec98b.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggxxkrdi94j312w0ihn3n.jpg"></p>
@@ -1639,7 +1848,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#x65;&#x6e;&#120;&#117;&#64;&#116;&#101;&#x6e;&#99;&#101;&#x6e;&#x74;&#46;&#x63;&#x6f;&#x6d;">&#x6c;&#x65;&#x65;&#x6e;&#120;&#117;&#64;&#116;&#101;&#x6e;&#99;&#101;&#x6e;&#x74;&#46;&#x63;&#x6f;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#101;&#110;&#120;&#117;&#64;&#116;&#101;&#x6e;&#99;&#101;&#110;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#x6c;&#x65;&#101;&#110;&#120;&#117;&#64;&#116;&#101;&#x6e;&#99;&#101;&#110;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -1898,212 +2107,10 @@
 <li><code>战神</code></li>
 </ul>
 </blockquote>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/dafortin">David Fortin</a>
-    </i>
-  </font>
-</div>]]></content>
-      <categories>
-        <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>射击游戏终极发展史</title>
-    <url>/archives/d521fef0.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/39f21566966371.5b292fe8c58e5.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/66966371/PromaxGames-Sponsor-Titles">PromaxGames Sponsor Titles</a> by 
-      <a href="https://www.behance.net/BlakeFawley">Blake Fawley</a>
-    </i>
-  </font>
-</div>
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本节来介绍射击游戏的历史。射击游戏对于整个游戏产业的意义在于它的早，1962年全世界第一款游戏就是射击游戏；并且射击游戏营收很高，年收入达到100亿以上规模的游戏绝大多数都是射击类的。不仅如此，射击游戏的意义还在于推动了整个游戏行业的软件、硬件的发展。</p>
-<a id="more"></a>
-
-<h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐伟/Mario Hsu</strong></p>
-<ul>
-<li><strong>Tecent Games Evaluation Center</strong></li>
-</ul>
-<h3 id="什么是射击游戏"><a href="#什么是射击游戏" class="headerlink" title="什么是射击游戏"></a>什么是射击游戏</h3><h4 id="What-is-Shooter？"><a href="#What-is-Shooter？" class="headerlink" title="What is Shooter？"></a>What is Shooter？</h4><p>射击游戏是动作游戏的一种，考验玩家的速度和反应能力；同时必须要有一个角色，可以是人或其他东西；而且还要有一个武器可以开火。有了这些我们在游戏里需要做的就是开枪射击。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0003.jpg"></p>
-<ul>
-<li>Speed &amp; Reaction - 速度和反应能力</li>
-<li>Avatar - 角色</li>
-<li>Gun &amp; Ammunition - 武器</li>
-<li>Shoot - 射击</li>
-</ul>
-<h4 id="射击游戏为什么好玩？"><a href="#射击游戏为什么好玩？" class="headerlink" title="射击游戏为什么好玩？"></a>射击游戏为什么好玩？</h4><h5 id="BARTLE’S-PLAYER-TYPES"><a href="#BARTLE’S-PLAYER-TYPES" class="headerlink" title="BARTLE’S PLAYER TYPES"></a>BARTLE’S PLAYER TYPES</h5><p>Bartle模型将玩家分为了四个类别：</p>
-<ul>
-<li>Killer - 杀手型玩家<ul>
-<li>与玩家PK对抗</li>
-</ul>
-</li>
-<li>Achiever - 成就型玩家<ul>
-<li>白金党</li>
-</ul>
-</li>
-<li>Socializer - 社交型玩家<ul>
-<li>网络游戏</li>
-<li>与朋友一起玩</li>
-<li>加入游戏社区</li>
-</ul>
-</li>
-<li>Explorer - 探索型玩家<ul>
-<li>彩蛋</li>
-<li>最速通关方式</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Artboard%201%20part%202.png?width=3307&name=Artboard%201%20part%202.png"></p>
-<h5 id="历史背景"><a href="#历史背景" class="headerlink" title="历史背景"></a>历史背景</h5><ul>
-<li>西进运动</li>
-<li>枪支代表了美国人民的野性、不羁和刚强的开拓精神，跟摇滚乐、汉堡成为了美国主流精神中不可或缺的一个部分</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/800px-American_Progress_(John_Gast_painting).jpg"></p>
-<h3 id="射击游戏的历史"><a href="#射击游戏的历史" class="headerlink" title="射击游戏的历史"></a>射击游戏的历史</h3><p>射击游戏随着历史的演进，它的表现形式和玩法也是不断的进化。在这个过程中产生了三个非常重要的分支：</p>
-<h4 id="SHOOT-EM-UP"><a href="#SHOOT-EM-UP" class="headerlink" title="SHOOT EM UP"></a>SHOOT EM UP</h4><h5 id="Spacewar"><a href="#Spacewar" class="headerlink" title="Spacewar"></a>Spacewar</h5><ul>
-<li>1962</li>
-<li>Steve Russel</li>
-<li>#MIT #DECPDPI</li>
-<li>Gabe Newell ：开始 -&gt; 运行 -&gt; steam://run/480</li>
-</ul>
-<p>世界上第一款射击游戏，1962年由Steve Russel在麻省理工学院在一个阴极射线显示管电脑上开发的。</p>
-<p>游戏的规则非常简单，玩家操纵自己的宇宙飞船，可以控制朝向、发射子弹以及向前推进。但是这个空间它存在引力、加速度和惯性这些设定，所以在射击对方的太空船时应避免碰撞到星球。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0012.jpg"></p>
-<p>感兴趣的话这里有一个小彩蛋，在Windows上点击<code>开始</code> -&gt; <code>运行</code> -&gt; <code>steam://run/480</code>，就可以免费下载到初代的《Spacewar》。</p>
-<h5 id="Space-Invaders"><a href="#Space-Invaders" class="headerlink" title="Space Invaders"></a>Space Invaders</h5><ul>
-<li>1978</li>
-<li>Tomohiro Nishikado</li>
-<li>#Hiscore #8080</li>
-</ul>
-<p>鼎鼎大名的太空侵略者，是1978年由日本开发者Tomohiro Nishikado（西友角宏）开发的一款游戏，游戏率先引入了积分排行榜的概念。</p>
-<p>这款游戏是为8080芯片开发的，后面延伸成为任天堂的红白机以及国内的小霸王所使用的芯片。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0014.jpg"></p>
-<h5 id="简易分类"><a href="#简易分类" class="headerlink" title="简易分类"></a>简易分类</h5><ul>
-<li>fixed shooters 固定视角 - 小蜜蜂</li>
-<li>scrolling shooters 卷轴式 - 铁板阵</li>
-<li>top - down shooters 顶视角/双摇杆</li>
-<li>run and gun 魂斗罗</li>
-<li>rail shooters 轨道式 - 太空哈利</li>
-<li>Is ometric shooters 俯视角</li>
-</ul>
-<h4 id="SHOOT-GALLERY"><a href="#SHOOT-GALLERY" class="headerlink" title="SHOOT GALLERY"></a>SHOOT GALLERY</h4><p>这类游戏我们一般在线下游乐场会比较常见，可以拿一把仿真的塑料手枪然后对应屏幕上瞄准的点进行射击。</p>
-<p>第一人称视角还是有沉浸感的，但它的不足在于你不能操纵里面的角色不能走动，路线是设计好的，你只能沿着预定的路线消灭沿途的敌人，所以游戏自由度还是差了一些。</p>
-<h5 id="Duck-Hunt"><a href="#Duck-Hunt" class="headerlink" title="Duck Hunt"></a>Duck Hunt</h5><ul>
-<li>1984</li>
-<li>Nintendo</li>
-<li>#NES Zapper</li>
-</ul>
-<p>光枪类游戏昙花一现，现在只能沦为商城的配设了。但按照射击游戏的历史发展顺序，我们还是来介绍一款名作《打鸭子》。这是在1984年任天堂为它的红白机光枪专门设计的一款游戏，游戏规则就是打中屏幕中来回飞行的鸭子，你的猎犬会非常高兴。</p>
-<p>有趣的是如果把子弹打光或速度太慢了，这只狗会嘲笑你，表情也很气人。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/screen-6.jpg?fakeurl=1&type=.jpg"></p>
-<h4 id="FPS-TPS"><a href="#FPS-TPS" class="headerlink" title="FPS/TPS"></a>FPS/TPS</h4><p>历史来到了90年代，视频游戏产业蓬勃发展，有越来越多的行业先驱们开始尝试把游戏从2D走向3D化，这也成为了主视角射击游戏诞生的契机。</p>
-<h5 id="SLOT1"><a href="#SLOT1" class="headerlink" title="SLOT1"></a>SLOT1</h5><h6 id="Wolfenstein-3D"><a href="#Wolfenstein-3D" class="headerlink" title="Wolfenstein 3D"></a>Wolfenstein 3D</h6><ul>
-<li>1992</li>
-<li>id software</li>
-<li>#First</li>
-</ul>
-<p>世界上第一款真正的FPS游戏：《德军总部3D》，它是1992年id software研发的，是公认的FPS第一款游戏。游戏虽然还使用了这种2D的美术资源，但它已经做出了3D体验的雏形。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/latest.png"></p>
-<h6 id="Doom"><a href="#Doom" class="headerlink" title="Doom"></a>Doom</h6><ul>
-<li>1993</li>
-<li>id software</li>
-<li>#Blood &amp; Gore</li>
-</ul>
-<p>在1993年这家工作室又开发了《毁灭战士》系列，与1996年《雷神之锤》成为三大镇山之宝，这三款游戏奠定了90年代FPS游戏 <strong>简单、粗暴、爽快</strong> 的特征。</p>
-<p>工作室创始人也是业界的一个传奇，他在大学时觉得大学教的东西理论太枯燥，就跟教授说要么给他项目做要么退学，后面就真的退学了，之后创建了id software开始制作FPS游戏。同时他也是VR眼镜Oculus的创始人。</p>
-<h6 id="Quake"><a href="#Quake" class="headerlink" title="Quake"></a>Quake</h6><ul>
-<li>1996</li>
-<li>id software</li>
-<li>#Blood &amp; Gore</li>
-</ul>
-<p>这三款游戏除了《Quake》其余两部还在不断推出续作。《Doom》的画面虽然得到很大的进化，还是不忘初心保持了最初的爽快：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0022.jpg"></p>
-<h5 id="SLOT2"><a href="#SLOT2" class="headerlink" title="SLOT2"></a>SLOT2</h5><p>我们时间上来到1998年，诞生了三大FPS系列：</p>
-<ul>
-<li><strong>Rainbow six   Half life   Unreal</strong></li>
-<li>1998</li>
-<li>Ubisoft   Vaule   Epic Games</li>
-<li>#Tactical   #Multiplayer   #UE</li>
-</ul>
-<h6 id="Rainbow-six"><a href="#Rainbow-six" class="headerlink" title="Rainbow six"></a>Rainbow six</h6><p>《彩虹六号》是由育碧开发的战术射击游戏。这个不同于刚才《Doom》呈现出来的大肆杀戮，这种战术类的游戏需要大家去细心规划潜入的路线，悄无声息的解决目标。它的伤害设定也非常真实，如果被打一枪基本上就结束了。</p>
-<p>这个系列的最新作是《彩虹六号：围攻》，在steam上玩家也非常多，里面的进攻和防守方式都很有创造性，感兴趣的可以去了解一下。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Rainbow-Six-23.jpg"></p>
-<h6 id="Half-life"><a href="#Half-life" class="headerlink" title="Half life"></a>Half life</h6><p>同年推出的《半条命》也非常的有名，开发商是Valve（也是steam平台的运营商）。这款游戏它的意义在于它的Mod特别厉害，包括反恐精英也是它的Mod。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/halflife_alyx_11a.jpg"></p>
-<h6 id="Unreal"><a href="#Unreal" class="headerlink" title="Unreal"></a>Unreal</h6><p>虚幻为了展示自己的游戏引擎制作的游戏，包括PUBG也是虚幻引擎构建的，去年推出了第五代引擎的概念视频，画面效果非常好。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/UE5.jpg"></p>
-<h5 id="SLOT3"><a href="#SLOT3" class="headerlink" title="SLOT3"></a>SLOT3</h5><p>这时FPS多人对战如日中天，但是还是有开发者没有忘记去创造更好的单人体验。</p>
-<h6 id="Medal-of-honor"><a href="#Medal-of-honor" class="headerlink" title="Medal of honor"></a>Medal of honor</h6><ul>
-<li>1999</li>
-<li>Dreamworks</li>
-<li>#WW2</li>
-</ul>
-<p>《荣誉勋章》是1999年由Dreamworks这个工作室以二次世界大战为蓝本开发的一款游戏。虽然这个系列没有走太远，但从这个团队走出来的人缔造出两个最伟大的FPS系列，其中之一就是《战地》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/medal-of-honor-above-and-beyond-3.jpg"></p>
-<h6 id="Battlefield-1942"><a href="#Battlefield-1942" class="headerlink" title="Battlefield 1942"></a>Battlefield 1942</h6><ul>
-<li>2002</li>
-<li>DICE</li>
-<li>#WW2</li>
-</ul>
-<p>Dreamworks和微软合作成立了DICE，所有的《战地》都是它开发的。到目前为止该系列已经销售超过8500万套，营收接近43亿美金。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/01Yc0h4LvUUtMUftqHRZm2g-3..1569472407.jpg"></p>
-<h6 id="Halo"><a href="#Halo" class="headerlink" title="Halo"></a>Halo</h6><ul>
-<li>2001</li>
-<li>Bungie</li>
-<li>#Sci-Fi</li>
-</ul>
-<p>写实和战争外当然少不了科幻，代表作就是《光环》。这款游戏你除了可以打外星人还有一个很有趣的东西是可以捡外星人的武器，在其他FPS游戏中是很少见的。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/6c42c91d-5a78-429f-b444-e862cdb8681c.jpg?n=Halo-MCC-2019_Multi-Feature-1084_Halo-Reach_1920x720.jpg"></p>
-<h5 id="SLOT4"><a href="#SLOT4" class="headerlink" title="SLOT4"></a>SLOT4</h5><h6 id="Call-of-duty"><a href="#Call-of-duty" class="headerlink" title="Call of duty"></a>Call of duty</h6><ul>
-<li>2003</li>
-<li>Infinity Ward</li>
-<li>#Epic Story</li>
-</ul>
-<p>《使命召唤》最大的特点是玩家不再是孤零零出任务，而是拥有战友和队友共同浴血沙场。从人情感角度它更深刻刻画了战争的残酷还有人之间的友谊以及荣耀的时刻。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/mw-home-pillar-mp.jpg"></p>
-<h5 id="SLOT5"><a href="#SLOT5" class="headerlink" title="SLOT5"></a>SLOT5</h5><p>虽然射击游戏这时已经百花齐放了，但同质性也越来越严重直到《孤岛惊魂》的出现打破这个局面。育碧开发这一款带有开放世界要素的射击游戏，这个设定打破了之前线性通关的方式，自由度非常的高。</p>
-<ul>
-<li><strong>Left 4 dead   Borderlands</strong></li>
-<li>2008   2009</li>
-<li>Value   Gearbox</li>
-<li>#Survival   #RPG</li>
-</ul>
-<p>把多人合作再提升一个台阶的是《无主之地》，它在2009年由Gearbox开发。玩家除了可以打枪战外还可以体验刷刷刷的乐趣。</p>
-<h5 id="SLOT6"><a href="#SLOT6" class="headerlink" title="SLOT6"></a>SLOT6</h5><ul>
-<li><strong>Titan Fall   Destiny</strong></li>
-<li>2014   2014</li>
-<li>Respawn   Bungie</li>
-<li>#Mech   #MMO</li>
-</ul>
-<h6 id="Titan-Fall"><a href="#Titan-Fall" class="headerlink" title="Titan Fall"></a>Titan Fall</h6><p>这时《泰坦天降》这款游戏诞生了，在2014年由Respawn工作室开发的一款机甲对战游戏，给了玩家能操纵的机器人的能力。这个游戏里面有很多不同的机甲：敏捷型、坦克型、输出型、狙击型等等，可以在里面体验强大的压迫感。</p>
-<h6 id="Destiny"><a href="#Destiny" class="headerlink" title="Destiny"></a>Destiny</h6><p>除了在题材上进行创新，也有在社交方面别出心裁的《命运》，次世代的画面配上网游般的气氛，也有精彩的BOSS战。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/destinations_5_tangled_shore.jpg"></p>
-<h5 id="SLOT7"><a href="#SLOT7" class="headerlink" title="SLOT7"></a>SLOT7</h5><ul>
-<li><strong>Overwatch   PUBG   Fortnite   Apex</strong></li>
-<li>2016   2017   2018   2019</li>
-<li>Blizzard   Bluehole   Epic Games   Respawn</li>
-<li>#MOBA   #Battle Royal</li>
-</ul>
-<h6 id="overwatch"><a href="#overwatch" class="headerlink" title="overwatch"></a>overwatch</h6><p>近两年在《魔兽世界》大获成功后暴雪立项“泰坦”，7年研发时间让项目赶不上时代忍痛割爱取消。后来有一个小团队用这个遗产创造出了《守望先锋》，将FPS与MOBA的玩法进行融合，是一个里程碑式的作品。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/5e9e5e93269479.5e6031c7e3314.png"></p>
-<h6 id="PUBG"><a href="#PUBG" class="headerlink" title="PUBG"></a>PUBG</h6><p>在2017年生存类游戏在steam上非常火，H1Z1这种硬核生存游戏玩家非常喜欢。那个时候借着日本电影《大逃杀》的灵感韩国蓝洞在虚幻4引擎上打造了一个全新Battle Royal的游戏，也就是我们熟悉的吃鸡。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/PUBG-mobile-1.jpg"></p>
-<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><blockquote>
-<p><strong><em>Mario Hsu : “ Next generation starts when you say so! “</em></strong></p>
-</blockquote>
 <br/>
 
-<center><a class="btn" href="https://github.com/Yousazoe/yousazoe.github.io/raw/master/pdf/GAE14.pdf">
-            <i class="fas fa-download"></i>射击游戏终极发展史
+<center><a class="btn" href="https://github.com/Yousazoe/yousazoe.github.io/raw/master/pdf/GAE2.pdf">
+            <i class="fas fa-download"></i>游戏分析方法
           </a></center>
 
 ]]></content>
@@ -2112,7 +2119,6 @@
       </categories>
       <tags>
         <tag>Game</tag>
-        <tag>FPS</tag>
       </tags>
   </entry>
   <entry>
@@ -2313,10 +2319,16 @@
 <p><strong>追赶机制</strong> 简单来说就是 <em>给予劣势玩家一定程度的帮助</em> ，让其可以合理利用该系统的奖励保持竞争力</p>
 <blockquote>
 <ul>
-<li><strong>DOTA自走棋</strong> ，连败也会有奖励</li>
-<li><strong>魔兽争霸3</strong>，有人口和维护费的限制</li>
-<li><strong>全面战争</strong>，称帝之后会有外交惩罚，<strong>将军</strong> 那代会有包围网的系统</li>
-<li>类比现实中的通货膨胀或者边际效应</li>
+<li><center><a class="btn" href="https://github.com/Yousazoe/yousazoe.github.io/raw/master/pdf/GAE4.pdf">
+            <i class="fas fa-download"></i>MMORPG的发展与简析
+          </a></center>
+</li>
+<li><p><strong>魔兽争霸3</strong>，有人口和维护费的限制</p>
+</li>
+<li><p><strong>全面战争</strong>，称帝之后会有外交惩罚，<strong>将军</strong> 那代会有包围网的系统</p>
+</li>
+<li><p>类比现实中的通货膨胀或者边际效应</p>
+</li>
 </ul>
 </blockquote>
 <p>平衡性</p>
@@ -2407,6 +2419,12 @@
 <h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><blockquote>
 <p>  &emsp;&emsp;如同绘画、电影等其它艺术的形式，游戏同样也是 <strong>理解、看待世界</strong> 的一扇窗，是 <strong>一种不同的视角</strong>。<br>  而策略游戏，是带有 <strong>全局观念</strong>，从 <strong>俯瞰</strong> 角度看待世界的一种体验。<br>  &emsp;&emsp;</p>
 </blockquote>
+<br/>
+
+<center><a class="btn" href="https://github.com/Yousazoe/yousazoe.github.io/raw/master/pdf/GAE3.pdf">
+            <i class="fas fa-download"></i>策略游戏如何成为时间杀手
+          </a></center>
+
 ]]></content>
       <categories>
         <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
@@ -2610,14 +2628,18 @@
 <li>端游和手游MMO仍有比较大的发展前景</li>
 <li>未来MMORPG在玩法层面突破机会较大，高自由度、沙盒化的玩法可能是未来MMORPG爆发的方向</li>
 </ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gh07sc7c5sj30xc08cmzg.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-     <a href="https://www.behance.net/harveydentmustdie">Milos Kostic</a>
-    </i>
-  </font>
-</div>
+<br/>
+
+<center><a class="btn" href="https://github.com/Yousazoe/yousazoe.github.io/raw/master/pdf/GAE4.pdf">
+            <i class="fas fa-download"></i>MMORPG的发展与简析
+          </a></center>
+
+
+
+
+
+
+
 
 ]]></content>
       <categories>
@@ -2797,14 +2819,14 @@
 <blockquote>
 <p><em>你还记得从前那段 &emsp; 我们最初的模样吗</em><br><em>每天啃着一个苹果 &emsp; 一天一天地变胖</em><br><em>感慨着时光地流逝 &emsp; 偶尔用一些小伎俩</em><br><em>试着做一些小突破 &emsp; 我们整个过往经历</em><br><em>就像一顿丰盛晚餐 &emsp; 不需要去计算时间</em><br><em>仅仅用冰块和白水 &emsp; 就能调制出鸡尾酒</em><br><strong><em>只要你和我在一起 &emsp; 我不会希望快一些</em></strong><br><strong><em>我也不会一无所知 &emsp; 你就是我这生命中</em></strong><br><strong><em>&emsp;&emsp;&emsp;&emsp;&emsp;最美好的一个存在</em></strong><br>&emsp;</p>
 </blockquote>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/nigelgoh">Nigel Goh</a><br/>
-      <a href="https://www.pixiv.net/users/13036943">こむぎこ</a>
-    </i>
-  </font>
-</div>
+<br/>
+
+<center><a class="btn" href="https://github.com/Yousazoe/yousazoe.github.io/raw/master/pdf/GAE5.pdf">
+            <i class="fas fa-download"></i>分析聚焦情感而设计的游戏品类
+          </a></center>
+
+
+
 
 ]]></content>
       <categories>
@@ -3012,7 +3034,9 @@
 <td align="center">7</td>
 <td align="center">孤岛惊魂5</td>
 <td align="center">射击</td>
-<td align="center">Ubisoft</td>
+<td align="center"><center><a class="btn" href="https://github.com/Yousazoe/yousazoe.github.io/raw/master/pdf/GAE5.pdf">
+            <i class="fas fa-download"></i>分析聚焦情感而设计的游戏品类
+          </a></center></td>
 </tr>
 <tr>
 <td align="center">8</td>
@@ -3323,14 +3347,16 @@
 </ul>
 </li>
 </ul>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/chsoares">Carlos Soares</a><br/>
-      <a href="https://www.behance.net/angelo_fernandes">Ângelo Fernandes</a>
-    </i>
-  </font>
-</div>
+<br/>
+
+<center><a class="btn" href="https://github.com/Yousazoe/yousazoe.github.io/raw/master/pdf/GAE6.pdf">
+            <i class="fas fa-download"></i>美国游戏市场简析
+          </a></center>
+
+
+
+
+
 
 ]]></content>
       <categories>
@@ -3588,13 +3614,13 @@
 </ul>
 <h3 id="游戏推荐"><a href="#游戏推荐" class="headerlink" title="游戏推荐"></a>游戏推荐</h3><p><strong>《Cuphead》（茶杯头）</strong><br>        - 2017年发售<br>        - 2017 TGA最佳美术指导、最佳独立游戏</p>
 <p><strong>《Celeste》（蔚蓝）</strong><br>        - 2018年发售<br>        - 2018 TGA最佳独立游戏</p>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/pegazord">Michał Sawtyruk</a>
-    </i>
-  </font>
-</div>]]></content>
+<br/>
+
+<center><a class="btn" href="https://github.com/Yousazoe/yousazoe.github.io/raw/master/pdf/GAE7.pdf">
+            <i class="fas fa-download"></i>图形技术&动作游戏发展
+          </a></center>
+
+]]></content>
       <categories>
         <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
       </categories>
@@ -3716,6 +3742,12 @@
 <h3 id="8-5-格斗游戏的魅力"><a href="#8-5-格斗游戏的魅力" class="headerlink" title="8.5 格斗游戏的魅力"></a>8.5 格斗游戏的魅力</h3><blockquote>
 <p><em>“ Fight Games is……something so GREAT! “</em></p>
 </blockquote>
+<br/>
+
+<center><a class="btn" href="https://github.com/Yousazoe/yousazoe.github.io/raw/master/pdf/GAE8.pdf">
+            <i class="fas fa-download"></i>浅谈格斗游戏
+          </a></center>
+
 ]]></content>
       <categories>
         <category>游戏分析与测评 (Game Analysis and Evaluation)</category>
@@ -5257,6 +5289,109 @@
       </tags>
   </entry>
   <entry>
+    <title>此时此刻，你充满了决心-Undertale</title>
+    <url>/archives/795e3081.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggm00ecrbej30rs0iwhdt.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.pixiv.net/artworks/73392117">Undertale01</a> by 
+      <a href="https://www.pixiv.net/users/38310320">ア</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《Undertale》中，玩家作为一名掉入地下世界的孩子游历整个地下世界，最终重返地面。在此过程中你可以选择战斗，亦或是宽恕，这些选择会影响游戏后面的对话、人物、故事和结局。请做出自己的选择，开始一段属于自己的地下冒险。</p>
+<a id="more"></a>
+
+<p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/391540/header.jpg?t=1579096091">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256655616/movie480.webm?t=1447377566" type="video/mp4">       </video></p>
+<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="传说"><a href="#传说" class="headerlink" title="传说"></a>传说</h4><blockquote>
+<p>“很久以前，地球由人类和怪物统治着。</p>
+<p>有一天，两个种族之间爆发了战争。</p>
+<p>最终人类赢得了胜利，</p>
+<p>他们用一道魔法将怪物封印在了地底。</p>
+<p>很多年过去了，</p>
+<p>爬上那座山的人类再也没有回来过。”</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggnfdbifemj30p00gota4.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.pixiv.net/artworks/76906572">UNDERTALE</a> by 
+      <a href="https://www.pixiv.net/users/15302050">の々</a>
+    </i>
+  </font>
+</div>
+
+
+<h4 id="遗迹"><a href="#遗迹" class="headerlink" title="遗迹"></a>遗迹</h4><h4 id="雪镇"><a href="#雪镇" class="headerlink" title="雪镇"></a>雪镇</h4><h4 id="瀑布"><a href="#瀑布" class="headerlink" title="瀑布"></a>瀑布</h4><h4 id="热域"><a href="#热域" class="headerlink" title="热域"></a>热域</h4><h4 id="普通线"><a href="#普通线" class="headerlink" title="普通线"></a>普通线</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggojl1g7bcj30u018c7wh.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.pixiv.net/artworks/56643509">传说之下：希望与梦想</a> by 
+      <a href="https://www.pixiv.net/users/3119788">Sa-Dui</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+
+
+
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggoj85lwb2j30sg0lcjtc.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.pixiv.net/artworks/69667899">UT LOG #2</a> by 
+      <a href="https://www.pixiv.net/users/5395865">七菌</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+
+<h4 id="和平线"><a href="#和平线" class="headerlink" title="和平线"></a>和平线</h4><p>真实实验室</p>
+<h4 id="屠杀线"><a href="#屠杀线" class="headerlink" title="屠杀线"></a>屠杀线</h4><h4 id="审判长廊"><a href="#审判长廊" class="headerlink" title="审判长廊"></a>审判长廊</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggoixmq020j31xk0rv4qt.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.pixiv.net/artworks/60019952">Undertale LOG</a> by 
+      <a href="https://www.pixiv.net/users/17053035">イツオリ</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggnezykuhmj30hs0dcweo.jpg"></p>
+<div align=center><font size="3">
+  <i> Acknowledgement <br/> 
+  <a href="https://www.pixiv.net/users/38310320">ア</a><br/>
+  <a href="https://www.pixiv.net/users/15302050">の々</a><br/>
+  <a href="https://www.pixiv.net/users/5395865">七菌</a><br/>
+  <a href="https://www.pixiv.net/users/17053035">イツオリ</a><br/>
+  <a href="https://www.pixiv.net/users/3119788">Sa-Dui</a>  
+  </i>
+</font></div>
+
+
+]]></content>
+      <categories>
+        <category>游戏追踪 (Game Tracker)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>RPG</tag>
+        <tag>INDIE</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>为什么要要登山？因为那里有山-Celeste</title>
     <url>/archives/75f72eb2.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9kpgb76dj31400p0q6v.jpg"></p>
@@ -5376,109 +5511,6 @@
       <tags>
         <tag>Celeste</tag>
         <tag>Game</tag>
-        <tag>INDIE</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>此时此刻，你充满了决心-Undertale</title>
-    <url>/archives/795e3081.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggm00ecrbej30rs0iwhdt.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.pixiv.net/artworks/73392117">Undertale01</a> by 
-      <a href="https://www.pixiv.net/users/38310320">ア</a>
-    </i>
-  </font>
-</div>
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>《Undertale》中，玩家作为一名掉入地下世界的孩子游历整个地下世界，最终重返地面。在此过程中你可以选择战斗，亦或是宽恕，这些选择会影响游戏后面的对话、人物、故事和结局。请做出自己的选择，开始一段属于自己的地下冒险。</p>
-<a id="more"></a>
-
-<p><video id="video" controls="" preload="none" poster="https://steamcdn-a.akamaihd.net/steam/apps/391540/header.jpg?t=1579096091">       <source id="mp4" src="https://steamcdn-a.akamaihd.net/steam/apps/256655616/movie480.webm?t=1447377566" type="video/mp4">       </video></p>
-<h3 id="游戏体验"><a href="#游戏体验" class="headerlink" title="游戏体验"></a>游戏体验</h3><h4 id="传说"><a href="#传说" class="headerlink" title="传说"></a>传说</h4><blockquote>
-<p>“很久以前，地球由人类和怪物统治着。</p>
-<p>有一天，两个种族之间爆发了战争。</p>
-<p>最终人类赢得了胜利，</p>
-<p>他们用一道魔法将怪物封印在了地底。</p>
-<p>很多年过去了，</p>
-<p>爬上那座山的人类再也没有回来过。”</p>
-</blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggnfdbifemj30p00gota4.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.pixiv.net/artworks/76906572">UNDERTALE</a> by 
-      <a href="https://www.pixiv.net/users/15302050">の々</a>
-    </i>
-  </font>
-</div>
-
-
-<h4 id="遗迹"><a href="#遗迹" class="headerlink" title="遗迹"></a>遗迹</h4><h4 id="雪镇"><a href="#雪镇" class="headerlink" title="雪镇"></a>雪镇</h4><h4 id="瀑布"><a href="#瀑布" class="headerlink" title="瀑布"></a>瀑布</h4><h4 id="热域"><a href="#热域" class="headerlink" title="热域"></a>热域</h4><h4 id="普通线"><a href="#普通线" class="headerlink" title="普通线"></a>普通线</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggojl1g7bcj30u018c7wh.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.pixiv.net/artworks/56643509">传说之下：希望与梦想</a> by 
-      <a href="https://www.pixiv.net/users/3119788">Sa-Dui</a>
-    </i>
-  </font>
-</div>
-
-
-
-
-
-
-
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggoj85lwb2j30sg0lcjtc.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.pixiv.net/artworks/69667899">UT LOG #2</a> by 
-      <a href="https://www.pixiv.net/users/5395865">七菌</a>
-    </i>
-  </font>
-</div>
-
-
-
-
-
-<h4 id="和平线"><a href="#和平线" class="headerlink" title="和平线"></a>和平线</h4><p>真实实验室</p>
-<h4 id="屠杀线"><a href="#屠杀线" class="headerlink" title="屠杀线"></a>屠杀线</h4><h4 id="审判长廊"><a href="#审判长廊" class="headerlink" title="审判长廊"></a>审判长廊</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggoixmq020j31xk0rv4qt.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.pixiv.net/artworks/60019952">Undertale LOG</a> by 
-      <a href="https://www.pixiv.net/users/17053035">イツオリ</a>
-    </i>
-  </font>
-</div>
-
-
-
-
-
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggnezykuhmj30hs0dcweo.jpg"></p>
-<div align=center><font size="3">
-  <i> Acknowledgement <br/> 
-  <a href="https://www.pixiv.net/users/38310320">ア</a><br/>
-  <a href="https://www.pixiv.net/users/15302050">の々</a><br/>
-  <a href="https://www.pixiv.net/users/5395865">七菌</a><br/>
-  <a href="https://www.pixiv.net/users/17053035">イツオリ</a><br/>
-  <a href="https://www.pixiv.net/users/3119788">Sa-Dui</a>  
-  </i>
-</font></div>
-
-
-]]></content>
-      <categories>
-        <category>游戏追踪 (Game Tracker)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>RPG</tag>
         <tag>INDIE</tag>
       </tags>
   </entry>
@@ -5851,98 +5883,6 @@
       </tags>
   </entry>
   <entry>
-    <title>手机是怎么知道你的位置的</title>
-    <url>/archives/a03a749.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkcy9nokcuj30u00w9hag.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/105968903/Space-Economics-Illustrations-Resources-Magazine?tracking_source=search_projects_recommended%7Csatellite">Space Economics Illustrations / Resources Magazine</a> by 
-      <a href="https://www.behance.net/jamesrdesign">James Round</a>
-    </i>
-  </font>
-</div>
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
-<a id="more"></a>
-
-
-
-<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>今天不管大家走到哪里，拿出手机可以告诉自己走到哪里、走了多快。给自己定位这样一件事是整个人类历史上持续在问的一个问题。我们中国发明了四大发明之一的指南针，可以更方便的进行定位，而在今天我们有全球定位系统，并通过经纬度来表示自己的坐标。</p>
-<h3 id="全球定位系统：2-TO-4"><a href="#全球定位系统：2-TO-4" class="headerlink" title="全球定位系统：2 TO 4"></a>全球定位系统：2 TO 4</h3><p><em>GPS（Global Positioning System）</em></p>
-<ul>
-<li><p><strong>美国的GPS</strong></p>
-<p>GPS一共6条轨道，每条轨道4颗卫星，一共24颗卫星。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkdgum5vcqj30fi0ahmxm.jpg"></p>
-</li>
-<li><p><strong>苏联的GLONASS</strong></p>
-<p>GLONASS一共3条轨道，每条轨道8颗卫星，一共24颗卫星。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkdgwdsot0j30cv08xac9.jpg"></p>
-</li>
-<li><p><strong>欧盟的伽利略</strong></p>
-</li>
-<li><p><strong>中国的北斗</strong></p>
-</li>
-</ul>
-<h3 id="模型的构建与求解"><a href="#模型的构建与求解" class="headerlink" title="模型的构建与求解"></a>模型的构建与求解</h3><p>当我们遇到问题的时候，我们不要追求一个模型解决所有的问题。建模的共性在于在最初的阶段能否用非常简单的模型去讨论最简单基本的情形。</p>
-<h4 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h4><p>我们身处地球给自己的空间位置定位，除了地球表面基本的经度和纬度外，还有海拔高度。一个全球定位系统实现了全球覆盖之后，无论在地球的哪个位置，在头顶上能接收到信号的卫星大约在<strong>6～10颗</strong>左右。这些卫星在固定的频率上发送的信息有：<strong>发出信号的时刻、卫星的位置坐标</strong>。</p>
-<p>而我们接收了这些卫星的信号，怎么通过卫星的位置知道自己的位置呢？虽然自己的坐标是未知的，但是我们知道从卫星的位置走到自己的位置的距离如何去表达：</p>
-<blockquote>
-<p>$distance^2=(x-x_0)^2+(y-y_0)^2+(z-z_0)^2$ 其中 $x_0、y_0、z_0$ 为卫星坐标</p>
-</blockquote>
-<p>而距离我们可不可以算出来呢？可以，因为我们还有时间：电磁波是以光速传播到设备的，乘上时间便可以求出距离。以距离为桥梁，我们将两边联系在了一起：</p>
-<blockquote>
-<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=distance^2=[(t-t_0) \cdot c]^2$</p>
-<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=[(t-t_0) \cdot c]^2$</p>
-</blockquote>
-<h4 id="基本模型"><a href="#基本模型" class="headerlink" title="基本模型"></a>基本模型</h4><p>每有一颗卫星，就有一组方程； 使用者能接收几颗卫星，就有几组下面这样的信号量：</p>
-<blockquote>
-<p>$(x-3)^2+(y-2)^2+(z-3)^2-[(10010.00692286-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-3)^2+(z-1)^2-[(10013.34256381-t)\cdot c]^2=0$</p>
-<p>$(x-5)^2+(y-7)^2+(z-4)^2-[(10016.67820476-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-6)^2+(z-3)^2-[(10020.01384571-t)\cdot c]^2=0$</p>
-<p>$(x-7)^2+(y-6)^2+(z-7)^2-[(10023.34948666-t)\cdot c]^2=0$</p>
-<p>$(x-1)^2+(y-4)^2+(z-9)^2-[(10030.02076857-t)\cdot c]^2=0$</p>
-</blockquote>
-<p>这样就列出了一个四元二次方程组，很容易求解。</p>
-<h4 id="求解原理"><a href="#求解原理" class="headerlink" title="求解原理"></a>求解原理</h4><p>四元二次方程组消掉高次项以后变成一个线性方程组：</p>
-<blockquote>
-<p>$\begin{bmatrix} 4 &amp; -4 &amp; -12 &amp; 3.59751 \\ 0 &amp; -2 &amp; -16 &amp; 2.99792 \\ 8 &amp; 6 &amp; -10 &amp; 2.39834 \\ 0 &amp; 6 &amp; -12 &amp; 1.79875 \\ 12 &amp; 4 &amp; -4 &amp; 1.19917 \end{bmatrix}\begin{bmatrix} x \\ y \\ z \\ t\end{bmatrix}=\begin{bmatrix}35971.1 \\ 29957.2 \\ 24031.4 \\ 17993.5 \\ 12059.7 \end{bmatrix}$</p>
-</blockquote>
-<p>如此简单的问题甚至不需要很大的计算机，一个计算器就可以算出来。全球定位系统看着一个很高大上的东西，其实它最基本的、最反映它本质的一个数学模型是非常简单的，当然这个模型并不能很好的解决现实问题，但确实是能体现出全球定位系统最核心的思想的模型。</p>
-<p>这样的模型直接投入使用空间上会有几十米量级的误差，不能满足我们日常的大部分需求，我们需要进一步改进。但正是这样简单的模型，在时间上通过卫星授时误差能达到毫秒量级。</p>
-<h3 id="模型的分析"><a href="#模型的分析" class="headerlink" title="模型的分析"></a>模型的分析</h3><h4 id="卫星时钟"><a href="#卫星时钟" class="headerlink" title="卫星时钟"></a>卫星时钟</h4><p>全球定位系统的使用者可以不知道自己的时间，但卫星上的时间必须要非常准确的，所以地面会有一个原子钟为卫星授时并校准。之前也提到过，$[(t-t_0) \cdot c]^2$ 因为有光速这样大量级的存在，时间上的微小误差会被放大到很大，从而影响到方程本身的求解。也就是说，<strong>时间的同步性</strong>是非常重要的。</p>
-<h4 id="轨道误差"><a href="#轨道误差" class="headerlink" title="轨道误差"></a>轨道误差</h4><p>卫星总体来讲会绕着地球不断地自转，但转的每一次都多多少少会有一些误差。而卫星发送的数据包是根据自己的轨道位置所计算得到的，但轨道本身是按预定轨道计算，其中自转过程未必严格按预定轨道执行从而产生空间信息的偏差。</p>
-<h4 id="电磁波延迟"><a href="#电磁波延迟" class="headerlink" title="电磁波延迟"></a>电磁波延迟</h4><p>发送电磁波穿过电离层和大气层会有延迟，在时间方面产生误差。</p>
-<h4 id="接收机噪声"><a href="#接收机噪声" class="headerlink" title="接收机噪声"></a>接收机噪声</h4><p>GPS接收机本身有噪声，设备之间也会有显著的区别。</p>
-<p>首先考虑一个方程的简单情况，观察空间位置对时间误差的敏感程度：$f_1=(x-3)^2-[(T_1+t_1)\cdot c]^2=0$敏感程度可以由导数来刻画，具体来讲是$x$ 关于 $t$ 的这个函数求导。考虑4个方程的情况：</p>
-<blockquote>
-<p>$f_1=(x-3)^2+(y-2)^2+(z-3)^2-[(T_1+t_1-t)\cdot c]^2=0$</p>
-<p>$f_2=(x-1)^2+(y-3)^2+(z-1)^2-[(T_2+t_2-t)\cdot c]^2=0$</p>
-<p>$f_3=(x-5)^2+(y-7)^2+(z-4)^2-[(T_3+t_3-t)\cdot c]^2=0$</p>
-<p>$f_4=(x-1)^2+(y-7)^2+(z-3)^2-[(T_4+t_4-t)\cdot c]^2=0$</p>
-</blockquote>
-<h3 id="问题的解决"><a href="#问题的解决" class="headerlink" title="问题的解决"></a>问题的解决</h3><p><strong>基本模型：</strong>可行，但达不到应用的要求（时间的精度、空间位置的精度）</p>
-<p><strong>科学问题到工程问题：</strong>科学原理可行到工程实现，需要技术方面的支持，而数学建模则更多的关注科学原理上可行性的问题</p>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/jamesrdesign">James Round</a>
-    </i>
-  </font>
-</div>]]></content>
-      <categories>
-        <category>数学建模 (Mathematical Modeling)</category>
-      </categories>
-      <tags>
-        <tag>Math</tag>
-        <tag>Mooc</tag>
-        <tag>Mathematical Modeling</tag>
-        <tag>GPS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>火箭为什么是三级</title>
     <url>/archives/6ddbab03.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkxbjaai90j30u00u0npe.jpg"></p>
@@ -6262,62 +6202,95 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#2</title>
-    <url>/archives/90b77012.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zhhvzmzj31hc0u0434.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解像素绘画的流程，逐渐完善直到达到满意的效果。</p>
+    <title>手机是怎么知道你的位置的</title>
+    <url>/archives/a03a749.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkcy9nokcuj30u00w9hag.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/105968903/Space-Economics-Illustrations-Resources-Magazine?tracking_source=search_projects_recommended%7Csatellite">Space Economics Illustrations / Resources Magazine</a> by 
+      <a href="https://www.behance.net/jamesrdesign">James Round</a>
+    </i>
+  </font>
+</div>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文着眼于现实生活中的定位问题，介绍全球定位系统GPS（<a href="https://www.gps.gov/">The Global Positioning System</a>）的工作原理，分析卫星定位存在的误差来源。</p>
 <a id="more"></a>
 
 
 
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7imh83j30u008c74z.jpg"></p>
-<p>相关链接：</p>
+<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>今天不管大家走到哪里，拿出手机可以告诉自己走到哪里、走了多快。给自己定位这样一件事是整个人类历史上持续在问的一个问题。我们中国发明了四大发明之一的指南针，可以更方便的进行定位，而在今天我们有全球定位系统，并通过经纬度来表示自己的坐标。</p>
+<h3 id="全球定位系统：2-TO-4"><a href="#全球定位系统：2-TO-4" class="headerlink" title="全球定位系统：2 TO 4"></a>全球定位系统：2 TO 4</h3><p><em>GPS（Global Positioning System）</em></p>
 <ul>
-<li>Pedro Medeiros@Patreon<br><a href="https://www.patreon.com/saint11">https://www.patreon.com/saint11</a></li>
-<li>风农@indienova<br><a href="https://indienova.com/u/fengnong">https://indienova.com/u/fengnong</a></li>
-<li>风农@bilibili 专栏<br><a href="https://www.bilibili.com/read/readlist/rl38114">https://www.bilibili.com/read/readlist/rl38114</a></li>
+<li><p><strong>美国的GPS</strong></p>
+<p>GPS一共6条轨道，每条轨道4颗卫星，一共24颗卫星。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkdgum5vcqj30fi0ahmxm.jpg"></p>
+</li>
+<li><p><strong>苏联的GLONASS</strong></p>
+<p>GLONASS一共3条轨道，每条轨道8颗卫星，一共24颗卫星。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkdgwdsot0j30cv08xac9.jpg"></p>
+</li>
+<li><p><strong>欧盟的伽利略</strong></p>
+</li>
+<li><p><strong>中国的北斗</strong></p>
+</li>
 </ul>
-<p>像素簇草图和绘画。</p>
-<p>系列的第二篇。</p>
-<p>这个教程会使用 Aseprite。这次我会教大家一个很像传统绘画流程的像素画技术。我一般叫它像素簇草图技术，因为我会从大的像素簇画起，再逐渐完善，直到达到我满意的效果。</p>
-<h3 id="什么是像素簇"><a href="#什么是像素簇" class="headerlink" title="什么是像素簇"></a>什么是像素簇</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7kk00zj30ln0axwec.jpg"></p>
-<p>一个簇，或者颜色簇，或者像素簇，就是一组连续的同色像素。对角线连接的像素算不算还有些争论。我认为也算，我把这种叫弱连接，会尽量避免，不过不会太担心这种。</p>
-<p>画像素画的时候，我的重点是尽量少出现像素簇，而且一定避免单像素的簇。这些单像素的也可以叫孤立像素，通常会让画面看起来有很多噪点，很乱。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7ix03cj30ra0e3q2q.jpg"></p>
-<p>有时候你需要把一个孤立像素删除，但有时候你可能还需要这个细节。对于后者，我有一些喜欢的形状可以代替这个孤立像素，就是饼干下面这些绿色形状。不过有些时候它也可以用，像是纹理，抗锯齿（以后的章节会讲），以及一些强细节，比如下面骷髅里的红色眼睛：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7jxpdvj307o07j0nc.jpg"></p>
-<h3 id="开始画"><a href="#开始画" class="headerlink" title="开始画"></a>开始画</h3><p>我们来画点什么。我要画一个小的场景，用 <code>DB32</code> 调色盘，分辨率用 <code>100</code> 乘以 <code>64</code> 像素。对这个练习我推荐用个手绘板，因为自然的线条对结果能有些帮助。</p>
-<p>如果你觉得这个场景有些复杂，可以自己去掉一些东西，比如建筑，或者人。实验新的技术时一定要画自己舒服的东西。如果觉得画布太大，或者太小，就自己改一下尺寸，不过我不建议小于 <code>64</code> 或者大于 <code>128</code>，暂时别。</p>
-<h4 id="第一步：大簇"><a href="#第一步：大簇" class="headerlink" title="第一步：大簇"></a>第一步：大簇</h4><p>上次我们是画了线条，再用颜色填充内部。这次我们直接开始画颜色。大致的画上你想画的东西，重点在选择颜色和氛围。自由的下笔，不要加细节。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7lcj7dj30nj085t8h.jpg"></p>
-<p>这个技术的思路是从大的色块开始，每一步逐渐改小。这是少数可以用 <code>2</code> 或者 <code>3</code> 个像素宽度的画笔的情况。可以按 + 或者 - 来调节笔刷大小。另外一种方式是画出一个簇的轮廓，再用油漆桶填充颜色，快捷键是 G。</p>
-<h4 id="第二步：改良"><a href="#第二步：改良" class="headerlink" title="第二步：改良"></a>第二步：改良</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7ktfnnj30ms0f0web.jpg"></p>
-<p>你可以看出我是从远处开始，像天空和山，然后添加了建筑，再添加了人物剪影。这是一种常见的绘画技巧，对像素画也很适用。这个思路是先准备好基础，再往上面放东西，用这种方法比较容易选择颜色，以及确定物体尺寸。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7lvuf3j30es07dq2t.jpg"></p>
-<p>像这类图我喜欢用图层，把天空，建筑，地面放到不同的图层。要新建图层，可以在时间轴上，右键点击“layer 1”这里，选择新建图层（<code>New Layer</code>）。你可以建任意多的图层，不过我会保持图层尽可能的少，不然会很乱。</p>
-<h4 id="第三步：修正锯齿，添加细节"><a href="#第三步：修正锯齿，添加细节" class="headerlink" title="第三步：修正锯齿，添加细节"></a>第三步：修正锯齿，添加细节</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7m739fj30gi0eba9u.jpg"></p>
-<p>什么算锯齿？好吧，听起来可能很复杂，但其实没有。</p>
-<p>锯齿指的是像素画里不必要的拐角，通常是手自然运动绘画时，缺少抗锯齿的副作用。</p>
-<p>想象你需要修正的边界是个楼梯，每一阶上的像素数量要有逻辑。我们要计算像素数，保证曲线接近于水平时，像素数量是逐渐增加的，当曲线接近垂直时是逐渐减少的。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7jfk5oj308y07f0sh.jpg"></p>
-<p>分解一下，每一条线或者簇的边界都应该遵从一些逻辑。你能看到在我的例子里，一个完美曲线中的各阶的像素数递增再递减。这就是曲线的行为，通常会遵守一些几何比例，以指数递增或者递减。</p>
-<p>锯齿就是这个逻辑里的错误点。是曲线中间突然增加或者减少的地方。数量可以增加或者减少的很快，只要曲线符合逻辑。</p>
-<p>修复的时候，把像素来回移动，让各阶保持一致，或者正确的增加减少。</p>
-<p>现在回到我们的画。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7nr5gej30p609ddfo.jpg"></p>
-<p>这里的思路就是“最后加上些细节”（<a href="https://knowyourmeme.com/photos/572078-how-to-draw-an-owl%EF%BC%89%EF%BC%8C%E4%B8%BB%E8%A6%81%E6%98%AF%E6%89%BE%E5%88%B0%E9%94%AF%E9%BD%BF%EF%BC%8C%E4%B8%80%E4%B8%AA%E4%B8%AA%E7%9A%84%E4%BF%AE%E5%A4%8D%E3%80%82%E5%9C%A8%E8%BF%99%E4%B8%AA%E8%BF%87%E7%A8%8B%E4%B8%AD%E6%88%91%E4%BC%9A%E4%B8%8D%E6%96%AD%E6%B7%BB%E5%8A%A0%E7%BB%86%E8%8A%82%EF%BC%8C%E5%A2%9E%E5%BC%BA%E5%AF%B9%E6%AF%94%EF%BC%8C%E4%BC%98%E5%8C%96%E5%85%89%E7%85%A7%E7%AD%89%E7%AD%89%E3%80%82%E4%B8%8D%E6%98%AF%E5%BE%88%E6%9C%89%E7%BB%84%E7%BB%87%E7%9A%84%E6%B5%81%E7%A8%8B%EF%BC%8C%E4%BD%86%E8%BF%98%E6%98%AF%E8%83%BD%E5%B8%AE%E6%88%91%E7%94%BB%E5%87%BA%E4%B8%80%E5%B9%85%E7%94%BB%E3%80%82">https://knowyourmeme.com/photos/572078-how-to-draw-an-owl），主要是找到锯齿，一个个的修复。在这个过程中我会不断添加细节，增强对比，优化光照等等。不是很有组织的流程，但还是能帮我画出一幅画。</a></p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>练习！如果一整个场景对你来说有些难，就从简单点的开始，像是石头，树墩。这个技术能产出很有机，很油画感的作品，很适合画背景或自然事物，比如植物，水，山。</p>
-]]></content>
+<h3 id="模型的构建与求解"><a href="#模型的构建与求解" class="headerlink" title="模型的构建与求解"></a>模型的构建与求解</h3><p>当我们遇到问题的时候，我们不要追求一个模型解决所有的问题。建模的共性在于在最初的阶段能否用非常简单的模型去讨论最简单基本的情形。</p>
+<h4 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h4><p>我们身处地球给自己的空间位置定位，除了地球表面基本的经度和纬度外，还有海拔高度。一个全球定位系统实现了全球覆盖之后，无论在地球的哪个位置，在头顶上能接收到信号的卫星大约在<strong>6～10颗</strong>左右。这些卫星在固定的频率上发送的信息有：<strong>发出信号的时刻、卫星的位置坐标</strong>。</p>
+<p>而我们接收了这些卫星的信号，怎么通过卫星的位置知道自己的位置呢？虽然自己的坐标是未知的，但是我们知道从卫星的位置走到自己的位置的距离如何去表达：</p>
+<blockquote>
+<p>$distance^2=(x-x_0)^2+(y-y_0)^2+(z-z_0)^2$ 其中 $x_0、y_0、z_0$ 为卫星坐标</p>
+</blockquote>
+<p>而距离我们可不可以算出来呢？可以，因为我们还有时间：电磁波是以光速传播到设备的，乘上时间便可以求出距离。以距离为桥梁，我们将两边联系在了一起：</p>
+<blockquote>
+<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=distance^2=[(t-t_0) \cdot c]^2$</p>
+<p>$(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=[(t-t_0) \cdot c]^2$</p>
+</blockquote>
+<h4 id="基本模型"><a href="#基本模型" class="headerlink" title="基本模型"></a>基本模型</h4><p>每有一颗卫星，就有一组方程； 使用者能接收几颗卫星，就有几组下面这样的信号量：</p>
+<blockquote>
+<p>$(x-3)^2+(y-2)^2+(z-3)^2-[(10010.00692286-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-3)^2+(z-1)^2-[(10013.34256381-t)\cdot c]^2=0$</p>
+<p>$(x-5)^2+(y-7)^2+(z-4)^2-[(10016.67820476-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-6)^2+(z-3)^2-[(10020.01384571-t)\cdot c]^2=0$</p>
+<p>$(x-7)^2+(y-6)^2+(z-7)^2-[(10023.34948666-t)\cdot c]^2=0$</p>
+<p>$(x-1)^2+(y-4)^2+(z-9)^2-[(10030.02076857-t)\cdot c]^2=0$</p>
+</blockquote>
+<p>这样就列出了一个四元二次方程组，很容易求解。</p>
+<h4 id="求解原理"><a href="#求解原理" class="headerlink" title="求解原理"></a>求解原理</h4><p>四元二次方程组消掉高次项以后变成一个线性方程组：</p>
+<blockquote>
+<p>$\begin{bmatrix} 4 &amp; -4 &amp; -12 &amp; 3.59751 \\ 0 &amp; -2 &amp; -16 &amp; 2.99792 \\ 8 &amp; 6 &amp; -10 &amp; 2.39834 \\ 0 &amp; 6 &amp; -12 &amp; 1.79875 \\ 12 &amp; 4 &amp; -4 &amp; 1.19917 \end{bmatrix}\begin{bmatrix} x \\ y \\ z \\ t\end{bmatrix}=\begin{bmatrix}35971.1 \\ 29957.2 \\ 24031.4 \\ 17993.5 \\ 12059.7 \end{bmatrix}$</p>
+</blockquote>
+<p>如此简单的问题甚至不需要很大的计算机，一个计算器就可以算出来。全球定位系统看着一个很高大上的东西，其实它最基本的、最反映它本质的一个数学模型是非常简单的，当然这个模型并不能很好的解决现实问题，但确实是能体现出全球定位系统最核心的思想的模型。</p>
+<p>这样的模型直接投入使用空间上会有几十米量级的误差，不能满足我们日常的大部分需求，我们需要进一步改进。但正是这样简单的模型，在时间上通过卫星授时误差能达到毫秒量级。</p>
+<h3 id="模型的分析"><a href="#模型的分析" class="headerlink" title="模型的分析"></a>模型的分析</h3><h4 id="卫星时钟"><a href="#卫星时钟" class="headerlink" title="卫星时钟"></a>卫星时钟</h4><p>全球定位系统的使用者可以不知道自己的时间，但卫星上的时间必须要非常准确的，所以地面会有一个原子钟为卫星授时并校准。之前也提到过，$[(t-t_0) \cdot c]^2$ 因为有光速这样大量级的存在，时间上的微小误差会被放大到很大，从而影响到方程本身的求解。也就是说，<strong>时间的同步性</strong>是非常重要的。</p>
+<h4 id="轨道误差"><a href="#轨道误差" class="headerlink" title="轨道误差"></a>轨道误差</h4><p>卫星总体来讲会绕着地球不断地自转，但转的每一次都多多少少会有一些误差。而卫星发送的数据包是根据自己的轨道位置所计算得到的，但轨道本身是按预定轨道计算，其中自转过程未必严格按预定轨道执行从而产生空间信息的偏差。</p>
+<h4 id="电磁波延迟"><a href="#电磁波延迟" class="headerlink" title="电磁波延迟"></a>电磁波延迟</h4><p>发送电磁波穿过电离层和大气层会有延迟，在时间方面产生误差。</p>
+<h4 id="接收机噪声"><a href="#接收机噪声" class="headerlink" title="接收机噪声"></a>接收机噪声</h4><p>GPS接收机本身有噪声，设备之间也会有显著的区别。</p>
+<p>首先考虑一个方程的简单情况，观察空间位置对时间误差的敏感程度：$f_1=(x-3)^2-[(T_1+t_1)\cdot c]^2=0$敏感程度可以由导数来刻画，具体来讲是$x$ 关于 $t$ 的这个函数求导。考虑4个方程的情况：</p>
+<blockquote>
+<p>$f_1=(x-3)^2+(y-2)^2+(z-3)^2-[(T_1+t_1-t)\cdot c]^2=0$</p>
+<p>$f_2=(x-1)^2+(y-3)^2+(z-1)^2-[(T_2+t_2-t)\cdot c]^2=0$</p>
+<p>$f_3=(x-5)^2+(y-7)^2+(z-4)^2-[(T_3+t_3-t)\cdot c]^2=0$</p>
+<p>$f_4=(x-1)^2+(y-7)^2+(z-3)^2-[(T_4+t_4-t)\cdot c]^2=0$</p>
+</blockquote>
+<h3 id="问题的解决"><a href="#问题的解决" class="headerlink" title="问题的解决"></a>问题的解决</h3><p><strong>基本模型：</strong>可行，但达不到应用的要求（时间的精度、空间位置的精度）</p>
+<p><strong>科学问题到工程问题：</strong>科学原理可行到工程实现，需要技术方面的支持，而数学建模则更多的关注科学原理上可行性的问题</p>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/jamesrdesign">James Round</a>
+    </i>
+  </font>
+</div>]]></content>
       <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
+        <category>数学建模 (Mathematical Modeling)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
+        <tag>Math</tag>
+        <tag>Mooc</tag>
+        <tag>Mathematical Modeling</tag>
+        <tag>GPS</tag>
       </tags>
   </entry>
   <entry>
@@ -6374,6 +6347,65 @@
 <p>接下来我建议多试试时间轴，试着画点别的动画。你可以看看我其他的教程，选个感兴趣的跟着画画。</p>
 <p>另外也可以试试经典的初学者练习，画一个面粉袋走和跳的动画：<br><a href="https://www.youtube.com/watch?v=C8cbTGshkZw%E3%80%82">https://www.youtube.com/watch?v=C8cbTGshkZw。</a></p>
 <p>暂时保持低一点的分辨率和颜色数，不要太复杂了。</p>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开始画像素画#2</title>
+    <url>/archives/90b77012.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zhhvzmzj31hc0u0434.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文会讲解像素绘画的流程，逐渐完善直到达到满意的效果。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7imh83j30u008c74z.jpg"></p>
+<p>相关链接：</p>
+<ul>
+<li>Pedro Medeiros@Patreon<br><a href="https://www.patreon.com/saint11">https://www.patreon.com/saint11</a></li>
+<li>风农@indienova<br><a href="https://indienova.com/u/fengnong">https://indienova.com/u/fengnong</a></li>
+<li>风农@bilibili 专栏<br><a href="https://www.bilibili.com/read/readlist/rl38114">https://www.bilibili.com/read/readlist/rl38114</a></li>
+</ul>
+<p>像素簇草图和绘画。</p>
+<p>系列的第二篇。</p>
+<p>这个教程会使用 Aseprite。这次我会教大家一个很像传统绘画流程的像素画技术。我一般叫它像素簇草图技术，因为我会从大的像素簇画起，再逐渐完善，直到达到我满意的效果。</p>
+<h3 id="什么是像素簇"><a href="#什么是像素簇" class="headerlink" title="什么是像素簇"></a>什么是像素簇</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7kk00zj30ln0axwec.jpg"></p>
+<p>一个簇，或者颜色簇，或者像素簇，就是一组连续的同色像素。对角线连接的像素算不算还有些争论。我认为也算，我把这种叫弱连接，会尽量避免，不过不会太担心这种。</p>
+<p>画像素画的时候，我的重点是尽量少出现像素簇，而且一定避免单像素的簇。这些单像素的也可以叫孤立像素，通常会让画面看起来有很多噪点，很乱。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7ix03cj30ra0e3q2q.jpg"></p>
+<p>有时候你需要把一个孤立像素删除，但有时候你可能还需要这个细节。对于后者，我有一些喜欢的形状可以代替这个孤立像素，就是饼干下面这些绿色形状。不过有些时候它也可以用，像是纹理，抗锯齿（以后的章节会讲），以及一些强细节，比如下面骷髅里的红色眼睛：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7jxpdvj307o07j0nc.jpg"></p>
+<h3 id="开始画"><a href="#开始画" class="headerlink" title="开始画"></a>开始画</h3><p>我们来画点什么。我要画一个小的场景，用 <code>DB32</code> 调色盘，分辨率用 <code>100</code> 乘以 <code>64</code> 像素。对这个练习我推荐用个手绘板，因为自然的线条对结果能有些帮助。</p>
+<p>如果你觉得这个场景有些复杂，可以自己去掉一些东西，比如建筑，或者人。实验新的技术时一定要画自己舒服的东西。如果觉得画布太大，或者太小，就自己改一下尺寸，不过我不建议小于 <code>64</code> 或者大于 <code>128</code>，暂时别。</p>
+<h4 id="第一步：大簇"><a href="#第一步：大簇" class="headerlink" title="第一步：大簇"></a>第一步：大簇</h4><p>上次我们是画了线条，再用颜色填充内部。这次我们直接开始画颜色。大致的画上你想画的东西，重点在选择颜色和氛围。自由的下笔，不要加细节。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7lcj7dj30nj085t8h.jpg"></p>
+<p>这个技术的思路是从大的色块开始，每一步逐渐改小。这是少数可以用 <code>2</code> 或者 <code>3</code> 个像素宽度的画笔的情况。可以按 + 或者 - 来调节笔刷大小。另外一种方式是画出一个簇的轮廓，再用油漆桶填充颜色，快捷键是 G。</p>
+<h4 id="第二步：改良"><a href="#第二步：改良" class="headerlink" title="第二步：改良"></a>第二步：改良</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7ktfnnj30ms0f0web.jpg"></p>
+<p>你可以看出我是从远处开始，像天空和山，然后添加了建筑，再添加了人物剪影。这是一种常见的绘画技巧，对像素画也很适用。这个思路是先准备好基础，再往上面放东西，用这种方法比较容易选择颜色，以及确定物体尺寸。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7lvuf3j30es07dq2t.jpg"></p>
+<p>像这类图我喜欢用图层，把天空，建筑，地面放到不同的图层。要新建图层，可以在时间轴上，右键点击“layer 1”这里，选择新建图层（<code>New Layer</code>）。你可以建任意多的图层，不过我会保持图层尽可能的少，不然会很乱。</p>
+<h4 id="第三步：修正锯齿，添加细节"><a href="#第三步：修正锯齿，添加细节" class="headerlink" title="第三步：修正锯齿，添加细节"></a>第三步：修正锯齿，添加细节</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7m739fj30gi0eba9u.jpg"></p>
+<p>什么算锯齿？好吧，听起来可能很复杂，但其实没有。</p>
+<p>锯齿指的是像素画里不必要的拐角，通常是手自然运动绘画时，缺少抗锯齿的副作用。</p>
+<p>想象你需要修正的边界是个楼梯，每一阶上的像素数量要有逻辑。我们要计算像素数，保证曲线接近于水平时，像素数量是逐渐增加的，当曲线接近垂直时是逐渐减少的。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7jfk5oj308y07f0sh.jpg"></p>
+<p>分解一下，每一条线或者簇的边界都应该遵从一些逻辑。你能看到在我的例子里，一个完美曲线中的各阶的像素数递增再递减。这就是曲线的行为，通常会遵守一些几何比例，以指数递增或者递减。</p>
+<p>锯齿就是这个逻辑里的错误点。是曲线中间突然增加或者减少的地方。数量可以增加或者减少的很快，只要曲线符合逻辑。</p>
+<p>修复的时候，把像素来回移动，让各阶保持一致，或者正确的增加减少。</p>
+<p>现在回到我们的画。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhu7nr5gej30p609ddfo.jpg"></p>
+<p>这里的思路就是“最后加上些细节”（<a href="https://knowyourmeme.com/photos/572078-how-to-draw-an-owl%EF%BC%89%EF%BC%8C%E4%B8%BB%E8%A6%81%E6%98%AF%E6%89%BE%E5%88%B0%E9%94%AF%E9%BD%BF%EF%BC%8C%E4%B8%80%E4%B8%AA%E4%B8%AA%E7%9A%84%E4%BF%AE%E5%A4%8D%E3%80%82%E5%9C%A8%E8%BF%99%E4%B8%AA%E8%BF%87%E7%A8%8B%E4%B8%AD%E6%88%91%E4%BC%9A%E4%B8%8D%E6%96%AD%E6%B7%BB%E5%8A%A0%E7%BB%86%E8%8A%82%EF%BC%8C%E5%A2%9E%E5%BC%BA%E5%AF%B9%E6%AF%94%EF%BC%8C%E4%BC%98%E5%8C%96%E5%85%89%E7%85%A7%E7%AD%89%E7%AD%89%E3%80%82%E4%B8%8D%E6%98%AF%E5%BE%88%E6%9C%89%E7%BB%84%E7%BB%87%E7%9A%84%E6%B5%81%E7%A8%8B%EF%BC%8C%E4%BD%86%E8%BF%98%E6%98%AF%E8%83%BD%E5%B8%AE%E6%88%91%E7%94%BB%E5%87%BA%E4%B8%80%E5%B9%85%E7%94%BB%E3%80%82">https://knowyourmeme.com/photos/572078-how-to-draw-an-owl），主要是找到锯齿，一个个的修复。在这个过程中我会不断添加细节，增强对比，优化光照等等。不是很有组织的流程，但还是能帮我画出一幅画。</a></p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>练习！如果一整个场景对你来说有些难，就从简单点的开始，像是石头，树墩。这个技术能产出很有机，很油画感的作品，很适合画背景或自然事物，比如植物，水，山。</p>
 ]]></content>
       <categories>
         <category>开始画像素画 (Making Pixel Art)</category>
@@ -6521,80 +6553,6 @@
 <h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p>现在我建议你去实际的试试我这里讲的东西。你可以先从简单的 <code>2-1</code> 黑色斜坡开始，再试试圆圈。保持低颜色数，画布不要超过 <code>48</code> 乘 <code>48</code>。</p>
 <p>在这之后，你可以试试更多颜色，真实的画些东西。还是从简单的开始，像是球体，苹果，之后再到复杂的形状，比如人。</p>
 <p>总是注意画面里画出的色带，或者可以改进的抗锯齿。记住每个像素都是个抉择，每个像素都应该让你的画更好，画的更可读。如果抗锯齿带来的效果弊大于利，就去掉它。</p>
-]]></content>
-      <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开始画像素画#7</title>
-    <url>/archives/7559aa07.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zm7aw4aj31hc0u0jv1.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
-<a id="more"></a>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8bd0hfj30u008c74z.jpg"></p>
-<p>系列第 7 篇。</p>
-<h3 id="什么是线条"><a href="#什么是线条" class="headerlink" title="什么是线条"></a>什么是线条</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv89ju74j30ei0d812e.jpg"></p>
-<p>线条是艺术领域最重要的工具之一。他们可以用来强调形状，对比。现实世界里我们看不到线条，但他们能帮助我们分隔空间，创造纹理，表现体积和方向。</p>
-<p>在像素美术中，屏幕上的空间非常受限。每个像素都很重要，绘制线条就变得很昂贵。因此，如果你在画非常低像素作品，不推荐使用线条。即使有一些富裕的空间，还是要谨慎的使用线条，试着不使用线条去完成。最少化线条的使用，是保持像素画整洁的好办法。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640.png"></p>
-<p>不必要的线可以用阴影或者高对比区域代替。将线条与暗影部分融合能让画面显得更统一，自然。</p>
-<h3 id="不必要的拐角"><a href="#不必要的拐角" class="headerlink" title="不必要的拐角"></a>不必要的拐角</h3><p>之前简单的解释过（第一节），这里再进一步讲一下。</p>
-<p>这种不必要的拐角，通常出现在手绘线条时。你可以手工去清理，也可以打开铅笔工具的“像素完美”（<code>pixel perfect</code>）功能来避免这些。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88tzipj309w05c741.jpg"></p>
-<p>这个算法在画单像素线条时非常有用，不过不总是完美的，你还是应该知道如何手工去清理。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8cjbhrj30a205p0jc.jpg"></p>
-<p>查找模式很简单：每当你看到一个拐角（<code>3</code> 或 <code>4</code> 个像素组成的方形），思考一下这里是否应当是个拐角。如果这部分不是拐角，就去掉一个像素让他更圆。</p>
-<p>注意这跟锯齿是不同的，我在之前的章节（第二节）解释过锯齿，以及如何处理他们。修复拐角可能会创造出很多锯齿，所以通常这会是个多步过程：<code>绘制</code> &gt; <code>修复拐角</code> &gt; <code>修复锯齿</code>。</p>
-<h3 id="方形线"><a href="#方形线" class="headerlink" title="方形线"></a>方形线</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102237778.png"></p>
-<p>单像素线条问题还有一种更风格化的解决办法。你可以到处加拐角，而不是尝试去移除他们。听起来没道理，但确实是种风格化的选择，很有趣，适合高度风格化的作品，因为它模拟了一种更粗的线条。</p>
-<p>处理过程基本一样，只是你需要找到每个对角链接的像素，把它变方，而不是去删掉拐角。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8a5yvaj309w05m0i1.jpg"></p>
-<p>注意这样做也会产生很多锯齿，别忘了处理他们。</p>
-<h3 id="Colored-lines-有色线条"><a href="#Colored-lines-有色线条" class="headerlink" title="Colored lines 有色线条"></a>Colored lines 有色线条</h3><p>有些时候，尤其是在较低分辨率，线条会吸引过多的注意。有个弱化这种效果的方法是，给线条添加临近颜色的深色版本。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102250162.png"></p>
-<p>过程很简单，回顾每条你画的线条，试着修改成临近颜色的深色版本。当你这么做之后，所选的颜色会让相应的区域显得变大了，所以线条的位置可能需要调整。有时候你可能不确定选哪个临近的颜色，有时候可能很容易确定。当你不确定的时候，就选更深的颜色。</p>
-<p>我依然喜欢保留最外层的黑色描边，看分辨率合适的话我甚至会加倍这个外层描边。但这只是我个人的选择，你可以自己考虑。</p>
-<h3 id="线条草图"><a href="#线条草图" class="headerlink" title="线条草图"></a>线条草图</h3><p>之前我们学过像素簇草图的画法，这次来试点别的。这种方法很适合于画角色以及画动画帧，因为画起来很快，而且聚焦于形状，而不是光和色（像像素簇草图那样）。</p>
-<p>我们来做个实际案例学习，把这节提到的都应用上。如果你想要跟着做，建议新建 64*64 分辨率的画布，用 AAP-64 调色板。</p>
-<p><strong>Step 1  — 草图</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv87ygl3j30fh078mwx.jpg"></p>
-<p>第一步先忽略各种像素画的规则，尽可能流畅的勾勒出形状。基本上跟在纸上或者其他数字化的，非像素的媒介一样。不要过多考虑之后如何清理线条。完成后可以稍作整理，去除明显的标志线，定义一些形状。</p>
-<p><strong>Step 2  — 线条清理</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvbdn60dj307j0770sh.jpg"></p>
-<p>现在开始做清理。把草图层设置成半透明，可以 右键 点击图层名称，选择属性，再调低透明度。现在可以在上面的图层去画。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8ao6foj30c007zq2q.jpg"></p>
-<p>这里的思路是画出最终的线条图。先聚焦在重点线条上，比如构成角色剪影和脸部的线条。先不要关心颜色和光影，如果想画的话可以画一点主阴影，重点还是把主要形状弄对。</p>
-<p><strong>Step 3  —  底色</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102322791.png"></p>
-<p>很简单的一步，找到符合需求的颜色，用油漆桶填充进去。避免过于饱和和过亮的颜色。还不到画光影的时候，但是要考虑好画面应该如何被照亮，有些区域会被周围的颜色影响。</p>
-<p><strong>Step 4  —  光影</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88aqv3j307p077gld.jpg"></p>
-<p>开始给画添加光影，添加明暗区域。试着想象光会如何照射到你画的物体上，相应的渲染。这一步找个参考图是个很好的办法。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvaibzjbj309z07h742.jpg"></p>
-<p>我喜欢在这一步通过给弧线加上较深的颜色，来尽量弱化黑色的描边，就好像是做抗锯齿。不过别做太过，不然线条看起来会模糊。</p>
-<p>这一步可以调整线条，但重点是光影。</p>
-<p><strong>Step 5  —  线条上色和抗锯齿</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8c2gduj307p07agld.jpg"></p>
-<p>之前提到过，过多的黑色描边可能会分散注意力。通过上色来弱化他们是个不错的方法。只要找到周围最近，最深的颜色，并把描边改成这个色的更深版本就行。</p>
-<p>如果这个描边是用来分隔明显的区域，比如脖子和脸颊，衣领和头发，你可以画很深色，甚至保留黑色。这也是为什么我喜欢保持黑色的角色外层描边。弱化的过渡一般用亮一点的线，比如鼻子的线条。</p>
-<p><strong>Step 6  — 打磨细节</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvb2fvmtj307t076t8h.jpg"></p>
-<p>最后这步你需要确定所有线条都做过抗锯齿，所有阴影过渡都合理的软化过（或者没有！如果是硬过渡的话。），并添加上所有细节。</p>
-<p>添加背光，小的高亮，反射区域。因为所有东西都就位了，你可以衡量想要在画面添加多少细节。不要做得太过，注意别加入过多噪点。</p>
-<p>这就完成了！多去练习，并试着把前几节的概念也融入进来。</p>
-<p>Good luck!</p>
 ]]></content>
       <categories>
         <category>开始画像素画 (Making Pixel Art)</category>
@@ -6798,6 +6756,80 @@
       </tags>
   </entry>
   <entry>
+    <title>开始画像素画#7</title>
+    <url>/archives/7559aa07.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zm7aw4aj31hc0u0jv1.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
+<a id="more"></a>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8bd0hfj30u008c74z.jpg"></p>
+<p>系列第 7 篇。</p>
+<h3 id="什么是线条"><a href="#什么是线条" class="headerlink" title="什么是线条"></a>什么是线条</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv89ju74j30ei0d812e.jpg"></p>
+<p>线条是艺术领域最重要的工具之一。他们可以用来强调形状，对比。现实世界里我们看不到线条，但他们能帮助我们分隔空间，创造纹理，表现体积和方向。</p>
+<p>在像素美术中，屏幕上的空间非常受限。每个像素都很重要，绘制线条就变得很昂贵。因此，如果你在画非常低像素作品，不推荐使用线条。即使有一些富裕的空间，还是要谨慎的使用线条，试着不使用线条去完成。最少化线条的使用，是保持像素画整洁的好办法。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640.png"></p>
+<p>不必要的线可以用阴影或者高对比区域代替。将线条与暗影部分融合能让画面显得更统一，自然。</p>
+<h3 id="不必要的拐角"><a href="#不必要的拐角" class="headerlink" title="不必要的拐角"></a>不必要的拐角</h3><p>之前简单的解释过（第一节），这里再进一步讲一下。</p>
+<p>这种不必要的拐角，通常出现在手绘线条时。你可以手工去清理，也可以打开铅笔工具的“像素完美”（<code>pixel perfect</code>）功能来避免这些。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88tzipj309w05c741.jpg"></p>
+<p>这个算法在画单像素线条时非常有用，不过不总是完美的，你还是应该知道如何手工去清理。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8cjbhrj30a205p0jc.jpg"></p>
+<p>查找模式很简单：每当你看到一个拐角（<code>3</code> 或 <code>4</code> 个像素组成的方形），思考一下这里是否应当是个拐角。如果这部分不是拐角，就去掉一个像素让他更圆。</p>
+<p>注意这跟锯齿是不同的，我在之前的章节（第二节）解释过锯齿，以及如何处理他们。修复拐角可能会创造出很多锯齿，所以通常这会是个多步过程：<code>绘制</code> &gt; <code>修复拐角</code> &gt; <code>修复锯齿</code>。</p>
+<h3 id="方形线"><a href="#方形线" class="headerlink" title="方形线"></a>方形线</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102237778.png"></p>
+<p>单像素线条问题还有一种更风格化的解决办法。你可以到处加拐角，而不是尝试去移除他们。听起来没道理，但确实是种风格化的选择，很有趣，适合高度风格化的作品，因为它模拟了一种更粗的线条。</p>
+<p>处理过程基本一样，只是你需要找到每个对角链接的像素，把它变方，而不是去删掉拐角。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8a5yvaj309w05m0i1.jpg"></p>
+<p>注意这样做也会产生很多锯齿，别忘了处理他们。</p>
+<h3 id="Colored-lines-有色线条"><a href="#Colored-lines-有色线条" class="headerlink" title="Colored lines 有色线条"></a>Colored lines 有色线条</h3><p>有些时候，尤其是在较低分辨率，线条会吸引过多的注意。有个弱化这种效果的方法是，给线条添加临近颜色的深色版本。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102250162.png"></p>
+<p>过程很简单，回顾每条你画的线条，试着修改成临近颜色的深色版本。当你这么做之后，所选的颜色会让相应的区域显得变大了，所以线条的位置可能需要调整。有时候你可能不确定选哪个临近的颜色，有时候可能很容易确定。当你不确定的时候，就选更深的颜色。</p>
+<p>我依然喜欢保留最外层的黑色描边，看分辨率合适的话我甚至会加倍这个外层描边。但这只是我个人的选择，你可以自己考虑。</p>
+<h3 id="线条草图"><a href="#线条草图" class="headerlink" title="线条草图"></a>线条草图</h3><p>之前我们学过像素簇草图的画法，这次来试点别的。这种方法很适合于画角色以及画动画帧，因为画起来很快，而且聚焦于形状，而不是光和色（像像素簇草图那样）。</p>
+<p>我们来做个实际案例学习，把这节提到的都应用上。如果你想要跟着做，建议新建 64*64 分辨率的画布，用 AAP-64 调色板。</p>
+<p><strong>Step 1  — 草图</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv87ygl3j30fh078mwx.jpg"></p>
+<p>第一步先忽略各种像素画的规则，尽可能流畅的勾勒出形状。基本上跟在纸上或者其他数字化的，非像素的媒介一样。不要过多考虑之后如何清理线条。完成后可以稍作整理，去除明显的标志线，定义一些形状。</p>
+<p><strong>Step 2  — 线条清理</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvbdn60dj307j0770sh.jpg"></p>
+<p>现在开始做清理。把草图层设置成半透明，可以 右键 点击图层名称，选择属性，再调低透明度。现在可以在上面的图层去画。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8ao6foj30c007zq2q.jpg"></p>
+<p>这里的思路是画出最终的线条图。先聚焦在重点线条上，比如构成角色剪影和脸部的线条。先不要关心颜色和光影，如果想画的话可以画一点主阴影，重点还是把主要形状弄对。</p>
+<p><strong>Step 3  —  底色</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102322791.png"></p>
+<p>很简单的一步，找到符合需求的颜色，用油漆桶填充进去。避免过于饱和和过亮的颜色。还不到画光影的时候，但是要考虑好画面应该如何被照亮，有些区域会被周围的颜色影响。</p>
+<p><strong>Step 4  —  光影</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88aqv3j307p077gld.jpg"></p>
+<p>开始给画添加光影，添加明暗区域。试着想象光会如何照射到你画的物体上，相应的渲染。这一步找个参考图是个很好的办法。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvaibzjbj309z07h742.jpg"></p>
+<p>我喜欢在这一步通过给弧线加上较深的颜色，来尽量弱化黑色的描边，就好像是做抗锯齿。不过别做太过，不然线条看起来会模糊。</p>
+<p>这一步可以调整线条，但重点是光影。</p>
+<p><strong>Step 5  —  线条上色和抗锯齿</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8c2gduj307p07agld.jpg"></p>
+<p>之前提到过，过多的黑色描边可能会分散注意力。通过上色来弱化他们是个不错的方法。只要找到周围最近，最深的颜色，并把描边改成这个色的更深版本就行。</p>
+<p>如果这个描边是用来分隔明显的区域，比如脖子和脸颊，衣领和头发，你可以画很深色，甚至保留黑色。这也是为什么我喜欢保持黑色的角色外层描边。弱化的过渡一般用亮一点的线，比如鼻子的线条。</p>
+<p><strong>Step 6  — 打磨细节</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvb2fvmtj307t076t8h.jpg"></p>
+<p>最后这步你需要确定所有线条都做过抗锯齿，所有阴影过渡都合理的软化过（或者没有！如果是硬过渡的话。），并添加上所有细节。</p>
+<p>添加背光，小的高亮，反射区域。因为所有东西都就位了，你可以衡量想要在画面添加多少细节。不要做得太过，注意别加入过多噪点。</p>
+<p>这就完成了！多去练习，并试着把前几节的概念也融入进来。</p>
+<p>Good luck!</p>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>操作系统概述</title>
     <url>/archives/33c82dd4.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gky8z6eslsg312w0lwhdu.gif"></p>
@@ -6842,57 +6874,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#x79;&#111;&#110;&#x67;&#x40;&#116;&#x73;&#x69;&#110;&#x67;&#x68;&#x75;&#x61;&#x2e;&#101;&#x64;&#x75;&#x2e;&#99;&#x6e;">&#120;&#x79;&#111;&#110;&#x67;&#x40;&#116;&#x73;&#x69;&#110;&#x67;&#x68;&#x75;&#x61;&#x2e;&#101;&#x64;&#x75;&#x2e;&#99;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#x79;&#x6f;&#x6e;&#103;&#x40;&#x74;&#x73;&#105;&#x6e;&#x67;&#104;&#117;&#97;&#x2e;&#101;&#100;&#x75;&#x2e;&#x63;&#x6e;">&#120;&#x79;&#x6f;&#x6e;&#103;&#x40;&#x74;&#x73;&#105;&#x6e;&#x67;&#104;&#117;&#97;&#x2e;&#101;&#100;&#x75;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#117;&#99;&#104;&#x65;&#110;&#x40;&#x6d;&#x61;&#x69;&#108;&#x2e;&#116;&#115;&#105;&#x6e;&#x67;&#104;&#x75;&#97;&#46;&#101;&#x64;&#117;&#x2e;&#99;&#x6e;">&#121;&#117;&#99;&#104;&#x65;&#110;&#x40;&#x6d;&#x61;&#x69;&#108;&#x2e;&#116;&#115;&#105;&#x6e;&#x67;&#104;&#x75;&#97;&#46;&#101;&#x64;&#117;&#x2e;&#99;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#x75;&#99;&#x68;&#x65;&#110;&#x40;&#109;&#x61;&#x69;&#108;&#46;&#116;&#115;&#105;&#x6e;&#103;&#x68;&#x75;&#x61;&#46;&#101;&#100;&#117;&#x2e;&#99;&#x6e;">&#x79;&#x75;&#99;&#x68;&#x65;&#110;&#x40;&#109;&#x61;&#x69;&#108;&#46;&#116;&#115;&#105;&#x6e;&#103;&#x68;&#x75;&#x61;&#46;&#101;&#100;&#117;&#x2e;&#99;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#x74;&#101;&#x72;&#x6e;&#x61;&#108;&#x2e;&#110;&#48;&#x38;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;">&#101;&#x74;&#101;&#x72;&#x6e;&#x61;&#108;&#x2e;&#110;&#48;&#x38;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x65;&#x74;&#x65;&#114;&#110;&#97;&#x6c;&#x2e;&#x6e;&#48;&#x38;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#x65;&#x74;&#x65;&#114;&#110;&#97;&#x6c;&#x2e;&#x6e;&#48;&#x38;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#98;&#x6a;&#101;&#99;&#116;&#107;&#x75;&#x61;&#110;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#x6f;&#98;&#x6a;&#101;&#99;&#116;&#107;&#x75;&#x61;&#110;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#x62;&#106;&#x65;&#99;&#116;&#x6b;&#x75;&#97;&#x6e;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;">&#111;&#x62;&#106;&#x65;&#99;&#116;&#x6b;&#x75;&#97;&#x6e;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#x72;&#x64;&#102;&#x72;&#x61;&#x6e;&#107;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#99;&#x72;&#x64;&#102;&#x72;&#x61;&#x6e;&#107;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#99;&#114;&#x64;&#x66;&#x72;&#97;&#x6e;&#x6b;&#64;&#x67;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;">&#99;&#114;&#x64;&#x66;&#x72;&#97;&#x6e;&#x6b;&#64;&#x67;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#x61;&#x63;&#99;&#x6f;&#114;&#97;&#119;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;">&#116;&#x61;&#x63;&#99;&#x6f;&#114;&#97;&#119;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x74;&#x61;&#99;&#x63;&#111;&#114;&#x61;&#119;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;">&#x74;&#x61;&#99;&#x63;&#111;&#114;&#x61;&#119;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#x69;&#110;&#121;&#117;&#x6e;&#120;&#105;&#x6e;&#103;&#48;&#48;&#48;&#x31;&#64;&#x31;&#54;&#x33;&#46;&#x63;&#x6f;&#109;">&#x78;&#x69;&#110;&#121;&#117;&#x6e;&#120;&#105;&#x6e;&#103;&#48;&#48;&#48;&#x31;&#64;&#x31;&#54;&#x33;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x78;&#105;&#110;&#121;&#x75;&#x6e;&#x78;&#105;&#x6e;&#x67;&#48;&#x30;&#48;&#x31;&#x40;&#49;&#x36;&#x33;&#x2e;&#99;&#x6f;&#109;">&#x78;&#105;&#110;&#121;&#x75;&#x6e;&#x78;&#105;&#x6e;&#x67;&#48;&#x30;&#48;&#x31;&#x40;&#49;&#x36;&#x33;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#110;&#x6f;&#99;&#x75;&#105;&#108;&#64;&#x67;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;">&#x67;&#110;&#x6f;&#99;&#x75;&#105;&#108;&#64;&#x67;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#110;&#x6f;&#99;&#117;&#105;&#x6c;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#103;&#110;&#x6f;&#99;&#117;&#105;&#x6c;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#121;&#x61;&#105;&#114;&#105;&#97;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x6d;&#121;&#x61;&#105;&#114;&#105;&#97;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#121;&#x61;&#105;&#x72;&#105;&#97;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#109;&#121;&#x61;&#105;&#x72;&#105;&#97;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#x68;&#97;&#110;&#103;&#114;&#97;&#105;&#x6e;&#57;&#49;&#x31;&#x40;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;">&#122;&#x68;&#97;&#110;&#103;&#114;&#97;&#105;&#x6e;&#57;&#49;&#x31;&#x40;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#x68;&#97;&#x6e;&#103;&#114;&#x61;&#105;&#x6e;&#57;&#x31;&#x31;&#64;&#49;&#54;&#x33;&#46;&#x63;&#x6f;&#x6d;">&#x7a;&#x68;&#97;&#x6e;&#103;&#114;&#x61;&#105;&#x6e;&#57;&#x31;&#x31;&#64;&#49;&#54;&#x33;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#103;&#120;&#120;&#x31;&#x32;&#48;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#103;&#103;&#120;&#120;&#x31;&#x32;&#48;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x67;&#x78;&#x78;&#x31;&#x32;&#x30;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x67;&#x67;&#x78;&#x78;&#x31;&#x32;&#x30;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -7078,35 +7110,6 @@
       </tags>
   </entry>
   <entry>
-    <title>进程与线程</title>
-    <url>/archives/44cf1d42.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloe6t3mq4g312w0lwqva.gif"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/107924435/MTVOS?tracking_source=search_projects_recommended%7COS">MTV.OS</a> by 
-      <a href="https://www.behance.net/charlx">Charl- x</a>
-    </i>
-  </font>
-</div>
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
-<a id="more"></a>
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>操作系统 (Operating Systems)</category>
-      </categories>
-      <tags>
-        <tag>Mooc</tag>
-        <tag>OS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Aseprite教学-Aseprite编译教程</title>
     <url>/archives/5d59087d.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nt7r5jxj314w0i3788.jpg"></p>
@@ -7193,6 +7196,35 @@
       <tags>
         <tag>Aseprite</tag>
         <tag>CMake</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>进程与线程</title>
+    <url>/archives/44cf1d42.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloe6t3mq4g312w0lwqva.gif"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/107924435/MTVOS?tracking_source=search_projects_recommended%7COS">MTV.OS</a> by 
+      <a href="https://www.behance.net/charlx">Charl- x</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>操作系统课讲解操作系统中如何管理和协调应用程序对计算机系统中软硬件资源的使用，本文将讲解进程与线程相关内容。</p>
+<a id="more"></a>
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>操作系统 (Operating Systems)</category>
+      </categories>
+      <tags>
+        <tag>Mooc</tag>
+        <tag>OS</tag>
       </tags>
   </entry>
   <entry>
