@@ -1916,7 +1916,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#x65;&#x6e;&#x78;&#x75;&#x40;&#116;&#101;&#x6e;&#99;&#x65;&#x6e;&#116;&#46;&#x63;&#111;&#x6d;">&#x6c;&#x65;&#x65;&#x6e;&#x78;&#x75;&#x40;&#116;&#101;&#x6e;&#99;&#x65;&#x6e;&#116;&#46;&#x63;&#111;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#101;&#x6e;&#120;&#x75;&#x40;&#x74;&#101;&#x6e;&#99;&#101;&#110;&#x74;&#x2e;&#99;&#111;&#x6d;">&#108;&#x65;&#101;&#x6e;&#120;&#x75;&#x40;&#x74;&#101;&#x6e;&#99;&#101;&#110;&#x74;&#x2e;&#99;&#111;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -4904,6 +4904,207 @@
       </tags>
   </entry>
   <entry>
+    <title>随机数在游戏中的应用</title>
+    <url>/archives/71c35c5e.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekvei5q74j30xc0j30ys.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/44248527/Tarot-cards-Game">Tarot-cards-Game</a> by 
+      <a href="https://www.behance.net/victoire">Victoire Douy</a>
+    </i>
+  </font>
+</div>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本章讲的主题是随机数在游戏中的应用，主要目的是通过这节课给大家一下随机数的基本概念和游戏中常见的随机策略，介绍随机数生成器，能够指出一些容易用错的地方防止大家出错，还有就是介绍一些随机数使用上的小技巧与随机数分布与应用方面的东西。</p>
+<span id="more"></span>
+
+<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p>在游戏中使用随机数一般是为了增加一些随机性，防止过于重复。</p>
+<h4 id="随机数在游戏中的应用"><a href="#随机数在游戏中的应用" class="headerlink" title="随机数在游戏中的应用"></a>随机数在游戏中的应用</h4><h5 id="作为游戏玩法的一部分"><a href="#作为游戏玩法的一部分" class="headerlink" title="作为游戏玩法的一部分"></a>作为游戏玩法的一部分</h5><p>现在游戏中用到随机数除了增加一些随机性，还有很多方面，比如说玩网游的<code>扔骰子</code>、<code>抽卡</code>、<code>开宝箱</code>这些东西，都是作为游戏玩法的一部分。很多游戏里像<code>龙与地下城</code> <code>大富翁</code>这种游戏扔骰子本身就是游戏的一部分。</p>
+<h5 id="模拟自然现象"><a href="#模拟自然现象" class="headerlink" title="模拟自然现象"></a>模拟自然现象</h5><p>许多自然现象中都带有很大的随机性，例如火焰效果在做的时候会做一个叫粒子发射器的东西，用于发射很多像火焰每一片和一些小的火苗和特效这样的东西。这些粒子的运行轨迹、何时发射都带有很大的随机性，由一些随机数来控制。<br>与此相同的除了<code>火焰</code>还有<code>植被</code>、<code>生物群落</code>等。</p>
+<h5 id="离线渲染"><a href="#离线渲染" class="headerlink" title="离线渲染"></a>离线渲染</h5><p><code>离线渲染</code> <code>光线追踪</code>的做法就是从光源往外发射许多随机方向的射线，当这些射线打中一个物体表面的时候，它才会根据这个物体表面的性质随机决定去反弹还是吸收。经过这样很多次（几千万次）累计叠加，然后最终得到一张效果图像，它可以达到非常高的渲染质量。</p>
+<h5 id="随机生成的游戏内容"><a href="#随机生成的游戏内容" class="headerlink" title="随机生成的游戏内容"></a>随机生成的游戏内容</h5><p><code>我的世界</code> 的整个世界都是拿随机数生成的，由一个种子根据一定的随机数算法来生成整个世界。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekzwifkr9j30xc0go0u0.jpg"></p>
+<h4 id="两种伪随机概念"><a href="#两种伪随机概念" class="headerlink" title="两种伪随机概念"></a>两种伪随机概念</h4><h5 id="生成原理上的真随机与伪随机"><a href="#生成原理上的真随机与伪随机" class="headerlink" title="生成原理上的真随机与伪随机"></a>生成原理上的真随机与伪随机</h5><p>在电脑里没有真正的随机数。虽然电脑都是确定性的运算，没办法生成一些随机的运算。</p>
+<ul>
+<li><code>真随机</code> : 需要外部的随机性来源，如利用量子原理或者电路中的噪音来产生随机数。</li>
+<li><code>伪随机</code> : 用算法生成的”看似”随机的序列，数列本身是固定的，算法确定下来序列一定是一个确定的序列。</li>
+</ul>
+<p>实际运用随机数规模控制在2的31-32次方的范围。游戏中可以应用自如，但安全性方面还是不够。</p>
+<h5 id="应用层面的真随机与伪随机"><a href="#应用层面的真随机与伪随机" class="headerlink" title="应用层面的真随机与伪随机"></a>应用层面的真随机与伪随机</h5><ul>
+<li><code>真随机</code> : 每一次几率判断都是独立的。就跟抛硬币一样，前十次抛出正面在抛第十一次的时候正反概率还是50%。</li>
+<li><code>伪随机</code> : 指同一类的概率事件，彼此之间存在关联性，通常为了保证用户体验。比如连续抽十次卡都抽掉了游戏体验极差。王者荣耀通过幸运值让玩家保底。</li>
+</ul>
+<h4 id="游戏中常用随机策略"><a href="#游戏中常用随机策略" class="headerlink" title="游戏中常用随机策略"></a>游戏中常用随机策略</h4><h5 id="伪随机策略：保底法"><a href="#伪随机策略：保底法" class="headerlink" title="伪随机策略：保底法"></a>伪随机策略：保底法</h5><p>王者荣耀中的买五次必得四到五级铭文。<br>有些游戏即使不标出来，内部也会有这样的策略在里面，保证玩家不会得到一个太差的游戏体验。</p>
+<h5 id="伪随机策略：PRD-Pseudo-Random-Distribution"><a href="#伪随机策略：PRD-Pseudo-Random-Distribution" class="headerlink" title="伪随机策略：PRD(Pseudo Random Distribution)"></a>伪随机策略：PRD(Pseudo Random Distribution)</h5><p>最早在<code>war3</code>及<code>Dota</code>中暴击的算法，在<code>魂斗罗：归来</code>中使用。<br>如果这次没有抽中，则增加下次抽中的概率：</p>
+<ul>
+<li>第N次成功出发的几率为 <code>P(N) = C * N</code> 其中<code>C</code>为初始概率</li>
+<li>如果期望是25%的暴击率，则第一次暴击率～8.5%，第二次～17%，第三次～25.5%…</li>
+<li>一旦发生暴击则概率重置为～8.5%</li>
+</ul>
+<p>触发几率最高的是第三、四次，保证了第一、二次触发几率不会那么高，而到了第十次基本上肯定会发生一次暴击。该算法有效的把暴击分散开，不要太集中。</p>
+<h5 id="其它伪随机策略"><a href="#其它伪随机策略" class="headerlink" title="其它伪随机策略"></a>其它伪随机策略</h5><ul>
+<li><p>稀有道具的全服控制<br>一种特别稀有特别珍贵的道具，运营方希望它每天产生三个。但如果我通过概率来控制，很有可能出现今天一个人没打出来或者这一天有十几个人都打出来了，这样就不利于运营来控制游戏节奏。后台会增加一个计数器，一开始的时候概率会稍高一点，达到目标数量就会关掉再也不会出了。</p>
+</li>
+<li><p>洗牌算法<br>音乐播放如果现在有十首歌，采取随机的方式播放有可能出现某两首歌连续播放或者是某一首歌很久没出现。洗牌算法就是先把它们的顺序打乱，然后再按打乱之后的顺序来给它播放从而保证每首歌都能听到一遍。</p>
+</li>
+<li><p>二次随机</p>
+<ul>
+<li>第一次抽取决定是几级铭文</li>
+<li>第二次抽取决定是具体哪种铭文</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekybanpzig30xc0hv0ue.gif"></p>
+<h3 id="随机数生成器"><a href="#随机数生成器" class="headerlink" title="随机数生成器"></a>随机数生成器</h3><h4 id="伪随机数生成器"><a href="#伪随机数生成器" class="headerlink" title="伪随机数生成器"></a>伪随机数生成器</h4><p><code>算法</code> + <code>种子</code>就能决定随机数的序列。下面介绍几种游戏中常用的算法：</p>
+<h5 id="线性同余"><a href="#线性同余" class="headerlink" title="线性同余"></a>线性同余</h5><ul>
+<li><p>递推公式<br>$$X_{n+1} = (aX_n + c)\bmod m$$</p>
+</li>
+<li><p>这个算法非常古老而且实现起来很简单，几乎在稍微老点的语言中内置的算法都是它，每种语言中对参数的使用有着不同的选择。</p>
+</li>
+<li><p>演示</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">m &#x3D; 9	a &#x3D; 2	c &#x3D; 0	seed &#x3D; 1</span><br><span class="line">output: 1 - seed</span><br><span class="line">        2 - (1*2+0)mod 9</span><br><span class="line">        4 - (2*2+0)mod 9 </span><br><span class="line">        8 - (4*2+0)mod 9</span><br><span class="line">        7 - (8*2+0)mod 9</span><br><span class="line">            ......</span><br></pre></td></tr></table></figure></li>
+<li><p>不同参数的比较</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">(1) m &#x3D; 9   a &#x3D; 2   c &#x3D; 0   seed &#x3D; 1</span><br><span class="line">    output: </span><br><span class="line">    1 - 2 - 4 - 8 - 7 - 5 - 1 ...</span><br><span class="line"></span><br><span class="line">(2) m &#x3D; 9   a &#x3D; 2   c &#x3D; 0   seed &#x3D; 3</span><br><span class="line">    output: </span><br><span class="line">    3 - 6 - 3 ...</span><br><span class="line"></span><br><span class="line">(3) m &#x3D; 9   a &#x3D; 4   c &#x3D; 1   seed &#x3D; 0</span><br><span class="line">    output: </span><br><span class="line">    0 - 1 - 5 - 3 - 4 - 8 - 6 - 7 - 2 - 0 ...</span><br></pre></td></tr></table></figure>
+<p>这说明<code>m</code>、<code>a</code>、<code>c</code>这三个值的取值非常重要，不能随手取一个。早期项目中为了实现随机数算法时从网络下载源码，为了防止别人猜到规律随意更改了参数，后面发现这样做是不行的，不能随意更改别人给定的参数。</p>
+</li>
+<li><p>要达到最大周期为m需要的条件：</p>
+<ul>
+<li><code>c</code>与<code>m</code>互质</li>
+<li><code>a-1</code>可以被<code>m</code>的所有质因数整除</li>
+<li>如果<code>m</code>是4的倍数，<code>a-1</code>也必须是4的倍数</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>要达到良好的随机性，参数<code>c</code>还应该满足：<ul>
+<li>是质数。</li>
+<li>接近 $(\frac{1}{2}-\frac{\sqrt{3}}{6})m$</li>
+</ul>
+</li>
+</ul>
+<p>在上面几个条件的约束下，可用的<code>m</code>、<code>a</code>、<code>c</code>就没有多少个了，所以在使用的时候尽量去找现成的参数，不要自己随便填一个数字进去。</p>
+<ul>
+<li>优缺点<ul>
+<li>实现简单，速度快</li>
+<li>所需内存小</li>
+<li>用作N维空间的点坐标时，这些点多位于某些超平面上，看起来有些规律，因此不适合于用作蒙特卡洛采样</li>
+<li>当<code>m</code>为2的幂时，低阶比特周期较短，可以通过舍弃低位来缓解</li>
+</ul>
+</li>
+</ul>
+<h5 id="梅森旋转"><a href="#梅森旋转" class="headerlink" title="梅森旋转"></a>梅森旋转</h5><p>Mersenne是Makoto Mastsumoto（松本）和Takuji Nishimura（西村）于1997年开发的伪随机数产生器：</p>
+<ul>
+<li>该算法周期很长，在1～623的维度之间可以均等分布</li>
+<li>速度非常快</li>
+<li>需要的空间比线性同余算法大（TinyMT 2.5KiB）</li>
+</ul>
+<h4 id="随机数种子"><a href="#随机数种子" class="headerlink" title="随机数种子"></a>随机数种子</h4><p>给定的种子决定了后续随机数序列，一般程序启动时用当前时间作为种子进行一次初始化。</p>
+<ul>
+<li><p>错误用法</p>
+<ul>
+<li>没有调用初始化<code>srand</code>，导致每次启动游戏获得的序列是一样的，失去了随机的意义。</li>
+<li>每次调用随机数<code>rand</code>之前都初始化<code>srand</code>，这样得出的结果就会很有一定规律不是特别随机，违背了初衷。</li>
+</ul>
+</li>
+<li><p>作用</p>
+<ul>
+<li>提供每次不一样的游戏体验（用启动时间作为种子）<ul>
+<li>例如<code>超级马里奥</code>这种游戏每次敌人出现的位置是固定的，玩的次数多了甚至可以背下来，但如果增加一些随机数就可以更有趣味性和挑战性。红白机早期是没办法取到时间的，它的随机数是用一些奇怪的算法加上例如按键的时间长短来实现的</li>
+</ul>
+</li>
+<li>在程序生成内容（Procedural Content Generation,PCG）中使用，用来确保两次计算结果相同<ul>
+<li>比如用程序生成<code>Minecraft</code>这种地图每次进入是根据同一个种子来生成的，不然每次进入地图都不一样。玩家可以在网站上分享seed，根据该seed会生成相同的世界。</li>
+</ul>
+</li>
+<li>在多人游戏中减小带宽占用（帧同步游戏机制）<ul>
+<li>两人对战时暴击是随机的，但两边要保证随机出来的值是一样的，所以需要一开始把一方的种子传过去。种子一样，之后的计算步骤保持一致就能保证两端是一样的。</li>
+</ul>
+</li>
+<li>使用非常小的录像文件来实现录像和回放功能（如游戏的录像机制）</li>
+</ul>
+</li>
+<li><p>帧同步中的随机数<br>在使用帧同步的游戏中，要求所有运算步骤严格依序执行</p>
+<ul>
+<li>通常会自行实现伪随机数生成器，第三方库无意的调用系统随机数很可能破坏同步状态。</li>
+<li>随机数种子需要同步，同步给第三方。</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gelg9u2n0nj30xc0dxgnj.jpg"></p>
+<h3 id="随机数分布与应用"><a href="#随机数分布与应用" class="headerlink" title="随机数分布与应用"></a>随机数分布与应用</h3><h4 id="均匀分布"><a href="#均匀分布" class="headerlink" title="均匀分布"></a>均匀分布</h4><ul>
+<li>VC的<code>rand()</code>函数范围是[0..32767]，如何取得一个[0..9999]的随机整数？<ul>
+<li><code>x = rand()%10000</code> 分布不均匀（左侧偏大），因为32767不能被10000整除</li>
+<li>拒绝采样法</li>
+</ul>
+</li>
+</ul>
+<h5 id="如何取得更大的随机数（0～1000000）"><a href="#如何取得更大的随机数（0～1000000）" class="headerlink" title="如何取得更大的随机数（0～1000000）"></a>如何取得更大的随机数（0～1000000）</h5><ul>
+<li><code>x = rand()*(RAND_MAX + 1) + rand()</code></li>
+<li>使用更好的随机数算法，比如梅森旋转</li>
+</ul>
+<h5 id="如何取得一个0～1的随机浮点数"><a href="#如何取得一个0～1的随机浮点数" class="headerlink" title="如何取得一个0～1的随机浮点数"></a>如何取得一个0～1的随机浮点数</h5><ul>
+<li><p><code>x = rand()/(float)RAND_MAX</code><br>不可以用<code>x = (rand()%10000)/10000.0f</code> 同样的原因也会导致分布不均匀</p>
+</li>
+<li><p>针对浮点数的存储格式来生成，随机填充尾数域得[1，2)范围的随机数。<br><code>符号位 - 指数域 - 尾数域(23bit)</code><br>将指数域写死，尾数域用0或1进行填充，最后生成的随机数再减去1就可以得到0到1之间的浮点随机数。</p>
+</li>
+</ul>
+<h4 id="正态分布"><a href="#正态分布" class="headerlink" title="正态分布"></a>正态分布</h4><p>在某些时候用于生成更符合自然界规律的随机分布，比如：<code>不同身高的人群</code>、<code>不同高度的树木</code>等。</p>
+<h5 id="如何获得符合正态分布的随机数"><a href="#如何获得符合正态分布的随机数" class="headerlink" title="如何获得符合正态分布的随机数"></a>如何获得符合正态分布的随机数</h5><ul>
+<li><p>拒绝采样法<br>采样两次分别用作x值和y值，只保留正态分布曲线以下的部分，输出的时候丢弃y值，只输出x值从而保证正态分布。缺点是浪费了太多的样本点。</p>
+</li>
+<li><p>Ziggurat：优化版拒绝采样<br>先生成一些符合正态分布且面积相等的矩形，然后对矩形进行随机：如果在正态分布曲线下方则保留；否则再用拒绝采样法来判断一次，最后只保留曲线以下部分。该算法的主要目的是为了减少无效的运算。</p>
+</li>
+<li><p>逆变换采样<br>利用正态分布CDF的反函数做 Inverse transform sampling<br>在y轴产生服从(0,1)均匀分布的随机数，水平向右投影到曲线上，然后垂直向下投影到x轴，这样在x轴上就得到了正态分布，拿正态分布的反函数来算。</p>
+</li>
+<li><p>Box-Muller算法<br>选取两个服从[0,1]上均匀分布的随机变量 U1、U2，使X、Y满足：</p>
+<p>$X = \cos(2 \pi U_1)\sqrt{-2 \ln U_2}$</p>
+<p>$Y = \sin(2 \pi U_1)\sqrt{-2 \ln U_2}$</p>
+<p>则X与Y服从均值为0，方差为1的高斯分布。</p>
+</li>
+<li><p>基于中心极限定理采样</p>
+<ul>
+<li>生成n个独立同分布的随机变量，求和即可</li>
+<li>当n趋近于无穷大时，它们和的分布都会趋近正态分布</li>
+</ul>
+</li>
+</ul>
+<h4 id="形状采样"><a href="#形状采样" class="headerlink" title="形状采样"></a>形状采样</h4><h5 id="取得在圆形内均匀分布的点"><a href="#取得在圆形内均匀分布的点" class="headerlink" title="取得在圆形内均匀分布的点"></a>取得在圆形内均匀分布的点</h5><ul>
+<li><p>拒绝采样</p>
+</li>
+<li><p>根据极坐标采样</p>
+<ul>
+<li><p>错误算法</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">x &#x3D; r * sin(theta)</span><br><span class="line">y &#x3D; r * cos(theta)</span><br></pre></td></tr></table></figure></li>
+<li><p>正确算法</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">x &#x3D; sqrt(r) * sin(theta)</span><br><span class="line">y &#x3D; sqrt(r) * cos(theta)</span><br></pre></td></tr></table></figure>
+
+
+
+
+</li>
+</ul>
+<h5 id="洗牌算法-Fisher-Yates-shuffle"><a href="#洗牌算法-Fisher-Yates-shuffle" class="headerlink" title="洗牌算法 Fisher-Yates shuffle"></a>洗牌算法 Fisher-Yates shuffle</h5></li>
+<li><p>选中第1个元素，将其与<code>n</code>个元素中的任意一个交换（包括第1个元素自己）。这时排序后的第1个元素已经确定</p>
+</li>
+<li><p>选中第2个元素，将其与<code>n-1</code>个元素中作任意一个交换（包括第2个元素自己）。</p>
+</li>
+<li><p>重复上面步骤，直到剩1个元素为止。</p>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekzwflh2oj30xc0p0dot.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekyba8kcdj30xc0got99.jpg"></p>
+]]></content>
+      <categories>
+        <category>游戏程序设计 (Game Programming)</category>
+      </categories>
+      <tags>
+        <tag>Game</tag>
+        <tag>Math</tag>
+        <tag>Random</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>游戏性系统</title>
     <url>/archives/a79ad39b.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf97mfku7fj30x30lp750.jpg"></p>
@@ -5103,207 +5304,6 @@
       </categories>
       <tags>
         <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>随机数在游戏中的应用</title>
-    <url>/archives/71c35c5e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekvei5q74j30xc0j30ys.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/44248527/Tarot-cards-Game">Tarot-cards-Game</a> by 
-      <a href="https://www.behance.net/victoire">Victoire Douy</a>
-    </i>
-  </font>
-</div>
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本章讲的主题是随机数在游戏中的应用，主要目的是通过这节课给大家一下随机数的基本概念和游戏中常见的随机策略，介绍随机数生成器，能够指出一些容易用错的地方防止大家出错，还有就是介绍一些随机数使用上的小技巧与随机数分布与应用方面的东西。</p>
-<span id="more"></span>
-
-<h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p>在游戏中使用随机数一般是为了增加一些随机性，防止过于重复。</p>
-<h4 id="随机数在游戏中的应用"><a href="#随机数在游戏中的应用" class="headerlink" title="随机数在游戏中的应用"></a>随机数在游戏中的应用</h4><h5 id="作为游戏玩法的一部分"><a href="#作为游戏玩法的一部分" class="headerlink" title="作为游戏玩法的一部分"></a>作为游戏玩法的一部分</h5><p>现在游戏中用到随机数除了增加一些随机性，还有很多方面，比如说玩网游的<code>扔骰子</code>、<code>抽卡</code>、<code>开宝箱</code>这些东西，都是作为游戏玩法的一部分。很多游戏里像<code>龙与地下城</code> <code>大富翁</code>这种游戏扔骰子本身就是游戏的一部分。</p>
-<h5 id="模拟自然现象"><a href="#模拟自然现象" class="headerlink" title="模拟自然现象"></a>模拟自然现象</h5><p>许多自然现象中都带有很大的随机性，例如火焰效果在做的时候会做一个叫粒子发射器的东西，用于发射很多像火焰每一片和一些小的火苗和特效这样的东西。这些粒子的运行轨迹、何时发射都带有很大的随机性，由一些随机数来控制。<br>与此相同的除了<code>火焰</code>还有<code>植被</code>、<code>生物群落</code>等。</p>
-<h5 id="离线渲染"><a href="#离线渲染" class="headerlink" title="离线渲染"></a>离线渲染</h5><p><code>离线渲染</code> <code>光线追踪</code>的做法就是从光源往外发射许多随机方向的射线，当这些射线打中一个物体表面的时候，它才会根据这个物体表面的性质随机决定去反弹还是吸收。经过这样很多次（几千万次）累计叠加，然后最终得到一张效果图像，它可以达到非常高的渲染质量。</p>
-<h5 id="随机生成的游戏内容"><a href="#随机生成的游戏内容" class="headerlink" title="随机生成的游戏内容"></a>随机生成的游戏内容</h5><p><code>我的世界</code> 的整个世界都是拿随机数生成的，由一个种子根据一定的随机数算法来生成整个世界。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekzwifkr9j30xc0go0u0.jpg"></p>
-<h4 id="两种伪随机概念"><a href="#两种伪随机概念" class="headerlink" title="两种伪随机概念"></a>两种伪随机概念</h4><h5 id="生成原理上的真随机与伪随机"><a href="#生成原理上的真随机与伪随机" class="headerlink" title="生成原理上的真随机与伪随机"></a>生成原理上的真随机与伪随机</h5><p>在电脑里没有真正的随机数。虽然电脑都是确定性的运算，没办法生成一些随机的运算。</p>
-<ul>
-<li><code>真随机</code> : 需要外部的随机性来源，如利用量子原理或者电路中的噪音来产生随机数。</li>
-<li><code>伪随机</code> : 用算法生成的”看似”随机的序列，数列本身是固定的，算法确定下来序列一定是一个确定的序列。</li>
-</ul>
-<p>实际运用随机数规模控制在2的31-32次方的范围。游戏中可以应用自如，但安全性方面还是不够。</p>
-<h5 id="应用层面的真随机与伪随机"><a href="#应用层面的真随机与伪随机" class="headerlink" title="应用层面的真随机与伪随机"></a>应用层面的真随机与伪随机</h5><ul>
-<li><code>真随机</code> : 每一次几率判断都是独立的。就跟抛硬币一样，前十次抛出正面在抛第十一次的时候正反概率还是50%。</li>
-<li><code>伪随机</code> : 指同一类的概率事件，彼此之间存在关联性，通常为了保证用户体验。比如连续抽十次卡都抽掉了游戏体验极差。王者荣耀通过幸运值让玩家保底。</li>
-</ul>
-<h4 id="游戏中常用随机策略"><a href="#游戏中常用随机策略" class="headerlink" title="游戏中常用随机策略"></a>游戏中常用随机策略</h4><h5 id="伪随机策略：保底法"><a href="#伪随机策略：保底法" class="headerlink" title="伪随机策略：保底法"></a>伪随机策略：保底法</h5><p>王者荣耀中的买五次必得四到五级铭文。<br>有些游戏即使不标出来，内部也会有这样的策略在里面，保证玩家不会得到一个太差的游戏体验。</p>
-<h5 id="伪随机策略：PRD-Pseudo-Random-Distribution"><a href="#伪随机策略：PRD-Pseudo-Random-Distribution" class="headerlink" title="伪随机策略：PRD(Pseudo Random Distribution)"></a>伪随机策略：PRD(Pseudo Random Distribution)</h5><p>最早在<code>war3</code>及<code>Dota</code>中暴击的算法，在<code>魂斗罗：归来</code>中使用。<br>如果这次没有抽中，则增加下次抽中的概率：</p>
-<ul>
-<li>第N次成功出发的几率为 <code>P(N) = C * N</code> 其中<code>C</code>为初始概率</li>
-<li>如果期望是25%的暴击率，则第一次暴击率～8.5%，第二次～17%，第三次～25.5%…</li>
-<li>一旦发生暴击则概率重置为～8.5%</li>
-</ul>
-<p>触发几率最高的是第三、四次，保证了第一、二次触发几率不会那么高，而到了第十次基本上肯定会发生一次暴击。该算法有效的把暴击分散开，不要太集中。</p>
-<h5 id="其它伪随机策略"><a href="#其它伪随机策略" class="headerlink" title="其它伪随机策略"></a>其它伪随机策略</h5><ul>
-<li><p>稀有道具的全服控制<br>一种特别稀有特别珍贵的道具，运营方希望它每天产生三个。但如果我通过概率来控制，很有可能出现今天一个人没打出来或者这一天有十几个人都打出来了，这样就不利于运营来控制游戏节奏。后台会增加一个计数器，一开始的时候概率会稍高一点，达到目标数量就会关掉再也不会出了。</p>
-</li>
-<li><p>洗牌算法<br>音乐播放如果现在有十首歌，采取随机的方式播放有可能出现某两首歌连续播放或者是某一首歌很久没出现。洗牌算法就是先把它们的顺序打乱，然后再按打乱之后的顺序来给它播放从而保证每首歌都能听到一遍。</p>
-</li>
-<li><p>二次随机</p>
-<ul>
-<li>第一次抽取决定是几级铭文</li>
-<li>第二次抽取决定是具体哪种铭文</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekybanpzig30xc0hv0ue.gif"></p>
-<h3 id="随机数生成器"><a href="#随机数生成器" class="headerlink" title="随机数生成器"></a>随机数生成器</h3><h4 id="伪随机数生成器"><a href="#伪随机数生成器" class="headerlink" title="伪随机数生成器"></a>伪随机数生成器</h4><p><code>算法</code> + <code>种子</code>就能决定随机数的序列。下面介绍几种游戏中常用的算法：</p>
-<h5 id="线性同余"><a href="#线性同余" class="headerlink" title="线性同余"></a>线性同余</h5><ul>
-<li><p>递推公式<br>$$X_{n+1} = (aX_n + c)\bmod m$$</p>
-</li>
-<li><p>这个算法非常古老而且实现起来很简单，几乎在稍微老点的语言中内置的算法都是它，每种语言中对参数的使用有着不同的选择。</p>
-</li>
-<li><p>演示</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">m &#x3D; 9	a &#x3D; 2	c &#x3D; 0	seed &#x3D; 1</span><br><span class="line">output: 1 - seed</span><br><span class="line">        2 - (1*2+0)mod 9</span><br><span class="line">        4 - (2*2+0)mod 9 </span><br><span class="line">        8 - (4*2+0)mod 9</span><br><span class="line">        7 - (8*2+0)mod 9</span><br><span class="line">            ......</span><br></pre></td></tr></table></figure></li>
-<li><p>不同参数的比较</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">(1) m &#x3D; 9   a &#x3D; 2   c &#x3D; 0   seed &#x3D; 1</span><br><span class="line">    output: </span><br><span class="line">    1 - 2 - 4 - 8 - 7 - 5 - 1 ...</span><br><span class="line"></span><br><span class="line">(2) m &#x3D; 9   a &#x3D; 2   c &#x3D; 0   seed &#x3D; 3</span><br><span class="line">    output: </span><br><span class="line">    3 - 6 - 3 ...</span><br><span class="line"></span><br><span class="line">(3) m &#x3D; 9   a &#x3D; 4   c &#x3D; 1   seed &#x3D; 0</span><br><span class="line">    output: </span><br><span class="line">    0 - 1 - 5 - 3 - 4 - 8 - 6 - 7 - 2 - 0 ...</span><br></pre></td></tr></table></figure>
-<p>这说明<code>m</code>、<code>a</code>、<code>c</code>这三个值的取值非常重要，不能随手取一个。早期项目中为了实现随机数算法时从网络下载源码，为了防止别人猜到规律随意更改了参数，后面发现这样做是不行的，不能随意更改别人给定的参数。</p>
-</li>
-<li><p>要达到最大周期为m需要的条件：</p>
-<ul>
-<li><code>c</code>与<code>m</code>互质</li>
-<li><code>a-1</code>可以被<code>m</code>的所有质因数整除</li>
-<li>如果<code>m</code>是4的倍数，<code>a-1</code>也必须是4的倍数</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>要达到良好的随机性，参数<code>c</code>还应该满足：<ul>
-<li>是质数。</li>
-<li>接近 $(\frac{1}{2}-\frac{\sqrt{3}}{6})m$</li>
-</ul>
-</li>
-</ul>
-<p>在上面几个条件的约束下，可用的<code>m</code>、<code>a</code>、<code>c</code>就没有多少个了，所以在使用的时候尽量去找现成的参数，不要自己随便填一个数字进去。</p>
-<ul>
-<li>优缺点<ul>
-<li>实现简单，速度快</li>
-<li>所需内存小</li>
-<li>用作N维空间的点坐标时，这些点多位于某些超平面上，看起来有些规律，因此不适合于用作蒙特卡洛采样</li>
-<li>当<code>m</code>为2的幂时，低阶比特周期较短，可以通过舍弃低位来缓解</li>
-</ul>
-</li>
-</ul>
-<h5 id="梅森旋转"><a href="#梅森旋转" class="headerlink" title="梅森旋转"></a>梅森旋转</h5><p>Mersenne是Makoto Mastsumoto（松本）和Takuji Nishimura（西村）于1997年开发的伪随机数产生器：</p>
-<ul>
-<li>该算法周期很长，在1～623的维度之间可以均等分布</li>
-<li>速度非常快</li>
-<li>需要的空间比线性同余算法大（TinyMT 2.5KiB）</li>
-</ul>
-<h4 id="随机数种子"><a href="#随机数种子" class="headerlink" title="随机数种子"></a>随机数种子</h4><p>给定的种子决定了后续随机数序列，一般程序启动时用当前时间作为种子进行一次初始化。</p>
-<ul>
-<li><p>错误用法</p>
-<ul>
-<li>没有调用初始化<code>srand</code>，导致每次启动游戏获得的序列是一样的，失去了随机的意义。</li>
-<li>每次调用随机数<code>rand</code>之前都初始化<code>srand</code>，这样得出的结果就会很有一定规律不是特别随机，违背了初衷。</li>
-</ul>
-</li>
-<li><p>作用</p>
-<ul>
-<li>提供每次不一样的游戏体验（用启动时间作为种子）<ul>
-<li>例如<code>超级马里奥</code>这种游戏每次敌人出现的位置是固定的，玩的次数多了甚至可以背下来，但如果增加一些随机数就可以更有趣味性和挑战性。红白机早期是没办法取到时间的，它的随机数是用一些奇怪的算法加上例如按键的时间长短来实现的</li>
-</ul>
-</li>
-<li>在程序生成内容（Procedural Content Generation,PCG）中使用，用来确保两次计算结果相同<ul>
-<li>比如用程序生成<code>Minecraft</code>这种地图每次进入是根据同一个种子来生成的，不然每次进入地图都不一样。玩家可以在网站上分享seed，根据该seed会生成相同的世界。</li>
-</ul>
-</li>
-<li>在多人游戏中减小带宽占用（帧同步游戏机制）<ul>
-<li>两人对战时暴击是随机的，但两边要保证随机出来的值是一样的，所以需要一开始把一方的种子传过去。种子一样，之后的计算步骤保持一致就能保证两端是一样的。</li>
-</ul>
-</li>
-<li>使用非常小的录像文件来实现录像和回放功能（如游戏的录像机制）</li>
-</ul>
-</li>
-<li><p>帧同步中的随机数<br>在使用帧同步的游戏中，要求所有运算步骤严格依序执行</p>
-<ul>
-<li>通常会自行实现伪随机数生成器，第三方库无意的调用系统随机数很可能破坏同步状态。</li>
-<li>随机数种子需要同步，同步给第三方。</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gelg9u2n0nj30xc0dxgnj.jpg"></p>
-<h3 id="随机数分布与应用"><a href="#随机数分布与应用" class="headerlink" title="随机数分布与应用"></a>随机数分布与应用</h3><h4 id="均匀分布"><a href="#均匀分布" class="headerlink" title="均匀分布"></a>均匀分布</h4><ul>
-<li>VC的<code>rand()</code>函数范围是[0..32767]，如何取得一个[0..9999]的随机整数？<ul>
-<li><code>x = rand()%10000</code> 分布不均匀（左侧偏大），因为32767不能被10000整除</li>
-<li>拒绝采样法</li>
-</ul>
-</li>
-</ul>
-<h5 id="如何取得更大的随机数（0～1000000）"><a href="#如何取得更大的随机数（0～1000000）" class="headerlink" title="如何取得更大的随机数（0～1000000）"></a>如何取得更大的随机数（0～1000000）</h5><ul>
-<li><code>x = rand()*(RAND_MAX + 1) + rand()</code></li>
-<li>使用更好的随机数算法，比如梅森旋转</li>
-</ul>
-<h5 id="如何取得一个0～1的随机浮点数"><a href="#如何取得一个0～1的随机浮点数" class="headerlink" title="如何取得一个0～1的随机浮点数"></a>如何取得一个0～1的随机浮点数</h5><ul>
-<li><p><code>x = rand()/(float)RAND_MAX</code><br>不可以用<code>x = (rand()%10000)/10000.0f</code> 同样的原因也会导致分布不均匀</p>
-</li>
-<li><p>针对浮点数的存储格式来生成，随机填充尾数域得[1，2)范围的随机数。<br><code>符号位 - 指数域 - 尾数域(23bit)</code><br>将指数域写死，尾数域用0或1进行填充，最后生成的随机数再减去1就可以得到0到1之间的浮点随机数。</p>
-</li>
-</ul>
-<h4 id="正态分布"><a href="#正态分布" class="headerlink" title="正态分布"></a>正态分布</h4><p>在某些时候用于生成更符合自然界规律的随机分布，比如：<code>不同身高的人群</code>、<code>不同高度的树木</code>等。</p>
-<h5 id="如何获得符合正态分布的随机数"><a href="#如何获得符合正态分布的随机数" class="headerlink" title="如何获得符合正态分布的随机数"></a>如何获得符合正态分布的随机数</h5><ul>
-<li><p>拒绝采样法<br>采样两次分别用作x值和y值，只保留正态分布曲线以下的部分，输出的时候丢弃y值，只输出x值从而保证正态分布。缺点是浪费了太多的样本点。</p>
-</li>
-<li><p>Ziggurat：优化版拒绝采样<br>先生成一些符合正态分布且面积相等的矩形，然后对矩形进行随机：如果在正态分布曲线下方则保留；否则再用拒绝采样法来判断一次，最后只保留曲线以下部分。该算法的主要目的是为了减少无效的运算。</p>
-</li>
-<li><p>逆变换采样<br>利用正态分布CDF的反函数做 Inverse transform sampling<br>在y轴产生服从(0,1)均匀分布的随机数，水平向右投影到曲线上，然后垂直向下投影到x轴，这样在x轴上就得到了正态分布，拿正态分布的反函数来算。</p>
-</li>
-<li><p>Box-Muller算法<br>选取两个服从[0,1]上均匀分布的随机变量 U1、U2，使X、Y满足：</p>
-<p>$X = \cos(2 \pi U_1)\sqrt{-2 \ln U_2}$</p>
-<p>$Y = \sin(2 \pi U_1)\sqrt{-2 \ln U_2}$</p>
-<p>则X与Y服从均值为0，方差为1的高斯分布。</p>
-</li>
-<li><p>基于中心极限定理采样</p>
-<ul>
-<li>生成n个独立同分布的随机变量，求和即可</li>
-<li>当n趋近于无穷大时，它们和的分布都会趋近正态分布</li>
-</ul>
-</li>
-</ul>
-<h4 id="形状采样"><a href="#形状采样" class="headerlink" title="形状采样"></a>形状采样</h4><h5 id="取得在圆形内均匀分布的点"><a href="#取得在圆形内均匀分布的点" class="headerlink" title="取得在圆形内均匀分布的点"></a>取得在圆形内均匀分布的点</h5><ul>
-<li><p>拒绝采样</p>
-</li>
-<li><p>根据极坐标采样</p>
-<ul>
-<li><p>错误算法</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">x &#x3D; r * sin(theta)</span><br><span class="line">y &#x3D; r * cos(theta)</span><br></pre></td></tr></table></figure></li>
-<li><p>正确算法</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">x &#x3D; sqrt(r) * sin(theta)</span><br><span class="line">y &#x3D; sqrt(r) * cos(theta)</span><br></pre></td></tr></table></figure>
-
-
-
-
-</li>
-</ul>
-<h5 id="洗牌算法-Fisher-Yates-shuffle"><a href="#洗牌算法-Fisher-Yates-shuffle" class="headerlink" title="洗牌算法 Fisher-Yates shuffle"></a>洗牌算法 Fisher-Yates shuffle</h5></li>
-<li><p>选中第1个元素，将其与<code>n</code>个元素中的任意一个交换（包括第1个元素自己）。这时排序后的第1个元素已经确定</p>
-</li>
-<li><p>选中第2个元素，将其与<code>n-1</code>个元素中作任意一个交换（包括第2个元素自己）。</p>
-</li>
-<li><p>重复上面步骤，直到剩1个元素为止。</p>
-</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekzwflh2oj30xc0p0dot.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gekyba8kcdj30xc0got99.jpg"></p>
-]]></content>
-      <categories>
-        <category>游戏程序设计 (Game Programming)</category>
-      </categories>
-      <tags>
-        <tag>Game</tag>
-        <tag>Math</tag>
-        <tag>Random</tag>
       </tags>
   </entry>
   <entry>
@@ -5893,6 +5893,196 @@
       </tags>
   </entry>
   <entry>
+    <title>马尔萨斯人口论与数学建模</title>
+    <url>/archives/1492ea3c.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk0dpddbq1j30xc0m80tg.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/100474895/World-Population-Day_Advertisment?tracking_source=search_projects_recommended%7CPopulation">World Population Day_Advertisment</a> by 
+      <a href="https://www.behance.net/vibinks">vibin ks</a>
+    </i>
+  </font>
+</div>
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文基于马尔萨斯的人口论，探讨人类社会人口的增长趋势并列举多种变体人口增长模型，同时领悟数学建模的主要思想和具体步骤，加深学习和理解。</p>
+<span id="more"></span>
+
+
+
+<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><blockquote>
+<p> <strong>群体的增长能不能预测？</strong></p>
+</blockquote>
+<p>例如当前全球人口有72亿，我们能否预测30年后地球上有多少人呢？未来的趋势又是如何呢？</p>
+<table>
+<thead>
+<tr>
+<th align="center">年度</th>
+<th align="center">人口总量</th>
+<th align="center">增长率%</th>
+<th align="center">年度净变化率</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1960</td>
+<td align="center">3,039,332,401</td>
+<td align="center">1.33</td>
+<td align="center">40,781,960</td>
+</tr>
+<tr>
+<td align="center">1961</td>
+<td align="center">3,080,114,361</td>
+<td align="center">1.80</td>
+<td align="center">56,083,390</td>
+</tr>
+<tr>
+<td align="center">1962</td>
+<td align="center">3,136,197,751</td>
+<td align="center">2.19</td>
+<td align="center">69,508,948</td>
+</tr>
+<tr>
+<td align="center">1963</td>
+<td align="center">3,205,706,699</td>
+<td align="center">2.19</td>
+<td align="center">71,110,065</td>
+</tr>
+<tr>
+<td align="center">1964</td>
+<td align="center">3,276,816,764</td>
+<td align="center">2.08</td>
+<td align="center">69,021,089</td>
+</tr>
+<tr>
+<td align="center">…</td>
+<td align="center">……</td>
+<td align="center">…</td>
+<td align="center">……</td>
+</tr>
+</tbody></table>
+<p>对于上面的人口统计数据集，当然可以选择使用统计回归模型 <strong>（数据型）</strong>。这无疑可以是一个选择，但这里我们更多的想讨论机理型的数学模型 <strong>（机理型）</strong>。两种类型的模型中机理型更侧重于问题的分析和解决，数据型更注重于数据的结果。</p>
+<h3 id="群体的增长趋势是什么？"><a href="#群体的增长趋势是什么？" class="headerlink" title="群体的增长趋势是什么？"></a>群体的增长趋势是什么？</h3><h4 id="马尔萨斯人口论"><a href="#马尔萨斯人口论" class="headerlink" title="马尔萨斯人口论"></a>马尔萨斯人口论</h4><h5 id="马尔萨斯"><a href="#马尔萨斯" class="headerlink" title="马尔萨斯"></a>马尔萨斯</h5><p>马尔萨斯(1766—1834)，英国牧师，被称为西方思想史上最富有争议的经济学家、 人口学家，以他1798年出版的<em>《人口原理》</em> 而闻名于世。</p>
+<h5 id="基本论题"><a href="#基本论题" class="headerlink" title="基本论题"></a>基本论题</h5><p>人类食物供给增长趋势无法跟上人口增长的趋势</p>
+<h5 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h5><ul>
+<li>食物为人类生存所必需</li>
+<li>两性间的情欲是必然，而且几乎会保持现状</li>
+</ul>
+<h5 id="基本论述"><a href="#基本论述" class="headerlink" title="基本论述"></a>基本论述</h5><p>马尔萨斯认为：</p>
+<ul>
+<li><p>人口有 <strong>几何增长</strong> 的趋势（即按 <strong>指数</strong> 函数增长的趋势），如级数（1，2，4，8，16，… ）</p>
+</li>
+<li><p>食物供应只有 <strong>算术增长</strong> 的趋势（即按 <strong>线性</strong> 函数增长的趋势），如级数（1，2，3，4，5，… ）</p>
+</li>
+</ul>
+<p>这样两种增长方式显然是不匹配的，所以他的结论是：<strong>人口会有无限的增长的趋势，直至食物供应的极限为止</strong></p>
+<h5 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h5><p>要控制人口的无节制增长。</p>
+<h3 id="马尔萨斯人口模型"><a href="#马尔萨斯人口模型" class="headerlink" title="马尔萨斯人口模型"></a>马尔萨斯人口模型</h3><p>在马尔萨斯的著作里并没有数学化的论述，甚为遗憾。<strong>公理的表述方式，则看出欧几里得对西方文化的影响</strong>。这里我们按马尔萨斯的想法和原则，数学化这个问题：</p>
+<p>$P(t)$  $t$ 时刻的人口数量</p>
+<p>我们的问题始终是：</p>
+<blockquote>
+<ol>
+<li><strong>已知当前或过去某个时刻的人口数量，预测未来某个时刻的人口？</strong></li>
+<li><strong>遥远未来的趋势（$t$ 趋于无穷）？</strong></li>
+</ol>
+</blockquote>
+<h4 id="高尔斯的推导"><a href="#高尔斯的推导" class="headerlink" title="高尔斯的推导"></a>高尔斯的推导</h4><p>蒂莫西·高尔斯在《数学》里也讨论了人口预测问题：“人口可以表示为一组数对 $(t,P(t))$ 。其中 $t$ 表示时间，$P(t)$ 表示时刻 $ t $ 的人口规模。另外我们要用到两个数 $b$ 和 $d$ 来表示出生率和死亡率。”</p>
+<p>假如2002年初人口总数是 $p$, 则2002年出生的人数和死亡的人数就分别是 $bp$ 和 $dp$, 所以2003年初的人口总数将是 $p+bp-dp=(1+b-d)p=(1+r)p$ ，这里的 $r$ 就是自然增长率。</p>
+<p>高尔斯这个模型是离散的，但是人口的增长是时刻变化而不是离散的，如果当前人口量是 $P(t)$，经过一个 $\Delta t$ 的时间人口量达到 $P(t+\Delta t)$，则此时有 $P(t+\Delta t)-P(t)=rP(t)\Delta t$ 。接着取极限使 $\Delta t$ 趋近于0：$P(t+dt)-P(t)=rP(t)dt$  </p>
+<blockquote>
+<p>$\frac{dP(t)}{dt}=rP(t)$   –&gt;   $P(t_0)=P_0$   –&gt;  $P(t)=P_0e^{r(t-t_0)}$</p>
+</blockquote>
+<p>最后我们发现人口数量函数是一个指数函数。通过推导出的上式我们解决了第一个问题，即已知当前或过去某个时刻的人口数量，预测未来某个时刻的人口只要带入当前人口就可以求解；而第二个问题由于是指数函数，这样的函数在 $t$ 趋于无穷时是快速趋于无穷的，所以马尔萨斯的论断是有理由的（他也确实使用欧洲的人口数据对模型进行验证）。</p>
+<h4 id="回顾"><a href="#回顾" class="headerlink" title="回顾"></a>回顾</h4><p>首先我们面对一个<strong>现实问题</strong>：人口会是怎么增长的；接着把现实问题<strong>表达为数学模型</strong>，并<strong>分析、求解模型</strong>；之后模型解变为<strong>问题的解决方案</strong>；最后解决方案回到现实问题，通过数据对模型进行验证。如果与现实并不符合，也可能需要修改数学模型与求解过程。马尔萨斯也是基于这个模型对人口进行论断：要控制人口的无节制增长。</p>
+<h3 id="Logistic模型"><a href="#Logistic模型" class="headerlink" title="Logistic模型"></a>Logistic模型</h3><p>高尔斯推导的微分方程固然不错，可事实上自然增长率 $r$ 不是常量，它也在时刻变化中。在马尔萨斯那个年代，因为人口数量还不是特别多，所以人口受资源的约束还没有那么大，可以维持自然增长，自然增长率可以是一个常数。但现在的情况下 **自然增长率一定会是时间的函数 $r(t)$**。当人口量增长到一定量的时候，人口数量一定会关联自然增长率，所以可以通过人口总量让自然增长率成为 $t$ 的函数 ：$r(t)=r(P(t))$</p>
+<p>Logistic模型中自然增长率 $r$ 依旧可以认为是一个常数，但是这个常数现在我们需要对它进行校正。下式可以发现相比高尔斯的模型多了一个参数 $K$，直观意义是地球最多能养活多少人，也就是 <strong>环境承载量</strong>。不同的社会学家和人口学家对这个问题没有统一的意见，但他们的共识是 <strong>$K$ 这个参数一定是存在的</strong>。</p>
+<blockquote>
+<p>$r(t)=r(P(t))=r(1-\frac{P(t)}{K})$</p>
+</blockquote>
+<h4 id="基本共识"><a href="#基本共识" class="headerlink" title="基本共识"></a>基本共识</h4><p>地球能养活的人一定是有限的</p>
+<h4 id="比较"><a href="#比较" class="headerlink" title="比较"></a>比较</h4><p>在这个共识下引入参数 $K$ 让Logistic模型比马尔萨斯更好一些。但马尔萨斯那个年代 $P(t)$ 远比 $K$ 要小，$\frac{P(t)}{K}$ 趋近于0 ，最后可以得到 $r(t)=r$，也就是马尔萨斯的猜想，没有什么问题。但到了19-20世纪的地球，后面的这一项 $\frac{P(t)}{K}$ 就变的不可以忽略了，马尔萨斯的模型因为太简单而不能解决现实问题，所以虽然引入参数让模型变得更加复杂，但也更符合实际情况。</p>
+<h4 id="推导"><a href="#推导" class="headerlink" title="推导"></a>推导</h4><blockquote>
+<p>$\frac{dN(t)}{dt}=r(1-\frac{N(t)}{K})N(t)$  </p>
+<p>$N(t_0)=N_0$</p>
+</blockquote>
+<p>$N(t)$表示时间 $t$ 处人口的数量，换个符号以区别于马尔萨斯模型</p>
+<blockquote>
+<p>$N(t)=\frac{K}{1+Ce^{-r(t-t_0)}}$</p>
+<p>$C=\frac{K-P_0}{P_0}$</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9yk47wlkj30ev08sq3j.jpg"></p>
+<p>回到之前的两个问题，第一个问题依然可以直接计算代入即可；第二个问题中令 $t$ 趋于无穷预测未来趋势，作图可以发现$K$ 是一个渐进线：如果初值比 $K$ 值小，人口会以“S”型曲线增长直至达到 $K$ 值饱和； 如果初值已经超过 $K$ 值，它会比较快速的下降到 $K$ 值之后稳定。</p>
+<h4 id="模型离散化"><a href="#模型离散化" class="headerlink" title="模型离散化"></a>模型离散化</h4><p>将微分方程再化为差分方程，考虑这个模型的离散化：</p>
+<blockquote>
+<p> $\frac{dN}{dt}=rN(1-\frac{N}{K})$  –&gt;  $\frac{\Delta N}{\Delta t}=rN(1-\frac{N}{K})$</p>
+<p> $\Delta N = N_{t+1}-N_t$</p>
+<p> $\Delta t = 1$</p>
+</blockquote>
+<p>这里差分方程的时间离散步长取为其，每一代就是一个时间步。</p>
+<blockquote>
+<p>$N_{t+1}-N_t=rN_t(1-\frac{N_t}{K})$</p>
+<p>$N_{t+1}=(1+r)N_t-\frac{r}{K}N_t^{2}$</p>
+</blockquote>
+<p>取定参数 $K$ ，考虑不同的参数 $r$ </p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9yjjz3r2j30gn08k3zt.jpg"></p>
+<p>可以发现 $t$ 越来越大时愈发趋近于 $K$ 。让我们再看一看 $r$ 变大一点的效果：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9yj5csmcj30fl080dhk.jpg"></p>
+<p>我们可以发现在极限状态下呈现出一定的周期性，极限也不一定是之前稳态的 $K$ 了，更像是一种平均值，所以严格来说它并没有极限，或者说是2周期的解，每两步就回来。那如果 $r$ 继续增大呢？</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9ylqp2m0j30gb07otaz.jpg"></p>
+<p>我们可以观察到它还是周期的，但不再是2周期的了，而是4周期的。那我们继续让 $r$ 增大：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9ygqasbdj30gh085ac9.jpg"></p>
+<p>随着 $r$ 的不断增大，最后甚至会出现“混沌”的状态：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9z26wrn9j30fj07576t.jpg"></p>
+<p>也就是说如果对这个问题做一个小的扰乱比如初始值，整个曲线后面变化会非常大，也可以说是对初值敏感的依赖（“混沌”的标准）。所以从离散化的模型我们可以得到这么丰富的现象，结果非常意外。</p>
+<h3 id="Leslie模型"><a href="#Leslie模型" class="headerlink" title="Leslie模型"></a>Leslie模型</h3><p>言归正传回到原来的问题，之前的两个模型都只考虑了 <strong>人口总量</strong> 的问题，而忽视了 <strong>人口分布</strong> 的问题：人口总量一样、人口分布不一样。这个问题的核心在于<strong>只有人口总量一个是否可以足够刻画人口</strong>，而 <strong>年龄分布</strong> 的引入显然是对人口更完整的刻画。</p>
+<p>假如现在以年为单位，年龄对人口进行切分：$N_t=\begin{pmatrix} n_0 \\ n_1 \\ … \\ n_s \end{pmatrix}_t$</p>
+<blockquote>
+<p>$n_{0,t+1}=F_0n_{0,t}+F_1n_{1,t}+…+F_sn_{s,t}$</p>
+<p>$n_{1,t+1}=p_0n_{0,t}$</p>
+<p>……</p>
+<p>$n_{s,t+1}=p_{s-1}n_{s-1,t}$</p>
+</blockquote>
+<p>上式中我们不只关心人口的总量，还要注意不同年龄段人口的分布。由于模型是离散的，所以自然可以写成矩阵的形式：</p>
+<blockquote>
+<p>$N_{n+1}=LN_t$</p>
+<p>$L = \begin{pmatrix} F_0 &amp; F_1 &amp; F_2 &amp; … &amp; F_s \\ p_0 &amp; 0 &amp; 0 &amp; … &amp; 0 \\ 0 &amp; p_1 &amp; 0 &amp; … &amp; 0 \\ 0 &amp; 0 &amp; … &amp; p_{s-1} &amp; 0\end{pmatrix}$</p>
+</blockquote>
+<p>该模型的复杂在于需要更多的参数：马尔萨斯需要1个参数、Logistic模型需要2个参数，而到了Leslie模型，我们需要更多的参数–人口分段的两倍。当有太多人为的参数的时候会出现许多不完全客观的东西，不可避免会带有主观性。那么利用数学模型去认知问题其实很重要的是 <strong>理性的手段带来更好的客观性</strong>。当这样的参数越来越多的时候，客观性就会受到损害。但也正是因为之前简单的模型无法解决今天越来越复杂的问题，我们才会去考虑更复杂的模型。</p>
+<p>回到之前反复研究的两个问题，在这些参数都比较好得到的情况下只需要乘上矩阵就可以得到下一年或者下一个时刻的，可以完美解决。而对于第二个问题，假设已知矩阵的特征值（$\lambda_0，\lambda_1，…，\lambda_s$）和相应的特征向量（$\nu_0,\nu_1，…，\nu_s$），如果初始人口设为 $N_0$，则有 ：</p>
+<blockquote>
+<p>$N_0=c_0v_0+\sum^S_{i=1}c_i(\lambda_i)^t\nu_t$</p>
+<p>$N_t=c_0(\lambda_0)^t\nu_0+\sum^S_{i=1}c_i(\lambda_i)^t\nu_i$</p>
+</blockquote>
+<p>当 $t$ 趋于无穷时，如果 $\lambda_0&gt;|\lambda_i| \space i = 1，2，…,s$，则有 $\lim_{t \to \infty}N_t \propto c_0(\lambda_0)^t \nu_0$,所以渐进状态是由首特征大小和对应的特征向量决定的，$|\lambda_0|&gt;1$ 人口会越来越多；$|\lambda_0|&lt;1$ 会逐渐走向灭亡；$|\lambda_0|=1$则会进入一个稳态。</p>
+<h3 id="更复杂的模型"><a href="#更复杂的模型" class="headerlink" title="更复杂的模型"></a>更复杂的模型</h3><p>对于更复杂的问题是否要采用更复杂的模型，具体还是要看需求。Leslie模型是离散的，我们可以考虑将模型重新连续化。这样我们需要考虑这样一个函数：它是 $t$ 的函数，同时也应该是年龄的多元函数 $P(a,t)$。我们也需要将之前的切分年龄段参数变成连续的分布函数： <code>出生率-年龄</code>函数 和 <code>存活率-年龄</code> 函数。</p>
+<p>真的问题都不是无病呻吟，如果可以解决问题，模型越简洁越好，没有复杂化的必要。模型变得越来越复杂，是因为有这种需求，这种需求不可避免的要做更复杂的模型，我们才去改进。回到人口问题本身，即使我们已经考虑到了年龄的影响因素，我们仍有许多影响因素没有考虑进来：</p>
+<ul>
+<li>地域差异</li>
+<li>移民的影响</li>
+</ul>
+<p>对于这种情况最好使用 <strong>随机模型</strong>，在模型中体现出过程的随机性。</p>
+<div align=center>
+  <font size="3">
+    <i> Acknowledgement <br/> 
+      <a href="https://www.behance.net/vibinks">vibin ks</a>
+    </i>
+  </font>
+</div>
+
+
+
+]]></content>
+      <categories>
+        <category>数学建模 (Mathematical Modeling)</category>
+      </categories>
+      <tags>
+        <tag>Math</tag>
+        <tag>Mooc</tag>
+        <tag>Population</tag>
+        <tag>Mathematical Modeling</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>手机是怎么知道你的位置的</title>
     <url>/archives/a03a749.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkcy9nokcuj30u00w9hag.jpg"></p>
@@ -5980,8 +6170,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>GPS</tag>
         <tag>Mathematical Modeling</tag>
+        <tag>GPS</tag>
       </tags>
   </entry>
   <entry>
@@ -6198,196 +6388,6 @@
       </tags>
   </entry>
   <entry>
-    <title>马尔萨斯人口论与数学建模</title>
-    <url>/archives/1492ea3c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk0dpddbq1j30xc0m80tg.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/100474895/World-Population-Day_Advertisment?tracking_source=search_projects_recommended%7CPopulation">World Population Day_Advertisment</a> by 
-      <a href="https://www.behance.net/vibinks">vibin ks</a>
-    </i>
-  </font>
-</div>
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文基于马尔萨斯的人口论，探讨人类社会人口的增长趋势并列举多种变体人口增长模型，同时领悟数学建模的主要思想和具体步骤，加深学习和理解。</p>
-<span id="more"></span>
-
-
-
-<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><blockquote>
-<p> <strong>群体的增长能不能预测？</strong></p>
-</blockquote>
-<p>例如当前全球人口有72亿，我们能否预测30年后地球上有多少人呢？未来的趋势又是如何呢？</p>
-<table>
-<thead>
-<tr>
-<th align="center">年度</th>
-<th align="center">人口总量</th>
-<th align="center">增长率%</th>
-<th align="center">年度净变化率</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">1960</td>
-<td align="center">3,039,332,401</td>
-<td align="center">1.33</td>
-<td align="center">40,781,960</td>
-</tr>
-<tr>
-<td align="center">1961</td>
-<td align="center">3,080,114,361</td>
-<td align="center">1.80</td>
-<td align="center">56,083,390</td>
-</tr>
-<tr>
-<td align="center">1962</td>
-<td align="center">3,136,197,751</td>
-<td align="center">2.19</td>
-<td align="center">69,508,948</td>
-</tr>
-<tr>
-<td align="center">1963</td>
-<td align="center">3,205,706,699</td>
-<td align="center">2.19</td>
-<td align="center">71,110,065</td>
-</tr>
-<tr>
-<td align="center">1964</td>
-<td align="center">3,276,816,764</td>
-<td align="center">2.08</td>
-<td align="center">69,021,089</td>
-</tr>
-<tr>
-<td align="center">…</td>
-<td align="center">……</td>
-<td align="center">…</td>
-<td align="center">……</td>
-</tr>
-</tbody></table>
-<p>对于上面的人口统计数据集，当然可以选择使用统计回归模型 <strong>（数据型）</strong>。这无疑可以是一个选择，但这里我们更多的想讨论机理型的数学模型 <strong>（机理型）</strong>。两种类型的模型中机理型更侧重于问题的分析和解决，数据型更注重于数据的结果。</p>
-<h3 id="群体的增长趋势是什么？"><a href="#群体的增长趋势是什么？" class="headerlink" title="群体的增长趋势是什么？"></a>群体的增长趋势是什么？</h3><h4 id="马尔萨斯人口论"><a href="#马尔萨斯人口论" class="headerlink" title="马尔萨斯人口论"></a>马尔萨斯人口论</h4><h5 id="马尔萨斯"><a href="#马尔萨斯" class="headerlink" title="马尔萨斯"></a>马尔萨斯</h5><p>马尔萨斯(1766—1834)，英国牧师，被称为西方思想史上最富有争议的经济学家、 人口学家，以他1798年出版的<em>《人口原理》</em> 而闻名于世。</p>
-<h5 id="基本论题"><a href="#基本论题" class="headerlink" title="基本论题"></a>基本论题</h5><p>人类食物供给增长趋势无法跟上人口增长的趋势</p>
-<h5 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h5><ul>
-<li>食物为人类生存所必需</li>
-<li>两性间的情欲是必然，而且几乎会保持现状</li>
-</ul>
-<h5 id="基本论述"><a href="#基本论述" class="headerlink" title="基本论述"></a>基本论述</h5><p>马尔萨斯认为：</p>
-<ul>
-<li><p>人口有 <strong>几何增长</strong> 的趋势（即按 <strong>指数</strong> 函数增长的趋势），如级数（1，2，4，8，16，… ）</p>
-</li>
-<li><p>食物供应只有 <strong>算术增长</strong> 的趋势（即按 <strong>线性</strong> 函数增长的趋势），如级数（1，2，3，4，5，… ）</p>
-</li>
-</ul>
-<p>这样两种增长方式显然是不匹配的，所以他的结论是：<strong>人口会有无限的增长的趋势，直至食物供应的极限为止</strong></p>
-<h5 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h5><p>要控制人口的无节制增长。</p>
-<h3 id="马尔萨斯人口模型"><a href="#马尔萨斯人口模型" class="headerlink" title="马尔萨斯人口模型"></a>马尔萨斯人口模型</h3><p>在马尔萨斯的著作里并没有数学化的论述，甚为遗憾。<strong>公理的表述方式，则看出欧几里得对西方文化的影响</strong>。这里我们按马尔萨斯的想法和原则，数学化这个问题：</p>
-<p>$P(t)$  $t$ 时刻的人口数量</p>
-<p>我们的问题始终是：</p>
-<blockquote>
-<ol>
-<li><strong>已知当前或过去某个时刻的人口数量，预测未来某个时刻的人口？</strong></li>
-<li><strong>遥远未来的趋势（$t$ 趋于无穷）？</strong></li>
-</ol>
-</blockquote>
-<h4 id="高尔斯的推导"><a href="#高尔斯的推导" class="headerlink" title="高尔斯的推导"></a>高尔斯的推导</h4><p>蒂莫西·高尔斯在《数学》里也讨论了人口预测问题：“人口可以表示为一组数对 $(t,P(t))$ 。其中 $t$ 表示时间，$P(t)$ 表示时刻 $ t $ 的人口规模。另外我们要用到两个数 $b$ 和 $d$ 来表示出生率和死亡率。”</p>
-<p>假如2002年初人口总数是 $p$, 则2002年出生的人数和死亡的人数就分别是 $bp$ 和 $dp$, 所以2003年初的人口总数将是 $p+bp-dp=(1+b-d)p=(1+r)p$ ，这里的 $r$ 就是自然增长率。</p>
-<p>高尔斯这个模型是离散的，但是人口的增长是时刻变化而不是离散的，如果当前人口量是 $P(t)$，经过一个 $\Delta t$ 的时间人口量达到 $P(t+\Delta t)$，则此时有 $P(t+\Delta t)-P(t)=rP(t)\Delta t$ 。接着取极限使 $\Delta t$ 趋近于0：$P(t+dt)-P(t)=rP(t)dt$  </p>
-<blockquote>
-<p>$\frac{dP(t)}{dt}=rP(t)$   –&gt;   $P(t_0)=P_0$   –&gt;  $P(t)=P_0e^{r(t-t_0)}$</p>
-</blockquote>
-<p>最后我们发现人口数量函数是一个指数函数。通过推导出的上式我们解决了第一个问题，即已知当前或过去某个时刻的人口数量，预测未来某个时刻的人口只要带入当前人口就可以求解；而第二个问题由于是指数函数，这样的函数在 $t$ 趋于无穷时是快速趋于无穷的，所以马尔萨斯的论断是有理由的（他也确实使用欧洲的人口数据对模型进行验证）。</p>
-<h4 id="回顾"><a href="#回顾" class="headerlink" title="回顾"></a>回顾</h4><p>首先我们面对一个<strong>现实问题</strong>：人口会是怎么增长的；接着把现实问题<strong>表达为数学模型</strong>，并<strong>分析、求解模型</strong>；之后模型解变为<strong>问题的解决方案</strong>；最后解决方案回到现实问题，通过数据对模型进行验证。如果与现实并不符合，也可能需要修改数学模型与求解过程。马尔萨斯也是基于这个模型对人口进行论断：要控制人口的无节制增长。</p>
-<h3 id="Logistic模型"><a href="#Logistic模型" class="headerlink" title="Logistic模型"></a>Logistic模型</h3><p>高尔斯推导的微分方程固然不错，可事实上自然增长率 $r$ 不是常量，它也在时刻变化中。在马尔萨斯那个年代，因为人口数量还不是特别多，所以人口受资源的约束还没有那么大，可以维持自然增长，自然增长率可以是一个常数。但现在的情况下 **自然增长率一定会是时间的函数 $r(t)$**。当人口量增长到一定量的时候，人口数量一定会关联自然增长率，所以可以通过人口总量让自然增长率成为 $t$ 的函数 ：$r(t)=r(P(t))$</p>
-<p>Logistic模型中自然增长率 $r$ 依旧可以认为是一个常数，但是这个常数现在我们需要对它进行校正。下式可以发现相比高尔斯的模型多了一个参数 $K$，直观意义是地球最多能养活多少人，也就是 <strong>环境承载量</strong>。不同的社会学家和人口学家对这个问题没有统一的意见，但他们的共识是 <strong>$K$ 这个参数一定是存在的</strong>。</p>
-<blockquote>
-<p>$r(t)=r(P(t))=r(1-\frac{P(t)}{K})$</p>
-</blockquote>
-<h4 id="基本共识"><a href="#基本共识" class="headerlink" title="基本共识"></a>基本共识</h4><p>地球能养活的人一定是有限的</p>
-<h4 id="比较"><a href="#比较" class="headerlink" title="比较"></a>比较</h4><p>在这个共识下引入参数 $K$ 让Logistic模型比马尔萨斯更好一些。但马尔萨斯那个年代 $P(t)$ 远比 $K$ 要小，$\frac{P(t)}{K}$ 趋近于0 ，最后可以得到 $r(t)=r$，也就是马尔萨斯的猜想，没有什么问题。但到了19-20世纪的地球，后面的这一项 $\frac{P(t)}{K}$ 就变的不可以忽略了，马尔萨斯的模型因为太简单而不能解决现实问题，所以虽然引入参数让模型变得更加复杂，但也更符合实际情况。</p>
-<h4 id="推导"><a href="#推导" class="headerlink" title="推导"></a>推导</h4><blockquote>
-<p>$\frac{dN(t)}{dt}=r(1-\frac{N(t)}{K})N(t)$  </p>
-<p>$N(t_0)=N_0$</p>
-</blockquote>
-<p>$N(t)$表示时间 $t$ 处人口的数量，换个符号以区别于马尔萨斯模型</p>
-<blockquote>
-<p>$N(t)=\frac{K}{1+Ce^{-r(t-t_0)}}$</p>
-<p>$C=\frac{K-P_0}{P_0}$</p>
-</blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9yk47wlkj30ev08sq3j.jpg"></p>
-<p>回到之前的两个问题，第一个问题依然可以直接计算代入即可；第二个问题中令 $t$ 趋于无穷预测未来趋势，作图可以发现$K$ 是一个渐进线：如果初值比 $K$ 值小，人口会以“S”型曲线增长直至达到 $K$ 值饱和； 如果初值已经超过 $K$ 值，它会比较快速的下降到 $K$ 值之后稳定。</p>
-<h4 id="模型离散化"><a href="#模型离散化" class="headerlink" title="模型离散化"></a>模型离散化</h4><p>将微分方程再化为差分方程，考虑这个模型的离散化：</p>
-<blockquote>
-<p> $\frac{dN}{dt}=rN(1-\frac{N}{K})$  –&gt;  $\frac{\Delta N}{\Delta t}=rN(1-\frac{N}{K})$</p>
-<p> $\Delta N = N_{t+1}-N_t$</p>
-<p> $\Delta t = 1$</p>
-</blockquote>
-<p>这里差分方程的时间离散步长取为其，每一代就是一个时间步。</p>
-<blockquote>
-<p>$N_{t+1}-N_t=rN_t(1-\frac{N_t}{K})$</p>
-<p>$N_{t+1}=(1+r)N_t-\frac{r}{K}N_t^{2}$</p>
-</blockquote>
-<p>取定参数 $K$ ，考虑不同的参数 $r$ </p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9yjjz3r2j30gn08k3zt.jpg"></p>
-<p>可以发现 $t$ 越来越大时愈发趋近于 $K$ 。让我们再看一看 $r$ 变大一点的效果：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9yj5csmcj30fl080dhk.jpg"></p>
-<p>我们可以发现在极限状态下呈现出一定的周期性，极限也不一定是之前稳态的 $K$ 了，更像是一种平均值，所以严格来说它并没有极限，或者说是2周期的解，每两步就回来。那如果 $r$ 继续增大呢？</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9ylqp2m0j30gb07otaz.jpg"></p>
-<p>我们可以观察到它还是周期的，但不再是2周期的了，而是4周期的。那我们继续让 $r$ 增大：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9ygqasbdj30gh085ac9.jpg"></p>
-<p>随着 $r$ 的不断增大，最后甚至会出现“混沌”的状态：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gk9z26wrn9j30fj07576t.jpg"></p>
-<p>也就是说如果对这个问题做一个小的扰乱比如初始值，整个曲线后面变化会非常大，也可以说是对初值敏感的依赖（“混沌”的标准）。所以从离散化的模型我们可以得到这么丰富的现象，结果非常意外。</p>
-<h3 id="Leslie模型"><a href="#Leslie模型" class="headerlink" title="Leslie模型"></a>Leslie模型</h3><p>言归正传回到原来的问题，之前的两个模型都只考虑了 <strong>人口总量</strong> 的问题，而忽视了 <strong>人口分布</strong> 的问题：人口总量一样、人口分布不一样。这个问题的核心在于<strong>只有人口总量一个是否可以足够刻画人口</strong>，而 <strong>年龄分布</strong> 的引入显然是对人口更完整的刻画。</p>
-<p>假如现在以年为单位，年龄对人口进行切分：$N_t=\begin{pmatrix} n_0 \\ n_1 \\ … \\ n_s \end{pmatrix}_t$</p>
-<blockquote>
-<p>$n_{0,t+1}=F_0n_{0,t}+F_1n_{1,t}+…+F_sn_{s,t}$</p>
-<p>$n_{1,t+1}=p_0n_{0,t}$</p>
-<p>……</p>
-<p>$n_{s,t+1}=p_{s-1}n_{s-1,t}$</p>
-</blockquote>
-<p>上式中我们不只关心人口的总量，还要注意不同年龄段人口的分布。由于模型是离散的，所以自然可以写成矩阵的形式：</p>
-<blockquote>
-<p>$N_{n+1}=LN_t$</p>
-<p>$L = \begin{pmatrix} F_0 &amp; F_1 &amp; F_2 &amp; … &amp; F_s \\ p_0 &amp; 0 &amp; 0 &amp; … &amp; 0 \\ 0 &amp; p_1 &amp; 0 &amp; … &amp; 0 \\ 0 &amp; 0 &amp; … &amp; p_{s-1} &amp; 0\end{pmatrix}$</p>
-</blockquote>
-<p>该模型的复杂在于需要更多的参数：马尔萨斯需要1个参数、Logistic模型需要2个参数，而到了Leslie模型，我们需要更多的参数–人口分段的两倍。当有太多人为的参数的时候会出现许多不完全客观的东西，不可避免会带有主观性。那么利用数学模型去认知问题其实很重要的是 <strong>理性的手段带来更好的客观性</strong>。当这样的参数越来越多的时候，客观性就会受到损害。但也正是因为之前简单的模型无法解决今天越来越复杂的问题，我们才会去考虑更复杂的模型。</p>
-<p>回到之前反复研究的两个问题，在这些参数都比较好得到的情况下只需要乘上矩阵就可以得到下一年或者下一个时刻的，可以完美解决。而对于第二个问题，假设已知矩阵的特征值（$\lambda_0，\lambda_1，…，\lambda_s$）和相应的特征向量（$\nu_0,\nu_1，…，\nu_s$），如果初始人口设为 $N_0$，则有 ：</p>
-<blockquote>
-<p>$N_0=c_0v_0+\sum^S_{i=1}c_i(\lambda_i)^t\nu_t$</p>
-<p>$N_t=c_0(\lambda_0)^t\nu_0+\sum^S_{i=1}c_i(\lambda_i)^t\nu_i$</p>
-</blockquote>
-<p>当 $t$ 趋于无穷时，如果 $\lambda_0&gt;|\lambda_i| \space i = 1，2，…,s$，则有 $\lim_{t \to \infty}N_t \propto c_0(\lambda_0)^t \nu_0$,所以渐进状态是由首特征大小和对应的特征向量决定的，$|\lambda_0|&gt;1$ 人口会越来越多；$|\lambda_0|&lt;1$ 会逐渐走向灭亡；$|\lambda_0|=1$则会进入一个稳态。</p>
-<h3 id="更复杂的模型"><a href="#更复杂的模型" class="headerlink" title="更复杂的模型"></a>更复杂的模型</h3><p>对于更复杂的问题是否要采用更复杂的模型，具体还是要看需求。Leslie模型是离散的，我们可以考虑将模型重新连续化。这样我们需要考虑这样一个函数：它是 $t$ 的函数，同时也应该是年龄的多元函数 $P(a,t)$。我们也需要将之前的切分年龄段参数变成连续的分布函数： <code>出生率-年龄</code>函数 和 <code>存活率-年龄</code> 函数。</p>
-<p>真的问题都不是无病呻吟，如果可以解决问题，模型越简洁越好，没有复杂化的必要。模型变得越来越复杂，是因为有这种需求，这种需求不可避免的要做更复杂的模型，我们才去改进。回到人口问题本身，即使我们已经考虑到了年龄的影响因素，我们仍有许多影响因素没有考虑进来：</p>
-<ul>
-<li>地域差异</li>
-<li>移民的影响</li>
-</ul>
-<p>对于这种情况最好使用 <strong>随机模型</strong>，在模型中体现出过程的随机性。</p>
-<div align=center>
-  <font size="3">
-    <i> Acknowledgement <br/> 
-      <a href="https://www.behance.net/vibinks">vibin ks</a>
-    </i>
-  </font>
-</div>
-
-
-
-]]></content>
-      <categories>
-        <category>数学建模 (Mathematical Modeling)</category>
-      </categories>
-      <tags>
-        <tag>Math</tag>
-        <tag>Mooc</tag>
-        <tag>Mathematical Modeling</tag>
-        <tag>Population</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开始画像素画#1</title>
     <url>/archives/655d7201.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zfnfb9aj31hc0u00wn.jpg"></p>
@@ -6553,6 +6553,71 @@
       </tags>
   </entry>
   <entry>
+    <title>开始画像素画#3</title>
+    <url>/archives/90b77012.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zie8htlj31hc0u0dje.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解简单的 Aseprite 动画。</p>
+<span id="more"></span>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud6tcj7j30u008c74z.jpg"></p>
+<p>简单的 Aseprite 动画。这是系列的第 3 篇。</p>
+<h3 id="什么是动画？"><a href="#什么是动画？" class="headerlink" title="什么是动画？"></a>什么是动画？</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuggpz84g30dw05oab9.gif"></p>
+<p>动画是由一系列表现动作流程图像，按特定顺序播放，所引起的运动错觉。我们的工作就是让这个序列看起来尽可能让人信服。</p>
+<h3 id="时间轴"><a href="#时间轴" class="headerlink" title="时间轴"></a>时间轴</h3><p>首先我们要了解时间轴。它是一种在单个文件里表现多个图像的方法。每一列都是完整的图像，有一个编号，我们称之为帧。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudbdlr7j30dq02t0pm.jpg"></p>
+<p>新建帧的最简单方法是按 ALT + B。这会在当前选中帧的后面新建一个空白帧，然后选择它。你可以点击某帧来选中，或者按’,’,’.’改变选中帧，在键盘上找 &lt; 和 &gt;，比较好记。</p>
+<p>试着在不同帧上画些颜色，点击播放（Enter 键，回车）。也可以在预览窗口看，按 F7。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud72cy8j308w07idfl.jpg"></p>
+<p>你可能感觉“这么多快捷键我怎么记得住”，没关系。记住快捷键需要时间跟肌肉记忆，而且大部分也都可以只用鼠标完成。当你记不住某个快捷键，就在菜单里找找，或者查看 Aseprite 的官方键位参考图：<a href="https://www.aseprite.org/quickref/">https://www.aseprite.org/quickref/</a></p>
+<h3 id="一个非常简单的动画"><a href="#一个非常简单的动画" class="headerlink" title="一个非常简单的动画"></a>一个非常简单的动画</h3><p>画动画有非常多的技巧，比如应该按什么顺序绘制每帧，如何优化，不过我们暂时先讲我了解的最简单的一个技巧：一个“连续动作（straight-ahead）”的弹球动画。“连续动作”是指我们按顺序一帧一帧直接画，而不是先画出重要帧，再添加中间帧的方式。先建个 <code>32</code> 乘 <code>32</code> 的文件，随便选个调色盘。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudcea72j30pt03r741.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud855nnj30ig03va9t.jpg"></p>
+<p>动画第一帧我称之为“静止”。它既是概念图，定义动画的风格，也是这个序列的停止位置。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudekly7j30440440ba.jpg"></p>
+<p>你要注意这帧里添加的细节，因为下一帧也要保持相同的风格。</p>
+<p>接着复制这一帧（ALT + N），把它向上移动 <code>4</code> 像素，像这样：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudajda0j303u03w0b4.jpg"></p>
+<p>之后，继续向上 <code>3</code> 像素，<code>2</code> 像素，<code>1</code> 像素，多保持相同位置一帧，后面反过来一遍。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud8k43lj30gt029741.jpg"></p>
+<h3 id="节奏"><a href="#节奏" class="headerlink" title="节奏"></a>节奏</h3><p>尽管节奏的运用是个相当复杂的主题，甚至可以做一整期专门的教程，我现在简单的从技术方面讲一点，让你可以自己去试试。</p>
+<p>我们来添加一些节奏。球在落地后停一段时间，再跳起来。要增加某一帧的持续时间，右键 点击帧上的数字，选择帧属性（Frame Properties）。然后你可以输入你想要这帧持续的时间。我们试下 <code>300</code> 毫秒。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud9h0a1j308d05qdfm.jpg"></p>
+<p>你也可以选中多个帧，同时修改持续时间。对于一次性快速修改整个动画的速度很有帮助。</p>
+<h3 id="挤压和拉伸"><a href="#挤压和拉伸" class="headerlink" title="挤压和拉伸"></a>挤压和拉伸</h3><p>这里我们可以做的一个简单改进是添加一点挤压和拉伸，一种让动作看起来更流畅自然的技术。包括沿着运动方向拉伸或者压扁物体，同时保持整体面积。</p>
+<p>具体原理可以参考之前的教程：</p>
+<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MjIyOTc2Nw==&mid=2649561430&idx=1&sn=50924ed496f2b1a5e91c843bbc4c8384&chksm=beb0c9be89c740a8f0eb6ce3e7f98fc4a65e7bdba4cfe0738ee0e67594721cd5278f81a87de7&scene=21#wechat_redirect">链接：像素宝典 #8</a></p>
+<p>我们复制下第一帧，把它水平拉伸，垂直方向上压扁，保持整体体积。保持体积是很重要的，这样物体不会看起来变小或者变大了。当然这属于在我们更有经验之后可以尝试打破的规则，不过暂时还是遵守它。这帧也被称作“准备帧”，主要用来让下一帧发生的动作看起来更强烈。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud7nyyfj30bi0640kw.jpg"></p>
+<p>现在我们用同样方式复制并修改球落地时的帧，可以画的更加夸张点。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudd1yndj307m07l0f8.jpg"></p>
+<p>最后是垂直拉伸（同时水平挤压）跳起的第一帧和下落的最后一帧，当球速度最快的时候。这就完成了，我们看下结果：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudbt9f1j30mg07uwe9.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud9yqt4g305c05cmxc.gif"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudaxnfug305c05cq31.gif"></p>
+<h3 id="保存动画"><a href="#保存动画" class="headerlink" title="保存动画"></a>保存动画</h3><p>尽管保存成 <code>.aseprite</code> 格式可以保存动画，你可能想要把动画导出，发到网上或者用到游戏里。</p>
+<p>网上，最简单的方式是保存成 <code>gif</code>，用 <code>FIle &gt; Export...</code> 命令。勾选 <code>Export for twitter</code>， 如果你想把最后一帧修改成 <code>1/4</code> 的持续时间，这样即使 Twitter 把它转成 MP4 也可以完美播放。</p>
+<p>当导出给游戏使用时，通常会保存成 png，动画一般会分解成一个精灵表或者图像序列。要保存成图像序列，选择导出为 png 格式，导出的文件后都带一个数字，像是“<code>bounce00.png</code>”。这回导出多个文件，像“<code>bounce01.png</code>”，“<code>bounce02.png</code>”等等。</p>
+<p>有的引擎需要精灵表的形式，不需要手工处理，只要选择 File&gt;Export Sprite Sheet，可以改改设置，有很多参数可选。</p>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhude6qwbg305c05c747.gif"></p>
+<p>接下来我建议多试试时间轴，试着画点别的动画。你可以看看我其他的教程，选个感兴趣的跟着画画。</p>
+<p>另外也可以试试经典的初学者练习，画一个面粉袋走和跳的动画：<br><a href="https://www.youtube.com/watch?v=C8cbTGshkZw%E3%80%82">https://www.youtube.com/watch?v=C8cbTGshkZw。</a></p>
+<p>暂时保持低一点的分辨率和颜色数，不要太复杂了。</p>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开始画像素画#4</title>
     <url>/archives/ec50fbbd.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zj79coyj31hc0u00x5.jpg"></p>
@@ -6700,71 +6765,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#3</title>
-    <url>/archives/90b77012.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zie8htlj31hc0u0dje.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解简单的 Aseprite 动画。</p>
-<span id="more"></span>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud6tcj7j30u008c74z.jpg"></p>
-<p>简单的 Aseprite 动画。这是系列的第 3 篇。</p>
-<h3 id="什么是动画？"><a href="#什么是动画？" class="headerlink" title="什么是动画？"></a>什么是动画？</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhuggpz84g30dw05oab9.gif"></p>
-<p>动画是由一系列表现动作流程图像，按特定顺序播放，所引起的运动错觉。我们的工作就是让这个序列看起来尽可能让人信服。</p>
-<h3 id="时间轴"><a href="#时间轴" class="headerlink" title="时间轴"></a>时间轴</h3><p>首先我们要了解时间轴。它是一种在单个文件里表现多个图像的方法。每一列都是完整的图像，有一个编号，我们称之为帧。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudbdlr7j30dq02t0pm.jpg"></p>
-<p>新建帧的最简单方法是按 ALT + B。这会在当前选中帧的后面新建一个空白帧，然后选择它。你可以点击某帧来选中，或者按’,’,’.’改变选中帧，在键盘上找 &lt; 和 &gt;，比较好记。</p>
-<p>试着在不同帧上画些颜色，点击播放（Enter 键，回车）。也可以在预览窗口看，按 F7。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud72cy8j308w07idfl.jpg"></p>
-<p>你可能感觉“这么多快捷键我怎么记得住”，没关系。记住快捷键需要时间跟肌肉记忆，而且大部分也都可以只用鼠标完成。当你记不住某个快捷键，就在菜单里找找，或者查看 Aseprite 的官方键位参考图：<a href="https://www.aseprite.org/quickref/">https://www.aseprite.org/quickref/</a></p>
-<h3 id="一个非常简单的动画"><a href="#一个非常简单的动画" class="headerlink" title="一个非常简单的动画"></a>一个非常简单的动画</h3><p>画动画有非常多的技巧，比如应该按什么顺序绘制每帧，如何优化，不过我们暂时先讲我了解的最简单的一个技巧：一个“连续动作（straight-ahead）”的弹球动画。“连续动作”是指我们按顺序一帧一帧直接画，而不是先画出重要帧，再添加中间帧的方式。先建个 <code>32</code> 乘 <code>32</code> 的文件，随便选个调色盘。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudcea72j30pt03r741.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud855nnj30ig03va9t.jpg"></p>
-<p>动画第一帧我称之为“静止”。它既是概念图，定义动画的风格，也是这个序列的停止位置。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudekly7j30440440ba.jpg"></p>
-<p>你要注意这帧里添加的细节，因为下一帧也要保持相同的风格。</p>
-<p>接着复制这一帧（ALT + N），把它向上移动 <code>4</code> 像素，像这样：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudajda0j303u03w0b4.jpg"></p>
-<p>之后，继续向上 <code>3</code> 像素，<code>2</code> 像素，<code>1</code> 像素，多保持相同位置一帧，后面反过来一遍。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud8k43lj30gt029741.jpg"></p>
-<h3 id="节奏"><a href="#节奏" class="headerlink" title="节奏"></a>节奏</h3><p>尽管节奏的运用是个相当复杂的主题，甚至可以做一整期专门的教程，我现在简单的从技术方面讲一点，让你可以自己去试试。</p>
-<p>我们来添加一些节奏。球在落地后停一段时间，再跳起来。要增加某一帧的持续时间，右键 点击帧上的数字，选择帧属性（Frame Properties）。然后你可以输入你想要这帧持续的时间。我们试下 <code>300</code> 毫秒。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud9h0a1j308d05qdfm.jpg"></p>
-<p>你也可以选中多个帧，同时修改持续时间。对于一次性快速修改整个动画的速度很有帮助。</p>
-<h3 id="挤压和拉伸"><a href="#挤压和拉伸" class="headerlink" title="挤压和拉伸"></a>挤压和拉伸</h3><p>这里我们可以做的一个简单改进是添加一点挤压和拉伸，一种让动作看起来更流畅自然的技术。包括沿着运动方向拉伸或者压扁物体，同时保持整体面积。</p>
-<p>具体原理可以参考之前的教程：</p>
-<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MjIyOTc2Nw==&mid=2649561430&idx=1&sn=50924ed496f2b1a5e91c843bbc4c8384&chksm=beb0c9be89c740a8f0eb6ce3e7f98fc4a65e7bdba4cfe0738ee0e67594721cd5278f81a87de7&scene=21#wechat_redirect">链接：像素宝典 #8</a></p>
-<p>我们复制下第一帧，把它水平拉伸，垂直方向上压扁，保持整体体积。保持体积是很重要的，这样物体不会看起来变小或者变大了。当然这属于在我们更有经验之后可以尝试打破的规则，不过暂时还是遵守它。这帧也被称作“准备帧”，主要用来让下一帧发生的动作看起来更强烈。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud7nyyfj30bi0640kw.jpg"></p>
-<p>现在我们用同样方式复制并修改球落地时的帧，可以画的更加夸张点。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudd1yndj307m07l0f8.jpg"></p>
-<p>最后是垂直拉伸（同时水平挤压）跳起的第一帧和下落的最后一帧，当球速度最快的时候。这就完成了，我们看下结果：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudbt9f1j30mg07uwe9.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhud9yqt4g305c05cmxc.gif"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhudaxnfug305c05cq31.gif"></p>
-<h3 id="保存动画"><a href="#保存动画" class="headerlink" title="保存动画"></a>保存动画</h3><p>尽管保存成 <code>.aseprite</code> 格式可以保存动画，你可能想要把动画导出，发到网上或者用到游戏里。</p>
-<p>网上，最简单的方式是保存成 <code>gif</code>，用 <code>FIle &gt; Export...</code> 命令。勾选 <code>Export for twitter</code>， 如果你想把最后一帧修改成 <code>1/4</code> 的持续时间，这样即使 Twitter 把它转成 MP4 也可以完美播放。</p>
-<p>当导出给游戏使用时，通常会保存成 png，动画一般会分解成一个精灵表或者图像序列。要保存成图像序列，选择导出为 png 格式，导出的文件后都带一个数字，像是“<code>bounce00.png</code>”。这回导出多个文件，像“<code>bounce01.png</code>”，“<code>bounce02.png</code>”等等。</p>
-<p>有的引擎需要精灵表的形式，不需要手工处理，只要选择 File&gt;Export Sprite Sheet，可以改改设置，有很多参数可选。</p>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhude6qwbg305c05c747.gif"></p>
-<p>接下来我建议多试试时间轴，试着画点别的动画。你可以看看我其他的教程，选个感兴趣的跟着画画。</p>
-<p>另外也可以试试经典的初学者练习，画一个面粉袋走和跳的动画：<br><a href="https://www.youtube.com/watch?v=C8cbTGshkZw%E3%80%82">https://www.youtube.com/watch?v=C8cbTGshkZw。</a></p>
-<p>暂时保持低一点的分辨率和颜色数，不要太复杂了。</p>
-]]></content>
-      <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开始画像素画#6</title>
     <url>/archives/25e9a91.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zkn8uthj31hc0u0dju.jpg"></p>
@@ -6836,6 +6836,80 @@
 <p>如果要做自己的调色盘，Adobe 有个很棒的工具：</p>
 <p><a href="https://color.adobe.com/create/color-wheel/">https://color.adobe.com/create/color-wheel/</a></p>
 <p>最后提一下：记住，处理颜色是个很主观的事情。这里提到的都不是雷打不动的规则，都是灵活的指导方针，不过我还是建议在你能更自信的打破这些规则之前，继续遵守他们。</p>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开始画像素画#7</title>
+    <url>/archives/7559aa07.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zm7aw4aj31hc0u0jv1.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
+<span id="more"></span>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8bd0hfj30u008c74z.jpg"></p>
+<p>系列第 7 篇。</p>
+<h3 id="什么是线条"><a href="#什么是线条" class="headerlink" title="什么是线条"></a>什么是线条</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv89ju74j30ei0d812e.jpg"></p>
+<p>线条是艺术领域最重要的工具之一。他们可以用来强调形状，对比。现实世界里我们看不到线条，但他们能帮助我们分隔空间，创造纹理，表现体积和方向。</p>
+<p>在像素美术中，屏幕上的空间非常受限。每个像素都很重要，绘制线条就变得很昂贵。因此，如果你在画非常低像素作品，不推荐使用线条。即使有一些富裕的空间，还是要谨慎的使用线条，试着不使用线条去完成。最少化线条的使用，是保持像素画整洁的好办法。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640.png"></p>
+<p>不必要的线可以用阴影或者高对比区域代替。将线条与暗影部分融合能让画面显得更统一，自然。</p>
+<h3 id="不必要的拐角"><a href="#不必要的拐角" class="headerlink" title="不必要的拐角"></a>不必要的拐角</h3><p>之前简单的解释过（第一节），这里再进一步讲一下。</p>
+<p>这种不必要的拐角，通常出现在手绘线条时。你可以手工去清理，也可以打开铅笔工具的“像素完美”（<code>pixel perfect</code>）功能来避免这些。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88tzipj309w05c741.jpg"></p>
+<p>这个算法在画单像素线条时非常有用，不过不总是完美的，你还是应该知道如何手工去清理。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8cjbhrj30a205p0jc.jpg"></p>
+<p>查找模式很简单：每当你看到一个拐角（<code>3</code> 或 <code>4</code> 个像素组成的方形），思考一下这里是否应当是个拐角。如果这部分不是拐角，就去掉一个像素让他更圆。</p>
+<p>注意这跟锯齿是不同的，我在之前的章节（第二节）解释过锯齿，以及如何处理他们。修复拐角可能会创造出很多锯齿，所以通常这会是个多步过程：<code>绘制</code> &gt; <code>修复拐角</code> &gt; <code>修复锯齿</code>。</p>
+<h3 id="方形线"><a href="#方形线" class="headerlink" title="方形线"></a>方形线</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102237778.png"></p>
+<p>单像素线条问题还有一种更风格化的解决办法。你可以到处加拐角，而不是尝试去移除他们。听起来没道理，但确实是种风格化的选择，很有趣，适合高度风格化的作品，因为它模拟了一种更粗的线条。</p>
+<p>处理过程基本一样，只是你需要找到每个对角链接的像素，把它变方，而不是去删掉拐角。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8a5yvaj309w05m0i1.jpg"></p>
+<p>注意这样做也会产生很多锯齿，别忘了处理他们。</p>
+<h3 id="Colored-lines-有色线条"><a href="#Colored-lines-有色线条" class="headerlink" title="Colored lines 有色线条"></a>Colored lines 有色线条</h3><p>有些时候，尤其是在较低分辨率，线条会吸引过多的注意。有个弱化这种效果的方法是，给线条添加临近颜色的深色版本。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102250162.png"></p>
+<p>过程很简单，回顾每条你画的线条，试着修改成临近颜色的深色版本。当你这么做之后，所选的颜色会让相应的区域显得变大了，所以线条的位置可能需要调整。有时候你可能不确定选哪个临近的颜色，有时候可能很容易确定。当你不确定的时候，就选更深的颜色。</p>
+<p>我依然喜欢保留最外层的黑色描边，看分辨率合适的话我甚至会加倍这个外层描边。但这只是我个人的选择，你可以自己考虑。</p>
+<h3 id="线条草图"><a href="#线条草图" class="headerlink" title="线条草图"></a>线条草图</h3><p>之前我们学过像素簇草图的画法，这次来试点别的。这种方法很适合于画角色以及画动画帧，因为画起来很快，而且聚焦于形状，而不是光和色（像像素簇草图那样）。</p>
+<p>我们来做个实际案例学习，把这节提到的都应用上。如果你想要跟着做，建议新建 64*64 分辨率的画布，用 AAP-64 调色板。</p>
+<p><strong>Step 1  — 草图</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv87ygl3j30fh078mwx.jpg"></p>
+<p>第一步先忽略各种像素画的规则，尽可能流畅的勾勒出形状。基本上跟在纸上或者其他数字化的，非像素的媒介一样。不要过多考虑之后如何清理线条。完成后可以稍作整理，去除明显的标志线，定义一些形状。</p>
+<p><strong>Step 2  — 线条清理</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvbdn60dj307j0770sh.jpg"></p>
+<p>现在开始做清理。把草图层设置成半透明，可以 右键 点击图层名称，选择属性，再调低透明度。现在可以在上面的图层去画。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8ao6foj30c007zq2q.jpg"></p>
+<p>这里的思路是画出最终的线条图。先聚焦在重点线条上，比如构成角色剪影和脸部的线条。先不要关心颜色和光影，如果想画的话可以画一点主阴影，重点还是把主要形状弄对。</p>
+<p><strong>Step 3  —  底色</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102322791.png"></p>
+<p>很简单的一步，找到符合需求的颜色，用油漆桶填充进去。避免过于饱和和过亮的颜色。还不到画光影的时候，但是要考虑好画面应该如何被照亮，有些区域会被周围的颜色影响。</p>
+<p><strong>Step 4  —  光影</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88aqv3j307p077gld.jpg"></p>
+<p>开始给画添加光影，添加明暗区域。试着想象光会如何照射到你画的物体上，相应的渲染。这一步找个参考图是个很好的办法。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvaibzjbj309z07h742.jpg"></p>
+<p>我喜欢在这一步通过给弧线加上较深的颜色，来尽量弱化黑色的描边，就好像是做抗锯齿。不过别做太过，不然线条看起来会模糊。</p>
+<p>这一步可以调整线条，但重点是光影。</p>
+<p><strong>Step 5  —  线条上色和抗锯齿</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8c2gduj307p07agld.jpg"></p>
+<p>之前提到过，过多的黑色描边可能会分散注意力。通过上色来弱化他们是个不错的方法。只要找到周围最近，最深的颜色，并把描边改成这个色的更深版本就行。</p>
+<p>如果这个描边是用来分隔明显的区域，比如脖子和脸颊，衣领和头发，你可以画很深色，甚至保留黑色。这也是为什么我喜欢保持黑色的角色外层描边。弱化的过渡一般用亮一点的线，比如鼻子的线条。</p>
+<p><strong>Step 6  — 打磨细节</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvb2fvmtj307t076t8h.jpg"></p>
+<p>最后这步你需要确定所有线条都做过抗锯齿，所有阴影过渡都合理的软化过（或者没有！如果是硬过渡的话。），并添加上所有细节。</p>
+<p>添加背光，小的高亮，反射区域。因为所有东西都就位了，你可以衡量想要在画面添加多少细节。不要做得太过，注意别加入过多噪点。</p>
+<p>这就完成了！多去练习，并试着把前几节的概念也融入进来。</p>
+<p>Good luck!</p>
 ]]></content>
       <categories>
         <category>开始画像素画 (Making Pixel Art)</category>
@@ -7002,57 +7076,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#x79;&#x6f;&#x6e;&#103;&#64;&#116;&#115;&#105;&#x6e;&#x67;&#104;&#x75;&#x61;&#46;&#101;&#100;&#x75;&#x2e;&#x63;&#110;">&#x78;&#x79;&#x6f;&#x6e;&#103;&#64;&#116;&#115;&#105;&#x6e;&#x67;&#104;&#x75;&#x61;&#46;&#101;&#100;&#x75;&#x2e;&#x63;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#x79;&#111;&#x6e;&#103;&#64;&#116;&#115;&#x69;&#x6e;&#103;&#104;&#117;&#97;&#46;&#101;&#100;&#117;&#x2e;&#99;&#x6e;">&#120;&#x79;&#111;&#x6e;&#103;&#64;&#116;&#115;&#x69;&#x6e;&#103;&#104;&#117;&#97;&#46;&#101;&#100;&#117;&#x2e;&#99;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#117;&#99;&#104;&#x65;&#x6e;&#64;&#109;&#97;&#x69;&#108;&#x2e;&#x74;&#115;&#105;&#x6e;&#x67;&#x68;&#x75;&#x61;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#x6e;">&#121;&#117;&#99;&#104;&#x65;&#x6e;&#64;&#109;&#97;&#x69;&#108;&#x2e;&#x74;&#115;&#105;&#x6e;&#x67;&#x68;&#x75;&#x61;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#117;&#99;&#x68;&#101;&#x6e;&#x40;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#116;&#x73;&#105;&#110;&#x67;&#x68;&#117;&#97;&#46;&#101;&#100;&#117;&#46;&#x63;&#110;">&#x79;&#117;&#99;&#x68;&#101;&#x6e;&#x40;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#116;&#x73;&#105;&#110;&#x67;&#x68;&#117;&#97;&#46;&#101;&#100;&#117;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#116;&#x65;&#114;&#110;&#x61;&#x6c;&#x2e;&#x6e;&#x30;&#x38;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#x65;&#116;&#x65;&#114;&#110;&#x61;&#x6c;&#x2e;&#x6e;&#x30;&#x38;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#x74;&#x65;&#x72;&#x6e;&#x61;&#x6c;&#46;&#x6e;&#x30;&#56;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;">&#101;&#x74;&#x65;&#x72;&#x6e;&#x61;&#x6c;&#46;&#x6e;&#x30;&#56;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#98;&#x6a;&#x65;&#99;&#116;&#107;&#x75;&#x61;&#110;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#111;&#98;&#x6a;&#x65;&#99;&#116;&#107;&#x75;&#x61;&#110;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x6f;&#98;&#106;&#x65;&#x63;&#x74;&#107;&#117;&#97;&#110;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x6f;&#98;&#106;&#x65;&#x63;&#x74;&#107;&#117;&#97;&#110;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#114;&#100;&#102;&#x72;&#x61;&#x6e;&#x6b;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#99;&#114;&#100;&#102;&#x72;&#x61;&#x6e;&#x6b;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x63;&#x72;&#100;&#102;&#114;&#97;&#110;&#x6b;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x63;&#x72;&#100;&#102;&#114;&#97;&#110;&#x6b;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#97;&#x63;&#99;&#111;&#x72;&#97;&#119;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#116;&#97;&#x63;&#99;&#111;&#x72;&#97;&#119;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#116;&#x61;&#x63;&#x63;&#x6f;&#x72;&#x61;&#119;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#116;&#x61;&#x63;&#x63;&#x6f;&#x72;&#x61;&#119;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#105;&#110;&#x79;&#x75;&#110;&#x78;&#x69;&#x6e;&#103;&#x30;&#48;&#48;&#x31;&#64;&#49;&#x36;&#x33;&#46;&#99;&#x6f;&#x6d;">&#x78;&#105;&#110;&#x79;&#x75;&#110;&#x78;&#x69;&#x6e;&#103;&#x30;&#48;&#48;&#x31;&#64;&#49;&#x36;&#x33;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#120;&#x69;&#x6e;&#121;&#117;&#110;&#120;&#105;&#110;&#x67;&#48;&#48;&#x30;&#x31;&#x40;&#x31;&#x36;&#x33;&#x2e;&#99;&#111;&#x6d;">&#120;&#x69;&#x6e;&#121;&#117;&#110;&#120;&#105;&#110;&#x67;&#48;&#48;&#x30;&#x31;&#x40;&#x31;&#x36;&#x33;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#110;&#111;&#x63;&#x75;&#x69;&#x6c;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#103;&#110;&#111;&#x63;&#x75;&#x69;&#x6c;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#103;&#x6e;&#111;&#x63;&#117;&#x69;&#x6c;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#103;&#x6e;&#111;&#x63;&#117;&#x69;&#x6c;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#121;&#x61;&#105;&#x72;&#x69;&#97;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#x6d;&#121;&#x61;&#105;&#x72;&#x69;&#97;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#109;&#x79;&#97;&#x69;&#114;&#105;&#x61;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#109;&#x79;&#97;&#x69;&#114;&#105;&#x61;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#x68;&#97;&#x6e;&#103;&#x72;&#97;&#x69;&#110;&#x39;&#49;&#49;&#x40;&#x31;&#54;&#51;&#46;&#x63;&#x6f;&#109;">&#x7a;&#x68;&#97;&#x6e;&#103;&#x72;&#97;&#x69;&#110;&#x39;&#49;&#49;&#x40;&#x31;&#54;&#51;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x7a;&#104;&#97;&#x6e;&#x67;&#114;&#x61;&#105;&#x6e;&#x39;&#x31;&#x31;&#64;&#49;&#54;&#x33;&#x2e;&#x63;&#111;&#109;">&#x7a;&#104;&#97;&#x6e;&#x67;&#114;&#x61;&#105;&#x6e;&#x39;&#x31;&#x31;&#64;&#49;&#54;&#x33;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#103;&#120;&#x78;&#x31;&#x32;&#48;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#103;&#103;&#120;&#x78;&#x31;&#x32;&#48;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#103;&#120;&#120;&#x31;&#50;&#x30;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#103;&#120;&#120;&#x31;&#50;&#x30;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -7577,80 +7651,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#7</title>
-    <url>/archives/7559aa07.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zm7aw4aj31hc0u0jv1.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
-<span id="more"></span>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8bd0hfj30u008c74z.jpg"></p>
-<p>系列第 7 篇。</p>
-<h3 id="什么是线条"><a href="#什么是线条" class="headerlink" title="什么是线条"></a>什么是线条</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv89ju74j30ei0d812e.jpg"></p>
-<p>线条是艺术领域最重要的工具之一。他们可以用来强调形状，对比。现实世界里我们看不到线条，但他们能帮助我们分隔空间，创造纹理，表现体积和方向。</p>
-<p>在像素美术中，屏幕上的空间非常受限。每个像素都很重要，绘制线条就变得很昂贵。因此，如果你在画非常低像素作品，不推荐使用线条。即使有一些富裕的空间，还是要谨慎的使用线条，试着不使用线条去完成。最少化线条的使用，是保持像素画整洁的好办法。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640.png"></p>
-<p>不必要的线可以用阴影或者高对比区域代替。将线条与暗影部分融合能让画面显得更统一，自然。</p>
-<h3 id="不必要的拐角"><a href="#不必要的拐角" class="headerlink" title="不必要的拐角"></a>不必要的拐角</h3><p>之前简单的解释过（第一节），这里再进一步讲一下。</p>
-<p>这种不必要的拐角，通常出现在手绘线条时。你可以手工去清理，也可以打开铅笔工具的“像素完美”（<code>pixel perfect</code>）功能来避免这些。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88tzipj309w05c741.jpg"></p>
-<p>这个算法在画单像素线条时非常有用，不过不总是完美的，你还是应该知道如何手工去清理。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8cjbhrj30a205p0jc.jpg"></p>
-<p>查找模式很简单：每当你看到一个拐角（<code>3</code> 或 <code>4</code> 个像素组成的方形），思考一下这里是否应当是个拐角。如果这部分不是拐角，就去掉一个像素让他更圆。</p>
-<p>注意这跟锯齿是不同的，我在之前的章节（第二节）解释过锯齿，以及如何处理他们。修复拐角可能会创造出很多锯齿，所以通常这会是个多步过程：<code>绘制</code> &gt; <code>修复拐角</code> &gt; <code>修复锯齿</code>。</p>
-<h3 id="方形线"><a href="#方形线" class="headerlink" title="方形线"></a>方形线</h3><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102237778.png"></p>
-<p>单像素线条问题还有一种更风格化的解决办法。你可以到处加拐角，而不是尝试去移除他们。听起来没道理，但确实是种风格化的选择，很有趣，适合高度风格化的作品，因为它模拟了一种更粗的线条。</p>
-<p>处理过程基本一样，只是你需要找到每个对角链接的像素，把它变方，而不是去删掉拐角。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8a5yvaj309w05m0i1.jpg"></p>
-<p>注意这样做也会产生很多锯齿，别忘了处理他们。</p>
-<h3 id="Colored-lines-有色线条"><a href="#Colored-lines-有色线条" class="headerlink" title="Colored lines 有色线条"></a>Colored lines 有色线条</h3><p>有些时候，尤其是在较低分辨率，线条会吸引过多的注意。有个弱化这种效果的方法是，给线条添加临近颜色的深色版本。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102250162.png"></p>
-<p>过程很简单，回顾每条你画的线条，试着修改成临近颜色的深色版本。当你这么做之后，所选的颜色会让相应的区域显得变大了，所以线条的位置可能需要调整。有时候你可能不确定选哪个临近的颜色，有时候可能很容易确定。当你不确定的时候，就选更深的颜色。</p>
-<p>我依然喜欢保留最外层的黑色描边，看分辨率合适的话我甚至会加倍这个外层描边。但这只是我个人的选择，你可以自己考虑。</p>
-<h3 id="线条草图"><a href="#线条草图" class="headerlink" title="线条草图"></a>线条草图</h3><p>之前我们学过像素簇草图的画法，这次来试点别的。这种方法很适合于画角色以及画动画帧，因为画起来很快，而且聚焦于形状，而不是光和色（像像素簇草图那样）。</p>
-<p>我们来做个实际案例学习，把这节提到的都应用上。如果你想要跟着做，建议新建 64*64 分辨率的画布，用 AAP-64 调色板。</p>
-<p><strong>Step 1  — 草图</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv87ygl3j30fh078mwx.jpg"></p>
-<p>第一步先忽略各种像素画的规则，尽可能流畅的勾勒出形状。基本上跟在纸上或者其他数字化的，非像素的媒介一样。不要过多考虑之后如何清理线条。完成后可以稍作整理，去除明显的标志线，定义一些形状。</p>
-<p><strong>Step 2  — 线条清理</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvbdn60dj307j0770sh.jpg"></p>
-<p>现在开始做清理。把草图层设置成半透明，可以 右键 点击图层名称，选择属性，再调低透明度。现在可以在上面的图层去画。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8ao6foj30c007zq2q.jpg"></p>
-<p>这里的思路是画出最终的线条图。先聚焦在重点线条上，比如构成角色剪影和脸部的线条。先不要关心颜色和光影，如果想画的话可以画一点主阴影，重点还是把主要形状弄对。</p>
-<p><strong>Step 3  —  底色</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102322791.png"></p>
-<p>很简单的一步，找到符合需求的颜色，用油漆桶填充进去。避免过于饱和和过亮的颜色。还不到画光影的时候，但是要考虑好画面应该如何被照亮，有些区域会被周围的颜色影响。</p>
-<p><strong>Step 4  —  光影</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88aqv3j307p077gld.jpg"></p>
-<p>开始给画添加光影，添加明暗区域。试着想象光会如何照射到你画的物体上，相应的渲染。这一步找个参考图是个很好的办法。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvaibzjbj309z07h742.jpg"></p>
-<p>我喜欢在这一步通过给弧线加上较深的颜色，来尽量弱化黑色的描边，就好像是做抗锯齿。不过别做太过，不然线条看起来会模糊。</p>
-<p>这一步可以调整线条，但重点是光影。</p>
-<p><strong>Step 5  —  线条上色和抗锯齿</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8c2gduj307p07agld.jpg"></p>
-<p>之前提到过，过多的黑色描边可能会分散注意力。通过上色来弱化他们是个不错的方法。只要找到周围最近，最深的颜色，并把描边改成这个色的更深版本就行。</p>
-<p>如果这个描边是用来分隔明显的区域，比如脖子和脸颊，衣领和头发，你可以画很深色，甚至保留黑色。这也是为什么我喜欢保持黑色的角色外层描边。弱化的过渡一般用亮一点的线，比如鼻子的线条。</p>
-<p><strong>Step 6  — 打磨细节</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvb2fvmtj307t076t8h.jpg"></p>
-<p>最后这步你需要确定所有线条都做过抗锯齿，所有阴影过渡都合理的软化过（或者没有！如果是硬过渡的话。），并添加上所有细节。</p>
-<p>添加背光，小的高亮，反射区域。因为所有东西都就位了，你可以衡量想要在画面添加多少细节。不要做得太过，注意别加入过多噪点。</p>
-<p>这就完成了！多去练习，并试着把前几节的概念也融入进来。</p>
-<p>Good luck!</p>
-]]></content>
-      <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Aseprite教学-动画</title>
     <url>/archives/88d7e2f9.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><span id="more"></span>
@@ -7680,6 +7680,46 @@
 <p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloul37d40j313g0m8dfr.jpg"></p>
 <p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukycj5kj313g0m8a9z.jpg"></p>
 <p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloukugrr3j313g0m80sn.jpg"></p>
+]]></content>
+      <categories>
+        <category>像素美工 (Pixel Art Designing)</category>
+      </categories>
+      <tags>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Aseprite教学-绘画技巧与常见问题</title>
+    <url>/archives/4db0f4e3.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将列举像素绘画中的绘画技巧与常见问题。</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloustu5wwj313g0m8t8o.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousqzobbj313g0m8mx4.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouslixtaj313g0m8a9z.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousmhk7xj313g0m8dfr.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloustbouoj313g0m8q2v.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouso82xsj313g0m8748.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousj5qdkj313g0m8mx4.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousnq36ej313g0m8glj.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloussxygdj313g0m80so.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousnf3qpj313g0m8748.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousq1ligj313g0m8q2v.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousv94ozj313g0m80so.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouspquv1j313g0m8q2w.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousubkvpj313g0m8jre.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousk0956j313g0m8mx6.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousjhj1sj313g0m8748.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouskphbjj313g0m8t8o.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousrguphj313g0m83yh.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousuvjirj313g0m8mx4.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousp3k5qj313g0m8mx4.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloussa7axj313g0m8aa1.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousvoz8bj313g0m8t8o.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousl4cu2j313g0m8q2w.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousor05vj313g0m80sq.jpg"></p>
 ]]></content>
       <categories>
         <category>像素美工 (Pixel Art Designing)</category>
@@ -7938,46 +7978,6 @@
         <tag>Cpp</tag>
         <tag>PAT</tag>
         <tag>Online Judge</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Aseprite教学-绘画技巧与常见问题</title>
-    <url>/archives/4db0f4e3.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将列举像素绘画中的绘画技巧与常见问题。</p>
-<span id="more"></span>
-
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloustu5wwj313g0m8t8o.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousqzobbj313g0m8mx4.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouslixtaj313g0m8a9z.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousmhk7xj313g0m8dfr.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloustbouoj313g0m8q2v.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouso82xsj313g0m8748.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousj5qdkj313g0m8mx4.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousnq36ej313g0m8glj.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloussxygdj313g0m80so.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousnf3qpj313g0m8748.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousq1ligj313g0m8q2v.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousv94ozj313g0m80so.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouspquv1j313g0m8q2w.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousubkvpj313g0m8jre.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousk0956j313g0m8mx6.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousjhj1sj313g0m8748.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glouskphbjj313g0m8t8o.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousrguphj313g0m83yh.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousuvjirj313g0m8mx4.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousp3k5qj313g0m8mx4.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gloussa7axj313g0m8aa1.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousvoz8bj313g0m8t8o.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousl4cu2j313g0m8q2w.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glousor05vj313g0m80sq.jpg"></p>
-]]></content>
-      <categories>
-        <category>像素美工 (Pixel Art Designing)</category>
-      </categories>
-      <tags>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
       </tags>
   </entry>
   <entry>
