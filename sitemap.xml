@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yousazoe.top/archives/3bcb4b40.html</loc>
+    
+    <lastmod>2021-02-28</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/links/index.html</loc>
     
     <lastmod>2021-02-28</lastmod>
@@ -159,13 +166,6 @@
     <loc>http://yousazoe.top/archives/9209cb4c.html</loc>
     
     <lastmod>2021-02-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/archives/3bcb4b40.html</loc>
-    
-    <lastmod>2021-02-19</lastmod>
     
   </url>
   
@@ -760,13 +760,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/MOBA/</loc>
-    <lastmod>2021-02-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/tags/Japan/</loc>
     <lastmod>2021-02-28</lastmod>
     <changefreq>daily</changefreq>
@@ -774,14 +767,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/FPS/</loc>
+    <loc>http://yousazoe.top/tags/MOBA/</loc>
     <lastmod>2021-02-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/RTS/</loc>
+    <loc>http://yousazoe.top/tags/FPS/</loc>
     <lastmod>2021-02-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -796,6 +789,13 @@
   
   <url>
     <loc>http://yousazoe.top/tags/MMORPG/</loc>
+    <lastmod>2021-02-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/RTS/</loc>
     <lastmod>2021-02-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
