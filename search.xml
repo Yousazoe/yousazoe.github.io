@@ -114,9 +114,71 @@
         <category>LeetCode题解 (LeetCode Solution)</category>
       </categories>
       <tags>
+        <tag>Algorithm</tag>
         <tag>Cpp</tag>
         <tag>LeetCode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Algorithms and Data Structures I</title>
+    <url>/archives/ff860a3b.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/2c6a8066350161.5b14609dc369c.png"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/66350161/Vintage-80s-office">Vintage 80s office</a> by 
+      <a href="https://www.behance.net/MChahin">Mohamed Chahin</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>Acquire fundamental elements of algorithms and data structures.</p>
+<span id="more"></span>
+
+
+
+<h3 id="Topic-1-Getting-Started"><a href="#Topic-1-Getting-Started" class="headerlink" title="Topic #1 Getting Started"></a>Topic #1 Getting Started</h3><h4 id="ALDS1-1-A-Insertion-Sort"><a href="#ALDS1-1-A-Insertion-Sort" class="headerlink" title="ALDS1_1_A Insertion Sort"></a>ALDS1_1_A Insertion Sort</h4><blockquote>
+<p>Time Limit : <code>1 sec</code> , Memory Limit : <code>131072 KB</code> </p>
+</blockquote>
+<p>Write a program of the Insertion Sort algorithm which sorts a sequence A in ascending order. The algorithm should be based on the following pseudocode:</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> i = <span class="number">1</span> to A.length<span class="number">-1</span></span><br><span class="line">    key = A[i]</span><br><span class="line">    <span class="comment">/* insert A[i] into the sorted sequence A[0,...,j-1] */</span></span><br><span class="line">    j = i - <span class="number">1</span></span><br><span class="line">    <span class="keyword">while</span> j &gt;= <span class="number">0</span> <span class="keyword">and</span> A[j] &gt; key</span><br><span class="line">        A[j+<span class="number">1</span>] = A[j]</span><br><span class="line">        j--</span><br><span class="line">    A[j+<span class="number">1</span>] = key</span><br></pre></td></tr></table></figure>
+
+<p>Note that, indices for array elements are based on 0-origin.</p>
+<p>To illustrate the algorithms, your program should trace intermediate result for each step.</p>
+<h5 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h5><p>The first line of the input includes an integer N, the number of elements in the sequence.</p>
+<p>In the second line, <em>N</em> elements of the sequence are given separated by a single space.</p>
+<h5 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h5><p>The output consists of <em>N</em> lines. Please output the intermediate sequence in a line for each step. Elements of the sequence should be separated by single space.</p>
+<h5 id="Constraints"><a href="#Constraints" class="headerlink" title="Constraints"></a>Constraints</h5><p>1 ≤ <em>N</em> ≤ 100</p>
+<h5 id="Sample-Input-1"><a href="#Sample-Input-1" class="headerlink" title="Sample Input 1"></a>Sample Input 1</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">6</span><br><span class="line">5 2 4 6 1 3</span><br></pre></td></tr></table></figure>
+
+<h5 id="Sample-Output-1"><a href="#Sample-Output-1" class="headerlink" title="Sample Output 1"></a>Sample Output 1</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">5 2 4 6 1 3</span><br><span class="line">2 5 4 6 1 3</span><br><span class="line">2 4 5 6 1 3</span><br><span class="line">2 4 5 6 1 3</span><br><span class="line">1 2 4 5 6 3</span><br><span class="line">1 2 3 4 5 6</span><br></pre></td></tr></table></figure>
+
+<h5 id="Sample-Input-2"><a href="#Sample-Input-2" class="headerlink" title="Sample Input 2"></a>Sample Input 2</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">3</span><br><span class="line">1 2 3</span><br></pre></td></tr></table></figure>
+
+<h5 id="Sample-Output-2"><a href="#Sample-Output-2" class="headerlink" title="Sample Output 2"></a>Sample Output 2</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1 2 3</span><br><span class="line">1 2 3</span><br><span class="line">1 2 3</span><br></pre></td></tr></table></figure>
+
+<h5 id="問題を解く"><a href="#問題を解く" class="headerlink" title="問題を解く"></a>問題を解く</h5><p>本题要求我们实现插入排序算法并输出升序排列过程。在插入排序的过程中，会将整体数组分成“已排序部分”和“未排序部分”，题目中已经给出了插入排序的伪代码，我们可以先翻译一下整个排序过程：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">将开头元素视为已排序</span><br><span class="line">执行下述处理，直至未排序部分消失：</span><br><span class="line">	1. 取出未排序部分的开头元素赋给变量v</span><br><span class="line">	2. 在已排序的部分，将所有比v大的元素向后移一个单位</span><br><span class="line">	3. 将已取出的元素v插入空格</span><br></pre></td></tr></table></figure>
+
+<p>如果这段话不是很好理解，我们可以用下图来阐释排序的整个过程：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/insertionSort.gif"></p>
+<h5 id="注意点"><a href="#注意点" class="headerlink" title="注意点"></a>注意点</h5><ul>
+<li>数组长度是否足够长</li>
+<li>是否搞错了0起点和1起点的数组下标</li>
+<li>是否误用了循环变量（比如<code>i</code>、<code>j</code>）</li>
+<li>是否输出了多余的空格或换行</li>
+</ul>
+<h4 id="ALDS1-1-A-Insertion-Sort-1"><a href="#ALDS1-1-A-Insertion-Sort-1" class="headerlink" title="ALDS1_1_A Insertion Sort"></a>ALDS1_1_A Insertion Sort</h4><h4 id="ALDS1-1-A-Insertion-Sort-2"><a href="#ALDS1-1-A-Insertion-Sort-2" class="headerlink" title="ALDS1_1_A Insertion Sort"></a>ALDS1_1_A Insertion Sort</h4>]]></content>
+      <categories>
+        <category>会津大学在线测评 (Aizu Online Judge)</category>
+      </categories>
+      <tags>
         <tag>Algorithm</tag>
+        <tag>AOJ</tag>
+        <tag>Online Judge</tag>
+        <tag>Cpp</tag>
       </tags>
   </entry>
   <entry>
@@ -2885,9 +2947,9 @@
         <category>LeetCode题解 (LeetCode Solution)</category>
       </categories>
       <tags>
+        <tag>Algorithm</tag>
         <tag>Cpp</tag>
         <tag>LeetCode</tag>
-        <tag>Algorithm</tag>
       </tags>
   </entry>
   <entry>
@@ -11349,10 +11411,10 @@
         <category>会津大学在线测评 (Aizu Online Judge)</category>
       </categories>
       <tags>
-        <tag>Cpp</tag>
         <tag>Algorithm</tag>
-        <tag>Online Judge</tag>
         <tag>AOJ</tag>
+        <tag>Online Judge</tag>
+        <tag>Cpp</tag>
       </tags>
   </entry>
   <entry>
@@ -11400,57 +11462,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#121;&#x6f;&#x6e;&#x67;&#x40;&#x74;&#115;&#105;&#110;&#103;&#104;&#x75;&#x61;&#x2e;&#101;&#x64;&#x75;&#x2e;&#x63;&#x6e;">&#x78;&#121;&#x6f;&#x6e;&#x67;&#x40;&#x74;&#115;&#105;&#110;&#103;&#104;&#x75;&#x61;&#x2e;&#101;&#x64;&#x75;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#x79;&#111;&#x6e;&#103;&#64;&#x74;&#115;&#x69;&#110;&#103;&#x68;&#117;&#x61;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#110;">&#120;&#x79;&#111;&#x6e;&#103;&#64;&#x74;&#115;&#x69;&#110;&#103;&#x68;&#117;&#x61;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#x75;&#99;&#104;&#x65;&#110;&#64;&#109;&#97;&#x69;&#108;&#46;&#x74;&#115;&#105;&#110;&#103;&#104;&#117;&#97;&#46;&#101;&#x64;&#117;&#46;&#x63;&#110;">&#x79;&#x75;&#99;&#104;&#x65;&#110;&#64;&#109;&#97;&#x69;&#108;&#46;&#x74;&#115;&#105;&#110;&#103;&#104;&#117;&#97;&#46;&#101;&#x64;&#117;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#117;&#99;&#104;&#101;&#110;&#x40;&#x6d;&#97;&#105;&#x6c;&#46;&#116;&#115;&#105;&#x6e;&#103;&#x68;&#117;&#x61;&#46;&#101;&#x64;&#117;&#46;&#x63;&#110;">&#x79;&#117;&#99;&#104;&#101;&#110;&#x40;&#x6d;&#97;&#105;&#x6c;&#46;&#116;&#115;&#105;&#x6e;&#103;&#x68;&#117;&#x61;&#46;&#101;&#x64;&#117;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#x74;&#101;&#114;&#x6e;&#97;&#x6c;&#x2e;&#110;&#x30;&#56;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;">&#101;&#x74;&#101;&#114;&#x6e;&#97;&#x6c;&#x2e;&#110;&#x30;&#56;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#116;&#101;&#x72;&#110;&#97;&#108;&#x2e;&#x6e;&#48;&#x38;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;">&#101;&#116;&#101;&#x72;&#110;&#97;&#108;&#x2e;&#x6e;&#48;&#x38;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#98;&#x6a;&#101;&#x63;&#x74;&#x6b;&#x75;&#97;&#110;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#111;&#98;&#x6a;&#101;&#x63;&#x74;&#x6b;&#x75;&#97;&#110;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x6f;&#98;&#106;&#101;&#99;&#116;&#107;&#x75;&#97;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#x6f;&#98;&#106;&#101;&#99;&#116;&#107;&#x75;&#97;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#x72;&#x64;&#x66;&#x72;&#x61;&#110;&#x6b;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#x63;&#x72;&#x64;&#x66;&#x72;&#x61;&#110;&#x6b;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x63;&#114;&#100;&#102;&#x72;&#97;&#x6e;&#107;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x63;&#114;&#100;&#102;&#x72;&#97;&#x6e;&#107;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#97;&#99;&#x63;&#x6f;&#x72;&#97;&#x77;&#64;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#116;&#97;&#99;&#x63;&#x6f;&#x72;&#97;&#x77;&#64;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x74;&#97;&#x63;&#x63;&#x6f;&#114;&#x61;&#119;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x74;&#97;&#x63;&#x63;&#x6f;&#114;&#x61;&#119;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#105;&#110;&#x79;&#117;&#x6e;&#120;&#x69;&#x6e;&#x67;&#x30;&#x30;&#48;&#x31;&#64;&#49;&#x36;&#51;&#x2e;&#99;&#x6f;&#x6d;">&#120;&#105;&#110;&#x79;&#117;&#x6e;&#120;&#x69;&#x6e;&#x67;&#x30;&#x30;&#48;&#x31;&#64;&#49;&#x36;&#51;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x78;&#105;&#110;&#x79;&#x75;&#110;&#x78;&#x69;&#x6e;&#x67;&#x30;&#x30;&#x30;&#49;&#x40;&#x31;&#54;&#51;&#46;&#x63;&#x6f;&#109;">&#x78;&#105;&#110;&#x79;&#x75;&#110;&#x78;&#x69;&#x6e;&#x67;&#x30;&#x30;&#x30;&#49;&#x40;&#x31;&#54;&#51;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#110;&#x6f;&#x63;&#117;&#105;&#x6c;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;">&#x67;&#110;&#x6f;&#x63;&#117;&#105;&#x6c;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#110;&#111;&#x63;&#x75;&#105;&#108;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;">&#x67;&#110;&#111;&#x63;&#x75;&#105;&#108;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#x79;&#97;&#105;&#114;&#x69;&#97;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#111;&#x6d;">&#109;&#x79;&#97;&#105;&#114;&#x69;&#97;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x6d;&#x79;&#x61;&#x69;&#x72;&#x69;&#97;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x6d;&#x79;&#x61;&#x69;&#x72;&#x69;&#97;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#104;&#97;&#x6e;&#103;&#114;&#x61;&#x69;&#110;&#57;&#49;&#49;&#64;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#109;">&#x7a;&#104;&#97;&#x6e;&#103;&#114;&#x61;&#x69;&#110;&#57;&#49;&#49;&#64;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#122;&#104;&#x61;&#x6e;&#103;&#114;&#x61;&#105;&#x6e;&#x39;&#x31;&#49;&#x40;&#49;&#x36;&#x33;&#46;&#99;&#111;&#x6d;">&#122;&#104;&#x61;&#x6e;&#103;&#114;&#x61;&#105;&#x6e;&#x39;&#x31;&#49;&#x40;&#49;&#x36;&#x33;&#46;&#99;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#103;&#120;&#x78;&#x31;&#50;&#48;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#103;&#103;&#120;&#x78;&#x31;&#50;&#48;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#103;&#x78;&#x78;&#49;&#x32;&#48;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;">&#x67;&#103;&#x78;&#x78;&#49;&#x32;&#48;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -12036,9 +12098,9 @@
         <category>游戏开发 (Game Development)</category>
       </categories>
       <tags>
+        <tag>Cpp</tag>
         <tag>Game Develop</tag>
         <tag>SEGA</tag>
-        <tag>Cpp</tag>
       </tags>
   </entry>
   <entry>
@@ -12811,8 +12873,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>Mathematical Modeling</tag>
         <tag>GPS</tag>
+        <tag>Mathematical Modeling</tag>
       </tags>
   </entry>
   <entry>
@@ -13186,8 +13248,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>Population</tag>
         <tag>Mathematical Modeling</tag>
+        <tag>Population</tag>
       </tags>
   </entry>
   <entry>
@@ -14362,9 +14424,9 @@
         <category>计算机程序设计能力考试 (Programing Ability Test)</category>
       </categories>
       <tags>
+        <tag>Online Judge</tag>
         <tag>Cpp</tag>
         <tag>PAT</tag>
-        <tag>Online Judge</tag>
       </tags>
   </entry>
   <entry>
@@ -15738,7 +15800,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#101;&#110;&#x78;&#117;&#64;&#x74;&#101;&#x6e;&#x63;&#101;&#x6e;&#x74;&#x2e;&#99;&#111;&#109;">&#108;&#x65;&#101;&#110;&#x78;&#117;&#64;&#x74;&#101;&#x6e;&#x63;&#101;&#x6e;&#x74;&#x2e;&#99;&#111;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#x65;&#110;&#x78;&#117;&#64;&#116;&#101;&#x6e;&#x63;&#x65;&#110;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#108;&#x65;&#x65;&#110;&#x78;&#117;&#64;&#116;&#101;&#x6e;&#x63;&#x65;&#110;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
