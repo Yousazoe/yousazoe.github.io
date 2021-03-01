@@ -4044,6 +4044,40 @@
 <li><a href="https://tding.top/archives/7696c13f.html">Hexo-NexT 添加第三方服务</a></li>
 <li><a href="http://yearito.cn/posts/hexo-advanced-settings.html">Hexo 搭建个人博客系列：进阶设置篇</a></li>
 </ul>
+<h4 id="行为监测与反馈"><a href="#行为监测与反馈" class="headerlink" title="行为监测与反馈"></a>行为监测与反馈</h4><p><a href="https://www.hotjar.com/">Hotjar</a> 是一款轻量级的监测分析工具，能够提供用户行为监测和用户反馈分析，相比 Google Analysis 而言，它没有复杂的监测指标与分析报表，更加的简单实用，并且为免费用户提供 2000pv/day 的数据采集服务，适用于小型网站或个人博客的监测分析。</p>
+<p>Hotjar 主要提供 <strong>ANALYTICS</strong> 和 <strong>FEEDBACK</strong> 两大类服务。</p>
+<p>ANALYTICS 主要用于用户交互行为的监测分析，属于客观分析，包括以下四项具体功能：</p>
+<ul>
+<li>Heatmaps: 通过热力图可视化用户的鼠标交互行为，帮助理解用户动机和需求。</li>
+<li>Recording: 记录用户在站点的行为轨迹，了解应用的可用性以及用户遭遇的问题。</li>
+<li>Funnels: 记录每个页面或者步骤的用户流失率。</li>
+<li>Forms: 记录表单中每一项输入的完成率，完成时间以及用户流失率。</li>
+</ul>
+<p>FEEDBACK 主要为用户提供反馈渠道，收集用户观点与数据，属于主观分析，包括以下四项具体功能：</p>
+<ul>
+<li>Incoming: 即时反馈，了解用户对页面的评价。</li>
+<li>Polls: 投票反馈，获取某个问题的用户答案。</li>
+<li>Surveys: 问卷调查，以问卷形式获取用户反馈。</li>
+<li>Recruiters: 获取用户信息，招募用户用于用户调查或测试反馈。</li>
+</ul>
+<p>Hotjar 通过以上八项具体而实用的功能为用户提供主客观相结合的监测分析服务，可以说它是所有轻量级分析工具中唯一做到了主客观相结合的，同时也是所有主客观分析工具中，做的最轻量的。</p>
+<blockquote>
+<p>更多功能介绍请参考 <a href="https://www.hotjar.com/tour">Hotjar Features</a></p>
+</blockquote>
+<p>本站点中应用了 Incoming 即时反馈功能，读者可以通过该渠道评价页面或者提交勘误，点击悬挂在屏幕右侧的 Feedback 按钮弹出对话框，点击人物头像评价后将会跳转到如下界面：</p>
+<p><a href="http://yearito-1256884783.image.myqcloud.com/hexo-advanced-settings/hotjar-feedback.png"><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/hotjar-feedback.png"></a></p>
+<p>你可以在此页面输入反馈内容，并通过点击左下角的按钮在当前页面上标识目标元素，之后 hotjar 会将反馈内容连同带有高亮标识的页面截图一起提交到后台。</p>
+<p>在站点中集成 Hotjar 的各项功能，需要先 <a href="https://insights.hotjar.com/register">注册 Hotjar 账号</a>，根据指引一步步填写站点信息，然后在控制面板首页中获取 site ID。</p>
+<p>在主题配置文件下添加以下代码并补全 site ID：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Hotjar</span></span><br><span class="line"><span class="comment"># see: https://www.hotjar.com/</span></span><br><span class="line"><span class="attr">hotjar:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">siteID:</span> <span class="string">your</span> <span class="string">site</span> <span class="string">ID</span> <span class="comment"># site ID</span></span><br></pre></td></tr></table></figure>
+
+<p>在主题自定义布局文件中添加以下代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;# hotjar 页面反馈 #&#125; &#123;% if theme.hotjar.enable %&#125;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">  (function(h,o,t,j,a,r)&#123;</span><br><span class="line">    h.hj&#x3D;h.hj||function()&#123;(h.hj.q&#x3D;h.hj.q||[]).push(arguments)&#125;;</span><br><span class="line">    h._hjSettings&#x3D;&#123;hjid:&#123;&#123; theme.hotjar.siteID &#125;&#125;,hjsv:6&#125;;</span><br><span class="line">    a&#x3D;o.getElementsByTagName(&#39;head&#39;)[0];</span><br><span class="line">    r&#x3D;o.createElement(&#39;script&#39;);r.async&#x3D;1;</span><br><span class="line">    r.src&#x3D;t+h._hjSettings.hjid+j+h._hjSettings.hjsv;</span><br><span class="line">    a.appendChild(r);</span><br><span class="line">  &#125;)(window,document,&#39;https:&#x2F;&#x2F;static.hotjar.com&#x2F;c&#x2F;hotjar-&#39;,&#39;.js?sv&#x3D;&#39;);</span><br><span class="line">&lt;&#x2F;script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>如果 custom.swig 文件不存在，需要手动新建并在布局页面中 body 末尾引入：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">themes\next\layout_layout.swig      ...</span><br><span class="line">      &#123;% include &#39;_third-party&#x2F;exturl.swig&#39; %&#125;</span><br><span class="line">      &#123;% include &#39;_third-party&#x2F;bookmark.swig&#39; %&#125;</span><br><span class="line">      &#123;% include &#39;_third-party&#x2F;copy-code.swig&#39; %&#125;</span><br><span class="line"></span><br><span class="line">+     &#123;% include &#39;_custom&#x2F;custom.swig&#39; %&#125;</span><br><span class="line">    &lt;&#x2F;body&gt;</span><br><span class="line">  &lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure>
+
+<p>如此即可将 Hotjar 嵌入到站内，接下来在 Hotjar 控制台菜单中点击 Incoming，然后根据引导一步步配置即时反馈服务即可。</p>
 ]]></content>
       <categories>
         <category>博客搭建 (Blog Building)</category>
