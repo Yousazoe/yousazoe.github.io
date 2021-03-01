@@ -49,6 +49,8 @@
 <p>请你将两个数相加，并以相同形式返回一个表示和的链表。</p>
 <p>你可以假设除了数字 0 之外，这两个数都不会以 0 开头。</p>
 <h4 id="示例1"><a href="#示例1" class="headerlink" title="示例1"></a>示例1</h4><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/addtwonumber1.jpg"></p>
+<br/>
+
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：l1 &#x3D; [2,4,3], l2 &#x3D; [5,6,4]</span><br><span class="line">输出：[7,0,8]</span><br><span class="line">解释：342 + 465 &#x3D; 807.</span><br></pre></td></tr></table></figure>
 
 <h4 id="示例-2-1"><a href="#示例-2-1" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：l1 &#x3D; [0], l2 &#x3D; [0]</span><br><span class="line">输出：[0]</span><br></pre></td></tr></table></figure>
@@ -103,11 +105,18 @@
 </ul>
 <h4 id="默认模板-1"><a href="#默认模板-1" class="headerlink" title="默认模板"></a>默认模板</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">lengthOfLongestSubstring</span><span class="params">(<span class="built_in">string</span> s)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
+<h4 id="题解-2"><a href="#题解-2" class="headerlink" title="题解"></a>题解</h4><p>本题属于典型的滑动窗口问题，这类问题的逻辑基本上是这样：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> left = <span class="number">0</span>,right = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span>(right &lt; s.size())&#123;</span><br><span class="line">  window.add(s[right]);</span><br><span class="line">  right++;</span><br><span class="line">  </span><br><span class="line">  <span class="keyword">while</span>(window needs shrink)&#123;</span><br><span class="line">    window.remove(s[left]);</span><br><span class="line">    left++;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<p>因为左右指针只遍历字符串一次，所以时间复杂度为$O(N)$，比字符串暴力算法要高效的多。对上面的逻辑再加以整理，labuladong总结出一套滑动算法的代码框架：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">slidingWindow</span><span class="params">(<span class="built_in">string</span> s)</span></span>&#123;</span><br><span class="line">  <span class="built_in">unordered_map</span>&lt;<span class="keyword">char</span>,<span class="keyword">int</span>&gt; window;</span><br><span class="line">  </span><br><span class="line">  <span class="keyword">int</span> left = <span class="number">0</span>,right = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">while</span>(right &lt; s.size())&#123;</span><br><span class="line">    <span class="keyword">char</span> c = s[right];</span><br><span class="line">    right++;</span><br><span class="line">    </span><br><span class="line">    ......</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">while</span>(window needs shrink)&#123;</span><br><span class="line">      <span class="keyword">char</span> d = s[left];</span><br><span class="line">      left++;</span><br><span class="line">      </span><br><span class="line">      ......</span><br><span class="line">    &#125;  </span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<p>其中两处<code>...</code>表示更新窗口数据的地方，我们只需要在这里填入具体的窗口数据更新的逻辑即可，而且右移和左移的操作是完全对称的。</p>
+<p>回到本题，很显然当<code>window[c]</code>的值大于1时窗口存在重复的字符，不满足题目要求，移动<code>left</code>缩小窗口。比较难理解的是<code>res = max(res,right - left);</code>，我们可以理解为一种另类的求最大值，虽然指针在不断滑动，但<code>res</code>与<code>right-left</code>求最大值保证了之前的最大值与现在可能超过的长度进行比较从而得出我们需要的最长子串。如果还有疑问或者不理解可以带入下面的求解过程体会：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">(a)bcabcbb</span><br><span class="line">(ab)cabcbb</span><br><span class="line">(abc)abcbb</span><br><span class="line">abc(a)bcbb</span><br><span class="line">abc(ab)cbb</span><br><span class="line">abc(abc)bb</span><br><span class="line">abcabc(b)b</span><br><span class="line">abcabcb(b)</span><br></pre></td></tr></table></figure>
 
-
-<h4 id="题解-2"><a href="#题解-2" class="headerlink" title="题解"></a>题解</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<p>最后完整源码如下：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">lengthOfLongestSubstring</span><span class="params">(<span class="built_in">string</span> s)</span> </span>&#123;</span><br><span class="line">        <span class="built_in">unordered_map</span>&lt;<span class="keyword">char</span>,<span class="keyword">int</span>&gt; window;</span><br><span class="line">        <span class="keyword">int</span> left = <span class="number">0</span>,right = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> res = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; s.size();i++)&#123;</span><br><span class="line">            <span class="keyword">char</span> c = s[right++];</span><br><span class="line">            window[c]++;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">while</span>(window[c] &gt; <span class="number">1</span>)&#123;</span><br><span class="line">                <span class="keyword">char</span> d = s[left++];</span><br><span class="line">                window[d]--;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            res = max(res,right - left);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
@@ -11462,57 +11471,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#x79;&#111;&#x6e;&#103;&#64;&#x74;&#115;&#x69;&#110;&#103;&#x68;&#117;&#x61;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#110;">&#120;&#x79;&#111;&#x6e;&#103;&#64;&#x74;&#115;&#x69;&#110;&#103;&#x68;&#117;&#x61;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#121;&#111;&#x6e;&#103;&#x40;&#x74;&#x73;&#x69;&#x6e;&#103;&#104;&#x75;&#97;&#x2e;&#101;&#100;&#x75;&#46;&#99;&#110;">&#120;&#121;&#111;&#x6e;&#103;&#x40;&#x74;&#x73;&#x69;&#x6e;&#103;&#104;&#x75;&#97;&#x2e;&#101;&#100;&#x75;&#46;&#99;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#117;&#99;&#104;&#101;&#110;&#x40;&#x6d;&#97;&#105;&#x6c;&#46;&#116;&#115;&#105;&#x6e;&#103;&#x68;&#117;&#x61;&#46;&#101;&#x64;&#117;&#46;&#x63;&#110;">&#x79;&#117;&#99;&#104;&#101;&#110;&#x40;&#x6d;&#97;&#105;&#x6c;&#46;&#116;&#115;&#105;&#x6e;&#103;&#x68;&#117;&#x61;&#46;&#101;&#x64;&#117;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#117;&#99;&#x68;&#101;&#110;&#64;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x74;&#x73;&#105;&#x6e;&#x67;&#104;&#117;&#x61;&#46;&#101;&#100;&#117;&#x2e;&#x63;&#110;">&#x79;&#117;&#99;&#x68;&#101;&#110;&#64;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x74;&#x73;&#105;&#x6e;&#x67;&#104;&#117;&#x61;&#46;&#101;&#100;&#117;&#x2e;&#x63;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#116;&#101;&#x72;&#110;&#97;&#108;&#x2e;&#x6e;&#48;&#x38;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;">&#101;&#116;&#101;&#x72;&#110;&#97;&#108;&#x2e;&#x6e;&#48;&#x38;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x65;&#116;&#x65;&#x72;&#x6e;&#97;&#x6c;&#46;&#x6e;&#x30;&#x38;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#x65;&#116;&#x65;&#x72;&#x6e;&#97;&#x6c;&#46;&#x6e;&#x30;&#x38;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#98;&#106;&#101;&#99;&#116;&#107;&#x75;&#97;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#x6f;&#98;&#106;&#101;&#99;&#116;&#107;&#x75;&#97;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#111;&#x62;&#x6a;&#101;&#99;&#x74;&#x6b;&#x75;&#x61;&#x6e;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#109;">&#111;&#x62;&#x6a;&#101;&#99;&#x74;&#x6b;&#x75;&#x61;&#x6e;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#114;&#100;&#102;&#x72;&#97;&#x6e;&#107;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x63;&#114;&#100;&#102;&#x72;&#97;&#x6e;&#107;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#114;&#x64;&#x66;&#114;&#97;&#x6e;&#107;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#x6d;">&#x63;&#114;&#x64;&#x66;&#114;&#97;&#x6e;&#107;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#97;&#x63;&#x63;&#x6f;&#114;&#x61;&#119;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x74;&#97;&#x63;&#x63;&#x6f;&#114;&#x61;&#119;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#116;&#x61;&#99;&#99;&#111;&#x72;&#x61;&#119;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#116;&#x61;&#99;&#99;&#111;&#x72;&#x61;&#119;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#105;&#110;&#x79;&#x75;&#110;&#x78;&#x69;&#x6e;&#x67;&#x30;&#x30;&#x30;&#49;&#x40;&#x31;&#54;&#51;&#46;&#x63;&#x6f;&#109;">&#x78;&#105;&#110;&#x79;&#x75;&#110;&#x78;&#x69;&#x6e;&#x67;&#x30;&#x30;&#x30;&#49;&#x40;&#x31;&#54;&#51;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x78;&#105;&#x6e;&#x79;&#x75;&#x6e;&#x78;&#x69;&#x6e;&#103;&#x30;&#x30;&#x30;&#x31;&#x40;&#49;&#x36;&#51;&#46;&#x63;&#x6f;&#109;">&#x78;&#105;&#x6e;&#x79;&#x75;&#x6e;&#x78;&#x69;&#x6e;&#103;&#x30;&#x30;&#x30;&#x31;&#x40;&#49;&#x36;&#51;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#110;&#111;&#x63;&#x75;&#105;&#108;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;">&#x67;&#110;&#111;&#x63;&#x75;&#105;&#108;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#103;&#x6e;&#x6f;&#99;&#x75;&#x69;&#x6c;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#103;&#x6e;&#x6f;&#99;&#x75;&#x69;&#x6c;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#x79;&#x61;&#x69;&#x72;&#x69;&#97;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x6d;&#x79;&#x61;&#x69;&#x72;&#x69;&#97;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#109;&#121;&#97;&#x69;&#114;&#105;&#x61;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#109;&#121;&#97;&#x69;&#114;&#105;&#x61;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#104;&#x61;&#x6e;&#103;&#114;&#x61;&#105;&#x6e;&#x39;&#x31;&#49;&#x40;&#49;&#x36;&#x33;&#46;&#99;&#111;&#x6d;">&#122;&#104;&#x61;&#x6e;&#103;&#114;&#x61;&#105;&#x6e;&#x39;&#x31;&#49;&#x40;&#49;&#x36;&#x33;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#122;&#104;&#97;&#x6e;&#x67;&#114;&#97;&#105;&#110;&#57;&#x31;&#x31;&#x40;&#49;&#x36;&#51;&#46;&#99;&#111;&#x6d;">&#122;&#104;&#97;&#x6e;&#x67;&#114;&#97;&#105;&#110;&#57;&#x31;&#x31;&#x40;&#49;&#x36;&#51;&#46;&#99;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#103;&#x78;&#x78;&#49;&#x32;&#48;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;">&#x67;&#103;&#x78;&#x78;&#49;&#x32;&#48;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x67;&#120;&#x78;&#49;&#x32;&#x30;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;">&#x67;&#x67;&#120;&#x78;&#49;&#x32;&#x30;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -12873,8 +12882,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>GPS</tag>
         <tag>Mathematical Modeling</tag>
+        <tag>GPS</tag>
       </tags>
   </entry>
   <entry>
@@ -13248,8 +13257,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>Mathematical Modeling</tag>
         <tag>Population</tag>
+        <tag>Mathematical Modeling</tag>
       </tags>
   </entry>
   <entry>
@@ -15800,7 +15809,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#x65;&#110;&#x78;&#117;&#64;&#116;&#101;&#x6e;&#x63;&#x65;&#110;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#108;&#x65;&#x65;&#110;&#x78;&#117;&#64;&#116;&#101;&#x6e;&#x63;&#x65;&#110;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#101;&#x6e;&#x78;&#x75;&#64;&#x74;&#101;&#x6e;&#99;&#x65;&#x6e;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#x6c;&#101;&#101;&#x6e;&#x78;&#x75;&#64;&#x74;&#101;&#x6e;&#99;&#x65;&#x6e;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>

@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yousazoe.top/archives/ba8c707b.html</loc>
+    
+    <lastmod>2021-03-01</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/archives/ff860a3b.html</loc>
     
     <lastmod>2021-03-01</lastmod>
@@ -10,13 +17,6 @@
   
   <url>
     <loc>http://yousazoe.top/archives/c735be6b.html</loc>
-    
-    <lastmod>2021-03-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/archives/ba8c707b.html</loc>
     
     <lastmod>2021-03-01</lastmod>
     
@@ -725,6 +725,20 @@
 
   
   <url>
+    <loc>http://yousazoe.top/tags/Story/</loc>
+    <lastmod>2021-03-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/Celeste/</loc>
+    <lastmod>2021-03-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/tags/Algorithm/</loc>
     <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
@@ -747,20 +761,6 @@
   
   <url>
     <loc>http://yousazoe.top/tags/Cpp/</loc>
-    <lastmod>2021-03-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Story/</loc>
-    <lastmod>2021-03-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Celeste/</loc>
     <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -810,13 +810,6 @@
   
   <url>
     <loc>http://yousazoe.top/tags/Japan/</loc>
-    <lastmod>2021-03-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/FPS/</loc>
     <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -949,7 +942,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/GPS/</loc>
+    <loc>http://yousazoe.top/tags/Population/</loc>
     <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -963,7 +956,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Population/</loc>
+    <loc>http://yousazoe.top/tags/GPS/</loc>
     <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1040,14 +1033,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Fluid/</loc>
+    <loc>http://yousazoe.top/tags/FPS/</loc>
     <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Computer-Graphics/</loc>
+    <loc>http://yousazoe.top/tags/Fluid/</loc>
     <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1074,17 +1067,24 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>http://yousazoe.top/tags/Computer-Graphics/</loc>
+    <lastmod>2021-03-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
-    <loc>http://yousazoe.top/categories/%E4%BC%9A%E6%B4%A5%E5%A4%A7%E5%AD%A6%E5%9C%A8%E7%BA%BF%E6%B5%8B%E8%AF%84-Aizu-Online-Judge/</loc>
+    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%B9%95%E5%90%8E-Behind-the-Game/</loc>
     <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%B9%95%E5%90%8E-Behind-the-Game/</loc>
+    <loc>http://yousazoe.top/categories/%E4%BC%9A%E6%B4%A5%E5%A4%A7%E5%AD%A6%E5%9C%A8%E7%BA%BF%E6%B5%8B%E8%AF%84-Aizu-Online-Judge/</loc>
     <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1245,14 +1245,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%83%8F%E5%AD%A6-Foundations-of-Computer-Graphics/</loc>
+    <loc>http://yousazoe.top/categories/Github%E5%85%A5%E9%97%A8-Introducing-Github/</loc>
     <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/Github%E5%85%A5%E9%97%A8-Introducing-Github/</loc>
+    <loc>http://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%83%8F%E5%AD%A6-Foundations-of-Computer-Graphics/</loc>
     <lastmod>2021-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
