@@ -321,7 +321,20 @@
 <p>8-bit处理器，可更换游戏的设计，标志着家用游戏主机进入第二个世代。</p>
 <p>第三方游戏开发合法化，由于缺乏监管标准导致涌现出大量垃圾游戏，最终引发了“雅加达震荡”事件。美国的游戏业陷入萧条，家用市场开始由美国向日本转移。</p>
 <p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/IMG_7381.jpg"></p>
-<h3 id="游戏是如何开发出来的"><a href="#游戏是如何开发出来的" class="headerlink" title="游戏是如何开发出来的"></a>游戏是如何开发出来的</h3><h3 id="游戏引擎"><a href="#游戏引擎" class="headerlink" title="游戏引擎"></a>游戏引擎</h3><h3 id="如何成为一个游戏开发者"><a href="#如何成为一个游戏开发者" class="headerlink" title="如何成为一个游戏开发者"></a>如何成为一个游戏开发者</h3>]]></content>
+<h5 id="第三世代-1983-1987"><a href="#第三世代-1983-1987" class="headerlink" title="第三世代 1983-1987"></a>第三世代 1983-1987</h5><p>代表机型：任天堂FC、世嘉Master System、Atari7800</p>
+<p>进入第三时代后，家用游戏游戏机的重心完全倒向日本，甚至于可以说是任天堂与世嘉一对一的竞争。涌现出诸如《超级马里奥兄弟》《勇者斗恶龙》《最终幻想》等至今仍然活跃的经典游戏系列。</p>
+<p>无论硬件产品还是软件阵容，第三世代都是重大的转折点，对未来游戏主机的发展产生了深远的影响。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/quality,q_90.jpeg"></p>
+<h5 id="第四世代-1987-1994"><a href="#第四世代-1987-1994" class="headerlink" title="第四世代 1987-1994"></a>第四世代 1987-1994</h5><p>代表机型：Mega Drive、Super FamiCom、Neo-Geo、PC Engine</p>
+<p>家用游戏主机开始步入16-bit芯片时代。</p>
+<p>任天堂的SFC依然是本世纪销量最高的主机，世嘉凭借MD迎来了其在主机硬件历史上的黄金时代。更强的处理芯片、更丰富的控制器设计、更出众的图像表现效果等等，基本都是本世代游戏主机的特色。</p>
+<p>缺少具有革命性的重大变革，更多的是稳扎稳打的完善与进步。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/maxresdefault-20210303002455811.jpg"></p>
+<h5 id="第五世代-1993-1999"><a href="#第五世代-1993-1999" class="headerlink" title="第五世代 1993-1999"></a>第五世代 1993-1999</h5><p>代表机型：Jaguar、3DO、SEGA Saturn、PlayStation、N64</p>
+<p>游戏画面的呈现方式逐渐由2D向3D转变。</p>
+<p>光盘存储介质也真正全面取代了卡带成为主流的游戏载体，在家用游戏机史上是具有革命意义的里程碑，行业格局发生了天翻地覆的变化。</p>
+<p>作为一个后来者，索尼凭借PlayStation一举颠覆了整个行业，获得了巨大的成功。</p>
+<h5 id="第六世代-1999-2004"><a href="#第六世代-1999-2004" class="headerlink" title="第六世代 1999-2004"></a>第六世代 1999-2004</h5><h3 id="游戏是如何开发出来的"><a href="#游戏是如何开发出来的" class="headerlink" title="游戏是如何开发出来的"></a>游戏是如何开发出来的</h3><h3 id="游戏引擎"><a href="#游戏引擎" class="headerlink" title="游戏引擎"></a>游戏引擎</h3><h3 id="如何成为一个游戏开发者"><a href="#如何成为一个游戏开发者" class="headerlink" title="如何成为一个游戏开发者"></a>如何成为一个游戏开发者</h3>]]></content>
       <categories>
         <category>游戏程序设计 (Game Programming)</category>
       </categories>
@@ -3061,7 +3074,7 @@
       </tags>
   </entry>
   <entry>
-    <title>博客使用插件总结</title>
+    <title>NexT博客使用插件总结</title>
     <url>/archives/c12c9c40.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nnpskhxj311i0gywkf.jpg"></p>
 <div align=center>
@@ -3205,7 +3218,7 @@
 
 
 <h3 id="图片懒加载"><a href="#图片懒加载" class="headerlink" title="图片懒加载"></a>图片懒加载</h3><h4 id="地址-8"><a href="#地址-8" class="headerlink" title="地址"></a>地址</h4><ul>
-<li><a href=""></a></li>
+<li><a href="">hexo-lazyload</a></li>
 </ul>
 <h4 id="安装配置-8"><a href="#安装配置-8" class="headerlink" title="安装配置"></a>安装配置</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-lazyload --save</span><br></pre></td></tr></table></figure>
 
@@ -3239,7 +3252,27 @@
 
 
 
-<h3 id="播放器标签"><a href="#播放器标签" class="headerlink" title="播放器标签"></a>播放器标签</h3><h4 id="地址-10"><a href="#地址-10" class="headerlink" title="地址"></a>地址</h4><ul>
+<h3 id="Live2D"><a href="#Live2D" class="headerlink" title="Live2D"></a>Live2D</h3><h4 id="地址-10"><a href="#地址-10" class="headerlink" title="地址"></a>地址</h4><ul>
+<li><a href="https://github.com/EYHN/hexo-helper-live2d">hexo-helper-live2d</a></li>
+</ul>
+<h4 id="安装配置-9"><a href="#安装配置-9" class="headerlink" title="安装配置"></a>安装配置</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure>
+
+<h4 id="选择模型"><a href="#选择模型" class="headerlink" title="选择模型"></a>选择模型</h4><p>可到<a href="https://huaji8.top/post/live2d-plugin-2.0/%E9%A2%84%E8%A7%88%E6%95%88%E6%9E%9C%E3%80%82">https://huaji8.top/post/live2d-plugin-2.0/预览效果。</a></p>
+<p>命令为:<code>npm install live2d-widget-model-模型名</code>，模型为可参考上面的预览内容，安装模型:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install live2d-widget-model-hijiki</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h4><p>站点的配置文件<code>\_config.yml</code>或者是主题的配置文件中添加：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Live2D</span></span><br><span class="line"><span class="comment">## https://github.com/EYHN/hexo-helper-live2d</span></span><br><span class="line"><span class="attr">live2d:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">scriptFrom:</span> <span class="string">local</span></span><br><span class="line">  <span class="attr">pluginRootPath:</span> <span class="string">live2dw/</span></span><br><span class="line">  <span class="attr">pluginJsPath:</span> <span class="string">lib/</span></span><br><span class="line">  <span class="attr">pluginModelPath:</span> <span class="string">assets/</span></span><br><span class="line">  <span class="attr">tagMode:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">debug:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">model:</span></span><br><span class="line">    <span class="attr">use:</span> <span class="string">live2d-widget-model-hijiki</span> <span class="comment"># 模型：https://huaji8.top/post/live2d-plugin-2.0/</span></span><br><span class="line">  <span class="attr">display:</span></span><br><span class="line">    <span class="attr">position:</span> <span class="string">right</span></span><br><span class="line">    <span class="attr">width:</span> <span class="number">50</span></span><br><span class="line">    <span class="attr">height:</span> <span class="number">100</span></span><br><span class="line">  <span class="attr">mobile:</span></span><br><span class="line">    <span class="attr">show:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h4><ul>
+<li><a href="https://yansheng836.github.io/article/e239dc63.html">hexo+yilia添加Live2D看板娘</a></li>
+<li><a href="https://huaji8.top/post/live2d-plugin-2.0/">hexo live2d插件 2.0 !</a></li>
+</ul>
+<h3 id="播放器标签"><a href="#播放器标签" class="headerlink" title="播放器标签"></a>播放器标签</h3><h4 id="地址-11"><a href="#地址-11" class="headerlink" title="地址"></a>地址</h4><ul>
 <li><a href="https://github.com/MoePlayer/hexo-tag-aplayer">hexo-tag-aplayer</a></li>
 </ul>
 <h4 id="安装-1"><a href="#安装-1" class="headerlink" title="安装"></a>安装</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-tag-aplayer --save</span><br><span class="line">npm install hexo-tag-dplayer --save</span><br></pre></td></tr></table></figure>
@@ -11631,57 +11664,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#121;&#111;&#x6e;&#103;&#64;&#116;&#115;&#x69;&#110;&#x67;&#x68;&#x75;&#x61;&#x2e;&#101;&#x64;&#117;&#46;&#x63;&#x6e;">&#120;&#121;&#111;&#x6e;&#103;&#64;&#116;&#115;&#x69;&#110;&#x67;&#x68;&#x75;&#x61;&#x2e;&#101;&#x64;&#117;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#121;&#x6f;&#110;&#x67;&#64;&#116;&#x73;&#x69;&#x6e;&#103;&#x68;&#x75;&#97;&#x2e;&#101;&#100;&#x75;&#x2e;&#x63;&#x6e;">&#120;&#121;&#x6f;&#110;&#x67;&#64;&#116;&#x73;&#x69;&#x6e;&#103;&#x68;&#x75;&#97;&#x2e;&#101;&#100;&#x75;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#x75;&#99;&#104;&#x65;&#x6e;&#x40;&#x6d;&#97;&#105;&#x6c;&#46;&#x74;&#115;&#x69;&#x6e;&#x67;&#x68;&#117;&#x61;&#46;&#x65;&#100;&#117;&#46;&#99;&#110;">&#121;&#x75;&#99;&#104;&#x65;&#x6e;&#x40;&#x6d;&#97;&#105;&#x6c;&#46;&#x74;&#115;&#x69;&#x6e;&#x67;&#x68;&#117;&#x61;&#46;&#x65;&#100;&#117;&#46;&#99;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#x75;&#99;&#104;&#101;&#110;&#64;&#109;&#x61;&#x69;&#108;&#x2e;&#x74;&#x73;&#x69;&#110;&#x67;&#104;&#x75;&#97;&#x2e;&#101;&#100;&#x75;&#46;&#99;&#x6e;">&#121;&#x75;&#99;&#104;&#101;&#110;&#64;&#109;&#x61;&#x69;&#108;&#x2e;&#x74;&#x73;&#x69;&#110;&#x67;&#104;&#x75;&#97;&#x2e;&#101;&#100;&#x75;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#116;&#x65;&#114;&#x6e;&#97;&#108;&#46;&#110;&#x30;&#56;&#64;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;">&#x65;&#116;&#x65;&#114;&#x6e;&#97;&#108;&#46;&#110;&#x30;&#56;&#64;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x65;&#116;&#101;&#114;&#110;&#97;&#x6c;&#46;&#110;&#48;&#56;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#x65;&#116;&#101;&#114;&#110;&#97;&#x6c;&#46;&#110;&#48;&#56;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#98;&#106;&#101;&#x63;&#x74;&#x6b;&#117;&#97;&#110;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#x6f;&#98;&#106;&#101;&#x63;&#x74;&#x6b;&#117;&#97;&#110;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#x62;&#106;&#101;&#x63;&#116;&#107;&#117;&#97;&#110;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#111;&#x62;&#106;&#101;&#x63;&#116;&#107;&#117;&#97;&#110;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#x72;&#x64;&#x66;&#114;&#97;&#x6e;&#107;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#x63;&#x72;&#x64;&#x66;&#114;&#97;&#x6e;&#107;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#114;&#100;&#x66;&#114;&#97;&#x6e;&#107;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#99;&#114;&#100;&#x66;&#114;&#97;&#x6e;&#107;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#x61;&#99;&#99;&#x6f;&#x72;&#97;&#119;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#109;">&#x74;&#x61;&#99;&#99;&#x6f;&#x72;&#97;&#119;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#116;&#x61;&#99;&#99;&#111;&#x72;&#97;&#x77;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#116;&#x61;&#99;&#99;&#111;&#x72;&#97;&#x77;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#x78;&#105;&#x6e;&#103;&#48;&#48;&#x30;&#x31;&#64;&#49;&#54;&#51;&#x2e;&#99;&#111;&#109;">&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#x78;&#105;&#x6e;&#103;&#48;&#48;&#x30;&#x31;&#64;&#49;&#54;&#51;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x78;&#105;&#110;&#121;&#117;&#x6e;&#120;&#x69;&#x6e;&#103;&#48;&#x30;&#48;&#49;&#64;&#x31;&#x36;&#51;&#46;&#x63;&#111;&#x6d;">&#x78;&#105;&#110;&#121;&#117;&#x6e;&#120;&#x69;&#x6e;&#103;&#48;&#x30;&#48;&#49;&#64;&#x31;&#x36;&#51;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#110;&#111;&#99;&#x75;&#105;&#108;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;">&#103;&#110;&#111;&#99;&#x75;&#105;&#108;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#103;&#110;&#111;&#x63;&#117;&#105;&#x6c;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;">&#103;&#110;&#111;&#x63;&#117;&#105;&#x6c;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#121;&#97;&#x69;&#x72;&#x69;&#x61;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#109;&#121;&#97;&#x69;&#x72;&#x69;&#x61;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#121;&#x61;&#105;&#x72;&#x69;&#97;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;">&#109;&#121;&#x61;&#105;&#x72;&#x69;&#97;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#104;&#x61;&#x6e;&#x67;&#x72;&#97;&#105;&#x6e;&#x39;&#x31;&#x31;&#64;&#49;&#x36;&#x33;&#x2e;&#99;&#x6f;&#x6d;">&#x7a;&#104;&#x61;&#x6e;&#x67;&#x72;&#97;&#105;&#x6e;&#x39;&#x31;&#x31;&#64;&#49;&#x36;&#x33;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#104;&#97;&#110;&#x67;&#x72;&#97;&#x69;&#110;&#57;&#x31;&#49;&#64;&#49;&#x36;&#51;&#46;&#99;&#x6f;&#109;">&#x7a;&#104;&#97;&#110;&#x67;&#x72;&#97;&#x69;&#110;&#57;&#x31;&#49;&#64;&#49;&#x36;&#51;&#46;&#99;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#x67;&#x78;&#120;&#x31;&#x32;&#48;&#64;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#111;&#109;">&#103;&#x67;&#x78;&#120;&#x31;&#x32;&#48;&#64;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#103;&#x78;&#x78;&#49;&#x32;&#x30;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#103;&#x78;&#x78;&#49;&#x32;&#x30;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -15969,7 +16002,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#x65;&#110;&#x78;&#x75;&#64;&#x74;&#x65;&#110;&#x63;&#x65;&#x6e;&#116;&#x2e;&#x63;&#x6f;&#x6d;">&#x6c;&#101;&#x65;&#110;&#x78;&#x75;&#64;&#x74;&#x65;&#110;&#x63;&#x65;&#x6e;&#116;&#x2e;&#x63;&#x6f;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#x65;&#x6e;&#120;&#117;&#64;&#116;&#101;&#110;&#99;&#x65;&#110;&#x74;&#46;&#x63;&#x6f;&#109;">&#x6c;&#x65;&#x65;&#x6e;&#120;&#117;&#64;&#116;&#101;&#110;&#99;&#x65;&#110;&#x74;&#46;&#x63;&#x6f;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
