@@ -358,9 +358,9 @@
 <p>字母表（Alphabet）$\Sigma$是一个非空有穷集合，字母表中的元素也称为该字母表的一个字母（Letter），也叫字符（Charater）。</p>
 <p>例如，以下是不同的字母表：</p>
 <ul>
-<li>${a,b,c,d}$</li>
-<li>${a,b,c,…,z}$</li>
-<li>${0,1}$</li>
+<li>${ a,b,c,d }$</li>
+<li>${ a,b,c,…,z }$</li>
+<li>${ 0,1 }$</li>
 <li>ASCII字母表</li>
 </ul>
 <p>注意：</p>
@@ -368,9 +368,16 @@
 <li>字母表中至少包含一个元素</li>
 <li>字母表中的元素，可以是字母、数字或其他符号</li>
 </ul>
-<p>例如：$\Sigma={0,1,a,(,<em>}$是一个字母表，由$0$，$1$，$a$，$（$，$</em>$五个元素组成。</p>
+<p>例如：$\Sigma = { 0,1,a,(,* }$是一个字母表，由$0$，$1$，$a$，$（$，$*$五个元素组成。</p>
 <h4 id="字符"><a href="#字符" class="headerlink" title="字符"></a>字符</h4><p>字母表中的元素称为字符，例如前述例子中：$a、b、c$是字母表$\Sigma$中的字符；$0、1、a、(、*$是字母表$\Sigma$中的字符。</p>
-]]></content>
+<h4 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h4><p>字符的有穷序列称为字符串。例如设有字母表$\Sigma = { a,b,c }$，则有串$a,b,ab,ba,cba,abc…$</p>
+<p>字符串总是建立在某个特定字母表上的且只由字母表上的有穷多个字符组成。字符串中字符的顺序是很重要的，例如$ab$和$ba$是字母表$\Sigma$上的两个不同的字符串。</p>
+<p>不包含任何字符的字符串，称为空字符串，用$\epsilon$表示。空字符串由0个字符组成，其长度$|\epsilon|=0$。</p>
+<h3 id="字符串运算"><a href="#字符串运算" class="headerlink" title="字符串运算"></a>字符串运算</h3><h4 id="字符串的连结"><a href="#字符串的连结" class="headerlink" title="字符串的连结"></a>字符串的连结</h4><p>设$x$和$y$是字符串，则串$xy$称为它们的连结。</p>
+<p>例如设$X=ABC$，$Y=10A$，那么$XY=ABC10A$、$YX=10AABC$。对任意一个符号串$X$，有$\epsilon X = X \epsilon = X = ABC$</p>
+<h4 id="集合的连接"><a href="#集合的连接" class="headerlink" title="集合的连接"></a>集合的连接</h4><p>设$A$和$B$是符号串的集合，则$A$和$B$的连接定义为：$AB={ xy|x \in A,y \in B }$</p>
+<p>集合的乘积是满足于$x \in A,y \in B$的所有符号串$xy$所构成的集合。</p>
+<h4 id="字符串的幂运算"><a href="#字符串的幂运算" class="headerlink" title="字符串的幂运算"></a>字符串的幂运算</h4><h4 id="集合的幂运算"><a href="#集合的幂运算" class="headerlink" title="集合的幂运算"></a>集合的幂运算</h4><h4 id="集合的闭包"><a href="#集合的闭包" class="headerlink" title="集合的闭包"></a>集合的闭包</h4>]]></content>
       <categories>
         <category>编译原理 (Compilers Principles, Techniques, and Tools)</category>
       </categories>
@@ -3243,7 +3250,7 @@
       </tags>
   </entry>
   <entry>
-    <title>NexT博客使用插件总结</title>
+    <title>Hexo-NexT博客使用插件总结</title>
     <url>/archives/c12c9c40.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nnpskhxj311i0gywkf.jpg"></p>
 <div align=center>
@@ -3940,7 +3947,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Hero-NexT主题配置</title>
+    <title>Hexo-NexT主题配置</title>
     <url>/archives/3bcb4b40.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4n8vkpmgj30ma09u40a.jpg"></p>
 <div align=center>
@@ -4368,7 +4375,13 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">themes\next\layout_layout.swig      ...</span><br><span class="line">      &#123;% include &#39;_third-party&#x2F;exturl.swig&#39; %&#125;</span><br><span class="line">      &#123;% include &#39;_third-party&#x2F;bookmark.swig&#39; %&#125;</span><br><span class="line">      &#123;% include &#39;_third-party&#x2F;copy-code.swig&#39; %&#125;</span><br><span class="line"></span><br><span class="line">+     &#123;% include &#39;_custom&#x2F;custom.swig&#39; %&#125;</span><br><span class="line">    &lt;&#x2F;body&gt;</span><br><span class="line">  &lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure>
 
 <p>如此即可将 Hotjar 嵌入到站内，接下来在 Hotjar 控制台菜单中点击 Incoming，然后根据引导一步步配置即时反馈服务即可。</p>
-<h4 id="Artitalk功能集成"><a href="#Artitalk功能集成" class="headerlink" title="Artitalk功能集成"></a>Artitalk功能集成</h4><h5 id="参考-5"><a href="#参考-5" class="headerlink" title="参考"></a>参考</h5><ul>
+<h4 id="Artitalk功能集成"><a href="#Artitalk功能集成" class="headerlink" title="Artitalk功能集成"></a>Artitalk功能集成</h4><h5 id="页面配置"><a href="#页面配置" class="headerlink" title="页面配置"></a>页面配置</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Artitalk</span><br><span class="line">date: 2021-03-04 00:47:39</span><br><span class="line">comments: false</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/artitalk&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;artitalk_main&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="javascript">    <span class="keyword">new</span> Artitalk(&#123;</span></span><br><span class="line"><span class="javascript">      appId: <span class="string">&#x27;Your appId&#x27;</span>,</span></span><br><span class="line"><span class="javascript">      appKey: <span class="string">&#x27;Your appKey&#x27;</span></span></span><br><span class="line">    &#125;)</span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h5 id="参考-5"><a href="#参考-5" class="headerlink" title="参考"></a>参考</h5><ul>
 <li><a href="https://blog.csdn.net/qq_38157825/article/details/112783238">在 Hexo 中使用 artitalk 新增说说功能</a></li>
 <li><a href="https://cndrew.cn/2020/05/11/artitalk/">Hexo添加可实时发布的说说界面 | Artitalk.js</a></li>
 </ul>
@@ -11855,57 +11868,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#x79;&#x6f;&#x6e;&#103;&#64;&#x74;&#115;&#x69;&#x6e;&#103;&#104;&#x75;&#x61;&#46;&#101;&#100;&#117;&#x2e;&#x63;&#110;">&#120;&#x79;&#x6f;&#x6e;&#103;&#64;&#x74;&#115;&#x69;&#x6e;&#103;&#104;&#x75;&#x61;&#46;&#101;&#100;&#117;&#x2e;&#x63;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#x79;&#111;&#x6e;&#103;&#64;&#116;&#x73;&#105;&#x6e;&#x67;&#104;&#117;&#97;&#x2e;&#101;&#x64;&#x75;&#x2e;&#x63;&#110;">&#120;&#x79;&#111;&#x6e;&#103;&#64;&#116;&#x73;&#105;&#x6e;&#x67;&#104;&#117;&#97;&#x2e;&#101;&#x64;&#x75;&#x2e;&#x63;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#117;&#99;&#104;&#x65;&#x6e;&#64;&#109;&#x61;&#105;&#108;&#x2e;&#116;&#115;&#x69;&#110;&#103;&#104;&#x75;&#x61;&#46;&#101;&#100;&#x75;&#x2e;&#99;&#110;">&#121;&#117;&#99;&#104;&#x65;&#x6e;&#64;&#109;&#x61;&#105;&#108;&#x2e;&#116;&#115;&#x69;&#110;&#103;&#104;&#x75;&#x61;&#46;&#101;&#100;&#x75;&#x2e;&#99;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#x75;&#99;&#x68;&#101;&#110;&#x40;&#109;&#x61;&#x69;&#108;&#46;&#116;&#115;&#x69;&#x6e;&#x67;&#104;&#117;&#97;&#x2e;&#x65;&#100;&#117;&#x2e;&#x63;&#x6e;">&#121;&#x75;&#99;&#x68;&#101;&#110;&#x40;&#109;&#x61;&#x69;&#108;&#46;&#116;&#115;&#x69;&#x6e;&#x67;&#104;&#117;&#97;&#x2e;&#x65;&#100;&#117;&#x2e;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#x74;&#101;&#x72;&#x6e;&#97;&#x6c;&#46;&#110;&#x30;&#56;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">&#101;&#x74;&#101;&#x72;&#x6e;&#97;&#x6c;&#46;&#110;&#x30;&#56;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x65;&#x74;&#x65;&#114;&#x6e;&#97;&#x6c;&#x2e;&#110;&#x30;&#x38;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#109;">&#x65;&#x74;&#x65;&#114;&#x6e;&#97;&#x6c;&#x2e;&#110;&#x30;&#x38;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#x62;&#x6a;&#x65;&#99;&#116;&#107;&#117;&#97;&#x6e;&#64;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#111;&#x62;&#x6a;&#x65;&#99;&#116;&#107;&#117;&#97;&#x6e;&#64;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#x62;&#x6a;&#101;&#x63;&#x74;&#107;&#117;&#x61;&#110;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;">&#111;&#x62;&#x6a;&#101;&#x63;&#x74;&#107;&#117;&#x61;&#110;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#x72;&#x64;&#102;&#x72;&#97;&#x6e;&#x6b;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;">&#99;&#x72;&#x64;&#102;&#x72;&#97;&#x6e;&#x6b;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x63;&#x72;&#x64;&#102;&#114;&#x61;&#x6e;&#107;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x63;&#x72;&#x64;&#102;&#114;&#x61;&#x6e;&#107;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#x61;&#x63;&#99;&#111;&#x72;&#x61;&#119;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#x74;&#x61;&#x63;&#99;&#111;&#x72;&#x61;&#119;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x74;&#97;&#x63;&#x63;&#x6f;&#114;&#97;&#x77;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x74;&#97;&#x63;&#x63;&#x6f;&#114;&#97;&#x77;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#105;&#x6e;&#121;&#x75;&#110;&#x78;&#105;&#110;&#103;&#48;&#48;&#x30;&#x31;&#64;&#x31;&#x36;&#x33;&#46;&#99;&#x6f;&#109;">&#120;&#105;&#x6e;&#121;&#x75;&#110;&#x78;&#105;&#110;&#103;&#48;&#48;&#x30;&#x31;&#64;&#x31;&#x36;&#x33;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#x78;&#105;&#110;&#103;&#x30;&#48;&#48;&#x31;&#64;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;">&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#x78;&#105;&#110;&#103;&#x30;&#48;&#48;&#x31;&#64;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#110;&#111;&#x63;&#x75;&#105;&#x6c;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#103;&#110;&#111;&#x63;&#x75;&#105;&#x6c;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x6e;&#x6f;&#x63;&#117;&#x69;&#x6c;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x67;&#x6e;&#x6f;&#x63;&#117;&#x69;&#x6c;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#x79;&#97;&#x69;&#114;&#105;&#97;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#x6d;">&#x6d;&#x79;&#97;&#x69;&#114;&#105;&#97;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#x79;&#97;&#x69;&#x72;&#x69;&#97;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#109;&#x79;&#97;&#x69;&#x72;&#x69;&#97;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#104;&#97;&#x6e;&#x67;&#x72;&#x61;&#105;&#110;&#x39;&#49;&#49;&#64;&#49;&#x36;&#51;&#x2e;&#x63;&#111;&#109;">&#x7a;&#104;&#97;&#x6e;&#x67;&#x72;&#x61;&#105;&#110;&#x39;&#49;&#49;&#64;&#49;&#x36;&#51;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#122;&#104;&#97;&#x6e;&#103;&#x72;&#x61;&#105;&#110;&#x39;&#x31;&#x31;&#64;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#109;">&#122;&#104;&#97;&#x6e;&#103;&#x72;&#x61;&#105;&#110;&#x39;&#x31;&#x31;&#64;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#x67;&#x78;&#120;&#x31;&#50;&#x30;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#103;&#x67;&#x78;&#120;&#x31;&#50;&#x30;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x67;&#x78;&#120;&#49;&#x32;&#x30;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#109;">&#x67;&#x67;&#x78;&#120;&#49;&#x32;&#x30;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -16193,7 +16206,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#x65;&#x6e;&#x78;&#x75;&#64;&#x74;&#x65;&#110;&#x63;&#x65;&#x6e;&#116;&#46;&#x63;&#x6f;&#x6d;">&#x6c;&#x65;&#x65;&#x6e;&#x78;&#x75;&#64;&#x74;&#x65;&#110;&#x63;&#x65;&#x6e;&#116;&#46;&#x63;&#x6f;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#101;&#x65;&#x6e;&#120;&#x75;&#x40;&#116;&#x65;&#110;&#x63;&#101;&#x6e;&#x74;&#x2e;&#99;&#x6f;&#109;">&#108;&#101;&#x65;&#x6e;&#120;&#x75;&#x40;&#116;&#x65;&#110;&#x63;&#101;&#x6e;&#x74;&#x2e;&#99;&#x6f;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
