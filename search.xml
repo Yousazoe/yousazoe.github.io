@@ -392,6 +392,47 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo-NexT博客问题汇总</title>
+    <url>/archives/cea8188d.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0b6de466763819.5b47a374e8c64.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/66763819/Why-Use-Fleet-Maintenance-Software?tracking_source=for_you_feed_featured_category">Why Use Fleet Maintenance Software</a> by 
+      <a href="https://www.behance.net/ucwang">Yu Shin Wang</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文对Hexo博客+NexT主题使用中出现的各种问题进行总结，方便读者解决这些遇到的相同问题。</p>
+<span id="more"></span>
+
+
+
+
+
+<h3 id="标签云回滚"><a href="#标签云回滚" class="headerlink" title="标签云回滚"></a>标签云回滚</h3><h4 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h4><p>在部分页面在下拉过程会出现回滚情况，导致无法到达底部。最开始是在标签页发现的，几次测试还具有一定的随机性，在Chrome上。在手机端因为不显示sidebar所以没有这个问题。</p>
+<h4 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h4><h3 id="pjax刷新"><a href="#pjax刷新" class="headerlink" title="pjax刷新"></a>pjax刷新</h3><h4 id="问题描述-1"><a href="#问题描述-1" class="headerlink" title="问题描述"></a>问题描述</h4><p>在使用音乐播放器Aplayer与说说Artitalk时发现必须刷新两次才能加载出来。</p>
+<h4 id="解决方案-1"><a href="#解决方案-1" class="headerlink" title="解决方案"></a>解决方案</h4><p>最开始尝试在这几个页面不使用pjax：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">pjax:</span> <span class="string">ture</span>  </span><br><span class="line">  <span class="attr">exclude:</span> </span><br><span class="line">  	<span class="bullet">-</span> <span class="string">&#x27;/about/&#x27;</span></span><br><span class="line">  	<span class="bullet">-</span> <span class="string">&#x27;/artitalk/&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>但问题并没有解决，第一次刷新还是什么也没有，需要再次刷新才显示内容。</p>
+<p>目前没有两全其美的办法，对于页面间跳转我的需求并不是很高，所以在主题配置文件中关闭了pjax选项，音乐播放器与Artitalk均恢复正常。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Easily enable fast Ajax navigation on your website.</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/theme-next-pjax</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">pjax:</span> <span class="string">ture</span></span><br><span class="line"><span class="string">+</span> <span class="attr">pjax:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>博客搭建 (Blog Building)</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>欢迎来到C++</title>
     <url>/archives/e5bd4d2.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/49ff1661408483.5a6df91d1e93d.png"></p>
@@ -5281,8 +5322,8 @@
         <category>Unity 游戏引擎 (Unity Game Engine)</category>
       </categories>
       <tags>
-        <tag>Game Develop</tag>
         <tag>Unity</tag>
+        <tag>Game Develop</tag>
       </tags>
   </entry>
   <entry>
@@ -8110,8 +8151,8 @@
         <category>Unity 游戏引擎 (Unity Game Engine)</category>
       </categories>
       <tags>
-        <tag>Game Develop</tag>
         <tag>Unity</tag>
+        <tag>Game Develop</tag>
         <tag>Csharp</tag>
         <tag>2D Game</tag>
       </tags>
@@ -12088,57 +12129,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#x79;&#111;&#x6e;&#x67;&#64;&#x74;&#x73;&#105;&#x6e;&#x67;&#x68;&#x75;&#x61;&#46;&#101;&#x64;&#117;&#46;&#x63;&#x6e;">&#x78;&#x79;&#111;&#x6e;&#x67;&#64;&#x74;&#x73;&#105;&#x6e;&#x67;&#x68;&#x75;&#x61;&#46;&#101;&#x64;&#117;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#x79;&#111;&#110;&#x67;&#x40;&#x74;&#115;&#105;&#x6e;&#x67;&#x68;&#117;&#x61;&#x2e;&#101;&#x64;&#x75;&#x2e;&#x63;&#x6e;">&#x78;&#x79;&#111;&#110;&#x67;&#x40;&#x74;&#115;&#105;&#x6e;&#x67;&#x68;&#117;&#x61;&#x2e;&#101;&#x64;&#x75;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#117;&#99;&#104;&#101;&#110;&#x40;&#109;&#97;&#x69;&#x6c;&#46;&#116;&#115;&#105;&#x6e;&#103;&#x68;&#x75;&#x61;&#x2e;&#101;&#x64;&#x75;&#46;&#99;&#x6e;">&#x79;&#117;&#99;&#104;&#101;&#110;&#x40;&#109;&#97;&#x69;&#x6c;&#46;&#116;&#115;&#105;&#x6e;&#103;&#x68;&#x75;&#x61;&#x2e;&#101;&#x64;&#x75;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#x75;&#99;&#x68;&#101;&#110;&#64;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x74;&#x73;&#x69;&#x6e;&#x67;&#104;&#x75;&#97;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#110;">&#x79;&#x75;&#99;&#x68;&#101;&#110;&#64;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x74;&#x73;&#x69;&#x6e;&#x67;&#104;&#x75;&#97;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#x74;&#x65;&#x72;&#x6e;&#97;&#x6c;&#x2e;&#110;&#x30;&#x38;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#101;&#x74;&#x65;&#x72;&#x6e;&#97;&#x6c;&#x2e;&#110;&#x30;&#x38;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#x74;&#101;&#x72;&#x6e;&#97;&#108;&#46;&#x6e;&#x30;&#x38;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#101;&#x74;&#101;&#x72;&#x6e;&#97;&#108;&#46;&#x6e;&#x30;&#x38;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#x62;&#106;&#x65;&#x63;&#116;&#107;&#117;&#97;&#x6e;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;">&#x6f;&#x62;&#106;&#x65;&#x63;&#116;&#107;&#117;&#97;&#x6e;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x6f;&#x62;&#106;&#x65;&#99;&#x74;&#107;&#117;&#x61;&#x6e;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#x6f;&#x62;&#106;&#x65;&#99;&#x74;&#107;&#117;&#x61;&#x6e;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#114;&#x64;&#102;&#x72;&#x61;&#x6e;&#107;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;">&#99;&#114;&#x64;&#102;&#x72;&#x61;&#x6e;&#107;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#99;&#x72;&#x64;&#x66;&#114;&#97;&#110;&#107;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#99;&#x72;&#x64;&#x66;&#114;&#97;&#110;&#107;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#x61;&#99;&#99;&#x6f;&#114;&#x61;&#x77;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#116;&#x61;&#99;&#99;&#x6f;&#114;&#x61;&#x77;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#116;&#x61;&#x63;&#99;&#x6f;&#114;&#97;&#119;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#109;">&#116;&#x61;&#x63;&#99;&#x6f;&#114;&#97;&#119;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#x69;&#x6e;&#x79;&#117;&#x6e;&#120;&#105;&#110;&#x67;&#48;&#48;&#48;&#49;&#64;&#49;&#54;&#51;&#x2e;&#x63;&#111;&#109;">&#x78;&#x69;&#x6e;&#x79;&#117;&#x6e;&#120;&#105;&#110;&#x67;&#48;&#48;&#48;&#49;&#64;&#49;&#54;&#51;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x78;&#105;&#x6e;&#x79;&#x75;&#110;&#120;&#x69;&#110;&#x67;&#48;&#x30;&#x30;&#49;&#64;&#49;&#54;&#x33;&#x2e;&#99;&#x6f;&#109;">&#x78;&#105;&#x6e;&#x79;&#x75;&#110;&#120;&#x69;&#110;&#x67;&#48;&#x30;&#x30;&#49;&#64;&#49;&#54;&#x33;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#x6e;&#x6f;&#99;&#117;&#105;&#108;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#103;&#x6e;&#x6f;&#99;&#117;&#105;&#108;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x6e;&#111;&#99;&#117;&#x69;&#x6c;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#x67;&#x6e;&#111;&#99;&#117;&#x69;&#x6c;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#121;&#97;&#x69;&#x72;&#105;&#x61;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x6d;&#121;&#97;&#x69;&#x72;&#105;&#x61;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x6d;&#x79;&#97;&#105;&#x72;&#105;&#x61;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#x6d;&#x79;&#97;&#105;&#x72;&#105;&#x61;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#104;&#x61;&#110;&#103;&#x72;&#x61;&#x69;&#x6e;&#57;&#49;&#x31;&#64;&#49;&#x36;&#x33;&#x2e;&#99;&#111;&#x6d;">&#x7a;&#104;&#x61;&#110;&#103;&#x72;&#x61;&#x69;&#x6e;&#57;&#49;&#x31;&#64;&#49;&#x36;&#x33;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#122;&#x68;&#x61;&#110;&#x67;&#x72;&#x61;&#105;&#x6e;&#57;&#x31;&#x31;&#x40;&#49;&#x36;&#x33;&#x2e;&#99;&#x6f;&#109;">&#122;&#x68;&#x61;&#110;&#x67;&#x72;&#x61;&#105;&#x6e;&#57;&#x31;&#x31;&#x40;&#49;&#x36;&#x33;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#x67;&#x78;&#x78;&#x31;&#x32;&#48;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#109;">&#x67;&#x67;&#x78;&#x78;&#x31;&#x32;&#48;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#103;&#x67;&#120;&#x78;&#49;&#x32;&#48;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#103;&#x67;&#120;&#x78;&#49;&#x32;&#48;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -16426,7 +16467,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#101;&#x6e;&#120;&#117;&#64;&#x74;&#101;&#x6e;&#x63;&#x65;&#110;&#x74;&#x2e;&#x63;&#111;&#x6d;">&#x6c;&#101;&#101;&#x6e;&#120;&#117;&#64;&#x74;&#101;&#x6e;&#x63;&#x65;&#110;&#x74;&#x2e;&#x63;&#111;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#101;&#101;&#x6e;&#120;&#117;&#64;&#x74;&#x65;&#110;&#99;&#101;&#110;&#116;&#x2e;&#99;&#111;&#109;">&#108;&#101;&#101;&#x6e;&#120;&#117;&#64;&#x74;&#x65;&#110;&#99;&#101;&#110;&#116;&#x2e;&#99;&#111;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
