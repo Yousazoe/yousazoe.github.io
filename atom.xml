@@ -6,7 +6,7 @@
   <link href="http://yousazoe.top/atom.xml" rel="self"/>
   
   <link href="http://yousazoe.top/"/>
-  <updated>2021-03-06T12:02:52.807Z</updated>
+  <updated>2021-03-07T03:01:11.181Z</updated>
   <id>http://yousazoe.top/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>欢迎来到C++</title>
+    <link href="http://yousazoe.top/archives/e5bd4d2.html"/>
+    <id>http://yousazoe.top/archives/e5bd4d2.html</id>
+    <published>2021-03-07T02:44:09.000Z</published>
+    <updated>2021-03-07T03:01:11.181Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/titleShadow-768x256.png"></p><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列将讲解C++需知道的一切内容，涵盖这门语言的基础知识。本节将会简单介绍C++这门语言并学会在不同平台安装。</p><span id="more"></span><p>学习C++对游戏开发大有裨益，然而C++不仅仅适用于游戏。</p><h3 id="为什么学习C"><a href="#为什么学习C" class="headerlink" title="为什么学习C++"></a>为什么学习C++</h3><p>我为什么要学习C++？这是不是一种过时的语言？现在学习C++有什么好处？</p><p>当你需要编写性能良好的代码时，C++仍然是最常用的语言；或者你正在为一个奇怪的架构或平台编写原生代码并且想获取对硬件的进程控制，C++也是不二选择；在游戏行业中，例如Unity、Unreal、Frostbite等游戏引擎都是用C++写的……</p><p>问题在于问什么我们想要直接访问硬件？为什么所有这些游戏引擎都是用C++编写的，为什么不用另一种语言？使用C++最大的原因是直接控制硬件。我们来讨论一下C++的工作原理：</p><ul><li>你用C++写代码</li><li>代码被送去</li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/titleShadow-768x256.png&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h3&gt;&lt;p&gt;这个系列将讲解C++需知道的一切内容，涵盖这门语言的基础知识。本节将会简单介绍C++这门语言并学会在不同平台安装。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Cherno的C++笔记 (Cherno C++)" scheme="http://yousazoe.top/categories/Cherno%E7%9A%84C-%E7%AC%94%E8%AE%B0-Cherno-C/"/>
+    
+    
+    <category term="Cpp" scheme="http://yousazoe.top/tags/Cpp/"/>
+    
+  </entry>
   
   <entry>
     <title>词法分析</title>
@@ -654,43 +676,6 @@
 
 
 &lt;h3 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h3&gt;&lt;p&gt;这个系列我们将从零开始开发一个自己的游戏引擎。上一节我们配置了基本的环境并构建了动态库，还有一个有些粗糙的沙盒应用，这一节主要是关于引擎的入口点开发构建。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="游戏引擎开发 (Game Engine Series)" scheme="http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91-Game-Engine-Series/"/>
-    
-    
-    <category term="Cpp" scheme="http://yousazoe.top/tags/Cpp/"/>
-    
-    <category term="Game Engine" scheme="http://yousazoe.top/tags/Game-Engine/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Project SetUp</title>
-    <link href="http://yousazoe.top/archives/2b07a0e9.html"/>
-    <id>http://yousazoe.top/archives/2b07a0e9.html</id>
-    <published>2021-02-06T13:31:03.000Z</published>
-    <updated>2021-02-15T08:43:38.527Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gne54jvymsj31000u0thh.jpg"></p><div align=center>  <font size="3">    <i>      <a href="https://www.behance.net/gallery/35750281/The-quiet-room-Voxel-art">The quiet room - Voxel art</a> by       <a href="https://www.behance.net/sircarma">Antoine Lendrevie</a>    </i>  </font></div><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列我们将从零开始开发一个自己的游戏引擎。这一节主要是关于引擎开发的前期准备和相关开发环境的配置。</p><span id="more"></span><h3 id="创建托管仓库"><a href="#创建托管仓库" class="headerlink" title="创建托管仓库"></a>创建托管仓库</h3><p>在Github中新建一个新的仓库，我们这里想用<code>Infinite</code>作为引擎的名字，意为“无限”，也希望大家可以用它来将无限的创意付诸实际：</p><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230346928.png"></p><p>创建好之后我们会有证书和自述文件，简单介绍一下自己的项目即可：</p><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230413954.png"></p><p>我们已经拥有了所有的这些，可以<code>git clone</code>并开始实际创建项目了。</p><h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><p>打开<code>Visual Studio</code>，点击<code>File</code>-<code>New</code>-<code>Project</code>，然后创建一个空的C++项目：</p><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230516025.png"></p><p>现在我们打开它，就可以得到<code>Infinite</code>的解决方案了：</p><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230539984.png"></p><p>右键项目，在文件资源管理器中打开文件夹，我们发现在<code>Infinite</code>的文件夹中有一个名为<code>Infinite</code>的项目，因此Infinite到处都是。</p><p>接下来我们打开命令提示行，进入该文件夹进行<code>git clone</code>将其克隆到一个并不在乎的文件夹中：</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/Yousazoe/Infinite Git</span><br></pre></td></tr></table></figure><p>进入文件夹<code>Git</code>显示隐藏文件（会多一个<code>.git</code>文件夹），将所有的一切拷贝到<code>Infinite</code>文件夹中，然后删除原来存放的<code>Git</code>文件夹，得到我们的最终结果。</p><p>基本上，我们已经设法将git存储库的东西克隆到我们的项目文件夹中，比如可以看到我们通过github存储库创建的许可和自述文件，所以我们手动完成了将解决方案和git存储库放置在同一目录中。</p><h3 id="静态库-or-动态库"><a href="#静态库-or-动态库" class="headerlink" title="静态库 or 动态库"></a>静态库 or 动态库</h3><p>我们继续进行实际的设置。回到<code>Visual Studio</code>，我们看到的是<code>Infinite</code>项目文件和解决方案，现在我们的解决方案将不仅包含引擎，实际上是Windows上将其构建为动态链接库，至少是一个dll文件。所以我们要实际执行的操作是创建一个可执行文件的应用程序项目，也就是Windows中的一个<code>.exe</code>文件，我们要将该引擎实际链接到这个<code>.exe</code>文件中。</p><p>现在有两种方法可以做到这一点，可以使用静态库或自己使用动态库。我们选择dll动态库的原因是我们可以选择加载和卸载它，这主要是因为我们要拥有很多依赖关系必须链接到我们的库中。如果我们使用静态库基本上意味着我们拥有的依赖库实际上必须将其链接到我们的游戏中，而dll基本上就像是一个<code>.exe</code>文件，所以我们实际上可以将所有内容链接到它们中，这样我们的游戏将仅依赖于包含以下内容的单个dll文件：拥有它所需要的一切而不是拥有数量庞大的其他类型的库文件。</p><p>本质上，我们最终要做的是将所有内容链接到引擎dll有关依赖项，这意味着它们都需要成为静态库，因此我们将所有这些静态库链接到引擎中dll，然后将引擎dll链接到我们的游戏中。</p><h3 id="平台和配置"><a href="#平台和配置" class="headerlink" title="平台和配置"></a>平台和配置</h3><p>右键属性，进入配置管理器，我们有两种活动解决方案平台：<code>x86</code>和<code>x64</code>。现在我不是很想支持32位因为现在已经2021年了，32位不是我想考虑的平台，支持可能是出于一些遗留问题的原因可能是个好主意，但我选择拒绝支持。</p><p>所以我们编辑删除<code>x86</code>平台，确定它已经消失了：</p><p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50lr7khj30rs0j8tag.jpg"></p><p>现在我们拥有一个平台<code>x64</code>，接着去修改所有配置中的配置类型，从<code>.exe</code>改为<code>.dll</code>：</p><p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50kw6wpj30rs0j877b.jpg"></p><p>另外需要修改的是输出目录和中间目录，<code>Visual Studio</code>默认的配置并不是最佳的，而我们想把解决方案目录中名为<code>bin</code>的文件夹中所有内容都转移到该位置：</p><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">- $(SolutionDir)$(Platform)\$(Configuration)\</span></span><br><span class="line"><span class="addition">+ $(SolutionDir)bin\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br></pre></td></tr></table></figure><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+ $(SolutionDir)bin\int\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br><span class="line">or</span><br><span class="line"><span class="addition">+ $(SolutionDir)bin-int\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br></pre></td></tr></table></figure><p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50h7wh0j30yk0j8421.jpg"></p><p>下一件事就是右键单击解决方案文件上，点击添加，新建一个空的C++项目，我们将其命名为<code>Sandbox</code>沙盒。我们有我们的引擎，但是现在我们需要一个应用程序使用我们的引擎，因此我将其称为“沙盒”。</p><p>之后对沙盒进行配置，和之前一样移除对32位平台的支持并更改输出目录和中间目录。需要注意的是和之前不同，沙盒的配置类型是一个<code>.exe</code>的应用程序，这里无需修改。</p><h3 id="设置启动项"><a href="#设置启动项" class="headerlink" title="设置启动项"></a>设置启动项</h3><p>最后右键沙盒项目，设置为启动项目。在<code>Visual Studio</code>中保存更改，用其它文本编辑器（这里我用的<code>Atom</code>）打开解决方案文件<code>Infinite.sln</code>，把刚才的这个沙盒项目从列表中的第二事件调整为第一事件：</p><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">﻿</span><br><span class="line">Microsoft Visual Studio Solution File, Format Version 12.00</span><br><span class="line"># Visual Studio Version 16</span><br><span class="line">VisualStudioVersion = 16.0.30804.86</span><br><span class="line">MinimumVisualStudioVersion = 10.0.40219.1</span><br><span class="line"><span class="deletion">- Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Infinite&quot;, &quot;Infinite\Infinite.vcxproj&quot;, &quot;&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;&quot;</span></span><br><span class="line"><span class="deletion">- EndProject</span></span><br><span class="line">Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Sandbox&quot;, &quot;Sandbox\Sandbox.vcxproj&quot;, &quot;&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;&quot;</span><br><span class="line"><span class="deletion">- EndProject</span></span><br><span class="line"><span class="addition">+ Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Infinite&quot;, &quot;Infinite\Infinite.vcxproj&quot;, &quot;&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;&quot;</span></span><br><span class="line"><span class="addition">+ EndProject</span></span><br><span class="line">Global</span><br><span class="line">GlobalSection(SolutionConfigurationPlatforms) = preSolution</span><br><span class="line">Debug|x64 = Debug|x64</span><br><span class="line">Release|x64 = Release|x64</span><br><span class="line">EndGlobalSection</span><br><span class="line">GlobalSection(ProjectConfigurationPlatforms) = postSolution</span><br><span class="line">&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Debug|x64.ActiveCfg = Debug|x64</span><br><span class="line">&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Debug|x64.Build.0 = Debug|x64</span><br><span class="line">&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Release|x64.ActiveCfg = Release|x64</span><br><span class="line">&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Release|x64.Build.0 = Release|x64</span><br><span class="line">&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Debug|x64.ActiveCfg = Debug|x64</span><br><span class="line">&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Debug|x64.Build.0 = Debug|x64</span><br><span class="line">&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Release|x64.ActiveCfg = Release|x64</span><br><span class="line">&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Release|x64.Build.0 = Release|x64</span><br><span class="line">EndGlobalSection</span><br><span class="line">GlobalSection(SolutionProperties) = preSolution</span><br><span class="line">HideSolutionNode = FALSE</span><br><span class="line">EndGlobalSection</span><br><span class="line">GlobalSection(ExtensibilityGlobals) = postSolution</span><br><span class="line">SolutionGuid = &#123;93C2B59B-B64B-4873-9805-4CBCD84336E4&#125;</span><br><span class="line">EndGlobalSection</span><br><span class="line">EndGlobal</span><br></pre></td></tr></table></figure><p>这样沙盒会成为启动项目而不是<code>Infinite</code>，如果是<code>Infinite</code>则显然不会运行其dll文件。</p><p>ok，现在我们已经构建一个基本的结构，那么我们来将两个项目链接在一起。右键单击沙盒，添加引用：</p><p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50ea03ej30rs0j40tg.jpg"></p><p>这意味着当<code>Infinite</code>实际编译并生成静态库文件时将链接到沙盒中。它会自动为我们链接引擎库文件，但为什么它是一个lib文件呢？这是因为当我们在<code>Visual Studio</code>编译dll文件时，它实际上会生成一个lib文件，其中会包含每种功能的种类，我们实际是从dll文件中导出。</p><p>分别为两个项目新建名为<code>src</code>的文件夹，在<code>Infinite</code>中新建<code>Test.h</code>的头文件和<code>Test.cpp</code>的测试点并编写测试：</p><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">_declspec(dllexport) <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>以最基本的打印功能作为测试，输出信息<code>Welcome To Infinite Engine!</code>。</p><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;Test.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Welcome To Infinite Engine!&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>在沙盒项目中新建<code>Application.cpp</code>，对之前的代码进行测试：</p><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">  _declspec(dllimport) <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  Infinite::Print();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>如果直接<code>Build</code>运行的话会报错缺少<code>Infinite.dll</code>，这部分的自动化我们之后再考虑，现在手动从文件夹中拖拽到沙盒中，再次运行打印出信息：</p><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">&quot;Welcome To Infinite Engine!&quot;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gne54jvymsj31000u0thh.jpg&quot;&gt;&lt;/p&gt;
-&lt;div align=center&gt;
-  &lt;font size=&quot;3&quot;&gt;
-    &lt;i&gt;
-      &lt;a href=&quot;https://www.behance.net/gallery/35750281/The-quiet-room-Voxel-art&quot;&gt;The quiet room - Voxel art&lt;/a&gt; by 
-      &lt;a href=&quot;https://www.behance.net/sircarma&quot;&gt;Antoine Lendrevie&lt;/a&gt;
-    &lt;/i&gt;
-  &lt;/font&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;h3 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h3&gt;&lt;p&gt;这个系列我们将从零开始开发一个自己的游戏引擎。这一节主要是关于引擎开发的前期准备和相关开发环境的配置。&lt;/p&gt;</summary>
     
     
     

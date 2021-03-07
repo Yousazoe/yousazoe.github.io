@@ -392,6 +392,31 @@
       </tags>
   </entry>
   <entry>
+    <title>欢迎来到C++</title>
+    <url>/archives/e5bd4d2.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/titleShadow-768x256.png"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列将讲解C++需知道的一切内容，涵盖这门语言的基础知识。本节将会简单介绍C++这门语言并学会在不同平台安装。</p>
+<span id="more"></span>
+
+
+
+<p>学习C++对游戏开发大有裨益，然而C++不仅仅适用于游戏。</p>
+<h3 id="为什么学习C"><a href="#为什么学习C" class="headerlink" title="为什么学习C++"></a>为什么学习C++</h3><p>我为什么要学习C++？这是不是一种过时的语言？现在学习C++有什么好处？</p>
+<p>当你需要编写性能良好的代码时，C++仍然是最常用的语言；或者你正在为一个奇怪的架构或平台编写原生代码并且想获取对硬件的进程控制，C++也是不二选择；在游戏行业中，例如Unity、Unreal、Frostbite等游戏引擎都是用C++写的……</p>
+<p>问题在于问什么我们想要直接访问硬件？为什么所有这些游戏引擎都是用C++编写的，为什么不用另一种语言？使用C++最大的原因是直接控制硬件。我们来讨论一下C++的工作原理：</p>
+<ul>
+<li>你用C++写代码</li>
+<li>代码被送去</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Cherno的C++笔记 (Cherno C++)</category>
+      </categories>
+      <tags>
+        <tag>Cpp</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>词法分析</title>
     <url>/archives/55180fbf.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/827e85100849161.Y3JvcCw0MDg1LDMxOTUsMjAyLDY0Nw.jpg"></p>
