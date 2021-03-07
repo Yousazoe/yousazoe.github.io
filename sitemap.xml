@@ -963,7 +963,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Population/</loc>
+    <loc>http://yousazoe.top/tags/GPS/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -977,14 +977,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/GPS/</loc>
-    <lastmod>2021-03-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Rocket/</loc>
+    <loc>http://yousazoe.top/tags/Population/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -999,6 +992,13 @@
   
   <url>
     <loc>http://yousazoe.top/tags/Aseprite/</loc>
+    <lastmod>2021-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/Rocket/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
