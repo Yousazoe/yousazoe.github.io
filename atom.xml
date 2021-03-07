@@ -6,7 +6,7 @@
   <link href="http://yousazoe.top/atom.xml" rel="self"/>
   
   <link href="http://yousazoe.top/"/>
-  <updated>2021-03-07T03:01:11.181Z</updated>
+  <updated>2021-03-07T05:17:43.859Z</updated>
   <id>http://yousazoe.top/</id>
   
   <author>
@@ -21,12 +21,21 @@
     <link href="http://yousazoe.top/archives/e5bd4d2.html"/>
     <id>http://yousazoe.top/archives/e5bd4d2.html</id>
     <published>2021-03-07T02:44:09.000Z</published>
-    <updated>2021-03-07T03:01:11.181Z</updated>
+    <updated>2021-03-07T05:17:43.859Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/titleShadow-768x256.png"></p><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列将讲解C++需知道的一切内容，涵盖这门语言的基础知识。本节将会简单介绍C++这门语言并学会在不同平台安装。</p><span id="more"></span><p>学习C++对游戏开发大有裨益，然而C++不仅仅适用于游戏。</p><h3 id="为什么学习C"><a href="#为什么学习C" class="headerlink" title="为什么学习C++"></a>为什么学习C++</h3><p>我为什么要学习C++？这是不是一种过时的语言？现在学习C++有什么好处？</p><p>当你需要编写性能良好的代码时，C++仍然是最常用的语言；或者你正在为一个奇怪的架构或平台编写原生代码并且想获取对硬件的进程控制，C++也是不二选择；在游戏行业中，例如Unity、Unreal、Frostbite等游戏引擎都是用C++写的……</p><p>问题在于问什么我们想要直接访问硬件？为什么所有这些游戏引擎都是用C++编写的，为什么不用另一种语言？使用C++最大的原因是直接控制硬件。我们来讨论一下C++的工作原理：</p><ul><li>你用C++写代码</li><li>代码被送去</li></ul>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/49ff1661408483.5a6df91d1e93d.png"></p><div align=center>  <font size="3">    <i>      <a href="https://www.behance.net/gallery/61408483/Memories">Memories</a> by       <a href="https://www.behance.net/MChahin">Mohamed Chahin</a>    </i>  </font></div><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列将讲解C++需知道的一切内容，涵盖这门语言的基础知识。本节将会简单介绍C++这门语言并学会在不同平台安装。</p><span id="more"></span><p>学习C++对游戏开发大有裨益，然而C++不仅仅适用于游戏。</p><h3 id="为什么学习C"><a href="#为什么学习C" class="headerlink" title="为什么学习C++"></a>为什么学习C++</h3><p>我为什么要学习C++？这是不是一种过时的语言？现在学习C++有什么好处？</p><p>当你需要编写性能良好的代码时，C++仍然是最常用的语言；或者你正在为一个奇怪的架构或平台编写原生代码并且想获取对硬件的进程控制，C++也是不二选择；在游戏行业中，例如Unity、Unreal、Frostbite等游戏引擎都是用C++写的……</p><p>问题在于问什么我们想要直接访问硬件？为什么所有这些游戏引擎都是用C++编写的，为什么不用另一种语言？</p><h4 id="底层"><a href="#底层" class="headerlink" title="底层"></a>底层</h4><p>使用C++最大的原因是直接控制硬件。我们来讨论一下C++的工作原理：你用C++写的代码被送去编译器编译，这些编译器将代码输出为目标平台的机器码（设备在CPU实际执行的指令），使用C++我们完全可以控制CPU执行的每一条指令。</p><h4 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h4><p>如果你问C++可以运行在什么平台，答案是几乎所有平台，你只需要找到为该平台输出机器码的编译器，例如x64编译器将输出x64机器码从而在64位CPU上运行。举个例子，一些平台通常被用于开发C++程序：Windows、Mac、Linux和其它几乎所有桌面操作系统以及移动操作系统IOS、Android……我们同样可以在所有游戏主机上编写C++程序，包括Xbox、PS以及任天堂的3DS、WiiU、Switch等等。当你需要广泛的平台支持时，C++非常棒因为只要有一个编译器你就可以让C++编译成在该平台运行的本地代码。</p><p>当然还有其他的本地计算机语言，但C++是自80年代初以来就广泛使用并广受欢迎，每个人都知道，每个人都在使用它。其他诸如C#或Java的语言之所以不同是因为它们是在虚拟机上运行的，这意味着你的代码首先被编译成一种中间语言，当你在目标平台上运行你的应用程序时虚拟机运行程序再转换为机器码。</p><p>想象一下，假设你用英语写了一本书，但你想让一个只会说德语的德国人读你的书，所以你决定要做的就是在德国书店里卖英文版的书。然而当你买这本书时，你还会有一个真人翻译陪你回家。当这个德国人回到家想读这本书的时候，翻译用英文朗读了这本书，然后再开始用德语为这个人翻译整本书。这有点像在虚拟机上运行的代码，当然你把书本身翻译成德语然后在德国的书店出售效率会更高，也是C++与C#、Java之类的语言的区别：C++是本地语言，C++编译器为目标平台和目标架构生成机器码，不需要翻译只要把机器代码指令放入CPU运行它们，CPU就会执行这些指令。</p><h3 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h3><p>当然本地语言不意味着它会很快，如果你写垃圾代码的话它会很慢，事实上它甚至可能比虚拟机语言比如C#和Java更慢，因为它们倾向于运行时做系统优化，所以如果你C++代码写的不好，C++肯定会比C#或Java更慢。正因为如此，我喜欢使用这类语言，当我只是需要合适的工具或不需要我压榨每一点性能的时候C#是一种非常好的语言，但是当我们真正需要性能的时候我们就需要C++。</p><p>我们将学习如何正确书写的简单技巧、如何写好代码、如何写出快速的代码。</p><p>你可能会问我们要讲些什么呢？一开始我们将从C++基础开始，如果我们关心性能之后将讨论使用C++库的好处，我们会讲到C++如何运行，会谈到内存与指针、池、自定义构造函数、移动语义、模板等如何正确的使用。我们还会讨论宏，以及如何在多个平台上编程，编写我们自己的数据结构使它们比C++库的更快更安全，我们甚至会涉及底层优化，通过编译器内联、汇编，写自己的Maps和SSE指令集。</p><h3 id="配置安装"><a href="#配置安装" class="headerlink" title="配置安装"></a>配置安装</h3><h4 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h4><h4 id="MacOS"><a href="#MacOS" class="headerlink" title="MacOS"></a>MacOS</h4><h4 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h4>]]></content>
     
     
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/titleShadow-768x256.png&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/49ff1661408483.5a6df91d1e93d.png&quot;&gt;&lt;/p&gt;
+&lt;div align=center&gt;
+  &lt;font size=&quot;3&quot;&gt;
+    &lt;i&gt;
+      &lt;a href=&quot;https://www.behance.net/gallery/61408483/Memories&quot;&gt;Memories&lt;/a&gt; by 
+      &lt;a href=&quot;https://www.behance.net/MChahin&quot;&gt;Mohamed Chahin&lt;/a&gt;
+    &lt;/i&gt;
+  &lt;/font&gt;
+&lt;/div&gt;
+
 &lt;h3 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h3&gt;&lt;p&gt;这个系列将讲解C++需知道的一切内容，涵盖这门语言的基础知识。本节将会简单介绍C++这门语言并学会在不同平台安装。&lt;/p&gt;</summary>
     
     
