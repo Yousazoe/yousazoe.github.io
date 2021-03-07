@@ -414,7 +414,16 @@
 
 
 <h3 id="标签云回滚"><a href="#标签云回滚" class="headerlink" title="标签云回滚"></a>标签云回滚</h3><h4 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h4><p>在部分页面在下拉过程会出现回滚情况，导致无法到达底部。最开始是在标签页发现的，几次测试还具有一定的随机性，在Chrome上。在手机端因为不显示sidebar所以没有这个问题。</p>
-<h4 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h4><h3 id="pjax刷新"><a href="#pjax刷新" class="headerlink" title="pjax刷新"></a>pjax刷新</h3><h4 id="问题描述-1"><a href="#问题描述-1" class="headerlink" title="问题描述"></a>问题描述</h4><p>在使用音乐播放器Aplayer与说说Artitalk时发现必须刷新两次才能加载出来。</p>
+<h4 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h4><p>注释掉标签云：</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-      &#123;% if site.tags.length &gt; 1 %&#125;</span></span><br><span class="line"><span class="deletion">-      &lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot; src=&quot;&#123;&#123; url_for(&#x27;/js/tagcloud.js&#x27;) &#125;&#125;&quot;&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="deletion">-      &lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot; src=&quot;&#123;&#123; url_for(&#x27;/js/tagcanvas.js&#x27;) &#125;&#125;&quot;&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="deletion">-      &lt;div class=&quot;widget-wrap&quot;&gt;</span></span><br><span class="line"><span class="deletion">-          &lt;h5 class=&quot;widget-title&quot;&gt;&lt;/h5&gt;</span></span><br><span class="line"><span class="deletion">-          &lt;div id=&quot;myCanvasContainer&quot; class=&quot;widget tagcloud&quot;&gt;</span></span><br><span class="line"><span class="deletion">-              &lt;canvas width=&quot;250&quot; height=&quot;250&quot; id=&quot;resCanvas&quot; style=&quot;width:100%&quot;&gt;</span></span><br><span class="line"><span class="deletion">-                  &#123;&#123; list_tags() &#125;&#125;</span></span><br><span class="line"><span class="deletion">-              &lt;/canvas&gt;</span></span><br><span class="line"><span class="deletion">-          &lt;/div&gt;</span></span><br><span class="line"><span class="deletion">-      &lt;/div&gt;</span></span><br><span class="line"><span class="deletion">-      &#123;% endif %&#125;</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+<h3 id="pjax刷新"><a href="#pjax刷新" class="headerlink" title="pjax刷新"></a>pjax刷新</h3><h4 id="问题描述-1"><a href="#问题描述-1" class="headerlink" title="问题描述"></a>问题描述</h4><p>在使用音乐播放器Aplayer与说说Artitalk时发现必须刷新两次才能加载出来。</p>
 <h4 id="解决方案-1"><a href="#解决方案-1" class="headerlink" title="解决方案"></a>解决方案</h4><p>最开始尝试在这几个页面不使用pjax：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">pjax:</span> <span class="string">ture</span>  </span><br><span class="line">  <span class="attr">exclude:</span> </span><br><span class="line">  	<span class="bullet">-</span> <span class="string">&#x27;/about/&#x27;</span></span><br><span class="line">  	<span class="bullet">-</span> <span class="string">&#x27;/artitalk/&#x27;</span></span><br></pre></td></tr></table></figure>
 
@@ -461,7 +470,10 @@
 <h3 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h3><p>当然本地语言不意味着它会很快，如果你写垃圾代码的话它会很慢，事实上它甚至可能比虚拟机语言比如C#和Java更慢，因为它们倾向于运行时做系统优化，所以如果你C++代码写的不好，C++肯定会比C#或Java更慢。正因为如此，我喜欢使用这类语言，当我只是需要合适的工具或不需要我压榨每一点性能的时候C#是一种非常好的语言，但是当我们真正需要性能的时候我们就需要C++。</p>
 <p>我们将学习如何正确书写的简单技巧、如何写好代码、如何写出快速的代码。</p>
 <p>你可能会问我们要讲些什么呢？一开始我们将从C++基础开始，如果我们关心性能之后将讨论使用C++库的好处，我们会讲到C++如何运行，会谈到内存与指针、池、自定义构造函数、移动语义、模板等如何正确的使用。我们还会讨论宏，以及如何在多个平台上编程，编写我们自己的数据结构使它们比C++库的更快更安全，我们甚至会涉及底层优化，通过编译器内联、汇编，写自己的Maps和SSE指令集。</p>
-<h3 id="配置安装"><a href="#配置安装" class="headerlink" title="配置安装"></a>配置安装</h3><h4 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h4><h4 id="MacOS"><a href="#MacOS" class="headerlink" title="MacOS"></a>MacOS</h4><p>你可以使用很多不同的工具在Mac上构建C++应用程序，但我要推荐的是XCode。Xcode是苹果公司开发的IDE，它还不算太糟，在大型项目上可能会很慢，例如EA公司用Xcode为IOS开发游戏时某些程序的编译时间会超过20分钟，比如《极品飞车：无极限》。实际上对于写代码也是一场噩梦，因为当你做一个大型项目时所有的东西都被延迟，但像学习C++这样的小项目，我仍然认为XCode是最好的IDE，让我们来安装它。</p>
+<h3 id="配置安装"><a href="#配置安装" class="headerlink" title="配置安装"></a>配置安装</h3><p>今天让我们把工具准备好，为了让我们用C++写程序我们需要一台计算机和一套工具，而这些工具将取决于你使用的操作系统：</p>
+<h4 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h4><p>Windows是非常好的选择，因为Windows是游戏行业中使用最广泛的操作系统。现在要写C++代码，你真正需要的只是一些文本编辑器，比如记事本就会做的很好。然而如果你在一个<code>.txt</code>文件中写C++代码我们需要通过编译器来生成一些可执行的二进制文件，这样我们才能运行我们的程序，所以我们需要至少有一个编译器：我们会把那个<code>.txt</code>文件转换成一个程序。</p>
+<p>然而我们可以做得更好，因为写C++程序并不简单。如果你用的是notepad这对你一点帮助也没有，所以你需要做的是找到一个开发环境</p>
+<h4 id="MacOS"><a href="#MacOS" class="headerlink" title="MacOS"></a>MacOS</h4><p>你可以使用很多不同的工具在Mac上构建C++应用程序，但我要推荐的是XCode。Xcode是苹果公司开发的IDE，它还不算太糟，在大型项目上可能会很慢，例如EA公司用Xcode为IOS开发游戏时某些程序的编译时间会超过20分钟，比如《极品飞车：无极限》。实际上对于写代码也是一场噩梦，因为当你做一个大型项目时所有的东西都被延迟，但像学习C++这样的小项目，我仍然认为XCode是最好的IDE，让我们来安装它。</p>
 <p>进入Appstore，搜索栏输入XCode：</p>
 <p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-03-07%20%E4%B8%8B%E5%8D%881.29.39.png"></p>
 <p>XCode安装好后让我们打开它，接受所有的条款和条件，XCode将继续为我们安装一些组件：</p>
@@ -5322,8 +5334,8 @@
         <category>Unity 游戏引擎 (Unity Game Engine)</category>
       </categories>
       <tags>
-        <tag>Unity</tag>
         <tag>Game Develop</tag>
+        <tag>Unity</tag>
       </tags>
   </entry>
   <entry>
@@ -8151,8 +8163,8 @@
         <category>Unity 游戏引擎 (Unity Game Engine)</category>
       </categories>
       <tags>
-        <tag>Unity</tag>
         <tag>Game Develop</tag>
+        <tag>Unity</tag>
         <tag>Csharp</tag>
         <tag>2D Game</tag>
       </tags>
@@ -12129,57 +12141,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#x79;&#111;&#110;&#x67;&#x40;&#x74;&#115;&#105;&#x6e;&#x67;&#x68;&#117;&#x61;&#x2e;&#101;&#x64;&#x75;&#x2e;&#x63;&#x6e;">&#x78;&#x79;&#111;&#110;&#x67;&#x40;&#x74;&#115;&#105;&#x6e;&#x67;&#x68;&#117;&#x61;&#x2e;&#101;&#x64;&#x75;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#121;&#111;&#110;&#103;&#x40;&#116;&#115;&#105;&#x6e;&#x67;&#x68;&#117;&#x61;&#46;&#101;&#x64;&#117;&#46;&#x63;&#110;">&#120;&#121;&#111;&#110;&#103;&#x40;&#116;&#115;&#105;&#x6e;&#x67;&#x68;&#117;&#x61;&#46;&#101;&#x64;&#117;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#x75;&#99;&#x68;&#101;&#110;&#64;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x74;&#x73;&#x69;&#x6e;&#x67;&#104;&#x75;&#97;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#110;">&#x79;&#x75;&#99;&#x68;&#101;&#110;&#64;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x74;&#x73;&#x69;&#x6e;&#x67;&#104;&#x75;&#97;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#117;&#x63;&#x68;&#101;&#x6e;&#x40;&#109;&#97;&#x69;&#x6c;&#46;&#116;&#x73;&#105;&#x6e;&#x67;&#x68;&#117;&#x61;&#x2e;&#x65;&#100;&#117;&#x2e;&#x63;&#110;">&#x79;&#117;&#x63;&#x68;&#101;&#x6e;&#x40;&#109;&#97;&#x69;&#x6c;&#46;&#116;&#x73;&#105;&#x6e;&#x67;&#x68;&#117;&#x61;&#x2e;&#x65;&#100;&#117;&#x2e;&#x63;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#x74;&#101;&#x72;&#x6e;&#97;&#108;&#46;&#x6e;&#x30;&#x38;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#101;&#x74;&#101;&#x72;&#x6e;&#97;&#108;&#46;&#x6e;&#x30;&#x38;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x65;&#116;&#x65;&#114;&#x6e;&#97;&#x6c;&#x2e;&#x6e;&#48;&#x38;&#64;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x65;&#116;&#x65;&#114;&#x6e;&#97;&#x6c;&#x2e;&#x6e;&#48;&#x38;&#64;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#x62;&#106;&#x65;&#99;&#x74;&#107;&#117;&#x61;&#x6e;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#x6f;&#x62;&#106;&#x65;&#99;&#x74;&#107;&#117;&#x61;&#x6e;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#111;&#98;&#106;&#101;&#x63;&#x74;&#x6b;&#117;&#97;&#110;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;">&#111;&#98;&#106;&#101;&#x63;&#x74;&#x6b;&#117;&#97;&#110;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#x72;&#x64;&#x66;&#114;&#97;&#110;&#107;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#99;&#x72;&#x64;&#x66;&#114;&#97;&#110;&#107;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x63;&#x72;&#100;&#102;&#114;&#97;&#x6e;&#x6b;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#x63;&#x72;&#100;&#102;&#114;&#97;&#x6e;&#x6b;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#x61;&#x63;&#99;&#x6f;&#114;&#97;&#119;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#109;">&#116;&#x61;&#x63;&#99;&#x6f;&#114;&#97;&#119;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x74;&#x61;&#99;&#99;&#111;&#114;&#97;&#119;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#x74;&#x61;&#99;&#99;&#111;&#114;&#97;&#119;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#105;&#x6e;&#x79;&#x75;&#110;&#120;&#x69;&#110;&#x67;&#48;&#x30;&#x30;&#49;&#64;&#49;&#54;&#x33;&#x2e;&#99;&#x6f;&#109;">&#x78;&#105;&#x6e;&#x79;&#x75;&#110;&#120;&#x69;&#110;&#x67;&#48;&#x30;&#x30;&#49;&#64;&#49;&#54;&#x33;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x78;&#105;&#110;&#121;&#x75;&#110;&#120;&#105;&#x6e;&#x67;&#48;&#48;&#48;&#49;&#x40;&#x31;&#54;&#51;&#46;&#x63;&#111;&#x6d;">&#x78;&#105;&#110;&#121;&#x75;&#110;&#120;&#105;&#x6e;&#x67;&#48;&#48;&#48;&#49;&#x40;&#x31;&#54;&#51;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#x6e;&#111;&#99;&#117;&#x69;&#x6c;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#x67;&#x6e;&#111;&#99;&#117;&#x69;&#x6c;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#110;&#111;&#x63;&#x75;&#x69;&#x6c;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#110;&#111;&#x63;&#x75;&#x69;&#x6c;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#x79;&#97;&#105;&#x72;&#105;&#x61;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#x6d;&#x79;&#97;&#105;&#x72;&#105;&#x61;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#x79;&#x61;&#x69;&#x72;&#x69;&#x61;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#109;&#x79;&#x61;&#x69;&#x72;&#x69;&#x61;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#x68;&#x61;&#110;&#x67;&#x72;&#x61;&#105;&#x6e;&#57;&#x31;&#x31;&#x40;&#49;&#x36;&#x33;&#x2e;&#99;&#x6f;&#109;">&#122;&#x68;&#x61;&#110;&#x67;&#x72;&#x61;&#105;&#x6e;&#57;&#x31;&#x31;&#x40;&#49;&#x36;&#x33;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x7a;&#x68;&#x61;&#x6e;&#x67;&#114;&#x61;&#x69;&#x6e;&#x39;&#x31;&#49;&#x40;&#49;&#x36;&#51;&#x2e;&#99;&#111;&#109;">&#x7a;&#x68;&#x61;&#x6e;&#x67;&#114;&#x61;&#x69;&#x6e;&#x39;&#x31;&#49;&#x40;&#49;&#x36;&#51;&#x2e;&#99;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#x67;&#120;&#x78;&#49;&#x32;&#48;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#103;&#x67;&#120;&#x78;&#49;&#x32;&#48;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#103;&#x78;&#x78;&#x31;&#x32;&#48;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#103;&#103;&#x78;&#x78;&#x31;&#x32;&#48;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -16467,7 +16479,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#101;&#101;&#x6e;&#120;&#117;&#64;&#x74;&#x65;&#110;&#99;&#101;&#110;&#116;&#x2e;&#99;&#111;&#109;">&#108;&#101;&#101;&#x6e;&#120;&#117;&#64;&#x74;&#x65;&#110;&#99;&#101;&#110;&#116;&#x2e;&#99;&#111;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#101;&#110;&#120;&#117;&#64;&#116;&#x65;&#110;&#99;&#101;&#x6e;&#116;&#46;&#x63;&#x6f;&#x6d;">&#x6c;&#101;&#101;&#110;&#120;&#117;&#64;&#116;&#x65;&#110;&#99;&#101;&#x6e;&#116;&#46;&#x63;&#x6f;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
