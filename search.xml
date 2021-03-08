@@ -217,7 +217,7 @@
 
 
 <h3 id="整数反转"><a href="#整数反转" class="headerlink" title="整数反转"></a>整数反转</h3><p>给你一个 32 位的有符号整数 x ，返回 x 中每位上的数字反转后的结果。</p>
-<p>如果反转后整数超过 32 位的有符号整数的范围 [−231,  231 − 1] ，就返回 0。</p>
+<p>如果反转后整数超过 32 位的有符号整数的范围 $[−2^{31},  2^{31} − 1]$ ，就返回 0。</p>
 <p>假设环境不允许存储 64 位整数（有符号或无符号）。</p>
 <h4 id="示例-1-5"><a href="#示例-1-5" class="headerlink" title="示例 1"></a>示例 1</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：x &#x3D; 123</span><br><span class="line">输出：321</span><br></pre></td></tr></table></figure>
 
@@ -232,7 +232,75 @@
 </ul>
 <h4 id="默认模板-5"><a href="#默认模板-5" class="headerlink" title="默认模板"></a>默认模板</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">reverse</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
-<h4 id="题解-6"><a href="#题解-6" class="headerlink" title="题解"></a>题解</h4>]]></content>
+<h4 id="题解-6"><a href="#题解-6" class="headerlink" title="题解"></a>题解</h4><p>本题考查的是C++字符串转换，主要使用了两个库函数：</p>
+<ul>
+<li><code>reverse()</code></li>
+<li><code>stoll()</code></li>
+</ul>
+<h4 id="reverse"><a href="#reverse" class="headerlink" title="reverse"></a>reverse</h4><p><code>reverse()</code>函数功能是逆序（或反转），多用于字符串、数组、容器，头文件是<code>#include &lt;algorithm&gt;</code>。<code>reverse()</code>函数用于反转在<code>[first,last)</code>范围内的顺序（包括<code>first</code>指向的元素，不包括<code>last</code>指向的元素），<code>reverse()</code>函数无返回值。</p>
+<p>举个例子来体会一下这个函数的用法：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">string</span> str=<span class="string">&quot;hello world , hi&quot;</span>;</span><br><span class="line">reverse(str.begin(),str.end());<span class="comment">//str结果为 ih , dlrow olleh</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; v = &#123;<span class="number">5</span>,<span class="number">4</span>,<span class="number">3</span>,<span class="number">2</span>,<span class="number">1</span>&#125;;</span><br><span class="line">reverse(v.begin(),v.end());<span class="comment">//容器v的值变为1,2,3,4,5</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h4 id="stoll"><a href="#stoll" class="headerlink" title="stoll"></a>stoll</h4><p><code>stoll()</code>函数功能是将字符串转换为<code>long long</code>，也就是解析<code>str</code>将其内容解释为指定基数的整数，并将其作为<code>long long</code>类型的值返回。如果<code>idx</code>不是空指针，则该函数还将<code>idx</code>的值设置为数字后str中第一个字符的位置。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">long</span> <span class="keyword">long</span> <span class="title">stoll</span> <span class="params">(<span class="keyword">const</span> <span class="built_in">string</span>&amp;  str, <span class="keyword">size_t</span>* idx = <span class="number">0</span>, <span class="keyword">int</span> base = <span class="number">10</span>)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">long</span> <span class="keyword">long</span> <span class="title">stoll</span> <span class="params">(<span class="keyword">const</span> <span class="built_in">wstring</span>&amp; str, <span class="keyword">size_t</span>* idx = <span class="number">0</span>, <span class="keyword">int</span> base = <span class="number">10</span>)</span></span>;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>完整源码如下：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">reverse</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">        <span class="built_in">string</span> s = to_string(x);</span><br><span class="line">        <span class="keyword">if</span> (s[<span class="number">0</span>] == <span class="string">&#x27;-&#x27;</span>)&#123;</span><br><span class="line">            <span class="built_in">std</span>::reverse(s.begin() + <span class="number">1</span>,s.end());</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span>&#123;</span><br><span class="line">            <span class="built_in">std</span>::reverse(s.begin(),s.end());</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">long</span> <span class="keyword">long</span> <span class="keyword">int</span> tmp = stoll(s);</span><br><span class="line">        <span class="keyword">if</span> (tmp &gt; <span class="built_in">pow</span>(<span class="number">2</span>,<span class="number">31</span>) - <span class="number">1</span> || tmp &lt; -<span class="built_in">pow</span>(<span class="number">2</span>,<span class="number">31</span>))</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> tmp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+<h3 id="字符串转换整数-atoi"><a href="#字符串转换整数-atoi" class="headerlink" title="字符串转换整数 (atoi)"></a>字符串转换整数 (atoi)</h3><p>请你来实现一个 <code>myAtoi(string s)</code> 函数，使其能将字符串转换成一个 32 位有符号整数（类似 C/C++ 中的 <code>atoi</code> 函数）。</p>
+<p>函数 <code>myAtoi(string s)</code> 的算法如下：</p>
+<ul>
+<li>读入字符串并丢弃无用的前导空格</li>
+<li>检查下一个字符（假设还未到字符末尾）为正还是负号，读取该字符（如果有）。 确定最终结果是负数还是正数。 如果两者都不存在，则假定结果为正。</li>
+<li>读入下一个字符，直到到达下一个非数字字符或到达输入的结尾。字符串的其余部分将被忽略。</li>
+<li>将前面步骤读入的这些数字转换为整数（即，”123” -&gt; 123， “0032” -&gt; 32）。如果没有读入数字，则整数为 <code>0</code> 。必要时更改符号（从步骤 2 开始）。</li>
+<li>如果整数数超过 32 位有符号整数范围 <code>[−231, 231 − 1]</code> ，需要截断这个整数，使其保持在这个范围内。具体来说，小于 <code>−231</code> 的整数应该被固定为 <code>−231</code> ，大于 <code>231 − 1</code> 的整数应该被固定为 <code>231 − 1</code> 。</li>
+<li>返回整数作为最终结果。</li>
+</ul>
+<p><strong>注意：</strong></p>
+<ul>
+<li>本题中的空白字符只包括空格字符 <code>&#39; &#39;</code> 。</li>
+<li>除前导空格或数字后的其余字符串外，<strong>请勿忽略</strong> 任何其他字符。</li>
+</ul>
+<h4 id="示例-1-6"><a href="#示例-1-6" class="headerlink" title="示例 1"></a>示例 1</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：s &#x3D; &quot;42&quot;</span><br><span class="line">输出：42</span><br><span class="line">解释：加粗的字符串为已经读入的字符，插入符号是当前读取的字符。</span><br><span class="line">第 1 步：&quot;42&quot;（当前没有读入字符，因为没有前导空格）</span><br><span class="line">         ^</span><br><span class="line">第 2 步：&quot;42&quot;（当前没有读入字符，因为这里不存在 &#39;-&#39; 或者 &#39;+&#39;）</span><br><span class="line">         ^</span><br><span class="line">第 3 步：&quot;42&quot;（读入 &quot;42&quot;）</span><br><span class="line">           ^</span><br><span class="line">解析得到整数 42 。</span><br><span class="line">由于 &quot;42&quot; 在范围 [-231, 231 - 1] 内，最终结果为 42 。</span><br></pre></td></tr></table></figure>
+
+<h4 id="示例-2-7"><a href="#示例-2-7" class="headerlink" title="示例 2"></a>示例 2</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：s &#x3D; &quot;   -42&quot;</span><br><span class="line">输出：-42</span><br><span class="line">解释：</span><br><span class="line">第 1 步：&quot;   -42&quot;（读入前导空格，但忽视掉）</span><br><span class="line">            ^</span><br><span class="line">第 2 步：&quot;   -42&quot;（读入 &#39;-&#39; 字符，所以结果应该是负数）</span><br><span class="line">             ^</span><br><span class="line">第 3 步：&quot;   -42&quot;（读入 &quot;42&quot;）</span><br><span class="line">               ^</span><br><span class="line">解析得到整数 -42 。</span><br><span class="line">由于 &quot;-42&quot; 在范围 [-231, 231 - 1] 内，最终结果为 -42 。</span><br></pre></td></tr></table></figure>
+
+<h4 id="示例-3-7"><a href="#示例-3-7" class="headerlink" title="示例 3"></a>示例 3</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：s &#x3D; &quot;4193 with words&quot;</span><br><span class="line">输出：4193</span><br><span class="line">解释：</span><br><span class="line">第 1 步：&quot;4193 with words&quot;（当前没有读入字符，因为没有前导空格）</span><br><span class="line">         ^</span><br><span class="line">第 2 步：&quot;4193 with words&quot;（当前没有读入字符，因为这里不存在 &#39;-&#39; 或者 &#39;+&#39;）</span><br><span class="line">         ^</span><br><span class="line">第 3 步：&quot;4193 with words&quot;（读入 &quot;4193&quot;；由于下一个字符不是一个数字，所以读入停止）</span><br><span class="line">             ^</span><br><span class="line">解析得到整数 4193 。</span><br><span class="line">由于 &quot;4193&quot; 在范围 [-231, 231 - 1] 内，最终结果为 4193 。</span><br></pre></td></tr></table></figure>
+
+<h4 id="示例-4-4"><a href="#示例-4-4" class="headerlink" title="示例 4"></a>示例 4</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：s &#x3D; &quot;words and 987&quot;</span><br><span class="line">输出：0</span><br><span class="line">解释：</span><br><span class="line">第 1 步：&quot;words and 987&quot;（当前没有读入字符，因为没有前导空格）</span><br><span class="line">         ^</span><br><span class="line">第 2 步：&quot;words and 987&quot;（当前没有读入字符，因为这里不存在 &#39;-&#39; 或者 &#39;+&#39;）</span><br><span class="line">         ^</span><br><span class="line">第 3 步：&quot;words and 987&quot;（由于当前字符 &#39;w&#39; 不是一个数字，所以读入停止）</span><br><span class="line">         ^</span><br><span class="line">解析得到整数 0 ，因为没有读入任何数字。</span><br><span class="line">由于 0 在范围 [-231, 231 - 1] 内，最终结果为 0 。</span><br></pre></td></tr></table></figure>
+
+<h4 id="示例-5-1"><a href="#示例-5-1" class="headerlink" title="示例 5"></a>示例 5</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：s &#x3D; &quot;-91283472332&quot;</span><br><span class="line">输出：-2147483648</span><br><span class="line">解释：</span><br><span class="line">第 1 步：&quot;-91283472332&quot;（当前没有读入字符，因为没有前导空格）</span><br><span class="line">         ^</span><br><span class="line">第 2 步：&quot;-91283472332&quot;（读入 &#39;-&#39; 字符，所以结果应该是负数）</span><br><span class="line">          ^</span><br><span class="line">第 3 步：&quot;-91283472332&quot;（读入 &quot;91283472332&quot;）</span><br><span class="line">                     ^</span><br><span class="line">解析得到整数 -91283472332 。</span><br><span class="line">由于 -91283472332 小于范围 [-231, 231 - 1] 的下界，最终结果被截断为 -231 &#x3D; -2147483648 。</span><br></pre></td></tr></table></figure>
+
+<h4 id="提示-7"><a href="#提示-7" class="headerlink" title="提示"></a>提示</h4><ul>
+<li><code>0 &lt;= s.length &lt;= 200</code></li>
+<li><code>s</code> 由英文字母（大写和小写）、数字（<code>0-9</code>）、<code>&#39; &#39;</code>、<code>&#39;+&#39;</code>、<code>&#39;-&#39;</code> 和 <code>&#39;.&#39;</code> 组成</li>
+</ul>
+<h4 id="默认模板-6"><a href="#默认模板-6" class="headerlink" title="默认模板"></a>默认模板</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">myAtoi</span><span class="params">(<span class="built_in">string</span> s)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h4 id="题解-7"><a href="#题解-7" class="headerlink" title="题解"></a>题解</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+]]></content>
       <categories>
         <category>LeetCode题解 (LeetCode Solution)</category>
       </categories>
@@ -12171,57 +12239,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#121;&#111;&#110;&#103;&#64;&#x74;&#x73;&#105;&#x6e;&#x67;&#104;&#x75;&#x61;&#x2e;&#101;&#x64;&#117;&#x2e;&#99;&#x6e;">&#x78;&#121;&#111;&#110;&#103;&#64;&#x74;&#x73;&#105;&#x6e;&#x67;&#104;&#x75;&#x61;&#x2e;&#101;&#x64;&#117;&#x2e;&#99;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#121;&#111;&#x6e;&#x67;&#64;&#x74;&#115;&#105;&#110;&#x67;&#104;&#117;&#97;&#x2e;&#101;&#x64;&#x75;&#46;&#99;&#110;">&#x78;&#121;&#111;&#x6e;&#x67;&#64;&#x74;&#115;&#105;&#110;&#x67;&#104;&#117;&#97;&#x2e;&#101;&#x64;&#x75;&#46;&#99;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#117;&#99;&#x68;&#x65;&#110;&#64;&#109;&#97;&#x69;&#108;&#x2e;&#x74;&#115;&#x69;&#x6e;&#x67;&#104;&#117;&#97;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#110;">&#x79;&#117;&#99;&#x68;&#x65;&#110;&#64;&#109;&#97;&#x69;&#108;&#x2e;&#x74;&#115;&#x69;&#x6e;&#x67;&#104;&#117;&#97;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#x75;&#x63;&#104;&#101;&#x6e;&#x40;&#x6d;&#x61;&#x69;&#108;&#x2e;&#116;&#115;&#105;&#110;&#103;&#x68;&#x75;&#x61;&#x2e;&#101;&#100;&#x75;&#x2e;&#99;&#x6e;">&#121;&#x75;&#x63;&#104;&#101;&#x6e;&#x40;&#x6d;&#x61;&#x69;&#108;&#x2e;&#116;&#115;&#105;&#110;&#103;&#x68;&#x75;&#x61;&#x2e;&#101;&#100;&#x75;&#x2e;&#99;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#116;&#x65;&#x72;&#110;&#97;&#x6c;&#46;&#x6e;&#48;&#x38;&#64;&#103;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#109;">&#101;&#116;&#x65;&#x72;&#110;&#97;&#x6c;&#46;&#x6e;&#48;&#x38;&#64;&#103;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#101;&#116;&#x65;&#x72;&#x6e;&#x61;&#108;&#x2e;&#110;&#x30;&#x38;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#101;&#116;&#x65;&#x72;&#x6e;&#x61;&#108;&#x2e;&#110;&#x30;&#x38;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#98;&#106;&#101;&#x63;&#x74;&#x6b;&#117;&#97;&#110;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#111;&#98;&#106;&#101;&#x63;&#x74;&#x6b;&#117;&#97;&#110;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#x62;&#x6a;&#101;&#99;&#116;&#107;&#x75;&#x61;&#110;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#111;&#x62;&#x6a;&#101;&#99;&#116;&#107;&#x75;&#x61;&#110;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#114;&#100;&#x66;&#x72;&#97;&#110;&#107;&#64;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#99;&#114;&#100;&#x66;&#x72;&#97;&#110;&#107;&#64;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#114;&#100;&#x66;&#x72;&#97;&#110;&#107;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;">&#x63;&#114;&#100;&#x66;&#x72;&#97;&#110;&#107;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#97;&#99;&#99;&#111;&#114;&#x61;&#119;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#x74;&#97;&#99;&#99;&#111;&#114;&#x61;&#119;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x74;&#97;&#99;&#99;&#111;&#x72;&#97;&#x77;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;">&#x74;&#97;&#99;&#99;&#111;&#x72;&#97;&#x77;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#x69;&#110;&#x79;&#117;&#x6e;&#120;&#x69;&#x6e;&#103;&#48;&#48;&#48;&#49;&#64;&#x31;&#54;&#51;&#46;&#99;&#111;&#x6d;">&#120;&#x69;&#110;&#x79;&#117;&#x6e;&#120;&#x69;&#x6e;&#103;&#48;&#48;&#48;&#49;&#64;&#x31;&#54;&#51;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#117;&#110;&#120;&#105;&#110;&#x67;&#x30;&#48;&#48;&#49;&#x40;&#49;&#54;&#51;&#x2e;&#99;&#111;&#x6d;">&#x78;&#x69;&#x6e;&#121;&#117;&#110;&#120;&#105;&#110;&#x67;&#x30;&#48;&#48;&#49;&#x40;&#49;&#54;&#51;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#110;&#x6f;&#99;&#117;&#105;&#x6c;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#109;">&#x67;&#110;&#x6f;&#99;&#117;&#105;&#x6c;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#103;&#x6e;&#111;&#99;&#117;&#105;&#x6c;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#109;">&#103;&#x6e;&#111;&#99;&#117;&#105;&#x6c;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#x79;&#x61;&#x69;&#114;&#105;&#x61;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#111;&#x6d;">&#109;&#x79;&#x61;&#x69;&#114;&#105;&#x61;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#121;&#97;&#x69;&#x72;&#105;&#97;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#109;&#121;&#97;&#x69;&#x72;&#105;&#97;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#x68;&#97;&#x6e;&#103;&#x72;&#97;&#105;&#x6e;&#57;&#x31;&#x31;&#x40;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#x6d;">&#122;&#x68;&#97;&#x6e;&#103;&#x72;&#97;&#105;&#x6e;&#57;&#x31;&#x31;&#x40;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#104;&#x61;&#x6e;&#x67;&#x72;&#x61;&#x69;&#x6e;&#x39;&#x31;&#49;&#x40;&#49;&#54;&#x33;&#46;&#x63;&#111;&#x6d;">&#x7a;&#104;&#x61;&#x6e;&#x67;&#x72;&#x61;&#x69;&#x6e;&#x39;&#x31;&#49;&#x40;&#49;&#54;&#x33;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#103;&#x78;&#x78;&#x31;&#50;&#x30;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#103;&#103;&#x78;&#x78;&#x31;&#50;&#x30;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#x67;&#x78;&#120;&#49;&#x32;&#x30;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;">&#103;&#x67;&#x78;&#120;&#49;&#x32;&#x30;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -16509,7 +16577,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#101;&#110;&#x78;&#117;&#64;&#x74;&#x65;&#110;&#99;&#101;&#110;&#116;&#x2e;&#x63;&#x6f;&#x6d;">&#x6c;&#101;&#101;&#110;&#x78;&#117;&#64;&#x74;&#x65;&#110;&#99;&#101;&#110;&#116;&#x2e;&#x63;&#x6f;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#101;&#x6e;&#x78;&#117;&#x40;&#x74;&#101;&#x6e;&#99;&#x65;&#x6e;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#108;&#x65;&#101;&#x6e;&#x78;&#117;&#x40;&#x74;&#101;&#x6e;&#99;&#x65;&#x6e;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
