@@ -398,6 +398,14 @@
 <p>目前没有两全其美的办法，对于页面间跳转我的需求并不是很高，所以在主题配置文件中关闭了pjax选项，音乐播放器与Artitalk均恢复正常。</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Easily enable fast Ajax navigation on your website.</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/theme-next-pjax</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">pjax:</span> <span class="string">ture</span></span><br><span class="line"><span class="string">+</span> <span class="attr">pjax:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
 
+
+
+<p>后面加入Artitalk的交流群询问是否兼容pjax，得到的答案是不行。在关闭pjax后页面间跳转明显变慢，后面又查询了一下找到一种折中的办法：pjax页面刷新两次。在<code>themes/layout/pjax.swig</code>中加入刷新代码：</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">var pjax = new Pjax(&#123;</span><br><span class="line">  selectors: [</span><br><span class="line">    &#x27;head title&#x27;,</span><br><span class="line">    &#x27;#page-configurations&#x27;,</span><br><span class="line">    &#x27;.content-wrap&#x27;,</span><br><span class="line">    &#x27;.post-toc-wrap&#x27;,</span><br><span class="line">    &#x27;.languages&#x27;,</span><br><span class="line">    &#x27;#pjax&#x27;</span><br><span class="line">  ],</span><br><span class="line">  switches: &#123;</span><br><span class="line">    &#x27;.post-toc-wrap&#x27;: Pjax.switches.innerHTML</span><br><span class="line">  &#125;,</span><br><span class="line">  analytics: false,</span><br><span class="line">  cacheBust: false,</span><br><span class="line">  scrollTo : !CONFIG.bookmark.enable</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">window.addEventListener(&#x27;pjax:success&#x27;, () =&gt; &#123;</span><br><span class="line">  document.querySelectorAll(&#x27;script[data-pjax], script#page-configurations, #pjax script&#x27;).forEach(element =&gt; &#123;</span><br><span class="line">    var code = element.text || element.textContent || element.innerHTML || &#x27;&#x27;;</span><br><span class="line">    var parent = element.parentNode;</span><br><span class="line">    parent.removeChild(element);</span><br><span class="line">    var script = document.createElement(&#x27;script&#x27;);</span><br><span class="line">    if (element.id) &#123;</span><br><span class="line">      script.id = element.id;</span><br><span class="line">    &#125;</span><br><span class="line">    if (element.className) &#123;</span><br><span class="line">      script.className = element.className;</span><br><span class="line">    &#125;</span><br><span class="line">    if (element.type) &#123;</span><br><span class="line">      script.type = element.type;</span><br><span class="line">    &#125;</span><br><span class="line">    if (element.src) &#123;</span><br><span class="line">      script.src = element.src;</span><br><span class="line">      // Force synchronous loading of peripheral JS.</span><br><span class="line">      script.async = false;</span><br><span class="line">    &#125;</span><br><span class="line">    if (element.dataset.pjax !== undefined) &#123;</span><br><span class="line">      script.dataset.pjax = &#x27;&#x27;;</span><br><span class="line">    &#125;</span><br><span class="line">    if (code !== &#x27;&#x27;) &#123;</span><br><span class="line">      script.appendChild(document.createTextNode(code));</span><br><span class="line">    &#125;</span><br><span class="line">    parent.appendChild(script);</span><br><span class="line">  &#125;);</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line">  NexT.boot.refresh();</span><br><span class="line"><span class="addition">+ loadMeting();</span></span><br><span class="line">  // Define Motion Sequence &amp; Bootstrap Motion.</span><br><span class="line">  if (CONFIG.motion.enable) &#123;</span><br><span class="line">    NexT.motion.integrator</span><br><span class="line">      .init()</span><br><span class="line">      .add(NexT.motion.middleWares.subMenu)</span><br><span class="line">      .add(NexT.motion.middleWares.postList)</span><br><span class="line">      .bootstrap();</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">  </span><br><span class="line">  NexT.utils.updateSidebarPosition();</span><br><span class="line"></span><br><span class="line"><span class="addition">+ $(document).ready(function () &#123;</span></span><br><span class="line"><span class="addition">+     if(location.href.indexOf(&quot;#reloaded&quot;)==-1)&#123;</span></span><br><span class="line"><span class="addition">+         location.href=location.href+&quot;#reloaded&quot;;</span></span><br><span class="line"><span class="addition">+         location.reload();</span></span><br><span class="line"><span class="addition">+     &#125;</span></span><br><span class="line"><span class="addition">+ &#125;）</span></span><br><span class="line"></span><br><span class="line">&#125;);</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<p>这样从某种程度保证了性能和花里胡哨，但刷新也无形中降低了性能，所以是把双刃剑取舍由读者来选择。</p>
 ]]></content>
       <categories>
         <category>博客搭建 (Blog Building)</category>
@@ -2354,7 +2362,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#101;&#110;&#x78;&#117;&#64;&#116;&#x65;&#110;&#99;&#101;&#x6e;&#116;&#x2e;&#99;&#x6f;&#109;">&#x6c;&#x65;&#101;&#110;&#x78;&#117;&#64;&#116;&#x65;&#110;&#99;&#101;&#x6e;&#116;&#x2e;&#99;&#x6f;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#x65;&#x6e;&#120;&#x75;&#64;&#116;&#101;&#x6e;&#x63;&#101;&#x6e;&#x74;&#46;&#x63;&#111;&#109;">&#x6c;&#101;&#x65;&#x6e;&#120;&#x75;&#64;&#116;&#101;&#x6e;&#x63;&#101;&#x6e;&#x74;&#46;&#x63;&#111;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -4544,99 +4552,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Project SetUp</title>
-    <url>/archives/2b07a0e9.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gne54jvymsj31000u0thh.jpg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href="https://www.behance.net/gallery/35750281/The-quiet-room-Voxel-art">The quiet room - Voxel art</a> by 
-      <a href="https://www.behance.net/sircarma">Antoine Lendrevie</a>
-    </i>
-  </font>
-</div>
-
-
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列我们将从零开始开发一个自己的游戏引擎。这一节主要是关于引擎开发的前期准备和相关开发环境的配置。</p>
-<span id="more"></span>
-
-
-
-<h3 id="创建托管仓库"><a href="#创建托管仓库" class="headerlink" title="创建托管仓库"></a>创建托管仓库</h3><p>在Github中新建一个新的仓库，我们这里想用<code>Infinite</code>作为引擎的名字，意为“无限”，也希望大家可以用它来将无限的创意付诸实际：</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230346928.png"></p>
-<p>创建好之后我们会有证书和自述文件，简单介绍一下自己的项目即可：</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230413954.png"></p>
-<p>我们已经拥有了所有的这些，可以<code>git clone</code>并开始实际创建项目了。</p>
-<h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><p>打开<code>Visual Studio</code>，点击<code>File</code>-<code>New</code>-<code>Project</code>，然后创建一个空的C++项目：</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230516025.png"></p>
-<p>现在我们打开它，就可以得到<code>Infinite</code>的解决方案了：</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230539984.png"></p>
-<p>右键项目，在文件资源管理器中打开文件夹，我们发现在<code>Infinite</code>的文件夹中有一个名为<code>Infinite</code>的项目，因此Infinite到处都是。</p>
-<p>接下来我们打开命令提示行，进入该文件夹进行<code>git clone</code>将其克隆到一个并不在乎的文件夹中：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/Yousazoe/Infinite Git</span><br></pre></td></tr></table></figure>
-
-
-
-<p>进入文件夹<code>Git</code>显示隐藏文件（会多一个<code>.git</code>文件夹），将所有的一切拷贝到<code>Infinite</code>文件夹中，然后删除原来存放的<code>Git</code>文件夹，得到我们的最终结果。</p>
-<p>基本上，我们已经设法将git存储库的东西克隆到我们的项目文件夹中，比如可以看到我们通过github存储库创建的许可和自述文件，所以我们手动完成了将解决方案和git存储库放置在同一目录中。</p>
-<h3 id="静态库-or-动态库"><a href="#静态库-or-动态库" class="headerlink" title="静态库 or 动态库"></a>静态库 or 动态库</h3><p>我们继续进行实际的设置。回到<code>Visual Studio</code>，我们看到的是<code>Infinite</code>项目文件和解决方案，现在我们的解决方案将不仅包含引擎，实际上是Windows上将其构建为动态链接库，至少是一个dll文件。所以我们要实际执行的操作是创建一个可执行文件的应用程序项目，也就是Windows中的一个<code>.exe</code>文件，我们要将该引擎实际链接到这个<code>.exe</code>文件中。</p>
-<p>现在有两种方法可以做到这一点，可以使用静态库或自己使用动态库。我们选择dll动态库的原因是我们可以选择加载和卸载它，这主要是因为我们要拥有很多依赖关系必须链接到我们的库中。如果我们使用静态库基本上意味着我们拥有的依赖库实际上必须将其链接到我们的游戏中，而dll基本上就像是一个<code>.exe</code>文件，所以我们实际上可以将所有内容链接到它们中，这样我们的游戏将仅依赖于包含以下内容的单个dll文件：拥有它所需要的一切而不是拥有数量庞大的其他类型的库文件。</p>
-<p>本质上，我们最终要做的是将所有内容链接到引擎dll有关依赖项，这意味着它们都需要成为静态库，因此我们将所有这些静态库链接到引擎中dll，然后将引擎dll链接到我们的游戏中。</p>
-<h3 id="平台和配置"><a href="#平台和配置" class="headerlink" title="平台和配置"></a>平台和配置</h3><p>右键属性，进入配置管理器，我们有两种活动解决方案平台：<code>x86</code>和<code>x64</code>。现在我不是很想支持32位因为现在已经2021年了，32位不是我想考虑的平台，支持可能是出于一些遗留问题的原因可能是个好主意，但我选择拒绝支持。</p>
-<p>所以我们编辑删除<code>x86</code>平台，确定它已经消失了：</p>
-<p><img data-src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50lr7khj30rs0j8tag.jpg"></p>
-<p>现在我们拥有一个平台<code>x64</code>，接着去修改所有配置中的配置类型，从<code>.exe</code>改为<code>.dll</code>：</p>
-<p><img data-src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50kw6wpj30rs0j877b.jpg"></p>
-<p>另外需要修改的是输出目录和中间目录，<code>Visual Studio</code>默认的配置并不是最佳的，而我们想把解决方案目录中名为<code>bin</code>的文件夹中所有内容都转移到该位置：</p>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">- $(SolutionDir)$(Platform)\$(Configuration)\</span></span><br><span class="line"><span class="addition">+ $(SolutionDir)bin\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+ $(SolutionDir)bin\int\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br><span class="line">or</span><br><span class="line"><span class="addition">+ $(SolutionDir)bin-int\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br></pre></td></tr></table></figure>
-
-
-
-<p><img data-src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50h7wh0j30yk0j8421.jpg"></p>
-<p>下一件事就是右键单击解决方案文件上，点击添加，新建一个空的C++项目，我们将其命名为<code>Sandbox</code>沙盒。我们有我们的引擎，但是现在我们需要一个应用程序使用我们的引擎，因此我将其称为“沙盒”。</p>
-<p>之后对沙盒进行配置，和之前一样移除对32位平台的支持并更改输出目录和中间目录。需要注意的是和之前不同，沙盒的配置类型是一个<code>.exe</code>的应用程序，这里无需修改。</p>
-<h3 id="设置启动项"><a href="#设置启动项" class="headerlink" title="设置启动项"></a>设置启动项</h3><p>最后右键沙盒项目，设置为启动项目。在<code>Visual Studio</code>中保存更改，用其它文本编辑器（这里我用的<code>Atom</code>）打开解决方案文件<code>Infinite.sln</code>，把刚才的这个沙盒项目从列表中的第二事件调整为第一事件：</p>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">﻿</span><br><span class="line">Microsoft Visual Studio Solution File, Format Version 12.00</span><br><span class="line"># Visual Studio Version 16</span><br><span class="line">VisualStudioVersion = 16.0.30804.86</span><br><span class="line">MinimumVisualStudioVersion = 10.0.40219.1</span><br><span class="line"><span class="deletion">- Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Infinite&quot;, &quot;Infinite\Infinite.vcxproj&quot;, &quot;&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;&quot;</span></span><br><span class="line"><span class="deletion">- EndProject</span></span><br><span class="line">Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Sandbox&quot;, &quot;Sandbox\Sandbox.vcxproj&quot;, &quot;&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;&quot;</span><br><span class="line"><span class="deletion">- EndProject</span></span><br><span class="line"><span class="addition">+ Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Infinite&quot;, &quot;Infinite\Infinite.vcxproj&quot;, &quot;&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;&quot;</span></span><br><span class="line"><span class="addition">+ EndProject</span></span><br><span class="line">Global</span><br><span class="line">	GlobalSection(SolutionConfigurationPlatforms) = preSolution</span><br><span class="line">		Debug|x64 = Debug|x64</span><br><span class="line">		Release|x64 = Release|x64</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(ProjectConfigurationPlatforms) = postSolution</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Debug|x64.ActiveCfg = Debug|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Debug|x64.Build.0 = Debug|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Release|x64.ActiveCfg = Release|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Release|x64.Build.0 = Release|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Debug|x64.ActiveCfg = Debug|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Debug|x64.Build.0 = Debug|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Release|x64.ActiveCfg = Release|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Release|x64.Build.0 = Release|x64</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(SolutionProperties) = preSolution</span><br><span class="line">		HideSolutionNode = FALSE</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(ExtensibilityGlobals) = postSolution</span><br><span class="line">		SolutionGuid = &#123;93C2B59B-B64B-4873-9805-4CBCD84336E4&#125;</span><br><span class="line">	EndGlobalSection</span><br><span class="line">EndGlobal</span><br></pre></td></tr></table></figure>
-
-<p>这样沙盒会成为启动项目而不是<code>Infinite</code>，如果是<code>Infinite</code>则显然不会运行其dll文件。</p>
-<p>ok，现在我们已经构建一个基本的结构，那么我们来将两个项目链接在一起。右键单击沙盒，添加引用：</p>
-<p><img data-src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50ea03ej30rs0j40tg.jpg"></p>
-<p>这意味着当<code>Infinite</code>实际编译并生成静态库文件时将链接到沙盒中。它会自动为我们链接引擎库文件，但为什么它是一个lib文件呢？这是因为当我们在<code>Visual Studio</code>编译dll文件时，它实际上会生成一个lib文件，其中会包含每种功能的种类，我们实际是从dll文件中导出。</p>
-<p>分别为两个项目新建名为<code>src</code>的文件夹，在<code>Infinite</code>中新建<code>Test.h</code>的头文件和<code>Test.cpp</code>的测试点并编写测试：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">	_declspec(dllexport) <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<p>以最基本的打印功能作为测试，输出信息<code>Welcome To Infinite Engine!</code>。</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;Test.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Welcome To Infinite Engine!&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<p>在沙盒项目中新建<code>Application.cpp</code>，对之前的代码进行测试：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">  _declspec(dllimport) <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  Infinite::Print();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>如果直接<code>Build</code>运行的话会报错缺少<code>Infinite.dll</code>，这部分的自动化我们之后再考虑，现在手动从文件夹中拖拽到沙盒中，再次运行打印出信息：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">&quot;Welcome To Infinite Engine!&quot;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>游戏引擎开发 (Game Engine Series)</category>
-      </categories>
-      <tags>
-        <tag>Cpp</tag>
-        <tag>Game Engine</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2D游戏开发</title>
     <url>/archives/6487e0f7.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkrfcylq45j312w0gak12.jpg"></p>
@@ -4744,6 +4659,99 @@
         <tag>Cpp</tag>
         <tag>Game Develop</tag>
         <tag>SEGA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Project SetUp</title>
+    <url>/archives/2b07a0e9.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gne54jvymsj31000u0thh.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/35750281/The-quiet-room-Voxel-art">The quiet room - Voxel art</a> by 
+      <a href="https://www.behance.net/sircarma">Antoine Lendrevie</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列我们将从零开始开发一个自己的游戏引擎。这一节主要是关于引擎开发的前期准备和相关开发环境的配置。</p>
+<span id="more"></span>
+
+
+
+<h3 id="创建托管仓库"><a href="#创建托管仓库" class="headerlink" title="创建托管仓库"></a>创建托管仓库</h3><p>在Github中新建一个新的仓库，我们这里想用<code>Infinite</code>作为引擎的名字，意为“无限”，也希望大家可以用它来将无限的创意付诸实际：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230346928.png"></p>
+<p>创建好之后我们会有证书和自述文件，简单介绍一下自己的项目即可：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230413954.png"></p>
+<p>我们已经拥有了所有的这些，可以<code>git clone</code>并开始实际创建项目了。</p>
+<h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><p>打开<code>Visual Studio</code>，点击<code>File</code>-<code>New</code>-<code>Project</code>，然后创建一个空的C++项目：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230516025.png"></p>
+<p>现在我们打开它，就可以得到<code>Infinite</code>的解决方案了：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210209230539984.png"></p>
+<p>右键项目，在文件资源管理器中打开文件夹，我们发现在<code>Infinite</code>的文件夹中有一个名为<code>Infinite</code>的项目，因此Infinite到处都是。</p>
+<p>接下来我们打开命令提示行，进入该文件夹进行<code>git clone</code>将其克隆到一个并不在乎的文件夹中：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/Yousazoe/Infinite Git</span><br></pre></td></tr></table></figure>
+
+
+
+<p>进入文件夹<code>Git</code>显示隐藏文件（会多一个<code>.git</code>文件夹），将所有的一切拷贝到<code>Infinite</code>文件夹中，然后删除原来存放的<code>Git</code>文件夹，得到我们的最终结果。</p>
+<p>基本上，我们已经设法将git存储库的东西克隆到我们的项目文件夹中，比如可以看到我们通过github存储库创建的许可和自述文件，所以我们手动完成了将解决方案和git存储库放置在同一目录中。</p>
+<h3 id="静态库-or-动态库"><a href="#静态库-or-动态库" class="headerlink" title="静态库 or 动态库"></a>静态库 or 动态库</h3><p>我们继续进行实际的设置。回到<code>Visual Studio</code>，我们看到的是<code>Infinite</code>项目文件和解决方案，现在我们的解决方案将不仅包含引擎，实际上是Windows上将其构建为动态链接库，至少是一个dll文件。所以我们要实际执行的操作是创建一个可执行文件的应用程序项目，也就是Windows中的一个<code>.exe</code>文件，我们要将该引擎实际链接到这个<code>.exe</code>文件中。</p>
+<p>现在有两种方法可以做到这一点，可以使用静态库或自己使用动态库。我们选择dll动态库的原因是我们可以选择加载和卸载它，这主要是因为我们要拥有很多依赖关系必须链接到我们的库中。如果我们使用静态库基本上意味着我们拥有的依赖库实际上必须将其链接到我们的游戏中，而dll基本上就像是一个<code>.exe</code>文件，所以我们实际上可以将所有内容链接到它们中，这样我们的游戏将仅依赖于包含以下内容的单个dll文件：拥有它所需要的一切而不是拥有数量庞大的其他类型的库文件。</p>
+<p>本质上，我们最终要做的是将所有内容链接到引擎dll有关依赖项，这意味着它们都需要成为静态库，因此我们将所有这些静态库链接到引擎中dll，然后将引擎dll链接到我们的游戏中。</p>
+<h3 id="平台和配置"><a href="#平台和配置" class="headerlink" title="平台和配置"></a>平台和配置</h3><p>右键属性，进入配置管理器，我们有两种活动解决方案平台：<code>x86</code>和<code>x64</code>。现在我不是很想支持32位因为现在已经2021年了，32位不是我想考虑的平台，支持可能是出于一些遗留问题的原因可能是个好主意，但我选择拒绝支持。</p>
+<p>所以我们编辑删除<code>x86</code>平台，确定它已经消失了：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50lr7khj30rs0j8tag.jpg"></p>
+<p>现在我们拥有一个平台<code>x64</code>，接着去修改所有配置中的配置类型，从<code>.exe</code>改为<code>.dll</code>：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50kw6wpj30rs0j877b.jpg"></p>
+<p>另外需要修改的是输出目录和中间目录，<code>Visual Studio</code>默认的配置并不是最佳的，而我们想把解决方案目录中名为<code>bin</code>的文件夹中所有内容都转移到该位置：</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">- $(SolutionDir)$(Platform)\$(Configuration)\</span></span><br><span class="line"><span class="addition">+ $(SolutionDir)bin\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+ $(SolutionDir)bin\int\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br><span class="line">or</span><br><span class="line"><span class="addition">+ $(SolutionDir)bin-int\$(Platform)-$(Configuration)\$(ProjectName)\</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p><img data-src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50h7wh0j30yk0j8421.jpg"></p>
+<p>下一件事就是右键单击解决方案文件上，点击添加，新建一个空的C++项目，我们将其命名为<code>Sandbox</code>沙盒。我们有我们的引擎，但是现在我们需要一个应用程序使用我们的引擎，因此我将其称为“沙盒”。</p>
+<p>之后对沙盒进行配置，和之前一样移除对32位平台的支持并更改输出目录和中间目录。需要注意的是和之前不同，沙盒的配置类型是一个<code>.exe</code>的应用程序，这里无需修改。</p>
+<h3 id="设置启动项"><a href="#设置启动项" class="headerlink" title="设置启动项"></a>设置启动项</h3><p>最后右键沙盒项目，设置为启动项目。在<code>Visual Studio</code>中保存更改，用其它文本编辑器（这里我用的<code>Atom</code>）打开解决方案文件<code>Infinite.sln</code>，把刚才的这个沙盒项目从列表中的第二事件调整为第一事件：</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">﻿</span><br><span class="line">Microsoft Visual Studio Solution File, Format Version 12.00</span><br><span class="line"># Visual Studio Version 16</span><br><span class="line">VisualStudioVersion = 16.0.30804.86</span><br><span class="line">MinimumVisualStudioVersion = 10.0.40219.1</span><br><span class="line"><span class="deletion">- Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Infinite&quot;, &quot;Infinite\Infinite.vcxproj&quot;, &quot;&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;&quot;</span></span><br><span class="line"><span class="deletion">- EndProject</span></span><br><span class="line">Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Sandbox&quot;, &quot;Sandbox\Sandbox.vcxproj&quot;, &quot;&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;&quot;</span><br><span class="line"><span class="deletion">- EndProject</span></span><br><span class="line"><span class="addition">+ Project(&quot;&#123;8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942&#125;&quot;) = &quot;Infinite&quot;, &quot;Infinite\Infinite.vcxproj&quot;, &quot;&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;&quot;</span></span><br><span class="line"><span class="addition">+ EndProject</span></span><br><span class="line">Global</span><br><span class="line">	GlobalSection(SolutionConfigurationPlatforms) = preSolution</span><br><span class="line">		Debug|x64 = Debug|x64</span><br><span class="line">		Release|x64 = Release|x64</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(ProjectConfigurationPlatforms) = postSolution</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Debug|x64.ActiveCfg = Debug|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Debug|x64.Build.0 = Debug|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Release|x64.ActiveCfg = Release|x64</span><br><span class="line">		&#123;29E362CA-A3D1-4215-A040-7EFF963C7BED&#125;.Release|x64.Build.0 = Release|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Debug|x64.ActiveCfg = Debug|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Debug|x64.Build.0 = Debug|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Release|x64.ActiveCfg = Release|x64</span><br><span class="line">		&#123;C3C58C2E-D7C6-4397-B68B-B47C6E62F44E&#125;.Release|x64.Build.0 = Release|x64</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(SolutionProperties) = preSolution</span><br><span class="line">		HideSolutionNode = FALSE</span><br><span class="line">	EndGlobalSection</span><br><span class="line">	GlobalSection(ExtensibilityGlobals) = postSolution</span><br><span class="line">		SolutionGuid = &#123;93C2B59B-B64B-4873-9805-4CBCD84336E4&#125;</span><br><span class="line">	EndGlobalSection</span><br><span class="line">EndGlobal</span><br></pre></td></tr></table></figure>
+
+<p>这样沙盒会成为启动项目而不是<code>Infinite</code>，如果是<code>Infinite</code>则显然不会运行其dll文件。</p>
+<p>ok，现在我们已经构建一个基本的结构，那么我们来将两个项目链接在一起。右键单击沙盒，添加引用：</p>
+<p><img data-src="https://tva1.sinaimg.cn/large/008eGmZEly1gne50ea03ej30rs0j40tg.jpg"></p>
+<p>这意味着当<code>Infinite</code>实际编译并生成静态库文件时将链接到沙盒中。它会自动为我们链接引擎库文件，但为什么它是一个lib文件呢？这是因为当我们在<code>Visual Studio</code>编译dll文件时，它实际上会生成一个lib文件，其中会包含每种功能的种类，我们实际是从dll文件中导出。</p>
+<p>分别为两个项目新建名为<code>src</code>的文件夹，在<code>Infinite</code>中新建<code>Test.h</code>的头文件和<code>Test.cpp</code>的测试点并编写测试：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">	_declspec(dllexport) <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>以最基本的打印功能作为测试，输出信息<code>Welcome To Infinite Engine!</code>。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;Test.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Welcome To Infinite Engine!&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<p>在沙盒项目中新建<code>Application.cpp</code>，对之前的代码进行测试：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">namespace</span> Infinite &#123;</span><br><span class="line">  _declspec(dllimport) <span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  Infinite::Print();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>如果直接<code>Build</code>运行的话会报错缺少<code>Infinite.dll</code>，这部分的自动化我们之后再考虑，现在手动从文件夹中拖拽到沙盒中，再次运行打印出信息：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">&quot;Welcome To Infinite Engine!&quot;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>游戏引擎开发 (Game Engine Series)</category>
+      </categories>
+      <tags>
+        <tag>Cpp</tag>
+        <tag>Game Engine</tag>
       </tags>
   </entry>
   <entry>
@@ -5025,76 +5033,6 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">IF EXIST ..\bin\Debug-windows-x86_64\Infinite\Infinite.dll\ (xcopy &#x2F;Y  ..\bin\Debug-windows-x86_64\Infinite\Infinite.dll ..\bin\Debug-windows-x86_64\Sandbox &gt; nul) ELSE (xcopy &#x2F;Y ..\bin\Debug-windows-x86_64\Infinite\Infinite.dll ..\bin\Debug-windows-x86_64\Sandbox &gt; nul)</span><br></pre></td></tr></table></figure>
 
 ]]></content>
-      <categories>
-        <category>游戏引擎开发 (Game Engine Series)</category>
-      </categories>
-      <tags>
-        <tag>Cpp</tag>
-        <tag>Game Engine</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Event System</title>
-    <url>/archives/fe6918d5.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Eq5wAQ1XMAU2cvz.jpeg"></p>
-<div align=center>
-  <font size="3">
-    <i>
-      <a href=" https://twitter.com/m4ndrill">Twitter@m4ndrill</a>
-    </i>
-  </font>
-</div>
-
-
-
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>上一节我们对项目进行重构生成。这节我们将为我们的引擎创建一个事件系统，以便我们处理窗口事件。</p>
-<span id="more"></span>
-
-
-
-<p>我们希望当我们实际创建一个窗口时，我们可以非常轻松地处理所有事情。以前可能先编写整个窗口系统然后再处理事件，但现在最好是先完成事件系统，当我们编写到窗口时已经可以调度所有事件。</p>
-<p>目前我们有一个叫<code>Application</code>做应用程序的东西，这意味着它实际上包含了使一切保持运行的循环并且一直不断更新我们的游戏。不仅如此，它还要作为事件的枢纽需要接收事件，最终将它们分派到一个<code>Layer</code>层中，现在的游戏层是我们以后会讨论的话题所以不会过多地提及它们，因为我们将为此有单独的章节。总之现在事件最终传播到层以便它们可以处理。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210222152835350.png"></p>
-<p>根据我们的应用程序，需要有一个应用程序能够接收事件，所以我们来画一些窗口，然后看看这种交流将如何进行。我们的窗口类代表了我们实际构成的窗口，我们的应用程序就像人们熟知的Windows窗口一样，每次我们在此窗口收到事件时是否有人调整了大小、点击关闭按钮、某种鼠标移动事件等等。无论何时每当这些事情发生时，在我们的窗口库或Win32 API都会收到一个事件，然后一旦该事件发生在该窗口类中，我们需要一种将其传达给应用程序的方式。本质上就是窗口类收到一个事件回调，然后构造一个Infinite事件并以某种方式传播回去。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210222153049788.png"></p>
-<p>但我们实际上并不想绑定我们的应用程序到窗口类，所以窗口类不应该知道我们的应用程序。所有的应用程序类都会创建一个窗口，所以我们实际上需要做的是将所有这些事件信息发送给应用程序。</p>
-<p>接着我们来谈谈其中的细节。首先是Infinite事件，我们需要一个事件类包含所有对事件系统而言所需的信息。例如鼠标右击，我移动了鼠标并在某个位置单击了它，我们需要什么类型的信息呢？需要确定鼠标点击的X&amp;Y坐标以及哪个按钮被按下，然后我们可以处理该信息，这就是所谓的鼠标按下事件。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210222153938439.png"></p>
-<p>我们创建一个鼠标右键事件后，需要一种方法将数据发送到应用程序以便我们后续的操作。我们希望这个应用程序为窗口提供回调，就像一个简单的函数指针一样：当我们由应用程序创建一个窗口时我们还将设置一个回调到该窗口类的事件回调，这样每次此窗口得到一个事件，它可以检查回调是否存在。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210222162405638.png"></p>
-<p>窗口实际上并不了解应用程序，但如果我们设置了回调窗口，窗口将以这种方式调用此功能。当接收鼠标按钮按下事件时，我们用堆栈上构造它并立即调用此函数，将来我们可以创建类似缓冲事件的系统。</p>
-<h3 id="Event-h"><a href="#Event-h" class="headerlink" title="Event.h"></a>Event.h</h3><blockquote>
-<p>Events in Hazel are currently blocking, meaning when an event occurs it<br>immediately gets dispatched and must be dealt with right then an there.<br>For the future, a better strategy might be to buffer events in an event<br>bus and process them during the “event” part of the update stage.</p>
-</blockquote>
-<p>现在的设计方式是没有缓冲的，这类事件不会立刻推迟。之后我们可能会设计为更合理的将事件中的信息推入某种队列或者缓冲，它们会推迟到我们实际经历该事件之前不会立即发生。</p>
-<p>首先我们有一个事件类型的枚举类<code>EventType</code>拥有不同类型的事件类型，我们将其隔行拆分，包含了按键事件、鼠标事件等等这些内容，这些实际事件在其相关类型的文件中实现，也就是应用程序事件<code>ApplicationEvent.h</code>。</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">enum</span> <span class="keyword">class</span> <span class="title">EventType</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">	None = <span class="number">0</span>,</span><br><span class="line">	WindowClose, WindowResize, WindowFocus, WindowLostFocus, WindowMoved,</span><br><span class="line">	AppTick, AppUpdate, AppRender,</span><br><span class="line">	KeyPressed, KeyReleased,</span><br><span class="line">	MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-
-
-<p>将事件分类的原因是因为我们想过滤某些事件，换句话说，从应用程序到某些事件类我正在接收所有的事件，但我只关心键盘事件是否正确。比如一个非常简单的场景，现在我们想记录每个键盘事件或鼠标事件，所以我们必须去检查一下前面的事件：被按下或释放、移动或滚动……</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">enum</span> <span class="title">EventCategory</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">	None = <span class="number">0</span>,</span><br><span class="line">	EventCategoryApplication    = BIT(<span class="number">0</span>),</span><br><span class="line">	EventCategoryInput          = BIT(<span class="number">1</span>),</span><br><span class="line">	EventCategoryKeyboard       = BIT(<span class="number">2</span>),</span><br><span class="line">	EventCategoryMouse          = BIT(<span class="number">3</span>),</span><br><span class="line">	EventCategoryMouseButton    = BIT(<span class="number">4</span>)</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<p>而<code>BIT(x)</code>则在<code>Infinite/Core.h</code>中定义：</p>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">#pragma once</span><br><span class="line"></span><br><span class="line">#ifdef IFN_PLATFORM_WINDOWS</span><br><span class="line">	#ifdef IFN_BUILD_DLL</span><br><span class="line">		#define INFINITE_API _declspec(dllexport)</span><br><span class="line">	#else</span><br><span class="line">		#define INFINITE_API _declspec(dllimport)</span><br><span class="line">	#endif</span><br><span class="line">#else</span><br><span class="line">	#error Infinite only support Windows</span><br><span class="line">#endif</span><br><span class="line"><span class="addition">+ #define BIT(x)(1 &lt;&lt; x)</span></span><br></pre></td></tr></table></figure>
-
-<p>事件可以分为多个类别，例如<code>Keyboard</code>、<code>Mouse</code>、<code>MouseButton</code>都是<code>Input</code>事件、<code>MouseButton</code>是<code>Mouse</code>事件……而我们想要将多个类别应用与单个事件类型，因此我们需要创建一个位字段以便我们可以设置多个位。</p>
-<p>让我们来看一下实际的事件基类</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">HAZEL_API</span> <span class="title">Event</span></span></span><br><span class="line"><span class="class">	&#123;</span></span><br><span class="line">		<span class="keyword">friend</span> <span class="class"><span class="keyword">class</span> <span class="title">EventDispatcher</span>;</span></span><br><span class="line">	<span class="keyword">public</span>:</span><br><span class="line">		<span class="function"><span class="keyword">virtual</span> EventType <span class="title">GetEventType</span><span class="params">()</span> <span class="keyword">const</span> </span>= <span class="number">0</span>;</span><br><span class="line">		<span class="function"><span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keyword">char</span>* <span class="title">GetName</span><span class="params">()</span> <span class="keyword">const</span> </span>= <span class="number">0</span>;</span><br><span class="line">		<span class="function"><span class="keyword">virtual</span> <span class="keyword">int</span> <span class="title">GetCategoryFlags</span><span class="params">()</span> <span class="keyword">const</span> </span>= <span class="number">0</span>;</span><br><span class="line">		<span class="function"><span class="keyword">virtual</span> <span class="built_in">std</span>::<span class="built_in">string</span> <span class="title">ToString</span><span class="params">()</span> <span class="keyword">const</span> </span>&#123; <span class="keyword">return</span> GetName(); &#125;</span><br><span class="line"></span><br><span class="line">		<span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">IsInCategory</span><span class="params">(EventCategory category)</span></span></span><br><span class="line"><span class="function">		</span>&#123;</span><br><span class="line">			<span class="keyword">return</span> GetCategoryFlags() &amp; category;</span><br><span class="line">		&#125;</span><br><span class="line">	<span class="keyword">protected</span>:</span><br><span class="line">		<span class="keyword">bool</span> m_Handled = <span class="literal">false</span>;</span><br><span class="line">	&#125;;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;Hazel/Core.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;functional&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Hazel &#123;</span><br><span class="line"></span><br><span class="line">	<span class="comment">// Events in Hazel are currently blocking, meaning when an event occurs it</span></span><br><span class="line">	<span class="comment">// immediately gets dispatched and must be dealt with right then an there.</span></span><br><span class="line">	<span class="comment">// For the future, a better strategy might be to buffer events in an event</span></span><br><span class="line">	<span class="comment">// bus and process them during the &quot;event&quot; part of the update stage.</span></span><br><span class="line"></span><br><span class="line">	<span class="class"><span class="keyword">enum</span> <span class="keyword">class</span> <span class="title">EventType</span></span></span><br><span class="line"><span class="class">	&#123;</span></span><br><span class="line">		None = <span class="number">0</span>,</span><br><span class="line">		WindowClose, WindowResize, WindowFocus, WindowLostFocus, WindowMoved,</span><br><span class="line">		AppTick, AppUpdate, AppRender,</span><br><span class="line">		KeyPressed, KeyReleased,</span><br><span class="line">		MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled</span><br><span class="line">	&#125;;</span><br><span class="line"></span><br><span class="line">	<span class="class"><span class="keyword">enum</span> <span class="title">EventCategory</span></span></span><br><span class="line"><span class="class">	&#123;</span></span><br><span class="line">		None = <span class="number">0</span>,</span><br><span class="line">		EventCategoryApplication    = BIT(<span class="number">0</span>),</span><br><span class="line">		EventCategoryInput          = BIT(<span class="number">1</span>),</span><br><span class="line">		EventCategoryKeyboard       = BIT(<span class="number">2</span>),</span><br><span class="line">		EventCategoryMouse          = BIT(<span class="number">3</span>),</span><br><span class="line">		EventCategoryMouseButton    = BIT(<span class="number">4</span>)</span><br><span class="line">	&#125;;</span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> EVENT_CLASS_TYPE(type) static EventType GetStaticType() &#123; return EventType::##type; &#125;\</span></span><br><span class="line">								<span class="function"><span class="keyword">virtual</span> EventType <span class="title">GetEventType</span><span class="params">()</span> <span class="keyword">const</span> <span class="keyword">override</span> </span>&#123; <span class="keyword">return</span> GetStaticType(); &#125;\</span><br><span class="line">								<span class="function"><span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keyword">char</span>* <span class="title">GetName</span><span class="params">()</span> <span class="keyword">const</span> <span class="keyword">override</span> </span>&#123; <span class="keyword">return</span> <span class="meta">#type; &#125;</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> EVENT_CLASS_CATEGORY(category) virtual int GetCategoryFlags() const override &#123; return category; &#125;</span></span><br><span class="line"></span><br><span class="line">	class HAZEL_API Event</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">friend</span> class EventDispatcher;</span><br><span class="line">	<span class="keyword">public</span>:</span><br><span class="line">		<span class="function"><span class="keyword">virtual</span> EventType <span class="title">GetEventType</span><span class="params">()</span> <span class="keyword">const</span> </span>= <span class="number">0</span>;</span><br><span class="line">		<span class="function"><span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keyword">char</span>* <span class="title">GetName</span><span class="params">()</span> <span class="keyword">const</span> </span>= <span class="number">0</span>;</span><br><span class="line">		<span class="function"><span class="keyword">virtual</span> <span class="keyword">int</span> <span class="title">GetCategoryFlags</span><span class="params">()</span> <span class="keyword">const</span> </span>= <span class="number">0</span>;</span><br><span class="line">		<span class="function"><span class="keyword">virtual</span> <span class="built_in">std</span>::<span class="built_in">string</span> <span class="title">ToString</span><span class="params">()</span> <span class="keyword">const</span> </span>&#123; <span class="keyword">return</span> GetName(); &#125;</span><br><span class="line"></span><br><span class="line">		<span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">IsInCategory</span><span class="params">(EventCategory category)</span></span></span><br><span class="line"><span class="function">		</span>&#123;</span><br><span class="line">			<span class="keyword">return</span> GetCategoryFlags() &amp; category;</span><br><span class="line">		&#125;</span><br><span class="line">	<span class="keyword">protected</span>:</span><br><span class="line">		<span class="keyword">bool</span> m_Handled = <span class="literal">false</span>;</span><br><span class="line">	&#125;;</span><br><span class="line"></span><br><span class="line">	<span class="class"><span class="keyword">class</span> <span class="title">EventDispatcher</span></span></span><br><span class="line"><span class="class">	&#123;</span></span><br><span class="line">		<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</span><br><span class="line">		<span class="keyword">using</span> EventFn = <span class="built_in">std</span>::function&lt;<span class="keyword">bool</span>(T&amp;)&gt;;</span><br><span class="line">	<span class="keyword">public</span>:</span><br><span class="line">		EventDispatcher(Event&amp; event)</span><br><span class="line">			: m_Event(event)</span><br><span class="line">		&#123;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</span><br><span class="line">		<span class="function"><span class="keyword">bool</span> <span class="title">Dispatch</span><span class="params">(EventFn&lt;T&gt; func)</span></span></span><br><span class="line"><span class="function">		</span>&#123;</span><br><span class="line">			<span class="keyword">if</span> (m_Event.GetEventType() == T::GetStaticType())</span><br><span class="line">			&#123;</span><br><span class="line">				m_Event.m_Handled = func(*(T*)&amp;m_Event);</span><br><span class="line">				<span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">		&#125;</span><br><span class="line">	<span class="keyword">private</span>:</span><br><span class="line">		Event&amp; m_Event;</span><br><span class="line">	&#125;;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">inline</span> <span class="built_in">std</span>::ostream&amp; <span class="keyword">operator</span>&lt;&lt;(<span class="built_in">std</span>::ostream&amp; os, <span class="keyword">const</span> Event&amp; e)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">return</span> os &lt;&lt; e.ToString();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-<h3 id="Application-cpp"><a href="#Application-cpp" class="headerlink" title="Application.cpp"></a>Application.cpp</h3>]]></content>
       <categories>
         <category>游戏引擎开发 (Game Engine Series)</category>
       </categories>
@@ -7364,6 +7302,80 @@
       </tags>
   </entry>
   <entry>
+    <title>开始画像素画#7</title>
+    <url>/archives/7559aa07.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zm7aw4aj31hc0u0jv1.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
+<span id="more"></span>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
+<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8bd0hfj30u008c74z.jpg"></p>
+<p>系列第 7 篇。</p>
+<h3 id="什么是线条"><a href="#什么是线条" class="headerlink" title="什么是线条"></a>什么是线条</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv89ju74j30ei0d812e.jpg"></p>
+<p>线条是艺术领域最重要的工具之一。他们可以用来强调形状，对比。现实世界里我们看不到线条，但他们能帮助我们分隔空间，创造纹理，表现体积和方向。</p>
+<p>在像素美术中，屏幕上的空间非常受限。每个像素都很重要，绘制线条就变得很昂贵。因此，如果你在画非常低像素作品，不推荐使用线条。即使有一些富裕的空间，还是要谨慎的使用线条，试着不使用线条去完成。最少化线条的使用，是保持像素画整洁的好办法。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640.png"></p>
+<p>不必要的线可以用阴影或者高对比区域代替。将线条与暗影部分融合能让画面显得更统一，自然。</p>
+<h3 id="不必要的拐角"><a href="#不必要的拐角" class="headerlink" title="不必要的拐角"></a>不必要的拐角</h3><p>之前简单的解释过（第一节），这里再进一步讲一下。</p>
+<p>这种不必要的拐角，通常出现在手绘线条时。你可以手工去清理，也可以打开铅笔工具的“像素完美”（<code>pixel perfect</code>）功能来避免这些。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88tzipj309w05c741.jpg"></p>
+<p>这个算法在画单像素线条时非常有用，不过不总是完美的，你还是应该知道如何手工去清理。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8cjbhrj30a205p0jc.jpg"></p>
+<p>查找模式很简单：每当你看到一个拐角（<code>3</code> 或 <code>4</code> 个像素组成的方形），思考一下这里是否应当是个拐角。如果这部分不是拐角，就去掉一个像素让他更圆。</p>
+<p>注意这跟锯齿是不同的，我在之前的章节（第二节）解释过锯齿，以及如何处理他们。修复拐角可能会创造出很多锯齿，所以通常这会是个多步过程：<code>绘制</code> &gt; <code>修复拐角</code> &gt; <code>修复锯齿</code>。</p>
+<h3 id="方形线"><a href="#方形线" class="headerlink" title="方形线"></a>方形线</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102237778.png"></p>
+<p>单像素线条问题还有一种更风格化的解决办法。你可以到处加拐角，而不是尝试去移除他们。听起来没道理，但确实是种风格化的选择，很有趣，适合高度风格化的作品，因为它模拟了一种更粗的线条。</p>
+<p>处理过程基本一样，只是你需要找到每个对角链接的像素，把它变方，而不是去删掉拐角。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8a5yvaj309w05m0i1.jpg"></p>
+<p>注意这样做也会产生很多锯齿，别忘了处理他们。</p>
+<h3 id="Colored-lines-有色线条"><a href="#Colored-lines-有色线条" class="headerlink" title="Colored lines 有色线条"></a>Colored lines 有色线条</h3><p>有些时候，尤其是在较低分辨率，线条会吸引过多的注意。有个弱化这种效果的方法是，给线条添加临近颜色的深色版本。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102250162.png"></p>
+<p>过程很简单，回顾每条你画的线条，试着修改成临近颜色的深色版本。当你这么做之后，所选的颜色会让相应的区域显得变大了，所以线条的位置可能需要调整。有时候你可能不确定选哪个临近的颜色，有时候可能很容易确定。当你不确定的时候，就选更深的颜色。</p>
+<p>我依然喜欢保留最外层的黑色描边，看分辨率合适的话我甚至会加倍这个外层描边。但这只是我个人的选择，你可以自己考虑。</p>
+<h3 id="线条草图"><a href="#线条草图" class="headerlink" title="线条草图"></a>线条草图</h3><p>之前我们学过像素簇草图的画法，这次来试点别的。这种方法很适合于画角色以及画动画帧，因为画起来很快，而且聚焦于形状，而不是光和色（像像素簇草图那样）。</p>
+<p>我们来做个实际案例学习，把这节提到的都应用上。如果你想要跟着做，建议新建 64*64 分辨率的画布，用 AAP-64 调色板。</p>
+<p><strong>Step 1  — 草图</strong></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv87ygl3j30fh078mwx.jpg"></p>
+<p>第一步先忽略各种像素画的规则，尽可能流畅的勾勒出形状。基本上跟在纸上或者其他数字化的，非像素的媒介一样。不要过多考虑之后如何清理线条。完成后可以稍作整理，去除明显的标志线，定义一些形状。</p>
+<p><strong>Step 2  — 线条清理</strong></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvbdn60dj307j0770sh.jpg"></p>
+<p>现在开始做清理。把草图层设置成半透明，可以 右键 点击图层名称，选择属性，再调低透明度。现在可以在上面的图层去画。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8ao6foj30c007zq2q.jpg"></p>
+<p>这里的思路是画出最终的线条图。先聚焦在重点线条上，比如构成角色剪影和脸部的线条。先不要关心颜色和光影，如果想画的话可以画一点主阴影，重点还是把主要形状弄对。</p>
+<p><strong>Step 3  —  底色</strong></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102322791.png"></p>
+<p>很简单的一步，找到符合需求的颜色，用油漆桶填充进去。避免过于饱和和过亮的颜色。还不到画光影的时候，但是要考虑好画面应该如何被照亮，有些区域会被周围的颜色影响。</p>
+<p><strong>Step 4  —  光影</strong></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88aqv3j307p077gld.jpg"></p>
+<p>开始给画添加光影，添加明暗区域。试着想象光会如何照射到你画的物体上，相应的渲染。这一步找个参考图是个很好的办法。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvaibzjbj309z07h742.jpg"></p>
+<p>我喜欢在这一步通过给弧线加上较深的颜色，来尽量弱化黑色的描边，就好像是做抗锯齿。不过别做太过，不然线条看起来会模糊。</p>
+<p>这一步可以调整线条，但重点是光影。</p>
+<p><strong>Step 5  —  线条上色和抗锯齿</strong></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8c2gduj307p07agld.jpg"></p>
+<p>之前提到过，过多的黑色描边可能会分散注意力。通过上色来弱化他们是个不错的方法。只要找到周围最近，最深的颜色，并把描边改成这个色的更深版本就行。</p>
+<p>如果这个描边是用来分隔明显的区域，比如脖子和脸颊，衣领和头发，你可以画很深色，甚至保留黑色。这也是为什么我喜欢保持黑色的角色外层描边。弱化的过渡一般用亮一点的线，比如鼻子的线条。</p>
+<p><strong>Step 6  — 打磨细节</strong></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvb2fvmtj307t076t8h.jpg"></p>
+<p>最后这步你需要确定所有线条都做过抗锯齿，所有阴影过渡都合理的软化过（或者没有！如果是硬过渡的话。），并添加上所有细节。</p>
+<p>添加背光，小的高亮，反射区域。因为所有东西都就位了，你可以衡量想要在画面添加多少细节。不要做得太过，注意别加入过多噪点。</p>
+<p>这就完成了！多去练习，并试着把前几节的概念也融入进来。</p>
+<p>Good luck!</p>
+]]></content>
+      <categories>
+        <category>开始画像素画 (Making Pixel Art)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开始画像素画#8</title>
     <url>/archives/e5e6b796.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zn1bbuvj31hc0u0423.jpg"></p>
@@ -7474,80 +7486,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开始画像素画#7</title>
-    <url>/archives/7559aa07.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zm7aw4aj31hc0u0jv1.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，<a href="https://twitter.com/saint11">@saint11</a>）授权的一系列像素美术教程，转载自<a href="https://indienova.com/u/fengnong">风农</a>的翻译整理。本文将讲解线条和具体操作。</p>
-<span id="more"></span>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名，indienova 已经做了完整转载。</p>
-<p>这部分教程就是经过风农翻译整理的另一部分内容：《开始画像素画（Making Pixel Art）》。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8bd0hfj30u008c74z.jpg"></p>
-<p>系列第 7 篇。</p>
-<h3 id="什么是线条"><a href="#什么是线条" class="headerlink" title="什么是线条"></a>什么是线条</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv89ju74j30ei0d812e.jpg"></p>
-<p>线条是艺术领域最重要的工具之一。他们可以用来强调形状，对比。现实世界里我们看不到线条，但他们能帮助我们分隔空间，创造纹理，表现体积和方向。</p>
-<p>在像素美术中，屏幕上的空间非常受限。每个像素都很重要，绘制线条就变得很昂贵。因此，如果你在画非常低像素作品，不推荐使用线条。即使有一些富裕的空间，还是要谨慎的使用线条，试着不使用线条去完成。最少化线条的使用，是保持像素画整洁的好办法。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640.png"></p>
-<p>不必要的线可以用阴影或者高对比区域代替。将线条与暗影部分融合能让画面显得更统一，自然。</p>
-<h3 id="不必要的拐角"><a href="#不必要的拐角" class="headerlink" title="不必要的拐角"></a>不必要的拐角</h3><p>之前简单的解释过（第一节），这里再进一步讲一下。</p>
-<p>这种不必要的拐角，通常出现在手绘线条时。你可以手工去清理，也可以打开铅笔工具的“像素完美”（<code>pixel perfect</code>）功能来避免这些。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88tzipj309w05c741.jpg"></p>
-<p>这个算法在画单像素线条时非常有用，不过不总是完美的，你还是应该知道如何手工去清理。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8cjbhrj30a205p0jc.jpg"></p>
-<p>查找模式很简单：每当你看到一个拐角（<code>3</code> 或 <code>4</code> 个像素组成的方形），思考一下这里是否应当是个拐角。如果这部分不是拐角，就去掉一个像素让他更圆。</p>
-<p>注意这跟锯齿是不同的，我在之前的章节（第二节）解释过锯齿，以及如何处理他们。修复拐角可能会创造出很多锯齿，所以通常这会是个多步过程：<code>绘制</code> &gt; <code>修复拐角</code> &gt; <code>修复锯齿</code>。</p>
-<h3 id="方形线"><a href="#方形线" class="headerlink" title="方形线"></a>方形线</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102237778.png"></p>
-<p>单像素线条问题还有一种更风格化的解决办法。你可以到处加拐角，而不是尝试去移除他们。听起来没道理，但确实是种风格化的选择，很有趣，适合高度风格化的作品，因为它模拟了一种更粗的线条。</p>
-<p>处理过程基本一样，只是你需要找到每个对角链接的像素，把它变方，而不是去删掉拐角。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8a5yvaj309w05m0i1.jpg"></p>
-<p>注意这样做也会产生很多锯齿，别忘了处理他们。</p>
-<h3 id="Colored-lines-有色线条"><a href="#Colored-lines-有色线条" class="headerlink" title="Colored lines 有色线条"></a>Colored lines 有色线条</h3><p>有些时候，尤其是在较低分辨率，线条会吸引过多的注意。有个弱化这种效果的方法是，给线条添加临近颜色的深色版本。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102250162.png"></p>
-<p>过程很简单，回顾每条你画的线条，试着修改成临近颜色的深色版本。当你这么做之后，所选的颜色会让相应的区域显得变大了，所以线条的位置可能需要调整。有时候你可能不确定选哪个临近的颜色，有时候可能很容易确定。当你不确定的时候，就选更深的颜色。</p>
-<p>我依然喜欢保留最外层的黑色描边，看分辨率合适的话我甚至会加倍这个外层描边。但这只是我个人的选择，你可以自己考虑。</p>
-<h3 id="线条草图"><a href="#线条草图" class="headerlink" title="线条草图"></a>线条草图</h3><p>之前我们学过像素簇草图的画法，这次来试点别的。这种方法很适合于画角色以及画动画帧，因为画起来很快，而且聚焦于形状，而不是光和色（像像素簇草图那样）。</p>
-<p>我们来做个实际案例学习，把这节提到的都应用上。如果你想要跟着做，建议新建 64*64 分辨率的画布，用 AAP-64 调色板。</p>
-<p><strong>Step 1  — 草图</strong></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv87ygl3j30fh078mwx.jpg"></p>
-<p>第一步先忽略各种像素画的规则，尽可能流畅的勾勒出形状。基本上跟在纸上或者其他数字化的，非像素的媒介一样。不要过多考虑之后如何清理线条。完成后可以稍作整理，去除明显的标志线，定义一些形状。</p>
-<p><strong>Step 2  — 线条清理</strong></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvbdn60dj307j0770sh.jpg"></p>
-<p>现在开始做清理。把草图层设置成半透明，可以 右键 点击图层名称，选择属性，再调低透明度。现在可以在上面的图层去画。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8ao6foj30c007zq2q.jpg"></p>
-<p>这里的思路是画出最终的线条图。先聚焦在重点线条上，比如构成角色剪影和脸部的线条。先不要关心颜色和光影，如果想画的话可以画一点主阴影，重点还是把主要形状弄对。</p>
-<p><strong>Step 3  —  底色</strong></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/640-20210210102322791.png"></p>
-<p>很简单的一步，找到符合需求的颜色，用油漆桶填充进去。避免过于饱和和过亮的颜色。还不到画光影的时候，但是要考虑好画面应该如何被照亮，有些区域会被周围的颜色影响。</p>
-<p><strong>Step 4  —  光影</strong></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv88aqv3j307p077gld.jpg"></p>
-<p>开始给画添加光影，添加明暗区域。试着想象光会如何照射到你画的物体上，相应的渲染。这一步找个参考图是个很好的办法。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvaibzjbj309z07h742.jpg"></p>
-<p>我喜欢在这一步通过给弧线加上较深的颜色，来尽量弱化黑色的描边，就好像是做抗锯齿。不过别做太过，不然线条看起来会模糊。</p>
-<p>这一步可以调整线条，但重点是光影。</p>
-<p><strong>Step 5  —  线条上色和抗锯齿</strong></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhv8c2gduj307p07agld.jpg"></p>
-<p>之前提到过，过多的黑色描边可能会分散注意力。通过上色来弱化他们是个不错的方法。只要找到周围最近，最深的颜色，并把描边改成这个色的更深版本就行。</p>
-<p>如果这个描边是用来分隔明显的区域，比如脖子和脸颊，衣领和头发，你可以画很深色，甚至保留黑色。这也是为什么我喜欢保持黑色的角色外层描边。弱化的过渡一般用亮一点的线，比如鼻子的线条。</p>
-<p><strong>Step 6  — 打磨细节</strong></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glhvb2fvmtj307t076t8h.jpg"></p>
-<p>最后这步你需要确定所有线条都做过抗锯齿，所有阴影过渡都合理的软化过（或者没有！如果是硬过渡的话。），并添加上所有细节。</p>
-<p>添加背光，小的高亮，反射区域。因为所有东西都就位了，你可以衡量想要在画面添加多少细节。不要做得太过，注意别加入过多噪点。</p>
-<p>这就完成了！多去练习，并试着把前几节的概念也融入进来。</p>
-<p>Good luck!</p>
-]]></content>
-      <categories>
-        <category>开始画像素画 (Making Pixel Art)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>操作系统概述</title>
     <url>/archives/33c82dd4.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gky8z6eslsg312w0lwhdu.gif"></p>
@@ -7592,57 +7530,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#x79;&#111;&#x6e;&#103;&#x40;&#x74;&#115;&#105;&#110;&#x67;&#x68;&#117;&#x61;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#x6e;">&#x78;&#x79;&#111;&#x6e;&#103;&#x40;&#x74;&#115;&#105;&#110;&#x67;&#x68;&#117;&#x61;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#121;&#x6f;&#110;&#x67;&#x40;&#116;&#x73;&#x69;&#110;&#x67;&#x68;&#x75;&#x61;&#x2e;&#101;&#x64;&#117;&#x2e;&#99;&#x6e;">&#120;&#121;&#x6f;&#110;&#x67;&#x40;&#116;&#x73;&#x69;&#110;&#x67;&#x68;&#x75;&#x61;&#x2e;&#101;&#x64;&#117;&#x2e;&#99;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#x75;&#x63;&#x68;&#101;&#x6e;&#x40;&#x6d;&#97;&#105;&#108;&#46;&#116;&#115;&#x69;&#110;&#103;&#x68;&#x75;&#97;&#x2e;&#101;&#100;&#x75;&#x2e;&#99;&#110;">&#121;&#x75;&#x63;&#x68;&#101;&#x6e;&#x40;&#x6d;&#97;&#105;&#108;&#46;&#116;&#115;&#x69;&#110;&#103;&#x68;&#x75;&#97;&#x2e;&#101;&#100;&#x75;&#x2e;&#99;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#117;&#x63;&#104;&#x65;&#x6e;&#x40;&#x6d;&#x61;&#105;&#x6c;&#46;&#x74;&#x73;&#x69;&#x6e;&#x67;&#x68;&#117;&#x61;&#46;&#101;&#100;&#117;&#46;&#99;&#x6e;">&#121;&#117;&#x63;&#104;&#x65;&#x6e;&#x40;&#x6d;&#x61;&#105;&#x6c;&#46;&#x74;&#x73;&#x69;&#x6e;&#x67;&#x68;&#117;&#x61;&#46;&#101;&#100;&#117;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#116;&#101;&#114;&#x6e;&#x61;&#x6c;&#x2e;&#110;&#x30;&#56;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;">&#101;&#116;&#101;&#114;&#x6e;&#x61;&#x6c;&#x2e;&#110;&#x30;&#56;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#116;&#101;&#x72;&#110;&#97;&#108;&#46;&#x6e;&#x30;&#56;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;">&#101;&#116;&#101;&#x72;&#110;&#97;&#108;&#46;&#x6e;&#x30;&#56;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#x62;&#x6a;&#x65;&#x63;&#x74;&#107;&#117;&#97;&#110;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;">&#x6f;&#x62;&#x6a;&#x65;&#x63;&#x74;&#107;&#117;&#97;&#110;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#111;&#x62;&#106;&#x65;&#x63;&#116;&#107;&#117;&#97;&#x6e;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#111;&#x62;&#106;&#x65;&#x63;&#116;&#107;&#117;&#97;&#x6e;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#114;&#100;&#x66;&#x72;&#x61;&#110;&#x6b;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;">&#x63;&#114;&#100;&#x66;&#x72;&#x61;&#110;&#x6b;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#99;&#x72;&#100;&#x66;&#114;&#x61;&#x6e;&#x6b;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#99;&#x72;&#100;&#x66;&#114;&#x61;&#x6e;&#x6b;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#97;&#x63;&#99;&#111;&#x72;&#97;&#119;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#x74;&#97;&#x63;&#99;&#111;&#x72;&#97;&#119;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x74;&#x61;&#99;&#x63;&#x6f;&#114;&#x61;&#119;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x74;&#x61;&#99;&#x63;&#x6f;&#114;&#x61;&#119;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#117;&#x6e;&#120;&#x69;&#x6e;&#x67;&#x30;&#48;&#x30;&#49;&#x40;&#49;&#54;&#51;&#46;&#x63;&#111;&#109;">&#x78;&#x69;&#x6e;&#121;&#117;&#x6e;&#120;&#x69;&#x6e;&#x67;&#x30;&#48;&#x30;&#49;&#x40;&#49;&#54;&#51;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#120;&#105;&#x6e;&#121;&#x75;&#110;&#x78;&#105;&#x6e;&#x67;&#x30;&#x30;&#48;&#49;&#x40;&#49;&#54;&#x33;&#46;&#x63;&#x6f;&#109;">&#120;&#105;&#x6e;&#121;&#x75;&#110;&#x78;&#105;&#x6e;&#x67;&#x30;&#x30;&#48;&#49;&#x40;&#49;&#54;&#x33;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#x6e;&#111;&#x63;&#117;&#x69;&#x6c;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#x67;&#x6e;&#111;&#x63;&#117;&#x69;&#x6c;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#110;&#111;&#x63;&#117;&#x69;&#x6c;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#x67;&#110;&#111;&#x63;&#117;&#x69;&#x6c;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#121;&#x61;&#105;&#114;&#105;&#x61;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#x6d;&#121;&#x61;&#105;&#114;&#105;&#x61;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x6d;&#x79;&#x61;&#105;&#x72;&#x69;&#97;&#x40;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#x6d;&#x79;&#x61;&#105;&#x72;&#x69;&#97;&#x40;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#x68;&#x61;&#110;&#x67;&#x72;&#x61;&#x69;&#110;&#57;&#49;&#x31;&#x40;&#49;&#54;&#x33;&#x2e;&#x63;&#x6f;&#109;">&#x7a;&#x68;&#x61;&#110;&#x67;&#x72;&#x61;&#x69;&#110;&#57;&#49;&#x31;&#x40;&#49;&#54;&#x33;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#122;&#104;&#x61;&#x6e;&#103;&#x72;&#x61;&#105;&#110;&#57;&#x31;&#x31;&#64;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#x6d;">&#122;&#104;&#x61;&#x6e;&#103;&#x72;&#x61;&#105;&#110;&#57;&#x31;&#x31;&#64;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#103;&#120;&#x78;&#49;&#x32;&#48;&#64;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#103;&#103;&#120;&#x78;&#49;&#x32;&#48;&#64;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#103;&#x67;&#x78;&#x78;&#49;&#x32;&#x30;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#109;">&#103;&#x67;&#x78;&#x78;&#49;&#x32;&#x30;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -7857,107 +7795,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Aseprite教学-Aseprite编译教程</title>
-    <url>/archives/5d59087d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nt7r5jxj314w0i3788.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将根据官方文档介绍Aseprite的编译安装方法。</p>
-<span id="more"></span>
-
-
-
-
-
-<h3 id="官方说明文档"><a href="#官方说明文档" class="headerlink" title="官方说明文档"></a>官方说明文档</h3><h4 id="Platforms"><a href="#Platforms" class="headerlink" title="Platforms"></a>Platforms</h4><p>You should be able to compile Aseprite successfully on the following platforms:</p>
-<ul>
-<li>Windows 10 + <a href="https://imgur.com/a/7zs51IT">Visual Studio Community 2019 + Windows 10.0.18362.0 SDK</a> (we don’t support <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#mingw">MinGW</a>)</li>
-<li>macOS 10.15.3 Mojave + Xcode 11.2.1 + macOS 10.15 SDK (older version might work)</li>
-<li>Linux + gcc 9.2 or clang 9.0</li>
-</ul>
-<h4 id="Get-the-source-code"><a href="#Get-the-source-code" class="headerlink" title="Get the source code"></a>Get the source code</h4><p>You can get the source code downloading a <code>Aseprite-v1.x-Source.zip</code> file from the latest Aseprite release (<em>in that case please follow the compilation instructions inside the <code>.zip</code> file</em>):</p>
-<p><a href="https://github.com/aseprite/aseprite/releases">https://github.com/aseprite/aseprite/releases</a></p>
-<p>Or you can clone the repository and all its submodules using the following command:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone --recursive https:&#x2F;&#x2F;github.com&#x2F;aseprite&#x2F;aseprite.git</span><br></pre></td></tr></table></figure>
-
-<p>To update an existing clone you can use the following commands:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">git pull</span><br><span class="line">git submodule update --init --recursive</span><br></pre></td></tr></table></figure>
-
-<p>You can use <a href="https://git-for-windows.github.io/">Git for Windows</a> to clone the repository on Windows.</p>
-<h4 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h4><p>To compile Aseprite you will need:</p>
-<ul>
-<li>The latest version of <a href="https://cmake.org/">CMake</a> (3.14 or greater)</li>
-<li><a href="https://ninja-build.org/">Ninja</a> build system</li>
-<li>And a compiled version of the <code>aseprite-m81</code> branch of the <a href="https://github.com/aseprite/skia#readme">Skia library</a>. There are <a href="https://github.com/aseprite/skia/releases">pre-built packages available</a>. You can get some extra information in the <a href="https://github.com/aseprite/laf#dependencies"><em>laf</em> dependencies</a> page.</li>
-</ul>
-<h5 id="Windows-dependencies"><a href="#Windows-dependencies" class="headerlink" title="Windows dependencies"></a>Windows dependencies</h5><ul>
-<li>Windows 10 (we don’t support cross-compiling)</li>
-<li><a href="https://visualstudio.microsoft.com/downloads/">Visual Studio Community 2019</a> (we don’t support <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#mingw">MinGW</a>)</li>
-<li>The <a href="https://imgur.com/a/7zs51IT">Desktop development with C++ item + Windows 10.0.18362.0 SDK</a> from the Visual Studio installer</li>
-</ul>
-<h5 id="macOS-dependencies"><a href="#macOS-dependencies" class="headerlink" title="macOS dependencies"></a>macOS dependencies</h5><p>On macOS you will need macOS 10.15 SDK and Xcode 11.2.1 (older versions might work).</p>
-<h5 id="Linux-dependencies"><a href="#Linux-dependencies" class="headerlink" title="Linux dependencies"></a>Linux dependencies</h5><p>You will need the following dependencies on Ubuntu/Debian:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-get install -y g++ cmake ninja-build libx11-dev libxcursor-dev libxi-dev libgl1-mesa-dev libfontconfig1-dev</span><br></pre></td></tr></table></figure>
-
-<p>On Fedora:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo dnf install -y gcc-c++ cmake ninja-build libX11-devel libXcursor-devel libXi-devel mesa-libGL-devel fontconfig-devel</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="Compiling"><a href="#Compiling" class="headerlink" title="Compiling"></a>Compiling</h4><ol>
-<li><p><a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#get-the-source-code">Get Aseprite code</a>, put it in a folder like <code>C:\aseprite</code>, and create a <code>build</code> directory inside to leave all the files that are result of the compilation process (<code>.exe</code>, <code>.lib</code>, <code>.obj</code>, <code>.a</code>, <code>.o</code>, etc).</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite</span><br><span class="line">mkdir build</span><br></pre></td></tr></table></figure>
-
-<p>In this way, if you want to start with a fresh copy of Aseprite source code, you can remove the <code>build</code> directory and start again.</p>
-</li>
-<li><p>Enter in the new directory and execute <code>cmake</code>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite\build</span><br><span class="line">cmake -G Ninja -DLAF_BACKEND&#x3D;skia ..</span><br></pre></td></tr></table></figure>
-
-<p>Here <code>cmake</code> needs different options depending on your platform. You must check the details for <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#windows-details">Windows</a>, <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#macos-details">macOS</a>, and <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#linux-details">Linux</a>. Some <code>cmake</code> options can be modified using tools like <a href="https://cmake.org/cmake/help/latest/manual/ccmake.1.html"><code>ccmake</code></a> or <a href="https://cmake.org/cmake/help/latest/manual/cmake-gui.1.html"><code>cmake-gui</code></a>.</p>
-</li>
-<li><p>After you have executed and configured <code>cmake</code>, you have to compile the project:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite\build</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>When <code>ninja</code> finishes the compilation, you can find the executable inside <code>C:\aseprite\build\bin\aseprite.exe</code>.</p>
-</li>
-</ol>
-<h5 id="Windows-details"><a href="#Windows-details" class="headerlink" title="Windows details"></a>Windows details</h5><p>Open a <a href="https://docs.microsoft.com/en-us/dotnet/framework/tools/developer-command-prompt-for-vs">developer command prompt</a> or in the command line (<code>cmd.exe</code>) call:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">call &quot;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat&quot; -arch&#x3D;x64</span><br></pre></td></tr></table></figure>
-
-<p>And then</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo -DLAF_BACKEND&#x3D;skia -DSKIA_DIR&#x3D;C:\deps\skia -DSKIA_LIBRARY_DIR&#x3D;C:\deps\skia\out\Release-x64 -DSKIA_LIBRARY&#x3D;C:\deps\skia\out\Release-x64\skia.lib -G Ninja ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
-
-<p>In this case, <code>C:\deps\skia</code> is the directory where Skia was compiled or uncompressed.</p>
-<h6 id="MinGW"><a href="#MinGW" class="headerlink" title="MinGW"></a>MinGW</h6><p>We don’t support MinGW compiler and it might bring some problems into the compilation process. If you see that the detected C++ compiler by cmake is <code>C:\MinGW\bin\c++.exe</code> or something similar, you have to get rid of MinGW path (<code>C:\MinGW\bin</code>) from the <code>PATH</code> environment variable and run cmake again from scratch, so the Visual Studio C++ compiler (<code>cl.exe</code>) is used instead.</p>
-<p>You can define the <code>CMAKE_IGNORE_PATH</code> variable when running cmake for the first time in case that you don’t know or don’t want to modify the <code>PATH</code> variable, e.g.:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cmake -DCMAKE_IGNORE_PATH&#x3D;C:\MinGW\bin ...</span><br></pre></td></tr></table></figure>
-
-<p>More information in <a href="https://github.com/aseprite/aseprite/issues/2449">issue #2449</a></p>
-<h5 id="macOS-details"><a href="#macOS-details" class="headerlink" title="macOS details"></a>macOS details</h5><p>Run <code>cmake</code> with the following parameters and then <code>ninja</code>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake \</span><br><span class="line">  -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo \</span><br><span class="line">  -DCMAKE_OSX_ARCHITECTURES&#x3D;x86_64 \</span><br><span class="line">  -DCMAKE_OSX_DEPLOYMENT_TARGET&#x3D;10.9 \</span><br><span class="line">  -DCMAKE_OSX_SYSROOT&#x3D;&#x2F;Applications&#x2F;Xcode.app&#x2F;Contents&#x2F;Developer&#x2F;Platforms&#x2F;MacOSX.platform&#x2F;Developer&#x2F;SDKs&#x2F;MacOSX10.15.sdk \</span><br><span class="line">  -DLAF_BACKEND&#x3D;skia \</span><br><span class="line">  -DSKIA_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia \</span><br><span class="line">  -DSKIA_LIBRARY_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64 \</span><br><span class="line">  -DSKIA_LIBRARY&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64&#x2F;libskia.a \</span><br><span class="line">  -G Ninja \</span><br><span class="line">  ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
-
-<p>In this case, <code>$HOME/deps/skia</code> is the directory where Skia was compiled or downloaded. Make sure that <code>CMAKE_OSX_SYSROOT</code> is pointing to the correct SDK directory (in this case <code>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk</code>), but it could be different in your Mac.</p>
-<h5 id="Issues-with-Retina-displays"><a href="#Issues-with-Retina-displays" class="headerlink" title="Issues with Retina displays"></a>Issues with Retina displays</h5><p>If you have a Retina display, check the following issue:</p>
-<p><a href="https://github.com/aseprite/aseprite/issues/589">https://github.com/aseprite/aseprite/issues/589</a></p>
-<h5 id="Linux-details"><a href="#Linux-details" class="headerlink" title="Linux details"></a>Linux details</h5><p>Run <code>cmake</code> with the following parameters and then <code>ninja</code>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake \</span><br><span class="line">  -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo \</span><br><span class="line">  -DLAF_BACKEND&#x3D;skia \</span><br><span class="line">  -DSKIA_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia \</span><br><span class="line">  -DSKIA_LIBRARY_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64 \</span><br><span class="line">  -DSKIA_LIBRARY&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64&#x2F;libskia.a \</span><br><span class="line">  -G Ninja \</span><br><span class="line">  ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
-
-<p>In this case, <code>$HOME/deps/skia</code> is the directory where Skia was compiled or uncompressed.</p>
-<h4 id="Using-shared-third-party-libraries"><a href="#Using-shared-third-party-libraries" class="headerlink" title="Using shared third party libraries"></a>Using shared third party libraries</h4><p>If you don’t want to use the embedded code of third party libraries (i.e. to use your installed versions), you can disable static linking configuring each <code>USE_SHARED_</code> option.</p>
-<p>After running <code>cmake -G</code>, you can edit <code>build/CMakeCache.txt</code> file, and enable the <code>USE_SHARED_</code> flag (set its value to <code>ON</code>) of the library that you want to be linked dynamically.</p>
-<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
-<li><a href="http://macappstore.org/aseprite/">Install Aseprite on Mac OSX</a></li>
-<li><a href="https://www.bestgcc.cn/20181204194300.html">Mac 编译安装 Aseprite</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/156775243">【Aseprite】像素绘制软件编译（白嫖）教程</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>像素美工 (Pixel Art Designing)</category>
-      </categories>
-      <tags>
-        <tag>Aseprite</tag>
-        <tag>CMake</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Aseprite教学-基本工具</title>
     <url>/archives/3df0cd57.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1gf5u3va259j30xc0irh5u.jpg"></p>
@@ -8119,6 +7956,107 @@
         <tag>Art</tag>
         <tag>Pixel</tag>
         <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Aseprite教学-Aseprite编译教程</title>
+    <url>/archives/5d59087d.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nt7r5jxj314w0i3788.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文将根据官方文档介绍Aseprite的编译安装方法。</p>
+<span id="more"></span>
+
+
+
+
+
+<h3 id="官方说明文档"><a href="#官方说明文档" class="headerlink" title="官方说明文档"></a>官方说明文档</h3><h4 id="Platforms"><a href="#Platforms" class="headerlink" title="Platforms"></a>Platforms</h4><p>You should be able to compile Aseprite successfully on the following platforms:</p>
+<ul>
+<li>Windows 10 + <a href="https://imgur.com/a/7zs51IT">Visual Studio Community 2019 + Windows 10.0.18362.0 SDK</a> (we don’t support <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#mingw">MinGW</a>)</li>
+<li>macOS 10.15.3 Mojave + Xcode 11.2.1 + macOS 10.15 SDK (older version might work)</li>
+<li>Linux + gcc 9.2 or clang 9.0</li>
+</ul>
+<h4 id="Get-the-source-code"><a href="#Get-the-source-code" class="headerlink" title="Get the source code"></a>Get the source code</h4><p>You can get the source code downloading a <code>Aseprite-v1.x-Source.zip</code> file from the latest Aseprite release (<em>in that case please follow the compilation instructions inside the <code>.zip</code> file</em>):</p>
+<p><a href="https://github.com/aseprite/aseprite/releases">https://github.com/aseprite/aseprite/releases</a></p>
+<p>Or you can clone the repository and all its submodules using the following command:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone --recursive https:&#x2F;&#x2F;github.com&#x2F;aseprite&#x2F;aseprite.git</span><br></pre></td></tr></table></figure>
+
+<p>To update an existing clone you can use the following commands:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">git pull</span><br><span class="line">git submodule update --init --recursive</span><br></pre></td></tr></table></figure>
+
+<p>You can use <a href="https://git-for-windows.github.io/">Git for Windows</a> to clone the repository on Windows.</p>
+<h4 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h4><p>To compile Aseprite you will need:</p>
+<ul>
+<li>The latest version of <a href="https://cmake.org/">CMake</a> (3.14 or greater)</li>
+<li><a href="https://ninja-build.org/">Ninja</a> build system</li>
+<li>And a compiled version of the <code>aseprite-m81</code> branch of the <a href="https://github.com/aseprite/skia#readme">Skia library</a>. There are <a href="https://github.com/aseprite/skia/releases">pre-built packages available</a>. You can get some extra information in the <a href="https://github.com/aseprite/laf#dependencies"><em>laf</em> dependencies</a> page.</li>
+</ul>
+<h5 id="Windows-dependencies"><a href="#Windows-dependencies" class="headerlink" title="Windows dependencies"></a>Windows dependencies</h5><ul>
+<li>Windows 10 (we don’t support cross-compiling)</li>
+<li><a href="https://visualstudio.microsoft.com/downloads/">Visual Studio Community 2019</a> (we don’t support <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#mingw">MinGW</a>)</li>
+<li>The <a href="https://imgur.com/a/7zs51IT">Desktop development with C++ item + Windows 10.0.18362.0 SDK</a> from the Visual Studio installer</li>
+</ul>
+<h5 id="macOS-dependencies"><a href="#macOS-dependencies" class="headerlink" title="macOS dependencies"></a>macOS dependencies</h5><p>On macOS you will need macOS 10.15 SDK and Xcode 11.2.1 (older versions might work).</p>
+<h5 id="Linux-dependencies"><a href="#Linux-dependencies" class="headerlink" title="Linux dependencies"></a>Linux dependencies</h5><p>You will need the following dependencies on Ubuntu/Debian:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-get install -y g++ cmake ninja-build libx11-dev libxcursor-dev libxi-dev libgl1-mesa-dev libfontconfig1-dev</span><br></pre></td></tr></table></figure>
+
+<p>On Fedora:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo dnf install -y gcc-c++ cmake ninja-build libX11-devel libXcursor-devel libXi-devel mesa-libGL-devel fontconfig-devel</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="Compiling"><a href="#Compiling" class="headerlink" title="Compiling"></a>Compiling</h4><ol>
+<li><p><a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#get-the-source-code">Get Aseprite code</a>, put it in a folder like <code>C:\aseprite</code>, and create a <code>build</code> directory inside to leave all the files that are result of the compilation process (<code>.exe</code>, <code>.lib</code>, <code>.obj</code>, <code>.a</code>, <code>.o</code>, etc).</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite</span><br><span class="line">mkdir build</span><br></pre></td></tr></table></figure>
+
+<p>In this way, if you want to start with a fresh copy of Aseprite source code, you can remove the <code>build</code> directory and start again.</p>
+</li>
+<li><p>Enter in the new directory and execute <code>cmake</code>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite\build</span><br><span class="line">cmake -G Ninja -DLAF_BACKEND&#x3D;skia ..</span><br></pre></td></tr></table></figure>
+
+<p>Here <code>cmake</code> needs different options depending on your platform. You must check the details for <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#windows-details">Windows</a>, <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#macos-details">macOS</a>, and <a href="https://github.com/aseprite/aseprite/blob/master/INSTALL.md#linux-details">Linux</a>. Some <code>cmake</code> options can be modified using tools like <a href="https://cmake.org/cmake/help/latest/manual/ccmake.1.html"><code>ccmake</code></a> or <a href="https://cmake.org/cmake/help/latest/manual/cmake-gui.1.html"><code>cmake-gui</code></a>.</p>
+</li>
+<li><p>After you have executed and configured <code>cmake</code>, you have to compile the project:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd C:\aseprite\build</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>When <code>ninja</code> finishes the compilation, you can find the executable inside <code>C:\aseprite\build\bin\aseprite.exe</code>.</p>
+</li>
+</ol>
+<h5 id="Windows-details"><a href="#Windows-details" class="headerlink" title="Windows details"></a>Windows details</h5><p>Open a <a href="https://docs.microsoft.com/en-us/dotnet/framework/tools/developer-command-prompt-for-vs">developer command prompt</a> or in the command line (<code>cmd.exe</code>) call:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">call &quot;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat&quot; -arch&#x3D;x64</span><br></pre></td></tr></table></figure>
+
+<p>And then</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo -DLAF_BACKEND&#x3D;skia -DSKIA_DIR&#x3D;C:\deps\skia -DSKIA_LIBRARY_DIR&#x3D;C:\deps\skia\out\Release-x64 -DSKIA_LIBRARY&#x3D;C:\deps\skia\out\Release-x64\skia.lib -G Ninja ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
+
+<p>In this case, <code>C:\deps\skia</code> is the directory where Skia was compiled or uncompressed.</p>
+<h6 id="MinGW"><a href="#MinGW" class="headerlink" title="MinGW"></a>MinGW</h6><p>We don’t support MinGW compiler and it might bring some problems into the compilation process. If you see that the detected C++ compiler by cmake is <code>C:\MinGW\bin\c++.exe</code> or something similar, you have to get rid of MinGW path (<code>C:\MinGW\bin</code>) from the <code>PATH</code> environment variable and run cmake again from scratch, so the Visual Studio C++ compiler (<code>cl.exe</code>) is used instead.</p>
+<p>You can define the <code>CMAKE_IGNORE_PATH</code> variable when running cmake for the first time in case that you don’t know or don’t want to modify the <code>PATH</code> variable, e.g.:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cmake -DCMAKE_IGNORE_PATH&#x3D;C:\MinGW\bin ...</span><br></pre></td></tr></table></figure>
+
+<p>More information in <a href="https://github.com/aseprite/aseprite/issues/2449">issue #2449</a></p>
+<h5 id="macOS-details"><a href="#macOS-details" class="headerlink" title="macOS details"></a>macOS details</h5><p>Run <code>cmake</code> with the following parameters and then <code>ninja</code>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake \</span><br><span class="line">  -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo \</span><br><span class="line">  -DCMAKE_OSX_ARCHITECTURES&#x3D;x86_64 \</span><br><span class="line">  -DCMAKE_OSX_DEPLOYMENT_TARGET&#x3D;10.9 \</span><br><span class="line">  -DCMAKE_OSX_SYSROOT&#x3D;&#x2F;Applications&#x2F;Xcode.app&#x2F;Contents&#x2F;Developer&#x2F;Platforms&#x2F;MacOSX.platform&#x2F;Developer&#x2F;SDKs&#x2F;MacOSX10.15.sdk \</span><br><span class="line">  -DLAF_BACKEND&#x3D;skia \</span><br><span class="line">  -DSKIA_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia \</span><br><span class="line">  -DSKIA_LIBRARY_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64 \</span><br><span class="line">  -DSKIA_LIBRARY&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64&#x2F;libskia.a \</span><br><span class="line">  -G Ninja \</span><br><span class="line">  ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
+
+<p>In this case, <code>$HOME/deps/skia</code> is the directory where Skia was compiled or downloaded. Make sure that <code>CMAKE_OSX_SYSROOT</code> is pointing to the correct SDK directory (in this case <code>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk</code>), but it could be different in your Mac.</p>
+<h5 id="Issues-with-Retina-displays"><a href="#Issues-with-Retina-displays" class="headerlink" title="Issues with Retina displays"></a>Issues with Retina displays</h5><p>If you have a Retina display, check the following issue:</p>
+<p><a href="https://github.com/aseprite/aseprite/issues/589">https://github.com/aseprite/aseprite/issues/589</a></p>
+<h5 id="Linux-details"><a href="#Linux-details" class="headerlink" title="Linux details"></a>Linux details</h5><p>Run <code>cmake</code> with the following parameters and then <code>ninja</code>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd aseprite</span><br><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake \</span><br><span class="line">  -DCMAKE_BUILD_TYPE&#x3D;RelWithDebInfo \</span><br><span class="line">  -DLAF_BACKEND&#x3D;skia \</span><br><span class="line">  -DSKIA_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia \</span><br><span class="line">  -DSKIA_LIBRARY_DIR&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64 \</span><br><span class="line">  -DSKIA_LIBRARY&#x3D;$HOME&#x2F;deps&#x2F;skia&#x2F;out&#x2F;Release-x64&#x2F;libskia.a \</span><br><span class="line">  -G Ninja \</span><br><span class="line">  ..</span><br><span class="line">ninja aseprite</span><br></pre></td></tr></table></figure>
+
+<p>In this case, <code>$HOME/deps/skia</code> is the directory where Skia was compiled or uncompressed.</p>
+<h4 id="Using-shared-third-party-libraries"><a href="#Using-shared-third-party-libraries" class="headerlink" title="Using shared third party libraries"></a>Using shared third party libraries</h4><p>If you don’t want to use the embedded code of third party libraries (i.e. to use your installed versions), you can disable static linking configuring each <code>USE_SHARED_</code> option.</p>
+<p>After running <code>cmake -G</code>, you can edit <code>build/CMakeCache.txt</code> file, and enable the <code>USE_SHARED_</code> flag (set its value to <code>ON</code>) of the library that you want to be linked dynamically.</p>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
+<li><a href="http://macappstore.org/aseprite/">Install Aseprite on Mac OSX</a></li>
+<li><a href="https://www.bestgcc.cn/20181204194300.html">Mac 编译安装 Aseprite</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/156775243">【Aseprite】像素绘制软件编译（白嫖）教程</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>像素美工 (Pixel Art Designing)</category>
+      </categories>
+      <tags>
+        <tag>Aseprite</tag>
+        <tag>CMake</tag>
       </tags>
   </entry>
   <entry>
@@ -8617,66 +8555,6 @@
       </tags>
   </entry>
   <entry>
-    <title>像素宝典#3</title>
-    <url>/archives/a2511f33.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z6hdoorj31hc0u0tiu.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解水、火的特效、无缝循环、植物和骷髅。</p>
-<span id="more"></span>
-
-
-
-<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmib88u5vj30u008c74z.jpg"></p>
-<h3 id="水"><a href="#水" class="headerlink" title="水"></a>水</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibewya6g30e80e8dy9.gif"></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmib97v9lg30e80e8qmm.gif"></p>
-<p>这估计是至今为止我做的最复杂的一节了，不过希望对大家有帮助！水也不是我的专长，所以为了这节我找了非常多资料。</p>
-<p>再次重申，这些都不是什么金科玉律，只是我自己画水时候的思路。这也不是真实世界里水的行为，只是这样我觉着更酷。</p>
-<p>画水对我来说就是关于流动。我总是注意去循环，让所有东西都一直在移动。</p>
-<p>感谢大家一如既往的支持，做这个系列我也很开心。这个系列走到现在都是靠各位 patreons（patreon 上的资助者）和大家的积极分享。</p>
-<h3 id="火"><a href="#火" class="headerlink" title="火"></a>火</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibgn0cag30e80e8aq8-20210210113920843.gif"></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibftf9dg30e80e84gh-20210210113911873.gif"></p>
-<p>火的教程来了！</p>
-<p>很难形容怎么去画火，所以这节文字特别多。我画的时候会结合自己的观察，也会参考其他人的作品。这也是学习画大部分东西的好办法。</p>
-<p>感谢每个人的支持，不论是资助还是帮忙分享！</p>
-<p>这个老哥这几节就迷上流动了，啥都是流动的。</p>
-<h3 id="无缝循环"><a href="#无缝循环" class="headerlink" title="无缝循环"></a>无缝循环</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibgeds8g30e80e845r.gif"></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-000122694wb.gif"></p>
-<p>这节有点抽象，我试着用自己做循环的过程给大家说明。</p>
-<p>我觉得学习做无缝循环的时候，练习是非常重要的。所以我建议大家多多练习。</p>
-<p>感谢大家的支持，下周见！</p>
-<p><strong>风农：左下角那个火焰，每个绿色的线代表的区间都是一个火苗生成到消散的区间。</strong></p>
-<p><strong>火苗生成是从最底层开始，最小只有一个绿色的点。</strong></p>
-<h3 id="植物-1"><a href="#植物-1" class="headerlink" title="植物 1"></a>植物 1</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibedsczg30e80e8k2j.gif"></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibdtzilg30e80e8k37.gif"></p>
-<p>这节与其说是教程，更像是一些技巧集合，和一些画蔬菜时候要注意的地方。</p>
-<p>我最大的建议是不要画噪点。加纹理是好的，但是纹理产生噪点太多的话画面会很怪。</p>
-<p>所以我都是先处理外形，再是光照，最后才是细节。</p>
-<p>我之前的像素画基础也是类似的集合，里面解释了孤立像素以及保持低数量的像素块。</p>
-<p>这期教程基本上是用的 Endesga （twitter.com/endesga）的 32 色调色盘。</p>
-<p>图片版：</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibh44x8j30pk0g1wgm.jpg"></p>
-<h3 id="骷髅和骨头"><a href="#骷髅和骨头" class="headerlink" title="骷髅和骨头"></a>骷髅和骨头</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibd1fjbg30e80e81ky.gif"></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibfgxawg30e80e84qq.gif"></p>
-<p>这里是我画骷髅跟骨头时后的一些思路。</p>
-<p>大部分时候我感觉都是在跟低分辨率较劲，与其说是画画，更像是解密，但我还是很喜欢这个过程。</p>
-<p>下面是图里放不下的几个点：</p>
-<ul>
-<li>没什么比露天的肋骨更能说明“我已经死了”。用条纹图案在角色胸口画就可以。</li>
-<li>这完全是关于图形识别。人的思维总是想到处看到人脸，利用这点。</li>
-<li>跟其他情况不同，噪点在这里不是什么大问题，我通常会把所有东西都搞得很脏，腐蚀的厉害。</li>
-</ul>
-<p>感谢所有赞助者和大家的分享！</p>
-]]></content>
-      <categories>
-        <category>像素宝典 (Pixel Dictionary)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Art</tag>
-        <tag>Pixel</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>像素宝典#4</title>
     <url>/archives/2b4d75d3.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z8d807nj31hc0u0wol.jpg"></p>
@@ -8804,61 +8682,55 @@
       </tags>
   </entry>
   <entry>
-    <title>像素宝典#6</title>
-    <url>/archives/c54314ff.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zbxjud7j31hc0u0dpy.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解各种特效和飞行动画。</p>
+    <title>像素宝典#3</title>
+    <url>/archives/a2511f33.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5z6hdoorj31hc0u0tiu.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解水、火的特效、无缝循环、植物和骷髅。</p>
 <span id="more"></span>
 
 
 
 <p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78a6los3j30u008c74z.jpg"></p>
-<h3 id="宇宙飞船推进器"><a href="#宇宙飞船推进器" class="headerlink" title="宇宙飞船推进器"></a>宇宙飞船推进器</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78a8i99rg30e80e8qlp.gif"></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78aatyglg30e80e8kbh.gif"></p>
-<p>GDC 归来，新一期教程！（风农: 不是我去的 GDC。。。）</p>
-<p>总之，飞船的尾焰可以是任何你想要的样子，我举了一些例子和我自己工作时候的参考。</p>
-<p>希望大家喜欢！</p>
-<p>感谢大家的支持！</p>
-<h3 id="黑魔法特效"><a href="#黑魔法特效" class="headerlink" title="黑魔法特效"></a>黑魔法特效</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78ag8adyg30e80e8k80.gif"></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78a9fc2dg30e80e8tq4.gif"></p>
-<p>这是一节非常抽象的教程，里面更多的是窍门和理念的集合，不是一步步教程。</p>
-<p>主要建议：找些参考或者是 gif 图片，一帧一帧的分析，找到你可以用的比较炫酷的图案。</p>
-<p>之前有些教程也对这个主题有帮助：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmib88u5vj30u008c74z.jpg"></p>
+<h3 id="水"><a href="#水" class="headerlink" title="水"></a>水</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibewya6g30e80e8dy9.gif"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmib97v9lg30e80e8qmm.gif"></p>
+<p>这估计是至今为止我做的最复杂的一节了，不过希望对大家有帮助！水也不是我的专长，所以为了这节我找了非常多资料。</p>
+<p>再次重申，这些都不是什么金科玉律，只是我自己画水时候的思路。这也不是真实世界里水的行为，只是这样我觉着更酷。</p>
+<p>画水对我来说就是关于流动。我总是注意去循环，让所有东西都一直在移动。</p>
+<p>感谢大家一如既往的支持，做这个系列我也很开心。这个系列走到现在都是靠各位 patreons（patreon 上的资助者）和大家的积极分享。</p>
+<h3 id="火"><a href="#火" class="headerlink" title="火"></a>火</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibgn0cag30e80e8aq8-20210210113920843.gif"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibftf9dg30e80e84gh-20210210113911873.gif"></p>
+<p>火的教程来了！</p>
+<p>很难形容怎么去画火，所以这节文字特别多。我画的时候会结合自己的观察，也会参考其他人的作品。这也是学习画大部分东西的好办法。</p>
+<p>感谢每个人的支持，不论是资助还是帮忙分享！</p>
+<p>这个老哥这几节就迷上流动了，啥都是流动的。</p>
+<h3 id="无缝循环"><a href="#无缝循环" class="headerlink" title="无缝循环"></a>无缝循环</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibgeds8g30e80e845r.gif"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/pic-pixel-tutorial-000122694wb.gif"></p>
+<p>这节有点抽象，我试着用自己做循环的过程给大家说明。</p>
+<p>我觉得学习做无缝循环的时候，练习是非常重要的。所以我建议大家多多练习。</p>
+<p>感谢大家的支持，下周见！</p>
+<p><strong>风农：左下角那个火焰，每个绿色的线代表的区间都是一个火苗生成到消散的区间。</strong></p>
+<p><strong>火苗生成是从最底层开始，最小只有一个绿色的点。</strong></p>
+<h3 id="植物-1"><a href="#植物-1" class="headerlink" title="植物 1"></a>植物 1</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibedsczg30e80e8k2j.gif"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibdtzilg30e80e8k37.gif"></p>
+<p>这节与其说是教程，更像是一些技巧集合，和一些画蔬菜时候要注意的地方。</p>
+<p>我最大的建议是不要画噪点。加纹理是好的，但是纹理产生噪点太多的话画面会很怪。</p>
+<p>所以我都是先处理外形，再是光照，最后才是细节。</p>
+<p>我之前的像素画基础也是类似的集合，里面解释了孤立像素以及保持低数量的像素块。</p>
+<p>这期教程基本上是用的 Endesga （twitter.com/endesga）的 32 色调色盘。</p>
+<p>图片版：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibh44x8j30pk0g1wgm.jpg"></p>
+<h3 id="骷髅和骨头"><a href="#骷髅和骨头" class="headerlink" title="骷髅和骨头"></a>骷髅和骨头</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibd1fjbg30e80e81ky.gif"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1glmibfgxawg30e80e84qq.gif"></p>
+<p>这里是我画骷髅跟骨头时后的一些思路。</p>
+<p>大部分时候我感觉都是在跟低分辨率较劲，与其说是画画，更像是解密，但我还是很喜欢这个过程。</p>
+<p>下面是图里放不下的几个点：</p>
 <ul>
-<li>烟雾</li>
-<li>闪电</li>
-<li>爆炸</li>
-<li>亚像素运动</li>
-<li>骷髅</li>
-<li>火焰</li>
+<li>没什么比露天的肋骨更能说明“我已经死了”。用条纹图案在角色胸口画就可以。</li>
+<li>这完全是关于图形识别。人的思维总是想到处看到人脸，利用这点。</li>
+<li>跟其他情况不同，噪点在这里不是什么大问题，我通常会把所有东西都搞得很脏，腐蚀的厉害。</li>
 </ul>
-<h3 id="肖像"><a href="#肖像" class="headerlink" title="肖像"></a>肖像</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78agweuwg30e80e84qp.gif"></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78acq9b1g30e80e84qp.gif"></p>
-<p>上周投票是个平局，我就选了个自己最想做的：肖像教程。</p>
-<p>我试着说明我自己的流程，放了一些基本的比例建议。</p>
-<p>尽量的保持简洁，大家可以拿来做个快速参考。</p>
-<p>画肖像完全是关于了解人体结构，多看参考，多学习人体素描很重要。</p>
-<h3 id="光魔法特效"><a href="#光魔法特效" class="headerlink" title="光魔法特效"></a>光魔法特效</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78ahtyupg30e80e8an7.gif"></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78adiy17g30e80e87if.gif"></p>
-<p>又一节非常抽象的教程，里面更多的是窍门和理念的集合，不是一步步教程。</p>
-<p>主要建议跟之前的黑魔法一样：找些参考或者是 gif 图片，一帧一帧的分析，找到你可以用的比较炫酷的图案。</p>
-<p>下面是之前可能有帮助的教程：</p>
-<ul>
-<li>黑魔法特效（千万别画成这样）</li>
-<li>爆炸</li>
-<li>亚像素运动</li>
-<li>水</li>
-<li>像素画基础</li>
-</ul>
-<h3 id="翅膀-飞行"><a href="#翅膀-飞行" class="headerlink" title="翅膀 / 飞行"></a>翅膀 / 飞行</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78aeehk0g30e80e81kx.gif"></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78afk4d8g30e80e84qp.gif"></p>
-<p>翅膀/飞行终于在投票里赢了一次：D 准确讲是平局，不过我猜我是能决定平局结果的吧？这期就是翅膀/飞行了！</p>
-<p>主要的建议：</p>
-<p><strong>重点看垂直运动和剪影</strong></p>
-<p>观看像素动画的时候，我们的眼睛一般聚焦到的是大块的形状。</p>
-<p>祝大家开心，还有感谢支持！</p>
-<p><strong>风农：</strong>这张图里有一点点是我补的，不然没办法替换文字了，因为没有分层信息，我只能靠想象力了，感觉效果还可以。</p>
+<p>感谢所有赞助者和大家的分享！</p>
 ]]></content>
       <categories>
         <category>像素宝典 (Pixel Dictionary)</category>
@@ -8925,6 +8797,72 @@
       </tags>
   </entry>
   <entry>
+    <title>像素宝典#6</title>
+    <url>/archives/c54314ff.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn5zbxjud7j31hc0u0dpy.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这是来自佩德罗・梅代鲁斯（Pedro Medeiros，@saint11）授权的一系列像素美术教程，由风农翻译整理。本文将讲解各种特效和飞行动画。</p>
+<span id="more"></span>
+
+
+
+<p>佩德罗・梅代鲁斯最为知名的作品莫过于《塞莱斯特山（蔚蓝，Celeste）》，不过他持续在网络上发布的像素美术教程也同样相当知名。这里选择的教程就是经过风农翻译整理内容。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78a6los3j30u008c74z.jpg"></p>
+<h3 id="宇宙飞船推进器"><a href="#宇宙飞船推进器" class="headerlink" title="宇宙飞船推进器"></a>宇宙飞船推进器</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78a8i99rg30e80e8qlp.gif"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78aatyglg30e80e8kbh.gif"></p>
+<p>GDC 归来，新一期教程！（风农: 不是我去的 GDC。。。）</p>
+<p>总之，飞船的尾焰可以是任何你想要的样子，我举了一些例子和我自己工作时候的参考。</p>
+<p>希望大家喜欢！</p>
+<p>感谢大家的支持！</p>
+<h3 id="黑魔法特效"><a href="#黑魔法特效" class="headerlink" title="黑魔法特效"></a>黑魔法特效</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78ag8adyg30e80e8k80.gif"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78a9fc2dg30e80e8tq4.gif"></p>
+<p>这是一节非常抽象的教程，里面更多的是窍门和理念的集合，不是一步步教程。</p>
+<p>主要建议：找些参考或者是 gif 图片，一帧一帧的分析，找到你可以用的比较炫酷的图案。</p>
+<p>之前有些教程也对这个主题有帮助：</p>
+<ul>
+<li>烟雾</li>
+<li>闪电</li>
+<li>爆炸</li>
+<li>亚像素运动</li>
+<li>骷髅</li>
+<li>火焰</li>
+</ul>
+<h3 id="肖像"><a href="#肖像" class="headerlink" title="肖像"></a>肖像</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78agweuwg30e80e84qp.gif"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78acq9b1g30e80e84qp.gif"></p>
+<p>上周投票是个平局，我就选了个自己最想做的：肖像教程。</p>
+<p>我试着说明我自己的流程，放了一些基本的比例建议。</p>
+<p>尽量的保持简洁，大家可以拿来做个快速参考。</p>
+<p>画肖像完全是关于了解人体结构，多看参考，多学习人体素描很重要。</p>
+<h3 id="光魔法特效"><a href="#光魔法特效" class="headerlink" title="光魔法特效"></a>光魔法特效</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78ahtyupg30e80e8an7.gif"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78adiy17g30e80e87if.gif"></p>
+<p>又一节非常抽象的教程，里面更多的是窍门和理念的集合，不是一步步教程。</p>
+<p>主要建议跟之前的黑魔法一样：找些参考或者是 gif 图片，一帧一帧的分析，找到你可以用的比较炫酷的图案。</p>
+<p>下面是之前可能有帮助的教程：</p>
+<ul>
+<li>黑魔法特效（千万别画成这样）</li>
+<li>爆炸</li>
+<li>亚像素运动</li>
+<li>水</li>
+<li>像素画基础</li>
+</ul>
+<h3 id="翅膀-飞行"><a href="#翅膀-飞行" class="headerlink" title="翅膀 / 飞行"></a>翅膀 / 飞行</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78aeehk0g30e80e81kx.gif"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gm78afk4d8g30e80e84qp.gif"></p>
+<p>翅膀/飞行终于在投票里赢了一次：D 准确讲是平局，不过我猜我是能决定平局结果的吧？这期就是翅膀/飞行了！</p>
+<p>主要的建议：</p>
+<p><strong>重点看垂直运动和剪影</strong></p>
+<p>观看像素动画的时候，我们的眼睛一般聚焦到的是大块的形状。</p>
+<p>祝大家开心，还有感谢支持！</p>
+<p><strong>风农：</strong>这张图里有一点点是我补的，不然没办法替换文字了，因为没有分层信息，我只能靠想象力了，感觉效果还可以。</p>
+]]></content>
+      <categories>
+        <category>像素宝典 (Pixel Dictionary)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Art</tag>
+        <tag>Pixel</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Pico-8 精彩代码--植物生长效果解析</title>
     <url>/archives/9c0e841f.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gkqxm3p0xkj30m80cidgo.jpg"></p>
@@ -8978,6 +8916,46 @@
       </tags>
   </entry>
   <entry>
+    <title>Pico-8 精彩代码--触手效果解析</title>
+    <url>/archives/6b115460.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwbahzs4j30m80ci753.jpg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现触手的效果。</p>
+<span id="more"></span>
+
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwapwcm0g30bp0bx7u5.gif"></p>
+<h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p><strong>作者：</strong>Luca@lucatron_<br><strong>来源：</strong>twitter</p>
+<p>整理过后 14 行代码：</p>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">c=&#123;<span class="number">10</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">0</span>&#125;</span><br><span class="line">fillp(<span class="number">0xa5a5</span>)<span class="function"><span class="keyword">function</span> <span class="title">_draw</span><span class="params">()</span></span> <span class="keyword">for</span> i=<span class="number">24576</span>,<span class="number">32767</span> <span class="keyword">do</span></span><br><span class="line">  poke(i,peek(i)/<span class="number">2</span>)</span><br><span class="line"> <span class="keyword">end</span></span><br><span class="line"> <span class="keyword">for</span> z=<span class="number">6</span>,<span class="number">1</span>,<span class="number">-.1</span> <span class="keyword">do</span></span><br><span class="line">  <span class="keyword">for</span> b=<span class="number">0</span>,<span class="number">7</span> <span class="keyword">do</span></span><br><span class="line">   b=b/<span class="number">8</span>+<span class="built_in">sin</span>(z/<span class="number">8</span>+t()/<span class="number">4</span>)/<span class="number">30</span></span><br><span class="line">   k=<span class="number">19</span>-<span class="built_in">sin</span>((<span class="number">6</span>-z)/<span class="number">20</span>)*<span class="number">40</span>*(<span class="number">.5</span>+<span class="built_in">sin</span>(t()/<span class="number">2</span>+z/<span class="number">9</span>+b*<span class="number">2</span>)/<span class="number">2</span>)</span><br><span class="line">   circfill(<span class="number">64</span>+<span class="built_in">cos</span>(b)*k,<span class="number">64</span>+<span class="built_in">sin</span>(b)*k,z*<span class="number">2.3</span>,c[flr(z)]+c[flr(z+<span class="number">.5</span>)]*<span class="number">16</span>)</span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"> endend</span><br></pre></td></tr></table></figure>
+
+<p>1-2 行，<code>c</code> 是触手的颜色，顶部到底部由明止暗。<code>fillp</code> 是填充样式，点阵图样填充，有种渐变的效果（在最后详细解释）。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwan0ucej30lk0bj752.jpg"></p>
+<p>4-6 行，是残影效果，这里没有用 <code>cls</code> 清空画布，直接将屏幕内存中的数值每帧减半，最终降为 <code>0</code> 透明，来实现透明效果</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwaoaasnj30kr0b3q3w.jpg"></p>
+<p>10-11 行，两个嵌套循环，外层的 <code>z</code> 表示，每个触手的层数，内层 <code>b</code> 表示触手的数量（<code>8</code> 个）。单个触手是由从下至上，大小递减，颜色逐渐变亮的圆组成，<code>z</code> 表示圆的位置，相当于 <code>z</code> 轴的坐标，从 <code>6-1</code> 共有 <code>60</code> 层。</p>
+<p>9 行，<code>b/8</code> 将八只触手映射到 <code>0-1</code>，pico8 中三角函数的参数取值 <code>0-1</code> 代表着 <code>0-360°</code>。在第 11 行的 <code>circlefill</code> 圆的绘制函数中，圆 B 的位置 <code>x,y =  64+cos(b)*k,64+sin(b)*k</code>。其中原点是屏幕的中心点 <code>64, 64</code>；角度 <code>b</code> 为每个触手映射的角度，<code>k</code> 为圆至屏幕中心的距离。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwamxxpqj30eg0e9aam.jpg"></p>
+<p>10 行 计算每个圆至屏幕中心的距离 <code>k</code>，我们先把圆的角度 <code>b</code> 从中去掉看下结果。<code>k=19-sin((6-z)/20)*40*(.5+sin(t()/2+z/9)/2)</code></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwaozlqwg30bp0bx7u5.gif"></p>
+<p>将圆的 <code>z</code> 轴坐标 <code>z</code> 映射到至中心的距离 <code>k</code>，通过 <code>sin</code> 的映射使得，距离 <code>k</code> 根据 <code>z</code> 呈现正弦波的形状。</p>
+<p>最后把角度 <code>b</code> 加回去，<code>k=19-sin((6-z)/20)*40*(.5+sin(t()/2+z/9+b*2)/2)</code> 使得不同的触手在波形上拥有不同的位置。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwaqpv80g30bp0bwtmr.gif"></p>
+<p>第 11 行 <code>circlefill</code> 画圆，其中圆的半径 根据 <code>z</code> 轴距离变化，<code>z*2.3</code>。圆的颜色 <code>c[flr(z)]+c[flr(z+.5)]*16</code> 是两个颜色相加，利用高低位的不同颜色，再配合第 2 行的 <code>fillp</code> 实现两种颜色的填充图样。</p>
+<p>最后补充下 <code>fillp</code> 的用法。pico8 中用一个 <code>4*4</code> 的图来填充 <code>circ()</code> <code>circfill()</code> <code>rect()</code> <code>rectfill()</code> <code>pset()</code> <code>line()</code> 等函数画的图形。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwanwm3yj30eg0e9aam.jpg"></p>
+<p>16 个像素点用上图表格里的数字代表，如果想让某个点不着色就将点对应的数值累加，将最终得到的值传给 <code>fillp</code>，比如只让对角线 <code>32768,1024,32,1</code> 没有颜色，<code>fillp(32768+1024+32+1)</code></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwaq5pm4j30jb0a7my5.jpg"></p>
+<p>也可以 <code>7+8*16</code> 指定第二个颜色</p>
+]]></content>
+      <categories>
+        <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
+      </categories>
+      <tags>
+        <tag>Reprint</tag>
+        <tag>Lua</tag>
+        <tag>Pico-8</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Pico-8 精彩代码--漩涡效果解析</title>
     <url>/archives/2a6e7125.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4obfrjkrj30m80ciaat.jpg"></p>
@@ -9011,46 +8989,6 @@
 
 <p>当把角度和距离加起来的时候神奇的图像就出现了，而且角度 <code>a</code> 必须于 <code>8</code> 的倍数相乘才可以对齐，不知道原理是什么，真的很神奇。</p>
 <p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gljxi3fnaxj30dq05ogli.jpg"></p>
-]]></content>
-      <categories>
-        <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
-      </categories>
-      <tags>
-        <tag>Reprint</tag>
-        <tag>Lua</tag>
-        <tag>Pico-8</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Pico-8 精彩代码--触手效果解析</title>
-    <url>/archives/6b115460.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwbahzs4j30m80ci753.jpg"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>pico-8 的社区是一个满是热情与分享精神的社区，无数玩家与开发者贡献着代码。本系列日志将选取其中比较精彩的代码片段进行解析，学习其中的算法思路。本文将讲解如何实现触手的效果。</p>
-<span id="more"></span>
-
-<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwapwcm0g30bp0bx7u5.gif"></p>
-<h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p><strong>作者：</strong>Luca@lucatron_<br><strong>来源：</strong>twitter</p>
-<p>整理过后 14 行代码：</p>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">c=&#123;<span class="number">10</span>,<span class="number">9</span>,<span class="number">8</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">0</span>&#125;</span><br><span class="line">fillp(<span class="number">0xa5a5</span>)<span class="function"><span class="keyword">function</span> <span class="title">_draw</span><span class="params">()</span></span> <span class="keyword">for</span> i=<span class="number">24576</span>,<span class="number">32767</span> <span class="keyword">do</span></span><br><span class="line">  poke(i,peek(i)/<span class="number">2</span>)</span><br><span class="line"> <span class="keyword">end</span></span><br><span class="line"> <span class="keyword">for</span> z=<span class="number">6</span>,<span class="number">1</span>,<span class="number">-.1</span> <span class="keyword">do</span></span><br><span class="line">  <span class="keyword">for</span> b=<span class="number">0</span>,<span class="number">7</span> <span class="keyword">do</span></span><br><span class="line">   b=b/<span class="number">8</span>+<span class="built_in">sin</span>(z/<span class="number">8</span>+t()/<span class="number">4</span>)/<span class="number">30</span></span><br><span class="line">   k=<span class="number">19</span>-<span class="built_in">sin</span>((<span class="number">6</span>-z)/<span class="number">20</span>)*<span class="number">40</span>*(<span class="number">.5</span>+<span class="built_in">sin</span>(t()/<span class="number">2</span>+z/<span class="number">9</span>+b*<span class="number">2</span>)/<span class="number">2</span>)</span><br><span class="line">   circfill(<span class="number">64</span>+<span class="built_in">cos</span>(b)*k,<span class="number">64</span>+<span class="built_in">sin</span>(b)*k,z*<span class="number">2.3</span>,c[flr(z)]+c[flr(z+<span class="number">.5</span>)]*<span class="number">16</span>)</span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"> endend</span><br></pre></td></tr></table></figure>
-
-<p>1-2 行，<code>c</code> 是触手的颜色，顶部到底部由明止暗。<code>fillp</code> 是填充样式，点阵图样填充，有种渐变的效果（在最后详细解释）。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwan0ucej30lk0bj752.jpg"></p>
-<p>4-6 行，是残影效果，这里没有用 <code>cls</code> 清空画布，直接将屏幕内存中的数值每帧减半，最终降为 <code>0</code> 透明，来实现透明效果</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwaoaasnj30kr0b3q3w.jpg"></p>
-<p>10-11 行，两个嵌套循环，外层的 <code>z</code> 表示，每个触手的层数，内层 <code>b</code> 表示触手的数量（<code>8</code> 个）。单个触手是由从下至上，大小递减，颜色逐渐变亮的圆组成，<code>z</code> 表示圆的位置，相当于 <code>z</code> 轴的坐标，从 <code>6-1</code> 共有 <code>60</code> 层。</p>
-<p>9 行，<code>b/8</code> 将八只触手映射到 <code>0-1</code>，pico8 中三角函数的参数取值 <code>0-1</code> 代表着 <code>0-360°</code>。在第 11 行的 <code>circlefill</code> 圆的绘制函数中，圆 B 的位置 <code>x,y =  64+cos(b)*k,64+sin(b)*k</code>。其中原点是屏幕的中心点 <code>64, 64</code>；角度 <code>b</code> 为每个触手映射的角度，<code>k</code> 为圆至屏幕中心的距离。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwamxxpqj30eg0e9aam.jpg"></p>
-<p>10 行 计算每个圆至屏幕中心的距离 <code>k</code>，我们先把圆的角度 <code>b</code> 从中去掉看下结果。<code>k=19-sin((6-z)/20)*40*(.5+sin(t()/2+z/9)/2)</code></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwaozlqwg30bp0bx7u5.gif"></p>
-<p>将圆的 <code>z</code> 轴坐标 <code>z</code> 映射到至中心的距离 <code>k</code>，通过 <code>sin</code> 的映射使得，距离 <code>k</code> 根据 <code>z</code> 呈现正弦波的形状。</p>
-<p>最后把角度 <code>b</code> 加回去，<code>k=19-sin((6-z)/20)*40*(.5+sin(t()/2+z/9+b*2)/2)</code> 使得不同的触手在波形上拥有不同的位置。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwaqpv80g30bp0bwtmr.gif"></p>
-<p>第 11 行 <code>circlefill</code> 画圆，其中圆的半径 根据 <code>z</code> 轴距离变化，<code>z*2.3</code>。圆的颜色 <code>c[flr(z)]+c[flr(z+.5)]*16</code> 是两个颜色相加，利用高低位的不同颜色，再配合第 2 行的 <code>fillp</code> 实现两种颜色的填充图样。</p>
-<p>最后补充下 <code>fillp</code> 的用法。pico8 中用一个 <code>4*4</code> 的图来填充 <code>circ()</code> <code>circfill()</code> <code>rect()</code> <code>rectfill()</code> <code>pset()</code> <code>line()</code> 等函数画的图形。</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwanwm3yj30eg0e9aam.jpg"></p>
-<p>16 个像素点用上图表格里的数字代表，如果想让某个点不着色就将点对应的数值累加，将最终得到的值传给 <code>fillp</code>，比如只让对角线 <code>32768,1024,32,1</code> 没有颜色，<code>fillp(32768+1024+32+1)</code></p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gnbwaq5pm4j30jb0a7my5.jpg"></p>
-<p>也可以 <code>7+8*16</code> 指定第二个颜色</p>
 ]]></content>
       <categories>
         <category>Pico-8 游戏引擎 (Pico-8 Game Engine)</category>
@@ -9262,6 +9200,76 @@
         <tag>Mooc</tag>
         <tag>R</tag>
         <tag>Data Mining</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Event System</title>
+    <url>/archives/fe6918d5.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Eq5wAQ1XMAU2cvz.jpeg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href=" https://twitter.com/m4ndrill">Twitter@m4ndrill</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>上一节我们对项目进行重构生成。这节我们将为我们的引擎创建一个事件系统，以便我们处理窗口事件。</p>
+<span id="more"></span>
+
+
+
+<p>我们希望当我们实际创建一个窗口时，我们可以非常轻松地处理所有事情。以前可能先编写整个窗口系统然后再处理事件，但现在最好是先完成事件系统，当我们编写到窗口时已经可以调度所有事件。</p>
+<p>目前我们有一个叫<code>Application</code>做应用程序的东西，这意味着它实际上包含了使一切保持运行的循环并且一直不断更新我们的游戏。不仅如此，它还要作为事件的枢纽需要接收事件，最终将它们分派到一个<code>Layer</code>层中，现在的游戏层是我们以后会讨论的话题所以不会过多地提及它们，因为我们将为此有单独的章节。总之现在事件最终传播到层以便它们可以处理。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210222152835350.png"></p>
+<p>根据我们的应用程序，需要有一个应用程序能够接收事件，所以我们来画一些窗口，然后看看这种交流将如何进行。我们的窗口类代表了我们实际构成的窗口，我们的应用程序就像人们熟知的Windows窗口一样，每次我们在此窗口收到事件时是否有人调整了大小、点击关闭按钮、某种鼠标移动事件等等。无论何时每当这些事情发生时，在我们的窗口库或Win32 API都会收到一个事件，然后一旦该事件发生在该窗口类中，我们需要一种将其传达给应用程序的方式。本质上就是窗口类收到一个事件回调，然后构造一个Infinite事件并以某种方式传播回去。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210222153049788.png"></p>
+<p>但我们实际上并不想绑定我们的应用程序到窗口类，所以窗口类不应该知道我们的应用程序。所有的应用程序类都会创建一个窗口，所以我们实际上需要做的是将所有这些事件信息发送给应用程序。</p>
+<p>接着我们来谈谈其中的细节。首先是Infinite事件，我们需要一个事件类包含所有对事件系统而言所需的信息。例如鼠标右击，我移动了鼠标并在某个位置单击了它，我们需要什么类型的信息呢？需要确定鼠标点击的X&amp;Y坐标以及哪个按钮被按下，然后我们可以处理该信息，这就是所谓的鼠标按下事件。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210222153938439.png"></p>
+<p>我们创建一个鼠标右键事件后，需要一种方法将数据发送到应用程序以便我们后续的操作。我们希望这个应用程序为窗口提供回调，就像一个简单的函数指针一样：当我们由应用程序创建一个窗口时我们还将设置一个回调到该窗口类的事件回调，这样每次此窗口得到一个事件，它可以检查回调是否存在。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210222162405638.png"></p>
+<p>窗口实际上并不了解应用程序，但如果我们设置了回调窗口，窗口将以这种方式调用此功能。当接收鼠标按钮按下事件时，我们用堆栈上构造它并立即调用此函数，将来我们可以创建类似缓冲事件的系统。</p>
+<h3 id="Event-h"><a href="#Event-h" class="headerlink" title="Event.h"></a>Event.h</h3><blockquote>
+<p>Events in Hazel are currently blocking, meaning when an event occurs it<br>immediately gets dispatched and must be dealt with right then an there.<br>For the future, a better strategy might be to buffer events in an event<br>bus and process them during the “event” part of the update stage.</p>
+</blockquote>
+<p>现在的设计方式是没有缓冲的，这类事件不会立刻推迟。之后我们可能会设计为更合理的将事件中的信息推入某种队列或者缓冲，它们会推迟到我们实际经历该事件之前不会立即发生。</p>
+<p>首先我们有一个事件类型的枚举类<code>EventType</code>拥有不同类型的事件类型，我们将其隔行拆分，包含了按键事件、鼠标事件等等这些内容，这些实际事件在其相关类型的文件中实现，也就是应用程序事件<code>ApplicationEvent.h</code>。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">enum</span> <span class="keyword">class</span> <span class="title">EventType</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">	None = <span class="number">0</span>,</span><br><span class="line">	WindowClose, WindowResize, WindowFocus, WindowLostFocus, WindowMoved,</span><br><span class="line">	AppTick, AppUpdate, AppRender,</span><br><span class="line">	KeyPressed, KeyReleased,</span><br><span class="line">	MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>将事件分类的原因是因为我们想过滤某些事件，换句话说，从应用程序到某些事件类我正在接收所有的事件，但我只关心键盘事件是否正确。比如一个非常简单的场景，现在我们想记录每个键盘事件或鼠标事件，所以我们必须去检查一下前面的事件：被按下或释放、移动或滚动……</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">enum</span> <span class="title">EventCategory</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">	None = <span class="number">0</span>,</span><br><span class="line">	EventCategoryApplication    = BIT(<span class="number">0</span>),</span><br><span class="line">	EventCategoryInput          = BIT(<span class="number">1</span>),</span><br><span class="line">	EventCategoryKeyboard       = BIT(<span class="number">2</span>),</span><br><span class="line">	EventCategoryMouse          = BIT(<span class="number">3</span>),</span><br><span class="line">	EventCategoryMouseButton    = BIT(<span class="number">4</span>)</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>而<code>BIT(x)</code>则在<code>Infinite/Core.h</code>中定义：</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">#pragma once</span><br><span class="line"></span><br><span class="line">#ifdef IFN_PLATFORM_WINDOWS</span><br><span class="line">	#ifdef IFN_BUILD_DLL</span><br><span class="line">		#define INFINITE_API _declspec(dllexport)</span><br><span class="line">	#else</span><br><span class="line">		#define INFINITE_API _declspec(dllimport)</span><br><span class="line">	#endif</span><br><span class="line">#else</span><br><span class="line">	#error Infinite only support Windows</span><br><span class="line">#endif</span><br><span class="line"><span class="addition">+ #define BIT(x)(1 &lt;&lt; x)</span></span><br></pre></td></tr></table></figure>
+
+<p>事件可以分为多个类别，例如<code>Keyboard</code>、<code>Mouse</code>、<code>MouseButton</code>都是<code>Input</code>事件、<code>MouseButton</code>是<code>Mouse</code>事件……而我们想要将多个类别应用与单个事件类型，因此我们需要创建一个位字段以便我们可以设置多个位。</p>
+<p>让我们来看一下实际的事件基类</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">HAZEL_API</span> <span class="title">Event</span></span></span><br><span class="line"><span class="class">	&#123;</span></span><br><span class="line">		<span class="keyword">friend</span> <span class="class"><span class="keyword">class</span> <span class="title">EventDispatcher</span>;</span></span><br><span class="line">	<span class="keyword">public</span>:</span><br><span class="line">		<span class="function"><span class="keyword">virtual</span> EventType <span class="title">GetEventType</span><span class="params">()</span> <span class="keyword">const</span> </span>= <span class="number">0</span>;</span><br><span class="line">		<span class="function"><span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keyword">char</span>* <span class="title">GetName</span><span class="params">()</span> <span class="keyword">const</span> </span>= <span class="number">0</span>;</span><br><span class="line">		<span class="function"><span class="keyword">virtual</span> <span class="keyword">int</span> <span class="title">GetCategoryFlags</span><span class="params">()</span> <span class="keyword">const</span> </span>= <span class="number">0</span>;</span><br><span class="line">		<span class="function"><span class="keyword">virtual</span> <span class="built_in">std</span>::<span class="built_in">string</span> <span class="title">ToString</span><span class="params">()</span> <span class="keyword">const</span> </span>&#123; <span class="keyword">return</span> GetName(); &#125;</span><br><span class="line"></span><br><span class="line">		<span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">IsInCategory</span><span class="params">(EventCategory category)</span></span></span><br><span class="line"><span class="function">		</span>&#123;</span><br><span class="line">			<span class="keyword">return</span> GetCategoryFlags() &amp; category;</span><br><span class="line">		&#125;</span><br><span class="line">	<span class="keyword">protected</span>:</span><br><span class="line">		<span class="keyword">bool</span> m_Handled = <span class="literal">false</span>;</span><br><span class="line">	&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;Hazel/Core.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;functional&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> Hazel &#123;</span><br><span class="line"></span><br><span class="line">	<span class="comment">// Events in Hazel are currently blocking, meaning when an event occurs it</span></span><br><span class="line">	<span class="comment">// immediately gets dispatched and must be dealt with right then an there.</span></span><br><span class="line">	<span class="comment">// For the future, a better strategy might be to buffer events in an event</span></span><br><span class="line">	<span class="comment">// bus and process them during the &quot;event&quot; part of the update stage.</span></span><br><span class="line"></span><br><span class="line">	<span class="class"><span class="keyword">enum</span> <span class="keyword">class</span> <span class="title">EventType</span></span></span><br><span class="line"><span class="class">	&#123;</span></span><br><span class="line">		None = <span class="number">0</span>,</span><br><span class="line">		WindowClose, WindowResize, WindowFocus, WindowLostFocus, WindowMoved,</span><br><span class="line">		AppTick, AppUpdate, AppRender,</span><br><span class="line">		KeyPressed, KeyReleased,</span><br><span class="line">		MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled</span><br><span class="line">	&#125;;</span><br><span class="line"></span><br><span class="line">	<span class="class"><span class="keyword">enum</span> <span class="title">EventCategory</span></span></span><br><span class="line"><span class="class">	&#123;</span></span><br><span class="line">		None = <span class="number">0</span>,</span><br><span class="line">		EventCategoryApplication    = BIT(<span class="number">0</span>),</span><br><span class="line">		EventCategoryInput          = BIT(<span class="number">1</span>),</span><br><span class="line">		EventCategoryKeyboard       = BIT(<span class="number">2</span>),</span><br><span class="line">		EventCategoryMouse          = BIT(<span class="number">3</span>),</span><br><span class="line">		EventCategoryMouseButton    = BIT(<span class="number">4</span>)</span><br><span class="line">	&#125;;</span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> EVENT_CLASS_TYPE(type) static EventType GetStaticType() &#123; return EventType::##type; &#125;\</span></span><br><span class="line">								<span class="function"><span class="keyword">virtual</span> EventType <span class="title">GetEventType</span><span class="params">()</span> <span class="keyword">const</span> <span class="keyword">override</span> </span>&#123; <span class="keyword">return</span> GetStaticType(); &#125;\</span><br><span class="line">								<span class="function"><span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keyword">char</span>* <span class="title">GetName</span><span class="params">()</span> <span class="keyword">const</span> <span class="keyword">override</span> </span>&#123; <span class="keyword">return</span> <span class="meta">#type; &#125;</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> EVENT_CLASS_CATEGORY(category) virtual int GetCategoryFlags() const override &#123; return category; &#125;</span></span><br><span class="line"></span><br><span class="line">	class HAZEL_API Event</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">friend</span> class EventDispatcher;</span><br><span class="line">	<span class="keyword">public</span>:</span><br><span class="line">		<span class="function"><span class="keyword">virtual</span> EventType <span class="title">GetEventType</span><span class="params">()</span> <span class="keyword">const</span> </span>= <span class="number">0</span>;</span><br><span class="line">		<span class="function"><span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keyword">char</span>* <span class="title">GetName</span><span class="params">()</span> <span class="keyword">const</span> </span>= <span class="number">0</span>;</span><br><span class="line">		<span class="function"><span class="keyword">virtual</span> <span class="keyword">int</span> <span class="title">GetCategoryFlags</span><span class="params">()</span> <span class="keyword">const</span> </span>= <span class="number">0</span>;</span><br><span class="line">		<span class="function"><span class="keyword">virtual</span> <span class="built_in">std</span>::<span class="built_in">string</span> <span class="title">ToString</span><span class="params">()</span> <span class="keyword">const</span> </span>&#123; <span class="keyword">return</span> GetName(); &#125;</span><br><span class="line"></span><br><span class="line">		<span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">IsInCategory</span><span class="params">(EventCategory category)</span></span></span><br><span class="line"><span class="function">		</span>&#123;</span><br><span class="line">			<span class="keyword">return</span> GetCategoryFlags() &amp; category;</span><br><span class="line">		&#125;</span><br><span class="line">	<span class="keyword">protected</span>:</span><br><span class="line">		<span class="keyword">bool</span> m_Handled = <span class="literal">false</span>;</span><br><span class="line">	&#125;;</span><br><span class="line"></span><br><span class="line">	<span class="class"><span class="keyword">class</span> <span class="title">EventDispatcher</span></span></span><br><span class="line"><span class="class">	&#123;</span></span><br><span class="line">		<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</span><br><span class="line">		<span class="keyword">using</span> EventFn = <span class="built_in">std</span>::function&lt;<span class="keyword">bool</span>(T&amp;)&gt;;</span><br><span class="line">	<span class="keyword">public</span>:</span><br><span class="line">		EventDispatcher(Event&amp; event)</span><br><span class="line">			: m_Event(event)</span><br><span class="line">		&#123;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</span><br><span class="line">		<span class="function"><span class="keyword">bool</span> <span class="title">Dispatch</span><span class="params">(EventFn&lt;T&gt; func)</span></span></span><br><span class="line"><span class="function">		</span>&#123;</span><br><span class="line">			<span class="keyword">if</span> (m_Event.GetEventType() == T::GetStaticType())</span><br><span class="line">			&#123;</span><br><span class="line">				m_Event.m_Handled = func(*(T*)&amp;m_Event);</span><br><span class="line">				<span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">		&#125;</span><br><span class="line">	<span class="keyword">private</span>:</span><br><span class="line">		Event&amp; m_Event;</span><br><span class="line">	&#125;;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">inline</span> <span class="built_in">std</span>::ostream&amp; <span class="keyword">operator</span>&lt;&lt;(<span class="built_in">std</span>::ostream&amp; os, <span class="keyword">const</span> Event&amp; e)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">return</span> os &lt;&lt; e.ToString();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+<h3 id="Application-cpp"><a href="#Application-cpp" class="headerlink" title="Application.cpp"></a>Application.cpp</h3>]]></content>
+      <categories>
+        <category>游戏引擎开发 (Game Engine Series)</category>
+      </categories>
+      <tags>
+        <tag>Cpp</tag>
+        <tag>Game Engine</tag>
       </tags>
   </entry>
   <entry>
@@ -14507,6 +14515,73 @@
       </tags>
   </entry>
   <entry>
+    <title>从苏宁电器到卡巴斯基--我在佳木斯的日子</title>
+    <url>/archives/c2bd3756.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师协助书馆前往佳木斯的日子。</p>
+<span id="more"></span>
+
+
+
+
+
+<h3 id="上篇"><a href="#上篇" class="headerlink" title="上篇"></a>上篇</h3><h4 id="先来陈述一下背景"><a href="#先来陈述一下背景" class="headerlink" title="先来陈述一下背景"></a>先来陈述一下背景</h4><p>自从我们老师与超市展开合作以来（其实也没合作几年），差不多每年的七月份左右，都会和超市举办书展，算是图书促销，我毕业那年（2009年）也不例外。正好我是六月末毕业离开学校的，而那年的书展就定在了七月初开始举办。而我那年应该是规模最大的一次图书促销了，一共涉及三个城市的三家大润发超市。因此公司这边自然也得派三个人去监督。</p>
+<p>负责超市事务的经理去了吉林市（离长春最近的地方），我被派往去了佳木斯市（还是第一次去黑龙江，到了比长春还北的城市），而我的那个同学去了齐齐哈尔（其实他具体去哪我记不清了，不过这不重要了）。从以往的销售情况来看，每次举办的书展其实也挣不到多少钱，销售情况也是挺一般的。尽管有打肿脸充胖子的嫌疑，但是既然超市允许我们办书展，当然不能错过这个机会，也算是薄利多销，推广自己的品牌了。</p>
+<p>一个人去陌生的佳木斯，其实还是非常忐忑的，但是既然把我推到了这个位置，行不行都得去了，感觉至少要比憋在店面，住在老师那里好吧，毕竟在店面我也不知道该怎么维护客户关系或者拓展客户，到佳木斯，也就相当于是去度假了。</p>
+<p>于是，就在对前路的迷茫中，我踏上了开往佳木斯的火车。还记得那是晚上，硬卧，睡一宿，第二天一早就到了佳木斯火车站。我打车来到大润发超市，直接到图书专区找导购和我接头。当时见到大润发，我还是挺喜欢这种设计的，它在地面上是一个玻璃建筑，相当于是一楼，这里会有些小商铺卖一些小饰品之类。然后需要乘扶梯到地下，才来到超市的门口。到时候会在这个门口划出一片区域来给我们办书展。其实图书专区的导购不属于大润发，而是和我们公司签合同，由我们公司负责给导购开工资。当时大润发一共是有两个图书导购，负责进货、退货、陈列等工作。其实她们也还是蛮辛苦的，并且薪酬也是很低（没记错的话，一个月大概是900块钱）。由于当时大润发超市并不仅仅进我们一家的图书，另外还有一家供书商，但是由于他们的货少，就没派导购过来，因此关于他们的图书管理事宜，也是由我们这边的两个导购负责的。</p>
+<h4 id="要我住这里？逗我呢吧"><a href="#要我住这里？逗我呢吧" class="headerlink" title="要我住这里？逗我呢吧"></a>要我住这里？逗我呢吧</h4><p>我和导购见了面，她们首要的任务就是给我安排住宿的地方，毕竟我要在佳木斯待差不多一个月的时间，需要先把我安顿好，然后才能准备第二天书展的事情。本着就近以及便宜的原则，导购把我带到了距离超市步行大概五分钟的一处民宅。路上还一直跟我解释，说房子实在是不好找，也不能住太贵的，于是就给我找了这个地方，住一个月大概是三百多（也好像是两百多，记不清了，是公司帮我掏的钱）。房东是一个老太太，也住在这个房子里。这是一个两居室的房子，两间卧室里面，每间都摆了大概三张上下铺的铁床。房东和我说她的房子里面住的都是在佳木斯上班的小伙，都是年轻人，让大家好好相处。也带我参观了一下各个卧室。其实我至今也是挺不理解的，既然是来到异地打拼，为什么不选择北上广这种一线城市，或者去二线城市也行啊，为什么要做一个“佳漂”呢？也不见得这里的待遇有多么的好吧。难道说他们的工作也类似于像可口可乐驻梨树（或者是榆树）的业务员那样？看来也就只有这种解释才能说得通了。</p>
+<p>接下来，房东话锋一转，和我说，我并不是住在卧室里，而是把我领到了阳台，就让我住在阳台了，而阳台算上我在内，竟然住了两个人！房东还真是会在有限的空间内创造最大的利润。不过在阳台上，并不是上下铺那种，而是两张折叠床。由于阳台上也是放了房东的一些日常用品食品之类（比如大米白面豆油），因此为了不影响她取东西，每天白天我去超市上班之后，她就会把折叠床收起来放到一边，等到晚上我下班了，再把床给我架好。房东尽管满头白发，但是天天帮我这么收床支床，看来身体也是不错的。</p>
+<p>对于住在阳台这件事，该怎么讲呢，还好当时是七月份，正值夏天，加上佳木斯又处于我国比较北的地方，因此睡在阳台不冷也不热，温度还是非常适宜的。另外，我感觉自己还是比较能吃苦的，让我住在阳台，那就住吧，尽管心里其实也是老大的不愿意。因为如果可以的话，我当然还是希望能自己一个人住（一人一个房间），多花点钱其实也没关系，我也愿意自掏腰包多出点钱。但可惜的是这件事也由不得我做主，钱都已经交了，本来想着自己再贴钱住好点的地方也是不可能的了。也正是由于这个原因，尽管这一个月我是可以休息几天的（每周有一天的休息），但是想到即便是休息，自己也没地方去，回到住的地方也是大眼瞪小眼，因此我是一天都没有休息。还记得当时我还带了一本政治红宝书，是打算考研复习用的，但是至始至终也都没啥机会看。</p>
+<p>这里既然提到了租房，其实即便是到了今天我也觉的，假设每月的开支是一个固定的数字的话，那么我更愿意把多数钱投入到租房子上，租一个环境好，主要是个人空间独立性比较好的房子，而在吃饭和购买生活用品上面，我宁可省点钱。比如我后来在北京工作，住宿最基本的要求就是必须要有独立卫浴，房间小点也没有关系。而现在深受大家欢迎的酒店式公寓，就很满足我的要求了。</p>
+<p>言归正传，在佳木斯的时候，房东那里是不能洗澡的，所以要洗澡的话我只能去公共浴池。由于下班太晚，所以只能早上早点起来去洗澡。那个时候的公共浴池其实也能提供住宿，相比而言，我觉得住在浴池要比住在房东这里好，尽管租金大概要贵至少两百块钱，但是住得好一点，一定能够让我以更加饱满的热情去上班。在佳木斯近一个月的时间里面，大概有两三天吧，住在卧室的一个兄弟好像是出差了还是回家了怎么的，需要离开几天不在这住，正好房东老太太可能也觉得天天这么支床也挺累，于是就让我睡在那个兄弟的铺位了。但是其实我并不想睡那，不喜欢上下铺，还是喜欢自己睡一张床，尽管是住在阳台。</p>
+<h4 id="至少在吃的问题上，要对自己好一点"><a href="#至少在吃的问题上，要对自己好一点" class="headerlink" title="至少在吃的问题上，要对自己好一点"></a>至少在吃的问题上，要对自己好一点</h4><p>大润发超市做促销，是以两周（14天）作为一个周期的，而我们当时的书展是举办了两个周期，也就是28天，因此我实际上是在佳木斯待了29天（我是提前一天到的）。大润发超市每天大概八点半开门，晚上十点关门，这13个半小时里面，我需要一直看着场子，也没有去吃饭的时间（其实也可以去，但是由于我比较负责，就只有在确定不忙的时候才会出门吃饭）。我怕自己饿着，所以早饭必须要吃好。大润发附近有一家肯德基，于是我就在那里吃了28天的肯德基早餐。也就是一个猪柳蛋汉堡、一杯咖啡和一碗皮蛋瘦肉粥。当时还新出了一款叫做法风烧饼，我好奇的吃了一个，觉得不好吃，于是也就天天吃猪柳蛋了。这一顿饭大概得花十多块钱，但是能让我吃得很饱，很满足，能给我提供差不多一天的能量。所以其实我在佳木斯的那段日子，吃早饭算是最大的一笔支出了。由于我每天吃的东西都是一样的，使得肯德基的员工都认识我了，我刚到柜台前就知道我要点什么了，笑眯眯地问我今天是不是还是照旧啊，还是要猪柳蛋加咖啡加皮蛋瘦肉粥吧，弄得我挺不好意思的。</p>
+<p>但是一天只吃一顿饭显然是不行的，因此如果遇到时间宽裕的情况，我会在大概下午的时候，出门吃米线，算是晚饭了，也就是说，我一天是吃两顿饭。但是有些时候，我还会去大润发超市里面买一个小比萨饼，不到十块钱，还是挺好吃的。但是如果吃小比萨饼的话，我得换上便装，因为当时有规定，超市员工（尽管我是临时的）不能进超市买东西，也不能在超市吃东西。所以买来披萨，我就找个人少的地方咣咣赶紧吃完，然后回去接着看着书摊。偶尔实在是饿懵了，才会吃三顿饭，除了早餐的肯德基，就是午餐的披萨和晚餐的米线。</p>
+<h4 id="谁说九零后不行呢"><a href="#谁说九零后不行呢" class="headerlink" title="谁说九零后不行呢"></a>谁说九零后不行呢</h4><p>以前人们总说，我们八零后是垮掉的一代。而当我们八零后渐渐 “老去”，九零后横空出世以后，人们又改口说九零后才是真正堕落的一代。其实最开始，尽管我并没有接触过九零后，但是受到这些流言的影响，也先入为主地认为九零后可能真的存在很多问题。这次我来到佳木斯，大润发超市的某个部门经理的儿子刚刚高考完，也没什么事，正好得知我们要办书展，所以也以图书促销员的身份来这里打工，帮我们卖书。见是经理的儿子，又是个九零后，我想当然地认为他是个公子哥，纨绔子弟。所以一开始对他并没有什么好感。</p>
+<p>那个时候他趁着毕业没什么事，就报了一个驾校，他几乎每天上午都要去学车，然后下午才来这里卖书。客观来讲，他的作用也是有限，毕竟卖书也并不需要怎么推销，我们基本上都是守株待兔的。但是他竟然也是兢兢业业，帮忙整理图书，热心的解答顾客的问题（尽管有些问题问得让我们感觉实在是太无奈了）。遇到不会的问题，比如找不到书了，不知道顾客说的是什么书之类的，都会很有礼貌地来问我。另外，他也是没试过每天站这么久，难免站几个小时就累了，由于我见他表现不错，就让他换上便装去休息，我一个人也应付得来。也正是他端正的工作态度，让我对他以及对九零后的感觉来了个一百八十度的大转变。他可能觉得我对他的态度不错，说发了工资一定要请我吃饭，但是我不好意思让他破费。后来也就在我走的那天，一起吃了烤串，不过当时究竟是AA制还是他请的，我记不清了，反正我就觉得他还是很够意思的。可惜的是他不喝酒，整的我也不好意思喝了，没有啤酒的烤串，总觉得吃起来不爽。</p>
+<p>当时，我们卖书也会遇到爱找茬的顾客。你说你想买就买呗，不买拉倒呗，和我们这些卖书的那么较劲干什么呢？幸运的是我并没有遇到这样的，都让九零后碰到了。还以为他会生气和顾客干一架，但是他其实也是耐心地讲解，默默地承受。这就更加让我对这个九零后刮目相看了。不过在别的导购看来，九零后的家庭后台背景很硬，实在不行就报警，吃亏的一定是那个找茬的不知好歹的家伙。</p>
+<p>那时我在向老师汇报工作时，重点提到了九零后，也是盛赞了他的工作态度，老师还说如果他真的是个人才，不妨挖过来。可是我觉得，我们的庙实在是太小，可别耽误了人家的前程。当时我还建议应该给他涨工资，这个建议最后也是生效了，最后好像是多给了他100块钱。</p>
+<h3 id="中篇"><a href="#中篇" class="headerlink" title="中篇"></a>中篇</h3><h4 id="超市，也是个包罗万象的小社会"><a href="#超市，也是个包罗万象的小社会" class="headerlink" title="超市，也是个包罗万象的小社会"></a>超市，也是个包罗万象的小社会</h4><p>其实我在佳木斯大润发的这将近一个月的时间，还是遇到了很多的人和事的。由于整个书展基本就是我自己负责，因此我每天都需要第一个去，甚至有些时候比图书区的导购去得还早。但是去得再早，我也只能够在八点半超市开门的时候进去（好像也有小门，允许员工先进去，但是我没试过，依旧每天走大门）。每天提前到，免不了需要等待，没记错的话，这个等待的时间，大润发会放一些音乐，然后就会有个别的大妈在大润发门口的广场翩翩起舞了。但是这些都是个人的行为，如果放到今天，那就是广场舞，估计这就是佳木斯广场舞的雏形吧。</p>
+<p>另外，每天都会有很多的大爷大妈，在超市没开门的时候就聚集在门口。等到超市开门，就一窝蜂地涌进去。最开始我并没有理解他们的这种行为，后来问了别人才知道，原来每天早上都会有一些特价的食品或者食材（好像是前一天剩下来的），他们争先恐后地挤进去就是为了尽快抢到这些东西。其实人上了年纪往往都会这样，我的一个亲戚也是如此。只是她的话每次买便宜的东西，都会恨不得全都包下来，搞的大家根本就吃不了，最后只能烂掉。因此大家买东西之前，一定要考虑好，一定要量力而行。</p>
+<p>听导购说，有几个老面孔可以说是以超市为家的，吃超市的喝超市的用超市的，只是不住在超市。也就是说她们其实是小偷。尽管我每天待在超市门口，并没有亲眼见到她们偷东西，但是她们也确实是常客，来的次数多了，让我也觉得脸熟了。她们的行为也确实可疑。比如一个母亲带着自己的女儿，一般就会让女儿在我们这里看书，她妈妈就进超市了，不一会就推着车出来了，看来 “买了”一些东西。和女儿说几句话，自己又进超市了，然后又“买了”点东西。我并不知道她真的是买的还是偷的，反正大家都说她在偷东西。这个我也管不着，我只负责图书这块，我只要看好这个小小的区域就够了。</p>
+<p>因为我们办书展是在超市门口，并不是超市里面，因此超市为我专门配了一个收银员。这个月里面，超市的收银员会轮流过来，所以我也是混得脸熟。因此有些时候也会顺水推舟做个人情，比如说某个收银员相中了一本书，想要买，一般我都直接送给她们了，不要钱。毕竟这里是我说的算，也没必要计较这些东西。这些书本来就属于促销，没有数目，也没有录入系统，因此还不如让我做个人情呢。当然，书不单单会送给收银员。超市保洁阿姨的老公，每天在超市快要打烊的时候，就会来超市门口等老婆下班，久而久之，我俩也就熟了，他没事会来看看书，偶尔也会相中几本书，这种情况我也是直接让他拿走了。有时，我会自己掏腰包把钱补上，也算是在其中平衡一下吧。</p>
+<h4 id="我也会被感动"><a href="#我也会被感动" class="headerlink" title="我也会被感动"></a>我也会被感动</h4><p>上文说了，小偷是熟面孔，但是其实还有一个老大爷和一个老太太，也是会天天出现在超市的。其中那个大爷眼睛不好，那个大妈是个哑巴，听超市的人说，他俩其实是两夫妻。这两夫妻应该也是靠着超市过活的，但是并不是偷东西，而是通过捡废品卖废品来养活自己。其中的大妈还是比较积极收废品的，但是大爷往往并不积极。他俩主要是看着超市附近的垃圾箱，毕竟佳木斯的这个大润发超市，也是人流非常密集的地方了，每天来往的顾客不计其数。因为这个地下一层不单单有超市，还有很多小铺子和门市，各种品类的商品也是应有尽有。当时我甚至感觉，估计整个佳木斯的人，都来这里逛街了。客流量是可以保证垃圾的数量的，像是废纸饮料瓶之类的，每天都少不了。加上超市在进货的时候，包装箱也是不少的。而佳木斯的消费水平也不高，因此我觉得他俩靠这个过活，应该也还是可以的。有时候如果有别人想捡垃圾箱里面的瓶子，大妈也会比划着把他们赶走，绝对不允许自己的领地被侵占。</p>
+<p>我每天在超市门口站着，免不了口渴。那个时候我也并没有准备水杯之类，因此渴的时候，就会进超市喝免费的饮水机的水或者买饮料了。喝剩下的水瓶，我一般都会扔到垃圾桶里面，如果见到大妈在那里守着，我就直接把瓶子交到大妈的手里了。或者我发现有顾客来到我们这里看书，随手把喝完的瓶子扔在这，我也会把瓶子拿去给大妈。每当这个时候，大妈都会回以微笑，有时还竖起大拇指称赞我。当时我觉得也没什么，举手之劳而已。后来有一天，大妈来到我这里，给了我一盒洗得干干净净的，不知道叫什么的小果子，从她的表达上来看，估计是为了感谢我。其实我也挺不好意思的，但是最后也收下了，那小果子味道不错。尽管我至今也不知道那个小果子叫什么，但是那个大妈，还是让我挺感动的。</p>
+<h4 id="应聘超市经理"><a href="#应聘超市经理" class="headerlink" title="应聘超市经理"></a>应聘超市经理</h4><p>上一章说过，由于种种原因，坚定了我离职的决心。此时正巧赶上大润发超市招聘品类主管以及经理，主管薪酬1500，经理薪酬3000（也好像是4000），看到这个待遇，我心里面感觉痒痒的，想要去试一试，但是也在考虑究竟是要投哪个职位。即便是品类主管的薪酬，也比当时的我高了，但是考虑到并没有高出太多，因此我就决定投经理这个职位。</p>
+<p>没记错的话，我先是去人资那里填了应聘登记表，然后就继续去卖书等消息了。没过多久，我就被通知去参加笔试了。首先是心理测试，一张试卷，要求依照自己的真实想法第一感觉来选择答案，从而评估应聘者的心理状态。以前没接触过大企业，所以不知道别的企业是怎么招聘的，但是今天的话，企业招聘或者员工入职，甚至是大学，也会定期或者不定期地举办这种测试活动。因此当时我就觉得大润发超市还是非常正规的，整个管理体系也是非常的完善。心理测试结束后，立刻进行的是智商测试。其实智商测试我很早就接触过，之前在网上也做过不少这类的题目，所以我觉得这些题目也都难不住我，当然了，有不少答案也都是瞎猜的。</p>
+<p>笔试过后没几天，我就接到人事的电话，被叫去参加面试了。当时感觉挺兴奋的，因为一直都还挺顺利，觉得自己离月薪3000的日子不远了。尽管如果真的应聘成功了，就需要留在佳木斯，但是心想只要钱多，留就留呗。我当时还在想，要是真的留在佳木斯了，那我是不是还要继续住在房东老太太哪里呢？为了竞争经理这个职位，当时的面试是以四人一组进行的，面试官包括超市的总经理以及下属大概三个经理。由于我当时的面试顺序是排在第一位，所以我就认为我的笔试成绩估计就是第一。面试其实非常简单，不过是简单的自我介绍，随便聊一聊而已。当时我说其实我能来到佳木斯，纯属偶然，我被派到这里做图书促销，看到了招聘信息，所以打算试一下，也希望能够应聘上经理这个职位，努力打拼，开创自己的天地。大概的意思就是这样。但是当时超市的总经理仅仅是听着，并没有提问，所以从他的表情上，也看不出他对我们的态度究竟是怎样。整个面试也没持续多久，就让我们先回去了。又过了几天，人资给我打电话，说我没能通过面试。当时听到这个消息，我心里其实也没有多少的感想，就觉得这一切都在情理之中，超市不可能聘用我这个刚毕业的大学生来当经理的。毕竟我当时也仅仅是抱着试一试赌一把的心态，既然没通过，那么愿赌服输，因此也不会有多失落。后来想想，如果我面试的是品类主管，也许成功的机率就会大一些。过了一段时间，我看到超市来了不少实习生，类似于管理培训生那种吧，每天穿着白衬衣黑西裤，由各个经理带着在超市里面到处逛。导购告诉我，他们都是大学生，在这里是储备干部。他们每天也是在超市里面有说有笑的，说实话，当时我真的蛮羡慕他们的。</p>
+<p>尽管面试失败，但是我当时觉得我还是有很多话想对总经理说的。我说有很多话想说，并不是因为面试失败想要骂他，而是我毕竟是营销出身，对于整个超市的运营管理，我想说说自己的看法。由于房东那里没有桌子，我就只能去肯德基写。记得我当时大概写了满满三张的A4纸（也好像是两张），其主要的内容首先就是感谢能提供面试的机会，接下来夸赞了一下超市的各项管理运营工作很完善，不愧是大企业（确实很完善，时至今日我依然这么觉得），之后我就对我发现的一些问题说了自己的看法。尽管我现在已经忘记了当时所写的具体内容，但是我今天依旧觉得写得不错，确实是科班写出来的东西，对得起我每月一千多的身价。当时超市有一个总经理信箱（是真的信箱，不是E-mail），供大家提意见，于是我就把我的总结报告投了进去。觉得总经理看了我写的内容，也许会重新考虑我的职位申请。不过到最后也没有回复，我真的就很想知道，究竟总经理有没有看到我写的报告，如果看到了，有什么想法呢？</p>
+<p>我那批参加面试的人最后有没有人通过面试成为经理，我就不知道了。后来没过几天，超市又在门口竖起了大牌子招聘品类主管，犹豫了一下，考虑要不要重新应聘一下主管职位，工资1500就1500吧，也挺好。但最后还是放弃了，不再投了。因为我觉得他们短期内不会考虑一个刚刚被刷下来的人，于是也就不了了之了。</p>
+<h4 id="佳木斯，民风彪悍"><a href="#佳木斯，民风彪悍" class="headerlink" title="佳木斯，民风彪悍"></a>佳木斯，民风彪悍</h4><p>这里我起这个标题，实在是鼓足了勇气的。生怕诸位看官中有佳木斯的朋友，怕被误会，以为我在贬低佳木斯。这里也请大家不要先入为主，毕竟我也仅仅是讲述我的个人经历，仅限于我在大润发超市门口的所见所闻。</p>
+<p>毕竟是一家超市，很多时候为了避免误会，往往是不允许顾客自带饮品进入超市的。而为了解决顾客在逛的过程中遇到口渴的情况，超市内部就设置了饮水区，有饮水机供大家随便喝水。但是即便有这么便民的设施，依旧会遇到那些对此不理解的顾客，一定要带自己的饮用水进入超市，凭什么听超市的呢？你不让我进，我非要进。而超市门口的保安就是管这个的，记得当时有两个保安让我印象比较深刻。一个是又黑又壮，看起来可能会比较凶悍，但是面对顾客也都是彬彬有礼的，遇到胡搅蛮缠的，也会耐心讲道理，估计顾客看到他这样的也不敢闹事。还有一个是挺高的，偏瘦戴眼镜，感觉他在大润发超市当保安实在是太苦逼了。一次一个长得又高又壮，推着婴儿车的女顾客不知道怎么回事，就和眼镜小哥吵起来了，眼镜小哥不让她进去，她非要进，一下子就惹火了那个女顾客。扬起胳膊拿起包，就对他一顿暴打（另一只手扶着婴儿车），边打还边大声骂，抓得他的脸也是一道一道的。可惜当时不流行用手机拍摄，也就没保留下这个珍贵的画面。那个小哥被打得只有招架之功，然后那个母夜叉就骂骂咧咧地走了，不知道去了哪个超市接着买东西。但是眼镜小哥不肯罢休，觉得自己不能被女人打，扶正了眼镜，卸了领带要追过去报复，但还好被别人拉住了。想想毕竟母老虎单手就把小哥制住了，这要是两只手都腾出来，小哥可能就被打趴下了。而且我也感觉，培养彪悍的民风，看来也需要以身作则，从娃娃抓起啊。</p>
+<p>也还是这个小哥，我忘了具体是什么事情了，反正估计又是遇到流氓了吧，被三五个人直接追着打，他也就只有逃跑的份，超市门口俨然一部警匪大片。我就实在是不理解，超市保安又不是针对大家，怎么就会有那么多好斗的顾客呢？而且我也仅仅待了28天而已，就大概遇到了三次这种冲突。当然也会遇到动口不动手的“君子”，这种人就更多了。因此我用“民风彪悍”这个词作为形容，感觉并不过分。</p>
+<p>当然，别的地方也会有很多的暴徒，这些事情在今天在网络上也是屡见不鲜了。但是在那之前，我对于在超市因为鸡毛蒜皮的小事而大打出手的事情真的是闻所未闻，因此觉得来到这里，绝对是丰富了我的见识。</p>
+<h3 id="下篇"><a href="#下篇" class="headerlink" title="下篇"></a>下篇</h3><h4 id="讲讲书展的情况"><a href="#讲讲书展的情况" class="headerlink" title="讲讲书展的情况"></a>讲讲书展的情况</h4><p>上面说了这么多的题外话，现在是时候聊聊书展到底卖得怎么样了。听这里的促销员说，以前办书展，每天大概也就只能卖一千多块钱，只有在特别好的时候，能够达到两千多。看起来销售额确实挺少的，但是其实也是挺合理的。一方面之前也说了，看书的人相对少了，而另一方面，书展卖的图书都是属于廉价促销类的，一本书大概以十块二十块钱的居多。比如养生保健，四大名著，世界文学等。一本书就很便宜，加上卖得少，每天的销售额自然就不高。那么我们的利润自然也就很低。所以说，对于这次的书展，其实大家并没有抱多大的希望，只是例行公事而已。</p>
+<p>不过这次的书展和以往相比多多少少还是有些不同的。对于佳木斯来说，上次只有一张大桌，用于图书的陈设。而这次场地有所扩大，一共有两张长桌来展示图书。因此我们可以展出更多种类，更多数量的图书，这样消费者就可以有更多的选择空间了。而我当时的工作就是负责给消费者答疑并进行推荐，调整陈列，上货补货等等，其实工作还是比较简单的。由于我之前就在库房和店面干活，所以对于我们图书的品类还是非常了解的。如果有顾客请求推荐，我往往能够非常快速地找到符合他口味的图书。毕竟陈列也是我负责，因此我自然对每本书的摆放位置了如指掌。这就会大大地节省了顾客的等待时间，也会增加顾客对于书展乃至我个人的好感度，这就非常有利于图书的销售。</p>
+<p>说到要对图书熟悉，我想起来在我还差三个月毕业的时候，还在店面上班时，当时我们老师和几位经理拍脑袋想出一个奖惩办法。那就是对店面以及库房的员工，每月都会进行考核。考核的内容有两项，一项是根据书单在库房或者店面找书，以考察大家对于图书摆放位置的熟悉程度。因为店面以及库房往往需要根据客户的要求进行配货，有时候可能一天要配很多货，配完货就要打包发走，因此很多时候时间还是很紧的。正是由于这个原因，我们需要保证配货的速度。当时有的员工由于没事就会整理整理图书，擦一擦灰，挪一挪位置，所以自然很清楚每本书的摆放位置，因此这项考试对于他们来说并不困难。其实按道理来说，这项考试并不难，因为大家尽管并不是全都会去整理图书，但是毕竟整天在库房或者店面转悠，加上日常配货的需要，因此查找常见的图书也都是不在话下的。可是，每次考试出题的都是那个挨千刀的货品（进货）经理，她每次都是在数据库中查找多年卖不出去或者只剩下一两本的图书来让我们找，我认为她这纯粹就是在找茬，秀优越感，营造一种高高在上的感觉，这就弄得我很不爽了，毕竟老师的出发点是好的，但却被别有用心的人利用了。所以每次考核，我基本都会在这项上吃大亏（十本书，我往往只能找到不到一半）。</p>
+<p>而另一项考核则是笔试。比如会考某类图书是哪个出版社的，进货时是几折等等这一类的问题。这种问题其实我也是挺吃亏的，因为除了对业务比较熟悉的经理，我们这些小兵平时也接触不到这些信息，除非是那些老员工，也许能略知一二。所以每次的考核，我这两项的综合成绩都是排名倒数，这样的话每个月的工资都会扣掉五十，一百的。想想那时我的工资也就一千出头，扣掉我十分之一，确实是大出血。而我们这些吊车尾所扣掉的钱，会补充给成绩优异的员工，作为奖励。这里说到这个笔试，我其实还是希望老师能够考察一些真正与实际业务相关的问题的。为什么这么说呢，比如在店面的时候，有的顾客进门问我们有没有《乱世佳人》这本名著，大家全都没听说过，毕竟确实没有这本书。但是我立刻就反应过来了，其实这个顾客想要找的是《飘》。《乱世佳人》是《飘》改编成电影的名字。还遇到一个顾客，说要找《老子》，大家也说没有，但是我又反应过来了，其实这个顾客想要找的是《道德经》。其实这就是基本的文化知识，如果不懂的话，是会影响我们的销售的。这件事让老师知道了，我原以为她会把这些东西归纳总结，让大家学习，没想到反而又让她找到教训我的理由，认为我故作清高，肚子里有知识却不告诉大家。我简直是冤死，我怎么知道大家不知道这些，我还以为这都是常识，既然来卖书，必须要晓得啊。最重要的是，我也仅仅是在遇到了这种情况的时候，才会想起来这些书的别名，让我凭空想象，究竟哪些书有别名哪些书没有别名，然后告诉大家，对我来说实在是太困难了吧。</p>
+<p>回到书展的话题。当时是需要定期做工作汇报的，我为了凑报告字数，还说现在终于体会到了老师推出考核机制的良苦用心，正是由于我现在对图书各方面很熟悉，就很有助于销售（其实这也是实在不知道该说些什么了，恭维一下而已）。然后老师也回复道，她见我能有这样的觉悟还是非常欣慰的，因此考核机制还是要继续进行下去的。</p>
+<h4 id="姜在外，君命有所不受"><a href="#姜在外，君命有所不受" class="headerlink" title="姜在外，君命有所不受"></a>姜在外，君命有所不受</h4><p>当时每天站13个半小时，确实是久了一些，导致我那段时间不曾失眠，累得躺床上发完当日销售额就睡着了（尽管平时也基本不会失眠）。起初，大概是书展最开始的两周，我每天精力都很充沛，天天站着也不会觉得特别累。但是第三周就觉得自己有点顶不住了，于是，感觉累了就直接换上便服到长凳上坐一会。但是第四周也就是最后一周，我就又恢复了精力，如同回光返照，神勇得站一整天也不觉得辛苦，当时毕竟很年轻，我的体力还是挺不错的。</p>
+<p>我们的图书促销区，每天都会聚集很多的人，火的时候如果用一句成语来形容，那就是水泄不通，再用一句成语，那就是人头攒动。大家有事没事，想买不想买，都会来这里看书，很多人其实只是为了等人，打发时间才来我们这里看书的。但是不论是买书还是不买书，我其实都是一视同仁的，都会耐心地解答大家的问题。除非遇到那种实在是太墨迹的，我也会失去耐心。正是基于这强大的客流，于是也就保证了图书的销售。好像第一天的销售额就差不多三千，一下子就超越了以往的最高销售额。之后的销售额也如芝麻开花节节高，不敢说每天都有增长，但是基本都会稳定在三千多，最多的一次大概达到了三千七的样子。</p>
+<p>每天打烊后，需要将当天的销售额统计汇总，上报给我们公司负责超市事务的经理。按道理，举办书展的三个地方的销售额每天都需要进行排名。但是第一天我们佳木斯的销售额就把经理给震住了，她再三和我以及这里的图书导购确认，这个数据到底是促销图书销售额，还是加上了超市内图书区的销售数据。毕竟我这里的销售额高得超出了她的认知。然后她就很不情愿地，发了几次排名，每天都是我排第一，她排第二，我那个同学第三。后来她觉得不好意思还是怎么的，就不再发排名了。直到有一天，我这里的销售额不知怎的才两千多，她那里破天荒地达到了三千出头，于是座次排名重现江湖。第二天恢复正常，就又不排名了，这里的道理大家都懂的。于是，之后也就不再排名了。这个时候，我感觉自己真的是公司的福将，把销售数据带到了历史最高位，虽说我在这里面起到的作用并不大，但不可否认的是，运气也是实力的一部分，我可谓将这点展现得淋漓尽致。</p>
+<p>这里需要特别强调的是书展举办的第三周。其实那个时候销售的热度已经开始下降了，之前销售的那些种类的书，已经达到了饱和的状态，因此急需一些新书来补充。而在这个时候，确实来了一批新书，拯救了我们的销售额。不知道这是谁的决策，值得表扬。在这批新书中，大概有四箱左右吧，是那种精装八开本的，我国古典的名著。比如三十六计与孙子兵法的解读、四大名著等。这一套书装订设计十分精美，即便不看，也可以放在书柜里面作为装饰，极富高档感。当时我一看就非常喜欢，也将这套书放在了最显眼的位置。这套书一本的标价是1200（也不知道为什么这么贵，尽管确实很精美），但是我们不可能卖这个价钱，当时公司负责超市事务的经理，让我们卖105块钱一本，我觉得这个价位也还可以，相当于是一折不到。但是即便是打了这么多的折扣，价格相对于其它书来说还是贵了，因此能不能卖得好我心里也是没底，甚至还觉得这四箱书（大概三十几本）可能到书展结束也卖不掉了。</p>
+<p>但是令我万万没想到的是，这套书卖得还真是不错，当时每天能卖出差不多十本吧，那么这就是一千块钱的销售额。偶尔遇到土豪，每样来一本，一口气就花了好几百块钱。我也终于领悟到，还是大单卖起来比较过瘾。尽管这些销售额并不会直接进入我的腰包，但是想想自己能够为公司带来利润的增长，心里还是挺开心的，我也觉的这是一个销售人员所必备的心态。于是这就很大地缓解了我们图书促销后劲不足的问题，使得我们每天的销售额依旧可以达到三千多。卖了几天发现势头不错，于是也要求公司赶快补货。其实另外两个地方卖得也还可以，但是始终没有佳木斯这里卖得好，他们都不太敢去要货，甚至还想把他们卖不掉的书调来我这里。</p>
+<p>此时，我觉得一本书卖105块钱有些低了，因为我坚信，如果我涨价的话，是不会影响销量的，而且涨价还会带来更多的销售额。于是我就把涨价的想法打电话和公司主管超市的经理说了，也和佳木斯这边的导购说了。经理当时犹豫了几秒，估计没想到我会提出这样的要求，最后还是不同意我涨价。我当时就想，她一定是怕我涨价后，每天的销售额更多，更把她给比下去了，所以不同意涨价。而不是考虑到涨价可能会影响销售。当时包括导购在内，也是觉得不应该涨价。但是毕竟是导购，我没必要听她的，我在这里就是我说了算。因此，当时我考虑的事情是究竟应该把价格调整到多少钱比较合适。我最开始想到的是两百，别看价格几乎翻了一倍，但是我依旧认为这是一个合理的价格，而且一旦真的调整为两百，那就会大大地增加销售额了。但是我后来再三思量，始终没有那个勇气，毕竟提价那么多，实在是有很大的风险。于是我就把价格调整到了120块钱一本，正好是一折。为什么我把定价设定为一折呢？这是因为之前有顾客问我，每本书相当于是几折，我说零点几折吧。说得他一愣，似乎从来没听说过零点几折的情况，因此我为了便于推销，就直接设定为一折了。</p>
+<p>我调整价格这件事并没有告诉主管超市的经理（她至今应该也不知道），我也没必要跟她多费口舌，山高皇帝远，姜在外，谁的命令我都不会听的。毕竟我身处销售第一线，我比任何人都清楚实际情况，她们只会纸上谈兵瞎指挥，凭什么听她们的？我的目的只有一个，那就是为公司创造更大的利润（尽管每本书仅仅多挣了15块钱）。而且，这种涨价我并没觉得有什么不好，顶多会遭到顾客的投诉，质问我们为什么涨价之类。但是后来也没遇到这种情况，而我今天把这件事说出来，难道当年的顾客们还要来找我或者找超市的麻烦不成？当然我心里面也很清楚，假设我手下有我这样的员工，估计我会毫不犹豫地把他给开除掉，这种不听领导话的员工，即便最后通过实际销量证明提价确实不影响销售，但是自作主张的这种行为，相信没人会喜欢的。当然作为领导，也应当要有前瞻性的眼光，万万不可以迷信自己的经验而裹足不前，否则迟早会被更加强大的竞争对手所打败。当然了，图书批发行业应该没什么高手，所以即便保守，也不必担心明天会吃不到饭。</p>
+<p>实践出真知，我的提价行为并没影响销售，在与顾客的交流过程中，他们也觉得120块钱可以接受。由此我就很后悔，当时真的应该把价格调整到200块钱一本的（至少也应该调整到150）。因为一本书仅仅多挣15块钱也是不痛不痒的，也不能够对销售额产生多大的影响。很想尝试一下我的眼光，我觉得自己在营销这方面还是很有天赋的。可惜已经到了书展的末期，没卖多久，我们的暑期促销就结束了。我的很多豪情壮志就没办法再实现了，突然感觉英雄无用武之地，没办法看到继续提价的后果了（比如涨到200块钱一本）。其实从这个角度来看，商战，还是挺有意思的，我至今依旧怀念那段时光。</p>
+<h4 id="毅然决然地离职"><a href="#毅然决然地离职" class="headerlink" title="毅然决然地离职"></a>毅然决然地离职</h4><p>整个图书促销的最后那两三天，销售情况就明显不行了，其实这都属于正常情况。我也该准备回长春了。也就是在我回长春的前一天晚上，我觉得该和老师摊牌了。我给老师发短信说，老师我从佳木斯回到长春以后，我就不想干了，也请您理解。老师给我回信息说，你不能搞突然袭击，你还需要回长春交接，过一段时间才能走。我回复到，老师，我和您的公司没有签署过任何协议，所以公司对我并没有什么约束力，而且，你说需要交接工作，其实我觉得根本就没必要，一方面我在长春的时候，每天在店面也没什么事，顶多打打电话告诉客户已经发货了。另一方面·，我离开长春已经差不多一个月，那么我不在的这段时间，我之前的工作都是谁做的呢？不论有人还是没人做，貌似也没有影响到公司的运营吧，所以我并不认为需要交接。</p>
+<p>当我把这些话告诉老师后，她就没有再回复我了，时至今日，也没有任何联系。因此我也并不知道她对我究竟是不是真的无话可说，没必要再回复我了（在我入职卡巴斯基后，有一次我回长春过年，在飞机上没看错的话，老师应该就是坐在我的斜后方。我看见她了，但是她应该没看见我。从说话的口音还有容貌上来看，我觉得就是老师，她已经剪成了短发，其它的似乎都没变。全程我都没好意思打招呼，于是就错过了那难得的邂逅机会，现在想想，确实非常遗憾）。离开佳木斯那天，我和九零后的小兄弟吃完烤串以后，也就直奔火车站了，同样坐的是晚上的火车。第二天一早，就回到了长春，然后我就立刻找了一个小面包车，把我放在住处的东西搬走了，这里确实让我住得很不舒服，就想赶紧离开。</p>
+<p>尽管是突然离职的，但是我在佳木斯这一个月的工资还是要给我结算的。不过去佳木斯之前，我记得没人和我说会依照销售情况给予一定的奖金提成，但是在佳木斯的时候，老师好像提到过一次，说会给我们提成，但是也不确定。所以我感觉那个月应该也还是一千多的工资吧。后来大概过了一个多月吧（也好像是两个月，总之时间不短），公司给我打了两千块钱，这确实是超出了我的预期。毕竟我从来就没有拿过这么多钱，而且我之前也说了，即便是经理，也不见得能拿两千的工资。因此这是第一次，也是最后一次，公司做的让我感觉比较满意的事情。但是这是我应得的，无可厚非。</p>
+<h3 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h3><p>至此，我就彻底结束了我的卖书生涯，估计我以后也不可能再重操旧业了。其实大家也能看出来，对于老师的企业，我表达了很多的不满，这些不满并不是我矫情，无中生有，而是有理有据，换作是谁都会觉得不爽的。</p>
+<p>说到这里，可能大家会有疑问，既然我的第一份工作是卖书，那故事的标题为什么不是从卖书到卡巴斯基呢？这是因为考虑到卖书并不是一个正儿八经的工作，连劳动合同也没有，更别提五险一金了。而直到我入职苏宁，这一切才有所改善，因此苏宁才是我第一份正式的工作，而且在苏宁的日子，也是给我留下了极为深刻的印象，也是有非常多的故事来与大家分享的。而我到目前为止已经啰嗦了几万字，也没提到苏宁，也许有些朋友该急了，看了大半天也没说到点子上，觉得有离题的嫌疑。不过没关系，我距离苏宁已经越来越近，接下来的故事也会更加地精彩有趣。</p>
+]]></content>
+      <categories>
+        <category>姜晔传 (The Autobiography of Jiangye)</category>
+      </categories>
+      <tags>
+        <tag>Story</tag>
+        <tag>Reprint</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>从苏宁电器到卡巴斯基--我与卡巴斯基的邂逅</title>
     <url>/archives/392ae7ba.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师与病毒的故事以及与卡巴斯基的邂逅。</p>
@@ -14587,73 +14662,6 @@
 </blockquote>
 <p>确实，千秋功过，任人评说，只求努力，问心无愧。从2005年到2016年，第一个字到最后一句话，时间跨度长达十一年，回首过往，如同昨日，每件事都是那么的熟悉，却又那么的遥远，一去不复返。这看似很漫长的十一年，是我这辈子的一段神奇的旅程，感谢上苍能够给我这样的机会，让我的人生不至于索然无味。这段旅程，也终将被忠实地记录下来。清风不识字，何必乱翻书？人生的喜怒哀乐落于纸上，被风儿吹乱，在我心中却是充满了诗情与画意。前路漫漫，充满挑战，对于未知的一切，我心中充满了好奇，也许在并不久远的未来，会再与大家分享吧。</p>
 <p>最后我想说的是，不论我与卡巴斯基以后会怎样，不论我未来路在何方，我今天能够入职卡巴斯基，成为卡巴斯基实验室的一名病毒分析师，这终将会成为我这辈子永远的骄傲。</p>
-]]></content>
-      <categories>
-        <category>姜晔传 (The Autobiography of Jiangye)</category>
-      </categories>
-      <tags>
-        <tag>Story</tag>
-        <tag>Reprint</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>从苏宁电器到卡巴斯基--我在佳木斯的日子</title>
-    <url>/archives/c2bd3756.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师协助书馆前往佳木斯的日子。</p>
-<span id="more"></span>
-
-
-
-
-
-<h3 id="上篇"><a href="#上篇" class="headerlink" title="上篇"></a>上篇</h3><h4 id="先来陈述一下背景"><a href="#先来陈述一下背景" class="headerlink" title="先来陈述一下背景"></a>先来陈述一下背景</h4><p>自从我们老师与超市展开合作以来（其实也没合作几年），差不多每年的七月份左右，都会和超市举办书展，算是图书促销，我毕业那年（2009年）也不例外。正好我是六月末毕业离开学校的，而那年的书展就定在了七月初开始举办。而我那年应该是规模最大的一次图书促销了，一共涉及三个城市的三家大润发超市。因此公司这边自然也得派三个人去监督。</p>
-<p>负责超市事务的经理去了吉林市（离长春最近的地方），我被派往去了佳木斯市（还是第一次去黑龙江，到了比长春还北的城市），而我的那个同学去了齐齐哈尔（其实他具体去哪我记不清了，不过这不重要了）。从以往的销售情况来看，每次举办的书展其实也挣不到多少钱，销售情况也是挺一般的。尽管有打肿脸充胖子的嫌疑，但是既然超市允许我们办书展，当然不能错过这个机会，也算是薄利多销，推广自己的品牌了。</p>
-<p>一个人去陌生的佳木斯，其实还是非常忐忑的，但是既然把我推到了这个位置，行不行都得去了，感觉至少要比憋在店面，住在老师那里好吧，毕竟在店面我也不知道该怎么维护客户关系或者拓展客户，到佳木斯，也就相当于是去度假了。</p>
-<p>于是，就在对前路的迷茫中，我踏上了开往佳木斯的火车。还记得那是晚上，硬卧，睡一宿，第二天一早就到了佳木斯火车站。我打车来到大润发超市，直接到图书专区找导购和我接头。当时见到大润发，我还是挺喜欢这种设计的，它在地面上是一个玻璃建筑，相当于是一楼，这里会有些小商铺卖一些小饰品之类。然后需要乘扶梯到地下，才来到超市的门口。到时候会在这个门口划出一片区域来给我们办书展。其实图书专区的导购不属于大润发，而是和我们公司签合同，由我们公司负责给导购开工资。当时大润发一共是有两个图书导购，负责进货、退货、陈列等工作。其实她们也还是蛮辛苦的，并且薪酬也是很低（没记错的话，一个月大概是900块钱）。由于当时大润发超市并不仅仅进我们一家的图书，另外还有一家供书商，但是由于他们的货少，就没派导购过来，因此关于他们的图书管理事宜，也是由我们这边的两个导购负责的。</p>
-<h4 id="要我住这里？逗我呢吧"><a href="#要我住这里？逗我呢吧" class="headerlink" title="要我住这里？逗我呢吧"></a>要我住这里？逗我呢吧</h4><p>我和导购见了面，她们首要的任务就是给我安排住宿的地方，毕竟我要在佳木斯待差不多一个月的时间，需要先把我安顿好，然后才能准备第二天书展的事情。本着就近以及便宜的原则，导购把我带到了距离超市步行大概五分钟的一处民宅。路上还一直跟我解释，说房子实在是不好找，也不能住太贵的，于是就给我找了这个地方，住一个月大概是三百多（也好像是两百多，记不清了，是公司帮我掏的钱）。房东是一个老太太，也住在这个房子里。这是一个两居室的房子，两间卧室里面，每间都摆了大概三张上下铺的铁床。房东和我说她的房子里面住的都是在佳木斯上班的小伙，都是年轻人，让大家好好相处。也带我参观了一下各个卧室。其实我至今也是挺不理解的，既然是来到异地打拼，为什么不选择北上广这种一线城市，或者去二线城市也行啊，为什么要做一个“佳漂”呢？也不见得这里的待遇有多么的好吧。难道说他们的工作也类似于像可口可乐驻梨树（或者是榆树）的业务员那样？看来也就只有这种解释才能说得通了。</p>
-<p>接下来，房东话锋一转，和我说，我并不是住在卧室里，而是把我领到了阳台，就让我住在阳台了，而阳台算上我在内，竟然住了两个人！房东还真是会在有限的空间内创造最大的利润。不过在阳台上，并不是上下铺那种，而是两张折叠床。由于阳台上也是放了房东的一些日常用品食品之类（比如大米白面豆油），因此为了不影响她取东西，每天白天我去超市上班之后，她就会把折叠床收起来放到一边，等到晚上我下班了，再把床给我架好。房东尽管满头白发，但是天天帮我这么收床支床，看来身体也是不错的。</p>
-<p>对于住在阳台这件事，该怎么讲呢，还好当时是七月份，正值夏天，加上佳木斯又处于我国比较北的地方，因此睡在阳台不冷也不热，温度还是非常适宜的。另外，我感觉自己还是比较能吃苦的，让我住在阳台，那就住吧，尽管心里其实也是老大的不愿意。因为如果可以的话，我当然还是希望能自己一个人住（一人一个房间），多花点钱其实也没关系，我也愿意自掏腰包多出点钱。但可惜的是这件事也由不得我做主，钱都已经交了，本来想着自己再贴钱住好点的地方也是不可能的了。也正是由于这个原因，尽管这一个月我是可以休息几天的（每周有一天的休息），但是想到即便是休息，自己也没地方去，回到住的地方也是大眼瞪小眼，因此我是一天都没有休息。还记得当时我还带了一本政治红宝书，是打算考研复习用的，但是至始至终也都没啥机会看。</p>
-<p>这里既然提到了租房，其实即便是到了今天我也觉的，假设每月的开支是一个固定的数字的话，那么我更愿意把多数钱投入到租房子上，租一个环境好，主要是个人空间独立性比较好的房子，而在吃饭和购买生活用品上面，我宁可省点钱。比如我后来在北京工作，住宿最基本的要求就是必须要有独立卫浴，房间小点也没有关系。而现在深受大家欢迎的酒店式公寓，就很满足我的要求了。</p>
-<p>言归正传，在佳木斯的时候，房东那里是不能洗澡的，所以要洗澡的话我只能去公共浴池。由于下班太晚，所以只能早上早点起来去洗澡。那个时候的公共浴池其实也能提供住宿，相比而言，我觉得住在浴池要比住在房东这里好，尽管租金大概要贵至少两百块钱，但是住得好一点，一定能够让我以更加饱满的热情去上班。在佳木斯近一个月的时间里面，大概有两三天吧，住在卧室的一个兄弟好像是出差了还是回家了怎么的，需要离开几天不在这住，正好房东老太太可能也觉得天天这么支床也挺累，于是就让我睡在那个兄弟的铺位了。但是其实我并不想睡那，不喜欢上下铺，还是喜欢自己睡一张床，尽管是住在阳台。</p>
-<h4 id="至少在吃的问题上，要对自己好一点"><a href="#至少在吃的问题上，要对自己好一点" class="headerlink" title="至少在吃的问题上，要对自己好一点"></a>至少在吃的问题上，要对自己好一点</h4><p>大润发超市做促销，是以两周（14天）作为一个周期的，而我们当时的书展是举办了两个周期，也就是28天，因此我实际上是在佳木斯待了29天（我是提前一天到的）。大润发超市每天大概八点半开门，晚上十点关门，这13个半小时里面，我需要一直看着场子，也没有去吃饭的时间（其实也可以去，但是由于我比较负责，就只有在确定不忙的时候才会出门吃饭）。我怕自己饿着，所以早饭必须要吃好。大润发附近有一家肯德基，于是我就在那里吃了28天的肯德基早餐。也就是一个猪柳蛋汉堡、一杯咖啡和一碗皮蛋瘦肉粥。当时还新出了一款叫做法风烧饼，我好奇的吃了一个，觉得不好吃，于是也就天天吃猪柳蛋了。这一顿饭大概得花十多块钱，但是能让我吃得很饱，很满足，能给我提供差不多一天的能量。所以其实我在佳木斯的那段日子，吃早饭算是最大的一笔支出了。由于我每天吃的东西都是一样的，使得肯德基的员工都认识我了，我刚到柜台前就知道我要点什么了，笑眯眯地问我今天是不是还是照旧啊，还是要猪柳蛋加咖啡加皮蛋瘦肉粥吧，弄得我挺不好意思的。</p>
-<p>但是一天只吃一顿饭显然是不行的，因此如果遇到时间宽裕的情况，我会在大概下午的时候，出门吃米线，算是晚饭了，也就是说，我一天是吃两顿饭。但是有些时候，我还会去大润发超市里面买一个小比萨饼，不到十块钱，还是挺好吃的。但是如果吃小比萨饼的话，我得换上便装，因为当时有规定，超市员工（尽管我是临时的）不能进超市买东西，也不能在超市吃东西。所以买来披萨，我就找个人少的地方咣咣赶紧吃完，然后回去接着看着书摊。偶尔实在是饿懵了，才会吃三顿饭，除了早餐的肯德基，就是午餐的披萨和晚餐的米线。</p>
-<h4 id="谁说九零后不行呢"><a href="#谁说九零后不行呢" class="headerlink" title="谁说九零后不行呢"></a>谁说九零后不行呢</h4><p>以前人们总说，我们八零后是垮掉的一代。而当我们八零后渐渐 “老去”，九零后横空出世以后，人们又改口说九零后才是真正堕落的一代。其实最开始，尽管我并没有接触过九零后，但是受到这些流言的影响，也先入为主地认为九零后可能真的存在很多问题。这次我来到佳木斯，大润发超市的某个部门经理的儿子刚刚高考完，也没什么事，正好得知我们要办书展，所以也以图书促销员的身份来这里打工，帮我们卖书。见是经理的儿子，又是个九零后，我想当然地认为他是个公子哥，纨绔子弟。所以一开始对他并没有什么好感。</p>
-<p>那个时候他趁着毕业没什么事，就报了一个驾校，他几乎每天上午都要去学车，然后下午才来这里卖书。客观来讲，他的作用也是有限，毕竟卖书也并不需要怎么推销，我们基本上都是守株待兔的。但是他竟然也是兢兢业业，帮忙整理图书，热心的解答顾客的问题（尽管有些问题问得让我们感觉实在是太无奈了）。遇到不会的问题，比如找不到书了，不知道顾客说的是什么书之类的，都会很有礼貌地来问我。另外，他也是没试过每天站这么久，难免站几个小时就累了，由于我见他表现不错，就让他换上便装去休息，我一个人也应付得来。也正是他端正的工作态度，让我对他以及对九零后的感觉来了个一百八十度的大转变。他可能觉得我对他的态度不错，说发了工资一定要请我吃饭，但是我不好意思让他破费。后来也就在我走的那天，一起吃了烤串，不过当时究竟是AA制还是他请的，我记不清了，反正我就觉得他还是很够意思的。可惜的是他不喝酒，整的我也不好意思喝了，没有啤酒的烤串，总觉得吃起来不爽。</p>
-<p>当时，我们卖书也会遇到爱找茬的顾客。你说你想买就买呗，不买拉倒呗，和我们这些卖书的那么较劲干什么呢？幸运的是我并没有遇到这样的，都让九零后碰到了。还以为他会生气和顾客干一架，但是他其实也是耐心地讲解，默默地承受。这就更加让我对这个九零后刮目相看了。不过在别的导购看来，九零后的家庭后台背景很硬，实在不行就报警，吃亏的一定是那个找茬的不知好歹的家伙。</p>
-<p>那时我在向老师汇报工作时，重点提到了九零后，也是盛赞了他的工作态度，老师还说如果他真的是个人才，不妨挖过来。可是我觉得，我们的庙实在是太小，可别耽误了人家的前程。当时我还建议应该给他涨工资，这个建议最后也是生效了，最后好像是多给了他100块钱。</p>
-<h3 id="中篇"><a href="#中篇" class="headerlink" title="中篇"></a>中篇</h3><h4 id="超市，也是个包罗万象的小社会"><a href="#超市，也是个包罗万象的小社会" class="headerlink" title="超市，也是个包罗万象的小社会"></a>超市，也是个包罗万象的小社会</h4><p>其实我在佳木斯大润发的这将近一个月的时间，还是遇到了很多的人和事的。由于整个书展基本就是我自己负责，因此我每天都需要第一个去，甚至有些时候比图书区的导购去得还早。但是去得再早，我也只能够在八点半超市开门的时候进去（好像也有小门，允许员工先进去，但是我没试过，依旧每天走大门）。每天提前到，免不了需要等待，没记错的话，这个等待的时间，大润发会放一些音乐，然后就会有个别的大妈在大润发门口的广场翩翩起舞了。但是这些都是个人的行为，如果放到今天，那就是广场舞，估计这就是佳木斯广场舞的雏形吧。</p>
-<p>另外，每天都会有很多的大爷大妈，在超市没开门的时候就聚集在门口。等到超市开门，就一窝蜂地涌进去。最开始我并没有理解他们的这种行为，后来问了别人才知道，原来每天早上都会有一些特价的食品或者食材（好像是前一天剩下来的），他们争先恐后地挤进去就是为了尽快抢到这些东西。其实人上了年纪往往都会这样，我的一个亲戚也是如此。只是她的话每次买便宜的东西，都会恨不得全都包下来，搞的大家根本就吃不了，最后只能烂掉。因此大家买东西之前，一定要考虑好，一定要量力而行。</p>
-<p>听导购说，有几个老面孔可以说是以超市为家的，吃超市的喝超市的用超市的，只是不住在超市。也就是说她们其实是小偷。尽管我每天待在超市门口，并没有亲眼见到她们偷东西，但是她们也确实是常客，来的次数多了，让我也觉得脸熟了。她们的行为也确实可疑。比如一个母亲带着自己的女儿，一般就会让女儿在我们这里看书，她妈妈就进超市了，不一会就推着车出来了，看来 “买了”一些东西。和女儿说几句话，自己又进超市了，然后又“买了”点东西。我并不知道她真的是买的还是偷的，反正大家都说她在偷东西。这个我也管不着，我只负责图书这块，我只要看好这个小小的区域就够了。</p>
-<p>因为我们办书展是在超市门口，并不是超市里面，因此超市为我专门配了一个收银员。这个月里面，超市的收银员会轮流过来，所以我也是混得脸熟。因此有些时候也会顺水推舟做个人情，比如说某个收银员相中了一本书，想要买，一般我都直接送给她们了，不要钱。毕竟这里是我说的算，也没必要计较这些东西。这些书本来就属于促销，没有数目，也没有录入系统，因此还不如让我做个人情呢。当然，书不单单会送给收银员。超市保洁阿姨的老公，每天在超市快要打烊的时候，就会来超市门口等老婆下班，久而久之，我俩也就熟了，他没事会来看看书，偶尔也会相中几本书，这种情况我也是直接让他拿走了。有时，我会自己掏腰包把钱补上，也算是在其中平衡一下吧。</p>
-<h4 id="我也会被感动"><a href="#我也会被感动" class="headerlink" title="我也会被感动"></a>我也会被感动</h4><p>上文说了，小偷是熟面孔，但是其实还有一个老大爷和一个老太太，也是会天天出现在超市的。其中那个大爷眼睛不好，那个大妈是个哑巴，听超市的人说，他俩其实是两夫妻。这两夫妻应该也是靠着超市过活的，但是并不是偷东西，而是通过捡废品卖废品来养活自己。其中的大妈还是比较积极收废品的，但是大爷往往并不积极。他俩主要是看着超市附近的垃圾箱，毕竟佳木斯的这个大润发超市，也是人流非常密集的地方了，每天来往的顾客不计其数。因为这个地下一层不单单有超市，还有很多小铺子和门市，各种品类的商品也是应有尽有。当时我甚至感觉，估计整个佳木斯的人，都来这里逛街了。客流量是可以保证垃圾的数量的，像是废纸饮料瓶之类的，每天都少不了。加上超市在进货的时候，包装箱也是不少的。而佳木斯的消费水平也不高，因此我觉得他俩靠这个过活，应该也还是可以的。有时候如果有别人想捡垃圾箱里面的瓶子，大妈也会比划着把他们赶走，绝对不允许自己的领地被侵占。</p>
-<p>我每天在超市门口站着，免不了口渴。那个时候我也并没有准备水杯之类，因此渴的时候，就会进超市喝免费的饮水机的水或者买饮料了。喝剩下的水瓶，我一般都会扔到垃圾桶里面，如果见到大妈在那里守着，我就直接把瓶子交到大妈的手里了。或者我发现有顾客来到我们这里看书，随手把喝完的瓶子扔在这，我也会把瓶子拿去给大妈。每当这个时候，大妈都会回以微笑，有时还竖起大拇指称赞我。当时我觉得也没什么，举手之劳而已。后来有一天，大妈来到我这里，给了我一盒洗得干干净净的，不知道叫什么的小果子，从她的表达上来看，估计是为了感谢我。其实我也挺不好意思的，但是最后也收下了，那小果子味道不错。尽管我至今也不知道那个小果子叫什么，但是那个大妈，还是让我挺感动的。</p>
-<h4 id="应聘超市经理"><a href="#应聘超市经理" class="headerlink" title="应聘超市经理"></a>应聘超市经理</h4><p>上一章说过，由于种种原因，坚定了我离职的决心。此时正巧赶上大润发超市招聘品类主管以及经理，主管薪酬1500，经理薪酬3000（也好像是4000），看到这个待遇，我心里面感觉痒痒的，想要去试一试，但是也在考虑究竟是要投哪个职位。即便是品类主管的薪酬，也比当时的我高了，但是考虑到并没有高出太多，因此我就决定投经理这个职位。</p>
-<p>没记错的话，我先是去人资那里填了应聘登记表，然后就继续去卖书等消息了。没过多久，我就被通知去参加笔试了。首先是心理测试，一张试卷，要求依照自己的真实想法第一感觉来选择答案，从而评估应聘者的心理状态。以前没接触过大企业，所以不知道别的企业是怎么招聘的，但是今天的话，企业招聘或者员工入职，甚至是大学，也会定期或者不定期地举办这种测试活动。因此当时我就觉得大润发超市还是非常正规的，整个管理体系也是非常的完善。心理测试结束后，立刻进行的是智商测试。其实智商测试我很早就接触过，之前在网上也做过不少这类的题目，所以我觉得这些题目也都难不住我，当然了，有不少答案也都是瞎猜的。</p>
-<p>笔试过后没几天，我就接到人事的电话，被叫去参加面试了。当时感觉挺兴奋的，因为一直都还挺顺利，觉得自己离月薪3000的日子不远了。尽管如果真的应聘成功了，就需要留在佳木斯，但是心想只要钱多，留就留呗。我当时还在想，要是真的留在佳木斯了，那我是不是还要继续住在房东老太太哪里呢？为了竞争经理这个职位，当时的面试是以四人一组进行的，面试官包括超市的总经理以及下属大概三个经理。由于我当时的面试顺序是排在第一位，所以我就认为我的笔试成绩估计就是第一。面试其实非常简单，不过是简单的自我介绍，随便聊一聊而已。当时我说其实我能来到佳木斯，纯属偶然，我被派到这里做图书促销，看到了招聘信息，所以打算试一下，也希望能够应聘上经理这个职位，努力打拼，开创自己的天地。大概的意思就是这样。但是当时超市的总经理仅仅是听着，并没有提问，所以从他的表情上，也看不出他对我们的态度究竟是怎样。整个面试也没持续多久，就让我们先回去了。又过了几天，人资给我打电话，说我没能通过面试。当时听到这个消息，我心里其实也没有多少的感想，就觉得这一切都在情理之中，超市不可能聘用我这个刚毕业的大学生来当经理的。毕竟我当时也仅仅是抱着试一试赌一把的心态，既然没通过，那么愿赌服输，因此也不会有多失落。后来想想，如果我面试的是品类主管，也许成功的机率就会大一些。过了一段时间，我看到超市来了不少实习生，类似于管理培训生那种吧，每天穿着白衬衣黑西裤，由各个经理带着在超市里面到处逛。导购告诉我，他们都是大学生，在这里是储备干部。他们每天也是在超市里面有说有笑的，说实话，当时我真的蛮羡慕他们的。</p>
-<p>尽管面试失败，但是我当时觉得我还是有很多话想对总经理说的。我说有很多话想说，并不是因为面试失败想要骂他，而是我毕竟是营销出身，对于整个超市的运营管理，我想说说自己的看法。由于房东那里没有桌子，我就只能去肯德基写。记得我当时大概写了满满三张的A4纸（也好像是两张），其主要的内容首先就是感谢能提供面试的机会，接下来夸赞了一下超市的各项管理运营工作很完善，不愧是大企业（确实很完善，时至今日我依然这么觉得），之后我就对我发现的一些问题说了自己的看法。尽管我现在已经忘记了当时所写的具体内容，但是我今天依旧觉得写得不错，确实是科班写出来的东西，对得起我每月一千多的身价。当时超市有一个总经理信箱（是真的信箱，不是E-mail），供大家提意见，于是我就把我的总结报告投了进去。觉得总经理看了我写的内容，也许会重新考虑我的职位申请。不过到最后也没有回复，我真的就很想知道，究竟总经理有没有看到我写的报告，如果看到了，有什么想法呢？</p>
-<p>我那批参加面试的人最后有没有人通过面试成为经理，我就不知道了。后来没过几天，超市又在门口竖起了大牌子招聘品类主管，犹豫了一下，考虑要不要重新应聘一下主管职位，工资1500就1500吧，也挺好。但最后还是放弃了，不再投了。因为我觉得他们短期内不会考虑一个刚刚被刷下来的人，于是也就不了了之了。</p>
-<h4 id="佳木斯，民风彪悍"><a href="#佳木斯，民风彪悍" class="headerlink" title="佳木斯，民风彪悍"></a>佳木斯，民风彪悍</h4><p>这里我起这个标题，实在是鼓足了勇气的。生怕诸位看官中有佳木斯的朋友，怕被误会，以为我在贬低佳木斯。这里也请大家不要先入为主，毕竟我也仅仅是讲述我的个人经历，仅限于我在大润发超市门口的所见所闻。</p>
-<p>毕竟是一家超市，很多时候为了避免误会，往往是不允许顾客自带饮品进入超市的。而为了解决顾客在逛的过程中遇到口渴的情况，超市内部就设置了饮水区，有饮水机供大家随便喝水。但是即便有这么便民的设施，依旧会遇到那些对此不理解的顾客，一定要带自己的饮用水进入超市，凭什么听超市的呢？你不让我进，我非要进。而超市门口的保安就是管这个的，记得当时有两个保安让我印象比较深刻。一个是又黑又壮，看起来可能会比较凶悍，但是面对顾客也都是彬彬有礼的，遇到胡搅蛮缠的，也会耐心讲道理，估计顾客看到他这样的也不敢闹事。还有一个是挺高的，偏瘦戴眼镜，感觉他在大润发超市当保安实在是太苦逼了。一次一个长得又高又壮，推着婴儿车的女顾客不知道怎么回事，就和眼镜小哥吵起来了，眼镜小哥不让她进去，她非要进，一下子就惹火了那个女顾客。扬起胳膊拿起包，就对他一顿暴打（另一只手扶着婴儿车），边打还边大声骂，抓得他的脸也是一道一道的。可惜当时不流行用手机拍摄，也就没保留下这个珍贵的画面。那个小哥被打得只有招架之功，然后那个母夜叉就骂骂咧咧地走了，不知道去了哪个超市接着买东西。但是眼镜小哥不肯罢休，觉得自己不能被女人打，扶正了眼镜，卸了领带要追过去报复，但还好被别人拉住了。想想毕竟母老虎单手就把小哥制住了，这要是两只手都腾出来，小哥可能就被打趴下了。而且我也感觉，培养彪悍的民风，看来也需要以身作则，从娃娃抓起啊。</p>
-<p>也还是这个小哥，我忘了具体是什么事情了，反正估计又是遇到流氓了吧，被三五个人直接追着打，他也就只有逃跑的份，超市门口俨然一部警匪大片。我就实在是不理解，超市保安又不是针对大家，怎么就会有那么多好斗的顾客呢？而且我也仅仅待了28天而已，就大概遇到了三次这种冲突。当然也会遇到动口不动手的“君子”，这种人就更多了。因此我用“民风彪悍”这个词作为形容，感觉并不过分。</p>
-<p>当然，别的地方也会有很多的暴徒，这些事情在今天在网络上也是屡见不鲜了。但是在那之前，我对于在超市因为鸡毛蒜皮的小事而大打出手的事情真的是闻所未闻，因此觉得来到这里，绝对是丰富了我的见识。</p>
-<h3 id="下篇"><a href="#下篇" class="headerlink" title="下篇"></a>下篇</h3><h4 id="讲讲书展的情况"><a href="#讲讲书展的情况" class="headerlink" title="讲讲书展的情况"></a>讲讲书展的情况</h4><p>上面说了这么多的题外话，现在是时候聊聊书展到底卖得怎么样了。听这里的促销员说，以前办书展，每天大概也就只能卖一千多块钱，只有在特别好的时候，能够达到两千多。看起来销售额确实挺少的，但是其实也是挺合理的。一方面之前也说了，看书的人相对少了，而另一方面，书展卖的图书都是属于廉价促销类的，一本书大概以十块二十块钱的居多。比如养生保健，四大名著，世界文学等。一本书就很便宜，加上卖得少，每天的销售额自然就不高。那么我们的利润自然也就很低。所以说，对于这次的书展，其实大家并没有抱多大的希望，只是例行公事而已。</p>
-<p>不过这次的书展和以往相比多多少少还是有些不同的。对于佳木斯来说，上次只有一张大桌，用于图书的陈设。而这次场地有所扩大，一共有两张长桌来展示图书。因此我们可以展出更多种类，更多数量的图书，这样消费者就可以有更多的选择空间了。而我当时的工作就是负责给消费者答疑并进行推荐，调整陈列，上货补货等等，其实工作还是比较简单的。由于我之前就在库房和店面干活，所以对于我们图书的品类还是非常了解的。如果有顾客请求推荐，我往往能够非常快速地找到符合他口味的图书。毕竟陈列也是我负责，因此我自然对每本书的摆放位置了如指掌。这就会大大地节省了顾客的等待时间，也会增加顾客对于书展乃至我个人的好感度，这就非常有利于图书的销售。</p>
-<p>说到要对图书熟悉，我想起来在我还差三个月毕业的时候，还在店面上班时，当时我们老师和几位经理拍脑袋想出一个奖惩办法。那就是对店面以及库房的员工，每月都会进行考核。考核的内容有两项，一项是根据书单在库房或者店面找书，以考察大家对于图书摆放位置的熟悉程度。因为店面以及库房往往需要根据客户的要求进行配货，有时候可能一天要配很多货，配完货就要打包发走，因此很多时候时间还是很紧的。正是由于这个原因，我们需要保证配货的速度。当时有的员工由于没事就会整理整理图书，擦一擦灰，挪一挪位置，所以自然很清楚每本书的摆放位置，因此这项考试对于他们来说并不困难。其实按道理来说，这项考试并不难，因为大家尽管并不是全都会去整理图书，但是毕竟整天在库房或者店面转悠，加上日常配货的需要，因此查找常见的图书也都是不在话下的。可是，每次考试出题的都是那个挨千刀的货品（进货）经理，她每次都是在数据库中查找多年卖不出去或者只剩下一两本的图书来让我们找，我认为她这纯粹就是在找茬，秀优越感，营造一种高高在上的感觉，这就弄得我很不爽了，毕竟老师的出发点是好的，但却被别有用心的人利用了。所以每次考核，我基本都会在这项上吃大亏（十本书，我往往只能找到不到一半）。</p>
-<p>而另一项考核则是笔试。比如会考某类图书是哪个出版社的，进货时是几折等等这一类的问题。这种问题其实我也是挺吃亏的，因为除了对业务比较熟悉的经理，我们这些小兵平时也接触不到这些信息，除非是那些老员工，也许能略知一二。所以每次的考核，我这两项的综合成绩都是排名倒数，这样的话每个月的工资都会扣掉五十，一百的。想想那时我的工资也就一千出头，扣掉我十分之一，确实是大出血。而我们这些吊车尾所扣掉的钱，会补充给成绩优异的员工，作为奖励。这里说到这个笔试，我其实还是希望老师能够考察一些真正与实际业务相关的问题的。为什么这么说呢，比如在店面的时候，有的顾客进门问我们有没有《乱世佳人》这本名著，大家全都没听说过，毕竟确实没有这本书。但是我立刻就反应过来了，其实这个顾客想要找的是《飘》。《乱世佳人》是《飘》改编成电影的名字。还遇到一个顾客，说要找《老子》，大家也说没有，但是我又反应过来了，其实这个顾客想要找的是《道德经》。其实这就是基本的文化知识，如果不懂的话，是会影响我们的销售的。这件事让老师知道了，我原以为她会把这些东西归纳总结，让大家学习，没想到反而又让她找到教训我的理由，认为我故作清高，肚子里有知识却不告诉大家。我简直是冤死，我怎么知道大家不知道这些，我还以为这都是常识，既然来卖书，必须要晓得啊。最重要的是，我也仅仅是在遇到了这种情况的时候，才会想起来这些书的别名，让我凭空想象，究竟哪些书有别名哪些书没有别名，然后告诉大家，对我来说实在是太困难了吧。</p>
-<p>回到书展的话题。当时是需要定期做工作汇报的，我为了凑报告字数，还说现在终于体会到了老师推出考核机制的良苦用心，正是由于我现在对图书各方面很熟悉，就很有助于销售（其实这也是实在不知道该说些什么了，恭维一下而已）。然后老师也回复道，她见我能有这样的觉悟还是非常欣慰的，因此考核机制还是要继续进行下去的。</p>
-<h4 id="姜在外，君命有所不受"><a href="#姜在外，君命有所不受" class="headerlink" title="姜在外，君命有所不受"></a>姜在外，君命有所不受</h4><p>当时每天站13个半小时，确实是久了一些，导致我那段时间不曾失眠，累得躺床上发完当日销售额就睡着了（尽管平时也基本不会失眠）。起初，大概是书展最开始的两周，我每天精力都很充沛，天天站着也不会觉得特别累。但是第三周就觉得自己有点顶不住了，于是，感觉累了就直接换上便服到长凳上坐一会。但是第四周也就是最后一周，我就又恢复了精力，如同回光返照，神勇得站一整天也不觉得辛苦，当时毕竟很年轻，我的体力还是挺不错的。</p>
-<p>我们的图书促销区，每天都会聚集很多的人，火的时候如果用一句成语来形容，那就是水泄不通，再用一句成语，那就是人头攒动。大家有事没事，想买不想买，都会来这里看书，很多人其实只是为了等人，打发时间才来我们这里看书的。但是不论是买书还是不买书，我其实都是一视同仁的，都会耐心地解答大家的问题。除非遇到那种实在是太墨迹的，我也会失去耐心。正是基于这强大的客流，于是也就保证了图书的销售。好像第一天的销售额就差不多三千，一下子就超越了以往的最高销售额。之后的销售额也如芝麻开花节节高，不敢说每天都有增长，但是基本都会稳定在三千多，最多的一次大概达到了三千七的样子。</p>
-<p>每天打烊后，需要将当天的销售额统计汇总，上报给我们公司负责超市事务的经理。按道理，举办书展的三个地方的销售额每天都需要进行排名。但是第一天我们佳木斯的销售额就把经理给震住了，她再三和我以及这里的图书导购确认，这个数据到底是促销图书销售额，还是加上了超市内图书区的销售数据。毕竟我这里的销售额高得超出了她的认知。然后她就很不情愿地，发了几次排名，每天都是我排第一，她排第二，我那个同学第三。后来她觉得不好意思还是怎么的，就不再发排名了。直到有一天，我这里的销售额不知怎的才两千多，她那里破天荒地达到了三千出头，于是座次排名重现江湖。第二天恢复正常，就又不排名了，这里的道理大家都懂的。于是，之后也就不再排名了。这个时候，我感觉自己真的是公司的福将，把销售数据带到了历史最高位，虽说我在这里面起到的作用并不大，但不可否认的是，运气也是实力的一部分，我可谓将这点展现得淋漓尽致。</p>
-<p>这里需要特别强调的是书展举办的第三周。其实那个时候销售的热度已经开始下降了，之前销售的那些种类的书，已经达到了饱和的状态，因此急需一些新书来补充。而在这个时候，确实来了一批新书，拯救了我们的销售额。不知道这是谁的决策，值得表扬。在这批新书中，大概有四箱左右吧，是那种精装八开本的，我国古典的名著。比如三十六计与孙子兵法的解读、四大名著等。这一套书装订设计十分精美，即便不看，也可以放在书柜里面作为装饰，极富高档感。当时我一看就非常喜欢，也将这套书放在了最显眼的位置。这套书一本的标价是1200（也不知道为什么这么贵，尽管确实很精美），但是我们不可能卖这个价钱，当时公司负责超市事务的经理，让我们卖105块钱一本，我觉得这个价位也还可以，相当于是一折不到。但是即便是打了这么多的折扣，价格相对于其它书来说还是贵了，因此能不能卖得好我心里也是没底，甚至还觉得这四箱书（大概三十几本）可能到书展结束也卖不掉了。</p>
-<p>但是令我万万没想到的是，这套书卖得还真是不错，当时每天能卖出差不多十本吧，那么这就是一千块钱的销售额。偶尔遇到土豪，每样来一本，一口气就花了好几百块钱。我也终于领悟到，还是大单卖起来比较过瘾。尽管这些销售额并不会直接进入我的腰包，但是想想自己能够为公司带来利润的增长，心里还是挺开心的，我也觉的这是一个销售人员所必备的心态。于是这就很大地缓解了我们图书促销后劲不足的问题，使得我们每天的销售额依旧可以达到三千多。卖了几天发现势头不错，于是也要求公司赶快补货。其实另外两个地方卖得也还可以，但是始终没有佳木斯这里卖得好，他们都不太敢去要货，甚至还想把他们卖不掉的书调来我这里。</p>
-<p>此时，我觉得一本书卖105块钱有些低了，因为我坚信，如果我涨价的话，是不会影响销量的，而且涨价还会带来更多的销售额。于是我就把涨价的想法打电话和公司主管超市的经理说了，也和佳木斯这边的导购说了。经理当时犹豫了几秒，估计没想到我会提出这样的要求，最后还是不同意我涨价。我当时就想，她一定是怕我涨价后，每天的销售额更多，更把她给比下去了，所以不同意涨价。而不是考虑到涨价可能会影响销售。当时包括导购在内，也是觉得不应该涨价。但是毕竟是导购，我没必要听她的，我在这里就是我说了算。因此，当时我考虑的事情是究竟应该把价格调整到多少钱比较合适。我最开始想到的是两百，别看价格几乎翻了一倍，但是我依旧认为这是一个合理的价格，而且一旦真的调整为两百，那就会大大地增加销售额了。但是我后来再三思量，始终没有那个勇气，毕竟提价那么多，实在是有很大的风险。于是我就把价格调整到了120块钱一本，正好是一折。为什么我把定价设定为一折呢？这是因为之前有顾客问我，每本书相当于是几折，我说零点几折吧。说得他一愣，似乎从来没听说过零点几折的情况，因此我为了便于推销，就直接设定为一折了。</p>
-<p>我调整价格这件事并没有告诉主管超市的经理（她至今应该也不知道），我也没必要跟她多费口舌，山高皇帝远，姜在外，谁的命令我都不会听的。毕竟我身处销售第一线，我比任何人都清楚实际情况，她们只会纸上谈兵瞎指挥，凭什么听她们的？我的目的只有一个，那就是为公司创造更大的利润（尽管每本书仅仅多挣了15块钱）。而且，这种涨价我并没觉得有什么不好，顶多会遭到顾客的投诉，质问我们为什么涨价之类。但是后来也没遇到这种情况，而我今天把这件事说出来，难道当年的顾客们还要来找我或者找超市的麻烦不成？当然我心里面也很清楚，假设我手下有我这样的员工，估计我会毫不犹豫地把他给开除掉，这种不听领导话的员工，即便最后通过实际销量证明提价确实不影响销售，但是自作主张的这种行为，相信没人会喜欢的。当然作为领导，也应当要有前瞻性的眼光，万万不可以迷信自己的经验而裹足不前，否则迟早会被更加强大的竞争对手所打败。当然了，图书批发行业应该没什么高手，所以即便保守，也不必担心明天会吃不到饭。</p>
-<p>实践出真知，我的提价行为并没影响销售，在与顾客的交流过程中，他们也觉得120块钱可以接受。由此我就很后悔，当时真的应该把价格调整到200块钱一本的（至少也应该调整到150）。因为一本书仅仅多挣15块钱也是不痛不痒的，也不能够对销售额产生多大的影响。很想尝试一下我的眼光，我觉得自己在营销这方面还是很有天赋的。可惜已经到了书展的末期，没卖多久，我们的暑期促销就结束了。我的很多豪情壮志就没办法再实现了，突然感觉英雄无用武之地，没办法看到继续提价的后果了（比如涨到200块钱一本）。其实从这个角度来看，商战，还是挺有意思的，我至今依旧怀念那段时光。</p>
-<h4 id="毅然决然地离职"><a href="#毅然决然地离职" class="headerlink" title="毅然决然地离职"></a>毅然决然地离职</h4><p>整个图书促销的最后那两三天，销售情况就明显不行了，其实这都属于正常情况。我也该准备回长春了。也就是在我回长春的前一天晚上，我觉得该和老师摊牌了。我给老师发短信说，老师我从佳木斯回到长春以后，我就不想干了，也请您理解。老师给我回信息说，你不能搞突然袭击，你还需要回长春交接，过一段时间才能走。我回复到，老师，我和您的公司没有签署过任何协议，所以公司对我并没有什么约束力，而且，你说需要交接工作，其实我觉得根本就没必要，一方面我在长春的时候，每天在店面也没什么事，顶多打打电话告诉客户已经发货了。另一方面·，我离开长春已经差不多一个月，那么我不在的这段时间，我之前的工作都是谁做的呢？不论有人还是没人做，貌似也没有影响到公司的运营吧，所以我并不认为需要交接。</p>
-<p>当我把这些话告诉老师后，她就没有再回复我了，时至今日，也没有任何联系。因此我也并不知道她对我究竟是不是真的无话可说，没必要再回复我了（在我入职卡巴斯基后，有一次我回长春过年，在飞机上没看错的话，老师应该就是坐在我的斜后方。我看见她了，但是她应该没看见我。从说话的口音还有容貌上来看，我觉得就是老师，她已经剪成了短发，其它的似乎都没变。全程我都没好意思打招呼，于是就错过了那难得的邂逅机会，现在想想，确实非常遗憾）。离开佳木斯那天，我和九零后的小兄弟吃完烤串以后，也就直奔火车站了，同样坐的是晚上的火车。第二天一早，就回到了长春，然后我就立刻找了一个小面包车，把我放在住处的东西搬走了，这里确实让我住得很不舒服，就想赶紧离开。</p>
-<p>尽管是突然离职的，但是我在佳木斯这一个月的工资还是要给我结算的。不过去佳木斯之前，我记得没人和我说会依照销售情况给予一定的奖金提成，但是在佳木斯的时候，老师好像提到过一次，说会给我们提成，但是也不确定。所以我感觉那个月应该也还是一千多的工资吧。后来大概过了一个多月吧（也好像是两个月，总之时间不短），公司给我打了两千块钱，这确实是超出了我的预期。毕竟我从来就没有拿过这么多钱，而且我之前也说了，即便是经理，也不见得能拿两千的工资。因此这是第一次，也是最后一次，公司做的让我感觉比较满意的事情。但是这是我应得的，无可厚非。</p>
-<h3 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h3><p>至此，我就彻底结束了我的卖书生涯，估计我以后也不可能再重操旧业了。其实大家也能看出来，对于老师的企业，我表达了很多的不满，这些不满并不是我矫情，无中生有，而是有理有据，换作是谁都会觉得不爽的。</p>
-<p>说到这里，可能大家会有疑问，既然我的第一份工作是卖书，那故事的标题为什么不是从卖书到卡巴斯基呢？这是因为考虑到卖书并不是一个正儿八经的工作，连劳动合同也没有，更别提五险一金了。而直到我入职苏宁，这一切才有所改善，因此苏宁才是我第一份正式的工作，而且在苏宁的日子，也是给我留下了极为深刻的印象，也是有非常多的故事来与大家分享的。而我到目前为止已经啰嗦了几万字，也没提到苏宁，也许有些朋友该急了，看了大半天也没说到点子上，觉得有离题的嫌疑。不过没关系，我距离苏宁已经越来越近，接下来的故事也会更加地精彩有趣。</p>
 ]]></content>
       <categories>
         <category>姜晔传 (The Autobiography of Jiangye)</category>
