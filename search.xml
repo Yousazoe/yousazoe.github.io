@@ -593,6 +593,7 @@
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;Hello World&quot;</span> &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cin</span>.get();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210309000330433.png"></p>
+<p>控制台输出<code>HelloWorld</code>，说明环境配置成功。</p>
 <h4 id="MacOS"><a href="#MacOS" class="headerlink" title="MacOS"></a>MacOS</h4><p>你可以使用很多不同的工具在Mac上构建C++应用程序，但我要推荐的是XCode。Xcode是苹果公司开发的IDE，它还不算太糟，在大型项目上可能会很慢，例如EA公司用Xcode为IOS开发游戏时某些程序的编译时间会超过20分钟，比如《极品飞车：无极限》。实际上对于写代码也是一场噩梦，因为当你做一个大型项目时所有的东西都被延迟，但像学习C++这样的小项目，我仍然认为XCode是最好的IDE，让我们来安装它。</p>
 <p>进入Appstore，搜索栏输入XCode：</p>
 <p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-03-07%20%E4%B8%8B%E5%8D%881.29.39.png"></p>
@@ -615,7 +616,38 @@
 <p>如果这是你第一次运行XCode，则必须启用<code>Developer Mode</code>。编译成功后应该在底部弹出一个控制台显示我们的编译输出，按下回车键程序成功终止：</p>
 <p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-03-07%20%E4%B8%8B%E5%8D%881.53.37.png"></p>
 <p>这样我们已经启动了XCode并运行了它，终于准备好学习C++了。</p>
-<h4 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h4>]]></content>
+<h4 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h4><p>您正在使用Linux开发C++代码，让我们介绍一下如何在Linux上设置所需的工具以便制作C++程序示例。当然有很多不同的工具很多不同的方法来编写和构建你的代码，我将介绍其中一种方法。</p>
+<p>我希望你已经准备好一堆设置了，我的意思是既然你选择了Linux显然要一些准备工作。基本上我们将使用CMake在CodeLite编译器上生成工程文件，CodeLite是一个很好的轻量级IDE，它基本上可以做你所期望的所有事情，让我们用它轻松编写代码。</p>
+<p>这里我们有一个虚拟机，虚拟机里面安装的是Linux Mint 18.1版本，桌面是KDE。我们要做的第一件事就是打开终端建立一个<code>Dev</code>目录：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir Dev</span><br><span class="line"><span class="built_in">cd</span> Dev</span><br><span class="line">mkdir HelloWorld</span><br><span class="line"><span class="built_in">cd</span> HelloWorld</span><br></pre></td></tr></table></figure>
+
+<p>这个目录放我们开发的东西，在这个目录内部每个项目都有一个文件夹。我们实际需要安装的应用程序是一个编译器、CMake以及CodeLite。首先我们要做的就是<code>sudo apt-get update</code>输入root账号的密码，然后会更新安装包及安装包仓库：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">[sudo] password <span class="keyword">for</span> root:password</span><br></pre></td></tr></table></figure>
+
+<p>这些完成之后我们可以安装我们需要的软件包：</p>
+<ul>
+<li>vim作为我们的终端文本编辑器</li>
+<li>g++作为编译器</li>
+<li>codelite作为IDE</li>
+<li>CMake</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install vim g++ codelit cmake</span><br></pre></td></tr></table></figure>
+
+<p>在完成下载之后我们来创建一个名为<code>src</code>的目录放我们所有的源文件，在里面新建一个<code>Main.cpp</code>：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ls</span><br><span class="line">mkdir src</span><br><span class="line">touch src/Main.cpp</span><br></pre></td></tr></table></figure>
+
+
+
+<p>我们需要CMakefile来构建脚本，这样我们就有一个简单的方法来生成项目。用vim来写CMake，这个文件命名为<code>CMakeLists.txt</code>，这个文件告诉CMake我们将如何构建项目文件。</p>
+<p>首先我们要指定一个最低版本的CMake，根据经验用3.5版本即可。然后是项目名称<code>HelloWorld</code>，同时设置一些变量比如我们用于编译的标记和我们使用的标准库。我们在设置一个源文件目录的变量<code>source_dir</code>指向这个项目的源文件<code>src</code>目录，这个<code>PROJECT_SOURCE_DIR</code>就是当前目录</p>
+<figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line"><span class="keyword">cmake_minimum_required</span> (VERSION <span class="number">3.5</span>)</span><br><span class="line"><span class="keyword">project</span> (HelloWorld)</span><br><span class="line"><span class="keyword">set</span> (CMAKE_CXX_FLAGS <span class="string">&quot;$&#123;CMAKE_CXX_FLAGS&#125; -Wall -Werror -std=c++14&quot;</span>)</span><br><span class="line"><span class="keyword">set</span> (source_dir <span class="string">&quot;$&#123;PROJECT_SOURCE_DIR&#125;/src/&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+
+
+<p>我们已经设置了编译标志和源文件目录，现在我们需要告诉编译器哪些文件要编译。所以再次使用CMake</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">file (GLOB source_files <span class="string">&quot;<span class="variable">$&#123;source_dir&#125;</span>/*.cpp&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+]]></content>
       <categories>
         <category>Cherno的C++笔记 (Cherno C++)</category>
       </categories>
@@ -12263,57 +12295,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#121;&#111;&#x6e;&#x67;&#x40;&#x74;&#115;&#x69;&#110;&#x67;&#104;&#117;&#97;&#46;&#101;&#100;&#x75;&#46;&#x63;&#110;">&#x78;&#121;&#111;&#x6e;&#x67;&#x40;&#x74;&#115;&#x69;&#110;&#x67;&#104;&#117;&#97;&#46;&#101;&#100;&#x75;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#x79;&#x6f;&#x6e;&#103;&#x40;&#116;&#115;&#105;&#x6e;&#103;&#104;&#x75;&#x61;&#46;&#101;&#100;&#117;&#46;&#x63;&#110;">&#x78;&#x79;&#x6f;&#x6e;&#103;&#x40;&#116;&#115;&#105;&#x6e;&#103;&#104;&#x75;&#x61;&#46;&#101;&#100;&#117;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#117;&#x63;&#104;&#x65;&#x6e;&#x40;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x74;&#115;&#x69;&#x6e;&#x67;&#104;&#x75;&#97;&#46;&#101;&#x64;&#117;&#46;&#99;&#x6e;">&#x79;&#117;&#x63;&#104;&#x65;&#x6e;&#x40;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x74;&#115;&#x69;&#x6e;&#x67;&#104;&#x75;&#97;&#46;&#101;&#x64;&#117;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#x75;&#x63;&#104;&#101;&#x6e;&#x40;&#109;&#97;&#x69;&#x6c;&#46;&#116;&#115;&#105;&#110;&#103;&#104;&#117;&#97;&#x2e;&#101;&#100;&#117;&#46;&#x63;&#x6e;">&#121;&#x75;&#x63;&#104;&#101;&#x6e;&#x40;&#109;&#97;&#x69;&#x6c;&#46;&#116;&#115;&#105;&#110;&#103;&#104;&#117;&#97;&#x2e;&#101;&#100;&#117;&#46;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#116;&#101;&#114;&#110;&#97;&#108;&#46;&#110;&#48;&#56;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#x65;&#116;&#101;&#114;&#110;&#97;&#108;&#46;&#110;&#48;&#56;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x65;&#116;&#101;&#114;&#110;&#x61;&#x6c;&#46;&#x6e;&#x30;&#56;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#x65;&#116;&#101;&#114;&#110;&#x61;&#x6c;&#46;&#x6e;&#x30;&#56;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#x62;&#106;&#x65;&#99;&#116;&#x6b;&#x75;&#x61;&#110;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;">&#111;&#x62;&#106;&#x65;&#99;&#116;&#x6b;&#x75;&#x61;&#110;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#x62;&#x6a;&#101;&#x63;&#x74;&#x6b;&#117;&#x61;&#110;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#111;&#x62;&#x6a;&#101;&#x63;&#x74;&#x6b;&#117;&#x61;&#110;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#x72;&#x64;&#x66;&#x72;&#97;&#110;&#x6b;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#x63;&#x72;&#x64;&#x66;&#x72;&#97;&#110;&#x6b;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#114;&#100;&#102;&#114;&#97;&#110;&#107;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#99;&#114;&#100;&#102;&#114;&#97;&#110;&#107;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#97;&#99;&#x63;&#111;&#x72;&#97;&#119;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#109;">&#116;&#97;&#99;&#x63;&#111;&#x72;&#97;&#119;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x74;&#97;&#99;&#x63;&#x6f;&#x72;&#x61;&#x77;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">&#x74;&#97;&#99;&#x63;&#x6f;&#x72;&#x61;&#x77;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#x69;&#110;&#x79;&#x75;&#x6e;&#120;&#x69;&#110;&#x67;&#48;&#x30;&#x30;&#49;&#x40;&#x31;&#x36;&#51;&#46;&#x63;&#x6f;&#109;">&#x78;&#x69;&#110;&#x79;&#x75;&#x6e;&#120;&#x69;&#110;&#x67;&#48;&#x30;&#x30;&#49;&#x40;&#x31;&#x36;&#51;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#120;&#105;&#110;&#x79;&#x75;&#110;&#120;&#105;&#110;&#x67;&#48;&#x30;&#48;&#49;&#64;&#49;&#54;&#51;&#46;&#x63;&#111;&#109;">&#120;&#105;&#110;&#x79;&#x75;&#110;&#120;&#105;&#110;&#x67;&#48;&#x30;&#48;&#49;&#64;&#49;&#54;&#51;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#110;&#111;&#99;&#117;&#105;&#x6c;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#110;&#111;&#99;&#117;&#105;&#x6c;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#x6e;&#111;&#99;&#117;&#105;&#x6c;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;">&#103;&#x6e;&#111;&#99;&#117;&#105;&#x6c;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#121;&#97;&#x69;&#114;&#105;&#97;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;">&#109;&#121;&#97;&#x69;&#114;&#105;&#97;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x6d;&#121;&#97;&#105;&#x72;&#x69;&#97;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;">&#x6d;&#121;&#97;&#105;&#x72;&#x69;&#97;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#x68;&#x61;&#x6e;&#103;&#x72;&#x61;&#105;&#110;&#x39;&#49;&#x31;&#x40;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#x6d;">&#122;&#x68;&#x61;&#x6e;&#103;&#x72;&#x61;&#105;&#110;&#x39;&#49;&#x31;&#x40;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#104;&#x61;&#110;&#103;&#x72;&#97;&#105;&#110;&#x39;&#49;&#49;&#x40;&#x31;&#x36;&#51;&#x2e;&#99;&#x6f;&#109;">&#x7a;&#104;&#x61;&#110;&#103;&#x72;&#97;&#105;&#110;&#x39;&#49;&#49;&#x40;&#x31;&#x36;&#51;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#x67;&#x78;&#120;&#49;&#x32;&#48;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#103;&#x67;&#x78;&#120;&#49;&#x32;&#48;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#103;&#120;&#x78;&#49;&#x32;&#x30;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x67;&#103;&#120;&#x78;&#49;&#x32;&#x30;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -16601,7 +16633,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#101;&#110;&#120;&#117;&#64;&#x74;&#x65;&#x6e;&#99;&#x65;&#x6e;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#x6c;&#x65;&#101;&#110;&#120;&#117;&#64;&#x74;&#x65;&#x6e;&#99;&#x65;&#x6e;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#x65;&#x6e;&#120;&#x75;&#64;&#116;&#101;&#x6e;&#x63;&#101;&#x6e;&#x74;&#46;&#x63;&#111;&#109;">&#x6c;&#x65;&#x65;&#x6e;&#120;&#x75;&#64;&#116;&#101;&#x6e;&#x63;&#101;&#x6e;&#x74;&#46;&#x63;&#111;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
