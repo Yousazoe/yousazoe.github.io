@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yousazoe.top/archives/795e3081.html</loc>
+    
+    <lastmod>2021-03-09</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/archives/e5bd4d2.html</loc>
     
     <lastmod>2021-03-09</lastmod>
@@ -639,13 +646,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/archives/795e3081.html</loc>
-    
-    <lastmod>2021-02-10</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/archives/84339f66.html</loc>
     
     <lastmod>2021-02-10</lastmod>
@@ -872,13 +872,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/INDIE/</loc>
-    <lastmod>2021-03-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/tags/Game-Develop/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
@@ -928,6 +921,13 @@
   </url>
   
   <url>
+    <loc>http://yousazoe.top/tags/INDIE/</loc>
+    <lastmod>2021-03-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/tags/Ludum-Dare/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
@@ -970,7 +970,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Rocket/</loc>
+    <loc>http://yousazoe.top/tags/Population/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -984,7 +984,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Population/</loc>
+    <loc>http://yousazoe.top/tags/GPS/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1005,7 +1005,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/GPS/</loc>
+    <loc>http://yousazoe.top/tags/Rocket/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1068,6 +1068,13 @@
   </url>
   
   <url>
+    <loc>http://yousazoe.top/tags/Computer-Graphics/</loc>
+    <lastmod>2021-03-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/tags/Github/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
@@ -1076,13 +1083,6 @@
   
   <url>
     <loc>http://yousazoe.top/tags/LeetCode/</loc>
-    <lastmod>2021-03-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Computer-Graphics/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1273,6 +1273,13 @@
   </url>
   
   <url>
+    <loc>http://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%83%8F%E5%AD%A6-Foundations-of-Computer-Graphics/</loc>
+    <lastmod>2021-03-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/categories/Github%E5%85%A5%E9%97%A8-Introducing-Github/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
@@ -1281,13 +1288,6 @@
   
   <url>
     <loc>http://yousazoe.top/categories/LeetCode%E9%A2%98%E8%A7%A3-LeetCode-Solution/</loc>
-    <lastmod>2021-03-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%83%8F%E5%AD%A6-Foundations-of-Computer-Graphics/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
