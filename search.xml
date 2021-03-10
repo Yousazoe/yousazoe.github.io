@@ -4838,6 +4838,24 @@
 <li><a href="https://blog.csdn.net/qq_38157825/article/details/112783238">在 Hexo 中使用 artitalk 新增说说功能</a></li>
 <li><a href="https://cndrew.cn/2020/05/11/artitalk/">Hexo添加可实时发布的说说界面 | Artitalk.js</a></li>
 </ul>
+<h4 id="SEO优化"><a href="#SEO优化" class="headerlink" title="SEO优化"></a>SEO优化</h4><h5 id="robots-txt"><a href="#robots-txt" class="headerlink" title="robots.txt"></a>robots.txt</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">vi ./<span class="built_in">source</span>/robots.txt</span><br></pre></td></tr></table></figure>
+
+<p>填入以下代码</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">User-agent: *</span><br><span class="line">Allow: &#x2F;</span><br><span class="line">Allow: &#x2F;archives&#x2F;</span><br><span class="line">Allow: &#x2F;tags&#x2F;</span><br><span class="line">Allow: &#x2F;categories&#x2F;</span><br><span class="line">Allow: &#x2F;about&#x2F;</span><br><span class="line"></span><br><span class="line">Disallow: &#x2F;js&#x2F;</span><br><span class="line">Disallow: &#x2F;css&#x2F;</span><br><span class="line">Disallow: &#x2F;fonts&#x2F;</span><br><span class="line"></span><br><span class="line">Sitemap: https:&#x2F;&#x2F;weilining.github.io&#x2F;sitemap.xml</span><br><span class="line">Sitemap: https:&#x2F;&#x2F;weilining.github.io&#x2F;baidusitemap.xml</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h5 id="预加载"><a href="#预加载" class="headerlink" title="预加载"></a>预加载</h5><p>当我们提到性能优化，往往都会着眼于当前用户访问的这个页面，通过压缩资源大小、删减不必要资源、加快页面解析渲染等方式提升用户的访问速度；而 quicklink 用了另一种思路：我预先帮你加载（获取）接下来最可能要用的资源，这样之后真正使用到该资源（链接）时就会感觉非常顺畅。</p>
+<h6 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h6><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Quicklink Support</span></span><br><span class="line"><span class="comment"># Do not enable both `pjax` and `quicklink`.</span></span><br><span class="line"><span class="comment"># For more information: https://github.com/GoogleChromeLabs/quicklink</span></span><br><span class="line"><span class="comment"># Front-matter (unsupport home archive).</span></span><br><span class="line"><span class="attr">quicklink:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="string">ture</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Home page and archive page can be controlled through home and archive options below.</span></span><br><span class="line">  <span class="comment"># This configuration item is independent of `enable`.</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">ture</span></span><br><span class="line">  <span class="attr">archive:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Default (true) will initialize quicklink after the load event fires.</span></span><br><span class="line">  <span class="attr">delay:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Custom a time in milliseconds by which the browser must execute prefetching.</span></span><br><span class="line">  <span class="attr">timeout:</span> <span class="number">3000</span></span><br><span class="line">  <span class="comment"># Default (true) will enable fetch() or falls back to XHR.</span></span><br><span class="line">  <span class="attr">priority:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># For more flexibility you can add some patterns (RegExp, Function, or Array) to ignores.</span></span><br><span class="line">  <span class="comment"># See: https://github.com/GoogleChromeLabs/quicklink#custom-ignore-patterns</span></span><br><span class="line">  <span class="attr">ignores:</span></span><br></pre></td></tr></table></figure>
+
+<p>注意：<strong>Quicklink 需要安装依赖</strong>。</p>
+<h5 id="启用-CDN"><a href="#启用-CDN" class="headerlink" title="启用 CDN"></a>启用 CDN</h5><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Quicklink</span></span><br><span class="line"><span class="comment"># quicklink: //cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js</span></span><br><span class="line"><span class="attr">quicklink:</span> <span class="string">//cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="参考-6"><a href="#参考-6" class="headerlink" title="参考"></a>参考</h5><ul>
+<li><a href="https://weilining.github.io/209291.html">Hexo NexT 加载性能优化</a></li>
+</ul>
 ]]></content>
       <categories>
         <category>博客搭建 (Blog Building)</category>
@@ -12321,57 +12339,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#x79;&#x6f;&#x6e;&#x67;&#x40;&#x74;&#x73;&#105;&#110;&#x67;&#104;&#117;&#x61;&#46;&#101;&#x64;&#117;&#x2e;&#x63;&#x6e;">&#120;&#x79;&#x6f;&#x6e;&#x67;&#x40;&#x74;&#x73;&#105;&#110;&#x67;&#104;&#117;&#x61;&#46;&#101;&#x64;&#117;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#121;&#x6f;&#110;&#103;&#64;&#x74;&#115;&#x69;&#x6e;&#103;&#x68;&#117;&#x61;&#x2e;&#x65;&#100;&#117;&#46;&#x63;&#x6e;">&#x78;&#121;&#x6f;&#110;&#103;&#64;&#x74;&#115;&#x69;&#x6e;&#103;&#x68;&#117;&#x61;&#x2e;&#x65;&#100;&#117;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#117;&#x63;&#104;&#x65;&#110;&#64;&#109;&#x61;&#x69;&#x6c;&#46;&#116;&#115;&#105;&#x6e;&#103;&#x68;&#x75;&#x61;&#x2e;&#x65;&#100;&#x75;&#46;&#99;&#110;">&#x79;&#117;&#x63;&#104;&#x65;&#110;&#64;&#109;&#x61;&#x69;&#x6c;&#46;&#116;&#115;&#105;&#x6e;&#103;&#x68;&#x75;&#x61;&#x2e;&#x65;&#100;&#x75;&#46;&#99;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#x75;&#x63;&#104;&#101;&#110;&#x40;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x74;&#x73;&#x69;&#x6e;&#103;&#x68;&#117;&#97;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#x6e;">&#x79;&#x75;&#x63;&#104;&#101;&#110;&#x40;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x74;&#x73;&#x69;&#x6e;&#103;&#x68;&#117;&#97;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#x74;&#x65;&#114;&#110;&#97;&#x6c;&#46;&#110;&#48;&#x38;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#x65;&#x74;&#x65;&#114;&#110;&#97;&#x6c;&#46;&#110;&#48;&#x38;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x65;&#x74;&#x65;&#114;&#110;&#x61;&#108;&#x2e;&#x6e;&#48;&#x38;&#64;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;">&#x65;&#x74;&#x65;&#114;&#110;&#x61;&#108;&#x2e;&#x6e;&#48;&#x38;&#64;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#x62;&#x6a;&#x65;&#x63;&#116;&#107;&#x75;&#97;&#x6e;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#111;&#x62;&#x6a;&#x65;&#x63;&#116;&#107;&#x75;&#97;&#x6e;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#111;&#98;&#106;&#x65;&#x63;&#116;&#107;&#117;&#x61;&#x6e;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#111;&#98;&#106;&#x65;&#x63;&#116;&#107;&#117;&#x61;&#x6e;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#114;&#100;&#102;&#x72;&#97;&#110;&#x6b;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;">&#99;&#114;&#100;&#102;&#x72;&#97;&#110;&#x6b;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#x72;&#x64;&#102;&#x72;&#97;&#x6e;&#x6b;&#64;&#103;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;">&#99;&#x72;&#x64;&#102;&#x72;&#97;&#x6e;&#x6b;&#64;&#103;&#109;&#97;&#x69;&#108;&#46;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#x61;&#99;&#x63;&#x6f;&#114;&#x61;&#x77;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#x74;&#x61;&#99;&#x63;&#x6f;&#114;&#x61;&#x77;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#116;&#97;&#x63;&#x63;&#x6f;&#114;&#97;&#x77;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#116;&#97;&#x63;&#x63;&#x6f;&#114;&#97;&#x77;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#105;&#110;&#x79;&#117;&#110;&#120;&#105;&#110;&#103;&#48;&#x30;&#x30;&#x31;&#x40;&#x31;&#54;&#x33;&#46;&#x63;&#111;&#109;">&#x78;&#105;&#110;&#x79;&#117;&#110;&#120;&#105;&#110;&#103;&#48;&#x30;&#x30;&#x31;&#x40;&#x31;&#54;&#x33;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x78;&#105;&#x6e;&#121;&#117;&#110;&#120;&#105;&#110;&#x67;&#48;&#48;&#48;&#x31;&#64;&#49;&#x36;&#51;&#x2e;&#x63;&#111;&#x6d;">&#x78;&#105;&#x6e;&#121;&#117;&#110;&#120;&#105;&#110;&#x67;&#48;&#48;&#48;&#x31;&#64;&#49;&#x36;&#51;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#x6e;&#111;&#x63;&#117;&#x69;&#x6c;&#64;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#103;&#x6e;&#111;&#x63;&#117;&#x69;&#x6c;&#64;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x6e;&#111;&#x63;&#x75;&#105;&#x6c;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#x67;&#x6e;&#111;&#x63;&#x75;&#105;&#x6c;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#x79;&#97;&#x69;&#114;&#105;&#97;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;">&#109;&#x79;&#97;&#x69;&#114;&#105;&#97;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#109;&#x79;&#x61;&#105;&#x72;&#x69;&#x61;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;">&#109;&#x79;&#x61;&#105;&#x72;&#x69;&#x61;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#104;&#97;&#110;&#x67;&#114;&#97;&#x69;&#110;&#57;&#x31;&#x31;&#x40;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#109;">&#x7a;&#104;&#97;&#110;&#x67;&#114;&#97;&#x69;&#110;&#57;&#x31;&#x31;&#x40;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#122;&#104;&#97;&#110;&#103;&#x72;&#x61;&#x69;&#110;&#x39;&#49;&#x31;&#x40;&#x31;&#x36;&#51;&#46;&#99;&#x6f;&#x6d;">&#122;&#104;&#97;&#110;&#103;&#x72;&#x61;&#x69;&#110;&#x39;&#49;&#x31;&#x40;&#x31;&#x36;&#51;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#103;&#x78;&#120;&#49;&#50;&#48;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#103;&#103;&#x78;&#120;&#49;&#50;&#48;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#103;&#x78;&#x78;&#49;&#50;&#x30;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#x67;&#103;&#x78;&#x78;&#49;&#50;&#x30;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -16659,7 +16677,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#101;&#x6e;&#x78;&#117;&#x40;&#x74;&#x65;&#110;&#x63;&#x65;&#110;&#x74;&#x2e;&#99;&#x6f;&#x6d;">&#x6c;&#101;&#101;&#x6e;&#x78;&#117;&#x40;&#x74;&#x65;&#110;&#x63;&#x65;&#110;&#x74;&#x2e;&#99;&#x6f;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#101;&#x65;&#110;&#x78;&#117;&#x40;&#116;&#x65;&#x6e;&#x63;&#101;&#110;&#x74;&#x2e;&#99;&#111;&#x6d;">&#108;&#101;&#x65;&#110;&#x78;&#117;&#x40;&#116;&#x65;&#x6e;&#x63;&#101;&#110;&#x74;&#x2e;&#99;&#111;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -17532,7 +17550,7 @@
 
 
 <h4 id="每个角色独特且难忘"><a href="#每个角色独特且难忘" class="headerlink" title="每个角色独特且难忘"></a>每个角色独特且难忘</h4><p>一共20种不同的结局让游戏中的其他角色的人格有展现的空间，你可以在一个周目与某个NPC结为挚友，了解他们的志向抱负、疑惑、爱好和为之骄傲的事物；下一周目你就可以跟他不共戴天的死敌，因为你已经知道怎么把他逼疯、他最怕的事物以及把他逼向极限后会有何表现，这就有机会让每个主要角色在自己的发展历程中展现各自的强势和弱势，让玩家感觉到他们在故事中都至关重要。</p>
-<p>老实说，这是少数几个能让我喜欢其中每一个角色的游戏。说这话还有点不准确，在许多优秀的RPG游戏中确实有大量出彩的角色，但在这些游戏中的各种杂兵野怪我能记起来的并不多，他们只是我道路上的阻碍仅此而已。</p>
+<p>老实说，这是少数几个能让我喜欢其中每一个角色的游戏。说这话还有点不准确，在许多优秀的RPG游戏中确实有大量出彩的角色，但在这些游戏中的各种杂兵野怪我能记起来的并不多，他们只是我道路上的阻碍仅此而已。在《undertale》的那些主要角色确实塑造的很棒，至少现在我还记忆犹新，但即使是你随机遇到的镇名也会让你印象深刻：你可以花时间与所有的店铺老板交谈，你可以问他们的生活、镇上的情况等等，这点小细节让玩家自主选择是否投入时间来了解地下世界；在随机遇敌时怪物不仅会在战斗中对你说话，你也可以用不同方式与怪兽互动，它们都有各自的问题处理，需要你找到最好的处理办法。在某种程度上甚至怪物也有自己小小的心路历程，你可以与傲娇的飞机</p>
 <p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/007S8ZIlly1ggojl1g7bcj30u018c7wh.jpg"></p>
 <div align=center>
   <font size="3">
