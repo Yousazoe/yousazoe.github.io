@@ -830,20 +830,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Game/</loc>
-    <lastmod>2021-03-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/MOBA/</loc>
-    <lastmod>2021-03-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/tags/Art/</loc>
     <lastmod>2021-03-14</lastmod>
     <changefreq>daily</changefreq>
@@ -865,14 +851,21 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Japan/</loc>
+    <loc>http://yousazoe.top/tags/Game/</loc>
     <lastmod>2021-03-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/FPS/</loc>
+    <loc>http://yousazoe.top/tags/MOBA/</loc>
+    <lastmod>2021-03-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/Japan/</loc>
     <lastmod>2021-03-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -907,13 +900,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Game-Engine/</loc>
-    <lastmod>2021-03-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/tags/Game-Develop/</loc>
     <lastmod>2021-03-14</lastmod>
     <changefreq>daily</changefreq>
@@ -928,7 +914,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Reprint/</loc>
+    <loc>http://yousazoe.top/tags/Game-Engine/</loc>
+    <lastmod>2021-03-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/FPS/</loc>
     <lastmod>2021-03-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -943,6 +936,13 @@
   
   <url>
     <loc>http://yousazoe.top/tags/Random/</loc>
+    <lastmod>2021-03-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/Reprint/</loc>
     <lastmod>2021-03-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1154,13 +1154,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%88%86%E6%9E%90%E4%B8%8E%E6%B5%8B%E8%AF%84-Game-Analysis-and-Evaluation/</loc>
-    <lastmod>2021-03-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/categories/%E5%83%8F%E7%B4%A0%E7%BE%8E%E5%B7%A5-Pixel-Art-Designing/</loc>
     <lastmod>2021-03-14</lastmod>
     <changefreq>daily</changefreq>
@@ -1168,7 +1161,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91-Game-Engine-Series/</loc>
+    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%88%86%E6%9E%90%E4%B8%8E%E6%B5%8B%E8%AF%84-Game-Analysis-and-Evaluation/</loc>
     <lastmod>2021-03-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1182,7 +1175,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%8F%B2%E5%AD%A6%E5%AE%B6-Gaming-Historian/</loc>
+    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91-Game-Engine-Series/</loc>
     <lastmod>2021-03-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1197,6 +1190,13 @@
   
   <url>
     <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-Game-Programming/</loc>
+    <lastmod>2021-03-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%8F%B2%E5%AD%A6%E5%AE%B6-Gaming-Historian/</loc>
     <lastmod>2021-03-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
