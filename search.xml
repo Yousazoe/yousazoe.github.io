@@ -667,7 +667,7 @@
 <p>保存当前设置时导入新配置，覆盖当前配置：</p>
 <p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210308221958762.png"></p>
 <p>导入刚才的设置，在我的电脑的文档中：</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210308222354509.png" alt="image-20210308222354509"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210308222354509.png"></p>
 <p>这样配置就导入VisualStudio了，现在让我们新建一个C++空项目：</p>
 <p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210308233144000.png"></p>
 <p>我不喜欢把工程放在默认的文件目录的原因是首先这个路径太长了，第二点这个路径中很可能包含空格符的，这将导致一些插件出现兼容问题，例如安卓插件如果路径中有空格就无法工作。</p>
@@ -934,7 +934,32 @@
 <p>你可能想问<code>Log</code>函数名称像是被一堆随机字符装饰了，这实际上是函数的签名，这需要唯一地定义你的函数。本质上当我们有多个<code>.obj</code>时函数也被定义在多个<code>.obj</code>中，链接的工作就是把所有的函数链接在一起，这样做是为了查找这个函数的签名，所以你只需要知道我们调用这个<code>Log</code>函数，这就是编译器在你调用函数时实际做的事情，它将生成<code>call</code>指令。</p>
 <p>回到属性页再次打开优化选择最大优化（优先速度），编译回到汇编文件，你会看到它完全消失了。是的，编译器决定什么都不做，我要删除那段代码。</p>
 <p>现在你应该基本上了解了编译器的工作原理，它将获取源文件并输出一个<code>.obj</code>文件，<code>.obj</code>文件是包含机器代码以及其他我们定义的常数数据的文件。现在我们有了这些<code>.obj</code>文件，我们可以将它们链接成一个包含所有内容的可执行文件中，可执行文件包含了需要运行的机器代码，这就是我们如何让C++程序跑起来，非常简单。</p>
-<h4 id="链接器"><a href="#链接器" class="headerlink" title="链接器"></a>链接器</h4>]]></content>
+<h4 id="链接器"><a href="#链接器" class="headerlink" title="链接器"></a>链接器</h4><p>什么是链接？C++链接实际上做什么？链接是一个过程，当我们从源C++文件转到实际的可执行二进制文件，第一阶段是编译源文件。一旦我们把文件编译好，我们需要通过一个叫做链接的过程，现在链接的主要焦点是找到每个符号和函数在哪里并把它们连接起来。记住，每个文件被编译成一个单独的目标文件/翻译单元，它们彼此之间没有关系，这些文件不能交互，所以如果我们决定把我们的程序分割成多个C++文件，我们需要一种方法把这些文件连接在一起成一个项目，而这就是链接器的主要目的和要做的事情。</p>
+<p>即使你在外部文件中没有函数，比如你就在一个文件中写完整个程序，应用程序仍然需要知道入口点在哪里，换句话说<code>main</code>函数在哪里。当你实际运行你的应用程序时，C++运行库时会说：嘿这是<code>main</code>函数，我要跳到这里然后开始执行代码，这实际上是你的应用的起始位置，所以它仍然需要把<code>main</code>函数链接起来。</p>
+<p>我们来举一个没有其他所有的文件的例子。在VisualStudio中我们有一个非常简单的项目，只包含一个源文件<code>math.cpp</code>，其中有两个函数<code>Log()</code>和<code>Multiply()</code>，而<code>Multiply()</code>实际上调用了<code>Log()</code>函数，打印<code>Multiply</code>单词到控制台，最后返回<code>a*b</code>：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; message &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Multiply</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">  Log(<span class="string">&quot;Multiply&quot;</span>);</span><br><span class="line">  <span class="keyword">return</span> a * b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>非常简单，但这并不是一个实际的应用程序，因为它没有包含主函数<code>main</code>。你首先要意识到的是编译有两个阶段：编译、链接，实际上有有一种方法可以在VisualStudio区分这两个阶段：按<code>ctrl</code>+<code>F7</code>或者只按下编译按钮，只有编译才会发生，链接将永远不会发生。但是如果你<code>Build</code>你的项目或者点击<code>F5</code>运行你的项目，它会编译，然后链接。</p>
+<p>所以我们首先<code>ctrl</code>+<code>F7</code>编译，一切正常，因为编译生成了<code>.obj</code>目标文件：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210315165922851.png"></p>
+<p>但是如果我右键单击我的项目并点击<code>Build</code>，你会看到我实际上得到了一个链接错误：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210315165958099.png"></p>
+<p>入口点必须再次定义。很显然我们错过了入口点<code>main</code>函数，通过编译和链接，我们实际上得到了不同类型的错误，与每个阶段相关联的信息。如果我犯了语法错误比如<code>return a * b</code>没有加分号<code>;</code>编译代码会得到如下报错：</p>
+<p>![](/Users/apple/Library/Application Support/typora-user-images/image-20210315170056840.png)</p>
+<p>它告诉我我实际上得到一个叫<code>C2143</code>的错误，当然这是语法错误，你会注意到实际上它以字母<code>C</code>开头，这告诉我们是编译阶段：</p>
+<p>如果我们修复该错误然后构建整个项目，我们会看到这里列出的错误代码以单词<code>LINK</code>开头，它代表链接并告诉我们错误发生在链接阶段。在这种情况下它告诉我们入口点必须被重新定义，这是因为我们将其编译为一个应用程序，如果我们到项目属性看到配置类型为<code>.exe</code>：</p>
+<p>每个<code>.exe</code>文件必须有某种入口点，如果我们到链接器设置找到高级设置，我们可以指定一个自定义的入口点。入口点不一定是<code>main</code>函数，它可以是任何东西，只要有一个入口点就行了，但通常它是<code>main</code>函数：</p>
+<p>我们回到这里把<code>main</code>函数写出来：</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line"></span><br><span class="line">void Log(const char* message)&#123;</span><br><span class="line">  std::cout &lt;&lt; message &lt;&lt; std::endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int Multiply(int a,int b)&#123;</span><br><span class="line">  Log(&quot;Multiply&quot;);</span><br><span class="line">  return a * b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="addition">+int main()&#123;</span></span><br><span class="line"></span><br><span class="line"><span class="addition">+&#125;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>再次构建项目我们不再得到那个链接错误，并且成功地生成了<code>.exe</code>文件。现在我们把<code>Multiply()</code>函数打印出来：</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line"></span><br><span class="line">void Log(const char* message)&#123;</span><br><span class="line">  std::cout &lt;&lt; message &lt;&lt; std::endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int Multiply(int a,int b)&#123;</span><br><span class="line">  Log(&quot;Multiply&quot;);</span><br><span class="line">  return a * b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"><span class="addition">+  std::cout &lt;&lt; Multiply(5,8) &lt;&lt; endl;</span></span><br><span class="line"><span class="addition">+  std::cin.get();</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
       <categories>
         <category>Cherno的C++笔记 (Cherno C++)</category>
       </categories>
