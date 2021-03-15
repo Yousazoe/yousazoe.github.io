@@ -947,10 +947,12 @@
 <p>但是如果我右键单击我的项目并点击<code>Build</code>，你会看到我实际上得到了一个链接错误：</p>
 <p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210315165958099.png"></p>
 <p>入口点必须再次定义。很显然我们错过了入口点<code>main</code>函数，通过编译和链接，我们实际上得到了不同类型的错误，与每个阶段相关联的信息。如果我犯了语法错误比如<code>return a * b</code>没有加分号<code>;</code>编译代码会得到如下报错：</p>
-<p>![](/Users/apple/Library/Application Support/typora-user-images/image-20210315170056840.png)</p>
-<p>它告诉我我实际上得到一个叫<code>C2143</code>的错误，当然这是语法错误，你会注意到实际上它以字母<code>C</code>开头，这告诉我们是编译阶段：</p>
-<p>如果我们修复该错误然后构建整个项目，我们会看到这里列出的错误代码以单词<code>LINK</code>开头，它代表链接并告诉我们错误发生在链接阶段。在这种情况下它告诉我们入口点必须被重新定义，这是因为我们将其编译为一个应用程序，如果我们到项目属性看到配置类型为<code>.exe</code>：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210315170056840.png"></p>
+<p>它告诉我我实际上得到一个叫<code>C2143</code>的错误，当然这是语法错误，你会注意到实际上它以字母<code>C</code>开头，这告诉我们是编译阶段。</p>
+<p>如果我们修复该错误然后构建整个项目，我们会看到这里列出的错误代码以单词<code>LNK</code>开头，它代表链接并告诉我们错误发生在链接阶段。在这种情况下它告诉我们入口点必须被重新定义，这是因为我们将其编译为一个应用程序，如果我们到项目属性看到配置类型为<code>.exe</code>：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210315183139138.png"></p>
 <p>每个<code>.exe</code>文件必须有某种入口点，如果我们到链接器设置找到高级设置，我们可以指定一个自定义的入口点。入口点不一定是<code>main</code>函数，它可以是任何东西，只要有一个入口点就行了，但通常它是<code>main</code>函数：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210315183220903.png"></p>
 <p>我们回到这里把<code>main</code>函数写出来：</p>
 <figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line"></span><br><span class="line">void Log(const char* message)&#123;</span><br><span class="line">  std::cout &lt;&lt; message &lt;&lt; std::endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int Multiply(int a,int b)&#123;</span><br><span class="line">  Log(&quot;Multiply&quot;);</span><br><span class="line">  return a * b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="addition">+int main()&#123;</span></span><br><span class="line"></span><br><span class="line"><span class="addition">+&#125;</span></span><br></pre></td></tr></table></figure>
 
@@ -959,6 +961,98 @@
 <p>再次构建项目我们不再得到那个链接错误，并且成功地生成了<code>.exe</code>文件。现在我们把<code>Multiply()</code>函数打印出来：</p>
 <figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line"></span><br><span class="line">void Log(const char* message)&#123;</span><br><span class="line">  std::cout &lt;&lt; message &lt;&lt; std::endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int Multiply(int a,int b)&#123;</span><br><span class="line">  Log(&quot;Multiply&quot;);</span><br><span class="line">  return a * b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"><span class="addition">+  std::cout &lt;&lt; Multiply(5,8) &lt;&lt; endl;</span></span><br><span class="line"><span class="addition">+  std::cin.get();</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210315183116700.png"></p>
+<p>好了，现在假设这个<code>Log</code>实际上并不需要在这个<code>math.cpp</code>文件内，用一个单独的文件包含我所有的日志相关函数：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; message &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>回到<code>main.cpp</code>对这个函数进行声明：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Multiply</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">  Log(<span class="string">&quot;Multiply&quot;</span>);</span><br><span class="line">  <span class="keyword">return</span> a * b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; Multiply(<span class="number">5</span>,<span class="number">8</span>) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cin</span>.get();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h5 id="未解决的外部符号"><a href="#未解决的外部符号" class="headerlink" title="未解决的外部符号"></a>未解决的外部符号</h5><p>让我们来看看一种链接错误类型，我们可能会遇到未解决的外部符号（unresolved external symbol），一般是当链接器找不到它需要的东西时发生。比如现在我将<code>Log.cpp</code>的函数名更改为<code>Logr</code>：</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line"></span><br><span class="line"><span class="deletion">-void Log(const char* message)&#123;</span></span><br><span class="line"><span class="addition">+void Logr(const char* message)&#123;</span></span><br><span class="line">  std::cout &lt;&lt; message &lt;&lt; std::endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>重新编译<code>math.cpp</code>，编译成功，因为这个环节不包含链接，而编译器认为在某个地方存在这样一个<code>Log</code>函数，这是链接的工作。所以当我们构建整个项目得到一个以<code>LNK</code>为首的错误，表示未解决的外部符号。幸运的是它告诉我们我们在哪里引用了它，这里是在<code>Multiply</code>函数中，所以如果我们在该函数中不调用<code>Log()</code>则没有错误。发生这种情况的原因是我从来没有调用过<code>Log</code>函数，所以链接器不需要去链接这个<code>Log</code>函数。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Multiply</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">  <span class="comment">//Log(&quot;Multiply&quot;);</span></span><br><span class="line">  <span class="keyword">return</span> a * b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; Multiply(<span class="number">5</span>,<span class="number">8</span>) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cin</span>.get();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>另一个比较有趣的一点是如果我注销掉<code>Multiply</code>函数，也就不会调用<code>Log</code>函数。现在构建项目仍会出现链接报错：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Multiply</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">  Log(<span class="string">&quot;Multiply&quot;</span>);</span><br><span class="line">  <span class="keyword">return</span> a * b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="comment">//std::cout &lt;&lt; Multiply(5,8) &lt;&lt; endl;</span></span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cin</span>.get();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210315202859380.png"></p>
+<p>为什么会这样呢？我们没有在任何地方调用<code>Multiply</code>函数，为什么它会抱怨链接错误？我们可不可以说这些没用的死代码一点意义都没有呢？大错特错，因为在这个文件这里我们虽然用不到<code>Multiply</code>函数，但从技术上讲我们在另一个文件中可能会使用它，所以链接器缺失需要链接它。如果我们能告诉编译器这个<code>Multiply</code>函数我只会在这个文件中使用它，那么我们可以去掉这个链接必要性，因为<code>Multiply</code>从未被调用，也就是不需要调用<code>Log</code>函数。</p>
+<p>有一个方法我们可以做到，如果我们在<code>Multiply</code>之前写下<code>static</code>静态这个词，意味着这个函数只被声明在这个翻译单元中，也就是我们的<code>math.cpp</code>文件：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">int</span> <span class="title">Multiply</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">  Log(<span class="string">&quot;Multiply&quot;</span>);</span><br><span class="line">  <span class="keyword">return</span> a * b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="comment">//std::cout &lt;&lt; Multiply(5,8) &lt;&lt; endl;</span></span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cin</span>.get();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>在本例中，我们实际上修改了函数的名字，然而这不仅仅是函数的名字很重要，如果我把函数名字改回来但返回类型改为<code>int</code>，然后返回0或者类似的值：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; message &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>构建项目我得到一个错误，因为我们在<code>math.cpp</code>中声明<code>Log()</code>是一个返回值为<code>void</code>的函数。正因如此我们需要找到一个名为<code>Log</code>并返回<code>void</code>的函数，修改返回类型恢复正常。同样的如果我们更改参数例如增加一个<code>level</code>，构建项目依然会得到一个链接错误，因为它期望的<code>Log</code>函数没有另一个参数。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message,<span class="keyword">int</span> level)</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; message &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>就是这样，如果它找不到确切的函数定义你会得到一个链接错误。</p>
+<h5 id="重复符号"><a href="#重复符号" class="headerlink" title="重复符号"></a>重复符号</h5><p>另一种常见的链接错误是我们有重复的符号，换句话说我们有函数或变量有着相同的名字或声明。如果发生两个名字相同的函数有相同的返回值和相同的参数，我们就有麻烦了。我们陷入困境的原因是因为链接不知道该链接到哪一个函数，它是模棱两可的。</p>
+<p>回到我们的代码，编写<code>Log()</code>函数的另一个版本：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; message &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; message &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<p>我们会得到一个编译错误，这个函数已有主体，这个代码是无效的。编译器可以直接帮助我们解决这些问题，因为这一切都发生在一个文件中，发生错误的时候还没开始链接。但是如果我把它移到一个不同的地方例如<code>main.cpp</code>：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; message &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">int</span> <span class="title">Multiply</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">  Log(<span class="string">&quot;Multiply&quot;</span>);</span><br><span class="line">  <span class="keyword">return</span> a * b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; Multiply(<span class="number">5</span>,<span class="number">8</span>) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cin</span>.get();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>在<code>math.cpp</code>中我们只有一个<code>Log</code>的定义，所以它不会给我们一个编译错误。但如果构建项目我们会得到一个链接错误，它告诉我们已经有了这个<code>Log</code>函数定义在<code>Log.obj</code>文件中。在这种情况下链接不知道<code>Log</code>函数链接到哪一个，是链接<code>math.cpp</code>里面的呢还是<code>Log.cpp</code>里面的呢，链接器它不知道。</p>
+<p>你可能认为这种类型的错误不是经常会发生的事情，你会做的聪明些。然而这很可能会悄悄发生在你身上，下面来展示几种情况。首先去掉<code>math.cpp</code>中重复定义的<code>Log()</code>函数，成功构建项目。现在让我们创建一个名为<code>Log.h</code>的头文件，将之前<code>Log.cpp</code>的定义剪切过来：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; message &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>返回<code>Log.cpp</code>定义一个<code>InitLog</code>函数调用<code>Log</code>函数：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;Log.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">InitLog</span><span class="params">()</span></span>&#123;</span><br><span class="line">  Log(<span class="string">&quot;Initialized Log&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>再次构建项目我们得到一个或多个符号被多重定义的错误：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210315203054134.png"></p>
+<p>这个重复符号的错误信息很奇怪，事实上我只有一个<code>Log</code>函数的定义，它为什么会说多重符号呢？这就回到了<code>include</code>语句的工作原理，当我们包含头文件时我们取头文件的内容，把它放在<code>include</code>语句的地方。所以实际发生的是因为<code>#include &quot;Log.h&quot;</code>这个<code>Log</code>函数被定义在<code>math.cpp</code>和<code>Log.cpp</code>中，这样我们有了2个相同的函数定义。</p>
+<p>那么我们该如何解决这个问题呢？我们有几个选择，如果我们撤销刚才的复制操作我们可以将这个<code>Log</code>函数标记为静态，这意味着在链接到<code>Log</code>函数时<code>Log</code>函数只能是内部函数，也就是说<code>Log.cpp</code>和<code>math.cpp</code>文件中的<code>Log</code>函数只能是文件的内部函数，就像<code>Multiply</code>函数一样。所以<code>Log.cpp</code>和<code>math.cpp</code>都会有自己的<code>Log</code>函数，它对任何其他的<code>.obj</code>文件都不可见：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; message &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>如果我们编译这个文件，我们不会得到任何报错：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210315202959948.png"></p>
+<p>还有另外一个办法是<code>inline</code>：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; message &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><code>inline</code>的意思是获取我们实际的函数体并将函数调用替换为函数体，在这种情况下<code>InitLog</code>函数变成了这样：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;Log.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">InitLog</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;Initialized Log&quot;</span> &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>如果我们构建项目，依然没有错误。</p>
+<p>还有另一种方法可以解决这个问题，在这种情况下我会把它的定义转移到一个翻译单元。因为现在的情况是这个<code>Log</code>函数的定义列入了两个翻译单元（<code>Log.cpp</code>和<code>math.cpp</code>），这是导致错误的首要原因。我们可以把它搬到第三个翻译单元或者把<code>Log</code>的定义放进现有的这些翻译单元。由于<code>Log.cpp</code>与该功能有关，所以我们把定义放入<code>Log.cpp</code>：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;Log.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; message &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">&#125;s</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">InitLog</span><span class="params">()</span></span>&#123;</span><br><span class="line">  Log(<span class="string">&quot;Initialized Log&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>而<code>Log.h</code>仅仅保留函数的声明即可：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>现在<code>Log</code>函数的链接被放进了<code>Log.cpp</code>中，在我们项目的一个翻译单元中，然后<code>main</code>函数会调用到它。构建项目，我们没有链接错误，我们的项目能够成功链接：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210315202938517.png"></p>
+<p>记住，在工作结束的时候链接器需要带走我们所有的目标文件并将它们链接到一起，它也链接我们可能用到的任何其他库，例如C运行时的库、C++的标准库、平台的API等等……从不同的地方链接是很常见的。还有不同类型的链接，我们有静态链接和动态链接，在以后的部分会提到。</p>
 ]]></content>
       <categories>
         <category>Cherno的C++笔记 (Cherno C++)</category>
@@ -12662,57 +12756,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#121;&#x6f;&#x6e;&#103;&#64;&#116;&#x73;&#105;&#110;&#103;&#104;&#x75;&#x61;&#46;&#101;&#x64;&#117;&#46;&#99;&#x6e;">&#x78;&#121;&#x6f;&#x6e;&#103;&#64;&#116;&#x73;&#105;&#110;&#103;&#104;&#x75;&#x61;&#46;&#101;&#x64;&#117;&#46;&#99;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#121;&#x6f;&#x6e;&#103;&#64;&#116;&#115;&#x69;&#110;&#x67;&#x68;&#117;&#97;&#x2e;&#101;&#100;&#117;&#x2e;&#99;&#110;">&#x78;&#121;&#x6f;&#x6e;&#103;&#64;&#116;&#115;&#x69;&#110;&#x67;&#x68;&#117;&#97;&#x2e;&#101;&#100;&#117;&#x2e;&#99;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#117;&#x63;&#104;&#101;&#x6e;&#x40;&#109;&#97;&#105;&#x6c;&#x2e;&#x74;&#x73;&#105;&#x6e;&#x67;&#x68;&#117;&#97;&#46;&#x65;&#100;&#x75;&#x2e;&#99;&#x6e;">&#x79;&#117;&#x63;&#104;&#101;&#x6e;&#x40;&#109;&#97;&#105;&#x6c;&#x2e;&#x74;&#x73;&#105;&#x6e;&#x67;&#x68;&#117;&#97;&#46;&#x65;&#100;&#x75;&#x2e;&#99;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#x75;&#99;&#104;&#101;&#x6e;&#64;&#109;&#97;&#x69;&#x6c;&#x2e;&#x74;&#x73;&#x69;&#x6e;&#x67;&#104;&#117;&#x61;&#46;&#x65;&#100;&#x75;&#46;&#x63;&#110;">&#121;&#x75;&#99;&#104;&#101;&#x6e;&#64;&#109;&#97;&#x69;&#x6c;&#x2e;&#x74;&#x73;&#x69;&#x6e;&#x67;&#104;&#117;&#x61;&#46;&#x65;&#100;&#x75;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#116;&#101;&#x72;&#x6e;&#x61;&#108;&#46;&#110;&#x30;&#56;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x65;&#116;&#101;&#x72;&#x6e;&#x61;&#108;&#46;&#110;&#x30;&#56;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#x74;&#101;&#x72;&#110;&#97;&#108;&#x2e;&#110;&#48;&#x38;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#101;&#x74;&#101;&#x72;&#110;&#97;&#108;&#x2e;&#110;&#48;&#x38;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#98;&#106;&#x65;&#99;&#116;&#x6b;&#117;&#x61;&#x6e;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#111;&#98;&#106;&#x65;&#99;&#116;&#x6b;&#117;&#x61;&#x6e;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x6f;&#x62;&#106;&#x65;&#99;&#116;&#107;&#x75;&#97;&#x6e;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x6f;&#x62;&#106;&#x65;&#99;&#116;&#107;&#x75;&#97;&#x6e;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#x72;&#x64;&#x66;&#x72;&#x61;&#110;&#x6b;&#64;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;">&#99;&#x72;&#x64;&#x66;&#x72;&#x61;&#110;&#x6b;&#64;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#99;&#114;&#x64;&#102;&#114;&#97;&#110;&#x6b;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#99;&#114;&#x64;&#102;&#114;&#97;&#110;&#x6b;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#97;&#x63;&#x63;&#x6f;&#114;&#97;&#x77;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#109;">&#116;&#97;&#x63;&#x63;&#x6f;&#114;&#97;&#x77;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#116;&#x61;&#x63;&#99;&#111;&#114;&#97;&#x77;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#116;&#x61;&#x63;&#99;&#111;&#114;&#97;&#x77;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#105;&#x6e;&#121;&#117;&#x6e;&#x78;&#x69;&#x6e;&#103;&#x30;&#x30;&#48;&#49;&#64;&#49;&#54;&#51;&#46;&#x63;&#111;&#x6d;">&#x78;&#105;&#x6e;&#121;&#117;&#x6e;&#x78;&#x69;&#x6e;&#103;&#x30;&#x30;&#48;&#49;&#64;&#49;&#54;&#51;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#120;&#x69;&#110;&#x79;&#117;&#110;&#120;&#105;&#x6e;&#x67;&#48;&#x30;&#48;&#x31;&#x40;&#x31;&#54;&#51;&#46;&#99;&#111;&#109;">&#120;&#x69;&#110;&#x79;&#117;&#110;&#120;&#105;&#x6e;&#x67;&#48;&#x30;&#48;&#x31;&#x40;&#x31;&#54;&#51;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#x6e;&#x6f;&#99;&#117;&#x69;&#108;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;">&#103;&#x6e;&#x6f;&#99;&#117;&#x69;&#108;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#110;&#x6f;&#x63;&#117;&#x69;&#x6c;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">&#x67;&#110;&#x6f;&#x63;&#117;&#x69;&#x6c;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#121;&#x61;&#105;&#114;&#x69;&#97;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">&#109;&#121;&#x61;&#105;&#114;&#x69;&#97;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#109;&#x79;&#97;&#105;&#x72;&#x69;&#x61;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;">&#109;&#x79;&#97;&#105;&#x72;&#x69;&#x61;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#x68;&#x61;&#x6e;&#x67;&#114;&#97;&#105;&#x6e;&#x39;&#x31;&#49;&#x40;&#49;&#x36;&#51;&#x2e;&#x63;&#111;&#x6d;">&#x7a;&#x68;&#x61;&#x6e;&#x67;&#114;&#97;&#105;&#x6e;&#x39;&#x31;&#49;&#x40;&#49;&#x36;&#51;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#104;&#x61;&#x6e;&#x67;&#114;&#97;&#105;&#110;&#57;&#x31;&#49;&#x40;&#49;&#x36;&#x33;&#46;&#99;&#x6f;&#x6d;">&#x7a;&#104;&#x61;&#x6e;&#x67;&#114;&#97;&#105;&#110;&#57;&#x31;&#49;&#x40;&#49;&#x36;&#x33;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#103;&#x78;&#x78;&#x31;&#x32;&#48;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#x6d;">&#103;&#103;&#x78;&#x78;&#x31;&#x32;&#48;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#103;&#120;&#120;&#x31;&#50;&#48;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;">&#x67;&#103;&#120;&#120;&#x31;&#50;&#48;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -17002,7 +17096,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#101;&#x6e;&#120;&#117;&#x40;&#116;&#101;&#x6e;&#x63;&#101;&#x6e;&#116;&#x2e;&#x63;&#111;&#x6d;">&#x6c;&#101;&#101;&#x6e;&#120;&#117;&#x40;&#116;&#101;&#x6e;&#x63;&#101;&#x6e;&#116;&#x2e;&#x63;&#111;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#x65;&#110;&#x78;&#x75;&#64;&#116;&#x65;&#110;&#99;&#101;&#110;&#116;&#x2e;&#99;&#x6f;&#109;">&#108;&#x65;&#x65;&#110;&#x78;&#x75;&#64;&#116;&#x65;&#110;&#99;&#101;&#110;&#116;&#x2e;&#99;&#x6f;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
