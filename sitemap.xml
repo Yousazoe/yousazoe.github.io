@@ -872,14 +872,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/RTS/</loc>
+    <loc>http://yousazoe.top/tags/FPS/</loc>
     <lastmod>2021-03-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/FPS/</loc>
+    <loc>http://yousazoe.top/tags/RTS/</loc>
     <lastmod>2021-03-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -963,6 +963,27 @@
   </url>
   
   <url>
+    <loc>http://yousazoe.top/tags/Write/</loc>
+    <lastmod>2021-03-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/Latex/</loc>
+    <lastmod>2021-03-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/Markdown/</loc>
+    <lastmod>2021-03-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/tags/Mooc/</loc>
     <lastmod>2021-03-17</lastmod>
     <changefreq>daily</changefreq>
@@ -985,27 +1006,6 @@
   
   <url>
     <loc>http://yousazoe.top/tags/GPS/</loc>
-    <lastmod>2021-03-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Write/</loc>
-    <lastmod>2021-03-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Latex/</loc>
-    <lastmod>2021-03-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Markdown/</loc>
     <lastmod>2021-03-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1147,6 +1147,13 @@
   </url>
   
   <url>
+    <loc>http://yousazoe.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-Blog-Building/</loc>
+    <lastmod>2021-03-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/categories/%E5%83%8F%E7%B4%A0%E7%BE%8E%E5%B7%A5-Pixel-Art-Designing/</loc>
     <lastmod>2021-03-17</lastmod>
     <changefreq>daily</changefreq>
@@ -1183,13 +1190,6 @@
   
   <url>
     <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7%E7%AE%B1-Game-Maker-Toolkit/</loc>
-    <lastmod>2021-03-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-Blog-Building/</loc>
     <lastmod>2021-03-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
