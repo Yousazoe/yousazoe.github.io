@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Window Abstraction and GLFW</title>
+    <url>/archives/88888a29.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/46ef8e61408483.5a6df91d1f7c6.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/61408483/Memories">Memories</a> by 
+      <a href="https://www.behance.net/MChahin">Mohamed Chahin</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><span id="more"></span>
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>游戏引擎开发 (Game Engine Series)</category>
+      </categories>
+      <tags>
+        <tag>Cpp</tag>
+        <tag>Game Engine</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Precomplied Headers</title>
     <url>/archives/247d3b60.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/f3f4d382356033.5d1b312d61f67.png"></p>
