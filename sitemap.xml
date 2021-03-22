@@ -921,6 +921,13 @@
   </url>
   
   <url>
+    <loc>http://yousazoe.top/tags/INDIE/</loc>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/tags/RPG/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
@@ -929,13 +936,6 @@
   
   <url>
     <loc>http://yousazoe.top/tags/MMORPG/</loc>
-    <lastmod>2021-03-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/INDIE/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1026,7 +1026,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/GPS/</loc>
+    <loc>http://yousazoe.top/tags/Population/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1040,7 +1040,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Population/</loc>
+    <loc>http://yousazoe.top/tags/GPS/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1075,13 +1075,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/PAT/</loc>
-    <lastmod>2021-03-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/tags/Lua/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
@@ -1090,6 +1083,13 @@
   
   <url>
     <loc>http://yousazoe.top/tags/Pico-8/</loc>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/PAT/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1175,13 +1175,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-Blog-Building/</loc>
-    <lastmod>2021-03-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/categories/Cherno%E7%9A%84C-%E7%AC%94%E8%AE%B0-Cherno-C/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
@@ -1245,6 +1238,13 @@
   </url>
   
   <url>
+    <loc>http://yousazoe.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-Blog-Building/</loc>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E8%BF%BD%E8%B8%AA-Game-Tracker/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
@@ -1280,14 +1280,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%83%BD%E5%8A%9B%E8%80%83%E8%AF%95-Programing-Ability-Test/</loc>
+    <loc>http://yousazoe.top/categories/Pico-8-%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E-Pico-8-Game-Engine/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/Pico-8-%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E-Pico-8-Game-Engine/</loc>
+    <loc>http://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%83%BD%E5%8A%9B%E8%80%83%E8%AF%95-Programing-Ability-Test/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1315,13 +1315,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7-Coding-Skill/</loc>
-    <lastmod>2021-03-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-Data-Structure/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
@@ -1330,6 +1323,13 @@
   
   <url>
     <loc>http://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%83%8F%E5%AD%A6-Foundations-of-Computer-Graphics/</loc>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7-Coding-Skill/</loc>
     <lastmod>2021-03-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

@@ -6,7 +6,7 @@
   <link href="http://yousazoe.top/atom.xml" rel="self"/>
   
   <link href="http://yousazoe.top/"/>
-  <updated>2021-03-22T08:17:01.978Z</updated>
+  <updated>2021-03-22T08:47:42.722Z</updated>
   <id>http://yousazoe.top/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>CPP2</title>
+    <title>C++语法基础</title>
     <link href="http://yousazoe.top/archives/b6350aab.html"/>
     <id>http://yousazoe.top/archives/b6350aab.html</id>
     <published>2021-03-22T07:59:50.000Z</published>
-    <updated>2021-03-22T08:17:01.978Z</updated>
+    <updated>2021-03-22T08:47:42.722Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/749d2b61408483.5a6df91d1ecfa.jpg"></p><div align=center>  <font size="3">    <i>      <a href="https://www.behance.net/gallery/61408483/Memories">Memories</a> by       <a href="https://www.behance.net/MChahin">Mohamed Chahin</a>    </i>  </font></div><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列将讲解C++需知道的一切内容，涵盖这门语言的基础知识。本节将开始讲解C++的语法内容。</p><span id="more"></span><h3 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h3><p>今天我们来讨论一下C++中的变量。一个C++程序中我们希望使用数据，而编程的大部分内容实际上都是在使用数据，我们操作任何类型的数据；我们在程序中使用任何数据，包括我们想要改变的、我们想修改的、我们想要读和写的……我们需要把这个数据存储进这个叫“变量”的东西。</p><p>变量允许我们命名我们存储在内存中的数据继续使用它。举个例子，假设你正在制作一款游戏，你有一个球员，在你的游戏中球员角色在地图有一个位置而角色可以移动，我们需要你能够存储球员的位置，位置在我们的内存中是一个变量。当需要把球员放在屏幕上或与关卡的其他部分互动时我们才能看到球员到底在哪里，我们想要用一个变量存储球员位置。</p><p>无论什么编程语言，变量是所有程序中最基本的。我们需要能够利用数据将数据存储在某个地方，当我们创建一个变量时，它被存储在内存中（具体是两个地方：堆和栈）。在之后的章节会介绍内存的深度解释，不过现在我们只要知道变量确实会占用内存，那是我们实际存储数据的地方。</p><p>在C++中我们有许多定义好的数据类型，这些基本的数据类型构成了我们在程序中存储的任何数据。每种数据类型都有特定的用途，虽然它有特定的用途，实际上你也不一定就是用于这个目的。C++是一种非常强大的语言，这意味着实际上对我们有很少的约束，当我解释变量时，我喜欢这么说：<strong>不同变量类型之间唯一的区别在C++中是大小</strong>，也就是这个变量会占用多少内存。</p><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;Hello World!&quot;</span> &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cin</span>.get();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
