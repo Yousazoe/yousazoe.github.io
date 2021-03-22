@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>CPP2</title>
+    <url>/archives/b6350aab.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/749d2b61408483.5a6df91d1ecfa.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/61408483/Memories">Memories</a> by 
+      <a href="https://www.behance.net/MChahin">Mohamed Chahin</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列将讲解C++需知道的一切内容，涵盖这门语言的基础知识。本节将开始讲解C++的语法内容。</p>
+<span id="more"></span>
+
+
+
+
+
+<h3 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h3><p>今天我们来讨论一下C++中的变量。一个C++程序中我们希望使用数据，而编程的大部分内容实际上都是在使用数据，我们操作任何类型的数据；我们在程序中使用任何数据，包括我们想要改变的、我们想修改的、我们想要读和写的……我们需要把这个数据存储进这个叫“变量”的东西。</p>
+<p>变量允许我们命名我们存储在内存中的数据继续使用它。举个例子，假设你正在制作一款游戏，你有一个球员，在你的游戏中球员角色在地图有一个位置而角色可以移动，我们需要你能够存储球员的位置，位置在我们的内存中是一个变量。当需要把球员放在屏幕上或与关卡的其他部分互动时我们才能看到球员到底在哪里，我们想要用一个变量存储球员位置。</p>
+<p>无论什么编程语言，变量是所有程序中最基本的。我们需要能够利用数据将数据存储在某个地方，当我们创建一个变量时，它被存储在内存中（具体是两个地方：堆和栈）。在之后的章节会介绍内存的深度解释，不过现在我们只要知道变量确实会占用内存，那是我们实际存储数据的地方。</p>
+<p>在C++中我们有许多定义好的数据类型，这些基本的数据类型构成了我们在程序中存储的任何数据。每种数据类型都有特定的用途，虽然它有特定的用途，实际上你也不一定就是用于这个目的。C++是一种非常强大的语言，这意味着实际上对我们有很少的约束，当我解释变量时，我喜欢这么说：<strong>不同变量类型之间唯一的区别在C++中是大小</strong>，也就是这个变量会占用多少内存。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;Hello World!&quot;</span> &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cin</span>.get();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>Cherno的C++笔记 (Cherno C++)</category>
+      </categories>
+      <tags>
+        <tag>Cpp</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Window Abstraction and GLFW</title>
     <url>/archives/88888a29.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/46ef8e61408483.5a6df91d1f7c6.jpg"></p>
@@ -535,8 +575,9 @@
     </i>
   </font>
 </div>
+### 引言
 
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>这个系列将讲解C++需知道的一切内容，涵盖这门语言的基础知识。本节将会简单介绍C++这门语言并学会在不同平台（Windows、MacOS、Linux）安装以及C++是如何工作的。</p>
+<p>这个系列将讲解C++需知道的一切内容，涵盖这门语言的基础知识。本节将会简单介绍C++这门语言并学会在不同平台（Windows、MacOS、Linux）安装以及C++是如何工作的。</p>
 <span id="more"></span>
 
 
@@ -13270,57 +13311,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#x79;&#x6f;&#x6e;&#x67;&#64;&#x74;&#115;&#x69;&#110;&#x67;&#104;&#x75;&#97;&#x2e;&#101;&#100;&#117;&#x2e;&#x63;&#x6e;">&#x78;&#x79;&#x6f;&#x6e;&#x67;&#64;&#x74;&#115;&#x69;&#110;&#x67;&#104;&#x75;&#97;&#x2e;&#101;&#100;&#117;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#x79;&#x6f;&#110;&#103;&#64;&#x74;&#x73;&#x69;&#x6e;&#x67;&#x68;&#117;&#97;&#x2e;&#x65;&#100;&#x75;&#46;&#99;&#110;">&#x78;&#x79;&#x6f;&#110;&#103;&#64;&#x74;&#x73;&#x69;&#x6e;&#x67;&#x68;&#117;&#97;&#x2e;&#x65;&#100;&#x75;&#46;&#99;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#117;&#x63;&#104;&#101;&#x6e;&#64;&#x6d;&#x61;&#105;&#108;&#46;&#x74;&#x73;&#x69;&#110;&#x67;&#104;&#x75;&#x61;&#46;&#101;&#100;&#x75;&#46;&#x63;&#110;">&#121;&#117;&#x63;&#104;&#101;&#x6e;&#64;&#x6d;&#x61;&#105;&#108;&#46;&#x74;&#x73;&#x69;&#110;&#x67;&#104;&#x75;&#x61;&#46;&#101;&#100;&#x75;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#x75;&#99;&#104;&#101;&#110;&#x40;&#109;&#97;&#x69;&#x6c;&#x2e;&#x74;&#x73;&#x69;&#110;&#x67;&#x68;&#x75;&#97;&#46;&#x65;&#x64;&#x75;&#46;&#99;&#x6e;">&#x79;&#x75;&#99;&#104;&#101;&#110;&#x40;&#109;&#97;&#x69;&#x6c;&#x2e;&#x74;&#x73;&#x69;&#110;&#x67;&#x68;&#x75;&#97;&#46;&#x65;&#x64;&#x75;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#116;&#101;&#x72;&#x6e;&#x61;&#108;&#46;&#x6e;&#48;&#56;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#x65;&#116;&#101;&#x72;&#x6e;&#x61;&#108;&#46;&#x6e;&#48;&#56;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#x74;&#101;&#x72;&#x6e;&#97;&#108;&#x2e;&#110;&#x30;&#56;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;">&#101;&#x74;&#101;&#x72;&#x6e;&#97;&#108;&#x2e;&#110;&#x30;&#56;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#x62;&#106;&#101;&#99;&#116;&#x6b;&#x75;&#97;&#110;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#x6f;&#x62;&#106;&#101;&#99;&#116;&#x6b;&#x75;&#97;&#110;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#x62;&#106;&#101;&#99;&#116;&#x6b;&#117;&#x61;&#x6e;&#64;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;">&#111;&#x62;&#106;&#101;&#99;&#116;&#x6b;&#117;&#x61;&#x6e;&#64;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#114;&#100;&#x66;&#114;&#x61;&#110;&#107;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#99;&#114;&#100;&#x66;&#114;&#x61;&#110;&#107;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#x72;&#100;&#102;&#x72;&#x61;&#110;&#107;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x63;&#x72;&#100;&#102;&#x72;&#x61;&#110;&#107;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#x61;&#x63;&#x63;&#111;&#x72;&#x61;&#x77;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#116;&#x61;&#x63;&#x63;&#111;&#x72;&#x61;&#x77;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#116;&#97;&#99;&#x63;&#x6f;&#114;&#97;&#x77;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#116;&#97;&#99;&#x63;&#x6f;&#114;&#97;&#x77;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#105;&#110;&#x79;&#x75;&#110;&#x78;&#x69;&#x6e;&#103;&#48;&#x30;&#48;&#x31;&#x40;&#x31;&#54;&#x33;&#46;&#x63;&#x6f;&#x6d;">&#120;&#105;&#110;&#x79;&#x75;&#110;&#x78;&#x69;&#x6e;&#103;&#48;&#x30;&#48;&#x31;&#x40;&#x31;&#54;&#x33;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#120;&#x69;&#110;&#x79;&#117;&#x6e;&#x78;&#x69;&#x6e;&#103;&#48;&#48;&#48;&#49;&#64;&#x31;&#x36;&#x33;&#x2e;&#x63;&#111;&#x6d;">&#120;&#x69;&#110;&#x79;&#117;&#x6e;&#x78;&#x69;&#x6e;&#103;&#48;&#48;&#48;&#49;&#64;&#x31;&#x36;&#x33;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#110;&#x6f;&#x63;&#x75;&#x69;&#x6c;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#109;">&#103;&#110;&#x6f;&#x63;&#x75;&#x69;&#x6c;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x6e;&#x6f;&#99;&#x75;&#105;&#x6c;&#64;&#103;&#109;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;">&#x67;&#x6e;&#x6f;&#99;&#x75;&#105;&#x6c;&#64;&#103;&#109;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#x79;&#x61;&#105;&#114;&#x69;&#97;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;">&#x6d;&#x79;&#x61;&#105;&#114;&#x69;&#97;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#x79;&#x61;&#x69;&#x72;&#x69;&#97;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#109;&#x79;&#x61;&#x69;&#x72;&#x69;&#97;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#x68;&#x61;&#110;&#103;&#114;&#x61;&#105;&#110;&#x39;&#x31;&#49;&#64;&#49;&#x36;&#51;&#46;&#x63;&#111;&#x6d;">&#x7a;&#x68;&#x61;&#110;&#103;&#114;&#x61;&#105;&#110;&#x39;&#x31;&#49;&#64;&#49;&#x36;&#51;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#x68;&#x61;&#x6e;&#x67;&#114;&#x61;&#105;&#x6e;&#x39;&#49;&#49;&#x40;&#x31;&#x36;&#51;&#x2e;&#99;&#x6f;&#109;">&#x7a;&#x68;&#x61;&#x6e;&#x67;&#114;&#x61;&#105;&#x6e;&#x39;&#49;&#49;&#x40;&#x31;&#x36;&#51;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#103;&#x78;&#x78;&#49;&#50;&#x30;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;">&#103;&#103;&#x78;&#x78;&#49;&#50;&#x30;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x67;&#120;&#120;&#x31;&#x32;&#48;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#109;">&#x67;&#x67;&#120;&#120;&#x31;&#x32;&#48;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -14683,8 +14724,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>Mathematical Modeling</tag>
         <tag>GPS</tag>
+        <tag>Mathematical Modeling</tag>
       </tags>
   </entry>
   <entry>
@@ -15058,8 +15099,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>Population</tag>
         <tag>Mathematical Modeling</tag>
+        <tag>Population</tag>
       </tags>
   </entry>
   <entry>
@@ -17610,7 +17651,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#x65;&#110;&#x78;&#x75;&#64;&#x74;&#101;&#x6e;&#x63;&#x65;&#110;&#x74;&#46;&#99;&#x6f;&#109;">&#x6c;&#x65;&#x65;&#110;&#x78;&#x75;&#64;&#x74;&#101;&#x6e;&#x63;&#x65;&#110;&#x74;&#46;&#99;&#x6f;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#x65;&#x6e;&#120;&#x75;&#64;&#x74;&#x65;&#110;&#x63;&#101;&#110;&#x74;&#46;&#99;&#x6f;&#109;">&#108;&#x65;&#x65;&#x6e;&#120;&#x75;&#64;&#x74;&#x65;&#110;&#x63;&#101;&#110;&#x74;&#46;&#99;&#x6f;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
