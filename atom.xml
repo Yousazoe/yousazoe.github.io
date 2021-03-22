@@ -6,7 +6,7 @@
   <link href="http://yousazoe.top/atom.xml" rel="self"/>
   
   <link href="http://yousazoe.top/"/>
-  <updated>2021-03-21T13:08:01.619Z</updated>
+  <updated>2021-03-21T16:26:22.051Z</updated>
   <id>http://yousazoe.top/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yousazoe.top/archives/88888a29.html"/>
     <id>http://yousazoe.top/archives/88888a29.html</id>
     <published>2021-03-21T08:57:01.000Z</published>
-    <updated>2021-03-21T13:08:01.619Z</updated>
+    <updated>2021-03-21T16:26:22.051Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/46ef8e61408483.5a6df91d1f7c6.jpg"></p><div align=center>  <font size="3">    <i>      <a href="https://www.behance.net/gallery/61408483/Memories">Memories</a> by       <a href="https://www.behance.net/MChahin">Mohamed Chahin</a>    </i>  </font></div><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>上一节我们构建了集成的编译头文件，而今天我们将创建一个图形化界面以便我们可以将东西渲染到我们的窗口上。</p><span id="more"></span><p>许多人第一步就是对其进行图形化。窗口确实非常有用，我们可以渲染文本和显示调试信息，可视化游戏引擎中实际起作用的事物，但游戏引擎中例如事件系统、应用程序系统中有很多看不到的东西实际上已经在运行，而这部分可能需要很长时间才能完成。</p><p>现在创建一个窗口，我们将使用一个名为<code>GLFW</code>的库，它拥有跨平台属性（例如Windows、Mac、Linux），是一种非常简单使用相关平台API创建窗口的方式。我不想花太多时间才能实际使用Win32 API创建窗口，所以我们选择OpenGL以便可以尽快得到反馈，尽管它在Windows上也许不是最好的（DirectX）。</p><h3 id="窗口类"><a href="#窗口类" class="headerlink" title="窗口类"></a>窗口类</h3><p>现在我们来考虑如何在不同平台上实现一个抽象的窗口类，后续有机会我们可以谈谈平台抽象及其工作原理，而今天我只想打开一个窗口并运行。本质上，我所构建的是一个平台文件夹，里面包含特定平台的代码；然后我创建了一个Windows文件夹并在平台文件夹中包含我们的渲染API代码，例如OpenGL、DirectX。</p><p>让我们添加<code>GLFW</code>库到我们的引擎中：</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/46ef8e61408483.5a6df91d1f7c6.jpg"></p><div align=center>  <font size="3">    <i>      <a href="https://www.behance.net/gallery/61408483/Memories">Memories</a> by       <a href="https://www.behance.net/MChahin">Mohamed Chahin</a>    </i>  </font></div><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>上一节我们构建了集成的编译头文件，而今天我们将创建一个图形化界面以便我们可以将东西渲染到我们的窗口上。</p><span id="more"></span><p>许多人第一步就是对其进行图形化。窗口确实非常有用，我们可以渲染文本和显示调试信息，可视化游戏引擎中实际起作用的事物，但游戏引擎中例如事件系统、应用程序系统中有很多看不到的东西实际上已经在运行，而这部分可能需要很长时间才能完成。</p><p>现在创建一个窗口，我们将使用一个名为<code>GLFW</code>的库，它拥有跨平台属性（例如Windows、Mac、Linux），是一种非常简单使用相关平台API创建窗口的方式。我不想花太多时间才能实际使用Win32 API创建窗口，所以我们选择OpenGL以便可以尽快得到反馈，尽管它在Windows上也许不是最好的（DirectX）。</p><h3 id="窗口类"><a href="#窗口类" class="headerlink" title="窗口类"></a>窗口类</h3><p>现在我们来考虑如何在不同平台上实现一个抽象的窗口类，后续有机会我们可以谈谈平台抽象及其工作原理，而今天我只想打开一个窗口并运行。本质上，我所构建的是一个平台文件夹，里面包含特定平台的代码；然后我创建了一个Windows文件夹并在平台文件夹中包含我们的渲染API代码，例如OpenGL、DirectX。</p><p>让我们添加<code>GLFW</code>库到我们的引擎中：</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git submodule add https://github.com/TheCherno/glfw Infinite/vendor/GLEW</span><br></pre></td></tr></table></figure><p>克隆之后我们有了<code>GLFW</code>，现在我们要做的是将其添加到预制文件中：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
     
     
     <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/46ef8e61408483.5a6df91d1f7c6.jpg&quot;&gt;&lt;/p&gt;
