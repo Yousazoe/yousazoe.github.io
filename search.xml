@@ -4,6 +4,16 @@
     <title>Ray Tracing in One Weekend</title>
     <url>/archives/cb66e903.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/zfk3Q1tuLECywHO.jpg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://matrix4f.com/Graphic/ray-tracing-in-one-weekend/">Ray Tracing In One Weekend</a>
+    </i>
+  </font>
+</div>
+
+
+
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p><a href="https://link.zhihu.com/?target=https://raytracing.github.io/books/RayTracingInOneWeekend.html">《Ray Tracing In One Weekend》</a>（《一周末搞定光线追踪》）， 由Peter Shirley（就是那本图形学虎书的作者）所编写的的软渲光追三部曲第一本, 是一本非常好的入门级书籍, 篇幅不多, 一共只有54页, 适合新手学习。</p>
 <span id="more"></span>
 
@@ -222,8 +232,72 @@
 <h4 id="Virtual-Reality"><a href="#Virtual-Reality" class="headerlink" title="Virtual Reality"></a>Virtual Reality</h4><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210323191429116.png"></p>
 <p>虚拟现实中的一切也都是全部由电脑生成的，这也是图形学的成果。</p>
 <h4 id="Simulation"><a href="#Simulation" class="headerlink" title="Simulation"></a>Simulation</h4><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210323194415527.png"></p>
-<p>模拟是图形学另一个非常重要的领域，比如左图的沙尘暴中模拟体现在模拟沙子如何在空气中飞舞，怎么样推过来，怎么把这些房屋摧枯拉朽。</p>
+<p>模拟是图形学另一个非常重要的领域，比如左图的沙尘暴中模拟体现在模拟沙子如何在空气中飞舞，怎么样推过来，怎么把这些房屋摧枯拉朽。又如黑洞模拟的是光线，并不是尘埃这种实际的物质。而光线靠近黑洞应该发生偏折，这些都是要精确模拟的东西。</p>
 <h4 id="Graphical-User-Interfaces"><a href="#Graphical-User-Interfaces" class="headerlink" title="Graphical User Interfaces"></a>Graphical User Interfaces</h4><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210323194904514.png"></p>
+<p>这里提到一个GUI图形用户接口，大家有人用过Windows有人用过Mac有人用过各种Linux发行版，这些设计都是属于图形学的范畴。</p>
+<h4 id="Typography"><a href="#Typography" class="headerlink" title="Typography"></a>Typography</h4><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210324082210419.png"></p>
+<p>再给大家介绍一下字体。如果咱们看一张图放大放大放大，最后会看到一个什么样的现象呢？变模糊了对不对？但是大家把字体字号调的非常大，还会发现很清楚。那么这个字体是拿什么表示的？它和图像有什么区别？为什么我们在任意放大的情况下都能看到连续的曲线呢？这时候就涉及到点阵和矢量这两个不同的概念，之后会给大家解释这个事情。</p>
+<p>多给大家普及一个知识，<em>The Quick Brown Fox Jumps Over The Lazy Dog</em>这句话是在字体测试中很常见的句子，因为它用尽了英文中的26个字母，所以一般这句话会出现两次，一次大写一次小写，可以测试字体的完整性。</p>
+<h4 id="Fundamental-Intellectual-Challenges"><a href="#Fundamental-Intellectual-Challenges" class="headerlink" title="Fundamental Intellectual Challenges"></a>Fundamental Intellectual Challenges</h4><ul>
+<li>Creates and interacts with realistic virtual world</li>
+<li>Requires understanding of all aspects of physical world</li>
+<li>New computing methods, displays, technologies</li>
+</ul>
+<p>图形学为什么难呢？因为它包括了很多东西，比如研究在真实世界中如何去做各种各样的东西，需要理解不同方面的物理规则……这是输入需要不同的计算方法，输出需要不同的显示方法，例如裸眼3D和全息影像等等。</p>
+<h4 id="Technical-Challenges"><a href="#Technical-Challenges" class="headerlink" title="Technical Challenges"></a>Technical Challenges</h4><ul>
+<li>Math of (perspective) projections, curves, surfaces</li>
+<li>Physics of lighting and shading</li>
+<li>Representing / operating shapes in 3D</li>
+<li>Animation / simulation </li>
+<li><del>3D graphics software programming and hardware</del></li>
+</ul>
+<p>根据个人对图形学的理解，这门课不会去做硬件的编程比如三维的应用OpenGL。计算机图形学就是OpenGL吗？图形学包括了很多东西，而OpenGL仅仅是图形学中的一个API。</p>
+<p>Forget about the previous reasons：<strong>Computer Graphics is AWESOME!</strong></p>
+<h3 id="Course-Topics"><a href="#Course-Topics" class="headerlink" title="Course Topics"></a>Course Topics</h3><h4 id="Rasterization"><a href="#Rasterization" class="headerlink" title="Rasterization"></a>Rasterization</h4><ul>
+<li>Project geometry primitives (3D triangles / polygons) onto the screen</li>
+<li>Break projected primitives into fragments (pixels)</li>
+<li>Gold standard in Video Games (Real-time Applications)</li>
+</ul>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210324085708960.png"></p>
+<p>什么是光栅化？把三维空间的几何形体显示在屏幕上，这就是光栅化。</p>
+<p>它是所有游戏或者实时计算机图形学的主要应用，实时在不同的领域有不同的定义，在计算机图形学下面实时的定义是每秒钟能够生成30帧画面，也就是30fps。实时会广泛应用光栅化方法，主要是做投影。</p>
+<h4 id="Curves-and-Meshes"><a href="#Curves-and-Meshes" class="headerlink" title="Curves and Meshes"></a>Curves and Meshes</h4><ul>
+<li>How to represent geometry in Computer Graphics</li>
+</ul>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210324090540152.png"></p>
+<p>几何领域着重介绍如何表示一条光滑的曲线，如何表示曲面，如何用简单的曲面通过细分的方法得到更复杂的曲面，比如在形状发生变化时如何保持物体的拓扑结构。</p>
+<h4 id="Ray-Tracing"><a href="#Ray-Tracing" class="headerlink" title="Ray Tracing"></a>Ray Tracing</h4><p><strong>Shoot rays from the camera though each pixel</strong></p>
+<ul>
+<li>Calculate intersection and shading</li>
+<li>Continue to bounce the rays till they hit light sources</li>
+</ul>
+<p><strong>Gold standard in Animations / Movies (Offline Applications)</strong></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210324091342276.png"></p>
+<p>光线追踪在动画和电影中着重使用，它能够生成非常逼真的画面，比如右边会显得非常美观。</p>
+<p>图形学中有很多事情为了达到某个目标牺牲一些其他的目标，光线追踪能达到很好的效果，但它就是慢。人都是贪婪的，但我认为这是好事情，正因为这样才会让人会去寻找一些两全其美的解决方法。</p>
+<h4 id="Animation-Simulation"><a href="#Animation-Simulation" class="headerlink" title="Animation / Simulation"></a>Animation / Simulation</h4><ul>
+<li>Key frame Animation</li>
+<li>Mass-spring System</li>
+</ul>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/slide_010.jpg"></p>
+<p>动画模拟仿真会讲到很多不同东西，比如大家扔一个弹性的球落到地上，如何被挤压，如何弹上去再下来……上图是布料材质的模拟效果，结果非常令人惊讶。</p>
+<h4 id="GAMES101-is-NOT-about"><a href="#GAMES101-is-NOT-about" class="headerlink" title="GAMES101 is NOT about"></a>GAMES101 is NOT about</h4><ul>
+<li><p>Using OpenGL / DirectX / Vulkan</p>
+</li>
+<li><p>The syntax of Shaders</p>
+</li>
+<li><p><strong>We learn Graphics,   not Graphics APIs!</strong></p>
+</li>
+<li><p>After this course,  you’ll be able to learn these  by yourself (<strong>I promise</strong>)</p>
+</li>
+<li><p>3D modeling using Maya / 3DS MAX / Blender, or   VR / game development using Unity / Unreal Engine  (where can I learn them?)</p>
+</li>
+</ul>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210324093233447.png"></p>
+<ul>
+<li>Computer Vision / Deep Learning topics, e.g. XYZ-GAN  (where can I learn them?)</li>
+</ul>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210324093143984.png"></p>
 ]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101)</category>
@@ -13659,57 +13733,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#x79;&#x6f;&#x6e;&#103;&#x40;&#x74;&#115;&#105;&#110;&#x67;&#104;&#x75;&#x61;&#46;&#101;&#100;&#x75;&#46;&#x63;&#110;">&#120;&#x79;&#x6f;&#x6e;&#103;&#x40;&#x74;&#115;&#105;&#110;&#x67;&#104;&#x75;&#x61;&#46;&#101;&#100;&#x75;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#x79;&#111;&#x6e;&#x67;&#x40;&#116;&#115;&#x69;&#x6e;&#x67;&#104;&#x75;&#x61;&#46;&#x65;&#100;&#x75;&#46;&#x63;&#110;">&#120;&#x79;&#111;&#x6e;&#x67;&#x40;&#116;&#115;&#x69;&#x6e;&#x67;&#104;&#x75;&#x61;&#46;&#x65;&#100;&#x75;&#46;&#x63;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#x75;&#99;&#x68;&#x65;&#110;&#x40;&#109;&#x61;&#105;&#x6c;&#46;&#116;&#115;&#105;&#x6e;&#103;&#104;&#x75;&#97;&#46;&#x65;&#100;&#x75;&#46;&#x63;&#110;">&#x79;&#x75;&#99;&#x68;&#x65;&#110;&#x40;&#109;&#x61;&#105;&#x6c;&#46;&#116;&#115;&#105;&#x6e;&#103;&#104;&#x75;&#97;&#46;&#x65;&#100;&#x75;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#121;&#117;&#x63;&#104;&#x65;&#x6e;&#x40;&#x6d;&#x61;&#105;&#x6c;&#46;&#x74;&#115;&#x69;&#x6e;&#103;&#x68;&#117;&#x61;&#x2e;&#101;&#100;&#117;&#46;&#99;&#110;">&#121;&#117;&#x63;&#104;&#x65;&#x6e;&#x40;&#x6d;&#x61;&#105;&#x6c;&#46;&#x74;&#115;&#x69;&#x6e;&#103;&#x68;&#117;&#x61;&#x2e;&#101;&#100;&#117;&#46;&#99;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#116;&#101;&#114;&#x6e;&#97;&#108;&#46;&#x6e;&#48;&#56;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x65;&#116;&#101;&#114;&#x6e;&#97;&#108;&#46;&#x6e;&#48;&#56;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x65;&#x74;&#101;&#114;&#x6e;&#x61;&#108;&#x2e;&#x6e;&#48;&#x38;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#x65;&#x74;&#101;&#114;&#x6e;&#x61;&#108;&#x2e;&#x6e;&#48;&#x38;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#x62;&#106;&#101;&#x63;&#x74;&#107;&#x75;&#x61;&#x6e;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#x6d;">&#x6f;&#x62;&#106;&#101;&#x63;&#x74;&#107;&#x75;&#x61;&#x6e;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#98;&#x6a;&#x65;&#x63;&#x74;&#x6b;&#117;&#x61;&#x6e;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#111;&#98;&#x6a;&#x65;&#x63;&#x74;&#x6b;&#117;&#x61;&#x6e;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#114;&#x64;&#102;&#x72;&#97;&#x6e;&#107;&#64;&#x67;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;">&#99;&#114;&#x64;&#102;&#x72;&#97;&#x6e;&#107;&#64;&#x67;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#99;&#114;&#100;&#102;&#114;&#x61;&#110;&#107;&#64;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#99;&#114;&#100;&#102;&#114;&#x61;&#110;&#107;&#64;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#97;&#x63;&#x63;&#111;&#x72;&#97;&#119;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x74;&#97;&#x63;&#x63;&#111;&#x72;&#97;&#119;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x74;&#97;&#99;&#x63;&#x6f;&#x72;&#x61;&#x77;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;">&#x74;&#97;&#99;&#x63;&#x6f;&#x72;&#x61;&#x77;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#105;&#110;&#x79;&#117;&#x6e;&#120;&#x69;&#x6e;&#103;&#x30;&#x30;&#x30;&#49;&#64;&#x31;&#x36;&#51;&#46;&#99;&#111;&#109;">&#120;&#105;&#110;&#x79;&#117;&#x6e;&#120;&#x69;&#x6e;&#103;&#x30;&#x30;&#x30;&#49;&#64;&#x31;&#x36;&#51;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#120;&#x69;&#x6e;&#x79;&#x75;&#110;&#x78;&#105;&#x6e;&#103;&#48;&#x30;&#x30;&#49;&#x40;&#x31;&#x36;&#x33;&#46;&#x63;&#111;&#109;">&#120;&#x69;&#x6e;&#x79;&#x75;&#110;&#x78;&#105;&#x6e;&#103;&#48;&#x30;&#x30;&#49;&#x40;&#x31;&#x36;&#x33;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#x6e;&#111;&#x63;&#x75;&#105;&#108;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;">&#x67;&#x6e;&#111;&#x63;&#x75;&#105;&#108;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#103;&#110;&#x6f;&#99;&#x75;&#x69;&#x6c;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">&#103;&#110;&#x6f;&#99;&#x75;&#x69;&#x6c;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#121;&#97;&#x69;&#114;&#x69;&#x61;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#109;">&#109;&#121;&#97;&#x69;&#114;&#x69;&#x61;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x6d;&#x79;&#97;&#105;&#114;&#x69;&#97;&#x40;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x6d;&#x79;&#97;&#105;&#114;&#x69;&#97;&#x40;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#x68;&#97;&#x6e;&#x67;&#114;&#97;&#x69;&#x6e;&#57;&#x31;&#49;&#64;&#49;&#x36;&#51;&#46;&#99;&#111;&#x6d;">&#122;&#x68;&#97;&#x6e;&#x67;&#114;&#97;&#x69;&#x6e;&#57;&#x31;&#49;&#64;&#49;&#x36;&#51;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x7a;&#104;&#97;&#x6e;&#x67;&#114;&#x61;&#105;&#110;&#57;&#x31;&#49;&#x40;&#x31;&#54;&#x33;&#46;&#x63;&#111;&#109;">&#x7a;&#104;&#97;&#x6e;&#x67;&#114;&#x61;&#105;&#110;&#57;&#x31;&#49;&#x40;&#x31;&#54;&#x33;&#46;&#x63;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#x67;&#x78;&#120;&#49;&#x32;&#x30;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">&#x67;&#x67;&#x78;&#120;&#49;&#x32;&#x30;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#103;&#103;&#x78;&#x78;&#x31;&#50;&#x30;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;">&#103;&#103;&#x78;&#x78;&#x31;&#50;&#x30;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -17999,7 +18073,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#101;&#101;&#x6e;&#x78;&#117;&#64;&#x74;&#101;&#110;&#x63;&#101;&#x6e;&#116;&#46;&#x63;&#111;&#x6d;">&#108;&#101;&#101;&#x6e;&#x78;&#117;&#64;&#x74;&#101;&#110;&#x63;&#101;&#x6e;&#116;&#46;&#x63;&#111;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#101;&#110;&#x78;&#x75;&#64;&#x74;&#101;&#110;&#99;&#101;&#110;&#x74;&#46;&#99;&#111;&#x6d;">&#x6c;&#x65;&#101;&#110;&#x78;&#x75;&#64;&#x74;&#101;&#110;&#99;&#101;&#110;&#x74;&#46;&#99;&#111;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
