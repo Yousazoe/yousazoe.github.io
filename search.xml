@@ -55,8 +55,85 @@
 <li>An operation like translating or rotating objects can be matrix-vector multiplication</li>
 </ul>
 <p>线性代数我们主要说一些向量、矩阵这些操作，向量就是点乘叉乘，矩阵就是矩阵与矩阵的乘积、矩阵和向量的乘积。比如图形学里面表示空间中的一个点有三个坐标<code>x</code>、<code>y</code>、<code>z</code>，我们用三个数来表示，这其实就是一种向量表示，还包括平移、旋转、缩放这种操作都可以表示成矩阵和向量的乘积。</p>
-<h3 id="An-Example-of-Rotation"><a href="#An-Example-of-Rotation" class="headerlink" title="An Example of Rotation"></a>An Example of Rotation</h3><p>![image-20210325191524611](/Users/apple/Library/Application Support/typora-user-images/image-20210325191524611.png)</p>
-]]></content>
+<h3 id="Vector"><a href="#Vector" class="headerlink" title="Vector"></a>Vector</h3><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210325193030642.png"></p>
+<ul>
+<li>Usually written as $\vec {a}$ or in bold $a$ !</li>
+<li>Or using start and end points $\vec {AB} = B - A$</li>
+<li>Direction and length</li>
+<li>No absolute starting position</li>
+</ul>
+<p>数学上一般叫向量，物理上更喜欢称为矢量，它表示的是一个方向，用粗体表示。向量具有方向和长度属性，例如$\vec {AB}$表示的就是从A指向B的方向。平移向量表示的都是一个向量，指向同一个方向就是同一个向量，在向量中我们并不关心绝对位置。</p>
+<h4 id="Vector-Normalization"><a href="#Vector-Normalization" class="headerlink" title="Vector Normalization"></a>Vector Normalization</h4><p><strong>Magnitude (length) of a vector written as</strong> $||\vec a||$</p>
+<p><strong>Unit vector</strong></p>
+<ul>
+<li>A vector with magnitude of 1</li>
+<li>Finding the unit vector of a vector (normalization): $\hat a=\vec a / ||\vec a||$</li>
+<li>Used to represent directions</li>
+</ul>
+<p>向量的长度可以给我提供单位向量，它的长度表示为1。原始的向量除以它的长度可以得到单位向量：$\hat a=\vec a / ||\vec a||$，在图形学中一般用单位向量表示方向，不关心它的长度。</p>
+<h4 id="Vector-Addition"><a href="#Vector-Addition" class="headerlink" title="Vector Addition"></a>Vector Addition</h4><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210325195031185.png"></p>
+<ul>
+<li>Geometrically: Parallelogram law &amp; Triangle law</li>
+<li>Algebraically: Simply add coordinates</li>
+</ul>
+<p>向量有很多基本操作，其中最简单的是向量求和。给出向量$\vec {a}$和$\vec {b}$，求$\vec a + \vec b$有平行四边形法则和三角形法则两种几何求解方法，代数上直接将坐标相加即可。</p>
+<h4 id="Cartesian-Coordinates"><a href="#Cartesian-Coordinates" class="headerlink" title="Cartesian Coordinates"></a>Cartesian Coordinates</h4><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210325200455697.png"></p>
+<p>X and Y can be any (usually orthogonal unit) vectors.</p>
+<p>$A = \begin{pmatrix} x \\ y\end{pmatrix}$  $\space A^T=\begin{pmatrix}x,y\end{pmatrix}$  $\space ||A||=\sqrt{x^2 + y^2}$</p>
+<p>这个例子同样是一个向量<strong>A</strong>，大家会看到有一个坐标系在这里，X向右Y向上。这里是用直角坐标系或者笛卡尔坐标系来描述这个向量，我就认为这个向量从原点开始，沿着X有一些单位向量向右走，沿着Y有一些单位向量向上走，那么向量<strong>A</strong>我们就可以用几个X加几个Y定义。</p>
+<p>这样做的好处在于我们可以直接用$(4,3)$来表示这么一个向量，并且向量长度也易于计算，在这里向量<strong>A</strong>的长度为$||A||=\sqrt{4^2+3^2}=5$。在图形学中没有特殊声明默认列向量。</p>
+<h4 id="Vector-Multiplication"><a href="#Vector-Multiplication" class="headerlink" title="Vector Multiplication"></a>Vector Multiplication</h4><h5 id="Dot-product"><a href="#Dot-product" class="headerlink" title="Dot product"></a>Dot product</h5><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210325202105379.png"></p>
+<p>For unit vectors: $\cos{\theta}=\hat{a} \cdot \hat{b}$</p>
+<p>向量的乘法和数字的乘法不太一样，向量的点乘定义为两者长度与其夹角的余弦的乘积：$\vec{a} \cdot \vec{b} = ||\vec a|| ||\vec b|| \cos{\theta}$。有一点需要注意的是两个向量点乘结果是一个数量。</p>
+<p>点乘的应用主要在对点乘定义的变化，比如将夹角余弦放在一边其余放在另一边：$\space \cos{\theta} = \frac{\vec a \cdot \vec b}{||\vec a||||\vec b||}$，也就是说给定两个向量可以算出两个向量夹角的余弦，进一步可以快速算出夹角的角度。有一个特殊情况，当两个向量都是单位向量时它们的长度都是1，公式可以简化为$\cos{\theta}=\hat{a} \cdot \hat{b}$。</p>
+<p><strong>Properties</strong></p>
+<p>$\vec a \cdot \vec b = \vec b \cdot \vec a$    $\space \vec a \cdot (\vec b + \vec c) = \vec a \cdot \vec b + \vec a \cdot \vec c$    $(k \vec a) \cdot \vec b = \vec a \cdot (k\vec b) = k(\vec a \cdot \vec b)$</p>
+<p>点乘本身作为一种运算有各种各样的性质，比如满足交换律、结合律和分配律。</p>
+<p><strong>Component-wise multiplication, then adding up</strong></p>
+<ul>
+<li><p>In 2D</p>
+<p>$\vec a \cdot \vec b = \begin{pmatrix}x_a \\ y_a\end{pmatrix}\begin{pmatrix}x_b \\ y_b\end{pmatrix} = x_ax_b + y_ay_b$</p>
+</li>
+<li><p>In 3D</p>
+<p>$\vec a \cdot \vec b = \begin{pmatrix}x_a \\ y_a \\ z_a\end{pmatrix} \cdot \begin{pmatrix}x_b \\ y_b \\ z_b\end{pmatrix} = x_ax_b + y_ay_b + z_az_b$</p>
+</li>
+</ul>
+<p>在直角坐标系下，点乘的运算会更加简单，对应元素的乘积相加即可。</p>
+<p><strong>Dot Product in Graphics</strong></p>
+<ul>
+<li>Find angle between two vectors  <br> (e.g. cosine of angle between light source and surface)</li>
+<li>Finding <strong>projection</strong> of one vector on another</li>
+</ul>
+<p>点乘在图形学中最大的作用是找到两个向量间的夹角，特别是之后我们在做光照模型时夹角的计算就是通过点乘来运算的。</p>
+<p><strong>Dot Product for Projection</strong></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210325211858208.png"></p>
+<p><strong>$\vec{b_{\perp}}$：projection of $\vec b$ onto</strong> $\vec b$</p>
+<ul>
+<li>$\vec{b_{\perp}}$ must be along $\vec a$ (or along $\hat a$)</li>
+</ul>
+<p><strong>What’s its magnitude k?</strong></p>
+<ul>
+<li>$k = ||\vec{b_{\perp}}||=||\vec b||\cos{\theta}$</li>
+</ul>
+<p>点乘另外一个用途是找到向量投影到另一个向量长什么样，比如上图我们想把$\vec b$投影到$\vec a$上，$\vec{b_{\perp}}$可以理解为阴影。</p>
+<p>既然是$\vec b$投影在$\vec a$上，那么$\vec{b_{\perp}}$一定与$\vec a$方向相同，所以我们一定可以将这个$\vec{b_{\perp}}$用$\vec a$表示，算出其长度即可。投影意味着直角三角形存在，根据三角函数可以很轻松的算出来。</p>
+<p><strong>Dot Product in Graphics</strong></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210325225832123.png"></p>
+<ul>
+<li>Measure how close   two directions are</li>
+<li>Decompose a vector</li>
+<li>Determine forward /   backward</li>
+</ul>
+<p>投影可以让我们把一个向量分解成两个向量，其中一个方向平行于某个方向，一个方向垂直于某个方向。比如说这里我们知道$\vec{b_{\perp}}$怎么算，那另外一个方向的向量就可以表示为$\vec b - \vec{b_{\perp}}$，所以点乘可以把向量进行任意的平行与垂直的分解。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210325230758136.png" alt="image-20210325230758136"></p>
+<ul>
+<li>Measure how close   two directions are</li>
+<li>Decompose a vector</li>
+<li>Determine forward /   backward</li>
+</ul>
+<p>在图形学中点乘还可以通过计算点乘的结果计算两个方向向量有多么接近，还可以告诉大家前与后的信息。如果有一个向量<strong>a</strong>给定了方向，从<strong>a</strong>的起点向上/下面方向看过去各会形成一个半圆，在这里圆被分成了两部分，可以看到<strong>b</strong>被视为与<strong>c</strong>同方向，而<strong>c</strong>则是相反方向。</p>
+<p>那我们该如何判断呢？点乘就是一个有效的手段，通过判断点乘的正负可以轻松判断。</p>
+<h5 id="Cross-product"><a href="#Cross-product" class="headerlink" title="Cross product"></a>Cross product</h5><h5 id="Orthonormal-bases-and-coordinate-fra"><a href="#Orthonormal-bases-and-coordinate-fra" class="headerlink" title="Orthonormal bases and coordinate fra"></a>Orthonormal bases and coordinate fra</h5>]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101)</category>
       </categories>
@@ -13895,57 +13972,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#x79;&#x6f;&#110;&#x67;&#64;&#116;&#x73;&#x69;&#110;&#x67;&#104;&#x75;&#97;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#x6e;">&#120;&#x79;&#x6f;&#110;&#x67;&#64;&#116;&#x73;&#x69;&#110;&#x67;&#104;&#x75;&#97;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#121;&#x6f;&#x6e;&#103;&#x40;&#116;&#x73;&#105;&#x6e;&#x67;&#x68;&#x75;&#97;&#x2e;&#x65;&#100;&#117;&#x2e;&#99;&#x6e;">&#x78;&#121;&#x6f;&#x6e;&#103;&#x40;&#116;&#x73;&#105;&#x6e;&#x67;&#x68;&#x75;&#97;&#x2e;&#x65;&#100;&#117;&#x2e;&#99;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#117;&#x63;&#x68;&#x65;&#110;&#x40;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x74;&#x73;&#105;&#110;&#103;&#104;&#117;&#97;&#46;&#101;&#x64;&#117;&#46;&#99;&#110;">&#x79;&#117;&#x63;&#x68;&#x65;&#110;&#x40;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x74;&#x73;&#105;&#110;&#103;&#104;&#117;&#97;&#46;&#101;&#x64;&#117;&#46;&#99;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#x75;&#99;&#104;&#101;&#110;&#x40;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x74;&#x73;&#105;&#110;&#103;&#x68;&#117;&#x61;&#x2e;&#101;&#100;&#x75;&#46;&#99;&#110;">&#x79;&#x75;&#99;&#104;&#101;&#110;&#x40;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x74;&#x73;&#105;&#110;&#103;&#x68;&#117;&#x61;&#x2e;&#101;&#100;&#x75;&#46;&#99;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#x74;&#x65;&#x72;&#x6e;&#x61;&#x6c;&#x2e;&#110;&#48;&#56;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#109;">&#x65;&#x74;&#x65;&#x72;&#x6e;&#x61;&#x6c;&#x2e;&#110;&#48;&#56;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x65;&#116;&#x65;&#114;&#110;&#97;&#108;&#x2e;&#110;&#x30;&#x38;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x65;&#116;&#x65;&#114;&#110;&#97;&#108;&#x2e;&#110;&#x30;&#x38;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#98;&#106;&#x65;&#99;&#x74;&#x6b;&#x75;&#x61;&#110;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#x6f;&#98;&#106;&#x65;&#99;&#x74;&#x6b;&#x75;&#x61;&#110;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x6f;&#x62;&#106;&#101;&#x63;&#x74;&#107;&#117;&#x61;&#110;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#x6f;&#x62;&#106;&#101;&#x63;&#x74;&#107;&#117;&#x61;&#110;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#x72;&#x64;&#102;&#x72;&#x61;&#x6e;&#107;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#99;&#x72;&#x64;&#102;&#x72;&#x61;&#x6e;&#107;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#x72;&#x64;&#102;&#x72;&#x61;&#110;&#x6b;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;">&#99;&#x72;&#x64;&#102;&#x72;&#x61;&#110;&#x6b;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#x61;&#x63;&#x63;&#x6f;&#x72;&#x61;&#119;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#x74;&#x61;&#x63;&#x63;&#x6f;&#x72;&#x61;&#119;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#116;&#x61;&#x63;&#99;&#111;&#114;&#x61;&#119;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#116;&#x61;&#x63;&#99;&#111;&#114;&#x61;&#119;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#x69;&#110;&#121;&#x75;&#x6e;&#120;&#105;&#x6e;&#103;&#x30;&#x30;&#x30;&#49;&#64;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#109;">&#120;&#x69;&#110;&#121;&#x75;&#x6e;&#120;&#105;&#x6e;&#103;&#x30;&#x30;&#x30;&#49;&#64;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x78;&#x69;&#110;&#x79;&#117;&#x6e;&#x78;&#x69;&#x6e;&#x67;&#48;&#x30;&#x30;&#49;&#x40;&#x31;&#x36;&#x33;&#46;&#99;&#x6f;&#109;">&#x78;&#x69;&#110;&#x79;&#117;&#x6e;&#x78;&#x69;&#x6e;&#x67;&#48;&#x30;&#x30;&#49;&#x40;&#x31;&#x36;&#x33;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#x6e;&#x6f;&#x63;&#117;&#x69;&#108;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#x67;&#x6e;&#x6f;&#x63;&#117;&#x69;&#108;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#110;&#111;&#x63;&#117;&#105;&#108;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#x67;&#110;&#111;&#x63;&#117;&#105;&#108;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#x79;&#x61;&#105;&#114;&#x69;&#97;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x6d;&#x79;&#x61;&#105;&#114;&#x69;&#97;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#121;&#x61;&#x69;&#x72;&#105;&#97;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#109;&#121;&#x61;&#x69;&#x72;&#105;&#97;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#x68;&#x61;&#110;&#x67;&#x72;&#x61;&#105;&#110;&#x39;&#x31;&#49;&#x40;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;">&#122;&#x68;&#x61;&#110;&#x67;&#x72;&#x61;&#105;&#110;&#x39;&#x31;&#49;&#x40;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#122;&#x68;&#97;&#x6e;&#x67;&#x72;&#x61;&#x69;&#110;&#x39;&#49;&#x31;&#x40;&#49;&#54;&#51;&#x2e;&#99;&#111;&#109;">&#122;&#x68;&#97;&#x6e;&#x67;&#x72;&#x61;&#x69;&#110;&#x39;&#49;&#x31;&#x40;&#49;&#54;&#51;&#x2e;&#99;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#103;&#120;&#x78;&#x31;&#50;&#x30;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#103;&#120;&#x78;&#x31;&#50;&#x30;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#103;&#103;&#x78;&#120;&#x31;&#x32;&#x30;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#103;&#103;&#x78;&#120;&#x31;&#x32;&#x30;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -18235,7 +18312,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#101;&#x6e;&#120;&#117;&#x40;&#116;&#x65;&#110;&#99;&#x65;&#x6e;&#116;&#46;&#x63;&#111;&#x6d;">&#x6c;&#x65;&#101;&#x6e;&#120;&#117;&#x40;&#116;&#x65;&#110;&#99;&#x65;&#x6e;&#116;&#46;&#x63;&#111;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#101;&#110;&#x78;&#117;&#64;&#x74;&#x65;&#x6e;&#99;&#101;&#110;&#x74;&#x2e;&#99;&#111;&#x6d;">&#108;&#x65;&#101;&#110;&#x78;&#117;&#64;&#x74;&#x65;&#x6e;&#99;&#101;&#110;&#x74;&#x2e;&#99;&#111;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
