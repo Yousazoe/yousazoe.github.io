@@ -816,6 +816,20 @@
 
   
   <url>
+    <loc>http://yousazoe.top/tags/Story/</loc>
+    <lastmod>2021-03-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/Celeste/</loc>
+    <lastmod>2021-03-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/tags/Algorithm/</loc>
     <lastmod>2021-03-25</lastmod>
     <changefreq>daily</changefreq>
@@ -838,20 +852,6 @@
   
   <url>
     <loc>http://yousazoe.top/tags/Cpp/</loc>
-    <lastmod>2021-03-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Story/</loc>
-    <lastmod>2021-03-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Celeste/</loc>
     <lastmod>2021-03-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -908,13 +908,6 @@
   
   <url>
     <loc>http://yousazoe.top/tags/Game/</loc>
-    <lastmod>2021-03-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/MOBA/</loc>
     <lastmod>2021-03-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1061,7 +1054,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/GPS/</loc>
+    <loc>http://yousazoe.top/tags/Population/</loc>
     <lastmod>2021-03-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1075,7 +1068,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Population/</loc>
+    <loc>http://yousazoe.top/tags/GPS/</loc>
     <lastmod>2021-03-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1145,6 +1138,13 @@
   </url>
   
   <url>
+    <loc>http://yousazoe.top/tags/MOBA/</loc>
+    <lastmod>2021-03-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/tags/Fluid/</loc>
     <lastmod>2021-03-25</lastmod>
     <changefreq>daily</changefreq>
@@ -1189,14 +1189,14 @@
 
   
   <url>
-    <loc>http://yousazoe.top/categories/%E4%BC%9A%E6%B4%A5%E5%A4%A7%E5%AD%A6%E5%9C%A8%E7%BA%BF%E6%B5%8B%E8%AF%84-Aizu-Online-Judge/</loc>
+    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%B9%95%E5%90%8E-Behind-the-Game/</loc>
     <lastmod>2021-03-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%B9%95%E5%90%8E-Behind-the-Game/</loc>
+    <loc>http://yousazoe.top/categories/%E4%BC%9A%E6%B4%A5%E5%A4%A7%E5%AD%A6%E5%9C%A8%E7%BA%BF%E6%B5%8B%E8%AF%84-Aizu-Online-Judge/</loc>
     <lastmod>2021-03-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1350,14 +1350,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7-Coding-Skill/</loc>
+    <loc>http://yousazoe.top/categories/Cherno%E7%9A%84C-%E7%AC%94%E8%AE%B0-Cherno-C/</loc>
     <lastmod>2021-03-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/Cherno%E7%9A%84C-%E7%AC%94%E8%AE%B0-Cherno-C/</loc>
+    <loc>http://yousazoe.top/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7-Coding-Skill/</loc>
     <lastmod>2021-03-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
