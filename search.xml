@@ -535,8 +535,20 @@
 
 
 <p>新建一个<code>Log.cpp</code>，创建一个<code>InitLog</code>函数，里面调用<code>Log</code>函数：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">InitLog</span><span class="params">()</span></span>&#123;</span><br><span class="line">    Log(<span class="string">&quot;Initializing Log&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">InitLog</span><span class="params">()</span></span>&#123;</span><br><span class="line">    Log(<span class="string">&quot;Initializing Log&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+
+
+<p>我们会得到一个错误，因为<code>Log</code>函数在此文件中并不存在，这个文件不知道<code>Log</code>函数是什么东西。<code>Log.cpp</code>到底需要什么才能不出错？我们怎么知道<code>Log</code>函数是确实存在的，它只是在别处定义呢？也就是说，需要函数声明。</p>
+<p>回到代码，我只需要声明<code>Log</code>确实存在：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">InitLog</span><span class="params">()</span></span>&#123;</span><br><span class="line">    Log(<span class="string">&quot;Initializing Log&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>这个函数实际上没有实体表示它是函数的声明，我们还没有定义这个函数。我们只是说，有个函数叫<code>Log</code>返回<code>void</code>并接受一个<code>const char*</code>指针，这个函数确实存在。修改之后可以看到错误已经消失了：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-03-25%20%E4%B8%8B%E5%8D%8812.32.12.png"></p>
+<p>我们找到了一种方法可以告诉<code>Log.cpp</code>这个函数存在，但如果我们创建另一个文件呢？其他的文件也需要用到<code>Log</code>函数吗？这是否意味着我还需要复制和粘贴把这个<code>void Log()</code>函数声明粘贴到其他地方？</p>
+<p>答案是肯定的，你确实需要这样做，但是有一种更简单的方法：头文件。什么是头文件？我应该怎样看待头文件？头文件通常会被包含在CPP文件中，我们做的就是复制粘贴将头文件的内容放入CPP文件，通过<code>#include</code>预处理器指令来实现复制粘贴把文件放入另一个文件。</p>
 ]]></content>
       <categories>
         <category>Cherno的C++笔记 (Cherno C++)</category>
@@ -7250,9 +7262,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -7316,9 +7328,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -7833,9 +7845,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -8404,9 +8416,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -9253,9 +9265,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -9393,9 +9405,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -9455,9 +9467,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -9938,9 +9950,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -11154,9 +11166,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -13816,57 +13828,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#121;&#111;&#110;&#103;&#x40;&#116;&#115;&#x69;&#110;&#x67;&#x68;&#x75;&#x61;&#46;&#x65;&#x64;&#x75;&#x2e;&#99;&#110;">&#x78;&#121;&#111;&#110;&#103;&#x40;&#116;&#115;&#x69;&#110;&#x67;&#x68;&#x75;&#x61;&#46;&#x65;&#x64;&#x75;&#x2e;&#99;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#121;&#x6f;&#110;&#x67;&#64;&#x74;&#x73;&#x69;&#110;&#103;&#104;&#x75;&#97;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#x6e;">&#x78;&#121;&#x6f;&#110;&#x67;&#64;&#x74;&#x73;&#x69;&#110;&#103;&#104;&#x75;&#97;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#x75;&#99;&#x68;&#101;&#x6e;&#64;&#x6d;&#97;&#105;&#x6c;&#x2e;&#116;&#115;&#x69;&#110;&#103;&#x68;&#x75;&#x61;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#x6e;">&#121;&#x75;&#99;&#x68;&#101;&#x6e;&#64;&#x6d;&#97;&#105;&#x6c;&#x2e;&#116;&#115;&#x69;&#110;&#103;&#x68;&#x75;&#x61;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#117;&#99;&#x68;&#x65;&#110;&#x40;&#x6d;&#x61;&#x69;&#108;&#x2e;&#116;&#115;&#105;&#x6e;&#x67;&#x68;&#x75;&#x61;&#46;&#x65;&#x64;&#x75;&#46;&#99;&#x6e;">&#x79;&#117;&#99;&#x68;&#x65;&#110;&#x40;&#x6d;&#x61;&#x69;&#108;&#x2e;&#116;&#115;&#105;&#x6e;&#x67;&#x68;&#x75;&#x61;&#46;&#x65;&#x64;&#x75;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#116;&#101;&#x72;&#110;&#x61;&#x6c;&#46;&#x6e;&#48;&#56;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x65;&#116;&#101;&#x72;&#110;&#x61;&#x6c;&#46;&#x6e;&#48;&#56;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x65;&#x74;&#x65;&#114;&#110;&#97;&#108;&#46;&#110;&#x30;&#x38;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#x65;&#x74;&#x65;&#114;&#110;&#97;&#108;&#46;&#110;&#x30;&#x38;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#98;&#106;&#x65;&#99;&#x74;&#x6b;&#x75;&#x61;&#110;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;">&#x6f;&#98;&#106;&#x65;&#99;&#x74;&#x6b;&#x75;&#x61;&#110;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#111;&#98;&#106;&#101;&#x63;&#116;&#107;&#x75;&#97;&#x6e;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#x6f;&#x6d;">&#111;&#98;&#106;&#101;&#x63;&#116;&#107;&#x75;&#97;&#x6e;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#114;&#100;&#x66;&#114;&#97;&#x6e;&#x6b;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">&#99;&#114;&#100;&#x66;&#114;&#97;&#x6e;&#x6b;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#114;&#x64;&#x66;&#x72;&#x61;&#110;&#x6b;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;">&#x63;&#114;&#x64;&#x66;&#x72;&#x61;&#110;&#x6b;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#97;&#x63;&#x63;&#111;&#x72;&#x61;&#119;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x74;&#97;&#x63;&#x63;&#111;&#x72;&#x61;&#119;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x74;&#x61;&#99;&#99;&#x6f;&#x72;&#97;&#x77;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x74;&#x61;&#99;&#99;&#x6f;&#x72;&#97;&#x77;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#x69;&#x6e;&#121;&#x75;&#x6e;&#x78;&#105;&#110;&#x67;&#48;&#48;&#48;&#49;&#64;&#49;&#54;&#51;&#46;&#x63;&#111;&#109;">&#120;&#x69;&#x6e;&#121;&#x75;&#x6e;&#x78;&#105;&#110;&#x67;&#48;&#48;&#48;&#49;&#64;&#49;&#54;&#51;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x78;&#105;&#110;&#121;&#117;&#x6e;&#120;&#105;&#x6e;&#103;&#x30;&#48;&#x30;&#x31;&#64;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;">&#x78;&#105;&#110;&#121;&#117;&#x6e;&#120;&#105;&#x6e;&#103;&#x30;&#48;&#x30;&#x31;&#64;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#110;&#111;&#x63;&#x75;&#105;&#108;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;">&#103;&#110;&#111;&#x63;&#x75;&#105;&#108;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#110;&#x6f;&#99;&#x75;&#x69;&#x6c;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#110;&#x6f;&#99;&#x75;&#x69;&#x6c;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#121;&#x61;&#105;&#114;&#105;&#97;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#109;&#121;&#x61;&#105;&#114;&#105;&#97;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x6d;&#x79;&#x61;&#x69;&#x72;&#x69;&#97;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#x6d;&#x79;&#x61;&#x69;&#x72;&#x69;&#97;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#x68;&#97;&#x6e;&#103;&#114;&#97;&#x69;&#x6e;&#x39;&#x31;&#49;&#64;&#49;&#x36;&#51;&#46;&#x63;&#111;&#109;">&#122;&#x68;&#97;&#x6e;&#103;&#114;&#97;&#x69;&#x6e;&#x39;&#x31;&#49;&#64;&#49;&#x36;&#51;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#122;&#104;&#97;&#x6e;&#x67;&#114;&#97;&#105;&#110;&#x39;&#x31;&#x31;&#64;&#49;&#54;&#x33;&#46;&#x63;&#x6f;&#x6d;">&#122;&#104;&#97;&#x6e;&#x67;&#114;&#97;&#105;&#110;&#x39;&#x31;&#x31;&#64;&#49;&#54;&#x33;&#46;&#x63;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#103;&#x78;&#120;&#49;&#50;&#x30;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;">&#x67;&#103;&#x78;&#120;&#49;&#50;&#x30;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x67;&#120;&#120;&#x31;&#50;&#48;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#109;">&#x67;&#x67;&#120;&#120;&#x31;&#50;&#48;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -14343,9 +14355,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -14997,9 +15009,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -15229,8 +15241,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>Mathematical Modeling</tag>
         <tag>GPS</tag>
+        <tag>Mathematical Modeling</tag>
       </tags>
   </entry>
   <entry>
@@ -15604,8 +15616,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>Population</tag>
         <tag>Mathematical Modeling</tag>
+        <tag>Population</tag>
       </tags>
   </entry>
   <entry>
@@ -15810,9 +15822,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -15875,9 +15887,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -16161,9 +16173,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -16267,9 +16279,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -18156,7 +18168,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#101;&#110;&#120;&#x75;&#x40;&#116;&#101;&#x6e;&#99;&#101;&#x6e;&#x74;&#46;&#99;&#111;&#109;">&#x6c;&#x65;&#101;&#110;&#120;&#x75;&#x40;&#116;&#101;&#x6e;&#99;&#101;&#x6e;&#x74;&#46;&#99;&#111;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#101;&#110;&#x78;&#117;&#64;&#x74;&#101;&#110;&#x63;&#x65;&#110;&#x74;&#46;&#x63;&#x6f;&#109;">&#x6c;&#101;&#101;&#110;&#x78;&#117;&#64;&#x74;&#101;&#110;&#x63;&#x65;&#110;&#x74;&#46;&#x63;&#x6f;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
