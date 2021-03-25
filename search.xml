@@ -16,14 +16,46 @@
 
 
 
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><span id="more"></span>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101现代图形学入门是由闫令琪老师教授。本节主要讲解向量与线性代数。</p>
+<span id="more"></span>
 
 
 
-
-
-
-
+<blockquote>
+<p>A <strong>Swift</strong> and <strong>Brutal</strong>   </p>
+<p>Introduction to Linear Algebra!</p>
+<p>(in fact it’s relatively easy…)</p>
+</blockquote>
+<p>图形学其实依赖很多东西，咱们这节课主要是说线性代数，可以看到标题十分恐怖，但线性代数本身并不难，复习起来比较简单没什么问题。</p>
+<h3 id="Graphics’-Dependencies"><a href="#Graphics’-Dependencies" class="headerlink" title="Graphics’ Dependencies"></a>Graphics’ Dependencies</h3><p><strong>Basic mathematics</strong></p>
+<ul>
+<li>Linear algebra, calculus, statistics</li>
+</ul>
+<p><strong>Basic physics</strong></p>
+<ul>
+<li>Optics, Mechanics</li>
+</ul>
+<p><strong>Misc</strong></p>
+<ul>
+<li>Signal processing</li>
+<li>Numerical analysis</li>
+</ul>
+<p><strong>And a bit of aesthetics</strong></p>
+<p>图形学依赖于线性代数，也有诸如微积分、统计这些基础数学。不仅如此，还有基础物理涉及光学和力学，并且随着图形学发展大家越来越看重更高深的物理学知识比如波动光学的研究。</p>
+<p>还涉及到一些杂七杂八的东西，这里特别提到信号处理，因为很多情况下我们要分析走样与反走样，这背后解决的其实是信号处理的问题。另外数值分析也非常重要的事情，有时图形学就是在解决复杂的数学计算问题，比如渲染就是解一个递归定义的积分，模拟或仿真则很多时候在解有限元问题或者扩散方程之类的事情。</p>
+<p>除此之外，图形学还需要一点点美学，大家做出来的东西都希望好看一些，所以一点点美感还是需要的。</p>
+<h3 id="This-Course"><a href="#This-Course" class="headerlink" title="This Course"></a>This Course</h3><p><strong>More dependent on Linear Algebra</strong></p>
+<ul>
+<li>Vectors (dot products, cross products, …)</li>
+<li>Matrices (matrix-matrix, matrix-vector mult., …)</li>
+</ul>
+<p><strong>For example</strong></p>
+<ul>
+<li>A point is a vector (?)</li>
+<li>An operation like translating or rotating objects can be matrix-vector multiplication</li>
+</ul>
+<p>线性代数我们主要说一些向量、矩阵这些操作，向量就是点乘叉乘，矩阵就是矩阵与矩阵的乘积、矩阵和向量的乘积。比如图形学里面表示空间中的一个点有三个坐标<code>x</code>、<code>y</code>、<code>z</code>，我们用三个数来表示，这其实就是一种向量表示，还包括平移、旋转、缩放这种操作都可以表示成矩阵和向量的乘积。</p>
+<h3 id="An-Example-of-Rotation"><a href="#An-Example-of-Rotation" class="headerlink" title="An Example of Rotation"></a>An Example of Rotation</h3><p>![image-20210325191524611](/Users/apple/Library/Application Support/typora-user-images/image-20210325191524611.png)</p>
 ]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101)</category>
@@ -206,9 +238,9 @@
     </i>
   </font>
 </div>
-### 引言
 
-<p>GAMES101现代图形学入门是由闫令琪老师教授。本节主要讨论什么是图形学，为什么要学图形学以及该系列课程内容的介绍。</p>
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101现代图形学入门是由闫令琪老师教授。本节主要讨论什么是图形学，为什么要学图形学以及该系列课程内容的介绍。</p>
 <span id="more"></span>
 
 
@@ -7297,9 +7329,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -7363,9 +7395,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -7880,9 +7912,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -8451,9 +8483,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -9300,9 +9332,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -9440,9 +9472,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -9502,9 +9534,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -9985,9 +10017,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -11201,9 +11233,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -13863,57 +13895,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#121;&#x6f;&#110;&#x67;&#64;&#x74;&#x73;&#x69;&#110;&#103;&#104;&#x75;&#97;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#x6e;">&#x78;&#121;&#x6f;&#110;&#x67;&#64;&#x74;&#x73;&#x69;&#110;&#103;&#104;&#x75;&#97;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#x79;&#x6f;&#110;&#x67;&#64;&#116;&#x73;&#x69;&#110;&#x67;&#104;&#x75;&#97;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#x6e;">&#120;&#x79;&#x6f;&#110;&#x67;&#64;&#116;&#x73;&#x69;&#110;&#x67;&#104;&#x75;&#97;&#46;&#x65;&#x64;&#117;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#117;&#99;&#x68;&#x65;&#110;&#x40;&#x6d;&#x61;&#x69;&#108;&#x2e;&#116;&#115;&#105;&#x6e;&#x67;&#x68;&#x75;&#x61;&#46;&#x65;&#x64;&#x75;&#46;&#99;&#x6e;">&#x79;&#117;&#99;&#x68;&#x65;&#110;&#x40;&#x6d;&#x61;&#x69;&#108;&#x2e;&#116;&#115;&#105;&#x6e;&#x67;&#x68;&#x75;&#x61;&#46;&#x65;&#x64;&#x75;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#117;&#x63;&#x68;&#x65;&#110;&#x40;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x74;&#x73;&#105;&#110;&#103;&#104;&#117;&#97;&#46;&#101;&#x64;&#117;&#46;&#99;&#110;">&#x79;&#117;&#x63;&#x68;&#x65;&#110;&#x40;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x74;&#x73;&#105;&#110;&#103;&#104;&#117;&#97;&#46;&#101;&#x64;&#117;&#46;&#99;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#x74;&#x65;&#114;&#110;&#97;&#108;&#46;&#110;&#x30;&#x38;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#x65;&#x74;&#x65;&#114;&#110;&#97;&#108;&#46;&#110;&#x30;&#x38;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x65;&#x74;&#x65;&#x72;&#x6e;&#x61;&#x6c;&#x2e;&#110;&#48;&#56;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#109;">&#x65;&#x74;&#x65;&#x72;&#x6e;&#x61;&#x6c;&#x2e;&#110;&#48;&#56;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#98;&#106;&#101;&#x63;&#116;&#107;&#x75;&#97;&#x6e;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#x6f;&#x6d;">&#111;&#98;&#106;&#101;&#x63;&#116;&#107;&#x75;&#97;&#x6e;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x6f;&#98;&#106;&#x65;&#99;&#x74;&#x6b;&#x75;&#x61;&#110;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#x6f;&#98;&#106;&#x65;&#99;&#x74;&#x6b;&#x75;&#x61;&#110;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#114;&#x64;&#x66;&#x72;&#x61;&#110;&#x6b;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;">&#x63;&#114;&#x64;&#x66;&#x72;&#x61;&#110;&#x6b;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#99;&#x72;&#x64;&#102;&#x72;&#x61;&#x6e;&#107;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#99;&#x72;&#x64;&#102;&#x72;&#x61;&#x6e;&#107;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#x61;&#99;&#99;&#x6f;&#x72;&#97;&#x77;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x74;&#x61;&#99;&#99;&#x6f;&#x72;&#97;&#x77;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x74;&#x61;&#x63;&#x63;&#x6f;&#x72;&#x61;&#119;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#x74;&#x61;&#x63;&#x63;&#x6f;&#x72;&#x61;&#119;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#105;&#110;&#121;&#117;&#x6e;&#120;&#105;&#x6e;&#103;&#x30;&#48;&#x30;&#x31;&#64;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;">&#x78;&#105;&#110;&#121;&#117;&#x6e;&#120;&#105;&#x6e;&#103;&#x30;&#48;&#x30;&#x31;&#64;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#120;&#x69;&#110;&#121;&#x75;&#x6e;&#120;&#105;&#x6e;&#103;&#x30;&#x30;&#x30;&#49;&#64;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#109;">&#120;&#x69;&#110;&#121;&#x75;&#x6e;&#120;&#105;&#x6e;&#103;&#x30;&#x30;&#x30;&#49;&#64;&#x31;&#x36;&#51;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#110;&#x6f;&#99;&#x75;&#x69;&#x6c;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#110;&#x6f;&#99;&#x75;&#x69;&#x6c;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x6e;&#x6f;&#x63;&#117;&#x69;&#108;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#x67;&#x6e;&#x6f;&#x63;&#117;&#x69;&#108;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#x79;&#x61;&#x69;&#x72;&#x69;&#97;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#x6d;&#x79;&#x61;&#x69;&#x72;&#x69;&#97;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x6d;&#x79;&#x61;&#105;&#114;&#x69;&#97;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x6d;&#x79;&#x61;&#105;&#114;&#x69;&#97;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#104;&#97;&#x6e;&#x67;&#114;&#97;&#105;&#110;&#x39;&#x31;&#x31;&#64;&#49;&#54;&#x33;&#46;&#x63;&#x6f;&#x6d;">&#122;&#104;&#97;&#x6e;&#x67;&#114;&#97;&#105;&#110;&#x39;&#x31;&#x31;&#64;&#49;&#54;&#x33;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#122;&#x68;&#x61;&#110;&#x67;&#x72;&#x61;&#105;&#110;&#x39;&#x31;&#49;&#x40;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;">&#122;&#x68;&#x61;&#110;&#x67;&#x72;&#x61;&#105;&#110;&#x39;&#x31;&#49;&#x40;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#x67;&#120;&#120;&#x31;&#50;&#48;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#109;">&#x67;&#x67;&#120;&#120;&#x31;&#50;&#48;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#103;&#120;&#x78;&#x31;&#50;&#x30;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#103;&#120;&#x78;&#x31;&#50;&#x30;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -14390,9 +14422,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -15044,9 +15076,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -15857,9 +15889,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -15922,9 +15954,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -16208,9 +16240,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -16314,9 +16346,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -18203,7 +18235,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#101;&#110;&#x78;&#117;&#64;&#x74;&#101;&#110;&#x63;&#x65;&#110;&#x74;&#46;&#x63;&#x6f;&#109;">&#x6c;&#101;&#101;&#110;&#x78;&#117;&#64;&#x74;&#101;&#110;&#x63;&#x65;&#110;&#x74;&#46;&#x63;&#x6f;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#101;&#x6e;&#120;&#117;&#x40;&#116;&#x65;&#110;&#99;&#x65;&#x6e;&#116;&#46;&#x63;&#111;&#x6d;">&#x6c;&#x65;&#101;&#x6e;&#120;&#117;&#x40;&#116;&#x65;&#110;&#99;&#x65;&#x6e;&#116;&#46;&#x63;&#111;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
@@ -19199,8 +19231,8 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
-        <tag>Game</tag>
         <tag>Art</tag>
+        <tag>Game</tag>
       </tags>
   </entry>
   <entry>
