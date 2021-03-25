@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Review of Linear Algebra</title>
+    <url>/archives/e520f1c.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Ew1VB9XW8AAFL2s.jpeg"></p>
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://twitter.com/m4ndrill">Twitter@m4ndrill</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><span id="more"></span>
+
+
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>现代图形学入门 (GAMES101)</category>
+      </categories>
+      <tags>
+        <tag>Computer Graphics</tag>
+        <tag>Math</tag>
+        <tag>Linear Algebra</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Ray Tracing in One Weekend</title>
     <url>/archives/cb66e903.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/zfk3Q1tuLECywHO.jpg"></p>
@@ -172,8 +206,9 @@
     </i>
   </font>
 </div>
+### 引言
 
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101现代图形学入门是由闫令琪老师教授。本节主要讨论什么是图形学，为什么要学图形学以及该系列课程内容的介绍。</p>
+<p>GAMES101现代图形学入门是由闫令琪老师教授。本节主要讨论什么是图形学，为什么要学图形学以及该系列课程内容的介绍。</p>
 <span id="more"></span>
 
 
