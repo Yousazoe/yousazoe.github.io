@@ -158,7 +158,6 @@
 <p>叉乘在图形学中非常重要，这里我列举了判定左右和里外的例子。比如给定两个向量<strong>a</strong>和<strong>b</strong>在XY平面中，那么通过右手螺旋定则可以求得$\vec a \times \vec b&gt;0$，那么<strong>b</strong>在<strong>a</strong>的左侧，并且<strong>a</strong>在<strong>b</strong>的右侧。</p>
 <p>叉积的另一个应用是判断里和外。直接的例子就是下面的三角形ABC，有一个P点，我想知道它是否在三角形内部。这个问题我们就需要叉积：$\vec{AB} \times \vec{AP} &gt; 0$、$\vec{BC} \times \vec{BP} &gt; 0$和$\vec{CA} \times \vec{CP}&gt;0$，这就说明P在三角形内部，否则一定有一个边在P点左侧。</p>
 <p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210326084400759.png"></p>
-<p><strong>Cross Product in Graphics</strong></p>
 <h5 id="Orthonormal-bases-and-coordinate-fra"><a href="#Orthonormal-bases-and-coordinate-fra" class="headerlink" title="Orthonormal bases and coordinate fra"></a>Orthonormal bases and coordinate fra</h5><p><strong>Important for representing points, positions, locations</strong></p>
 <p><strong>Often, many sets of coordinate systems</strong></p>
 <ul>
@@ -168,10 +167,32 @@
 <ul>
 <li>A topic for next week</li>
 </ul>
+<p><strong>Orthonormal Coordinate Frames</strong></p>
+<ul>
+<li><p>Any set of 3 vector (in 3D) that</p>
+<p>$||\vec u|| = ||\vec v|| = ||\vec w|| = 1$</p>
+<p>$\vec u \cdot \vec v = \vec u \cdot \vec w = \vec u \cdot \vec w = 0$</p>
+<p>$\vec w = \vec u \times \vec v \space (right-handed)$ </p>
+</li>
+</ul>
+<p>$\vec p = (\vec p \cdot \vec u)\vec u + (\vec p \cdot \vec v)\vec v + (\vec p \cdot \vec w)\vec w$</p>
+<p>这样做有什么好处呢？我们可以通过投影把任意向量分解到这三个方向，投影长度可以用单位向量快速表示。</p>
 <h3 id="Matrices"><a href="#Matrices" class="headerlink" title="Matrices"></a>Matrices</h3><p><strong>Magical 2D arrays that haunt in every CS course</strong></p>
 <p><strong>In Graphics, pervasively used to represent transformations</strong></p>
 <ul>
 <li>Translation, rotation, shear, scale (more details in the next lecture)</li>
+</ul>
+<p>几乎所有计算机类课程都会涉及到矩阵的一些操作，在变换上矩阵其实挺简单的，在后面我们会用矩阵表示平移、旋转、缩放、错切等等。</p>
+<h4 id="What-is-a-matrix"><a href="#What-is-a-matrix" class="headerlink" title="What is a matrix"></a>What is a matrix</h4><ul>
+<li><p>Array of numbers (m × n = m rows, n columns)</p>
+<p>$\begin{pmatrix}1 &amp; 3 \\ 5 &amp; 2 \\ 0 &amp; 4\end{pmatrix}$</p>
+</li>
+<li><p>Addition and multiplication by a scalar are trivial:  element by element</p>
+</li>
+</ul>
+<p>矩阵就是一堆数安排成几行几列的结构，例如上面的矩阵是3行2列，所以我们表示为$3 \times 2$。</p>
+<h4 id="Matrix-Matrix-Multiplication"><a href="#Matrix-Matrix-Multiplication" class="headerlink" title="Matrix-Matrix Multiplication"></a>Matrix-Matrix Multiplication</h4><ul>
+<li># (number of) columns in A must = # rows in B  (M x N) (N x P) = (M x P)</li>
 </ul>
 ]]></content>
       <categories>
