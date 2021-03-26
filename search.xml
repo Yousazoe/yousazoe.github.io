@@ -133,7 +133,32 @@
 </ul>
 <p>在图形学中点乘还可以通过计算点乘的结果计算两个方向向量有多么接近，还可以告诉大家前与后的信息。如果有一个向量<strong>a</strong>给定了方向，从<strong>a</strong>的起点向上/下面方向看过去各会形成一个半圆，在这里圆被分成了两部分，可以看到<strong>b</strong>被视为与<strong>c</strong>同方向，而<strong>c</strong>则是相反方向。</p>
 <p>那我们该如何判断呢？点乘就是一个有效的手段，通过判断点乘的正负可以轻松判断。</p>
-<h5 id="Cross-product"><a href="#Cross-product" class="headerlink" title="Cross product"></a>Cross product</h5><p><strong>Cross Product in Graphics</strong></p>
+<h5 id="Cross-product"><a href="#Cross-product" class="headerlink" title="Cross product"></a>Cross product</h5><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210326081102970.png"></p>
+<ul>
+<li>Cross product is orthogonal to two initial vectors</li>
+<li>Direction determined by right-hand rule</li>
+<li>Useful in constructing coordinate systems (later)</li>
+</ul>
+<p>叉乘和点乘是完全不一样的计算，它会输入两个不同的向量计算出另外一个向量。通过右手定则我们可以得到叉乘的方向，可以发现$a \times b$与$b \times a$不同。</p>
+<p>因为其相互垂直的特性，叉积可以让我们创建出三维空间中的直角坐标系。</p>
+<p><strong>Cross product: Properties</strong><br>$$<br>\vec x \times \vec y = + \vec z \\<br>\vec y \times \vec x = - \vec z \\<br>\vec y \times \vec z = + \vec x \\<br>\vec z \times \vec y = - \vec x \\<br>\vec z \times \vec x = + \vec y \\<br>\vec x \times \vec z = - \vec y<br>$$</p>
+<p>如果熟悉右手螺旋定则，上面这些都可以推导出来，我们只需要记住第一个$\vec x \times \vec y = \vec z$即可。同样的，这样的坐标系也称为右手坐标系，而OpenGL和一些图形API会使用左手坐标系。</p>
+<p>$$<br>\vec a \times \vec b = - \vec b \times \vec a \\<br>\vec a \times \vec a = \vec 0 \\<br>\vec a \times (\vec b + \vec c) = \vec a \times \vec b + \vec a \times \vec c \\<br>\vec a \times (k\vec b) = k(\vec a \times \vec b)<br>$$<br>上面有一些不同的性质，叉乘没有交换律需要加负号，分配律和结合律仍然存在。</p>
+<p><strong>Cross Product: Cartesian Formula?</strong></p>
+<p>$\vec a \times \vec b = \begin{pmatrix}y_az_a - y_bz_a \\ z_ax_b - x_az_b \\ x_ay_b - y_ax_b\end{pmatrix}$</p>
+<p>Later in this lecture：</p>
+<p>$\vec a \times \vec b = A^*b = \begin{pmatrix}0 &amp; -z_a &amp; y_a \\ z_a &amp; 0 &amp; -x_a \\ -y_a &amp; x_a &amp; 0\end{pmatrix}\begin{pmatrix}x_b \\ y_b \\ z_b\end{pmatrix}$</p>
+<p>代数上叉乘也可以非常明确的写出来，多说一句，在之后的学习中我们还可以将叉乘表示成矩阵形式，$\vec a$写成一个对应的矩阵，这个矩阵乘向量$\vec b$，也可以得到相同的结果。</p>
+<p><strong>Cross Product in Graphics</strong></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210326084020874.png"></p>
+<ul>
+<li>Determine left/right</li>
+<li>Determine <strong>inside/outside</strong></li>
+</ul>
+<p>叉乘在图形学中非常重要，这里我列举了判定左右和里外的例子。比如给定两个向量<strong>a</strong>和<strong>b</strong>在XY平面中，那么通过右手螺旋定则可以求得$\vec a \times \vec b&gt;0$，那么<strong>b</strong>在<strong>a</strong>的左侧，并且<strong>a</strong>在<strong>b</strong>的右侧。</p>
+<p>叉积的另一个应用是判断里和外。直接的例子就是下面的三角形ABC，有一个P点，我想知道它是否在三角形内部。这个问题我们就需要叉积：$\vec{AB} \times \vec{AP} &gt; 0$、$\vec{BC} \times \vec{BP} &gt; 0$和$\vec{CA} \times \vec{CP}&gt;0$，这就说明P在三角形内部，否则一定有一个边在P点左侧。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210326084400759.png"></p>
+<p><strong>Cross Product in Graphics</strong></p>
 <h5 id="Orthonormal-bases-and-coordinate-fra"><a href="#Orthonormal-bases-and-coordinate-fra" class="headerlink" title="Orthonormal bases and coordinate fra"></a>Orthonormal bases and coordinate fra</h5><p><strong>Important for representing points, positions, locations</strong></p>
 <p><strong>Often, many sets of coordinate systems</strong></p>
 <ul>
