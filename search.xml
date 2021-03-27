@@ -242,9 +242,10 @@
 <p>$\vec a \cdot \vec b = \vec a^T \vec b=\begin{pmatrix}x_a &amp; y_a &amp; z_a\end{pmatrix}\begin{pmatrix}x_b\\y_b\\z_b\end{pmatrix}=\begin{pmatrix}x_ax_b + y_ay_b+z_az_b\end{pmatrix}$</p>
 </li>
 <li><p>Cross product?</p>
-<p>$\vec a \times \vec b = A * b = \begin{pmatrix}0 &amp; -z_a &amp; y_a \\ z_a &amp; 0 &amp; -x_a \\ -y_a &amp; x_a &amp; 0\end{pmatrix}\begin{pmatrix}x_b \\ y_b \\ z_b\end{pmatrix}$</p>
+<p>$\vec a \times \vec b = A ^* b = \begin{pmatrix}0 &amp; -z_a &amp; y_a \\ z_a &amp; 0 &amp; -x_a \\ -y_a &amp; x_a &amp; 0\end{pmatrix}\begin{pmatrix}x_b \\ y_b \\ z_b\end{pmatrix}$</p>
 </li>
 </ul>
+<p>点乘和叉乘都可以写成矩阵的形式。</p>
 ]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101)</category>
@@ -313,12 +314,14 @@
 <p>Whenever you start a renderer, you need a way to see an image. The most straightforward way is to write it to a file. The catch is, there are so many formats. Many of those are complex. I always start with a plain text ppm file. Here’s a nice description from Wikipedia:</p>
 </blockquote>
 <p>当你开始写渲染器的时候, 你首先得能有办法看到你渲染的图像。最直接了当的方法就行把图像信息写入文件。问题是, 有那么多图片格式, 而且许多格式都挺复杂的。在开始部分, 我常常使用最简单的ppm文件，这里引用Wikipedia上面的简明介绍:</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/fig-1.01-ppm.jpg" alt="img"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/fig-1.01-ppm.jpg"></p>
 <blockquote>
 <p>Let’s make some C++ code to output such a thing:</p>
 </blockquote>
 <p>我们来写一下输出这种图片格式的C++代码:</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Image</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">int</span> image_width = <span class="number">256</span>;</span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">int</span> image_height = <span class="number">256</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Render</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;P3\n&quot;</span> &lt;&lt; image_width &lt;&lt; <span class="string">&#x27; &#x27;</span> &lt;&lt; image_height &lt;&lt; <span class="string">&quot;\n255\n&quot;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> j = image_height<span class="number">-1</span>; j &gt;= <span class="number">0</span>; --j) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; image_width; ++i) &#123;</span><br><span class="line">            <span class="keyword">auto</span> r = <span class="keyword">double</span>(i) / (image_width<span class="number">-1</span>);</span><br><span class="line">            <span class="keyword">auto</span> g = <span class="keyword">double</span>(j) / (image_height<span class="number">-1</span>);</span><br><span class="line">            <span class="keyword">auto</span> b = <span class="number">0.25</span>;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">int</span> ir = <span class="keyword">static_cast</span>&lt;<span class="keyword">int</span>&gt;(<span class="number">255.999</span> * r);</span><br><span class="line">            <span class="keyword">int</span> ig = <span class="keyword">static_cast</span>&lt;<span class="keyword">int</span>&gt;(<span class="number">255.999</span> * g);</span><br><span class="line">            <span class="keyword">int</span> ib = <span class="keyword">static_cast</span>&lt;<span class="keyword">int</span>&gt;(<span class="number">255.999</span> * b);</span><br><span class="line"></span><br><span class="line">            <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; ir &lt;&lt; <span class="string">&#x27; &#x27;</span> &lt;&lt; ig &lt;&lt; <span class="string">&#x27; &#x27;</span> &lt;&lt; ib &lt;&lt; <span class="string">&#x27;\n&#x27;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
 
 
 
@@ -332,10 +335,39 @@
 </ol>
 </blockquote>
 <p>代码里有一些我们要注意的事情:</p>
-<p>1.对于像素来说, 每一行是从左往右写入的。</p>
-<p>2.行从上开始往下写入的。</p>
-<p>3.通常我们把RGB通道的值限定在0.0到1.0。我们之后计算颜色值的时候将使用一个动态的范围, 这个范围并不是0到1。但是在使用这段代码输出图像之前, 我们将把颜色映射到0到1。所以这部分输出图像代码不会改变。</p>
-<p>4.下方的红色从左到右由黑边红, 左侧的绿色从上到下由黑到绿。红+绿变黄, 所以我们的右上角应该是黄的。</p>
+<ol>
+<li><p>对于像素来说, 每一行是从左往右写入的。</p>
+</li>
+<li><p>行从上开始往下写入的。</p>
+</li>
+<li><p>通常我们把RGB通道的值限定在0.0到1.0。我们之后计算颜色值的时候将使用一个动态的范围, 这个范围并不是0到1。但是在使用这段代码输出图像之前, 我们将把颜色映射到0到1。所以这部分输出图像代码不会改变。</p>
+</li>
+<li><p>下方的红色从左到右由黑边红, 左侧的绿色从上到下由黑到绿。红+绿变黄, 所以我们的右上角应该是黄的。</p>
+</li>
+</ol>
+<p>下面是我个人的总结，这里有几个之前不是很清楚的点：</p>
+<ul>
+<li><p><code>auto</code>关键字就是变量的自动类型推断，可以在声明变量的时候根据变量初始值的类型自动为此变量选择匹配的类型，类似的关键字还有<code>decltype</code></p>
+</li>
+<li><p><code>static_cast</code>相当于传统的C语言里的强制转换，该运算符把<code>expression</code>转换为<code>new_type</code>类型，用来强迫隐式转换，例如<code>non-const</code>对象转为<code>const</code>对象，编译时检查，用于非多态的转换，可以转换指针及其他，但<em>没有运行时类型检查来保证转换的安全性</em>。它主要有如下几种用法：</p>
+<ol>
+<li><p>用于类层次结构中基类（父类）和派生类（子类）之间指针或引用的转换</p>
+<p><strong>进行上行转换（把派生类的指针或引用转换成基类表示）是安全的</strong></p>
+<p>*<em>进行下行转换（把基类指针或引用转换成派生类表示）时，由于没有动态类型检查，所以是不安全</em>的**</p>
+</li>
+<li><p>用于基本数据类型之间的转换，如把<code>int</code>转换成<code>char</code>，把<code>int</code>转换成<code>enum</code>。这种转换的安全性也要开发人员来保证</p>
+</li>
+<li><p>把空指针转换成目标类型的空指针</p>
+</li>
+<li><p>把任何类型的表达式转换成<code>void</code>类型</p>
+</li>
+</ol>
+<p>注意：<code>static_cast</code>不能转换掉<code>expression</code>的<code>const</code>、<code>volatile</code>、或者<code>__unaligned</code>属性</p>
+</li>
+<li><p>这里行列的变化令人费解，第一层循环负责<code>image_height</code>也就是行的话显然是自顶向上的写入，而文中却说”The rows are written out from top to bottom.”，让我感到困惑，可能是为了特定的色彩而故意为之吧</p>
+</li>
+</ul>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210327092205919.png"></p>
 <h4 id="创建图像文件"><a href="#创建图像文件" class="headerlink" title="创建图像文件"></a>创建图像文件</h4><blockquote>
 <p>Because the file is written to the program output, you’ll need to redirect it to an image file. Typically this is done from the command-line by using the <code>&gt;</code> redirection operator, like so:</p>
 </blockquote>
@@ -407,6 +439,40 @@
 <p>头文件的第二部分包括一些向量操作工具函数:</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// vec3 Utility Functions</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">inline</span> <span class="built_in">std</span>::ostream&amp; <span class="keyword">operator</span>&lt;&lt;(<span class="built_in">std</span>::ostream &amp;out, <span class="keyword">const</span> vec3 &amp;v) &#123;</span><br><span class="line">    <span class="keyword">return</span> out &lt;&lt; v.e[<span class="number">0</span>] &lt;&lt; <span class="string">&#x27; &#x27;</span> &lt;&lt; v.e[<span class="number">1</span>] &lt;&lt; <span class="string">&#x27; &#x27;</span> &lt;&lt; v.e[<span class="number">2</span>];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">inline</span> vec3 <span class="keyword">operator</span>+(<span class="keyword">const</span> vec3 &amp;u, <span class="keyword">const</span> vec3 &amp;v) &#123;</span><br><span class="line">    <span class="keyword">return</span> vec3(u.e[<span class="number">0</span>] + v.e[<span class="number">0</span>], u.e[<span class="number">1</span>] + v.e[<span class="number">1</span>], u.e[<span class="number">2</span>] + v.e[<span class="number">2</span>]);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">inline</span> vec3 <span class="keyword">operator</span>-(<span class="keyword">const</span> vec3 &amp;u, <span class="keyword">const</span> vec3 &amp;v) &#123;</span><br><span class="line">    <span class="keyword">return</span> vec3(u.e[<span class="number">0</span>] - v.e[<span class="number">0</span>], u.e[<span class="number">1</span>] - v.e[<span class="number">1</span>], u.e[<span class="number">2</span>] - v.e[<span class="number">2</span>]);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">inline</span> vec3 <span class="keyword">operator</span>*(<span class="keyword">const</span> vec3 &amp;u, <span class="keyword">const</span> vec3 &amp;v) &#123;</span><br><span class="line">    <span class="keyword">return</span> vec3(u.e[<span class="number">0</span>] * v.e[<span class="number">0</span>], u.e[<span class="number">1</span>] * v.e[<span class="number">1</span>], u.e[<span class="number">2</span>] * v.e[<span class="number">2</span>]);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">inline</span> vec3 <span class="keyword">operator</span>*(<span class="keyword">double</span> t, <span class="keyword">const</span> vec3 &amp;v) &#123;</span><br><span class="line">    <span class="keyword">return</span> vec3(t*v.e[<span class="number">0</span>], t*v.e[<span class="number">1</span>], t*v.e[<span class="number">2</span>]);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">inline</span> vec3 <span class="keyword">operator</span>*(<span class="keyword">const</span> vec3 &amp;v, <span class="keyword">double</span> t) &#123;</span><br><span class="line">    <span class="keyword">return</span> t * v;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">inline</span> vec3 <span class="keyword">operator</span>/(vec3 v, <span class="keyword">double</span> t) &#123;</span><br><span class="line">    <span class="keyword">return</span> (<span class="number">1</span>/t) * v;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">double</span> <span class="title">dot</span><span class="params">(<span class="keyword">const</span> vec3 &amp;u, <span class="keyword">const</span> vec3 &amp;v)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> u.e[<span class="number">0</span>] * v.e[<span class="number">0</span>]</span><br><span class="line">         + u.e[<span class="number">1</span>] * v.e[<span class="number">1</span>]</span><br><span class="line">         + u.e[<span class="number">2</span>] * v.e[<span class="number">2</span>];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> vec3 <span class="title">cross</span><span class="params">(<span class="keyword">const</span> vec3 &amp;u, <span class="keyword">const</span> vec3 &amp;v)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> vec3(u.e[<span class="number">1</span>] * v.e[<span class="number">2</span>] - u.e[<span class="number">2</span>] * v.e[<span class="number">1</span>],</span><br><span class="line">                u.e[<span class="number">2</span>] * v.e[<span class="number">0</span>] - u.e[<span class="number">0</span>] * v.e[<span class="number">2</span>],</span><br><span class="line">                u.e[<span class="number">0</span>] * v.e[<span class="number">1</span>] - u.e[<span class="number">1</span>] * v.e[<span class="number">0</span>]);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> vec3 <span class="title">unit_vector</span><span class="params">(vec3 v)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> v / v.length();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+
+
+
+
+<h3 id="光线-简单摄像机-以及背景"><a href="#光线-简单摄像机-以及背景" class="headerlink" title="光线, 简单摄像机, 以及背景"></a>光线, 简单摄像机, 以及背景</h3><blockquote>
+<p>The one thing that all ray tracers have is a ray class and a computation of what color is seen along a ray. Let’s think of a ray as a function <strong>P</strong>(𝑡)=<strong>A</strong>+𝑡<strong>b</strong>. Here <strong>P</strong> is a 3D position along a line in 3D. <strong>A</strong> is the ray origin and <strong>b</strong> is the ray direction. The ray parameter 𝑡t is a real number (<code>double</code> in the code). Plug in a different 𝑡t and <strong>P</strong>(𝑡) moves the point along the ray. Add in negative 𝑡t values and you can go anywhere on the 3D line. For positive 𝑡t, you get only the parts in front of <strong>A</strong>, and this is what is often called a half-line or ray.</p>
+</blockquote>
+<p>所有的光线追踪器都有个一个ray类, 我们假定光线的公式为<strong>P</strong>(𝑡)=<strong>A</strong>+𝑡<strong>b</strong>。这里的<strong>P</strong>是三维射线上的一个点。<strong>A</strong>是射线的原点, <strong>b</strong>是射线的方向。类中的变量𝑡是一个实数(代码中为double类型)。<strong>P</strong>(𝑡)接受任意的𝑡做为变量, 返回射线上的对应点。如果允许tt取负值你可以得到整条直线。对于一个正数𝑡, 你只能得到原点前部分<strong>A</strong>, 这常常被称为半条直线, 或者说射线。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/fig-1.02-lerp.jpg"></p>
+<blockquote>
+<p>The function <strong>P</strong>(𝑡) in more verbose code form I call <code>ray::at(t)</code>:</p>
+</blockquote>
+<p>我在代码中使用复杂命名, 将函数<strong>P</strong>(𝑡)扩写为<code>ray::at(t)</code>：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">ifndef</span> RAY_H</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> RAY_H</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;vec3.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ray</span> &#123;</span></span><br><span class="line">    <span class="keyword">public</span>:</span><br><span class="line">        ray() &#123;&#125;</span><br><span class="line">        ray(<span class="keyword">const</span> point3&amp; origin, <span class="keyword">const</span> vec3&amp; direction)</span><br><span class="line">            : orig(origin), dir(direction)</span><br><span class="line">        &#123;&#125;</span><br><span class="line"></span><br><span class="line">        <span class="function">point3 <span class="title">origin</span><span class="params">()</span> <span class="keyword">const</span>  </span>&#123; <span class="keyword">return</span> orig; &#125;</span><br><span class="line">        <span class="function">vec3 <span class="title">direction</span><span class="params">()</span> <span class="keyword">const</span> </span>&#123; <span class="keyword">return</span> dir; &#125;</span><br><span class="line"></span><br><span class="line">        <span class="function">point3 <span class="title">at</span><span class="params">(<span class="keyword">double</span> t)</span> <span class="keyword">const</span> </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> orig + t*dir;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span>:</span><br><span class="line">        point3 orig;</span><br><span class="line">        vec3 dir;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<blockquote>
+<p>Now we are ready to turn the corner and make a ray tracer. At the core, the ray tracer sends rays through pixels and computes the color seen in the direction of those rays. The involved steps are (1) calculate the ray from the eye to the pixel, (2) determine which objects the ray intersects, and (3) compute a color for that intersection point. When first developing a ray tracer, I always do a simple camera for getting the code up and running. I also make a simple <code>ray_color(ray)</code> function that returns the color of the background (a simple gradient).</p>
+</blockquote>
+<p>现在我们再拐回来做我们的光线追踪器。光线追踪器的核心是从像素发射射线, 并计算这些射线得到的颜色。这包括如下的步骤: (1)将射线从视点转化为像素坐标 (2)计算光线是否与场景中的物体相交 (3)如果有, 计算交点的颜色。在做光线追踪器的初期, 我会先弄个简单摄像机让代码能跑起来。我也会编写一个简单的<code>color(ray)</code>函数来返回背景颜色值(一个简单的渐变色)。</p>
+<blockquote>
+<p>I’ve often gotten into trouble using square images for debugging because I transpose 𝑥x and 𝑦y too often, so I’ll use a non-square image. For now we’ll use a 16:9 aspect ratio, since that’s so common.</p>
+</blockquote>
+<p>在使用正方形的图像Debug时我时常会遇到问题, 因为我老是把x和y弄反。所以我坚持使用16:9这样长宽不等的图像。</p>
+<blockquote>
+<p>In addition to setting up the pixel dimensions for the rendered image, we also need to set up a virtual viewport through which to pass our scene rays. For the standard square pixel spacing, the viewport’s aspect ratio should be the same as our rendered image. We’ll just pick a viewport two units in height. We’ll also set the distance between the projection plane and the projection point to be one unit. This is referred to as the “focal length”, not to be confused with “focus distance”, which we’ll present later.</p>
+</blockquote>
+<blockquote>
+<p>I’ll put the “eye” (or camera center if you think of a camera) at (0,0,0)(0,0,0). I will have the y-axis go up, and the x-axis to the right. In order to respect the convention of a right handed coordinate system, into the screen is the negative z-axis. I will traverse the screen from the upper left hand corner, and use two offset vectors along the screen sides to move the ray endpoint across the screen. Note that I do not make the ray direction a unit length vector because I think not doing that makes for simpler and slightly faster code.</p>
+</blockquote>
+<p>我会把视点(或者说摄像机, 如果你认为它是个摄像机的话)放在(0,0,0)(0,0,0)。这里y轴向上, x轴向右, 为了准守使用左手系的规范, 摄像机看向的方向为z轴的负方向。我会把发出射线的原点从图像的左下角开始沿着xy方向做增量直至遍历全图。注意我这里并没有将射线的向量设置为单位向量, 因为我认为这样代码会更加简单快捷。</p>
 ]]></content>
       <categories>
         <category>光线追踪 (Ray Tracing)</category>
@@ -14084,57 +14150,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#121;&#x6f;&#x6e;&#103;&#64;&#x74;&#115;&#105;&#110;&#103;&#104;&#x75;&#97;&#x2e;&#x65;&#100;&#x75;&#x2e;&#x63;&#x6e;">&#120;&#121;&#x6f;&#x6e;&#103;&#64;&#x74;&#115;&#105;&#110;&#103;&#104;&#x75;&#97;&#x2e;&#x65;&#100;&#x75;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#120;&#121;&#111;&#110;&#x67;&#x40;&#x74;&#115;&#105;&#x6e;&#103;&#104;&#x75;&#97;&#x2e;&#x65;&#x64;&#x75;&#46;&#x63;&#x6e;">&#120;&#121;&#111;&#110;&#x67;&#x40;&#x74;&#115;&#105;&#x6e;&#103;&#104;&#x75;&#97;&#x2e;&#x65;&#x64;&#x75;&#46;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#121;&#x75;&#99;&#104;&#101;&#110;&#x40;&#x6d;&#97;&#105;&#108;&#46;&#116;&#x73;&#105;&#110;&#103;&#104;&#117;&#x61;&#x2e;&#x65;&#x64;&#x75;&#46;&#99;&#110;">&#121;&#x75;&#99;&#104;&#101;&#110;&#x40;&#x6d;&#97;&#105;&#108;&#46;&#116;&#x73;&#105;&#110;&#103;&#104;&#117;&#x61;&#x2e;&#x65;&#x64;&#x75;&#46;&#99;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#x75;&#99;&#x68;&#x65;&#110;&#x40;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x74;&#115;&#105;&#110;&#x67;&#104;&#x75;&#97;&#x2e;&#101;&#100;&#117;&#46;&#x63;&#110;">&#x79;&#x75;&#99;&#x68;&#x65;&#110;&#x40;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x74;&#115;&#105;&#110;&#x67;&#104;&#x75;&#97;&#x2e;&#101;&#100;&#117;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#x74;&#x65;&#x72;&#x6e;&#x61;&#108;&#x2e;&#110;&#x30;&#56;&#64;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x65;&#x74;&#x65;&#x72;&#x6e;&#x61;&#108;&#x2e;&#110;&#x30;&#56;&#64;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#101;&#116;&#x65;&#114;&#110;&#97;&#x6c;&#x2e;&#x6e;&#48;&#x38;&#x40;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#101;&#116;&#x65;&#114;&#110;&#97;&#x6c;&#x2e;&#x6e;&#48;&#x38;&#x40;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#98;&#106;&#x65;&#99;&#116;&#x6b;&#117;&#97;&#110;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#x6d;">&#x6f;&#98;&#106;&#x65;&#99;&#116;&#x6b;&#117;&#97;&#110;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#x62;&#106;&#101;&#x63;&#x74;&#x6b;&#117;&#x61;&#x6e;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#111;&#x62;&#106;&#101;&#x63;&#x74;&#x6b;&#117;&#x61;&#x6e;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#114;&#100;&#x66;&#x72;&#x61;&#110;&#107;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x63;&#114;&#100;&#x66;&#x72;&#x61;&#110;&#107;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#x72;&#x64;&#x66;&#114;&#97;&#x6e;&#107;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;">&#x63;&#x72;&#x64;&#x66;&#114;&#97;&#x6e;&#107;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#x61;&#99;&#99;&#111;&#x72;&#97;&#x77;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#116;&#x61;&#99;&#99;&#111;&#x72;&#97;&#x77;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x74;&#97;&#x63;&#x63;&#111;&#x72;&#97;&#x77;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x74;&#97;&#x63;&#x63;&#111;&#x72;&#97;&#x77;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#105;&#110;&#x79;&#117;&#x6e;&#x78;&#105;&#110;&#103;&#48;&#48;&#x30;&#x31;&#x40;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#x6d;">&#x78;&#105;&#110;&#x79;&#117;&#x6e;&#x78;&#105;&#110;&#103;&#48;&#48;&#x30;&#x31;&#x40;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#120;&#x69;&#x6e;&#x67;&#48;&#48;&#48;&#49;&#x40;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;">&#x78;&#x69;&#x6e;&#121;&#x75;&#x6e;&#120;&#x69;&#x6e;&#x67;&#48;&#48;&#48;&#49;&#x40;&#49;&#54;&#51;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#x6e;&#x6f;&#x63;&#117;&#x69;&#108;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#103;&#x6e;&#x6f;&#x63;&#117;&#x69;&#108;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#110;&#111;&#x63;&#117;&#x69;&#108;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#x67;&#110;&#111;&#x63;&#117;&#x69;&#108;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#x79;&#97;&#105;&#114;&#x69;&#x61;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#109;&#x79;&#97;&#105;&#114;&#x69;&#x61;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#109;&#x79;&#x61;&#x69;&#x72;&#x69;&#x61;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#109;&#x79;&#x61;&#x69;&#x72;&#x69;&#x61;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#104;&#x61;&#x6e;&#x67;&#114;&#x61;&#105;&#x6e;&#57;&#49;&#x31;&#64;&#49;&#54;&#51;&#x2e;&#x63;&#x6f;&#x6d;">&#x7a;&#104;&#x61;&#x6e;&#x67;&#114;&#x61;&#105;&#x6e;&#57;&#49;&#x31;&#64;&#49;&#54;&#51;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#122;&#x68;&#x61;&#x6e;&#x67;&#114;&#x61;&#x69;&#x6e;&#57;&#x31;&#49;&#64;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#x6d;">&#122;&#x68;&#x61;&#x6e;&#x67;&#114;&#x61;&#x69;&#x6e;&#57;&#x31;&#49;&#64;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#x67;&#120;&#120;&#49;&#50;&#48;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;">&#x67;&#x67;&#120;&#120;&#49;&#50;&#48;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#103;&#103;&#x78;&#x78;&#49;&#50;&#x30;&#64;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;">&#103;&#103;&#x78;&#x78;&#49;&#50;&#x30;&#64;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -18424,7 +18490,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#101;&#110;&#120;&#117;&#64;&#116;&#x65;&#110;&#99;&#x65;&#110;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#x6c;&#x65;&#101;&#110;&#120;&#117;&#64;&#116;&#x65;&#110;&#99;&#x65;&#110;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#x65;&#x6e;&#120;&#x75;&#64;&#x74;&#101;&#x6e;&#99;&#x65;&#110;&#116;&#x2e;&#x63;&#111;&#109;">&#x6c;&#101;&#x65;&#x6e;&#120;&#x75;&#64;&#x74;&#101;&#x6e;&#99;&#x65;&#110;&#116;&#x2e;&#x63;&#111;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>梳理和分析游戏的玩法和体验。</p>
 <blockquote>
