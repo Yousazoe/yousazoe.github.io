@@ -4369,7 +4369,67 @@
 <p>从中可以看出我们要想写出一个变换，我们就要找一个对应（或者是前后之间的关系）。只要找到这个关系，我们就可以自然而然的写出变换矩阵。</p>
 <h4 id="Rotate"><a href="#Rotate" class="headerlink" title="Rotate"></a>Rotate</h4><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210328204954129.png"></p>
 <p>这里我们来谈谈更复杂但非常常见的变换：旋转变换。我们规定旋转变换是在二维平面内旋转，并且默认在原点进行旋转；另外不说旋转方向，我们默认逆时针方向。</p>
-<h3 id="Homogeneous-coordinates"><a href="#Homogeneous-coordinates" class="headerlink" title="Homogeneous coordinates"></a>Homogeneous coordinates</h3>]]></content>
+<p>既然是一种变换，那旋转的矩阵该如何写出来呢？我们可以看到旋转矩阵的结果：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210328205616158.png"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210329121348717.png"></p>
+<h4 id="Linear-Transforms-Matrices"><a href="#Linear-Transforms-Matrices" class="headerlink" title="Linear Transforms = Matrices"></a>Linear Transforms = Matrices</h4><p>$x’ = ax + by$    $y’ = cx + dy$</p>
+<p>$x’ = M x$    $\begin{bmatrix}x’ \\ y’\end{bmatrix} = \begin{bmatrix}a &amp; b \\ c &amp; d\end{bmatrix}\begin{bmatrix}x \\ y\end{bmatrix}$</p>
+<p>这里大家会发现有一个共同点，这些变换都可以写成上面的矩阵形式。如果我们可以把变换写成这样一种形式，也就是矩阵去乘输入的坐标可以得到输出的坐标，这种变化我们起个名字叫做线性变换。</p>
+<p>需要注意的是必须是相同维度的矩阵来乘向量，在后面会提到。</p>
+<h3 id="Homogeneous-coordinates"><a href="#Homogeneous-coordinates" class="headerlink" title="Homogeneous coordinates"></a>Homogeneous coordinates</h3><ul>
+<li>Why homogeneous coordinates</li>
+<li>Affine transformation</li>
+</ul>
+<h4 id="Translation"><a href="#Translation" class="headerlink" title="Translation"></a>Translation</h4><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210328212144952.png"></p>
+<p>为什么要提到齐次坐标？我们为什么要引入这么复杂的东西？有一种变换它非常特殊：平移变换。上图进行了平移（x方向<code>tx</code>、y方向平移<code>ty</code>），我们可以很快写出对应关系：</p>
+<p>$x’ = x + t_x$</p>
+<p>$y’ = y + t_y$</p>
+<p>写出来是挺简单的，但好像有个问题，我们不能和刚才一样写成矩阵的形式。</p>
+<h4 id="Why-Homogeneous-Coordinates"><a href="#Why-Homogeneous-Coordinates" class="headerlink" title="Why Homogeneous Coordinates"></a>Why Homogeneous Coordinates</h4><ul>
+<li><p>Translation cannot be represented in matrix form</p>
+<p>$\begin{bmatrix}x’ \\ y’\end{bmatrix} = \begin{bmatrix}a &amp; b \\ c &amp; d\end{bmatrix}\begin{bmatrix}x \\ y\end{bmatrix} + \begin{bmatrix}t_x \\ t_y\end{bmatrix}$ </p>
+<p><strong>(So, translation is NOT linear transform!)</strong></p>
+</li>
+<li><p>But we don’t want translation to be a special case</p>
+</li>
+<li><p>Is there a unified way to represent all transformations? (and what’s the cost?)</p>
+</li>
+</ul>
+<p>根据之前矩阵的乘法我们可以知道$\begin{bmatrix}a &amp; b \\ c &amp; d\end{bmatrix}\begin{bmatrix}x \\ y\end{bmatrix}$得到的结果一定是$mx+ny$，这个矩阵并不能表示类似之前加减的操作，必须通过加上$\begin{bmatrix}t_x \\ t_y\end{bmatrix}$来表达。由此可知，平移变换并不属于线性变换的范畴，而是一个特殊的变换。</p>
+<p>但我们并不想把平移当作特殊的变换，有没有办法把所有的变换用一种最简单的形式去表示？</p>
+<h4 id="Solution-Homogenous-Coordinates"><a href="#Solution-Homogenous-Coordinates" class="headerlink" title="Solution: Homogenous Coordinates"></a>Solution: Homogenous Coordinates</h4><p><strong>Add a third coordinate (w-coordinate)</strong></p>
+<ul>
+<li><em>2D point</em> = $(x, y, 1)^T $</li>
+<li><em>2D vector</em> = $(x, y, 0)^T$ </li>
+</ul>
+<p><strong>Matrix representation of translations</strong></p>
+<p>$\begin{pmatrix}x’ \\ y’ \\ w’\end{pmatrix} = \begin{pmatrix}1 &amp; 0 &amp; t_x \\ 0 &amp; 1 &amp; t_y \\ 0 &amp; 0 &amp; 1\end{pmatrix} \cdot \begin{pmatrix}x \\ y \\ 1\end{pmatrix}=\begin{pmatrix}x + t_x \\ y + t_y \\ 1\end{pmatrix}$</p>
+<p><strong>What if you translate a vector?</strong></p>
+<p>人们在长期的斗争中引入了新的形式来表示物体的坐标，二维的点或向量可以增加一个维度。通过矩阵的运算我们可以发现平移操作可以通过矩阵乘向量的形式表现出来。这样我们引入齐次坐标最大的目的达到了，通过增加一个数来把平移变换包含进来。</p>
+<p>有人可能会问为什么点和向量要区别出来。回想之前我们讲的概念，向量表示的是方向性，具有平移不变性，而这时我就希望它不会因为平移的<code>t_x</code>、<code>t_y</code>而发生改变，在矩阵的形式中就是$w$。</p>
+<h4 id="Homogenous-Coordinates"><a href="#Homogenous-Coordinates" class="headerlink" title="Homogenous Coordinates"></a>Homogenous Coordinates</h4><p><strong>Valid operation if w-coordinate of result is 1 or 0</strong></p>
+<ul>
+<li><p><em>vector + vector = vector</em></p>
+</li>
+<li><p><em>point – point = vector</em></p>
+</li>
+<li><p><em>point + vector = point</em></p>
+</li>
+<li><p><em>point + point = ??</em> </p>
+</li>
+</ul>
+<p><strong>In homogeneous coordinates,</strong> </p>
+<p>$\begin{pmatrix}x \\ y \\ w\end{pmatrix}$ is the 2D point $\begin{pmatrix}x/w \\ y/w \\ 1\end{pmatrix},w\ne 0$</p>
+<p>从这个定义上说，<em>point + point</em>在齐次坐标中表示的是这两个点的中点，推导的重点在于$w=2$：</p>
+<p>$\begin{pmatrix}x_1 \\ y_1 \\ 1\end{pmatrix}+\begin{pmatrix}x_2 \\ y_2 \\ 1\end{pmatrix}=\begin{pmatrix}x_1 + x_2 \\ y_1 + y_2\\ 2\end{pmatrix} \to \begin{pmatrix}\frac{x_1 + x_2}{2} \\ \frac{y_1 + y_2}{2} \\ 1\end{pmatrix}$</p>
+<h3 id="Affine-Transformations"><a href="#Affine-Transformations" class="headerlink" title="Affine Transformations"></a>Affine Transformations</h3><ul>
+<li>Affine map = linear map + translation </li>
+</ul>
+<p>$\begin{pmatrix}x’ \\ y’\end{pmatrix} = \begin{pmatrix}a &amp; b \\ c &amp; d\end{pmatrix} \cdot \begin{pmatrix}\end{pmatrix}$</p>
+<ul>
+<li>Using homogenous coordinates:</li>
+</ul>
+]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101)</category>
       </categories>
