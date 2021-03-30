@@ -970,13 +970,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Game-Engine/</loc>
-    <lastmod>2021-03-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/tags/Math/</loc>
     <lastmod>2021-03-30</lastmod>
     <changefreq>daily</changefreq>
@@ -999,6 +992,13 @@
   
   <url>
     <loc>http://yousazoe.top/tags/SEGA/</loc>
+    <lastmod>2021-03-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/Game-Engine/</loc>
     <lastmod>2021-03-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1089,14 +1089,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Aseprite/</loc>
+    <loc>http://yousazoe.top/tags/Rocket/</loc>
     <lastmod>2021-03-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Rocket/</loc>
+    <loc>http://yousazoe.top/tags/Aseprite/</loc>
     <lastmod>2021-03-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1259,14 +1259,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91-Game-Engine-Series/</loc>
+    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91-Game-Development/</loc>
     <lastmod>2021-03-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91-Game-Development/</loc>
+    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91-Game-Engine-Series/</loc>
     <lastmod>2021-03-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1322,14 +1322,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E5%83%8F%E7%B4%A0%E5%AE%9D%E5%85%B8-Pixel-Dictionary/</loc>
+    <loc>http://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%83%BD%E5%8A%9B%E8%80%83%E8%AF%95-Programing-Ability-Test/</loc>
     <lastmod>2021-03-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%83%BD%E5%8A%9B%E8%80%83%E8%AF%95-Programing-Ability-Test/</loc>
+    <loc>http://yousazoe.top/categories/%E5%83%8F%E7%B4%A0%E5%AE%9D%E5%85%B8-Pixel-Dictionary/</loc>
     <lastmod>2021-03-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
