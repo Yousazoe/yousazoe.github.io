@@ -47,10 +47,95 @@
 <p>$R(n,\alpha)=\cos{(\alpha)}I+(1-\cos{(\alpha)})nn^T+\sin{(\alpha)}\begin{pmatrix}0 &amp; -n_z &amp; n_y \\ n_z &amp; 0 &amp; -n_x \\ -n_y &amp; n_x &amp; 0\end{pmatrix}$</p>
 <p><strong>How to prove this magic formula?</strong></p>
 <p>Check out the supplementary material on the course website!</p>
-<p>在图形学中就有人发明了一套办法，通过分解为三个方向可以把任意旋转写成这么一个矩阵，也就是罗德里格斯旋转公式。这个旋转公式非常复杂，推导过程放在了后面补充里。</p>
+<p>在图形学中就有人发明了一套办法，通过分解为三个方向可以把任意旋转写成这么一个矩阵，也就是罗德里格斯旋转公式。这个旋转公式非常复杂，推导过程如下：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210330074955431.png"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210330075031617.png"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210330075055898.png"></p>
 <p>这个旋转公式定义了一个旋转轴和旋转角度，而旋转轴只用一个向量定义不太合理，旋转轴首先要和起点有关系，然后跟它方向有关系。为什么需要一个起点呢？之前我们默认旋转轴过原点，但实际上并不是所有旋转都过原点。</p>
 <p>上节课变换的分解中我们提到二维旋转如果要绕任意一个点旋转，我们需要先把中心点平移到原点上，再做旋转，再把它平移回来。在三维空间中是完全相同的做法，如果我们沿任意轴旋转而起点并不为原点，没关系，先把所有的东西都移到使得轴过原点上，然后旋转，最后再把所有东西移回去，问题解决。</p>
-<h3 id="View-transformation"><a href="#View-transformation" class="headerlink" title="View transformation"></a>View transformation</h3>]]></content>
+<h3 id="View-transformation"><a href="#View-transformation" class="headerlink" title="View transformation"></a>View transformation</h3><h4 id="View-Camera-Transformation"><a href="#View-Camera-Transformation" class="headerlink" title="View/Camera Transformation"></a>View/Camera Transformation</h4><p><strong>What is view transformation?</strong></p>
+<p><strong>Think about how to take a photo</strong></p>
+<ul>
+<li>Find a good place and arrange people (model transformation)</li>
+<li>Find a good “angle” to put the camera (view transformation)</li>
+<li>Cheese! (projection transformation)</li>
+</ul>
+<p>我们学这些的目的是把三维空间的物体变成二维空间中的照片，这个过程发生了什么我们要弄明白，但这个过程一定涉及了三维到二维的变换。</p>
+<p>咱们一开始先说拿到一个场景我要规定场景和相机位置，然后我得到某一个投影出来，否则对于一个三维场景从不同的角度看，看到的一定不同，“怎么看”这个问题很重要。首先什么是视图变换，这里思考一个简单的问题：现实生活中怎么拍一张照片？</p>
+<ul>
+<li>首先找一个好的地方搭好场景摆好pose（模型变换）</li>
+<li>第二步<strong>找到好的角度/位置将相机放置好</strong>（视图变换）</li>
+<li>下一步是“茄子！”可以拍照（投影变换）</li>
+</ul>
+<p><strong>How to perform view transformation?</strong></p>
+<p><strong>Define the camera first</strong></p>
+<ul>
+<li><p>Position $\vec e$</p>
+</li>
+<li><p>Look-at / gaze direction $\hat g$</p>
+</li>
+<li><p>Up direction $\hat t$</p>
+<p>(assuming perp. to look-at)</p>
+</li>
+</ul>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210330081309372.png"></p>
+<p>那大家想一想如何确定相机的摆放。首先相机的位置一定非常重要，所以我们要定义它，但只确定位置并没有用，比如大家坐在座位上，头是可以扭动朝不同方向去看的，“往哪儿看”也是非常重要的，这个属性被称为Look-at direction。</p>
+<p>只定义方向依然不够，我们还需要一个向上的方向：大家在拍照的时候相机逆时针旋转45度和顺时针旋转45度拍摄出来的照片一定不一样，旋转一定会影响拍出来的图是什么，所以我们用一个向量来定义这个向上的属性值把旋转固定住。到这里我们终于把相机固定在一个位置了。</p>
+<p><strong>Key observation</strong></p>
+<ul>
+<li><p>If the camera and all objects move together, </p>
+<p>the “photo” will be the same</p>
+</li>
+</ul>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210330083515330.png"></p>
+<p><strong>How about that we always transform the camera to</strong></p>
+<ul>
+<li>The origin, up at Y, look at -Z</li>
+<li>And transform the objects along with the camera</li>
+</ul>
+<p>下一步我们来想如何进行视图变换，在现实生活中也是这样：大家坐在车上不往窗户外面看，是感觉不到自己在移动，这个在物理上叫相对运动。那么在观察或者说拍照片上也是一个道理，摄影棚里相同的人、相同的相机、相同的摆放位置不管在哪个摄影棚大家拍出来的是一样的，也就是说当相机和包括前景背景所有的东西都一起移动的时候，那么拍出来的这张照片一定是一样的。</p>
+<p>我们考虑到这点可以得出只要物体与相机之间没有相对运动，它拍摄的结果是一样的。更进一步思考，我们可以认为相机放置在固定的位置上，所有东西都是其他物体在移动并且相机永远在原点，约定俗成向上朝向y轴指向-z轴。</p>
+<p><strong>Transform the camera by $M_{view}$</strong></p>
+<ul>
+<li>So it’s located at the origin, up at Y, look at Z</li>
+</ul>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210330090221385.png"></p>
+<p><strong>Mview in math?</strong></p>
+<ul>
+<li>Translates e to origin</li>
+<li>Rotates g to -Z</li>
+<li>Rotates t to Y</li>
+<li>Rotates (g x t) To X</li>
+<li>Difficult to write!</li>
+</ul>
+<p>我们要把相机从任意的一种摆放给放到标准位置上去，做一个一一对应。比如相机原本的中点在$\vec e$这个位置，朝向$\hat g$并且上方向是$\hat t$，现在我们需要改成上面以原点为中心的：</p>
+<ul>
+<li>中心从$\vec e$平移到原点</li>
+<li>观察方向由$\hat g$旋转到-Z</li>
+<li>向上方向由$\hat t$旋转到Y</li>
+<li>将$\hat g \times \hat t$旋转至X</li>
+</ul>
+<p><strong>$M_{view}$ in math?</strong></p>
+<ul>
+<li><p>Let’s write $M_{view} = R_{view}T_{view}$</p>
+</li>
+<li><p>Translate e to origin</p>
+<p>$T_{view}=\begin{bmatrix}1 &amp; 0 &amp; 0 &amp; -x_e \\ 0 &amp; 1 &amp; 0 &amp; -y_e \\ 0 &amp; 0 &amp; 1 &amp; -z_e \\ 0 &amp; 0 &amp; 0 &amp; 1\end{bmatrix}$</p>
+</li>
+<li><p>Rotate g to -Z, t to Y, (g x t) To X</p>
+</li>
+<li><p>Consider its inverse rotation: X to (g x t), Y to t, Z to -g</p>
+<p>$R^{-1}<em>{view}=\begin{bmatrix}x</em>{\hat g \times \hat t} &amp; x_t &amp; x_{-g} &amp; 0 \\ y_{\hat g \times \hat t} &amp; y_t &amp; y_{-g} &amp; 0 \\ z_{\hat g \times \hat t} &amp; z_t &amp; z_{-g} &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 1\end{bmatrix} \to R_{view}=\begin{bmatrix}x_{\hat g \times \hat t} &amp; y_{\hat g} &amp; z_{\hat g} &amp; 0 \\ x_t &amp; y_t &amp; z_t  &amp; 0 \\ x_{-g} &amp; y_{-g} &amp; z_{-g} &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 1\end{bmatrix}$</p>
+</li>
+</ul>
+<p>对于这样一系列的操作我们转换为矩阵形式。</p>
+<br/>
+
+<center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_04.pdf">
+            <i class="fas fa-download"></i>GAMES101_Lecture_04
+          </a></center>
+
+]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101)</category>
       </categories>
@@ -228,6 +313,12 @@
 <p>$T(c) \cdot R(\alpha) \cdot T(-c)$</p>
 <p>变换不止能合成，还能分解，当我们在猜测先平移还是先旋转的时候已经是在做分解这件事了。</p>
 <p>之前我们提到过旋转默认按原点旋转，那如果我们以任意点$c$为中心进行旋转而不受限于原点呢？我们可以先把对应的点移到原点去$T(-c)$，在原点进行旋转$R(\alpha)$后，再从原点移回去$T(c)$。</p>
+<br/>
+
+<center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_03.pdf">
+            <i class="fas fa-download"></i>GAMES101_Lecture_03
+          </a></center>
+
 ]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101)</category>
@@ -486,6 +577,12 @@
 </li>
 </ul>
 <p>点乘和叉乘都可以写成矩阵的形式。</p>
+<br/>
+
+<center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_02.pdf">
+            <i class="fas fa-download"></i>GAMES101_Lecture_02
+          </a></center>
+
 ]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101)</category>
@@ -14464,57 +14561,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#x78;&#x79;&#111;&#x6e;&#x67;&#64;&#x74;&#115;&#x69;&#110;&#103;&#x68;&#117;&#97;&#x2e;&#x65;&#x64;&#117;&#46;&#99;&#110;">&#x78;&#x79;&#111;&#x6e;&#x67;&#64;&#x74;&#115;&#x69;&#110;&#103;&#x68;&#117;&#97;&#x2e;&#x65;&#x64;&#117;&#46;&#99;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#121;&#111;&#110;&#103;&#x40;&#116;&#x73;&#x69;&#x6e;&#103;&#x68;&#117;&#x61;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#x6e;">&#x78;&#121;&#111;&#110;&#103;&#x40;&#116;&#x73;&#x69;&#x6e;&#103;&#x68;&#117;&#x61;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#117;&#99;&#x68;&#101;&#x6e;&#64;&#109;&#x61;&#105;&#x6c;&#46;&#x74;&#x73;&#105;&#110;&#x67;&#104;&#117;&#97;&#x2e;&#x65;&#x64;&#117;&#x2e;&#x63;&#110;">&#x79;&#117;&#99;&#x68;&#101;&#x6e;&#64;&#109;&#x61;&#105;&#x6c;&#46;&#x74;&#x73;&#105;&#110;&#x67;&#104;&#117;&#97;&#x2e;&#x65;&#x64;&#117;&#x2e;&#x63;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#117;&#x63;&#104;&#x65;&#110;&#64;&#109;&#97;&#x69;&#108;&#46;&#x74;&#x73;&#x69;&#x6e;&#x67;&#104;&#117;&#97;&#46;&#x65;&#100;&#x75;&#46;&#x63;&#110;">&#x79;&#117;&#x63;&#104;&#x65;&#110;&#64;&#109;&#97;&#x69;&#108;&#46;&#x74;&#x73;&#x69;&#x6e;&#x67;&#104;&#117;&#97;&#46;&#x65;&#100;&#x75;&#46;&#x63;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#x74;&#101;&#114;&#110;&#x61;&#108;&#46;&#x6e;&#x30;&#56;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#x65;&#x74;&#101;&#114;&#110;&#x61;&#108;&#46;&#x6e;&#x30;&#56;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x65;&#x74;&#x65;&#114;&#x6e;&#x61;&#x6c;&#46;&#110;&#x30;&#56;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#x65;&#x74;&#x65;&#114;&#x6e;&#x61;&#x6c;&#46;&#110;&#x30;&#56;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#98;&#106;&#101;&#x63;&#116;&#107;&#x75;&#97;&#x6e;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#x6f;&#98;&#106;&#101;&#x63;&#116;&#107;&#x75;&#97;&#x6e;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#111;&#98;&#x6a;&#x65;&#x63;&#116;&#107;&#x75;&#97;&#x6e;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#111;&#98;&#x6a;&#x65;&#x63;&#116;&#107;&#x75;&#97;&#x6e;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#x72;&#100;&#102;&#x72;&#97;&#110;&#107;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#x63;&#x72;&#100;&#102;&#x72;&#97;&#110;&#107;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x63;&#114;&#x64;&#x66;&#x72;&#97;&#x6e;&#x6b;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#x63;&#114;&#x64;&#x66;&#x72;&#97;&#x6e;&#x6b;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#116;&#97;&#99;&#x63;&#111;&#x72;&#97;&#x77;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#116;&#97;&#99;&#x63;&#111;&#x72;&#97;&#x77;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#116;&#x61;&#x63;&#99;&#x6f;&#114;&#97;&#x77;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">&#116;&#x61;&#x63;&#99;&#x6f;&#114;&#97;&#x77;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#120;&#105;&#x6e;&#x79;&#117;&#x6e;&#x78;&#x69;&#110;&#x67;&#x30;&#x30;&#x30;&#49;&#64;&#x31;&#54;&#x33;&#46;&#x63;&#x6f;&#x6d;">&#120;&#105;&#x6e;&#x79;&#117;&#x6e;&#x78;&#x69;&#110;&#x67;&#x30;&#x30;&#x30;&#49;&#64;&#x31;&#54;&#x33;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#120;&#105;&#x6e;&#x79;&#117;&#110;&#x78;&#x69;&#110;&#103;&#x30;&#48;&#48;&#x31;&#64;&#49;&#x36;&#51;&#46;&#99;&#x6f;&#109;">&#120;&#105;&#x6e;&#x79;&#117;&#110;&#x78;&#x69;&#110;&#103;&#x30;&#48;&#48;&#x31;&#64;&#49;&#x36;&#51;&#46;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#110;&#111;&#99;&#x75;&#x69;&#x6c;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#110;&#111;&#99;&#x75;&#x69;&#x6c;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x6e;&#111;&#x63;&#117;&#105;&#x6c;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#x67;&#x6e;&#111;&#x63;&#117;&#105;&#x6c;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#121;&#97;&#x69;&#x72;&#x69;&#97;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x6d;&#121;&#97;&#x69;&#x72;&#x69;&#97;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#x79;&#x61;&#105;&#114;&#x69;&#97;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#109;">&#109;&#x79;&#x61;&#105;&#114;&#x69;&#97;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#122;&#x68;&#97;&#x6e;&#103;&#x72;&#x61;&#x69;&#110;&#57;&#49;&#49;&#x40;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#109;">&#122;&#x68;&#97;&#x6e;&#103;&#x72;&#x61;&#x69;&#110;&#57;&#49;&#49;&#x40;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#122;&#x68;&#x61;&#110;&#x67;&#114;&#x61;&#x69;&#x6e;&#x39;&#x31;&#x31;&#x40;&#49;&#54;&#51;&#46;&#99;&#111;&#x6d;">&#122;&#x68;&#x61;&#110;&#x67;&#114;&#x61;&#x69;&#x6e;&#x39;&#x31;&#x31;&#x40;&#49;&#54;&#51;&#46;&#99;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#x67;&#x78;&#x78;&#x31;&#x32;&#48;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#103;&#x67;&#x78;&#x78;&#x31;&#x32;&#48;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x67;&#120;&#120;&#49;&#x32;&#48;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#x67;&#120;&#120;&#49;&#x32;&#48;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -18829,7 +18926,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#101;&#x65;&#110;&#120;&#x75;&#64;&#x74;&#101;&#110;&#99;&#x65;&#x6e;&#x74;&#46;&#x63;&#111;&#x6d;">&#108;&#101;&#x65;&#110;&#120;&#x75;&#64;&#x74;&#101;&#110;&#99;&#x65;&#x6e;&#x74;&#46;&#x63;&#111;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#x65;&#x6e;&#120;&#117;&#64;&#116;&#101;&#x6e;&#x63;&#101;&#110;&#x74;&#x2e;&#99;&#x6f;&#109;">&#x6c;&#x65;&#x65;&#x6e;&#120;&#117;&#64;&#116;&#101;&#x6e;&#x63;&#101;&#110;&#x74;&#x2e;&#99;&#x6f;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><p>大家可能体验过各种各样的游戏产品，对这些产品也有自己的思考。那为什么需要游戏分析方法？为什么需要用相对科学的方式与思维把它形成一种方法论呢？首先，我们可以了解一下游戏分析的定义。</p>
 <h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>游戏分析根据目的的不同，分析角度和重点各异，可以划分为三类：</p>
@@ -19821,8 +19918,8 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
-        <tag>Art</tag>
         <tag>Game</tag>
+        <tag>Art</tag>
       </tags>
   </entry>
   <entry>
