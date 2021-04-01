@@ -226,7 +226,7 @@
 <p>$M^{(4 \times 4)}_{persp \to ortho} \begin{pmatrix}x \\ y \\ z \\ 1\end{pmatrix} = \begin{pmatrix}nx \\ ny \\ unknown \\ z\end{pmatrix}$</p>
 <p><strong>Already good enough to figure out part of $M_{persp-&gt;ortho}$</strong></p>
 <p>$M_{persp \to ortho} = \begin{pmatrix}n &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; n &amp; 0 &amp; 0 \\ ? &amp; ? &amp; ? &amp; ? \\ 0 &amp; 0 &amp; 1 &amp; 0\end{pmatrix}$</p>
-<p>通过矩阵运算的性质我们很容易可以推导出$M_{persp \to ortho}$矩阵部分元素，我们只剩第三行不知道。</p>
+<p>通过矩阵运算的性质我们很容易可以推导出$M_{persp \to ortho}$矩阵部分元素（第一、二、四行），我们只剩第三行不知道。</p>
 <p><strong>How to figure out the third row of $M_{persp \to ortho}$</strong></p>
 <ul>
 <li>Any information that we can use?</li>
@@ -241,18 +241,21 @@
 <p>$M^{(4 \times 4)}_{persp \to ortho}\begin{pmatrix}x \\ y \\ z \\ 1\end{pmatrix} = \begin{pmatrix}nx \\ ny \\ unknown \\ z\end{pmatrix} \to \begin{pmatrix}x \\ y \\ n \\ 1\end{pmatrix} == \begin{pmatrix}nx \\ ny \\ n^2 \\ n\end{pmatrix}$</p>
 <p><strong>So the third row must be of the form (0 0 A B)</strong></p>
 <p>$\begin{pmatrix}0 &amp; 0 &amp; A &amp; B\end{pmatrix}\begin{pmatrix}x \\ y \\ n \\ 1\end{pmatrix} = n^2$</p>
-<p>利用这两点我们将z值替换为n，并且$(0 \space 0 \space A \space B)$可以得到一个与xy无关的定值$n^2$。</p>
+<p>利用近平面不变的性质，我们将$unknown$替换为$n$并同时乘上$n$可以得到，并且假设的第三行$(0 \space 0 \space A \space B)$可以得到一个与xy无关的定值$n^2$。</p>
 <p><strong>What do we have now?</strong></p>
 <p>$\begin{pmatrix}0 &amp; 0 &amp; A &amp; B\end{pmatrix}\begin{pmatrix}x \\ y \\ n \\ 1\end{pmatrix} = n^2 \to An + B = n^2$</p>
 <p><strong>Any point’s z on the far plane will not change</strong></p>
 <p>$\begin{pmatrix}0 \\ 0 \\ f \\ 1\end{pmatrix} \to \begin{pmatrix}0 \\ 0 \\ f \\ 1\end{pmatrix} == \begin{pmatrix}0 \\ 0 \\ f^2 \\ f\end{pmatrix} \to Af+b=f^2$</p>
+<p>远平面同样满足该性质，并且中心点$f$也不会变化，将这两个情况带入矩阵，这样我们就得到了两个联立式子。</p>
 <p><strong>Solve for A and B</strong></p>
+<p>$An + B = n^2 \space &amp; \space Af + B = f^2 \to A=n + f \space &amp; \space B = -nf$</p>
 <p><strong>Finally, every entry in $M_{persp \to ortho}$ is known!</strong></p>
 <p><strong>What’s next?</strong></p>
 <ul>
 <li>Do orthographic projection (Mortho) to finish </li>
 <li>$M_{persp} = M_{ortho}M_{persp \to ortho}$</li>
 </ul>
+<p>通过联立方程我们可以解出$M_{persp \to ortho}$，再做正交投影就可以得到透视投影。</p>
 <br>
 
 <center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_04.pdf">
