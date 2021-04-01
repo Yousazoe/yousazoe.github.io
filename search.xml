@@ -127,7 +127,7 @@
 <li><p>Consider its inverse rotation: X to (g x t), Y to t, Z to -g</p>
 </li>
 </ul>
-<p>$R^{-1}<em>{view}=\begin{bmatrix}x</em>{\hat g \times \hat t} &amp; x_t &amp; x_{-g} &amp; 0 \\ y_{\hat g \times \hat t} &amp; y_t &amp; y_{-g} &amp; 0 \\ z_{\hat g \times \hat t} &amp; z_t &amp; z_{-g} &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 1\end{bmatrix} \to$  $R_{view}  = \begin{bmatrix}x_{\hat g \times \hat t} &amp; y_{\hat g \times \hat t} &amp; z_{\hat g \times \hat t} &amp; 0 \\ x_t &amp; y_t &amp; z_t  &amp; 0 \\ x_{-g} &amp; y_{-g} &amp; z_{-g} &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 1\end{bmatrix}$</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210401115305765.png"></p>
 <p>对于这样一系列的操作我们转换为矩阵形式。旋转矩阵是正交矩阵，所以它的逆是它的转置。</p>
 <p><strong>Summary</strong></p>
 <ul>
