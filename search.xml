@@ -87,9 +87,21 @@
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210402083530408.png"></p>
 <p>现在我们要做的就是把右边的$[-1,1]^3$映射到左边的屏幕中。这里有一个问题是右边是一个三维坐标，映射到屏幕上如何处理它的z坐标？一个简单的方法是暂时不管它，自然而然之后会有它的用处，只盯着x、y来看就简单很多。</p>
 <p>首先我们将$[-1,1]^3$缩放到$[width,height]$范围中，对应上面的矩阵中是左上角的3*3。缩放后中心还在原中心点上，而我们需要将其平移至左下角的原点，这个变换也被称为视口变换。</p>
-<h3 id="Rasterization"><a href="#Rasterization" class="headerlink" title="Rasterization"></a>Rasterization</h3><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210402085247459.png"></p>
-<p>《少年派的奇幻漂流》大家都知道老虎是假的，但做的栩栩如生，这就是图形学的贡献。可以看到老虎上面有各种各样的多边形，这些多边形经过变换和各种各样的操作之后会形成屏幕</p>
-<br>
+<h3 id="Rasterization"><a href="#Rasterization" class="headerlink" title="Rasterization"></a>Rasterization</h3><h4 id="Next-Rasterizing-Triangles-into-Pixels"><a href="#Next-Rasterizing-Triangles-into-Pixels" class="headerlink" title="Next: Rasterizing Triangles into Pixels"></a>Next: Rasterizing Triangles into Pixels</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210402085247459.png"></p>
+<p>《少年派的奇幻漂流》大家都知道老虎是假的，但做的栩栩如生，这就是图形学的贡献。可以看到老虎上面有各种各样的多边形，这些多边形经过变换和各种各样的操作之后会形成在屏幕空间中的多边形，但这不够，我们要把多边形进一步打碎，打成像素，显示在一个个像素上告诉我每一个像素的值都应该是什么，这一步过程我们称之为光栅化。</p>
+<h4 id="Drawing-Machines"><a href="#Drawing-Machines" class="headerlink" title="Drawing Machines"></a>Drawing Machines</h4><h5 id="CNC-Sharpie-Drawing-Machine"><a href="#CNC-Sharpie-Drawing-Machine" class="headerlink" title="CNC Sharpie Drawing Machine"></a>CNC Sharpie Drawing Machine</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210402091742617.png"></p>
+<h5 id="Laser-Cutters"><a href="#Laser-Cutters" class="headerlink" title="Laser Cutters"></a>Laser Cutters</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210402091843642.png"></p>
+<h4 id="Different-Raster-Displays"><a href="#Different-Raster-Displays" class="headerlink" title="Different Raster Displays"></a>Different Raster Displays</h4><p>咱们来介绍各种各样不同的光栅显示设备。</p>
+<h5 id="Oscilloscope"><a href="#Oscilloscope" class="headerlink" title="Oscilloscope"></a>Oscilloscope</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210402092345238.png"></p>
+<p>上图是示波器，它在上面可以形成各种各样的曲线，早期很多电脑显示器都是这样。</p>
+<h5 id="Cathode-Ray-Tube"><a href="#Cathode-Ray-Tube" class="headerlink" title="Cathode Ray Tube"></a>Cathode Ray Tube</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210402092733339.png"></p>
+<p>示波器的成像原理和我们早期显示器的成像原理一模一样，</p>
+<h5 id="Television-Raster-Display-CRT"><a href="#Television-Raster-Display-CRT" class="headerlink" title="Television - Raster Display CRT"></a>Television - Raster Display CRT</h5><h5 id="Frame-Buffer-Memory-for-a-Raster-Display"><a href="#Frame-Buffer-Memory-for-a-Raster-Display" class="headerlink" title="Frame Buffer: Memory for a Raster Display"></a>Frame Buffer: Memory for a Raster Display</h5><h5 id="Flat-Panel-Displays"><a href="#Flat-Panel-Displays" class="headerlink" title="Flat Panel Displays"></a>Flat Panel Displays</h5><h5 id="LCD-Liquid-Crystal-Display-Pixel"><a href="#LCD-Liquid-Crystal-Display-Pixel" class="headerlink" title="LCD (Liquid Crystal Display) Pixel"></a>LCD (Liquid Crystal Display) Pixel</h5><ul>
+<li>Principle: block or transmit light by twisting polarization</li>
+<li>Illumination from backlight (e.g. fluorescent or LED)</li>
+<li>Intermediate intensity levels by partial twist</li>
+</ul>
+<h5 id="LED-Array-Display"><a href="#LED-Array-Display" class="headerlink" title="LED Array Display"></a>LED Array Display</h5><h5 id="Electrophoretic-Electronic-Ink-Display"><a href="#Electrophoretic-Electronic-Ink-Display" class="headerlink" title="Electrophoretic (Electronic Ink) Display"></a>Electrophoretic (Electronic Ink) Display</h5><br>
 
 <center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_05.pdf">
             <i class="fas fa-download"></i>GAMES101_Lecture_05
