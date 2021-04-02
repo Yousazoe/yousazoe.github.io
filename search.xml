@@ -3,7 +3,7 @@
   <entry>
     <title>Rasterization-Triangles</title>
     <url>/archives/d3e5abd5.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://pbs.twimg.com/media/Ex1FWvNWEAMtysd?format=jpg&amp;name=medium" alt="图像"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Ex1FWvNWEAMtysd-20210402083825006.jpeg"></p>
 <div align="center">
   <font size="3">
     <i>
@@ -81,9 +81,15 @@
 <ul>
 <li>Irrelevant to z</li>
 <li>Transform in xy plane: $[-1, 1]^2$ to $[0, width] x [0, height]$</li>
+<li>Viewport transform matrix:</li>
 </ul>
-<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210402083530408.png" alt="image-20210402083530408"></p>
-<h3 id="Rasterization"><a href="#Rasterization" class="headerlink" title="Rasterization"></a>Rasterization</h3><br>
+<p>$M_{viewprt}=\begin{pmatrix}\frac{width}{2} &amp; 0 &amp; 0 &amp; \frac{width}{2} \\ 0 &amp; \frac{height}{2} &amp; 0 &amp; \frac{height}{2} \\ 0 &amp; 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 1\end{pmatrix}$</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210402083530408.png"></p>
+<p>现在我们要做的就是把右边的$[-1,1]^3$映射到左边的屏幕中。这里有一个问题是右边是一个三维坐标，映射到屏幕上如何处理它的z坐标？一个简单的方法是暂时不管它，自然而然之后会有它的用处，只盯着x、y来看就简单很多。</p>
+<p>首先我们将$[-1,1]^3$缩放到$[width,height]$范围中，对应上面的矩阵中是左上角的3*3。缩放后中心还在原中心点上，而我们需要将其平移至左下角的原点，这个变换也被称为视口变换。</p>
+<h3 id="Rasterization"><a href="#Rasterization" class="headerlink" title="Rasterization"></a>Rasterization</h3><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210402085247459.png"></p>
+<p>《少年派的奇幻漂流》大家都知道老虎是假的，但做的栩栩如生，这就是图形学的贡献。可以看到老虎上面有各种各样的多边形，这些多边形经过变换和各种各样的操作之后会形成屏幕</p>
+<br>
 
 <center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_05.pdf">
             <i class="fas fa-download"></i>GAMES101_Lecture_05

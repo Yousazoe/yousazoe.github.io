@@ -977,6 +977,20 @@
   </url>
   
   <url>
+    <loc>http://yousazoe.top/tags/Math/</loc>
+    <lastmod>2021-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/Linear-Algebra/</loc>
+    <lastmod>2021-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/tags/Game-Develop/</loc>
     <lastmod>2021-04-02</lastmod>
     <changefreq>daily</changefreq>
@@ -999,20 +1013,6 @@
   
   <url>
     <loc>http://yousazoe.top/tags/Reprint/</loc>
-    <lastmod>2021-04-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Math/</loc>
-    <lastmod>2021-04-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Linear-Algebra/</loc>
     <lastmod>2021-04-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1187,6 +1187,13 @@
   </url>
   
   <url>
+    <loc>http://yousazoe.top/tags/Ray-Tracing/</loc>
+    <lastmod>2021-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/tags/Csharp/</loc>
     <lastmod>2021-04-02</lastmod>
     <changefreq>daily</changefreq>
@@ -1195,13 +1202,6 @@
   
   <url>
     <loc>http://yousazoe.top/tags/2D-Game/</loc>
-    <lastmod>2021-04-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/tags/Ray-Tracing/</loc>
     <lastmod>2021-04-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1371,6 +1371,13 @@
   </url>
   
   <url>
+    <loc>http://yousazoe.top/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7-Coding-Skill/</loc>
+    <lastmod>2021-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/categories/Cherno%E7%9A%84C-%E7%AC%94%E8%AE%B0-Cherno-C/</loc>
     <lastmod>2021-04-02</lastmod>
     <changefreq>daily</changefreq>
@@ -1386,13 +1393,6 @@
   
   <url>
     <loc>http://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%83%8F%E5%AD%A6-Foundations-of-Computer-Graphics/</loc>
-    <lastmod>2021-04-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yousazoe.top/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7-Coding-Skill/</loc>
     <lastmod>2021-04-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
