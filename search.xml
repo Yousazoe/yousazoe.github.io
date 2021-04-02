@@ -1,6 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Rasterization-Triangles</title>
+    <url>/archives/d3e5abd5.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://pbs.twimg.com/media/Ex1FWvNWEAMtysd?format=jpg&amp;name=medium" alt="图像"></p>
+<div align="center">
+  <font size="3">
+    <i>
+      <a href="https://twitter.com/MVC_discord">Twitter@MVC_discord</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101现代图形学入门是由闫令琪老师教授。今天我们来讲三角形的光栅化，可能会提及遮挡或可视性。</p>
+<span id="more"></span>
+
+
+
+
+
+<h3 id="Finishing-up-Viewing"><a href="#Finishing-up-Viewing" class="headerlink" title="Finishing up Viewing"></a>Finishing up Viewing</h3><h4 id="Perspective-Projection"><a href="#Perspective-Projection" class="headerlink" title="Perspective Projection"></a>Perspective Projection</h4><p><strong>What’s near plane’s l, r, b, t then?</strong></p>
+<ul>
+<li><p>If explicitly specified, good</p>
+</li>
+<li><p>Sometimes people prefer: </p>
+<p><strong>vertical field-of-view</strong> (fovY) and <strong>aspect ratio</strong> (assume symmetry i.e. l = -r, b = -t)</p>
+</li>
+</ul>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-04-01%20%E4%B8%8B%E5%8D%887.18.29.png"></p>
+<p>我们如何定义视锥呢？我们从摄像机出发看向某个区域，如果我们看到的是近平面，那么我们可以给近平面定义一个宽度和高度，那么就可以定义宽高比<code>assume symmetry</code>。</p>
+<p>还有一个可视角度<code>aspect ratio</code>，在图中表示为从相机连到屏幕的上下边，两边夹角就是垂直可视角度。广角相机就是可视角度比较大，适合拍近景；反之开口越小越像正交投影，远景成像更明显。</p>
+<p><strong>How to convert from fovY and aspect to l, r, b, t?</strong></p>
+<ul>
+<li>Trivial</li>
+</ul>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210401192129740.png"></p>
+<h4 id="What’s-after-MVP"><a href="#What’s-after-MVP" class="headerlink" title="What’s after MVP?"></a>What’s after MVP?</h4><ul>
+<li><strong>M</strong>odel transformation (placing objects)</li>
+<li><strong>V</strong>iew transformation (placing camera)</li>
+<li><strong>P</strong>rojection transformation<ul>
+<li>Orthographic projection (cuboid to “canonical” cube $[-1, 1]^3$)</li>
+<li>Perspective projection (frustum to “canonical” cube)</li>
+</ul>
+</li>
+<li>Canonical cube to ?</li>
+</ul>
+<h4 id="Canonical-Cube-to-Screen"><a href="#Canonical-Cube-to-Screen" class="headerlink" title="Canonical Cube to Screen"></a>Canonical Cube to Screen</h4><p><strong>What is a screen?</strong></p>
+<ul>
+<li>An array of pixels</li>
+<li>Size of the array: resolution</li>
+<li>A typical kind of raster display</li>
+</ul>
+<p><strong>Raster == screen in German</strong></p>
+<ul>
+<li>Rasterize == drawing onto the screen</li>
+</ul>
+<p><strong>Pixel (FYI, short for “picture element”)</strong></p>
+<ul>
+<li>For now: A pixel is a little square with uniform color</li>
+<li>Color is a mixture of (red, green, blue)</li>
+</ul>
+<p>在得到这样一个$[-1,1]^3$的立方体后，我们该画在哪儿呢？当然是画在屏幕上，对于图形学而言我们抽象的认为是一个二维数组，数组中的每一个元素是像素，比如平时大家电脑的分辨率是1920*1080，分辨率就是屏幕的大小1080p。</p>
+<p>屏幕是一个典型的光栅成像设备，Raster是德语中的“屏幕”。光栅化就是把东西画在屏幕的过程，把名词换成动词。</p>
+<p>多提一句，像素（Pixel）名字的由来是“picture element”，在这门课我们认为就是一个一个小方块，内部的颜色不会有变化，是最小的单位。</p>
+<p><strong>Defining the screen space</strong></p>
+<ul>
+<li>Slightly different from the “tiger book”</li>
+</ul>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210402082039954.png"></p>
+<ul>
+<li>Pixels’ indices are in the form of (x, y), where both x and y are integers</li>
+<li>Pixels’ indices are from (0, 0) to (width - 1, height - 1)</li>
+<li>Pixel (x, y) is centered at (x + 0.5, y + 0.5)</li>
+<li>The screen covers range (0, 0) to (width, height)</li>
+</ul>
+<p>我们把屏幕的空间也定义一下。屏幕空间就是在屏幕中建立一个坐标系，虎书中有一套定义方案，不过我们采用自己的定义。上图的左下角是原点，从这个原点出发延伸出X和Y。</p>
+<p>有一些约定俗成的规定，首先我们定义像素它的坐标/下标/位置写成(x,y)形式，并且使用整数来表述它；如果屏幕的宽高分别为width和height，那么我们认为所有像素就是从(0, 0)到(width - 1, height - 1)这么多可行的坐标；虽然我们用整数坐标(x, y)定义像素，但其实像素中心在(x + 0.5, y + 0.5)。</p>
+<ul>
+<li>Irrelevant to z</li>
+<li>Transform in xy plane: $[-1, 1]^2$ to $[0, width] x [0, height]$</li>
+</ul>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210402083530408.png" alt="image-20210402083530408"></p>
+<h3 id="Rasterization"><a href="#Rasterization" class="headerlink" title="Rasterization"></a>Rasterization</h3><br>
+
+<center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_05.pdf">
+            <i class="fas fa-download"></i>GAMES101_Lecture_05
+          </a></center>
+
+</body></html>]]></content>
+      <categories>
+        <category>现代图形学入门 (GAMES101)</category>
+      </categories>
+      <tags>
+        <tag>Computer Graphics</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Transformation Cont</title>
     <url>/archives/e1a90797.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/ExPC_w-WQAAggTf.jpeg"></p>
@@ -1335,6 +1432,29 @@
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202021-03-25%20%E4%B8%8B%E5%8D%8812.32.12.png"></p>
 <p>我们找到了一种方法可以告诉<code>Log.cpp</code>这个函数存在，但如果我们创建另一个文件呢？其他的文件也需要用到<code>Log</code>函数吗？这是否意味着我还需要复制和粘贴把这个<code>void Log()</code>函数声明粘贴到其他地方？</p>
 <p>答案是肯定的，你确实需要这样做，但是有一种更简单的方法：头文件。什么是头文件？我应该怎样看待头文件？头文件通常会被包含在CPP文件中，我们做的就是复制粘贴将头文件的内容放入CPP文件，通过<code>#include</code>预处理器指令来实现复制粘贴把文件放入另一个文件。</p>
+<p>回到项目新建一个头文件<code>Log.h</code>，在该文件中放置我的<code>Log()</code>函数的声明：</p>
+<figure class="highlight c++"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Log</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* message)</span></span>;</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<p>这个头文件<code>Log.h</code>可以包含在任何我希望使用<code>Log()</code>函数的地方。对我们来说，我不想自己手动地复制并粘贴到每一个需要它的文件，所以我找到了这一种看起来整洁和自动化的方法。</p>
+<p>回到<code>Log.cpp</code>，可以看到我们得到一个因没有声明函数导致的错误：</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210401205838241.png"></p>
+<p>但如果加入之前包含函数声明的头文件<code>Log.h</code>，报错消失并且文件可以编译：</p>
+<figure class="highlight c++"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"Log.h"</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">InitLog</span><span class="params">()</span></span>{</span><br><span class="line">    Log(<span class="string">"Initializing Log"</span>);</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210401210048322.png"></p>
+<p>回到<code>main.cpp</code>，如果我们想调用<code>InitLog()</code>，那么就在<code>Log.h</code>中添加<code>InitLog()</code>函数的声明，再在<code>main.cpp</code>中调用<code>Log.h</code>头文件即可：</p>
+<figure class="highlight diff"><table><tbody><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line"><span class="addition">+#include "Log.h"</span></span><br><span class="line"></span><br><span class="line">void Log(const char* message){</span><br><span class="line">    std::cout &lt;&lt; message &lt;&lt; std::endl;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">int main(){</span><br><span class="line"><span class="addition">+   InitLog();</span></span><br><span class="line">    Log("Hello World!");</span><br><span class="line">    std::cin.get();</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<figure class="highlight diff"><table><tbody><tr><td class="code"><pre><span class="line">void Log(const char* message);</span><br><span class="line"><span class="addition">+void InitLog();</span></span><br></pre></td></tr></tbody></table></figure>
+
+
+
+
+
 </body></html>]]></content>
       <categories>
         <category>Cherno的C++笔记 (Cherno C++)</category>
