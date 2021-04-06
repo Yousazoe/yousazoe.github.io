@@ -110,6 +110,35 @@
       </tags>
   </entry>
   <entry>
+    <title>Rasterization-Antialiasing and Z-buffering</title>
+    <url>/archives/874dc08b.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/EyRZ2j_XAAMMk-k.jpeg"></p>
+<div align="center">
+  <font size="3">
+    <i>
+      <a href="https://twitter.com/MVC_discord">Twitter@MVC_discord</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101 现代图形学入门是由闫令琪老师教授。今天我们要把光栅化内容讲完，主要包括反走样和深度缓冲。</p>
+<span id="more"></span>
+
+
+
+<h3 id="Antialiasing"><a href="#Antialiasing" class="headerlink" title="Antialiasing"></a>Antialiasing</h3><h4 id="Recap-Testing-in-out-△-at-pixels’-centers"><a href="#Recap-Testing-in-out-△-at-pixels’-centers" class="headerlink" title="Recap: Testing in/out △ at pixels’ centers"></a>Recap: Testing in/out △ at pixels’ centers</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406213421926.png"></p>
+<h4 id="Pixels-are-uniformly-colored-squares"><a href="#Pixels-are-uniformly-colored-squares" class="headerlink" title="Pixels are uniformly-colored squares"></a>Pixels are uniformly-colored squares</h4><h3 id="Visibility-occlusion"><a href="#Visibility-occlusion" class="headerlink" title="Visibility / occlusion"></a>Visibility / occlusion</h3></body></html>]]></content>
+      <categories>
+        <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
+      </categories>
+      <tags>
+        <tag>Computer Graphics</tag>
+        <tag>Rasterization</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Rasterization-Triangles</title>
     <url>/archives/d3e5abd5.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Ex1FWvNWEAMtysd-20210402083825006.jpeg"></p>
