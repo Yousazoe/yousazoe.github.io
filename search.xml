@@ -53,7 +53,7 @@
 <li>光线一定是从光源发射最终进入人的眼睛</li>
 </ol>
 <p>整个光线追踪就是在做这样一个视图模拟的过程，运用了光线的可逆性，可以是光源发出光线然后不断弹射打到人的眼睛里；我也可以认为我的眼睛是可以发出一些感知射线打到这些物体，最后打到光源上。如果我在场景中找到一条光路，光源可以通过某种办法看到相机，那么相机也有办法看到光源。</p>
-<h4 id="Emission-Theory-of-Vision"><a href="#Emission-Theory-of-Vision" class="headerlink" title="Emission Theory of Vision"></a>Emission Theory of Vision</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406084011204.png" alt="image-20210406084011204"></p>
+<h4 id="Emission-Theory-of-Vision"><a href="#Emission-Theory-of-Vision" class="headerlink" title="Emission Theory of Vision"></a>Emission Theory of Vision</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406084011204.png"></p>
 <h4 id="Ray-Casting"><a href="#Ray-Casting" class="headerlink" title="Ray Casting"></a>Ray Casting</h4><p><strong>Appel 1968 - Ray casting</strong></p>
 <ol>
 <li>Generate an image by casting one ray per pixel</li>
@@ -83,7 +83,17 @@
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406170822569.png"></p>
 <p>从这个结果上我们还可以看到一些其他的信息，比如左侧的阴影就没右侧那么暗，原因在于光线会穿过玻璃球进而收到更多的能量，所以会投射出比较淡的阴影。</p>
 <h3 id="Ray-Surface-Intersection"><a href="#Ray-Surface-Intersection" class="headerlink" title="Ray-Surface Intersection"></a>Ray-Surface Intersection</h3><h4 id="Ray-Equation"><a href="#Ray-Equation" class="headerlink" title="Ray Equation"></a>Ray Equation</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406171634194.png"></p>
-<p>光线在数学上就是一个射线，有一个起点<code>o</code>，传播方向为<code>d</code>，用这两个量就可以简单定义一条光线。在光线上的任何一点我都可以用<code>o + td</code>来表示，因为沿着这条光线无非是从<code>o</code>开始往<code>d</code>方向走了多远。同时由于光线是射线，我们认为光线只能往一个方向传播，所以$0 \leq t \leq $</p>
+<p>光线在数学上就是一个射线，有一个起点<code>o</code>，传播方向为<code>d</code>，用这两个量就可以简单定义一条光线。在光线上的任何一点我都可以用<code>o + td</code>来表示，因为沿着这条光线无非是从<code>o</code>开始往<code>d</code>方向走了多远。同时由于光线是射线，我们认为光线只能往一个方向传播，所以$0 \leq t \leq \infty$。</p>
+<p>这个时候我们再回到之前所说，图形学很少考虑这种边界条件，比如$t$究竟是大于0还是大于等于0意义不是很大。</p>
+<h4 id="Ray-Intersection-With-Sphere"><a href="#Ray-Intersection-With-Sphere" class="headerlink" title="Ray Intersection With Sphere"></a>Ray Intersection With Sphere</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406184735290.png"></p>
+<p>那么我们来谈谈光线如何与不同物体求交的最简单情况–光线与球做交点。球在数学上的定义也非常简单，球到任何一个点到球心<code>c</code>的距离都等于半径<code>R</code>得到隐式函数：$(p-c)^2-R^2=0$。</p>
+<p>那么现在我们要求光线与球的交点，而交点代表着该点又在光线上又在球上，那么这个点才是叫交点，所以根据点$p$联立起来得到$(o + td - c)^2 - R^2 = 0$，顺理成章就可以解出来：</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406185948198.png"></p>
+<p>简单的把联立方程展开，求根公式得到最终的结果<code>t</code>。为了满足<code>t</code>的实际物理意义，结果要确保是正值；根据<code>t</code>的不同有相离（0）、相切（1）和相交（2）三个状态。</p>
+<h4 id="Ray-Intersection-With-Implicit-Surface"><a href="#Ray-Intersection-With-Implicit-Surface" class="headerlink" title="Ray Intersection With Implicit Surface"></a>Ray Intersection With Implicit Surface</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406194218772.png"></p>
+<p>这个问题可以推广到光线和一般性的隐式表面求交，因为交点所以它必在射线和隐式表面上，表达为$f(o + td) = 0$。目前来说数值计算非常发达，可以很快求解出函数根<code>t</code>，所以对于一般的隐式表面也是求出时间，再带入光线方程求出交点。</p>
+<h4 id="Ray-Intersection-With-Triangle-Mesh"><a href="#Ray-Intersection-With-Triangle-Mesh" class="headerlink" title="Ray Intersection With Triangle Mesh"></a>Ray Intersection With Triangle Mesh</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406195929832.png"></p>
+<p>对于显式表面光线和三角形求交是一个非常重要的话题。</p>
 <br>
 
 <center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_13.pdf">
