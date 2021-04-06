@@ -67,9 +67,22 @@
 <h5 id="Ray-Casting-Shading-Pixels-Local-Only"><a href="#Ray-Casting-Shading-Pixels-Local-Only" class="headerlink" title="Ray Casting - Shading Pixels (Local Only)"></a>Ray Casting - Shading Pixels (Local Only)</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406090822024.png"></p>
 <p>求最近交点时自然会知道法线，有了法线、入射方向和出射方向，我们就可以算这一点的着色，最后写入像素的值。</p>
 <p>可以看到，光线投射做的就是每个像素投出去一根光线，从眼睛开始和场景相交求最近交点，找到交点后和光源连线判定是否对光源可见，最后计算着色写回像素的值。</p>
-<h4 id="Recursive-Whitted-Style-Ray-Tracing"><a href="#Recursive-Whitted-Style-Ray-Tracing" class="headerlink" title="Recursive (Whitted-Style) Ray Tracing"></a>Recursive (Whitted-Style) Ray Tracing</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406091444503.png" alt="image-20210406091444503"></p>
+<h4 id="Recursive-Whitted-Style-Ray-Tracing"><a href="#Recursive-Whitted-Style-Ray-Tracing" class="headerlink" title="Recursive (Whitted-Style) Ray Tracing"></a>Recursive (Whitted-Style) Ray Tracing</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406091444503.png"></p>
 <p>听起来是一个自然而然的过程，之前这么一个方法生成出来的结果和光栅化近似。然而我们只考虑光线弹射一次，光线其实可以弹射很多次，Whitted Style光线追踪就来解决这个问题。</p>
-<br>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406094400919.png"></p>
+<p>我们还是从光线投射开始，每一个像素找到最近的交点，考虑如果这个点是玻璃球，光线打到这种透明的介质上肯定有一部分能量要被反射掉，另一部分能量要折射进去，很像小时候激光照射水面的实验。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406094938651.png"></p>
+<p>所以光线在交点处做一个镜面反射射出反射光，如上图所示。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406095252195.png"></p>
+<p>同样道理，这个玻璃球还可以折射进去，在内部传播打到另外一个点再折射出来。图中的反射光路弹射了两次，折射光路弹射了三次，也就是说光线可以弹射无限次，Whitted Style它说的就是这么个意思，在任意一个点你可以继续传播这条光线，只需要正确的计算它的反射方向、折射方向就可以。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406164209180.png"></p>
+<p>在Whitted Style光线追踪中，它的着色也发生了一点点变化。原本光线投射观察交点是否被照亮就计算着色，但现在在这里光线弹射次数增加，每一个弹射的点都会去计算着色的值加回原像素中。有人会问这里会不会有能量损失？当然了，经过越来越多次数的弹射能量不会一直累加，否则看到的结果是类似过曝的纯白色，比如在最近交点折射和反射要分配能量，都是要考虑进去的。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406170616746.png"></p>
+<p>对于不同类型的光线我们做一个简单的归类，之前我们定义的从眼睛打出来的第一根光线<code>eye ray</code>或者<code>camera ray</code>被称为<code>primary ray</code>；在之后的弹射我们都管它叫做<code>second ray</code>；为了判定可见性与光源连接的叫<code>shadow ray</code>。</p>
+<p>这就是Whitted Style光线追踪的做法，可以看到最后把光路结果加到这么一个像素上，得到最终的结果。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406170822569.png"></p>
+<p>从这个结果上我们还可以看到一些其他的信息，比如左侧的阴影就没右侧那么暗，原因在于光线会穿过玻璃球进而收到更多的能量，所以会投射出比较淡的阴影。</p>
+<h3 id="Ray-Surface-Intersection"><a href="#Ray-Surface-Intersection" class="headerlink" title="Ray-Surface Intersection"></a>Ray-Surface Intersection</h3><br>
 
 <center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_13.pdf">
             <i class="fas fa-download"></i>GAMES101_Lecture_13
