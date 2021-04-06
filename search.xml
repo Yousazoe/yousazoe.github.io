@@ -1,6 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>RayTracing-Whitted Style</title>
+    <url>/archives/bc6dc1aa.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/minecraft-ray-tracing-4-100808656-large.3x2.jpg"></p>
+<div align="center">
+  <font size="3">
+    <i>
+      <a href="https://www.pcworld.com/article/3432549/real-time-ray-tracing-is-coming-to-minecraft-on-windows-10-and-it-looks-stunning.html">Real-time ray tracing in Minecraft </a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101现代图形学入门是由闫令琪老师教授。今天我们来讲Whitted Style的光线追踪。</p>
+<span id="more"></span>
+
+
+
+<h3 id="Why-Ray-Tracing"><a href="#Why-Ray-Tracing" class="headerlink" title="Why Ray Tracing?"></a>Why Ray Tracing?</h3><p><strong>Rasterization couldn’t handle global effects well</strong></p>
+<ul>
+<li>(Soft) shadows</li>
+<li>And especially when the light bounces more than once</li>
+</ul>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210405133751666.png"></p>
+<p>我们为什么引入光线追踪呢？因为我们在之前谈到光栅化的时候它有一些问题解决的并不是很好，最大的问题是它不是很好去表示全局的效果，包括软阴影、Glossy反射和间接光照等等。</p>
+<p><strong>Rasterization is fast, but quality is relatively low</strong></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210405230211816.png"></p>
+<p>通常情况下，光栅化是一种很快但很近似的渲染方法。比如大家看到图中绝地求生中的载具，没有阴影，模型精度非常低纹理也看不太清楚，是一种很原始的渲染结果。那么为什么大家只能做到这么原始的效果呢？因为游戏地图本身非常大，整个渲染对GPU要求非常高，所以他们对画质不能做过多的要求。</p>
+<p>所以光栅化本质上来说它是一种快速的近似，质量相对较低。</p>
+<p><strong>Ray tracing is accurate, but is very slow</strong></p>
+<ul>
+<li>Rasterization: <strong>real-time</strong>, ray tracing: <strong>offline</strong></li>
+<li>~10K CPU core hours to render one frame in production</li>
+</ul>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210322235837554.png"></p>
+<p>对比下来光线追踪是一种准确的方法，但它也有问题，并不能替代光栅化。其最严重的问题是非常慢，光栅化通常瞄准实时每秒钟30帧，而光线追踪更多被用来做离线的应用比如电影。电影的制作商花大量的时间生成好这个电影然后放映，1帧需要花1万个CPU小时，对比光栅化显然是没办法比的。</p>
+<h3 id="Basic-Ray-Tracing-Algorithm"><a href="#Basic-Ray-Tracing-Algorithm" class="headerlink" title="Basic Ray-Tracing Algorithm"></a>Basic Ray-Tracing Algorithm</h3><h4 id="Light-Rays"><a href="#Light-Rays" class="headerlink" title="Light Rays"></a>Light Rays</h4><p>Three ideas about light rays</p>
+<ol>
+<li>Light travels in straight lines (though this is wrong)</li>
+<li>Light rays do not “collide” with each other if they cross (though this is still wrong)</li>
+<li>Light rays travel from the light sources to the eye (but the physics is invariant under path reversal - reciprocity). </li>
+</ol>
+<blockquote>
+<p>“And if you gaze long into an abyss, the abyss also gazes into you.” — Friedrich Wilhelm Nietzsche (translated)</p>
+</blockquote>
+<p>在定义光线追踪之前，我们先把光线定义下来：</p>
+<ol>
+<li>光线沿着直线传播而不考虑其波动性</li>
+<li>光线和光线不会发生碰撞</li>
+<li>光线一定是从光源发射最终进入人的眼睛</li>
+</ol>
+<p>整个光线追踪就是在做这样一个视图模拟的过程，运用了光线的可逆性，可以是光源发出光线然后不断弹射打到人的眼睛里；我也可以认为我的眼睛是可以发出一些感知射线打到这些物体，最后打到光源上。如果我在场景中找到一条光路，光源可以通过某种办法看到相机，那么相机也有办法看到光源。</p>
+<h4 id="Emission-Theory-of-Vision"><a href="#Emission-Theory-of-Vision" class="headerlink" title="Emission Theory of Vision"></a>Emission Theory of Vision</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406084011204.png" alt="image-20210406084011204"></p>
+<h4 id="Ray-Casting"><a href="#Ray-Casting" class="headerlink" title="Ray Casting"></a>Ray Casting</h4><p><strong>Appel 1968 - Ray casting</strong></p>
+<ol>
+<li>Generate an image by casting one ray per pixel</li>
+<li>Check for shadows by sending a ray to the light</li>
+</ol>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406084138981.png"></p>
+<p>首先我们要做光线的投射，假设我们在往一个虚拟的世界中看，面前放着一个成像的平面。成像平面被我们划成不同的像素的格子，对于每一个像素我们可以从摄像机连一条线穿过这个像素，然后打出一根光线，这根光线一定会打到场景中的某个位置或者和所有物体都不相交。</p>
+<p>如果相交，我们把这个点和光源做一个连线，判定交点是否对光源可见，也就是判断是不是在阴影里，如果这个点不在阴影中，那么就形成了一条有效的光路：光源-交点-相机，就可以计算这条光路的能量，最后把看到的颜色算出来。</p>
+<h5 id="Generating-Eye-Rays"><a href="#Generating-Eye-Rays" class="headerlink" title="Generating Eye Rays"></a>Generating Eye Rays</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406090052451.png"></p>
+<p>在做光线追踪时，我们假设眼睛永远是针孔摄像机，是一个点/位置，不考虑实际的相机应该如何处理；光源这里也假设为点光源；对于场景中的物体，我们认为光线打到它之后会发生完美的折射或反射。</p>
+<h5 id="Ray-Casting-Shading-Pixels-Local-Only"><a href="#Ray-Casting-Shading-Pixels-Local-Only" class="headerlink" title="Ray Casting - Shading Pixels (Local Only)"></a>Ray Casting - Shading Pixels (Local Only)</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406090822024.png"></p>
+<p>求最近交点时自然会知道法线，有了法线、入射方向和出射方向，我们就可以算这一点的着色，最后写入像素的值。</p>
+<p>可以看到，光线投射做的就是每个像素投出去一根光线，从眼睛开始和场景相交求最近交点，找到交点后和光源连线判定是否对光源可见，最后计算着色写回像素的值。</p>
+<h4 id="Recursive-Whitted-Style-Ray-Tracing"><a href="#Recursive-Whitted-Style-Ray-Tracing" class="headerlink" title="Recursive (Whitted-Style) Ray Tracing"></a>Recursive (Whitted-Style) Ray Tracing</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406091444503.png" alt="image-20210406091444503"></p>
+<p>听起来是一个自然而然的过程，之前这么一个方法生成出来的结果和光栅化近似。然而我们只考虑光线弹射一次，光线其实可以弹射很多次，Whitted Style光线追踪就来解决这个问题。</p>
+<br>
+
+<center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_13.pdf">
+            <i class="fas fa-download"></i>GAMES101_Lecture_13
+          </a></center>
+
+</body></html>]]></content>
+      <categories>
+        <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
+      </categories>
+      <tags>
+        <tag>Computer Graphics</tag>
+        <tag>RayTracing</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Rasterization-Triangles</title>
     <url>/archives/d3e5abd5.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Ex1FWvNWEAMtysd-20210402083825006.jpeg"></p>
@@ -189,10 +273,11 @@
 
 </body></html>]]></content>
       <categories>
-        <category>现代图形学入门 (GAMES101)</category>
+        <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
       </categories>
       <tags>
         <tag>Computer Graphics</tag>
+        <tag>Rasterization</tag>
       </tags>
   </entry>
   <entry>
@@ -459,7 +544,7 @@
 
 </body></html>]]></content>
       <categories>
-        <category>现代图形学入门 (GAMES101)</category>
+        <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
       </categories>
       <tags>
         <tag>Computer Graphics</tag>
@@ -643,7 +728,7 @@
 
 </body></html>]]></content>
       <categories>
-        <category>现代图形学入门 (GAMES101)</category>
+        <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
       </categories>
       <tags>
         <tag>Computer Graphics</tag>
@@ -907,7 +992,7 @@
 
 </body></html>]]></content>
       <categories>
-        <category>现代图形学入门 (GAMES101)</category>
+        <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
       </categories>
       <tags>
         <tag>Computer Graphics</tag>
@@ -1347,7 +1432,7 @@
 
 </body></html>]]></content>
       <categories>
-        <category>现代图形学入门 (GAMES101)</category>
+        <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
       </categories>
       <tags>
         <tag>Computer Graphics</tag>
@@ -20263,8 +20348,8 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
-        <tag>Art</tag>
         <tag>Game</tag>
+        <tag>Art</tag>
       </tags>
   </entry>
   <entry>
