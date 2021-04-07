@@ -129,7 +129,25 @@
 
 
 <h3 id="Antialiasing"><a href="#Antialiasing" class="headerlink" title="Antialiasing"></a>Antialiasing</h3><h4 id="Recap-Testing-in-out-△-at-pixels’-centers"><a href="#Recap-Testing-in-out-△-at-pixels’-centers" class="headerlink" title="Recap: Testing in/out △ at pixels’ centers"></a>Recap: Testing in/out △ at pixels’ centers</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406213421926.png"></p>
-<h4 id="Pixels-are-uniformly-colored-squares"><a href="#Pixels-are-uniformly-colored-squares" class="headerlink" title="Pixels are uniformly-colored squares"></a>Pixels are uniformly-colored squares</h4><h3 id="Visibility-occlusion"><a href="#Visibility-occlusion" class="headerlink" title="Visibility / occlusion"></a>Visibility / occlusion</h3></body></html>]]></content>
+<p>上一节课我们提到说一个三角形自然是连续的信号或者函数定义在屏幕空间内，然后我们可以给定任何一个点测试是否在三角形内部，而对于像素来说，我们认为是均匀颜色的小方块，最后得出的就是上图的红点和白点结合。</p>
+<h4 id="Pixels-are-uniformly-colored-squares"><a href="#Pixels-are-uniformly-colored-squares" class="headerlink" title="Pixels are uniformly-colored squares"></a>Pixels are uniformly-colored squares</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210404170742835.png"></p>
+<p>然后我们把对应的像素涂成这样的颜色，红色代表被三角形覆盖，白色代表未被三角形覆盖，得到一个类似三角形的图案。</p>
+<h5 id="Compare-The-Continuous-Triangle-Function"><a href="#Compare-The-Continuous-Triangle-Function" class="headerlink" title="Compare: The Continuous Triangle Function"></a>Compare: The Continuous Triangle Function</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210404170724491.png"></p>
+<p>与我们理想的三角形有较大差距，以锯齿效应最为明显。</p>
+<h5 id="Aliasing-Jaggies"><a href="#Aliasing-Jaggies" class="headerlink" title="Aliasing (Jaggies)"></a>Aliasing (Jaggies)</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210404170632049.png"></p>
+<p>锯齿的学名叫走样，例如左图三角形的尖放大可以看到锯齿或走样的现象。</p>
+<h4 id="Sampling-is-Ubiquitous-in-Computer-Graphics"><a href="#Sampling-is-Ubiquitous-in-Computer-Graphics" class="headerlink" title="Sampling is Ubiquitous in Computer Graphics"></a>Sampling is Ubiquitous in Computer Graphics</h4><h5 id="Rasterization-Sample-2D-Positions"><a href="#Rasterization-Sample-2D-Positions" class="headerlink" title="Rasterization = Sample 2D Positions"></a>Rasterization = Sample 2D Positions</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210404170050639.png"></p>
+<p>首先我们之前提到采样在图形学中是一个广泛存在的做法，光栅化的过程就是在屏幕空间用一系列离散的点/像素中心进行在三角形函数上的采样。</p>
+<h5 id="Photograph-Sample-Image-Sensor-Plane"><a href="#Photograph-Sample-Image-Sensor-Plane" class="headerlink" title="Photograph = Sample Image Sensor Plane"></a>Photograph = Sample Image Sensor Plane</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407081357027.png"></p>
+<p>对于任何一个我们拍出来的照片，如果我们放大可以看到一个个格子，图像的分辨率则决定了像素的多少，所以到达感光平面的光学信息把它离散成一系列图像上的像素进行采样。</p>
+<h4 id="Video-Sample-Time"><a href="#Video-Sample-Time" class="headerlink" title="Video = Sample Time"></a>Video = Sample Time</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407081831869.png"></p>
+<p>采样不止发生在不同的位置，还可以发生在不同的时间。视频动画就是一系列的图按照一定时间给放出来，就可以形成一个动画，实质上就是时间中的采样，因为我们没有见过任何连续意义上的动画。如果我们把动画拆开，动画是定义在一帧一帧上，每秒给大家放出24帧连在一起，上图我们可以很清楚看到球员离散的击球过程。</p>
+<h4 id="Sampling-Artifacts-Errors-Mistakes-Inaccuracies-in-Computer-Graphics"><a href="#Sampling-Artifacts-Errors-Mistakes-Inaccuracies-in-Computer-Graphics" class="headerlink" title="Sampling Artifacts (Errors / Mistakes / Inaccuracies) in Computer Graphics"></a>Sampling Artifacts (Errors / Mistakes / Inaccuracies) in Computer Graphics</h4><p>采样广泛存在，采样的问题也广泛存在。在图形学中一切错误、不准确、不希望看到的结果被称为<strong>Artifacts</strong>，中文翻译为瑕疵。</p>
+<h5 id="Jaggies-Staircase-Pattern"><a href="#Jaggies-Staircase-Pattern" class="headerlink" title="Jaggies (Staircase Pattern)"></a>Jaggies (Staircase Pattern)</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210404170632049.png"></p>
+<p>This is also an example of “aliasing” – a sampling error.</p>
+<p>采样的第一个问题是会产生锯齿，上图这些锯齿很想楼梯的形状。</p>
+<h5 id="Moire-Patterns-in-Imaging"><a href="#Moire-Patterns-in-Imaging" class="headerlink" title="Moiré Patterns in Imaging"></a>Moiré Patterns in Imaging</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407082855389.png"></p>
+<h3 id="Visibility-occlusion"><a href="#Visibility-occlusion" class="headerlink" title="Visibility / occlusion"></a>Visibility / occlusion</h3></body></html>]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
       </categories>
@@ -20580,8 +20598,8 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
-        <tag>Art</tag>
         <tag>Game</tag>
+        <tag>Art</tag>
       </tags>
   </entry>
   <entry>
