@@ -184,8 +184,26 @@
 <p>微积分都会提到函数的展开，其中就有一个傅立叶级数展开：任何一个周期函数都可以把它写成一系列正弦和余弦函数的线性组合以及一个常数项。</p>
 <h5 id="Fourier-Transform-Decomposes-A-Signal-Into-Frequencies"><a href="#Fourier-Transform-Decomposes-A-Signal-Into-Frequencies" class="headerlink" title="Fourier Transform Decomposes A Signal Into Frequencies"></a>Fourier Transform Decomposes A Signal Into Frequencies</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407133602837.png"></p>
 <p>这说明傅立叶级数展开和傅立叶变换紧密相连，两个概念非常相似。给定任何一个函数$f(x)$都可以让它经过一个相当复杂的操作把它变为另外一个函数$F(\omega)$；我也可以把$F(\omega)$通过逆变换变回原来的函数$f(x)$。很简单，就是把函数变成另外一个并且把它变回来，这个变换就叫傅立叶变换和逆傅立叶变换。</p>
-<p>所谓傅立叶变换，其实就是把函数变成不同的频率的段，并且把这些不同频率的段显示出来。上图的示例有五个不同的函数从上倒下从$f_1(x)$到$f_5(x)$，</p>
-<h3 id="Visibility-occlusion"><a href="#Visibility-occlusion" class="headerlink" title="Visibility / occlusion"></a>Visibility / occlusion</h3></body></html>]]></content>
+<h5 id="Higher-Frequencies-Need-Faster-Sampling"><a href="#Higher-Frequencies-Need-Faster-Sampling" class="headerlink" title="Higher Frequencies Need Faster Sampling"></a>Higher Frequencies Need Faster Sampling</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407134946180.png"></p>
+<p>所谓傅立叶变换，其实就是把函数变成不同的频率的段，并且把这些不同频率的段显示出来。上图的示例有五个不同的函数从上倒下从$f_1(x)$到$f_5(x)$，频率从高到低从上到下，我们假设用完全相同间隔的采样方法进行采样，可以发现第一个函数采样出不同的点连起来可以大概原来的函数长什么样。第二、三、四和五也可以这么做，但到第三个函数已经发现不太对劲了，如果还这么采样并连接采样点会发现很难恢复函数，和之前的$f_1(x)$相差较多，到$f_5(x)$已经不能看了。</p>
+<p>通过频率的分析，我们可以看出对于一个函数来说它有自己的频率，然后我们采样也应该有一定的频率（间隔），如果采样的频率跟不上变化的频率如$f_5(x)$，没办法把原始的信号给恢复出来。</p>
+<h5 id="Undersampling-Creates-Frequency-Aliases"><a href="#Undersampling-Creates-Frequency-Aliases" class="headerlink" title="Undersampling Creates Frequency Aliases"></a>Undersampling Creates Frequency Aliases</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407135714405.png"></p>
+<ul>
+<li><p>High-frequency signal is insufficiently sampled: samples erroneously appear to be from a low-frequency signal </p>
+</li>
+<li><p>Two frequencies that are indistinguishable at a given sampling rate are called “aliases”</p>
+</li>
+</ul>
+<p>我们来通过频率分析走样。图中是一个变化剧烈的蓝色函数，我们继续采样并连接起黑色曲线，可以发现采样得到的结果不太行。我们考虑如果有两个函数，那么这样的采样方法采样两者频率截然不同的函数/信号会得到完全相同的结果。</p>
+<p>也就是说同样的采样方法采样两种不同频率的函数，得出来的结果我们无法区分它，那么就是走样的概念。</p>
+<h4 id="Filtering-Getting-rid-of-certain-frequency-contents"><a href="#Filtering-Getting-rid-of-certain-frequency-contents" class="headerlink" title="Filtering = Getting rid of certain frequency contents"></a>Filtering = Getting rid of certain frequency contents</h4><p>从频率上讲，所谓滤波就是把某个特定的频段删掉，对应的信号发生相应变化。</p>
+<h5 id="Visualizing-Image-Frequency-Content"><a href="#Visualizing-Image-Frequency-Content" class="headerlink" title="Visualizing Image Frequency Content"></a>Visualizing Image Frequency Content</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407143604890.png"></p>
+<p>傅立叶变换它可以把函数从时域变成频域，左边这幅图我们对它做一个傅立叶变换，虽然图像本身不带有任何时间的信息，但我们认为空间上不同的位置也算是时域，也就是从图像的空间变为了频率的空间。</p>
+<p>那右边这幅图我们该如何去理解呢？中心我们定义为最低频的区域，周围定义为高频的区域，不同频率位置的信息通过亮度来表示。示例图像的大多数信息集中在低频段，因为中间比较亮，对于自然的图片基本都是这样。</p>
+<h5 id="Filter-Out-Low-Frequencies-Only-Edges"><a href="#Filter-Out-Low-Frequencies-Only-Edges" class="headerlink" title="Filter Out Low Frequencies Only (Edges)"></a>Filter Out Low Frequencies Only (Edges)</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407143902994.png"></p>
+<p>相比上一副图，这里低频信号被抹掉，留下的只有一些高频信号。通过逆傅立叶变换返回为图像，高频的东西表现了图像内容的边界，这种滤波被称为高通滤波，只有高频信号可以通过。</p>
+<h5 id="Filter-Out-High-Frequencies-Blur"><a href="#Filter-Out-High-Frequencies-Blur" class="headerlink" title="Filter Out High Frequencies (Blur)"></a>Filter Out High Frequencies (Blur)</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407143936056.png"></p>
+<h5 id="Filter-Out-Low-and-High-Frequencies"><a href="#Filter-Out-Low-and-High-Frequencies" class="headerlink" title="Filter Out Low and High Frequencies"></a>Filter Out Low and High Frequencies</h5><h4 id="Filtering-Convolution-Averaging"><a href="#Filtering-Convolution-Averaging" class="headerlink" title="Filtering = Convolution (= Averaging)"></a>Filtering = Convolution (= Averaging)</h4><h5 id="Convolution"><a href="#Convolution" class="headerlink" title="Convolution"></a>Convolution</h5><h5 id="Convolution-Theorem"><a href="#Convolution-Theorem" class="headerlink" title="Convolution Theorem"></a>Convolution Theorem</h5><h5 id="Box-Filter"><a href="#Box-Filter" class="headerlink" title="Box Filter"></a>Box Filter</h5><h5 id="Box-Function-“Low-Pass”-Filter"><a href="#Box-Function-“Low-Pass”-Filter" class="headerlink" title="Box Function = “Low Pass” Filter"></a>Box Function = “Low Pass” Filter</h5><h5 id="Wider-Filter-Kernel-Lower-Frequencies"><a href="#Wider-Filter-Kernel-Lower-Frequencies" class="headerlink" title="Wider Filter Kernel = Lower Frequencies"></a>Wider Filter Kernel = Lower Frequencies</h5><h3 id="Visibility-occlusion"><a href="#Visibility-occlusion" class="headerlink" title="Visibility / occlusion"></a>Visibility / occlusion</h3></body></html>]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
       </categories>
