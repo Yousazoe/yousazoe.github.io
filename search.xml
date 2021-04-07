@@ -201,9 +201,60 @@
 <p>傅立叶变换它可以把函数从时域变成频域，左边这幅图我们对它做一个傅立叶变换，虽然图像本身不带有任何时间的信息，但我们认为空间上不同的位置也算是时域，也就是从图像的空间变为了频率的空间。</p>
 <p>那右边这幅图我们该如何去理解呢？中心我们定义为最低频的区域，周围定义为高频的区域，不同频率位置的信息通过亮度来表示。示例图像的大多数信息集中在低频段，因为中间比较亮，对于自然的图片基本都是这样。</p>
 <h5 id="Filter-Out-Low-Frequencies-Only-Edges"><a href="#Filter-Out-Low-Frequencies-Only-Edges" class="headerlink" title="Filter Out Low Frequencies Only (Edges)"></a>Filter Out Low Frequencies Only (Edges)</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407143902994.png"></p>
-<p>相比上一副图，这里低频信号被抹掉，留下的只有一些高频信号。通过逆傅立叶变换返回为图像，高频的东西表现了图像内容的边界，这种滤波被称为高通滤波，只有高频信号可以通过。</p>
+<p>相比上一幅图，这里低频信号被抹掉，留下的只有一些高频信号。通过逆傅立叶变换返回为图像，高频的东西表现了图像内容的边界，这种滤波被称为高通滤波，只有高频信号可以通过。</p>
+<p>为什么高频信息对应图像的边界呢？我们发现边界就是发生突变的地方，比如说图像中衣服与背景之间剧烈的变化，蕴含着高频的信息。那么如果只显示高频信息，那么自然找到边界。</p>
 <h5 id="Filter-Out-High-Frequencies-Blur"><a href="#Filter-Out-High-Frequencies-Blur" class="headerlink" title="Filter Out High Frequencies (Blur)"></a>Filter Out High Frequencies (Blur)</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407143936056.png"></p>
-<h5 id="Filter-Out-Low-and-High-Frequencies"><a href="#Filter-Out-Low-and-High-Frequencies" class="headerlink" title="Filter Out Low and High Frequencies"></a>Filter Out Low and High Frequencies</h5><h4 id="Filtering-Convolution-Averaging"><a href="#Filtering-Convolution-Averaging" class="headerlink" title="Filtering = Convolution (= Averaging)"></a>Filtering = Convolution (= Averaging)</h4><h5 id="Convolution"><a href="#Convolution" class="headerlink" title="Convolution"></a>Convolution</h5><h5 id="Convolution-Theorem"><a href="#Convolution-Theorem" class="headerlink" title="Convolution Theorem"></a>Convolution Theorem</h5><h5 id="Box-Filter"><a href="#Box-Filter" class="headerlink" title="Box Filter"></a>Box Filter</h5><h5 id="Box-Function-“Low-Pass”-Filter"><a href="#Box-Function-“Low-Pass”-Filter" class="headerlink" title="Box Function = “Low Pass” Filter"></a>Box Function = “Low Pass” Filter</h5><h5 id="Wider-Filter-Kernel-Lower-Frequencies"><a href="#Wider-Filter-Kernel-Lower-Frequencies" class="headerlink" title="Wider Filter Kernel = Lower Frequencies"></a>Wider Filter Kernel = Lower Frequencies</h5><h3 id="Visibility-occlusion"><a href="#Visibility-occlusion" class="headerlink" title="Visibility / occlusion"></a>Visibility / occlusion</h3></body></html>]]></content>
+<p>和之前图对比只留下了低频的信息，把高频信息全部抹掉，然后把它变回图。我们得到了一张相对模糊的图，基本还能看清是个人，绝大部分信息再也看不见了。这里我们对信号应用了低通滤波器，只让低频率通过，高频率被筛选掉。</p>
+<h5 id="Filter-Out-Low-and-High-Frequencies"><a href="#Filter-Out-Low-and-High-Frequencies" class="headerlink" title="Filter Out Low and High Frequencies"></a>Filter Out Low and High Frequencies</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407154342082.png"></p>
+<p>这次我们去掉了高频和低频，留下了某一次高频段的信息。我们可以提取到不是那么明显的边界特征，中间大面积相同的色块也因低频信息而被去掉。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407155219787.png"></p>
+<p>如果我们继续把圈扩大，更高频的逆变换图像更像边界。所以这一块通过频率的分析，把不同的频率和信号的变化建立关系。</p>
+<h4 id="Filtering-Convolution-Averaging"><a href="#Filtering-Convolution-Averaging" class="headerlink" title="Filtering = Convolution (= Averaging)"></a>Filtering = Convolution (= Averaging)</h4><h5 id="Convolution"><a href="#Convolution" class="headerlink" title="Convolution"></a>Convolution</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407155447179.png"></p>
+<p>我们有一个以数组方式存储的一维信号，还有一个大小为3的滤波器，它类似于一个窗口左对齐于信号最左侧。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407155520089.png"></p>
+<p>卷积操作就是移动窗口的过程中把窗口对应这三个数和窗口覆盖的三个数做一个点乘，得出的结果写回窗口的中心值。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407155551930.png"></p>
+<p>这其实就是一个平均，原始的信号在任何一个位置取周围三个数求一个加权平均，得到的结果最后会得到新的平均信号。当然这不是数学上的定义，是图形学简化后的定义。</p>
+<h5 id="Convolution-Theorem"><a href="#Convolution-Theorem" class="headerlink" title="Convolution Theorem"></a>Convolution Theorem</h5><p>Convolution in the spatial domain <strong>is equal to multiplication in the frequency domain</strong>, and vice versa </p>
+<p><strong>Option 1:</strong></p>
+<ul>
+<li>Filter by convolution in the spatial domain </li>
+</ul>
+<p><strong>Option 2:</strong></p>
+<ul>
+<li>Transform to frequency domain (Fourier transform)</li>
+<li>Multiply by Fourier transform of convolution kernel</li>
+<li>Transform back to spatial domain (inverse Fourier)</li>
+</ul>
+<p>卷积有一个定理：时域上如果想对两个信号做卷积，对应到两个信号各自的频域上是两个信号频域的乘积。通过卷积定理我们可以知道如何做一个卷积，可以直接拿到一幅图然后用某一个卷积的滤波器做一个卷积操作；也可以拿这幅图先傅立叶变换变到频域上，把卷积的滤波器变到频域上，把两者相乘的到频域的结果再把它逆傅立叶变换变到时域上。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407155749846.png"></p>
+<p>我们想对这幅图进行平均或者卷积操作，然后它是一个$3 \times 3$的窗口，任何像素都是它周围$3 \times 3$像素的平均，那得到的结果就是模糊了的图像。刚才也说了可以先做图像和滤波器的傅立叶变换到频域上相乘，最后再逆傅立叶变换变回图像。</p>
+<p>整个过程很像低通滤波，对应的就是之前说过的模糊的图像，也证明了卷积的正确性。</p>
+<h5 id="Box-Filter"><a href="#Box-Filter" class="headerlink" title="Box Filter"></a>Box Filter</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407155824797.png"></p>
+<p>回过头来看滤波器，它是个$3 \times 3$的盒子。这里的$\frac{1}{9}$是为了经过卷积操作后图像整体的颜色不会跟以前发生太大变化做的归一化操作，否则卷积得到的是周围九个像素颜色之和，影响图像亮度。</p>
+<h5 id="Box-Function-“Low-Pass”-Filter"><a href="#Box-Function-“Low-Pass”-Filter" class="headerlink" title="Box Function = “Low Pass” Filter"></a>Box Function = “Low Pass” Filter</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407155850504.png"></p>
+<h5 id="Wider-Filter-Kernel-Lower-Frequencies"><a href="#Wider-Filter-Kernel-Lower-Frequencies" class="headerlink" title="Wider Filter Kernel = Lower Frequencies"></a>Wider Filter Kernel = Lower Frequencies</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407155924759.png"></p>
+<p>如果这个盒子在时域上变大，那么频域该如何变化呢？对应在频域上反而变小了，比如之前为了模糊一张图我们用了$3 \times 3$的卷积核，我们得到一个模糊的结果。那么我们想象一下如果我们用$63 \times 63$这样大小的box，对任何像素我们都取那么大一块的像素的平均，得到的结果可想而知越来越模糊。</p>
+<h4 id="Sampling-Repeating-Frequency-Contents"><a href="#Sampling-Repeating-Frequency-Contents" class="headerlink" title="Sampling = Repeating Frequency Contents"></a>Sampling = Repeating Frequency Contents</h4><h5 id="Sampling-Repeating-Frequency-Contents-1"><a href="#Sampling-Repeating-Frequency-Contents-1" class="headerlink" title="Sampling = Repeating Frequency Contents"></a>Sampling = Repeating Frequency Contents</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407163820667.png"></p>
+<p>采样就是在重复一个原始信号的频谱，这就是为什么会产生走样现象。</p>
+<h5 id="Aliasing-Mixed-Frequency-Contents"><a href="#Aliasing-Mixed-Frequency-Contents" class="headerlink" title="Aliasing = Mixed Frequency Contents"></a>Aliasing = Mixed Frequency Contents</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407163855767.png"></p>
+<p>采样的不同的间隔会引起频谱以另外一个不同的间隔进行移动。采样不够快会导致原始信号复制粘贴中间的间隔非常小，意味着采样点之间的距离很大。走样在频率的角度上说就是频谱在复制粘贴的情况下发生了混合/混叠，这就是产生走样的原因。</p>
+<h4 id="How-Can-We-Reduce-Aliasing-Error"><a href="#How-Can-We-Reduce-Aliasing-Error" class="headerlink" title="How Can We Reduce Aliasing Error?"></a>How Can We Reduce Aliasing Error?</h4><p><strong>Option 1: Increase sampling rate</strong></p>
+<ul>
+<li>Essentially increasing the distance between replicas in the Fourier domain</li>
+<li>Higher resolution displays, sensors, framebuffers…</li>
+<li>But: costly &amp; may need very high resolution</li>
+</ul>
+<p><strong>Option 2: Antialiasing</strong></p>
+<ul>
+<li>Making Fourier contents “narrower” before repeating</li>
+<li>i.e. <strong>Filtering out high frequencies before sampling</strong></li>
+</ul>
+<p>第一个办法是增加采样率，比如显示器是$600 \times 480$的古老显示器，一个像素非常大，我们用它光栅化一个三角形当然看起来锯齿化严重。那我如果用现在的视网膜显示器，像素和像素之间间隔小，意味着采样率高，频谱上对应间隔大不容易出现混叠。</p>
+<p>然而这并不是反走样要做的事情。另外一个做法是做反走样，回到一开始先做模糊再做采样。通过频率分析我们可以知道先做模糊再做采样它是有意义的，对应频域就是低通滤波，</p>
+<h5 id="Antialiasing-Limiting-then-repeating"><a href="#Antialiasing-Limiting-then-repeating" class="headerlink" title="Antialiasing = Limiting, then repeating"></a>Antialiasing = Limiting, then repeating</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407170213916.png"></p>
+<p>对于这么一个函数本身对应频谱是梯形，如果我们先对原始信号进行一个模糊把高频信号砍至虚线方块，那剩下的信号就是这样一个形状，我再以原本稀疏的采样率来采样，频谱在这个位置不再发生混叠。</p>
+</body></html>]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
       </categories>
@@ -989,7 +1040,7 @@
 <li>Determine forward /   backward</li>
 </ul>
 <p>投影可以让我们把一个向量分解成两个向量，其中一个方向平行于某个方向，一个方向垂直于某个方向。比如说这里我们知道$\vec{b_{\perp}}$怎么算，那另外一个方向的向量就可以表示为$\vec b - \vec{b_{\perp}}$，所以点乘可以把向量进行任意的平行与垂直的分解。</p>
-<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210325230758136.png" alt="image-20210325230758136"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210325230758136.png"></p>
 <ul>
 <li>Measure how close   two directions are</li>
 <li>Decompose a vector</li>
