@@ -163,7 +163,7 @@
 <p>这些问题的本质上都是信号/函数的变化太快了，以至于采样速度跟不上它。</p>
 <h3 id="Antialiasing-Idea-Blurring-Pre-Filtering-Before-Sampling"><a href="#Antialiasing-Idea-Blurring-Pre-Filtering-Before-Sampling" class="headerlink" title="Antialiasing Idea: Blurring (Pre-Filtering) Before Sampling"></a>Antialiasing Idea: Blurring (Pre-Filtering) Before Sampling</h3><h4 id="Rasterization-Point-Sampling-in-Space"><a href="#Rasterization-Point-Sampling-in-Space" class="headerlink" title="Rasterization: Point Sampling in Space"></a>Rasterization: Point Sampling in Space</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407085117492.png"></p>
 <p>之前走样问题的产生是因为我们用像素中心采样三角形，然后我们发现有些点完全在三角形内，一些完全在三角形外，所以这些点要么是红的要么是白的，画出来就会产生走样。</p>
-<h4 id="Rasterization-Antialiased-Sampling"><a href="#Rasterization-Antialiased-Sampling" class="headerlink" title="Rasterization: Antialiased Sampling"></a>Rasterization: Antialiased Sampling</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407091544645.png" alt="image-20210407091544645"></p>
+<h4 id="Rasterization-Antialiased-Sampling"><a href="#Rasterization-Antialiased-Sampling" class="headerlink" title="Rasterization: Antialiased Sampling"></a>Rasterization: Antialiased Sampling</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407091544645.png"></p>
 <p>那现在我们拿到三角形，先做一个模糊操作把它变成一个模糊的三角形，然后我再用这些像素的中心点采样，比如右边的三角形采样到模糊三角形的边界颜色变为粉红色。</p>
 <p>通过对原始函数/信号做一个模糊/滤波再去采样，就可以解决锯齿这么一个问题，在实际应用时效果也不错。</p>
 <h4 id="Point-Sampling-vs-Antialiasing"><a href="#Point-Sampling-vs-Antialiasing" class="headerlink" title="Point Sampling vs Antialiasing"></a>Point Sampling vs Antialiasing</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407085848998.png"></p>
@@ -273,15 +273,18 @@
 <p>对于任何像素，我都知道三角形可能会完全覆盖/一部分覆盖。不同的像素对覆盖面积求平均，对像素进行赋值。</p>
 <h3 id="Antialiasing-By-Supersampling-MSAA"><a href="#Antialiasing-By-Supersampling-MSAA" class="headerlink" title="Antialiasing By Supersampling (MSAA)"></a>Antialiasing By Supersampling (MSAA)</h3><h4 id="Supersampling"><a href="#Supersampling" class="headerlink" title="Supersampling"></a>Supersampling</h4><p>Approximate the effect of the 1-pixel box filter by sampling multiple locations within a pixel and averaging their values:</p>
 <p>![](/Users/apple/Library/Application Support/typora-user-images/image-20210407235542832.png)</p>
+<p>对于任何一个像素，我认为一个像素被我划分为很多小的像素例如图中像素被划分为$4 \times 4$的16个小像素。假如每个小像素有一个中心，我可以判断它们是不是在三角形内，然后我们再把判断结果平均起来就是覆盖区域的一个近似。</p>
 <h4 id="Point-Sampling-One-Sample-Per-Pixel"><a href="#Point-Sampling-One-Sample-Per-Pixel" class="headerlink" title="Point Sampling: One Sample Per Pixel"></a>Point Sampling: One Sample Per Pixel</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407235621770.png"></p>
 <h4 id="Supersampling-Step-1"><a href="#Supersampling-Step-1" class="headerlink" title="Supersampling: Step 1"></a>Supersampling: Step 1</h4><p>Take NxN samples in each pixel.</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407235818827.png"></p>
+<p>我们可以把像素内部多加一些采样点如上图所示，每个像素被划分为$2 \times 2$的4个小像素。</p>
 <h4 id="Supersampling-Step-2"><a href="#Supersampling-Step-2" class="headerlink" title="Supersampling: Step 2"></a>Supersampling: Step 2</h4><p>Average the NxN samples “inside” each pixel.</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407235920114.png"></p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210407235953474.png"></p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210408000028123.png"></p>
 <h4 id="Supersampling-Result"><a href="#Supersampling-Result" class="headerlink" title="Supersampling: Result"></a>Supersampling: Result</h4><p>This is the corresponding signal emitted by the display.</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210408000110106.png"></p>
+<p>通过四个像素点去感知是否在三角形内，算出覆盖率如上图所示。</p>
 </body></html>]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
@@ -8817,9 +8820,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -8883,9 +8886,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -9400,9 +9403,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -9971,9 +9974,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -10820,9 +10823,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -10960,9 +10963,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -11022,9 +11025,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -11505,9 +11508,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -12721,9 +12724,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -15910,9 +15913,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -16564,9 +16567,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -17370,9 +17373,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -17435,9 +17438,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -17721,9 +17724,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -17827,9 +17830,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
+        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
-        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -20733,8 +20736,8 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
-        <tag>Art</tag>
         <tag>Game</tag>
+        <tag>Art</tag>
       </tags>
   </entry>
   <entry>
