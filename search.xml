@@ -285,6 +285,12 @@
 <h4 id="Supersampling-Result"><a href="#Supersampling-Result" class="headerlink" title="Supersampling: Result"></a>Supersampling: Result</h4><p>This is the corresponding signal emitted by the display.</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210408000110106.png"></p>
 <p>通过四个像素点去感知是否在三角形内，算出覆盖率如上图所示。</p>
+<br>
+
+<center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_06.pdf">
+            <i class="fas fa-download"></i>GAMES101_Lecture_06
+          </a></center>
+
 </body></html>]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
@@ -8820,9 +8826,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -8886,9 +8892,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -9403,9 +9409,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -9974,9 +9980,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -10823,9 +10829,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -10963,9 +10969,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -11025,9 +11031,9 @@
         <category>像素宝典 (Pixel Dictionary)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -11508,9 +11514,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -12724,9 +12730,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -15913,9 +15919,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -16567,9 +16573,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -17373,9 +17379,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -17438,9 +17444,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -17724,9 +17730,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -17830,9 +17836,9 @@
         <category>开始画像素画 (Making Pixel Art)</category>
       </categories>
       <tags>
-        <tag>Reprint</tag>
         <tag>Art</tag>
         <tag>Pixel</tag>
+        <tag>Reprint</tag>
         <tag>Aseprite</tag>
       </tags>
   </entry>
@@ -20736,8 +20742,8 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
-        <tag>Game</tag>
         <tag>Art</tag>
+        <tag>Game</tag>
       </tags>
   </entry>
   <entry>
