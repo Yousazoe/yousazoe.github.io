@@ -205,8 +205,12 @@
 <p>观察发现光线来源方向<code>l</code>与表面法线<code>n</code>的夹角决定了物体表面该有多么亮。一个更科学的理解是光是一种能量，于是物体应该接收能量，我们可以想象一个太阳能板，太阳能板越大接收到的能量越多；春夏秋冬的季节更替也是如此，在夏天太阳会直射地表，其夹角的周期往返导致了不同的季节。</p>
 <p>朗伯余弦定律定义了接收到的能量和光照方向与法线方向之间余弦成正比，可以考虑特殊值验证。</p>
 <h5 id="Light-Falloff"><a href="#Light-Falloff" class="headerlink" title="Light Falloff"></a>Light Falloff</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210409083128044.png"></p>
+<p>光是一种能量，如果我们假设这个光来自点光源，它无时无刻往四面八方辐射能量。有一个很聪明的观测方法是认为在任何一个时刻这个点光源辐射的能量一定是在一个球壳上，如果假设在真空中传播，根据能量守恒定律远球壳的能量和近处球壳能量相同。</p>
+<p>我们发现一个问题，原本能量都集中在一个小的球壳，意味着球壳上每一个点/位置能量是很多的，然后传播过程中球越变越大，球壳的表面积也越变越大那也意味着在球壳某一个点上对应的能量越变越小。考虑一个单位距离定义光的强度为$I$，那么如果传播到距离为$r$，那么这时光的强度和距离平方成反比：$I/r^2$。</p>
+<p>现在假设我们知道一个点光源，然后又知道着色点离点光源有多远，那我就知道有多少光真正传播到点光源的附近，如果还知道有多少光会被吸收，结合起来我们可以得到Diffuse表示方法。</p>
 <h5 id="Lambertian-Diffuse-Shading"><a href="#Lambertian-Diffuse-Shading" class="headerlink" title="Lambertian (Diffuse) Shading"></a>Lambertian (Diffuse) Shading</h5><p>Shading <strong>independent</strong> of view direction</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210409083233431.png"></p>
+<p>假设点光源离着色点有一定的距离$r$，如果我们定义点光源的光单位强度是$I$，到达着色点的能量会被吸收。通过接收和到达多少能量，我们就能算出漫反射最后应该看到多少能量。这里的<code>max</code>函数是保证结果永远是正的，有实际物理意义的，考虑反射而不是折射；<code>kd</code>表示漫反射系数，如果为1表示这个点完全不吸收能量，0则意味着所有能量都被吸收了，没有能量反射出去。</p>
 <p>Produces diffuse appearance</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210409083358190.png"></p>
 <br>
