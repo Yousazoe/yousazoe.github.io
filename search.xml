@@ -112,7 +112,7 @@
   <entry>
     <title>实时光线追踪技术：业界发展近况与未来的挑战</title>
     <url>/archives/35f0bef4.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/quality,q_90.png"></p>
+    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/quality,q_90.png"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>趁着XSX宣布RDNA2架构与支持实时光追的档口，来聊聊Real-time Ray Tracing技术这几年来的发展。</p>
 <span id="more"></span>
 
