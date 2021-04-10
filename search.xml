@@ -178,6 +178,8 @@
 
 <h3 id="Shading"><a href="#Shading" class="headerlink" title="Shading"></a>Shading</h3><h4 id="What-We’ve-Covered-So-Far"><a href="#What-We’ve-Covered-So-Far" class="headerlink" title="What We’ve Covered So Far"></a>What We’ve Covered So Far</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210408201156677.png"></p>
 <p>目前我们学了什么？首先我们在空间中定义了模型，可以对模型进行一些变换；然后我们通过视图变换把相机放在原点；变换完之后我们自然把三维的模型变成二维的，也就是投影变换；最后我们学习了从投影如何映射到二维的屏幕上，把它变成一个采样结果，光栅化的过程。</p>
+<h4 id="Rotating-Cubes-Now-You-Can-Do"><a href="#Rotating-Cubes-Now-You-Can-Do" class="headerlink" title="Rotating Cubes (Now You Can Do)"></a>Rotating Cubes (Now You Can Do)</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210410221201356.png"></p>
+<h4 id="Rotating-Cubes-Expected"><a href="#Rotating-Cubes-Expected" class="headerlink" title="Rotating Cubes (Expected)"></a>Rotating Cubes (Expected)</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210410221237384.png"></p>
 <h4 id="What-Else-Are-We-Missing"><a href="#What-Else-Are-We-Missing" class="headerlink" title="What Else Are We Missing?"></a>What Else Are We Missing?</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210409080747650.png"></p>
 <p>大家可以看到某种巧克力奶茶的泡沫、蛋挞和葡萄等等，为什么不同的东西可以看到不同的颜色，显示五彩缤纷的颜色？在不同的光照下我们可以想象光源移动一下位置，物体并没有发生位置上的变化，但是颜色上发生了变化，这个问题就是着色。</p>
 <h4 id="Shading-Definition"><a href="#Shading-Definition" class="headerlink" title="Shading: Definition"></a>Shading: Definition</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210409080421062.png"></p>
@@ -211,6 +213,7 @@
 <h5 id="Lambertian-Diffuse-Shading"><a href="#Lambertian-Diffuse-Shading" class="headerlink" title="Lambertian (Diffuse) Shading"></a>Lambertian (Diffuse) Shading</h5><p>Shading <strong>independent</strong> of view direction</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210409083233431.png"></p>
 <p>假设点光源离着色点有一定的距离$r$，如果我们定义点光源的光单位强度是$I$，到达着色点的能量会被吸收。通过接收和到达多少能量，我们就能算出漫反射最后应该看到多少能量。这里的<code>max</code>函数是保证结果永远是正的，有实际物理意义的，考虑反射而不是折射；<code>kd</code>表示漫反射系数，如果为1表示这个点完全不吸收能量，0则意味着所有能量都被吸收了，没有能量反射出去。</p>
+<p>漫反射打到着色点上，能量会被均匀的反射到各个不同的方向上去，意味着不管从哪里观测它看到的结果应该是一模一样的。漫反射项与观察方向<code>v</code>完全没有关系，从式子上看也是如此，我们考虑的是光线与法线之间的夹角。</p>
 <p>Produces diffuse appearance</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210409083358190.png"></p>
 <br>
@@ -15957,8 +15960,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>Mathematical Modeling</tag>
         <tag>Rocket</tag>
+        <tag>Mathematical Modeling</tag>
       </tags>
   </entry>
   <entry>
@@ -17292,8 +17295,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>Population</tag>
         <tag>Mathematical Modeling</tag>
+        <tag>Population</tag>
       </tags>
   </entry>
   <entry>
