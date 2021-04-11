@@ -110,6 +110,63 @@
       </tags>
   </entry>
   <entry>
+    <title>Shading, Pipeline and Texture Mapping</title>
+    <url>/archives/d3d02c34.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/EyoBGzMWQAAv63l.jpeg"></p>
+<div align="center">
+  <font size="3">
+    <i>
+      <a href="https://twitter.com/MVC_discord">Twitter@MVC_discord</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101 现代图形学入门是由闫令琪老师教授。今天我们讲着色的第二个部分，包括Blinn-Phong着色模型、图形管线和纹理映射。</p>
+<span id="more"></span>
+
+<h3 id="A-Simple-Shading-Model-Blinn-Phong-Reflectance-Model"><a href="#A-Simple-Shading-Model-Blinn-Phong-Reflectance-Model" class="headerlink" title="A Simple Shading Model (Blinn-Phong Reflectance Model)"></a>A Simple Shading Model (Blinn-Phong Reflectance Model)</h3><h4 id="Blinn-Phong-reflectance-model"><a href="#Blinn-Phong-reflectance-model" class="headerlink" title="Blinn-Phong reflectance model"></a>Blinn-Phong reflectance model</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210409083233431.png"></p>
+<p>简单复习一下漫反射项。首先这个光打到了某一个着色点，然后它会往四面八方反射出去，也就是说漫反射项和观测方向<code>v</code>没有任何关系。</p>
+<p>我们推导了光源在传播的过程中会根据它传播的距离产生能量的衰减，$I/r^2$表示实际有多少能量到达了着色点；到达后还需要吸收，接收多少能量是和入射方向、法线方向的夹角余弦有关系；如果材质本身有颜色，那我们在前面加上一个漫反射系数$k_d$。当然这是一个很经验性的模型，但它有一定物理的道理在里面。</p>
+<h4 id="Specular-Term-Blinn-Phong"><a href="#Specular-Term-Blinn-Phong" class="headerlink" title="Specular Term (Blinn-Phong)"></a>Specular Term (Blinn-Phong)</h4><p>Intensity <strong>depends</strong> on view direction</p>
+<ul>
+<li>Bright near mirror reflection direction</li>
+</ul>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210411202704724.png"></p>
+<p>现在我们要把高光项加进去，什么情况我们能看得到高光？有高光平面应该比较光滑，它的反射具有一定特性：反射方向接近镜面反射的方向（对于镜子而言给出入射方向和法线就可以得到出射方向）。当我们的观察方向和镜面反射接近时，我能看到高光，也就是<code>v</code>和<code>R</code>足够接近的时候我们就得到这么一个高光项。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210411203227604.png"></p>
+<p>但是Blinn-Phong模型做了一个很聪明的事情，它看到了一个现象，当我的观察方向和镜面反射方向接近的时候，其实就说明了法线方向和所谓半程向量很接近。如果我有一个入射方向<code>l</code>，出射方向<code>v</code>，那么我可以求它的角平分线<code>h</code>，那么<code>v</code>和<code>R</code>接近就可以表示为<code>n</code>和<code>h</code>接近。</p>
+<p>如何衡量两个向量接近呢？点乘，如果两个方向足够相近，那么点乘的结果自然是接近1；如果两个方向离得比较远，那么就接近0，当然反方向我们就不考虑。从式子就可以看出来，多少能量到达着色点还是一样考虑，只不过这里我们要考虑的事情就是半程向量方向是否接近法线方向。同样道理，高光项我们也会给它颜色，不过高光通常来说认为是白的，所以$k_s$镜面反射系数通常认为是一个白的颜色。</p>
+<p>这里有人会注意到，为什么这里不考虑有多少能量被吸收了呢，不管什么反射我们都要考虑啊。实际我们如果要做的对的话，我们确实还是要在镜面反射上考虑有多少能量被吸收，但这里没有考虑是因为Blinn-Phong模型毕竟是经验性模型，这一点把它简化掉了，主要关注是否能保证我们能看到高光。</p>
+<p>还有一个问题是为什么要用半程向量和法线，如果我就用镜面反射方向和观察方向不行吗？完全可以，Blinn-Phong模型作为它的一种改进，因为半程向量实在太好算了，相对而言反射方向就相对困难，计算量会增加很多。</p>
+<h4 id="Cosine-Power-Plots"><a href="#Cosine-Power-Plots" class="headerlink" title="Cosine Power Plots"></a>Cosine Power Plots</h4><p>Increasing p narrows the reflection lobe</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210411205518135.png"></p>
+<p>最后一个问题是为什么会存在一个指数项<code>p</code>。点乘确实能衡量两个向量是否足够接近</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210411205915670.png"></p>
+<h3 id="Shading-Frequencies"><a href="#Shading-Frequencies" class="headerlink" title="Shading Frequencies"></a>Shading Frequencies</h3><h3 id="Graphics-Real-time-Rendering-Pipeline"><a href="#Graphics-Real-time-Rendering-Pipeline" class="headerlink" title="Graphics (Real-time Rendering) Pipeline"></a>Graphics (Real-time Rendering) Pipeline</h3><h3 id="Texture-Mapping"><a href="#Texture-Mapping" class="headerlink" title="Texture Mapping"></a>Texture Mapping</h3></body></html>]]></content>
+      <categories>
+        <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
+      </categories>
+      <tags>
+        <tag>Computer Graphics</tag>
+        <tag>Shading</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Introduction and Overview</title>
+    <url>/archives/26c49312.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/EyXC_9OWQAQK1XB.jpeg"></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES202 高质量实时渲染是由闫令琪老师教授。</p>
+<span id="more"></span></body></html>]]></content>
+      <categories>
+        <category>高质量实时渲染 (GAMES202-Real-Time High Quality Rendering)</category>
+      </categories>
+      <tags>
+        <tag>Computer Graphics</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>实时光线追踪技术：业界发展近况与未来的挑战</title>
     <url>/archives/35f0bef4.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/quality,q_90.png"></p>
@@ -353,7 +410,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Shading--Illumination, Shading and Graphics Pipeline</title>
+    <title>Illumination, Shading and Graphics Pipeline</title>
     <url>/archives/527175ac.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/EyWnXhjWYAEodJy.jpeg"></p>
 <div align="center">
@@ -475,7 +532,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Rasterization-Antialiasing and Z-buffering</title>
+    <title>Antialiasing and Z-buffering</title>
     <url>/archives/874dc08b.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/EyRZ2j_XAAMMk-k.jpeg"></p>
 <div align="center">
@@ -666,7 +723,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Rasterization-Triangles</title>
+    <title>Triangles</title>
     <url>/archives/d3e5abd5.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Ex1FWvNWEAMtysd-20210402083825006.jpeg"></p>
 <div align="center">
