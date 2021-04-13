@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>RayTracing-Whitted Style</title>
+    <title>Whitted Style Ray Tracing</title>
     <url>/archives/bc6dc1aa.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/minecraft-ray-tracing-4-100808656-large.3x2.jpg"></p>
 <div align="center">
@@ -173,18 +173,53 @@
 <p>Don’t forget to <strong>normalize</strong> the interpolated directions</p>
 <p>另一个问题是如何去真正定义一个逐像素的法线。在三角形的内部假如我已经知道它的顶点法线是什么了，那如何得到内部的平滑过渡的法线呢？这里需要用到重心坐标，马上就要给大家说。</p>
 <h3 id="Graphics-Real-time-Rendering-Pipeline"><a href="#Graphics-Real-time-Rendering-Pipeline" class="headerlink" title="Graphics (Real-time Rendering) Pipeline"></a>Graphics (Real-time Rendering) Pipeline</h3><h4 id="Graphics-Pipeline"><a href="#Graphics-Pipeline" class="headerlink" title="Graphics Pipeline"></a>Graphics Pipeline</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210412221834660.png"></p>
+<p>从场景到最后一张图经历的过程被称为管线，表示的是一系列不同的操作，可以理解为一种“流水线”。</p>
+<p>一开始输入是一堆空间中的点，并且经过第一步我们要做一个投影，然后这些点会形成三角形通过光栅化把它离散成为Fragments打散成不同的像素，在此之后就可以进行着色输出图像。</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210412221922349.png"></p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210412221945518.png"></p>
-<h4 id="Rasterization-Pipeline"><a href="#Rasterization-Pipeline" class="headerlink" title="Rasterization Pipeline"></a>Rasterization Pipeline</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210412222013417.png"></p>
-<h4 id="Graphics-Pipeline-1"><a href="#Graphics-Pipeline-1" class="headerlink" title="Graphics Pipeline"></a>Graphics Pipeline</h4><h4 id="Shader-Programs"><a href="#Shader-Programs" class="headerlink" title="Shader Programs"></a>Shader Programs</h4><h4 id="Snail-Shader-Program"><a href="#Snail-Shader-Program" class="headerlink" title="Snail Shader Program"></a>Snail Shader Program</h4><h4 id="Goal-Highly-Complex-3D-Scenes-in-Realtime"><a href="#Goal-Highly-Complex-3D-Scenes-in-Realtime" class="headerlink" title="Goal: Highly Complex 3D Scenes in Realtime"></a>Goal: Highly Complex 3D Scenes in Realtime</h4><h4 id="Graphics-Pipeline-Implementation-GPUs"><a href="#Graphics-Pipeline-Implementation-GPUs" class="headerlink" title="Graphics Pipeline Implementation: GPUs"></a>Graphics Pipeline Implementation: GPUs</h4><h4 id="GPU-Heterogeneous-Multi-Core-Procesor"><a href="#GPU-Heterogeneous-Multi-Core-Procesor" class="headerlink" title="GPU: Heterogeneous, Multi-Core Procesor"></a>GPU: Heterogeneous, Multi-Core Procesor</h4><h3 id="Texture-Mapping"><a href="#Texture-Mapping" class="headerlink" title="Texture Mapping"></a>Texture Mapping</h3><h4 id="Different-Colors-at-Different-Places"><a href="#Different-Colors-at-Different-Places" class="headerlink" title="Different Colors at Different Places?"></a>Different Colors at Different Places?</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210412222141257.png"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210412222013417.png"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210413095416204.png"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210413095448930.png"></p>
+<h4 id="Shader-Programs"><a href="#Shader-Programs" class="headerlink" title="Shader Programs"></a>Shader Programs</h4><ul>
+<li>Program vertex and fragment processing stages</li>
+<li>Describe operation on a single vertex (or fragment)</li>
+</ul>
+<p>Example GLSL fragment shader program</p>
+<figure class="highlight glsl"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">uniform</span> <span class="type">sampler2D</span> myTexture; <span class="comment">// program parameter</span></span><br><span class="line"><span class="keyword">uniform</span> <span class="type">vec3</span> lightDir; <span class="comment">// program parameter</span></span><br><span class="line"><span class="keyword">varying</span> <span class="type">vec2</span> uv; <span class="comment">// per fragment value (interp. by rasterizer)</span></span><br><span class="line"><span class="keyword">varying</span> <span class="type">vec3</span> norm; <span class="comment">// per fragment value (interp. by rasterizer)</span></span><br><span class="line"><span class="type">void</span> diffuseShader()</span><br><span class="line">{</span><br><span class="line"> <span class="type">vec3</span> kd;</span><br><span class="line"> kd = texture2d(myTexture, uv); <span class="comment">// material color from texture</span></span><br><span class="line"> kd *= <span class="built_in">clamp</span>(<span class="built_in">dot</span>(–lightDir, norm), <span class="number">0.0</span>, <span class="number">1.0</span>); <span class="comment">// Lambertian shading model</span></span><br><span class="line"> <span class="built_in">gl_FragColor</span> = <span class="type">vec4</span>(kd, <span class="number">1.0</span>); <span class="comment">// output fragment color</span></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<ul>
+<li>Shader function executes once per fragment.</li>
+<li>Outputs color of surface at the current fragment’s screen sample position.</li>
+<li>This shader performs a texture lookup to obtain the surface’s material color at this point, then performs a diffuse lighting calculation.</li>
+</ul>
+<p>现代GPU允许自己去编程解决顶点和像素如何做它们的着色。如果要实现一些复杂的东西正常情况下需要大家去写这个Shader，它本质上是能在硬件执行的语言，例如OpenGL是一个图形学的API，可以用它写一些Shader。</p>
+<h4 id="Goal-Highly-Complex-3D-Scenes-in-Realtime"><a href="#Goal-Highly-Complex-3D-Scenes-in-Realtime" class="headerlink" title="Goal: Highly Complex 3D Scenes in Realtime"></a>Goal: Highly Complex 3D Scenes in Realtime</h4><ul>
+<li>100’s of thousands to millions of triangles in a scene</li>
+<li>Complex vertex and fragment shader computations</li>
+<li>High resolution (2-4 megapixel + supersampling)</li>
+<li>30-60 frames per second (even higher for VR)</li>
+</ul>
+<h4 id="Graphics-Pipeline-Implementation-GPUs"><a href="#Graphics-Pipeline-Implementation-GPUs" class="headerlink" title="Graphics Pipeline Implementation: GPUs"></a>Graphics Pipeline Implementation: GPUs</h4><p>Specialized processors for executing graphics pipeline computations</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210413101651194.png"></p>
+<p>GPU自然是图形管线的硬件实现，它在硬件层面实现了例如三角形的光栅化、怎么样实现投影。有一部分是可编程的就是我们所说的着色器，顶点着色器和片段/像素着色器，但其实随着GPU的发展，有越来越多不同类型的着色器产生，是非常值得期待的发展。</p>
+<h4 id="GPU-Heterogeneous-Multi-Core-Procesor"><a href="#GPU-Heterogeneous-Multi-Core-Procesor" class="headerlink" title="GPU: Heterogeneous, Multi-Core Procesor"></a>GPU: Heterogeneous, Multi-Core Procesor</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210413102201416.png"></p>
+<p>GPU本身大家可以理解成高度并行化的处理器，咱们平常说CPU买什么i7i9，核心的数量可以理解成可以并行线程的数量，如果学过高性能计算可以知道GPU的并行度是相当惊人的，远远超过CPU，所以特别适合做图形学并行计算。</p>
+<h3 id="Texture-Mapping"><a href="#Texture-Mapping" class="headerlink" title="Texture Mapping"></a>Texture Mapping</h3><h4 id="Different-Colors-at-Different-Places"><a href="#Different-Colors-at-Different-Places" class="headerlink" title="Different Colors at Different Places?"></a>Different Colors at Different Places?</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210412222141257.png"></p>
+<p>纹理映射通过上图来说明白，两个台灯照亮一个地板和一个球。如果我们只盯着这个球来看其实它的着色我们会写，无非是两个点光源加起来。但球上面有不同的颜色，它们的基本区别是共用一个着色模型，只是说它们本身的漫反射系数发生了一些改变，也就是说我们希望有一种方法能够定义对于一个物体它上面任何一个点它们的不同属性。</p>
 <h4 id="Surfaces-are-2D"><a href="#Surfaces-are-2D" class="headerlink" title="Surfaces are 2D"></a>Surfaces are 2D</h4><p>Surface lives in 3D world space</p>
 <p>Every 3D surface point also has a place where it goes in the 2D image (<strong>texture</strong>).</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210412222224668.png"></p>
+<p>我们把属性定义在物体表面上，当然我们要考虑物体表面任何一个点应该是什么样的颜色做着色。物体表面该怎样去理解？我做一个声明，任何一个三维物体表面都是二维的，例如地球仪显然是一个三维的物体，如果把地图拿出来往平面一放变为平面。</p>
+<p>纹理就是一张图，这张图可以任意把它撕开用其中一块或者拉伸、压缩，把它蒙在三维物体的表面，这个过程就叫纹理映射。映射自然是一个一一对应的关系，那我们找到一个物体表面任何一个点和纹理上任何一个点它们之间的关系。</p>
 <h4 id="Texture-Applied-to-Surface"><a href="#Texture-Applied-to-Surface" class="headerlink" title="Texture Applied to Surface"></a>Texture Applied to Surface</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210412222259197.png"></p>
 <h4 id="Visualization-of-Texture-Coordinates"><a href="#Visualization-of-Texture-Coordinates" class="headerlink" title="Visualization of Texture Coordinates"></a>Visualization of Texture Coordinates</h4><p>Each triangle vertex is assigned a texture coordinate (u,v)</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210412222332835.png"></p>
+<p>纹理上定义一个坐标系，真正指定纹理上任何一个点的坐标。这个坐标系大家通常用(u,v)表示纹理上任何一个点，比如纹理是右图，那么任何一个物体上的三角形如何映射到纹理上把它显示出来。通常来说不管分辨率与长宽比，大家认为的(u,v)范围都是在0～1之内，约定俗成便于处理。</p>
 <h4 id="Texture-Applied-to-Surface-1"><a href="#Texture-Applied-to-Surface-1" class="headerlink" title="Texture Applied to Surface"></a>Texture Applied to Surface</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210412222355233.png"></p>
-<h4 id="Textures-can-be-used-multiple-times"><a href="#Textures-can-be-used-multiple-times" class="headerlink" title="Textures can be used multiple times!"></a>Textures can be used multiple times!</h4></body></html>]]></content>
+<h4 id="Textures-can-be-used-multiple-times"><a href="#Textures-can-be-used-multiple-times" class="headerlink" title="Textures can be used multiple times!"></a>Textures can be used multiple times!</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210413104734693.png"></p>
+</body></html>]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
       </categories>
