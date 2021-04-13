@@ -232,8 +232,45 @@
     <title>Introduction and Overview</title>
     <url>/archives/26c49312.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/EyXC_9OWQAQK1XB.jpeg"></p>
+<div align="center">
+  <font size="3">
+    <i>
+      <a href="https://twitter.com/MVC_discord">Twitter@MVC_discord</a>
+    </i>
+  </font>
+</div>
+
+
+
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES202 高质量实时渲染是由闫令琪老师教授。</p>
-<span id="more"></span></body></html>]]></content>
+<span id="more"></span>
+
+
+
+
+
+<h3 id="Instructor"><a href="#Instructor" class="headerlink" title="Instructor"></a>Instructor</h3><p><strong>闫令琪</strong></p>
+<ul>
+<li>2018 - now: Assistant Professor @ UCSB</li>
+<li>2013 - 2018: Ph.D @ UC Berkeley</li>
+<li>2009 - 2013: B.E. @ Tsinghua University</li>
+<li>Website: <a href="http://www.cs.ucsb.edu/~lingqi/">www.cs.ucsb.edu/~lingqi/</a></li>
+<li>Research: Rendering in Computer Graphics</li>
+<li>Hobbies: research, video games, piano, traveling, NBA, etc.</li>
+</ul>
+<p>老师主要做图形学中渲染、绘制这一方向，之前的研究成果被工业界采用：</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210414010925520.png"></p>
+<h3 id="What-is-GAMES202-about"><a href="#What-is-GAMES202-about" class="headerlink" title="What is GAMES202 about?"></a>What is GAMES202 about?</h3><p><strong>Real-Time</strong> High Quality Rendering</p>
+<ul>
+<li>Speed: more than 30 FPS (frames per second), even more for Virtual / Augmented Reality (VR / AR): 90 FPS</li>
+<li>Interactivity: Each frame generated on the fly</li>
+</ul>
+<p>Real-Time <strong>High Quality</strong> Rendering</p>
+<ul>
+<li>Realism: advanced approaches to make rendering more realistic</li>
+<li>Dependability: all-time correctness (exact or approximate), no tolerance to (uncontrollable) failures</li>
+</ul>
+</body></html>]]></content>
       <categories>
         <category>高质量实时渲染 (GAMES202-Real-Time High Quality Rendering)</category>
       </categories>

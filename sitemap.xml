@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yousazoe.top/archives/bc6dc1aa.html</loc>
+    <loc>http://yousazoe.top/archives/26c49312.html</loc>
     
     <lastmod>2021-04-13</lastmod>
     
@@ -16,9 +16,9 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/archives/26c49312.html</loc>
+    <loc>http://yousazoe.top/archives/bc6dc1aa.html</loc>
     
-    <lastmod>2021-04-11</lastmod>
+    <lastmod>2021-04-13</lastmod>
     
   </url>
   
@@ -1145,13 +1145,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/GPS/</loc>
-    <lastmod>2021-04-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/tags/Rocket/</loc>
     <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
@@ -1160,6 +1153,13 @@
   
   <url>
     <loc>http://yousazoe.top/tags/Aseprite/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/GPS/</loc>
     <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1441,13 +1441,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7-Coding-Skill/</loc>
-    <lastmod>2021-04-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/categories/Cherno%E7%9A%84C-%E7%AC%94%E8%AE%B0-Cherno-C/</loc>
     <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
@@ -1463,6 +1456,13 @@
   
   <url>
     <loc>http://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%83%8F%E5%AD%A6-Foundations-of-Computer-Graphics/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7-Coding-Skill/</loc>
     <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
