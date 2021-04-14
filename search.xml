@@ -260,7 +260,8 @@
 </ul>
 <p>老师主要做图形学中渲染、绘制这一方向，之前的研究成果被工业界采用：</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210414010925520.png"></p>
-<h3 id="What-is-GAMES202-about"><a href="#What-is-GAMES202-about" class="headerlink" title="What is GAMES202 about?"></a>What is GAMES202 about?</h3><p><strong>Real-Time</strong> High Quality Rendering</p>
+<h3 id="What-is-GAMES202-about"><a href="#What-is-GAMES202-about" class="headerlink" title="What is GAMES202 about?"></a>What is GAMES202 about?</h3><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210414153449049.png"></p>
+<p><strong>Real-Time</strong> High Quality Rendering</p>
 <ul>
 <li>Speed: more than 30 FPS (frames per second), even more for Virtual / Augmented Reality (VR / AR): 90 FPS</li>
 <li>Interactivity: Each frame generated on the fly</li>
@@ -270,6 +271,17 @@
 <li>Realism: advanced approaches to make rendering more realistic</li>
 <li>Dependability: all-time correctness (exact or approximate), no tolerance to (uncontrollable) failures</li>
 </ul>
+<p>实时指的是一种速度，渲染中人们通常认为到达30FPS可以被称为实时，当然不同的领域有不同的标准，虚拟现实和增强现实会对实时的要求更高：90FPS。实时渲染讲究的是互动性，能够得到反馈肯定比一直渲染要好。</p>
+<p>高质量也是需要强调的一点，指的是真实感，我们渲染的最终目标是以假乱真，但这个目标付出的代价很可能就是高额的计算。为了保证实时渲染，我们通常会牺牲一部分质量，但人们是贪婪的，如何两全其美也是实时渲染最大的挑战。</p>
+<p>Real-Time High Quality <strong>Rendering</strong></p>
+<ul>
+<li>What is Rendering?</li>
+</ul>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210414161418776.png"></p>
+<p>渲染是图形学的一个重要分支，它所做的事情是把一个三维的场景通过计算方式模拟光线如何从光源中发出并在场景中弹射最后进入人的眼睛的，我们在试图模拟一个虚拟的摄像机如何看到一个虚拟的场景，这就是渲染的事情。</p>
+<p>Highest level: 4 different parts on real-time rendering</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210414161732806.png"></p>
+<p>这门课我们会讲四个话题：阴影、全局光照、真实着色/基于物理着色以及实时光线追踪。</p>
 </body></html>]]></content>
       <categories>
         <category>高质量实时渲染 (GAMES202-Real-Time High Quality Rendering)</category>
@@ -21276,8 +21288,8 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
-        <tag>Art</tag>
         <tag>Game</tag>
+        <tag>Art</tag>
       </tags>
   </entry>
   <entry>
