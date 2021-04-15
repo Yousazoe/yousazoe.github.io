@@ -110,6 +110,64 @@
       </tags>
   </entry>
   <entry>
+    <title>Texture Mapping cont</title>
+    <url>/archives/870f1283.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Ey3xWthWgAUCH5l.jpeg"></p>
+<div align="center">
+  <font size="3">
+    <i>
+      <a href="https://twitter.com/Abbot6611">Twitter@Abbot6611</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101 现代图形学入门是由闫令琪老师教授。今天我们讲着色部分说完，主要是关于纹理的应用。</p>
+<span id="more"></span>
+
+
+
+<h3 id="Barycentric-Coordinates"><a href="#Barycentric-Coordinates" class="headerlink" title="Barycentric Coordinates"></a>Barycentric Coordinates</h3><h4 id="Interpolation-Across-Triangles"><a href="#Interpolation-Across-Triangles" class="headerlink" title="Interpolation Across Triangles"></a>Interpolation Across Triangles</h4><p><strong>Why do we want to interpolate?</strong></p>
+<ul>
+<li>Specify values at vertices</li>
+<li>Obtain smoothly varying values across triangles</li>
+</ul>
+<p><strong>What do we want to interpolate?</strong></p>
+<ul>
+<li>Texture coordinates, colors, normal vectors, … </li>
+</ul>
+<p><strong>How do we interpolate?</strong></p>
+<ul>
+<li>Barycentric coordinates</li>
+</ul>
+<p>首先我们为什么要在三角形内部插值？上节课中我们有很多操作是在三角形顶点上完成或计算，然后三角形内部我们希望得到一个平滑的过渡，所以当我知道顶点的属性时可以知道三角形内部任何一点的值。</p>
+<p>那我们插值什么内容呢？定义在三角形的顶点可以有不同的属性，比如纹理映射中定义顶点映射到纹理的位置，进而插值出三角形内部的纹理。除此之外还可以定义其他属性并插值：颜色、法线……可以看出我们可以对三角形顶点上任意的属性进行插值，事实也是如此。</p>
+<p>最后我们怎么做插值？引入一个重心坐标的概念！</p>
+<h4 id="Barycentric-Coordinates-1"><a href="#Barycentric-Coordinates-1" class="headerlink" title="Barycentric Coordinates"></a>Barycentric Coordinates</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210415164304622.png"></p>
+<p>重心坐标定义在三角形上。如果有一个三角形$\triangle ABC$，那么重心坐标告诉我们的事情是在这个三角形$\triangle ABC$所形成的平面内任何一个点$(x,y)$都可以表示成这三个顶点$ABC$的线性组合。需要注意的是如果这个点在三角形内，还需要满足另外一个条件：$\alpha \space \beta \space \gamma$ 必须是非负的。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210415165144806.png"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210415165335139.png"></p>
+<p>从重心坐标的定义就可以知道$A、B、C$的坐标，如果我要求任何一个点它的重心坐标是多少呢？这里给出另外一套定义，这个点的重心坐标其实是可以通过面积比求出来的。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210415170749974.png"></p>
+<p>从这个定义我们可以快速得到一个非常特殊的点它的重心坐标，这个点就是三角形自己的重心。三角形的重心有一个非常好的性质，当它分别与$A、B、C$连线后三角形面积被均等分为三份等面积的三角形。</p>
+<p>对于任意一个点我们可以用面积来计算，这里列出了给定坐标如何算出任意点的$\alpha \space \beta \space \gamma$表达式：</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210415171057242.png"></p>
+<h4 id="Using-Barycentric-Coordinates"><a href="#Using-Barycentric-Coordinates" class="headerlink" title="Using Barycentric Coordinates"></a>Using Barycentric Coordinates</h4><p>Linearly interpolate values at vertices</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210415171446405.png"></p>
+<p>我们可以直接应用重心坐标去做三角形任何一个点的插值。如果要做插值，那么我要插值的属性同样也应该用重心坐标去线性组合出来：$V=\alpha V_A + \beta V_b + \gamma V_c$。</p>
+<p>如果大家读OpenGL的一些文章，可能会涉及重心坐标虽然不错，但在投影变换下是不能保证重心坐标不变的。假如图中的是一个空间中的三角形，我可以算出对应的重心坐标，但如果我投影到某一个平面上去，三角形的形状会发生变化，从投影后的三角形算点的重心坐标会发现得到不一样的重心坐标。</p>
+<p>这也告诉我们如果要插值三维空间中的属性，我们就应该取三维空间中的坐标计算重心坐标，然后再做插值对应到二维的结果去而不是在投影之后的三角形内做，这一点主要体现在光栅化中的深度中。</p>
+</body></html>]]></content>
+      <categories>
+        <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
+      </categories>
+      <tags>
+        <tag>Computer Graphics</tag>
+        <tag>Shading</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Shading, Pipeline and Texture Mapping</title>
     <url>/archives/d3d02c34.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/EyoBGzMWQAAv63l.jpeg"></p>
@@ -282,7 +340,36 @@
 <p>Highest level: 4 different parts on real-time rendering</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210414161732806.png"></p>
 <p>这门课我们会讲四个话题：阴影、全局光照、真实着色/基于物理着色以及实时光线追踪。</p>
-</body></html>]]></content>
+<h3 id="Course-Topics"><a href="#Course-Topics" class="headerlink" title="Course Topics"></a>Course Topics</h3><ul>
+<li>Shadow and Environment Mapping</li>
+<li>Interactive Global Illumination Techniques</li>
+<li>Precomputed Radiance Transfer</li>
+<li>Real-Time Ray Tracing</li>
+</ul>
+<h4 id="What-is-GAMES202-NOT-about"><a href="#What-is-GAMES202-NOT-about" class="headerlink" title="What is GAMES202 NOT about?"></a>What is GAMES202 NOT about?</h4><ul>
+<li>3D modeling or game development using Unreal Engine (where can I learn them?)</li>
+</ul>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210414220632404.png"></p>
+<ul>
+<li>Expensive (but more accurate) light transport techniques in movies / animations (where can I learn this?)</li>
+</ul>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210414221015811.png" alt="image-20210414221015811"></p>
+<ul>
+<li>Using OpenGL</li>
+<li>Scene / shader optimization</li>
+<li>Reverse engineering of shaders</li>
+<li>High performance computing e.g. CUDA programming</li>
+</ul>
+<h3 id="How-to-study-GAMES202"><a href="#How-to-study-GAMES202" class="headerlink" title="How to study GAMES202?"></a>How to study GAMES202?</h3><p><strong>Understand the difference between science and technology</strong></p>
+<ul>
+<li>Science != technology</li>
+<li>Science == knowledge</li>
+<li>Technology == engineering skills that turn science into product</li>
+</ul>
+<p><strong>Real-time rendering = fast &amp; approximate offline rendering + systematic engineering</strong></p>
+<p><strong>Fact: in real-time rendering technologies, the industry is way ahead of the academia</strong></p>
+<p><strong>Practice makes perfect</strong></p>
+<h3 id="Course-Logistics"><a href="#Course-Logistics" class="headerlink" title="Course Logistics"></a>Course Logistics</h3></body></html>]]></content>
       <categories>
         <category>高质量实时渲染 (GAMES202-Real-Time High Quality Rendering)</category>
       </categories>
@@ -17351,8 +17438,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>GPS</tag>
         <tag>Mathematical Modeling</tag>
+        <tag>GPS</tag>
       </tags>
   </entry>
   <entry>
@@ -17719,8 +17806,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>Mathematical Modeling</tag>
         <tag>Population</tag>
+        <tag>Mathematical Modeling</tag>
       </tags>
   </entry>
   <entry>
@@ -19529,9 +19616,9 @@
       </categories>
       <tags>
         <tag>Game</tag>
-        <tag>Reprint</tag>
         <tag>Ludum Dare</tag>
         <tag>Unity</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -21361,8 +21448,8 @@
       </categories>
       <tags>
         <tag>Game</tag>
-        <tag>Reprint</tag>
         <tag>Unity</tag>
+        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
