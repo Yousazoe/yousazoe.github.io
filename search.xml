@@ -158,6 +158,8 @@
 <p>我们可以直接应用重心坐标去做三角形任何一个点的插值。如果要做插值，那么我要插值的属性同样也应该用重心坐标去线性组合出来：$V=\alpha V_A + \beta V_b + \gamma V_c$。</p>
 <p>如果大家读OpenGL的一些文章，可能会涉及重心坐标虽然不错，但在投影变换下是不能保证重心坐标不变的。假如图中的是一个空间中的三角形，我可以算出对应的重心坐标，但如果我投影到某一个平面上去，三角形的形状会发生变化，从投影后的三角形算点的重心坐标会发现得到不一样的重心坐标。</p>
 <p>这也告诉我们如果要插值三维空间中的属性，我们就应该取三维空间中的坐标计算重心坐标，然后再做插值对应到二维的结果去而不是在投影之后的三角形内做，这一点主要体现在光栅化中的深度中。</p>
+<h3 id="Applying-Textures"><a href="#Applying-Textures" class="headerlink" title="Applying Textures"></a>Applying Textures</h3><h4 id="Simple-Texture-Mapping-Diffuse-Color"><a href="#Simple-Texture-Mapping-Diffuse-Color" class="headerlink" title="Simple Texture Mapping: Diffuse Color"></a>Simple Texture Mapping: Diffuse Color</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210415173227399.png"></p>
+<p>我们之前提到Shader的时候</p>
 </body></html>]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
@@ -19616,9 +19618,9 @@
       </categories>
       <tags>
         <tag>Game</tag>
+        <tag>Reprint</tag>
         <tag>Ludum Dare</tag>
         <tag>Unity</tag>
-        <tag>Reprint</tag>
       </tags>
   </entry>
   <entry>
@@ -21448,8 +21450,8 @@
       </categories>
       <tags>
         <tag>Game</tag>
-        <tag>Unity</tag>
         <tag>Reprint</tag>
+        <tag>Unity</tag>
       </tags>
   </entry>
   <entry>
