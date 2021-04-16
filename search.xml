@@ -160,6 +160,17 @@
 <p>这也告诉我们如果要插值三维空间中的属性，我们就应该取三维空间中的坐标计算重心坐标，然后再做插值对应到二维的结果去而不是在投影之后的三角形内做，这一点主要体现在光栅化中的深度中。</p>
 <h3 id="Applying-Textures"><a href="#Applying-Textures" class="headerlink" title="Applying Textures"></a>Applying Textures</h3><h4 id="Simple-Texture-Mapping-Diffuse-Color"><a href="#Simple-Texture-Mapping-Diffuse-Color" class="headerlink" title="Simple Texture Mapping: Diffuse Color"></a>Simple Texture Mapping: Diffuse Color</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210415173227399.png"></p>
 <p>我们之前提到Shader的时候</p>
+<h3 id="Texture-Magnification"><a href="#Texture-Magnification" class="headerlink" title="Texture Magnification"></a>Texture Magnification</h3><h4 id="Texture-Magnification-Easy-Case"><a href="#Texture-Magnification-Easy-Case" class="headerlink" title="Texture Magnification - Easy Case"></a>Texture Magnification - Easy Case</h4><p>Generally don’t want this — insufficient texture resolution</p>
+<p>A pixel on a texture — a <strong>texel</strong> (纹理元素、纹素)</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181200609.png"></p>
+<h4 id="Bilinear-Interpolation"><a href="#Bilinear-Interpolation" class="headerlink" title="Bilinear Interpolation"></a>Bilinear Interpolation</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181349733.png"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181421957.png"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181447153.png"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181528346.png"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181614064.png"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181644010.png"></p>
+<h4 id="Texture-Magnification-Easy-Case-1"><a href="#Texture-Magnification-Easy-Case-1" class="headerlink" title="Texture Magnification - Easy Case"></a>Texture Magnification - Easy Case</h4><p>Bilinear interpolation usually gives pretty good results at reasonable costs</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181200609.png"></p>
 </body></html>]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
