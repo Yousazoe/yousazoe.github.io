@@ -159,18 +159,23 @@
 <p>如果大家读OpenGL的一些文章，可能会涉及重心坐标虽然不错，但在投影变换下是不能保证重心坐标不变的。假如图中的是一个空间中的三角形，我可以算出对应的重心坐标，但如果我投影到某一个平面上去，三角形的形状会发生变化，从投影后的三角形算点的重心坐标会发现得到不一样的重心坐标。</p>
 <p>这也告诉我们如果要插值三维空间中的属性，我们就应该取三维空间中的坐标计算重心坐标，然后再做插值对应到二维的结果去而不是在投影之后的三角形内做，这一点主要体现在光栅化中的深度中。</p>
 <h3 id="Applying-Textures"><a href="#Applying-Textures" class="headerlink" title="Applying Textures"></a>Applying Textures</h3><h4 id="Simple-Texture-Mapping-Diffuse-Color"><a href="#Simple-Texture-Mapping-Diffuse-Color" class="headerlink" title="Simple Texture Mapping: Diffuse Color"></a>Simple Texture Mapping: Diffuse Color</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210415173227399.png"></p>
-<p>我们之前提到Shader的时候</p>
+<p>我们之前提到Shader的时候已经说了这个事情，屏幕上的任何一个采样点不管是像素还是MSAA来代表一个采样点，它肯定有一个位置，那么我们就能插值出它的纹理坐标，也就相当于把图贴在物体上。</p>
 <h3 id="Texture-Magnification"><a href="#Texture-Magnification" class="headerlink" title="Texture Magnification"></a>Texture Magnification</h3><h4 id="Texture-Magnification-Easy-Case"><a href="#Texture-Magnification-Easy-Case" class="headerlink" title="Texture Magnification - Easy Case"></a>Texture Magnification - Easy Case</h4><p>Generally don’t want this — insufficient texture resolution</p>
 <p>A pixel on a texture — a <strong>texel</strong> (纹理元素、纹素)</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181200609.png"></p>
+<p>第一个问题我们称为纹理的放大，假如我们有一个三维场景渲染出来，然后墙上有一副贴画。现在问题是假如我们定义渲染出来的分辨率是4K，但我们的纹理只有256*256该怎么办？墙的分辨率非常高，任意一个点查纹理会查到非整数的值，纹理太小就会被拉大，就会看到图上的现象。</p>
+<p>在游戏开发中，开发者会避免在重要的地方用很低分辨率的纹理，但这种情况在普遍意义上会发生的。对于墙上任何一个像素都可以找到纹理上的坐标，不是整数我们就四舍五入成整数，这样的话在一定范围内我们查找的是一个相同的纹理上的像素，也被称为 <strong>texel</strong>。</p>
 <h4 id="Bilinear-Interpolation"><a href="#Bilinear-Interpolation" class="headerlink" title="Bilinear Interpolation"></a>Bilinear Interpolation</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181349733.png"></p>
+<p>我们的高分辨率的屏幕的一个像素映射到了一个非整数的的位置，而我们看到的4*4的格子是 <strong>texel</strong>。我想知道，纹理在这个红点处它的值是多少？一个最简单的办法就是找离它最近的点，形成一块一块的。</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181421957.png"></p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181447153.png"></p>
+<p>我们换一种方法，找它临近的这么四个点，定义水平距离<code>s</code>和竖直距离<code>t</code>范围为0～1（两个<strong>texel</strong>之间距离为1）。</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181528346.png"></p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181614064.png"></p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181644010.png"></p>
 <h4 id="Texture-Magnification-Easy-Case-1"><a href="#Texture-Magnification-Easy-Case-1" class="headerlink" title="Texture Magnification - Easy Case"></a>Texture Magnification - Easy Case</h4><p>Bilinear interpolation usually gives pretty good results at reasonable costs</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181200609.png"></p>
+<p>![](<a href="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7">https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/屏幕快照</a> 2021-04-18 下午1.17.38.png)</p>
 </body></html>]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
@@ -21388,8 +21393,8 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
-        <tag>Art</tag>
         <tag>Game</tag>
+        <tag>Art</tag>
       </tags>
   </entry>
   <entry>
