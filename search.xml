@@ -200,7 +200,36 @@
 <h4 id="Provide-Precomputed-Shading"><a href="#Provide-Precomputed-Shading" class="headerlink" title="Provide Precomputed Shading"></a>Provide Precomputed Shading</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419150644073.png"></p>
 <p>纹理还可以记录之前已经算好的信息。比如这里环境光遮蔽可以实时算出投影的一部分阴影，但我们算Shading完全考虑不到这部分信息，之后会讲到。其实我们可以计算好之后写入一张纹理的图，到时候我们再把纹理贴上，最后着色的结果乘以计算好的环境光遮蔽纹理依然可以得到这个结果，这就非常快了。</p>
 <h4 id="3D-Textures-and-Volume-Rendering"><a href="#3D-Textures-and-Volume-Rendering" class="headerlink" title="3D Textures and Volume Rendering"></a>3D Textures and Volume Rendering</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419150945980.png"></p>
-<h3 id="Introduction-to-Geometry"><a href="#Introduction-to-Geometry" class="headerlink" title="Introduction to Geometry"></a>Introduction to Geometry</h3><h4 id="Examples-of-Geometry"><a href="#Examples-of-Geometry" class="headerlink" title="Examples of Geometry"></a>Examples of Geometry</h4><h4 id="Various-representations-of-Geometry"><a href="#Various-representations-of-Geometry" class="headerlink" title="Various representations of Geometry"></a>Various representations of Geometry</h4><br>
+<p>三维的纹理广泛应用在体积的渲染里，之前的光照模型各种各样的东西只考虑一个表面，而事实上像在医学里面会有核磁共振成像或者CT成像扫描人体组织的某一个部分，返回三维空间的信息。这些信息记录下来渲染得到一个结果，关于体渲染之后我们详细来讨论，我们也可以把它当做一个纹理。</p>
+<h3 id="Introduction-to-Geometry"><a href="#Introduction-to-Geometry" class="headerlink" title="Introduction to Geometry"></a>Introduction to Geometry</h3><h4 id="Examples-of-Geometry"><a href="#Examples-of-Geometry" class="headerlink" title="Examples of Geometry"></a>Examples of Geometry</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419162332464.png"></p>
+<p>我们从最简单的几何形体来看，这里是一堆玻璃杯子，它们有不同的曲线，如何得到这些各种各样的几何呢？</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419162555519.png"></p>
+<p>这张图可以看到车子不同的部件，车身是一个非常光滑的曲面。关于曲面我们应当如何去定义它？在生活中我们看不到三角形，基本上是一个非常光滑的过渡，这就说明世界上真的存在这样光滑的曲面的，在图形学里面我们如何去描述这些几何的形体？</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419162950318.png"></p>
+<p>这是一些相对复杂的东西，大家可以看到齿轮、发动机以及各种各样的叶片，这些应当如何去描述它？各个不同的部件大小各不相同，位置摆放都是怎么去设计的？这些都是几何里需要研究的问题。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419163349442.png"></p>
+<p>这里是布料的几何形体，很显然不是简单的表面，因为它是透明的。纤维通过扭曲形成股，不同的股扭曲形成线团，线团再编成不同的形状，是一个复杂分级结构。所以说布料和衣服的建模之后会提及，这当然也是一种几何。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419163940884.png"></p>
+<p>水滴滴到水面就是上面水花四溅的情况，这是模拟的一个部分。如果我们要在图形学重现这么一个事情，需要模拟任意一个时刻它有什么样的力，并且下一个时刻应该形成这种水花飞溅的东西，这些流体如何用几何去描述？</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419164648506.png"></p>
+<p>一个城市会更为复杂，它的东西非常多，在图形学的表述上自然而然带来两个问题：</p>
+<ol>
+<li>如何存储</li>
+<li>如何渲染</li>
+</ol>
+<p>如果看过《超能陆战队》可以回忆一下，电影中大量充斥着这种整个城市的远景，为了做渲染电影团队做了很多这方面的研究，包括远处如何简化几何模型以及如何利用光线之间的连续性我们之后会说。复杂的几何会造成非常复杂的情况。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419165358143.png"></p>
+<p>复杂的几何在很近的距离就可以看到，比如这只狗它身上的毛形成了一簇一簇的形状，这些毛发该如何表现？所以即使在非常近距离，几何也可以无限复杂。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419165638333.png"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419165859828.png"></p>
+<p>所以几何绝对不是一件容易的事情，不是所有东西都拿三角形面表示的事情。</p>
+<h4 id="Many-Ways-to-Represent-Geometry"><a href="#Many-Ways-to-Represent-Geometry" class="headerlink" title="Many Ways to Represent Geometry"></a>Many Ways to Represent Geometry</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419170226357.png"></p>
+<p>图形学里我们有不同的方式表示不同的几何，包括隐式几何（Implict）和显式几何（Explicit）。</p>
+<h4 id="“Implicit”-Representations-of-Geometry"><a href="#“Implicit”-Representations-of-Geometry" class="headerlink" title="“Implicit” Representations of Geometry"></a>“Implicit” Representations of Geometry</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419170553516.png"></p>
+<p>隐式表示实际上不会告诉你任何空间中的一个点在什么具体位置，但我会告诉这些点满足的特定关系。比如单位球的隐式表示就是三维空间中任何满足$x^2+y^2+z^2=1$的点，而球的显式表示有很多不同的方法。</p>
+<h4 id="Implicit-Surface-–-Sampling-Can-Be-Hard"><a href="#Implicit-Surface-–-Sampling-Can-Be-Hard" class="headerlink" title="Implicit Surface – Sampling Can Be Hard"></a>Implicit Surface – Sampling Can Be Hard</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419171231858.png"></p>
+<p>Some tasks are hard with implicit representations</p>
+<h4 id="Implicit-Surface-–-Inside-Outside-Tests-Easy"><a href="#Implicit-Surface-–-Inside-Outside-Tests-Easy" class="headerlink" title="Implicit Surface – Inside/Outside Tests Easy"></a>Implicit Surface – Inside/Outside Tests Easy</h4><h4 id="Various-representations-of-Geometry"><a href="#Various-representations-of-Geometry" class="headerlink" title="Various representations of Geometry"></a>Various representations of Geometry</h4><br>
 
 <center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_10.pdf">
             <i class="fas fa-download"></i>GAMES101_Lecture_10
