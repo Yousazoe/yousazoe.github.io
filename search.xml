@@ -169,12 +169,17 @@
 <p>我们的高分辨率的屏幕的一个像素映射到了一个非整数的的位置，而我们看到的4*4的格子是 <strong>texel</strong>。我想知道，纹理在这个红点处它的值是多少？一个最简单的办法就是找离它最近的点，形成一块一块的。</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181421957.png"></p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181447153.png"></p>
-<p>我们换一种方法，找它临近的这么四个点，定义水平距离<code>s</code>和竖直距离<code>t</code>范围为0～1（两个<strong>texel</strong>之间距离为1）。</p>
+<p>我们换一种方法，找它临近的这么四个点，定义水平距离<code>s</code>和竖直距离<code>t</code>范围为0～1，因为两个<strong>texel</strong>之间距离为1。</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181528346.png"></p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181614064.png"></p>
+<p>下一步我们定义一个操作：线性插值。插值$v_0$和$v_1$，当$x=0$时 $lerp=v_0$；当$x=1$时 $lerp=v_1$。我们不用关心具体线性插值的公式，直接为$u_0、u_1$插值，最后再做一次竖直的插值得到红点。</p>
+<p>那么现在这个点就综合了四个点的颜色，靠近哪个点相应就更相似，如果红点在正中央，那么它应该是这四个点的平均值。通过水平和竖直的插值，我就可以在四个点围成的区域内得到一个平滑的过渡，所以这是一个不错的做法，而这个方法被称为“双线性插值”。</p>
+<p>有人会问方向可以不可以反过来？当然，先水平后竖直也是一样的，没有什么问题。</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181644010.png"></p>
 <h4 id="Texture-Magnification-Easy-Case-1"><a href="#Texture-Magnification-Easy-Case-1" class="headerlink" title="Texture Magnification - Easy Case"></a>Texture Magnification - Easy Case</h4><p>Bilinear interpolation usually gives pretty good results at reasonable costs</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181200609.png"></p>
+<p>我们有一个很小的图，然后我要把它放大查询它的任何一个非整型</p>
+<p>这里中间这幅图就是大家看到的双线性插值的结果，而双线性插值可以看到效果挺不错的，比之前的四舍五入同一个像素</p>
 <p>![](<a href="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7">https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/屏幕快照</a> 2021-04-18 下午1.17.38.png)</p>
 </body></html>]]></content>
       <categories>
