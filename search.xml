@@ -155,7 +155,10 @@
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210415171057242.png"></p>
 <h4 id="Using-Barycentric-Coordinates"><a href="#Using-Barycentric-Coordinates" class="headerlink" title="Using Barycentric Coordinates"></a>Using Barycentric Coordinates</h4><p>Linearly interpolate values at vertices</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210415171446405.png"></p>
-<p>我们可以直接应用重心坐标去做三角形任何一个点的插值。如果要做插值，那么我要插值的属性同样也应该用重心坐标去线性组合出来：$V=\alpha V_A + \beta V_b + \gamma V_c$。</p>
+<center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_08.pdf">
+            <i class="fas fa-download"></i>GAMES101_Lecture_08
+          </a></center>
+
 <p>如果大家读OpenGL的一些文章，可能会涉及重心坐标虽然不错，但在投影变换下是不能保证重心坐标不变的。假如图中的是一个空间中的三角形，我可以算出对应的重心坐标，但如果我投影到某一个平面上去，三角形的形状会发生变化，从投影后的三角形算点的重心坐标会发现得到不一样的重心坐标。</p>
 <p>这也告诉我们如果要插值三维空间中的属性，我们就应该取三维空间中的坐标计算重心坐标，然后再做插值对应到二维的结果去而不是在投影之后的三角形内做，这一点主要体现在光栅化中的深度中。</p>
 <h3 id="Applying-Textures"><a href="#Applying-Textures" class="headerlink" title="Applying Textures"></a>Applying Textures</h3><h4 id="Simple-Texture-Mapping-Diffuse-Color"><a href="#Simple-Texture-Mapping-Diffuse-Color" class="headerlink" title="Simple Texture Mapping: Diffuse Color"></a>Simple Texture Mapping: Diffuse Color</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210415173227399.png"></p>
@@ -178,9 +181,74 @@
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181644010.png"></p>
 <h4 id="Texture-Magnification-Easy-Case-1"><a href="#Texture-Magnification-Easy-Case-1" class="headerlink" title="Texture Magnification - Easy Case"></a>Texture Magnification - Easy Case</h4><p>Bilinear interpolation usually gives pretty good results at reasonable costs</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210416181200609.png"></p>
-<p>我们有一个很小的图，然后我要把它放大查询它的任何一个非整型</p>
-<p>这里中间这幅图就是大家看到的双线性插值的结果，而双线性插值可以看到效果挺不错的，比之前的四舍五入同一个像素</p>
-<p>![](<a href="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7">https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/屏幕快照</a> 2021-04-18 下午1.17.38.png)</p>
+<p>我们有一个很小的图，然后我要把它放大查询它的任何一个非整型位置上的值是多少，我希望它平滑过渡。所以我们找最近的四个点做一个双线性插值就可以得到平滑过渡的结果。这里中间这幅图就是大家看到的双线性插值的结果，而双线性插值可以看到效果挺不错的，比之前的什么也不考虑直接四舍五入为整型，很多像素被映射到同一个texel要好。</p>
+<p>当然双线性插值也有它的问题，它的质量还是差一些，比如右边的Bicubic双向三次插值取周围邻近的16个点做竖直和水平的插值，只不过做的是一个三次而不是线性的插值。Bicubic的运算量更大，带来得结果就越好。</p>
+<h4 id="Point-Sampling-Textures-—-Problem"><a href="#Point-Sampling-Textures-—-Problem" class="headerlink" title="Point Sampling Textures — Problem"></a>Point Sampling Textures — Problem</h4><p>![](<a href="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7">https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/屏幕快照</a> 2021-04-18 下午1.17.38.png)</p>
+<p>大家看这么一个平面，往远处延伸可以看到地平线，该平面贴了一个格子的贴图，从某个角度看近处格子挺大远处格子挺小，也就是透视投影。如果我们还照之前的操作简单的应用纹理，会得到右图这样看上去非常不对的东西，可以看到远处的摩尔纹以及近处的锯齿，我们又遇到了走样问题，从近处的勉强能看到近处的越来越差。</p>
+<h4 id="Screen-Pixel-“Footprint”-in-Texture"><a href="#Screen-Pixel-“Footprint”-in-Texture" class="headerlink" title="Screen Pixel “Footprint” in Texture"></a>Screen Pixel “Footprint” in Texture</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419090029471.png"></p>
+<p>一个像素来说它覆盖的纹理上的区域其实相对较小，在远处则覆盖了很大一片纹理，这告诉我们屏幕上的这些像素它们覆盖纹理区域大小是各不相同的。对于一个像素它覆盖纹理区域小，那我用像素中心查询一下它的值可以近似；可如果像刚才接近地平线的像素覆盖了纹理上的很大一块区域，再用中心点如何代表这么大一片区域呢？我们不能去这么简单的用像素中心去采样。</p>
+<h4 id="Will-Supersampling-Do-Antialiasing"><a href="#Will-Supersampling-Do-Antialiasing" class="headerlink" title="Will Supersampling Do Antialiasing?"></a>Will Supersampling Do Antialiasing?</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419090123626.png"></p>
+<p>之前我们解决锯齿引入了MSAA，一个像素我用更多的样本感知变换的函数。如果右图每一个像素我用512个采样点就可以得到一个不错的结果。超采样可以得到一个不错的结果，但很多采样点会让算法变得很慢。</p>
+<h4 id="Antialiasing-—-Supersampling？"><a href="#Antialiasing-—-Supersampling？" class="headerlink" title="Antialiasing — Supersampling？"></a>Antialiasing — Supersampling？</h4><p><strong>Will supersampling work?</strong></p>
+<ul>
+<li>Yes, high quality, but costly</li>
+<li>When highly minified, many texels in pixel footprint</li>
+<li>Signal frequency too large in a pixel</li>
+<li>Need even higher sampling frequency</li>
+</ul>
+<p>Let’s understand this problem in another way</p>
+<ul>
+<li>What if we don’t sample?</li>
+<li>Just need to <strong>get the average value within a range</strong>!</li>
+</ul>
+<p>我们遇到的是一个走样的问题，走样就是信号变化过快，我们的采样速度跟不上它。在这个纹理过大问题上一个像素有着非常高频的信息，我希望把像素内的值重构出来，那我应该要一个更高频的采样方法。</p>
+<p>这里提供一个完全不一样的思路，采样会引起走样，那我们不采样会怎样？</p>
+<h4 id="Point-Query-vs-Avg-Range-Query"><a href="#Point-Query-vs-Avg-Range-Query" class="headerlink" title="Point Query vs. (Avg.) Range Query"></a>Point Query vs. (Avg.) Range Query</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419090453080.png"></p>
+<p>这是数据结构和计算几何中的点查询问题和范围查询问题。说白了就是给你一幅图上面任何一个区域能不能快速告诉我平均值是多少，这就是我们要的结果。</p>
+<h4 id="Different-Pixels-gt-Different-Sized-Footprints"><a href="#Different-Pixels-gt-Different-Sized-Footprints" class="headerlink" title="Different Pixels -> Different-Sized Footprints"></a>Different Pixels -&gt; Different-Sized Footprints</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419094217815.png"></p>
+<p>我们以实际渲染的这幅图为例，比如我想渲染这幅图，窗台这块离的比较近一个像素在纹理上覆盖区域相对较小；正对的墙面离的较远那里的像素在纹理上覆盖的区域非常大，不同的像素在纹理上覆盖着不同的大小，所以范围查询应该查询任意不同的大小。</p>
+<h3 id="Mipmap"><a href="#Mipmap" class="headerlink" title="Mipmap"></a>Mipmap</h3><p>Allowing (<strong>fast, approx., square</strong>) range queries</p>
+<h4 id="Mipmap-L-Williams-83"><a href="#Mipmap-L-Williams-83" class="headerlink" title="Mipmap (L. Williams 83)"></a>Mipmap (L. Williams 83)</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419093424110.png"></p>
+<p>这里我们引入Mipmap，可以让我们快速、近似地做方形范围查询。对应到图中Mipmap就是由一幅图生成一系列图，比如原始的128*128的纹理我们称为第0层纹理；第1层我们把分辨率缩小一半重新表示成64*64的一幅图，可以看到不同的像素被拉大了，分辨率变低；以此类推做到最后一个有$log_2{128}$层。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419093504382.png"></p>
+<p>对应到计算机视觉Mipmap也被称为图像金字塔。我们原本有一张图占据了一定的存储量，那我们生成了那么多其他的一些图，总共我们引入多大的额外存储量？假设本来的图为1，那么就是$1+\frac{1}{4}+\frac{1}{16}+\frac{1}{64}……=\frac{4}{3}$，也就是说我只多了$\frac{1}{3}$的存储量。</p>
+<h4 id="Computing-Mipmap-Level-D"><a href="#Computing-Mipmap-Level-D" class="headerlink" title="Computing Mipmap Level D"></a>Computing Mipmap Level D</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419093555234.png"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419093628667.png"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419101249276.png"></p>
+<h4 id="Visualization-of-Mipmap-Level"><a href="#Visualization-of-Mipmap-Level" class="headerlink" title="Visualization of Mipmap Level"></a>Visualization of Mipmap Level</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419093745340.png"></p>
+<p>如果对每个像素都算它会投影纹理上对应多大的区域，然后替换为Mipmap的层数做一个可视化，如上图所示。但我们可以发现，这个变换不怎么连续，层数本身是离散的。</p>
+<h4 id="Trilinear-Interpolation"><a href="#Trilinear-Interpolation" class="headerlink" title="Trilinear Interpolation"></a>Trilinear Interpolation</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419093823618.png"></p>
+<p>我们同样可以用插值来解决这个问题。比如1.8层先找第1层和第2层，然后这两层内部分别用这个双线性插值把对应的查询做出来，之后把插值的结果合在一块就可以在层与层之间做一个插值。</p>
+<p>这个过程是三线性插值，现在我可以计算离散的Mipmap层，并且不管是整数还是非整数在任意层查询它的值。在纹理内部，我都可以双线性插值出来一个平滑过渡的值，层与层之间也可以插值出来连续的值，这样一来就没有任何死角，对任何查询区域都可以用三线性插值做一次查询就可以得到这个区域覆盖的面积平均。</p>
+<h4 id="Visualization-of-Mipmap-Level-1"><a href="#Visualization-of-Mipmap-Level-1" class="headerlink" title="Visualization of Mipmap Level"></a>Visualization of Mipmap Level</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419093905649.png"></p>
+<p>三线性插值得到的结果如上图，有了过渡的效果，不同区域有了连续变化的结果。</p>
+<h4 id="Mipmap-Limitations"><a href="#Mipmap-Limitations" class="headerlink" title="Mipmap Limitations"></a>Mipmap Limitations</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419093950544.png"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419094021038.png"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419094057813.png"></p>
+<p>假设512倍的超采样能够给我们准确的结果，Mipmap到了远处细节会全部被糊掉，这种过分模糊的情况我们称为Overblur。这是因为插值本身是一种近似而非一个准确的结果，查询也是不够准确的近似。</p>
+<h4 id="Anisotropic-Filtering"><a href="#Anisotropic-Filtering" class="headerlink" title="Anisotropic Filtering"></a>Anisotropic Filtering</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419105448654.png"></p>
+<p>有一个办法可以部分解决三线性插值所产生的问题：各向异性过滤，效果比三线性插值要好，远处也不再糊掉了。</p>
+<h4 id="Irregular-Pixel-Footprint-in-Texture"><a href="#Irregular-Pixel-Footprint-in-Texture" class="headerlink" title="Irregular Pixel Footprint in Texture"></a>Irregular Pixel Footprint in Texture</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210419105515859.png"></p>
+<p>屏幕上的任何一个像素映射到纹理上可不一定是规律的形状，很有可能出现会出现奇怪的情况，而这种情况下还近似为正方形显然不妥。如果我们引入各向异性过滤，对应这种问题就可以得到一个完美的解决。</p>
+<h4 id="Anisotropic-Filtering-1"><a href="#Anisotropic-Filtering-1" class="headerlink" title="Anisotropic Filtering"></a>Anisotropic Filtering</h4><p><strong>Ripmaps and summed area tables</strong></p>
+<ul>
+<li>Can look up axis-aligned rectangular zones</li>
+<li>Diagonal footprints still a problem</li>
+</ul>
+<p><strong>EWA filtering</strong></p>
+<ul>
+<li>Use multiple lookups</li>
+<li>Weighted average</li>
+<li>Mipmap hierarchy still helps</li>
+<li>Can handle irregular footprints</li>
+</ul>
+<p>不同的长宽比是Mipmap本身所缺失的，只有对角线的1:1长宽比，换言之多出来的是不均匀的水平和竖直的压缩。EWA过滤通过讲不规则形状拆分为不同的圆形覆盖，多次查询花费也就越高，又回到了质量越好代价越高的问题。</p>
+<br>
+
+<center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_09.pdf">
+            <i class="fas fa-download"></i>GAMES101_Lecture_09
+          </a></center>
+
 </body></html>]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
@@ -300,6 +368,12 @@
 <p>纹理上定义一个坐标系，真正指定纹理上任何一个点的坐标。这个坐标系大家通常用(u,v)表示纹理上任何一个点，比如纹理是右图，那么任何一个物体上的三角形如何映射到纹理上把它显示出来。通常来说不管分辨率与长宽比，大家认为的(u,v)范围都是在0～1之内，约定俗成便于处理。</p>
 <h4 id="Texture-Applied-to-Surface-1"><a href="#Texture-Applied-to-Surface-1" class="headerlink" title="Texture Applied to Surface"></a>Texture Applied to Surface</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210412222355233.png"></p>
 <h4 id="Textures-can-be-used-multiple-times"><a href="#Textures-can-be-used-multiple-times" class="headerlink" title="Textures can be used multiple times!"></a>Textures can be used multiple times!</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210413104734693.png"></p>
+<br>
+
+<center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_08.pdf">
+            <i class="fas fa-download"></i>GAMES101_Lecture_08
+          </a></center>
+
 </body></html>]]></content>
       <categories>
         <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
@@ -21398,8 +21472,8 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
-        <tag>Game</tag>
         <tag>Art</tag>
+        <tag>Game</tag>
       </tags>
   </entry>
   <entry>
