@@ -240,19 +240,26 @@
 <h5 id="Explicit-Surface-–-Sampling-Is-Easy"><a href="#Explicit-Surface-–-Sampling-Is-Easy" class="headerlink" title="Explicit Surface – Sampling Is Easy"></a>Explicit Surface – Sampling Is Easy</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210420095117395.png"></p>
 <p>该例中定义了一个函数，它把$u$和$v$这两个参数映射到空间中实际的点$x、y、z$。对于显式表示来说只要把所有的$u、v$都找一遍就知道空间中的形状。</p>
 <h5 id="Explicit-Surface-–-Inside-Outside-Test-Hard"><a href="#Explicit-Surface-–-Inside-Outside-Test-Hard" class="headerlink" title="Explicit Surface – Inside/Outside Test Hard"></a>Explicit Surface – Inside/Outside Test Hard</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210420103057999.png"></p>
+<p>对于显式表面来说，我想判断任何一个点现在在不在表面上会变的非常困难，不好判断是否在表面的里外。我们根据需要选择显式表示或者隐式表示。</p>
 <h5 id="No-“Best”-Representation-–-Geometry-is-Hard"><a href="#No-“Best”-Representation-–-Geometry-is-Hard" class="headerlink" title="No “Best” Representation – Geometry is Hard!"></a>No “Best” Representation – Geometry is Hard!</h5><blockquote>
 <p>“I hate meshes. I cannot believe how hard this is. Geometry is hard.” — David Baraff Senior Research Scientist Pixar Animation Studios</p>
 </blockquote>
 <h4 id="Various-representations-of-Geometry"><a href="#Various-representations-of-Geometry" class="headerlink" title="Various representations of Geometry"></a>Various representations of Geometry</h4><h5 id="Many-Implicit-Representations-in-Graphics"><a href="#Many-Implicit-Representations-in-Graphics" class="headerlink" title="Many Implicit Representations in Graphics"></a>Many Implicit Representations in Graphics</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210420104437262.png"></p>
 <h5 id="Algebraic-Surfaces-Implicit"><a href="#Algebraic-Surfaces-Implicit" class="headerlink" title="Algebraic Surfaces (Implicit)"></a>Algebraic Surfaces (Implicit)</h5><p>Surface is zero set of a polynomial in x, y, z</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210420104408918.png"></p>
+<p>最简单直接的办法是用数学公式去表述，它有一个严重的问题就是不直观：球写的还算明白，圆环就已经稍微难一点了，右边单看公式完全看不出来这个隐式表面是什么。通过算数方法直接表述当然是个简单方法，对于复杂的情况诸如图上的奶牛又该如何用公式表示呢？</p>
 <h5 id="Constructive-Solid-Geometry-Implicit"><a href="#Constructive-Solid-Geometry-Implicit" class="headerlink" title="Constructive Solid Geometry (Implicit)"></a>Constructive Solid Geometry (Implicit)</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210420104330656.png"></p>
+<p>几何的隐式表示可以不只是通过代数方法来描述，人们管这个叫做CSG，通过对一系列基本的几何做基本的运算定义新的几何。$A$和$B$圆柱和球都是基本几何形体，其布尔运算就是定义并集、交集以及差集，通过这些简单的运算和基础的几何就可以形成复杂的几何，下图的几何体就是这样拼接出来的。</p>
+<p>这个操作得到了非常广泛的应用，各种各样不同的建模软件都支持这样一种方法。通过这种方法，我自然可以把简单的几何变成复杂的几何，而这种几何只通过它们的相互关系而不必知道各个点在什么位置，最后还可以写成表达式的形式。</p>
 <h5 id="Distance-Functions-Implicit"><a href="#Distance-Functions-Implicit" class="headerlink" title="Distance Functions (Implicit)"></a>Distance Functions (Implicit)</h5><p>Instead of Booleans, gradually blend surfaces together using </p>
 <p>Distance functions: </p>
 <p>giving minimum distance (could be signed distance) from anywhere to object </p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210420104302288.png"></p>
+<p>我们定义一个距离函数的东西，用它来表述几何。对于任何一个几何，我都不去直接描述它的表面，我去描述任何一个点到这个表面的最近距离。图中这两个球逐渐靠近，发生形状上的融合形成新的球，它们的拓扑结构也会发生变化，这件事情就是通过几何距离函数做融合形成的结果。</p>
 <p>An Example: Blending (linear interp.) a moving boundary</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210420104209367.png"></p>
+<p>这是一个应用距离函数的例子。输入和输出是两张不同的图我们认为它表示某种几何的边界，假设有一个物体挡住了你能看到的视口整个左边的1/3，然后这个物体经过一些移动之后挡住了左边的2/3，我希望求出这个物体从左到右移动的中间状态。</p>
+<p>如果我们考虑这两个不同的图，做一个简单线性的融合会得到一个叠加的图，它并不能得到表述所谓的运动信息。</p>
 <h5 id="Blending-Distance-Functions-Implicit"><a href="#Blending-Distance-Functions-Implicit" class="headerlink" title="Blending Distance Functions (Implicit)"></a>Blending Distance Functions (Implicit)</h5><p>Can blend any two distance functions d1, d2:</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210420104137834.png"></p>
 <h5 id="Scene-of-Pure-Distance-Functions"><a href="#Scene-of-Pure-Distance-Functions" class="headerlink" title="Scene of Pure Distance Functions"></a>Scene of Pure Distance Functions</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210420104059419.png"></p>
