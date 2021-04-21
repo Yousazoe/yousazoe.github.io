@@ -259,18 +259,25 @@
 <p>An Example: Blending (linear interp.) a moving boundary</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210420104209367.png"></p>
 <p>这是一个应用距离函数的例子。输入和输出是两张不同的图我们认为它表示某种几何的边界，假设有一个物体挡住了你能看到的视口整个左边的1/3，然后这个物体经过一些移动之后挡住了左边的2/3，我希望求出这个物体从左到右移动的中间状态。</p>
-<p>如果我们考虑这两个不同的图，做一个简单线性的融合会得到一个叠加的图，它并不能得到表述所谓的运动信息。</p>
+<p>如果我们考虑这两个不同的图，做一个简单线性的融合会得到一个叠加的图，它并不能得到表述所谓的运动信息。我想要得到它准确的运动过程，左边一半是黑的，右边一半是白的。我们先求出有向的距离函数，可以看到A中靠近它的值比较小，远离它的值比较大，所以距离函数是这样一个变化方式，B也是同理。将这两幅图做一个融合操作，新的SDF函数根据正负关系最后基准0一定是在正中央。</p>
 <h5 id="Blending-Distance-Functions-Implicit"><a href="#Blending-Distance-Functions-Implicit" class="headerlink" title="Blending Distance Functions (Implicit)"></a>Blending Distance Functions (Implicit)</h5><p>Can blend any two distance functions d1, d2:</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210420104137834.png"></p>
+<p>两个物体的融合其实是在平面空间中分别把它们对应的距离函数求出来，再恢复成原本的一张图。</p>
 <h5 id="Scene-of-Pure-Distance-Functions"><a href="#Scene-of-Pure-Distance-Functions" class="headerlink" title="Scene of Pure Distance Functions"></a>Scene of Pure Distance Functions</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210420104059419.png"></p>
+<p>之前的蜗牛就是距离函数表示的应用，它没有实际的几何形体，它的几何表示都是隐式表示，几何之间圆滑的过渡中间就是靠距离函数融合起来，表示能力非常强。</p>
 <h5 id="Level-Set-Methods-Also-implicit"><a href="#Level-Set-Methods-Also-implicit" class="headerlink" title="Level Set Methods (Also implicit)"></a>Level Set Methods (Also implicit)</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210420104025902.png"></p>
+<p>那么我们既然提到距离函数，我们说距离函数融合出来之后得到一个函数最后如何恢复成表面呢？很简单，我只需要把距离函数对应0的位置全找出来。对于一些特定的情况比如距离函数不太适合写成解析式，没有问题，只要距离函数能通过某种方法表述出来就可以。</p>
+<p>图中是水平集方法，它的想法和距离函数完全一样，仅仅是它的函数表述写在这个格子上，只需要找到中间某一些地方是0就可以把整个函数试图表述的表面提取出来。这个概念在地理上得到了广泛的应用，也就是等高线，就是为了描述一个函数在不同的位置有相同的值，对于水平集来说我们关注$f(x)=0$。</p>
 <h5 id="Level-Sets-from-Medical-Data-CT-MRI-etc"><a href="#Level-Sets-from-Medical-Data-CT-MRI-etc" class="headerlink" title="Level Sets from Medical Data (CT, MRI, etc.)"></a>Level Sets from Medical Data (CT, MRI, etc.)</h5><p>Level sets encode, e.g., constant tissue density</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210420103959613.png"></p>
+<p>水平集没有人说一定定义在二维上，也可以在三维上，这就和我们的纹理联系上了。如果我们有一个三维的纹理表述人体的不同位置它的密度，那我们从三维的信息去提取出物体的表面。</p>
 <h5 id="Level-Sets-in-Physical-Simulation"><a href="#Level-Sets-in-Physical-Simulation" class="headerlink" title="Level Sets in Physical Simulation"></a>Level Sets in Physical Simulation</h5><p>Level set encodes distance to air-liquid boundary</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210420103925091.png"></p>
+<p>大家模拟水花四溅的过程，它也可以通过水平集或距离函数的方式把水滴与水滴融合在一起，并且提取出融合之后的表面。</p>
 <h5 id="Fractals-Implicit"><a href="#Fractals-Implicit" class="headerlink" title="Fractals (Implicit)"></a>Fractals (Implicit)</h5><p>Exhibit self-similarity, detail at all scales</p>
 <p>“Language” for describing natural phenomena Hard to control shape!</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210420103833462.png"></p>
+<p>几何还有一种特殊的描述方法：分形。分形是指自相似的意思，和计算机中的递归是一个道理。有很多人在研究分形的几何表示，但分形在图形学上应用不是特别多。</p>
 <h5 id="Implicit-Representations-Pros-amp-Cons"><a href="#Implicit-Representations-Pros-amp-Cons" class="headerlink" title="Implicit Representations - Pros &amp; Cons"></a>Implicit Representations - Pros &amp; Cons</h5><p><strong>Pros:</strong></p>
 <ul>
 <li>compact description (e.g., a function)</li>
