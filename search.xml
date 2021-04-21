@@ -93,7 +93,7 @@
 <h4 id="Ray-Intersection-With-Implicit-Surface"><a href="#Ray-Intersection-With-Implicit-Surface" class="headerlink" title="Ray Intersection With Implicit Surface"></a>Ray Intersection With Implicit Surface</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406194218772.png"></p>
 <p>这个问题可以推广到光线和一般性的隐式表面求交，因为交点所以它必在射线和隐式表面上，表达为$f(o + td) = 0$。目前来说数值计算非常发达，可以很快求解出函数根<code>t</code>，所以对于一般的隐式表面也是求出时间，再带入光线方程求出交点。</p>
 <h4 id="Ray-Intersection-With-Triangle-Mesh"><a href="#Ray-Intersection-With-Triangle-Mesh" class="headerlink" title="Ray Intersection With Triangle Mesh"></a>Ray Intersection With Triangle Mesh</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406195929832.png"></p>
-<p>对于显式表面光线和三角形求交是一个非常重要的话题。</p>
+<p>对于显式表面光线和三角形求交是一个非常重要的话题。光线如果知道如何和三角形求交，我就能找到交点判断光线是不是被遮挡</p>
 <br>
 
 <center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_13.pdf">
@@ -110,6 +110,42 @@
       </tags>
   </entry>
   <entry>
+    <title>Curves and Surfaces</title>
+    <url>/archives/b736300e.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/EzfaD6vXoAMBqlb.jpeg"></p>
+<div align="center">
+  <font size="3">
+    <i>
+      <a href="https://twitter.com/MadMaraca/status/1384815404112130049/photo/1">Twitter@MadMaraca</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101 现代图形学入门是由闫令琪老师教授。今天我们讲几何的第二部分曲线和曲面。</p>
+<span id="more"></span>
+
+
+
+<h3 id="Explicit-Representations"><a href="#Explicit-Representations" class="headerlink" title="Explicit Representations"></a>Explicit Representations</h3><h4 id="Many-Explicit-Representations-in-Graphics"><a href="#Many-Explicit-Representations-in-Graphics" class="headerlink" title="Many Explicit Representations in Graphics"></a>Many Explicit Representations in Graphics</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210421192023225.png"></p>
+<h4 id="Point-Cloud-Explicit"><a href="#Point-Cloud-Explicit" class="headerlink" title="Point Cloud (Explicit)"></a>Point Cloud (Explicit)</h4><h4 id="Polygon-Mesh-Explicit"><a href="#Polygon-Mesh-Explicit" class="headerlink" title="Polygon Mesh (Explicit)"></a>Polygon Mesh (Explicit)</h4><p>Store vertices &amp; polygons (often triangles or quads)<br>Easier to do processing / simulation, adaptive sampling<br>More complicated data structures<br>Perhaps most common representation in graphics</p>
+<h4 id="The-Wavefront-Object-File-obj-Format"><a href="#The-Wavefront-Object-File-obj-Format" class="headerlink" title="The Wavefront Object File (.obj) Format"></a>The Wavefront Object File (.obj) Format</h4><h3 id="Curves"><a href="#Curves" class="headerlink" title="Curves"></a>Curves</h3><h3 id="Surfaces"><a href="#Surfaces" class="headerlink" title="Surfaces"></a>Surfaces</h3><br>
+
+<center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_11.pdf">
+            <i class="fas fa-download"></i>GAMES101_Lecture_11
+          </a></center>
+
+</body></html>]]></content>
+      <categories>
+        <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
+      </categories>
+      <tags>
+        <tag>Computer Graphics</tag>
+        <tag>Geometry</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Geometry Introduction</title>
     <url>/archives/a79a440b.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/EzFsAYwW8AEZygR.png"></p>
@@ -123,7 +159,7 @@
 
 
 
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101 现代图形学入门是由闫令琪老师教授。今天我们结束上一节纹理的应用，并开启一个新话题：几何。</p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101 现代图形学入门是由闫令琪老师教授。今天我们结束上一节纹理的应用，并开启一个新话题：几何，介绍几何的应用场景以及常用的表示方法。</p>
 <span id="more"></span>
 
 
@@ -9449,8 +9485,8 @@
         <category>Unity 游戏引擎 (Unity Game Engine)</category>
       </categories>
       <tags>
-        <tag>Game Develop</tag>
         <tag>Unity</tag>
+        <tag>Game Develop</tag>
       </tags>
   </entry>
   <entry>
@@ -12328,8 +12364,8 @@
         <category>Unity 游戏引擎 (Unity Game Engine)</category>
       </categories>
       <tags>
-        <tag>Game Develop</tag>
         <tag>Unity</tag>
+        <tag>Game Develop</tag>
         <tag>Csharp</tag>
         <tag>2D Game</tag>
       </tags>
