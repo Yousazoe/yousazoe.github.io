@@ -132,10 +132,18 @@
 <p>我们可以看看这里有很多三角形面、贝塞尔曲面以及各种细分曲面等等，这些我们会一一给大家介绍。</p>
 <h4 id="Point-Cloud-Explicit"><a href="#Point-Cloud-Explicit" class="headerlink" title="Point Cloud (Explicit)"></a>Point Cloud (Explicit)</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210421234839210.png"></p>
 <p>首先给大家介绍最简单的显式物体面的表示：点云。作为点云我们不考虑这个物体是一个表面，而是表面上的一堆点，我把每一个点都给表示成一个点，那只要这些点我表示的足够细自然而然看不到点与点之间的缝隙而是表面，记录为(x,y,z)的一个列表。</p>
-<p>图中是一个雕塑，它上半部分的点云密度非常大，所以可以看到物体表面；随着点云密度降低，当点云稀疏的时候大家就不太容易看出它是一个面。所以点云如果要表示成一个非常复杂的模型需要特别密集的点，理论上只要点云足够密集也可以表示任何类型的几何，通常人们做一些三维空间中的扫描输出就是一堆的点云。</p>
-<p>之后自然而然涉及一个点云如何把它变成三角形面</p>
+<p>图中是一个雕塑，它上半部分的点云密度非常大，所以可以看到物体表面；随着点云密度降低，当点云稀疏的时候大家就不太容易看出它是一个面。所以点云如果要表示成一个非常复杂的模型需要特别密集的点，理论上只要点云足够密集也可以表示任何类型的几何，通常人们做一些三维空间中的扫描输出就是一堆的点云。之后自然而然涉及一个点云如何把它变成三角形面？点云之后会变成多边形的面，正常情况下如果点云密度很低雕塑就不容易画出来，这就是人们为什么平常不特别多用点云，除了扫描出来最原始的数据。</p>
 <h4 id="Polygon-Mesh-Explicit"><a href="#Polygon-Mesh-Explicit" class="headerlink" title="Polygon Mesh (Explicit)"></a>Polygon Mesh (Explicit)</h4><p>Store vertices &amp; polygons (often triangles or quads)<br>Easier to do processing / simulation, adaptive sampling<br>More complicated data structures<br>Perhaps most common representation in graphics</p>
-<h4 id="The-Wavefront-Object-File-obj-Format"><a href="#The-Wavefront-Object-File-obj-Format" class="headerlink" title="The Wavefront Object File (.obj) Format"></a>The Wavefront Object File (.obj) Format</h4><h3 id="Curves"><a href="#Curves" class="headerlink" title="Curves"></a>Curves</h3><h3 id="Surfaces"><a href="#Surfaces" class="headerlink" title="Surfaces"></a>Surfaces</h3><br>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210422104232012.png"></p>
+<p>如果大家接触过三维建模，在图形学中我们用的最多的一种是多边形面，特别的是三角形面得到非常广泛的应用。任何面都可以拆成小的三角形，所以完全可以用三角形或四边形去描述各种各样的复杂的物体。</p>
+<h4 id="The-Wavefront-Object-File-obj-Format"><a href="#The-Wavefront-Object-File-obj-Format" class="headerlink" title="The Wavefront Object File (.obj) Format"></a>The Wavefront Object File (.obj) Format</h4><p>Commonly used in Graphics research<br>Just a text file that specifies vertices, normals, texture<br>coordinates <strong>and their connectivities</strong></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210422104727852.png"></p>
+<p>这里既然提到三角形面，顺便讲解一下我们在图形学中是如何表示用三角形面形成的物体的。这种<code>.obj</code>格式是一个文本文件，它把空间中的一堆点、法线和纹理坐标分开来表示，然后再一块组织起来形成一个模型。</p>
+<p>在图中<code>v</code>表示立方体的八个顶点，<code>vn</code>则代表立方体六个面的法线（这里有八个是建模的冗余和精度问题），之后我们再定义12个纹理坐标<code>vt</code>。把这些定义好之后我们开始定义它们之间的连接关系<code>f</code>，也就是哪三个点会形成一个三角形。</p>
+<h3 id="Curves"><a href="#Curves" class="headerlink" title="Curves"></a>Curves</h3><h4 id="Camera-Paths"><a href="#Camera-Paths" class="headerlink" title="Camera Paths"></a>Camera Paths</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210422113253030.png"></p>
+<h4 id="Animation-Curves"><a href="#Animation-Curves" class="headerlink" title="Animation Curves"></a>Animation Curves</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210422113400307.png"></p>
+<h4 id="Vector-Fonts"><a href="#Vector-Fonts" class="headerlink" title="Vector Fonts"></a>Vector Fonts</h4><p>Baskerville font - represented as piecewise cubic Bézier curves</p>
+<h4 id="Bezier-Curves"><a href="#Bezier-Curves" class="headerlink" title="Bézier Curves"></a>Bézier Curves</h4><h5 id="Defining-Cubic-Bezier-Curve-With-Tangents"><a href="#Defining-Cubic-Bezier-Curve-With-Tangents" class="headerlink" title="Defining Cubic Bézier Curve With Tangents"></a>Defining Cubic Bézier Curve With Tangents</h5><h3 id="Surfaces"><a href="#Surfaces" class="headerlink" title="Surfaces"></a>Surfaces</h3><br>
 
 <center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_11.pdf">
             <i class="fas fa-download"></i>GAMES101_Lecture_11
@@ -3149,7 +3157,7 @@
   <entry>
     <title>从苏宁电器到卡巴斯基--我在卡巴的日子</title>
     <url>/archives/7471e73d.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师对新篇章的展望和在卡巴斯基的薪资待遇。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>本文转载了学校的网络安全老师撰写的亲身经历，讲述了他从一个营业员转变成一个病毒分析师的故事。本章节讲述了老师对新篇章的展望和在卡巴斯基的奇闻趣事。</p>
 <span id="more"></span>
 
 
