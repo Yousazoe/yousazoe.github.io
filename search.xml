@@ -169,10 +169,15 @@
 <p>Animation: Steven Wittens, Making Things with Maths, <a href="http://acko.net/">http://acko.net</a></p>
 <h4 id="Evaluating-Bezier-Curves-Algebraic-Formula"><a href="#Evaluating-Bezier-Curves-Algebraic-Formula" class="headerlink" title="Evaluating Bézier Curves Algebraic Formula"></a>Evaluating Bézier Curves Algebraic Formula</h4><h5 id="Bezier-Curve-–-Algebraic-Formula"><a href="#Bezier-Curve-–-Algebraic-Formula" class="headerlink" title="Bézier Curve – Algebraic Formula"></a>Bézier Curve – Algebraic Formula</h5><p>de Casteljau algorithm gives a pyramid of coefficients</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210422210732378.png"></p>
+<p>算法咱们已经说明白了，但这是一种直观形式的解释，通过这种解释能不能推出一些代数上的形式呢？首先，贝塞尔曲线由不同的控制点决定的，所以任意时刻贝塞尔曲线的点一定是通过控制点操作得到，相当于把控制点位置和时间放在一块我们一定有一个代数的表示方法。</p>
+<p>比如仍然是输入四个不同的点$b_0 \space b_1 \space b_2 \space b_3$，每两个之间在位置上做一个线性插值得出$b_0^1 \space b_1^1 \space b_2^1$，同理可得最后的$b_0^3$。整个过程一直在线性插值，最后得到一个值的算法。</p>
 <p>Example: quadratic Bézier curve from three points</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210422210809200.png"></p>
+<p>我们可以把它显式的写出来，我们知道$b_0 \space b_1$的坐标，时间$t$也知道。这里$(1-t)b_0$是因为当$t=0$时$b^1_0(t)=(1-t)b_0+tb_1=b_0$，同理可知，最后的点就是$b_0^2(t)=(1-t)b_0^1+tb_1^1=(1-t)^2b_0+2t(1-t)b_1+t^2b_2$。这也符合刚才我们的分析，任意一个时刻贝塞尔曲线上任意一个点当然得由几个控制点的坐标来决定，还得跟$t$有关系。</p>
 <h5 id="Bezier-Curve-–-General-Algebraic-Formula"><a href="#Bezier-Curve-–-General-Algebraic-Formula" class="headerlink" title="Bézier Curve – General Algebraic Formula"></a>Bézier Curve – General Algebraic Formula</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210422210849811.png"></p>
+<p>这里做一个总结，它是一个多项式。给定$n+1$个控制点，我们可以得到一个$n$阶的贝塞尔曲线，它在任意时间$t$都是之前给定控制点的线性组合，组合的系数就是一个和时间有关的多项式。这个多项式就叫做伯恩斯坦多项式，这个多项式用于描述二项分布。</p>
 <h5 id="Bezier-Curve-–-Algebraic-Formula-Example"><a href="#Bezier-Curve-–-Algebraic-Formula-Example" class="headerlink" title="Bézier Curve – Algebraic Formula: Example"></a>Bézier Curve – Algebraic Formula: Example</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210422210937704.png"></p>
+<p>我们不考虑多少层了，任意阶数的贝塞尔曲线任意时间$t$这个点的位置由伯恩斯坦多项式作为系数，对给定的控制点进行加权。不管它是什么，在时间$t$它一定会通过这么四个不同的系数，把$b_0 \space b_1 \space b_2 \space b_3$组合起来表述贝塞尔曲线的一个点。</p>
 <h5 id="Cubic-Bezier-Basis-Functions"><a href="#Cubic-Bezier-Basis-Functions" class="headerlink" title="Cubic Bézier Basis Functions"></a>Cubic Bézier Basis Functions</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210422211020616.png"></p>
 <h5 id="Properties-of-Bezier-Curves"><a href="#Properties-of-Bezier-Curves" class="headerlink" title="Properties of Bézier Curves"></a>Properties of Bézier Curves</h5><p>Interpolates endpoints</p>
 <ul>
@@ -190,16 +195,25 @@
 <ul>
 <li>Curve is within convex hull of control points</li>
 </ul>
+<p>贝塞尔曲线在仿射变换下可以直接对不同的顶点做仿射变换，然后再重新对这个变换之后的顶点画一条贝塞尔曲线出来，那么这个贝塞尔曲线一定和另外一个贝塞尔曲线是一样的。我已经通过原始的控制点画出一条贝塞尔曲线，然后在这条贝塞尔曲线上面的每一个点做仿射变换，这样的方式得出的贝塞尔曲线是一模一样的。</p>
+<p>贝塞尔曲线还有凸包性质。凸包是在计算几何上得到广泛应用的概念，这里简单解释一下，我们画出来的贝塞尔曲线一定是在几个控制点形成的凸包内。这个性质的简单应用是当几个控制点排列在一条直线上时，贝塞尔曲线一定就是这条直线，绝对不会超过凸包的范围。</p>
 <h5 id="BTW-What’s-a-Convex-Hull"><a href="#BTW-What’s-a-Convex-Hull" class="headerlink" title="BTW: What’s a Convex Hull"></a>BTW: What’s a Convex Hull</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210422211600313.png"></p>
+<p>凸包的概念很好理解，其中一种定义是能够包围一系列给定的几何形体的最小凸多边形。直观来讲，我们可以想象平面上钉了很多钉子，然后用橡皮筋拉到非常大把所有钉子包住，然后突然松手，橡皮筋收缩在这些物体形成的某些外框上，这个框就可以理解是凸包。</p>
 <h4 id="Piecewise-Bezier-Curves"><a href="#Piecewise-Bezier-Curves" class="headerlink" title="Piecewise Bézier Curves"></a>Piecewise Bézier Curves</h4><h5 id="Higher-Order-Bezier-Curves"><a href="#Higher-Order-Bezier-Curves" class="headerlink" title="Higher-Order Bézier Curves?"></a>Higher-Order Bézier Curves?</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210422211655084.png"></p>
+<p>11个控制点画出一条贝塞尔曲线。这条曲线是对的没有问题，但不够直观。也就是说这条曲线不好控制，当控制点多的时候不适合用中间控制点控制，得到想要的形状不是很好操作。</p>
 <h5 id="Piecewise-Bezier-Curves-1"><a href="#Piecewise-Bezier-Curves-1" class="headerlink" title="Piecewise Bézier Curves"></a>Piecewise Bézier Curves</h5><p>Instead, chain many low-order Bézier curve</p>
 <p><strong>Piecewise cubic Bézier</strong> the most common technique</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210422211751964.png" alt="image-20210422211751964"></p>
 <p>Widely used (fonts, paths, Illustrator, Keynote, …)</p>
+<p>这时人们发现干嘛要一次用这么多的控制点去定义一个贝塞尔曲线呢？每次我用很少的控制点定义一段贝塞尔曲线，并且我把这些贝塞尔曲线连起来逐段定义。特别的来说，大家喜欢把逐段贝塞尔曲线定义成每四个控制点可以控制一条贝塞尔曲线。</p>
 <h5 id="Demo-–-Piecewise-Cubic-Bezier-Curve"><a href="#Demo-–-Piecewise-Cubic-Bezier-Curve" class="headerlink" title="Demo – Piecewise Cubic Bézier Curve"></a>Demo – Piecewise Cubic Bézier Curve</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210423075355930.png"></p>
+<p>这种定义方法得到了非常广泛的应用，也正是Ps中的钢笔工具画曲线的功能。上图就是分段的三次贝塞尔曲线，有人会问如何保证连起来的曲线时光滑的呢？我们要求导数必须连续，无论方向还是大小。</p>
 <h5 id="Piecewise-Bezier-Curve-–-Continuity"><a href="#Piecewise-Bezier-Curve-–-Continuity" class="headerlink" title="Piecewise Bézier Curve – Continuity"></a>Piecewise Bézier Curve – Continuity</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210423075430381.png"></p>
+<p>给定两个贝塞尔曲线，都是由四个控制点构成。在几何上的这两个曲线都通过中间那个点，只要接触就是连续，这就是一种最简单的连续。</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210423075504422.png"></p>
+<p>只要第一段的终止点等于第二段的起始点，我们就管这种连续叫做$C^0$连续，$C$表示连续性continuity，在几何上只要挨在一块，不管它形成多么大的锐角就是连续。</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210423075530405.png"></p>
+<p>我们再定义一种连续</p>
 <h5 id="Other-types-of-splines"><a href="#Other-types-of-splines" class="headerlink" title="Other types of splines"></a>Other types of splines</h5><p><strong>Spline</strong></p>
 <ul>
 <li>a continuous curve constructed so as to pass through a given set<br>of points and have a certain number of continuous derivatives.</li>
