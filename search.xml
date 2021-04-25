@@ -110,6 +110,87 @@
       </tags>
   </entry>
   <entry>
+    <title>Geometry cont</title>
+    <url>/archives/f6b5e925.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/EzxxhfgXoAAZRO-.jpeg"></p>
+<div align="center">
+  <font size="3">
+    <i>
+      <a href="https://twitter.com/MrmoTarius/status/1386107768600420353">Twitter@MrmoTarius</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101 现代图形学入门是由闫令琪老师教授。今天我们讲几何的最后一个部分，包括曲面细分、曲面简化以及曲面正则化，并且会提到一些Shadow Mapping。</p>
+<span id="more"></span>
+
+
+
+<h3 id="Mesh-Operations-Geometry-Processing"><a href="#Mesh-Operations-Geometry-Processing" class="headerlink" title="Mesh Operations: Geometry Processing"></a>Mesh Operations: Geometry Processing</h3><ul>
+<li>Mesh subdivision</li>
+<li>Mesh simplification</li>
+<li>Mesh regularization</li>
+</ul>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210423080338691.png"></p>
+<p>上节课我们提到对于三角形面有一系列的处理方法，我们可以做三角形面的细分、增加更多三角形或简化减少、正则化，让这些三角形面变得更规则。</p>
+<h4 id="Mesh-Subdivision-upsampling"><a href="#Mesh-Subdivision-upsampling" class="headerlink" title="Mesh Subdivision (upsampling)"></a>Mesh Subdivision (upsampling)</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425090345884.png"></p>
+<p>我们从最基本的三角形如何增加它的数量让它整个表示的曲面更加光滑开始。如果三角形数量非常少，就会变成当年很早期的第一代最终幻想7，人物的头发、手都是三角形，看得棱角分明。当然大家希望用到更多的三角形，随着现在显卡的发展，三角形的数量基本来说不是什么超级大的问题，可以处理很多的三角形。</p>
+<p>这样一来我们有一个模型，我们希望它细节更丰富，当然可以引入更多三角形，这就和图像增大分辨率一个道理，让它看上去有更多的细节。</p>
+<h4 id="Mesh-Simplification-downsampling"><a href="#Mesh-Simplification-downsampling" class="headerlink" title="Mesh Simplification (downsampling)"></a>Mesh Simplification (downsampling)</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425091339430.png"></p>
+<p>第二个操作是网格的简化。如果说我们现在有一个网格非常非常复杂，而其实我们并不需要这么复杂的网格，那么我们就用少一点的网格数量去掉一些三角形，但是仍然要维持它们之间的连接关系。</p>
+<h4 id="Mesh-Regularization-same-triangles"><a href="#Mesh-Regularization-same-triangles" class="headerlink" title="Mesh Regularization (same #triangles)"></a>Mesh Regularization (same #triangles)</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425091634747.png"></p>
+<p>另外一个话题是三角形有大有小，而细长的三角形会对渲染造成各种各样的不便，那么通常应对这种情况会对模型做一些正规化或正则化，让这些面看上去更像正三角形。在改进三角形本身质量的时候同时不能丢失模型本身的表示质量。</p>
+<h3 id="Subdivision"><a href="#Subdivision" class="headerlink" title="Subdivision"></a>Subdivision</h3><h4 id="Loop-Subdivision"><a href="#Loop-Subdivision" class="headerlink" title="Loop Subdivision"></a>Loop Subdivision</h4><p>Common subdivision rule for triangle meshes</p>
+<p>First, create more triangles (vertices)</p>
+<p>Second, tune their positions</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425092342417.png"></p>
+<p>细分自然是一个非常重要的操作。之前我们在说位移贴图的时候提到了细分，物体表面上应用一个贴图，这个贴图表示了它的相对位置移动或者高度场，然后我要把不同的高度应用在不同的顶点上，得到一个顶点被移动过复杂一点的凹凸模型。</p>
+<p>然后我们说到要用很多的三角形才能赶上纹理本身的频率，所以说我们要用到很多三角形做细分。我们说的细分是两个事情：</p>
+<ol>
+<li>分出更多的三角形</li>
+<li>让这些三角形的位置发生一点变化，让模型变得更光滑一些</li>
+</ol>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425093154435.png"></p>
+<p>以Loop细分为例，第一步我们先把三角形数量增多。对于一个三角形连接三条中点就可以做出一个中间的三角形，而且拆成了四个三角形。</p>
+<p>增多三角形数量之后还要调整三角形/顶点位置。特别的，对于Loop细分大家的做法就是把三角形的顶点区分成新的顶点和老的顶点，对于两种不同类型的顶点我们分别来改变它们的位置，让它们有一种规则来改变它们的位置。</p>
+<h5 id="Update"><a href="#Update" class="headerlink" title="Update"></a>Update</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425094053074.png"></p>
+<p>图中白点是新的顶点，它一定在一条边上，只要这条边表示的不是物体的边界它一定会被不同的三角形所共享，如图两个三角形共享一个白点。我们把共享的两条边设为$AB$，不共享的顶点叫做$CD$，下面Loop细分定义的规则是去把白点调整到$3/8 * (A + B)+1/8 * (C + D)$，这里的系数是简单的加权平均。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425094120974.png"></p>
+<p>对于旧的顶点可以看到这个公式非常复杂，然而理解起来很简单。图中六个三角形堆在一块，中间虚线就是拆出来新的三角形，为了更新老顶点的位置肯定和周围相邻的点有关系。Loop细分提供了新的规则：一部分相信周围老的顶点周围的平均值；另外一部分它也愿意相信自己保留自己的属性，最后通过加权的方式合在一块。</p>
+<h5 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h5><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425101734255.png"></p>
+<p>上图是Loop细分的结果，这样让整个模型得到一个光滑的效果，也再次印证Loop细分做的两个事情：细分与调整。</p>
+<h4 id="Catmull-Clark-Subdivision-General-Mesh"><a href="#Catmull-Clark-Subdivision-General-Mesh" class="headerlink" title="Catmull-Clark Subdivision (General Mesh)"></a>Catmull-Clark Subdivision (General Mesh)</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425102446608.png"></p>
+<p>Loop细分有一个前提是表示物体的面就是三角形网格，如果不是如图这种一半的情况，Catmull-Clark细分就可以把网格细分的非常好。</p>
+<p>对于这个网格我们先定义一些概念。首先我们定义quad face为四边形面，那么Non-quad face就是非四边形面，比如这里两个三角形面就是非四边形面。另外一个概念是奇异点，定义为度（一个顶点和它相连的边数）不为4，例如圆圈点度为5，是奇异点，同理另一个圆圈点也是奇异点。</p>
+<p>细分首先要引入更多的点/边，然后我再调整它们的位置。每一条边我都取它的中点，每一个面我也取中间的一个点并且边上的中点和面上的中点连起来就可以了：</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425102519263.png"></p>
+<p>图中原来的三角形取三条边的中点，面也取中点；连接中点和面中心点。经过一次细分后还有多少个奇异点呢？原本度为5的奇异点还是奇异点，新的点由于度数为3所以引入了两个新的奇异点，总计四个奇异点。可以发现只要是在一个非四边形面内点上这么一个点，由于我要和它每一条边都相连，所以形成的点一定是奇异点。</p>
+<p>现在经过一次细分后，还有多少个非四边形面呢？这张图一数发现非四边形面全部消失了，三角形被拆成了三个四边形，也就是说经过一次细分所有的非四边形面都消失了，也可以理解为经过一次细分所有的非四边形面都变成了奇异点，以后的奇异点数也不可能再增加了。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425102549062.png"></p>
+<p>如果我们再做一次细分会看到仍然还是四个奇异点，因为在第一次细分之后就不可能有非四边形面了。在细分的过程中这些点都会发生一些位置上的变化。</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425102630978.png"></p>
+<p>同样道理继续细分，位置继续发生变化就会变得越来越光滑。</p>
+<p><strong>Catmull-Clark Vertex Update Rules (Quad Mesh)</strong></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425102709975.png"></p>
+<h4 id="Convergence-Overall-Shape-and-Creases"><a href="#Convergence-Overall-Shape-and-Creases" class="headerlink" title="Convergence: Overall Shape and Creases"></a>Convergence: Overall Shape and Creases</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425110444228.png"></p>
+<h3 id="Mesh-Simplification"><a href="#Mesh-Simplification" class="headerlink" title="Mesh Simplification"></a>Mesh Simplification</h3><h3 id="Shadow-Mapping"><a href="#Shadow-Mapping" class="headerlink" title="Shadow Mapping"></a>Shadow Mapping</h3><br>
+
+<center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_12.pdf">
+            <i class="fas fa-download"></i>GAMES101_Lecture_12
+          </a></center>
+
+</body></html>]]></content>
+      <categories>
+        <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
+      </categories>
+      <tags>
+        <tag>Computer Graphics</tag>
+        <tag>Geometry</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Curves and Surfaces</title>
     <url>/archives/b736300e.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/EzfaD6vXoAMBqlb.jpeg"></p>
