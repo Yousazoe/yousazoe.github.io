@@ -175,7 +175,9 @@
 <p><strong>Catmull-Clark Vertex Update Rules (Quad Mesh)</strong></p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425102709975.png"></p>
 <h4 id="Convergence-Overall-Shape-and-Creases"><a href="#Convergence-Overall-Shape-and-Creases" class="headerlink" title="Convergence: Overall Shape and Creases"></a>Convergence: Overall Shape and Creases</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425110444228.png"></p>
-<h3 id="Mesh-Simplification"><a href="#Mesh-Simplification" class="headerlink" title="Mesh Simplification"></a>Mesh Simplification</h3><h3 id="Shadow-Mapping"><a href="#Shadow-Mapping" class="headerlink" title="Shadow Mapping"></a>Shadow Mapping</h3><br>
+<h3 id="Mesh-Simplification"><a href="#Mesh-Simplification" class="headerlink" title="Mesh Simplification"></a>Mesh Simplification</h3><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210425111053844.png"></p>
+<p>我希望用更多的三角形来表示几何物体，但一些情况下比如游戏希望提升性能，不希望顶点太多，尤其是在移动端的应用上负担不起，我们不得不用简化的模型；其实来说在什么场合下用什么复杂程度的模型是有讲究的，一个最简单的事情是对于骷髅来说，想象仍然用这么多三角形，但我们在很远的地方去观察它根本不需要把这么细节的东西拿出来，比如三万个三角形和三千个三角形几乎无法区别出来，300个三角形离近了效果挺惨的但离远了效果还不错，这取决于我们在不同的情况下会选用不同复杂程度的几何模型。</p>
+<h3 id="Shadow-Mapping"><a href="#Shadow-Mapping" class="headerlink" title="Shadow Mapping"></a>Shadow Mapping</h3><br>
 
 <center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_12.pdf">
             <i class="fas fa-download"></i>GAMES101_Lecture_12
@@ -13386,8 +13388,8 @@
 <p><strong><a href="https://unsplash.com/">点击跳转到 Unsplash</a></strong></p>
 </body></html>]]></content>
       <categories>
-        <category>博客搭建 (Blog Building)</category>
         <category>写作技巧 (Write Skill)</category>
+        <category>博客搭建 (Blog Building)</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -18002,8 +18004,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>Mathematical Modeling</tag>
         <tag>GPS</tag>
+        <tag>Mathematical Modeling</tag>
       </tags>
   </entry>
   <entry>
@@ -18370,8 +18372,8 @@
       <tags>
         <tag>Math</tag>
         <tag>Mooc</tag>
-        <tag>Population</tag>
         <tag>Mathematical Modeling</tag>
+        <tag>Population</tag>
       </tags>
   </entry>
   <entry>
