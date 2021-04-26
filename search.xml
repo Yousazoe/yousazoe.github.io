@@ -93,7 +93,68 @@
 <h4 id="Ray-Intersection-With-Implicit-Surface"><a href="#Ray-Intersection-With-Implicit-Surface" class="headerlink" title="Ray Intersection With Implicit Surface"></a>Ray Intersection With Implicit Surface</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406194218772.png"></p>
 <p>这个问题可以推广到光线和一般性的隐式表面求交，因为交点所以它必在射线和隐式表面上，表达为$f(o + td) = 0$。目前来说数值计算非常发达，可以很快求解出函数根<code>t</code>，所以对于一般的隐式表面也是求出时间，再带入光线方程求出交点。</p>
 <h4 id="Ray-Intersection-With-Triangle-Mesh"><a href="#Ray-Intersection-With-Triangle-Mesh" class="headerlink" title="Ray Intersection With Triangle Mesh"></a>Ray Intersection With Triangle Mesh</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210406195929832.png"></p>
-<p>对于显式表面光线和三角形求交是一个非常重要的话题。光线如果知道如何和三角形求交，我就能找到交点判断光线是不是被遮挡</p>
+<p>对于显式表面光线和三角形求交是一个非常重要的话题。光线如果知道如何和三角形求交，我就能找到交点判断光线是不是被遮挡。</p>
+<p>还有一个很有意思的应用，通过光线和三角形求交点甚至可以判断给你一个点这个点是不是在物体内/外。大家可以在纸上画一条封闭的曲线，然后在这个形状内部点一个点，从任意方向打一根光线出去，判断光线和物体有多少个交点。我们会发现一个很神奇的事情，如果点在形状内，你得到的交点数量一定是奇数，所以如果交点是奇数个那么一定在物体内；偶数个交点在物体外，推广到三维仍然可行。</p>
+<p>回到光线和三角形求交，最简单的做法是一个一个三角形判断是不是和光线有交点，找出$t$最小的那个。这个思路肯定是对的，当然这也是非常非常慢的一个事情，加速的方法之后再说。</p>
+<h4 id="Ray-Intersection-With-Triangle"><a href="#Ray-Intersection-With-Triangle" class="headerlink" title="Ray Intersection With Triangle"></a>Ray Intersection With Triangle</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210426103308589.png"></p>
+<p>三角形一定在一个平面内，那我把这个三角形和光线求交的问题分解成光线和平面求交、判定交点是否在三角形内。</p>
+<h4 id="Plane-Equation"><a href="#Plane-Equation" class="headerlink" title="Plane Equation"></a>Plane Equation</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210426103347033.png"></p>
+<p>平面我们可以定义成一个方向和一个点。平面一定有一个法线，但只有法线还不够，平面还可以沿着法线移动，必须定义平面过某个点，也就是立体几何中的点法式。通过直观上几何上垂直的定义，我们可以定义任何一个在平面上的点。</p>
+<h4 id="Ray-Intersection-With-Plane"><a href="#Ray-Intersection-With-Plane" class="headerlink" title="Ray Intersection With Plane"></a>Ray Intersection With Plane</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210426103418678.png"></p>
+<p>交点一定又在光线上又在平面上。所以点$p$也可以写成$o+td$的形式，带入垂直方程得到$t$。这样我就可以解出光线和平面的交点。</p>
+<h4 id="Moller-Trumbore-Algorithm"><a href="#Moller-Trumbore-Algorithm" class="headerlink" title="Möller Trumbore Algorithm"></a>Möller Trumbore Algorithm</h4><p>A faster approach, giving barycentric coordinate directly</p>
+<p>Derivation in the discussion section!</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210426103520414.png"></p>
+<p>人是懒惰的，人们发现Möller Trumbore算法直接求出光线与三角形的交点。如果两者相交，那么光线表达式也可以表示为三角形的重心坐标表示形式，三个方程三个未知量，可以求解线性方程组。</p>
+<p>在线性代数中，求解线性方程组我们使用克莱姆法则。解出之后需要判断是否合理，$t$是否是正值；重心坐标表示必须非负点才能在三角形内。</p>
+<h3 id="Accelerating-Ray-Surface-Intersection"><a href="#Accelerating-Ray-Surface-Intersection" class="headerlink" title="Accelerating Ray-Surface Intersection"></a>Accelerating Ray-Surface Intersection</h3><h4 id="Ray-Tracing-–-Performance-Challenges"><a href="#Ray-Tracing-–-Performance-Challenges" class="headerlink" title="Ray Tracing – Performance Challenges"></a>Ray Tracing – Performance Challenges</h4><p><strong>Simple ray-scene intersection</strong></p>
+<ul>
+<li>Exhaustively test ray-intersection with every triangle</li>
+<li>Find the closest hit (i.e. minimum t)</li>
+</ul>
+<p><strong>Problem:</strong></p>
+<ul>
+<li>Naive algorithm = #pixels ⨉ # traingles (⨉ #bounces)</li>
+<li>Very slow!</li>
+</ul>
+<p>For generality, we use the term objects instead of triangles later (but doesn’t necessarily mean entire objects)</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210426103739735.png"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210426103810240.png" alt="image-20210426103810240"></p>
+<h3 id="Bounding-Volumes"><a href="#Bounding-Volumes" class="headerlink" title="Bounding Volumes"></a>Bounding Volumes</h3><p>Quick way to avoid intersections: bound complex object<br>with a simple volume</p>
+<ul>
+<li>Object is fully contained in the volume</li>
+<li>If it doesn’t hit the volume, it doesn’t hit the object</li>
+<li>So test BVol first, then test object if it hits</li>
+</ul>
+<h4 id="Ray-Intersection-With-Box"><a href="#Ray-Intersection-With-Box" class="headerlink" title="Ray-Intersection With Box"></a>Ray-Intersection With Box</h4><p>Understanding: <strong>box is the intersection of 3 pairs of slabs</strong></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210426103945819.png"></p>
+<h4 id="Ray-Intersection-with-Axis-Aligned-Box"><a href="#Ray-Intersection-with-Axis-Aligned-Box" class="headerlink" title="Ray Intersection with Axis-Aligned Box"></a>Ray Intersection with Axis-Aligned Box</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210426104026279.png"></p>
+<p>Recall: a box (3D) = three pairs of infinitely large slabs</p>
+<p>Key ideas</p>
+<ul>
+<li>The ray enters the box <strong>only when</strong> it enters all pairs of slabs</li>
+<li>The ray exits the box <strong>as long as</strong> it exits any pair of slabs</li>
+</ul>
+<p>For each pair, calculate the $t_{min}$ and $t_{max}$ (negative is fine)</p>
+<p>For the 3D box, $t_{enter} = max{t_{min}}$ ,$t_{exit} = min{t_{max}}$</p>
+<p>If $t_{enter} &lt; t_{exit}$, we know the ray stays a while in the box (so they must intersect!) (not done yet, see the next slide)</p>
+<p><strong>However, ray is not a line</strong></p>
+<ul>
+<li>Should check whether t is negative for physical correctness!</li>
+</ul>
+<p><strong>What if $t_{exit} &lt; 0$?</strong></p>
+<ul>
+<li>The box is “behind” the ray — no intersection!</li>
+</ul>
+<p><strong>What if $t_{exit} &gt;= 0 and t_{enter} &lt; 0$?</strong></p>
+<ul>
+<li>The ray’s origin is inside the box — have intersection!</li>
+</ul>
+<p><strong>In summary, ray and AABB intersect iff</strong></p>
+<ul>
+<li>$t_{enter} &lt; t_{exit} \space &amp;&amp; \space t_{exit} &gt;= 0$</li>
+</ul>
+<h4 id="Why-Axis-Aligned"><a href="#Why-Axis-Aligned" class="headerlink" title="Why Axis-Aligned?"></a>Why Axis-Aligned?</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210426104455240.png"></p>
 <br>
 
 <center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_13.pdf">
@@ -3763,8 +3824,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Story</tag>
         <tag>Reprint</tag>
+        <tag>Story</tag>
       </tags>
   </entry>
   <entry>
@@ -9717,8 +9778,8 @@
         <category>游戏幕后 (Behind the Game)</category>
       </categories>
       <tags>
-        <tag>Story</tag>
         <tag>Celeste</tag>
+        <tag>Story</tag>
       </tags>
   </entry>
   <entry>
@@ -10769,8 +10830,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Story</tag>
         <tag>Reprint</tag>
+        <tag>Story</tag>
       </tags>
   </entry>
   <entry>
@@ -11036,8 +11097,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Story</tag>
         <tag>Reprint</tag>
+        <tag>Story</tag>
       </tags>
   </entry>
   <entry>
@@ -11097,8 +11158,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Story</tag>
         <tag>Reprint</tag>
+        <tag>Story</tag>
       </tags>
   </entry>
   <entry>
@@ -11197,8 +11258,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Story</tag>
         <tag>Reprint</tag>
+        <tag>Story</tag>
       </tags>
   </entry>
   <entry>
@@ -11283,8 +11344,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Story</tag>
         <tag>Reprint</tag>
+        <tag>Story</tag>
       </tags>
   </entry>
   <entry>
@@ -11433,8 +11494,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Story</tag>
         <tag>Reprint</tag>
+        <tag>Story</tag>
       </tags>
   </entry>
   <entry>
@@ -11471,8 +11532,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Story</tag>
         <tag>Reprint</tag>
+        <tag>Story</tag>
       </tags>
   </entry>
   <entry>
@@ -11538,8 +11599,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Story</tag>
         <tag>Reprint</tag>
+        <tag>Story</tag>
       </tags>
   </entry>
   <entry>
@@ -11592,8 +11653,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Story</tag>
         <tag>Reprint</tag>
+        <tag>Story</tag>
       </tags>
   </entry>
   <entry>
@@ -11763,8 +11824,8 @@
         <category>姜晔传 (The Autobiography of Jiangye)</category>
       </categories>
       <tags>
-        <tag>Story</tag>
         <tag>Reprint</tag>
+        <tag>Story</tag>
       </tags>
   </entry>
   <entry>
@@ -18564,8 +18625,8 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
-        <tag>Celeste</tag>
         <tag>Game</tag>
+        <tag>Celeste</tag>
         <tag>INDIE</tag>
       </tags>
   </entry>
@@ -22011,8 +22072,8 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
-        <tag>Game</tag>
         <tag>Art</tag>
+        <tag>Game</tag>
       </tags>
   </entry>
   <entry>
