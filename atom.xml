@@ -6,7 +6,7 @@
   <link href="http://yousazoe.top/atom.xml" rel="self"/>
   
   <link href="http://yousazoe.top/"/>
-  <updated>2021-04-26T06:20:05.827Z</updated>
+  <updated>2021-04-27T02:05:25.753Z</updated>
   <id>http://yousazoe.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yousazoe.top/archives/749ead91.html"/>
     <id>http://yousazoe.top/archives/749ead91.html</id>
     <published>2021-04-26T06:07:06.000Z</published>
-    <updated>2021-04-26T06:20:05.827Z</updated>
+    <updated>2021-04-27T02:05:25.753Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://pbs.twimg.com/media/Ezb5YRVXEAgaN9U?format=jpg&amp;name=large"></p><div align="center">  <font size="3">    <i>      <a href="https://twitter.com/phoronix/status/1384568137681670154">RayTracing</a>    </i>  </font></div><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101现代图形学入门是由闫令琪老师教授。今天我们来讲Whitted Style的光线追踪和其实现的若干技术细节。</p><span id="more"></span><br><center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_14.pdf">            <i class="fas fa-download"></i>GAMES101_Lecture_14          </a></center></body></html>]]></content>
     
