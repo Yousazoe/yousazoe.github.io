@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Acceleration &amp; Radiometry</title>
+    <url>/archives/749ead91.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://pbs.twimg.com/media/Ezb5YRVXEAgaN9U?format=jpg&amp;name=large"></p>
+<div align="center">
+  <font size="3">
+    <i>
+      <a href="https://twitter.com/phoronix/status/1384568137681670154">RayTracing</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101现代图形学入门是由闫令琪老师教授。今天我们来讲Whitted Style的光线追踪和其实现的若干技术细节。</p>
+<span id="more"></span>
+
+
+
+
+
+
+
+
+
+<br>
+
+<center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_14.pdf">
+            <i class="fas fa-download"></i>GAMES101_Lecture_14
+          </a></center>
+
+
+
+
+
+</body></html>]]></content>
+      <categories>
+        <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
+      </categories>
+      <tags>
+        <tag>Computer Graphics</tag>
+        <tag>RayTracing</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Whitted Style Ray Tracing</title>
     <url>/archives/bc6dc1aa.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/minecraft-ray-tracing-4-100808656-large.3x2.jpg"></p>
@@ -118,17 +162,25 @@
 <li>Very slow!</li>
 </ul>
 <p>For generality, we use the term objects instead of triangles later (but doesn’t necessarily mean entire objects)</p>
+<p>加速求交是一件必要的事情，如果我们用之前说的最原始的做法当然可以求出光线和整个场景最近的交点，但效率大打折扣。</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210426103739735.png"></p>
-<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210426103810240.png" alt="image-20210426103810240"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210426103810240.png"></p>
+<p>上面两个场景都是千万级别的三角形数量，如果用原始的方法肯定是不行的，所以我们要想办法加速。</p>
 <h3 id="Bounding-Volumes"><a href="#Bounding-Volumes" class="headerlink" title="Bounding Volumes"></a>Bounding Volumes</h3><p>Quick way to avoid intersections: bound complex object<br>with a simple volume</p>
 <ul>
 <li>Object is fully contained in the volume</li>
 <li>If it doesn’t hit the volume, it doesn’t hit the object</li>
 <li>So test BVol first, then test object if it hits</li>
 </ul>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210426133356273.png"></p>
+<p>为了加速有一个很重要的概念：包围盒/体积，通过这种包围盒的方式我们可以加速。比如我有一个复杂的物体，可以用一个相对简单的形状包起来，保证物体一定在这个简单的形状之内，对于图中二维的情况看到一个二维的茶壶，我可以用矩形或圆形框起来，这样就做出来一个包围盒。</p>
+<p>包围盒的好处存在一个逻辑问题，如果光线连包围盒都碰不到，那更不可能碰到包围盒中的物体。这个思路虽然简单，但非常有效。</p>
 <h4 id="Ray-Intersection-With-Box"><a href="#Ray-Intersection-With-Box" class="headerlink" title="Ray-Intersection With Box"></a>Ray-Intersection With Box</h4><p>Understanding: <strong>box is the intersection of 3 pairs of slabs</strong></p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210426103945819.png"></p>
+<p>对于三维的情况，大家用的最多的就是一个长方体。右边是一个简单的长方体，我们理解为三对平面的交集，通常在实际应用中用的是轴对称包围盒，缩写为AABB。</p>
 <h4 id="Ray-Intersection-with-Axis-Aligned-Box"><a href="#Ray-Intersection-with-Axis-Aligned-Box" class="headerlink" title="Ray Intersection with Axis-Aligned Box"></a>Ray Intersection with Axis-Aligned Box</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210426104026279.png"></p>
+<p>如何判定光线和盒子有交点呢？二维情况下定义包围盒，考虑$x_0、x_1、y_0、y_1$，光线在$t_{min}$时间和左边的面$x_0$相交，在$t_{max}$和右边的面$x_1$形成交点；同理对于水平方向也可以求出两个交点，也就是说我对于任何一个对面都可以求出光线的进出时间。</p>
+<p>这两个线段实际上求了一个交集，对于光线来说就是实际进入和移出盒子的时间。</p>
 <p>Recall: a box (3D) = three pairs of infinitely large slabs</p>
 <p>Key ideas</p>
 <ul>
@@ -137,7 +189,9 @@
 </ul>
 <p>For each pair, calculate the $t_{min}$ and $t_{max}$ (negative is fine)</p>
 <p>For the 3D box, $t_{enter} = max{t_{min}}$ ,$t_{exit} = min{t_{max}}$</p>
-<p>If $t_{enter} &lt; t_{exit}$, we know the ray stays a while in the box (so they must intersect!) (not done yet, see the next slide)</p>
+<p>If $t_{enter} &lt; t_{exit}$, we know the ray <strong>stays a while</strong> in the box (so they must intersect!) (not done yet, see the next slide)</p>
+<p>只有当光线进入所有的对面（3）我们才能说光线进入了盒子，而光线只要离开任意一对对面这个光线就已经离开盒子了。我们据此可以立刻得到算法，在三维空间中有三组不同的对面，各计算一次光线进入对面的最小时间和最大时间，对于所有的进入时间$t_{min}$求出最大值，这是最晚光线进入最后一个对面的时间，也是光线真正进入盒子的时间$t_{enter}$；同样道理，只要光线离开任何一个对面，这个光线就离开盒子，最小的离开时间$t_{max}$就是光线离开时间$t_{exit}$。</p>
+<p>如果进入时间小于离开时间，说明这个光线在这段时间就在盒子里，反之就没有交点。</p>
 <p><strong>However, ray is not a line</strong></p>
 <ul>
 <li>Should check whether t is negative for physical correctness!</li>
@@ -154,6 +208,7 @@
 <ul>
 <li>$t_{enter} &lt; t_{exit} \space &amp;&amp; \space t_{exit} &gt;= 0$</li>
 </ul>
+<p>当且仅当进入时间小于离开时间，并且离开时间非负大于等于0就可以得到最后的结论。</p>
 <h4 id="Why-Axis-Aligned"><a href="#Why-Axis-Aligned" class="headerlink" title="Why Axis-Aligned?"></a>Why Axis-Aligned?</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210426104455240.png"></p>
 <br>
 
