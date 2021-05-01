@@ -6,7 +6,7 @@
   <link href="http://yousazoe.top/atom.xml" rel="self"/>
   
   <link href="http://yousazoe.top/"/>
-  <updated>2021-04-29T02:47:24.735Z</updated>
+  <updated>2021-04-30T09:17:31.543Z</updated>
   <id>http://yousazoe.top/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>高效算法与棘手问题</title>
+    <link href="http://yousazoe.top/archives/7d5f0453.html"/>
+    <id>http://yousazoe.top/archives/7d5f0453.html</id>
+    <published>2021-04-30T09:06:25.000Z</published>
+    <updated>2021-04-30T09:17:31.543Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/17f91d6659d324d216b443ec0a3cfe3b21474701.png"></p><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p> 在CS170中，我们将学习图算法、贪婪算法、动态规划、线性规划、快速矩阵乘法、傅立叶变换、数论、复杂性和NP-完备性等算法的设计和分析。</p><span id="more"></span></body></html>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img data-src=&quot;https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/17f91d6659d324d216b443ec0a3cfe3b21474701.png&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h3&gt;&lt;p&gt; 在CS170中，我们将学习图算法、贪婪算法、动态规划、线性规划、快速矩阵乘法、傅立叶变换、数论、复杂性和NP-完备性等算法的设计和分析。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Acceleration &amp; Radiometry</title>
@@ -646,41 +664,6 @@
 
 
 &lt;h3 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h3&gt;&lt;p&gt;上一节我们构建了集成的编译头文件，而今天我们将创建一个图形化界面以便我们可以将东西渲染到我们的窗口上。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="游戏引擎开发 (Game Engine Series)" scheme="http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91-Game-Engine-Series/"/>
-    
-    
-    <category term="Cpp" scheme="http://yousazoe.top/tags/Cpp/"/>
-    
-    <category term="Game Engine" scheme="http://yousazoe.top/tags/Game-Engine/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Precomplied Headers</title>
-    <link href="http://yousazoe.top/archives/247d3b60.html"/>
-    <id>http://yousazoe.top/archives/247d3b60.html</id>
-    <published>2021-03-21T02:30:04.000Z</published>
-    <updated>2021-03-21T08:21:01.014Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/f3f4d382356033.5d1b312d61f67.png"></p><div align="center">  <font size="3">    <i>      <a href="https://www.behance.net/gallery/82356033/Gyeonghoeru-pavilion?tracking_source=search_projects_recommended%7Cvoxel">Gyeonghoeru pavilion</a> by       <a href="https://www.behance.net/rgznsk">RGZNSK</a>    </i>  </font></div><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>上一节我们设置了事件系统，这一节我们在开发初期就开始真正讨论预编译的头文件并实际开始使用预编译的标头。</p><span id="more"></span><h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>回到我们的引擎，显然会需要许多标准库：</p><ul><li><p><code>Event.h</code>：</p><figure class="highlight c++"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;functional&gt;</span></span></span><br></pre></td></tr></tbody></table></figure></li><li><p><code>ApplicationEvent.h</code>：</p><figure class="highlight c++"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;sstream&gt;</span></span></span><br></pre></td></tr></tbody></table></figure></li><li><p><code>Log.h</code>：</p><figure class="highlight c++"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;memory&gt;</span></span></span><br></pre></td></tr></tbody></table></figure></li></ul><p>我们并没有太多的源文件，这意味着我们无需花费太多时间进行实际编辑，所以现在创建预编译的头文件是个不错的主意。回到VisualStudio，新建<code>ifnpch.h</code>头文件和<code>ifnpch.cpp</code>源文件，在<code>ifnpch.cpp</code>中引入头文件：</p><figure class="highlight c++"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"ifnpch.h"</span></span></span><br></pre></td></tr></tbody></table></figure><p>回到<code>ifnpch.h</code>，我们要做的第一件事是如果我们的平台是Windows，我们必须包含<code>&lt;windows.h&gt;</code>：</p><figure class="highlight c++"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> IFN_PLATFORM_WINDOWS</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;Windows.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></span><br></pre></td></tr></tbody></table></figure><p>对于所有平台，我们都可以采用类似的方式通过<code>iddef</code>包含在此<code>ifnpch.h</code>中。除了特定的平台，我们还需要包含一些常见的头文件诸如<code>iostream</code>之类的：</p><figure class="highlight c++"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;memory&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;utility&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;functional&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;sstream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;unordered_map&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;unordered_set&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> IFN_PLATFORM_WINDOWS</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;Windows.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></span><br></pre></td></tr></tbody></table></figure><p>然后我们回到之前的文件把这些头文件删掉，通过<code>premake</code>将<code>ifnpch.h</code>与<code>ifnpch.cpp</code>包含进来：</p><figure class="highlight diff"><table><tbody><tr><td class="code"><pre><span class="line">...</span><br><span class="line">project "Infinite"</span><br><span class="line">...</span><br><span class="line"></span><br><span class="line">target ()</span><br><span class="line">objdir ()</span><br><span class="line"></span><br><span class="line"><span class="addition">+pchheader "ifnpch.h"</span></span><br><span class="line"><span class="addition">+pchsource "Infinite/src/ifnpch.cpp"</span></span><br><span class="line"></span><br><span class="line">...</span><br></pre></td></tr></tbody></table></figure><p>事实上VisualStudio也提供给我们手动设置的方式，在属性中的<code>C/C++</code>预编译头中选择使用，并将预编译头文件设置为我们的<code>ifnpch.h</code>：</p><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210321161618153.png"></p><p>最后让<code>Event.h</code>、<code>ApplicationEvent.h</code>、<code>Log.h</code>包含<code>ifnpch.h</code>即可。集成预编译头非常容易，这也是大型项目必须要做的事，这样我们就可以开始使用了。</p></body></html>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;img data-src=&quot;https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/f3f4d382356033.5d1b312d61f67.png&quot;&gt;&lt;/p&gt;
-&lt;div align=center&gt;
-  &lt;font size=&quot;3&quot;&gt;
-    &lt;i&gt;
-      &lt;a href=&quot;https://www.behance.net/gallery/82356033/Gyeonghoeru-pavilion?tracking_source=search_projects_recommended%7Cvoxel&quot;&gt;Gyeonghoeru pavilion&lt;/a&gt; by 
-      &lt;a href=&quot;https://www.behance.net/rgznsk&quot;&gt;RGZNSK&lt;/a&gt;
-    &lt;/i&gt;
-  &lt;/font&gt;
-&lt;/div&gt;
-
-
-
-&lt;h3 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h3&gt;&lt;p&gt;上一节我们设置了事件系统，这一节我们在开发初期就开始真正讨论预编译的头文件并实际开始使用预编译的标头。&lt;/p&gt;</summary>
     
     
     
