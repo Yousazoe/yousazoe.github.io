@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>高效算法与棘手问题</title>
+    <title>Introduction,big-O notation,arithmetic</title>
     <url>/archives/7d5f0453.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/17f91d6659d324d216b443ec0a3cfe3b21474701.png"></p>
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p> 在CS170中，我们将学习图算法、贪婪算法、动态规划、线性规划、快速矩阵乘法、傅立叶变换、数论、复杂性和NP-完备性等算法的设计和分析。</p>
@@ -9,11 +9,22 @@
 
 
 
-
-
-
-
+<h3 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h3><blockquote>
+<p>An algorithm is just a well defined procedure for carrying out some computational tasks.</p>
+</blockquote>
+<p>什么是算法？算法只是一个定义好的程序以便执行一些计算任务。</p>
+<blockquote>
+<ul>
+<li>Halts</li>
+<li>Correctness</li>
+<li>Efficiency</li>
+</ul>
+</blockquote>
+<p>我们想从算法这门课中得到什么？我们希望我们的算法首先是有终点的；我们希望算法是正确的，当它终止时它能给出正确的输出；我们还想要追求效率，效率可以用许多不同的方法来衡量：我想要的是时间效率，就像我想让我的代码快速运行一样，我想尽快得到答案；我想要节约内存，不要使用太多的内存；如果我有一个并行算法我希望不要使用太多的并行机……所以一些运算资源例如时间、内存、并行性、随机性，我想尽量减少对运算资源的消耗。</p>
 </body></html>]]></content>
+      <categories>
+        <category>高效算法与棘手问题 (CS170)</category>
+      </categories>
   </entry>
   <entry>
     <title>Acceleration &amp; Radiometry</title>
@@ -22167,8 +22178,8 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
-        <tag>Art</tag>
         <tag>Game</tag>
+        <tag>Art</tag>
       </tags>
   </entry>
   <entry>
