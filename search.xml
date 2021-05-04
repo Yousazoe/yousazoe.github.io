@@ -21,15 +21,32 @@
 </ul>
 </blockquote>
 <p>我们想从算法这门课中得到什么？我们希望我们的算法首先是有终点的；我们希望算法是正确的，当它终止时它能给出正确的输出；我们还想要追求效率，效率可以用许多不同的方法来衡量：我想要的是时间效率，就像我想让我的代码快速运行一样，我想尽快得到答案；我想要节约内存，不要使用太多的内存；如果我有一个并行算法我希望不要使用太多的并行机……所以一些运算资源例如时间、内存、并行性、随机性，我想尽量减少对运算资源的消耗。</p>
+<h3 id="加法"><a href="#加法" class="headerlink" title="加法"></a>加法</h3><blockquote>
+<p>Today,Algos for arithmetic</p>
+<p>Addition: How is input described?</p>
+<p>Numeral system: ql-kwhorizmi popularized “Araboc” (further popularized by Fibonacci)</p>
+</blockquote>
+<p>今天我们主要关注算术算法，第一个题目是加法。首先如何描述输入，有很多不同的数字系统比如罗马数字等等，对于进行算术运算非常不便，更方便的是阿拉伯数字系统，由Ql-kwhorizmi推广但在印度发明，后来通过斐波那契来进一步推广。</p>
+<blockquote>
+<p>Input: two integers x,y given each as string of digits in base 10</p>
+<p>Ex：5 + 7</p>
+<p>Alg：”count  on hands” start at x,increment y times</p>
+</blockquote>
+<p>现在我们很熟悉这个规则，加法的输入是两个整数x和y，每个都是以10为底的数字。</p>
+<p>让我们思考不同的加法算法，大多数人第一种算法是什么？回想一下在儿时学过的算法，当你第一次学习数字的时候：数自己的手指，我真正关注的是从x开始，执行y次。</p>
+<blockquote>
+<p>Runtime：x,y are each &lt;= digits</p>
+</blockquote>
+<p>这是一个正确的算法，但它的效率如何呢？当我说到效率的时候我的意思是运行时的效率，要花多少时间。所以对于运行时间，我要用x和y的位数来衡量它。假设x和y分别限制为n位</p>
 </body></html>]]></content>
       <categories>
-        <category>高效算法与棘手问题 (CS170)</category>
+        <category>高效算法与棘手问题 (US Berkeley CS170)</category>
       </categories>
   </entry>
   <entry>
     <title>Acceleration &amp; Radiometry</title>
     <url>/archives/749ead91.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://pbs.twimg.com/media/Ezb5YRVXEAgaN9U?format=jpg&amp;name=large"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/Ezb5YRVXEAgaN9U-20210504181307556.jpeg"></p>
 <div align="center">
   <font size="3">
     <i>
