@@ -36,8 +36,10 @@
 <p>让我们思考不同的加法算法，大多数人第一种算法是什么？回想一下在儿时学过的算法，当你第一次学习数字的时候：数自己的手指，我真正关注的是从x开始，执行y次。</p>
 <blockquote>
 <p>Runtime：x,y are each &lt;= digits</p>
+<p>time &lt;= y * n</p>
 </blockquote>
-<p>这是一个正确的算法，但它的效率如何呢？当我说到效率的时候我的意思是运行时的效率，要花多少时间。所以对于运行时间，我要用x和y的位数来衡量它。假设x和y分别限制为n位</p>
+<p>这是一个正确的算法，但它的效率如何呢？当我说到效率的时候我的意思是运行时的效率，要花多少时间。所以对于运行时间，我要用x和y的位数来衡量它。假设x和y的长度为n位或者说每一个都有n个数位那么长，如果其中一位更短，我可以给它加上0假装它是n位。</p>
+<p>我写下了x，然后递增它，增加一个n位数需要多长时间？最坏情况n，我可能可以侥幸没有任何进位，它就是常数时间；但最坏的情况是我需要n个时间步来增加一个位数：Y次，最多是y增量，每一次花费n时间。</p>
 </body></html>]]></content>
       <categories>
         <category>高效算法与棘手问题 (US Berkeley CS170)</category>
@@ -22195,8 +22197,8 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
-        <tag>Game</tag>
         <tag>Art</tag>
+        <tag>Game</tag>
       </tags>
   </entry>
   <entry>
