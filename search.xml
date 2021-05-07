@@ -160,8 +160,65 @@
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210507105121041.png"></p>
 <p>大家可以发现道理很简单：如果光线和某一个格子没有交点，那么什么都不用做；如果光线和某一个格子有交点，那么我就知道光线和它的两个子节点可能有交点，所以都看一下直到光线打到叶子节点，如果和叶子节点还没有交点那么什么都不用做；如果打到叶子节点并且光线和叶子节点有交点，那么叶子节点所有物体都要求交。</p>
 <p>通过KD-Tree的建立，我们可以利用这种类似二分查找的方法找到这个光线和什么样的物体有交点。</p>
+<p>对于KD-Tree有一个明确的问题：场景由三角形构成，而通过空间划分方式给出包围盒，我得知道它和哪些三角形有交集。这是一个非常非常难的事情，很不容易写对，算法是有的，但你很难判断三角形是否和立方体有交集。也许有人觉得只要判定三角形一个顶点在盒子里就算相交，但实际上有一种情况三角形三个顶点都不在盒子里但却是相交的（三维空间中一个很小的盒子垂直插在平面三角形内部）。</p>
 <h3 id="Object-Partitions-amp-Bounding-Volume-Hierarchy-BVH"><a href="#Object-Partitions-amp-Bounding-Volume-Hierarchy-BVH" class="headerlink" title="Object Partitions &amp; Bounding Volume Hierarchy (BVH)"></a>Object Partitions &amp; Bounding Volume Hierarchy (BVH)</h3><h4 id="Bounding-Volume-Hierarchy-BVH"><a href="#Bounding-Volume-Hierarchy-BVH" class="headerlink" title="Bounding Volume Hierarchy (BVH)"></a>Bounding Volume Hierarchy (BVH)</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210507095924595.png"></p>
-<h3 id="Basic-radiometry"><a href="#Basic-radiometry" class="headerlink" title="Basic radiometry"></a>Basic radiometry</h3><br>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210507181133620.png"></p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210507181157097.png"></p>
+<p>![](/Users/apple/Library/Application Support/typora-user-images/image-20210507181235602.png)</p>
+<h4 id="Summary-Building-BVHs"><a href="#Summary-Building-BVHs" class="headerlink" title="Summary: Building BVHs"></a>Summary: Building BVHs</h4><h4 id="Building-BVHs"><a href="#Building-BVHs" class="headerlink" title="Building BVHs"></a>Building BVHs</h4><p>How to subdivide a node?</p>
+<ul>
+<li>Choose a dimension to split</li>
+<li>Heuristic #1: Always choose the longest axis in node</li>
+<li>Heuristic #2: Split node at location of median object</li>
+</ul>
+<p>Termination criteria?</p>
+<ul>
+<li>Heuristic: stop when node contains few elements<br>(e.g. 5)</li>
+</ul>
+<h4 id="Data-Structure-for-BVHs"><a href="#Data-Structure-for-BVHs" class="headerlink" title="Data Structure for BVHs"></a>Data Structure for BVHs</h4><p>Internal nodes store</p>
+<ul>
+<li>Bounding box</li>
+<li>Children: pointers to child nodes</li>
+</ul>
+<p>Leaf nodes store</p>
+<ul>
+<li>Bounding box</li>
+<li>List of objects</li>
+</ul>
+<p>Nodes represent subset of primitives in scene</p>
+<ul>
+<li>All objects in subtree</li>
+</ul>
+<h4 id="BVH-Traversal"><a href="#BVH-Traversal" class="headerlink" title="BVH Traversal"></a>BVH Traversal</h4><p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqa71wgkb2j30tr0flju2.jpg"></p>
+<h4 id="Spatial-vs-Object-Partitions"><a href="#Spatial-vs-Object-Partitions" class="headerlink" title="Spatial vs Object Partitions"></a>Spatial vs Object Partitions</h4><p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqa719xl77j30tf0gxn0j.jpg"></p>
+<h3 id="Basic-radiometry"><a href="#Basic-radiometry" class="headerlink" title="Basic radiometry"></a>Basic radiometry</h3><h4 id="Radiometry-—-Motivation"><a href="#Radiometry-—-Motivation" class="headerlink" title="Radiometry — Motivation"></a>Radiometry — Motivation</h4><p>Observation</p>
+<ul>
+<li>In assignment 3, we implement the Blinn-Phong model</li>
+<li>Light intensity I is 10, for example</li>
+<li>But 10 what?</li>
+</ul>
+<p>Do you think Whitted style ray tracing gives you CORRECT results?</p>
+<h4 id="Radiometry"><a href="#Radiometry" class="headerlink" title="Radiometry"></a>Radiometry</h4><p>Measurement system and units for illumination</p>
+<p>Accurately measure the spatial properties of light</p>
+<ul>
+<li>New terms: Radiant flux, intensity, irradiance, radiance</li>
+</ul>
+<p>Perform lighting calculations in a physically correct manner</p>
+<p>My personal way of learning things:</p>
+<ul>
+<li>WHY, WHAT, then HOW</li>
+</ul>
+<h3 id="Radiant-Energy-and-Flux-Power"><a href="#Radiant-Energy-and-Flux-Power" class="headerlink" title="Radiant Energy and Flux (Power)"></a>Radiant Energy and Flux (Power)</h3><h4 id="Radiant-Energy-and-Flux-Power-1"><a href="#Radiant-Energy-and-Flux-Power-1" class="headerlink" title="Radiant Energy and Flux (Power)"></a>Radiant Energy and Flux (Power)</h4><p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqa70o4dwxj30tj0fwq4n.jpg"></p>
+<h4 id="Flux"><a href="#Flux" class="headerlink" title="Flux"></a>Flux</h4><p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqa6znke1ej30t80gzk0m.jpg"></p>
+<h4 id="Important-Light-Measurements-of-Interest"><a href="#Important-Light-Measurements-of-Interest" class="headerlink" title="Important Light Measurements of Interest"></a>Important Light Measurements of Interest</h4><p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqa703lb04j30tm0gxq52.jpg"></p>
+<h3 id="Radiant-Intensity"><a href="#Radiant-Intensity" class="headerlink" title="Radiant Intensity"></a>Radiant Intensity</h3><p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqa6eb3jblj30tj0gwtb9.jpg"></p>
+<h4 id="Angles-and-Solid-Angles"><a href="#Angles-and-Solid-Angles" class="headerlink" title="Angles and Solid Angles"></a>Angles and Solid Angles</h4><p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqa6lc6msyj30op0f9wgc.jpg"></p>
+<h4 id="Differential-Solid-Angles"><a href="#Differential-Solid-Angles" class="headerlink" title="Differential Solid Angles"></a>Differential Solid Angles</h4><p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqa6o6j6maj30ts0gy40z.jpg"></p>
+<p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqa6u0mccbj30tn0gttb6.jpg"></p>
+<p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqa6yw42ftj30tr0gtabu.jpg"></p>
+<h4 id="Isotropic-Point-Source"><a href="#Isotropic-Point-Source" class="headerlink" title="Isotropic Point Source"></a>Isotropic Point Source</h4><p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqa67oyowoj30tm0gx0us.jpg"></p>
+<h4 id="Modern-LED-Light"><a href="#Modern-LED-Light" class="headerlink" title="Modern LED Light"></a>Modern LED Light</h4><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210507174106925.png"></p>
+<br>
 
 <center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_14.pdf">
             <i class="fas fa-download"></i>GAMES101_Lecture_14
@@ -13715,8 +13772,8 @@
 <p><strong><a href="https://unsplash.com/">点击跳转到 Unsplash</a></strong></p>
 </body></html>]]></content>
       <categories>
-        <category>博客搭建 (Blog Building)</category>
         <category>写作技巧 (Write Skill)</category>
+        <category>博客搭建 (Blog Building)</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
