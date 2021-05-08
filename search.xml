@@ -4,7 +4,7 @@
     <title>Introduction,big-O notation,arithmetic</title>
     <url>/archives/7d5f0453.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/17f91d6659d324d216b443ec0a3cfe3b21474701.png"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p> 在CS170中，我们将学习图算法、贪婪算法、动态规划、线性规划、快速矩阵乘法、傅立叶变换、数论、复杂性和NP-完备性等算法的设计和分析。本节主要是课程介绍和大O表示法。</p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p> 在CS170中，我们将学习图算法、贪婪算法、动态规划、线性规划、快速矩阵乘法、傅立叶变换、数论、复杂性和NP-完备性等算法的设计和分析。本节主要是课程介绍和算数的效率问题。</p>
 <span id="more"></span>
 
 
@@ -58,7 +58,7 @@
 <p>Time：$O(n^2)$</p>
 </blockquote>
 <p>这不是我们通常使用的算法，我们通常用小学学到的乘法法则：从右边开始相乘，然后轮流乘最后把它们合到一起再加得到最后的结果。这里的大O可以想象成不会一直记录的隐藏变量。</p>
-<h4 id="分治算法"><a href="#分治算法" class="headerlink" title="分治算法"></a>分治算法</h4><p>一个很自然的问题是你可以运算的更快吗？俄国数学家柯尔莫哥洛夫认为没有比$n^2$更快的算法了，但他被证明是错的，有人想出了一个比n平方还快的算法：分治算法。</p>
+<h4 id="Karatsuba算法"><a href="#Karatsuba算法" class="headerlink" title="Karatsuba算法"></a>Karatsuba算法</h4><p>一个很自然的问题是你可以运算的更快吗？俄国数学家柯尔莫哥洛夫认为没有比$n^2$更快的算法了，但他被证明是错的，有人想出了一个比n平方还快的算法：分治算法。</p>
 <blockquote>
 <p>Alg3：Divide &amp; Conquer</p>
 <p>$x = 5143 \qquad y = 0291$</p>
@@ -106,9 +106,9 @@
 </blockquote>
 <p>我仍然从n个数字到n/2到n/4再到n/8，每次都会保有数字，降到一位数的所需次数是一样的，唯一改变的是我的子集少了：不是分四次，每次推下去都是三个分支。</p>
 <blockquote>
-<p>$Total time = cn  \frac{\frac{3}{2}^{\log_2n+1}-1}{\frac{3}{2}-1} = \frac{3}{2} * 2cn * (\frac{3}{2})^{\log_2n} = 3c * 3^{\log_2n}$</p>
+<p>$Total time = cn  \frac{\frac{3}{2}^{\log_2n+1}-1}{\frac{3}{2}-1} = \frac{3}{2} * 2cn * (\frac{3}{2})^{\log_2n} = 3c * 3^{\log_2n} = 3c * n^{\log_23} = O(n^{1.585})$</p>
 </blockquote>
-<p>可以看到3也是2的log3次方</p>
+<p>当然小于n的平方。你可能会问自己这看起来很好，因为每个人都已经用了乘法很长一段时间，而老师从未提到过这种算法。在Java中有标准库实现大型数据类型，但是在python中我们甚至不需要使用大型数据类型，查看python源码就会发现它事实上是用整数做乘法的，也就是这个古怪的递归算法（如果位数大于70位）。</p>
 </body></html>]]></content>
       <categories>
         <category>高效算法与棘手问题 (US Berkeley CS170)</category>
