@@ -4,7 +4,7 @@
     <title>Introduction,big-O notation,arithmetic</title>
     <url>/archives/7d5f0453.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/17f91d6659d324d216b443ec0a3cfe3b21474701.png"></p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p> 在CS170中，我们将学习图算法、贪婪算法、动态规划、线性规划、快速矩阵乘法、傅立叶变换、数论、复杂性和NP-完备性等算法的设计和分析。</p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p> 在CS170中，我们将学习图算法、贪婪算法、动态规划、线性规划、快速矩阵乘法、傅立叶变换、数论、复杂性和NP-完备性等算法的设计和分析。本节主要是课程介绍和大O表示法。</p>
 <span id="more"></span>
 
 
@@ -47,13 +47,68 @@
 </blockquote>
 <p>幸运的是我们都知道另一种算法，并且这是我们在幼儿园就学了的算法：只要把一个数字写在另一个的上面，从右到左计算然后一直记录进位，然后我们就可以得到答案。</p>
 <p>这个算法的运行时间是多少？n步。所以当你在设计算法的时候，你需要考虑的一点是我能做得更好吗？前一个算法需要$10^n$步，现在我们只需要n步就好了。</p>
-<h3 id="乘法"><a href="#乘法" class="headerlink" title="乘法"></a>乘法</h3><blockquote>
+<h3 id="乘法"><a href="#乘法" class="headerlink" title="乘法"></a>乘法</h3><h4 id="累加"><a href="#累加" class="headerlink" title="累加"></a>累加</h4><blockquote>
 <p>Multiplication</p>
 <p>Alg1：Add in x,y times</p>
 <p>Time：y * n &lt;= $10^n$ * n</p>
 </blockquote>
 <p>这里有很多算法，算法一是加x y次。从0开始，加y次x到计数器上，将x添加到运行计数器需要多长时间？你运行的计数器总是在0和最终结果之间，如果用n位数乘以n位数，答案最多是2n位数，而每一次加法都需要n的时间，然后做y次。</p>
-<p>这不是我们通常使用的算法，我们通常用小学学到的乘法法则：从右边开始相乘，然后轮流乘最后把它们合到一起再加得到最后的结果。</p>
+<h4 id="乘法运算"><a href="#乘法运算" class="headerlink" title="乘法运算"></a>乘法运算</h4><blockquote>
+<p>Alg2：Multiplication</p>
+<p>Time：$O(n^2)$</p>
+</blockquote>
+<p>这不是我们通常使用的算法，我们通常用小学学到的乘法法则：从右边开始相乘，然后轮流乘最后把它们合到一起再加得到最后的结果。这里的大O可以想象成不会一直记录的隐藏变量。</p>
+<h4 id="分治算法"><a href="#分治算法" class="headerlink" title="分治算法"></a>分治算法</h4><p>一个很自然的问题是你可以运算的更快吗？俄国数学家柯尔莫哥洛夫认为没有比$n^2$更快的算法了，但他被证明是错的，有人想出了一个比n平方还快的算法：分治算法。</p>
+<blockquote>
+<p>Alg3：Divide &amp; Conquer</p>
+<p>$x = 5143 \qquad y = 0291$</p>
+<p>$x_h = 51 \qquad x_l = 43 \qquad y_h = 02 \qquad y_l = 91$</p>
+<p>$x = x_h * 10^{n/2} + x_l \qquad y = y_h * 10^{n/2} + y_l$</p>
+<p>$x<em>y=x_hy_h</em>10^n+(x_hy_l+x_ly_h)*10^{n/2}+x_ly_l$</p>
+</blockquote>
+<p>x和y是n位数字，我需要递归地乘以两个n/2位数的数直至我们熟记的乘法表，最终次数为4。</p>
+<blockquote>
+<p>$T(n) &lt;= 4 T(\frac{n}{2}) + c*n \qquad n&gt;1$ </p>
+<p>$T(n) = 1 \qquad\qquad\qquad\space\qquad n = 1$</p>
+</blockquote>
+<p>我们有这个函数$T(n)$，但是它是什么样的呢？总的时间就是这四个递归调用的时间：</p>
+<blockquote>
+<p>$Time per level = cn + 2cn(4<em>c</em>\frac{n}{2}) + 4n(4^2 * c * \frac{n}{4}) + 8cn$</p>
+<p>$Total = cn * (1+2+2^2+2^3+…+2^k)$</p>
+<p>Done when $\frac{n}{2^k}=1 \to n = 2^k \to k = \log_2n$</p>
+</blockquote>
+<p>在我得到基本情况前，k就是这个树的深度。当$\frac{n}{2^k}=1$时完成，这意味着k等于$\log_2n$。</p>
+<blockquote>
+<p>$S = 1 + p + p^2 +p^3 + … + p^k$</p>
+<p>$p*S = p + p^2 + p^3 + … +p^{k+1}$</p>
+<p>$p * S - S = S * (p - 1) = p^{k+1} - 1$</p>
+<p>$S = \frac{p^{k+1}-1}{p-1}$</p>
+<p>$Total time = cn  \frac{2^{\log_2n+1}-1}{2-1} = cn(2n-1) = O(n^2)$</p>
+</blockquote>
+<p>所以我们的总时间为$O(n^2)$，所以我们实际上已经做完了所有的运算，这是比我们在小学学到的更复杂的版本。事实上它会更慢，因为递归需要时间，需要将参数推入调用堆栈。</p>
+<blockquote>
+<p>$x<em>y=x_hy_h</em>10^n+(x_hy_l+x_ly_h)*10^{n/2}+x_ly_l$</p>
+</blockquote>
+<p>回到之前的分治，理论上我们需要四个乘积。Coma Groves的朋友意识到我其实不需要这两个乘积，因为最后我会把它们加进去，我需要的是它们的和而不是每个单独的数字。有没有一种方法可以不用逐个运算就求出它们的和？他的灵感来自于高斯的一个快速乘法技巧：</p>
+<blockquote>
+<p>$A = x_h \times y_h$</p>
+<p>$B=x_l \times y_l$</p>
+<p>$D = (x_h+x_l)\times(y_h+y_l)$</p>
+</blockquote>
+<p>看起来很奇怪，神奇之处在于$x_hy_l+x_ly_h$可以改写成$D-A-B$：</p>
+<blockquote>
+<p>$x \times y=A+(D-A-B) + B= D$</p>
+</blockquote>
+<p>现在我得到了新的递归式：$T(n)&lt;=3T(\frac{n}{2})+cn$，这意味着我们只需要进行三次递归：</p>
+<blockquote>
+<p>$Time per level = cn + \frac{3}{2}cn + (\frac{3}{2})^2cn + (\frac{3}{2})^3cn$</p>
+<p>$Total = cn * (1+\frac{3}{2}+(\frac{3}{2})^2+(\frac{3}{2})^3+…+(\frac{3}{2})^k)$</p>
+</blockquote>
+<p>我仍然从n个数字到n/2到n/4再到n/8，每次都会保有数字，降到一位数的所需次数是一样的，唯一改变的是我的子集少了：不是分四次，每次推下去都是三个分支。</p>
+<blockquote>
+<p>$Total time = cn  \frac{\frac{3}{2}^{\log_2n+1}-1}{\frac{3}{2}-1} = \frac{3}{2} * 2cn * (\frac{3}{2})^{\log_2n} = 3c * 3^{\log_2n}$</p>
+</blockquote>
+<p>可以看到3也是2的log3次方</p>
 </body></html>]]></content>
       <categories>
         <category>高效算法与棘手问题 (US Berkeley CS170)</category>
