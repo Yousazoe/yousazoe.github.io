@@ -246,7 +246,7 @@
 <p>数学上角的定义一般是弧度，我们认为一个角从圆心出发往某一方向张开一定角度，它会打到圆弧上面对应一段弧长，那么我定义角度就是弧长/半径，整个圆的角度是$2 \pi r / r = 2\pi$。大家可以发现对圆的缩放并不影响角度，因为弧长和半径会同步缩放，所以这个定义比较合理。</p>
 <p>立体角就是角度在三维空间中的延伸。在三维空间中我们找一个球，从球心出发形成某一个有一定大小的锥。这个锥会打到球面上，对应球面上的一个面积。立体角的定义就是这个锥对应的球面面积/半径的平方，也是弧度制在空间中的延伸，整个球对应的立体角为$4 \pi r^2 / r^2 = 4\pi$。这就是立体角的定义，说白了就是空间中的角有多大。</p>
 <h4 id="Differential-Solid-Angles"><a href="#Differential-Solid-Angles" class="headerlink" title="Differential Solid Angles"></a>Differential Solid Angles</h4><p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqa6o6j6maj30ts0gy40z.jpg"></p>
-<p>我们平常会定义单位立体角。对于一个单位立体角，我们就找一个单位的面积/半径平方，现在通过离z轴的夹角$\theta$和绕z轴旋转的夹角$\phi$定义一个球面上唯一的方向。如果我们取一个单位面积认为是一个矩形，应该算出长和宽各是多少，但我们发现横着的边的长度就是</p>
+<p>我们平常会定义单位立体角。对于一个单位立体角，我们就找一个单位的面积/半径平方，现在通过离z轴的夹角$\theta$和绕z轴旋转的夹角$\phi$定义一个球面上唯一的方向。如果我们取一个单位面积认为是一个矩形，应该算出长和宽各是多少，但我们发现横着的边的长度就是$d\phi$，竖着的这条边就是$r\sin{\theta}$长度，通过这种方式定义出小方块的面积应该是$r^2\sin{\theta d\theta d\phi}$，带入立体角公式得到$\sin{\theta}d\theta d\phi$。</p>
 <p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqa6u0mccbj30tn0gttb6.jpg"></p>
 <p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqa6yw42ftj30tr0gtabu.jpg"></p>
 <h4 id="Isotropic-Point-Source"><a href="#Isotropic-Point-Source" class="headerlink" title="Isotropic Point Source"></a>Isotropic Point Source</h4><p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqa67oyowoj30tm0gx0us.jpg"></p>
