@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Light Transport &amp; Global Illumination</title>
+    <url>/archives/ad809f54.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqc35apt6bj31hc0u0q4z.jpg"></p>
+<div align="center">
+  <font size="3">
+    <i>
+      <a href="https://twitter.com/AlCHeMoS_Game/status/1390386381864701956">RayTracing</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101现代图形学入门是由闫令琪老师教授。前面的课程提到光线追踪是怎么做的，今天我们来讲光线追踪的第三部分，结束之前的辐射度量学并引入复杂的光线传播理论以及全局光照。</p>
+<span id="more"></span>
+
+
+
+<h3 id="Radiometry-cont"><a href="#Radiometry-cont" class="headerlink" title="Radiometry cont"></a>Radiometry cont</h3><h4 id="Reviewing-Concepts"><a href="#Reviewing-Concepts" class="headerlink" title="Reviewing Concepts"></a>Reviewing Concepts</h4><p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqc3gl6r58j30to0gy0v5.jpg"></p>
+<h4 id="Differential-Solid-Angles"><a href="#Differential-Solid-Angles" class="headerlink" title="Differential Solid Angles"></a>Differential Solid Angles</h4><p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqcd5j26ejj30tu0gpdia.jpg"></p>
+<h4 id="Irradiance"><a href="#Irradiance" class="headerlink" title="Irradiance"></a>Irradiance</h4><p>Definition: The irradiance is the power per unit area incident on a surface point.</p>
+<p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqcd667gpnj30te0crq41.jpg"></p>
+<p>Irradiance的定义是每单位面积对应的power，微小的面积有微小的能量，那么微小的能量除以微小的面积不就是power per area。在中文中Irradiance被称为辐照度，指单位面积上的辐射通量。</p>
+<h5 id="Lambert’s-Cosine-Law"><a href="#Lambert’s-Cosine-Law" class="headerlink" title="Lambert’s Cosine Law"></a>Lambert’s Cosine Law</h5><p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqcd71nzlaj30tx0h4tb2.jpg"></p>
+<h5 id="Why-Do-We-Have-Seasons"><a href="#Why-Do-We-Have-Seasons" class="headerlink" title="Why Do We Have Seasons?"></a>Why Do We Have Seasons?</h5><p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqcd7pmflzj30u70g5tew.jpg" alt="image-20210509184515485"></p>
+<h3 id="Light-transport"><a href="#Light-transport" class="headerlink" title="Light transport"></a>Light transport</h3><h3 id="Global-illumination"><a href="#Global-illumination" class="headerlink" title="Global illumination"></a>Global illumination</h3><br>
+
+<center><a class="btn" href="https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_15.pdf">
+            <i class="fas fa-download"></i>GAMES101_Lecture_15
+          </a></center>
+
+</body></html>]]></content>
+  </entry>
+  <entry>
     <title>Introduction,big-O notation,arithmetic</title>
     <url>/archives/7d5f0453.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/17f91d6659d324d216b443ec0a3cfe3b21474701.png"></p>
