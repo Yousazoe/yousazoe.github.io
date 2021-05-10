@@ -33,6 +33,13 @@
           </a></center>
 
 </body></html>]]></content>
+      <categories>
+        <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
+      </categories>
+      <tags>
+        <tag>Computer Graphics</tag>
+        <tag>RayTracing</tag>
+      </tags>
   </entry>
   <entry>
     <title>Introduction,big-O notation,arithmetic</title>
@@ -3589,7 +3596,7 @@
 <p>回到<code>Log.cpp</code>，可以看到我们得到一个因没有声明函数导致的错误：</p>
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210401205838241.png"></p>
 <p>但如果加入之前包含函数声明的头文件<code>Log.h</code>，报错消失并且文件可以编译：</p>
-<figure class="highlight c++"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"Log.h"</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">InitLog</span><span class="params">()</span></span>{</span><br><span class="line">    Log(<span class="string">"Initializing Log"</span>);</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight diff"><table><tbody><tr><td class="code"><pre><span class="line"><span class="addition">+ #include "Log.h"</span></span><br><span class="line"></span><br><span class="line">void InitLog(){</span><br><span class="line">    Log("Initializing Log");</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
 
 <p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210401210048322.png"></p>
 <p>回到<code>main.cpp</code>，如果我们想调用<code>InitLog()</code>，那么就在<code>Log.h</code>中添加<code>InitLog()</code>函数的声明，再在<code>main.cpp</code>中调用<code>Log.h</code>头文件即可：</p>
@@ -3597,12 +3604,21 @@
 
 
 
-<figure class="highlight diff"><table><tbody><tr><td class="code"><pre><span class="line">void Log(const char* message);</span><br><span class="line"><span class="addition">+void InitLog();</span></span><br></pre></td></tr></tbody></table></figure>
+<p>回到<code>Log.h</code>添加函数<code>InitLog()</code>的声明：</p>
+<figure class="highlight diff"><table><tbody><tr><td class="code"><pre><span class="line">#pragma once</span><br><span class="line"></span><br><span class="line">void Log(const char* message);</span><br><span class="line"><span class="addition">+void InitLog();</span></span><br></pre></td></tr></tbody></table></figure>
 
 
 
+<p>现在运行我们的程序，可以看到我们初始化了Log，然后将Hello World输出到控制台。</p>
+<p><img data-src="./images/loading.gif" data-original="https://tva1.sinaimg.cn/large/008i3skNgy1gqd8ubks8xj310q0h83zg.jpg"></p>
+<p>好的，让我们回到头文件看看那个<code>#pragma</code>声明到底是什么。它看上去是为我们自动插入的，首先任何以<code>#</code>开头的东西被称为预处理器命令或预处理器指令，这意味着它在实际编译此文件之前被处理。</p>
+<p><code>pragma</code>本质上是一个被发送到编译器或预处理器的预处理指令，它想要只包括这个文件一次。<code>#pragma once</code>监督着这个头文件，组织我们单个头文件多次被包含并转换为单个翻译单元。现在我非常谨慎地选择我的措辞，因为你要明白这并不妨碍我们将头文件放在程序的多个位置，而只是说放在一个翻译单元，一个CPP文件。</p>
+<p>原因是如果我们不小心多次包含了一个文件并转换成一个翻译单元，我们会得到duplicate复制错误，因为我们会复制粘贴整个头文件多次，演示这一点最好方法是我们创建一个结构体。例如我在<code>Log.h</code>创建了一个名为<code>player</code>的结构体，我可以让它空着，这不重要。</p>
+<figure class="highlight diff"><table><tbody><tr><td class="code"><pre><span class="line"><span class="deletion">-#pragma once</span></span><br><span class="line"></span><br><span class="line">void Log(const char* message);</span><br><span class="line">void InitLog();</span><br><span class="line"></span><br><span class="line"><span class="addition">+struct player {};</span></span><br></pre></td></tr></tbody></table></figure>
 
 
+
+<p>如果我将这个文件包含两次并转换成一个翻译单元，放弃这个<code>#pragma once</code>监督，它实际上会包含该文件两次，这意味着我将有两个相同名字的<code>player</code>结构体。回到<code>main.cpp</code>包含<code>Log.h</code>两次</p>
 </body></html>]]></content>
       <categories>
         <category>Cherno的C++笔记 (Cherno C++)</category>
@@ -22513,8 +22529,8 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
-        <tag>Game</tag>
         <tag>Art</tag>
+        <tag>Game</tag>
       </tags>
   </entry>
   <entry>
