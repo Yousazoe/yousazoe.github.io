@@ -1,6 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>旋转与投影</title>
+    <url>/archives/1ecca1be.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/E0zNdAgXMAIBu_T.jpeg"></p>
+<div align="center">
+  <font size="3">
+    <i>
+      <a href="https://twitter.com/m4ndrill/status/1390712946343522305">Twitter@m4ndrill
+
+</a>
+    </i>
+  </font>
+</div>
+
+
+
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101现代图形学入门是由闫令琪老师教授。本次作业主要是旋转与投影，深入理解投影变换。</p>
+<span id="more"></span>
+
+<blockquote>
+<p>大家好，GAMES101课程的作业1现在发布。</p>
+<p>我们在games，smartchair放了两份完全相同的备份，请大家根据网络环境自行选择下载途径。</p>
+<p><a href="http://games-cn.org/wp-content/uploads/2020/02/Assignment1.zip">games的作业1链接</a></p>
+<p><a href="http://www.smartchair.org/f_/GAMES2020Course-YLQ/75aa1/F2/Hw1.zip">smartchair的作业1链接</a></p>
+</blockquote>
+<h3 id="总览"><a href="#总览" class="headerlink" title="总览"></a>总览</h3><p>到目前为止，我们已经学习了如何使用矩阵变换来排列二维或三维空间中的对象。所以现在是时候通过实现一些简单的变换矩阵来获得一些实际经验了。在接下来的三次作业中，我们将要求你去模拟一个基于 CPU 的光栅化渲染器的简化版本。</p>
+<p>本次作业的任务是填写一个旋转矩阵和一个透视投影矩阵。给定三维下三个点$v0(2.0,0.0,−2.0),v1(0.0,2.0,−2.0),v2(−2.0,0.0,−2.0)$, 你需要将这三个点的坐标变换为屏幕坐标并在屏幕上绘制出对应的线框三角形 (在代码框架中，我们已经提供了 <code>draw_triangle</code> 函数，所以你只需要去构建变换矩阵即可)。简而言之， 我们需要进行模型、视图、投影、视口等变换来将三角形显示在屏幕上。在提供的代码框架中，我们留下了模型变换和投影变换的部分给你去完成。</p>
+<p>如果你对上述概念有任何不清楚或疑问，请复习课堂笔记或询问助教。</p>
+<p>以下是你需要在 <code>main.cpp</code> 中修改的函数(请不要修改任何的函数名和其他已经填写好的函数，并保证提交的代码是已经完成且能运行的):</p>
+<ul>
+<li><code>get_model_matrix(float rotation_angle)</code>: 逐个元素地构建模型变换矩阵并返回该矩阵。在此函数中，你只需要实现三维中绕 z 轴旋转的变换矩阵， 而不用处理平移与缩放</li>
+<li><code>get_projection_matrix(float eye_fov, float aspect_ratio, float zNear, float zFar)</code>: 使用给定的参数逐个元素地构建透视投影矩阵并返回该矩阵</li>
+<li><code>[Optional] main()</code>: 自行补充你所需的其他操作</li>
+</ul>
+<p>当你在上述函数中正确地构建了模型与投影矩阵，光栅化器会创建一个窗口显示出线框三角形。由于光栅化器是逐帧渲染与绘制的，所以你可以使用 <strong>A</strong> 和 <strong>D</strong> 键去将该三角形绕 z 轴旋转 (此处有一项提高作业，将三角形绕任意过原点的轴旋转)。当你按下 <strong>Esc</strong> 键时，窗口会关闭且程序终止。</p>
+<p>另外，你也可以从命令行中运行该程序。你可以使用以下命令来运行和传递旋转角给程序，在这样的运行方式下，是不会生成任何的窗口，输出的结果图像会被存储在给定的文件中 (若未指定文件名，则默认存储在 <code>output.png</code> 中)。图像的存储位置在可执行文件旁，所以如果你的可执行文件是在 <code>build</code> 文件夹中， 那么图像也会在该文件夹内。</p>
+<p>命令行的使用命令如下:</p>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">./Rasterizer //循环运行程序，创建一个窗口显示，且你可以使用A键和D键旋转三角形</span><br><span class="line">./Rasterizer−r20 //运行程序并将三角形旋转20度,然后将结果存在output.png中</span><br><span class="line">./Rasterizer−r20image.png //运行程序并将三角形旋转20度，然后将结果存在image.png中</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h3 id="代码框架"><a href="#代码框架" class="headerlink" title="代码框架"></a>代码框架</h3><p>在本次作业中，因为你并不需要去使用三角形类，所以你需要理解与修改的文件为<code>:rasterizer.hpp</code> 和 <code>main.cpp</code>。其中 <code>rasterizer.hpp</code> 文件作用是生成渲染器界面与绘制。</p>
+<p>光栅化器类在该程序系统中起着重要的作用，其成员变量与函数如下：</p>
+<h4 id="成员变量"><a href="#成员变量" class="headerlink" title="成员变量"></a>成员变量</h4><ul>
+<li><p><code>Matrix4f model, view, projection</code>: 三个变换矩阵。</p>
+</li>
+<li><p><code>vector&lt;Vector3f&gt; frame_buf</code>: 帧缓冲对象，用于存储需要在屏幕上绘制的</p>
+<p>颜色数据。</p>
+</li>
+</ul>
+<h4 id="成员函数"><a href="#成员函数" class="headerlink" title="成员函数"></a>成员函数</h4><ul>
+<li><p><code>set_model(constEigen::Matrix4f&amp;m)</code>: 将内部的模型矩阵作为参数传 递给光栅化器。</p>
+</li>
+<li><p><code>set_view(const Eigen::Matrix4f&amp; v)</code>: 将视图变换矩阵设为内部视图矩 阵。</p>
+</li>
+<li><p><code>set_projection(const Eigen::Matrix4f&amp; p)</code>: 将内部的投影矩阵设为给 定矩阵 p，并传递给光栅化器</p>
+</li>
+<li><p><code>set_pixel(Vector2f point, Vector3f color)</code>: 将屏幕像素点 (x, y) 设 为 (r, g, b) 的颜色，并写入相应的帧缓冲区位置。</p>
+</li>
+</ul>
+<p>在 <code>main.cpp</code> 中，我们模拟了图形管线。我们首先定义了光栅化器类的实例，然后设置了其必要的变量。然后我们得到一个带有三个顶点的硬编码三角形 (请不要修改它)。在主函数上，我们定义了三个分别计算模型、视图和投影矩阵的函数，每一个函数都会返回相应的矩阵。接着，这三个函数的返回值会被 <code>set_model()</code>, <code>set_view()</code> 和 <code>set_projection()</code> 三个函数传入光栅化器中。最后，光栅化器在屏幕上显示出变换的结果。</p>
+<p>在用模型、视图、投影矩阵对给定几何体进行变换后，我们得到三个顶点的正则化空间坐标 (canonical space coordinate)。正则化空间坐标是由三个取值范围在 [-1,1] 之间的 x, y, z 坐标构成。我们下一步需要做的就是视口变换，将坐标映射到我们的屏幕中 <code>(window_width * window_height)</code>，这些在光栅化器中都已完成，所以不需要担心。但是，你需要去理解这步操作是如何运作的，这一点十分重要。</p>
+<h3 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h3><p>如果使用自己的系统，本次程序作业中使用到的库为 Eigen 与 OpenCV，请确保这两个库的配置正确。</p>
+<p>如果使用虚拟机并用 CMake 进行编译，请在终端(命令行)下输入以下内容:</p>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">mkdirbuild 		// 创建build文件夹以保留的工程文件</span><br><span class="line">cdbuild 	 		// 进入build文件夹</span><br><span class="line">cmake .. 	 		// 通过提供CMakeLists.txt文件的路径作为参数来运行CMake</span><br><span class="line">make−j4 	 		// 通过make编译代码，−j4表示通过4个内核进行并行化编译</span><br><span class="line">./Rasterizer	// 运行代码</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<p>如果没有对虚拟机的核心数进行过设置，可以在 <strong>Virtual Box</strong> 里点击“设 置”，在弹出的窗口中选择“系统—处理器”，然后就可以设置虚拟机的核心数了。 具体操作可见下图:</p>
+<p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210511202848006.png"></p>
+<h3 id="评分与提交"><a href="#评分与提交" class="headerlink" title="评分与提交"></a>评分与提交</h3><h4 id="评分"><a href="#评分" class="headerlink" title="评分"></a>评分</h4><p>每次作业的评分，分为基础与提高两部分，即在作业批改时会给大家反馈两 个成绩。由于作业不是强制要求必须提交，所以在完成全部作业后，我们会统计 所有的基础分数。若基础分数及格则视为通过课程，反之视为不通过。</p>
+<ul>
+<li>[5 分] 正确构建模型矩阵。</li>
+<li>[5 分] 正确构建透视投影矩阵。</li>
+<li>[10 分] 你的代码可以在现有框架下正确运行，并能看到变换后的三角形。</li>
+<li>[10 分] 当按 A 键与 D 键时，三角形能正确旋转。或者正确使用命令行得到旋转结果图像。</li>
+<li>[提高项 5 分] 在 <code>main.cpp</code> 中构造一个函数，该函数的作用是得到绕任意过原点的轴的旋转变换矩阵。<br> <code>Eigen::Matrix4f get_rotation(Vector3f axis, float angle)</code></li>
+</ul>
+<h4 id="提交"><a href="#提交" class="headerlink" title="提交"></a>提交</h4><p>当你完成作业后，请清理你的项目，记得在你的文件夹中包含 CMakeLists.txt 和所有的程序文件 (无论是否修改)。同时，请添加一个 README.md 文件写下 是否完成提高题。最后，将上述内容打包，并用“姓名_Homework1.zip”的命名 方式提交到 SmartChair 平台。</p>
+<p>平台链接:<a href="http://smartchair.org/GAMES2020Course-YLQ">http://smartchair.org/GAMES2020Course-YLQ</a></p>
+</body></html>]]></content>
+      <categories>
+        <category>现代图形学入门 (GAMES101-Introduction to Computer Graphics)</category>
+      </categories>
+      <tags>
+        <tag>Computer Graphics</tag>
+        <tag>Math</tag>
+        <tag>Linear Algebra</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>虚拟机的使用</title>
     <url>/archives/78f45d1.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><html><head></head><body><p><img data-src="./images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/E1BV_L3XEAE9fru.jpeg"></p>
@@ -18,14 +108,19 @@
 <h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>GAMES101现代图形学入门是由闫令琪老师教授。本次作业主要是虚拟机安装和eigen库的使用。</p>
 <span id="more"></span>
 
-
-
+<blockquote>
+<p>大家好，经过老师和助教的努力，我们今天终于迎来了作业0的发布。</p>
+<p>我们在games，smartchair和清华云盘放了三份完全相同的备份，请大家根据网络环境自行选择下载途径。</p>
+<p><a href="http://games-cn.org/wp-content/uploads/2020/02/pa0.zip">games的作业0链接</a></p>
+<p><a href="http://www.smartchair.org/f_/GAMES2020Course-YLQ/a475c/F1/Hw0.zip">smartchair的作业0链接</a></p>
+<p><a href="https://cloud.tsinghua.edu.cn/f/d8117deee2c84153afd8/?dl=1">清华云盘的作业0链接</a>，密码20200221</p>
+</blockquote>
 <h3 id="虚拟机的使用"><a href="#虚拟机的使用" class="headerlink" title="虚拟机的使用"></a>虚拟机的使用</h3><p>为了免去配置作业所需环境的麻烦，本次课程使用虚拟机，学生在虚拟机内编写，编译和运行代码。我们提供的文件为虚拟硬盘文件，使用虚拟机挂载该文 件后，就可以保证所有人的环境是统一并且完善的，不需要再手动配置环境。在 安装完虚拟机后，我们需要手动安装 Guest Additions 来增强虚拟机的功能。</p>
 <h4 id="安装虚拟机"><a href="#安装虚拟机" class="headerlink" title="安装虚拟机"></a>安装虚拟机</h4><p>这里我们使用 <strong>Oracle VM VirtualBox</strong> 虚拟机。</p>
-<p>如果你使用 Windows 系统，你可以直接下载<a href="https://download.virtualbox.org/virtualbox/6.1.4/VirtualBox-6.1.4-136177-Win.exe%EF%BC%8C%E4%B8%8B%E8%BD%BD%E5%AE%8C%E6%88%90%E5%90%8E%E6%8C%89">https://download.virtualbox.org/virtualbox/6.1.4/VirtualBox-6.1.4-136177-Win.exe，下载完成后按</a> 照指示完成安装。</p>
-<p>如果你使用 Mac OS 系统，你可以直接下载<a href="https://download.virtualbox.org/virtualbox/6.1.4/VirtualBox-6.1.4-136177-OSX.dmg%EF%BC%8C%E4%B8%8B%E8%BD%BD%E5%AE%8C%E6%88%90%E5%90%8E%E6%8C%89">https://download.virtualbox.org/virtualbox/6.1.4/VirtualBox-6.1.4-136177-OSX.dmg，下载完成后按</a> 照指示完成安装。</p>
-<p>如果你使用 Linux 内核的系统，你可以查看<a href="https://www.virtualbox.org/wiki/Linux_Downloads%EF%BC%8C%E6%89%BE%E5%88%B0%E4%BD%A0%E4%BD%BF%E7%94%A8%E7%9A%84%E7%B3%BB%E7%BB%9F%EF%BC%8C%E6%8C%89%E7%85%A7%E5%AF%B9%E5%BA%94%E7%9A%84%E6%8C%87%E7%A4%BA%E5%AE%8C%E6%88%90%E5%AE%89%E8%A3%85%E3%80%82">https://www.virtualbox.org/wiki/Linux_Downloads，找到你使用的系统，按照对应的指示完成安装。</a></p>
-<h4 id="下载虚拟硬盘"><a href="#下载虚拟硬盘" class="headerlink" title="下载虚拟硬盘"></a>下载虚拟硬盘</h4><p>虚拟硬盘文件的下载地址为 <a href="https://cloud.tsinghua.edu.cn/f/103133da1bf8451b8ba6%EF%BC%8C%E5%AF%86%E7%A0%81%E4%B8%BA">https://cloud.tsinghua.edu.cn/f/103133da1bf8451b8ba6，密码为</a> games101。下载完成后得到 <strong>GAMES101_Ubuntu 18.04.2(64bit).rar</strong>，将其解压后得到虚拟硬盘文件 <strong>GAMES101_Ubuntu 18.04.2 (64bi t).vdi</strong>。</p>
+<p>如果你使用 Windows 系统，你可以直接下载<a href="https://download.virtualbox.org/virtualbox/6.1.4/VirtualBox-6.1.4-136177-Win.exe">https://download.virtualbox.org/virtualbox/6.1.4/VirtualBox-6.1.4-136177-Win.exe</a> 下载完成后按 照指示完成安装。</p>
+<p>如果你使用 Mac OS 系统，你可以直接下载<a href="https://download.virtualbox.org/virtualbox/6.1.4/VirtualBox-6.1.4-136177-OSX.dmg">https://download.virtualbox.org/virtualbox/6.1.4/VirtualBox-6.1.4-136177-OSX.dmg</a> 下载完成后按 照指示完成安装。</p>
+<p>如果你使用 Linux 内核的系统，你可以查看<a href="https://www.virtualbox.org/wiki/Linux_Downloads">https://www.virtualbox.org/wiki/Linux_Downloads</a> 找到你使用的系统，按照对应的指示完成安装。</p>
+<h4 id="下载虚拟硬盘"><a href="#下载虚拟硬盘" class="headerlink" title="下载虚拟硬盘"></a>下载虚拟硬盘</h4><p>虚拟硬盘文件的下载地址为 <a href="https://cloud.tsinghua.edu.cn/f/103133da1bf8451b8ba6">https://cloud.tsinghua.edu.cn/f/103133da1bf8451b8ba6</a> 密码为 games101。下载完成后得到 <strong>GAMES101_Ubuntu 18.04.2(64bit).rar</strong>，将其解压后得到虚拟硬盘文件 <strong>GAMES101_Ubuntu 18.04.2 (64bi t).vdi</strong>。</p>
 <h4 id="配置虚拟机"><a href="#配置虚拟机" class="headerlink" title="配置虚拟机"></a>配置虚拟机</h4><p>打开 <strong>Virtual Box</strong>，点击新建，设置类型为 <strong>Linux</strong>，版本为 <strong>Ubuntu-64 bit</strong>，建议设置虚拟机的内存大小为 2GB，然后选择使用已有的虚拟硬盘文件，设置为 <strong>2GB</strong></p>
 <p>之前解压得到的 <strong>GAMES101_Ubuntu 18.04.2 (64bit).vdi</strong>，最后点击创建就完成了虚拟机的配置工作。</p>
 <p>之后就可以使用创建好的虚拟机了，选中刚刚创建好的虚拟机，点击右侧上方的启动按钮就可以打开虚拟机了，Ubuntu 系统的密码为 <strong>Ilovegraphics</strong>。</p>
@@ -72,7 +167,7 @@
 
 
 
-<h5 id="向量-矩阵"><a href="#向量-矩阵" class="headerlink" title="向量 矩阵"></a>向量 矩阵</h5><p>关于本部分内容，请详细阅读官方文档的矩阵部分<a href="https://eigen.tuxfamily.org/dox/group__TutorialMatrixArithmetic.html%E4%BB%A5%E8%8E%B7%E5%BE%97%E6%9B%B4%E5%85%A8%E9%9D%A2%E3%80%81%E6%B8%85%E6%99%B0%E7%9A%84%E7%90%86%E8%A7%A3%E3%80%82">https://eigen.tuxfamily.org/dox/group__TutorialMatrixArithmetic.html以获得更全面、清晰的理解。</a></p>
+<h5 id="向量-矩阵"><a href="#向量-矩阵" class="headerlink" title="向量 矩阵"></a>向量 矩阵</h5><p>关于本部分内容，请详细阅读官方文档的矩阵部分<a href="https://eigen.tuxfamily.org/dox/group__TutorialMatrixArithmetic.html">https://eigen.tuxfamily.org/dox/group__TutorialMatrixArithmetic.html</a> 以获得更全面、清晰的理解。</p>
 <figure class="highlight c++"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// Example of vector</span></span><br><span class="line"><span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">"Example of vector \n"</span>; <span class="comment">// vector definition</span></span><br><span class="line"><span class="function">Eigen::Vector3f <span class="title">v</span><span class="params">(<span class="number">1.0f</span>,<span class="number">2.0f</span>,<span class="number">3.0f</span>)</span></span>; <span class="function">Eigen::Vector3f <span class="title">w</span><span class="params">(<span class="number">1.0f</span>,<span class="number">0.0f</span>,<span class="number">0.0f</span>)</span></span>; <span class="comment">// vector output</span></span><br><span class="line"><span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">"Example of output \n"</span>; <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; v &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line"><span class="comment">// vector add</span></span><br><span class="line"><span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">"Example of add \n"</span>; <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; v + w &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line"><span class="comment">// vector scalar multiply</span></span><br><span class="line"><span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">"Example of scalar multiply \n"</span>; <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; v * <span class="number">3.0f</span> &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line"><span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="number">2.0f</span> * v &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br></pre></td></tr></tbody></table></figure>
 
 
