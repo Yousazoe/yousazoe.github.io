@@ -3428,7 +3428,32 @@
 <p>On the earth, this implies that the vector from the earth’s center to you points straight up. Let’s throw that into the code now, and shade it. We don’t have any lights or anything yet, so let’s just visualize the normals with a color map. A common trick used for visualizing normals (because it’s easy and somewhat intuitive to assume <strong>𝐧</strong> is a unit length vector — so each component is between −1 and 1) is to map each component to the interval from 0 to 1, and then map x/y/z to r/g/b. For the normal, we need the hit point, not just whether we hit or not. We only have one sphere in the scene, and it’s directly in front of the camera, so we won’t worry about negative values of 𝑡t yet. We’ll just assume the closest hit point (smallest 𝑡t). These changes in the code let us compute and visualize <strong>𝐧</strong>:</p>
 </blockquote>
 <p>说到底, 其实就是从球心到交点再向外延伸的那个方向。让我们把这部分转变成代码并开始着色。我们暂时还没有光源这样的东西, 所以让我们直接将法线值作为颜色输出吧。对于法线可视化来说, 我们常常将xyz分量的值先映射到0到1的范围(假定<code>vecN</code>是一个单位向量, 它的取值范围是-1到1的),再把它赋值给rgb。对于法线来说, 光能判断射线是否与球体相交是不够的, 我们还需求出交点的坐标。在有两个交点的情况下, 我们选取最近的交点smallest(t)。计算与可视化球的法向量的代码如下:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#96;&#96;&#96;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#### 一些C++的新特性</span><br><span class="line"></span><br><span class="line">&#96;hittable_list&#96;类使用了两种C++的特性:&#96;vector&#96;和&#96;shared_ptr&#96;, 如果你并不熟悉C++, 你可能会感到有些困惑。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">##### shared_ptr</span><br><span class="line"></span><br><span class="line">&#96;shared_ptr&lt;type&gt;&#96;是指向一些已分配内存的类型的指针。每当你将它的值赋值给另一个智能指针时, 物体的引用计数器就会+1。当智能指针离开它所在的生存范围(例如代码块或者函数外), 物体的引用计数器就会-1。一旦引用计数器为0, 即没有任何智能指针指向该物体时, 该物体就会被销毁</span><br><span class="line"></span><br><span class="line">一般来说, 智能指针首先由一个刚刚新分配好内存的物体来初始化:</span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96;c++</span><br><span class="line">shared_ptr&lt;double&gt; double_ptr &#x3D; make_shared&lt;double&gt;(0.37);</span><br><span class="line">shared_ptr&lt;vec3&gt;   vec3_ptr   &#x3D; make_shared&lt;vec3&gt;(1.414214, 2.718281, 1.618034);</span><br><span class="line">shared_ptr&lt;sphere&gt; sphere_ptr &#x3D; make_shared&lt;sphere&gt;(vec3(0,0,0), 1.0);</span><br></pre></td></tr></table></figure>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+double hit_sphere(const vec3&amp; center, double radius, const ray&amp; r) &#123;</span></span><br><span class="line">    vec3 oc = r.origin() - center;</span><br><span class="line">    auto a = dot(r.direction(), r.direction());</span><br><span class="line">    auto b = 2.0 * dot(oc, r.direction());</span><br><span class="line">    auto c = dot(oc, oc) - radius*radius;</span><br><span class="line">    auto discriminant = b*b - 4*a*c;</span><br><span class="line"><span class="addition">+    if (discriminant &lt; 0) &#123;</span></span><br><span class="line"><span class="addition">+        return -1.0;</span></span><br><span class="line"><span class="addition">+    &#125; else &#123;</span></span><br><span class="line"><span class="addition">+        return (-b - sqrt(discriminant) ) / (2.0*a);</span></span><br><span class="line"><span class="addition">+    &#125;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">vec3 ray_color(const ray&amp; r) &#123;</span><br><span class="line"><span class="addition">+    auto t = hit_sphere(vec3(0,0,-1), 0.5, r);</span></span><br><span class="line"><span class="addition">+    if (t &gt; 0.0) &#123;</span></span><br><span class="line"><span class="addition">+        vec3 N = unit_vector(r.at(t) - vec3(0,0,-1));</span></span><br><span class="line"><span class="addition">+        return 0.5*vec3(N.x()+1, N.y()+1, N.z()+1);</span></span><br><span class="line"><span class="addition">+    &#125;</span></span><br><span class="line">    vec3 unit_direction = unit_vector(r.direction());</span><br><span class="line"><span class="addition">+    t = 0.5*(unit_direction.y() + 1.0);</span></span><br><span class="line">    return (1.0-t)*vec3(1.0, 1.0, 1.0) + t*vec3(0.5, 0.7, 1.0);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>这会得到下面的结果:</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/img-1.04-normals-sphere.png"></p>
+<p>还有一种基于计算过程对代码的简化，我也写出来供参考，但这个简化效率提升不多，所以代码保留之前好理解的。</p>
+<p>我们再来回顾上面的直线方程:</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">vec3 oc = r.origin() - center;</span><br><span class="line"><span class="keyword">auto</span> a = dot(r.direction(), r.direction());</span><br><span class="line"><span class="keyword">auto</span> b = <span class="number">2.0</span> * dot(oc, r.direction());</span><br><span class="line"><span class="keyword">auto</span> c = dot(oc, oc) - radius*radius;</span><br><span class="line"><span class="keyword">auto</span> discriminant = b*b - <span class="number">4</span>*a*c;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>首先, 回想一下一个向量与自己的点积就是它的长度的平方(都是$x^2+y^2+z^2$)</p>
+<p>其次, 注意其实我们的<code>b</code>有一个系数2, 我们设<code>b=2h</code>, 有:</p>
+<p>$\frac{-b +/- \sqrt{b^2-4ac}}{2a} = \frac{-2h +/- \sqrt{(2h)^2-4ac}}{2a} = \frac{-h +/- \sqrt{h^2-ac}}{a}$</p>
+<p>所以射线与球体求交的代码其实可以简化成下面这样:</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">vec3 oc = r.origin() - center;</span><br><span class="line"><span class="deletion">-auto a = dot(r.direction(), r.direction());</span></span><br><span class="line"><span class="deletion">-auto b = 2.0 * dot(oc, r.direction());</span></span><br><span class="line"><span class="deletion">-auto c = dot(oc, oc) - radius*radius;</span></span><br><span class="line"><span class="deletion">-auto discriminant = b*b - 4*a*c;</span></span><br><span class="line"><span class="addition">+auto a = r.direction().length_squared();</span></span><br><span class="line"><span class="addition">+auto half_b = dot(oc, r.direction());</span></span><br><span class="line"><span class="addition">+auto c = oc.length_squared() - radius*radius;</span></span><br><span class="line"><span class="addition">+auto discriminant = half_b*half_b - a*c;</span></span><br><span class="line"></span><br><span class="line">if (discriminant &lt; 0) &#123;</span><br><span class="line">    return -1.0;</span><br><span class="line">&#125; else &#123;</span><br><span class="line"><span class="deletion">-   return (-b - sqrt(discriminant) ) / (2.0*a);</span></span><br><span class="line"><span class="addition">+   return (-half_b - sqrt(discriminant) ) / a;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>好啦, 那么怎么在场景中渲染不止一个球呢? 很直接的我们想到使用一个sphere数组, 这里有个很简洁的好方法: 使用一个抽象类, 任何可能与光线求交的东西实现时都继承这个类, 并且让球以及球列表也都继承这个类。我们该给这个类起个什么样的名字呢? 叫它<code>object</code>好像不错但现在我们使用面向对象编程(oop)。<code>suface</code>是时常被翻牌, 但是如果我们想要体积体(volumes)的话就不太适合了。<code>hittable</code>又过于强调了自己的成员函数<code>hit</code>。所以我哪个都不喜欢, 但是总得给它个名字的嘛, 那我就叫它<code>hittable</code>。</p>
+<p><code>hittable</code>类理应有个接受射线为参数的函数, 许多光线追踪器为了便利, 加入了一个区间$t_{min}&lt;t&lt;t_{max}$来判断相交是否有效。对于一开始的光线来说, 这个tt值总是正的, 但加入这部分对代码实现的一些细节有着不错的帮助。现在有个设计上的问题:我们是否在每次计算求交的时候都要去计算法相?但其实我们只需要计算离射线原点最近的那个交点的法相就行了, 后面的东西会被遮挡。接下来我会给出我的代码, 并将一些计算的结果存在一个结构体里, 来看, 这就是那个抽象类:</p>
+<h4 id="一些C-的新特性"><a href="#一些C-的新特性" class="headerlink" title="一些C++的新特性"></a>一些C++的新特性</h4><p><code>hittable_list</code>类使用了两种C++的特性:<code>vector</code>和<code>shared_ptr</code>, 如果你并不熟悉C++, 你可能会感到有些困惑。</p>
+<h5 id="shared-ptr"><a href="#shared-ptr" class="headerlink" title="shared_ptr"></a>shared_ptr</h5><p><code>shared_ptr&lt;type&gt;</code>是指向一些已分配内存的类型的指针。每当你将它的值赋值给另一个智能指针时, 物体的引用计数器就会+1。当智能指针离开它所在的生存范围(例如代码块或者函数外), 物体的引用计数器就会-1。一旦引用计数器为0, 即没有任何智能指针指向该物体时, 该物体就会被销毁</p>
+<p>一般来说, 智能指针首先由一个刚刚新分配好内存的物体来初始化:</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">shared_ptr</span>&lt;<span class="keyword">double</span>&gt; double_ptr = make_shared&lt;<span class="keyword">double</span>&gt;(<span class="number">0.37</span>);</span><br><span class="line"><span class="built_in">shared_ptr</span>&lt;vec3&gt;   vec3_ptr   = make_shared&lt;vec3&gt;(<span class="number">1.414214</span>, <span class="number">2.718281</span>, <span class="number">1.618034</span>);</span><br><span class="line"><span class="built_in">shared_ptr</span>&lt;sphere&gt; sphere_ptr = make_shared&lt;sphere&gt;(vec3(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>), <span class="number">1.0</span>);</span><br></pre></td></tr></table></figure>
 
 
 
@@ -17570,57 +17595,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#x79;&#111;&#x6e;&#103;&#x40;&#x74;&#115;&#x69;&#x6e;&#103;&#x68;&#117;&#97;&#x2e;&#x65;&#x64;&#x75;&#x2e;&#99;&#110;">&#120;&#x79;&#111;&#x6e;&#103;&#x40;&#x74;&#115;&#x69;&#x6e;&#103;&#x68;&#117;&#97;&#x2e;&#x65;&#x64;&#x75;&#x2e;&#99;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#121;&#111;&#110;&#x67;&#64;&#x74;&#115;&#x69;&#x6e;&#x67;&#x68;&#117;&#x61;&#46;&#101;&#100;&#117;&#x2e;&#99;&#x6e;">&#x78;&#121;&#111;&#110;&#x67;&#64;&#x74;&#115;&#x69;&#x6e;&#x67;&#x68;&#117;&#x61;&#46;&#101;&#100;&#117;&#x2e;&#99;&#x6e;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#117;&#x63;&#104;&#101;&#x6e;&#x40;&#109;&#97;&#x69;&#x6c;&#46;&#116;&#115;&#105;&#110;&#103;&#104;&#x75;&#97;&#x2e;&#x65;&#100;&#117;&#46;&#99;&#x6e;">&#x79;&#117;&#x63;&#104;&#101;&#x6e;&#x40;&#109;&#97;&#x69;&#x6c;&#46;&#116;&#115;&#105;&#110;&#103;&#104;&#x75;&#97;&#x2e;&#x65;&#100;&#117;&#46;&#99;&#x6e;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#x75;&#x63;&#x68;&#x65;&#110;&#x40;&#x6d;&#97;&#105;&#x6c;&#x2e;&#116;&#115;&#105;&#110;&#x67;&#x68;&#x75;&#97;&#x2e;&#101;&#100;&#x75;&#46;&#99;&#110;">&#x79;&#x75;&#x63;&#x68;&#x65;&#110;&#x40;&#x6d;&#97;&#105;&#x6c;&#x2e;&#116;&#115;&#105;&#110;&#x67;&#x68;&#x75;&#97;&#x2e;&#101;&#100;&#x75;&#46;&#99;&#110;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#101;&#x74;&#x65;&#x72;&#110;&#x61;&#108;&#x2e;&#110;&#x30;&#x38;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#101;&#x74;&#x65;&#x72;&#110;&#x61;&#108;&#x2e;&#110;&#x30;&#x38;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x65;&#x74;&#101;&#114;&#x6e;&#97;&#x6c;&#x2e;&#110;&#x30;&#56;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;">&#x65;&#x74;&#101;&#114;&#x6e;&#97;&#x6c;&#x2e;&#110;&#x30;&#56;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#x6f;&#x62;&#x6a;&#x65;&#x63;&#x74;&#107;&#x75;&#97;&#110;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x6f;&#x62;&#x6a;&#x65;&#x63;&#x74;&#107;&#x75;&#97;&#110;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x6f;&#x62;&#x6a;&#101;&#99;&#x74;&#x6b;&#117;&#97;&#110;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#x6f;&#x62;&#x6a;&#101;&#99;&#x74;&#x6b;&#117;&#97;&#110;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#99;&#114;&#100;&#102;&#x72;&#97;&#110;&#x6b;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#99;&#114;&#100;&#102;&#x72;&#97;&#110;&#x6b;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#x72;&#x64;&#102;&#x72;&#97;&#110;&#x6b;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;">&#99;&#x72;&#x64;&#102;&#x72;&#97;&#110;&#x6b;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#97;&#x63;&#x63;&#111;&#114;&#97;&#x77;&#64;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x74;&#97;&#x63;&#x63;&#111;&#114;&#97;&#x77;&#64;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#116;&#x61;&#99;&#99;&#111;&#x72;&#97;&#119;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#116;&#x61;&#99;&#99;&#111;&#x72;&#97;&#119;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#105;&#110;&#121;&#117;&#x6e;&#120;&#105;&#110;&#103;&#x30;&#48;&#x30;&#x31;&#x40;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#109;">&#x78;&#105;&#110;&#121;&#117;&#x6e;&#120;&#105;&#110;&#103;&#x30;&#48;&#x30;&#x31;&#x40;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x78;&#x69;&#110;&#x79;&#x75;&#110;&#120;&#105;&#x6e;&#x67;&#48;&#x30;&#48;&#x31;&#x40;&#x31;&#54;&#51;&#x2e;&#x63;&#x6f;&#x6d;">&#x78;&#x69;&#110;&#x79;&#x75;&#110;&#120;&#105;&#x6e;&#x67;&#48;&#x30;&#48;&#x31;&#x40;&#x31;&#54;&#51;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#x67;&#110;&#111;&#x63;&#x75;&#x69;&#x6c;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#x67;&#110;&#111;&#x63;&#x75;&#x69;&#x6c;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x6e;&#111;&#x63;&#x75;&#x69;&#x6c;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#x67;&#x6e;&#111;&#x63;&#x75;&#x69;&#x6c;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#109;&#121;&#x61;&#x69;&#x72;&#x69;&#x61;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;">&#109;&#121;&#x61;&#x69;&#x72;&#x69;&#x61;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x6d;&#121;&#x61;&#x69;&#x72;&#x69;&#x61;&#64;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;">&#x6d;&#121;&#x61;&#x69;&#x72;&#x69;&#x61;&#64;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#x68;&#x61;&#x6e;&#103;&#114;&#x61;&#105;&#x6e;&#x39;&#x31;&#x31;&#64;&#x31;&#54;&#51;&#46;&#99;&#111;&#x6d;">&#x7a;&#x68;&#x61;&#x6e;&#103;&#114;&#x61;&#105;&#x6e;&#x39;&#x31;&#x31;&#64;&#x31;&#54;&#51;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#122;&#104;&#97;&#x6e;&#x67;&#x72;&#x61;&#x69;&#x6e;&#57;&#x31;&#49;&#x40;&#49;&#x36;&#x33;&#46;&#99;&#x6f;&#x6d;">&#122;&#104;&#97;&#x6e;&#x67;&#x72;&#x61;&#x69;&#x6e;&#57;&#x31;&#49;&#x40;&#49;&#x36;&#x33;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#103;&#x67;&#120;&#x78;&#49;&#x32;&#x30;&#64;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#103;&#x67;&#120;&#x78;&#49;&#x32;&#x30;&#64;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x67;&#103;&#120;&#x78;&#49;&#50;&#x30;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#103;&#120;&#x78;&#49;&#50;&#x30;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -21928,7 +21953,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#108;&#101;&#x65;&#x6e;&#120;&#117;&#x40;&#x74;&#x65;&#110;&#x63;&#101;&#110;&#116;&#x2e;&#99;&#111;&#109;">&#108;&#101;&#x65;&#x6e;&#120;&#117;&#x40;&#x74;&#x65;&#110;&#x63;&#101;&#110;&#116;&#x2e;&#99;&#111;&#109;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#108;&#x65;&#101;&#x6e;&#120;&#x75;&#x40;&#x74;&#101;&#x6e;&#x63;&#x65;&#x6e;&#x74;&#46;&#x63;&#111;&#x6d;">&#108;&#x65;&#101;&#x6e;&#120;&#x75;&#x40;&#x74;&#101;&#x6e;&#x63;&#x65;&#x6e;&#x74;&#46;&#x63;&#111;&#x6d;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><p>大家可能体验过各种各样的游戏产品，对这些产品也有自己的思考。那为什么需要游戏分析方法？为什么需要用相对科学的方式与思维把它形成一种方法论呢？首先，我们可以了解一下游戏分析的定义。</p>
 <h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>游戏分析根据目的的不同，分析角度和重点各异，可以划分为三类：</p>
@@ -22920,8 +22945,8 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
-        <tag>Art</tag>
         <tag>Game</tag>
+        <tag>Art</tag>
       </tags>
   </entry>
   <entry>
