@@ -476,6 +476,31 @@
 </blockquote>
 <p>这样我们就会得到一张使用法``向作为球体颜色值的图片。当你想查看模型的特征细节与瑕疵时, 输出面法向作为颜色值不失为一种很好的方法。</p>
 <p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/img-1.05-normals-sphere-ground.png"></p>
+<h3 id="反走样"><a href="#反走样" class="headerlink" title="反走样"></a>反走样</h3><blockquote>
+<p>When a real camera takes a picture, there are usually no jaggies along edges because the edge pixels are a blend of some foreground and some background. We can get the same effect by averaging a bunch of samples inside each pixel. We will not bother with stratification. This is controversial, but is usual for my programs. For some ray tracers it is critical, but the kind of general one we are writing doesn’t benefit very much from it and it makes the code uglier. We abstract the camera class a bit so we can make a cooler camera later.</p>
+</blockquote>
+<p>真实世界中的摄像机拍摄出来的照片是没有像素状的锯齿的。因为边缘像素是由背景和前景混合而成的。我们也可以在程序中简单的对每个边缘像素多次采样取平均达到类似的效果。我们这里不会使用分层采样。尽管我自己常常在我的程序里使用这种有争议的方法。对某些光线追踪器来说分层采样是很关键的部分, 但是对于我们写的这个小光线追踪器并不会有什么很大的提升, 只会让代码更加丑陋。我们会在这里将摄像机类抽象一下, 以便于后续能有一个更酷的摄像机。</p>
+<blockquote>
+<p>When a real camera takes a picture, there are usually no jaggies along edges because the edge pixels are a blend of some foreground and some background. We can get the same effect by averaging a bunch of samples inside each pixel. We will not bother with stratification. This is controversial, but is usual for my programs. For some ray tracers it is critical, but the kind of general one we are writing doesn’t benefit very much from it and it makes the code uglier. We abstract the camera class a bit so we can make a cooler camera later.</p>
+</blockquote>
+<p>我们还需要一个能够返回真随机数的一个随机数生成器。默认来说这个函数应该返回0≤r&lt;1的随机数。注意这个范围取不到1是很重要的。有时候我们能从这个特性中获得好处。</p>
+<blockquote>
+<p>A simple approach to this is to use the <code>rand()</code> function that can be found in <code>&lt;cstdlib&gt;</code>. This function returns a random integer in the range 0 and <code>RAND_MAX</code>. Hence we can get a real random number as desired with the following code snippet, added to <code>rtweekend.h</code>:</p>
+</blockquote>
+<p>一个简单的实现方法是, 使用<code>&lt;cstdlib&gt;</code>中的<code>rand()</code>函数。这个函数会返回0到RAND_MAX中的一个任意整数。我们将下面的一小段代码加到<code>rtweekend.h</code>中, 就能得到我们想要的随机函数了:</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdlib&gt;</span></span></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">double</span> <span class="title">random_double</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">// Returns a random real in [0,1).</span></span><br><span class="line">    <span class="keyword">return</span> rand() / (RAND_MAX + <span class="number">1.0</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">double</span> <span class="title">random_double</span><span class="params">(<span class="keyword">double</span> min, <span class="keyword">double</span> max)</span> </span>&#123;</span><br><span class="line">    <span class="comment">// Returns a random real in [min,max).</span></span><br><span class="line">    <span class="keyword">return</span> min + (max-min)*random_double();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<blockquote>
+<p>C++ did not traditionally have a standard random number generator, but newer versions of C++ have addressed this issue with the <code>&lt;random&gt;</code> header (if imperfectly according to some experts). If you want to use this, you can obtain a random number with the conditions we need as follows:</p>
+</blockquote>
+<p>传统C++并没有随机数生成器, 但是新版C++中的头实现了这个功能(某些专家觉得这种方法不太完美)。如果你想使用这种方法, 你可以参照下面的代码:</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;functional&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;random&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">double</span> <span class="title">random_double</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">static</span> <span class="built_in">std</span>::uniform_real_distribution&lt;<span class="keyword">double</span>&gt; <span class="title">distribution</span><span class="params">(<span class="number">0.0</span>, <span class="number">1.0</span>)</span></span>;</span><br><span class="line">    <span class="keyword">static</span> <span class="built_in">std</span>::mt19937 generator;</span><br><span class="line">    <span class="keyword">static</span> <span class="built_in">std</span>::function&lt;<span class="keyword">double</span>()&gt; rand_generator =</span><br><span class="line">        <span class="built_in">std</span>::bind(distribution, generator);</span><br><span class="line">    <span class="keyword">return</span> rand_generator();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>对于给定的像素, 我们发射多条射线进行多次采样。然后我们对颜色结果求一个平均值:</p>
 ]]></content>
       <categories>
         <category>光线追踪 (Ray Tracing)</category>
@@ -14533,8 +14558,8 @@
 <p><strong><a href="https://unsplash.com/">点击跳转到 Unsplash</a></strong></p>
 ]]></content>
       <categories>
-        <category>写作技巧 (Write Skill)</category>
         <category>博客搭建 (Blog Building)</category>
+        <category>写作技巧 (Write Skill)</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -17736,57 +17761,57 @@
 </thead>
 <tbody><tr>
 <td>向勇</td>
-<td><a href="mailto:&#120;&#x79;&#x6f;&#110;&#x67;&#64;&#x74;&#x73;&#105;&#x6e;&#103;&#x68;&#x75;&#97;&#46;&#101;&#100;&#x75;&#x2e;&#x63;&#110;">&#120;&#x79;&#x6f;&#110;&#x67;&#64;&#x74;&#x73;&#105;&#x6e;&#103;&#x68;&#x75;&#97;&#46;&#101;&#100;&#x75;&#x2e;&#x63;&#110;</a> xyongcn@gmail.com</td>
+<td><a href="mailto:&#x78;&#121;&#111;&#x6e;&#103;&#x40;&#116;&#115;&#x69;&#110;&#103;&#x68;&#117;&#97;&#x2e;&#101;&#x64;&#117;&#46;&#99;&#110;">&#x78;&#121;&#111;&#x6e;&#103;&#x40;&#116;&#115;&#x69;&#110;&#103;&#x68;&#117;&#97;&#x2e;&#101;&#x64;&#117;&#46;&#99;&#110;</a> xyongcn@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>陈渝</td>
-<td><a href="mailto:&#x79;&#x75;&#x63;&#x68;&#101;&#110;&#64;&#109;&#x61;&#x69;&#108;&#x2e;&#x74;&#115;&#x69;&#110;&#x67;&#x68;&#x75;&#x61;&#x2e;&#101;&#x64;&#x75;&#46;&#99;&#110;">&#x79;&#x75;&#x63;&#x68;&#101;&#110;&#64;&#109;&#x61;&#x69;&#108;&#x2e;&#x74;&#115;&#x69;&#110;&#x67;&#x68;&#x75;&#x61;&#x2e;&#101;&#x64;&#x75;&#46;&#99;&#110;</a> chyyuu@gmail.com</td>
+<td><a href="mailto:&#x79;&#x75;&#x63;&#104;&#101;&#110;&#x40;&#x6d;&#97;&#105;&#108;&#46;&#x74;&#x73;&#105;&#110;&#x67;&#104;&#117;&#x61;&#x2e;&#x65;&#x64;&#x75;&#x2e;&#99;&#x6e;">&#x79;&#x75;&#x63;&#104;&#101;&#110;&#x40;&#x6d;&#97;&#105;&#108;&#46;&#x74;&#x73;&#105;&#110;&#x67;&#104;&#117;&#x61;&#x2e;&#x65;&#x64;&#x75;&#x2e;&#99;&#x6e;</a> chyyuu@gmail.com</td>
 <td>教师</td>
 </tr>
 <tr>
 <td>茅俊杰</td>
-<td><a href="mailto:&#x65;&#x74;&#x65;&#114;&#x6e;&#x61;&#x6c;&#46;&#110;&#x30;&#x38;&#64;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;">&#x65;&#x74;&#x65;&#114;&#x6e;&#x61;&#x6c;&#46;&#110;&#x30;&#x38;&#64;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x65;&#x74;&#101;&#114;&#110;&#97;&#108;&#46;&#110;&#48;&#56;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#x65;&#x74;&#101;&#114;&#110;&#97;&#108;&#46;&#110;&#48;&#56;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>何嘉权</td>
-<td><a href="mailto:&#111;&#x62;&#106;&#x65;&#99;&#x74;&#107;&#x75;&#x61;&#x6e;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#111;&#x62;&#106;&#x65;&#99;&#x74;&#107;&#x75;&#x61;&#x6e;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x6f;&#98;&#106;&#101;&#x63;&#116;&#x6b;&#117;&#97;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x6f;&#98;&#106;&#101;&#x63;&#116;&#x6b;&#117;&#97;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>曹睿东</td>
-<td><a href="mailto:&#x63;&#x72;&#x64;&#x66;&#x72;&#x61;&#x6e;&#x6b;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#x63;&#x72;&#x64;&#x66;&#x72;&#x61;&#x6e;&#x6b;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x63;&#114;&#x64;&#102;&#x72;&#97;&#110;&#x6b;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x63;&#114;&#x64;&#102;&#x72;&#97;&#110;&#x6b;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>武祥晋</td>
-<td><a href="mailto:&#x74;&#97;&#x63;&#99;&#111;&#114;&#97;&#119;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x74;&#97;&#x63;&#99;&#111;&#114;&#97;&#119;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#116;&#x61;&#99;&#99;&#111;&#114;&#97;&#119;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#116;&#x61;&#99;&#99;&#111;&#114;&#97;&#119;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>辛云星</td>
-<td><a href="mailto:&#x78;&#x69;&#x6e;&#x79;&#x75;&#x6e;&#120;&#105;&#x6e;&#x67;&#x30;&#x30;&#48;&#x31;&#64;&#x31;&#x36;&#51;&#46;&#99;&#x6f;&#109;">&#x78;&#x69;&#x6e;&#x79;&#x75;&#x6e;&#120;&#105;&#x6e;&#x67;&#x30;&#x30;&#48;&#x31;&#64;&#x31;&#x36;&#51;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#120;&#x69;&#x6e;&#x79;&#x75;&#110;&#x78;&#x69;&#x6e;&#103;&#48;&#x30;&#48;&#49;&#x40;&#x31;&#x36;&#51;&#46;&#x63;&#111;&#x6d;">&#120;&#x69;&#x6e;&#x79;&#x75;&#110;&#x78;&#x69;&#x6e;&#103;&#48;&#x30;&#48;&#49;&#x40;&#x31;&#x36;&#51;&#46;&#x63;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>刘聪</td>
-<td><a href="mailto:&#103;&#x6e;&#x6f;&#x63;&#x75;&#105;&#x6c;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;">&#103;&#x6e;&#x6f;&#x63;&#x75;&#105;&#x6c;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x67;&#x6e;&#111;&#x63;&#x75;&#105;&#108;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#x67;&#x6e;&#111;&#x63;&#x75;&#105;&#108;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>常铖</td>
-<td><a href="mailto:&#x6d;&#121;&#x61;&#105;&#114;&#105;&#x61;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#x6d;&#121;&#x61;&#105;&#114;&#105;&#x61;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#109;&#121;&#97;&#105;&#114;&#x69;&#97;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#109;&#121;&#97;&#105;&#114;&#x69;&#97;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#109;</a></td>
 <td>助教</td>
 </tr>
 <tr>
 <td>张禹</td>
-<td><a href="mailto:&#x7a;&#x68;&#x61;&#110;&#103;&#114;&#97;&#105;&#110;&#57;&#49;&#49;&#64;&#x31;&#x36;&#x33;&#x2e;&#99;&#x6f;&#109;">&#x7a;&#x68;&#x61;&#110;&#103;&#114;&#97;&#105;&#110;&#57;&#49;&#49;&#64;&#x31;&#x36;&#x33;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#122;&#104;&#x61;&#x6e;&#103;&#114;&#x61;&#105;&#x6e;&#x39;&#x31;&#49;&#x40;&#49;&#x36;&#x33;&#x2e;&#99;&#111;&#x6d;">&#122;&#104;&#x61;&#x6e;&#103;&#114;&#x61;&#105;&#x6e;&#x39;&#x31;&#49;&#x40;&#49;&#x36;&#x33;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td>技术支持</td>
 </tr>
 <tr>
 <td>郭旭</td>
-<td><a href="mailto:&#x67;&#x67;&#x78;&#x78;&#49;&#x32;&#48;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#x67;&#x78;&#x78;&#49;&#x32;&#48;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#103;&#x67;&#x78;&#120;&#x31;&#x32;&#48;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#103;&#x67;&#x78;&#120;&#x31;&#x32;&#48;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
 <td>技术支持</td>
 </tr>
 </tbody></table>
@@ -22094,7 +22119,7 @@
 <h3 id="主讲人"><a href="#主讲人" class="headerlink" title="主讲人"></a>主讲人</h3><p><strong>徐力</strong> </p>
 <ul>
 <li><strong>腾讯游戏-引进评估中心 IEG Game Evaluation Center</strong> </li>
-<li><strong>邮箱： <a href="mailto:&#x6c;&#101;&#x65;&#x6e;&#120;&#117;&#64;&#116;&#x65;&#x6e;&#99;&#x65;&#110;&#x74;&#46;&#99;&#x6f;&#x6d;">&#x6c;&#101;&#x65;&#x6e;&#120;&#117;&#64;&#116;&#x65;&#x6e;&#99;&#x65;&#110;&#x74;&#46;&#99;&#x6f;&#x6d;</a></strong> </li>
+<li><strong>邮箱： <a href="mailto:&#x6c;&#x65;&#101;&#x6e;&#120;&#x75;&#x40;&#x74;&#x65;&#x6e;&#x63;&#101;&#x6e;&#116;&#x2e;&#99;&#x6f;&#109;">&#x6c;&#x65;&#101;&#x6e;&#120;&#x75;&#x40;&#x74;&#x65;&#x6e;&#x63;&#101;&#x6e;&#116;&#x2e;&#99;&#x6f;&#109;</a></strong> </li>
 </ul>
 <h3 id="游戏分析方法的意义"><a href="#游戏分析方法的意义" class="headerlink" title="游戏分析方法的意义"></a>游戏分析方法的意义</h3><p>大家可能体验过各种各样的游戏产品，对这些产品也有自己的思考。那为什么需要游戏分析方法？为什么需要用相对科学的方式与思维把它形成一种方法论呢？首先，我们可以了解一下游戏分析的定义。</p>
 <h4 id="游戏分析根据目的不同，分析角度和重点各异"><a href="#游戏分析根据目的不同，分析角度和重点各异" class="headerlink" title="游戏分析根据目的不同，分析角度和重点各异"></a>游戏分析根据目的不同，分析角度和重点各异</h4><h5 id="游戏特性分析"><a href="#游戏特性分析" class="headerlink" title="游戏特性分析"></a>游戏特性分析</h5><p>游戏分析根据目的的不同，分析角度和重点各异，可以划分为三类：</p>
@@ -23086,8 +23111,8 @@
         <category>游戏追踪 (Game Tracker)</category>
       </categories>
       <tags>
-        <tag>Art</tag>
         <tag>Game</tag>
+        <tag>Art</tag>
       </tags>
   </entry>
   <entry>
