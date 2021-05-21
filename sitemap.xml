@@ -4,7 +4,7 @@
   <url>
     <loc>http://yousazoe.top/archives/cb66e903.html</loc>
     
-    <lastmod>2021-05-20</lastmod>
+    <lastmod>2021-05-21</lastmod>
     
   </url>
   
@@ -1089,13 +1089,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Geometry/</loc>
-    <lastmod>2021-05-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/tags/RayTracing/</loc>
     <lastmod>2021-05-21</lastmod>
     <changefreq>daily</changefreq>
@@ -1292,6 +1285,13 @@
   </url>
   
   <url>
+    <loc>http://yousazoe.top/tags/Geometry/</loc>
+    <lastmod>2021-05-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yousazoe.top/tags/Fluid/</loc>
     <lastmod>2021-05-21</lastmod>
     <changefreq>daily</changefreq>
@@ -1371,13 +1371,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-Blog-Building/</loc>
-    <lastmod>2021-05-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/categories/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86-Compilers-Principles-Techniques-and-Tools/</loc>
     <lastmod>2021-05-21</lastmod>
     <changefreq>daily</changefreq>
@@ -1385,7 +1378,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E9%AB%98%E6%95%88%E7%AE%97%E6%B3%95%E4%B8%8E%E6%A3%98%E6%89%8B%E9%97%AE%E9%A2%98-US-Berkeley-CS170/</loc>
+    <loc>http://yousazoe.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-Blog-Building/</loc>
     <lastmod>2021-05-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1407,6 +1400,13 @@
   
   <url>
     <loc>http://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/</loc>
+    <lastmod>2021-05-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/categories/%E9%AB%98%E6%95%88%E7%AE%97%E6%B3%95%E4%B8%8E%E6%A3%98%E6%89%8B%E9%97%AE%E9%A2%98-US-Berkeley-CS170/</loc>
     <lastmod>2021-05-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
