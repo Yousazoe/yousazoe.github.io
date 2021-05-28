@@ -6,7 +6,7 @@
   <link href="http://yousazoe.top/atom.xml" rel="self"/>
   
   <link href="http://yousazoe.top/"/>
-  <updated>2021-05-27T15:00:33.401Z</updated>
+  <updated>2021-05-28T11:59:22.347Z</updated>
   <id>http://yousazoe.top/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yousazoe.top/archives/1bc324b9.html"/>
     <id>http://yousazoe.top/archives/1bc324b9.html</id>
     <published>2021-05-27T12:49:05.000Z</published>
-    <updated>2021-05-27T15:00:33.401Z</updated>
+    <updated>2021-05-28T11:59:22.347Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/77cbdc61408483.5a9276f541b0d.png"></p><div align=center>  <font size="3">    <i>      <a href="https://www.behance.net/gallery/61408483/Memories">Memories</a> by       <a href="https://www.behance.net/MChahin">Mohamed Chahin</a>    </i>  </font></div><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>上一节为我们的游戏引擎创建了一个窗口，讨论了很多抽象类以及我们如何才能真正抽象出真正的窗口逻辑API而今天我们将通过该窗口实际添加事件。</p><span id="more"></span><p>窗口会随时生成事件，我们移动鼠标、按一个键、关闭窗口、调整窗口大小、单击鼠标按键……所有这些都会生成事件，事件发生在我们的窗口内，我们想创建一个事件并分发出去。现在我们实际上迫切需要的例子是关闭，现在当我们点击关闭按钮时程序什么也不会发生，只是我们单击它，而我们想正确的终止程序。</p><p>所以今天我们将要实施的功能是调度所有不同的事件类型，例如按键事件、鼠标事件、窗口调整事件等等。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/77cbdc61408483.5a9276f541b0d.png"></p><div align=center>  <font size="3">    <i>      <a href="https://www.behance.net/gallery/61408483/Memories">Memories</a> by       <a href="https://www.behance.net/MChahin">Mohamed Chahin</a>    </i>  </font></div><h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>上一节为我们的游戏引擎创建了一个窗口，讨论了很多抽象类以及我们如何才能真正抽象出真正的窗口逻辑API而今天我们将通过该窗口实际添加事件。</p><span id="more"></span><p>窗口会随时生成事件，我们移动鼠标、按一个键、关闭窗口、调整窗口大小、单击鼠标按键……所有这些都会生成事件，事件发生在我们的窗口内，我们想创建一个事件并分发出去。现在我们实际上迫切需要的例子是关闭，现在当我们点击关闭按钮时程序什么也不会发生，只是我们单击它，而我们想正确的终止程序。</p><p>所以今天我们将要实施的功能是调度所有不同的事件类型，例如按键事件、鼠标事件、窗口调整事件等等。</p><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210528195818356.png"></p><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210528195841358.png"></p><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210528195857882.png"></p><p><img data-src="https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/image-20210528195913808.png"></p>]]></content>
     
     
     <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/77cbdc61408483.5a9276f541b0d.png&quot;&gt;&lt;/p&gt;
