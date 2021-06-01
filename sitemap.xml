@@ -1096,13 +1096,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Computer-Graphics/</loc>
-    <lastmod>2021-06-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/tags/Art/</loc>
     <lastmod>2021-06-01</lastmod>
     <changefreq>daily</changefreq>
@@ -1124,7 +1117,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/RayTracing/</loc>
+    <loc>http://yousazoe.top/tags/Computer-Graphics/</loc>
     <lastmod>2021-06-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1145,7 +1138,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Shading/</loc>
+    <loc>http://yousazoe.top/tags/RayTracing/</loc>
     <lastmod>2021-06-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1153,6 +1146,13 @@
   
   <url>
     <loc>http://yousazoe.top/tags/Geometry/</loc>
+    <lastmod>2021-06-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/tags/Shading/</loc>
     <lastmod>2021-06-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1243,7 +1243,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/GPS/</loc>
+    <loc>http://yousazoe.top/tags/Population/</loc>
     <lastmod>2021-06-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1257,14 +1257,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Population/</loc>
+    <loc>http://yousazoe.top/tags/Rocket/</loc>
     <lastmod>2021-06-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/tags/Rocket/</loc>
+    <loc>http://yousazoe.top/tags/GPS/</loc>
     <lastmod>2021-06-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1406,13 +1406,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-Blog-Building/</loc>
-    <lastmod>2021-06-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/categories/%E5%86%99%E4%BD%9C%E6%8A%80%E5%B7%A7-Write-Skill/</loc>
     <lastmod>2021-06-01</lastmod>
     <changefreq>daily</changefreq>
@@ -1434,7 +1427,7 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/</loc>
+    <loc>http://yousazoe.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-Blog-Building/</loc>
     <lastmod>2021-06-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1442,6 +1435,20 @@
   
   <url>
     <loc>http://yousazoe.top/categories/%E5%83%8F%E7%B4%A0%E7%BE%8E%E5%B7%A5-Pixel-Art-Designing/</loc>
+    <lastmod>2021-06-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/categories/%E9%AB%98%E6%95%88%E7%AE%97%E6%B3%95%E4%B8%8E%E6%A3%98%E6%89%8B%E9%97%AE%E9%A2%98-US-Berkeley-CS170/</loc>
+    <lastmod>2021-06-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/</loc>
     <lastmod>2021-06-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1539,13 +1546,6 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E9%AB%98%E6%95%88%E7%AE%97%E6%B3%95%E4%B8%8E%E6%A3%98%E6%89%8B%E9%97%AE%E9%A2%98-US-Berkeley-CS170/</loc>
-    <lastmod>2021-06-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yousazoe.top/categories/%E5%A7%9C%E6%99%94%E4%BC%A0-The-Autobiography-of-Jiangye/</loc>
     <lastmod>2021-06-01</lastmod>
     <changefreq>daily</changefreq>
@@ -1595,14 +1595,14 @@
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-Game-Programming-Patterns/</loc>
+    <loc>http://yousazoe.top/categories/LeetCode%E9%A2%98%E8%A7%A3-LeetCode-Solution/</loc>
     <lastmod>2021-06-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yousazoe.top/categories/LeetCode%E9%A2%98%E8%A7%A3-LeetCode-Solution/</loc>
+    <loc>http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-Game-Programming-Patterns/</loc>
     <lastmod>2021-06-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
