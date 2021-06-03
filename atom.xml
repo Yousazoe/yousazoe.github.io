@@ -3,11 +3,11 @@
   <title>Fl0w3r</title>
   
   <subtitle>carpe diem</subtitle>
-  <link href="http://yousazoe.top/atom.xml" rel="self"/>
+  <link href="https://yousazoe.top/atom.xml" rel="self"/>
   
-  <link href="http://yousazoe.top/"/>
+  <link href="https://yousazoe.top/"/>
   <updated>2021-05-29T19:12:54.009Z</updated>
-  <id>http://yousazoe.top/</id>
+  <id>https://yousazoe.top/</id>
   
   <author>
     <name>Yousazoe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>SIGGRAPH 2021 技术论文预览</title>
-    <link href="http://yousazoe.top/archives/bf22a347.html"/>
-    <id>http://yousazoe.top/archives/bf22a347.html</id>
+    <link href="https://yousazoe.top/archives/bf22a347.html"/>
+    <id>https://yousazoe.top/archives/bf22a347.html</id>
     <published>2021-05-29T19:02:13.000Z</published>
     <updated>2021-05-29T19:12:54.009Z</updated>
     
@@ -33,19 +33,19 @@
     
     
     
-    <category term="计算机图像学 (Foundations of Computer Graphics)" scheme="http://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%83%8F%E5%AD%A6-Foundations-of-Computer-Graphics/"/>
+    <category term="计算机图像学 (Foundations of Computer Graphics)" scheme="https://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%83%8F%E5%AD%A6-Foundations-of-Computer-Graphics/"/>
     
     
-    <category term="Computer Graphics" scheme="http://yousazoe.top/tags/Computer-Graphics/"/>
+    <category term="Computer Graphics" scheme="https://yousazoe.top/tags/Computer-Graphics/"/>
     
-    <category term="SIGGRAPH" scheme="http://yousazoe.top/tags/SIGGRAPH/"/>
+    <category term="SIGGRAPH" scheme="https://yousazoe.top/tags/SIGGRAPH/"/>
     
   </entry>
   
   <entry>
     <title>Layers</title>
-    <link href="http://yousazoe.top/archives/e124e866.html"/>
-    <id>http://yousazoe.top/archives/e124e866.html</id>
+    <link href="https://yousazoe.top/archives/e124e866.html"/>
+    <id>https://yousazoe.top/archives/e124e866.html</id>
     <published>2021-05-29T08:48:27.000Z</published>
     <updated>2021-05-30T12:23:56.157Z</updated>
     
@@ -66,19 +66,19 @@
     
     
     
-    <category term="游戏引擎开发 (Game Engine Series)" scheme="http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91-Game-Engine-Series/"/>
+    <category term="游戏引擎开发 (Game Engine Series)" scheme="https://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91-Game-Engine-Series/"/>
     
     
-    <category term="Cpp" scheme="http://yousazoe.top/tags/Cpp/"/>
+    <category term="Cpp" scheme="https://yousazoe.top/tags/Cpp/"/>
     
-    <category term="Game Engine" scheme="http://yousazoe.top/tags/Game-Engine/"/>
+    <category term="Game Engine" scheme="https://yousazoe.top/tags/Game-Engine/"/>
     
   </entry>
   
   <entry>
     <title>Window Events</title>
-    <link href="http://yousazoe.top/archives/1bc324b9.html"/>
-    <id>http://yousazoe.top/archives/1bc324b9.html</id>
+    <link href="https://yousazoe.top/archives/1bc324b9.html"/>
+    <id>https://yousazoe.top/archives/1bc324b9.html</id>
     <published>2021-05-27T12:49:05.000Z</published>
     <updated>2021-05-29T08:51:31.986Z</updated>
     
@@ -101,19 +101,19 @@
     
     
     
-    <category term="游戏引擎开发 (Game Engine Series)" scheme="http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91-Game-Engine-Series/"/>
+    <category term="游戏引擎开发 (Game Engine Series)" scheme="https://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91-Game-Engine-Series/"/>
     
     
-    <category term="Cpp" scheme="http://yousazoe.top/tags/Cpp/"/>
+    <category term="Cpp" scheme="https://yousazoe.top/tags/Cpp/"/>
     
-    <category term="Game Engine" scheme="http://yousazoe.top/tags/Game-Engine/"/>
+    <category term="Game Engine" scheme="https://yousazoe.top/tags/Game-Engine/"/>
     
   </entry>
   
   <entry>
     <title>旋转与投影</title>
-    <link href="http://yousazoe.top/archives/1ecca1be.html"/>
-    <id>http://yousazoe.top/archives/1ecca1be.html</id>
+    <link href="https://yousazoe.top/archives/1ecca1be.html"/>
+    <id>https://yousazoe.top/archives/1ecca1be.html</id>
     <published>2021-05-11T11:24:39.000Z</published>
     <updated>2021-05-18T00:10:42.471Z</updated>
     
@@ -135,21 +135,21 @@
     
     
     
-    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="http://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
+    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="https://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
     
     
-    <category term="Computer Graphics" scheme="http://yousazoe.top/tags/Computer-Graphics/"/>
+    <category term="Computer Graphics" scheme="https://yousazoe.top/tags/Computer-Graphics/"/>
     
-    <category term="Math" scheme="http://yousazoe.top/tags/Math/"/>
+    <category term="Math" scheme="https://yousazoe.top/tags/Math/"/>
     
-    <category term="Linear Algebra" scheme="http://yousazoe.top/tags/Linear-Algebra/"/>
+    <category term="Linear Algebra" scheme="https://yousazoe.top/tags/Linear-Algebra/"/>
     
   </entry>
   
   <entry>
     <title>虚拟机的使用</title>
-    <link href="http://yousazoe.top/archives/78f45d1.html"/>
-    <id>http://yousazoe.top/archives/78f45d1.html</id>
+    <link href="https://yousazoe.top/archives/78f45d1.html"/>
+    <id>https://yousazoe.top/archives/78f45d1.html</id>
     <published>2021-05-11T00:00:56.000Z</published>
     <updated>2021-05-11T12:48:03.064Z</updated>
     
@@ -172,21 +172,21 @@
     
     
     
-    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="http://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
+    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="https://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
     
     
-    <category term="Computer Graphics" scheme="http://yousazoe.top/tags/Computer-Graphics/"/>
+    <category term="Computer Graphics" scheme="https://yousazoe.top/tags/Computer-Graphics/"/>
     
-    <category term="Math" scheme="http://yousazoe.top/tags/Math/"/>
+    <category term="Math" scheme="https://yousazoe.top/tags/Math/"/>
     
-    <category term="Linear Algebra" scheme="http://yousazoe.top/tags/Linear-Algebra/"/>
+    <category term="Linear Algebra" scheme="https://yousazoe.top/tags/Linear-Algebra/"/>
     
   </entry>
   
   <entry>
     <title>Light Transport &amp; Global Illumination</title>
-    <link href="http://yousazoe.top/archives/ad809f54.html"/>
-    <id>http://yousazoe.top/archives/ad809f54.html</id>
+    <link href="https://yousazoe.top/archives/ad809f54.html"/>
+    <id>https://yousazoe.top/archives/ad809f54.html</id>
     <published>2021-05-09T04:53:46.000Z</published>
     <updated>2021-05-30T08:37:19.401Z</updated>
     
@@ -208,19 +208,19 @@
     
     
     
-    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="http://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
+    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="https://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
     
     
-    <category term="Computer Graphics" scheme="http://yousazoe.top/tags/Computer-Graphics/"/>
+    <category term="Computer Graphics" scheme="https://yousazoe.top/tags/Computer-Graphics/"/>
     
-    <category term="RayTracing" scheme="http://yousazoe.top/tags/RayTracing/"/>
+    <category term="RayTracing" scheme="https://yousazoe.top/tags/RayTracing/"/>
     
   </entry>
   
   <entry>
     <title>重访设计模式</title>
-    <link href="http://yousazoe.top/archives/925529b4.html"/>
-    <id>http://yousazoe.top/archives/925529b4.html</id>
+    <link href="https://yousazoe.top/archives/925529b4.html"/>
+    <id>https://yousazoe.top/archives/925529b4.html</id>
     <published>2021-05-03T10:38:20.000Z</published>
     <updated>2021-06-01T08:07:08.172Z</updated>
     
@@ -241,15 +241,15 @@
     
     
     
-    <category term="游戏设计模式 (Game Programming Patterns)" scheme="http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-Game-Programming-Patterns/"/>
+    <category term="游戏设计模式 (Game Programming Patterns)" scheme="https://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-Game-Programming-Patterns/"/>
     
     
   </entry>
   
   <entry>
     <title>序</title>
-    <link href="http://yousazoe.top/archives/334513da.html"/>
-    <id>http://yousazoe.top/archives/334513da.html</id>
+    <link href="https://yousazoe.top/archives/334513da.html"/>
+    <id>https://yousazoe.top/archives/334513da.html</id>
     <published>2021-05-01T08:06:41.000Z</published>
     <updated>2021-05-31T13:49:57.746Z</updated>
     
@@ -270,15 +270,15 @@
     
     
     
-    <category term="游戏设计模式 (Game Programming Patterns)" scheme="http://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-Game-Programming-Patterns/"/>
+    <category term="游戏设计模式 (Game Programming Patterns)" scheme="https://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-Game-Programming-Patterns/"/>
     
     
   </entry>
   
   <entry>
     <title>Introduction,big-O notation,arithmetic</title>
-    <link href="http://yousazoe.top/archives/7d5f0453.html"/>
-    <id>http://yousazoe.top/archives/7d5f0453.html</id>
+    <link href="https://yousazoe.top/archives/7d5f0453.html"/>
+    <id>https://yousazoe.top/archives/7d5f0453.html</id>
     <published>2021-04-30T09:06:25.000Z</published>
     <updated>2021-05-08T16:08:01.887Z</updated>
     
@@ -290,15 +290,15 @@
     
     
     
-    <category term="高效算法与棘手问题 (US Berkeley CS170)" scheme="http://yousazoe.top/categories/%E9%AB%98%E6%95%88%E7%AE%97%E6%B3%95%E4%B8%8E%E6%A3%98%E6%89%8B%E9%97%AE%E9%A2%98-US-Berkeley-CS170/"/>
+    <category term="高效算法与棘手问题 (US Berkeley CS170)" scheme="https://yousazoe.top/categories/%E9%AB%98%E6%95%88%E7%AE%97%E6%B3%95%E4%B8%8E%E6%A3%98%E6%89%8B%E9%97%AE%E9%A2%98-US-Berkeley-CS170/"/>
     
     
   </entry>
   
   <entry>
     <title>Acceleration &amp; Radiometry</title>
-    <link href="http://yousazoe.top/archives/749ead91.html"/>
-    <id>http://yousazoe.top/archives/749ead91.html</id>
+    <link href="https://yousazoe.top/archives/749ead91.html"/>
+    <id>https://yousazoe.top/archives/749ead91.html</id>
     <published>2021-04-26T06:07:06.000Z</published>
     <updated>2021-05-16T01:45:09.074Z</updated>
     
@@ -320,19 +320,19 @@
     
     
     
-    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="http://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
+    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="https://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
     
     
-    <category term="Computer Graphics" scheme="http://yousazoe.top/tags/Computer-Graphics/"/>
+    <category term="Computer Graphics" scheme="https://yousazoe.top/tags/Computer-Graphics/"/>
     
-    <category term="RayTracing" scheme="http://yousazoe.top/tags/RayTracing/"/>
+    <category term="RayTracing" scheme="https://yousazoe.top/tags/RayTracing/"/>
     
   </entry>
   
   <entry>
     <title>Whitted Style Ray Tracing</title>
-    <link href="http://yousazoe.top/archives/bc6dc1aa.html"/>
-    <id>http://yousazoe.top/archives/bc6dc1aa.html</id>
+    <link href="https://yousazoe.top/archives/bc6dc1aa.html"/>
+    <id>https://yousazoe.top/archives/bc6dc1aa.html</id>
     <published>2021-04-25T04:54:41.000Z</published>
     <updated>2021-04-26T06:04:46.668Z</updated>
     
@@ -354,19 +354,19 @@
     
     
     
-    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="http://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
+    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="https://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
     
     
-    <category term="Computer Graphics" scheme="http://yousazoe.top/tags/Computer-Graphics/"/>
+    <category term="Computer Graphics" scheme="https://yousazoe.top/tags/Computer-Graphics/"/>
     
-    <category term="RayTracing" scheme="http://yousazoe.top/tags/RayTracing/"/>
+    <category term="RayTracing" scheme="https://yousazoe.top/tags/RayTracing/"/>
     
   </entry>
   
   <entry>
     <title>Geometry cont</title>
-    <link href="http://yousazoe.top/archives/f6b5e925.html"/>
-    <id>http://yousazoe.top/archives/f6b5e925.html</id>
+    <link href="https://yousazoe.top/archives/f6b5e925.html"/>
+    <id>https://yousazoe.top/archives/f6b5e925.html</id>
     <published>2021-04-25T00:47:02.000Z</published>
     <updated>2021-04-26T01:17:31.150Z</updated>
     
@@ -388,19 +388,19 @@
     
     
     
-    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="http://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
+    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="https://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
     
     
-    <category term="Computer Graphics" scheme="http://yousazoe.top/tags/Computer-Graphics/"/>
+    <category term="Computer Graphics" scheme="https://yousazoe.top/tags/Computer-Graphics/"/>
     
-    <category term="Geometry" scheme="http://yousazoe.top/tags/Geometry/"/>
+    <category term="Geometry" scheme="https://yousazoe.top/tags/Geometry/"/>
     
   </entry>
   
   <entry>
     <title>Curves and Surfaces</title>
-    <link href="http://yousazoe.top/archives/b736300e.html"/>
-    <id>http://yousazoe.top/archives/b736300e.html</id>
+    <link href="https://yousazoe.top/archives/b736300e.html"/>
+    <id>https://yousazoe.top/archives/b736300e.html</id>
     <published>2021-04-21T10:55:05.000Z</published>
     <updated>2021-04-25T00:49:57.851Z</updated>
     
@@ -422,19 +422,19 @@
     
     
     
-    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="http://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
+    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="https://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
     
     
-    <category term="Computer Graphics" scheme="http://yousazoe.top/tags/Computer-Graphics/"/>
+    <category term="Computer Graphics" scheme="https://yousazoe.top/tags/Computer-Graphics/"/>
     
-    <category term="Geometry" scheme="http://yousazoe.top/tags/Geometry/"/>
+    <category term="Geometry" scheme="https://yousazoe.top/tags/Geometry/"/>
     
   </entry>
   
   <entry>
     <title>Geometry Introduction</title>
-    <link href="http://yousazoe.top/archives/a79a440b.html"/>
-    <id>http://yousazoe.top/archives/a79a440b.html</id>
+    <link href="https://yousazoe.top/archives/a79a440b.html"/>
+    <id>https://yousazoe.top/archives/a79a440b.html</id>
     <published>2021-04-19T03:15:46.000Z</published>
     <updated>2021-04-21T10:45:21.686Z</updated>
     
@@ -456,19 +456,19 @@
     
     
     
-    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="http://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
+    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="https://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
     
     
-    <category term="Computer Graphics" scheme="http://yousazoe.top/tags/Computer-Graphics/"/>
+    <category term="Computer Graphics" scheme="https://yousazoe.top/tags/Computer-Graphics/"/>
     
-    <category term="Geometry" scheme="http://yousazoe.top/tags/Geometry/"/>
+    <category term="Geometry" scheme="https://yousazoe.top/tags/Geometry/"/>
     
   </entry>
   
   <entry>
     <title>Texture Mapping cont</title>
-    <link href="http://yousazoe.top/archives/870f1283.html"/>
-    <id>http://yousazoe.top/archives/870f1283.html</id>
+    <link href="https://yousazoe.top/archives/870f1283.html"/>
+    <id>https://yousazoe.top/archives/870f1283.html</id>
     <published>2021-04-15T08:03:17.000Z</published>
     <updated>2021-04-19T03:19:12.137Z</updated>
     
@@ -490,19 +490,19 @@
     
     
     
-    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="http://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
+    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="https://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
     
     
-    <category term="Computer Graphics" scheme="http://yousazoe.top/tags/Computer-Graphics/"/>
+    <category term="Computer Graphics" scheme="https://yousazoe.top/tags/Computer-Graphics/"/>
     
-    <category term="Shading" scheme="http://yousazoe.top/tags/Shading/"/>
+    <category term="Shading" scheme="https://yousazoe.top/tags/Shading/"/>
     
   </entry>
   
   <entry>
     <title>Shading, Pipeline and Texture Mapping</title>
-    <link href="http://yousazoe.top/archives/d3d02c34.html"/>
-    <id>http://yousazoe.top/archives/d3d02c34.html</id>
+    <link href="https://yousazoe.top/archives/d3d02c34.html"/>
+    <id>https://yousazoe.top/archives/d3d02c34.html</id>
     <published>2021-04-11T09:39:22.000Z</published>
     <updated>2021-04-19T03:07:58.501Z</updated>
     
@@ -524,19 +524,19 @@
     
     
     
-    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="http://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
+    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="https://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
     
     
-    <category term="Computer Graphics" scheme="http://yousazoe.top/tags/Computer-Graphics/"/>
+    <category term="Computer Graphics" scheme="https://yousazoe.top/tags/Computer-Graphics/"/>
     
-    <category term="Shading" scheme="http://yousazoe.top/tags/Shading/"/>
+    <category term="Shading" scheme="https://yousazoe.top/tags/Shading/"/>
     
   </entry>
   
   <entry>
     <title>Introduction and Overview</title>
-    <link href="http://yousazoe.top/archives/26c49312.html"/>
-    <id>http://yousazoe.top/archives/26c49312.html</id>
+    <link href="https://yousazoe.top/archives/26c49312.html"/>
+    <id>https://yousazoe.top/archives/26c49312.html</id>
     <published>2021-04-11T09:14:14.000Z</published>
     <updated>2021-04-14T14:13:55.251Z</updated>
     
@@ -558,17 +558,17 @@
     
     
     
-    <category term="高质量实时渲染 (GAMES202-Real-Time High Quality Rendering)" scheme="http://yousazoe.top/categories/%E9%AB%98%E8%B4%A8%E9%87%8F%E5%AE%9E%E6%97%B6%E6%B8%B2%E6%9F%93-GAMES202-Real-Time-High-Quality-Rendering/"/>
+    <category term="高质量实时渲染 (GAMES202-Real-Time High Quality Rendering)" scheme="https://yousazoe.top/categories/%E9%AB%98%E8%B4%A8%E9%87%8F%E5%AE%9E%E6%97%B6%E6%B8%B2%E6%9F%93-GAMES202-Real-Time-High-Quality-Rendering/"/>
     
     
-    <category term="Computer Graphics" scheme="http://yousazoe.top/tags/Computer-Graphics/"/>
+    <category term="Computer Graphics" scheme="https://yousazoe.top/tags/Computer-Graphics/"/>
     
   </entry>
   
   <entry>
     <title>实时光线追踪技术：业界发展近况与未来的挑战</title>
-    <link href="http://yousazoe.top/archives/35f0bef4.html"/>
-    <id>http://yousazoe.top/archives/35f0bef4.html</id>
+    <link href="https://yousazoe.top/archives/35f0bef4.html"/>
+    <id>https://yousazoe.top/archives/35f0bef4.html</id>
     <published>2021-04-10T14:33:21.000Z</published>
     <updated>2021-04-10T15:19:02.413Z</updated>
     
@@ -580,17 +580,17 @@
     
     
     
-    <category term="光线追踪 (Ray Tracing)" scheme="http://yousazoe.top/categories/%E5%85%89%E7%BA%BF%E8%BF%BD%E8%B8%AA-Ray-Tracing/"/>
+    <category term="光线追踪 (Ray Tracing)" scheme="https://yousazoe.top/categories/%E5%85%89%E7%BA%BF%E8%BF%BD%E8%B8%AA-Ray-Tracing/"/>
     
     
-    <category term="Ray Tracing" scheme="http://yousazoe.top/tags/Ray-Tracing/"/>
+    <category term="Ray Tracing" scheme="https://yousazoe.top/tags/Ray-Tracing/"/>
     
   </entry>
   
   <entry>
     <title>Illumination, Shading and Graphics Pipeline</title>
-    <link href="http://yousazoe.top/archives/527175ac.html"/>
-    <id>http://yousazoe.top/archives/527175ac.html</id>
+    <link href="https://yousazoe.top/archives/527175ac.html"/>
+    <id>https://yousazoe.top/archives/527175ac.html</id>
     <published>2021-04-08T08:20:55.000Z</published>
     <updated>2021-04-11T12:54:36.593Z</updated>
     
@@ -612,19 +612,19 @@
     
     
     
-    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="http://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
+    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="https://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
     
     
-    <category term="Computer Graphics" scheme="http://yousazoe.top/tags/Computer-Graphics/"/>
+    <category term="Computer Graphics" scheme="https://yousazoe.top/tags/Computer-Graphics/"/>
     
-    <category term="Shading" scheme="http://yousazoe.top/tags/Shading/"/>
+    <category term="Shading" scheme="https://yousazoe.top/tags/Shading/"/>
     
   </entry>
   
   <entry>
     <title>Antialiasing and Z-buffering</title>
-    <link href="http://yousazoe.top/archives/874dc08b.html"/>
-    <id>http://yousazoe.top/archives/874dc08b.html</id>
+    <link href="https://yousazoe.top/archives/874dc08b.html"/>
+    <id>https://yousazoe.top/archives/874dc08b.html</id>
     <published>2021-04-06T13:28:29.000Z</published>
     <updated>2021-05-19T00:43:21.527Z</updated>
     
@@ -646,12 +646,12 @@
     
     
     
-    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="http://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
+    <category term="现代图形学入门 (GAMES101-Introduction to Computer Graphics)" scheme="https://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/"/>
     
     
-    <category term="Computer Graphics" scheme="http://yousazoe.top/tags/Computer-Graphics/"/>
+    <category term="Computer Graphics" scheme="https://yousazoe.top/tags/Computer-Graphics/"/>
     
-    <category term="Rasterization" scheme="http://yousazoe.top/tags/Rasterization/"/>
+    <category term="Rasterization" scheme="https://yousazoe.top/tags/Rasterization/"/>
     
   </entry>
   
