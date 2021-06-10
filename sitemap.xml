@@ -1376,13 +1376,6 @@
   </url>
   
   <url>
-    <loc>https://yousazoe.top/tags/Ray-Tracing/</loc>
-    <lastmod>2021-06-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yousazoe.top/tags/Csharp/</loc>
     <lastmod>2021-06-10</lastmod>
     <changefreq>daily</changefreq>
@@ -1391,6 +1384,13 @@
   
   <url>
     <loc>https://yousazoe.top/tags/2D-Game/</loc>
+    <lastmod>2021-06-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yousazoe.top/tags/Ray-Tracing/</loc>
     <lastmod>2021-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1421,13 +1421,6 @@
   
   <url>
     <loc>https://yousazoe.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-Blog-Building/</loc>
-    <lastmod>2021-06-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yousazoe.top/categories/Cherno%E7%9A%84C-%E7%AC%94%E8%AE%B0-Cherno-C/</loc>
     <lastmod>2021-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1588,7 +1581,7 @@
   </url>
   
   <url>
-    <loc>https://yousazoe.top/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7-Coding-Skill/</loc>
+    <loc>https://yousazoe.top/categories/Cherno%E7%9A%84C-%E7%AC%94%E8%AE%B0-Cherno-C/</loc>
     <lastmod>2021-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1596,6 +1589,13 @@
   
   <url>
     <loc>https://yousazoe.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-Data-Structure/</loc>
+    <lastmod>2021-06-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yousazoe.top/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7-Coding-Skill/</loc>
     <lastmod>2021-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
