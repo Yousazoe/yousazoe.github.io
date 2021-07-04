@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yousazoe.top/archives/f28a8c2c.html</loc>
+    
+    <lastmod>2021-07-04</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://yousazoe.top/archives/ad809f54.html</loc>
     
     <lastmod>2021-07-04</lastmod>
@@ -52,13 +59,6 @@
   
   <url>
     <loc>https://yousazoe.top/archives/925529b4.html</loc>
-    
-    <lastmod>2021-06-29</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://yousazoe.top/archives/f28a8c2c.html</loc>
     
     <lastmod>2021-06-29</lastmod>
     
@@ -1194,13 +1194,6 @@
   </url>
   
   <url>
-    <loc>https://yousazoe.top/tags/Game-Engine/</loc>
-    <lastmod>2021-07-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yousazoe.top/tags/Game-Develop/</loc>
     <lastmod>2021-07-04</lastmod>
     <changefreq>daily</changefreq>
@@ -1209,6 +1202,13 @@
   
   <url>
     <loc>https://yousazoe.top/tags/SEGA/</loc>
+    <lastmod>2021-07-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yousazoe.top/tags/Game-Engine/</loc>
     <lastmod>2021-07-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1376,14 +1376,14 @@
   </url>
   
   <url>
-    <loc>https://yousazoe.top/tags/RTS/</loc>
+    <loc>https://yousazoe.top/tags/Rasterization/</loc>
     <lastmod>2021-07-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yousazoe.top/tags/Rasterization/</loc>
+    <loc>https://yousazoe.top/tags/RTS/</loc>
     <lastmod>2021-07-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1504,14 +1504,14 @@
   </url>
   
   <url>
-    <loc>https://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91-Game-Engine-Series/</loc>
+    <loc>https://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91-Game-Development/</loc>
     <lastmod>2021-07-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91-Game-Development/</loc>
+    <loc>https://yousazoe.top/categories/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E5%BC%80%E5%8F%91-Game-Engine-Series/</loc>
     <lastmod>2021-07-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1602,14 +1602,14 @@
   </url>
   
   <url>
-    <loc>https://yousazoe.top/categories/Unity-%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E-Unity-Game-Engine/</loc>
+    <loc>https://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%83%8F%E5%AD%A6-Foundations-of-Computer-Graphics/</loc>
     <lastmod>2021-07-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yousazoe.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%83%8F%E5%AD%A6-Foundations-of-Computer-Graphics/</loc>
+    <loc>https://yousazoe.top/categories/Unity-%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E-Unity-Game-Engine/</loc>
     <lastmod>2021-07-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
