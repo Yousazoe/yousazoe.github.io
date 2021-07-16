@@ -1439,14 +1439,14 @@
   </url>
   
   <url>
-    <loc>https://yousazoe.top/tags/Github/</loc>
+    <loc>https://yousazoe.top/tags/Physics/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yousazoe.top/tags/Physics/</loc>
+    <loc>https://yousazoe.top/tags/Github/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1525,6 +1525,13 @@
   </url>
   
   <url>
+    <loc>https://yousazoe.top/categories/%E9%AB%98%E6%95%88%E7%AE%97%E6%B3%95%E4%B8%8E%E6%A3%98%E6%89%8B%E9%97%AE%E9%A2%98-US-Berkeley-CS170/</loc>
+    <lastmod>2021-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yousazoe.top/categories/%E5%83%8F%E7%B4%A0%E7%BE%8E%E5%B7%A5-Pixel-Art-Designing/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
@@ -1540,13 +1547,6 @@
   
   <url>
     <loc>https://yousazoe.top/categories/%E7%8E%B0%E4%BB%A3%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8-GAMES101-Introduction-to-Computer-Graphics/</loc>
-    <lastmod>2021-07-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yousazoe.top/categories/%E9%AB%98%E6%95%88%E7%AE%97%E6%B3%95%E4%B8%8E%E6%A3%98%E6%89%8B%E9%97%AE%E9%A2%98-US-Berkeley-CS170/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1686,14 +1686,14 @@
   </url>
   
   <url>
-    <loc>https://yousazoe.top/categories/Github%E5%85%A5%E9%97%A8-Introducing-Github/</loc>
+    <loc>https://yousazoe.top/categories/%E9%AB%98%E7%BA%A7%E7%89%A9%E7%90%86%E5%BC%95%E6%93%8E%E5%AE%9E%E6%88%98-GAMES201-Advanced-Physics-Engines/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yousazoe.top/categories/%E9%AB%98%E7%BA%A7%E7%89%A9%E7%90%86%E5%BC%95%E6%93%8E%E5%AE%9E%E6%88%98-GAMES201-Advanced-Physics-Engines/</loc>
+    <loc>https://yousazoe.top/categories/Github%E5%85%A5%E9%97%A8-Introducing-Github/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
