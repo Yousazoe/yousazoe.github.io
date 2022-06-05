@@ -173,6 +173,15 @@
   </url>
   
   <url>
+    <loc>https://yousazoe.top/docs/advanced-settings/front-matter.html</loc>
+    
+    <lastmod>2022-06-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yousazoe.top/plugins/index.html</loc>
     
     <lastmod>2022-06-02</lastmod>
@@ -191,7 +200,7 @@
   </url>
   
   <url>
-    <loc>https://yousazoe.top/docs/advanced-settings/front-matter.html</loc>
+    <loc>https://yousazoe.top/docs/advanced-settings/injects.html</loc>
     
     <lastmod>2022-06-02</lastmod>
     
@@ -201,15 +210,6 @@
   
   <url>
     <loc>https://yousazoe.top/docs/advanced-settings/index.html</loc>
-    
-    <lastmod>2022-06-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yousazoe.top/docs/advanced-settings/injects.html</loc>
     
     <lastmod>2022-06-02</lastmod>
     
@@ -245,7 +245,7 @@
   </url>
   
   <url>
-    <loc>https://yousazoe.top/docs/getting-started/installation.html</loc>
+    <loc>https://yousazoe.top/docs/getting-started/upgrade.html</loc>
     
     <lastmod>2022-06-02</lastmod>
     
@@ -254,7 +254,7 @@
   </url>
   
   <url>
-    <loc>https://yousazoe.top/docs/getting-started/upgrade.html</loc>
+    <loc>https://yousazoe.top/docs/getting-started/installation.html</loc>
     
     <lastmod>2022-06-02</lastmod>
     
@@ -308,7 +308,7 @@
   </url>
   
   <url>
-    <loc>https://yousazoe.top/docs/tag-plugins/note.html</loc>
+    <loc>https://yousazoe.top/docs/tag-plugins/pdf.html</loc>
     
     <lastmod>2022-06-02</lastmod>
     
@@ -317,7 +317,7 @@
   </url>
   
   <url>
-    <loc>https://yousazoe.top/docs/tag-plugins/pdf.html</loc>
+    <loc>https://yousazoe.top/docs/tag-plugins/note.html</loc>
     
     <lastmod>2022-06-02</lastmod>
     
@@ -3151,7 +3151,7 @@
   </url>
   
   <url>
-    <loc>https://yousazoe.top/tags/Population/</loc>
+    <loc>https://yousazoe.top/tags/GPS/</loc>
     <lastmod>2022-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3165,14 +3165,14 @@
   </url>
   
   <url>
-    <loc>https://yousazoe.top/tags/GPS/</loc>
+    <loc>https://yousazoe.top/tags/Rocket/</loc>
     <lastmod>2022-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yousazoe.top/tags/Rocket/</loc>
+    <loc>https://yousazoe.top/tags/Population/</loc>
     <lastmod>2022-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
