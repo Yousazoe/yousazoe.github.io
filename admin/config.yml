@@ -1,208 +1,366 @@
 backend:
-  name: git-gateway # https://github.com/netlify/netlify-cms
-  branch: main # 要更新的分支(可选；默认为主分支)
-
-# This line should *not* be indented
-publish_mode: editorial_workflow
-
-# This line should *not* be indented
-media_folder: "source/images/uploads" # 媒体文件将存储在图片/上载下的Repo中。
-public_folder: "/images/uploads" # 上传的媒体的src属性将以/images/uploads开头。
-
-site_url: https://www.yousazoe.top # 网站网址
-display_url: https://www.yousazoe.top # 显示网址
-
-locale: "zh_Hans" # 语言环境 https://github.com/netlify/netlify-cms/tree/master/packages/netlify-cms-locales/src
-
-collections: # https://www.netlifycms.org/docs/configuration-options/#collections
-  - name: "posts" # 在路由中使用，例如：/admin/collections/blog。
-    label: "Post" # 在用户界面中使用
-    folder: "source/_posts" # 存储文件的文件夹的路径。
-    create: true # 允许用户在这个集合中创建新的文件。
-    fields: # 每份文件的字段，通常是前面的内容。
-      - {
-        label: "顶部图",
-        name: "banner_img",
-        widget: "image",
-        required: false,
-      }
-      - {
-        label: "文章封面",
-        name: "index_img",
-        widget: "image",
-        required: false,
-      }
-      - { label: "文章排序", name: "sticky", widget: "number", required: false }
-      - { label: "标题", name: "title", widget: "string" }
-      - {
-        label: "发布日期",
-        name: "date",
-        widget: "datetime",
-        format: "YYYY-MM-DD HH:mm:ss",
-        dateFormat: "YYYY-MM-DD",
-        timeFormat: "HH:mm:ss",
-        required: false,
-      }
-      - {
-        label: "更新日期",
-        name: "updated",
-        widget: "datetime",
-        format: "YYYY-MM-DD HH:mm:ss",
-        dateFormat: "YYYY-MM-DD",
-        timeFormat: "HH:mm:ss",
-        required: false,
-      }
-      - { label: "标签", name: "tags", widget: "list", required: false }
-      - { label: "分类", name: "categories", widget: "list", required: false }
-      - { label: "关键词", name: "keywords", widget: "list", required: false }
-      - { label: "摘要", name: "excerpt", widget: "list", required: false }
-      - { label: "内容", name: "body", widget: "markdown", required: false }
-      - {
-        label: "永久链接",
-        name: "permalink",
-        widget: "string",
-        required: false,
-      }
-      - {
-        label: "评论",
-        name: "comments",
-        widget: "boolean",
-        default: true,
-        required: false,
-      }
-
-  - name: "pages"
-    label: "Pages"
+  name: git-gateway
+  branch: master
+media_folder: source/images
+public_folder: /images
+collections:
+  - name: all_posts
+    fields: &ref_0
+      - label: Title
+        name: title
+        widget: string
+      - label: Publish Date
+        name: date
+        widget: datetime
+        dateFormat: YYYY-MM-DD
+        timeFormat: HH:mm:ss
+        format: YYYY-MM-DD HH:mm:ss
+        required: false
+      - label: Tags
+        name: tags
+        widget: list
+        required: false
+      - label: Categories
+        name: categories
+        widget: list
+        required: false
+      - label: Body
+        name: body
+        widget: markdown
+        required: false
+      - label: Permalink
+        name: permalink
+        widget: string
+        required: false
+      - label: Comments
+        name: comments
+        widget: boolean
+        default: true
+        required: false
+    label: Post
+    folder: source/_posts
+    create: true
+    editor:
+      preview: true
+  - label: Page
+    name: pages
+    delete: false
     files:
-      - file: "source/about/index.md"
-        name: "about"
-        label: "关于"
-        fields:
-          - { label: "标题", name: "title", widget: "string" }
-          - { label: "内容", name: "body", widget: "markdown", required: false }
-          - {
-            label: "评论",
-            name: "comments",
-            widget: "boolean",
-            default: true,
-            required: false,
-          }
-
-  # 如果你不是fluid主题，请删除以下配置，或者对文件路径及字段进行修改
-#  - name: "settings"
-#    label: "settings"
-#    files:
-#      - file: "source/_data/fluid_config.yml"
-#        name: "fluid"
-#        label: "fluid主题配置"
-#        editor:
-#          preview: true # 是否开启编辑预览
-#        fields:
-#          - label: "首页"
-#            name: "index"
-#            widget: "object"
-#            collapsed: true # 是否折叠显示
-#            fields:
-#              - label: "顶部图"
-#                name: "banner_img"
-#                widget: "image"
-#              - label: "高度"
-#                name: "banner_img_height"
-#                widget: "number"
-#          - label: "文章页"
-#            name: "post"
-#            widget: "object"
-#            collapsed: true
-#            fields:
-#              - label: "顶部图(默认)"
-#                name: "banner_img"
-#                widget: "image"
-#              - label: "高度"
-#                name: "banner_img_height"
-#                widget: "number"
-#              - label: "文章封面图(默认)"
-#                name: "default_index_img"
-#                widget: "image"
-#          - label: "归档页"
-#            name: "archive"
-#            widget: "object"
-#            collapsed: true
-#            fields:
-#              - label: "顶部图"
-#                name: "banner_img"
-#                widget: "image"
-#              - label: "高度"
-#                name: "banner_img_height"
-#                widget: "number"
-#          - label: "分类页"
-#            name: "category"
-#            widget: "object"
-#            collapsed: true
-#            fields:
-#              - label: "顶部图"
-#                name: "banner_img"
-#                widget: "image"
-#              - label: "高度"
-#                name: "banner_img_height"
-#                widget: "number"
-#          - label: "标签页"
-#            name: "tag"
-#            widget: "object"
-#            collapsed: true
-#            fields:
-#              - label: "顶部图"
-#                name: "banner_img"
-#                widget: "image"
-#              - label: "高度"
-#                name: "banner_img_height"
-#                widget: "number"
-#          - label: "关于页"
-#            name: "about"
-#            widget: "object"
-#            collapsed: true
-#            fields:
-#              - label: "顶部图"
-#                name: "banner_img"
-#                widget: "image"
-#              - label: "高度"
-#                name: "banner_img_height"
-#                widget: "number"
-#          - label: "友链页面"
-#            name: "links"
-#            widget: "object"
-#            collapsed: true
-#            fields:
-#              - label: "顶部图"
-#                name: "banner_img"
-#                widget: "image"
-#              - label: "高度"
-#                name: "banner_img_height"
-#                widget: "number"
-#              - label: "项目"
-#                name: "items"
-#                widget: "list"
-#                fields:
-#                  - {
-#                    label: "网站名称",
-#                    name: "title",
-#                    widget: "string",
-#                    required: false,
-#                  }
-#                  - {
-#                    label: "网址描述",
-#                    name: "intro",
-#                    widget: "string",
-#                    required: false,
-#                  }
-#                  - {
-#                    label: "网站地址",
-#                    name: "link",
-#                    widget: "string",
-#                    required: false,
-#                  }
-#                  - {
-#                    label: "网站图片",
-#                    name: "avatar",
-#                    widget: "image",
-#                    required: false,
-#                  }
+      - name: 404.html
+        label: ''
+        file: source/404.html
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: animate-index.html
+        label: ''
+        file: source/animate/index.html
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: animate-style.css
+        label: ''
+        file: source/animate/style.css
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: artitalk-index.md
+        label: Artitalk
+        file: source/artitalk/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: categories-index.md
+        label: Categories
+        file: source/categories/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-index.md
+        label: Documentation
+        file: source/docs/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-troubleshooting.md
+        label: Troubleshooting
+        file: source/docs/troubleshooting.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: highlight-index.html
+        label: ''
+        file: source/highlight/index.html
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: highlight-unavailable.js
+        label: ''
+        file: source/highlight/unavailable.js
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: links-index.md
+        label: Links
+        file: source/links/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: photos-index.md
+        label: Photos
+        file: source/photos/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: plugins-index.md
+        label: Plugins
+        file: source/plugins/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: tags-index.md
+        label: Tag
+        file: source/tags/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-advanced-settings-custom-files.md
+        label: Custom Files
+        file: source/docs/advanced-settings/custom-files.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-advanced-settings-front-matter.md
+        label: Front Matter
+        file: source/docs/advanced-settings/front-matter.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-advanced-settings-index.md
+        label: Advanced Settings
+        file: source/docs/advanced-settings/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-advanced-settings-injects.md
+        label: Injects
+        file: source/docs/advanced-settings/injects.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-advanced-settings-vendors.md
+        label: Vendors
+        file: source/docs/advanced-settings/vendors.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-getting-started-configuration.md
+        label: Configuration
+        file: source/docs/getting-started/configuration.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-getting-started-deployment.md
+        label: Deployment
+        file: source/docs/getting-started/deployment.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-getting-started-index.md
+        label: Getting Started
+        file: source/docs/getting-started/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-getting-started-installation.md
+        label: Installation
+        file: source/docs/getting-started/installation.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-getting-started-upgrade.md
+        label: Upgrade
+        file: source/docs/getting-started/upgrade.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-tag-plugins-button.md
+        label: Button
+        file: source/docs/tag-plugins/button.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-tag-plugins-caniuse.md
+        label: Caniuse
+        file: source/docs/tag-plugins/caniuse.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-tag-plugins-group-pictures.md
+        label: Group Pictures
+        file: source/docs/tag-plugins/group-pictures.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-tag-plugins-index.md
+        label: Tag Plugins
+        file: source/docs/tag-plugins/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-tag-plugins-label.md
+        label: Label
+        file: source/docs/tag-plugins/label.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-tag-plugins-mermaid.md
+        label: Mermaid
+        file: source/docs/tag-plugins/mermaid.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-tag-plugins-note.md
+        label: Note (Bootstrap Callout)
+        file: source/docs/tag-plugins/note.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-tag-plugins-pdf.md
+        label: PDF
+        file: source/docs/tag-plugins/pdf.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-theme-settings-custom-pages.md
+        label: Custom Pages
+        file: source/docs/theme-settings/custom-pages.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-theme-settings-footer.md
+        label: Footer
+        file: source/docs/theme-settings/footer.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-theme-settings-index.md
+        label: Theme Settings
+        file: source/docs/theme-settings/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-theme-settings-internationalization.md
+        label: Internationalization
+        file: source/docs/theme-settings/internationalization.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-theme-settings-miscellaneous.md
+        label: Misc Theme Settings
+        file: source/docs/theme-settings/miscellaneous.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-theme-settings-posts.md
+        label: Post Settings
+        file: source/docs/theme-settings/posts.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-theme-settings-seo.md
+        label: SEO
+        file: source/docs/theme-settings/seo.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-theme-settings-sidebar.md
+        label: Sidebar Setting
+        file: source/docs/theme-settings/sidebar.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-third-party-services-chat-services.md
+        label: Chat Services
+        file: source/docs/third-party-services/chat-services.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-third-party-services-comments.md
+        label: Comment Systems
+        file: source/docs/third-party-services/comments.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-third-party-services-external-libraries.md
+        label: External Libraries
+        file: source/docs/third-party-services/external-libraries.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-third-party-services-index.md
+        label: Third-Party Services
+        file: source/docs/third-party-services/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-third-party-services-math-equations.md
+        label: Math Equations
+        file: source/docs/third-party-services/math-equations.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-third-party-services-post-widgets.md
+        label: Post Widgets
+        file: source/docs/third-party-services/post-widgets.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-third-party-services-search-services.md
+        label: Search Services
+        file: source/docs/third-party-services/search-services.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-third-party-services-statistics-and-analytics.md
+        label: Statistics and Analytics
+        file: source/docs/third-party-services/statistics-and-analytics.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: game-phaser-catch-the-cat-README.md
+        label: ''
+        file: source/game/phaser-catch-the-cat/README.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: game-phaser-catch-the-cat-index.html
+        label: ''
+        file: source/game/phaser-catch-the-cat/index.html
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-tag-plugins-tabs.md
+        label: Tabs
+        file: source/docs/tag-plugins/tabs.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: game-phaser-catch-the-cat-catch-the-cat.js
+        label: ''
+        file: source/game/phaser-catch-the-cat/catch-the-cat.js
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: about-index.md
+        label: About Me
+        file: source/about/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: game-phaser-catch-the-cat-phaser.min.js
+        label: ''
+        file: source/game/phaser-catch-the-cat/phaser.min.js
+        editor:
+          preview: true
+        fields: *ref_0
