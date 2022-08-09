@@ -256,6 +256,12 @@ collections:
         editor:
           preview: true
         fields: *ref_0
+      - name: docs-theme-settings-miscellaneous.md
+        label: Misc Theme Settings
+        file: source/docs/theme-settings/miscellaneous.md
+        editor:
+          preview: true
+        fields: *ref_0
       - name: docs-theme-settings-posts.md
         label: Post Settings
         file: source/docs/theme-settings/posts.md
@@ -301,12 +307,6 @@ collections:
       - name: docs-third-party-services-math-equations.md
         label: Math Equations
         file: source/docs/third-party-services/math-equations.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: docs-theme-settings-miscellaneous.md
-        label: Misc Theme Settings
-        file: source/docs/theme-settings/miscellaneous.md
         editor:
           preview: true
         fields: *ref_0
