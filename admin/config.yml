@@ -232,12 +232,6 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: docs-theme-settings-custom-pages.md
-        label: Custom Pages
-        file: source/docs/theme-settings/custom-pages.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: docs-theme-settings-footer.md
         label: Footer
         file: source/docs/theme-settings/footer.md
@@ -337,6 +331,12 @@ collections:
       - name: game-phaser-catch-the-cat-index.html
         label: ''
         file: source/game/phaser-catch-the-cat/index.html
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-theme-settings-custom-pages.md
+        label: Custom Pages
+        file: source/docs/theme-settings/custom-pages.md
         editor:
           preview: true
         fields: *ref_0
