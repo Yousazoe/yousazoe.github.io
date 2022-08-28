@@ -353,7 +353,7 @@ collections:
           preview: true
         fields: *ref_0
       - name: about-index.md
-        label: About Me
+        label: "About\_Me"
         file: source/about/index.md
         editor:
           preview: true
