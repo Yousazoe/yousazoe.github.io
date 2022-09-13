@@ -154,36 +154,6 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: docs-getting-started-configuration.md
-        label: Configuration
-        file: source/docs/getting-started/configuration.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: docs-getting-started-deployment.md
-        label: Deployment
-        file: source/docs/getting-started/deployment.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: docs-getting-started-index.md
-        label: Getting Started
-        file: source/docs/getting-started/index.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: docs-getting-started-installation.md
-        label: Installation
-        file: source/docs/getting-started/installation.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: docs-getting-started-upgrade.md
-        label: Upgrade
-        file: source/docs/getting-started/upgrade.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: docs-tag-plugins-button.md
         label: Button
         file: source/docs/tag-plugins/button.md
@@ -337,6 +307,36 @@ collections:
       - name: game-phaser-catch-the-cat-index.html
         label: ''
         file: source/game/phaser-catch-the-cat/index.html
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-getting-started-configuration.md
+        label: Configuration
+        file: source/docs/getting-started/configuration.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-getting-started-deployment.md
+        label: Deployment
+        file: source/docs/getting-started/deployment.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-getting-started-index.md
+        label: Getting Started
+        file: source/docs/getting-started/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-getting-started-installation.md
+        label: Installation
+        file: source/docs/getting-started/installation.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-getting-started-upgrade.md
+        label: Upgrade
+        file: source/docs/getting-started/upgrade.md
         editor:
           preview: true
         fields: *ref_0
