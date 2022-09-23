@@ -178,15 +178,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: docs-getting-started-upgrade.md
-        label: Upgrade
-        file: source/docs/getting-started/upgrade.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: docs-tag-plugins-button.md
         label: Button
         file: source/docs/tag-plugins/button.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-getting-started-upgrade.md
+        label: Upgrade
+        file: source/docs/getting-started/upgrade.md
         editor:
           preview: true
         fields: *ref_0
