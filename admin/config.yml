@@ -184,15 +184,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: docs-tag-plugins-caniuse.md
-        label: Caniuse
-        file: source/docs/tag-plugins/caniuse.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: docs-tag-plugins-button.md
         label: Button
         file: source/docs/tag-plugins/button.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-tag-plugins-caniuse.md
+        label: Caniuse
+        file: source/docs/tag-plugins/caniuse.md
         editor:
           preview: true
         fields: *ref_0
@@ -304,15 +304,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: docs-third-party-services-post-widgets.md
-        label: Post Widgets
-        file: source/docs/third-party-services/post-widgets.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: docs-third-party-services-math-equations.md
         label: Math Equations
         file: source/docs/third-party-services/math-equations.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-third-party-services-post-widgets.md
+        label: Post Widgets
+        file: source/docs/third-party-services/post-widgets.md
         editor:
           preview: true
         fields: *ref_0
