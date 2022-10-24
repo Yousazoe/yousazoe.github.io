@@ -148,15 +148,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: docs-advanced-settings-vendors.md
-        label: Vendors
-        file: source/docs/advanced-settings/vendors.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: docs-getting-started-configuration.md
         label: Configuration
         file: source/docs/getting-started/configuration.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-advanced-settings-vendors.md
+        label: Vendors
+        file: source/docs/advanced-settings/vendors.md
         editor:
           preview: true
         fields: *ref_0
