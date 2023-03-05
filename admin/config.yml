@@ -52,6 +52,12 @@ collections:
         editor:
           preview: true
         fields: *ref_0
+      - name: animate-index.html
+        label: ''
+        file: source/animate/index.html
+        editor:
+          preview: true
+        fields: *ref_0
       - name: animate-style.css
         label: ''
         file: source/animate/style.css
@@ -61,12 +67,6 @@ collections:
       - name: artitalk-index.md
         label: Artitalk
         file: source/artitalk/index.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: animate-index.html
-        label: ''
-        file: source/animate/index.html
         editor:
           preview: true
         fields: *ref_0
