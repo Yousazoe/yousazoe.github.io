@@ -124,36 +124,6 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: docs-advanced-settings-custom-files.md
-        label: Custom Files
-        file: source/docs/advanced-settings/custom-files.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: docs-advanced-settings-front-matter.md
-        label: Front Matter
-        file: source/docs/advanced-settings/front-matter.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: docs-advanced-settings-index.md
-        label: Advanced Settings
-        file: source/docs/advanced-settings/index.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: docs-advanced-settings-injects.md
-        label: Injects
-        file: source/docs/advanced-settings/injects.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: docs-advanced-settings-vendors.md
-        label: Vendors
-        file: source/docs/advanced-settings/vendors.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: docs-getting-started-configuration.md
         label: Configuration
         file: source/docs/getting-started/configuration.md
@@ -280,6 +250,18 @@ collections:
         editor:
           preview: true
         fields: *ref_0
+      - name: game-phaser-catch-the-cat-README.md
+        label: ''
+        file: source/game/phaser-catch-the-cat/README.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: game-phaser-catch-the-cat-index.html
+        label: ''
+        file: source/game/phaser-catch-the-cat/index.html
+        editor:
+          preview: true
+        fields: *ref_0
       - name: docs-third-party-services-chat-services.md
         label: Chat Services
         file: source/docs/third-party-services/chat-services.md
@@ -328,15 +310,33 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: game-phaser-catch-the-cat-README.md
-        label: ''
-        file: source/game/phaser-catch-the-cat/README.md
+      - name: docs-advanced-settings-custom-files.md
+        label: Custom Files
+        file: source/docs/advanced-settings/custom-files.md
         editor:
           preview: true
         fields: *ref_0
-      - name: game-phaser-catch-the-cat-index.html
-        label: ''
-        file: source/game/phaser-catch-the-cat/index.html
+      - name: docs-advanced-settings-front-matter.md
+        label: Front Matter
+        file: source/docs/advanced-settings/front-matter.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-advanced-settings-index.md
+        label: Advanced Settings
+        file: source/docs/advanced-settings/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-advanced-settings-injects.md
+        label: Injects
+        file: source/docs/advanced-settings/injects.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-advanced-settings-vendors.md
+        label: Vendors
+        file: source/docs/advanced-settings/vendors.md
         editor:
           preview: true
         fields: *ref_0
