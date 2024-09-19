@@ -58,12 +58,6 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: animate-style.css
-        label: ''
-        file: source/animate/style.css
-        editor:
-          preview: true
-        fields: *ref_0
       - name: artitalk-index.md
         label: Artitalk
         file: source/artitalk/index.md
@@ -73,6 +67,12 @@ collections:
       - name: categories-index.md
         label: Categories
         file: source/categories/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: animate-style.css
+        label: ''
+        file: source/animate/style.css
         editor:
           preview: true
         fields: *ref_0
@@ -97,12 +97,6 @@ collections:
       - name: highlight-unavailable.js
         label: ''
         file: source/highlight/unavailable.js
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: links-index.md
-        label: Links
-        file: source/links/index.md
         editor:
           preview: true
         fields: *ref_0
@@ -268,6 +262,12 @@ collections:
         editor:
           preview: true
         fields: *ref_0
+      - name: links-index.md
+        label: Links
+        file: source/links/index.md
+        editor:
+          preview: true
+        fields: *ref_0
       - name: docs-theme-settings-seo.md
         label: SEO
         file: source/docs/theme-settings/seo.md
@@ -310,15 +310,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: docs-third-party-services-post-widgets.md
-        label: Post Widgets
-        file: source/docs/third-party-services/post-widgets.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: docs-third-party-services-search-services.md
         label: Search Services
         file: source/docs/third-party-services/search-services.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-third-party-services-post-widgets.md
+        label: Post Widgets
+        file: source/docs/third-party-services/post-widgets.md
         editor:
           preview: true
         fields: *ref_0
