@@ -112,15 +112,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: plugins-index.md
-        label: Plugins
-        file: source/plugins/index.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: tags-index.md
         label: Tag
         file: source/tags/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: plugins-index.md
+        label: Plugins
+        file: source/plugins/index.md
         editor:
           preview: true
         fields: *ref_0
@@ -166,15 +166,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: docs-getting-started-installation.md
-        label: Installation
-        file: source/docs/getting-started/installation.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: docs-getting-started-index.md
         label: Getting Started
         file: source/docs/getting-started/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-getting-started-installation.md
+        label: Installation
+        file: source/docs/getting-started/installation.md
         editor:
           preview: true
         fields: *ref_0
