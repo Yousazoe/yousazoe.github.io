@@ -58,15 +58,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: animate-style.css
-        label: ''
-        file: source/animate/style.css
-        editor:
-          preview: true
-        fields: *ref_0
       - name: artitalk-index.md
         label: Artitalk
         file: source/artitalk/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: animate-style.css
+        label: ''
+        file: source/animate/style.css
         editor:
           preview: true
         fields: *ref_0
@@ -304,15 +304,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: docs-third-party-services-post-widgets.md
-        label: Post Widgets
-        file: source/docs/third-party-services/post-widgets.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: docs-third-party-services-math-equations.md
         label: Math Equations
         file: source/docs/third-party-services/math-equations.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-third-party-services-post-widgets.md
+        label: Post Widgets
+        file: source/docs/third-party-services/post-widgets.md
         editor:
           preview: true
         fields: *ref_0
