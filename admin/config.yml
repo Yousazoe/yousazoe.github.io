@@ -262,15 +262,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: docs-theme-settings-seo.md
-        label: SEO
-        file: source/docs/theme-settings/seo.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: docs-theme-settings-posts.md
         label: Post Settings
         file: source/docs/theme-settings/posts.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-theme-settings-seo.md
+        label: SEO
+        file: source/docs/theme-settings/seo.md
         editor:
           preview: true
         fields: *ref_0
@@ -304,15 +304,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: docs-third-party-services-math-equations.md
-        label: Math Equations
-        file: source/docs/third-party-services/math-equations.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: docs-third-party-services-post-widgets.md
         label: Post Widgets
         file: source/docs/third-party-services/post-widgets.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-third-party-services-math-equations.md
+        label: Math Equations
+        file: source/docs/third-party-services/math-equations.md
         editor:
           preview: true
         fields: *ref_0
