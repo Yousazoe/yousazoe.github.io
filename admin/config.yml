@@ -112,15 +112,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: tags-index.md
-        label: Tag
-        file: source/tags/index.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: plugins-index.md
         label: Plugins
         file: source/plugins/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: tags-index.md
+        label: Tag
+        file: source/tags/index.md
         editor:
           preview: true
         fields: *ref_0
@@ -262,15 +262,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: docs-theme-settings-posts.md
-        label: Post Settings
-        file: source/docs/theme-settings/posts.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: docs-theme-settings-seo.md
         label: SEO
         file: source/docs/theme-settings/seo.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-theme-settings-posts.md
+        label: Post Settings
+        file: source/docs/theme-settings/posts.md
         editor:
           preview: true
         fields: *ref_0
