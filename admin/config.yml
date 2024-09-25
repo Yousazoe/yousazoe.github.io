@@ -52,6 +52,12 @@ collections:
         editor:
           preview: true
         fields: *ref_0
+      - name: animate-style.css
+        label: ''
+        file: source/animate/style.css
+        editor:
+          preview: true
+        fields: *ref_0
       - name: animate-index.html
         label: ''
         file: source/animate/index.html
@@ -61,12 +67,6 @@ collections:
       - name: artitalk-index.md
         label: Artitalk
         file: source/artitalk/index.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: animate-style.css
-        label: ''
-        file: source/animate/style.css
         editor:
           preview: true
         fields: *ref_0
@@ -316,15 +316,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: docs-third-party-services-search-services.md
-        label: Search Services
-        file: source/docs/third-party-services/search-services.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: docs-third-party-services-statistics-and-analytics.md
         label: Statistics and Analytics
         file: source/docs/third-party-services/statistics-and-analytics.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: docs-third-party-services-search-services.md
+        label: Search Services
+        file: source/docs/third-party-services/search-services.md
         editor:
           preview: true
         fields: *ref_0
