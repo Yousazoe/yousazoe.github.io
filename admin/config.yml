@@ -64,15 +64,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: artitalk-index.md
-        label: Artitalk
-        file: source/artitalk/index.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: categories-index.md
         label: Categories
         file: source/categories/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: artitalk-index.md
+        label: Artitalk
+        file: source/artitalk/index.md
         editor:
           preview: true
         fields: *ref_0
